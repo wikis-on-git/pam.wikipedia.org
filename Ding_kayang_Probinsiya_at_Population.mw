@@ -1,13 +1,13 @@
-==List of Provinces==
+==Tala da reng Probinsiya==
 
 <table width="600" border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse;">
 <tr style="background:#DEF">
- <th align="left">Province</th>
- <th align="left">Capital</th>
+ <th align="left">Probinsiya</th>
+ <th align="left">Kapital</th>
  <th align="left">Region</th>
  <th align="left">Population</th>
- <th align="left">Area<br />(km²)</th>
- <th align="left">Pop.<br />Density<br />(per km²)</th><tr>
+ <th align="left">Dagul o Lapad<br />(km²)</th>
+ <th align="left">Bilang da reng tau<br />balang dagul<br />(per km²)</th><tr>
 <tr>
  <td>[[Abra (Philippines)|Abra]]</td>
  <td>[[Bangued, Abra|Bangued]]</td>
