@@ -1,4 +1,57 @@
-{{Template:Country infobox data South Korea}}
+{{Infobox_Country
+|native_name = 대한민국<br>大韓民國<br>''Daehan Minguk''
+|conventional_long_name = Republic of Korea
+|common_name = South Korea 
+|image_flag = Flag of South Korea.svg
+|image_coat = South korea coa.png
+|symbol_type = Coat of arms
+|image_map = LocationSouthKorea.png
+|national_motto = 널리 인간 세계를 이롭게 하라<br>(Broadly bring benefit to humanity, 弘益人間)
+|national_anthem = [[Aegukga]]
+|official_languages = [[Korean language|Korean]]
+|capital = [[Seoul]]
+|latd=37 |latm=35 |latNS=N |longd=127 |longm=0 |longEW=E
+|largest_city = [[Seoul]]
+|government_type = [[Presidential democracy]]
+|leader_titles = [[President of South Korea|President]]<br>[[Prime Minister of South Korea|Prime Minister]]
+|leader_names = [[Roh Moo-hyun]]<br>[[Han Myung-sook]]
+|area_rank = 109th
+|area_magnitude = 1 E10
+|area= 98,480
+|areami²=38,023 <!-- Do not remove per [[WP:MOSNUM]] -->
+|percent_water = 0.3%
+|population_estimate =  48,422,644 <!--cia.gov -->
+|population_estimate_rank = 24th
+|population_estimate_year = July 2005
+|population_census = 45,985,289 <small>[http://kosis.nso.go.kr/cgi-bin/sws_888.cgi?ID=DT_1IN0001&IDTYPE=3&A_LANG=2&FPUB=4&SELITEM=0.1.2.3 source]</small>
+|population_census_year = 2000
+|population_density = 492
+|population_densitymi² =1,274  <!-- Do not remove per [[WP:MOSNUM]] -->
+|population_density_rank = 12th
+|GDP_PPP = $1.03 trillion <small>[http://www.imf.org/external/pubs/ft/weo/2005/02/data/index.htm source]</small>
+|GDP_PPP_rank = 12th
+|GDP_PPP_year= 2004
+|GDP_PPP_per_capita = $24,130
+|GDP_PPP_per_capita_rank = 27th 
+|sovereignty_type = [[History of South Korea|Establishment]]
+|established_events = - [[Gojoseon]] <br> - [[March 1st Movement|Declaration of Republic]] <br> - [[Victory over Japan Day|Liberation]] <br> - [[History of South Korea#First Republic|First Republic]]
+|established_dates = <br> 2333 BC <br> [[March 1]], [[1919]] <br> [[August 15]] [[1945]] <br> [[August 15]] [[1948]]
+|HDI = 0.901
+|HDI_rank = 28th
+|HDI_year = 2003
+|HDI_category = <font color="#009900">high</font>
+|currency = [[South Korean won]]
+|currency_code = KRW
+|country_code = KOR
+|time_zone = [[Korea Standard Time]]
+|utc_offset = +9
+|time_zone_DST = 
+|utc_offset_DST = <!-- Daylight Saving Time is not practiced in South Korea -->
+|cctld = [[.kr]]
+|calling_code = 82
+|footnotes = 
+}}
+
 {{East Asia}}
 {{Asia}}
 
