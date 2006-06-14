@@ -39,8 +39,8 @@ HDI_rank                 = 169th |
 HDI_category             = <font color="#E0584E">low</font> |
 sovereignty_type         = [[Katimawan]] |
 sovereignty_note         = Ibat [[Belgium]] |
-established_event1       = Date |
-established_date1        =  [[Juliu 1]], [[1962]] |
+established_events       = Date |
+established_dates        =  [[Juliu 1]], [[1962]] |
 currency                 = [[Burundi franc]] (FBu) |
 currency_code            = BIF |
 time_zone                = [[Central Africa Time|CAT]] |
