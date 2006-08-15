@@ -1,26 +1,35 @@
 : '' Para king tauan king [[:en:Muppet Show]], lon ya ing [[:en:Animal (Muppet)]]. Para king [[:en:professional wrestling|professional wrestler]], lon ya ing  [[:en:Joseph Laurinaitis]]''.
-{{Taxobox_begin | color = pink | name = Animals}}
-{{Taxobox_image | image = [[Image:Sea nettles.jpg|250px|Sea nettles]] | caption = [[Sea nettle]]s, ''Chrysaora quinquecirrha''}}
-{{Taxobox_begin_placement | color = pink}}
-{{Taxobox_domain_entry | taxon = [[Eukaryote|Eukaryota]]}}
-{{Taxobox_regnum_entry | taxon = '''Animalia'''}}<br/>{{Taxobox authority | author = [[Carolus Linnaeus|Linnaeus]] | date = 1758}}
-{{Taxobox_end_placement}}
-{{Taxobox_section_subdivision | color = pink | plural_taxon = Phyla}}
+{{Taxobox
+| color = pink
+| name = Animal
+| fossil_range = Late [[Neoproterozoic]] - Recent
+| image = Animal Kingdom.jpg
+| image_width = 250px
+| image_caption = [[Mammal]]s, [[Bird]]s, [[Reptile]]s and others.
+| domain = [[Eukaryote|Eukaryota]]
+| regnum = '''Animalia'''
+| regnum_authority = [[Carolus Linnaeus|Linnaeus]], [[1758]]
+| subdivision_ranks = Phyla
+| subdivision = 
+'''''Subregnum [[Parazoa]]'''''
 *[[Sponge|Porifera]] (sponges)
-*[[Ctenophora]] (comb jellies)
-*[[Cnidaria]] (coral, jellyfish, anenomes)
-*[[Trichoplax|Placozoa]] {trichoplax)
-*Subregnum [[Bilateria]] (bilateral symmetry)
+'''''Subregnum [[Agnotozoa]]'''''
+*[[Trichoplax|Placozoa]] (trichoplax)
+*[[Orthonectida]] (orthonectids)
+*[[Rhombozoa]] (dicyemids)
+'''''Subregnum [[Eumetazoa]]'''''
+*'''''[[Radiata]] (unranked)''''' ([[symmetry (biology)|radial symmetry]])
+**[[Ctenophora]] (comb jellies)
+**[[Cnidaria]] (coral, jellyfish, anemones)
+*'''''[[Bilateria]] (unranked)''''' ([[symmetry (biology)|bilateral symmetry]])
 **[[Acoelomorpha]] (basal)
-**[[Orthonectida]] (flatworms, echinoderms, etc.)
-**[[Rhombozoa]] (dicyemids)
-**[[Myxozoa]] 
-**Superphylum [[Deuterostome|Deuterostomia]] (blastopore becomes anus)
+**[[Myxozoa]] (slime animals)
+**'''Superphylum [[Deuterostome|Deuterostomia]]''' (blastopore becomes anus)
 ***[[Chordate|Chordata]] (vertebrates, etc.)
 ***[[Hemichordata]] (acorn worms)
 ***[[Echinoderm]]ata (starfish, urchins)
-***[[Chaetognatha]] (arrow worms)
-**Superphylum [[Ecdysozoa]] (shed exoskeleton)
+***[[Chaetognatha]] ([[arrow worm]]s and [[Pterobranchia]])
+**'''Superphylum [[Ecdysozoa]]''' (shed exoskeleton)
 ***[[Kinorhyncha]] (mud dragons)
 ***[[Loricifera]]
 ***[[Priapulida]] (priapulid worms)
@@ -29,24 +38,24 @@
 ***[[Onychophora]] (velvet worms)
 ***[[Tardigrada]] (water bears)
 ***[[Arthropoda]] (insects, etc.)
-**Superphylum [[Platyzoa]]
+**'''Superphylum [[Platyzoa]]'''
 ***[[Platyhelminthes]] (flatworms)
-***[[Gastrotricha]] 
+***[[Gastrotricha]] (gastrotrichs)
 ***[[Rotifera]] (rotifers)
-***[[Acanthocephala]]
+***[[Acanthocephala]] (acanthocephalans)
 ***[[Gnathostomulida]] (jaw worms)
-***[[Micrognathozoa]]
+***[[Micrognathozoa]] (limnognathia)
 ***[[Cycliophora]] (pandora)
-**Superphylum [[Lophotrochozoa]] (trochophore larvae / lophophores)
+**'''Superphylum [[Lophotrochozoa]]''' (trochophore larvae / lophophores)
 ***[[Sipuncula]] (peanut worms)
 ***[[Nemertea]] (ribbon worms)
 ***[[Phoronida]] (horseshoe worms)
-***[[Ectoprocta]] (moss animals)
+***[[Bryozoa]] (moss animals)
 ***[[Entoprocta]] (goblet worms)
 ***[[Brachiopoda]] (brachipods)
-***[[Mollusca]] (mollusks)
+***[[Mollusca]] (molluscs)
 ***[[Annelida]] (segmented worms)
-{{Taxobox_end}}
+}}
 Metung lang manimunang grupu da reng organismu o lelangan deng a kayabe 
 king [[kingdom (biology)| kingdom]] '''Animalia''' or '''Metazoa'''. 
 [[:en:Multicellular]] la reng keraklan kareti, agyu dang kimut, mag-respondi la king karelang 
