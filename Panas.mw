@@ -1,61 +1,42 @@
 {{Otheruses}}
-{{Taxobox_begin | color=pink | name = Ants}}
-{{Taxobox_image | image = [[Image:Fire_ants02.jpg|200px|Metung la 
-kareng agresibung diling species o uri da reng panas deng fire ant, a 
-king Mawling America (South America), menibatan.]] | caption = [[Fire 
-ant]]s, [[Red imported fire ant|Solenopsis invicta]]}}
-{{Taxobox_begin_placement | color=pink}}
-{{Taxobox_regnum_entry | taxon = [[Animal]]ia}}
-{{Taxobox_phylum_entry | taxon = [[Arthropod]]a}}
-{{Taxobox_classis_entry | taxon = [[Insect]]a}}
-{{Taxobox_ordo_entry | taxon = [[Hymenoptera]]}}
-{{Taxobox_subordo_entry | taxon = [[Apocrita]]}}
-{{Taxobox_superfamilia_entry | taxon = [[Vespoidea]]}}
-{{Taxobox_familia_entry | taxon = '''Formicidae'''}}<br/>{{Taxobox 
-authority | author = [[Pierre André Latreille|Latreille]] | date = 1802}}
-{{Taxobox_end_placement}}
-{{Taxobox_section_subdivision | color=pink | plural_taxon = 
-Subfamilies}}
-[[Dorylomorph subfamilies]]
+{{Taxobox
+| color = pink
+| name = Panas
+| image = Formica rufa2 mrowka rudnica.jpg
+| image_width = 250px
+| image_caption = ''Formica rufa'' worker
+| regnum = [[Animal]]ia
+| divisio = [[Rhopalocera]]
+| phylum = [[Arthropod]]a
+| subphylum = [[Hexapoda]]
+| classis = [[Insect]]a
+| subclassis = [[Pterygota]]
+| infraclassis = [[Neoptera]]
+| superordo = [[Endopterygota]]
+| ordo =  [[Hymenoptera]] 
+| subordo = [[Apocrita]]
+| superfamilia = [[Vespoidea]]
+| familia = '''Formicidae'''
+| familia_authority = Latreille 1809
+| subdivision_ranks = Subfamilies
+| subdivision = 
+*[[Aenictinae]]
+*[[Aenictogitoninae]]
+*[[Aneuretinae]]
 *[[Apomyrminae]]
 *[[Cerapachyinae]]
+*[[Dolichoderinae]]
 *[[Dorylinae]]
 *[[Ecitoninae]]
-
-[[Formicomorph subfamilies]]:
-*[[Aneuretinae]]
-*[[Dolichoderinae]]
-*[[Formicinae]] - e.g. ''[[Formica]]''
-
-[[Leptanillomorph subfamilies]]:
+*[[Formicinae]]
 *[[Leptanillinae]]
 *[[Leptanilloidinae]]
- 
-[[Myrmeciomorph subfamilies]]:
-*[[Myrmeciinae]] eg. ''[[Myrmecia]]''
-*[[Pseudomyrmecinae]]
-
-[[Myrmicomorph subfamilies]]:
-*[[Agroecomyrmecinae]]
-*[[Myrmicinae]]- e.g. ''[[Pheidole]]'', ''[[Atta]]''
-     
-[[Poneromorph subfamilies]]:
-*[[Amblyoponinae]]
-*[[Ectatomminae]]
-*[[Heteroponerinae]]
-*[[Paraponerinae]]
+*[[Myrmeciinae]]
+*[[Myrmicinae]]
+*[[Nothomyrmeciinae]]
 *[[Ponerinae]]
-*[[Proceratiinae]]
-
-[[Extinct subfamilies]]:
-*[[Armaniinae]]
-*[[Brownimeciinae]]
-*[[Formiciinae]]
-*[[Sphecomyrminae]]
-
-[[Incertae Sedis]] Subfamily:
-*[[Paleosminthurinae]]
-{{Taxobox_end}}
+*[[Pseudomyrmecinae]]
+}}
 
 Deng '''panas''' ing metung kareng matagumpeng diling grupu da reng 
 [[insektu]].  Lalu lang intresanti uling [[“en:social insect]] la, at 
