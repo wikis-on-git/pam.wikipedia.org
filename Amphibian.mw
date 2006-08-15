@@ -1,22 +1,4 @@
 {{otheruses}}
-{{Taxobox_begin | color=pink | name=Amphibians}}
-{{Taxobox image | image = [[Image:Frog.jpg|240px]] | caption = A frog (unknown 
-species)}}
-{{Taxobox_begin_placement | color = pink}}
-{{Taxobox_regnum_entry | taxon = [[Animal]]ia}}
-{{Taxobox_phylum_entry | taxon = [[Chordate|Chordata]]}}
-{{Taxobox_subphylum_entry | taxon = [[Vertebrata]]}}
-{{Taxobox_classis_entry | taxon = '''Amphibia'''}}<br/>{{Taxobox authority | 
-author = [[Carolus Linnaeus|Linnaeus]] | date = 1758}}
-{{Taxobox_end_placement}}
-{{Taxobox_section_subdivision | color = pink | plural_taxon = Orders}}
-Subclass [[Labyrinthodontia]] - ''extinct''<br />
-Subclass [[Lepospondyli]] - ''extinct''<br />
-Subclass [[Lissamphibia]]<br />
-&nbsp;&nbsp;[[Anura]]<br />
-&nbsp;&nbsp;[[salamander|Caudata]]<br />
-&nbsp;&nbsp;[[caecilian|Gymnophiona]]
-{{Taxobox_end}}
 {{taxobox
 | color=pink
 | name=Amphibians
