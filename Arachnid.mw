@@ -1,25 +1,3 @@
-{{Taxobox_begin | color = pink | name = Arachnid}}
-{{Taxobox_image | image = 
-[[Image:Victorian funnelweb.jpg|250px]]| caption = [[Victorian Funnelweb Spider]]}}
-{{Taxobox_begin_placement | color = pink}}
-{{Taxobox_regnum_entry | taxon = [[Animal]]ia}}
-{{Taxobox_phylum_entry | taxon = [[Arthropod]]a}}
-{{Taxobox_classis_entry | taxon = '''Arachnida'''}}<br/>{{Taxobox authority | 
-author = [[Georges Cuvier|Cuvier]] | date = 1812}}
-{{Taxobox_end_placement}}
-{{Taxobox_section_subdivision | color = pink | plural_taxon = Orders}}
-[[Mite|Acarina]]<br>
-[[Amblypygid|Amblypygi]]<br>
-[[Araneae]]<br>
-[[Opiliones]]<br>
-[[Palpigradi]]<br>
-[[Pseudoscorpionida]]<br>
-[[Ricinulei]]<br>
-[[Schizomid]]a<br>
-[[Scorpion|Scorpiones]]<br>
-[[Solifugae]]<br>
-[[Uropygid|Uropygi]]<br>
-{{Taxobox_end}}
 {{Taxobox
 | color = pink
 | name = Arachnid
