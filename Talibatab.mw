@@ -1,34 +1,22 @@
 {{OtherUses|the mammal}}
-{{Taxobox_begin | color=pink | name=Bats}}
-{{Taxobox_image | image =[[Image:Big-eared-townsend-fledermaus.jpg|240px|Leaf-
-nosed bat]] | caption = }}
-{{Taxobox_begin_placement | color = pink}}
-{{Taxobox_regnum_entry | taxon = [[Animal|Animalia]]}}
-{{Taxobox_phylum_entry | taxon = [[Chordate|Chordata]]}}
-{{Taxobox_classis_entry | taxon = [[Mammal|Mammalia]]}}
-{{Taxobox_ordo_entry | taxon = '''Chiroptera'''}}<br/>{{Taxobox authority | 
-author = [[Johann Friedrich Blumenbach|Blumenbach]] | date = 1779}}
-{{Taxobox_end_placement}}
-{{Taxobox_section_subdivision | color = pink | plural_taxon = Families}}
-[[Antrozoidae]]<br />
-[[Craseonycteridae]]<br />
-[[Emballonuridae]]<br />
-[[Furipteridae]]<br />
-[[Megadermatidae]]<br />
-[[Free-tailed bat|Molossidae]]<br />
-[[Mormoopidae]]<br />
-[[Mystacinidae]]<br />
-[[Myzopodidae]]<br />
-[[Natalidae]]<br />
-[[Bulldog bat|Noctilionidae]]<br />
-[[Nycteridae]]<br />
-[[Leaf-nosed bat|Phyllostomidae]]<br>
-[[Pteropodidae]]<br />
-[[Horseshoe bat|Rhinolophidae]]<br />
-[[Rhinopomatidae]]<br />
-[[Thyropteridae]]<br />
-[[Vespertilionidae]]<br />
-{{Taxobox_end}}
+{{Taxobox
+| color = pink
+| name = Talibatab
+| fossil_range = Late [[Paleocene]] - Recent
+| image = Haeckel Chiroptera.jpg
+| image_width = 240px
+| image_caption = "Chiroptera" from [[Ernst Haeckel]]'s ''Artforms of Nature'', 1904
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Mammal]]ia
+| ordo = '''Chiroptera'''
+| ordo_authority = [[Johann Friedrich Blumenbach|Blumenbach]], 1779
+| subdivision_ranks = Suborders
+| subdivision = 
+[[Megachiroptera]]<br/>
+[[Microchiroptera]]<br/>
+See text for families.
+}}
 Deng '''talibatab''', [[mammal]] lang kayabe king  [[:en:scientific 
 classification|order]] a '''Chiroptera''', nung nu ring pekagamat na megamit la 
 bilang [[pakpak]].  Kabang ating aliwang mammal, antimo reng [[:en:flying 
