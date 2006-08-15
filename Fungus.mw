@@ -1,19 +1,21 @@
-{{Taxobox_begin | color = lightblue | name = Fungi}}
-{{Taxobox_image | image = [[Image:Fungus on log.jpg|200px|Orange saprotrophic 
-fungus]]| caption = ''Ing orange saprotrophic fungus''.}}
-{{Taxobox_begin_placement | color = lightblue}}
-{{Taxobox_domain_entry | taxon = [[Eukaryote|Eukaryota]]}}
-{{Taxobox_regnum_entry | taxon = '''Fungi'''}}<br/>{{Taxobox authority | author 
-= [[Carolus Linnaeus|L.]] | date = 1753}}
-{{Taxobox_end_placement}}
-{{Taxobox_section_subdivision | color = lightblue | plural_taxon = Divisions}}
+{{Taxobox
+| color = lightblue
+| name = Fungi
+| fossil_range = Early [[Silurian]] - Recent
+| image = Amanita muscaria 01.jpg
+| image_width = 200px
+| image_caption = ''[[Amanita muscaria]]'', a [[basidiomycete]]
+| domain = [[Eukaryote|Eukaryota]]
+| regnum = '''Fungi'''
+| regnum_authority = [[Carolus Linnaeus|L.]], 1753
+| subdivision_ranks = Divisions
+| subdivision =
 [[Chytridiomycota]]<br/>
-[[Deuteromycota]]<br/>
 [[Zygomycota]]<br/>
 [[Glomeromycota]]<br>
 [[Ascomycota]]<br/>
 [[Basidiomycota]]
-{{Taxobox_end}}
+}}
 Ing '''fungus''', metung yang [[Eukaryote|eukaryotic]] a [[organismu]]ng king 
 kilwal ning katawan na (external) maglaso king kayang [[pamangan]]. Kaybat na 
 niti, sisipsipan no reng [[cell]] deng [[molecule]] a bibilug king 
