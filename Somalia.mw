@@ -39,8 +39,8 @@ HDI_rank = unranked |
 HDI_category = <font color=gray>NA</font> |
 sovereignty_type = [[Katimawan]] |
 sovereignty_note = ibat [[United Kingdom]], [[Italy]] |
-established_event = Date |
-established_date = [[Juliu 1]], [[1960]] |
+established_events = Date |
+established_dates = [[Juliu 1]], [[1960]] |
 cctld=[[.so]]|
 calling_code=252|
 time_zone=|
