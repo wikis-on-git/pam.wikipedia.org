@@ -3,11 +3,11 @@
 |-
 {{Infobox Philippine municipality/seal {{{seal}}}|{{{sealfile}}}|{{{infoboxtitle}}}}}
 |-
-| colspan="2" style="text-align: center; background: #e0e0e0;;"| '''Location'''
+| colspan="2" style="text-align: center; background: #e0e0e0;;"| '''Karinan'''
 |-
 | colspan="2" style="text-align: center; font-size: 0.9em;"| [[Image:{{{locatormapfile}}}|250px|center|{{{caption}}}]]{{{caption}}}
 |- style="vertical-align:top;"
-| colspan="2" style="text-align: center; background: #e0e0e0;;"| '''Government'''
+| colspan="2" style="text-align: center; background: #e0e0e0;;"| '''Gubyernu'''
 |-
 | width="100px" | '''[[Regions of the Philippines|Labuad]]'''
 | width="200px" | {{{region}}}
@@ -18,10 +18,10 @@
 | '''[[House_of_Representatives_of_the_Philippines#District_Representation|Distritu]]'''
 | {{{districts}}}
 |- style="vertical-align:top;"
-| '''[[Barangays]]'''
+| '''[[Barangay]]'''
 | {{{barangays}}}
 |- style="vertical-align:top;"
-| '''[[Cities_of_the_Philippines#Classification|Income Class]]:'''
+| '''[[Cities_of_the_Philippines#Classification|Panakitan]]:'''
 | {{{class}}}
 |- style="vertical-align:top;"
 | '''[[Mayor]]'''
@@ -29,12 +29,12 @@
 |-
 | colspan="2" style="text-align: center; background: #e0e0e0;;"| '''Physical characteristics'''
 |- style="vertical-align:top;"
-| '''[[Area]]'''
+| '''[[Lapad]]'''
 | {{{areakm2}}} [[Square kilometre|km²]]
 |- style="vertical-align:top;"
 | '''[[Population]]'''
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total ([[2000]])
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Population density|Density]]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Population density|Pangasiksik]]
 | <br />{{{pop2000}}}<br />{{{popden2000}}}/[[Square kilometre|km²]]
 |- class{{{latNS|}}}="hiddenStructure"
 ! [[Geographical coordinates|Coordinates]]
