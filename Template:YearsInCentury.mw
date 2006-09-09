@@ -1,0 +1,16 @@
+<!-- for NNth century categories -->
+<!-- for 20th century use like this: {{YearsInCentury|19|th|20|th|21|st}} -->
+<!-- for 19th century use like this: {{YearsInCentury|18|th|19|th|20|th}} -->
+{| class="toccolours" align=center
+| align=center | [[:category:{{{1}}}{{{2}}} century|<<]] - Years in the [[{{{3}}}{{{4}}} century]] - [[:category:{{{5}}}{{{6}}} century|>>]]
+{{YearsInDecade|{{{1}}}0|{{{1}}}1}}
+{{YearsInDecade|{{{1}}}1|{{{1}}}2}}
+{{YearsInDecade|{{{1}}}2|{{{1}}}3}}
+{{YearsInDecade|{{{1}}}3|{{{1}}}4}}
+{{YearsInDecade|{{{1}}}4|{{{1}}}5}}
+{{YearsInDecade2|{{{1}}}5|{{{1}}}6}}
+{{YearsInDecade2|{{{1}}}6|{{{1}}}7}}
+{{YearsInDecade2|{{{1}}}7|{{{1}}}8}}
+{{YearsInDecade2|{{{1}}}8|{{{1}}}9}}
+{{YearsInDecade2|{{{1}}}9|{{{3}}}0}}
+|}
