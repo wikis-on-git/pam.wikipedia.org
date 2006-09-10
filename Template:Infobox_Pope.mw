@@ -1,0 +1,40 @@
+{| class="infobox" style="width: 20em; font-size: 95%; text-align: left; border-collapse: collapse; border-top: 0px; border-right: 0px; border-bottom: 0px;" cellpadding="3"
+|- style="background-color: #F7D79C;"
+! colspan="2" style="text-align: center; font-size: larger;" | {{{English name}}}
+|-
+| colspan="2" style="text-align: center; border-bottom: 1px solid #aaa;" | {{{image|}}}
+|-
+{{#if: {{{birth_name|}}}|
+! Birth name
+{{!}} {{{birth_name}}}}}
+|-
+! Papacy&nbsp;began
+| {{{term_start}}}
+|-
+! Papacy&nbsp;ended
+| {{{term_end}}}
+|-
+! Predecessor
+| {{{predecessor}}}
+|-
+{{#if: {{{successor|}}}|
+! Successor
+{{!}} {{{successor}}}}}
+|-
+! Born
+| {{{birth_date}}}<br>{{{birthplace|}}}
+|-
+{{#if: {{{death_date|}}}|
+! Died
+{{!}} {{{death_date}}}<br>{{{deathplace|}}}}}
+|-
+{{#if: {{{other|}}}|
+{{!}} colspan="2" style="font-style: italics; text-align: center; font-size: smaller;" {{!}} [[Pope {{{other}}}|Other Popes named {{{other}}}]]}}
+|-
+{{#if: {{{footnotes|}}}|
+{{!}} colspan="2" style="font-style: italics; font-size: smaller; border-top: 1px solid;" {{!}} {{{footnotes}}}}}
+|}<noinclude>
+[[Category:Pope templates|{{PAGENAME}}]]
+[[Category:people infobox templates|Pope]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+</noinclude>
