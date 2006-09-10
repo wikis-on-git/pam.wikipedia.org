@@ -1,0 +1,19 @@
+{| style="width: 18em; font-size: 75%; border: 1px solid plum; clear:right; float:right; margin:0 0 1em 1em;"
+|- 
+|style="font-size: 110%;" bgcolor="plum" colspan="2" align="center"|''Styles of'' <br>'''''{{{papal name}}}'''''
+|-
+|colspan="2" align="center"| [[Image:Emblem of the Papacy.svg|70px]]
+|-
+|align="left" valign="top"|'''''[[Style (manner of address)|Reference style]]'''''
+|align="left" valign="top"| {{{dipstyle}}}
+|- 
+|align="left" valign="top"|'''''Spoken style'''''
+|align="left" valign="top"| {{{offstyle}}}
+|- 
+|align="left" valign="top"|'''''Religious style'''''
+|align="left" valign="top"| {{{relstyle}}}
+|- 
+|align="left" valign="top"|'''''Posthumous style'''''
+|align="left" valign="top"| {{{deathstyle}}}
+|}
+<noinclude>[[Category:Pope templates|{{PAGENAME}}]]</noinclude>
