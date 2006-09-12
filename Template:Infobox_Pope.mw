@@ -25,7 +25,7 @@
 | {{{birth_date}}}<br>{{{birthplace|}}}
 |-
 {{#if: {{{death_date|}}}|
-! Died
+! Kematyan
 {{!}} {{{death_date}}}<br>{{{deathplace|}}}}}
 |-
 {{#if: {{{other|}}}|
