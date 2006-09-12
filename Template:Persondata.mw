@@ -1,25 +1,25 @@
 {| id="persondata" class="metadata"
 ! colspan="2" | [[Wikipedia:Persondata|Persondata]]
 |-
-| class="metadata-label" | NAME 
+| class="metadata-label" | LAGYU 
 | {{{NAME|}}}
 |- 
-| class="metadata-label" | ALTERNATIVE NAMES 
+| class="metadata-label" | ALIWANG LAGYU 
 | {{{ALTERNATIVE NAMES|}}}
 |- 
-| class="metadata-label" | SHORT DESCRIPTION
+| class="metadata-label" | MAKUYAD A DESCRIPTION
 | {{{SHORT DESCRIPTION|}}}
 |-
-| class="metadata-label" | DATE OF BIRTH
+| class="metadata-label" | ALDO KEBAITAN
 | {{{DATE OF BIRTH|}}}
 |-
-| class="metadata-label" | PLACE OF BIRTH 
+| class="metadata-label" | LUGAL KEBAITAN 
 | {{{PLACE OF BIRTH|}}}
 |-
-| class="metadata-label" | DATE OF DEATH
+| class="metadata-label" | ALDO NIG KEMATYAN
 | {{{DATE OF DEATH|}}}
 |-
-| class="metadata-label" | PLACE OF DEATH
+| class="metadata-label" | LUGAL KEMATYAN
 | {{{PLACE OF DEATH|}}}
 |}<noinclude>
 == Usage ==
