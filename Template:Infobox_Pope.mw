@@ -11,17 +11,17 @@
 ! Pangapapa&nbsp;megumpisa
 | {{{term_start}}}
 |-
-! Papacy&nbsp;ended
+! Pangapapa&nbsp;mepupus
 | {{{term_end}}}
 |-
-! Predecessor
+! Minuna
 | {{{predecessor}}}
 |-
 {{#if: {{{successor|}}}|
-! Successor
+! Menalili
 {{!}} {{{successor}}}}}
 |-
-! Born
+! Kebaitan
 | {{{birth_date}}}<br>{{{birthplace|}}}
 |-
 {{#if: {{{death_date|}}}|
