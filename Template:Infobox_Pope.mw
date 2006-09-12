@@ -29,7 +29,7 @@
 {{!}} {{{death_date}}}<br>{{{deathplace|}}}}}
 |-
 {{#if: {{{other|}}}|
-{{!}} colspan="2" style="font-style: italics; text-align: center; font-size: smaller;" {{!}} [[Pope {{{other}}}|Other Popes named {{{other}}}]]}}
+{{!}} colspan="2" style="font-style: italics; text-align: center; font-size: smaller;" {{!}} [[Pope {{{other}}}|Ding aliwang Papa mipalagyung {{{other}}}]]}}
 |-
 {{#if: {{{footnotes|}}}|
 {{!}} colspan="2" style="font-style: italics; font-size: smaller; border-top: 1px solid;" {{!}} {{{footnotes}}}}}
