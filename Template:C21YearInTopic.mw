@@ -1,0 +1,45 @@
+<!-- width should really be set in the infobox table class; see also [[:Template:Yearbox]] -->
+{| class="infobox" id="toc" width=350
+|-
+| align="center" | '''[[List of '{{PAGENAME}} in' articles|{{PAGENAME}} agpang keng topic]]:'''
+|- style="background-color:#f3f3f3"
+| align="center" | <small>''News by month''</small> 
+|-
+| align="center" |[[January {{PAGENAME}}|Ene]] - [[February {{PAGENAME}}|Peb]] - [[March {{PAGENAME}}|Mar]] - [[April {{PAGENAME}}|Abr]] - [[May {{PAGENAME}}|May]] - [[June {{PAGENAME}}|Jun]] <br> [[July {{PAGENAME}}|Jul]] - [[August {{PAGENAME}}|Ago]] - [[September {{PAGENAME}}|Sep]] - [[October {{PAGENAME}}|Oct]] - [[November {{PAGENAME}}|Nob]] - [[December {{PAGENAME}}|Dis]]
+|- style="background-color:#f3f3f3"
+| align="center" | <small>''Arts''</small>
+|-
+| align="center" | [[{{PAGENAME}} in architecture|Architektu]] - [[{{PAGENAME}} in art|Arti]] - [[{{PAGENAME}} in literature|Malagung Panyulat]] - [[{{PAGENAME}} in music|Musika]] ([[{{PAGENAME}} in country music|Bangsa]], [[{{PAGENAME}} in British music|UK]]) - [[{{PAGENAME}} in film|Cine]] - [[{{PAGENAME}} in television|Telebision]] - [[{{PAGENAME}} in home video|Video Pambale]]
+|- style="background-color:#f3f3f3"
+| align="center" | <small>''Politika''</small>
+|-
+| align="center" | [[Elections in {{PAGENAME}}|Elections]] - [[List of international organization leaders in {{PAGENAME}}|Int'l a Pamuntuk]] - [[{{PAGENAME}} in politics|Politika]] - [[List of state leaders in {{PAGENAME}}|State a Pamuntuk]]
+|- style="background-color:#f3f3f3"
+| align="center" | <small>''Science and technology''</small>
+|-
+|align="center" |[[{{PAGENAME}} in archaeology|Archaeology]] - [[{{PAGENAME}} in aviation|Aviation]] - [[{{PAGENAME}} in birding and ornithology|Birding/Ornithology]] - [[:Category:{{PAGENAME}} meteorology|Meteorology]] - [[{{PAGENAME}} in rail transport|Rail transport]] - [[{{PAGENAME}} in science|Science (Kabiasnan)]] - [[List of spaceflights ({{PAGENAME}})|Spaceflight]]
+|- style="background-color:#f3f3f3"
+| align="center" | <small>''Sports''</small>
+|-
+|align="center" |[[{{PAGENAME}} in sports|Sport]] - [[{{PAGENAME}} AFL season|Ligang Australian Football]] - [[{{PAGENAME}} in baseball|Baseball]] - [[{{PAGENAME}} in football (soccer)|Football&nbsp;(soccer)]] - [[:Category:{{PAGENAME}} in ice hockey|Ice Hockey]] - [[:Category:{{PAGENAME}} in motor racing|Motor Racing]] - [[:Category:{{PAGENAME}} in tennis|Tennis]] 
+|- style="background-color:#f3f3f3"
+| align="center" | <small>''By place''</small>
+|-
+| align="center" | [[{{PAGENAME}} in Africa|Africa]] - [[{{PAGENAME}} in Argentina|Argentina]] - [[{{PAGENAME}} in Australia|Australia]] - [[{{PAGENAME}} in Canada|Canada]] - [[{{PAGENAME}} in Denmark|Denmark]] - [[{{PAGENAME}} in India|India]] - [[{{PAGENAME}} in Iraq|Iraq]] - [[{{PAGENAME}} in Ireland|Ireland]] - [[{{PAGENAME}} in Japan|Japan]] - [[{{PAGENAME}} in Luxembourg|Luxembourg]] - [[{{PAGENAME}} in Malaysia|Malaysia]] - [[:Category:{{PAGENAME}} in Mexico|Mexico]] - [[{{PAGENAME}} in New Zealand|New Zealand]] - [[{{PAGENAME}} in the Philippines|Philippines]] - [[{{PAGENAME}} in Singapore|Singapore]] - [[{{PAGENAME}} in South Africa|South Africa]] - [[{{PAGENAME}} in Switzerland|Switzerland]] - [[{{PAGENAME}} in the United Kingdom|United Kingdom]] -[[{{PAGENAME}} in Wales|Wales]] - [[{{PAGENAME}} in Zimbabwe|Zimbabwe]]
+|- style="background-color:#f3f3f3"
+| align="center" | <small>''Other topics''</small>
+|-
+| align="center" |[[Deaths in {{PAGENAME}}|Deaths]] - [[:Category:{{PAGENAME}} awards|Awards]] - [[{{PAGENAME}} in gay rights|Gay rights]] - [[{{PAGENAME}} in games|Games]] -  [[:Category:{{PAGENAME}} in law|Law]] - [[List of religious leaders in {{PAGENAME}}|Religious leaders]] - [[{{PAGENAME}} in video gaming|Video gaming]]
+|- style="background-color:#f3f3f3"
+| align="center" | <small>''Birth and death categories''</small>
+|-
+| align="center" | [[:Category:{{PAGENAME}} births|Kebaitan]] - [[:Category:{{PAGENAME}} deaths|Kematyan]]
+|-style="background-color:#f3f3f3"
+| align="center" | <small>''Establishments and disestablishments categories''</small>
+|-
+| align="center" | [[:Category:{{PAGENAME}} establishments|Establishments]] - [[:Category:{{PAGENAME}} disestablishments|Disestablishments]]
+|- style="background-color:#f3f3f3"
+| align="center" | <small>''Works category''</small>
+|-
+| align="center" | [[:Category:{{PAGENAME}} works|Gawa]]
+|}
