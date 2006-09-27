@@ -1,0 +1,18 @@
+<div class="infobox sisterproject">
+<div style="float: left;">[[Image:Wikimedia-logo.svg|50px|none|All wikimedia projects]]</div>
+<div style="margin-left: 60px;">Articles and media on this topic in other [[commons:Template talk:Sisterlinks|Wikimedia projects]] can be found at: Commons '''''[[commons:{{{1}}}|{{NAMESPACE}} {{PAGENAME}}]]'''''</div>
+</div><noinclude>
+{{-}}
+==Notes==
+<br>'''Part of Sisterlinks project'''<br>Example: {{W2c|:Category:CommonsRoot}} For further info: {{W2c|Template talk:Sisterlinks}}<br>{{Commonstmp||Sisterlinks}} [[Category:Interwiki link templates]] [[Category:Interwiki category linking templates]]
+[[de:Vorlage:Sisterlinks]]
+[[es:Plantilla:Sisterlinkswp]]
+[[fr:Modèle:Sisterlinks]]
+[[lb:Template:Sisterlinks]]
+[[simple:Template:Sisterlinkswp]]
+[[tl:Template:Sisterlinkswp]]
+----
+This [[Wikipedia:Template|template]] is a [[Wikipedia:Avoid self-references|self-reference]].
+
+[[Category:Interwiki link templates|{{PAGENAME}}]]
+</noinclude>
