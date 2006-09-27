@@ -1,0 +1,46 @@
+<div style="margin: 0 0 1em 1em; border: solid #aaa 1px; background: #f9f9f9; padding: 0.5ex; font-size: 85%;" class="tright">
+{| style="background: transparent;" width={{{boxsize|{{{4|0}}}}}}
+|<div style="position: relative; width: {{{size|{{{3|36}}}}}}px; height: 32px; overflow: hidden">
+<div style="position: absolute; top: 0px; left: 0px; z-index: 2">[[Image:{{{image|{{{2|Portal.svg}}}}}}|{{{size|{{{3|36}}}}}}x32px|Portal:{{{name|{{{1|{{PAGENAME}}}}}}}}]]</div>
+</div>
+|| '''''[[Portal:{{{name|{{{1|{{PAGENAME}}}}}}}}|{{{name|{{{1|{{PAGENAME}}}}}}}} Portal]]'''''
+|}
+</div><noinclude>
+==Use==
+This template is used to link an article to its related [[Portal:Browse|portal]]
+
+;Optional parameters
+ <nowiki>{{Portal|name|image|size|boxsize}}</nowiki>
+==Location==
+This template is placed at the bottom of the article in the "See also" section.
+
+[[Category:Internal link templates|{{PAGENAME}}]]
+[[bs:Template:Portal]]
+[[ca:Template:Portal]]
+[[da:Template:Portal]]
+[[de:Template:Portal]]
+[[en:Template:Portal]]
+[[eo:Ŝablono:Portalo]]
+[[es:Plantilla:Portal]]
+[[eu:Txantiloi:Atari]]
+[[fi:Malline:Teemasivu]]
+[[fr:Modèle:Portail]]
+[[ja:Template:ウィキポータルリンク]]
+[[hr:Template:Portal]]
+[[id:Template:Portal]]
+[[lb:Template:Portal]]
+[[lt:Template:Portal]]
+[[ms:Template:Portal]]
+[[mk:Шаблон:Портал]]
+[[no:Template:Portal]]
+[[pl:Template:Portal]]
+[[pt:Template:Portal]]
+[[ro:Template:Portal]]
+[[ru:Шаблон:Портал]]
+[[sq:Stampa:Portal]]
+[[sl:Template:Portal]]
+[[sv:Template:Portal]]
+[[tr:Template:Portal]]
+[[zh:Template:Portal]]
+
+</noinclude>
