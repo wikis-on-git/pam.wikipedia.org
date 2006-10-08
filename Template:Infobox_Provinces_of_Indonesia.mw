@@ -1,0 +1,31 @@
+{| border=1 cellpadding="2" cellspacing="0" style="float:right; width:300px; margin-left: 1em; margin-bottom: 1ex; background: #f9f9f9; border: 1px #aaaaaa solid; border-collapse: collapse; font-size: 95%;"
+|+ style="font-size: large; margin: inherit;"|{{{name}}}
+|-
+|colspan="2" style="text-align:center;"|<center>{{{logo}}}</center>
+|-
+|colspan="2" style="text-align:center;"|<small>[[Motto]]: {{{motto}}}</small>
+|-
+|colspan="2" style="text-align:center;"|<center>{{{map}}}</center>
+|- class="hiddenStructure{{{coordinate|}}}"
+|valign="top"|'''Coordinate'''||{{{coordinate}}}
+|- 
+|valign="top"|'''[Tungku]]'''|| [[{{{capital}}}]]
+|-
+|valign="top"|'''[[Gobernador]]'''||{{{governor}}}
+|-
+|valign="top"|'''[[Lapad/Dagul]]'''||{{{area}}}
+|-
+|valign="top"|'''[[Populasyun]]'''||{{{population}}}
+|- class="hiddenStructure{{{densities|}}}"
+|valign="top"|'''Pangasiksik'''||{{{densities}}}
+|-
+|valign="top"|'''[[Katutubu]]'''||{{{ethnicity}}}
+|-
+|valign="top"|'''[[Kasalpantayanan]]'''||{{{religion}}}
+|-
+|valign="top"|'''[[Amanu]]'''||{{{language}}}
+|-
+|valign="top"|'''[[Oras king Indonesia|Time zone]]'''||{{{Time}}}
+|-
+|valign="top"|'''Web site'''||{{{site}}}
+|}
