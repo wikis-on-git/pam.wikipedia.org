@@ -1,0 +1,45 @@
+{| class="toccolours" style="float: right; margin: 0 0 1em 1em;" width="300px"
+|+colspan="2" style="text-align: center; font-size: larger;"| '''{{{infoboxtitle}}}'''
+|-
+|colspan="2" style="text-align: center;"| [[Image:{{{sealfile}}}|center|110px|Official seal of {{{infoboxtitle}}}]]
+|-
+| colspan="2" style="text-align: center; background: #e0e0e0;;"| '''Karinan'''
+|-
+| colspan="2" style="text-align: center; font-size: 0.9em;"| [[Image:{{{locatormapfile}}}|250px|center|{{{caption}}}]]{{{caption}}}
+|- style="vertical-align:top;"
+| colspan="2" style="text-align: center; background: #e0e0e0;;"| '''Government'''
+|-
+| width="100px" | '''[[Ding labuad king Filipinas|Labuad]]'''
+| width="200px" | {{{region}}}
+|- style="vertical-align:top;"
+| '''[[Ding Lalaeigan ning Filipinas|Lalawigan]]'''
+| {{{province}}}
+|- style="vertical-align:top;"
+| '''[[House of Representatives of the Philippines#District Representation|Distritu]]'''
+| {{{districts}}}
+|- style="vertical-align:top;"
+| '''[[Barangay]]'''
+| {{{barangay}}}
+|- style="vertical-align:top;"
+| '''[[Cities of the Philippines#Classification|Klasi ning Panakitan]]:'''
+| {{{class}}}
+|- style="vertical-align:top;"
+| '''[[Mayor]]'''
+| {{{mayor}}}
+|- style="vertical-align:top;"
+| '''Cityhood'''
+| {{{cityhood}}}
+|-
+| colspan="2" style="text-align: center; background: #e0e0e0;;"| '''Physical characteristics'''
+|- style="vertical-align:top;"
+| '''[[Area]]'''
+| {{{areakm2}}} [[Kilometru Kudradu|km²]]
+|- style="vertical-align:top;"
+| '''[[Populasyun]]'''
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total ([[2000]])
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Population density|Kapal]]
+| <br />{{{pop2000}}}<br />{{{popden2000}}}/[[Square kilometre|km²]]
+|- style="vertical-align:top;"
+| '''[[Geographic coordinate system|Coordinates]]'''
+| {{{coordinates}}}
+|}
