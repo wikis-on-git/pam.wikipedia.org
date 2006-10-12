@@ -4,7 +4,7 @@
 <div style="font-size: larger;">'''{{{infoboxtitle}}}'''</div></div>
 <div style="text-align: center; padding: 10px 0px; border-bottom: 2px #AAA solid;">{{{sealfile}}}</div>
 <div style="text-indent: -1.5em; padding: 0.8em 0em 0.8em 1.5em;">
-<div>'''[[Ding Labuad ning Fiipinas|Labuad]]:''' {{{region}}}</div>
+<div>'''[[Ding Labuad king Fiipinas|Labuad]]:''' {{{region}}}</div>
 <div>'''Balen Tungku:''' {{{capital}}}</div>
 <div>'''Mitatag:''' {{{founded}}}</div>
 <div>'''Populasyun:'''<br />''2000 census''&mdash;{{{pop2000}}} ({{{pop2000rank}}})<br />''Density''&mdash;{{{popden2000}}} per km&sup2; ({{{popden2000rank}}})</div>
