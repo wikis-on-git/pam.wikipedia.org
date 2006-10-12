@@ -1,0 +1,17 @@
+<div style="width:323px;float:right;background:white;margin: 0.5em 0em 1em 0em;">
+<div style="padding-left:10px;margin-left:10px;border-left:1px solid black;text-align:left;">
+<div style="padding: 0.5em; background: #DDD; margin-left: -10px;">REPUBLIKA NING PHILIPPINES
+<div style="font-size: larger;">'''{{{infoboxtitle}}}'''</div></div>
+<div style="text-align: center; padding: 10px 0px; border-bottom: 2px #AAA solid;">{{{sealfile}}}</div>
+<div style="text-indent: -1.5em; padding: 0.8em 0em 0.8em 1.5em;">
+<div>'''[[Ding labuad king Fiipinas|Labuad]]:''' {{{region}}}</div>
+<div>'''Balen Tungku:''' {{{capital}}}</div>
+<div>'''Mitatag:''' {{{founded}}}</div>
+<div>'''Populasyun:'''<br />''2000 census''&mdash;{{{pop2000}}} ({{{pop2000rank}}})<br />''Density''&mdash;{{{popden2000}}} per km&sup2; ({{{popden2000rank}}})</div>
+<div>'''Dagul/Lapad:''' {{{areakm2}}} km&sup2; ({{{arearank}}})</div>
+<div>'''Divisions:'''<br />''[[Cities of the Philippines|Peka Syudad]]''&mdash;{{{hucities}}}<br />''[[Cities of the Philippines|Component cities]]''&mdash;{{{componentcities}}}<br />
+''[[Balen ning Filipinas|Balen]]''&mdash;{{{municipalities}}}<br />''[[Barangay]]s''&mdash;{{{barangays}}}<br />''[[House of Representatives of the Philippines|Distritu Kongresu]]''&mdash;{{{districts}}}</div>
+<div>'''Amanu:''' {{{languages}}}</div>
+<div>'''Gobernador:''' {{{governor}}} (2004-2007)</div>
+</div>
+{{{locatormapfile}}}</div></div>
