@@ -85,7 +85,7 @@
 {{!}} {{{leader_name3}}}
 }} }} }} }}<!-- ***** Geographical characteristics ***** -->
 |- <!-- ***** Area ***** --> class="mergedtoprow"
-! [[Area]] || &nbsp;
+! [[Dagul/Lapad]] || &nbsp;
 |- class="mergedrow"
 ! &nbsp;- City 
 | {{#if:{{{area_magnitude|}}}|{{{area_total}}} [[{{{area_magnitude}}}_m²|km²]]|{{{area_total}}} [[Kilometru Kudradu|km²]]}} {{#if:{{{TotalArea_sq_mi|}}} |&nbsp;({{{TotalArea_sq_mi}}}&nbsp;[[Milya Kudradu|sq&nbsp;mi]]) }}
@@ -113,7 +113,7 @@
 }}|- <!-- ***** Populasyun ***** --> class="mergedtoprow"
 ! Population ||&nbsp;
 |- class="mergedrow"
-! &nbsp;- City ({{{population_as_of}}}) 
+! &nbsp;- Lakanbalen ({{{population_as_of}}}) 
 |{{{population_total}}} 
 |- class="mergedrow"
 {{#if:{{{population_density|}}}|
