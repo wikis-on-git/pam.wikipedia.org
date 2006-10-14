@@ -13,13 +13,13 @@
 {{#if:{{{image_flag|}}}| {{!}} style="vertical-align: middle;" {{!}}  <center>{{border{{!}}[[Image:{{{image_flag|}}}|125px|Official flag of {{{official_name|}}}]]}}</center> }}
 {{#if:{{{image_seal|}}}| {{!}} style="vertical-align: middle;" {{!}} [[Image:{{{image_seal|}}}|100px|Opisyal seal ning {{{official_name|}}}]] }}
 {{!}}-
-{{#if:{{{image_flag|}}}| {{!}} <small>'''[[Flag of {{{official_name}}}|Bandera]]'''</small> }}
-{{#if:{{{image_seal|}}}| {{!}} <small>'''[[Seal of {{{official_name}}}|Seal]]'''</small>}}
+{{#if:{{{image_flag|}}}| {{!}} <small>'''[[Bandera ning {{{official_name}}}|Bandera]]'''</small> }}
+{{#if:{{{image_seal|}}}| {{!}} <small>'''[[Seal ning {{{official_name}}}|Seal]]'''</small>}}
 {{!}}}
 {{!}}- class="mergedrow"
 }}<!-- ***** Nickname ***** -->
 {{#if:{{{nickname|}}}|
-{{!}} colspan="2" align="center" {{!}} [[Nickname]]: "''{{{nickname|}}}''" 
+{{!}} colspan="2" align="center" {{!}} [[Palayo]]: "''{{{nickname|}}}''" 
 {{!}}-class="mergedrow"
 }}<!-- ***** Motto ***** -->
 {{#if:{{{motto|}}}|
