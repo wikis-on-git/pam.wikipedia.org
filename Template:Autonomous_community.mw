@@ -1,0 +1,77 @@
+{| class="infobox geography"
+|+style="font-size: larger; padding: 0 0 .1em 0;"|'''{{{full-name}}}'''
+|-class="mergedrow"
+| bgcolor="#ffffff" align=center colspan=2 |
+{| border=0 cellpadding=2 cellspacing=0 style="padding-top:1em"
+|-class="mergedrow"
+| align=center width=148 valign=bottom | {{border|[[Image:{{{flag}}}|150px]]}}
+| align=center width=148 valign=bottom | [[Image:{{{coat-of-arms}}}|70px]]
+|-
+| align=center width=148 | [[Flag of {{{name}}}|Bandera]]
+| align=center width=148 | [[Coat of Arms of {{{name}}}|Coat of Arms]]
+|}
+|-
+{{#if:{{{motto|}}}|<tr><td align=center colspan=2>'''[[Motto]]''': {{{motto}}}</td></tr>|}}
+{{#if:{{{anthem|}}}|<tr><td align=center colspan=2>'''[[Anthem]]''': {{{anthem}}}</td></tr>|}}
+| bgcolor="#c6c6c6" align="center" colspan="2" | [[Image:{{{map}}}|300px]]
+|-
+| '''[[Tungku]]''' || {{{capital}}}
+|-
+| '''[[Official language|Peka Amanu]]''' || {{{language}}}
+|-
+| '''[[Area]]'''<br />&nbsp;&ndash; Total<br />&nbsp;&ndash; % of Spain
+| [[List of Spanish autonomous communities by area|Ranku{{{area-rank}}}]]<br />&nbsp;[[1 {{{area-magnitude}}} m²|{{{area}}}]] [[square kilometre|km²]]<br />&nbsp;{{{area-percent}}}
+|-
+| '''[[Population]]'''<br />&nbsp;&ndash; Total ({{{pop-date}}})<br />&nbsp;&ndash; % of Spain<br />&nbsp;&ndash; [[Density]]
+| [[List of Spanish autonomous communities by population|Ranku {{{pop-rank}}}]]<br />&nbsp;{{{pop}}}<br />&nbsp;{{{pop-percent}}}<br />&nbsp;{{{density}}}/km²
+|-
+| '''[[Demonym]]'''<br />&nbsp;&ndash; [[English language|English]]<br />&nbsp;&ndash; [[Spanish language|Spanish]]{{#if:{{{local-lang|}}}|<br />&nbsp;&ndash; {{{local-lang}}}|}}
+|<br />&nbsp;{{{english-name}}}<br />&nbsp;{{{spanish-name}}}{{#if:{{{local-name|}}}|<br />&nbsp;{{{local-name}}}|}}
+|-
+| '''Statute of Autonomy''' || {{{autonomy}}}
+|-
+| '''[[Cortes Generales|Parliamentary<br />representation]]'''<br />&nbsp;&ndash; [[Spanish Congress|Congress seats]]<br />&nbsp;&ndash; [[Spanish Senate|Senate seats]]
+| valign=bottom |<br/><br/>&nbsp;{{{congress}}}<br />&nbsp;{{{senate}}}
+|-
+| valign=top | '''[[{{{president-link}}}|President]]'''
+| {{{president}}}
+|-
+| '''[[ISO 3166-2]]'''
+| ES-{{{code}}}
+|-
+| align=center colspan=2 | {{{website}}}
+|}<noinclude>
+Usage:
+<pre>{{Autonomous community
+|name = 
+|full-name = 
+|flag = 
+|coat-of-arms = 
+|motto = 
+|anthem = 
+|map = 
+|capital = 
+|language = 
+|area = 
+|area-rank = 
+|area-magnitude =
+|area-percent = 
+|pop = 
+|pop-rank = 
+|pop-percent = 
+|pop-date = 
+|density = 
+|english-name = 
+|spanish-name = 
+|local-lang = 
+|local-name = 
+|autonomy = 
+|congress = 
+|senate = 
+|president = 
+|president-link = 
+|code = 
+|website = 
+}}
+</pre>
+</noinclude>
