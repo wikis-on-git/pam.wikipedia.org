@@ -1,0 +1,22 @@
+<div style="right:10px; display:none;" class="metadata topicon" id="featured-star"><div style="position: relative; width: 14px; height: 14px; overflow: hidden">
+<div style="position: absolute; top: 0px; left: 0px; font-size: 100px; overflow: hidden; line-height: 100px; z-index: 3">[[Wikipedia:Featured articles|<span title="This is a featured article. Click here for more information.">&nbsp;&nbsp;&nbsp;</span>]]</div>
+<div style="position: absolute; top: 0px; left: 0px; z-index: 2">[[Image:LinkFA-star.png|14px|This is a featured article. Click here for more information.]]</div>
+</div>
+</div><noinclude>
+
+This template places a small star ([[Image:LinkFA-star.png|width=14px|height=14px]]) in the top right corner of an article to indicate that it is a [[Wikipedia:Featured articles|featured article on Wikipedia]].
+
+This template should be placed at the bottom of the article.
+
+==See also==
+*{{tl|Featured list}}
+*{{tl|Featured portal}}
+
+[[Category:Miscellaneous templates|{{PAGENAME}}]]
+[[Category:Title templates|{{PAGENAME}}]] 
+[[nl:Sjabloon:Etalage]]
+[[en:Template:Featured Article]]
+[[es:Plantilla:Artículo destacado]]
+[[no:Mal:Anbefalt]]
+[[th:Template:บทความคัดสรร]]
+[[vi:Tiêu bản:Sao chọn lọc]]</noinclude>
