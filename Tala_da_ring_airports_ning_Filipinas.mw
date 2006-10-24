@@ -1,0 +1,675 @@
+'''List of airports in the [[Philippines]]''', grouped by type and sorted by location
+
+:''For a list sorted by airport name, see [[:Category:Airports in the Philippines]]''
+:''For a list sorted by ICAO code, see [[List of airports by ICAO code: R#RP - Philippines|List of airports by ICAO code: RP]]''
+
+Four types of airports exist in the Philippines: international airports (which are divided into two subcategories: primary and secondary), major commercial domestic airports ("trunkline" airports), minor commercial domestic airports (secondary airports), and feeder airports.
+
+{| border=0 cellpadding=2 cellspacing=3
+|- valign=top align=left
+! [[List of cities and municipalities in the Philippines|LOCATION]]&nbsp;&nbsp;&nbsp;&nbsp;
+! [[Provinces of the Philippines|PROVINCE]]&nbsp;&nbsp;&nbsp;&nbsp;
+! [[ICAO airport code|ICAO]]&nbsp;&nbsp;&nbsp;&nbsp;
+! [[IATA airport code|IATA]]&nbsp;&nbsp;&nbsp;&nbsp;
+! AIRPORT NAME
+
+|- bgcolor=#dcdcdc
+| colspan=5 | '''International airports'''
+
+|-
+| colspan=5 | '''Primary international airports'''
+
+|- valign=top
+| [[Angeles Lakanbalen]]
+| [[Pampanga]]
+| RPLC
+| CRK
+| [[Diosdado Macapagal International Airport]] (Clark International Airport)
+
+|- valign=top
+| [[Cebu Lakanbalen|Cebu]] / [[Lapu-Lapu Lakanbalen]]
+| [[Metro Cebu]]
+| RPVM
+| CEB
+| [[Mactan-Cebu International Airport]]
+
+|- valign=top
+| [[Manila]]
+| [[Metro Manila]]
+| RPLL
+| MNL
+| [[Ninoy Aquino International Airport]]
+
+|- valign=top
+| [[Subic Bay]]
+| [[Zambales]]
+| RPLB
+| SFS
+| [[Subic Bay International Airport]]
+
+|-
+| colspan=5 | '''Secondary international airports'''
+
+|- valign=top
+| [[Davao Lakanbalen|Davao]]
+| [[Davao del Sur]]
+| RPMD
+| DVO
+| [[Francisco Bangoy International Airport]] (Davao International Airport)
+
+|- valign=top
+| [[General Santos Lakanbalen|General Santos]]
+| [[South Cotabato]]
+| RPMR
+| GES
+| [[General Santos International Airport]] (Tambler Airport)
+
+|- valign=top
+| [[Laoag Lakanbalen|Laoag]]
+| [[Ilocos Norte]]
+| RPLI
+| LAO
+| [[Laoag International Airport]]
+
+|- valign=top
+| [[Zamboanga Lakanbalen|Zamboanga]]
+| [[Zamboanga del Sur]]
+| RPMZ
+| ZAM
+| [[Zamboanga International Airport]]
+
+|-
+|colspan=5 | '''Unclassified international airports'''
+
+|-
+|[[Cagayan de Oro]]
+|[[Misamis Oriental]]
+|
+|
+|[[Laguindingan International Airport]] (under construction)
+
+|-
+|[[Iloilo Lakanbalen|Iloilo]]
+|[[Iloilo]]
+|
+|
+|[[Iloilo International Airport]] (under construction)
+
+|-
+|[[Legazpi Lakanbalen|Legazpi]]
+|[[Albay]]
+|
+|
+|[[Legazpi Lakanbalen International Airport]] (planned)
+
+|- bgcolor=#dcdcdc
+| colspan=5 | '''Major commercial domestic airports'''
+
+|- valign=top
+| [[Bacolod Lakanbalen|Bacolod]]
+| [[Negros Occidental]]
+| RPVB
+| BCD
+| [[Bacolod Lakanbalen Domestic Airport]]
+
+|- valign=top
+| [[Baguio Lakanbalen|Baguio]]
+| [[Benguet]]
+| RPUB
+| BAG
+| [[Loakan Airport]]
+
+|- valign=top
+| [[Cagayan de Oro]]
+| [[Misamis Oriental]]
+| RPML
+| CGY
+| [[Lumbia Airport]]
+
+|- valign=top
+| [[Cotabato Lakanbalen|Cotabato]]
+| [[Maguindanao]]
+| RPMC
+| CBO
+| [[Awang Airport]]
+
+|- valign=top
+| [[Dumaguete Lakanbalen|Dumaguete]]
+| [[Negros Oriental]]
+| RPVD
+| DGT
+| [[Sibulan Airport]]
+
+|- valign=top
+| [[Iloilo Lakanbalen|Iloilo]]
+| [[Iloilo]]
+| RPVI
+| ILO
+| [[Mandurriao Airport]]
+
+|- valign=top
+| [[Legazpi Lakanbalen|Legazpi]]
+| [[Albay]]
+| RPLP
+| LGP
+| [[Legazpi Airport]]
+
+|- valign=top
+| [[Puerto Princesa Lakanbalen|Puerto Princesa]]
+| [[Palawan]]
+| RPVP
+| PPS
+| [[Puerto Princesa Airport]]
+
+|- valign=top
+| [[Roxas Lakanbalen]]
+| [[Capiz]]
+| RPVR
+| RXS
+| [[Roxas Airport]]
+
+|- valign=top
+| [[San Jose, Occidental Mindoro|San Jose]]
+| [[Occidental Mindoro]]
+| RPUH
+| SJI
+| [[McGuire Field]] (San Jose Airport)
+
+|- valign=top
+| [[Tacloban Lakanbalen|Tacloban]]
+| [[Leyte province|Leyte]]
+| RPVA
+| TAC
+| [[Daniel Z. Romualdez Airport]]
+
+|- bgcolor=#dcdcdc
+| colspan=5 | '''Minor commercial domestic airports'''
+
+|- valign=top
+| [[Bagabag, Nueva Vizcaya|Bagabag]]
+| [[Nueva Vizcaya]]
+| RPUZ
+| BGN
+| [[Bagabag Airport]]
+
+|- valign=top
+| [[Basco, Batanes|Basco]]
+| [[Batanes]]
+| RPUO
+| BSO
+| [[Basco Airport]]
+
+|- valign=top
+| [[Bislig Lakanbalen|Bislig]]
+| [[Surigao del Sur]]
+| RPMF
+| BPH
+| [[Bislig Airport]]
+
+|- valign=top
+| [[Bongao, Tawi-Tawi|Bongao]]
+| [[Tawi-Tawi]]
+| RPMN
+| SGS
+| [[Sanga-Sanga Airport]]
+
+|- valign=top
+| [[Butuan Lakanbalen|Butuan]]
+| [[Agusan del Norte]]
+| RPME
+| BXU
+| [[Bancasi Airport]]
+
+|- valign=top
+| [[Calapan Lakanbalen|Calapan]]
+| [[Oriental Mindoro]]
+| RPUK
+| CPP
+| [[Calapan Airport]]
+
+|- valign=top
+| [[Calbayog Lakanbalen|Calbayog]]
+| [[Samar province|Samar]]
+| RPVC
+| CYP
+| [[Calbayog Airport]]
+
+|- valign=top
+| [[Catarman, Northern Samar|Catarman]]
+| [[Northern Samar]]
+| RPVF
+| CRM
+| [[Catarman National Airport]]
+
+|- valign=top
+| [[Cauayan Lakanbalen|Cauayan]]
+| [[Isabela]]
+| RPUY
+| CYZ
+| [[Cauayan Airport]]
+
+|- valign=top
+| [[Daet, Camarines Norte|Daet]]
+| [[Camarines Norte]]
+| RPUD
+| DTE
+| [[Daet Airport]]
+
+|- valign=top
+| [[Dipolog Lakanbalen|Dipolog]]
+| [[Zamboanga del Norte]]
+| RPMG
+| DPL
+| [[Dipolog Airport]]
+
+|- valign=top
+| [[Gasan, Marinduque|Gasan]]
+| [[Marinduque]]
+| RPUW
+| MRQ
+| [[Marinduque Airport]]
+
+|- valign=top
+| [[Iligan Lakanbalen|Iligan]]
+| [[Lanao del Norte]]
+| RPMI
+| IGN
+| [[Maria Cristina Airport]]
+
+|- valign=top
+| [[Ipil, Zamboanga Sibugay|Ipil]]
+| [[Zamboanga Sibugay]]
+| RPMV
+| IPE
+| [[Ipil Airport]]
+
+|- valign=top
+| [[Jolo, Sulu|Jolo]]
+| [[Sulu]]
+| RPMJ
+| JOL
+| [[Jolo Airport]]
+
+|- valign=top
+| [[Kalibo, Aklan|Kalibo]]
+| [[Aklan Province|Aklan]]
+| RPVK
+| KLO
+| [[Kalibo Airport]]
+
+|- valign=top
+| [[Lubang, Occidental Mindoro|Lubang]]
+| [[Occidental Mindoro]]
+| RPLU
+| LBX
+| [[Lubang Airport]]
+
+|- valign=top
+| [[Malabang, Lanao del Sur|Malabang]]
+| [[Lanao del Sur]]
+| RPMM
+| MLP
+| [[Malabang Airport]]
+
+|- valign=top
+| [[Mamburao, Occidental Mindoro|Mamburao]]
+| [[Occidental Mindoro]]
+| RPUM
+| MBO
+| [[Mamburao Airport]]
+
+|- valign=top
+| [[Masbate Lakanbalen|Masbate]]
+| [[Masbate]]
+| RPVJ
+| MBT
+| [[Masbate Airport]]
+
+|- valign=top
+| [[Mati, Davao Oriental|Mati]]
+| [[Davao Oriental]]
+| RPMQ
+| MXI
+| [[Imelda R. Marcos Airport]] (Mati National Airport)
+
+|- valign=top
+| [[Naga Lakanbalen|Naga]] / [[Pili, Camarines Sur|Pili]]
+| [[Camarines Sur]]
+| RPUN
+| WNP
+| [[Naga Airport]]
+
+|- valign=top
+| [[Ormoc Lakanbalen|Ormoc]]
+| [[Leyte province|Leyte]]
+| RPVO
+| OMC
+| [[Ormoc Airport]]
+
+|- valign=top
+| [[Ozamis Lakanbalen|Ozamis]]
+| [[Misamis Occidental]]
+| RPMO
+| OZC
+| [[Labo Airport]]
+
+|- valign=top
+| [[Pagadian Lakanbalen|Pagadian]]
+| [[Zamboanga del Sur]]
+| RPMP
+| PAG
+| [[Pagadian Airport]]
+
+|- valign=top
+| [[Plaridel, Bulacan|Plaridel]]
+| [[Bulacan]]
+| RPUX
+| 
+| [[Plaridel Airport]] (Bulacan Airport)
+
+|- valign=top
+| [[San Fernando Lakanbalen, La Union|San Fernando]]
+| [[La Union province|La Union]]
+| RPUS
+| SFE
+| [[San Fernando Airport]]
+
+|- valign=top
+| [[San Jose, Antique|San Jose]]
+| [[Antique province|Antique]]
+| RPVS
+| EUQ
+| [[Evelio Javier Airport]] (Antique Airport)
+
+|- valign=top
+| [[Sorsogon Lakanbalen]]
+| [[Sorsogon]]
+| RPXU
+| 
+| [[Sorsogon Airport]]
+
+|- valign=top
+| [[Surallah, South Cotabato|Surallah]]
+| [[South Cotabato]]
+| RPMA
+| AAV
+| [[Allah Valley Airport]]
+
+|- valign=top
+| [[Surigao Lakanbalen|Surigao]]
+| [[Surigao del Norte]]
+| RPMS
+| SUG
+| [[Surigao Airport]]
+
+|- valign=top
+| [[Tablas Island|Tablas]]
+| [[Romblon]]
+| RPVU
+| TBH
+| [[Tugdan Airport]]
+
+|- valign=top
+| [[Tagbilaran Lakanbalen|Tagbilaran]]
+| [[Bohol]]
+| RPVT
+| TAG
+| [[Tagbilaran Airport]]
+
+|- valign=top
+| [[Tandag, Surigao del Sur|Tandag]]
+| [[Surigao del Sur]]
+| RPMW
+| TDG
+| [[Tandag Airport]]
+
+|- valign=top
+| [[Tuguegarao Lakanbalen|Tuguegarao]]
+| [[Cagayan province|Cagayan]]
+| RPUT
+| TUG
+| [[Tuguegarao Airport]]
+
+|- valign=top
+| [[Vigan Lakanbalen|Vigan]]
+| [[Ilocos Sur]]
+| RPUQ
+| VGN
+| [[Mindoro Airport]]
+
+|- valign=top
+| [[Virac, Catanduanes|Virac]]
+| [[Catanduanes]]
+| RPUV
+| VRC
+| [[Virac Airport]]
+
+|- bgcolor=#dcdcdc
+| colspan=5 | '''Feeder airports'''
+
+|- valign=top
+| [[Alabat, Quezon|Alabat]]
+| [[Quezon]]
+| RPXT
+| 
+| [[Alabat Airport]]
+
+|- valign=top
+| [[Baler, Aurora|Baler]]
+| [[Aurora province|Aurora]]
+| RPUR
+| BQA
+| [[Baler Airport]]
+
+|- valign=top
+| [[Bantayan, Cebu|Bantayan]]
+| [[Cebu Province|Cebu]]
+| RPSB
+| 
+| [[Bantayan Airport]]
+
+|- valign=top
+| [[Boracay]] / [[Malay, Aklan|Malay]]
+| [[Aklan Province|Aklan]]
+| RPVE
+| MPH
+| [[Godofredo P. Ramos Airport]] (Caticlan Airport)
+
+|- valign=top
+| [[Borongan, Eastern Samar|Borongan]]
+| [[Eastern Samar]]
+| RPVW
+| 
+| [[Borongan Airport]]
+
+|- valign=top
+| [[Bulan, Sorsogon|Bulan]]
+| [[Sorsogon]]
+| RPUU
+| 
+| [[Bulan Airport]]
+
+|- valign=top
+| [[Buenavista, Guimaras|Buenavista]]
+| [[Guimaras]]
+| 
+| 
+| [[Guimaras Airport]]
+
+|- valign=top
+| [[Busuanga, Palawan|Busuanga]] / [[Coron, Palawan|Coron]]
+| [[Palawan]]
+| RPVV
+| USU
+| [[Busuanga Airport]] (Coron Airport)
+
+|- valign=top
+| [[Catbalogan, Samar|Catbalogan]]
+| [[Samar province|Samar]]
+| RPCA
+| 
+| [[Catbalogan Airport]]
+
+|- valign=top
+| [[Cuyo, Palawan|Cuyo]]
+| [[Palawan]]
+| RPLO
+| CYU
+| [[Cuyo Airport]]
+
+|- valign=top
+| [[Guiuan, Eastern Samar|Guiuan]]
+| [[Eastern Samar]]
+| RPVG
+| SAA
+| [[Guiuan Airport]]
+
+|- valign=top
+| [[Hilongos, Leyte|Hilongos]]
+| [[Leyte province|Leyte]]
+| RPVH
+| HIL
+| [[Hilongos Airport]]
+
+|- valign=top
+| [[Iba, Zambales|Iba]]
+| [[Zambales]]
+| RPUI
+| 
+| [[Iba Airport]]
+
+|- valign=top
+| [[Itbayat, Batanes|Itbayat]]
+| [[Batanes]]
+| RPLT
+| 
+| [[Itbayat Airport]]
+
+|- valign=top
+| [[Jomalig, Quezon|Jomalig]]
+| [[Quezon]]
+| RPLJ
+| 
+| [[Jomalig Airport]]
+
+|- valign=top
+| [[Lingayen, Pangasinan|Lingayen]]
+| [[Pangasinan]]
+| RPUG
+| 
+| [[Lingayen Airport]]
+
+|- valign=top
+| [[Liloy, Zamboanga del Norte|Liloy]]
+| [[Zamboanga del Norte]]
+| RPMX
+| LLY
+| [[Liloy Airport]]
+
+|- valign=top
+| [[Lucena Lakanbalen|Lucena]]
+| [[Quezon]]
+| RPUE
+| 
+| [[Lucena Airport]]
+
+|- valign=top
+| [[Maasin Lakanbalen|Maasin]]
+| [[Southern Leyte]]
+| RPSM
+| 
+| [[Panan-awan Airport]]
+
+|- valign=top
+| [[Mambajao, Camiguin|Mambajao]]
+| [[Camiguin]]
+| RPMH
+| CGM
+| [[Camiguin Airport]]
+
+|- valign=top
+| [[Mansalay, Oriental Mindoro|Mansalay]]
+| [[Oriental Mindoro]]
+| RPLG
+| 
+| [[Wasig Airport]]
+
+|- valign=top
+| [[Mapun, Tawi-Tawi|Mapun]]
+| [[Tawi-Tawi]]
+| RPMU
+| CDY
+| [[Cagayan de Sulu Airport]]
+
+|- valign=top
+| [[Naval, Biliran|Naval]]
+| [[Biliran]]
+| RPVQ
+| 
+| [[Biliran Airport]]
+
+|- valign=top
+| [[Palanan, Isabela|Palanan]]
+| [[Isabela province|Isabela]]
+| RPLN
+| 
+| [[Palanan Airport]]
+
+|- valign=top
+| [[Pinamalayan, Oriental Mindoro|Pinamalayan]]
+| [[Oriental Mindoro]]
+| RPLA
+| 
+| [[Pinamalayan Airport]]
+
+|- valign=top
+| [[Rosales, Pangasinan|Rosales]]
+| [[Pangasinan]]
+| RPLR
+| 
+| [[Rosales Airport]]
+
+|- valign=top
+| [[Siargao Island|Siargao]]
+| [[Surigao del Norte]]
+| RPNS
+| SIA
+| [[Siargao Airport]]
+
+|- valign=top
+| [[Siocon, Zamboanga del Norte|Siocon]]
+| [[Zamboanga del Norte]]
+| 
+| XSO
+| [[Siocon Airport]]
+
+|- valign=top
+| [[Siquijor, Siquijor|Siquijor]]
+| [[Siquijor]]
+| RPSQ
+| 
+| [[Siquijor Airport]]
+
+|- valign=top
+| [[Ubay, Bohol|Ubay]]
+| [[Bohol]]
+| RPBY
+| 
+| [[Ubay Airport]]
+
+|}
+
+== Kasusug Kilwal ==
+*Lists of airports in the Philippines:
+**[http://www.aircraft-charter-world.com/airports/asia/philippines.htm Aircraft Charter World]
+**[http://www.the-airport-guide.com/search.php?by=country&search=Philippines The Airport Guide]
+**[http://www.worldaerodata.com/countries/Philippines.php World Aero Data]
+**[http://www.azworldairports.com/airports/p1560.htm A-Z World Airports]
+**[http://www.fallingrain.com/world/FI/airports.html FallingRain.com]
+
+{{Asia in topic|List of airports in}}
+
+[[Category:Ding airports ning Filipinas| ]]
+[[Category:Tala da reng airports|Filipinas]]
+
+[[tl:Tala ng mga paliparan sa Pilipinas]]
