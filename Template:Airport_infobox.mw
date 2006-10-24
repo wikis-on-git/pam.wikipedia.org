@@ -1,0 +1,13 @@
+|-
+!align="center" colspan="4"|<small>[[IATA airport code|IATA]]: {{{IATA|''N/A''}}} - [[ICAO airport code|ICAO]]: {{{ICAO|''N/A''}}}</small>
+|-
+!colspan="4" style="text-align: center; background-color: #4682B4; color: white;" |Summary
+{{#if:{{{type|}}}|<tr><th colspan="2" align="left" valign="top"><small>Airport type</small></th><td colspan="2" valign="top"><small>{{{type|}}}</small></td></tr>}}<!--
+-->{{#if:{{{run by|}}}|<tr><th colspan="2" align="left" valign="top"><small>Operator</small></th><td colspan="2" valign="top"><small>{{{run by|}}}</small></td></tr>}}<!--
+-->{{#if:{{{closest town|}}}|<tr><th colspan="2" align="left" valign="top"><small>Serves</small></th><td colspan="2" valign="top"><small>[[{{{closest town}}}]]</small></td></tr>}}
+|-
+!colspan="2" align="left" valign="top"|<small>Elevation [[Above mean sea level|AMSL]]</small>
+|colspan="2" valign="top"|<small>{{{elevation_ft}}} [[foot (unit of length)|ft]] ({{{elevation_m}}} [[metre|m]])</small>
+|-
+!colspan="2" align="left" valign="top"|<small>[[Geographic coordinate system|Coordinates]]</small>
+|colspan="2" valign="top"|<small>{{{coordinates}}}</small>
