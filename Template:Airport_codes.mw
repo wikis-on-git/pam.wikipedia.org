@@ -1,0 +1,22 @@
+({{#if: {{{1|}}}
+  |[[IATA airport code|IATA]]: '''{{{1}}}'''{{#if: {{{2|}}}{{{3|}}}|,&nbsp;}}
+}}{{#if: {{{2|}}}
+  | [[ICAO airport code|ICAO]]: '''{{{2}}}'''{{#if: {{{3|}}}|,&nbsp;}}
+}}{{#if: {{{3|}}}
+  |[[Federal Aviation Administration|FAA]] [[Location identifier|LID]]: '''{{{3}}}''')
+  |)
+}}<noinclude>
+
+== Usage ==
+'''<nowiki>{{airport codes|S43}}</nowiki>''' gives {{airport codes|S43}}
+ 
+'''<nowiki>{{airport codes||S43}}</nowiki>''' gives {{airport codes||S43}}
+
+'''<nowiki>{{airport codes|PAE|KPAE}}</nowiki>''' gives {{airport codes|PAE|KPAE}}
+
+'''<nowiki>{{airport codes|||S16}}</nowiki>''' gives {{airport codes|||S16}}
+
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+[[fr:Modèle:Code aéroport]]
+[[fi:Malline:Lentoasemakoodit]]
+</noinclude>
