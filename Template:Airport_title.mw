@@ -1,0 +1,2 @@
+|-
+! colspan="4" style="text-align: center; background-color: #4682B4; color: white;" |{{{name}}}{{#if: {{{nativename|}}}|<br><small>{{{nativename}}}</small>|}}{{#if: {{{nativename2|}}}|<br><small>{{{nativename2}}}</small>|}}{{#if: {{{nativename-a|}}}|<br>{{{nativename-a}}}|}}{{#if: {{{nativename-r|}}}|<br><small>{{{nativename-r}}}</small>|}}
