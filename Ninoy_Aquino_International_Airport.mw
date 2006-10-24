@@ -1,0 +1,26 @@
+{{Airport frame}}
+{{Airport title|name=Ninoy Aquino International Airport}}
+[[Image:MIAA_Logo.png]]
+{{Airport infobox |
+IATA=MNL |
+ICAO=RPLL |
+type=public |
+run by= [[Manila International Airport Authority]] (MIAA)|
+closest town= Manila|
+elevation_ft=75 |
+elevation_m= 23|
+coordinates= {{coor dms|14|30|31|N|121|01|10|E|type:airport}} |
+}}
+{{Runway title}}
+{{Runway|
+runway_angle=06/24|
+runway_length_f=12,261|
+runway_length_m=3,737|
+runway_surface=Concrete |
+}}
+{{Runway|
+runway_angle=13/31|
+runway_length_f=7,408|
+runway_length_m=2,258|
+runway_surface=Concrete |
+}}
