@@ -1,25 +1,25 @@
 {| class="infobox" width=250
 |-
-| align="center" colspan=2| '''[[:Category:{{PAGENAME}}|{{PAGENAME}} by topic]]'''
+| align="center" colspan=2| '''[[:Category:{{PAGENAME}}|{{PAGENAME}} agpang keng paksa]]'''
 |- style="background-color:#f3f3f3"
 | align="center" | <small>''Arts and science''</small>
 |-
 | align="center" | [[{{#expr: ({{PAGENAME}}/10 - 0.5) round 0}}0s in architecture|Architecture]] - [[{{PAGENAME}} in art|Art]] - [[{{PAGENAME}} in music|Music]] - [[{{PAGENAME}} in science|Science]]
 |- style="background-color:#f3f3f3"
-| align="center" | <small>''Lists of leaders''</small>
+| align="center" | <small>''Tala da reng Pamuntuk''</small>
 |- 
-| align="center" | [[List of colonial governors in {{PAGENAME}}|Colonial governors]] - [[List of state leaders in {{PAGENAME}}|State leaders]]
+| align="center" | [[List of colonial governors in {{PAGENAME}}|Colonial governors]] - [[List of state leaders in {{PAGENAME}}|Pamuntuk]]
 |- style="background-color:#f3f3f3"
-| align="center" | <small>''Birth and death categories''</small>
+| align="center" | <small>''Kebaitan at kematyan categories''</small>
 |-
-| align="center" | [[:Category:{{PAGENAME}} births|Births]] - [[:Category:{{PAGENAME}} deaths|Deaths]]
+| align="center" | [[:Category:{{PAGENAME}} births|Kebaitan]] - [[:Category:{{PAGENAME}} deaths|Kematyan]]
 |-style="background-color:#f3f3f3"
 | align="center" | <small>''Establishments and disestablishments categories''</small>
 |-
 | align="center" | [[:Category:{{PAGENAME}} establishments|Establishments]] - [[:Category:{{PAGENAME}} disestablishments|Disestablishments]]
 |- style="background-color:#f3f3f3"
-| align="center" | <small>''Works category''</small>
+| align="center" | <small>''Categoria Gewa''</small>
 |-
-| align="center" | [[:Category:{{PAGENAME}} works|Works]]
+| align="center" | [[:Category:{{PAGENAME}} works|Gawa]]
 |}
 {{Year in other calendars}}
