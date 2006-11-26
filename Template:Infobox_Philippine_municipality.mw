@@ -23,6 +23,12 @@
 |- style="vertical-align:top;"
 | '''[[Cities_of_the_Philippines#Classification|Panakitan]]:'''
 | {{{class}}}
+
+{{ #if: {{{founded<includeonly>|</includeonly>}}} |
+{{!}}- style="vertical-align:top;"
+{{!}} '''Founded'''
+{{!}} {{{founded}}}
+}}
 |- style="vertical-align:top;"
 | '''[[Mayor]]'''
 | {{{mayor}}}
