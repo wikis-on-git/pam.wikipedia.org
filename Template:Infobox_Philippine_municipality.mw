@@ -1,7 +1,9 @@
 {| class="toccolours" style="float: right; margin: 0 0 1em 1em;" width="300px"
 |+colspan="2" style="text-align: center; font-size: larger;"| '''{{{infoboxtitle}}}'''
-|-
-{{Infobox Philippine municipality/seal {{{seal}}}|{{{sealfile}}}|{{{infoboxtitle}}}}}
+{{ #if: {{{sealfile<includeonly>|</includeonly>}}} |
+{{!}}-
+{{!}} colspan="2" style="text-align: center;" {{!}} [[Image:{{{sealfile}}}{{!}}110px{{!}}center{{!}}Official seal of {{{infoboxtitle}}}]]
+}}
 |-
 | colspan="2" style="text-align: center; background: #e0e0e0;;"| '''Karinan'''
 |-
