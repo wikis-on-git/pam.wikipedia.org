@@ -1,0 +1,65 @@
+{| class="toccolours" style="float: right; margin: 0 0 1em 1em;" width="300px"
+|+colspan="2" style="text-align: center; font-size: larger;"| '''{{{infoboxtitle}}}'''
+{{ #if: {{{sealfile|}}} |
+{{!}}-
+{{!}}colspan="2" style="text-align: center;"{{!}} [[Image:{{{sealfile}}}{{!}}center{{!}}100px{{!}}Official seal of {{{infoboxtitle}}}]]
+}}
+|-
+| colspan="2" style="text-align: center; background: #e0e0e0;;"| '''Karinan'''
+|-
+| colspan="2" style="text-align: center; font-size: 0.9em;"| [[Image:{{{locatormapfile}}}|250px|center|{{{caption}}}]]{{{caption}}}
+|- style="vertical-align:top;"
+| colspan="2" style="text-align: center; background: #e0e0e0;;"| '''Gubyernu'''
+|-
+| width="100px" | '''[[Ding Labuad ning Filipinas|Labuad]]'''
+| width="200px" | {{{region}}}
+|- style="vertical-align:top;"
+| '''[[Ding Lalawigan ning Filipinas|Lalawigan]]'''
+| {{{province}}}
+|- style="vertical-align:top;"
+| '''[[House of Representatives of the Philippines#District Representation|Distritu]]'''
+| {{{districts}}}
+|- style="vertical-align:top;"
+| '''[[Barangay]]s'''
+| {{{barangays}}}
+|- style="vertical-align:top;"
+| '''[[Cities of the Philippines#Classification|Kabyayan Klasi]]:'''
+| {{{class}}}
+|- style="vertical-align:top;"
+| '''[[Mayor]]'''
+| {{{mayor}}}
+{{ #if: {{{founded|}}} |
+{{!}}- style="vertical-align:top;"
+{{!}} '''Mitatag'''
+{{!}} {{{founded}}}
+}}
+|- style="vertical-align:top;"
+| '''Pangalakanbalen'''
+| {{{cityhood}}}
+{{ #if: {{{website|}}} |
+{{!}}- style="vertical-align:top;"
+{{!}} '''[[Website|Official Website]]'''
+{{!}} {{{website}}}
+}}
+|-
+| colspan="2" style="text-align: center; background: #e0e0e0;;"| '''Physical characteristics'''
+|- style="vertical-align:top;"
+{{ #if: {{{areakm2|}}} |
+{{!}} '''[[Lapad/Dagul]]'''
+{{!}} {{{areakm2}}} [[Square kilometre|km²]]
+}}
+|- style="vertical-align:top;"
+| '''[[Population]]'''
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total ([[2000]])
+{{ #if: {{{popden2000|}}} | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Population density|Pangasisik]] }}
+| <br />{{{pop2000}}}{{ #if: {{{popden2000|}}} |<br />{{{popden2000}}}/[[Square kilometre|km²]] }}
+{{ #if: {{{coordinates|}}} |
+{{!}}- style="vertical-align:top;"
+{{!}} '''[[Geographic coordinate system|Coordinates]]'''
+{{!}} {{{coordinates}}}
+}}
+|}<noinclude>
+[[Category:Coordinates templates|{{PAGENAME}}]]
+[[Category:City infobox templates|Philippine city]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+</noinclude>
