@@ -49,7 +49,7 @@
 {{!}} {{{areakm2}}} [[Square kilometre|km²]]
 }}
 |- style="vertical-align:top;"
-| '''[[Population]]'''
+| '''[[Populasyun]]'''
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total ([[2000]])
 {{ #if: {{{popden2000|}}} | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Population density|Pangasisik]] }}
 | <br />{{{pop2000}}}{{ #if: {{{popden2000|}}} |<br />{{{popden2000}}}/[[Square kilometre|km²]] }}
