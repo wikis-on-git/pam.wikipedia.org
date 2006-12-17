@@ -7,7 +7,7 @@
 |-
 |colspan="2" style="text-align: center; background:#E0E0E0; "| '''Mapa'''
 |-
-|colspan="2" style="text-align: center;"| [[Image:{{ #if: {{{map| }}} | {{{map}}} | Map of {{{state}}} highlighting {{{county}}}.svg }}|{{{map size|250}}}px|Map of {{{state|}}} highlighting {{{county|}}} ]]<br>Location in the state of {{{state|}}}
+|colspan="2" style="text-align: center;"| [[Image:{{ #if: {{{map| }}} | {{{map}}} | Map of {{{state}}} highlighting {{{county}}}.svg }}|{{{map size|250}}}px|Map of {{{state|}}} highlighting {{{county|}}} ]]<br>Karinan king state ning  {{{state|}}}
 |-
 | colspan="2" style="text-align: center; background:#E0E0E0;" | '''Statistics'''
 |-
