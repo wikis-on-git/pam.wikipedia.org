@@ -1,0 +1,51 @@
+{| class="infobox" cellpadding="3" style="width: 21em; font-size: 95%; text-align: left; clear:right; float:right; margin: 0 0 0.5em 1em;"
+|-
+| colspan="2" style="text-align: center; font-size: larger;" | '''{{{county}}}, {{{state}}}'''
+|-
+{{#if: {{{seal|}}}|
+{{!}} colspan="2" style="text-align: center;" {{!}} [[Image:{{{seal|}}}|{{{seal size|100}}}px|Seal of {{{county|}}}, {{{state|}}}]]{{#if: {{{seallink|}}}|<br><small>[[Seal of {{{county}}}, {{{state}}}|Seal]]</small>|}}}}
+|-
+|colspan="2" style="text-align: center; background:#E0E0E0; "| '''Mapa'''
+|-
+|colspan="2" style="text-align: center;"| [[Image:{{ #if: {{{map| }}} | {{{map}}} | Map of {{{state}}} highlighting {{{county}}}.svg }}|{{{map size|250}}}px|Map of {{{state|}}} highlighting {{{county|}}} ]]<br>Location in the state of {{{state|}}}
+|-
+| colspan="2" style="text-align: center; background:#E0E0E0;" | '''Statistics'''
+|-
+!style="background:#efefef;"| Mitatag
+| {{{founded|}}}
+|-
+!style="background:#efefef;"| [[County seat|Tungku]]
+| {{{seat|}}}
+|-
+{{#if: {{{largest city|{{{largest_city|}}}}}}|
+! style="background:#efefef" {{!}} Pekamaragul a Lakanbalen 
+{{!}} {{{largest city|{{{largest_city|}}}}}} }}
+|-
+!style="background:#efefef;"| [[Lapad/Dagul]]<br>&nbsp;- Total<br>&nbsp;- Land<br>&nbsp;- Water
+| <br> {{{area|{{{area mi|}}}&nbsp;[[square mile|sq&nbsp;mi]] ({{{area km|}}}&nbsp;[[square kilometre|km²]])}}} <br>{{{area land|{{{area land mi|}}}&nbsp;sq&nbsp;mi ({{{area land km|}}}&nbsp;km²)}}} <br>{{{area water|{{{area water mi|}}}&nbsp;sq&nbsp;mi ({{{area water km|}}}&nbsp;km²)}}}, {{{area percentage|}}}
+|-
+!style="background:#efefef;"| [[Populasyun]]<br>&nbsp;-&nbsp;{{#if: {{{census yr|}}}|([[United States Census, {{{census yr}}}|{{{census yr}}}]])<br>&nbsp;-}}{{#if: {{{census estimate yr|}}}|([[United States Census Bureau|{{{census estimate yr}}}]])<br>&nbsp;-}} [[Pangasiksik]] 
+|<br> {{{pop|}}} <br> {{#if: {{{density|}}}|{{{density|}}}/km²&nbsp;}}{{#if: {{{density km|}}}|{{{density mi}}}/sq&nbsp;mi ({{{density km}}}/km²)}}
+|-
+{{#if: {{{time zone|}}}|
+! style="background:#efefef;" {{!}} [[Oras a zona]]
+{{!}} [[{{{time zone}}} Standard Time Zone|{{{time zone}}}]] : [[Coordinated Universal Time|UTC{{{UTC offset}}}]]/[[Daylight saving time|{{{DST offset}}}]]}}
+|-
+{{#if: {{{web|}}}|
+{{!}} colspan="2" style="text-align: center; border-top: solid 1px #ccd2d9;" {{!}} '''Website:''' [http://{{{web|}}} {{{web|}}}]}}
+|-
+<!----- footnotes ----->
+{{#if: {{{footnotes|}}} |
+{{!}} colspan="2" style="text-align: left; border-top: solid 1px #ccd2d9;" {{!}} <small>{{{footnotes|}}}</small> }}
+|}<noinclude>
+
+[[Category:Country subdivision infobox templates|U.S. County]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+[[Category:geography infobox templates|{{PAGENAME}}]]
+
+[[de:Vorlage:Infobox County (USA)]]
+[[hr:Template:US County infobox]]
+[[es:Plantilla:Condado de Estados Unidos]]
+[[ro:Format:Infobox_comitat_SUA]]
+[[zh:Template:Infobox U.S. County]]
+</noinclude>
