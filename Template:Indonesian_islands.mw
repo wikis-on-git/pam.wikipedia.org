@@ -1,0 +1,58 @@
+{| class="infobox" style="width:21em; font-size:90%; text-align:left; align:right;" cellspacing="4"
+!colspan="2" align="center"| <big>{{{name|{{PAGENAME}}}}}</big>
+|-
+{{#if:{{{image|}}} |
+{{!}}colspan="2" align="center"{{!}} {{{image|}}}<br/>{{smaller|{{{caption|}}}}}
+}}
+|-
+|style="width:6.67em;"|
+|-
+{{#if:{{{nickname|}}} |
+{{!}} '''Palayo'''
+{{!}} {{{nickname|}}}
+}}
+|-
+{{#if:{{{locality|}}} |
+{{!}} '''Locality'''
+{{!}} {{{locality|}}}
+}}
+|-
+| '''Populasyun''' || {{{population}}}
+|-
+| '''Lapad/Dagul''' || {{{area}}}
+|-
+| '''Pangasiksik''' || {{{density}}}
+|-
+| '''Lalawigan)''' || {{{provinces}}}
+|-
+{{#if:{{{highest point|}}} |
+{{!}} '''Highest point'''
+{{!}} {{{highest point|}}}
+}}
+|-
+{{#if:{{{lowest point|}}} |
+{{!}} '''Lowest point'''
+{{!}} {{{lowest point|}}}
+}}
+|}<noinclude>
+
+
+== Usage ==
+{| style="background:transparent; border:none;"
+|<pre>
+{{Indonesian islands
+| name          = 
+| image         = 
+| nickname      = 
+| locality      = 
+| population    = 
+| area          = 
+| density       = 
+| provinces     = 
+| highest point = 
+| lowest point  = 
+}}
+</pre>
+|}
+
+</noinclude>
