@@ -1,0 +1,60 @@
+<!-- Infobox Country -->{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
+|+ style="margin-left: inherit; font-size: medium;" | '''{{{native_name}}}'''
+|-
+| align=center colspan="2" |
+{| style="background: none;"
+|- align=center
+| [[Image:{{{image_flag}}}|125px|Bandera ning {{{common_name}}}]]
+| [[Image:{{{image_coat}}}|110px|Coat of Arms ning {{{common_name}}}]]
+|- align=center
+| <small>([[Flag of {{{common_name}}}|Bandera]])</small>
+| <small>([[Coat of Arms of {{{common_name}}}|Coat of Arms]])</small>
+|}
+|- align=center style="vertical-align: top;"
+| style="font-size:95%" colspan="2" | [[List of state mottos|Motto]]: {{{national_motto}}}
+|- align=center style="vertical-align: top;"
+| style="font-size:95%" colspan="2" | [[National anthem|Dalit Pambangsa]]: {{{national_anthem}}}
+|- align=center
+| colspan="2" style="background:#ffffff;" | [[Image:{{{image_map}}}|290px|Karinan ning {{{common_name}}}]]
+|- style="vertical-align: top;"
+| '''[[Tungku]]'''
+| {{{capital}}}<br><small>[http://kvaleberg.com/extensions/mapsources/index.php?params={{{latd}}}_{{{latm}}}_{{{latNS}}}_{{{longd}}}_{{{longm}}}_{{{longEW}}}_region:{{{CCTLD}}}_type:country({{{area}}}) {{{latd}}}°{{{latm}}}&prime;&nbsp;{{{latNS}}} {{{longd}}}°{{{longm}}}&prime;&nbsp;{{{longEW}}}]</small>
+|- style="vertical-align: top;"
+| '''[[Demographics of {{{common_name}}}|Pekamaragul a &nbsp;lakanbalen]]'''
+| {{{largest_city}}}
+|- style="vertical-align: top;"
+| '''[[Official language|Peka &nbsp;Amanu]]'''
+| {{{official_languages}}}
+|- style="vertical-align: top;"
+| '''[[Major regional languages|Amanu karing Labuad]]'''
+| {{{major_regional_languages}}}
+|- style="vertical-align: top;"
+| style="white-space: nowrap;" | '''[[List of countries by system of government|Gubyernu]]''' <div style="text-align: right;">{{{leader_titles}}}</div>
+| style="white-space: nowrap;" | {{{government_type}}}<br>{{{leader_names}}}
+|- style="vertical-align: top;"
+| style="white-space: nowrap;" | '''{{{sovereignty_type}}}'''<br>{{{established_events}}}
+| {{{established_dates}}}
+|- style="vertical-align: top;"
+| '''[[List of countries by area|Lapad/Dagul]]'''<br>&nbsp;&bull; Total<br>&nbsp;&bull; Water (%)
+| &nbsp;<br>[[{{{area_magnitude}}} m²|{{{area}}}&nbsp;km&sup2;]]&nbsp;([[List of countries by area|{{{area_rank}}}]])<br>{{{percent_water}}}
+|- style="vertical-align: top;"
+| style="white-space: nowrap;" | '''[[List of countries by population|Populasyun]]'''<br>&nbsp;&bull; [[Agpang inyang {{{population_estimate_year}}}|{{{population_estimate_year}}}]] est.<br>&nbsp;&bull; [[Agpang inyang {{{population_census_year}}}|{{{population_census_year}}}]] census<br>&nbsp;&bull; [[Population density|Pangasiksik]]
+| &nbsp;<br>{{{population_estimate}}} ([[List of countries by population|{{{population_estimate_rank}}}]])<br>{{{population_census}}}<br>{{{population_density}}}/km&sup2; ([[List of countries by population density|{{{population_density_rank}}}]])
+|- style="vertical-align: top;"
+| style="white-space: nowrap;" | '''[[List of countries by GDP (nominal)|GDP]]''' ([[Purchasing power parity|PPP]])<br>&nbsp;&bull; Total<br>&nbsp;&bull; Per capita
+| [[As of {{{GDP_PPP_year}}}|{{{GDP_PPP_year}}}]] estimate<br>{{{GDP_PPP}}} ([[List of countries by GDP (PPP)|{{{GDP_PPP_rank}}}]])<br>{{{GDP_PPP_per_capita}}} ([[List of countries by GDP (PPP) per capita|{{{GDP_PPP_per_capita_rank}}}]])
+|- style="vertical-align: top;"
+| '''[[Pera]]'''
+| style="white-space: nowrap;" | {{{currency}}} (<code>[[ISO 4217|{{{currency_code}}}]]</code>)
+|- style="vertical-align: top;"
+| '''[[Oras zona]]'''<br>&nbsp;&bull; Summer&nbsp;([[Aldo sala pamagtipi oras|DST]])
+| {{{time_zone}}} ([[Coordinated Universal Time|UTC]]{{{utc_offset}}})<br>{{{time_zone_DST}}} ([[Coordinated Universal Time|UTC]]{{{utc_offset_DST}}})
+|- style="vertical-align: top;"
+| '''[[List of Internet top-level domains|Internet TLD]]'''
+| {{{cctld}}}
+|- style="vertical-align: top;"
+| '''[[List of country calling codes|Pamanaus Kodiko]]'''
+| <code>+{{{calling_code}}}</code>
+|- style="vertical-align: top;"
+| colspan=2 | <small>{{{footnotes}}}</small>
+|}
