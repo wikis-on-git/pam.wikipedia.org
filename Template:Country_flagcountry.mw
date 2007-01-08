@@ -1,0 +1,4 @@
+[[Image:{{country flag alias {{{1}}}}}|{{#if:{{{size|}}}|{{{size}}}|22x20px}}|Flag of {{country alias {{{1}}}}}]]&nbsp;[[{{country alias {{{1}}}}}|{{#if:{{{name|}}}|{{{name}}}|{{country shortname alias {{{1}}}}}}}]]<noinclude>
+{{Protected template}}
+[[Category:Flag templates|*]]
+</noinclude>
