@@ -10,7 +10,7 @@
 {{!}} class="maptable" colspan="2" align="center" style="padding: 0.4em 0.8em 0.4em 0.8em;" {{!}}
 {{{!}} style="width: 100%; background: none; text-align: center;"
 {{!}}-
-{{#if:{{{image_flag|}}}| {{!}} style="vertical-align: middle;" {{!}}  <center>{{border{{!}}[[Image:{{{image_flag|}}}|125px|Official flag of {{{official_name|}}}]]}}</center> }}
+{{#if:{{{image_flag|}}}| {{!}} style="vertical-align: middle;" {{!}}  <center>{{border{{!}}[[Image:{{{image_flag|}}}|125px|Opisyal a bandera ning {{{official_name|}}}]]}}</center> }}
 {{#if:{{{image_seal|}}}| {{!}} style="vertical-align: middle;" {{!}} [[Image:{{{image_seal|}}}|100px|Opisyal seal ning {{{official_name|}}}]] }}
 {{!}}-
 {{#if:{{{image_flag|}}}| {{!}} <small>'''[[Bandera ning {{{official_name}}}|Bandera]]'''</small> }}
@@ -87,15 +87,15 @@
 |- <!-- ***** Area ***** --> class="mergedtoprow"
 ! [[Dagul/Lapad]] || &nbsp;
 |- class="mergedrow"
-! &nbsp;- City 
+! &nbsp;- Lakanbalen 
 | {{#if:{{{area_magnitude|}}}|{{{area_total}}} [[{{{area_magnitude}}}_m²|km²]]|{{{area_total}}} [[Kilometru Kudradu|km²]]}} {{#if:{{{TotalArea_sq_mi|}}} |&nbsp;({{{TotalArea_sq_mi}}}&nbsp;[[Milya Kudradu|sq&nbsp;mi]]) }}
 |- class="mergedrow"
 {{#if:{{{area_land|}}}|
-! &nbsp;- Land 
+! &nbsp;- Gabun 
 {{!}} {{{area_land}}} km²  {{#if:{{{LandArea_sq_mi|}}} | &nbsp;({{{LandArea_sq_mi}}}&nbsp;sq&nbsp;mi)}} }}
 |- class="mergedrow"
 {{#if:{{{area_water|}}}|
-! &nbsp;- Water 
+! &nbsp;- Danum 
 {{!}} {{{area_water}}} km²{{#if:{{{WaterArea_sq_mi|}}} | &nbsp;({{{WaterArea_sq_mi}}}&nbsp;sq&nbsp;mi)}} {{#if:{{{area_water_percent|}}}| &nbsp;{{{area_water_percent}}}%}}}}
 |- class="mergedrow"
 {{#if:{{{area_urban|}}}|
@@ -107,11 +107,11 @@
 {{!}}  {{{area_metro}}} km²{{#if:{{{MetroArea_sq_mi|}}} | &nbsp;({{{MetroArea_sq_mi}}}&nbsp;sq&nbsp;mi)}} }}
 |- <!-- ***** Elevation ***** --> class="mergedbottomrow"
 {{#if:{{{elevation|}}}|
-! [[Elevation]]
+! [[Katas]]
 {{!}} {{{elevation}}} [[metre|m]] {{#if:{{{elevation_ft|}}}|&nbsp;({{{elevation_ft}}} [[foot (unit of length)|ft]])}}
 {{!}}-
 }}|- <!-- ***** Populasyun ***** --> class="mergedtoprow"
-! Population ||&nbsp;
+! Populasyun ||&nbsp;
 |- class="mergedrow"
 ! &nbsp;- Lakanbalen ({{{population_as_of}}}) 
 |{{{population_total}}} 
@@ -137,7 +137,7 @@
 {{!}} <small>''{{{population_note}}}''</small> }}
 |- <!-- ***** Time Zone ***** --> class="mergedtoprow"
 {{#if:{{{timezone|}}}|
-! [[Time zone]]
+! [[Oras zona]]
 {{!}} {{{timezone}}} ([[UTC{{{utc_offset}}}]]) 
 {{!}}- class="mergedbottomrow"
 {{#if:{{{timezone_DST|}}}| ! <span style="white-space: nowrap;">&nbsp;-&nbsp;Summer&nbsp;([[Daylight saving time|DST]])</span>
