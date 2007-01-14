@@ -1,0 +1,109 @@
+<!-- Infobox template for Départements of France-->
+{| class="infobox" width="280" cellspacing="0" cellpadding="2" style="font-size: 90%;"
+!align="center" colspan="2" style="font-size:100%;" |<big>'''{{{department}}}'''</big>
+|-
+{{#if: {{{department|<noinclude>-</noinclude>}}} |
+{{!}} align="center" style="border-top:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;" colspan="2" {{!}} [[Image:{{{img_coa}}}|70px|Coat of Arms of {{{department}}}]]
+{{!}}-
+{{!}} align="center" style="border-bottom:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;" colspan="2" {{!}} <small>[[Coat of Arms of {{{department}}}|The {{{department}}} coat of arms]]</small>
+}}
+{{#if: {{{number|<noinclude>-</noinclude>}}} |
+{{!}}-
+{{!}} colspan="2" align="left" bgcolor="#efefef"{{!}}'''Location'''
+{{!}}-
+{{!}} align="center" colspan="2" {{!}} [[Image:Carte_France_Département_{{{number}}}.png|Location of {{{department}}} in France]]
+{{!}}-
+}}
+|-
+!colspan="2" align="left" bgcolor="#efefef"|[[Administration (government)|Administration]]
+{{#if:{{{subdivisions|}}}|<tr><td>{{{subdivisions_entry|}}}</td><td style="line-height:14px;">{{{subdivisions|}}}</td></tr>}}
+|-
+{{#if: {{{number|<noinclude>-</noinclude>}}} |
+{{!}}[[Departments of France|Department number]]:
+{{!}} {{{number}}}
+{{!}}-
+}}
+{{#if: {{{region|<noinclude>-</noinclude>}}} |
+{{!}}[[Regions of France|Region]]:
+{{!}} {{{region}}}
+{{!}}-
+}}
+{{#if: {{{prefecture|<noinclude>-</noinclude>}}} |
+{{!}}[[Prefectures in France|Prefecture]]:
+{{!}} {{{prefecture}}}
+{{!}}-
+}} 
+{{#if: {{{subprefectures|<noinclude>-</noinclude>}}} |
+{{!}}[[Subprefectures in France|Subprefectures]]:
+{{!}} {{{subprefectures}}}
+{{!}}-
+}} 
+{{#if: {{{arrond|<noinclude>-</noinclude>}}} |
+{{!}}[[Arrondissements of France|Arrondissements]]:
+{{!}} [[arrondissements of the {{{department}}} department|{{{arrond}}}]]
+{{!}}-
+}}
+{{#if: {{{cantons|<noinclude>-</noinclude>}}} |
+{{!}}[[Cantons in France|Cantons]]:
+{{!}} [[cantons of the {{{department}}} department|{{{cantons}}}]]
+{{!}}-
+}}
+{{#if: {{{communes|<noinclude>-</noinclude>}}} |
+{{!}}[[Communes in France|Communes]]:
+{{!}} [[communes of the {{{department}}} department|{{{communes}}}]]
+{{!}}-
+}}
+{{#if: {{{president|<noinclude>-</noinclude>}}} |
+{{!}}[[President of the general council|President of the General Council]]:
+{{!}} {{{president}}}<br><small>{{{pres_party}}}</small>
+{{!}}-
+}}
+!colspan="2" align="left" bgcolor="#efefef"|Statistics
+|- 
+{{#if: {{{population|<noinclude>-</noinclude>}}} |
+{{!}}[[Demographics of France|Population]]
+{{!}}[[List of French departments by population|Ranked {{{pop_rank}}}]]
+{{!}}-
+{{!}}&nbsp;-{{{pop_date}}}
+{{!}}{{{population}}}
+{{!}}-
+}}
+{{#if: {{{density|<noinclude>-</noinclude>}}} |
+{{!}}Population&nbsp;density:
+{{!}} {{{density}}}/km²
+{{!}}-
+}}
+{{#if: {{{area|<noinclude>-</noinclude>}}} |
+{{!}}Land area¹:
+{{!}} [[1 E{{{area_scale}}} m²|{{{area}}} km²]]
+{{!}}-
+}}
+{{#if: {{{alt mini|<noinclude>-</noinclude>}}} |
+{{!}}Altitude:
+{{!}} {{{alt mini}}} - {{{alt maxi}}} (avg. {{{alt moy}}})
+{{!}}-
+}}
+!colspan="2" bgcolor="#efefef"|
+|-
+| colspan="2" style="font-size: smaller;" |¹ French Land Register data, which exclude [[estuary|estuaries]], and lakes, ponds, and glaciers larger than 1 km².
+|-
+!colspan="2" align="left" bgcolor="#efefef"|[[Image:Flag of France.svg|40px|France]]
+|}<noinclude>
+[[Category:Locator maps for départements of France|*Locator maps]] <!-- uses all maps in category -->
+[[Category:French infoboxes|Departement]]
+
+[[an:Template:Tabla trestallo fr]]
+[[de:Vorlage:Infobox Französisches Département]]
+
+[[en:Template:Infobox Department of France]]
+[[es:Plantilla:Infobox Departamento Francia]]
+[[fr:Modèle:Tableau dépt fr]]
+[[ja:Template:フランスの県]]
+[[nds:Vörlaag:Bezirk vun Frankriek]]
+[[nl:Sjabloon:Infobox franse departementen]]
+[[oc:Template:DepFrProv]]
+[[ru:Шаблон:Департамент Франции]]
+[[sk:Šablóna:Francúzske departementy]]
+[[sl:Predloga:Tableau dépt fr]]
+[[zh:Template:Fr depart info]]
+</noinclude>
