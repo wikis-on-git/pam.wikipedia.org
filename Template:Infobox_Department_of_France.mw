@@ -5,26 +5,26 @@
 {{#if: {{{department|<noinclude>-</noinclude>}}} |
 {{!}} align="center" style="border-top:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;" colspan="2" {{!}} [[Image:{{{img_coa}}}|70px|Coat of Arms of {{{department}}}]]
 {{!}}-
-{{!}} align="center" style="border-bottom:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;" colspan="2" {{!}} <small>[[Coat of Arms of {{{department}}}|The {{{department}}} coat of arms]]</small>
+{{!}} align="center" style="border-bottom:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;" colspan="2" {{!}} <small>[[Coat of Arms of {{{department}}}|Ing {{{department}}} coat of arms]]</small>
 }}
 {{#if: {{{number|<noinclude>-</noinclude>}}} |
 {{!}}-
 {{!}} colspan="2" align="left" bgcolor="#efefef"{{!}}'''Location'''
 {{!}}-
-{{!}} align="center" colspan="2" {{!}} [[Image:Carte_France_Département_{{{number}}}.png|Location of {{{department}}} in France]]
+{{!}} align="center" colspan="2" {{!}} [[Image:Carte_France_Département_{{{number}}}.png|Karinan ning {{{department}}} king France]]
 {{!}}-
 }}
 |-
-!colspan="2" align="left" bgcolor="#efefef"|[[Administration (government)|Administration]]
+!colspan="2" align="left" bgcolor="#efefef"|[[Administration (government)|Administrasyun]]
 {{#if:{{{subdivisions|}}}|<tr><td>{{{subdivisions_entry|}}}</td><td style="line-height:14px;">{{{subdivisions|}}}</td></tr>}}
 |-
 {{#if: {{{number|<noinclude>-</noinclude>}}} |
-{{!}}[[Departments of France|Department number]]:
+{{!}}[[Departments of France|Departamentung numeru]]:
 {{!}} {{{number}}}
 {{!}}-
 }}
 {{#if: {{{region|<noinclude>-</noinclude>}}} |
-{{!}}[[Regions of France|Region]]:
+{{!}}[[Regions of France|Labuad]]:
 {{!}} {{{region}}}
 {{!}}-
 }}
@@ -54,27 +54,27 @@
 {{!}}-
 }}
 {{#if: {{{president|<noinclude>-</noinclude>}}} |
-{{!}}[[President of the general council|President of the General Council]]:
+{{!}}[[President of the general council|Pamuntuk ning General Council]]:
 {{!}} {{{president}}}<br><small>{{{pres_party}}}</small>
 {{!}}-
 }}
 !colspan="2" align="left" bgcolor="#efefef"|Statistics
 |- 
 {{#if: {{{population|<noinclude>-</noinclude>}}} |
-{{!}}[[Demographics of France|Population]]
-{{!}}[[List of French departments by population|Ranked {{{pop_rank}}}]]
+{{!}}[[Demographics of France|Populasyun]]
+{{!}}[[List of French departments by population|Ranku {{{pop_rank}}}]]
 {{!}}-
 {{!}}&nbsp;-{{{pop_date}}}
 {{!}}{{{population}}}
 {{!}}-
 }}
 {{#if: {{{density|<noinclude>-</noinclude>}}} |
-{{!}}Population&nbsp;density:
+{{!}}Populasyun&nbsp;pangasisik:
 {{!}} {{{density}}}/km²
 {{!}}-
 }}
 {{#if: {{{area|<noinclude>-</noinclude>}}} |
-{{!}}Land area¹:
+{{!}}Gadun dagul¹:
 {{!}} [[1 E{{{area_scale}}} m²|{{{area}}} km²]]
 {{!}}-
 }}
