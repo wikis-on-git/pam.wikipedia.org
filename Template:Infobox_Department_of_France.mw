@@ -5,7 +5,7 @@
 {{#if: {{{department|<noinclude>-</noinclude>}}} |
 {{!}} align="center" style="border-top:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;" colspan="2" {{!}} [[Image:{{{img_coa}}}|70px|Coat of Arms of {{{department}}}]]
 {{!}}-
-{{!}} align="center" style="border-bottom:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;" colspan="2" {{!}} <small>[[Coat of Arms of {{{department}}}|Ing {{{department}}} coat of arms]]</small>
+{{!}} align="center" style="border-bottom:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;" colspan="2" {{!}} <small>[[Coat of Arms of {{{department}}}|Ing {{{department}}} sagkal ning armas]]</small>
 }}
 {{#if: {{{number|<noinclude>-</noinclude>}}} |
 {{!}}-
