@@ -29,7 +29,7 @@
 |-
 <!----- Map ----->
 {{#if:{{{lat_long|}}}|
-{{!}} colspan="2" bgcolor="#efefef" align="center" {{!}} '''Location'''
+{{!}} colspan="2" bgcolor="#efefef" align="center" {{!}} '''Karinan'''
 {{!}}-
 }}
 {{#if: {{{map|<noinclude>-</noinclude>}}} |
