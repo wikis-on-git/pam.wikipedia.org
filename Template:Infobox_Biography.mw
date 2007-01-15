@@ -1,7 +1,7 @@
 <table class="infobox" style="width: 21em; font-size:90%; text-align: left; align: right;" cellspacing="2">
 <tr><th colspan="2" style="text-align: center;"><big>{{{subject_name|{{PAGENAME}}}}}</big></th></tr> 
 {{#if:{{{image_name|}}}|<tr><td colspan="2" align="center">[[Image:{{{image_name}}}|{{{image_size|180x180px}}}|center]] {{#if:{{{image_caption|}}}|<div style="line-height:1.25em;">{{{image_caption}}}</div>|}}|}}
-<tr valign="top"><th align="right">Born</th> <td>{{{date_of_birth}}}{{#if:{{{place_of_birth|}}}
+<tr valign="top"><th align="right">Kebaitan</th> <td>{{{date_of_birth}}}{{#if:{{{place_of_birth|}}}
 | <br/>{{{place_of_birth}}}
 }}</td></tr>
 {{#if:{{{date_of_death|}}}
