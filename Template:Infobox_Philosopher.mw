@@ -1,0 +1,91 @@
+<noinclude>{{hprotected}}</noinclude>
+{| class="infobox" cellpadding="2" style="border-color: {{{color}}}; width:26em; font-size: 85%"
+|-
+!bgcolor="{{{color}}}" align="center" colspan="2" style="border-bottom:1px solid {{{color}}}; font-size: 125%;"|{{{region|}}}<br><small>{{{era|}}}</small>
+{{#if:{{{image_name|}}}|
+<tr><td colspan="2" style="text-align: center;">[[Image:{{{image_name}}}|200px|center]]
+}}
+{{#if:{{{image_caption|}}}|<div style="line-height:1.25em;">{{{image_caption}}}</div>}}</td></tr>
+|-
+! style="text-align: right;" |Lagyu:
+|{{{name}}}
+|-
+! style="text-align: right;" |Kebaitan:
+|{{{birth}}}
+{{#if:{{{death|}}}|
+<tr><th style="text-align: right;">Kematyan:</th>
+<td>{{{death}}}</td></tr>
+}}
+|-
+! style="text-align: right;" |Pipagaralan/tradition:
+|{{{school_tradition}}}
+{{#if:{{{main_interests|}}}|
+<tr><th style="text-align: right;">Main interests:</th>
+<td>{{{main_interests}}}</td></tr>
+}}{{#if:{{{notable_ideas|}}}|
+<tr><th style="text-align: right;">Bantug a aisip:</th>
+<td>{{{notable_ideas}}}</td></tr>
+}}{{#if:{{{influences|}}}|
+<tr><th style="text-align: right;">Inpluwensiya:</th>
+<td>{{{influences}}}</td></tr>
+}}{{#if:{{{influenced|}}}|
+<tr><th style="text-align: right;">Influenced:</th>
+<td>{{{influenced}}}</td></tr>
+}}
+|}<noinclude>
+==Usage==
+<div style="display:table; width:auto;"><pre>
+{{Infobox_Philosopher |
+  <!-- Scroll down to edit this page -->
+  <!-- Philosopher Category -->
+  region          =  |
+  era             =  |
+  color           = #B0C4DE |
+
+  <!-- Image -->
+  image_name      =  |
+  image_caption   =  |
+
+  <!-- Information -->
+  name          =  |
+  birth         =  |
+  death         =  |
+  school_tradition     =  |
+  main_interests     =  |
+  influences    =  |
+  influenced    =  |
+  notable_ideas =  |
+}}
+</pre></div>
+
+To use this template, copy the text above to the top of the biography. 
+* '''Region''', '''Name''' '''Birth''' and '''School/tradition''' are compulsory; other fields, if left blank, will not appear in the Infobox;
+* '''Era''' is an optional parameter
+* '''Region''' should be selected from [[:Category:Philosophy by region]];
+* '''Era''' should be selected from [[:Category:Philosophy by era]];
+* '''School/tradition''' should be selected from [[:Category:Philosophical schools and traditions]];
+* Entries in '''Influences''', '''Influenced''', and '''Notable ideas''' should be explained in the main text of one of the articles. Those that are not mentioned in the main text may be deleted.
+
+[[ar:قالب:معلومات فيلسوف]]
+[[da:Skabelon:Infoboks_filosof]]
+[[en:Template:Infobox Philosopher]]
+[[fr:Modèle:Infobox Philosophe]]
+[[he:תבנית:פילוסוף]]
+[[hu:Sablon:Infobox Filozófus]]
+[[ilo:Template:Infobox_Filosopo2]]
+[[is:Snið:Heimspekingur]]
+[[it:Template:Infobox Filosofo]]
+[[mk:Философ]]
+[[no:Infoboks filosof]]
+[[ps:Infobox Philosopher]]
+[[pt:Predefinição:Info biografia]]
+[[ro:Format:Filozof]]
+[[ru:Шаблон:Философ]]
+[[sr:Шаблон:Филозоф]]
+[[tr:Şablon:Filozoflar bilgi kutusu]]
+[[vi:Tiêu bản:Infobox Philosopher]]
+[[zh:Template:Infobox Philosopher]]
+
+[[Category:people infobox templates|Philosopher]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+</noinclude>
