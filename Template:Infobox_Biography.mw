@@ -5,17 +5,17 @@
 | <br/>{{{place_of_birth}}}
 }}</td></tr>
 {{#if:{{{date_of_death|}}}
-|<tr valign="top"><th style="text-align:right;">Died</th> <td>{{{date_of_death}}}{{#if:{{{place_of_death|}}}
+|<tr valign="top"><th style="text-align:right;">Kematyan</th> <td>{{{date_of_death}}}{{#if:{{{place_of_death|}}}
   | <br/>{{{place_of_death}}}
   }}</td></tr>
 }}{{#if:{{{occupation|}}}
-|<tr valign="top"><th style="text-align:right;">Occupation</th> <td>{{{occupation}}}</td></tr>
+|<tr valign="top"><th style="text-align:right;">Obra</th> <td>{{{occupation}}}</td></tr>
 }}{{#if:{{{spouse|}}}
-|<tr valign="top"><th style="text-align:right;">Spouse</th> <td>{{{spouse}}}</td></tr>
+|<tr valign="top"><th style="text-align:right;">Asawa</th> <td>{{{spouse}}}</td></tr>
 }}{{#if:{{{parents|}}}
-|<tr valign="top"><th style="text-align:right;">Parents</th> <td>{{{parents}}}</td></tr>
+|<tr valign="top"><th style="text-align:right;">Pengari</th> <td>{{{parents}}}</td></tr>
 }}{{#if:{{{children|}}}
-|<tr valign="top"><th style="text-align:right;">Children</th> <td>{{{children}}}</td></tr>
+|<tr valign="top"><th style="text-align:right;">Anak</th> <td>{{{children}}}</td></tr>
 }}</table><noinclude>
 
 == Usage ==
