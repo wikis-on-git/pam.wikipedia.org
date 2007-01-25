@@ -35,8 +35,8 @@
 To use the template, copy the wikitext below, and paste it in the '''Veneration''' section of the article’s main page. If the article is not divided into sections, it should be placed on top. Then, fill out the data fields. The first four are required. You may omit any other unused fields. 
 <pre><nowiki>
 {{Infobox Saint
-|name=
-|birth_date=
+|lagyu=
+|aldo_kebaitan=
 |death_date=
 |feast_day=
 |venerated_in=
