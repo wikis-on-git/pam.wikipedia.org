@@ -1,0 +1,93 @@
+{| class="wikitable" style="position:relative; margin: 0 0 0.5em 1em; border-collapse: collapse; float:right; clear:right; width:300px; font-size:95%"  border="1" cellpadding="2" cellspacing="0" 
+! colspan="2" style="background-color:gold;font-size:120%;"|'''''{{{name}}}'''''<!--
+-->{{#if:{{{image|}}}|<tr><td colspan="2" style="text-align: center;">[[Image:{{{image}}}|{{{imagesize|290px}}}|center]]<br />{{{caption|}}}</td></tr>}}<!--
+-->{{#if:{{{titles|}}}|<tr><td colspan="2" style="text-align: center;background-color:gold;">'''{{{titles|}}}'''</td></tr>}}
+|-
+|'''Kebaitan'''
+| {{{birth_date}}}{{#if:{{{birth_place|}}}|&nbsp;in {{{birth_place|}}}}}
+|-
+|'''Kematyan'''
+| {{{death_date}}}{{#if:{{{death_place|}}}|&nbsp;in {{{death_place|}}}}}<!--
+-->{{#if:{{{venerated_in|}}}|<tr><td>'''Venerated in'''</td>
+<td>{{{venerated_in|}}}</td></tr>}}<!--
+-->{{#if:{{{beatified_date|}}}|<tr><td>'''[[Beatification|Beatified]]'''</td>
+<td>{{{beatified_date|}}}{{#if:{{{beatified_place|}}}|, {{{beatified_place|}}}}}
+{{#if:{{{beatified_by|}}}|by {{{beatified_by|}}}}}</td></tr>}}<!--
+-->{{#if:{{{canonized_date|}}}|<tr><td>'''[[Canonization|Canonized]]'''</td>
+<td>{{{canonized_date|}}}{{#if:{{{canonized_place|}}}|, {{{canonized_place|}}}}}
+{{#if:{{{canonized_by|}}}|by {{{canonized_by|}}}}}</td></tr>}}<!--
+-->{{#if:{{{major_shrine|}}}|<tr><td>'''Major [[shrine]]'''</td>
+<td>{{{major_shrine|}}}</td></tr>}}
+|-
+|'''[[Calendar of saints|Kapagmasusian]]'''
+|{{{feast_day}}}<!--
+-->{{#if:{{{attributes|}}}|<tr><td>'''[[Saint symbology|Attributes]]'''</td>
+<td>{{{attributes|}}}</td></tr>}}<!--
+-->{{#if:{{{patronage|}}}|<tr><td>'''[[Patron saint|Patron]]'''</td>
+<td>{{{patronage|}}}</td></tr>}}<!--
+-->{{#if:{{{issues|}}}|<tr><td>'''Pisasabain'''</td>
+<td>{{{issues|}}}</td></tr>}}<!--
+-->{{#if:{{{suppressed_date|}}}|<tr><td>'''Catholic [[cultus|cult]] suppressed'''</td>
+<td>{{{suppressed_date|}}}{{#if:{{{suppressed_by|}}}|&nbsp;by {{{suppressed_by|}}}}}</td></tr>}}
+|-
+! colspan="2" bgcolor="gold" style="font-size:90%"|[[image:Gloriole.svg|15px]] '''[[Portal:Saints|Saints Portal]]'''
+|}<noinclude>
+To use the template, copy the wikitext below, and paste it in the '''Veneration''' section of the article’s main page. If the article is not divided into sections, it should be placed on top. Then, fill out the data fields. The first four are required. You may omit any other unused fields. 
+<pre><nowiki>
+{{Infobox Saint
+|name=
+|birth_date=
+|death_date=
+|feast_day=
+|venerated_in=
+|image=
+|imagesize=
+|caption=
+|birth_place=
+|death_place=
+|titles=
+|beatified_date=
+|beatified_place=
+|beatified_by=
+|canonized_date=
+|canonized_place=
+|canonized_by=
+|attributes=
+|patronage=
+|major_shrine=
+|suppressed_date=
+|issues=
+}}
+</nowiki></pre>
+
+'''''Required parameters'''''
+: '''name''' The name under which the saint is venerated or best known. This should usually be the same as the article name.
+: '''birth_date''' Date of birth. Can be approximate, or "Unknown"
+: '''death_date''' Date of death. Can be approximate, or "Unknown"
+: '''feast_day''' Saint's principal feast day. (Roman Catholic and Orthodox calendars often have different dates for the same saint. If a saint is venerated by both, it would be good to indicated both days and which is which, e.g., for St. John the Apostle: Dec. 27 (Roman Catholic), May 8 (Orthodox).)
+
+'''''Optional parameters'''''
+: '''venerated_in''' Denomination(s) where this saint is recognized.
+: '''image''' An icon, statue, ets. Use the name of the image file only. Do not include "Image:"
+: '''imagesize''' Width of the image. Use appropriate units, e.g. 150px for 150 pixels. If this parameter is omitted, 290px will be used.
+: '''caption''' Caption for image, if necessary.
+: '''birth_place''' Place of birth
+: '''death_place''' Place of death
+: '''titles''' Title under which saint is venerated. See the [[Wikipedia:WikiProject Saints#Hierarchy_definition|Hierarchy definition]] section of the [[WP:SAINTS|Saints project page]].
+: '''beatified_date''' Date of beatification, if applicable.
+: '''beatified_place''' Place where beatification was announced, if applicable.
+: '''beatified_by''' Authority for beatification. In Catholicism, this will be the Pope of the time.
+: '''canonized_date''' Date of canonization, if applicable.
+: '''canonized_place''' Place where canonization/glorification was solemnly performed.
+: '''canonized_by''' Authority for canonization. In Catholicism this will be the Pope of the time; in Orthodoxy is usually a synod.
+: '''attributes''' Standard iconographic elements. Usually pontifical, episcopal, etc. insignia, tools of martyrdom and so forth.
+: '''patronage''' People, places, diseases...
+: '''major_shrine''' Usually the site of the saint's relics or principal icon
+: '''suppressed_date''' If the Roman Catholic Church has suppressed the cult of this saint, give the date here.
+: '''suppressed_by''' The Pope under whose authority this saint was removed from official veneration.
+: '''issues''' 	Controversial issues surrounding this saint.
+
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+[[Category:people infobox templates|Saint]]
+[[Category:WikiProject Saints|Infobox Saint]]
+</noinclude>
