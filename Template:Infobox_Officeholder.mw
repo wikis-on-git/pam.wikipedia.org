@@ -1,0 +1,385 @@
+noinclude>{{hprotected}}</noinclude>
+{| class="infobox" style="width:23em; font-size:90%; text-align:left; padding-left:0.5em; padding-right:0.5em;"
+|-
+<!----------Lagyu---------->
+|colspan="2" style="text-align: center; font-size:140%;"| '''{{{name|{{PAGENAME}}}}}'''
+|-
+
+<!----------Larawan---------->
+{{#if:{{{image|}}} |<!--then:--> 
+{{!}}colspan="2" style="text-align:center;"{{!}} [[Image:{{{image}}}|{{#if:{{{imagesize|}}}|<!--then:-->{{{imagesize}}}|160px}}|{{PAGENAME}}]]<br/>
+<small>{{{caption|}}}<small/>
+{{!-}}
+}}
+{{#if:{{{smallimage|}}} |<!--then:--> 
+{{!}}colspan="2" style="text-align:center;"{{!}} [[Image:{{{smallimage}}}|{{PAGENAME}}]]<br/><small>{{{caption|}}}</small>
+{{!-}}
+}}
+<!----------Opisina---------->
+{{#if:{{{order|}}} |<!--then:--> 
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr><div style="background:lavender; font-weight:bold">{{{order}}}</div>
+{{!-}}
+}}
+<!----------Kaba ning Pamanungkulan---------->
+{{#if:{{{term_start|}}} |<!--then:--> 
+{{#if:{{{term_end|}}}
+|<!--then:--> <!--term has start and end-->
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''In&nbsp;office'''<br>{{{term_start}}}&nbsp;&ndash;&nbsp;{{{term_end}}}
+{{!-}}
+|<!--else:--> <!--term is ongoing-->
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Incumbent]]'''
+{{!-}}
+}}
+{{#if:{{{term_end|}}}
+|<!--then:--> <!--(nothing; term has ended)-->
+|<!--else:--> 
+{{!}}colspan="2" style="text-align:center;"{{!}} '''Assumed&nbsp;office&nbsp;'''<br>{{{term_start}}}
+{{!-}}
+}}
+}}
+<!----------Kaduang pamuntuk, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
+{{#if:{{{vicepresident|}}} |<!--then:--> 
+! Vice&nbsp;President(s)&nbsp;&nbsp;
+{{!}} {{{vicepresident}}}
+{{!-}}
+}}
+{{#if:{{{viceprimeminister|}}} |<!--then:--> 
+! Vice&nbsp;[[Prime Minister|PM]](s)&nbsp;&nbsp;
+{{!}} {{{viceprimeminister}}}
+{{!-}}
+}}
+{{#if:{{{deputy|}}} |<!--then:--> 
+! Deputy
+{{!}} {{{deputy}}}
+{{!-}}
+}}
+{{#if:{{{lieutenant|}}} |<!--then:--> 
+! Lieutenant(s)
+{{!}} {{{lieutenant}}}
+{{!-}}
+}}
+<!----------Pamuntuk, Primeru Ministru---------->
+{{#if:{{{president|}}} |<!--then:-->
+! Pamuntuk
+{{!}} {{{president}}}
+{{!-}}
+}}
+{{#if:{{{primeminister|}}} |<!--then:-->
+! Primeru Ministru
+{{!}} {{{primeminister}}}
+{{!-}}
+}}
+<!----------Predecessor/Successor---------->
+{{#if:{{{predecessor|}}} |<!--then:--> 
+! Minuna&nbsp;kaya
+{{!}} {{{predecessor}}}
+{{!-}}
+}}
+{{#if:{{{successor|}}} |<!--then:--> 
+! Menalili&nbsp;kaya
+{{!}} {{{successor}}}
+{{!-}}
+}}
+<!----------Predecessor/Successor---------->
+{{#if:{{{predecessor1|}}} |<!--then:--> 
+! Minuna&nbsp;kaya
+{{!}} {{{predecessor1}}}
+{{!-}}
+}}
+{{#if:{{{successor1|}}} |<!--then:--> 
+! Menalili&nbsp;kaya
+{{!}} {{{successor1}}}
+{{!-}}
+}}
+<!----------Kaduang Opisina---------->
+{{#if:{{{order2|}}} |<!--then:--> 
+!colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr><div style="background:lavender;">{{{order2}}}</div>
+{{!-}}
+}}
+{{#if:{{{term_start2|}}} |<!--then:--> 
+{{#if:{{{term_end2|}}}
+|<!--then:--> <!--term has start and end-->
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''In&nbsp;office'''<br>{{{term_start2}}}&nbsp;&ndash;&nbsp;{{{term_end2}}}
+{{!-}}
+|<!--else:--> <!--term is ongoing-->
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Incumbent]]'''
+{{!-}}
+}}
+{{#if:{{{term_end2|}}}
+|<!--then:--> <!--(nothing; term has ended)-->
+|<!--else:--> 
+{{!}}colspan="2" style="text-align:center;"{{!}} '''Assumed&nbsp;office'''<br>{{{term_start2}}}
+{{!-}}
+}}
+<!----------Second Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
+{{#if:{{{vicepresident2|}}} |<!--then:--> 
+! Vice&nbsp;President(s)&nbsp;&nbsp;
+{{!}} {{{vicepresident2}}}
+{{!-}}
+}}
+{{#if:{{{viceprimeminister2|}}} |<!--then:--> 
+! Vice&nbsp;[[Prime Minister|PM]](s)&nbsp;&nbsp;
+{{!}} {{{viceprimeminister2}}}
+{{!-}}
+}}
+{{#if:{{{deputy2|}}} |<!--then:--> 
+! Deputy
+{{!}} {{{deputy2}}}
+{{!-}}
+}}
+{{#if:{{{lieutenant2|}}} |<!--then:--> 
+! Lieutenant(s)
+{{!}} {{{lieutenant2}}}
+{{!-}}
+}}
+<!----------Second President, Prime Minister---------->
+{{#if:{{{president2|}}} |<!--then:-->
+! Pamuntuk
+{{!}} {{{president2}}}
+{{!-}}
+}}
+{{#if:{{{primeminister2|}}} |<!--then:-->
+! Prime Minister
+{{!}} {{{primeminister2}}}
+{{!-}}
+}}
+<!----------Second predecessor/successor---------->
+{{#if:{{{predecessor2|}}} |<!--then:-->
+! Minuna&nbsp;kaya
+{{!}} {{{predecessor2}}}
+{{!-}}
+}}
+{{#if:{{{successor2|}}} |<!--then:-->
+! Menalili&nbsp;kaya
+{{!}} {{{successor2}}}
+{{!-}}
+}}
+}}
+<!----------Third office---------->
+{{#if:{{{order3|}}} |<!--then:--> 
+!colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr><div style="background:lavender;">{{{order3}}}</div>
+{{!-}}
+}}
+{{#if:{{{term_start3|}}} |<!--then:--> 
+{{#if:{{{term_end3|}}}
+|<!--then:--> <!--term has start and end-->
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''In&nbsp;office'''<br>{{{term_start3}}}&nbsp;&ndash;&nbsp;{{{term_end3}}}
+{{!-}}
+|<!--else:--> <!--term is ongoing-->
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Incumbent]]'''
+{{!-}}
+}}
+{{#if:{{{term_end3|}}}
+|<!--then:--> <!--(nothing; term has ended)-->
+|<!--else:--> 
+{{!}}colspan="2" style="text-align:center;"{{!}} '''Assumed&nbsp;office'''<br>{{{term_start3}}}
+{{!-}}
+}}
+}}
+<!----------Third Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
+{{#if:{{{vicepresident3|}}} |<!--then:--> 
+! Vice&nbsp;President(s)&nbsp;&nbsp;
+{{!}} {{{vicepresident3}}}
+{{!-}}
+}}
+{{#if:{{{viceprimeminister3|}}} |<!--then:--> 
+! Vice&nbsp;[[Prime Minister|PM]](s)&nbsp;&nbsp;
+{{!}} {{{viceprimeminister3}}}
+{{!-}}
+}}
+{{#if:{{{deputy3|}}} |<!--then:--> 
+! Deputy
+{{!}} {{{deputy3}}}
+{{!-}}
+}}
+{{#if:{{{lieutenant3|}}} |<!--then:--> 
+! Lieutenant(s)
+{{!}} {{{lieutenant3}}}
+{{!-}}
+}}
+<!----------Third President, Prime Minister---------->
+{{#if:{{{president3|}}} |<!--then:-->
+! President
+{{!}} {{{president3}}}
+{{!-}}
+}}
+{{#if:{{{primeminister3|}}} |<!--then:-->
+! Prime Minister
+{{!}} {{{primeminister3}}}
+{{!-}}
+}}
+<!----------Third predecessor/successor---------->
+{{#if:{{{predecessor3|}}} |<!--then:-->
+! Preceded&nbsp;by
+{{!}} {{{predecessor3}}}
+{{!-}}
+}}
+{{#if:{{{successor3|}}} |<!--then:-->
+! Succeeded&nbsp;by
+{{!}} {{{successor3}}}
+{{!-}}
+}}
+<!----------Fourth office---------->
+{{#if:{{{order4|}}} |<!--then:--> 
+!colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr><div style="background:lavender;">{{{order4}}}</div>
+{{!-}}
+}}
+{{#if:{{{term_start4|}}} |<!--then:--> 
+{{#if:{{{term_end4|}}}
+|<!--then:--> <!--term has start and end-->
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''In&nbsp;office'''<br>{{{term_start4}}}&nbsp;&ndash;&nbsp;{{{term_end4}}}
+{{!-}}
+|<!--else:--> <!--term is ongoing-->
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Incumbent]]'''
+{{!-}}
+}}
+{{#if:{{{term_end4|}}}
+|<!--then:--> <!--(nothing; term has ended)-->
+|<!--else:--> 
+{{!}}colspan="2" style="text-align:center;"{{!}} '''Assumed&nbsp;office'''<br>{{{term_start4}}}
+{{!-}}
+}}
+}}
+<!----------Fourth Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
+{{#if:{{{vicepresident4|}}} |<!--then:--> 
+! Vice&nbsp;President(s)&nbsp;&nbsp;
+{{!}} {{{vicepresident4}}}
+{{!-}}
+}}
+{{#if:{{{viceprimeminister4|}}} |<!--then:--> 
+! Vice&nbsp;[[Prime Minister|PM]](s)&nbsp;&nbsp;
+{{!}} {{{viceprimeminister4}}}
+{{!-}}
+}}
+{{#if:{{{deputy4|}}} |<!--then:--> 
+! Deputy
+{{!}} {{{deputy4}}}
+{{!-}}
+}}
+{{#if:{{{lieutenant4|}}} |<!--then:--> 
+! Lieutenant(s)
+{{!}} {{{lieutenant4}}}
+{{!-}}
+}}
+<!----------Fourth President, Prime Minister---------->
+{{#if:{{{president4|}}} |<!--then:-->
+! President
+{{!}} {{{president4}}}
+{{!-}}
+}}
+{{#if:{{{primeminister4|}}} |<!--then:-->
+! Prime Minister
+{{!}} {{{primeminister4}}}
+{{!-}}
+}}
+<!----------Fourth predecessor/successor---------->
+{{#if:{{{predecessor4|}}} |<!--then:-->
+! Preceded&nbsp;by
+{{!}} {{{predecessor4}}}
+{{!-}}
+}}
+{{#if:{{{successor4|}}} |<!--then:-->
+! Succeeded&nbsp;by
+{{!}} {{{successor4}}}
+{{!-}}
+}}
+<!----------Birth/Death---------->
+|-
+|colspan="2"| <hr>
+|-
+! Kebaitan
+| {{{birth_date|}}}<br/>{{{birth_place|}}}
+|-
+{{#if:{{{death_date|}}} |<!--then:-->
+! Kematyan
+{{!}} {{{death_date}}}<br/>{{{death_place|}}}
+{{!-}}
+}}
+<!----------Constituency---------->
+{{#if:{{{constituency|}}} |<!--then:-->
+! Constituency
+{{!}} {{{constituency}}}
+{{!-}}
+}}
+<!----------Partidu---------->
+{{#if:{{{party|}}} |<!--then:-->
+! Politika&nbsp;partidu
+{{!}} {{{party}}}
+{{!-}}
+}}
+<!----------Spouse etc.---------->
+{{#if:{{{spouse|}}} |<!--then:-->
+! Asawa
+{{!}} {{{spouse}}}
+{{!-}}
+}}
+{{#if:{{{profession|}}} |<!--then:-->
+! Obra
+{{!}} {{{profession}}}
+{{!-}}
+}}
+{{#if:{{{religion|}}} |<!--then:-->
+! Kapanwalan/Kasalpantayanan
+{{!}} {{{religion}}}
+{{!-}}
+}}
+{{#if:{{{signature|}}} |<!--then:-->
+! Pirma
+{{!}} [[Image:{{{signature}}}|128px]]
+{{!-}}
+}}
+{{#if:{{{footnotes|}}} |<!--then:-->
+{{!}}colspan="2" style="border-top:1px solid; font-size:90%;"{{!}} {{{footnotes}}}
+{{!-}}
+}}
+|}<noinclude>{{clear}}<br><hr><br>{{esoteric}}
+
+
+Please use the most appropriate name when placing this template on a page (i.e. the following all redirect here):
+*'''Infobox Chancellor'''
+*'''Infobox Governor General'''
+*'''Infobox Mayor'''
+*'''Infobox President'''
+*'''Infobox Prime Minister'''
+*'''Infobox Vice President'''
+
+
+
+<!--Categories-->
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+[[Category:People infobox templates|Officeholder]]
+[[Category:Politics infobox templates|Officeholder]]
+
+<!--Other languages-->
+[[ast:Plantilla:Info presidentes]]
+[[bg:Шаблон:Президент инфо]]
+[[bs:Šablon:Infokutija predsjednik]]
+[[cs:Šablona:Infobox PrezidentUSA]]
+[[cy:Nodyn:Arlywydd UDA]]
+[[en:Template:Infobox Officeholder]]
+[[eu:Txantiloi:Presidente infotaula]]
+[[fi:Malline:Hallitsija]]
+[[hu:Sablon:President infobox]]
+[[ms:Templat:Politik]]
+[[fr:Modèle:FichePresidentUS]]
+[[ga:Teimpléad:Bosca Sonraí Uachtaráin]]
+[[he:תבנית:נשיא ארצות הברית]]
+[[id:Templat:Politikus]]
+[[ja:Template:大統領]]
+[[lb:Template:Minister]]
+[[mk:Шаблон:Инфокутија државник]]
+[[nl:Sjabloon:Amerikaanse President]]
+[[no:Mal:Infoboks president USA]]
+[[nn:Mal:Infoboks leiar]]
+[[ps:Template:ولسمشربکس]]
+[[pl:Szablon:Polityk infobox]]
+[[ru:Шаблон:Правитель]]
+[[simple:Template:Infobox President]]
+[[sk:Šablóna:Prezident USA]]
+[[sl:Predloga:Infopolje Predsednik]]
+[[sv:Mall:Regeringschef]]
+[[vi:Tiêu bản:Tổng thống]]
+[[ta:வார்ப்புரு:தகவற்சட்டம் தலைவர்கள்]]
+[[tr:Şablon:Bilgikutusu Başkan]]
+[[zh:Template:Infobox President]]
+</noinclude>
