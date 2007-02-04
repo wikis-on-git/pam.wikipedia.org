@@ -82,12 +82,12 @@
 }}
 <!----------Predecessor/Successor---------->
 {{#if:{{{predecessor1|}}} |<!--then:--> 
-! Preceded&nbsp;by
+! Minuna&nbsp;kaya
 {{!}} {{{predecessor1}}}
 {{!-}}
 }}
 {{#if:{{{successor1|}}} |<!--then:--> 
-! Succeeded&nbsp;by
+! Menalili&nbsp;kaya
 {{!}} {{{successor1}}}
 {{!-}}
 }}
@@ -263,23 +263,23 @@
 }}
 <!----------Fourth President, Prime Minister---------->
 {{#if:{{{president4|}}} |<!--then:-->
-! President
+! Pamuntuk
 {{!}} {{{president4}}}
 {{!-}}
 }}
 {{#if:{{{primeminister4|}}} |<!--then:-->
-! Prime Minister
+! Primeru Ministru
 {{!}} {{{primeminister4}}}
 {{!-}}
 }}
 <!----------Fourth predecessor/successor---------->
 {{#if:{{{predecessor4|}}} |<!--then:-->
-! Preceded&nbsp;by
+! Minuna&nbsp;kaya
 {{!}} {{{predecessor4}}}
 {{!-}}
 }}
 {{#if:{{{successor4|}}} |<!--then:-->
-! Succeeded&nbsp;by
+! Menalili&nbsp;kaya
 {{!}} {{{successor4}}}
 {{!-}}
 }}
