@@ -15,12 +15,12 @@
 {{!}}colspan="2" style="text-align:center;"{{!}} [[Image:{{{smallimage}}}|{{PAGENAME}}]]<br/><small>{{{caption|}}}</small>
 {{!-}}
 }}
-<!----------Office---------->
+<!----------Opisina---------->
 {{#if:{{{order|}}} |<!--then:--> 
 {{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr><div style="background:lavender; font-weight:bold">{{{order}}}</div>
 {{!-}}
 }}
-<!----------Term---------->
+<!----------Kaba ning Pamanungkulan---------->
 {{#if:{{{term_start|}}} |<!--then:--> 
 {{#if:{{{term_end|}}}
 |<!--then:--> <!--term has start and end-->
