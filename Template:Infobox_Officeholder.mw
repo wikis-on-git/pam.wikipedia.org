@@ -113,7 +113,7 @@ noinclude>{{hprotected}}</noinclude>
 }}
 <!----------Second Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
 {{#if:{{{vicepresident2|}}} |<!--then:--> 
-! Vice&nbsp;President(s)&nbsp;&nbsp;
+! Kaduang&nbsp;Pamuntuk&nbsp;&nbsp;
 {{!}} {{{vicepresident2}}}
 {{!-}}
 }}
@@ -178,7 +178,7 @@ noinclude>{{hprotected}}</noinclude>
 }}
 <!----------Third Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
 {{#if:{{{vicepresident3|}}} |<!--then:--> 
-! Vice&nbsp;President(s)&nbsp;&nbsp;
+! Kaduang&nbsp;Pamuntuk&nbsp;&nbsp;
 {{!}} {{{vicepresident3}}}
 {{!-}}
 }}
@@ -199,7 +199,7 @@ noinclude>{{hprotected}}</noinclude>
 }}
 <!----------Third President, Prime Minister---------->
 {{#if:{{{president3|}}} |<!--then:-->
-! President
+! Pamuntuk
 {{!}} {{{president3}}}
 {{!-}}
 }}
@@ -210,12 +210,12 @@ noinclude>{{hprotected}}</noinclude>
 }}
 <!----------Third predecessor/successor---------->
 {{#if:{{{predecessor3|}}} |<!--then:-->
-! Preceded&nbsp;by
+! Minuna&nbsp;kaya
 {{!}} {{{predecessor3}}}
 {{!-}}
 }}
 {{#if:{{{successor3|}}} |<!--then:-->
-! Succeeded&nbsp;by
+! Menalili&nbsp;kaya
 {{!}} {{{successor3}}}
 {{!-}}
 }}
