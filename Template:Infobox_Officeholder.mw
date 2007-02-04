@@ -39,7 +39,7 @@ noinclude>{{hprotected}}</noinclude>
 }}
 <!----------Kaduang pamuntuk, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
 {{#if:{{{vicepresident|}}} |<!--then:--> 
-! Vice&nbsp;President(s)&nbsp;&nbsp;
+! Kaduang&nbsp;Pamuntuk)&nbsp;&nbsp;
 {{!}} {{{vicepresident}}}
 {{!-}}
 }}
