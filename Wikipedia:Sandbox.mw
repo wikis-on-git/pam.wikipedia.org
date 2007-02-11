@@ -1,18 +1,24 @@
+<div id="mainpage"></div>
+<!-- Beginning of header section -->{|style="width:100%;margin-top:+.7em;background-color:#fcfcfc;border:1px solid #ccc"
+|style="width:56%;color:#000"|
+{|style="width:280px;border:solid 0px;background:none"
+|-
 |style="width:280px;text-align:center;white-space:nowrap;color:#000" |
 <div style="font-size:162%;border:none;margin: 0;padding:.1em;color:#000">Welcome to [[Wikipedia]],</div>
 <div style="top:+0.2em;font-size: 95%">the free encyclopedia that [[Wikipedia:Introduction|anyone&nbsp;can&nbsp;edit]].</div>
 <div id="articlecount" style="width:100%;text-align:center;font-size:85%;">[[Special:Statistics|{{NUMBEROFARTICLES}}]] articles in English</div>
 |}<!-- Portals Follow -->
 |style="width:11%;font-size:95%;color:#000"|
-*[[Portal:Alit|Alit (Arts)]]
-*[[Portal:Biografia|Biografia]]
-*[[Portal:Geografia|Geografia]]
+*[[Portal:Arts|Arts]]
+*[[Portal:Biography|Biography]]
+*[[Portal:Geography|Geography]]
 |style="width:11%;font-size:95%"|
-*[[Portal:Amlat|Amlat]]
-*[[Portal:Matematiku|Matematiku]]
+*[[Portal:History|History]]
+*[[Portal:Mathematics|Mathematics]]
 *[[Portal:Science|Science]]
 |style="width:11%;font-size:95%"|
-*[[Portal:Sociedad|Sociedad]]
-*[[Portal:Technologia|Technologia]]
-*'''[[Portal:Tala da reng Portal|Deng eganaganang&nbsp;portals]]'''
+*[[Portal:Society|Society]]
+*[[Portal:Technology|Technology]]
+*'''[[Portal:List of portals|All&nbsp;portals]]'''
 |}<!-- End Portals -->
+{|style="width:100%;back
