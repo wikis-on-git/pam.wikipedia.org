@@ -1,0 +1,3 @@
+<includeonly>{{#if:{{{1|}}}|{{#switch:{{MONTHNUMBER|{{{1}}}}}|1=Eneru|2=Pebreru|3=Marsu|4=Abril|5=Mayu|6=Juniu|7=Juliu|8=Agostu|9=Septiembri|10=Octubri|11=Nobiembri|12=Disiembri|Incorrect required parameter 1=''month''!}}|Missing required parameter 1=''month''!}}</includeonly><noinclude>
+{{/doc}}
+</noinclude>
