@@ -1,0 +1,5 @@
+[[{{MONTHNAME|{{{2|{{{month|{{{2}}}}}}}}}}} {{{3|{{{day|{{{3}}}}}}}}}]] [[{{{1|{{{year|{{{1}}}}}}}}}]]<font class="noprint"> (age&nbsp;{{age | {{{1|{{{year|{{{1}}}}}}}}} | {{{2|{{{month|{{{2}}}}}}}}} | {{{3|{{{day|{{{3}}}}}}}}} }})</font><noinclude>
+[[Category:Date mathematics templates|{{PAGENAME}}]]
+
+[[da:Skabelon:Dato og alder]]
+</noinclude>
