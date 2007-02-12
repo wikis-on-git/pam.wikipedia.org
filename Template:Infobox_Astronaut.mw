@@ -1,0 +1,104 @@
+{| class="infobox bordered" style="width:20em; font-size:90%; text-align:left;" cellpadding="3"
+
+<!-----Lagyu----->
+|+ style="font-size:140%;"| '''{{{name}}}'''
+
+<!----Image----->
+|colspan="2" style="text-align:center"| {{#if:{{{image|}}} |<!--then:--> [[Image:{{{image}}}|200px|{{PAGENAME}}]]<br/>{{{caption|}}} }}
+|-
+
+<!----Title----->
+{{#if:{{{USSR|}}}{{{USA|}}}{{{PRC|}}}{{{EUR|}}}{{{AFR|}}} |<!--then:-->
+!colspan="2" style="background:#ffdead; text-align:center;" cellspacing="0" cellpadding="2"{{!}} {{#if:{{{USSR|}}}|Cosmonaut}} {{#if:{{{USA|}}}|Astronaut}} {{#if:{{{PRC|}}}|Taikonaut}} {{#if:{{{EUR|}}}|Spationaut}} {{#if:{{{AFR|}}}|Afronaut}} {{#if:{{{MAL|}}}|Angkasawan}}
+{{!-}}
+}}
+
+<!-----Klasi----->
+{{#if:{{{type|}}} |<!--then:-->
+!colspan="2" style="background:#ffdead; text-align:center;" cellspacing="0" cellpadding="2"{{!}} {{{type|}}}
+{{!-}}
+}}
+
+<!-----Nationality----->
+!style="width:7em;"         | &nbsp;Nationalidad
+|style="padding-left:0.5em;"| {{{nationality}}}
+|-
+
+<!-----Birth/Death----->
+!style="vertical-align:middle;"| &nbsp;Kebaitan
+|style="padding-left:0.5em;"   | {{{date_birth|}}}<br/>{{{place_birth|}}}
+|-
+{{#if:{{{date_death|}}} |<!--then:-->
+!style="vertical-align:middle;" {{!}} &nbsp;Kematyan
+{{!}}style="padding-left:0.5em;"{{!}} {{{date_death}}}<br/>{{{place_death|}}}
+{{!-}}
+}}
+
+<!-----Occupation----->
+{{#if:{{{occupation|}}} |<!--then:-->
+!style="vertical-align:middle;"{{!}} &nbsp;Occupation<sup><small>1</small></sup>
+{{!}}style="vertical-align:middle; padding-left:0.5em;"{{!}} {{{occupation}}}
+{{!-}}
+}}
+{{#if:{{{current_occupation|}}} |<!--then:-->
+! &nbsp;Current occupation
+{{!}}style="vertical-align:middle; padding-left:0.5em;"{{!}} {{{current_occupation}}}
+{{!-}}
+}}
+{{#if:{{{previous_occupation|}}} |<!--then:-->
+! &nbsp;Previous occupation
+{{!}}style="vertical-align:middle; padding-left:0.5em;"{{!}} {{{previous_occupation}}}
+{{!-}}
+}}
+
+<!-----Rank, Space time----->
+{{#if:{{{rank|}}} |<!--then-->
+!style="vertical-align:middle;" {{!}} &nbsp;Ranku
+{{!}}style="padding-left:0.5em;"{{!}} {{{rank}}}
+{{!-}}
+}}
+{{#if:{{{time|}}} |<!--then:-->
+! &nbsp;Space&nbsp;time
+{{!}}style="padding-left:0.5em;"{{!}} {{{time}}}
+{{!-}}
+}}
+
+<!-----Selection, Mission/s----->
+!style="vertical-align:middle;"| &nbsp;Selection
+|style="padding-left:0.5em;"   | {{{selection}}}
+|-
+!style="vertical-align:middle;"| &nbsp;Mission(s)
+|style="padding-left:0.5em;"   | {{{mission}}}
+|-
+
+<!-----Insignia----->
+{{#if:{{{insignia|}}} |<!--then:-->
+!style="vertical-align:middle; padding-left:0.5em;"    {{!}} Mission insignia
+{{!}}style="vertical-align:middle; padding-left:0.5em;"{{!}} {{{insignia}}}
+{{!-}}
+}}
+
+<!-----Update alert----->
+{{#if:{{{USSR|}}}{{{USA|}}}{{{PRC|}}}{{{EUR|}}}{{{AFR|}}} |<!--then:-->
+{{!}}colspan="2" style="text-align:center; padding-left:0.5em;"{{!}} <sub>This infobox needs updating. Please see [[Template talk:Infobox Astronaut]] for information</sub>
+{{!-}}
+[[Category:Out-of-date Astronaut Infoboxes]]
+}}
+
+<!-----Occupation footnote----->
+{{#if:{{{occupation|}}} |<!--then:-->
+{{!}}colspan="2"{{!}} &nbsp;<sup><small>1</small></sup> previous or current
+{{!-}}
+}}
+
+|}<noinclude>
+
+
+
+<!--Categories-->
+[[Category:People infobox templates|Astronaut]]
+
+<!--Other languages-->
+[[zh:Template:Infobox Astronaut]]
+[[he:תבנית:טייס חלל]]
+</noinclude>
