@@ -1,0 +1,62 @@
+div class="infobox sisterproject">
+<div style="float: left;">[[Image:Wikibooks-logo-en.svg|50px|none|Wikibooks]]</div>
+<div style="margin-left: 60px;">[[Wikibooks]] {{
+  #if: {{{2|}}}
+  | [[Wikibooks:{{{1}}}|{{{1}}}]]
+}} has {{
+  #if: {{{2|}}}
+  | a page
+  | {{
+    #if: {{{1|}}}
+    | a book
+    | more
+  }}
+}} on the topic of
+<div style="margin-left:10px;">''{{
+  #if: {{{3|}}}
+  | [[wikibooks:{{{1}}}/{{{2}}}|{{{3}}}]]
+  | {{
+    #if: {{{2|}}}
+    | [[wikibooks:{{{1}}}/{{{2}}}|{{{2}}}]]
+    | {{
+      #if: {{{1|}}}
+      | [[wikibooks:{{{1}}}|{{{1}}}]]
+      | [[wikibooks:Special:Search/{{PAGENAME}}|{{PAGENAME}}]]
+    }}
+  }}
+}}''</div>
+</div>
+</div><noinclude>
+This [[Wikipedia:Template|template]] is a [[Wikipedia:Avoid self-references|self-reference]] and so is part of the Wikipedia project rather than the encyclopaedic content. It may be used in articles to provide links to books on [[Wikibooks]] that are likely to be useful and/or of interest to the reader.
+
+{{/Manual}}
+
+[[Category:Interwiki link templates|{{PAGENAME}}]]
+
+[[cs:Template:Wikibooks]]
+[[da:Template:Wikibooks]]
+[[de:Vorlage:Wikibooks]]
+[[en:Template:Wikibooks]]
+[[eo:Ŝablono:Vikilibroj]]
+[[es:Template:Wikibooks]]
+[[et:Template:Wikibooks]]
+[[fr:modèle:wikilivres]]
+[[gl:Template:Wikibooks]]
+[[hr:Template:Wikibooks]]
+[[hu:Sablon:Wikikönyvek]]
+[[it:Template:Wikibooks]]
+[[ms:Template:Wikibooks]]
+[[nl:Template:Wikibooks]]
+[[no:Template:Wikibooks]]
+[[pl:Template:Wikibooks]]
+[[pt:Template:Wikibooks]]
+[[simple:Template:Wikibooks]]
+[[sk:Template:Wikibooks]]
+[[sl:Template:Wikibooks]]
+[[sq:Template:Wikibooks]]
+[[ta:Template:Wikibooks]]
+[[tt:Template:Wikibooks]]
+[[sv:Mall:Wikibooks]]
+[[vi:Tiêu bản:Wikibooks]]
+
+</noinclude
