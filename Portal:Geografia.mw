@@ -12,27 +12,8 @@
 </div>
 
 <div style="float:left; width:55%;"> <!-- This width add to the margin below to equal 98%-->
-{{/box-header|Selected article|Portal:Geography/Featured article/{{CURRENTMONTHNAME}}, {{CURRENTYEAR}}|}}
-{{Portal:Geography/Featured article/{{CURRENTMONTHNAME}}, {{CURRENTYEAR}}}}
-{{/box-footer|[[Portal:Geography/Featured article/archive|Archive]] · [[Wikipedia:Featured_articles#Geography_and_places|Geography featured articles]]}}
 
-{{/box-header|Selected picture|Portal:Geography/Featured picture/{{CURRENTYEAR}}, week {{CURRENTWEEK}}|}}
-{{Portal:Geography/Featured picture/{{CURRENTYEAR}}, week {{CURRENTWEEK}}}}
-{{/box-footer|[[/Featured picture archive|Archive]]}}
 
-{{/box-header|Did you know...|Portal:Geography/Did you know...|}}
-{{Portal:Geography/Did you know...}}
-{{/box-footer|[[/Did you know archive|Archive]]}}
-<!--
-{{/box-header|Collaboration|Portal:Geography/Collaboration of the week|}}
-{{Portal:Geography/Collaboration of the week}}
-{{/box-footer|}}
-
-{{/box-header|Things you can do|Portal:Geography/Things you can do|}}
-{{Portal:Geography/Things you can do}}
-{{/box-footer|}}
--->
-</div>
 
 <div style="float:right; width:44%"> <!-- This margin should be right of the above -->
 <!--{{/box-header|''Geography News''|Portal:Geography/Geography news|}}
@@ -73,6 +54,7 @@
 [[cs:Portál:Geografie]]
 [[pdc:Portal:Geography]]
 [[de:Portal:Geographie]]
+[[en:Portal:Geography]]
 [[fr:Portail:Géographie]]
 [[hr:Portal:Zemljopis]]
 [[it:Portale:Geografia]]
