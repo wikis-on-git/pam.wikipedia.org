@@ -1,0 +1,23 @@
+== Usage ==
+
+{|class="wikitable"
+|<pre>{{wikibooks}}</pre>
+|{{wikibooks}}
+|-
+|<pre>{{wikibooks|Chemical synthesis}}</pre>
+|{{wikibooks|Chemical synthesis}}
+|-
+|<pre>{{wikibooks|Chemical synthesis|Gallium}}</pre>
+|{{wikibooks|Chemical synthesis|Gallium}}
+|-
+|<pre>{{wikibooks|Chemical synthesis|Gallium#Crystallization}}</pre>
+|{{wikibooks|Chemical synthesis|Gallium#Crystallization}}
+|-
+|<pre>{{wikibooks|Chemical synthesis|Gallium|strange beasts}}</pre>
+|{{wikibooks|Chemical synthesis|Gallium|strange beasts}}
+|}
+
+== See also ==
+
+* {{Lts|Cookbook}}
+* [[Wikipedia:Sister_projects#Wikibooks]]
