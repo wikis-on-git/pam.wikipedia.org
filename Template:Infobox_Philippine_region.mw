@@ -1,0 +1,38 @@
+{| class="infobox" style="width: 19em; text-align: left; font-size: 90%;"
+|+ style="font-size: larger;" | '''{{{name}}}'''
+|-
+| colspan="2" style="text-align: center;" |
+[[Image:{{{map_file}}}|200px|center|Mapa ning Filipinas papakit ne ing karinan ning {{{name}}}]]
+|-
+! style="white-space: nowrap;" | Labuad-kalibudtan
+| {{{center}}}
+|-
+! Populasyun
+| {{{population}}}
+|-
+! &ndash; Kapal
+| {{{density_km2}}} per km²
+|-
+! Lapad/Dagul
+| {{{area_km2}}} km²
+|-
+! colspan="2" | Pamikawani
+|-
+! &ndash; [[Ding Lalawigan ning Filipinas|Lalawigan]]
+| {{{provinces}}}
+|-
+! &ndash; [[Ding Lakanbalen ning Filipinas|Lakanbalen]]
+| {{{cities}}}
+|-
+! &ndash; [[Ding Balen ning Filipinas|Balen]]
+| {{{municipalities}}}
+|-
+! &ndash; [[Barangay]]
+| {{{barangays}}}
+|-
+! style="white-space: nowrap;" | &ndash; [[House of Representatives of the Philippines|Cong. distritu]]
+| {{{districts}}}
+|-
+! Amanu
+| {{{languages}}}
+|}
