@@ -1,0 +1,90 @@
+<table class="infobox" style="width: 20em; font-size:90%; text-align: left; align: right;" cellspacing="4">
+<tr><th colspan="2" style="text-align: center;"><big>{{{band_name}}}</big></th></tr>
+{{#if:{{{image|}}}|<tr><td colspan="2" style="text-align: center; background-color: #f9f9f9;">{{{image|}}}<br /><small>{{{caption|}}}</small></td></tr>}}<!--
+-->{{#if:{{{origin|}}}|<tr><th>Origin</th><td>{{{origin|}}}</td></tr>}}<!--
+-->{{#if:{{{country|}}}|<tr><th>Country</th><td>{{{country|}}}</td></tr>}}<!--
+-->{{#if:{{{years_active|}}}|<tr><th>Years&nbsp;active</th><td>{{{years_active|}}}</td></tr>}}<!--
+-->{{#if:{{{actual status|}}}|<tr><th>Actual Status</th><td>{{{actual_status|}}}</td></tr>}}<!--
+-->{{#if:{{{music_genre|}}}|<tr><th>[[Music genre|Genres]]</th><td>{{{music_genre|}}}</td></tr>}}<!--
+-->{{#if:{{{record_label|}}}|<tr><th>[[Record label|Labels]]</th><td>{{{record_label}}}</td></tr>}}<!--
+-->{{#if:{{{us_distribution|}}}|<tr><th>US&nbsp;distribution</th><td>{{{us_distribution|}}}</td></tr>}}<!--
+-->{{#if:{{{current_members|}}}|<tr><th>Members</th><td>
+{{{current_members|}}}</td></tr>}}<!--
+-->{{#if:{{{past_members|}}}|<tr><th>Past&nbsp;members</th><td>
+{{{past_members}}}</td></tr>}}<!--
+-->{{#if:{{{website|}}}|<tr><th>Website(s)</th><td>{{{website}}}</td></tr>}}
+</table><noinclude>
+<br><br>
+{{Warning|This template is superseded by {{tl|Infobox musical artist}}, which should be used in all instances to replace this template.<br>
+:''Further information: [[Wikipedia:WikiProject Musicians/Infobox]]''}}
+{{esoteric}}
+Usage summary:
+<pre>
+{{Infobox Band
+| band_name       = 
+| image           = 
+| caption         = 
+| origin          = 
+| country         = 
+| years_active    = 
+| actual status   = 
+| music_genre     =
+| record_label    = 
+| us_distribution = 
+| current_members = 
+| past_members    = 
+| website         = 
+}}
+</pre>
+
+==Fields==
+{| cellpadding=2
+!
+                        !width=75px| Type
+                            ! Description
+|- valign=top
+| '''band_name'''       || || Name of the group ("the act").
+|- valign=top
+| '''image'''           || || An image of the act, sufficiently clear for display at 200 pixels' width.
+|- valign=top
+| '''caption'''         || || Caption for the image above.
+|- valign=top
+| '''origin'''          ||align=center| ''groups''
+                            | The city from which the group originated.
+|- valign=top
+| '''country'''         ||align=center| ''groups''
+                            | The country from which the group originated.
+|- valign=top
+| '''years_active'''    || || Period in years during which the act was or has been active.
+|- valign=top
+| '''music_genre'''     || || The genre or genres of music performed by the act. Aim for generality (e.g. [[Hip hop music|Hip hop]] rather than [[East Coast hip hop]]).
+|- valign=top
+| '''record_label'''    || || The record label or labels to which the act has been signed, as a comma-separated list. Omit parenthetical dates; save that information for the main article. Drop the word "Records" from the end of any label's name (e.g. use <nowiki>[[Arista Records|Arista]]</nowiki> rather than <nowiki>[[Arista Records]].</nowiki>)
+|- valign=top
+| '''current_members''' ||align=center| ''groups''
+                            | Current members of the group, listed in order with no other notation than names.
+|- valign=top
+| '''past_members'''    ||align=center| ''groups''
+                            | Past members of the group, listed in order with no other notation than names. If a group is inactive, all members should be listed here, and none in the "current members" field.
+|- valign=top
+| '''website'''             || || The (''NB singular'') web address for the act's ''official'' website.
+|}
+===Notes===
+*Never link years, unless accompanied by dates.
+*Most fields are optional and the row will simply be omitted if no data is supplied.
+*Please see the [[WikiPedia:WikiProject Musicians|WikiProject Musicians project page]] for more information about this template.
+
+
+[[Category:Music infobox templates|Band]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+
+[[el:Πρότυπο:Infobox Band]]
+[[cs:Šablona:Infobox Hudební skupina]]
+[[es:Plantilla:Grupo musical]]
+[[ka:თარგი:ბენდი]][[nl:sjabloon:Band_Infobalk]]
+[[lv:Veidne:Infobox_band]]
+[[pt:Predefinição:Info banda]]
+[[ru:Шаблон:Музыкальный коллектив]]
+[[uk:Шаблон:Музичний гурт]]
+[[zh:Template:Infobox_Band]]
+</noinclude>
