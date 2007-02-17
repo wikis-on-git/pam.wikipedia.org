@@ -1,0 +1,31 @@
+<div style="clear:both;text-align:center;{{#if|{{{WIDTH|}}}|width:{{{WIDTH}}}| }};margin:auto;"  align="center" class="NavFrame">
+<div class="NavHead" style="clear:both;text-align:center;background:{{{BGCOLOR}}};">{{{TITLE}}}</div>
+<div class="NavContent" style="clear:both;text-align:center;font-size: 90%;">
+{{{CONTENT}}}
+</div>
+<div class="NavContent" style="clear:both;text-align:center;font-size: 85%;">
+{{{SMALLCONTENT}}}
+</div>
+</div>
+<noinclude><pre>Parameter:
+  BGCOLOR = colour of the heading of the navigation box
+  TITLE   = heading of the navigation box
+  CONTENT = contents of the navigation box (90% font size). Use <nowiki>&amp;#124;</nowiki> to separate links.
+            It is not possible to include a pipe ("|") in the contents
+            as this symbol is used to separate parameters.
+  SMALLCONTENT = as per CONTENT but produces 85% fontsize
+  WIDTH   = Optional parameter to limit width</pre>
+
+==See also==
+*[[Template:Dynamic navigation box with image]]
+
+<!--interlanguage links-->
+[[br:Patrom:Taolenn verdeiñ hep skeudenn]]
+[[de:Vorlage:Navigationsleiste ohne Bild]]
+[[es:Plantilla:Navegación dinámica]]
+[[fr:Modèle:Liste de navigation sans image]]
+[[ja:Template:Dynamic navigation box]]
+[[nl:Sjabloon:Navigatiezonder]]
+[[pl:Szablon:Uniwersalny szablon nawigacyjny]]
+[[ro:Template:Dynamic navigation small]]
+</noinclude>
