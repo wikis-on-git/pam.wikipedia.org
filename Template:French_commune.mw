@@ -72,12 +72,12 @@
 {{!}}-
 }}
 |-
-!colspan="2" bgcolor="#efefef"|Administration
+!colspan="2" bgcolor="#efefef"|Administrasyun
 |-
 |[[List of countries|Bangsa]]||[[France]]
 |-
 {{#if: {{{région|<noinclude>-</noinclude>}}} |
-{{!}}[[Ding labuad ning France|Labuad]]
+{{!}}[[Ding Labuad ning France|Labuad]]
 {{!}} {{{région}}}
 {{!}}-
 }}
