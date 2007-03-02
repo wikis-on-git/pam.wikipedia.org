@@ -9,7 +9,7 @@
 }}
 {{#if: {{{number|<noinclude>-</noinclude>}}} |
 {{!}}-
-{{!}} colspan="2" align="left" bgcolor="#efefef"{{!}}'''Location'''
+{{!}} colspan="2" align="left" bgcolor="#efefef"{{!}}'''Karinan'''
 {{!}}-
 {{!}} align="center" colspan="2" {{!}} [[Image:Carte_France_Département_{{{number}}}.png|Karinan ning {{{department}}} king France]]
 {{!}}-
