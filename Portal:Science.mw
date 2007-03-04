@@ -1,0 +1,67 @@
+__NOTOC__
+{{browsebar}}
+<!-- This portal was created using subst:box portal skeleton| topic=Science|  -->
+<div style="width:100%">
+{{/Header}}
+{{Portal:Science/Intro-box-header}}
+{{Portal:Science/Intro}}
+{{/box-footer|}}
+
+
+<div style="text-align:center; margin:-7px; padding-bottom:12px;">{{purge|'''Show new selections'''}}</div>
+
+<div style="float:left; width:60%;"> <!-- This width add to the margin below to equal 99%-->
+
+{{Random portal component|max=20|header=''Selected article''|subpage=Featured article}}
+
+{{Random portal component|max=20|header=''Selected picture''|subpage=Featured picture|seed=83}}
+
+</div>
+
+<div style="float:right; width:39%"> <!-- This margin should be right of the above -->
+
+{{Random portal component|max=21|header=''Selected biography''|subpage=Featured biography|seed=53}}
+
+{{/box-header|''Did you know...''|Portal:Science/Did you know|}}
+{{Portal:Science/Did you know}}
+{{/box-footer|}}
+
+</div>
+
+<div style="float:right; width:100%">
+
+{{/box-header|''Science News''|Portal:Science/News|}}
+{{Portal:Science/News}}
+{{/box-footer|}}
+
+{{/box-header|''Associated Wikimedia''|Portal:Science/Wikimedia|}}
+{{Portal:Science/Wikimedia}}
+{{/box-footer|}}
+</div>
+
+{{portals}}
+
+[[Category:Science portals| ]]
+[[Category:Science| ]]
+
+{{featured portal}}
+
+[[ar:بوابة:العلوم]]
+[[bn:প্রবেশদ্বার:বিজ্ঞান]]
+[[bpy:হমিলদুৱার:বিজ্ঞান]]
+[[bg:Портал:Наука]]
+[[ca:Portal:Ciència]]
+[[de:Portal:Wissenschaft]]
+[[en:Portal:Science]]
+[[et:Portaal:Teadus]]
+[[fr:Portail:Science]]
+[[ka:პორტალი:მეცნიერება]]
+[[ia:Portal:Scientia]]
+[[li:Portaol:Exakte weitesjappe]]
+[[ms:Portal:Sains]]
+[[no:Portal:Vitenskap]]
+[[ru:Портал:Наука]]
+[[sl:Portal:Znanost]]
+[[sv:Portal:Naturvetenskap]]
+[[zh-yue:Portal:科學]]
+[[zh-classical:Portal:格致]]
