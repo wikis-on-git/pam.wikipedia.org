@@ -1,0 +1,17 @@
+{{Portal:Science/TabsTop}}
+{{Portal:Science/Tab1|[[Portal:Science|Main page]]}} 
+{{Portal:Science/Tab2|[[Portal:Science/Categories and Main topics|Categories & Main topics]]}} 
+{{Portal:Science/Tab2|[[Portal:Science/Portals and WikiProjects|Portals & WikiProjects]]}} 
+{{Portal:Science/Tab4|[[Portal:Science/Things you can do|Things you can do]]}}
+{{Portal:Science/TabsBottom}}<noinclude>
+<br clear="all">
+==Usage==
+To create a set of tabs, use these six elements. Keep the page tabs in the same order on all pages and use "Tab1" for the current page.
+
+{{[[Portal:Science/TabsTop]]}}<br>
+{{[[Portal:Science/Tab1]]|Current page name|color, default: #F2F7FF}} <!—H217 S5 V100 --><br>
+{{[[Portal:Science/Tab2]]|Other page name(s)|color, default: #CEDCF2}} <!—H217 S15 V95 --><br>
+{{[[Portal:Science/Tab3]]|Current page name|color, default: #F2F7FF }} (use for flush-right current page name only)<br>
+{{[[Portal:Science/Tab4]]|Other page name|color, default: #CEDCF2}} (use for flush-right other page name only)<br>
+{{[[Portal:Science/TabsBottom]]}}
+</noinclude>
