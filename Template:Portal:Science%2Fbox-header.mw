@@ -1,0 +1,7 @@
+{{Portal:Box-header | title={{{1}}} 
+|editpage={{{2}}} 
+|border=#069 
+|titleforeground=#069
+|titlebackground=#f2f7ff
+|background=white
+|foreground=black}}
