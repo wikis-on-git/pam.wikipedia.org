@@ -1,0 +1,37 @@
+{| class="infobox bordered" cellpadding="4" style="font-size: 90%; width: 20em;"
+|- align="center" style="font-size: medium; color:{{{color1}}}; background-color:{{{color2}}}; padding:5px;" |
+| colspan="2" | '''{{{name}}}'''
+|-
+| align="center" colspan="2" style="background-color: white;" |
+[[Image:{{{logo}}}|center|{{{imagesize}}}|{{{name}}} logo]]
+|- align="center" style="vertical-align: middle;"
+|| '''Conference''' || {{{conference}}}
+|- align="center" style="vertical-align: middle;"
+|| '''Dibisyun''' || {{{division}}}
+|- align="center" style="vertical-align: middle;"
+|| '''Mitatag''' || {{{founded}}}
+|- align="center" style="vertical-align: middle;"
+|| '''Amlat''' || {{{history}}}
+|- align="center" style="vertical-align: middle;"
+|| '''Arena''' || {{{arena}}}
+|- align="center" style="vertical-align: middle;"
+|| '''Lakanbalen''' || {{{city}}}
+|- align="center" style="vertical-align: middle;"
+|| '''Team Colors''' || {{{colors}}}
+|- align="center" style="vertical-align: middle;"
+|| '''Mikbandi''' || {{{owner}}}
+|- align="center" style="vertical-align: middle;"
+|| '''Head Coach''' || {{{coach}}}
+|- align="center" style="vertical-align: middle;"
+|| '''Championships''' || {{{league_champs|None}}}
+|- align="center" style="vertical-align: middle;"
+|| '''Conference Titulu''' || {{{conf_champs|None}}}
+|- align="center" style="vertical-align: middle;"
+|| '''Division Titulu''' || {{{div_champs|None}}}
+|}<noinclude>
+[[Category:sports infobox templates|National Basketball Association team]]
+
+[[bs:Šablon:NBA klub]]
+[[ja:Template:NBAteam]]
+[[zh:Template:NBA team]]
+</noinclude>
