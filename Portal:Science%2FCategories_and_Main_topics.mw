@@ -1,0 +1,25 @@
+__NOTOC__
+{{browsebar}}
+<!-- This portal was created using subst:box portal skeleton| topic=Science|  -->
+<div style="float:right; width:100%">
+{{/Header}}
+{{Portal:Science/Intro-box-header}}
+{{Portal:Science/Intro}}
+{{Portal:Science/box-footer|}}
+
+{{Portal:Science/box-header|''Categories''|Portal:Science/Categories|}}
+{{Portal:Science/Categories}}
+{{Portal:Science/box-footer|}}
+
+{{Portal:Science/box-header|''Main topics''|Portal:Science/Articles|}}
+{{Portal:Science/Articles}}
+{{Portal:Science/box-footer|}}
+</div>
+</div>
+{{portals}}
+
+
+[[Category:Science portals|Science/Categories and Main topics]]
+[[Category:Science|Science/Categories and Main topics]]
+
+{{featured portal}}
