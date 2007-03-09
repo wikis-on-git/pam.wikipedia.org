@@ -154,7 +154,7 @@
 }}{{#if: {{{logo<includeonly>|</includeonly>}}}
 | <tr></th><td colspan="2" style="text-align: center;"> {{{logo}}}</td></tr>
 }}{{#if: {{{publictransit<includeonly>|</includeonly>}}}
-| <tr><th> Public transit access </th>
+| <tr><th> Saken a pangmalda </th>
 <td> {{{publictransit}}}</td></tr>
 }}{{#if: {{{footnotes<includeonly>|</includeonly>}}}
 | <tr><td colspan="2" style="font-size: smaller;">{{{footnotes}}}</td></tr>
