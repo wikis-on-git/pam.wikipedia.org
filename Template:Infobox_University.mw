@@ -81,10 +81,10 @@
 | <tr><th> [[Employee|Empleadu]] 
 </th><td> {{{staff}}}</td></tr>
 }}{{#if: {{{students<includeonly>|</includeonly>}}}{{{enrollment|}}}
-| <tr><th> [[Students]]
+| <tr><th> [[Magaral]]
 </th><td> {{{enrollment|}}}{{{students<includeonly>|</includeonly>}}}</td></tr>
 }}{{#if: {{{undergrad<includeonly>|</includeonly>}}}
-| <tr><th> [[Deng magaral a colegiu]]
+| <tr><th> [[Magaral king colegiu]]
 </th><td> {{{undergrad}}}</td></tr>
 }}{{#if: {{{postgrad<includeonly>|</includeonly>}}}
 | <tr><th> [[Postgraduate education|Magaral a postgraduate]]
