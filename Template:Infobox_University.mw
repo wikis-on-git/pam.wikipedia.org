@@ -24,7 +24,7 @@
 | <tr><th> [[Talindo (Vision)]]
 </th><td> {{{vision}}}</td></tr>
 }}{{#if: {{{type<includeonly>|</includeonly>}}}
-| <tr><th> Type 
+| <tr><th> Uri 
 </th><td> {{{type}}}</td></tr>
 }}{{#if: {{{affiliation<includeonly>|</includeonly>}}}
 | <tr><th> [[religion|Religiun]] 
@@ -101,7 +101,7 @@
 }}{{#if: {{{alumni<includeonly>|</includeonly>}}}
 | <tr><th> [[Alumnus|Deng Miyari]]
 </th><td> {{{alumni}}}</td></tr>
-}}<tr><th> Location </th>
+}}<tr><th> Lugal </th>
 <td>{{#if: {{{location<includeonly>|</includeonly>}}}
 | {{{location}}}
 | {{{city}}}{{#if:{{{state|{{{province|}}}}}}
@@ -116,7 +116,7 @@
 | <tr><th> Address
 </th><td> {{{address}}}</td></tr>
 }}{{#if: {{{telephone<includeonly>|</includeonly>}}}
-| <tr><th> Telephone
+| <tr><th> Telefonu
 </th><td> {{{telephone}}}</td></tr>
 }}{{#if: {{{campus<includeonly>|</includeonly>}}}
 | <tr><th> Campus
