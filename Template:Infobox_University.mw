@@ -18,7 +18,7 @@
 | <tr><th> [[Tagline]]</th>
 <td> {{{tagline}}}</td></tr>
 }}{{#if: {{{established<includeonly>|</includeonly>}}}
-| <tr><th> [[date of establishment|Established]]</th>
+| <tr><th> [[date of establishment|Mitatag]]</th>
 <td> {{{established}}}</td></tr>
 }}{{#if: {{{vision<includeonly>|</includeonly>}}}
 | <tr><th> [[Vision]]
