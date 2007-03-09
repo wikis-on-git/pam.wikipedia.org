@@ -18,7 +18,7 @@
 | <tr><th> [[Tagline]]</th>
 <td> {{{tagline}}}</td></tr>
 }}{{#if: {{{established<includeonly>|</includeonly>}}}
-| <tr><th> [[date of establishment|Mitatag]]</th>
+| <tr><th> [[date of establishment|Mitátag]]</th>
 <td> {{{established}}}</td></tr>
 }}{{#if: {{{vision<includeonly>|</includeonly>}}}
 | <tr><th> [[Talindo (Vision)]]
