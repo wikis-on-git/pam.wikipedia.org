@@ -1,19 +1,163 @@
-{{Infobox_University
-|lagyu           = Holy Angel University 
-|image          = <!-- Image with unknown copyright status removed: [[Image:HAU_logo.gif|150px]]  -->
-|motto          = ''Laus Deo Semper'' ("Praise God Always") 
-|mitatag      = 1933 
-|type           = [[Private school|Private]], [[Catholic]] [[University]] 
-|pamuntuk      = [[Arlyn S. Villanueva]]
-|lakanbalen           = [[Angeles City]] 
-|lalawigan         = [[Pampanga]] 
-|bangsa         = [[Filipinas]] 
-|campus         = Angeles City
-|fraternities   = [[Phi Beta Rho, Alpha Phi Omega, And Tau Gamma Phi]]
-|kule          = Maroon, white and Gold
-|palayo       = [[The Angelians, The Angelites]]
-|website        = www.hau.edu.ph [http://www.hau.edu.ph/]
-}}
-Ing '''Holy Angel University''' metung yang privadung universidad a  [[Catolicu]] king [[Angeles]], [[Filipinas]], a miyayampang pamiturung elementary, secondary at tertiary.
-{{Asia-university-stub}}
-{{Philippines-stub}}
+<table class="infobox" style="width:24em; font-size:90%; text-align:left;">
+<!-- this line now redundant --><caption style="font-size:larger; font-weight:bold;"></caption>
+{| class="infobox" style="width: 20em; font-size: 90%;"
+|-
+! colspan="2" style="font-size: 120%; text-align: center;"  |
+{{{name}}}{{#if: {{{native_name<includeonly>|</includeonly>}}} | <br/>''{{{native_name}}}'' }}
+<tr><td colspan="2" style="text-align:center; <noinclude>font-size:larger;</noinclude>">
+{{#if:{{{image|}}} | {{{image}}} | {{#if:{{{image_name<includeonly>|</includeonly>}}}
+  | [[Image:{{{image_name}}}|center|{{{image_size<includeonly>|200x200px</includeonly>}}}|{{{caption|}}}]] }}
+}}{{#if: {{{caption<includeonly>|</includeonly>}}}
+| {{{caption}}}<hr/>
+}}{{#if:{{{latin_name<includeonly>|</includeonly>}}} | <div>[[Latin]]: ''{{{latin_name}}}''</div><hr/>}}
+</td></tr>
+{{#if: {{{motto<includeonly>|</includeonly>}}}
+| <tr><th> [[Motto]]</th>
+<td> {{{motto}}}</td></tr>
+}}{{#if: {{{tagline<includeonly>|</includeonly>}}}
+| <tr><th> [[Tagline]]</th>
+<td> {{{tagline}}}</td></tr>
+}}{{#if: {{{established<includeonly>|</includeonly>}}}
+| <tr><th> [[date of establishment|Mitatag]]</th>
+<td> {{{established}}}</td></tr>
+}}{{#if: {{{vision<includeonly>|</includeonly>}}}
+| <tr><th> [[Vision]]
+</th><td> {{{vision}}}</td></tr>
+}}{{#if: {{{type<includeonly>|</includeonly>}}}
+| <tr><th> Type 
+</th><td> {{{type}}}</td></tr>
+}}{{#if: {{{affiliation<includeonly>|</includeonly>}}}
+| <tr><th> [[religion|religiun]] 
+</th><td> {{{affiliation}}}</td></tr>
+}}{{#if: {{{calendar<includeonly>|</includeonly>}}}
+| <tr><th> Listaan da reng pecha 
+</th><td> {{{calendar}}}</td></tr>
+}}{{#if: {{{endowment<includeonly>|</includeonly>}}}
+| <tr><th> [[Financial endowment|Endowment]]
+</th><td> {{{endowment}}}</td></tr>
+}}{{#if: {{{debt<includeonly>|</includeonly>}}}
+| <tr><th> [[Utang]]
+</th><td> {{{debt}}}</td></tr>
+}}{{#if: {{{rector<includeonly>|</includeonly>}}}
+| <tr><th> [[Rector]] 
+</th><td> {{{rector}}}</td></tr>
+}}{{#if: {{{chairman<includeonly>|</includeonly>}}}
+| <tr><th> [[Talapamuntuk]] 
+</th><td> {{{chairman}}}</td></tr>
+}}{{#if: {{{chancellor<includeonly>|</includeonly>}}}
+| <tr><th> [[Chancellor (education)|Canciller]]
+</th><td> {{{chancellor}}}</td></tr>
+}}{{#if: {{{president<includeonly>|</includeonly>}}}
+| <tr><th> [[University President|Pamuntuk]]
+</th><td> {{{president}}}</td></tr>
+}}{{#if: {{{vice-president<includeonly>|</includeonly>}}}
+| <tr><th> [[Vice-President (education)|Kadwang Pamuntuk]]
+</th><td> {{{vice-president}}}</td></tr>
+}}{{#if: {{{superintendent<includeonly>|</includeonly>}}}
+| <tr><th> [[University President|Superintendent]]
+</th><td> {{{superintendent}}}</td></tr>
+}}{{#if: {{{provost<includeonly>|</includeonly>}}}
+| <tr><th> [[Provost (education)|Provost]]
+</th><td> {{{provost}}}</td></tr>
+}}{{#if: {{{principal<includeonly>|</includeonly>}}}
+| <tr><th> [[Principal (university)|Principal]]
+</th><td> {{{principal}}}</td></tr>
+}}{{#if: {{{vice_chancellor<includeonly>|</includeonly>}}}
+| <tr><th> [[Kadwang Canciller]]
+</th><td> {{{vice_chancellor}}}</td></tr>
+}}{{#if: {{{dean<includeonly>|</includeonly>}}}
+| <tr><th> [[Dean (education)|Decanu]]
+</th><td> {{{dean}}}</td></tr>
+}}{{#if: {{{director<includeonly>|</includeonly>}}}
+| <tr><th> [[Director (education)|Director]]
+</th><td> {{{director}}}</td></tr>
+}}{{#if: {{{head_label<includeonly>|</includeonly>}}}{{{head|}}}
+| <tr><th> {{{head_label<includeonly>|</includeonly>}}}
+</th><td> {{{head}}}</td></tr>
+}}{{#if: {{{faculty<includeonly>|</includeonly>}}}
+| <tr><th> [[Faculty (university)#North American usage|Talaturu]]
+</th><td> {{{faculty}}}</td></tr>
+}}{{#if: {{{staff<includeonly>|</includeonly>}}}
+| <tr><th> [[Employee|Tauan]] 
+</th><td> {{{staff}}}</td></tr>
+}}{{#if: {{{students<includeonly>|</includeonly>}}}{{{enrollment|}}}
+| <tr><th> [[Talapagaral]]
+</th><td> {{{enrollment|}}}{{{students<includeonly>|</includeonly>}}}</td></tr>
+}}{{#if: {{{undergrad<includeonly>|</includeonly>}}}
+| <tr><th> [[Undergraduate]]s
+</th><td> {{{undergrad}}}</td></tr>
+}}{{#if: {{{postgrad<includeonly>|</includeonly>}}}
+| <tr><th> [[Postgraduate education|Postgraduate]]s
+</th><td> {{{postgrad}}}</td></tr>
+}}{{#if: {{{doctoral<includeonly>|</includeonly>}}}
+| <tr><th> [[Doctorate|Manigaral para doctoradu]]
+</th><td> {{{doctoral}}}</td></tr>
+}}{{#if: {{{other<includeonly>|</includeonly>}}}
+| <tr><th> Aliwang magaral
+</th><td> {{{other}}}</td></tr>
+}}{{#if: {{{profess<includeonly>|</includeonly>}}}
+| <tr><th> [[Professional|Profesional a magaral]]
+</th><td> {{{profess}}}</td></tr>
+}}{{#if: {{{alumni<includeonly>|</includeonly>}}}
+| <tr><th> [[Alumnus|Deng miyari]]
+</th><td> {{{alumni}}}</td></tr>
+}}<tr><th> Location </th>
+<td>{{#if: {{{location<includeonly>|</includeonly>}}}
+| {{{location}}}
+| {{{city}}}{{#if:{{{state|{{{province|}}}}}}
+  |, {{{state|{{{province|}}}}}}
+  }}{{#if:{{{country|}}}
+  |, {{{country}}}
+  }}}} 
+  {{#if: {{{coor|}}}
+  | ({{{coor}}})
+  }}</td></tr>
+{{#if: {{{address<includeonly>|</includeonly>}}}
+| <tr><th> Address
+</th><td> {{{address}}}</td></tr>
+}}{{#if: {{{telephone<includeonly>|</includeonly>}}}
+| <tr><th> Telephone
+</th><td> {{{telephone}}}</td></tr>
+}}{{#if: {{{campus<includeonly>|</includeonly>}}}
+| <tr><th> Campus
+</th><td> {{{campus}}}</td></tr>
+}}{{#if: {{{free_label<includeonly>|</includeonly>}}}
+| <tr><th> {{{free_label}}}
+</th><td> {{{free<includeonly>|</includeonly>}}}</td></tr>
+}}{{#if: {{{sports<includeonly>|</includeonly>}}}
+| <tr><th> [[Sports]]
+</th><td> {{{sports}}}</td></tr>
+}}{{#if: {{{colors|{{{colours<includeonly>|</includeonly>}}}}}}
+| <tr><th> [[School colors|Ku{{#if:{{{colours|}}}|u}}le]]
+</th><td> {{{colors<includeonly>|{{{colours|}}}</includeonly>}}}</td></tr>
+}}{{#if: {{{nickname<includeonly>|</includeonly>}}}
+| <tr><th> [[Athletic nickname|Palayo]]
+</th><td> {{{nickname}}}</td></tr>
+}}{{#if: {{{mascot<includeonly>|</includeonly>}}}
+| <tr><th> [[Mascot]]
+</th><td> {{{mascot}}}</td></tr>
+}}{{#if: {{{fightsong<includeonly>|</includeonly>}}}
+| <tr><th> [[Fight song]]
+</th><td> {{{fightsong}}}</td></tr>
+}}{{#if: {{{athletics<includeonly>|</includeonly>}}}
+| <tr><th> Pasiknangan
+</th><td> {{{athletics}}}</td></tr>
+}}{{#if: {{{affiliations<includeonly>|</includeonly>}}}
+| <tr><th> Affiliations
+</th><td> {{{affiliations}}}</td></tr>
+}}{{#if: {{{nobel_laureates<includeonly>|</includeonly>}}}
+| <tr><th> [[Nobel Laureate|Menikwang Galal a Nobel]]
+</th><td> {{{nobel_laureates}}}</td></tr>
+}}{{#if: {{{website<includeonly>|</includeonly>}}}
+| <tr><th> [[Website]]
+</th><td> {{{website}}}</td></tr>
+}}{{#if: {{{logo<includeonly>|</includeonly>}}}
+| <tr></th><td colspan="2" style="text-align: center;"> {{{logo}}}</td></tr>
+}}{{#if: {{{publictransit<includeonly>|</includeonly>}}}
+| <tr><th> Public transit access </th>
+<td> {{{publictransit}}}</td></tr>
+}}{{#if: {{{footnotes<includeonly>|</includeonly>}}}
+| <tr><td colspan="2" style="font-size: smaller;">{{{footnotes}}}</td></tr>
+}}</table><noinclude>
+{{{{FULLPAGENAME}}/doc}}
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
