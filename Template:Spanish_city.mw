@@ -1,0 +1,73 @@
+{| class="infobox" style="width: 20em;" style="font-size: 85%"
+|-
+|colspan="2" align="center" | <big><big>'''{{{native_name}}}'''</big></big>
+|-
+{{#if:{{{image_skyline|}}}|<tr><td align="center" colspan="2">[[Image:{{{image_skyline|}}}|{{{image_skyline_size}}}]]</td></tr>}}
+{{#if:{{{image_skyline_caption|}}}|{{!}}-
+{{!}} align="center" colspan="2" {{!}} <small>{{{image_skyline_caption|}}}</small>
+{{!}}-}}
+|-
+| align="center" colspan="2"|
+{| border=0 cellpadding=2  cellspacing=0 style="text-align:center;"
+| width="130px" align="center" bgcolor="#eeeeee"|{{#if:{{{image_flag|}}} | [[Image:{{{image_flag}}}|{{{image_flag_size|130px}}}|Bandera ning {{{spanish_name}}}]] | [[Image:Sin bandera.svg|130px|No flag]]}}
+| align=center width="130px" bgcolor="#eeeeee"|{{#if:{{{image_coat_of_arms|}}}|[[Image:{{{image_coat_of_arms}}}|{{{image_coat_of_arms_size}}}|Coat of arms of {{{spanish_name}}}]] | [[Image:Sin escudo.svg|110px|No coat of arms]]}}
+|-
+|align=center width="130px" style="line-height:14px;" bgcolor="#eeeeee"| {{#if:{{{image_flag|}}}|<small>Flag</small>}} 
+| align=center width="130px" style="line-height:14px;" bgcolor="#eeeeee"|{{#if:{{{image_coat_of_arms|}}}| <small>Coat of Arms</small>}}
+|}
+{{#if:{{{city_motto|}}}|<tr><td align="center" colspan="2">''{{{city_motto}}}'' {{#if:{{{city_motto_means|}}}|<br />("''{{{city_motto_means}}}''")}} </td></tr>}}
+|- bgcolor="#dcdcdc"
+! colspan="2" align=center | Karinan
+|-
+{{#if:{{{image_city_map|}}}|<tr><td align="center" colspan="2" style="background:#ffffff;">[[Image:{{{image_city_map|}}}|{{{image_city_map_size}}}]]
+{{#if:{{{image_city_map_caption|}}}|<br /><small>{{{image_city_map_caption}}}</small>}}
+</td></tr>}}
+<!--
+//-->
+|-
+| align="center" colspan="2" style="line-height:14px;"|<small>'''Coordinates''' : {{{lat_long}}}</small><br /><small> '''[[Oras Zona]]''' : {{{time_zone}}}</small> {{#if:{{{time_zone_summer|}}}|<br /><small> - summer: {{{time_zone_summer}}}</small>|}}
+|- bgcolor="#dcdcdc"
+! colspan="2" align=center | General information
+|-
+| '''Katutubung Lagyu''' || {{{native_name}}} ([[{{{native_language}}} language|{{{native_language}}}]])
+|-
+| '''[[Spanish language|Spanish a lagyu]]''' || {{{spanish_name}}}
+{{#if:{{{nickname|}}}|<tr><td>'''Palayo'''</td><td>''{{{nickname}}}''</td></tr>}}<!--
+//-->{{#if:{{{founded|}}}|<tr><td>'''Mitatag'''</td><td>{{{founded}}}</td></tr>}}<!--
+//-->{{#if:{{{postal_code|}}}|<tr><td>'''[[Postal kodiku]]'''</td><td>{{{postal_code}}}</td></tr>}}<!--
+//-->{{#if:{{{area_code|}}}|<tr><td>'''[[Karinan Kodiku]]'''</td><td>34 (Spain) + {{{area_code}}} ({{{province}}})</td></tr>}}<!--
+//-->{{#if:{{{website|}}}|<tr><td>'''[[Website]]'''</td><td>[{{{website}}} {{{website}}}]</td></tr>}}
+|- bgcolor="#dcdcdc"
+! colspan="2" align=center | [[Administration (government)|Administrasyun]]
+|-
+|'''[[Bangsa]]''' || [[Espanya]]
+|-
+|'''[[Makasariling Communidad]]''' || [[{{{community_link}}}|{{{community}}}]]
+|-
+|'''[[Lalawigan]]''' || [[{{{province_link}}}|{{{province}}}]]
+{{#if:{{{comarca|}}}|<tr><td>'''[[Comarca]]'''</td><td>[[{{{comarca_link}}}|{{{comarca}}}]]</td></tr>}}<!--
+//-->{{#if:{{{divisions|}}}|<tr><td>'''Administratibung Pangadake'''</td><td valign="top">{{{divisions}}}</td></tr>}}<!--
+//-->{{#if:{{{neighborhoods|}}}|<tr><td>'''Siping'''</td><td valign="top">{{{neighborhoods}}}</td></tr>}}
+|-
+|'''[[Mayor]]''' ||style="line-height:14px;"| [[{{{mayor}}}]] ([[{{{political_party_link}}}|{{{political_party}}}]])
+|- bgcolor="#dcdcdc"
+! colspan="2" align=center | Geografia
+|-
+| '''[[Area|Gaun Lapad/Dagul]]'''|| {{{area}}} km²
+|-
+| '''[[Katas]]''' || {{{altitude}}} m [[AMSL]]
+|- bgcolor="#dcdcdc"
+! colspan="2" align=center | Population
+|-
+| '''[[Populasyun]]'''||style="line-height:14px;"|{{{population}}} <small>({{{date-population}}})</small> 
+{{#if:{{{population-ranking|}}}| <tr><td>- rank in Spain:</td><td>{{{population-ranking}}}</td></tr>}}
+|-
+| '''[[Pangasiksik]]''' || {{{density}}} hab./km² <small>({{{date-density}}})</small>
+|}
+<noinclude>
+For usage see [[Template talk:Spanish city|talk page]].
+
+{{esoteric}}
+[[Category:Spanish navigational boxes|{{PAGENAME}}]]
+[[Category:City infobox templates|Spain]]
+</noinclude>
