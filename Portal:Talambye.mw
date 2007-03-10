@@ -1,0 +1,87 @@
+<!-- this portal was created using subst:box portal skeleton| topic=Biography|  -->
+<div align="center">
+{{browsebar}}
+</div>
+<div style="float:right; width:100%">
+{{/box-header|<big>The Biography Portal|Portal:Biography/Intro|}}
+{{Portal:Biography/Intro}}
+{{/box-footer|}}
+
+</div>
+
+<div style="float:left; width:60%;"> <!-- This width add to the margin below to equal 100%-->
+
+{{/box-header|''Featured Talambye''|Portal:Biography/Selected article}}
+{{Portal:Biography/Mepiling artikulu}}
+{{/box-footer|[[Portal:Biography/Selected article/archive|Archive]]}}
+
+{{/box-header|''Selected portrait''|Portal:Biography/Mepiling Litratu|}}
+{{Portal:Biography/Selected picture}}
+{{/box-footer|[[Portal:Biography/Selected picture/archive|Archive]]}}
+
+{{/box-header|''Balu mo...''|Portal:Biography/Did you know|}}
+{{Portal:Biography/Did you know}}
+{{/box-footer|[[Wikipedia:Recent additions|Archive]] &ndash; [[Help:Starting a new page|Start a new article]]}}
+
+</div>
+
+<div style="float:right; width:39%"> <!-- This margin should be right of the above -->
+
+{{/box-header|''Categories''|Portal:Biography/Categories|}}
+{{Portal:Biography/Categories}}
+{{/box-footer|}}
+
+{{/box-header|''On this day - {{CURRENTMONTHNAME}} {{CURRENTDAY}}''|Portal:Biography/Selected anniversaries/{{CURRENTMONTHNAME}} {{CURRENTDAY}}|}}
+{{Portal:Biography/Selected anniversaries/{{CURRENTMONTHNAME}} {{CURRENTDAY}}}}
+{{/box-footer|[[{{CURRENTMONTHNAME}} {{CURRENTDAY}}|More of today's anniversaries...]]}}
+
+{{/box-header|''Quote of the week''|Portal:Biography/Quote/{{CURRENTYEAR}}, week {{CURRENTWEEK}}|}}
+{{Portal:Biography/Quote/{{CURRENTYEAR}}, week {{CURRENTWEEK}}}}
+{{/box-footer|[[Portal:Biography/Quote/archive|Archive]] – [[q:Main_Page|More from Wikiquote]]}}
+
+{{/box-header|''WikiProjects''|Portal:Biography/WikiProjects|}}
+{{Portal:Biography/WikiProjects}}
+{{/box-footer|}}
+
+</div>
+
+<div style="float:right; width:100%">
+{{/box-header|''Things you can do''|Wikipedia:WikiProject Biography/to do|}}
+{{Wikipedia:WikiProject Biography/to do}}
+{{/box-footer|}}
+
+{{portals}}
+
+<span style="float:right;"><small>''[http://en.wikipedia.org/w/wiki.phtml?title=Portal:Biography&action=purge Purge server cache]''</small></span>
+{{featured portal}}
+</div>
+
+
+[[Category:People|*Portal:Biography]]
+[[Category:Society portals|Biography]]
+[[Category:WikiProject Biography]]
+
+{{link FA|ru}}
+
+[[ar:بوابة:أعلام]]
+[[br:Porched:Tud]]
+[[bg:Портал:Биографии]]
+[[ca:Portal:Biografies]]
+[[de:Portal:Biografien]]
+[[en:Portal:Biography]]
+[[eo:Portalo:Homoj]]
+[[fr:Portail:Biographie]]
+[[he:פורטל:אישים]]
+[[hr:Portal:Biografije]]
+[[ka:პორტალი:ბიოგრაფიები]]
+[[lt:Wikipedia:Biografijos]]
+[[ps:ژوندليک]]
+[[pl:Portal:Biografie]]
+[[pt:Portal:Biografias]]
+[[ro:Portal:Biografie]]
+[[ru:Портал:Персоналии]]
+[[sk:Portál:Ľudia]]
+[[sr:Портал:Биографија]]
+[[tr:Portal:Biyografi]]
+[[zh-yue:Portal:人物]]
+[[zh:Portal:人物]]
