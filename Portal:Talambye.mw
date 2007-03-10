@@ -15,7 +15,7 @@
 {{Portal:Biography/Mepiling artikulu}}
 {{/box-footer|[[Portal:Biography/Selected article/archive|Archive]]}}
 
-{{/box-header|''Selected portrait''|Portal:Biography/Mepiling Litratu|}}
+{{/box-header|''Mepiling Larawan''|Portal:Biography/Selected picture|}}
 {{Portal:Biography/Selected picture}}
 {{/box-footer|[[Portal:Biography/Selected picture/archive|Archive]]}}
 
@@ -27,11 +27,11 @@
 
 <div style="float:right; width:39%"> <!-- This margin should be right of the above -->
 
-{{/box-header|''Categories''|Portal:Biography/Categories|}}
+{{/box-header|''Categorya''|Portal:Biography/Categories|}}
 {{Portal:Biography/Categories}}
 {{/box-footer|}}
 
-{{/box-header|''On this day - {{CURRENTMONTHNAME}} {{CURRENTDAY}}''|Portal:Biography/Selected anniversaries/{{CURRENTMONTHNAME}} {{CURRENTDAY}}|}}
+{{/box-header|''On this day - {{CURRENTMONTHNAME}} {{CURRENTDAY}}''|Portal:Biography/Mepiling anniversaryu/{{CURRENTMONTHNAME}} {{CURRENTDAY}}|}}
 {{Portal:Biography/Selected anniversaries/{{CURRENTMONTHNAME}} {{CURRENTDAY}}}}
 {{/box-footer|[[{{CURRENTMONTHNAME}} {{CURRENTDAY}}|More of today's anniversaries...]]}}
 
