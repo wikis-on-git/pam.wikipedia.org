@@ -1,0 +1,91 @@
+<!-- This portal was  created using subst:box portal skeleton| topic=History| -->   
+{{browsebar}}
+<div style="float:right; width:100%">
+{{/box-header|<big>The History Portal''</big>|Portal:History/Intro|}}
+{{Portal:History/Intro}}
+{{/box-footer|}}
+</div>
+
+<div style="float:left; width:58%;"> <!-- This width add to the margin below to equal 100%-->
+
+{{/box-header|''Featured artikulu''|Portal:History/Featured article/{{CURRENTMONTHNAME}}, {{CURRENTYEAR}}}}
+{{Portal:History/Featured article/{{CURRENTMONTHNAME}}, {{CURRENTYEAR}}}}
+{{/box-footer|'''[[Portal:History/Featured article/Suggest|Suggest]]''' • '''[[Portal:History/Featured article|Archive]]'''}}
+ 
+{{/box-header|''Featured litratu''|Portal:History/Featured picture/{{CURRENTMONTHNAME}}, {{CURRENTYEAR}}|}}
+{{Portal:History/Featured picture/{{CURRENTMONTHNAME}}, {{CURRENTYEAR}}}}
+{{/box-footer|'''[[Portal:History/Featured picture/Suggest|Suggest]]''' • '''[[Portal:History/Featured picture|Archive]]'''}}
+ 
+{{/box-header|''Did you know...''|Portal:History/Did you know|}}
+{{Portal:History/Did you know}}
+{{/box-footer|}}
+</div>
+
+<div style="float:right; width:41%"> <!-- This margin should be right of the above -->
+
+{{/box-header|''History subportals''|Portal:History/Subportals|}}
+{{Portal:History/Subportals}}
+{{/box-footer|}}
+
+{{/box-header|''WikiProjects''|Portal:History/WikiProjects|}}
+{{Portal:History/WikiProjects}}
+{{/box-footer|}}
+
+{{/box-header|''Things you can do''|Portal:History/Things you can do|}}
+{{Portal:History/Things you can do}}
+{{/box-footer|}}
+
+</div>
+
+{{/box-header|''Categories''|Portal:History/Categories|}}
+{{Portal:History/Categories}}
+{{/box-footer|}}
+
+</div>
+
+<div style="float:left; width:100%;"> <!-- This width add to the margin below to equal 100%-->
+
+{{/box-header|''Associated Wikimedia''|Portal:History/Wikimedia|}}
+{{Portal:History/Wikimedia}}
+{{/box-footer|}}
+
+</div>
+
+{{portals}}
+{{purgepage}}
+
+[[Category:History portals|History]]
+[[Category:History| ]]
+{{Link FA|ka}}
+[[ar:بوابة:التاريخ]]
+[[br:Porched:Istor]]
+[[bg:Портал:История]]
+[[ca:Portal:Història]]
+[[cs:Portál:Historie]]
+[[da:Portal:Historie]]
+[[de:Portal:Geschichte]]
+[[en:Portal:History]]
+[[es:Portal:Historia]]
+[[fr:Portail:Cliopédia]]
+[[it:Portale:Storia]]
+[[he:פורטל:היסטוריה]]
+[[ka:პორტალი:ისტორია]]
+[[lb:Portal:Geschicht]]
+[[lt:Wikipedia:Istorija]]
+[[hu:Wikipédia:Történelem portál]]
+[[nl:Portaal:Geschiedenis]]
+[[ja:Portal:歴史]]
+[[no:Portal:Historie]]
+[[pl:Portal:Historia]]
+[[pt:Portal:História]]
+[[ru:Портал:История]]
+[[sk:Portál:História]]
+[[sl:Portal:Zgodovina]]
+[[sr:Портал:Историја]]
+[[fi:Wikipedia:Historian teemasivu]]
+[[sv:Portal:Historia]]
+[[tr:Portal:Tarih]]
+[[uk:Портал:Історія]]
+[[zh-yue:Portal:歷史]]
+[[zh:Portal:历史]]
+[[zh-classical:門:史學]]
