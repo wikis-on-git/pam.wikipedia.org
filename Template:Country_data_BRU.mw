@@ -1,0 +1,8 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Brunei
+| shortname alias = Brunei
+| flag alias      = Flag of Brunei.svg
+| countryname = {{{countryname|Brunei<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+}}
