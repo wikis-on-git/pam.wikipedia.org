@@ -1,0 +1,15 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Hong Kong
+| shortname alias = Hong Kong
+| flag alias      = Flag of Hong Kong.svg
+
+| flag alias-colonial = Flag of Hong Kong 1959.svg
+
+| countryname = {{{countryname|Hong Kong<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size        = {{{size|}}}
+| name        = {{{name|}}}
+| variant     = {{{variant|}}}
+}}<noinclude>
+==Variants==
+* <nowiki>{{flagcountry|Hong Kong|colonial}}</nowiki> = {{flagcountry|Hong Kong|colonial}}
+</noinclude>
