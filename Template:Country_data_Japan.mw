@@ -1,0 +1,13 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Japan
+| shortname alias = Japan
+| flag alias      = Flag of Japan (bordered).svg
+| flag alias-alt  = Flag of Japan - variant.svg
+| countryname = {{{countryname|Japan<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+}}<noinclude>
+==Variants==
+* <nowiki>{{flagcountry|Japan|alt}}</nowiki> = {{flagcountry|Japan|alt}}
+</noinclude>
