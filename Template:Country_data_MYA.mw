@@ -1,0 +1,8 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Myanmar
+| shortname alias = Myanmar
+| flag alias      = Flag of Myanmar.svg
+| countryname = {{{countryname|Myanmar<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+}}
