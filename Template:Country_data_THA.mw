@@ -1,0 +1,8 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Thailand
+| shortname alias = Thailand
+| flag alias      = Flag of Thailand.svg
+| countryname = {{{countryname|Thailand<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+}}
