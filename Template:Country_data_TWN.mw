@@ -1,0 +1,13 @@
+<noinclude>{{seealso|Template:Country data Taiwan}}</noinclude>{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Republic of China
+| shortname alias = Republic of China
+| flag alias      = Flag of the Republic of China.svg
+| flag alias-1912 = Flag of the Republic of China 1912-1928.svg
+| countryname = {{{countryname|Republic of China<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+}}<noinclude>
+==Variants==
+* <nowiki>{{flagcountry|Republic of China|1912}}</nowiki> = {{flagcountry|Republic of China|1912}}
+</noinclude>
