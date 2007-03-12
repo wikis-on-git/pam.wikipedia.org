@@ -1,17 +1,13 @@
 {{ {{{1<noinclude>|country showdata</noinclude>}}}
-| alias           = Canada
-| shortname alias = Canada
-| flag alias      = Flag of Canada (bordered).svg
-| flag alias-1868 = Flag of Canada-1868-Red.svg
-| flag alias-1921 = Canadian Red Ensign 1921.svg
-| flag alias-1957 = Canadian Red Ensign.svg
-| countryname = {{{countryname|Canada<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| alias           = Cambodia
+| shortname alias = Cambodia
+| flag alias      = Flag of Cambodia.svg
+| flag alias-1970 = Flag of the Khmer Republic.svg
+| countryname = {{{countryname|Cambodia<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
 | size = {{{size|}}}
 | name = {{{name|}}}
 | variant = {{{variant|}}}
 }}<noinclude>
 ==Variants==
-* <nowiki>{{flagcountry|Canada|1868}}</nowiki> = {{flagcountry|Canada|1868}}
-* <nowiki>{{flagcountry|Canada|1921}}</nowiki> = {{flagcountry|Canada|1921}}
-* <nowiki>{{flagcountry|Canada|1957}}</nowiki> = {{flagcountry|Canada|1957}}
+* <nowiki>{{flag|Cambodia|1970}}</nowiki> = {{flag|Cambodia|1970}}
 </noinclude>
