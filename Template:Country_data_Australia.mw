@@ -1,0 +1,8 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Australia
+| shortname alias = Australia
+| flag alias      = Flag of Australia.svg
+| countryname = {{{countryname|Australia<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+}}
