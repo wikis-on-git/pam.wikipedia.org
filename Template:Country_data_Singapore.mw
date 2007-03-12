@@ -1,0 +1,8 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Singapore
+| shortname alias = Singapore
+| flag alias      = Flag of Singapore (bordered).svg
+| countryname = {{{countryname|Singapore<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+}}
