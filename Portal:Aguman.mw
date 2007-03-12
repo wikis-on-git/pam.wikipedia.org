@@ -1,0 +1,83 @@
+<!-- This portal was created using subst:box portal skeleton  -->
+{{browsebar}}
+
+<div style="float:right; width:100%">
+
+{{/box-header|<big>The {{PAGENAME}} Portal</big>|Portal:Society/Intro|}}
+{{Portal:Society/Intro}}
+{{/box-footer|}}
+
+</div>
+
+<div style="float:left; width:50%;"> <!-- This width add to the margin below to equal 100%-->
+{{/box-header|''Selected article''|Portal:Society/Selected article|}}
+{{Portal:Society/Selected article}}
+{{/box-footer|[[Portal:Society/Selected article/archive|Archive]]}}
+
+{{/box-header|''Mepiling litratu''|Portal:Society/Featured picture|}}
+{{Portal:Society/Featured picture}}
+{{/box-footer|[[Portal:Society/Selected picture/archive|Archive]]}}
+
+{{/box-header|''Featured artikulu''|Portal:Society/Featured articles|}}
+{{Portal:Society/Featured articles}}
+{{/box-footer|}}
+
+{{/box-header|''Balu mo...''|Portal:Society/Did you know|}}
+{{Portal:Society/Did you know}}
+{{/box-footer|}}
+
+</div>
+
+<div style="float:right; width:49%"> <!-- This margin should be right of the above -->
+
+{{/box-header|''Related Portals''|Portal:Society/Subportals|}}
+{{Portal:Society/Subportals}}
+{{/box-footer|}}
+
+{{/box-header|''Quotes''|Portal:Society/Quotes|}}
+{{Portal:Society/Quotes}}
+{{/box-footer|}}
+
+{{/box-header|''Categoria''|Portal:Society/Categories|}}
+{{Portal:Society/Categories}}
+{{/box-footer|}}
+
+{{/box-header|''Tala da reng artikulu''|Portal:Society/Lists|}}
+{{Portal:Society/Lists}}
+{{/box-footer|}}
+
+{{/box-header|''Deng bageng malyari mung agawa''|Portal:Society/Things you can do|}}
+{{Portal:Society/Things you can do}}
+{{/box-footer|}}
+
+</div>
+
+<div style="float:left; width:50%;"> <!-- This width add to the margin below to equal 100%-->
+
+{{/box-header|''WikiProjects''|Portal:Society/WikiProjects|}}
+{{Portal:Society/WikiProjects}}
+{{/box-footer|}}
+
+</div>
+
+<div style="float:right; width:100%">
+
+{{portals}}
+
+</div>
+
+<span style="float:right;"><small>''[http://en.wikipedia.org/w/wiki.phtml?title={{FULLPAGENAME}}&action=purge Purge server cache]''</small></span>
+
+[[Category:Aguman|*Portals]]
+
+[[ar:بوابة:المجتمع]]
+[[ca:Portal:Societat]]
+[[bg:Портал:Общество]]
+[[de:Portal:Gesellschaft]]
+[[en:Portal:Society]]
+[[nl:Portaal:Mens & maatschappij]]
+[[no:Portal:Samfunn]]
+[[ja:Portal:メディア]]
+[[zh-yue:Portal:社會]]
+[[he:פורטל:מדעי החברה]]
+[[zh-classical:門:社稷]]
