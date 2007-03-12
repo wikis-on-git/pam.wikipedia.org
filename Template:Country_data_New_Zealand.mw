@@ -1,0 +1,8 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = New Zealand
+| shortname alias = New Zealand
+| flag alias      = Flag_of_New_Zealand.svg
+| countryname = {{{countryname|New Zealand<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+}}
