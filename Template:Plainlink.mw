@@ -1,0 +1,5 @@
+<span class="plainlinks">[{{{url|<noinclude>''WEB Site name''</noinclude>}}}{{#if:{{{1|}}}|{{{1|}}}}}]</span><noinclude>
+{{protected template}}
+This template will allow you to link to a site with out having that little[http://en.wikipedia.org &nbsp;]&nbsp; in the way.
+
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]</noinclude>
