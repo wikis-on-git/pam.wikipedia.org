@@ -93,7 +93,7 @@
 | <tr><th> [[Doctorate|Magaral a doctorate]]
 </th><td> {{{doctoral}}}</td></tr>
 }}{{#if: {{{other<includeonly>|</includeonly>}}}
-| <tr><th> Other students
+| <tr><th> Aliwang magaral
 </th><td> {{{other}}}</td></tr>
 }}{{#if: {{{profess<includeonly>|</includeonly>}}}
 | <tr><th> [[Professional|Magaral a profesional]]
