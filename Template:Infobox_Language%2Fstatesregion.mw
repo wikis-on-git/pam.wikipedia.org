@@ -1,0 +1,14 @@
+&nbsp;
+|-
+| style="top; padding-left: 0.5em;" |{{#if:{{{1|}}}{{{2|}}}{{#ifeq:{{Infobox_Language/family-color|{{{3|}}}}}|black}}
+  | Setting and usage
+  | Region
+  }}:
+| colspan="2" style="padding-left: 0.5em;" |{{#if:{{{1|}}}{{{2|}}}{{#ifeq:{{Infobox_Language/family-color|{{{3|}}}}}|black}}
+  | {{{2|—}}}
+  | {{{4|—}}}
+}}<noinclude>
+[[eu:Txantiloi:Hizkuntza infotaula/estatuak-eskualdea]]
+[[vi:Tiêu bản:Language statesregion]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+</noinclude>
