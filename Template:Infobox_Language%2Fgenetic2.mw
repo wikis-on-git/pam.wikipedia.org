@@ -1,0 +1,38 @@
+<noinclude>
+'''Usage:''' <nowiki>{{</nowiki>[[template:Infobox Language|Infobox Language]]<nowiki>/genetic2|<family/color>}}</nowiki><br>Replace <family/color> with the language family or specific color to display genetic classification for.<br><br></noinclude>{{
+#switch:{{{1|}}}
+| Afro-Asiatic | Afro-asiatic | yellow = [[Afro-Asiatic languages|Afro-Asiatic]]
+| Niger-Congo | orange = [[Niger-Congo languages|Niger-Congo]]
+| Nilo-Saharan | gold = [[Nilo-Saharan languages|Nilo-Saharan]]
+| Khoisan | goldenrod = [[Khoisan languages|Khoisan]]
+| Indo-European | lawngreen = [[Indo-European languages|Indo-European]]
+| Caucasian | lightgreen = [[Languages of the Caucasus|Caucasian]]
+| Altaic | yellowgreen = [[Altaic languages|Altaic]]
+| Uralic | limegreen = [[Uralic languages|Uralic]]
+| Dravidian | mediumspringgreen = [[Dravidian languages|Dravidian]]
+| Paleosiberian | Paleo-Siberian | Paleo-siberian | Palaeosiberian | Palaeo-Siberian | Palaeo-siberian = [[Paleosiberian languages|Paleosiberian]]
+| Austronesian | pink = [[Austronesian languages|Austronesian]]
+| Austro-Asiatic | Austro-asiatic | Austroasiatic | lightcoral = [[Austro-Asiatic languages|Austro-Asiatic]]
+| Sino-Tibetan | tomato = [[Sino-Tibetan languages|Sino-Tibetan]]
+| Hmong-Mien = [[Hmong-Mien languages|Hmong-Mien]]
+| Australian | orchid = [[Australian Aboriginal languages|Australian]]
+| Papuan | violet = [[Papuan languages|Papuan]]
+| Tai-Kadai | lavender = [[Tai-Kadai languages|Tai-Kadai]]
+| American | lightblue = [[Indigenous languages of the Americas|American]]
+| Na-Dene | Na-Dené | deepskyblue = [[Na-Dené languages|Na-Dené]]
+| Eskimo-Aleut | lightcyan = [[Eskimo-Aleut languages|Eskimo-Aleut]]
+| Creole | creole = [[Creole language|Creole]]
+| Pidgin | pidgin = [[Pidgin|Pidgin]]
+| Mixed | mixed = [[Mixed language|Mixed]]
+| Isolate | isolate | language isolate | #dddddd = [[language isolate]]
+| Sign | sign | sign language | silver = [[sign language]]
+| Conlang | conlang | constructed language | black = [[constructed language]]
+| Default | default | white = —
+|
+}}<noinclude>
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+
+[[eu:Txantiloi:Hizkuntza infotaula/genetiko 2]]
+[[ja:Template:Infobox Language/genetic2]]
+[[vi:Tiêu bản:Language genetic]]
+</noinclude>
