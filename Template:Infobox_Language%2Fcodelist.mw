@@ -1,0 +1,14 @@
+{{#if:{{{1|}}}
+ |<br /><tt>[http://www.sil.org/iso639-3/documentation.asp?id={{{1}}} {{{1}}}]</tt>&nbsp;&mdash;&nbsp;{{#if:{{{3|}}}
+  |{{#ifeq:{{{3|}}}|none
+   |{{{2|}}}
+   |[[{{{3}}}|{{{2|}}}]]
+  }}
+  |[[{{{2|}}}]]
+ }}
+}}<noinclude>
+[[eu:Txantiloi:Hizkuntza infotaula/kodeak]]
+[[ja:Template:Infobox Language/codelist]]
+[[vi:Tiêu bản:Language codelist]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+</noinclude>
