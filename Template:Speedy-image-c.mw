@@ -1,9 +1,9 @@
 <br />
 ----
-<small>The image above is a [[Wikipedia:Criteria for speedy deletion#Images.2FMedia|candidate for speedy deletion]]. It will be deleted on {{{1|?? / seven days after being nominated}}}.</small> <includeonly>[[Category:Articles that include images for deletion]]</includeonly><noinclude>
+<small>Ing larawan king babo [[Wikipedia:Criteria for speedy deletion#Images.2FMedia|makalista ne kareng malapit nang buran]]. Mabura ya keng {{{1|?? / pitung aldo kaybat nang mepili}}}.</small> <includeonly>[[Category:Articles that include images for deletion]]</includeonly><noinclude>
 
-== Documentation ==
-To be tagged on the captions of images in articles.
+== Documentaciun ==
+Mikabit ya ini king makasulat a kayabe da reng larawan (caption).
 
-To add this notice, enter <code>&#123;{speedy-image-c|{{CURRENTMONTHNAME}} {{CURRENTDAY}}}&#125;</code> following captions.
+Ba yang idagdag ing kapabalwan a ini, isulat me ing <code>&#123;{speedy-image-c|{{CURRENTMONTHNAME}} {{CURRENTDAY}}}&#125;</code> kaybat ning makasulat (caption).
 </noinclude>
