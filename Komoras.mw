@@ -3,11 +3,11 @@ native_name = ''Union des Comores<br/>Udzima wa Komori''<br/>اتحاد القم
 conventional_long_name = Union of the Comoros |
 common_name = Comoros |
 image_flag = Flag of the Comoros.svg |
-image_coat = Comoros_coat_of_arms_small.gif |
+image_coat = COA_of_Comoros.gif |
 image_map = LocationComoros.png |
 national_motto = Unité - Justice - Progrès<br/>([[French language|French]], "Unity, justice, progress") |
 national_anthem = [[Udzima wa ya Masiwa]] |
-official_languages = [[Comorian language|Shikomor]], [[Arabic language|Arabic]], [[French language|French]] |
+official_languages = [[Comorian (amanu)|Comorian]], [[Arabic (amanu)|Arabic]], [[French (amanu)|French]] |
 capital = [[Moroni, Comoros|Moroni]] |latd=11|latm=41|latNS=S|longd=43|longm=16|longEW=E|
 largest_city = [[Moroni, Comoros|Moroni]] |
 government_type= [[Federal Republic]]|
@@ -36,10 +36,10 @@ HDI = 0.547 |
 HDI_rank = 132nd |
 HDI_category = <font color="#FFCC00">medium</font> |
 sovereignty_type = [[Independence]] |
-sovereignty_note = From [[France]] |
+sovereignty_note = from [[France]] |
 established_event1 = Date |
 established_date1 = [[July 6]], [[1975]] |
-currency = [[Comorian Franc]] |
+currency = [[Comorian franc]] |
 currency_code = KMF |
 time_zone=   |
 utc_offset= +3 |
