@@ -1,57 +1,66 @@
-{{otheruses}} <!-- Use British English -->
-{{infobox country|
-|common_name={{PAGENAME}}
-|native_name=''Grand-Duché de Luxembourg<br />Großherzogtum Luxemburg<br />Groussherzogtum Lëtzebuerg''
-|conventional_long_name = Grand Duchy of Luxembourg 
-|image_flag=Flag of Luxembourg.svg
-|image_coat=Luxarmslarge.jpg
-|national_motto= [[Luxembourgish language|Luxembourgish]]: ''Mir wëlle bleiwe wat mir sinn''<br>([[English language|English]]: "We wish to remain what we are")
-|national_anthem=''[[Ons Hémécht]]''<br>("Our Homeland")
-|image_map=LocationLuxembourg.png
-|capital=[[Luxembourg (city)|Luxembourg]]
-|latd=49|latm=36|latNS=N
-|longd=6|longm=7|longEW=E
-|largest_city=[[Luxembourg (city)|Luxembourg]]
-|official_languages=[[French language|French]], [[German language|German]], [[Luxembourgish language|Luxembourgish]]<br>([[de jure]] since 1984)
-|government_type=[[Grand duchy]]
-|leader_titles=[[Grand Ducal Family of Luxembourg|Grand Duke]]<br />[[Prime Minister of Luxembourg|Prime minister]]
-|leader_names=[[Grand Duke Henri of Luxembourg|Grand Duke Henri]] <small>([[List of Grand Dukes of Luxembourg|List]])</small><br />[[Jean-Claude Juncker]] <small>([[List of Prime Ministers of Luxembourg|List]])</small>
-|sovereignty_type = [[Independence]] 
-|established_events = &nbsp;•&nbsp;Declared<br/>&nbsp;•&nbsp;Confirmed
-|established_dates = <br/>[[1815]]<br/>[[1839]] & [[1867]]
-|accessionEUdate = [[March 25]], [[1957]]
-|area=2,586
-|areami²= 998 <!-- Do not remove per [[WP:MOSNUM]] -->
-|area_magnitude=1 E9
-|area_rank=167th
-|percent_water=Negligible
-|population_estimate=468,571
-|population_estimate_year=2005
-|population_census=468,571
-|population_census_year=2005
-|population_estimate_rank=162nd
-|population_density=171
-|population_densitymi² =469  <!-- Do not remove per [[WP:MOSNUM]] -->
-|population_density_rank=45th
-|GDP_PPP_year=2005
-|GDP_PPP=$29.37 billion
-|GDP_PPP_rank=95th
-|GDP_PPP_per_capita=$69,800
-|GDP_PPP_per_capita_rank=1st
-|HDI=0.957
-|HDI_year=2003
-|HDI_rank=4th
-|HDI_category = <font color="#009900">high</font>
-|currency = [[Euro]] <sup>1</sup> |
-|currency_code = € EUR |
-|country_code = LUX
-|time_zone=[[Central European Time|CET]]
-|utc_offset= +1
-|time_zone_DST= [[Central European Summer Time|CEST]] |
-|utc_offset_DST= +2
-|cctld= [[.lu]]
-|calling_code = 352
-|footnotes = <sup>1</sup> Prior to [[1999]]: [[Franc|Luxembourg franc]].
+{{this|the country in western Europe}}
+{{Infobox Country
+|native_name              =''Groussherzogtum Lëtzebuerg''<br/>''Grand-Duché de Luxembourg''<br/>''Großherzogtum Luxemburg''
+|conventional_long_name   = Grand Duchy of Luxembourg 
+|common_name              = Luxembourg
+|image_flag               = Flag of Luxembourg.svg
+|image_coat               = Coat of arms Grand Duchy of Luxembourg large.png
+|national_motto           = ''"[[Mir wëlle bleiwe wat mir sinn]]"''{{spaces|2}}<small>([[Luxembourgish language|Luxembourgish]])<br/>"We wish to remain what we are"</small>
+|national_anthem          = ''[[Ons Hémécht]]''{{spaces|2}}<small>("Our Homeland")</small><br/>[[Royal anthem]]: ''[[De Wilhelmus]]''&nbsp;<sup>1</sup>
+|image_map                = EU_location_LUX.png
+|map_caption              = {{map_caption |location=circled |region=on the [[Europe|European continent]] |subregion=the [[European Union]] |legend=European location legend en.png}}
+|capital                  = [[Image:Coat of arms Luxembourg City.png|22px]]&nbsp;[[Luxembourg (city)|Luxembourg]]
+|latd=49 |latm=36 |latNS=N |longd=6 |longm=7 |longEW=E
+|largest_city             = capital
+|official_languages       = [[French language|French]], [[German language|German]], [[Luxembourgish language|Luxembourgish]]<br/>(''[[de jure]]'' since 1984)
+|government_type          = [[Grand duchy]]
+|leader_title1            = [[Grand Ducal Family of Luxembourg|Grand Duke]]
+|leader_title2            = [[Prime Minister of Luxembourg|Prime minister]]
+|leader_name1             = [[Grand Duke Henri of Luxembourg|Grand Duke Henri]] <small>([[List of Grand Dukes of Luxembourg|List]])</small>
+|leader_name2             = [[Jean-Claude Juncker]] <small>([[List of Prime Ministers of Luxembourg|List]])</small>
+|sovereignty_type         = [[Independence]]
+|established_event1       = Declared
+|established_event2       = Confirmed
+|established_date1        = [[1815]]
+|established_date2        = [[1839]], [[1867]]
+|accessionEUdate          = [[March 25]] [[1957]]
+|area                     = 2,586.4
+|areami²                  = 999 <!--Do not remove per [[WP:MOSNUM]]-->
+|area_magnitude           = 1 E9
+|area_rank                = 176th
+|percent_water            = negligible
+|population_estimate      = 465,000
+|population_estimate_year = 2005
+|population_census        = 439,539
+|population_census_year   = 2001
+|population_estimate_rank = 171st <small!>
+|population_density       = 171
+|population_densitymi²    = 469 <!--Do not remove per [[WP:MOSNUM]]-->
+|population_density_rank  = 59th
+|GDP_PPP_year             = 2005
+|GDP_PPP                  = $29.37 billion
+|GDP_PPP_rank             = 92nd
+|GDP_PPP_per_capita       = $69,800 (2005)
+|GDP_PPP_per_capita_rank  = 1st
+|GDP_nominal              = $34.18 [[1000000000 (number)|billion]]
+|GDP_nominal_rank         = 64th
+|GDP_nominal_year         = 2005
+|GDP_nominal_per_capita   = $80,288
+|GDP_nominal_per_capita_rank = 1st
+|HDI                      = {{decrease}} 0.945
+|HDI_year                 = 2004
+|HDI_rank                 = 12th
+|HDI_category             = <font color="#009900">high</font>
+|currency                 = [[Euro]] ([[Euro sign|€]])<sup>2</sup>
+|currency_code            = EUR
+|country_code             = LUX
+|time_zone                = [[Central European Time|CET]]
+|utc_offset               = +1
+|time_zone_DST            = [[Central European Summer Time|CEST]]
+|utc_offset_DST           = +2
+|cctld                    = [[.lu]]<sup>3</sup>
+|calling_code             = 352
+|footnotes                = <sup>1</sup> Not the same as the ''[[Het Wilhelmus]]'' of the Netherlands.<br/><sup>2</sup> Prior to [[1999]]: [[Luxembourgish franc]].<br/><sup>3</sup> The [[.eu]] domain is also used, as it is shared with other [[European Union]] member states.
 }}
 
 
