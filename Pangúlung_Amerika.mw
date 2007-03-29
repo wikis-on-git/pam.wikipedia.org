@@ -1,0 +1,77 @@
+<!-- This portal was created using subst:box portal skeleton  -->
+{{browsebar noblank}}
+<div style="float:right; width:100%">
+
+{{/box-header|<big>The {{PAGENAME}} Portal</big>|{{FULLPAGENAME}}/Intro|}}
+{{{{FULLPAGENAME}}/Intro}}
+{{/box-footer|}}
+
+</div>
+
+<div style="float:left; width:52%;"> <!-- This width add to the the margin below to equal 100%-->
+
+{{/box-header|''Selected article''|{{FULLPAGENAME}}/Selected article|}}
+{{{{FULLPAGENAME}}/Selected article}}
+{{/box-footer|}}
+
+{{/box-header|''Selected picture''|{{FULLPAGENAME}}/Selected picture|}}
+{{{{FULLPAGENAME}}/Selected picture}}
+{{/box-footer|}}
+
+{{/box-header|''Quotes''|{{FULLPAGENAME}}/Quotes|}}
+
+{{{{FULLPAGENAME}}/Quotes}}
+{{/box-footer|}}
+
+{{/box-header|''Did you know...''|{{FULLPAGENAME}}/Did you know|}}
+{{{{FULLPAGENAME}}/Did you know}}
+{{/box-footer|}}
+
+{{/box-header|''Categories''|{{FULLPAGENAME}}/Categories|}}
+{{{{FULLPAGENAME}}/Categories}}
+{{/box-footer|}}
+</div>
+<div style="float:right; width:47%"> <!-- This margin should be right of the above -->
+
+{{/box-header|''Selected biography''|{{FULLPAGENAME}}/Selected biography|}}
+{{{{FULLPAGENAME}}/Selected biography}}
+{{/box-footer|}}
+
+{{/box-header|''Related portals''|{{FULLPAGENAME}}/Related portals|}}
+{{{{FULLPAGENAME}}/Related portals}}
+{{/box-footer|}}
+
+{{/box-header|''Countries and territories''|{{FULLPAGENAME}}/Countries and territories of North America|}}
+{{{{FULLPAGENAME}}/Countries and territories of North America}}
+{{/box-footer|}}
+
+{{/box-header|''{{PAGENAME}} lists''|{{FULLPAGENAME}}/{{PAGENAME}} lists|}}
+{{{{FULLPAGENAME}}/{{PAGENAME}} lists}}
+{{/box-footer|}}
+</div>
+
+<div style="float:right; width:100%">
+
+{{/box-header|''WikiProjects''|{{FULLPAGENAME}}/WikiProjects|}}
+{{{{FULLPAGENAME}}/WikiProjects}}
+{{/box-footer|}}
+
+{{/box-header|''Associated Wikimedia''|Template:WikimediaForPortals|}}
+{{WikimediaForPortals}}
+{{/box-footer|}}
+
+{{portals}}
+
+</div>
+
+{{Purgepage}}
+__NOTOC__ __NOEDITSECTION__
+
+
+<!--Categories-->
+[[Category:North American portals| Portals]]
+[[Category:Portals needing attention|{{PAGENAME}}]]
+
+[[fi:Wikipedia:Pohjois-Amerikan teemasivu]]
+[[ja:Portal:北アメリカ]]
+[[ru:Портал:Северная Америка]]
