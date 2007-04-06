@@ -26,9 +26,9 @@
 | {{{cultivar|}}}
 |-
 {{#if: {{{origin|}}}|
-! style="background-color: palegreen;" {{!}} Origin}}
+! style="background-color: palegreen;" {{!}} Menibatan}}
 |-
-| {{{Menibatan|}}}
+| {{{origin|}}}
 |-
 {{#if: {{{subdivision|}}}|
 ! style="background-color: palegreen;" {{!}} Cultivar Group members}}
