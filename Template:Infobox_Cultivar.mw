@@ -1,0 +1,43 @@
+<includeonly>{| class="infobox bordered" style="width: 22em; font-size: 95%; text-align: center;"
+|-
+! style="background-color: palegreen;" | {{{name}}}
+|-
+{{#if: {{{image|}}}|
+{{!}} [[Image:{{{image}}} {{!}} {{{image_width|200px}}}|{{{image_caption|}}}]]}}
+|-
+{{#if: {{{species|}}}|
+! style="background-color: palegreen;" {{!}} [[Species]]}}
+|-
+| {{{species|}}}
+|-
+{{#if: {{{hybrid|}}}|
+! style="background-color: palegreen;" {{!}} [[Hybrid|Hybrid parentage]]}}
+|-
+| {{{hybrid|}}}
+|-
+{{#if: {{{group|}}}|
+! style="background-color: palegreen;" {{!}} [[Cultivar|Cultivar group]]}}
+|-
+| {{{group|}}}
+|-
+{{#if: {{{cultivar|}}}|
+! style="background-color: palegreen;" {{!}} [[Cultivar]]}}
+|-
+| {{{cultivar|}}}
+|-
+{{#if: {{{origin|}}}|
+! style="background-color: palegreen;" {{!}} Origin}}
+|-
+| {{{origin|}}}
+|-
+{{#if: {{{subdivision|}}}|
+! style="background-color: palegreen;" {{!}} Cultivar Group members}}
+|-
+| {{{subdivision|}}}
+|}</includeonly><noinclude>
+==About this template==
+This template sets up an infobox for a plant [[cultivar]].  Although the implementation is complicated, it is relatively simple to use.  See [[Wikipedia:WikiProject Tree of Life/Cultivar infobox]] for an explanation and examples. Most parameters are optional, so if a particular entry is not relevant for your case, just leave it out.
+{{esoteric}}
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+[[Category:Infobox templates|Cultivar]]
+</noinclude>
