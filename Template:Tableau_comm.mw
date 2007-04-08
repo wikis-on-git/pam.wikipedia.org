@@ -1,0 +1,259 @@
+<!-- Infobox template for Communes in France and Collectivité d'outre-mer of France-->
+{| class="infobox" width="280px" cellspacing="0" cellpadding="2" style="font-size: 90%;"
+{{#if: {{{name|<noinclude>-</noinclude>}}} |
+{{!}} align="center" colspan="2" {{!}} '''{{{name}}}'''
+{{!}}-
+}}
+{{#if: {{{nomcommune|<noinclude>-</noinclude>}}} |
+{{!}} align="center" colspan="2" {{!}} '''{{{nomcommune}}}'''
+{{!}}-
+}}
+{{#if: {{{native_name|<noinclude>-</noinclude>}}} |
+{{!}} align="center" style="font-size:135%" colspan="2" {{!}} '''{{{native_name}}}'''
+{{!}}-
+}}
+{{#if: {{{image_flag|<noinclude>-</noinclude>}}} |
+{{!}}width="50%" align="center" style="border-top:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;"{{!}}<table style="border:1px solid #eeeeee;"><tr><td>[[Image:{{{image_flag<noinclude>|Placeholder.png</noinclude>}}}|{{{image_flag_size<noinclude>|120px</noinclude>}}}|Flag of {{{common_name}}}]]</td></tr></table>
+{{!}}width="50%" align="center" style="border-top:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;"{{!}}[[Image:{{{image_coat_of_arms<noinclude>|Placeholder.png</noinclude>}}}|{{{image_coat_of_arms_size<noinclude>|120px</noinclude>}}}|Coat of arms of {{{common_name}}}]]
+{{!}}-
+{{!}}align="center" width="50%" style="line-height:14px;background-color:#ffffff;"{{!}}<small>{{{flag_legend}}}</small>
+{{!}}align="center" width="50%" style="line-height:14px;background-color:#ffffff;"{{!}}<small>{{{Coat_of_arms_legend}}}</small>
+{{!}}-
+}}
+|-
+<!----- Motto ----->
+{{#if: {{{city_motto<includeonly>|</includeonly>}}} |
+{{!}}colspan="2" style="border-top:solid 1px #ccd2d9; font-size:95%;line-height:150%; text-align: center;"{{!}} Motto: {{{city_motto}}}
+{{!}}-
+}}
+|-
+<!----- Map ----->
+{{#if:{{{lat_long|}}}|
+{{!}} colspan="2" bgcolor="#efefef" align="center" {{!}} '''Karinan'''
+{{!}}-
+}}
+{{#if: {{{map|<noinclude>-</noinclude>}}} |
+{{!}} colspan="2" valign="top" align="center" {{!}} [[Image:{{{map}}}|180px]]
+{{!}}-
+}}
+|-
+{{#if: {{{image_map|<noinclude>-</noinclude>}}} |
+{{!}} cellpadding="0" style="border-top:solid 1px #ccd2d9; border-bottom:solid 1px #ccd2d9; padding: 0; margin:0;background: #ffffff; text-align: center;" colspan="2"{{!}}{{French town map|
+  image_map   = {{{image_map|}}} |
+  x           = {{{x|_unknown}}} |
+  y           = {{{y|}}} | 
+  common_name = {{{common_name|}}} |
+}}
+}}
+|-
+{{#if: {{{mapcaption|<noinclude>-</noinclude>}}} |
+{{!}} colspan="2" align="center" {{!}} <small>{{{mapcaption}}}</small>
+{{!}}-
+}}
+{{#if: {{{lat_long|<noinclude>-</noinclude>}}} |
+{{!}}[[Geographic coordinate system|Ding Koordinayt]]
+{{!}} {{{lat_long}}}
+{{!}}-
+}}
+{{#if: {{{time zone|<noinclude>-</noinclude>}}} |
+{{!}}[[Time Zone|Zona Oras]]
+{{!}} {{{time zone}}}
+{{!}}-
+}}
+|-
+{{#if: {{{longitude|<noinclude>-</noinclude>}}} |
+{{!}}colspan="2" bgcolor="#efefef" align="center" {{!}}'''Karinan'''
+{{!}}-
+{{!}}[[Longitude]]
+{{!}} {{{longitude}}} 
+{{!}}-
+{{!}}[[Latitude]]
+{{!}} {{{latitude}}}
+{{!}}-
+}}
+|-
+!colspan="2" bgcolor="#efefef"|Administrasyun
+|-
+|[[List of countries|Bangsa]]||[[France]]
+|-
+{{#if: {{{région|<noinclude>-</noinclude>}}} |
+{{!}}[[Ding Labuad ning France|Labuad]]
+{{!}} {{{région}}}
+{{!}}-
+}}
+{{#if: {{{region|<noinclude>-</noinclude>}}} |
+{{!}}[[Ding Labuad ning France|Labuad]]
+{{!}} {{{region}}}
+{{!}}-
+}}
+{{#if: {{{province|<noinclude>-</noinclude>}}} |
+{{!}}[[Subdivisions of France#Overseas|''Sui generis'' collectivity]]
+{{!}} [[New Caledonia]]<br />{{{capital|}}}
+{{!}}-
+{{!}}[[Ding pangadake ning New Caledonia|Lalawigan]]
+{{!}} {{{province}}}
+{{!}}-
+}}
+{{#if: {{{overseas collectivity|<noinclude>-</noinclude>}}} |
+{{!}}[[Overseas communities of France|Overseas community]]
+{{!}} {{{overseas collectivity}}}{{#if:{{{capital|}}}|<br/>{{{capital}}} }}
+{{!}}-
+}}
+{{#if: {{{administrative subdivision|<noinclude>-</noinclude>}}} |
+{{!}}[[French Polynesia#Administrative divisions|Administrative subdivision]]
+{{!}} {{{administrative subdivision}}}
+{{!}}-
+}}
+{{#if: {{{commune centre|<noinclude>-</noinclude>}}} |
+{{!}}Commune centre
+{{!}} {{{commune centre}}}
+{{!}}-
+}}
+{{#if: {{{departement|<noinclude>-</noinclude>}}} |
+{{!}}[[Departamentu ning France|Departamentu]]
+{{!}} {{{departement}}}
+{{!}}-
+}}
+{{#if: {{{département|<noinclude>-</noinclude>}}} |
+{{!}}[[Departamentu ning France France|Departmentu]]
+{{!}} {{{département}}}
+{{!}}-
+}}
+{{#if: {{{arrondissement|<noinclude>-</noinclude>}}} |
+{{!}}[[Arrondissement ning France|Arrondissement]]
+{{!}} [[Arrondissement of {{{arrondissement}}}|{{{arrondissement}}}]]
+{{!}}-
+}}
+{{#if: {{{canton|<noinclude>-</noinclude>}}} |
+{{!}}[[Canton ning France|Canton]]
+{{!}} {{{canton}}}
+{{!}}-
+}}
+{{#if: {{{intercomm|<noinclude>-</noinclude>}}} |
+{{!}}[[Communes in France#Intercommunality|Intercommunality]]
+{{!}} {{{intercomm}}}
+{{!}}-
+}}
+{{#if: {{{subdivisions|<noinclude>-</noinclude>}}} |
+{{!}}{{{subdivisions_entry}}}
+{{!}} {{{subdivisions}}}
+{{!}}-
+}}
+{{#if: {{{intercom-details2|<noinclude>-</noinclude>}}} |
+{{!}}[[Communes in France#Intercommunality|Intercommunality]]
+{{!}} {{{intercom-details2}}}
+{{!}}-
+}}
+{{#if: {{{maire|<noinclude>-</noinclude>}}} |
+{{!}}[[Mayor]]
+{{!}} {{{maire}}}{{#if:{{{party|}}}|&nbsp;&nbsp;<small>({{{party}}})</small>}}{{#if:{{{mandat|}}}|<br><small>({{{mandat}}})</small>}}
+{{!}}-
+}}
+{{#if: {{{mayor|<noinclude>-</noinclude>}}} |
+{{!}}[[Mayor|Mayor]]
+{{!}} {{{mayor}}}{{#if:{{{party|}}}|&nbsp;&nbsp;<small>({{{party}}})</small>}}{{#if:{{{mandat|}}}|<br><small>({{{mandat}}})</small>}}
+{{!}}-
+}}
+{{#if: {{{deputie|<noinclude>-</noinclude>}}} |
+{{!}}[[Deputies of the 12th French National Assembly|Deputadu]]
+{{!}} {{{deputie}}}
+{{!}}-
+}}
+|-
+!colspan="2" bgcolor="#efefef"|{{#if:{{{UU-area|}}}|City&nbsp;}}Statistics
+|-
+{{#if: {{{alt mini|<noinclude>-</noinclude>}}} |
+{{!}}Altitude
+{{!}} {{{alt mini}}}–{{{alt maxi}}}{{#if:{{{alt moy|}}}|<br/>(avg. {{{alt moy}}})}}
+{{!}}-
+}}
+{{#if: {{{km²|<noinclude>-</noinclude>}}} |
+{{!}}Land area{{#if:{{{overseas collectivity|}}}|&nbsp;|¹}}
+{{!}} {{{km²}}} km²
+{{!}}-
+}}
+{{#if: {{{area|<noinclude>-</noinclude>}}} |
+{{!}}Land area{{#if:{{{overseas collectivity|}}}|&nbsp;|¹}}
+{{!}} {{{area}}} km²
+{{!}}-
+}}
+{{#if: {{{sans|<noinclude>-</noinclude>}}} |
+{{!}}[[Demographics of France|Populasyun]]{{#if:{{{overseas collectivity|}}}|¹|²}}<br><small>({{{date-sans|}}})</small>
+{{!}} {{{sans}}}
+{{!}}-
+}}
+{{#if: {{{dens|<noinclude>-</noinclude>}}} |
+{{!}}&nbsp;-&nbsp;Pangasiksik <small>({{{date-dens|}}})</small>
+{{!}} {{{dens}}}/km²
+{{!}}-
+}}
+{{#if: {{{population|<noinclude>-</noinclude>}}} |
+{{!}}[[Demographics of France|Populasyun]]{{#if:{{{overseas collectivity|}}}|¹|²}}
+{{!}} {{{population-ranking}}}
+{{!}}-
+{{!}}&nbsp;-&nbsp;{{{date-population}}}
+{{!}} {{{population}}}
+{{!}}-
+}}
+{{#if: {{{density|<noinclude>-</noinclude>}}} |
+{{!}}&nbsp;-&nbsp;Pangasiksik
+{{!}} {{{density}}}/km² <small>({{{date-density}}})</small>
+{{!}}-
+}}
+{{#if: {{{ethnic|<noinclude>-</noinclude>}}} |
+{{!}}&nbsp;-&nbsp;Katutubu distribution{{#if:{{{date-ethnic|}}}|<br>&nbsp;&nbsp;<small>({{{date-ethnic|}}})}}
+{{!}} {{{ethnic}}}
+{{!}}-
+}}
+{{#if: {{{UU-area|<noinclude>-</noinclude>}}} |
+{{!}} align="center" colspan="2" bgcolor="#efefef" {{!}} '''Urban Pangakalat'''
+{{!}}-
+{{!}}[[unité urbaine|Urban lapad/dagul]] 
+{{!}}{{{UU-area}}}&nbsp;km² {{#if:{{{UU-area-date|}}}|<small>({{{UU-area-date}}})</small>}}
+{{!}}-
+{{!}}&nbsp;-&nbsp;Population
+{{!}}{{{UU-pop}}} {{#if:{{{UU-pop-date|}}}|<small>({{{UU-pop-date}}})</small>}}
+{{!}}-
+{{!}}[[unité urbaine|Metro lapad/dagul]] 
+{{!}}{{{AU-area}}}&nbsp;km² {{#if:{{{AU-area-date|}}}|<small>({{{AU-area-date}}})</small>}}
+{{!}}-
+{{!}}&nbsp;-&nbsp;Populasyun
+{{!}}{{{AU-pop}}} {{#if:{{{AU-pop-date|}}}|<small>({{{AU-pop-date}}})</small>}}
+{{!}}-
+}}
+{{#if: {{{cp|<noinclude>-</noinclude>}}} |
+{{!}} align="center" colspan="2" bgcolor="#efefef" {{!}} '''Aliwapa'''
+{{!}}-
+}}
+{{#if: {{{cp|<noinclude>-</noinclude>}}} |
+{{!}}style="width:45%"{{!}}{{#if:{{{insee|}}}|[[INSEE Code|I<small>NSEE</small>]]/}}Postal code
+{{!}} {{#if:{{{insee|}}}|{{{insee}}}/}} [[List of French postal codes|{{{cp}}}]]
+{{!}}-
+}}
+{{#if: {{{diallingcode|<noinclude>-</noinclude>}}} |
+{{!}}[[French telephone numbering plan|Pamanaus kodiko]]
+{{!}} {{{diallingcode}}}
+{{!}}-
+}}
+|-
+{{#if: {{{département|<noinclude>-</noinclude>}}} |
+{{!}}colspan="2" style="border-top:solid 1px #ccd2d9; font-size:83%;line-height:150%;"{{!}} ¹ French Land Register data, which excludes lakes, ponds, glaciers &gt; 1 km² (0.386 sq. mi. or 247 acres) and river [[estuary|estuaries]].
+{{!}}-
+}}
+{{#if: {{{departement|<noinclude>-</noinclude>}}} |
+{{!}}colspan="2" style="border-top:solid 1px #ccd2d9; font-size:83%;line-height:150%;"{{!}} ¹ French Land Register data, which excludes lakes, ponds, glaciers &gt; 1 km² (0.386 sq. mi. or 247 acres) and river [[estuary|estuaries]].
+{{!}}-
+}}
+{{#if: {{{province|<noinclude>-</noinclude>}}} |
+{{!}}colspan="2" style="border-top:solid 1px #ccd2d9; font-size:83%;line-height:150%;"{{!}} ¹ New Caledonia Land Register (DITTT) data, which exclude lakes and ponds larger than 1 km&sup2; (0.386 sq. mi. or 247 acres) as well as the [[estuary|estuaries]] of rivers.
+{{!}}-
+}}
+|-
+| colspan="2" style="font-size:83%;line-height:150%;" |{{#if:{{{overseas collectivity|}}}|¹|²}} ''Population sans doubles comptes'': single count of residents of multiple communes (e.g. students and military personnel).
+|- 
+{{#if: {{{image|<noinclude>-</noinclude>}}} |
+{{!}} align="center" colspan="2" {{!}} {{{image}}}
+{{!}}-
+{{!}} align="center" colspan="2" {{!}} <small>{{{caption}}}</small>
+{{!}}-
+}}
