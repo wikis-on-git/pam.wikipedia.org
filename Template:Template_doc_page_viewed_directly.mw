@@ -1,0 +1,41 @@
+<center>
+{| class="messagebox standard-talk" style="border: 1px solid #c0c090; background-color: #f8eaba; width: 80%; margin: 2px 4px 2px 4px; "
+|- style="vertical-align:top;"
+| style="padding:1ex;width:60px;" align="center" | [[Image:Edit-paste.svg|none|40px]]
+| '''This is the [[w:Wikipedia:Template doc page pattern|template documentation page]] {{#if:{{{1|}}}|{{{1}}}|for [[{{NAMESPACE}}:{{BASEPAGENAME}}]].}}'''<br /><hr>This page is not necessarily intended to be viewed directly. If it uses [[w:Help:Variable|variable]]s, some links may appear broken. Do not replace these variables with [[w:hardcoded|hardcoded]] page names or URLs. 
+|}</center><!---
+----
+---><includeonly>[[Category:Template documentation|{{PAGENAME}}]]<!---
+----
+---></includeonly><!---
+--->
+----<noinclude>
+<center><small>''[[Template:Template doc page viewed directly]] template ends''</small></center>
+;Note: This template will take an alternative parameter <nowiki>{{{1}}}</nowiki> when it is applied as a X/doc style warning in a common usage page for several utility templates. (Such as are normally related by function or application and frequently list one another as ''see also'' pages.)
+
+<br/><br/>Ver: fix up interwiki issues, class mesagebox 'standard-talk' not so standard, make links interwiki.// <b>[[User:Fabartus|Fra]]</b><font color="green">[[User talk:Fabartus|nkB]]</font> 21:47, 23 February 2007 (UTC)
+
+Org: Commons, IWTG perams adusts, (mn) <B>[[User:Fabartus|Fra]]</B><font color="green">[[User talk:Fabartus|nkB]]</font> 18:44, 12 February 2007 (UTC) {{-}}
+----
+{{interwikitmp-grp|inhib=yes|SYS=yes|V=0}}
+
+== See also ==
+* [[M:Meta:Template doc page pattern]] or [[W:Wikipedia:Template doc page pattern]] for how this template is used.
+* Related templates: 
+# {{tlw| Template doc page transcluded}} (as redirect: ''{{tlw|Template doc page pattern}}'')
+# {{tlw| Interwiki doc page pattern}}
+
+
+
+<!--Categories-->
+[[Category:Template documentation |!{{PAGENAME}}]]
+[[Category:Template namespace templates|{{PAGENAME}}]]
+
+<!--Interwiki's in Other languages-->{{-}}
+[[ja:Template:テンプレート文書直接表示]]
+[[sl:Predloga:Neposredno prikazana dokumentacijska stran predloge]]
+[[uk:Шаблон:Документація шаблона (безпосередня)]]
+[[zh:Template:Template doc page viewed directly]]
+
+{{sprotected2}}
+</noinclude>
