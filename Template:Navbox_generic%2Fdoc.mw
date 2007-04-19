@@ -1,0 +1,254 @@
+<includeonly>{{template doc page transcluded}} {{sprotected2}} {{Esoteric}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+
+This template allows a [[Wikipedia:Navigational templates|navigational template]] to be set up quickly by supplying it one or more lists of links.
+
+== Blank template ==
+<pre>
+{{Navbox generic
+|name       = {{subst:PAGENAME}}
+|state      = 
+|titlestyle = background:
+|title      = 
+|image      = 
+|bodystyle  = 
+
+|abovestyle = 
+|above      = 
+
+|groupstyle = 
+|liststyle  = 
+|list(odd#)style  = 
+|list(even#)style = 
+
+|group1 = 
+|list1  = 
+
+|group2 = 
+|list2  = 
+
+|group3 = 
+|list3  = 
+
+ ...
+
+|group20 = 
+|list20  = 
+
+|belowstyle = 
+|below      = 
+}}
+</pre>
+
+==Parameters==
+Deprecated (but still functional) parameter names given in parentheses before each description.
+
+===Mandatory===
+:; ''name''
+:: (or ''templateName'') The name of the template, which is needed for the "v{{·}} d{{·}} e" ("view{{·}} discuss{{·}} edit") links to work properly on all pages where the template is used. You can enter <code><nowiki>{{subst:PAGENAME}}</nowiki></code> for this value as a shortcut.
+
+:; ''title''
+:: Text that appears centered in the top row of the table. It is usually the template's topic, i.e. a succinct description of the body contents. This should be a single line, but if a second line is needed, use <code><nowiki>{{-}}</nowiki></code> to ensure proper centering.
+:: The background color defaults to <code><span style="background:#ccf; color:black;">#ccf</span></code> (truncated form of <code><span style="background: #ccccff;">#ccccff</span></code>), but can be changed via the ''titlestyle'' parameter (see below).
+
+:; ''list<sub>n</sub>''
+::  (i.e. ''list1'', ''list2'', etc.) The body of the template, usually a list of links. Format is inline, although the text can be entered on separate lines if the entire list is enclosed within <code><nowiki><div> </div></nowiki></code> (see [[#Example with code]]).  At least one ''list'' parameter is required; each additional ''list'' is displayed in a separate row of the table. Each ''list<sub>n</sub>'' may be preceded by a corresponding ''group<sub>n</sub>'' parameter, if provided (see below).
+:: The background color of the list items (and the entire table) defaults to <code><span style="background:#f9f9f9; color:black;">#f9f9f9</span></code>, but can be changed via the ''bodystyle'', ''list(odd#)style'' and/or ''list(even#)style'' parameters (see below).
+
+===Optional===
+
+====Cells====
+:; ''group<sub>n</sub>''
+:: (i.e. ''group1'', ''group2'', etc.) If specified, text appears in a header cell displayed to the left of ''list<sub>n</sub>''. If omitted, ''list<sub>n</sub>'' uses the full width of the table.
+:: The background color defaults to <code><span style="background:#ddf; color:black;">#ddf</span></code> (truncated form of <code><span style="background: #ddddff;">#ddddff</span></code>), but can be changed via the ''groupstyle'' parameter (see below).
+
+:; ''image''
+:: An image to be displayed in a cell below the title and to the right of the body (the groups/lists). For the image to display properly, the ''list1'' parameter must be specified. The ''image'' parameter accepts standard wikicode for displaying an image, i.e.
+::: <code><nowiki>[[Image:Example.jpg|100px]]</nowiki><code>
+:: In a template where the body (the groups and/or lists) does not extend all the way to the right side, the image will shift away from the right edge of the template. This can be avoided by using the ''right'' parameter within the image wikicode, i.e.
+::: <code><nowiki>[[Image:Example.jpg|80px|right]]</nowiki><code>
+
+:; ''above''
+:: (or ''top'') A full-width cell displayed between the titlebar and first group/list, i.e. ''above'' the template's body (groups, lists and image). In a template without an image, ''above'' behaves in the same way as the ''list1'' parameter without the ''group1'' parameter.
+
+:; ''below''
+:: (or ''bottom'') A full-width cell displayed ''below'' the template's body (groups, lists and image). In a template without an image, ''below'' behaves in the same way as the template's final ''list<sub>n</sub>'' parameter without a ''group<sub>n</sub>'' parameter. For an example of the ''below'' parameter in use, see {{tl|Lists of the provinces and territories of Canada}}.
+
+====Styles====
+:; ''titlestyle''
+:: (or ''title_style'', ''titlebkg'', ''color'') [[Cascading Style Sheets|CSS]] styles to apply to ''title'', specifically the titlebar's background color. At present, use as follows:
+::: <code><nowiki>titlestyle = background:</nowiki>''name'' or ''#nnnnnn''</code>
+:: Use of this parameter is discouraged. Where it is used, care and consensus are needed as multiple navigational templates on one page with different background colors will probably look unpleasant.
+
+:; ''bodystyle''
+:: Specifies [[Cascading Style Sheets|CSS]] styles to apply to the template body. This option should be used sparingly as it can lead to visual inconsistencies. Examples:
+::: <code>background:#''nnnnnn'';</code>
+::: <code>text-align:[''right/center/left/justified''];</code>
+::: <code>width:''N''&nbsp;[em/%/px or width:auto];</code>
+::: <code>float:[''left/right/none''];</code>
+::: <code>clear:[''right/left/both/none''];</code>
+
+:; ''groupstyle''
+:: (or ''group_style'', ''group-style'') CSS styles to apply to the ''groupN'' cells. This option overrides any styles that are applied to the entire table. Examples:
+::: <code>background:#''nnnnnn'';</code>
+::: <code>text-align:[''left/center/right''];</code>
+::: <code>vertical-align:[''top/middle/bottom''];</code>
+::: <code>white-space:nowrap;</code>
+
+:; ''abovestyle''
+:; ''belowstyle''
+:: (or ''above_style'', ''top-style''; ''below_style'', ''bottom-style'') CSS styles to apply to the top cell (specified via the ''above'' parameter) and bottom cell (specified via the ''below'' parameter). Typically used to set background color or text alignment:
+::: <code>background:#''nnnnnn'';</code>
+::: <code>text-align:[''left/center/right''];</code>
+
+:; ''list(odd#)style''
+:; ''list(even#)style''
+:: (or ''list(odd#)_style'', ''odd-style''; ''list(even#)_style'', ''even-style'') CSS styles to apply to the odd-numbered list items (''list1'', ''list3'', etc) and even-numbered list items (''list2'', ''list4'', etc.). Typically used to set background color (<code>background:#''nnnnnn'';</code>) in order to achieve an alternating background color between odd and even-numbered lists; see 
+
+====Other====
+:; ''state''
+:: Defaults to <code>autocollapse</code>. If set to <code>collapsed</code>, the navbox will always start out in a collapsed state. If set to blank or anything other than <code>autocollapse</code> or <code>collapsed</code>, the navbox will always start out in an expanded state. A navbox with <code>autocollapse</code> will start out collapsed if there are two or more tables on the same page that use <tt>collapsible</tt>. For the technically minded, see [[MediaWiki:Common.js]].
+
+== Layout of table ==
+{| border="1" class="navbox collapsible" style="margin:auto;"
+|+ <div style="text-align:left;">Table generated by {{tl|Navbox generic}} '''without''' ''image'', ''above'' and ''below'' parameters (borders added for illustration only):</div>
+!colspan="2"| <div style="float:left; text-align:left; width:6em;">{{Tnavbar|Navbox generic|mini=1}}</div><nowiki>{{{title}}}</nowiki>
+|-
+!width="17%"| <nowiki>{{{group1}}}</nowiki>
+| <nowiki>{{{list1}}}</nowiki>
+|-
+! <nowiki>{{{group2}}}</nowiki>
+| <nowiki>{{{list2}}}</nowiki>
+|-
+|colspan="2"| <nowiki>{{{list3}}} without {{{group3}}}</nowiki>
+|}
+
+{| border="1" class="navbox collapsible" style="margin:auto;"
+|+ <div style="text-align:left;"><br>Table generated by {{tl|Navbox generic}} '''with''' ''image'', ''above'' and ''below'' parameters (borders added for illustration only):</div>
+!colspan="3"| <div style="float:left; text-align:left; width:6em;">{{Tnavbar|Navbox generic|mini=1}}</div><nowiki>{{{title}}}</nowiki>
+|-
+|colspan="3"| <nowiki>{{{above}}}</nowiki>
+|-
+!width="17%"| <nowiki>{{{group1}}}</nowiki>
+| <nowiki>{{{list1}}}</nowiki>
+|width="17%" rowspan="3"| <nowiki>{{{image}}}</nowiki>
+|-
+! <nowiki>{{{group2}}}</nowiki>
+| <nowiki>{{{list2}}}</nowiki>
+|-
+|colspan="2"| <nowiki>{{{list3}}} without {{{group3}}}</nowiki>
+|-
+|colspan="3"| <nowiki>{{{below}}}</nowiki>
+|}
+
+== Example with code ==
+{| style="background:transparent; font-size:90%;"
+|
+<pre>
+{{Navbox generic
+|name      = {{subst:PAGENAME}}
+|title     = [[Wikipedia:Navigational templates|Navigational templates]]
+|bodystyle = width:50%;
+|group1    = Physics
+|list1     = [[Template:Cosmology|Cosmology]]{{·}} [[Template:General relativity|Relativity]]{{·}}
+[[Template:String-theory|String theory]]
+|group2    = Continents
+|list2     = <div>
+[[Template:Africafooter|Africa]]{{·}}
+[[Template:Asiafooter|Asia]]{{·}}
+[[Template:Europefooter|Europe]]
+</div>
+|list3     = [[Template:National parks of Argentina|Argentinian National Parks]]
+}}
+</pre>
+|}
+
+{{msg:{{BASEPAGENAME}}
+|name      = Navbox generic/doc
+|state     = uncollapsed
+|title     = [[Wikipedia:Navigational templates|Navigational templates]]
+|bodystyle = width:50%;
+|group1    = Physics
+|list1     = [[Template:Cosmology|Cosmology]]{{·}} [[Template:General relativity|Relativity]]{{·}} [[Template:String-theory|String theory]]
+|group2    = Continents
+|list2     = <div>
+[[Template:Africafooter|Africa]]{{·}}
+[[Template:Asiafooter|Asia]]{{·}}
+[[Template:Europefooter|Europe]]
+</div>
+|list3  = [[Template:National parks of Argentina|Argentinian National Parks]]
+}}
+
+== Additional examples ==
+===No image===
+{{Navbox generic
+|name   = Navbox generic/doc
+|state  = uncollapsed
+|title  = [[Multimedia Super Corridor|MSC (Multimedia Super Corridor) Malaysia]]{{-}}''without image''
+|group1 = Centre
+|list1  = [[Cyberjaya]]
+|group2 = Area
+|list2  = [[Klang Valley]]
+|group3 = Major landmarks
+|list3  = [[Petronas Twin Towers]]{{·}} [[Kuala Lumpur Tower]]{{·}} [[Kuala Lumpur Sentral]]{{·}} [[Technology Park Malaysia]]{{·}} [[Putrajaya]]{{·}} [[Cyberjaya]]{{·}} [[Kuala Lumpur International Airport]]
+|group4 = Infrastructure
+|list4  = [[Express Rail Link]]{{·}} [[KL-KLIA Dedicated Expressway]]
+|group5 = Prime applications
+|list5  = [[EGovernment]]{{·}} [[MyKad]]  
+}}
+
+===With image===
+{{Navbox generic
+|name   = Navbox generic/doc
+|state  = uncollapsed
+|title  = [[Multimedia Super Corridor|MSC (Multimedia Super Corridor) Malaysia]]{{-}}''with image''
+|image  = [[Image:Flag of Malaysia.svg|120px]]
+|group1 = Centre
+|list1  = [[Cyberjaya]]
+|group2 = Area
+|list2  = [[Klang Valley]]
+|group3 = Major landmarks
+|list3  = [[Petronas Twin Towers]]{{·}} [[Kuala Lumpur Tower]]{{·}}  [[Kuala Lumpur Sentral]] {{·}} [[Technology Park Malaysia]]{{·}}  [[Putrajaya]]{{·}}  [[Cyberjaya]]{{·}} [[Kuala Lumpur International Airport]]
+|group4 = Infrastructure
+|list4  = [[Express Rail Link]]{{·}} [[KL-KLIA Dedicated Expressway]]
+|group5 = Prime applications
+|list5  = [[EGovernment]]{{·}} [[MyKad]]  
+}}
+
+===With image and styles===
+{{Navbox generic
+|name  = Navbox generic/doc
+|state = uncollapsed
+|title = [[Multimedia Super Corridor|MSC (Multimedia Super Corridor) Malaysia]]{{-}}''with image; body (lists): white background; groups: top and right-aligned, don't wrap white space; even rows: light grey background; bottom: center-aligned, light blue background''
+|style = background-color:white;
+|image = [[Image:Flag of Malaysia.svg|120px]]
+|groupstyle = text-align:right; vertical-align:top; white-space:nowrap;
+|list(even#)style = background:#f0f0f0;
+|group1 = Centre
+|list1  = [[Cyberjaya]]
+|group2 = Area
+|list2  = [[Klang Valley]]
+|group3 = Major landmarks
+|list3  = [[Petronas Twin Towers]]{{·}} [[Kuala Lumpur Tower]]{{·}} [[Kuala Lumpur Sentral]]{{·}} [[Technology Park Malaysia]]{{·}} [[Putrajaya]]{{·}} [[Cyberjaya]]{{·}} [[Kuala Lumpur International Airport]]
+|group4 = Infrastructure
+|list4  = [[Express Rail Link]]{{·}} [[KL-KLIA Dedicated Expressway]]
+|group5 = Prime applications
+|list5  = [[EGovernment]]{{·}} [[MyKad]]
+|belowstyle = text-align:center; background:#ddddff;
+|below  = Website: [http://www.msc.com.my/ www.msc.com.my]
+}}
+
+== See also ==
+{{Navigational templates}}
+
+
+<includeonly>
+<!--Categories-->
+[[Category:Navigational templates| ]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+
+<!--Other languages-->
+[[ja:Template:Navbox generic]]
+[[sl:Predloga:Generično navpolje]]
+[[zh:Template:Navbox generic]]
+</includeonly>
