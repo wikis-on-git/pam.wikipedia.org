@@ -1,0 +1,24 @@
+<includeonly>{{#switch: {{{1|}}}
+| m = {{formatnum: {{{2}}} }}&nbsp;[[Metre|m]] ({{formatnum: {{#expr: {{{2}}}/0.3048 round {{{3|0}}} }} }} [[Foot (unit of length)|ft]])
+| ft = {{formatnum: {{{2}}} }}&nbsp;[[Foot (unit of length)|ft]] ({{formatnum: {{#expr: {{{2}}}*0.3048 round {{{3|0}}} }} }}&nbsp;[[Metre|m]])
+| km = {{formatnum: {{{2}}} }}&nbsp;[[Kilometre|km]] ({{formatnum: {{#expr: {{{2}}}/1.609344 round {{{3|0}}} }} }}&nbsp;[[Mile#Statute_miles|mi]])
+| mi = {{formatnum: {{{2}}} }}&nbsp;[[Mile#Statute_miles|mi]] ({{formatnum: {{#expr: {{{2}}}*1.609344 round {{{3|0}}} }} }}&nbsp;[[Kilometre|km]])
+| mm = {{formatnum: {{{2}}} }}&nbsp;[[Milimetre|mm]] ({{formatnum: {{#expr: {{{2}}}/25.4 round {{{3|0}}} }} }}&nbsp;[[Inch|in]])
+| in = {{formatnum: {{{2}}} }}&nbsp;[[Inch|in]]({{formatnum: {{#expr: {{{2}}}*25.4 round {{{3|0}}} }} }}&nbsp;[[Milimetre|mm]])}}</includeonly><noinclude>
+This template displays length (or height, it is aliased as {{tl|Unit height}}) measurement units used within various [[:Category:Geobox]] templates, automatically converting between metric/imperial values. The input must be unformatted numeric values (i.e. without commas, the commas are automatically added to output).
+
+It can display and convert following units:
+* '''m''' to '''ft''' ('''metres''' to '''feet''') and vice-versa
+* '''km''' to '''mi''' ('''kilometres''' to '''miles''') and vice-versa
+* '''mm''' to '''in''' ('''milimetres''' to '''inches''') and vice-versa
+
+The template has 3 unnamed parameters: <code><nowiki>{{Unit area| unit| value| round}}</nowiki></code>'''. Their meaning is as follows: 
+# '''unit''' … unit (<code>m, ft, km, mi, mm, in</code>) of the <code>value</code> parameter, it will get displayed first
+# '''value''' … numerical value
+# '''round''' … number of decimal digits (negative numbers can be used for rounded figures); if not specified 0 is assumed
+
+For examples see [[Template_talk:Unit_length|discussion]].
+
+[[Category:Geobox unit|length]]
+
+</noinclude>
