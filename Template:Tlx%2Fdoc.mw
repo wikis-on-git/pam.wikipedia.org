@@ -1,0 +1,158 @@
+<includeonly><!-----------------Interwiki Doc page pattern------------------->
+<small>''This '{{Tlx|Tlx}}' template documentation is [[w:Wikipedia:Template doc page pattern|transcluded]] for all ''Tlx family templates (Tlx, Tlxc, Tlxm, Tlxw)'' [<span class="plainlinks">[{{fullurl:Template:Tlx/doc |action=edit}} edit]</span>].{{#ifeq:{{SITENAME}}|Meta|&nbsp;|[[M:template:{{PAGENAMEE}}|Masterpage]]
+&nbsp;}}</small></includeonly><noinclude> 
+{{template doc page viewed directly|yes}}
+{{-}}
+{{interwikitmp-grp
+|V=D
+|cats=
+|inhib=yes
+|wdy=|wqt=|wsr=|wnw=
+|{{PAGENAME}}|{{PAGENAME}}}}</noinclude>
+
+<!-- Parent template(s) usage Begins: --->
+<includeonly>{{interwikitmp-grp|V=6|cat=Typing-aid templates |CATS=[[Category:Internal link templates|Tlx]][[Category:Interwiki link templates|Tlx]]}}</includeonly>
+
+{{tlx|tlx|template|first parameter|second|third|fourth|fifth|sixth|seventh|eight|ninth}} → {{tlx|template|first parameter|second|third|fourth|fifth|sixth|seventh|eight|ninth}}
+
+'''<big>Purpose and naming:</big>''' [[Wikt:mnemonic|Mnemonically]] ''''T'''emplate '''l'''ist e'''x'''panded'... after <tt>{{tlx|tl}}</tt> '''T'''emplate '''l'''ist' 
+
+* This template takes another ''template-name'' and some associated [[w:pipe-trick|pipe-tricked]]  [http://meta.wikimedia.org/wiki/Parameter#Parameters (numbered) parameters] (or 'pass parameters'), and aggregates them into an 'example demonstration' of how the ''template-name'' template might be used. It's primary use is in instruction and documentation such as this passage.
+
+* Up to five pass parameters (numbered) for the specified template are displayed as 'placeholders', and more parameters are shown as "<tt>|</tt>''...''", for details see the [[w:{{TALKPAGENAME}}|this talk]] page.
+
+----
+
+* If given no additional parameters except ''<code>&nbsp;'template&nbsp;name'&nbsp;(<nowiki>{{{1}}}</nowiki>), </code>''&nbsp;it presents the same as the similar {{tl|Tl}} [[W:macro|macro]] template -- a blue link nested in [[W:brackets|curly-braces]]-- the same as a user would apply the template without parameters, but with a noticably clearer font and spacing on most modern browsers. 
+
+:* {{Tlx|Tl|Tl}} display compared to {{Tlx|Tlx|Tl}}: (Tl: {{Tl|Tlx}} versus Tlx: {{Tlx|Tl}}) 
+
+* Comparatively, {{Tlx|Tl}} will not take or display additional parameters, and for minor technical reasons, may  preferred for mere listing and referencing in long pages involving a lot of template expansions[[W:WP:DPP|1]].
+
+* Additionally, Tlx will take a 'named' parameter 'SISTER' to link interwiki to other sister projects such as one of these examples: '|SISTER=W:', 'Tlx|SISTER=M:', 'Tlx|SISTER=Q:', 'Tlx|SISTER=S:', allowing documentation or discourse about a template across interwiki boundaries. Small 'front end' Shell or convience templates {{Tlx|Tlxw}} and {{tlx|Tlxm}} are typing-aid templates available at Meta for automatic substitution in discussions about templates on Wikipedia or Meta.
+
+----
+
+;This usage also applies to interwiki capable template variations:
+# {{Tl|Tlxc}} -- which links to templates on Wikimedia Commons (The Commons).
+# {{Tl|Tlxm}} -- which links to templates on Meta
+# {{Tl|Tlxw}} -- which links to templates on Wikipedia
+
+----
+
+==Documentation==
+
+{&#123;[[Template:{{PAGENAME}}|{{PAGENAME}}]]&#125;}
+is a generalization of {{Tlxw|Tl|x}}, {{Tlxw|Tlp|x|y}},
+etcetera with arguably better readable
+output. This depends on the browser, but too narrow
+uses of "'''{'''", "'''|'''", "'''}'''" in conjunction
+with links can be hard to read.
+{{#ifeq:{{PAGENAME}}|Tlx/doc||
+=== Usage ===
+
+:<tt>{&#123;{{PAGENAME}}|template name&#125;}</tt>
+:<tt>{&#123;{{PAGENAME}}|template name|param&#125;}</tt>
+:<tt>{&#123;{{PAGENAME}}|template name|1|2|3&#125;}</tt>
+:<tt>{&#123;{{PAGENAME}}|template name|1|2|3&amp;#124;more&#125;}</tt>
+:<tt>{&#123;{{PAGENAME}}|template name|param&amp;#61;value&#125;}</tt>
+''Up to three placeholders for parameters of the specified template''}}
+
+=== Examples ===
+{{#ifeq:{{SITENAME}}|Wikipedia|<!-- Skip message--->|
+{{#ifeq:{{SITENAME}}|Meta|<!-- No note needed --->|<!-- Other Sisters Note: --->
+;Note: On the source sister projects, en.wikipedia and Meta, '''X0, X1, X2,..., X9 are sandbox templates''' for experimentation on involved templates that need be in template space. An auto-cleansing software facility exists that might be used to duplicate the facility on other Sister projects.
+}}}}
+
+{| border="1" cellpadding="4" class="wikitable"
+! Code
+! Result
+! Remark
+|-
+|{{Tlx|SISTER=W:|Tlx|x0}}
+|{{Tlx|SISTER=W:|x0}}
+||&#160;
+|-
+|{{Tlx|SISTER=W:|Tlx|x1|one}}
+|{{Tlx|SISTER=W:|x1|one}}
+||&#160;
+|-
+|{{Tlx|SISTER=W:|Tlx|x2|one|two}}
+|{{Tlx|SISTER=W:|x2|one|two}}
+||&#160;
+|-
+|{{Tlx|SISTER=W:|Tlx|x3|1<tt>&#124;</tt>2<tt>&#124;</tt>3}}
+|{{Tlx|SISTER=W:|x3|1|2|3}}
+||&#160;
+|-
+|{{Tlx|SISTER=W:|Tlx|x4|1<tt>&#124;</tt>2<tt>&#124;</tt>3|4}}
+|{{Tlx|SISTER=W:|x4|1|2|3|4}}
+|up to 5 parameters, then ...
+|-
+|{{Tlx|SISTER=W:|Tlx|x4|1<tt>&#124;</tt>2<tt>&#124;</tt>3&amp;#124;4}}
+|{{Tlx|SISTER=W:|x4|1|2|3&#124;4}}
+|align="right"|<tt>&amp;#124;</tt> for more
+|-
+|{{Tlx|SISTER=W:|Tlx|x1|x&#61;u}}
+|{{Tlx|SISTER=W:|x1|x=u}}
+|'''=''' won't work
+|-
+|{{Tlx|SISTER=W:|Tlx|x1|x&amp;#61;u}}
+|{{Tlx|SISTER=W:|x1|x&#61;u}}
+|align="right"|<tt>&amp;#61;</tt> is okay
+|-
+|{{Tlx|SISTER=W:|Tlx|x1|&lt;nowiki&gt;x&#61;u&lt;/nowiki&gt;}}
+|{{Tlx|SISTER=W:|x1|<nowiki>x=u</nowiki>}}
+|align="right"|sticky nowiki is okay
+|-
+|{{Tlx|SISTER=W:|Tlx|x2|&#160;|two}}
+|{{Tlx|SISTER=W:|x2| |two}}
+|empty won't work
+|-
+|{{Tlx|SISTER=W:|Tlx|x2|&amp;#32;|two}}
+|{{Tlx|SISTER=W:|x2|&#32;|two}}
+|align="right"|<tt>&amp;#32;</tt> is okay
+|-
+|{{Tlx|SISTER=W:|Tlx|x2|&amp;nbsp;|two}}
+|{{Tlx|SISTER=W:|x2|&nbsp;|two}}
+|align="right"|<tt>&amp;nbsp;</tt> is okay
+|-
+|{{Tlx|SISTER=W:|Tlx|x2| &amp;#124; two}}
+|{{Tlx|SISTER=W:|x2| &#124; two}}
+|align="right"|<tt>&amp;#124;</tt> is okay
+|-
+|| {{Tlx|SISTER=W:|Tlx|x2| {&#123;!&#125;} two}}
+|| {{Tlx|SISTER=W:|x2| {{!}} two}}
+|align="right"|{{Tlx|SISTER=W:|!}} is dubious
+|-
+|| {{Tlx|SISTER=W:|Tlx|x2|<nowiki>2=</nowiki>|<nowiki>3=two</nowiki>}}
+|| {{Tlx|SISTER=W:|x2|2=|3=two}}
+|empty really doesn't work
+|-
+|| {{Tlx|SISTER=W:|Tlx|x2|<nowiki>2=one</nowiki>|two}}
+|| {{Tlx|SISTER=W:|x2|2=one|two}}
+|'''two''' clobbers '''2=one'''
+|-
+|| {{Tlx|SISTER=W:|Tlx|x2|<nowiki>3=two</nowiki>|<nowiki>2=one</nowiki>}}
+|| {{Tlx|SISTER=W:|x2|3=two|2=one}}
+|align="right"|right to left okay
+|}
+
+<!--- Categories applied to both /doc style Documentation page and to the parent templates --->
+[[Category:Templates using ParserFunctions|{{{PAGENAME}}}]]
+
+<!-- Add the Categories for this doc or usage page (only-- not for the calling template) BELOW THIS LINE --->
+<noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>
+
+<includeonly> 
+<!-- EDIT IN (calling) TEMPLATE CATEGORIES BELOW THIS LINE -->
+[[Category:Typing-aid templates |{{PAGENAME}}]] 
+[[Category:Internal link templates |{{PAGENAME}}]]
+[[Category:Interwiki link templates |{{PAGENAME}}]]
+[[Category:Templates using ParserFunctions|{{{PAGENAME}}}]]
+
+<!-- EDIT/ADD TEMPLATE Interwiki's BELOW THIS LINE -->
+[[ko:틀:Tlx]]
+[[ru:Template:Tlx]]
+[[uk:Шаблон:Tlx]]
+</includeonly>
