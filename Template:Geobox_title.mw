@@ -1,0 +1,11 @@
+<includeonly><div style="border:1px solid #A00; background: #ffcfcf; padding: 10px; clear: both">
+<div style="float: left; width: 120px; height: 120px; margin-right: 1em;">[[Image:Globe.svg|120px]]</div> This template is to be used for '''{{{1|}}}'''. It belongs to the [[:Category:Geobox|Geobox]] series of templates, which are designated to be used for various geography related articles. They use the same layout, internal logic and coherently named fields. All templates can have a name on top, picture below, then section on Country, Region etc. followed by fields which are specific for every geographic feature, with a map at the bottom.
+
+It uses highly complex syntax which relies on many subtemplates which are common to the series. '''For general instructions see [[:Category:Geobox|Geobox]], please do read them.''' Below are all the fields for this particular template with one or more [[Template:{{PAGENAME}}#Blank|blank]] tables which should be copied into the article and then filled in (rather than copying the template code from an existing page). Please respect these rules:
+* do not put multiple items into one field, use numbered fields instead (e.g. ''city, city1, city2…'').
+* enter unformatted numbers only, both metric and imperial values are displayed, provide either metric or imperial ones, the opposite is calculated automatically
+* do not put note and references into the fields themselves, use appropriate ''_note'' field
+* do not delete fields you did not use, someone else might need them in future
+</div></includeonly><noinclude>This template is not to be used outside the templates from the [[:Category:Geobox|Geobox]] series.
+[[Category: Geobox manual|Geobox title]]
+</noinclude>
