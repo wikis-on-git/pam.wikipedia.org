@@ -1,0 +1,231 @@
+{| class="wikitable" style="font-size: 90%; text-align: left;"
+|- style="color: #efefef;"
+! style="background-color: #7f7f7f;" | field 
+! style="background-color: #7f7f7f;" | explanation
+! style="background-color: #7f7f7f;" | additional fields
+|-
+! colspan="3" style="background: #cfcfcf" | Name
+|-
+|'''name'''
+| name of the settlement (if left blank, article title will be used)
+| 
+|-
+|'''native_name'''
+| native name if different from the English one, it is printed in brackets on the same line as '''name'''
+|
+|-
+|'''other_name, other_name1 …'''
+| other names, can be used for names in other languages (then preferable in the ''<nowiki>{{lang-xx|}}</nowiki>'' style)
+|
+|-
+|'''category'''
+| category of the settlement: ''City, Town, Village, Hamlet, Sietch ;-) etc.''
+|'''category_note'''
+|-
+! colspan="3" style="background: #cfcfcf" | Image
+|-
+|'''image'''
+| a representative photograph of the settlement
+|
+|-
+|'''image_size'''
+| photograph size in pixels (set to 256 if left blank), input just the number (i.e. without ''px'')
+|
+|-
+|'''image_caption'''
+| photograph caption
+|-
+! colspan="3" style="background: #cfcfcf" | Symbols
+|-
+|'''flag'''
+| official settlement flag or banner
+|'''flag_type''' (default: '''Flag''')<br />'''flag_note'''
+|-
+|'''flag_size'''
+| flag size in pixels (set to 120 if left blank), input just the number (i.e. without ''px'')
+|
+|- style="padding-left: 0.5em; padding-right: 0.5em;" 
+|'''symbol'''
+| official settlement seal, shield, coat-of arms etc.,  
+|'''symbol_type''' (default: '''Coat of arms''')<br />'''symbol_note'''
+|-
+|'''symbol_size'''
+| flag size in pixels (set to 120 if left blank), input just the number (i.e. without 'px')
+|
+|-
+! colspan="3" style="background: #cfcfcf" | Nickname & motto
+|-
+|'''nickname, nickname1 ...'''
+| settlement nickname(s)
+| 
+|-
+|'''motto, motto1 ...'''
+| settlement motto(es)
+| 
+|-
+! colspan="3" style="background: #cfcfcf" | Country etc.
+|-
+|'''country, country1 ...'''
+| country in which the settlement lies
+|'''country_type''' (default: '''Country''')
+|-
+|'''state, state1 ...'''
+| state in which the settlement lies
+|'''state_type''' (default: '''State''')
+|-
+|'''region, region1 ...'''
+| region in which the settlement lies
+|'''region_type''' (default: '''Region''')
+|-
+|'''district, district1 ...'''
+| district in which the settlement lies
+|'''district_type''' (default: '''District''')
+|-
+! colspan="3" style="background: #cfcfcf" | Subdivisions
+|-
+|'''part_type'''
+| type of administrative subdivisons (default: '''Municipalities''')
+|'''part_label'''
+|-
+|'''part_count'''
+| number of administrative subdivisions
+|
+|-
+|'''part, part1 …'''
+| names of administrative subdivions parts, they are displayed within a folding section which is hidden on page load 
+|'''part_note, part1_note …'''
+|-
+! colspan="3" style="background: #cfcfcf" | Geography
+|-
+|'''area, area_land, area_water, area_urban, area_metro'''
+| appropriate area in km² (for mi² use area_imperial, area_land_imperial, area_water_imperial, area_urban_imperial, area_metro_imperial)
+|'''area_unit''' (default: sqkm/sqmi, can be also: ha/acre)<br />'''area_round''' (default: 0)<br />'''area_note, area_land_note, area_water_note, area_urban_note, area_metro_note'''
+|-
+|'''location'''
+| place for which coordinates and elevation are provided, can be a square, park, street etc.
+|'''location_type''' (default: '''Center''')<br />'''location_note'''
+|-
+|'''lat_d, lat_m, lat_s, lat_NS, long_d, long_m, long_s, long_EW'''
+| center location latitude and longitude in degrees, minutes, seconds and hemispheres (use N/S and E/W), '''coordinates_type''' field can be assign [[Wikipedia:WikiProject_Geographical_coordinates#Parameters|Google map parameters]] (default: '''type:city'''), if population is assigned, it gets printed in the brackets after this parameter
+|'''coordinates_note'''
+|-
+|'''elevation'''
+| center location elevation in metres (for feet use '''elevation_imperial''')
+|'''elevation_note'''
+|-
+|'''highest'''
+| highest point name
+|'''highest_note'''
+|-
+|'''highest_location'''
+| descriptive location of the highest point
+|'''highest_location_note'''
+|-
+|'''highest_lat_d … *'''
+| highest point latitude and longitude in degrees, minutes, seconds and hemispheres (use N/S and W/E)
+|'''highest_coordinates_note'''
+|-
+|'''highest_elevation'''
+| highest point elevation in meters (for feet use '''highest_elevation_imperial''')
+|'''highest_elevation_note'''
+|-
+|'''lowest'''
+| lowest point name
+|'''lowest_note'''
+|-
+|'''lowest_location'''
+| descriptive location of the lowest point 
+|'''lowest_location_note'''
+|-
+|'''lowest_lat_d … *
+| lowest point latitude and longitude in degrees, minutes, seconds and hemispheres (use N/S and W/E)
+|'''lowest_coordinates_note'''
+|-
+|'''lowest_elevation'''
+| lowest point elevation in meters (for feet use '''lowest_elevation_imperial''')
+|'''highest_elevation_note'''
+|-
+! colspan="3" style="background: #cfcfcf" | Population
+|-
+|'''population_as_of, population_urban_as_of, population_metro_as_of'''
+| year or date to which population figures relate
+|
+|-
+|'''population, population_urban, population_metro'''
+| appropriate population figure, , unformatted numbers must be used as they are used for calculations, they get formatted on output
+|'''population_note, population_total_note, population_urban_note, population_metro_note'''
+|-
+|'''population_density, population_density_urban, population_density_metro'''
+| appropriate population density figure in /km² (for /mi² use '''population_density_imperial, population_density_urban_imperial, population_density_metro_imperial'''), if value ''auto'' is assigned the density is calculated from appopriate area and population figures
+|'''population_density_unit''' (default: sqkm/sqmi, can be also: ha/acre)<br />'''population_density_round''' (default: 0)<br />'''population_density_note, population_density_urban_note, population_density_metro_note'''
+|-
+! colspan="3" style="background: #cfcfcf" | Government
+|-
+|'''government'''
+| government type
+|'''government_type, government_label, government_note'''
+|-
+|'''established, etablished1 …'''
+| establishment/foundation date, numbered fields can contain year of status upgrade, incorporation, enlargement etc.
+|'''established_type, established1_type…''' (default: '''Founded, Founded 1…''')<br />established_note, established_note1 …'''
+|-
+|'''mayor, mayor1 …''' or<br>'''leader, leader1 …'''
+| These fields can be named with mayor* or leader*. If only one name is provided, it may be easiest to use the '''mayor''' field, as leader_type is set to '''Mayor''' by default)
+|'''mayor_type=leader_type, leader1_type …''' (default: '''Mayor, Mayor 1…''')<br />'''mayor_note=leader_note, leader1_note …'''
+|-
+! colspan="3" style="background: #cfcfcf" | Various codes
+|-
+|'''timezone, utc_offset'''
+| timezone name and its UTC offset
+|'''timezone_note'''
+|-
+|'''timezone_DST, utc_offset_DST'''
+| summer/daylight saving timezone name and its UTC offset
+|'''timezone_DST_note'''
+|-
+|'''postal_code=code, area_code=code1, code2 …'''
+| Various identification codes, first two are aliased as Postal code and Area code (phone)
+|'''code_type, code1_type…''' (default: '''Postal code, Area code, Code 2…''')<br />'''postal_code_note=code_note, area_code_note=code1_note, code2_note …'''
+|-
+! colspan="3" style="background: #cfcfcf" | Free fields
+|-
+|'''free, free1 …'''
+| free field value, can be anything, appropriate '''_type''' should be set, doesn't get automaticaly wikilinked
+|'''free_type, free1_type …'''<br />'''free_note, fre1e_note …'''
+|-
+! colspan="3" style="background: #cfcfcf" | Map section
+|-
+|'''map, map1'''
+| either location map or blank map for automated location
+|
+|-
+|'''map_size, map1_size'''
+| map size in pixels (set to 256 if left blank), do not enter ''px'', just the number
+|
+|-
+|'''map_caption, map1_caption'''
+| map caption
+|
+|-
+|'''map_locator'''
+| appropriate [[:Category:Geobox location|Geobox location]] locator template for automated placement of the locator dot 
+|
+|-
+|'''map_locator_x, map_locator_y'''
+| to be used for non-automated placement of the locator dot, these are percents of the map width
+|
+|-
+! colspan="3" style="background: #cfcfcf" | Website
+|-
+|'''website'''
+| official website
+|'''website_note'''
+|-
+! colspan="3" style="background: #cfcfcf" | Footnotes
+|-
+|'''footnotes'''
+| any type of footnotes
+|
+|-
+| colspan="3" style="background: #cfcfcf" | * Coordinates are defined as '''field_lat_d, field_lat_m, field_lat_s, field_lat_NS, field_long_d, field_long_m, field_long_s, field_long_WE'''
+|}
