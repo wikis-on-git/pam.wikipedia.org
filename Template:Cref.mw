@@ -1,0 +1,32 @@
+<span class="reference" style="font-style:normal; font-size:small;"><sup id="ref_{{{1}}}" class="plainlinksneverexpand">[[#cnote_{{{1}}}|{{{1}}}&#91;&rsaquo;&#93;]]</sup></span><noinclude>&nbsp;&nbsp;
+
+== Purpose ==
+This template is used to mark the word to which a content note is going to be attached in Wikipedia. To create the content note itself, use [[Template:Cnote]].
+
+<table width=80% align=center border=1><tr><td>
+<blockquote>Note: '''Content Notes''' created using {{tl|hcref}} or {{tl|cref}} and {{tl|cnote}} can co-exist in an article along with '''Source Notes''' using the [[m:Cite/Cite.php]] system.  The two systems do not interefere with each other in any way. For an example of this parallel usage, please see [[Che Guevara]].</blockquote>
+</td></tr></table>
+
+== Usage ==
+<tt><nowiki>{{cref|{{{1}}}}}</nowiki></tt>
+
+== Required parameter ==
+* <nowiki>{{{1}}}</nowiki>: name of content note to which this marker is going to point.
+
+
+==Copyable empty example ==
+<nowiki>{{cref | enter name of content note here}}</nowiki>
+
+
+==See also==
+* [[Wikipedia:Cite sources]]: Style guide
+* [[Wikipedia:Template messages/Sources of articles/Generic citations]]: Related templates
+* [[Wikipedia:WikiProject Wikicite]]
+* [[Template:Cite news]]
+* [[Template:Cite book]]
+
+__NOEDITSECTION__
+__NOTOC__
+
+[[Category:Inline templates|{{PAGENAME}}]]
+</noinclude>
