@@ -1,0 +1,4 @@
+<includeonly><span style="display:none">{{padleft:{{#expr:(({{{1}}} - .5) round 0)}}|16|&}}.{{padleft:{{#expr:(1000000*({{{1}}}- (({{{1}}}- .5) round 0))) round 0}}|6|&}}</span>{{formatnum:{{{1}}}}}</includeonly><noinclude>
+{{template doc}}
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
+</noinclude>
