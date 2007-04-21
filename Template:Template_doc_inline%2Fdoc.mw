@@ -1,0 +1,12 @@
+This template displays a "Template documentation" box like you are seeing now.
+
+It is primarily used by {{tl|template doc}} to automatically display the documentation for the template from a /doc subpage, but can also be used to display inline documentation.
+
+==Usage==
+ '''{{tlx|template doc inline|1&#61;''inline documentation''|2&#61;''pagename''}}'''
+
+* ''Inline documentation'' is the text to display inside the box.
+* ''Pagename'' refers to the name of the documentation page, which if specified, creates [view] and [edit] boxes to the right of the heading.
+
+<noinclude>[[zh:Template:內聯模板文件/doc]]</noinclude>
+<includeonly>[[zh:Template:內聯模板文件]]</includeonly>
