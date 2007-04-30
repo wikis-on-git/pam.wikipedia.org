@@ -1,0 +1,25 @@
+<noinclude><hr/><center><small>''template begins''</small></center></noinclude><!--
+
+--><div class="notice" id="disambig">''The template documentation below is [[Wikipedia:Transclusion|transcluded]] from [[{{NAMESPACE}}:{{BASEPAGENAME}}/{{{1|doc}}}]]'' <small>[<span class="plainlinks">[{{fullurl:{{NAMESPACEE}}:{{BASEPAGENAMEE}}/{{{1|doc}}}|action=edit}} edit]</span>]</small></div><!--
+
+--><noinclude><center><small>''template ends''</small></center><hr/>
+{{{{FULLPAGENAMEE}}/{{{1|doc}}}}}
+
+<!-------------------
+  Magic word checks
+---------------------
+#{{BASEPAGENAME}}
+#{{BASEPAGENAMEE}}
+#{{FULLPAGENAME}}
+#{{FULLPAGENAMEE}}
+#{{NAMESPACE}}
+#{{NAMESPACEE}}
+#{{SUBJECTPAGENAME}}
+#{{SUBJECTPAGENAMEE}}
+--------------------->
+
+
+<!--Categories-->
+[[Category:Template documentation| {{PAGENAME}}]]
+[[Category:Template namespace templates| {{PAGENAME}}]] <!--Self declaration-->
+</noinclude>
