@@ -2,7 +2,7 @@
 <!-- this line now redundant --><caption style="font-size:larger; font-weight:bold;"></caption>
 {| class="infobox" style="width: 20em; font-size: 90%;"
 |-
-| colspan="2" style="font-size: 120%; text-align: center;"  |
+! colspan="2" style="font-size: 120%; text-align: center;"  |
 {{{name}}}{{#if: {{{native_name<includeonly>|</includeonly>}}} | <br/>''{{{native_name}}}'' }}
 <tr><td colspan="2" style="text-align:center; <noinclude>font-size:larger;</noinclude>">
 {{#if:{{{image|}}} | {{{image}}} | {{#if:{{{image_name<includeonly>|</includeonly>}}}
