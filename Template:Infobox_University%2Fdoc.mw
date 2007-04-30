@@ -1,0 +1,417 @@
+<includeonly>{{template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+
+==Purpose==
+
+&#123;&#123;[[Template:Infobox University|Infobox University]]&#125;&#125;&#32;&mdash; An infobox about a university.
+
+{{esoteric}}
+
+==History==
+; Created : <sub>→<font style="color:#975612">[[User:AzaToth|Aza]]</font><font style="color:#325596">[[User_talk:AzaToth|Toth]]</font></sub> 13:33, 11 January 2006 (UTC)
+
+==Usage==
+
+===Required Fields===
+
+{| class="wikitable"
+! Field || Notes || Example entry
+|-
+|<code><nowiki>name</nowiki></code>
+|Official name, in English.  Displays at top of infobox.
+|<code><nowiki>University of Illyria</nowiki></code>
+|-
+|<code><nowiki>established</nowiki></code>
+|Date of establishment/founding: give year if no exact date available
+|<code><nowiki>[[1066]]</nowiki></code>
+|-
+|<code><nowiki>city</nowiki></code>
+|Location.  Use wikilink.
+|<code><nowiki>[[Illyria]]</nowiki></code>
+|}
+
+===Empty syntax (required fields only)===
+
+<pre>
+{{Infobox University
+|name            = 
+|established     = 
+|city            = 
+}}
+</pre>
+
+===Optional fields===
+
+{| class="wikitable"
+! Field || Notes || Example entry
+|-
+|native_name
+|Name in native language.  Produces native name beneath name in English.
+|<code><nowiki>Universiti von Illyria</nowiki></code>
+|-
+|image
+|Use full wiki image syntax. Produces centered image at top of infobox.
+[[Image:Symbol opinion vote.svg|20px]] '''N.B.:''' this parameter is deprecated.  Please use <code><nowiki>image_name</nowiki></code> and <code><nowiki>image_size</nowiki></code> instead.
+|<code><nowiki>[[Image:Illyria University.jpg|200px|Seal of the University of Illyria]]</nowiki></code>
+|-
+|image_name
+|Use image filename (without <code><nowiki>Image:</nowiki></code> namespace prefix).  Produces centered image of 200px at top of infobox.
+|<code><nowiki>Illyria University.jpg</nowiki></code>
+|-
+|image_size
+|Use only in conjunction with <code><nowiki>image_name</nowiki></code>; manual specification (in px) of image size. Should be used if actual dimensions of image are smaller than the default value, to prevent stretching of pixels. Should NOT be used to make image larger than default.
+|<code><nowiki>162px</nowiki></code>
+|-
+|caption
+|Enter a caption for the infobox image.  May include wiki syntax.  Produces a caption below the image.
+|<code><nowiki>Seal of the University of Illyria</nowiki></code>
+|-
+|latin_name
+|Name in Latin
+|<code><nowiki>Universitas Illyriensis</nowiki></code>
+|-
+|motto
+|School motto
+|<code><nowiki>Better a witty fool than a foolish wit</nowiki></code>
+|-
+|tagline
+|Official tagline for institution
+|<code><nowiki>If music be the food of love, play on</nowiki></code>
+|-
+|vision
+|?
+|<code><nowiki>?</nowiki></code>
+|-
+|type
+|Public, Private, 4-year, undergraduate, graduate, etc.
+|<code><nowiki>[[public university|Public]]</nowiki></code>
+|-
+|affiliation
+|Religious affiliation.
+[[Image:Symbol opinion vote.svg|20px]] '''N.B.:''' Distinguish from <code><nowiki>affiliations</nowiki></code>, which is used for academic/sporting affiliations
+|<code><nowiki>[[Church of Illyria]]</nowiki></code>
+|-
+|calendar
+|?
+|<code><nowiki>?</nowiki></code>
+|-
+|endowment
+|Financial endowment value.
+|<code><nowiki>$31,415,926</nowiki></code>
+|-
+|debt
+|Institution's total financial debt.
+|<code><nowiki>$60,221,415</nowiki></code>
+|-
+|rector<br />chairman<br />chancellor<br />president<br />vice-president<br />superintendent<br />provost<br />vice_chancellor<br />principal<br />dean<br />director
+|Name of University officer.  Use all that apply.  Can be wikilinked.
+|<code><nowiki>Dr [[Andrew Aguecheek (academic)|Andrew Aguecheek]]</nowiki></code>
+|-
+|head_label
+|Use only in conjunction with <code><nowiki>head</nowiki></code>, when none of the above officer titles apply.  Can be wikilinked.
+|<code><nowiki>[[Visitor]]</nowiki></code>
+|-
+|head
+|Name of officer whose title is <code><nowiki>head_label</nowiki></code>
+|<code><nowiki>[[John Topas|Archbishop Topas]]</nowiki></code>
+|-
+|faculty
+|Number of [[Faculty (university)#North American usage|faculty]] (staff) members. Use for North American universities, or jurisdictions where 'faculty' commonly carries this meaning; otherwise use <code><nowiki>staff</nowiki></code>.
+|<code><nowiki>300</nowiki></code>
+|-
+|staff
+|Number of teaching staff.  For North American universities, use <code><nowiki>faculty</nowiki></code>.
+|<code><nowiki>300</nowiki></code>
+|-
+|students
+|Total students - all levels. Use the <code><nowiki>undergrad</nowiki></code>, <code><nowiki>postgrad</nowiki></code>, <code><nowiki>doctoral</nowiki></code>, <code><nowiki>divinity</nowiki></code>, <code><nowiki>profess</nowiki></code> and <code><nowiki>other</nowiki></code> fields for more detail.
+|<code><nowiki>10,000</nowiki></code>
+|-
+|undergrad
+|Undergraduate enrollment
+|<code><nowiki>5,000</nowiki></code>
+|-
+|postgrad
+|Postgraduate enrollment
+|<code><nowiki>1,000</nowiki></code>
+|-
+|doctoral
+|Doctoral enrollment
+|<code><nowiki>100</nowiki></code>
+|-
+|divinity
+|Divinity enrollment
+|<code><nowiki>500</nowiki></code>
+|-
+|residents
+|On-campus resident population
+|<code><nowiki>1,000</nowiki></code>
+|-
+|other
+|Other student enrollment.  Specify category if possible.
+|<code><nowiki>1,200 [[further education]]</nowiki></code>
+|-
+|profess
+|Professional and upgrading program enrollment
+|<code><nowiki>600</nowiki></code>
+|-
+|alumni
+|?
+|<code><nowiki>?</nowiki></code>
+|-
+|location
+|[[Image:Symbol opinion vote.svg|20px]] '''N.B.:''' This parameter is deprecated.  Use required field <code><nowiki>city</nowiki></code>, and optional fields <code><nowiki>state</nowiki></code>, <code><nowiki>province</nowiki></code> and <code><nowiki>country</nowiki></code> instead.
+|
+|-
+|state
+|U.S. state, or similar administrative subdivision. Use in conjunction with <code><nowiki>country</nowiki></code>.  Do not use in conjunction with <code><nowiki>province</nowiki></code>. Can be wikilinked. Displays after <code><nowiki>city</nowiki></code>, automatically comma-separated.
+|[[Illyria]]
+|-
+|province
+|Use as an alternative to <code><nowiki>state</nowiki></code>, in conjunction with <code><nowiki>country</nowiki></code>.  Do not use in conjunction with <code><nowiki>state</nowiki></code>. Displays after <code><nowiki>city</nowiki></code>, automatically comma-separated.
+|[[Illyria]]
+|-
+|country
+|Country in which the university is based.  Use in conjunction with <code><nowiki>city</nowiki></code> and, optionally, <code><nowiki>state</nowiki></code> or <code><nowiki>province</nowiki></code>. Can be wikilinked. Displays after the above fields, automatically comma-separated.
+|<code><nowiki>[[Utopia]]</nowiki></code>
+|-
+|coor
+|Displays coordinates, in parentheses, after <code><nowiki>city</nowiki></code> and <code><nowiki>country</nowiki></code>
+[[Image:Symbol opinion vote.svg|20px]] '''N.B.:''' This parameter is deprecated.  Use an implementation of [[Template:Coor]] outside of the infobox instead.
+|
+|-
+|address
+|Enter full postal address.
+|<code><nowiki>Blank Rd, Blanksburg, Illyria. UT0 P14</nowiki></code>
+|-
+|telephone
+|Main telephone line, for enquiries.  Include international dialling code if possible
+|<code><nowiki>+01 23456 7890123</nowiki></code>
+|-
+|campus
+|"Urban", "Rural", "multiple campuses" etc.
+|<code><nowiki>[[rural area|Rural]]</nowiki></code>
+|-
+|free_label
+|Use in conjunction with <code><nowiki>free</nowiki></code> for special requirements. Always appears after <code><nowiki>campus</nowiki></code> and before <code><nowiki>sports</nowiki></code>.
+|
+|-
+|free
+|Use in conjunction with <code><nowiki>free_label</nowiki></code> for special requirements. Always appears after <code><nowiki>campus</nowiki></code> and before <code><nowiki>sports</nowiki></code>.
+|
+|-
+|sports
+|University sports
+|
+|-
+|colors
+|Official school colors.  Use this parameter for U.S. institutions, and for institutions in jurisdictions where the prevalent spelling is ''color''; otherwise use <code><nowiki>colours</nowiki></code>
+|<code><nowiki>Red and Blue</nowiki></code>
+|-
+|colours
+|Official school colours.  Use this parameter for institutions in jurisdictions where the prevalent spelling is ''colour''.
+|<code><nowiki>Silver and Gold</nowiki></code>
+|-
+|nickname
+|Use only for athletic nicknames, or moniker used by an institution's sports teams
+|<code><nowiki>The Nematodes</nowiki></code>
+|-
+|mascot
+|School mascot
+|<code><nowiki>Nobby the Nematode</nowiki></code>
+|-
+|fightsong
+|Official [[fight song]].  Usually appropriate only for U.S. institutions.
+|<code><nowiki>''The Rain it Raineth Every Day''</nowiki></code>
+|-
+|athletics
+|University athletics
+|
+|-
+|affiliations
+|List academic/sporting affiliations and memberships.  Can include wiki syntax.
+|<code><nowiki>[[Association of Illyrian Universities|AIU]], [[Utopian Athletic League]]</nowiki></code>
+|-
+|nobel_laureates
+|List Nobel laureates among staff/faculty. Can include wiki syntax.
+|<code><nowiki>[[Sebastian Messaline]], Sir [[Toby Belch]].</nowiki></code>
+|-
+|website
+|Official website.  Can be entered as a raw URL, or using external link syntax (useful when URL is very long).
+|<code><nowiki>http://www.illyria.edu.url/</nowiki></code>
+|-
+|logo
+|Use flexibly for sports team logo, or corporate logo when <code><nowiki>image_name</nowiki></code> has been used for a seal or university arms.  Enter full image syntax.  Produces a centered images at the bottom of the box.
+|<code><nowiki>[[Image:Illyria University.jpg|150px|Logo of the University of Illyria]]</nowiki></code>
+|-
+|publictransit
+|Access by public transit
+|
+|-
+|footnotes
+|Footnotes for the infobox.  Can include references for data.  Displays as small text at foot of infobox.
+|
+|}
+
+===Empty syntax (complete)===
+
+Excluding deprecated parameters.
+
+<pre>
+{{Infobox University
+|name            = 
+|native_name     = 
+|image_name      = 
+|image_size      = 
+|caption         = 
+|latin_name      = 
+|motto           = 
+|tagline         = 
+|established     = 
+|vision          = 
+|type            = 
+|affiliation     = 
+|calendar        = 
+|endowment       = 
+|debt            = 
+|rector          = 
+|chairman        = 
+|chancellor      = 
+|president       = 
+|vice-president  = 
+|superintendent  = 
+|provost         = 
+|vice_chancellor = 
+|principal       = 
+|dean            = 
+|director        = 
+|head_label      = 
+|head            = 
+|faculty         = 
+|staff           = 
+|students        = 
+|undergrad       = 
+|postgrad        = 
+|doctoral        = 
+|divinity        = 
+|residents       = 
+|other           = 
+|profess         = 
+|alumni          = 
+|city            = 
+|state           = 
+|province        = 
+|country         = 
+|address         = 
+|campus          = 
+|free_label      = 
+|free            = 
+|sports          = 
+|colors          = 
+|colours         = 
+|nickname        = 
+|mascot          = 
+|fightsong       = 
+|athletics       = 
+|affiliations    = 
+|nobel_laureates = 
+|website         = 
+|logo            = 
+|publictransit   = 
+|footnotes       = 
+}}
+</pre>
+
+==Microformat==
+{{UF-hcard-org}}
+
+== Example ==
+:''Note: Lines broken for readability.''
+{{Infobox University
+|name            = University of Cambridge
+|latin_name      = Universitas Cantabrigiensis
+|image_name      = Cambridge University Crest - flat.png
+|motto           = ''Hinc lucem et pocula sacra''<br />Literal translation: “From here, light and sacred draughts”. Non-literal: “From this place, we gain enlightenment and precious knowledge”.
+|established     = c. 1209
+|staff           =  
+|chancellor      = [[Prince Philip, Duke of Edinburgh|HRH The Duke of Edinburgh]]
+|vice_chancellor = [[Alison Fettes Richard|Professor Alison Richard]]
+|city            = [[Cambridge]]
+|country         = [[England]]
+|students        = 25595
+|undergrad       = 16160
+|postgrad        = 9435
+|endowment       = £4.1 billion (2006, incl. colleges)
+|athletics       = The [[University Sporting Blue|Sporting Blue]]
+|free_label      = University surroundings
+|free            = Historic landmark
+|type            = [[public university|Public]]
+|affiliations    = [[Russell Group]], [[Coimbra Group]], [[European University Association|EUA]], [[LERU]], [[International Alliance of Research Universities|IARU]]
+|website         = http://www.cam.ac.uk
+}}
+{| style="background: transparent;"
+|<pre>
+{{Infobox University
+|name            = University of Cambridge
+|latin_name      = Universitas Cantabrigiensis
+|image_name      = Cambridge University Crest - flat.png
+|motto           = ''Hinc lucem et pocula sacra''<br />Literal 
+                    translation: “From here, light and sacred 
+                    draughts”. Non-literal: “From this place,
+                    we gain enlightenment and precious knowledge”.
+|established     = c. 1209
+|staff           =  
+|chancellor      = [[Prince Philip, Duke of Edinburgh|
+                    HRH The Duke of Edinburgh]]
+|vice_chancellor = [[Alison Fettes Richard|
+                    Professor Alison Richard]]
+|city            = [[Cambridge]]
+|country         = [[England]]
+|students        = 25595
+|undergrad       = 16160
+|postgrad        = 9435
+|endowment       = £4.1 billion (2006, incl. colleges)
+|athletics       = The [[University Sporting Blue|Sporting Blue]]
+|free_label      = University surroundings
+|free            = Historic landmark
+|type            = [[public university|Public]]
+|affiliations    = [[Russell Group]], [[Coimbra Group]],
+                    [[European University Association|EUA]], 
+                    [[LERU]], [[International Alliance 
+                    of Research Universities|IARU]]
+|website         = http://www.cam.ac.uk
+}}
+</pre>
+|}
+
+<!-- customize if needed to illustrate parameter use -->
+
+<!-- == See also ==
+* links to simlar of linked templates -->
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+[[Category:Education infobox templates|University]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[ar:قالب:جامعة]]
+[[fa:الگو:دانشگاه]]
+[[da:Skabelon:Undervisningsinstitution]]
+[[de:Vorlage:Universität]]
+[[es:Plantilla:Universidad]]
+[[fr:Modèle:Université]]
+[[he:תבנית:אוניברסיטה]]
+[[id:Templat:Infobox University]]
+[[it:Template:Infobox Università italiana]]
+[[it:Template:Infobox Università americana]]
+[[ka:თარგი:უნივერსიტეტი]]
+[[ko:Template:대학 정보]]
+[[ms:Templat:Infobox Universiti]]
+[[pt:Predefinição:Info universidade]]
+[[ro:Format:Infobox University]]
+[[ru:Шаблон:Infobox Университет США]]
+[[vi:Tiêu bản:Đại học]]
+[[zh:Template:Infobox University]]
+
+</includeonly>
