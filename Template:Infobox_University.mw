@@ -1,4 +1,4 @@
-<table class="infobox" style="width:24em; font-size:90%; text-align:left;">
+<table class="infobox vcard" style="width:24em; font-size:90%; text-align:left;">
 <!-- this line now redundant --><caption style="font-size:larger; font-weight:bold;"></caption>
 {| class="infobox" style="width: 20em; font-size: 90%;"
 |-
