@@ -1,8 +1,5 @@
-<table class="infobox" style="width:24em; font-size:90%; text-align:left;">
-<!-- this line now redundant --><caption style="font-size:larger; font-weight:bold;"></caption>
-{| class="infobox" style="width: 20em; font-size: 90%;"
-|-
-! colspan="2" style="font-size: 120%; text-align: center;"  |
+<!-- Infobox University -->{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
+|+ style="margin-left: inherit; font-size: medium;" | 
 {{{name}}}{{#if: {{{native_name<includeonly>|</includeonly>}}} | <br/>''{{{native_name}}}'' }}
 <tr><td colspan="2" style="text-align:center; <noinclude>font-size:larger;</noinclude>">
 {{#if:{{{image|}}} | {{{image}}} | {{#if:{{{image_name<includeonly>|</includeonly>}}}
@@ -11,96 +8,157 @@
 | {{{caption}}}<hr/>
 }}{{#if:{{{latin_name<includeonly>|</includeonly>}}} | <div>[[Latin]]: ''{{{latin_name}}}''</div><hr/>}}
 </td></tr>
+|- style="vertical-align: top;"
 {{#if: {{{motto<includeonly>|</includeonly>}}}
 | <tr><th> [[Motto]]</th>
 <td> {{{motto}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2" 
 }}{{#if: {{{tagline<includeonly>|</includeonly>}}}
 | <tr><th> [[Tagline]]</th>
 <td> {{{tagline}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2" 
 }}{{#if: {{{established<includeonly>|</includeonly>}}}
 | <tr><th> [[date of establishment|Mitátag]]</th>
 <td> {{{established}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2" 
 }}{{#if: {{{vision<includeonly>|</includeonly>}}}
 | <tr><th> [[Talindo (Vision)]]
 </th><td> {{{vision}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{type<includeonly>|</includeonly>}}}
 | <tr><th> Uri 
 </th><td> {{{type}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{affiliation<includeonly>|</includeonly>}}}
 | <tr><th> [[religion|Religiun]] 
 </th><td> {{{affiliation}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{calendar<includeonly>|</includeonly>}}}
 | <tr><th> Academic Calendar 
 </th><td> {{{calendar}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{endowment<includeonly>|</includeonly>}}}
 | <tr><th> [[Financial endowment|Endowment]]
 </th><td> {{{endowment}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{debt<includeonly>|</includeonly>}}}
 | <tr><th> [[Utang]]
 </th><td> {{{debt}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{rector<includeonly>|</includeonly>}}}
 | <tr><th> [[Rector]] 
 </th><td> {{{rector}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{chairman<includeonly>|</includeonly>}}}
 | <tr><th> [[Chairman]] 
 </th><td> {{{chairman}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{chancellor<includeonly>|</includeonly>}}}
 | <tr><th> [[Chancellor (education)|Chancellor]]
 </th><td> {{{chancellor}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{president<includeonly>|</includeonly>}}}
 | <tr><th> [[University President|Pamuntuk]]
 </th><td> {{{president}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{vice-president<includeonly>|</includeonly>}}}
 | <tr><th> [[Vice-President (education)|Kadwang Pamuntuk]]
 </th><td> {{{vice-president}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{superintendent<includeonly>|</includeonly>}}}
 | <tr><th> [[University President|Superintendent]]
 </th><td> {{{superintendent}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{provost<includeonly>|</includeonly>}}}
 | <tr><th> [[Provost (education)|Provost]]
 </th><td> {{{provost}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{principal<includeonly>|</includeonly>}}}
 | <tr><th> [[Principal (university)|Principal]]
 </th><td> {{{principal}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{vice_chancellor<includeonly>|</includeonly>}}}
 | <tr><th> [[Vice-Chancellor]]
 </th><td> {{{vice_chancellor}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{dean<includeonly>|</includeonly>}}}
 | <tr><th> [[Dean (education)|Decanu]]
 </th><td> {{{dean}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{director<includeonly>|</includeonly>}}}
 | <tr><th> [[Director (education)|Director]]
 </th><td> {{{director}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{head_label<includeonly>|</includeonly>}}}{{{head|}}}
 | <tr><th> {{{head_label<includeonly>|</includeonly>}}}
 </th><td> {{{head}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{faculty<includeonly>|</includeonly>}}}
 | <tr><th> [[Faculty (university)#North American usage|Talaturu]]
 </th><td> {{{faculty}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{staff<includeonly>|</includeonly>}}}
 | <tr><th> [[Employee|Empleadu]] 
 </th><td> {{{staff}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{students<includeonly>|</includeonly>}}}{{{enrollment|}}}
 | <tr><th> [[Magaral]]
 </th><td> {{{enrollment|}}}{{{students<includeonly>|</includeonly>}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{undergrad<includeonly>|</includeonly>}}}
 | <tr><th> [[Magaral king colegiu]]
 </th><td> {{{undergrad}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{postgrad<includeonly>|</includeonly>}}}
 | <tr><th> [[Postgraduate education|Magaral a postgraduate]]
 </th><td> {{{postgrad}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{doctoral<includeonly>|</includeonly>}}}
 | <tr><th> [[Doctorate|Magaral a doctorate]]
 </th><td> {{{doctoral}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{other<includeonly>|</includeonly>}}}
 | <tr><th> Aliwang magaral
 </th><td> {{{other}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{profess<includeonly>|</includeonly>}}}
 | <tr><th> [[Professional|Magaral a profesional]]
 </th><td> {{{profess}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}{{#if: {{{alumni<includeonly>|</includeonly>}}}
 | <tr><th> [[Alumnus|Deng Miyari]]
 </th><td> {{{alumni}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2"
 }}<tr><th> Lugal </th>
 <td>{{#if: {{{location<includeonly>|</includeonly>}}}
 | {{{location}}}
@@ -162,3 +220,4 @@
 {{{{FULLPAGENAME}}/doc}}
 <!-- Add cats and interwikis to the /doc subpage, not here! -->
 </noinclude>
+|}
