@@ -3,7 +3,7 @@
 {| class="infobox" style="width: 20em; font-size: 90%;"
 |-
 ! colspan="2" style="font-size: 120%; text-align: center;"  |
-<span class="fn org">{{{name}}}</span>{{#if: {{{native_name<includeonly>|</includeonly>}}} | <br/>''{{{native_name}}}'' }}
+{{{name}}}{{#if: {{{native_name<includeonly>|</includeonly>}}} | <br/>''{{{native_name}}}'' }}
 <tr><td colspan="2" style="text-align:center; <noinclude>font-size:larger;</noinclude>">
 {{#if:{{{image|}}} | {{{image}}} | {{#if:{{{image_name<includeonly>|</includeonly>}}}
   | [[Image:{{{image_name}}}|center|{{{image_size<includeonly>|200x200px</includeonly>}}}|{{{caption|}}}]] }}
@@ -12,22 +12,22 @@
 }}{{#if:{{{latin_name<includeonly>|</includeonly>}}} | <div>[[Latin]]: ''{{{latin_name}}}''</div><hr/>}}
 </td></tr>
 {{#if: {{{motto<includeonly>|</includeonly>}}}
-| <tr class="note"><th> [[Motto]]</th>
+| <tr><th> [[Motto]]</th>
 <td> {{{motto}}}</td></tr>
 }}{{#if: {{{tagline<includeonly>|</includeonly>}}}
 | <tr><th> [[Tagline]]</th>
 <td> {{{tagline}}}</td></tr>
 }}{{#if: {{{established<includeonly>|</includeonly>}}}
-| <tr><th> [[date of establishment|Established]]</th>
+| <tr><th> [[date of establishment|Mitátag]]</th>
 <td> {{{established}}}</td></tr>
 }}{{#if: {{{vision<includeonly>|</includeonly>}}}
-| <tr><th> [[Vision statement|Vision]]
+| <tr><th> [[Talindo (Vision)]]
 </th><td> {{{vision}}}</td></tr>
 }}{{#if: {{{type<includeonly>|</includeonly>}}}
-| <tr><th> Type 
+| <tr><th> Uri 
 </th><td> {{{type}}}</td></tr>
 }}{{#if: {{{affiliation<includeonly>|</includeonly>}}}
-| <tr><th> [[religion|Religious Affiliation]] 
+| <tr><th> [[religion|Religiun]] 
 </th><td> {{{affiliation}}}</td></tr>
 }}{{#if: {{{calendar<includeonly>|</includeonly>}}}
 | <tr><th> Academic Calendar 
@@ -36,7 +36,7 @@
 | <tr><th> [[Financial endowment|Endowment]]
 </th><td> {{{endowment}}}</td></tr>
 }}{{#if: {{{debt<includeonly>|</includeonly>}}}
-| <tr><th> [[Debt]]
+| <tr><th> [[Utang]]
 </th><td> {{{debt}}}</td></tr>
 }}{{#if: {{{rector<includeonly>|</includeonly>}}}
 | <tr><th> [[Rector]] 
@@ -48,10 +48,10 @@
 | <tr><th> [[Chancellor (education)|Chancellor]]
 </th><td> {{{chancellor}}}</td></tr>
 }}{{#if: {{{president<includeonly>|</includeonly>}}}
-| <tr><th> [[University President|President]]
+| <tr><th> [[University President|Pamuntuk]]
 </th><td> {{{president}}}</td></tr>
 }}{{#if: {{{vice-president<includeonly>|</includeonly>}}}
-| <tr><th> [[Vice-President (education)|Vice-President]]
+| <tr><th> [[Vice-President (education)|Kadwang Pamuntuk]]
 </th><td> {{{vice-president}}}</td></tr>
 }}{{#if: {{{superintendent<includeonly>|</includeonly>}}}
 | <tr><th> [[University President|Superintendent]]
@@ -59,14 +59,14 @@
 }}{{#if: {{{provost<includeonly>|</includeonly>}}}
 | <tr><th> [[Provost (education)|Provost]]
 </th><td> {{{provost}}}</td></tr>
-}}{{#if: {{{vice_chancellor<includeonly>|</includeonly>}}}
-| <tr><th> [[Vice-Chancellor]]
-</th><td> {{{vice_chancellor}}}</td></tr>
 }}{{#if: {{{principal<includeonly>|</includeonly>}}}
 | <tr><th> [[Principal (university)|Principal]]
 </th><td> {{{principal}}}</td></tr>
+}}{{#if: {{{vice_chancellor<includeonly>|</includeonly>}}}
+| <tr><th> [[Vice-Chancellor]]
+</th><td> {{{vice_chancellor}}}</td></tr>
 }}{{#if: {{{dean<includeonly>|</includeonly>}}}
-| <tr><th> [[Dean (education)|Dean]]
+| <tr><th> [[Dean (education)|Decanu]]
 </th><td> {{{dean}}}</td></tr>
 }}{{#if: {{{director<includeonly>|</includeonly>}}}
 | <tr><th> [[Director (education)|Director]]
@@ -75,72 +75,63 @@
 | <tr><th> {{{head_label<includeonly>|</includeonly>}}}
 </th><td> {{{head}}}</td></tr>
 }}{{#if: {{{faculty<includeonly>|</includeonly>}}}
-| <tr><th> [[Faculty (university)#North American usage|Faculty]]
+| <tr><th> [[Faculty (university)#North American usage|Talaturu]]
 </th><td> {{{faculty}}}</td></tr>
 }}{{#if: {{{staff<includeonly>|</includeonly>}}}
-| <tr><th> [[Employee|Staff]] 
+| <tr><th> [[Employee|Empleadu]] 
 </th><td> {{{staff}}}</td></tr>
 }}{{#if: {{{students<includeonly>|</includeonly>}}}{{{enrollment|}}}
-| <tr><th> [[Students]]
+| <tr><th> [[Magaral]]
 </th><td> {{{enrollment|}}}{{{students<includeonly>|</includeonly>}}}</td></tr>
 }}{{#if: {{{undergrad<includeonly>|</includeonly>}}}
-| <tr><th> [[Undergraduate]]s
+| <tr><th> [[Magaral king colegiu]]
 </th><td> {{{undergrad}}}</td></tr>
 }}{{#if: {{{postgrad<includeonly>|</includeonly>}}}
-| <tr><th> [[Postgraduate education|Postgraduate]]s
+| <tr><th> [[Postgraduate education|Magaral a postgraduate]]
 </th><td> {{{postgrad}}}</td></tr>
 }}{{#if: {{{doctoral<includeonly>|</includeonly>}}}
-| <tr><th> [[Doctorate|Doctoral students]]
+| <tr><th> [[Doctorate|Magaral a doctorate]]
 </th><td> {{{doctoral}}}</td></tr>
-}}{{#if: {{{divinity<includeonly>|</includeonly>}}}
-| <tr><th> [[Divinity (academic discipline)|Divinity students]]
-</th><td> {{{divinity}}}</td></tr>
-}}{{#if: {{{residents<includeonly>|</includeonly>}}}
-| <tr><th> [[Dormitory|Residents]]
-</th><td> {{{residents}}}</td></tr>
 }}{{#if: {{{other<includeonly>|</includeonly>}}}
-| <tr><th> Other students
+| <tr><th> Aliwang magaral
 </th><td> {{{other}}}</td></tr>
 }}{{#if: {{{profess<includeonly>|</includeonly>}}}
-| <tr><th> [[Professional degree|Professional students]]
+| <tr><th> [[Professional|Magaral a profesional]]
 </th><td> {{{profess}}}</td></tr>
 }}{{#if: {{{alumni<includeonly>|</includeonly>}}}
-| <tr><th> [[Alumnus|Alumni]]
+| <tr><th> [[Alumnus|Deng Miyari]]
 </th><td> {{{alumni}}}</td></tr>
-}}<tr><th> Location </th>
-<td class="adr">{{#if: {{{location<includeonly>|</includeonly>}}}
-| <span class="extended-address">{{{location}}}</span>
-| <span class="locality">{{{city}}}</span>{{#if:{{{state|{{{province|}}}}}}
-  |, <span class="region">{{{state|{{{province|}}}}}}</span>
+}}<tr><th> Lugal </th>
+<td>{{#if: {{{location<includeonly>|</includeonly>}}}
+| {{{location}}}
+| {{{city}}}{{#if:{{{state|{{{province|}}}}}}
+  |, {{{state|{{{province|}}}}}}
   }}{{#if:{{{country|}}}
-  |, <span class="country-name">{{{country}}}</span>
+  |, {{{country}}}
   }}}} 
   {{#if: {{{coor|}}}
   | ({{{coor}}})
   }}</td></tr>
 {{#if: {{{address<includeonly>|</includeonly>}}}
 | <tr><th> Address
-</th><td class="label"> {{{address}}}</td></tr>
+</th><td> {{{address}}}</td></tr>
+}}{{#if: {{{telephone<includeonly>|</includeonly>}}}
+| <tr><th> Telefonu
+</th><td> {{{telephone}}}</td></tr>
 }}{{#if: {{{campus<includeonly>|</includeonly>}}}
 | <tr><th> Campus
 </th><td> {{{campus}}}</td></tr>
-}}{{#if: {{{campus_2<includeonly>|</includeonly>}}}
-| <tr><th> Campus 2
-</th><td> {{{campus_2}}}</td></tr>
-}}{{#if: {{{campus_3<includeonly>|</includeonly>}}}
-| <tr><th> Campus 3
-</th><td> {{{campus_3}}}</td></tr>
 }}{{#if: {{{free_label<includeonly>|</includeonly>}}}
 | <tr><th> {{{free_label}}}
 </th><td> {{{free<includeonly>|</includeonly>}}}</td></tr>
 }}{{#if: {{{sports<includeonly>|</includeonly>}}}
-| <tr><th> [[Sports]]
+| <tr><th> [[Pasiknangan]]
 </th><td> {{{sports}}}</td></tr>
 }}{{#if: {{{colors|{{{colours<includeonly>|</includeonly>}}}}}}
-| <tr><th> [[School colors|Colo{{#if:{{{colours|}}}|u}}rs]]
+| <tr><th> [[School colors|Ku{{#if:{{{colours|}}}|u}}le]]
 </th><td> {{{colors<includeonly>|{{{colours|}}}</includeonly>}}}</td></tr>
 }}{{#if: {{{nickname<includeonly>|</includeonly>}}}
-| <tr><th> [[Athletic nickname|Nickname]]
+| <tr><th> [[Athletic nickname|Palayo]]
 </th><td> {{{nickname}}}</td></tr>
 }}{{#if: {{{mascot<includeonly>|</includeonly>}}}
 | <tr><th> [[Mascot]]
@@ -155,7 +146,7 @@
 | <tr><th> Affiliations
 </th><td> {{{affiliations}}}</td></tr>
 }}{{#if: {{{nobel_laureates<includeonly>|</includeonly>}}}
-| <tr><th> [[Nobel Laureate|Nobel Laureates]]
+| <tr><th> [[Nobel Laureate|Menikwang Galal a Nobel]]
 </th><td> {{{nobel_laureates}}}</td></tr>
 }}{{#if: {{{website<includeonly>|</includeonly>}}}
 | <tr><th> [[Website]]
@@ -163,7 +154,7 @@
 }}{{#if: {{{logo<includeonly>|</includeonly>}}}
 | <tr></th><td colspan="2" style="text-align: center;"> {{{logo}}}</td></tr>
 }}{{#if: {{{publictransit<includeonly>|</includeonly>}}}
-| <tr><th> Public transit access </th>
+| <tr><th> Saken a pangmalda </th>
 <td> {{{publictransit}}}</td></tr>
 }}{{#if: {{{footnotes<includeonly>|</includeonly>}}}
 | <tr><td colspan="2" style="font-size: smaller;">{{{footnotes}}}</td></tr>
