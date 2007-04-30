@@ -1,23 +1,31 @@
-<div id="mainpage"></div>
-<!-- Beginning of header section -->{|style="width:100%;margin-top:+.7em;background-color:#fcfcfc;border:1px solid #ccc"
-|style="width:56%;color:#000"|
-{|style="width:280px;border:solid 0px;background:none"
-|-
-|style="width:280px;text-align:center;white-space:nowrap;color:#000" |
-<div style="font-size:162%;border:none;margin: 0;padding:.1em;color:#000">Malaus kayu keng '''Kapampangan''' [[Wikipedia]],</div>
-<div style="top:+0.2em;font-size: 95%"> ing timawang encyclopedia a  [[Wikipedia:Introduction|agiang ninu&nbsp;malyari&nbsp;yang&nbsp;manalili]].</div>
-<div id="articlecount" style="width:100%;text-align:center;font-size:85%;">[[Special:Statistics|{{NUMBEROFARTICLES}}]] artikulu king Kapampangan</div>
-|}<!-- Portals Follow -->
-|style="width:11%;font-size:95%;color:#000"|
-*[[Portal:Alit|Alit (Arts)]]
-*[[Portal:Biografia|Biografia]]
-*[[Portal:Geografia|Geografia]]
-|style="width:11%;font-size:95%"|
-*[[Portal:Amlat|Amlat]]
-*[[Portal:Matematiku|Matematiku]]
-*[[Portal:Science|Science]]
-|style="width:11%;font-size:95%"|
-*[[Portal:Sociedad|Sociedad]]
-*[[Portal:Technologia|Technologia]]
-*'''[[Portal:Tala da reng Portal|Deng eganaganang&nbsp;portals]]'''
-|}<!-- End Portals -->
+<!-- Infobox University -->{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
+|+ style="margin-left: inherit; font-size: medium;" | 
+{{{name}}}{{#if: {{{native_name<includeonly>|</includeonly>}}} | <br/>''{{{native_name}}}'' }}
+<tr><td colspan="2" style="text-align:center; <noinclude>font-size:larger;</noinclude>">
+{{#if:{{{image|}}} | {{{image}}} | {{#if:{{{image_name<includeonly>|</includeonly>}}}
+  | [[Image:{{{image_name}}}|center|{{{image_size<includeonly>|200x200px</includeonly>}}}|{{{caption|}}}]] }}
+}}{{#if: {{{caption<includeonly>|</includeonly>}}}
+| {{{caption}}}<hr/>
+}}{{#if:{{{latin_name<includeonly>|</includeonly>}}} | <div>[[Latin]]: ''{{{latin_name}}}''</div><hr/>}}
+</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2" 
+{{#if: {{{motto<includeonly>|</includeonly>}}}
+| <tr><th> [[Motto]]</th>
+<td> {{{motto}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2" 
+}}{{#if: {{{tagline<includeonly>|</includeonly>}}}
+| <tr><th> [[Tagline]]</th>
+<td> {{{tagline}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2" 
+}}{{#if: {{{established<includeonly>|</includeonly>}}}
+| <tr><th> [[date of establishment|Mitátag]]</th>
+<td> {{{established}}}</td></tr>
+|- style="vertical-align: top;"
+| style="font-size:95%" colspan="2" 
+}}{{#if: {{{vision<includeonly>|</includeonly>}}}
+| <tr><th> [[Talindo (Vision)]]
+</th><td> {{{vision}}}</td></tr>
+|}
