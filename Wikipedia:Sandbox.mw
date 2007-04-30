@@ -8,12 +8,9 @@
 | {{{caption}}}<hr/>
 }}{{#if:{{{latin_name<includeonly>|</includeonly>}}} | <div>[[Latin]]: ''{{{latin_name}}}''</div><hr/>}}
 </td></tr>
-|- style="vertical-align: top;"
 {{#if: {{{motto<includeonly>|</includeonly>}}}
 | <tr><th> [[Motto]]</th>
 <td> {{{motto}}}</td></tr>
-|- style="vertical-align: top;"
-| style="font-size:95%" colspan="2" 
 }}{{#if: {{{tagline<includeonly>|</includeonly>}}}
 | <tr><th> [[Tagline]]</th>
 <td> {{{tagline}}}</td></tr>
