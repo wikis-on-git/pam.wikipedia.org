@@ -1,7 +1,8 @@
-<table class="infobox vcard" style="width:24em; font-size:90%; text-align:left;">
+<table class="infobox" style="width:24em; font-size:90%; text-align:left;">
 <!-- this line now redundant --><caption style="font-size:larger; font-weight:bold;"></caption>
-{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
-|+ style="margin-left: inherit; font-size: medium;"  |
+{| class="infobox" style="width: 20em; font-size: 90%;"
+|-
+! colspan="2" style="font-size: 120%; text-align: center;"  |
 {{{name}}}{{#if: {{{native_name<includeonly>|</includeonly>}}} | <br/>''{{{native_name}}}'' }}
 <tr><td colspan="2" style="text-align:center; <noinclude>font-size:larger;</noinclude>">
 {{#if:{{{image|}}} | {{{image}}} | {{#if:{{{image_name<includeonly>|</includeonly>}}}
