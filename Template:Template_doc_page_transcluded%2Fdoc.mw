@@ -1,0 +1,60 @@
+<noinclude><div style="background:whitesmoke;">
+; ''The template documentation below is for [[Template:{{BASEPAGENAME}}]].''
+''The noinclude/includeonly logic in this page is very different from normal and should not be taken to be a usual pattern. It is in fact backwards, due to the nature of the template calling it ''[Please clarify the following:]'' and the needs of the templates including that one.''</div><!--
+
+<div class="notice" id="disambig">''The template documentation below is [[Wikipedia:Template doc page pattern|transcluded]] from [[{{BASEPAGENAME}}/doc]]'' <small>[<span class="plainlinks">[{{fullurl:{{BASEPAGENAME}}/doc|action=edit}} edit]</span>]</small></div> 
+
+-->[[Category:Template documentation|{{PAGENAME}}]]<!--
+--></noinclude>
+
+== Use ==
+: <code><nowiki><includeonly>{{Template doc page transluded}}</includeonly></nowiki></code>
+: or <code><nowiki><includeonly>{{Template doc page transcluded|</nowiki>''pagename''<nowiki>}}</includeonly></nowiki></code>
+
+Place at the top of a template documentation page (usually a "Template:''Template name''/doc" page) that is [[Wikipedia:Transclusion|transcluded]] on the template's own page (Template:''Template name''). If the documentation page is not named "doc" and/or its transclusion is via another subpage (e.g. "Template:''Template name''/example"), use the second form of syntax above and replace ''pagename'' accordingly.
+
+<br/><hr/>
+{{Interwikitmp-grp|V=D|inhib=yes|{{BASEPAGENAME}}}} 
+See [[Wikipedia:Template doc page pattern]] for how this template is used or include the boilerplate text noted following.  See also:
+* the companion template {{tl|Template doc page viewed directly}}
+* the companion sample template {{tl|sample}}
+* {{TL|Interwiki doc page pattern}} which when substed, creates boilerplate text for a /doc page including the proper calls to the other two.
+
+* Note: All four add tagged pages properly to 
+:[[:Category:Template documentation]]
+
+<noinclude>
+<!--- The below: {{Subst:Interwiki Help appeal}} ---->
+{{-}}
+<div style="Margin: 0.5em 0em 0.5em 0em;background:transparent;Border:1px solid; Padding:.82em; width:95%; align:left; float:left;Font-size:90%" > 
+;If you are updating interwiki's translations, :...please consider copying your edit to the links in the box at the upper right. 
+# Just finish your work and save. 
+# Backspace to the preview page, type [CTRL-A]+[CTRL-C] (to copy the whole page), 
+# and succesively navigate to each page. 
+# On each, type [CTRL-A] (which should highlight all text) and then [CTRL-V] to paste in the new change.
+# Preview, then Click "Show Changes" to see if any minor adjustments are needed above. If the changes are major, then 
+## If so, DO NOT SAVE, Backspace to the page you came from and finish the list.
+## If you have the time drop an 'Alert note' on [[W:Wikipedia talk:WikiProject template sharing/Page Differences]] so we can look into it ([[W:WP:TSP]] & [[WP:TSP/PD]]).
+# When done, you'll have helped all the participating projects with their translations! Good job!
+-- Thanks!
+</font></div>
+<!--- Place Interwiki's below this line for THIS /doc PAGE--->
+[[ja:Template:テンプレート文書呼出]]
+[[pl:Szablon:Dokumentacja szablonu dołączona/dokumentacja]]
+[[sl:Predloga:Vključena dokumentacijska stran predloge/dok]]
+[[uk:Шаблон:Документація шаблона (включена)/документація]]
+[[zh:Template:Template doc page transcluded/doc]]
+</noinclude>
+
+
+<includeonly>
+<!--Categories-->
+[[Category:Template namespace templates|{{PAGENAME}}]]
+
+<!--Interwikis for the template including this /doc page-->
+[[ja:Template:%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E6%96%87%E6%9B%B8%E5%91%BC%E5%87%BA]]
+[[pl:Szablon:Dokumentacja szablonu dołączona]]
+[[sl:Predloga:Vključena dokumentacijska stran predloge]]
+[[uk:Шаблон:Документація шаблона (включена)]]
+[[zh:Template:Template doc page transcluded]]
+</includeonly>
