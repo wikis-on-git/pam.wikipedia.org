@@ -1,0 +1,181 @@
+<includeonly>:''This template documentation is [[M:Meta:Template doc page pattern |<!---
+-----
+---->transcluded]] from [[Template:Tl/doc]]'' <!---
+-----
+---->[<span class="plainlinks">[{{fullurl:Template:Tl/doc|action=edit}} <!---
+-----
+----> edit usage]</span>]<!---
+-----
+---->{{#ifeq:{{SITENAME}}|Meta|<!--- then do nothing ---->|<!--- 
+----- otherwise ---->[<span class="plainlinks">[{{fullurl:M:Template:Tl/doc|action=edit}} <!---
+-----
+----> edit Master usage]</span>]}}<!---
+-----
+----></includeonly><!---
+-----
+----><noinclude><!---
+-----
+---->
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE ----><!---
+-----
+---->
+{{Interwikitmp-grp|
+V=D|cat=|Tl/doc|{{PAGENAME}} 
+}}</noinclude>
+__NOTOC__
+==Documentation==
+
+{{Tlx|Tl}} and {{Tl|Tl2}} are simple [[w:macro|macro]] [[m:Help:template|templates]] used to display a template name as a link. '''Tl''' stands for '''T'''emplate '''l'''ink. 
+
+:Tl2 differs in that it displays an arguably clearer result like {{[[Template:Tlx|Tlx]]}}, and also like takes the named parameters 'SISTER=xx' and 'LANG=ll', so that it may also be used to ''list and link to templates on other English and non-English language sister projects''.
+
+;related: {{Tl2|Tlx}} displays with the same enhanced presentation, and also expands several 'placeholder' parameters to generate a sample template call.
+ 
+== Usage ==
+
+<pre>
+
+ {{Tl|template name to display}}
+and
+ {{Tl2|template name to display}} -- local link, just like Tl.
+ or
+ {{Tl2|SISTER=V:|template name to display}} -- displays a template on Wikiversity
+ or
+ {{Tl2|LANG=fr.|SISTER=wikisource|template name to display}} -- displays a template 
+                       on the French Wikisource sister project.
+</pre>
+
+== Example ==
+{| class="wikitable"
+! Code
+! Result
+|-
+| <code><nowiki>{{Tl|x0}}</nowiki></code>
+| {{[[Template:X0|x0]]}}
+|-
+| <code><nowiki>{{Tl2|x1}}</nowiki></code>
+| <tt><nowiki>{{</nowiki>[[{{{LANG|}}}{{{SISTER|}}}{{ns:Template}}:x1|x1]]<nowiki>}}</nowiki></tt>
+|-
+| <code><nowiki>{{Tl2|SISTER=M:|3x}}</nowiki></code>
+| <tt><nowiki>{{</nowiki>[[{{{LANG|}}}M:{{ns:Template}}:3x|3x]]<nowiki>}}</nowiki></tt>
+|-
+| <code><nowiki>{{Tl2|SISTER=wikibooks|LANG=de:|WP}}</nowiki></code>
+| <tt><nowiki>{{</nowiki>[http://de.wikibooks.org/wiki/Vorlage:WP WP]<nowiki>}}</nowiki></tt><!---
+----- This is currently a fraudulent output result... the template code needs modified to work
+----- per this plan, then this /doc file fixed up to match whatever the correct syntax actually is.
+----- ALMOST work: 
+[[:de:wikibooks:{{ns:template}}:WP |WP]]
+[[de:wikibooks:{{ns:template}}:WP |WP]]
+---->
+|}
+
+== See also ==
+* {{Ltswpd|tl}}&nbsp; &nbsp;&mdash; links and edit history of the Tl template.
+* {{Ltswpd|tl2}} &nbsp;&mdash; links and edit history of the Tl2 template.
+* {{Ltswpd|tlp}} &nbsp;&mdash; Template link, with single parameter.
+* {{Ltswpd|tlx}} &nbsp;&mdash; Template link, up to three parameters.
+* {{Ltswpd|tlsp}} &mdash; Template link, ditto subst'ed.
+* {{Ltswpd|lts}} &nbsp;&mdash; see Lts discussion for more variants.
+* {{Ltswpd|tlu}} - like {{tlx|tl}} / {{tlx|tlp}} for any namespace.
+* {{Ltswpd|tn}} - Same as tl, but shows the braces as part of the link.
+* {{Lcs|Internal link templates}}
+
+<includeonly><!--- Categories for calling templates below this line -----
+-----
+---->
+{{#ifeq:{{PAGENAME}}|Tl|{{interwikitmp-grp|V=1 |Tl }}}}
+{{#ifeq:{{PAGENAME}}|Tl2|{{interwikitmp-grp|V=6|cat=|Tl2}}[[Category:Interwiki link templates|Tl2]]}}
+<!-- ADD CATEGORIES for calling templates BELOW THIS LINE -->
+[[Category:Internal link templates|{{PAGENAME}}]]
+[[Category:Typing-aid templates|{{PAGENAME}}]]
+<!--- ------------------------------------------------------------------------------ -----
+----- ADD INTERWIKIS BELOW THIS LINE By calling templates or this page's interwiki's -----
+---->
+{{#ifeq:{{PAGENAME}}|Tl|<!--- ADD INTERWIKIS BELOW THIS LINE for 'Tl' -----
+----->
+[[az:Şablon:ŞK]] &nbsp; 
+[[bg:Шаблон:Ш]] &nbsp; 
+[[ca:Plantilla:Tl]] &nbsp; 
+[[cs:Šablona:Šablona]] &nbsp; 
+[[eo:Ŝablono:Ŝ]] &nbsp; 
+[[es:Plantilla:Template link]] &nbsp; 
+[[fa:الگو:الگوی]] &nbsp; 
+[[fi:Malline:Malline]] &nbsp; 
+[[fr:Modèle:M]] &nbsp; 
+[[he:תבנית:תב]] &nbsp; 
+[[ia:Patrono:Tl]] &nbsp; 
+[[ja:Template:Tl]] &nbsp; 
+[[ka:თარგი:Tl]] &nbsp; 
+[[ko:틀:Tl]] &nbsp; 
+[[kw:Template:Viz]] &nbsp; 
+[[my:Template:Tl]] &nbsp; 
+[[or:Template:Tl]] &nbsp; 
+[[pih:Template:Tl]] &nbsp; 
+[[pl:Szablon:S]] &nbsp; 
+[[pt:Predefinição:Link para predefinição]] &nbsp; 
+[[ru:Шаблон:Tl]] &nbsp; 
+[[sl:Predloga:Tl]] &nbsp; 
+[[sv:Mall:Mall]] &nbsp; 
+[[th:แม่แบบ:Tl]] &nbsp; 
+[[uk:Шаблон:Tl]] &nbsp; 
+[[vi:Tiêu bản:Tl]] &nbsp; 
+[[zh:Template:Tl]] &nbsp; 
+[[zh-yue:Template:Tl]] &nbsp; 
+
+<!-- ADD INTERWIKIS ABOVE THIS LINE for 'TL' -->
+}}<!---
+----- --------------------------------------------- -----
+----><!--- ADD INTERWIKIS BELOW THIS LINE for 'Tl2' -----
+-----
+-----
+---->{{#ifeq:{{PAGENAME}}|Tl2|
+[[az:Şablon:ŞK2]] &nbsp; 
+[[bg:Шаблон:Ш2]] &nbsp; 
+[[ca:Plantilla:Tl2]] &nbsp; 
+[[cs:Šablona:Šablona2]] &nbsp; 
+[[eo:Ŝablono:Ŝ2]] &nbsp; 
+[[es:Plantilla:Template link2]] &nbsp; 
+[[fa:الگو:الگوی]] &nbsp; 
+[[fi:Malline:Malline2]] &nbsp; 
+[[fr:Modèle:M2]] &nbsp; 
+[[he:תבנית:תב]] &nbsp; 
+[[ia:Patrono:Tl2]] &nbsp; 
+[[ja:Template:Tl2]] &nbsp; 
+[[ka:თარგი:Tl2]] &nbsp; 
+[[ko:틀:Tl2]] &nbsp; 
+[[kw:Template:Viz2]] &nbsp; 
+[[my:Template:Tl]] &nbsp; 
+[[or:Template:Tl2]] &nbsp; 
+[[pih:Template:Tl2]] &nbsp; 
+[[pl:Szablon:S2]] &nbsp; 
+[[pt:Predefinição:Link para predefinição2]] &nbsp; 
+[[ru:Шаблон:Tl2]] &nbsp; 
+[[sl:Predloga:Tl2]] &nbsp; 
+[[sv:Mall:Mall2]] &nbsp; 
+[[th:แม่แบบ:Tl2]] &nbsp; 
+[[uk:Шаблон:Tl2]] &nbsp; 
+[[vi:Tiêu bản:Tl2]] &nbsp; 
+[[zh:Template:Tl2]] &nbsp; 
+[[zh-yue:Template:Tl2]] &nbsp; 
+}}
+</includeonly><!---
+-----
+----><noinclude><!---
+----- ----- ADD Interwiki's BELOW this line for this 'Tl/doc page', not the working templates ---- 
+---->{{WPTSP loose ends}}
+[[bg:Шаблон:Ш/документация]]
+[[de:Vorlage:Tl]] &nbsp; 
+[[eo:Ŝablono:Ŝ2/doc]] &nbsp; 
+[[es:Plantilla:Template link/doc]] &nbsp; 
+[[fa:الگو:الگوی/doc]] &nbsp; 
+[[fi:Malline:Malline/doc]] &nbsp; 
+[[fr:Modèle:M/doc]] &nbsp; 
+[[he:תבנית:תב/doc]] &nbsp; 
+[[ia:Patrono:Tl/doc]] &nbsp; 
+[[ja:Template:Tl/doc]] &nbsp; 
+[[ka:თარგი:Tl/doc]] &nbsp; 
+[[kw:Template:Viz/doc]] &nbsp; 
+[[or:Template:Tl/doc]] &nbsp; 
+<!--- ----- ADD Interwiki's ABOVE this line for this 'Tl/doc page', not the working templates ----
+-----
+----></noinclude>
