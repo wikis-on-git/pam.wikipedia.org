@@ -1,0 +1,9 @@
+|-
+| colspan="2" |
+{| width="100%" border="1" cellpadding="2" cellspacing="0"
+|+ [[Vapor pressure]] {{{comment}}}
+|- align="center"
+| ''P''(Pa) || 1 || 10 || 100 || 1 k || 10 k || 100 k
+|- align="center"
+| at ''T''(K) || {{{1}}} || {{{2}}} || {{{3}}} || {{{4}}} || {{{5}}} || {{{6}}}
+|}
