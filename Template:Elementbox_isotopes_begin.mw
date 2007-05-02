@@ -1,0 +1,12 @@
+|-
+! colspan="2" style="background:{{{color1}}}; color:{{{color2}}}" | Selected isotopes
+|-
+| colspan="2" |
+{| width="100%" border="1" cellspacing="0" cellpadding="2"
+|+ Main article: [[Isotopes of {{#ifeq:{{lc:{{PAGENAME}}}}|mercury (element)|mercury|{{lc:{{PAGENAME}}}}}}]]
+! [[Isotope|iso]]
+! [[natural abundance|NA]]
+! [[half-life]]
+! [[radioactive decay|DM]]
+! [[decay energy|DE]] <small>([[electronvolt|MeV]])</small>
+! [[decay product|DP]]
