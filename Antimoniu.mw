@@ -1,0 +1,115 @@
+{{Elementbox_header | number=51 | symbol=Sb | name=antimony | left=[[tin]] | right=[[tellurium]] | above=[[arsenic|As]] | below=[[bismuth|Bi]] | color1=#cccc99 | color2=black }}
+{{Elementbox_series | [[metalloid]]s }}
+{{Elementbox_groupperiodblock | group=15 | period=5 | block=p }}
+{{Elementbox_appearance_img | Sb,51| silvery lustrous grey }}
+{{Elementbox_atomicmass_gpm | [[1 E-25 kg|121.760]][[List of elements by atomic mass|(1)]] }}
+{{Elementbox_econfig | &#91;[[krypton|Kr]]&#93; 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>3</sup> }}
+{{Elementbox_epershell | 2, 8, 18, 18, 5 }}
+{{Elementbox_section_physicalprop | color1=#cccc99 | color2=black }}
+{{Elementbox_phase | [[solid]] }}
+{{Elementbox_density_gpcm3nrt | 6.697 }}
+{{Elementbox_densityliq_gpcm3mp | 6.53 }}
+{{Elementbox_meltingpoint | k=903.78 | c=630.63 | f=1167.13 }}
+{{Elementbox_boilingpoint | k=1860 | c=1587 | f=2889 }}
+{{Elementbox_heatfusion_kjpmol | 19.79 }}
+{{Elementbox_heatvaporiz_kjpmol | 193.43 }}
+{{Elementbox_heatcapacity_jpmolkat25 | 25.23 }}
+{{Elementbox_vaporpressure_katpa | 807 | 876 | 1011 | 1219 | 1491 | 1858 | comment= }}
+{{Elementbox_section_atomicprop | color1=#cccc99 | color2=black }}
+{{Elementbox_crystalstruct | rhombohedral }}
+{{Elementbox_oxistates | &minus;3, '''3''', 5 }}
+{{Elementbox_electroneg_pauling | 2.05 }}
+{{Elementbox_ionizationenergies4 | 834 | 1594.9 | 2440 }}
+{{Elementbox_atomicradius_pm | [[1 E-10 m|145]] }}
+{{Elementbox_atomicradiuscalc_pm | [[1 E-10 m|133]] }}
+{{Elementbox_covalentradius_pm | [[1 E-10 m|138]] }}
+{{Elementbox_section_miscellaneous | color1=#cccc99 | color2=black }}
+{{Elementbox_magnetic | no data }}
+{{Elementbox_eresist_ohmmat20 | 417 n}}
+{{Elementbox_thermalcond_wpmkat300k | 24.4 }}
+{{Elementbox_thermalexpansion_umpmkat25 | 11.0 }}
+{{Elementbox_speedofsound_rodmpsat20 | 3420 }}
+{{Elementbox_youngsmodulus_gpa | 55 }}
+{{Elementbox_shearmodulus_gpa | 20 }}
+{{Elementbox_bulkmodulus_gpa | 42 }}
+{{Elementbox_mohshardness | 3.0 }}
+{{Elementbox_brinellhardness_mpa | 294 }}
+{{Elementbox_cas_number | 7440-36-0 }}
+{{Elementbox_isotopes_begin | isotopesof=antimony | color1=#cccc99 | color2=black }}
+{{Elementbox_isotopes_stable | mn=121 | sym=Sb | na=57.36% | n=70 }}
+{{Elementbox_isotopes_stable | mn=123 | sym=Sb | na=42.64% | n=72 }}
+{{Elementbox_isotopes_decay | mn=125 | sym=Sb
+ | na=[[synthetic radioisotope|syn]] | hl=2.7582 [[year|y]]
+ | dm=[[beta emission|Beta<sup>-</sup>]] | de=0.767 | pn=125 | ps=[[tellurium|Te]] }}
+{{Elementbox_isotopes_end}}
+{{Elementbox_footer | color1=#cccc99 | color2=black }}
+
+==External links==
+{{Commons|Antimony}}
+{{wiktionary|antimony}}
+* [http://www.npi.gov.au/database/substance-info/profiles/10.html National Pollutant Inventory - Antimony and compounds]
+*[http://www.webelements.com/webelements/elements/text/Sb/index.html WebElements.com &ndash; Antimony]
+* [http://www.indexmundi.com/en/commodities/minerals/antimony/antimony_table09.html World Mine Production of Antimony, by Country]
+[[Category:Chemical elements]]
+[[Category:Metalloids]]
+[[Category:Pnictogens]]
+[[Category:Antimony|*]]
+
+<!-- interwiki -->
+
+[[ar:كحل]]
+[[az:Stibium]]
+[[bs:Antimon]]
+[[ca:Antimoni]]
+[[cs:Antimon]]
+[[co:Antimoniu]]
+[[da:Antimon]]
+[[de:Antimon]]
+[[en:Antimony]]
+[[et:Antimon]]
+[[el:Αντιμόνιο]]
+[[es:Antimonio]]
+[[eo:Antimono]]
+[[fr:Antimoine]]
+[[gl:Antimonio (elemento)]]
+[[ko:안티모니]]
+[[hy:Ծարիր]]
+[[hr:Antimon]]
+[[io:Antimonio]]
+[[id:Antimon]]
+[[is:Antimon]]
+[[it:Antimonio]]
+[[he:אנטימון]]
+[[ku:Stîbyûm]]
+[[la:Stibium]]
+[[lv:Antimons]]
+[[lb:Antimon]]
+[[lt:Stibis]]
+[[jbo:antimoni]]
+[[hu:Antimon]]
+[[nl:Antimoon]]
+[[ja:アンチモン]]
+[[no:Antimon]]
+[[nn:Antimon]]
+[[oc:Antimòni]]
+[[ug:سۈرمە]]
+[[nds:Antimon]]
+[[pl:Antymon]]
+[[pt:Antimônio]]
+[[ro:Stibiu]]
+[[ru:Сурьма]]
+[[simple:Antimony]]
+[[sk:Antimón]]
+[[sl:Antimon]]
+[[sr:Антимон]]
+[[sh:Antimon]]
+[[fi:Antimoni]]
+[[sv:Antimon]]
+[[th:พลวง]]
+[[tg:Сурма]]
+[[tr:Antimon]]
+[[uk:Сурма]]
+[[ur:کحل]]
+[[uz:Surma]]
+[[zh-yue:銻]]
+[[zh:锑]]
