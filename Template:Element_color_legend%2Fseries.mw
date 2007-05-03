@@ -1,0 +1,16 @@
+{| border="2" cellpadding="4" style="background:silver; border:1px solid gray; border-collapse:collapse; margin:0 1em 1em 0; text-align:center; {{{1|}}}"
+|-
+|+ '''[[Chemical series]] of the [[periodic table]]'''
+|-
+| style="background:{{Element color/Alkali metals}};"         width="20%" | [[Alkali metal]]s
+| style="background:{{Element color/Alkaline earth metals}};" width="20%" | [[Alkaline earth metal]]s
+| style="background:{{Element color/Lanthanides}};"           width="20%" | [[Lanthanide]]s
+| style="background:{{Element color/Actinides}};"             width="20%" | [[Actinide]]s
+| style="background:{{Element color/Transition metals}};"     width="20%" | [[Transition metal]]s
+|-
+| style="background:{{Element color/Poor metals}};" | [[Poor metal]]s
+| style="background:{{Element color/Metalloids}};"  | [[Metalloid]]s
+| style="background:{{Element color/Nonmetals}};"   | [[Nonmetal]]s
+| style="background:{{Element color/Halogens}};"    | [[Halogen]]s
+| style="background:{{Element color/Noble gases}};" | [[Noble gas]]es
+|}
