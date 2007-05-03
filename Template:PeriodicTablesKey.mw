@@ -1,0 +1,32 @@
+{| border="0" cellpadding="2" cellspacing="2" style="margin-top: 1.5em; width:100%; border: 1px solid black; text-align:center;"
+|-
+| colspan="2" style="border-bottom: 1px solid black" |
+{{element color legend/{{{1|series}}}|width:{{#switch:{{{1|series}}}
+|series=100%
+|metals nonmetals=60%
+|spdf blocks=80%
+|spdfg blocks=100%
+|valances=80%
+|#default=100%}} {{{2|}}}}}
+
+|-
+| width="50%" style="border-right: 1px solid black" |
+{| width="100%" cellpadding="2"
+|+ '''State at [[standard temperature and pressure]] (0&nbsp;°C and 1&nbsp;atm)'''
+|-
+! width="33%" style="text-align: center; color: {{element color/Gas}};"    | Gases
+! width="33%" style="text-align: center; color: {{element color/Liquid}};" | Liquids
+! width="33%" style="text-align: center; color: {{element color/Solid}};"  | Solids
+|}
+
+|width="50%"|
+{| width="100%" cellpadding="2" style="font-size: 0.83em"|
+|+ '''Natural occurrence'''
+|-
+| width="25%" style="text-align: center; border: {{element frame/Undiscovered}};"  | Undiscovered
+| width="25%" style="text-align: center; border: {{element frame/Synthetic}};"     | Synthetic
+| width="25%" style="text-align: center; border: {{element frame/Natural radio}};" | From decay
+| width="25%" style="text-align: center; border: {{element frame/Primordial}};"    | Primordial
+|}
+
+|}
