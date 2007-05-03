@@ -1,0 +1,59 @@
+{{sprotect2}}
+{{Two other uses|the metal|the color|Gold (color)||}}
+{{Elementbox_header | number=79 | symbol=Au | name=gold | left=[[platinum]] | right=[[mercury (element)|mercury]] | above=[[silver|Ag]] | below=[[roentgenium|Rg]] | color1=#ffc0c0 | color2=black }}
+{{Elementbox_series | [[transition metal]]s }}
+{{Elementbox_groupperiodblock | group=11 | period=6 | block=d }}
+{{Elementbox_appearance_img | Native gold nuggets| metallic yellow }}
+{{Elementbox_atomicmass_gpm | [[1 E-25 kg|196.966569]][[List of elements by atomic mass|(4)]] }}
+{{Elementbox_econfig | &#91;[[xenon|Xe]]&#93; 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>1</sup> }}
+{{Elementbox_epershell | 2, 8, 18, 32, 18, 1 }}
+{{Elementbox_section_physicalprop | color1=#ffc0c0 | color2=black }}
+{{Elementbox_phase | [[solid]] }}
+{{Elementbox_density_gpcm3nrt | 19.3 }}
+{{Elementbox_densityliq_gpcm3mp | 17.31 }}
+{{Elementbox_meltingpoint | k=1337.33 | c=1064.18 | f=1947.52 }}
+{{Elementbox_boilingpoint | k=3129 | c=2856 | f=5173 }}
+{{Elementbox_heatfusion_kjpmol | 12.55 }}
+{{Elementbox_heatvaporiz_kjpmol | 324 }}
+{{Elementbox_heatcapacity_jpmolkat25 | 25.418 }}
+{{Elementbox_vaporpressure_katpa | 1646 | 1814 | 2021 | 2281 | 2620 | 3078 | comment= }}
+{{Elementbox_section_atomicprop | color1=#ffc0c0 | color2=black }}
+{{Elementbox_crystalstruct | cubic face centered }}
+{{Elementbox_oxistates | &minus;1, 1, 2, '''3''', 4, 5, 6, 7<br />([[amphoteric]] oxide) }}
+{{Elementbox_electroneg_pauling | 2.54 }}
+{{Elementbox_ionizationenergies2 | 890.1 | 1980 }}
+{{Elementbox_atomicradius_pm | [[1 E-10 m|135]] }}
+{{Elementbox_atomicradiuscalc_pm | [[1 E-10 m|174]] }}
+{{Elementbox_covalentradius_pm | [[1 E-10 m|144]] }}
+{{Elementbox_vanderwaalsrad_pm | [[1 E-10 m|166]] }}
+{{Elementbox_section_miscellaneous | color1=#ffc0c0 | color2=black }}
+{{Elementbox_magnetic | no data }}
+{{Elementbox_eresist_ohmmat20 | 22.14 n}}
+{{Elementbox_thermalcond_wpmkat300k | 318 }}
+{{Elementbox_thermalexpansion_umpmkat25 | 14.2 }}
+{{Elementbox_speedofsound_rodmpsatrt | (hard-drawn)<br />2030 }}
+{{Elementbox_youngsmodulus_gpa | 78 }}
+{{Elementbox_shearmodulus_gpa | 27 }}
+{{Elementbox_bulkmodulus_gpa | 220 }}
+{{Elementbox_poissonratio | 0.44 }}
+{{Elementbox_mohshardness | 2.5 }}
+{{Elementbox_vickershardness_mpa | 216 }}
+{{Elementbox_brinellhardness_mpa | ? 2450 }}
+{{Elementbox_cas_number | 7440-57-5 }}
+{{Elementbox_isotopes_begin | color1=#ffc0c0 | color2=black }}
+{{Elementbox_isotopes_decay | mn=195 | sym=Au
+ | na=[[synthetic radioisotope|syn]] | hl=186.10 d
+ | dm=[[electron capture|ε]] | de=0.227 | pn=195 | ps=[[platinum|Pt]] }}
+{{Elementbox_isotopes_decay2 | mn=196 | sym=Au
+ | na=[[synthetic radioisotope|syn]] | hl=6.183 d
+ | dm1=[[electron capture|ε]] | de1=1.506 | pn1=196 | ps1=[[platinum|Pt]]
+ | dm2=[[beta emission|β<sup>-</sup>]] | de2=0.686 | pn2=196 | ps2=[[mercury (element)|Hg]] }}
+{{Elementbox_isotopes_stable | mn=197 | sym=Au | na=100% | n=118 }}
+{{Elementbox_isotopes_decay | mn=198 | sym=Au
+ | na=[[synthetic radioisotope|syn]] | hl=2.69517 d
+ | dm=[[beta emission|β<sup>-</sup>]] | de=1.372 | pn=198 | ps=[[mercury (element)|Hg]] }}
+{{Elementbox_isotopes_decay | mn=199 | sym=Au
+ | na=[[synthetic radioisotope|syn]] | hl=3.169 d
+ | dm=[[beta emission|β<sup>-</sup>]] | de=0.453 | pn=199 | ps=[[mercury (element)|Hg]] }}
+{{Elementbox_isotopes_end}}
+{{Elementbox_footer | color1=#ffc0c0 | color2=black     }}
