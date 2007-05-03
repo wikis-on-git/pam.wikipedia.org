@@ -1,0 +1,262 @@
+{| class="wikitable" align="right" border="1" cellpadding="2" cellspacing="0" style="margin:0 0 0.5em 0.5em"
+| colspan="2" |
+{| width="100%" border=0 cellspacing=0
+| align="center" | <span style="font-size:120%; font-weight:bold">{{{number}}}</span>
+| align="center" style="padding-left:2em" | <span style="font-size: 95%">{{{left}}}</span> ← <span style="font-size: 120%">{{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}}}}</span> → <span style="font-size: 95%">{{{right}}}</span>
+|-
+| align="center" | <span style="font-size:95%">{{{above}}}</span><br />↑<br /><span style="font-size:120%; font-weight:bold">{{{symbol}}}</span><br />↓<br /><span style="font-size: 95%">{{{below}}}</span>
+|
+{|
+| [[image:{{#switch:{{{number}}}
+ |119|120|121|122|123|126|136|137|138|139|140=-TableImage.svg
+ |#default={{{symbol}}}-TableImage.png
+}}|250px|center]]<div align="center">[[periodic table (standard)|Periodic Table]] - [[periodic table (extended)|Extended Periodic Table]]</div>
+|}
+|}
+|-
+! colspan=2 style="background:<!-- COLOR 1 -->#{{#if:{{{series color|}}}|{{{series color}}}|{{#switch:{{{series}}}
+ |alkali metal|alkali metals=FF6666
+ |alkaline earth metal|alkaline earth metals=FFDEAD
+ |lanthanide|lanthanides=FFBFFF
+ |actinide|actinides=FF99CC
+ |transition metal|transition metals=FFC0C0
+ |poor metal|poor metals=CCCCCC
+ |metalloid|metalloids=CCCC99
+ |nonmetal|non-metal|nonmetals|non-metals=A0FFA0
+ |halogen|halogens=FFFF99
+ |noble gas|noble gases=C0FFFF
+}}}}; color:<!-- COLOR 2 -->#{{#if:{{{phase color|}}}|{{{phase color}}}|{{#switch:{{{phase}}}
+ |Gas|gas=008000
+ |Liquid|liquid=0000FF
+ |Solid|solid=000000
+}}}}" | General
+|-
+| [[list of elements by name|Name]], [[list of elements by symbol|Symbol]], [[list of elements by number|Number]]
+| {{{name}}}, {{{symbol}}}, {{{number}}}
+|-
+{{#if:{{{series|}}}|<tr><td>[[Chemical series]]</td><td>{{#ifeq:{{{series|}}}|noble gas|[[{{{series}}}]]es|[[{{{series}}}]]s}}{{#if:{{{series 2|}}}|, {{{series 2}}}}}</td></tr>}}
+|-
+| [[group (periodic table)|Group]], [[period (periodic table)|Period]], [[periodic table block|Block]]
+| {{#switch:{{{series}}}
+ |lanthanide|lanthanides|actinide|actinides=[[Group number of lanthanides and actinides|n/a]],&nbsp;
+ |[[group {{{group}}} element|{{{group}}}]],&nbsp;
+}}[[period {{{period}}} element|{{{period}}}]], [[{{{block}}}-block|{{{block}}}]]
+|-
+<tr><td>[[color|Appearance]]</td><td>{{{appearance}}}{{#if:{{{image name 2|}}}|
+</td></tr>
+{{!}} colspan="2" align="center" {{!}} [[image:{{{image name}}}.jpg{{!}}{{{image size|125px}}}{{!}}{{{image name comment|}}}]]&nbsp;[[Image:{{{image name 2}}}.jpg{{!}}130px{{!}}{{{image name 2 comment|}}}]]|{{#if:{{{image name|}}}|<br />[[image:{{{image name}}}.jpg{{!}}125px{{!}}{{{image name comment|}}}]]}}}}
+|-
+| [[Standard atomic weight]] || {{#if:{{{atomic mass comment|}}}|{{{atomic mass comment}}}|[[orders of magnitude (mass)|{{{atomic mass}}}]]{{#if:{{{atomic mass 2|}}}|[[list of elements by atomic mass|({{{atomic mass 2}}})]]}}&thinsp;g·mol<sup>&minus;1</sup>
+}}
+|-
+| [[Electron configuration]] || {{{electron configuration}}}
+|-
+| [[Electron]]s per [[electron shell|shell]] || {{{electrons per shell}}}
+|-
+{{#if:{{{phase|}}}|! colspan=2 style="color:#{{#if:{{{phase color|}}}|{{{phase color}}}|{{#switch:{{{phase}}}
+ |Gas|gas=008000
+ |Liquid|liquid=0000FF
+ |Solid|solid=000000
+}}}}; background: #{{#if:{{{series color|}}}|{{{series color}}}|{{#switch:{{{series}}}
+ |alkali metal|alkali metals=FF6666
+ |alkaline earth metal|alkaline earth metals=FFDEAD
+ |lanthanide|lanthanides=FFBFFF
+ |actinide|actinides=FF99CC
+ |transition metal|transition metals=FFC0C0
+ |poor metal|poor metals=CCCCCC
+ |metalloid|metalloids=CCCC99
+ |nonmetal|non-metal|nonmetals|non-metals=A0FFA0
+ |halogen|halogens=FFFF99
+ |noble gas|noble gases=C0FFFF
+}}}}" {{!}} Physical properties}}<!--
+-->{{#if:{{{color|}}}|<tr><td>[[Color]]</td><td>{{{color}}}</td></tr>}}<!--
+-->{{#if:{{{phase|}}}|<tr><td>[[Phase (matter)|Phase]]</td><td>[[{{{phase}}}]]{{#if:{{{phase comment|}}}|&nbsp;({{{phase comment}}})}}</td></tr>}}<!--
+-->{{#if:{{{density gplstp|}}}|<tr><td>[[Density]]</td><td>(0 °C, 101.325 kPa)<br />{{{density gplstp}}} g/L</td></tr>}}<!--
+-->{{#if:{{{density gpcm3nrt|}}}|<tr><td>[[Density]] (near [[room temperature|r.t.]])</td><td>{{{density gpcm3nrt}}} g·cm<sup>&minus;3</sup></td></tr>}}<!--
+-->{{#if:{{{density gpcm3nrt 2|}}}|<tr><td>[[Density]] (near [[room temperature|r.t.]])</td><td>{{{density gpcm3nrt 2}}} g·cm<sup>&minus;3</sup></td></tr>}}<!--
+-->{{#if:{{{density gpcm3nrt 3|}}}|<tr><td>[[Density]] (near [[room temperature|r.t.]])</td><td>{{{density gpcm3nrt 3}}} g·cm<sup>&minus;3</sup></td></tr>}}<!--
+-->{{#if:{{{density gpcm3mp|}}}|<tr><td>Liquid [[density]] at [[melting point|m.p.]]</td><td>{{{density gpcm3mp}}} g·cm<sup>&minus;3</sup></td></tr>}}<!--
+-->{{#if:{{{melting point K|}}}|<tr><td>[[Melting point]]</td><td>{{{melting point K}}}&nbsp;[[kelvin|K]]<br />({{{melting point C}}}&nbsp;&deg;[[Celsius|C]], {{{melting point F}}}&nbsp;&deg;[[Fahrenheit|F]])</td></tr>}}<!--
+-->{{#if:{{{boiling point K|}}}|<tr><td>[[Boiling point]]</td><td>{{{boiling point K}}} [[kelvin|K]]<br />({{{boiling point C}}} &deg;[[Celsius|C]], {{{boiling point F}}} &deg;[[Fahrenheit|F]])</td></tr>}}<!--
+-->{{#if:{{{triple point K|}}}|<tr><td>[[Triple point]]</td><td>{{{triple point K}}}&nbsp;K,&nbsp;{{{triple point kPa}}}&nbsp;kPa</td></tr>}}<!--
+-->{{#if:{{{critical point K|}}}|<tr><td>[[Critical point (thermodynamics)|Critical point]]</td><td>{{{critical point K}}} [[kelvin|K]], {{{critical point MPa}}} MPa</td></tr>}}<!--
+-->{{#if:{{{heat fusion|}}}|<tr><td>[[Standard enthalpy change of fusion|Heat of fusion]]</td><td>{{{heat fusion}}} [[kilojoule per mole|kJ·mol<sup>&minus;1</sup>]]</td></tr>}}<!--
+-->{{#if:{{{heat fusion 2|}}}|<tr><td>[[Standard enthalpy change of fusion|Heat of fusion]]</td><td>{{{heat fusion 2}}} [[kilojoule per mole|kJ·mol<sup>&minus;1</sup>]]</td></tr>}}<!--
+-->{{#if:{{{heat vaporization|}}}|<tr><td>[[Standard enthalpy change of vaporization|Heat of vaporization]]</td><td>{{{heat vaporization}}} [[kilojoule per mole|kJ·mol<sup>&minus;1</sup>]]</td></tr>}}<!--
+-->{{#if:{{{heat capacity|}}}|<tr><td>[[Heat capacity]]</td><td>(25 °C) {{{heat capacity}}} J·mol<sup>&minus;1</sup>·K<sup>&minus;1</sup></td></tr>}}<!--
+-->{{#if:{{{heat capacity 2|}}}|<tr><td>[[Heat capacity]]</td><td>(25 °C) {{{heat capacity 2}}} J·mol<sup>&minus;1</sup>·K<sup>&minus;1</sup></td></tr>}}
+|-
+{{#if:{{{vapor pressure 100 k|}}}|{{!}} colspan="2" {{!}}
+{{{!}} width="100%" border="1" cellpadding="2" cellspacing="0"
+{{!}}+ [[Vapor pressure]]{{#if:{{{vapor pressure comment|}}}|&nbsp;{{{vapor pressure comment}}}}}
+{{!}}- align="center"
+{{!}} ''P''/Pa {{!}}{{!}} 1 {{!}}{{!}} 10 {{!}}{{!}} 100 {{!}}{{!}} 1 k {{!}}{{!}} 10 k {{!}}{{!}} 100 k
+{{!}}- align="center"
+{{!}} at ''T''/K {{!}}{{!}} {{{vapor pressure 1|&nbsp;}}} {{!}}{{!}} {{{vapor pressure 10|&nbsp;}}} {{!}}{{!}} {{{vapor pressure 100|&nbsp;}}} {{!}}{{!}} {{{vapor pressure 1 k|&nbsp;}}} {{!}}{{!}} {{{vapor pressure 10 k|&nbsp;}}} {{!}}{{!}} {{{vapor pressure 100 k|&nbsp;}}}
+{{!}}} }}
+|-
+{{#if:{{{vapor pressure 100 k 2|}}}|{{!}} colspan="2" {{!}}
+{{{!}} width="100%" border="1" cellpadding="2" cellspacing="0"
+{{!}}+ [[Vapor pressure]]{{#if:{{{vapor pressure comment 2|}}}|&nbsp;{{{vapor pressure comment 2}}}}}
+{{!}}- align="center"
+{{!}} ''P''/Pa {{!}}{{!}} 1 {{!}}{{!}} 10 {{!}}{{!}} 100 {{!}}{{!}} 1 k {{!}}{{!}} 10 k {{!}}{{!}} 100 k
+{{!}}- align="center"
+{{!}} at ''T''/K {{!}}{{!}} {{{vapor pressure 1 2|&nbsp;}}} {{!}}{{!}} {{{vapor pressure 10 2|&nbsp;}}} {{!}}{{!}} {{{vapor pressure 100 2|&nbsp;}}} {{!}}{{!}} {{{vapor pressure 1 k 2|&nbsp;}}} {{!}}{{!}} {{{vapor pressure 10 k 2|&nbsp;}}} {{!}}{{!}} {{{vapor pressure 100 k 2|&nbsp;}}}
+{{!}}} }}
+|-
+{{#if:{{{crystal structure|}}}|! colspan=2 style="color:#{{#if:{{{phase color|}}}|{{{phase color}}}|{{#switch:{{{phase}}}
+ |Gas|gas=008000
+ |Liquid|liquid=0000FF
+ |Solid|solid=000000
+}}}}; background: #{{#if:{{{series color|}}}|{{{series color}}}|{{#switch:{{{series}}}
+ |alkali metal|alkali metals=FF6666
+ |alkaline earth metal|alkaline earth metals=FFDEAD
+ |lanthanide|lanthanides=FFBFFF
+ |actinide|actinides=FF99CC
+ |transition metal|transition metals=FFC0C0
+ |poor metal|poor metals=CCCCCC
+ |metalloid|metalloids=CCCC99
+ |nonmetal|non-metal|nonmetals|non-metals=A0FFA0
+ |halogen|halogens=FFFF99
+ |noble gas|noble gases=C0FFFF
+}}}}" {{!}} Atomic properties}}
+{{#if:{{{crystal structure|}}}|<tr><td>[[Crystal structure]]</td><td>{{{crystal structure}}}</td></tr>}}<!--
+-->{{#if:{{{oxidation states|}}}|<tr><td>[[Oxidation number|Oxidation state]]s</td><td>{{{oxidation states}}}{{#if:{{{oxidation states comment|}}}|<br />({{{oxidation states comment}}})}}</td></tr>}}<!--
+-->{{#if:{{{electronegativity|}}}|<tr><td>[[Electronegativity]]</td><td>{{{electronegativity}}} (Pauling scale)</td></tr>}}
+{{#if:{{{number of ionization energies|}}}|{{#switch:{{{number of ionization energies}}}
+ |1={{!}}-
+{{!}} [[ionization energy|Ionization energies]]
+{{!}} 1st: {{{1st ionization energy}}} [[kilojoule per mole{{!}}kJ/mol]]
+ |2={{!}}-
+{{!}} rowspan="2" valign="top" {{!}} [[ionization energy{{!}}Ionization energies]]
+{{!}} 1st: {{{1st ionization energy}}} [[kilojoule per mole{{!}}kJ/mol]]
+{{!}}-
+{{!}} 2nd: {{{2nd ionization energy}}} kJ/mol
+ |3={{!}}-
+{{!}} rowspan="3" valign="top" {{!}} [[ionization energy{{!}}Ionization energies]]
+{{!}} 1st: {{{1st ionization energy}}} [[kilojoule per mole{{!}}kJ/mol]]
+{{!}}-
+{{!}} 2nd: {{{2nd ionization energy}}} kJ/mol
+{{!}}-
+{{!}} 3rd: {{{3rd ionization energy}}} kJ/mol
+ |4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|More|more={{!}}-
+{{!}} rowspan="3" valign="top" {{!}} [[ionization energy{{!}}Ionization energies]]<br />([[ionization energies of the elements{{!}}more]])
+{{!}} 1st: {{{1st ionization energy}}} [[kilojoule per mole{{!}}kJ·mol<sup>&minus;1</sup>]]
+{{!}}-
+{{!}} 2nd: {{{2nd ionization energy}}} kJ·mol<sup>&minus;1</sup>
+{{!}}-
+{{!}} 3rd: {{{3rd ionization energy}}} kJ·mol<sup>&minus;1</sup>
+}}}}
+|-
+{{#if:{{{atomic radius|}}}|<tr><td>[[Atomic radius]]</td><td>{{{atomic radius}}} [[picometre|pm]]</td></tr>}}<!--
+-->{{#if:{{{atomic radius calculated|}}}|<tr><td>Atomic radius (calc.)</td><td>{{{atomic radius calculated}}} pm</td></tr>}}<!--
+-->{{#if:{{{covalent radius|}}}|<tr><td>[[Covalent radius]]</td><td>{{{covalent radius}}} pm{{#if:{{{covalent radius comment|}}}|<br />{{{covalent radius comment}}}}}</td></tr>}}<!--
+-->{{#if:{{{Van der Waals radius|}}}|<tr><td>[[Van der Waals radius]]</td><td>{{{Van der Waals radius}}} pm</td></tr>}}
+|-
+{{#if:{{{CAS number|}}}|! colspan=2 style="color:#{{#if:{{{phase color|}}}|{{{phase color}}}|{{#switch:{{{phase}}}
+ |Gas|gas=008000
+ |Liquid|liquid=0000FF
+ |Solid|solid=000000
+}}}}; background: #{{#if:{{{series color|}}}|{{{series color}}}|{{#switch:{{{series}}}
+ |alkali metal|alkali metals=FF6666
+ |alkaline earth metal|alkaline earth metals=FFDEAD
+ |lanthanide|lanthanides=FFBFFF
+ |actinide|actinides=FF99CC
+ |transition metal|transition metals=FFC0C0
+ |poor metal|poor metals=CCCCCC
+ |metalloid|metalloids=CCCC99
+ |nonmetal|non-metal|nonmetals|non-metals=A0FFA0
+ |halogen|halogens=FFFF99
+ |noble gas|noble gases=C0FFFF
+}}}}" {{!}} Miscellaneous}}
+|-
+{{#if:{{{magnetic ordering|}}}|<tr><td rowspan="{{#if:{{{Curie point|}}}|2|1}}" valign="top">[[magnetism|Magnetic ordering]]</td><td>{{{magnetic ordering}}}</td></tr>}}<!--
+-->{{#if:{{{Curie point|}}}|<tr><td>{{{Curie point}}} K</td></tr>}}<!--
+-->{{#if:{{{electrical resistivity|}}}|<tr><td>[[Electrical resistivity]]</td><td>{{{electrical resistivity}}}&Omega;&middot;m</td></tr>}}<!--
+-->{{#if:{{{electrical resistivity at 0|}}}|<tr><td>[[Electrical resistivity]]</td><td>(0 °C) {{{electrical resistivity at 0}}}&Omega;&middot;m</td></tr>}}<!--
+-->{{#if:{{{electrical resistivity at 20|}}}|<tr><td>[[Electrical resistivity]]</td><td>(20&nbsp;°C) {{{electrical resistivity at 20}}}&Omega;·m</td></tr>}}<!--
+-->{{#if:{{{thermal conductivity|}}}|<tr><td>[[Thermal conductivity]]</td><td>(300 K) {{{thermal conductivity}}}&nbsp;W·m<sup>&minus;1</sup>·K<sup>&minus;1</sup></td></tr>}}<!--
+-->{{#if:{{{thermal conductivity 2|}}}|<tr><td>[[Thermal conductivity]]</td><td>(300 K) {{{thermal conductivity 2}}}&nbsp;W·m<sup>&minus;1</sup>·K<sup>&minus;1</sup></td></tr>}}<!--
+-->{{#if:{{{thermal diffusivity|}}}|<tr><td>[[Thermal diffusivity]]</td><td>(300 K) {{{thermal diffusivity}}}&nbsp;[[millimeter|mm]]&sup2;/[[second|s]]</td></tr>}}<!--
+-->{{#if:{{{thermal expansion|}}}|<tr><td>[[Coefficient of thermal expansion|Thermal expansion]]</td><td>{{{thermal expansion}}} &micro;m/(m&middot;K)</td></tr>}}<!--
+-->{{#if:{{{thermal expansion at 25|}}}|<tr><td>[[Coefficient of thermal expansion|Thermal expansion]]</td><td>(25 °C) {{{thermal expansion at 25}}} &micro;m·m<sup>&minus;1</sup>·K<sup>&minus;1</sup></td></tr>}}<!--
+-->{{#if:{{{speed of sound|}}}|<tr><td>[[Speed of sound]]</td><td>{{{speed of sound}}} [[metre per second|m/s]]</td></tr>}}<!--
+-->{{#if:{{{speed of sound rod at 20|}}}|<tr><td>[[Speed of sound]] (thin rod)</td><td>(20 °C) {{{speed of sound rod at 20}}} [[metre per second|m/s]]</td></tr>}}<!--
+-->{{#if:{{{speed of sound rod at r.t.|}}}|<tr><td>[[Speed of sound]] (thin rod)</td><td>([[room temperature|r.t.]]) {{{speed of sound rod at r.t.}}}&nbsp;[[metre per second|m·s<sup>&minus;1</sup>]]</td></tr>}}<!--
+-->{{#if:{{{Young's modulus|}}}|<tr><td>[[Young's modulus]]</td><td>{{{Young's modulus}}} GPa</td></tr>}}<!--
+-->{{#if:{{{Shear modulus|}}}|<tr><td>[[Shear modulus]]</td><td>{{{Shear modulus}}} GPa</td></tr>}}<!--
+-->{{#if:{{{Bulk modulus|}}}|<tr><td>[[Bulk modulus]]</td><td>{{{Bulk modulus}}} GPa</td></tr>}}<!--
+-->{{#if:{{{Poisson ratio|}}}|<tr><td>[[Poisson's ratio|Poisson ratio]]</td><td>{{{Poisson ratio}}}</td></tr>}}<!--
+-->{{#if:{{{Mohs hardness|}}}|<tr><td>[[Mohs scale of mineral hardness|Mohs hardness]]</td><td>{{{Mohs hardness}}}</td></tr>}}<!--
+-->{{#if:{{{Mohs hardness 2|}}}|<tr><td>[[Mohs scale of mineral hardness|Mohs hardness]]</td><td>{{{Mohs hardness 2}}}</td></tr>}}<!--
+-->{{#if:{{{Vickers hardness|}}}|<tr><td>[[Vickers hardness test|Vickers hardness]]</td><td>{{{Vickers hardness}}} MPa</td></tr>}}<!--
+-->{{#if:{{{Brinell hardness|}}}|<tr><td>[[Brinell hardness test|Brinell hardness]]</td><td>{{{Brinell hardness}}} MPa</td></tr>}}<!--
+-->{{#if:{{{CAS number|}}}|<tr><td>[[CAS registry number]]</td><td>{{{CAS number}}}</td></tr>}}<!--
+-->{{#if:{{{Band gap|}}}|<tr><td>[[Band gap]] energy at 300 K</td><td>{{{Band gap}}} [[Electronvolt|eV]]</td></tr>}}
+|-
+{{#if:{{{isotopes|}}}|! colspan=2 style="color:#{{#if:{{{phase color|}}}|{{{phase color}}}|{{#switch:{{{phase}}}
+ |Gas|gas=008000
+ |Liquid|liquid=0000FF
+ |Solid|solid=000000
+}}}}; background: #{{#if:{{{series color|}}}|{{{series color}}}|{{#switch:{{{series}}}
+ |alkali metal|alkali metals=FF6666
+ |alkaline earth metal|alkaline earth metals=FFDEAD
+ |lanthanide|lanthanides=FFBFFF
+ |actinide|actinides=FF99CC
+ |transition metal|transition metals=FFC0C0
+ |poor metal|poor metals=CCCCCC
+ |metalloid|metalloids=CCCC99
+ |nonmetal|non-metal|nonmetals|non-metals=A0FFA0
+ |halogen|halogens=FFFF99
+ |noble gas|noble gases=C0FFFF
+}}}}" {{!}} Selected isotopes
+{{!}}-
+{{!}} colspan="2" {{!}}
+{{{!}} width="100%" border="1" cellspacing="0" cellpadding="2"
+{{!}}+ Main article: [[Isotopes of {{{name}}}]]
+! [[isotope{{!}}iso]]
+! [[natural abundance{{!}}NA]]
+! [[half-life]]
+! [[radioactive decay{{!}}DM]]
+! [[decay energy{{!}}DE]] <small>([[electronvolt{{!}}MeV]])</small>
+! [[decay product{{!}}DP]]
+{{{isotopes}}}
+{{#if:{{{isotopes comment|}}}|
+{{!}}-
+{{!}}style="text-align:center" colspan='6'{{!}}{{{isotopes comment}}} }}
+{{!}}} }}
+|-
+! colspan="2" style="color:#{{#if:{{{phase color|}}}|{{{phase color}}}|{{#switch:{{{phase}}}
+ |Gas|gas=008000
+ |Liquid|liquid=0000FF
+ |Solid|solid=000000
+}}}}; background: #{{#if:{{{series color|}}}|{{{series color}}}|{{#switch:{{{series}}}
+ |alkali metal|alkali metals=FF6666
+ |alkaline earth metal|alkaline earth metals=FFDEAD
+ |lanthanide|lanthanides=FFBFFF
+ |actinide|actinides=FF99CC
+ |transition metal|transition metals=FFC0C0
+ |poor metal|poor metals=CCCCCC
+ |metalloid|metalloids=CCCC99
+ |nonmetal|non-metal|nonmetals|non-metals=A0FFA0
+ |halogen|halogens=FFFF99
+ |noble gas|noble gases=C0FFFF
+}}}}" | [[chemical elements data references|References]]
+|-
+|align="center" colspan="2" style="color:#{{#if:{{{phase color|}}}|{{{phase color}}}|{{#switch:{{{phase}}}
+ |Gas|gas=008000
+ |Liquid|liquid=0000FF
+ |Solid|solid=000000
+}}}}; background: #{{#if:{{{series color|}}}|{{{series color}}}|{{#switch:{{{series}}}
+ |alkali metal|alkali metals=FF6666
+ |alkaline earth metal|alkaline earth metals=FFDEAD
+ |lanthanide|lanthanides=FFBFFF
+ |actinide|actinides=FF99CC
+ |transition metal|transition metals=FFC0C0
+ |poor metal|poor metals=CCCCCC
+ |metalloid|metalloids=CCCC99
+ |nonmetal|non-metal|nonmetals|non-metals=A0FFA0
+ |halogen|halogens=FFFF99
+ |noble gas|noble gases=C0FFFF
+}}}}" | {{tnavbar|Infobox {{{name}}}}}
+|}<noinclude>[[ro:Format:Elementbox]]</noinclude>
