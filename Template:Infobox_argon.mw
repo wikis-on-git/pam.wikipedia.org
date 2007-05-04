@@ -1,0 +1,104 @@
+{{Elementbox
+|name=argon
+|number=18
+|symbol=Ar
+|left=[[chlorine]]
+|right=[[potassium]]
+|above=[[neon|Ne]]
+|below=[[krypton|Kr]]
+|series=noble gas
+|series comment=
+|group=18
+|period=3
+|block=p
+|series color=
+|phase color=
+|appearance=colorless
+|image name=Ar,18
+|image size=
+|image name comment=
+|image name 2=
+|image name 2 comment=
+|atomic mass=39.948
+|atomic mass 2=1
+|atomic mass comment=
+|electron configuration=&#91;[[neon|Ne]]&#93; 3s<sup>2</sup> 3p<sup>6</sup>
+|electrons per shell=2, 8, 8
+|color=
+|phase=gas
+|phase comment=At room temperature
+|density gplstp=1.784
+|density gpcm3nrt=
+|density gpcm3nrt 2=
+|density gpcm3mp=
+|melting point K=83.80
+|melting point C=-189.35
+|melting point F=-308.83
+|boiling point K=87.30
+|boiling point C=-185.85
+|boiling point F=-302.53
+|triple point K=83.8058
+|triple point kPa=69
+|critical point K=150.87
+|critical point MPa=4.898
+|heat fusion=1.18
+|heat fusion 2=
+|heat vaporization=6.43
+|heat capacity=20.786
+|vapor pressure 1=&nbsp;
+|vapor pressure 10=47
+|vapor pressure 100=53
+|vapor pressure 1 k=61
+|vapor pressure 10 k=71
+|vapor pressure 100 k=87
+|vapor pressure comment=
+|crystal structure=cubic face centered
+|oxidation states=0
+|oxidation states comment=
+|electronegativity=no data
+|number of ionization energies=4
+|1st ionization energy=1520.6
+|2nd ionization energy=2665.8
+|3rd ionization energy=3931
+|atomic radius=[[1 E-11 m|71]]
+|atomic radius calculated=[[1 E-11 m|71]]
+|covalent radius=[[1 E-11 m|97]]
+|Van der Waals radius=[[1 E-10 m|188]]
+|magnetic ordering=nonmagnetic
+|electrical resistivity=
+|electrical resistivity at 0=
+|electrical resistivity at 20=
+|thermal conductivity=17.72 m
+|thermal conductivity 2=
+|thermal diffusivity=
+|thermal expansion=
+|thermal expansion at 25=
+|speed of sound=(gas, 27 °C) 323
+|speed of sound rod at 20=
+|speed of sound rod at r.t.=
+|Young's modulus=
+|Shear modulus=
+|Bulk modulus=
+|Poisson ratio=
+|Mohs hardness=
+|Vickers hardness=
+|Brinell hardness=
+|CAS number=7440-37-1
+|isotopes=
+{{Elementbox_isotopes_stable | mn=36 | sym=Ar | na=0.337% | n=18 }}
+{{Elementbox_isotopes_decay | mn=37 | sym=Ar
+ | na=[[synthetic radioisotope|syn]] | hl=35 [[day|d]]
+ | dm=[[Electron capture|ε]] | de=? | pn=37 | ps=[[chlorine|Cl]] }}
+{{Elementbox_isotopes_stable | mn=38 | sym=Ar | na=0.063% | n=20 }}
+{{Elementbox_isotopes_decay | mn=39 | sym=Ar
+ | na=[[synthetic radioisotope|syn]] | hl=[[1 E9 s|269]] [[year|y]]
+ | dm=[[beta emission|β<sup>-</sup>]] | de=0.565  | pn=39 | ps=[[potassium|K]] }}
+{{Elementbox_isotopes_stable | mn=40 | sym=Ar | na=99.600% | n=22 }}
+{{Elementbox_isotopes_decay | mn=41 | sym=Ar
+ | na=[[synthetic radioisotope|syn]] | hl=109.34 [[minute|min]]
+ | dm=β<sup>-</sup> | de=2.49 | pn=41 | ps=[[potassium|K]] }}
+{{Elementbox_isotopes_decay | mn=42 | sym=Ar
+ | na=[[synthetic radioisotope|syn]] | hl=32.9 [[year|y]]
+ | dm=β<sup>-</sup> | de=0.600 | pn=42 | ps=[[potassium|K]] }}
+|isotopes comment=
+}}
