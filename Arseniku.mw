@@ -1,0 +1,142 @@
+{{Elementbox_header | number=33 | symbol=As | name=arsenic | left=[[germanium]] | right=[[selenium]] | above=[[phosphorus|P]] | below=[[antimony|Sb]] | color1=#cccc99 | color2=black }}
+{{Elementbox_series | [[metalloid]]s }}
+{{Elementbox_groupperiodblock | group=15 | period=4 | block=p }}
+{{Elementbox_appearance_img | As,33| metallic gray }}
+{{Elementbox_atomicmass_gpm | [[1 E-25 kg|74.92160]][[List of elements by atomic mass|(2)]] }}
+{{Elementbox_econfig | &#91;[[argon|Ar]]&#93; 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>3</sup> }}
+{{Elementbox_epershell | 2, 8, 18, 5 }}
+{{Elementbox_section_physicalprop | color1=#cccc99 | color2=black }}
+{{Elementbox_phase | [[solid]] }}
+{{Elementbox_density_gpcm3nrt | 5.727 }}
+{{Elementbox_densityliq_gpcm3mp | 5.22 }}
+{{Elementbox_meltingpoint | k=1090 | c=817 | f=1503 }}
+{{Elementbox_boilingpoint | k=[[sublimation (physics)|subl.]] 887 | c=614 | f=1137 }}
+|-
+| [[Critical temperature]] || 1673 [[kelvin|K]]
+{{Elementbox_heatfusion_kjpmol | (gray) 24.44 }}
+{{Elementbox_heatvaporiz_kjpmol | ? 34.76 }}
+{{Elementbox_heatcapacity_jpmolkat25 | 24.64 }}
+{{Elementbox_vaporpressure_katpa | 553 | 596 | 646 | 706 | 781 | 874 | comment= }}
+{{Elementbox_section_atomicprop | color1=#cccc99 | color2=black }}
+{{Elementbox_crystalstruct | rhombohedral }}
+{{Elementbox_oxistates | ±'''3''', 5<br />(mildly [[acid]]ic oxide) }}
+{{Elementbox_electroneg_pauling | 2.18 }}
+{{Elementbox_ionizationenergies4 | 947.0 | 1798 | 2735 }}
+{{Elementbox_atomicradius_pm | [[1 E-10 m|115]] }}
+{{Elementbox_atomicradiuscalc_pm | [[1 E-10 m|114]] }}
+{{Elementbox_covalentradius_pm | [[1 E-10 m|119]] }}
+{{Elementbox_vanderwaalsrad_pm | [[1 E-10 m|185]] }}
+{{Elementbox_section_miscellaneous | color1=#cccc99 | color2=black }}
+{{Elementbox_magnetic | no data }}
+{{Elementbox_eresist_ohmmat20 | 333 n}}
+{{Elementbox_thermalcond_wpmkat300k | 50.2 }}
+{{Elementbox_youngsmodulus_gpa | 8 }}
+{{Elementbox_bulkmodulus_gpa | 22 }}
+{{Elementbox_mohshardness | 3.5 }}
+{{Elementbox_brinellhardness_mpa | 1440 }}
+{{Elementbox_cas_number | 7440-38-2 }}
+{{Elementbox_isotopes_begin | color1=#cccc99 | color2=black }}
+{{Elementbox_isotopes_decay2 | mn=73 | sym=As | na=[[synthetic radioisotope|syn]] | hl=[[1 E6 s|80.3]] [[day|d]] | dm1=[[electron capture|ε]] | de1=- | pn1=73 | ps1=[[germanium|Ge]] | dm2=[[Gamma radiation|γ]] | de2=0.05[[Delayed nuclear radiation|D]], 0.01D, [[Conversion electron|e]] | pn2= | ps2=- }}
+{{Elementbox_isotopes_decay4 | mn=74 | sym=As | na=[[synthetic radioisotope|syn]] | hl=[[1 E6 s|17.78]] d | dm1=ε | de1=- | pn1=74 | ps1=[[germanium|Ge]] | dm2=[[Positron emission|β<sup>+</sup>]] | de2=0.941 | pn2=74 | ps2=[[germanium|Ge]] | dm3=γ | de3=0.595, 0.634 | pn3= | ps3=- | dm4=[[beta decay|β<sup>-</sup>]] | de4=1.35, 0.717 | pn4=74 | ps4=[[selenium|Se]] }}
+{{Elementbox_isotopes_stable | mn=75 | sym=As | na=100% | n=42 }}
+{{Elementbox_isotopes_end}}
+{{Elementbox_footer | color1=#cccc99 | color2=black }}
+
+
+
+==Dalerayan==
+* [http://periodic.lanl.gov/elements/33.html Los Alamos National Laboratory &ndash; Arsenic]
+
+==Lawen ya rin==
+* [[Aqua Tofana]]
+* [[Arsenic poisoning]]
+* [[Arsenicosis]]
+* [[Fowler's solution]]
+* [[Grainger challenge]]
+
+==Suglung Palwal==
+{{Commons|Arsenic}}
+{{wiktionarypar|arsenic}}
+*[http://www.asmalldoseof.org/ A Small Dose of Toxicology] 
+* [http://www.atsdr.cdc.gov/HEC/CSEM/arsenic/ Case Studies in Environmental Medicine: Arsenic Toxicity]
+* [http://www.npi.gov.au/database/substance-info/profiles/11.html National Pollutant Inventory - Arsenic]
+* [http://www.webelements.com/webelements/elements/text/As/index.html WebElements.com &ndash; Arsenic]
+* [http://www.origen.net/arsenic.html origen.net &ndash; CCA wood and arsenic: toxicological effects of arsenic]
+* [http://www.clu-in.org/contaminantfocus/default.focus/sec/arsenic/cat/Overview/ Contaminant Focus: Arsenic] by the [[Environmental Protection Agency|EPA]].
+* [http://www.inchem.org/documents/ehc/ehc/ehc224.htm Environmental Health Criteria for Arsenic and Arsenic Compounds, 2001] by the [[World Health Organization|WHO]].
+* [http://www.greenfacts.org/arsenic/arsenic-1.htm A summary of the above report] by [[GreenFacts]]. 
+* [http://www-cie.iarc.fr/htdocs/monographs/vol23/arsenic.html Evaluation of the carcinogenicity of arsenic and arsenic compounds] by the [[IARC]].
+
+{{ChemicalSources}}
+
+[[Category:Metalloids]]
+[[Category:Pnictogens]]
+[[Category:Toxicology]]
+[[Category:Elementu chemical]]
+[[Category:Arsenic| ]]
+
+{{Link FA|de}}
+{{Link FA|id}}
+
+<!-- interwiki -->
+
+[[af:Arseen]]
+[[ar:زرنيخ]]
+[[az:Arsen]]
+[[bn:আর্সেনিক]]
+[[bs:Arsen]]
+[[bg:Арсен]]
+[[ca:Arsènic]]
+[[cs:Arsen]]
+[[co:Arsenicu]]
+[[cy:Arsenig]]
+[[da:Arsen]]
+[[de:Arsen]]
+[[en:Arsenic]]
+[[et:Arseen]]
+[[el:Αρσενικό (χημικό στοιχείο)]]
+[[es:Arsénico]]
+[[eo:Arseno]]
+[[fa:آرسنیک]]
+[[fr:Arsenic]]
+[[gl:Arsénico (elemento)]]
+[[ko:비소]]
+[[hy:Մկնդեղ]]
+[[hr:Arsen]]
+[[io:Arseno]]
+[[id:Arsen]]
+[[is:Arsen]]
+[[it:Arsenico]]
+[[he:ארסן]]
+[[la:Arsenicum]]
+[[lv:Arsēns]]
+[[lb:Arsen]]
+[[lt:Arsenas]]
+[[jbo:arseniko]]
+[[hu:Arzén]]
+[[nl:Arsenicum]]
+[[ja:ヒ素]]
+[[no:Arsen]]
+[[nn:Arsen]]
+[[oc:Arsenic]]
+[[ug:Arsén]]
+[[uz:Margimush]]
+[[nds:Arsen]]
+[[pl:Arsen]]
+[[pt:Arsênio]]
+[[ro:Arsenic]]
+[[ru:Мышьяк]]
+[[sc:Arsènicu]]
+[[simple:Arsenic]]
+[[sk:Arzén]]
+[[sl:Arzen]]
+[[sr:Арсен]]
+[[sh:Arsenik]]
+[[fi:Arseeni]]
+[[sv:Arsenik]]
+[[th:สารหนู]]
+[[tg:Арсен]]
+[[tr:Arsenik]]
+[[uk:Арсен]]
+[[ur:زرنیخ]]
+[[zh:砷]]
