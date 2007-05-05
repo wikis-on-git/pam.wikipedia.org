@@ -1,14 +1,14 @@
 {{Elementbox
-|name=argon
-|number=18
-|symbol=Ar
+|lagyu=argon
+|numeru=18
+|symbulu=Ar
 |left=[[chlorine]]
 |right=[[potassium]]
 |above=[[neon|Ne]]
 |below=[[krypton|Kr]]
 |series=noble gas
 |series comment=
-|group=18
+|lupung=18
 |period=3
 |block=p
 |series color=
@@ -80,9 +80,9 @@
 |Shear modulus=
 |Bulk modulus=
 |Poisson ratio=
-|Mohs hardness=
-|Vickers hardness=
-|Brinell hardness=
+|Mohs a kasias=
+|Vickers a kasias=
+|Brinell a kasias=
 |CAS number=7440-37-1
 |isotopes=
 {{Elementbox_isotopes_stable | mn=36 | sym=Ar | na=0.337% | n=18 }}
