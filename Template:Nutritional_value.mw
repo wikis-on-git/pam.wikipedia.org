@@ -1,0 +1,129 @@
+<includeonly><table style="margin: 0 0 0.5em 1em; border-collapse:collapse; border: 1px solid black; background: white; color: black;  {{#if: {{{right|}}} | float:right; clear:right; font-size: smaller; | }}" >
+<th align="center" colspan=2><b>{{{name}}}<br />Nutritional value per 100&nbsp;g (3.527 oz)</b></th></tr>
+<tr style="background:#e0e0e0; color:black;"><td align="center">Energy {{#expr: ({{{kJ}}}/4.18) round -1 }} kcal &nbsp; {{#expr: {{{kJ}}} round -1}} kJ</td></tr>
+<tr><td><table style="margin:0.3em;" cellspacing="0px" cellpadding="0px">
+<tr><th align="left">[[Carbohydrate]]s &nbsp; &nbsp;</th><td> {{{carbs}}}</td>
+</tr>{{#if: {{{starch|}}} | 
+  <tr><td>- [[Starch]] &nbsp;{{{starch}}}</td></tr> | 
+}}{{#if: {{{sugars|}}} | 
+  <tr><td>- Sugars &nbsp;{{{sugars}}}</td></tr> | 
+}}{{#if: {{{lactose|}}} | 
+  <tr><td>&nbsp; - [[Lactose]] {{{lactose}}} &nbsp;</td></tr> | 
+}}{{#if: {{{fiber|}}} | 
+  <tr><td>- [[Dietary fiber]] &nbsp;{{{fiber}}} &nbsp;</td></tr> |
+}}{{#if: {{{fibre|}}} | 
+  <tr><td>- [[Dietary fiber|Dietary fibre]] &nbsp;{{{fibre}}} &nbsp;</td></tr> |
+}}<tr><th align="left">[[Fatty acid|Fat]]</th><td>{{{fat}}}</td>
+</tr>{{#if: {{{satfat|}}} | 
+  <tr><td>- saturated &nbsp;{{{satfat}}}</td></tr> | 
+}}{{#if: {{{transfat|}}} | 
+  <tr><td>- [[Trans fat|trans]] &nbsp;{{{transfat}}}</td></tr> | 
+}}{{#if: {{{monofat|}}}| 
+  <tr><td>- monounsaturated &nbsp;{{{monofat}}} &nbsp;</td></tr> | 
+}}{{#if: {{{polyfat|}}} | 
+  <tr><td>- polyunsaturated &nbsp;{{{polyfat}}} &nbsp;</td></tr> | 
+}}{{#if: {{{omega3fat|}}} | 
+  <tr><td>&nbsp; - [[Omega-3 fatty acid|omega-3 fat]] {{{omega3fat}}} &nbsp;</td></tr> | 
+}}{{#if: {{{omega6fat|}}} | 
+  <tr><td>&nbsp; - [[Omega-6 fatty acid|omega-6 fat]] {{{omega6fat}}} &nbsp;</td></tr> | 
+}}<tr><th align="left">[[Protein#Nutrition|Protein]]</th><td> {{{protein}}}</td>
+</tr>{{#if: {{{water|}}} |
+  <tr><td>'''[[Water]]'''</td><td>{{{water}}}</td></tr>
+}}{{#if: {{{alcohol|}}} |
+  <tr><td>[[ethanol|Alcohol]]</td><td>{{{alcohol}}}</td></tr>
+}}{{#if: {{{caffeine|}}} |
+  <tr><td>[[Caffeine]]</td><td>{{{caffeine}}}</td></tr>
+}}{{#if: {{{vitA_ug|}}} |
+  <tr><td>[[Vitamin A]] &nbsp;{{{vitA_ug}}} &mu;g</td><td>{{#expr: {{{vitA_ug}}}/9.0 round 0}}%</td></tr>
+}}{{#if: {{{thiamin_mg|}}} |
+  <tr><td>[[Thiamin|Thiamin (Vit. B1)]] &nbsp;{{{thiamin_mg}}} mg &nbsp;</td><td>{{#expr: {{{thiamin_mg}}}/0.013 round 0}}%</td></tr>
+}}{{#if: {{{riboflavin_mg|}}} |
+  <tr><td>[[Riboflavin|Riboflavin (Vit. B2)]] &nbsp;{{{riboflavin_mg}}} mg &nbsp;</td><td>{{#expr: {{{riboflavin_mg}}}/0.015 round 0}}%</td></tr>
+}}{{#if: {{{niacin_mg|}}} |
+  <tr><td>[[Niacin|Niacin (Vit. B3)]] &nbsp;{{{niacin_mg}}} mg &nbsp;</td><td>{{#expr: {{{niacin_mg}}}/0.15 round 0}}%</td></tr>
+}}{{#if: {{{pantothenic_mg|}}} |
+  <tr><td>[[Pantothenic acid]] (B5) &nbsp;{{{pantothenic_mg}}} mg&nbsp;</td><td>{{#expr: {{{pantothenic_mg}}}/0.05 round 0}}%</td></tr>
+}}{{#if: {{{vitB6_mg|}}} |
+  <tr><td>[[Vitamin B6]] &nbsp;{{{vitB6_mg}}} mg</td><td>{{#expr: {{{vitB6_mg}}}/0.013 round 0}}%</td></tr>
+}}{{#if: {{{folate_ug|}}} |
+  <tr><td>[[Folate]] (Vit. B9) &nbsp;{{{folate_ug}}} &mu;g&nbsp;</td><td>{{#expr: {{{folate_ug}}}/4 round 0}}%</td></tr>
+}}{{#if: {{{vitB12_ug|}}} |
+  <tr><td>[[Vitamin B12]] &nbsp;{{{vitB12_ug}}} &mu;g &nbsp;</td><td>{{#expr: {{{vitB12_ug}}}/0.024 round 0}}%</td></tr>
+}}{{#if: {{{vitC_mg|}}} |
+  <tr><td>[[Vitamin C]] &nbsp;{{{vitC_mg}}} mg</td><td>{{#expr: {{{vitC_mg}}}/0.60 round 0}}%</td></tr>
+}}{{#if: {{{vitD_ug|}}} |
+  <tr><td>[[Vitamin D]] &nbsp;{{{vitD_ug}}} &mu;g</td><td>{{#expr: {{{vitD_ug}}}/0.05 round 0}}%</td></tr>
+}}{{#if: {{{vitD_iu|}}} |
+  <tr><td>[[Vitamin D]] &nbsp;{{{vitD_iu}}} IU</td><td>{{#expr: {{{vitD_iu}}}/2 round 0}}%</td></tr>
+}}{{#if: {{{vitE_mg|}}} |
+  <tr><td>[[Vitamin E]] &nbsp;{{{vitE_mg}}} mg</td><td>{{#expr: {{{vitE_mg}}}/0.15 round 0}}%</td></tr>
+}}{{#if: {{{vitK_ug|}}} |
+  <tr><td>[[Vitamin K]] &nbsp;{{{vitK_ug}}} &mu;g</td><td>{{#expr: {{{vitK_ug}}}/1.05 round 0}}%</td></tr>
+}}{{#if: {{{calcium_mg|}}} |
+  <tr><td>[[Calcium#Nutrition|Calcium]] &nbsp;{{{calcium_mg}}} mg</td><td>{{#expr: {{{calcium_mg}}}/10 round 0}}%</td></tr>
+}}{{#if: {{{iron_mg|}}} |
+  <tr><td>[[Iron#Nutrition and dietary sources|Iron]] &nbsp;{{{iron_mg}}} mg</td><td>{{#expr: {{{iron_mg}}}/0.125 round 0}}%</td></tr>
+}}{{#if: {{{magnesium_mg|}}} |
+  <tr><td>[[Magnesium in biological systems|Magnesium]] &nbsp;{{{magnesium_mg}}} mg</td><td>{{#expr: {{{magnesium_mg}}}/3.7 round 0}}%&nbsp;</td></tr>
+}}{{#if: {{{phosphorus_mg|}}} |
+  <tr><td>[[Phosphorus#Biological role|Phosphorus]] &nbsp;{{{phosphorus_mg}}} mg</td><td>{{#expr: {{{phosphorus_mg}}}/7. round 0}}%</td></tr>
+}}{{#if: {{{potassium_mg|}}} |
+  <tr><td>[[Potassium#Potassium in diet|Potassium]] &nbsp;{{{potassium_mg}}} mg &nbsp;</td><td>{{#expr: {{{potassium_mg}}}/47 round 0}}%</td></tr>
+}}{{#if: {{{sodium_mg|}}} |
+  <tr><td>[[Sodium chloride|Sodium]] &nbsp;{{{sodium_mg}}} mg</td><td>{{#expr: {{{sodium_mg}}}/15. round 0}}%</td></tr>
+}}{{#if: {{{zinc_mg|}}} |
+  <tr><td>[[Zinc]] &nbsp;{{{zinc_mg}}} mg</td><td>{{#expr: {{{zinc_mg}}}/0.1 round 0}}%</td></tr>
+}}{{#if: {{{opt1n|}}} | 
+  <tr><th align="left">{{{opt1n}}}</th><td> {{{opt1v}}}</td></tr> | 
+}}{{#if: {{{opt2n|}}} | <tr><th align="left">{{{opt2n}}}</th><td> {{{opt2v}}}</td></tr> | 
+}}{{#if: {{{opt3n|}}} | <tr><th align="left">{{{opt3n}}}</th><td> {{{opt3v}}}</td></tr> | 
+}}{{#if: {{{opt4n|}}} | <tr><th align="left">{{{opt4n}}}</th><td> {{{opt4v}}}</td></tr> | 
+}}</table></td></tr><tr style="background:#e0e0e0; color:black;">
+<td align="center"><small>{{#if: {{{note|}}} | {{{note}}}<br/>
+}}{{#if: {{{noRDA|}}} | | Percentages are relative to US<br/>[[Reference Daily Intake|recommendations]] for adults.<br/>
+}}{{#if: {{{source|}}} | Source: {{{source}}}
+}}{{#if: {{{source_usda|}}} | <small>Source: [http://www.nal.usda.gov/fnic/foodcomp/search/ USDA Nutrient database]</small>
+}}</td></tr></table></includeonly><noinclude>
+
+<!--explanations below this line-->
+
+==Example==
+{{nutritionalvalue| name = Foonuts | kJ=2450 | protein=24 g | fat=50 g | satfat=7 g | transfat=3 g | monofat = 25 g | polyfat = 16 g | omega3fat=1 g | omega6fat=2 g | carbs = 22 g | starch=8 g | sugars=5 g | lactose=1 g | fiber = 9 g | sodium_mg=40 | potassium_mg = 80 | vitA_ug = 12 | vitC_mg=20 | thiamin_mg=1 | riboflavin_mg=2 | niacin_mg=0.5 | pantothenic_mg=0.1 | folate_ug=1.5 | vitD_ug=10 | vitE_mg=5 | vitK_ug=10 | iron_mg=5 | magnesium_mg=10 | phosphorus_mg=50 | zinc_mg=0.4 | calcium_mg=200 | vitB6_mg=1 | vitB12_ug=0.5 | water=5 g | alcohol=1 g | caffeine=20 mg | source_usda=1 | note=Footnote text here}}
+<code><nowiki>{{nutritionalvalue| name = Foonuts | kJ=2450 | protein=24 g | fat=50 g | satfat=7 g | transfat=3 g | monofat = 25 g | polyfat = 16 g | omega3fat=1 g | omega6fat=2 g  | carbs = 22 g | starch=8 g | sugars=5 g | lactose=1 g | fibre = 9 g | sodium_mg=40 | potassium_mg = 80 | vitA_ug = 12 | vitC_mg=20 | thiamin_mg=1 | riboflavin_mg=2 | niacin_mg=0.5 | pantothenic_mg=0.1 | folate_ug=1.5 | vitD_ug=10 | vitE_mg=5 | vitK_ug=10 | iron_mg=5 | magnesium_mg=10 | phosphorus_mg=50 | zinc_mg=0.4 | calcium_mg=200 | vitB6_mg=1 | vitB12_ug=0.5 | water=5 g | alcohol=1 g | caffeine=20 mg | source_usda=1 | note=Footnote text here}}</nowiki></code>
+
+==Explanation==
+*Required variables: '''name''', '''kJ''', '''carbs''', '''fat''', '''protein'''. Supply units (except for kJ which is in kJ).
+*Optional variables: '''sugars''', '''lactose''', '''satfat''', '''transfat''', '''monofat''', '''polyfat''', '''omega3fat''', '''omega6fat''', '''fiber''', '''fibre''', '''starch''', '''water''', '''alcohol''', '''caffeine'''. Supply units (normally g).
+*Optional freeformat variables ('''n'''ame and '''v'''alue): '''opt1n''', '''opt1v''', etc. up to '''opt4n''' and '''opt4v'''.
+The following optional variables are converted into percentages of RDA (taken as averages for males and females aged 25-50 years from the USDA 2000 recommendation):
+*Optional minerals (in mg): '''calcium_mg''', '''iron_mg''', '''phosphorus_mg''', '''magnesium_mg''', '''sodium_mg''', '''potassium_mg''', '''zinc_mg'''
+*Optional vitamins (in mg, &mu;g, or international units): '''vitA_ug''', '''thiamin_mg''' (Vit. B1), '''riboflavin_mg''' (Vit. B2), '''niacin_mg''' (Vit. B3), '''pantothenic_mg''' (pantothenic acid), '''vitB6_mg''',  '''folate_ug''', '''vitB12_ug''', '''vitC_mg''', '''vitD_ug''', '''vitD_iu''' (in IU), '''vitE_mg''', '''vitK_ug'''.
+Other optional variables and flags:
+*Optional footnote: '''note'''
+*Optional data source: '''source''', or as a flag: '''source_usda=1''' for the USDA database
+*Optional suppression of RDA explanation: '''noRDA=1'''
+*Optional flags: '''right=1''' (table will be floating on the right)
+Further remarks:
+*According to convention, there should be a space between the number and the unit: "14 g" and not "14g".
+*Splitting up components that are present in trace amounts is not very meaningful (e.g. 1.5 g fats of which 0.5 g unsaturated).
+*The author of the template recommendeds to include only vitamins and minerals for which this product is considered to be a major source, in order to prevent clogging up the article with a huge table. As a guideline: 
+**[[staple food]]s: an amount that provides 10,000 kJ should provide well over 100% of the RDI.
+**meats and such: same, but for 4,000 kJ.
+**vegetables, other low-calorie solid food, fruits: same, but for 400 g.
+**other products: use an amount that one could reasonably eat on a daily basis.
+Nutritional values can be found e.g. in the [http://www.nal.usda.gov/fnic/foodcomp/search/ USDA National Nutrient Database]. Note that fibers are counted as carbohydrates.
+
+==Template editing==
+
+Don't put linebreaks into the template around the <nowiki>{{#if:...}}</nowiki> parser functions, because they will end up as linebreaks above the table.
+
+Maybe someone can do this in wikitable format rather than raw HTML, if you know how to combine that with the <nowiki>{{#if: }}</nowiki> conditionals. Please experiment in [[Template:NutritionalvalueTest]] to prevent breaking article pages.
+
+==See also==
+* {{tl|Nutritional information}}
+* {{tl|Nutrition Facts}}
+* {{tl|Foodbox}}
+
+[[Category:Food infobox templates|Nutritional value]]
+[[es:Plantilla:Valor nutricional]]
+<!--DO NOT ADD ANYTHING AFTER THIS LINE --></noinclude>
