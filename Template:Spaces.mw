@@ -1,0 +1,5 @@
+<noinclude>{{protected template}}</noinclude><includeonly><!--
+--><span style="white-space:nowrap;">{{loop|{{{1|1}}}|&nbsp;}}</span></includeonly><!--
+--><noinclude>
+{{/doc}}
+</noinclude>
