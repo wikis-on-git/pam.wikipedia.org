@@ -1,0 +1,8 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Burundi
+| shortname alias = Burundi
+| flag alias      = Flag of Burundi.svg
+| countryname = {{{countryname|Burundi<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+}}
