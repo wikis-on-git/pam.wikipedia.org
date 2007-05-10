@@ -1,0 +1,83 @@
+{| class="navbox collapsible {{{state|collapsed}}}" style="clear:both; width:100%; background:transparent;"
+!style="background:khaki; font-size:110%;"| {{Tnavbar-collapsible|[[Continent]]s of [[Earth|the world]]|Continents of the world}}
+|-
+|align="center" style="padding-top:8px;"|
+{| style="background:transparent; text-align:center;"
+<!--
+     The number of columns in this table is a multiple 
+   of 7 because there are 7 continents in the second row.
+-->
+<!---------------Supercontinents--------------->
+|colspan="7"| [[Image:LocationAfricaEurasia.png|75px]]<br/>[[Africa-Eurasia]]
+|colspan="7"| [[Image:LocationAmericas.png|75px]]     <br/>[[Americas|America]]
+|colspan="7"| [[Image:LocationEurasia.png|75px]]      <br/>[[Eurasia]]
+|colspan="7"| [[Image:LocationOceania.png|75px]]      <br/>[[Oceania]]
+|-
+|colspan="28"| <hr/>
+|-
+<!------------------Continents----------------->
+|colspan="4"| [[Image:LocationAfrica.png|75px]]      <br/>[[Africa]]
+|colspan="4"| [[Image:LocationAntarctica.png|75px]]  <br/>[[Antarctica]]
+|colspan="4"| [[Image:LocationAsia.png|75px]]        <br/>[[Asia]]
+|colspan="4"| [[Image:LocationAustralia.png|75px]]   <br/>[[Australia (continent)|Australia]]
+|colspan="4"| [[Image:LocationEurope.png|75px]]      <br/>[[Europe]]
+|colspan="4"| [[Image:LocationNorthAmerica.png|75px]]<br/>[[North America|N. America]]
+|colspan="4"| [[Image:LocationSouthAmerica.png|75px]]<br/>[[South America|S. America]]
+|-
+|colspan="28"| <hr/>
+|-
+<!----------Geological supercontinents--------->
+|colspan="28"|
+'''[[Geology|Geological]] [[supercontinent]]s'''<br/>
+[[Gondwana]]{{·}} [[Laurasia]]{{·}} [[Pangaea]]{{·}} [[Pannotia]]{{·}} [[Proto-Gondwana]]{{·}} [[Proto-Laurasia]]{{·}} [[Rodinia]]{{·}} [[Columbia (supercontinent)|Columbia]]{{·}} [[Kenorland]]{{·}} [[Ur (continent)|Ur]]{{·}} [[Vaalbara]]
+|-
+|colspan="28"| <hr/>
+|-
+<!----------Historical continents--------->
+|colspan="28"|
+'''[[continent|Historical continents]]'''<br/>
+[[Arctica]]{{·}} [[Asiamerica]]{{·}} [[Atlantica]]{{·}} [[Avalonia]]{{·}} [[Baltica]]{{·}} [[Congo craton]]{{·}} [[Euramerica]]{{·}} [[Kalahari Desert]]{{·}} [[Kazakhstania]]{{·}} [[Laurentia]]{{·}} [[Siberia (continent)|Siberia]]{{·}} [[South China (continent)|South China]]{{·}} [[Ur (continent)|Ur]]
+|-
+|colspan="28"| <hr/>
+|-
+<!--------Submerged continents-------->
+|colspan="9"|
+'''[[Continent#Other divisions|Submerged continent]]s'''<br/>
+[[Kerguelen Plateau]]{{·}} [[Zealandia (continent)|Zealandia]]
+<!--------Mythical/theorised continents-------->
+|colspan="9"|
+{{spaces|4}}'''[[Mythical place|Mythical and theorised continents]]'''<br/>
+{{spaces|4}}[[Atlantis]]{{·}} [[Lemuria (continent)|Lemuria]]{{·}} [[Mu (lost continent)|Mu]]{{·}} [[Terra Australis]]
+<!--------Possible future continents-------->
+|colspan="10"|
+'''Possible future continents'''<br/>
+[[Pangaea Ultima]]{{·}} [[Amasia (continent)|Amasia]]
+|-
+|}
+|}<noinclude>
+{{collapsible option}}
+
+== See also ==
+* {{tl|Regions of the world}}
+
+
+<!--Categories-->
+[[Category:Navigational templates by region|{{PAGENAME}}]]
+[[Category:Continents|µ]]
+
+<!--Other languages-->
+[[bs:Šablon:Kontinenti]]
+[[cy:Nodyn:Cyfandiroedd y Ddaear]]
+[[de:Vorlage:Navigationsleiste Kontinente]]
+[[eu:Txantiloi:Kontinente aurkibidea]]
+[[fr:Modèle:Continent]]
+[[gd:Template:Mòr-roinnean]]
+[[ia:Patrono:Continentes]]
+[[he:תבנית:יבשות]]
+[[lv:Veidne:Kontinenti]]
+[[mk:Шаблон:Континенти на светот]]
+[[pt:Predefinição:Continentes]]
+[[rmy:Sikavno:Kontinento]]
+[[sl:Predloga:Celine]]
+[[sr:Шаблон:Континент]]
+</noinclude>
