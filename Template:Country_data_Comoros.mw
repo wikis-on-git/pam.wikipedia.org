@@ -1,0 +1,17 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Comoros
+| shortname alias = Comoros
+| flag alias      = Flag of the Comoros.svg
+| flag alias-1978 = Flag of the Comoros (1978-1992).svg
+| flag alias-1992 = Flag of the Comoros (1992-1996).svg
+| flag alias-1996 = Flag of the Comoros (1996-2001).svg
+| countryname = {{{countryname|Comoros<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+}}<noinclude>
+==Variants==
+* <nowiki>{{flagcountry|Comoros|1978}}</nowiki> = {{flagcountry|Comoros|1978}}
+* <nowiki>{{flagcountry|Comoros|1992}}</nowiki> = {{flagcountry|Comoros|1992}}
+* <nowiki>{{flagcountry|Comoros|1996}}</nowiki> = {{flagcountry|Comoros|1996}}
+</noinclude>
