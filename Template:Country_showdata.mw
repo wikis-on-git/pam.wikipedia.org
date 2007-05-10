@@ -1,0 +1,56 @@
+<noinclude>
+This template is used for documenting [http://en.wikipedia.org/w/index.php?title=Special%3APrefixindex&from=Country+data&namespace=10 country data templates]. See [[Template:Country data Germany]] for an example usage.
+</noinclude><!--
+
+--><includeonly>
+:''This is the documentation / testpage for '''Template:{{PAGENAME}}'''. It is automatically created by calling {{lts|Country showdata}}''
+
+This template here is a mere data container not to be called directly. It is intended only for indirect use by calling [[template:flagicon]], [[template:flagcountry]] and the like. See [[Wikipedia:WikiProject Flag Template]] (the main documentation/discussion page for the flag templates system).
+
+[[Image:{{{flag alias}}}|thumb|See also: [[Flag of {{{alias}}}]]]]
+{| class="wikitable"
+! Parameter name !! Value [<span class="plainlinks">[{{fullurl:{{FULLPAGENAMEE}}|action=edit}} edit]</span>] !! Meaning !! Used for
+|-
+| alias
+| {{{alias}}}
+| Name of the Wikipedia article for the country ([[{{{alias}}}]])
+| {{tl|flag}}, {{tl|flagcountry}} ({{tl|flagicon}} for [[alt attribute]])
+|-
+| shortname alias
+| {{{shortname alias}}}
+| A short common name, such as "United States" instead of "United States of America".
+| {{tl|flagcountry}}
+|-
+| flag alias
+| {{{flag alias}}}
+| Name of country's flag image (shown on the right)
+| {{tl|flagicon}}, {{tl|flag}}, {{tl|flagcountry}}
+|}
+
+== Testcalls ==
+
+countryname is '''"{{{countryname}}}"''' (must match XXX in Template:Country data XXX for the testcalls!)
+
+* <nowiki>{{</nowiki>[[template:flag|flag]]|{{{countryname}}}<nowiki>}}</nowiki> = <!--
+  -->{{flag| {{{countryname}}} }}
+
+* <nowiki>{{</nowiki>[[template:flagcountry|flagcountry]]|{{{countryname}}}<nowiki>}}</nowiki> = <!--
+  -->{{flagcountry| {{{countryname}}} }}
+
+* <nowiki>{{</nowiki>[[template:flagicon|flagicon]]|{{{countryname}}}<nowiki>}}</nowiki> = <!--
+  -->{{flagicon| {{{countryname}}} }}
+
+* <nowiki>{{</nowiki>[[template:flag|flag]]|{{{countryname}}}|name=special name<nowiki>}}</nowiki> = <!--
+  -->{{flag| {{{countryname}}} | name=special name}}
+
+* <nowiki>{{</nowiki>[[template:flagicon|flagicon]]|{{{countryname}}}|size=40px<nowiki>}}</nowiki> = <!--
+  -->{{flagicon| {{{countryname}}} | size=40px}}
+
+''Please <span class="plainlinks">[{{fullurl:{{FULLPAGENAMEE}}|action=purge}} purge the cache]</span> if any testcall doesn't match the current parameter values.''<!--
+
+-->[[category:country data templates|{{{countryname}}}]]<!--
+-->{{#if: {{{shortname alias|}}} |
+  {{#ifeq: {{{alias}}} | {{{shortname alias}}} 
+    || [[Category:Country data templates with distinct shortname|{{{countryname}}}]] 
+  }}
+}}</includeonly>
