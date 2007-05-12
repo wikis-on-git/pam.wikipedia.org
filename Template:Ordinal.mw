@@ -1,6 +1,6 @@
 {{{1|101}}}{{#ifeq: {{#expr: {{#expr: {{{1|101}}} mod 100}} round -1}} |10|th
 |{{#ifeq:{{#expr:{{{1|101}}} mod 10}}|1|st
-|{{#ifeq:{{#expr:{{{1|101}}} mod 10}}|2|nd
+|{{#ifeq:{{#expr:{{{1|101}}} mod 10}}|pang|2
 |{{#ifeq:{{#expr:{{{1|101}}} mod 10}}|3|rd
 |th
 }}
