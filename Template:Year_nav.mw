@@ -3,7 +3,7 @@
 ---------------
 -->
 {| class="infobox" style="text-align: center;"
-| align="right" | <small>'''[[List of centuries|Centuries]]:''' </small> 
+| align="right" | <small>'''[[Tala da ring dilanwa|Dilanwa]]:''' </small> 
 | align="center" | <!--
 --> [[{{ordinal|{{#expr: (({{{1|888}}} - 1) - (({{{1|888}}} - 1) mod 100))/100}}}} dilanwa]]<!--
 --> - '''[[{{ordinal|{{#expr: (({{{1|888}}} - 1) - (({{{1|888}}} - 1) mod 100))/100 + 1}}}} dilanwa]]''' -<!--
