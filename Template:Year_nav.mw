@@ -5,11 +5,11 @@
 {| class="infobox" style="text-align: center;"
 | align="right" | <small>'''[[List of centuries|Centuries]]:''' </small> 
 | align="center" | <!--
---> [[{{ordinal|{{#expr: (({{{1|888}}} - 1) - (({{{1|888}}} - 1) mod 100))/100}}}} century]]<!--
---> - '''[[{{ordinal|{{#expr: (({{{1|888}}} - 1) - (({{{1|888}}} - 1) mod 100))/100 + 1}}}} century]]''' -<!--
---> [[{{ordinal|{{#expr: (({{{1|888}}} - 1) - (({{{1|888}}} - 1) mod 100))/100 + 2}}}} century]]
+--> [[{{ordinal|{{#expr: (({{{1|888}}} - 1) - (({{{1|888}}} - 1) mod 100))/100}}}} dilanwa]]<!--
+--> - '''[[{{ordinal|{{#expr: (({{{1|888}}} - 1) - (({{{1|888}}} - 1) mod 100))/100 + 1}}}} dilanwa]]''' -<!--
+--> [[{{ordinal|{{#expr: (({{{1|888}}} - 1) - (({{{1|888}}} - 1) mod 100))/100 + 2}}}} dilanwa]]
 |-
-| align="right" | <small>'''[[List of decades|Decades]]:'''</small> 
+| align="right" | <small>'''[[Tala da ring decada|Decada]]:'''</small> 
 | align="center" | <small> <!--
 --> [[{{#expr: ({{{1|888}}} - ({{{1|888}}} mod 10)) - 30}}s]]&nbsp;<!--
 --> [[{{#expr: ({{{1|888}}} - ({{{1|888}}} mod 10)) - 20}}s]]&nbsp;<!--
@@ -20,7 +20,7 @@
 --> &nbsp;[[{{#expr: ({{{1|888}}} - ({{{1|888}}} mod 10)) + 30}}s]]
 </small>
 |-
-| align="right" | <small>'''[[List of years|Years]]:'''</small>
+| align="right" | <small>'''[[Tala da ring banua|Banua]]:'''</small>
 | align="center" | <!--
 --> [[{{#expr: {{{1|888}}} - 3}}]]<!--
 --> [[{{#expr: {{{1|888}}} - 2}}]]<!--
