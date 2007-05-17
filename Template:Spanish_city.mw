@@ -1,6 +1,5 @@
-{| class="infobox" style="width: 20em;" style="font-size: 85%"
-|-
-|colspan="2" align="center" | <big><big>'''{{{native_name}}}'''</big></big>
+{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
+|+ style="margin-left: inherit; font-size: medium;"  |  <big><big>'''{{{native_name}}}'''</big></big>
 |-
 {{#if:{{{image_skyline|}}}|<tr><td align="center" colspan="2">[[Image:{{{image_skyline|}}}|{{{image_skyline_size}}}]]</td></tr>}}
 {{#if:{{{image_skyline_caption|}}}|{{!}}-
