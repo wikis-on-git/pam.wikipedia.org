@@ -1,0 +1,8 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Abkhazia
+| shortname alias = Abkhazia
+| flag alias      = Flag of Abkhazia.svg
+| countryname = {{{countryname|Abkhazia<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+}}
