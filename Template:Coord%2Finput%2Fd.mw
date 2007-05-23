@@ -1,0 +1,2 @@
+<includeonly>{{Coord/link|dms-lat={{coord/dec2dms|{{{1}}}|{{{2}}}|{{#ifeq:{{{2}}}|N|S|N}}|{{coord/prec dec|{{{1}}}|{{{3}}}}}}}|dms-long={{coord/dec2dms|{{{3}}}|{{{4}}}|{{#ifeq:{{{4}}}|E|W|E}}|{{coord/prec dec|{{{1}}}|{{{3}}}}}}}|dec-lat={{coord/dms2dec|{{{2}}}|{{{1}}}}}|dec-long={{coord/dms2dec|{{{4}}}|{{{3}}}}}|param={{{1}}}_{{{2}}}_{{{3}}}_{{{4}}}_{{{5|}}}|default={{#if:{{{format|}}}|{{{format}}}|{{#ifeq:{{coord/prec dec|{{{1}}}|{{{3}}}}}|d|dms|dec}}}}
+}}</includeonly><noinclude>{{template doc|Template:Coord/sub doc}}</noinclude>
