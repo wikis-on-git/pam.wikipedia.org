@@ -1,0 +1,95 @@
+{{shortcut|[[WP:COORD]]}}
+
+This template, {{tl|coord}}, produces a link to a list of map sources, based on the geographical coordinates and other parameters, and provides a standardized notation for the coordinates.
+
+The template is for [[WGS84]] geographical coordinates ([[latitude]];[[longitude]]) on [[Earth]], which can be entered in either decimal notation, or degrees/minutes/seconds parameters, with the appropriate precision.
+
+It links to {{Coor URL}}, then displays the coordinates.
+
+The template outputs data in:
+* Degree/minutes/seconds ("DMS", precision is degrees, or degrees/minutes, or degrees/minutes/seconds, based on input)
+* Decimal (precision by number of decimal places, based on input)
+** [[Image:Geo-microformat-button.png|button to indicate the presence of a Geo microformat|This button indicates the presence of a Geo microformat on a page]] A computer-readable [[Geo (microformat)|Geo microformat]].
+
+{{tl|coord}} will be used by tools which parse the raw Wikipedia database dumps, such as [[:de:Wikipedia:WikiProjekt_Georeferenzierung/Wikipedia-World/en|Wikipedia-World]] and [[Google Earth]]. The template '''must not''' be modified without reference to these projects.
+
+'''''Note!''''' This template is currently not supported by any wikitext parsing project and coordinates entered using the template will not be used or visualized in the above mentioned projects.
+
+See also [[Wikipedia:WikiProject Geographical coordinates]].
+
+==Superseded templates==
+
+This single template supersedes {{tl|coor d}}, {{tl|coor dm}}, {{tl|coor dms}}, {{tl|coor at d}}, {{tl|coor at dm}}, {{tl|coor at dms}}, {{tl|coor title d}}, {{tl|coor title dm}}, and {{tl|coor title dms}}. All parameters can be used as before - see [[#Usage|Usage]].
+
+Examples:
+<table class="prettytable">
+<tr><td>&#123;{coord|12|34|N|45|33|W|'''display=title'''}&#125;</td><td>Replaces &#123;{coor '''title''' dm|12|34|N|45|67|W}&#125;</td></tr>
+<tr><td>&#123;{coord|12|34|12|N|45|33|45|W|'''display=inline,title'''}&#125;</td><td>Replaces &#123;{coor '''at''' dms|12|34|12|N|45|33|45|W}&#125;</td></tr>
+<tr><td>&#123;{coord|10.2|-20.3|'''display=inline'''}&#125; or &#123;{coord|10.2|-20.3}&#125;</td><td>Replaces &#123;{coor d|10.2|N|-20.3|E}&#125;</td></tr>
+</table>
+
+==Display==
+
+By default coordinates are displayed in the format in which they are specified.
+
+To always display coordinates as DMS values, add this to [[Special:Mypage/monobook.css|your monobook.css]]:
+:<code>.geo-default { display: inline } .geo-nondefault { display: inline } <br />.geo-dec { display: none }   .geo-dms { display: inline }</code>
+
+To always display coordinates as decimal values, add this to [[Special:Mypage/monobook.css|your monobook.css]]:
+:<code>.geo-default { display: inline } .geo-nondefault { display: inline }<br />.geo-dec { display: inline } .geo-dms { display: none }</code>
+
+To display coordinates in both formats, add this to [[Special:Mypage/monobook.css|your monobook.css]]:
+:<code>.geo-default { display: inline } .geo-nondefault { display: inline }<br />.geo-dec { display: inline }   .geo-dms { display: inline }<br />.geo-multi-punct { display: inline }</code>
+
+If CSS is disabled, or you have an old copy of [[MediaWiki:Common.css]] cached, you will see both formats.  (The cache for Common.css takes 31 days to expire, and the changes were made 2007-04-04.  You can either clear your cache or manually refresh this URL: [http://en.wikipedia.org/w/index.php?title=MediaWiki:Common.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=2678400].)
+
+See also [[Wikipedia:Manual of Style (dates and numbers)#Geographical coordinates]].
+
+== Usage ==
+ &#123;{coord|''latitude''|''longitude''|''parameters''|display=''display''}&#125;
+ &#123;{coord|''dd''|''N/S''|''dd''|''E/W''|''parameters''|display=''display''}&#125;
+ &#123;{coord|''dd''|''mm''|''N/S''|''dd''|''mm''|''E/W''|''parameters''|display=''display''}&#125;
+ &#123;{coord|''dd''|''mm''|''ss''|''N/S''|''dd''|''mm''|''ss''|''E/W''|''parameters''|display=''display''}&#125;
+
+* ''parameters'', which are optional, can be any ''type:'', ''region:'', or ''scale:'' setting which is recognised by the map server, such as the popular <code>type:city</code> and <code>type:landmark options</code>. See [[Wikipedia:WikiProject Geographical coordinates#Parameters]] for a comprehensive list.
+
+* ''display'', which is optional, can be one of the following:
+** <code>inline</code> (default): display the coordinate inline
+** <code>title</code>: display the coordinate by the article title, right-justified (replaces {{tl|coor title dms}} family)
+** <code>inline,title</code>: display both inline at title (replaces {{tl|coor at dms}} family)
+
+Note: using the <code>title</code> attribute indicates that the coordinates apply to the article, and not just one of (perhaps many) places mentioned in it &mdash; so it should only be omitted in the latter case. It will be used to add the article to services such as Google Earth layers.
+
+== Examples ==
+(These are live geo-microformats and should be detected on this page by parsers)
+<table class="prettytable">
+{{template example row|43.651234|-79.383333|notes=Toronto - Fully decimal - N & W }}
+{{template example row|43.65|-79.38|notes=Toronto - less precise}}
+{{template example row|43.6500|-79.3800|notes=Toronto - medium precision with trailing zeroes}}
+{{template example row|43.651234|N|79.383333|W|notes=Toronto - decimal with Northing & Westing}}
+{{template example row|43|29|N|79|23|W|notes=Toronto - degrees & minutes}}
+{{template example row|43|29|4|N|79|23|0|W|notes=Toronto - degrees, minutes & seconds}}
+{{template example row|55.752222|N|37.615556|E|notes=Moscow - N & E}}
+<tr><td><code><nowiki>{{coord|55.752222|N|37.615556|E|format=dms}}</nowiki></code></td> <td>{{coord|55.752222|N|37.615556|E|format=dms}}</td> <td></td></tr>
+<tr><td><code><nowiki>{{coord|55.752222|N|37.615556|E|format=dec}}</nowiki></code></td> <td>{{coord|55.752222|N|37.615556|E|format=dec}}</td> <td></td></tr>
+{{template example row|33|55|S|18|25|E|notes=Capetown - S & E}}
+{{template example row|22|54|30|S|43|14|37|W|notes=Rio - S & W}}
+{{template example row|22|S|43|W|notes=A [[Degree Confluence Project|degree confluence]]}}
+<tr><td><code><nowiki>{{coord|52|28|59|N|1|53|37|W
+|display=inline,title|region:GB_type:city}}</nowiki></code></td> <td>{{coord|52|28|59|N|1|53|37|W|display=inline,title|region:GB_type:city}}</td> <td>Birmingham - with display and parameter settings; note display also in title of this page.</td></tr>
+</table>
+
+==Class names==
+The class names '''geo''', '''latitude''' and '''longitude''' are used to generate the microformat and '''MUST NOT''' be changed.
+
+==External links==
+* [http://earth.google.com/userguide/v4/geoweb_faq.html Google Earth Geographic Web Layer FAQ] &ndash; Information on how Google uses Wikipedia's coordinate information.
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Protected templates|{{PAGENAME}}]]
+[[Category:Coordinates templates|{{PAGENAME}}]]
+[[Category:Templates generating Geo|{{PAGENAME}}]]
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[it:Template:Coord]]
+</includeonly>
