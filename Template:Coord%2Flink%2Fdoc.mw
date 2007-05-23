@@ -1,0 +1,15 @@
+This template, {{tl|Coord/link}}, is used by {{tl|Coord}}.
+
+== Examples ==
+<table class="prettytable">
+<tr><td>&#123;{coord|10|N|30|W}}</td><td>{{coord|10|N|30|W}}</td></tr>
+<tr><td>&#123;{coord|10|11|N|30|31|W}}</td><td>{{coord|10|11|N|30|31|W}}</td></tr>
+<tr><td>&#123;{coord|10|11|12|N|30|31|32|W}}</td><td>{{coord|10|11|12|N|30|31|32|W}}</td></tr>
+</table>
+
+== Notes on classes==
+Note: the span classes "geo-default", "geo-dec", and "geo-dms" are defined at http://en.wikipedia.org/wiki/MediaWiki:Common.css.  See there for instructions on how to choose which to display.  "latitude" and "longitude" also have styles.
+
+In addition, "geo" and the nested "latitude" and "longitude" have special meaning as a [[WP:GEOUF|Geo microformat]]; see also http://microformats.org/wiki/geo.
+
+<includeonly>{{pp-template|small=yes}}</includeonly>
