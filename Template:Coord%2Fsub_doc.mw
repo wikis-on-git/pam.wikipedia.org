@@ -1,0 +1,12 @@
+The following templates:
+:{{lt|Coord/input/dec}}
+:{{lt|Coord/input/d}}
+:{{lt|Coord/input/dm}}
+:{{lt|Coord/input/dms}}
+:{{lt|Coord/input/ERROR}}
+
+:{{lt|Coord/display/inline}}
+:{{lt|Coord/display/title}}
+:{{lt|Coord/display/inline,title}}
+
+are "subroutines" of {{tl|Coord}}.  Separating them this way allows &#123;{Coord}&#125; to include only one of them instead of all of them, drastically reducing the pre-expand size.  They shouldn't be used directly.
