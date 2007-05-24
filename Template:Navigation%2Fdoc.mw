@@ -1,0 +1,74 @@
+<includeonly>{{template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+<code>{&#123;[[Template:{{PAGENAME}}|{{PAGENAME}}]]&#125;}</code> is a generic [[Wikipedia:Navigational templates|navigational template]].
+
+==Blank syntax (basic)==
+<pre>{{Navigation
+|name  = {{subst:PAGENAME}}
+|title = 
+|body  = 
+}}
+</pre>
+
+== Parameters ==
+Deprecated parameter names are given in parentheses.
+
+===Mandatory===
+; ''name''  : (or ''templateName'') The name of the template, which is needed for the "v{{·}} t{{·}} e" (i.e. "view{{·}} talk{{·}} edit") links to work properly on the pages where the template is used. You can enter <code><nowiki>{{subst:PAGENAME}}</nowiki></code> for this value as a shortcut.
+
+; ''title'' : (or ''header'') Text that appears centered in the titlebar (the top bar). Usually this is the template's topic, i.e. a succinct description of the body contents.
+
+; ''body''  : The material contained by the template, usually a list or list of links. <!--Pipe character not the only way to separate links: "Use &amp;#124; to separate links. It is not possible to directly include a pipe ("|") in the contents as this symbol is used to separate parameters. &amp;#124; or {{tl|!}} can be used in the body to produce a pipe symbol."--> Format is inline.
+
+===Optional===
+; ''titlestyle'' : Style/s to apply to titlebar; usually a background color (i.e.&nbsp;<code>titlestyle = background:''color''</code>).<br/>Use of this parameter is discouraged. Where it is used, care and consensus are needed as multiple navigational templates on one page with different titlebar colors will probably look unpleasant.
+
+; ''bodystyle'' {{nobold|or}} ''style'' : Any CSS styling to add to the body, e.g. "text-align:left;" to left-align the body's content in place of its default center alignment.
+
+; ''category''   : The category or categories to which a page transcluding the template will become a member. Place <code><nowiki>&lt;includeonly&gt;</nowiki></code> ...... <code><nowiki>&lt;/includeonly&gt;</nowiki></code> either side of the category or categories to ensure the template itself isn't made a member. Use of this parameter is discouraged; when editing a page on which the template is transcluded, no mention of the category or categories  added by this parameter is apparent.
+
+==Example==
+===Code===
+<div style="font-size:95%;">
+<pre>
+{{Navigation
+|name  = {{subst:PAGENAME}}
+|title = [[Countries of the world|Countries]] of [[Central Asia]]
+|body  =
+
+[[Afghanistan]]{{·}} [[Kazakhstan]]{{·}} [[Kyrgyzstan]]{{·}} [[Mongolia]]{{·}} [[Russia]]{{·}} 
+[[Tajikistan]]{{·}} [[Turkmenistan]]{{·}} [[Uzbekistan]]
+
+}}
+</pre>
+</div>
+
+===Result===
+{{msg:{{BASEPAGENAME}}
+|name  = Countries of Central Asia
+|title = [[Countries of the world|Countries]] of [[Central Asia]]
+|body  =
+[[Afghanistan]]{{·}} [[Kazakhstan]]{{·}} [[Kyrgyzstan]]{{·}} [[Mongolia]]{{·}} [[Russia]]{{·}} [[Tajikistan]]{{·}} [[Turkmenistan]]{{·}} [[Uzbekistan]]
+}}
+
+==See also==
+* {{Navigational templates}}
+
+
+<includeonly>
+<!--Categories-->
+[[Category:Navigational templates| ]]
+
+<!--Other languages-->
+[[es:Plantilla:Navegación]]
+[[fr:Modèle:Navigation]]
+[[he:תבנית:ניווט]]
+[[hr:Predložak:Navigacija/doc]]
+[[ko:틀:안내]]
+[[mk:Шаблон:Навигација]]
+[[no:Mal:Navigasjon]]
+[[ro:Format:Navigation Template]]
+[[ru:Шаблон:Навигационная полоса]]
+[[sl:Predloga:Navigacija]]
+[[tr:Şablon:Dolaşım]]
+</includeonly>
