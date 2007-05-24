@@ -1,0 +1,567 @@
+<includeonly>{{template doc page transcluded}}</includeonly>
+<noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+{{TOCright}}
+{{dablink|{{tl|Infobox Geopolitical organization}} redirects here; hence related parameters and example given below.}}
+
+== Syntax ==
+<div style="font-size:110%;">
+<!----------------------------------Country/territory use---------------------------------->
+{{hidden begin
+|type=leftlink |barstyle=font-size:120%; |title=Country or territory <hr/>}}
+<!--
+See [[#Empty syntax]] below for empty syntax (without second map, ''symbol_type'', ''largest_settlement'', ''regional_languages'', ''ethnic_groups'', ''footnotes'', ''footnoteN'', France, UK or geopolitical-specific parameters).
+-->
+<pre>
+{{Infobox Country
+|native_name                 = (Long-form name in native language)
+|conventional_long_name      = (Conventional English long-form name)
+|common_name                 = (Common English name (used to create wikilinks))
+|image_flag                  = (e.g. Flag of country.svg)*
+|image_coat                  = (e.g. Coat of arms of country.svg)*
+|symbol_type                 = (if image_coat is an emblem/seal/etc)
+|national_motto              = ("(motto)")
+|national_anthem             = (''(name of/link to anthem)'')
+|other_symbol_type           = (Another symbol, e.g. Hymn)
+|other_symbol                = (another symbol text)
+|image_map                   = (e.g. LocationCountry.svg)
+|map_caption                 = (Caption to place below map)
+|image_map2                  = (Another map, if required)
+|map_caption2                = (Caption to place below second map)
+|capital                     = 
+|latd= |latm= |latNS= |longd= |longm= |longEW=  (capital's latitude and longitude)
+|largest_city                = (Largest city or settlement: use "capital" (without quotes)
+|largest_settlement_type     = (Type of settlement if largest settlement not a city)
+|largest_settlement          =  if the same as the capital)
+|official_languages          = 
+|regional_languages          = (-Officially recognized- regional languages)
+|spoken_languages            = (Usual languages)
+|ethnic_groups               = (List/breakdown of ethnic groups)
+|ethnic_groups_year          = (Year of ethnic groups breakdown (if provided))
+|government_type             = 
+|leader_title1               = 
+|leader_name1                = 
+|leader_title2               = 
+|leader_name2                = 
+...
+|leader_title5               = 
+|leader_name5                = 
+|sovereignty_type            = 
+|sovereignty_note            = 
+|established_event1          = 
+|established_date1           = 
+|established_event2          = 
+|established_date2           = 
+...
+|established_event9          = 
+|established_date9           = 
+|area_rank                   = 
+|area_magnitude              = 
+|area                        = 
+|areami²                     = 
+|percent_water               = 
+|population_estimate         = 
+|population_estimate_rank    = 
+|population_estimate_year    = 
+|population_census           = 
+|population_census_year      = 
+|population_density          = 
+|population_densitymi²       = 
+|population_density_rank     = 
+|GDP_PPP                     = 
+|GDP_PPP_rank                = 
+|GDP_PPP_year                = 
+|GDP_PPP_per_capita          = 
+|GDP_PPP_per_capita_rank     = 
+|GDP_nominal                 = 
+|GDP_nominal_rank            = 
+|GDP_nominal_year            = 
+|GDP_nominal_per_capita      = 
+|GDP_nominal_per_capita_rank = 
+|Gini                        = 
+|Gini_year                   = 
+|Gini_category               = 
+|HDI                         = 
+|HDI_rank                    = 
+|HDI_year                    = 
+|HDI_category                = 
+|currency                    = 
+|currency_code               = 
+|time_zone                   = 
+|utc_offset                  = (+N, where N is number of hours)
+|time_zone_DST               = 
+|DST_note                    = 
+|utc_offset_DST              = (+N, where N is number of hours)
+|cctld                       = 
+|calling_code                = 
+|footnotes                   = (for any generic, non-numbered footnotes)
+|footnote1                   = 
+|footnote2                   = 
+...
+|footnote7                   = 
+}}
+</pre>
+{{hidden begin |type=leftlink |title=France specific parameters}}
+<pre>
+|metropole                          = 
+|metropole_area                     = 
+|metropole_area_rank                = 
+|metropole_area_magnitude           = 
+|metropole_areami²                  = 
+|metropole_population               = 
+|metropole_population_estimate_rank = 
+|foot                               = 
+|foot2                              = 
+|foot3                              = 
+|foot4                              = 
+|foot5                              = 
+</pre>
+{{hidden end}}<!--(France-specific parameters)-->
+{{hidden begin |type=leftlink |title=United Kingdom specific parameters}}
+<pre>
+|patron_saint                = 
+</pre>
+{{hidden end}}<!--(UK-specific parameters)-->
+{{hidden begin |type=leftlink |title=European Union specific parameters}}
+<pre>
+|accessionEUdate             = 
+</pre>
+{{hidden end}}<!--(EU-specific parameters)-->
+{{smaller|* If, on a particular page, the default widths provided for the flag and coat-of-arms/symbol images produce an unsatisfactory result, use ''flag_width'' (as % or px) to specify the width to be used for the flag image; the remaining width is then assigned to the coat-of-arms/symbol (if included).}}
+{{hidden end}}<!----(Country/territory use)---->
+
+<!------------------------------------Geopolitical use------------------------------------->
+{{hidden begin
+|type=leftlink |barstyle=font-size:120%; |title=Geopolitical organization <hr/>}}
+<pre>
+{{Infobox Geopolitical organization
+|native_name        = (Long-form name in native language)
+|name               = 
+|linking_name       = (For wikilinks, if diff from name)
+|image_flag         = (Flag image's filename)
+|symbol_type        = (Symbol, Emblem, Logo, etc.)
+|image_symbol       = (Symbol image's filename)
+|symbol_width       = (Symbol image's width (default 85px))
+|motto              = ("[motto]")
+|anthem             = (''[anthem name]'')
+|text_symbol_type   = (for other types of text symbol)
+|text_symbol        = (e.g. ''[hymn name]'')
+|image_map          = (Map image's filename)
+|map_width          = (Map image's width (default 250px))
+|map_caption        = 
+|org_type           = (e.g. Trade bloc)
+|membership_type    = (default "Membership")
+|membership         = (Type/s and/or number/s of members)
+|admin_center_type  = (e.g. "Administrative center" (default))
+|admin_center       = (Location/s of administrative center/s)
+|languages_type     = (e.g. "[[Official language]]s" (default))
+|languages          = 
+|leader_title1      = (e.g. "Chair", "President", etc.)
+|leader_name1       = 
+|leader_title2      = (e.g. "Deputy chair", etc.)
+|leader_name2       = 
+...
+|leader_title5      = 
+|leader_name5       = 
+|established        = (Usually a date, in lieu of below)
+|established_event1 = 
+|established_date1  = 
+|established_event2 = 
+|established_date2  = 
+...
+|established_event9 = 
+|established_date9  = 
+|official_website   = 
+|area_rank                   = 
+|area_magnitude              = 
+|area                        = 
+|areami²                     = 
+|percent_water               = 
+|population_estimate         = 
+|population_estimate_rank    = 
+|population_estimate_year    = 
+|population_density          = 
+|population_densitymi²       = 
+|population_density_rank     = 
+|GDP_PPP                     = 
+|GDP_PPP_rank                = 
+|GDP_PPP_year                = 
+|GDP_PPP_per_capita          = 
+|GDP_PPP_per_capita_rank     = 
+|GDP_nominal                 = 
+|GDP_nominal_rank            = 
+|GDP_nominal_year            = 
+|GDP_nominal_per_capita      = 
+|GDP_nominal_per_capita_rank = 
+|Gini                        = 
+|Gini_year                   = 
+|Gini_category               = 
+|HDI                         = 
+|HDI_rank                    = 
+|HDI_year                    = 
+|HDI_category                = 
+|currency                    = 
+|currency_code               = 
+|time_zone                   = 
+|utc_offset                  = (+N, where N is number of hours)
+|footnotes                   = (For any non-numbered footnotes)
+|footnote1                   = 
+|footnote2                   = 
+...
+|footnote7                   = 
+}}
+</pre>
+{{hidden end}}<!----(Geopolitical organization use)---->
+</div><!--font-size:110%-->
+
+{{clear}}
+
+== Examples ==
+<div style="font-size:110%;">
+<!-------------------------------Country/territory example--------------------------------->
+{{hidden begin
+|type=leftlink |barstyle=font-size:120%; |title=Country or territory <hr/>}}
+<big>'''Code'''</big>
+<pre>
+{{Infobox Country
+|native_name                 = {{lang|fr|''République du Cameroun''}}
+|conventional_long_name      = Republic of Cameroon
+|common_name                 = Cameroon
+|image_flag                  = Flag of Cameroon.svg
+|image_coat                  = Cameroon coa.png
+|symbol_type                 = Emblem
+|image_map                   = LocationCameroon.png
+|national_motto              = ''"Paix, Travail, Patrie"''{{spaces|2}}<small>([[French language|French]])<br/>"Peace, Work, Fatherland"</small>
+|national_anthem             = ''{{lang|fr|[[Chant de Ralliement]]}}''
+|official_languages          = [[French language|French]] and [[English language|English]]
+|capital                     = [[Yaoundé]]
+|latd=3 |latm=52 |latNS=N |longd=11 |longm=31 |longEW=E
+|largest_city                = [[Douala]]
+|government_type             = 
+|leader_title1               = [[Presidents of Cameroon|President]]
+|leader_name1                = [[Paul Biya]]
+|leader_title2               = [[Heads of Government of Cameroon|Prime Minister]]
+|leader_name2                = [[Ephraïm Inoni]]
+|sovereignty_type            = [[Independence]]
+|established_event1          = from [[France]] and [[United Kingdom|UK]]
+|established_date1           = [[January 1]] [[1960]]
+|area_rank                   = 52nd
+|area_magnitude              = 1 E+11
+|area                        = 475,440 
+|areami²                     = 183,568 <!--Do not remove per [[WP:MOSNUM]]-->
+|percent_water               = 1.3
+|population_estimate         = 16,380,005 
+|population_estimate_rank    = 59th 
+|population_estimate_year    = July 2005 
+|population_census           = 15,746,179
+|population_census_year      = 2003
+|population_density          = 34
+|population_densitymi²       = 88 <!--Do not remove per [[WP:MOSNUM]]-->
+|population_density_rank     = 138th
+|GDP_PPP                     = $32.35 billion <!--cia.gov-->
+|GDP_PPP_rank                = 91st 
+|GDP_PPP_year                = 2005
+|GDP_PPP_per_capita          = $2,176
+|GDP_PPP_per_capita_rank     = 140th
+|GDP_nominal                 = $16.99 billion <!--imf.org-->
+|GDP_nominal_rank            = 83rd 
+|GDP_nominal_year            = 2005
+|GDP_nominal_per_capita      = $952
+|GDP_nominal_per_capita_rank = 121st
+|HDI                         = 0.497
+|HDI_rank                    = 148th
+|HDI_year                    = 2003
+|HDI_category                = <font color="#e0584e">low</font>
+|currency                    = [[CFA franc]]
+|currency_code               = XAF
+|country_code                = 
+|time_zone                   = 
+|utc_offset                  = +1
+|time_zone_DST               = 
+|utc_offset_DST              = 
+|cctld                       = [[.cm]]
+|calling_code                = 237
+}}
+</pre>
+
+<big>'''Result</big>
+<hr/><br/>
+{{Infobox Country
+|native_name                 = {{lang|fr|''République du Cameroun''}}
+|conventional_long_name      = Republic of Cameroon
+|common_name                 = Cameroon
+|image_flag                  = Flag of Cameroon.svg
+|image_coat                  = Cameroon coa.png
+|symbol_type                 = Emblem
+|image_map                   = LocationCameroon.png
+|national_motto              = ''"Paix, Travail, Patrie"''{{spaces|2}}<small>([[French language|French]])<br/>"Peace, Work, Fatherland"</small>
+|national_anthem             = ''{{lang|fr|[[Chant de Ralliement]]}}''
+|official_languages          = [[French language|French]] and [[English language|English]]
+|capital                     = [[Yaoundé]]
+|latd=3 |latm=52 |latNS=N |longd=11 |longm=31 |longEW=E
+|largest_city                = [[Douala]]
+|government_type             = 
+|leader_title1               = [[Presidents of Cameroon|President]]
+|leader_name1                = [[Paul Biya]]
+|leader_title2               = [[Heads of Government of Cameroon|Prime Minister]]
+|leader_name2                = [[Ephraïm Inoni]]
+|sovereignty_type            = [[Independence]]
+|established_event1          = from [[France]] and [[United Kingdom|UK]]
+|established_date1           = [[January 1]] [[1960]]
+|area_rank                   = 52nd
+|area_magnitude              = 1 E+11
+|area                        = 475,440 
+|areami²                     = 183,568 <!--Do not remove per [[WP:MOSNUM]]-->
+|percent_water               = 1.3
+|population_estimate         = 16,380,005 
+|population_estimate_rank    = 59th 
+|population_estimate_year    = July 2005 
+|population_census           = 15,746,179
+|population_census_year      = 2003
+|population_density          = 34
+|population_densitymi²       = 88 <!--Do not remove per [[WP:MOSNUM]]-->
+|population_density_rank     = 138th
+|GDP_PPP                     = $32.35 billion <!--cia.gov-->
+|GDP_PPP_rank                = 91st 
+|GDP_PPP_year                = 2005
+|GDP_PPP_per_capita          = $2,176
+|GDP_PPP_per_capita_rank     = 140th
+|GDP_nominal                 = $16.99 billion <!--imf.org-->
+|GDP_nominal_rank            = 83rd 
+|GDP_nominal_year            = 2005
+|GDP_nominal_per_capita      = $952
+|GDP_nominal_per_capita_rank = 121st
+|HDI                         = 0.497
+|HDI_rank                    = 148th
+|HDI_year                    = 2003
+|HDI_category                = <font color="#e0584e">low</font>
+|currency                    = [[CFA franc]]
+|currency_code               = XAF
+|country_code                = 
+|time_zone                   = 
+|utc_offset                  = +1
+|time_zone_DST               = 
+|utc_offset_DST              = 
+|cctld                       = [[.cm]]
+|calling_code                = 237
+}}
+{{hidden end}}<!----(Country/territory example)---->
+{{clear}}
+<!---------------------------Geopolitical organization example----------------------------->
+{{hidden begin
+|type=leftlink |barstyle=font-size:120%; |title=Geopolitical organization <hr/>}}
+<big>'''Code'''</big>
+<pre>
+{{Infobox Geopolitical organisation
+|native_name                 = European Union[[Image:Sup1.svg|4px]]
+|linking_name                = the European Union
+|image_flag                  = European flag.svg
+|motto                       = {{lang|la|''[[European symbols#Motto|In varietate concordia]]''}}{{spaces|2}}<small>([[Latin language|Latin]])<br/>"United in diversity"</small>
+|anthem                      = ''[[Symphony No. 9 (Beethoven)#Fourth movement|Ode to Joy]]''{{spaces|2}}<small>(orchestral)</small>
+|image_map                   = The European Union anno 2007.svg
+|map_caption                 = 
+|admin_center_type           = [[European commission|Commission seat]]
+|admin_center                = [[Brussels]]
+|latd=50 |latm=54 |latNS=N |longd=4 |longm=32 |longEW=E
+|largest_city                = 
+|languages_type              = [[Official language]]s
+|languages                   = {{EU languages infobox}}  
+|membership_type             = [[European Union member state|Member states]]
+|membership                  = {{EU members infobox}}
+|ethnic_groups               = 
+|ethnic_groups_year          = 
+|government_type             = [[Intergovernmentalism|Intergovernmental]] [[supranationalism]]
+|leader_title1               = [[European Commission|Commission]]
+|leader_name1                = [[José Manuel Barroso]]
+|leader_title2               = [[European Parliament|Parliament]]
+|leader_name2                = [[Hans-Gert Pöttering]]
+|leader_title3               = [[Council of the European Union|Council]]
+|leader_name3                = [[Frank-Walter Steinmeier]]
+|leader_title4               = [[European Council]]
+|leader_name4                = [[Germany]]
+|sovereignty_type            = [[History of the European Union|Formation]]
+|sovereignty_note            = 
+|established_event1          = [[Treaty of Rome]]
+|established_date1           = [[25 March]] [[1957]]
+|established_event2          = [[Maastricht Treaty]]
+|established_date2           = [[7 February]] [[1992]]
+|area_rank                   = 7th<sup>2</sup>
+|area_magnitude              = 1 E11
+|area                        = 4,324,782
+|areami²                     = 1,669,807 <!--Do not remove per [[WP:MOSNUM]]-->
+|percent_water               = 3,08
+|population_estimate         = 494,070,000
+|population_estimate_rank    = 3rd<sup>2</sup>
+|population_estimate_year    = 2007
+|population_census           = 
+|population_census_year      = 
+|population_density          = 112
+|population_densitymi²       = 289 <!--Do not remove per [[WP:MOSNUM]]-->
+|population_density_rank     = 77th<sup>2</sup>
+|GDP_PPP                     = $13,881 billion
+|GDP_PPP_rank                = 1st<sup>2</sup>
+|GDP_PPP_year                = 2006 ([[IMF]])
+|GDP_PPP_per_capita          = $28,213
+|GDP_PPP_per_capita_rank     = 14th<sup>2</sup>
+|GDP_nominal                 = $15,849 billion 
+|GDP_nominal_rank            = 1st<sup>2</sup>
+|GDP_nominal_year            = 2007 ([[IMF]])
+|GDP_nominal_per_capita      = $31,173
+|GDP_nominal_per_capita_rank = 13th<sup>2</sup>
+|HDI                         = 
+|HDI_rank                    = 
+|HDI_year                    = 
+|HDI_category                = 
+|currency                    = {{EU currencies infobox}}
+|currency_code               = 
+|time_zone                   = 
+|utc_offset                  = 0 to +2
+|time_zone_DST               = 
+|DST_note                    = 
+|utc_offset_DST              = +1 to +3
+|cctld                       = [[.eu]]
+|calling_code                = 
+|footnote1                   = See the name [[List of names of the European Union in the official languages|in other official EU languages]]. 
+|footnote2                   = If considered as a single entity.
+}}
+</pre>
+
+<big>'''Result'''</big>
+<hr/><br/>
+{{Infobox Geopolitical organisation
+|native_name                 = European Union[[Image:Sup1.svg|4px]]
+|linking_name                = the European Union
+|image_flag                  = European flag.svg
+|motto                       = {{lang|la|''[[European symbols#Motto|In varietate concordia]]''}}{{spaces|2}}<small>([[Latin language|Latin]])<br/>"United in diversity"</small>
+|anthem                      = ''[[Symphony No. 9 (Beethoven)#Fourth movement|Ode to Joy]]''{{spaces|2}}<small>(orchestral)</small>
+|image_map                   = The European Union anno 2007.svg
+|map_caption                 = 
+|admin_center_type           = [[European commission|Commission seat]]
+|admin_center                = [[Brussels]]
+|latd=50 |latm=54 |latNS=N |longd=4 |longm=32 |longEW=E
+|largest_city                = 
+|languages_type              = [[Official language]]s
+|languages                   = {{EU languages infobox}}  
+|membership_type             = [[European Union member state|Member states]]
+|membership                  = {{EU members infobox}}
+|ethnic_groups               = 
+|ethnic_groups_year          = 
+|government_type             = [[Intergovernmentalism|Intergovernmental]] [[supranationalism]]
+|leader_title1               = [[European Commission|Commission]]
+|leader_name1                = [[José Manuel Barroso]]
+|leader_title2               = [[European Parliament|Parliament]]
+|leader_name2                = [[Hans-Gert Pöttering]]
+|leader_title3               = [[Council of the European Union|Council]]
+|leader_name3                = [[Frank-Walter Steinmeier]]
+|leader_title4               = [[European Council]]
+|leader_name4                = [[Germany]]
+|sovereignty_type            = [[History of the European Union|Formation]]
+|sovereignty_note            = 
+|established_event1          = [[Treaty of Rome]]
+|established_date1           = [[25 March]] [[1957]]
+|established_event2          = [[Maastricht Treaty]]
+|established_date2           = [[7 February]] [[1992]]
+|area_rank                   = 7th<sup>2</sup>
+|area_magnitude              = 1 E11
+|area                        = 4,324,782
+|areami²                     = 1,669,807 <!--Do not remove per [[WP:MOSNUM]]-->
+|percent_water               = 3,08
+|population_estimate         = 494,070,000
+|population_estimate_rank    = 3rd<sup>2</sup>
+|population_estimate_year    = 2007
+|population_census           = 
+|population_census_year      = 
+|population_density          = 112
+|population_densitymi²       = 289 <!--Do not remove per [[WP:MOSNUM]]-->
+|population_density_rank     = 77th<sup>2</sup>
+|GDP_PPP                     = $13,881 billion
+|GDP_PPP_rank                = 1st<sup>2</sup>
+|GDP_PPP_year                = 2006 ([[IMF]])
+|GDP_PPP_per_capita          = $28,213
+|GDP_PPP_per_capita_rank     = 14th<sup>2</sup>
+|GDP_nominal                 = $15,849 billion 
+|GDP_nominal_rank            = 1st<sup>2</sup>
+|GDP_nominal_year            = 2007 ([[IMF]])
+|GDP_nominal_per_capita      = $31,173
+|GDP_nominal_per_capita_rank = 13th<sup>2</sup>
+|HDI                         = 
+|HDI_rank                    = 
+|HDI_year                    = 
+|HDI_category                = 
+|currency                    = {{EU currencies infobox}}
+|currency_code               = 
+|time_zone                   = 
+|utc_offset                  = 0 to +2
+|time_zone_DST               = 
+|DST_note                    = 
+|utc_offset_DST              = +1 to +3
+|cctld                       = [[.eu]]
+|calling_code                = 
+|footnote1                   = See the name [[List of names of the European Union in the official languages|in other official EU languages]]. 
+|footnote2                   = If considered as a single entity.
+}}
+{{hidden end}}<!----(Geopolitical organization example)---->
+</div><!--(font-size)-->
+
+{{clear}}
+
+== Sandbox ==
+A sandbox has been set up so modifications to the template may be tested '''''before being implemented''''' in the template proper:
+
+'''[[Template:Infobox Country/Test sandbox]]'''
+
+If possible, please try to view any modifications using a variety of web browsers and on different types of computer (PC, Macintosh, etc). Thank you!
+
+== Microformat ==
+{{UF-hcard-place}}
+
+
+<includeonly>
+<!--Categories-->
+[[Category:Geography infobox templates|Country]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+
+<!--Other languages-->
+[[af:Sjabloon:Landtabel-mini-nl]]
+[[ar:قالب:معلومات بلد]]
+[[an:Plantilla:Infobox País]]
+[[br:Patrom:Infobox bro]]
+[[bg:Шаблон:Държава]]
+[[ca:Plantilla:Taula d'estat]]
+[[cs:Šablona:Infobox stát]]
+[[cy:Nodyn:Gwybodlen Gwlad]]
+[[da:Skabelon:Infoboks land]]
+[[de:Vorlage:Infobox Staat]]
+[[el:Πρότυπο:Πληροφορίες Χώρας]]
+[[es:Plantilla:Infobox País]]
+[[fr:Modèle:Pays]]
+[[ko:틀:나라 정보]]
+[[hsb:Předłoha:Stat]]
+[[ia:Patrono:Infobox pais]]
+[[it:Template:Stato]]
+[[he:תבנית:מדינה]]
+[[kn:ಟೆಂಪ್ಲೇಟು:Infobox ದೇಶ]]
+[[ka:თარგი:ქვეყანა]]
+[[lad:Template:Infobox Pais]]
+[[ln:Template:Infobox Esé]]
+[[ms:Templat:Negeri]]
+[[nl:Sjabloon:Landtabel]]
+[[ja:Template:基礎情報 国]]
+[[no:Mal:Infoboks land]]
+[[nn:Mal:Infoboks land2]]
+[[pt:Predefinição:Info país]]
+[[ro:Format:CutieŢări]]
+[[rmy:Sikavno:MoxtonThema]]
+[[ru:Шаблон:Страна]]
+[[sl:Predloga:Infopolje Država]]
+[[sr:Шаблон:Кутијица за државе]]
+[[fi:Malline:Valtion tiedot]]
+[[sv:Mall:Landsfakta]]
+[[th:แม่แบบ:กล่องข้อมูล ประเทศ]]
+[[vi:Tiêu bản:Tóm tắt về quốc gia]]
+[[tr:Şablon:Ülkeler]]
+[[ur:سانچہ:خانۂ معلومات ملک]]
+[[fiu-vro:Template:Country Infobox]]
+[[zh:Template:Infobox Country]]
+[[zh-classical:Template:國訊欄]]
+</includeonly>
