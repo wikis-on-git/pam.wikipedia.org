@@ -1,0 +1,84 @@
+<includeonly><!--
+
+--><div class="notice" id="disambig">''The template documentation below is [[Wikipedia:Transclusion|transcluded]] from [[{{NAMESPACE}}:TOCright/{{{1|doc}}}]]'' <small>[<span class="plainlinks">[{{fullurl:{{NAMESPACEE}}:TOCright/{{{1|doc}}}|action=edit}} edit]</span>]</small></div><!--
+-->[[Category:Template documentation|{{PAGENAME}}]]<!--
+
+--></includeonly><noinclude><center>
+{| class="messagebox" style="width:80%; border:1px solid #c0c090; background:#f8eaba; margin:2px 4px 2px 4px;"
+|- style="vertical-align:top;"
+|align="center" style="width:60px; padding:1ex;"| [[Image:Edit-paste.svg|none|40px]]
+| '''This is the [[Wikipedia:Template doc page pattern|template documentation page]] {{#if:{{{1|}}}|{{{1}}}|for [[{{NAMESPACE}}:TOCright]].}}'''<br/><hr/>This page is not necessarily intended to be viewed directly. If it uses [[w:Help:Variable|variable]]s, some links may appear broken. Do not replace these variables with [[w:Hardcoded|hardcoded]] page names or URLs. 
+|}<br/><hr/>
+</center>
+[[Category:Template documentation|{{PAGENAME}}]]<!--
+
+--></noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+
+# {{tl|TOCright}} forces the auto-generated Table of Contents for an article to appear in a table that is floated to the right side of the page (as seen right), in order to improve article layout.
+# {{tl|TOCnestright}} Operates similarly, but is designed to use early in introduction or second sections on the many pages having a lot of images or wikitable elements such as infoboxes dominating the right side of such pages. '''TOCnestright''' will drift up against such constructs allowing text wrapping above, left and below preventing discordantly ugly page breaks and large excessive whitespace gaps on the page as given by the default TOC.
+
+== Usage ==
+
+Insert <code>&#123;&#123;{{BASEPAGENAME}}&#125;&#125;</code> at the point in the article where you want the top of the Table of Contents box to appear.  Use with {{tl|-}} or {{tl|clear}} to prevent coalition with text or use {{tl|clearleft}} or {{tl|clearright}} to prevent images coalitions. 
+
+== Parameters (optional) ==
+
+;clear : Sets the [[Cascading Style Sheets|CSS]] clear property, which forces this float underneath the side specified with this attribute. So, <code>clear=right</code> (which is the default) will place the element after all the right floating elements before it.  Options are <code>left</code>, <code>right</code>, <code>both</code>, or <code>none</code>.
+
+;width: Set the CSS width.
+
+;limit:  Limits the depth of subheadings shown.  For instance using <code>limit=4</code> will hide the fourth level and deeper subheadings in the hierarchy.  And <code>limit=2</code> will hide all subheadings leaving only the main headings.  This is implemented as a CSS class in the [[MediaWiki:Common.css]].
+
+== Cautions ==
+Usage of this template remains controversial with many editors and readers as it breaks consistency with the standardized appearance of the site.  When using this template logout and check that it appears correctly with the default skin in Internet Explorer and a [[Acid2]] compatible browser (or Firefox).  Consult the following pages for placement elucidation [[Help:Section#Floating the TOC]] and [[Wikipedia:How to fix bunched-up edit links]]
+
+* Avoid placing the TOC in a visually poor location.  Crossing a section division is probably a poor idea.
+* If the TOC is floated left of a bulleted list, the bullets will be hidden.
+
+== Site wide floating of TOC code ==
+{{see also|Help:User style}}
+Add to your [[Special:Mypage/monobook.css|userpage/monobook.css]] (if your using the default monobook skin)
+<pre>
+#bodyContent #toc {
+ float: right;
+ clear: right;
+ margin: 0.3em;
+}
+</pre>
+
+A more advanced (non IE users) using the CSS child selector to prevent existing TOC layout scheme from causing problems and allowing the TOC to float next to existing images.
+<pre>
+#bodyContent > #toc, #wikiPreview > #toc {
+ float: right;
+ clear: none;
+ padding: 0.2em;
+ margin: 0.3em;
+}
+</pre>
+
+==See also==
+* {{Lts|TOCleft}}
+* [[Help:Magic words#Table of contents|Help:Magic words]]
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:TOC templates|{{PAGENAME}}]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[be-x-old:Шаблён:Зьмест справа]]
+[[ca:Plantilla:TOCright]]
+[[cs:Šablona:RIGHTTOC]]
+[[de:Vorlage:TOCright]]
+[[es:Plantilla:TOCderecha]]
+[[fr:Modèle:Sommaire à droite]]
+[[he:תבנית:תוכן שמאל]]
+[[hr:Predložak:TOCright]]
+[[hu:Sablon:TOCright]]
+[[id:Templat:TOCright]]
+[[it:Template:TOCright]]
+[[mk:Шаблон:TOCright]]
+[[ru:Шаблон:Содержание справа]]
+[[vi:Tiêu bản:Mục lục bên phải]]
+
+</includeonly>
