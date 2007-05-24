@@ -1,0 +1,8 @@
+{{#if:{{{2|}}}
+|<!--then:--><span style="font-size:{{{1|}}};">{{{2|}}}</span>
+|<!--else:--><span style="font-size:90%;">{{{1|}}}</span>
+}}<noinclude>
+
+{{{{FULLPAGENAME}}/doc}}
+<!--NB Add metadata to the /doc page linked above, not here; thanks!-->
+</noinclude>
