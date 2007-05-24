@@ -1,0 +1,19 @@
+<includeonly><!--
+--><div class="NavFrame" style="border:{{{border|none}}};"><!--
+-->{{#if:{{{type|}}}
+   |<!--then:
+      --><div class="NavFrame"    style="width:100%; position:relative; border:{{{border|none}}};">
+         <div class="NavHead"     style="width:32px; background:transparent; position:absolute; left:2px;"></div><div style="height:1.6em; background:transparent; text-align:left; padding-left:33px; font-size:100%; font-weight:bold; {{{barstyle|}}}">{{{title}}}</div>
+         <div class="NavContent"  style="text-align:left; padding-left:6px; {{{bodystyle|}}}"><!--
+
+-->|<!--else:
+      --><div class="NavFrame"    style="border:{{{border|none}}};"><!--
+      --><div class="NavHead"     style="background:{{{bg1|transparent}}}; text-align:{{{ta1|left}}}; {{{extra1|}}} {{{barstyle|}}}"><!---deprecated:--->{{{header|}}}<!----> {{{title|}}}&nbsp;</div>
+         <div class="NavContent"  style="background-color:{{{bg2|transparent}}}; text-align:{{{ta2|left}}}; {{{extra2|}}} {{{bodystyle|}}}"><!--
+
+-->}}</includeonly><noinclude><!--
+
+
+-->{{/doc}}
+<!--Please add any interwiki links etc on the /doc page, not here - thanks!-->
+</noinclude>
