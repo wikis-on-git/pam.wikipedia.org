@@ -1,217 +1,96 @@
-__NOTOC__
-<div id="mainpage"></div>
-<!-- Beginning of header section -->{|style="width:100%;margin-top:+.7em;background-color:#fcfcfc;border:1px solid #ccc"
-|style="width:56%;color:#000"|
-{|style="width:280px; border:solid 0px; background:none"
-|-
-|style="width:280px; text-align:center; white-space:nowrap; color:#000" |
-<div style="font-size:162%; border:none; margin:0; padding:.1em; color:#000">Malaus kayu keng '''[[:pam:Kapampangan|Kapampangan]]''' [[Wikipedia]],</div>
-<div style="top:+0.2em; font-size:95%"> ing timawang encyclopedia a  [[Wikipedia:Introduction|agiang ninu&nbsp;malyari&nbsp;yang&nbsp;manalili]].</div>
-<div id="articlecount" style="width:100%;text-align:center;font-size:85%;">[[Special:Statistics|{{NUMBEROFARTICLES}}]] articulu king Kapampangan</div>
-|}<!-- Portals Follow -->
-|style="width:11%;font-size:95%;color:#000"|
-*[[Portal:Kalalangan|Alit (Arts)]]
-*[[Portal:Talambye|Talambye]]
-*[[Portal:Geografia|Geografia]]
-|style="width:11%;font-size:95%"|
-*[[Portal:Amlat|Amlat]]
-*[[Portal:Matematiku|Matematiku]]
+<div id="mainpage"></div><!--
+
+
+<------------------------------Banner across top of page------------------------------>
+{| style="width:100%; background:#fcfcfc; margin-top:+.9em; border:1px solid #ccc;"
+|style="width:56%; color:#000"| <!--
+
+<----------"Welcome to Wikipedia" and article count---------->
+{| style="width:280px; border:solid 0px; background:none;"
+|style="width:280px; text-align:center; white-space:nowrap; color:#000;"|
+<div style="font-size:162%; border:none; margin:0; padding:.1em; color:#000;">Welcome to [[Wikipedia]],</div>
+<div style="top:+0.2em; font-size:95%;">the free encyclopedia that [[Wikipedia:Introduction|anyone&nbsp;can&nbsp;edit]].</div>
+<div id="articlecount" style="width:100%; text-align:center; font-size:85%;">[[Special:Statistics|{{NUMBEROFARTICLES}}]] articles in English</div>
+|}<!--
+
+<----------Portal list on righthand side---------->
+|style="width:11%; font-size:95%; color:#000;"|
+*[[Portal:Arts|Arts]]
+*[[Portal:Biography|Biography]]
+*[[Portal:Geography|Geography]]
+|style="width:11%; font-size:95%;"|
+*[[Portal:History|History]]
+*[[Portal:Mathematics|Mathematics]]
 *[[Portal:Science|Science]]
-|style="width:11%;font-size:95%"|
-*[[Portal:Aguman|Aguman]]
-*[[Portal:Technologia|Technologia]]
-*'''[[Portal:Tala da reng Portal|Deng eganaganang&nbsp;portals]]'''
-|}<!-- End Portals -->
+|style="width:11%; font-size:95%;"|
+*[[Portal:Society|Society]]
+*[[Portal:Technology|Technology]]
+*'''[[Portal:List of portals|All&nbsp;portals]]'''
+|}<!--
+
+<----------Strapline immediately below banner---------->
+{|style="width:100%; background:none; margin:-.8em 0 -.7em 0;"
+|style="font-size:95%; padding:10px 0; margin:0px; text-align:left; white-space:nowrap; color:#000;"| [[Wikipedia:About|Overview]]&nbsp;'''·''' [[Wikipedia:Tutorial|Editing]]&nbsp;'''·''' [[Wikipedia:Questions|Questions]]&nbsp;'''·''' [[Help:Contents|Help]]
+|style="font-size:95%; padding:10px 0; margin:0px; text-align: right; white-space:nowrap; color:#000;"|
+[[Wikipedia:Contents|Contents]]&nbsp;'''·''' [[Wikipedia:Categorical index|Categories]]&nbsp;'''·''' [[Wikipedia:Featured content|Featured content]]&nbsp;'''·''' [[Wikipedia:Quick index|A–Z index]]
+|}
+{{Main Page banner}}<!--
 
 
-Ini ing buklud da reng susulat keng Wikipedia king '''Amanung Kapampangan'''.
+<-----------------------Today's featured article, Did you know------------------------>
+{|style="border-spacing:8px; margin:0px -8px;"
+|class="MainPageBG" style="width:55%; border:1px solid #cef2e0; background:#f5fffa; vertical-align:top; color:#000;"|
+{|width="100%" cellpadding="2" cellspacing="5" style="vertical-align:top; background:#f5fffa;"
+! <h2 style="margin:0; background:#cef2e0; font-size:120%; font-weight:bold; border:1px solid #a3bfb1; text-align:left; color:#000; padding:0.2em 0.4em;">Today's featured article</h2>
+|-
+|style="color:#000;"| {{Wikipedia:Today's featured article/{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}}}
+|-
+! <h2 style="margin:0; background:#cef2e0; font-size:120%; font-weight:bold; border:1px solid #a3bfb1; text-align:left; color:#000; padding:0.2em 0.4em;">Did you know...</h2>
+|-
+|style="color:#000;"| {{Did you know}}
+|-
+|}<!--
 
-Agkatan da kayung makiyanib ba yang miragdagan ining encyclopedia tamu
-ngan at lumabung ya ing Amanung Siswan. 
-
-Nung bisa kayung misane sumulat o magumpisang bulung subukan ye ini. [[Wikipedia:Sandbox|Sandbox]].
-
-Ining lalam sikluban maka lele ya para keng pamaglalang ning
-[[Wikipedia]] king amanung Kapampangan
-
-Nung mangailangan kayung saup, munta kayu keni: '''[[Nung makananung gawang bayung Wikipedia|Nung makananung gawang bayung Wikipedia]]'''
-
-Kareng bayuan munta ko pa keni: '''[[Welcome Newcomers, Malaus Kayu Pu]]'''
-
-Nung bisa kayung makiabe keng pamitalamitam ning pamaglalang
-tungkul keng paksa, articulu at aliwa pa munta kayu keni: '''[[Kapampangan Wiki]]'''
-
-
-<div style="border: 1px #fda solid;">
-<div style="background:#fff9eb; border-bottom:1px #fda solid; padding:0px; padding-left:8px;">
-===Ing Sikluba'ning Belwan===
-</div>
-<div style="text-align:left; padding-left:8px;">
-===Eganaganang kategorya===
-*<div style="color:#642; background:#fffaec;">'''Sikluban''': [[:category:Astronomia|Astronomia (Pamagaral Banua)]] - [[:category:Fisica|Fisica]] - [[:category:Matematica|Matematica (Pamagaral Bilangan)]] - [[:category:Quimica|Quimica]] - [[:category:Geologia|Geologia (Pamagaral Yatu)]]...</div>
-*<div style="color:#060; background:#f6fff6;">'''Bye''': [[:category:Biologia|Biologia (Pamagaral Bye)]]...</div>
-*<div style="color:#060; background:#f6fff6;">'''Science (Kabiasnan)''': [[:category:Kabiasnan|Kabiasnan (Science)]] - [[:category:Kabulasan|Kabulasan]] - [[:category:agricultura|Agricultura]] - [[:category:Pamanese Animal|Pamanese Animal]] - [[:category:asan|Asan]]...</div>
-*<div style="color:#444; background:#f8f8f8;">'''Técnica''': [[:categoría:Informática|Informática]] - [[:category:Engineering|Engineering]] - [[:category:Telecomunicacion|Telecomunicacion]] - [[:Category:Palimpatan|Palimpatan]] - [[:category:industria|Industria]]...</div>
-*<div style="color:#008; background:#f8f8ff;">'''Yatu''': [[:category:Amlat|Amlat (Kasalesayan)]] - [[:category:Geografía|Geografia]] - [[:category:Antropologia|Antropologia]] - [[:categoría:Linguistica|Linguistica (Garalitang Mayaktangan)]] - [[:categoría:Religion|Religion (Kasalpantayanan)]] - [[:category:Pamangan|Pamangan]] - [[:category:Isports|Isports (Pasiknangan)]]...</div>
-*<div style="color:#606; background:#fff0ff;">'''Arte''': [[:category:Arquitectura|Arquitectura]] - [[:category:Cine|Cine]] - [[:category:terak|Terak]] - [[:categoría:Cultura|Cultura (Kalinangan)]] - [[:category:Fotografía|Fotografía (Pamaglarauan)]] -  [[:categoría:Literatura|Literatura (Malagung Panyulat)]] - [[:categoría:Música|Musica (Tigtigan)]] - [[:categoría:Pamamintura|Pamamintura]] - [[:categoría:Teatro|Teatro]] - [[:categoría:Piyalben|Piyalben]] - [[:categoría:Obrang Gamat|Obrang Gamat]] - [[:categoría:Pamangulis|Pamangulis]]...</div> 
-*<div style="color:#800; background:#fff8f8;">'''Sociedad''': [[:categoría:Sociología|Sociologia]] - [[:Category:Politika|Politika]] -  [[:categoría:Leyi|Leyi]] - [[:categoría:Economía|Economia]] - [[:categoría:Educación|Educacion (Pamagaral)]] - [[:categoría:Filosofia|Filosofia]] - [[:categoría:Psicologia|Psicologia]]...</div>
-
-===Ing Sikluban a Kapampangan===
-*[[Kawatasan|Kawatasan (Poetry)]]
-*[[Kuentu, Nobela, Prosa]]
-*[[Crissotan]]  
-*[[Talabaldugan|Talabaldugan (Glossary)]]
-*[[Teatro]]
-*[[Bayaning Kapampangan]]
-*[[Lakaran king Kasulung ning Kalinangan at Pamipagaral Kapampangan]]
-
-===Para kareng mag-edit===
-Nung bisa kang gawang bayung bulung: [[m:Help:Starting a new page]].
-
-[[Sandbox]].
-</div>
-</div>
+<------------------------------In the news, On this day------------------------------->
+|class="MainPageBG" style="width:45%; border:1px solid #cedff2; background:#f5faff; vertical-align:top"|
+{| width="100%" cellpadding="2" cellspacing="5" style="vertical-align:top; background:#f5faff;"
+! <h2 style="margin:0; background:#cedff2; font-size:120%; font-weight:bold; border:1px solid #a3b0bf; text-align:left; color:#000; padding:0.2em 0.4em;">In the news</h2>
+|-
+|style="color:#000;"| {{In the news}}
+|-
+! <h2 style="margin:0; background:#cedff2; font-size:120%; font-weight:bold; border:1px solid #a3b0bf; text-align:left; color:#000; padding:0.2em 0.4em;">On this day...</h2>
+|-
+|style="color:#000;"| {{Wikipedia:Selected anniversaries/{{CURRENTMONTHNAME}} {{CURRENTDAY}}}}
+|-
+|}
+|}<!--
 
 
-<div style="font-size:110%; text-align:center;">
-; Deng Wikipedia kareng amanu ning Kapulwan
-[[:ceb:|Cebuano]]&nbsp;•
-[[:tl:|Tagalog]]&nbsp;•
-[[:war:|Waray]]&nbsp;•
-[[:ilo:|Ilokano]]&nbsp;•
-[[:pag:|Pangasinan]]&nbsp;•
-[[:cbk-zam:|Chavacano de Zamboanga]]
+<------------------------------Today's featured picture------------------------------->
+{| style="border-spacing:8px; margin:-8px -8px;"
+|class="MainPageBG" style="width:100%; border:1px solid #ddcef2; background:#faf5ff; vertical-align:top; color:#000;"|
+{| cellpadding="2" cellspacing="5" style="vertical-align:top; background:#faf5ff; color:#000"
+! <h2 style="margin:0; background:#ddcef2; font-size:120%; font-weight:bold; border:1px solid #afa3bf; text-align:left; color:#000; padding:0.2em 0.4em;">Today's featured picture</h2>
+|-
+|style="color:#000;"| {{POTD protected/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}}}
+|-
+|}
+|}<!--
 
-; Deng Wikipediang maki maygit 100,000 a artikulu
-[[:en:|Ingles&nbsp;(English)]]&nbsp;•
-[[:es:|Castila&nbsp;(Español)]]&nbsp;•
-[[:it:|Italiano&nbsp;(Italiano)]]&nbsp;•
-[[:zh:|<span style="white-space: nowrap;">Mandarin (中文)</span>]]&nbsp;•
-[[:de:|Aleman&nbsp;(Deutsch)]]&nbsp;•
-[[:nl:|Dutch&nbsp;(Nederlands)]]&nbsp;•
-[[:no:|Norwegian&nbsp;(Norsk)]]&nbsp;•
-[[:pl:|Polish&nbsp;(Polski)]]&nbsp;•
-[[:pt:|Portuguese&nbsp;(Português)]]&nbsp;•
-[[:ru:|Russian&nbsp;(Русский)]]&nbsp;•
-[[:fi:|Finnish&nbsp;(Suomi)]]&nbsp;•
-[[:fr:|France&nbsp;(Français)]]&nbsp;•
-[[:sv:|Swedish&nbsp;(Svenska)]]&nbsp;•
-[[:ja:|<span style="white-space: nowrap;">Japon (日本語)</span>]]
 
-'''[[:m:Complete list of language Wikipedias available|Kumpletung listaan da reng Wikipedia kareng myayaliwang amanu]]'''
-</div>
+<-----------------------------Sections at bottom of page------------------------------>
+== Other areas of Wikipedia ==
+{{WikipediaOther}}
+== Wikipedia's sister projects ==
+{{WikipediaSister}}
+== Wikipedia languages ==
+{{Wikipedialang}}<!--
 
-<div style="text-align:center">
-==Deng aliwang proyektu==
-[[meta:|Meta-Wiki]] | [[wikt:|Wiktionary]] | [[b:|Wikibooks]] | [[n:|Wikinews]] | [[q:|Wikiquote]] | [[s:|Wikisource]] | [[commons:Pamuklat|Commons]]
-</div>
+<!--which divs to these close?:--></div></div><!--
+-->__NOTOC__  __NOEDITSECTION__<!--
 
-[[aa:]]
-[[af:]]
-[[als:]]
-[[ar:]]
-[[de:]]
-[[en:]]
-[[as:]]
-[[ast:]]
-[[ay:]]
-[[az:]]
-[[be:]]
-[[bg:]]
-[[bn:]]
-[[bo:]]
-[[bs:]]
-[[ceb:]]
-[[cs:]]
-[[co:]]
-[[cs:]]
-[[cy:]]
-[[da:]]
-[[el:]]
-[[eo:]]
-[[es:]]
-[[et:]]
-[[eu:]]
-[[fa:]]
-[[fi:]]
-[[fr:]]
-[[fy:]]
-[[ga:]]
-[[gl:]]
-[[gn:]]
-[[gu:]]
-[[he:]]
-[[hi:]]
-[[hr:]]
-[[hy:]]
-[[io:]]
-[[ia:]]
-[[id:]]
-[[is:]]
-[[it:]]
-[[ja:]]
-[[jv:]]
-[[ka:]]
-[[kk:]]
-[[km:]]
-[[kn:]]
-[[ko:]]
-[[ks:]]
-[[ku:]]
-[[ky:]]
-[[la:]]
-[[ln:]]
-[[lo:]]
-[[lt:]]
-[[lv:]]
-[[hu:]]
-[[mi:]]
-[[mk:]]
-[[ml:]]
-[[mn:]]
-[[mr:]]
-[[ms:]]
-[[mt:]]
-[[my:]]
-[[na:]]
-[[nah:]]
-[[nds:]]
-[[ne:]]
-[[nl:]]
-[[no:]]
-[[oc:]]
-[[om:]]
-[[pa:]]
-[[pl:]]
-[[ps:]]
-[[pt:]]
-[[qu:]]
-[[ro:]]
-[[ru:]]
-[[sa:]]
-[[si:]]
-[[sk:]]
-[[sl:]]
-[[sq:]]
-[[sr:]]
-[[sv:]]
-[[sw:]]
-[[ta:]]
-[[te:]]
-[[tg:]]
-[[th:]]
-[[tk:]]
-[[tl:]]
-[[tr:]]
-[[tt:]]
-[[ug:]]
-[[uk:]]
-[[ur:]]
-[[uz:]]
-[[vi:]]
-[[vo:]]
-[[xh:]]
-[[yo:]]
-[[za:]]
-[[zh:]]
-[[zu:]]
+<----------Interwiki strapline---------->
+{{MainPageInterwikis}}<!--
+
+
+<----------------------------------End of Main Page----------------------------------->
