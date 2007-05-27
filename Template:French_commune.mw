@@ -237,7 +237,7 @@
 }}
 |-
 {{#if: {{{département|<noinclude>-</noinclude>}}} |
-{{!}}colspan="2" style="border-top:solid 1px #ccd2d9; font-size:83%;line-height:150%;"{{!}} ¹ French Land Register data, which excludes lakes, ponds, glaciers &gt; 1 km² (0.386 sq. mi. or 247 acres) and river [[estuary|estuaries]].
+{{!}}colspan="2" style="border-top:solid 1px #ccd2d9; font-size:83%;line-height:150%;"{{!}} ¹ French Land Register data, nung nu ela kayabe reng danao, pitak, pinak at glaciers &gt; 1 km² (0.386 sq. mi. o 247 acres) at ilug [[estuary|estuaryo]].
 {{!}}-
 }}
 {{#if: {{{departement|<noinclude>-</noinclude>}}} |
