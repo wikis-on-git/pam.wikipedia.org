@@ -88,7 +88,7 @@
 }}
 |- {{#if: {{{Gliederung|<noinclude>x</noinclude>}}}{{{Bürgermeister|}}} | class="mergedrow" | class="mergedbottomrow" }}
 {{#if: {{{Amt|<noinclude>x</noinclude>}}} |
-{{!}} '''[[Amt (country subdivision)|Municipial assoc.]]''' {{!!}} {{#ifexist:{{{Amt}}} (Amt) | [[{{{Amt}}} (Amt)|{{{Amt}}}]] | {{#ifexist:{{{Amt}}} | [[{{{Amt}}}]] | {{{Amt}}} }} }}
+{{!}} '''[[Amt (country subdivision)|Balen a kayanib]]''' {{!!}} {{#ifexist:{{{Amt}}} (Amt) | [[{{{Amt}}} (Amt)|{{{Amt}}}]] | {{#ifexist:{{{Amt}}} | [[{{{Amt}}}]] | {{{Amt}}} }} }}
 }}
 |- {{#if: {{{Gliederung|<noinclude>x</noinclude>}}}{{{Bürgermeister|}}} | class="mergedrow" | class="mergedbottomrow" }}
 {{#if: {{{Gemeindeverwaltungsverband|<noinclude>x</noinclude>}}} |
@@ -100,7 +100,7 @@
 }}
 |- {{#if: {{{Gliederung|<noinclude>x</noinclude>}}}{{{Bürgermeister|}}} | class="mergedrow" | class="mergedbottomrow" }}
 {{#if: {{{Verbandsgemeinde|<noinclude>x</noinclude>}}} |
-{{!}} '''[[Verbandsgemeinde|Municipial assoc.]]''' {{!!}} {{#ifexist: Verbandsgemeinde {{{Verbandsgemeinde}}} | [[Verbandsgemeinde {{{Verbandsgemeinde}}}|{{{Verbandsgemeinde}}}]] | {{#ifexist: {{{Verbandsgemeinde}}} | [[{{{Verbandsgemeinde}}}]] | {{{Verbandsgemeinde}}} }} }}
+{{!}} '''[[Verbandsgemeinde|Balen a kayanib]]''' {{!!}} {{#ifexist: Verbandsgemeinde {{{Verbandsgemeinde}}} | [[Verbandsgemeinde {{{Verbandsgemeinde}}}|{{{Verbandsgemeinde}}}]] | {{#ifexist: {{{Verbandsgemeinde}}} | [[{{{Verbandsgemeinde}}}]] | {{{Verbandsgemeinde}}} }} }}
 }}
 |- {{#if: {{{Gliederung|<noinclude>x</noinclude>}}}{{{Bürgermeister|}}} | class="mergedrow" | class="mergedbottomrow" }}
 {{#if: {{{Verwaltungsgemeinschaft|<noinclude>x</noinclude>}}} |
@@ -108,7 +108,7 @@
 }}
 |- {{#if: {{{Gliederung|<noinclude>x</noinclude>}}}{{{Bürgermeister|}}} | class="mergedrow" | class="mergedbottomrow" }}
 {{#if: {{{Verwaltungsverband|<noinclude>x</noinclude>}}} |
-{{!}} '''[[Verwaltungsverband|Municipial assoc.]]''' {{!!}} {{#ifexist: Verwaltungsverband {{{Verwaltungsverband}}} | [[Verwaltungsverband {{{Verwaltungsverband}}}|{{{Verwaltungsverband}}}]] | {{#ifexist: {{{Verwaltungsverband}}} | [[{{{Verwaltungsverband}}}]] | {{{Verwaltungsverband}}} }} }}
+{{!}} '''[[Verwaltungsverband|Balen a kayanib]]''' {{!!}} {{#ifexist: Verwaltungsverband {{{Verwaltungsverband}}} | [[Verwaltungsverband {{{Verwaltungsverband}}}|{{{Verwaltungsverband}}}]] | {{#ifexist: {{{Verwaltungsverband}}} | [[{{{Verwaltungsverband}}}]] | {{{Verwaltungsverband}}} }} }}
 }}
 |- {{#if: {{{Bürgermeister|<noinclude>x</noinclude>}}} | class="mergedrow" | class="mergedbottomrow" }}
 {{#if: {{{Gliederung|<noinclude>x</noinclude>}}} |
@@ -135,7 +135,7 @@
 }}
 |- {{#if:{{{ruling_party1|<noinclude>x</noinclude>}}}|class="mergedbottomrow"}}
 {{#if:{{{ruling_party1|<noinclude>x</noinclude>}}}
-| {{!}} {{#if:{{{ruling_party2|}}} | '''[[Political party| Governing parties]]''' | '''[[Political party|Governing party]]'''}} {{!!}} {{Polparty|Germany|{{{ruling_party1}}}}} {{#if:{{{ruling_party2|}}} |/&nbsp;{{Polparty|Germany|{{{ruling_party2}}}}} }} {{#if:{{{ruling_party3|}}} |/&nbsp;{{Polparty|Germany|{{{ruling_party3}}}}} }}
+| {{!}} {{#if:{{{ruling_party2|}}} | '''[[Political party| Paritdung gugbyernu]]''' | '''[[Political party|Governing party]]'''}} {{!!}} {{Polparty|Germany|{{{ruling_party1}}}}} {{#if:{{{ruling_party2|}}} |/&nbsp;{{Polparty|Germany|{{{ruling_party2}}}}} }} {{#if:{{{ruling_party3|}}} |/&nbsp;{{Polparty|Germany|{{{ruling_party3}}}}} }}
 }}
 |- 
 {{#if: {{{Fläche|<noinclude>x</noinclude>}}}{{{Einwohner|}}}{{{Höhe|}}}{{{year|}}}
@@ -143,7 +143,7 @@
 }}
 |- {{#if: {{{area_metro|<noinclude>x</noinclude>}}}{{{Höhe|<noinclude>x</noinclude>}}} | class="mergedtoprow"}}
 {{#if: {{{Fläche|<noinclude>x</noinclude>}}} |
-{{!}} '''[[Area]]''' {{!!}} {{formatnum:{{{Fläche}}}}}&nbsp;[[km²]]&nbsp;({{formatnum:{{#expr:0{{{Fläche|}}} div 2.589988110336 round 0}}}}&nbsp;[[Square mile|sq&nbsp;mi]])
+{{!}} '''[[Lapad/Dagul]]''' {{!!}} {{formatnum:{{{Fläche}}}}}&nbsp;[[km²]]&nbsp;({{formatnum:{{#expr:0{{{Fläche|}}} div 2.589988110336 round 0}}}}&nbsp;[[Square mile|sq&nbsp;mi]])
 }}
 |- {{#if: {{{Höhe|<noinclude>x</noinclude>}}} | class="mergedrow" | class="mergedbottomrow"}}
 {{#if: {{{area_metro|<noinclude>x</noinclude>}}} |
@@ -155,14 +155,14 @@
 }}
 |- class="mergedrow" {{#time:m-Y|2007-04-25}}
 {{#if: {{{Einwohner|<noinclude>x</noinclude>}}} |
-{{!}} '''[[Population]]'''
+{{!}} '''[[Populasyun]]'''
 {{!}} {{#if: {{{pop_ref|}}}| style="vertical-align:top"}} {{!}} {{formatnum:{{{Einwohner}}}}} &nbsp;{{#if: {{{Stand|}}} | {{#switch: {{#time:n|{{{Stand}}}}}
 	| 1|2|3|4|5|6|7|8|9|10|11|12 = <small>''({{#time:d/m/Y|{{{Stand}}}}})''</small>
 	| #default = <div {{Highlight2}}>'''Please give "Stand" in YYYY-MM-DD [[Calendar date|format]] , e.&nbsp;g. 2005-12-31'''</div>}}}}{{#if: {{{pop_ref|}}}|{{{pop_ref|}}}}}{{#if: {{{pop_source|}}}|[[Category:Germany articles requiring maintenance|I]]}}
 }}
 |- class="mergedrow"
 {{#if: {{{Fläche|<noinclude>x</noinclude>}}}{{{Einwohner|<noinclude>x</noinclude>}}} |
-{{!}} &nbsp;- '''[[Population density|Density]]''' {{!!}} {{formatnum:{{#expr: 0{{{Einwohner|}}} / {{{Fläche|1}}} round 0}}}} /km²&nbsp;({{formatnum:{{#expr: 0{{{Einwohner|}}} * 2.589988110336 div {{{Fläche|1}}} round 0}}}}&nbsp;/sq&nbsp;mi)
+{{!}} &nbsp;- '''[[Population density|Pangasiksik]]''' {{!!}} {{formatnum:{{#expr: 0{{{Einwohner|}}} / {{{Fläche|1}}} round 0}}}} /km²&nbsp;({{formatnum:{{#expr: 0{{{Einwohner|}}} * 2.589988110336 div {{{Fläche|1}}} round 0}}}}&nbsp;/sq&nbsp;mi)
 }}
 |- class="mergedrow"
 {{#if: {{{pop_urban|<noinclude>x</noinclude>}}} |
@@ -176,7 +176,7 @@
 }}
 |- class="mergedbottomrow" | 
 {{#if: {{{year|<noinclude>x</noinclude>}}} |
-{{!}} '''Founded''' {{!!}} {{#ifexist:{{{year}}}|{{#ifeq:{{#expr:{{{year}}}<100}}|1|[[{{{year}}}|{{{year}}} AD]]|[[{{{year}}}]]}}|{{{year}}}}}
+{{!}} '''Mitatag''' {{!!}} {{#ifexist:{{{year}}}|{{#ifeq:{{#expr:{{{year}}}<100}}|1|[[{{{year}}}|{{{year}}} AD]]|[[{{{year}}}]]}}|{{{year}}}}}
 }}
 |-
 {{#if: {{{PLZ|<noinclude>x</noinclude>}}}{{{Vorwahl|}}}{{{Kfz|}}}{{{Website|}}} | {{!}} colspan="2" align=center style="background:#D8E2EF;" {{!}} '''Other information'''
