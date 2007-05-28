@@ -1,3 +1,6 @@
+<!-- Infobox Lakanbalen -->{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
+
+
 <includeonly>{| class="infobox geography vcard" style="width: 23em;"
 |+
 | colspan="2" align=center style="background: #D8E2EF; width:100%; font-size: 1.25em;" | '''{{#if:{{{German_name|<noinclude>x</noinclude>}}} | ''{{{German_name}}}'' <br/> }} {{#if:{{{Name|<noinclude>x</noinclude>}}}|<span class="fn org">{{{Name}}}</span>|<span class="fn org">{{PAGENAME}}</span>}}'''
