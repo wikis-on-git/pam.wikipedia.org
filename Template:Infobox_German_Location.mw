@@ -7,14 +7,14 @@
 {{#if:{{{image_photo|<noinclude>x</noinclude>}}}|
 {{!}} colspan="2" style="text-align: center; padding: 0.0em 0.0em 0.0em 0.0em;;" {{!}} [[Image:{{{image_photo|Dummy flag.png}}}|{{#if:{{{imagesize|}}}|{{{imagesize}}}|268px}}|none|{{{image_caption|}}}]] {{#if:{{{image_caption|<noinclude>x</noinclude>}}}|<small>{{{image_caption}}}</small>}}}}
 |- 
-| align="center" style="width: 50%; background:#D8E2EF;" |'''Coat of arms'''
-| align="center" style="width: 50%; background:#D8E2EF;" |'''Location'''
+| align="center" style="width: 50%; background:#D8E2EF;" |'''Sagkal ning armas'''
+| align="center" style="width: 50%; background:#D8E2EF;" |'''Karinan'''
 |- 
 | align="center" style="width: 50%; vertical-align: middle; padding: 0.2em 0.2em 0.2em 0.2em;" | {{#if: {{{Wappen|}}} | {{#switch: {{lc:{{{Wappen}}}}}
 	| none | kein | führt kein wappen.png | führt kein wappen.svg	| führt_kein_wappen.png	| führt_kein_wappen.svg = [[Image:Dummy coa.png|90px|{{{Name|{{PAGENAME}}}}} has no coat of arms]]
-	| #default = [[Image:{{{Wappen}}}|{{#ifexpr: 0{{{Wappengröße|}}} < 1 or 0{{{Wappengröße|}}} > 120 | 120 | {{{Wappengröße}}} }}x110px|Coat of arms of {{{Name|{{PAGENAME}}}}}]]
+	| #default = [[Image:{{{Wappen}}}|{{#ifexpr: 0{{{Wappengröße|}}} < 1 or 0{{{Wappengröße|}}} > 120 | 120 | {{{Wappengröße}}} }}x110px|Sagkal ning armas {{{Name|{{PAGENAME}}}}}]]
 }} | [[Image:Sin escudo.svg|90px|COA missing]]}}
-| align="center" style="width: 50%; vertical-align: top; padding: 0.2em 0.2em 0.2em 0.2em;" | {{#if: {{{Karte|}}} | [[Image:{{{Karte}}}|100x120px|Map of Germany, Position of {{{Name|{{PAGENAME}}}}} highlighted]] | {{#if: {{{lat_deg|}}} | 
+| align="center" style="width: 50%; vertical-align: top; padding: 0.2em 0.2em 0.2em 0.2em;" | {{#if: {{{Karte|}}} | [[Image:{{{Karte}}}|100x120px|Mapa ning Germany, Karinan ning {{{Name|{{PAGENAME}}}}} highlighted]] | {{#if: {{{lat_deg|}}} | 
 {{Location map|Germany
  |label = 
  |position = 
@@ -54,15 +54,15 @@
 }} }}
 }}
 |- {{#if: {{{lat_deg|<noinclude>x</noinclude>}}} | class="mergedbottomrow" }} 
-| '''[[Time zone]]''' <!-- (standard/[[Daylight saving time|DST]]} -->
+| '''[[Oras zona]]''' <!-- (standard/[[Daylight saving time|DST]]} -->
 | [[Central European Time|CET]]/[[Central European Summer Time|CEST]] ([[UTC+1]]/[[UTC+2|+2]])
 |-
-| colspan="2" align=center style="background:#D8E2EF;" | '''Administration'''
+| colspan="2" align=center style="background:#D8E2EF;" | '''Administrasyun'''
 |- class="mergedtoprow"
-! [[List of Countries|Country]]
+! [[Tala da reng bangsa|Bangsa]]
 | [[Germany]] [[Image:Flag of Germany.svg|22px]]
 |- class="mergedrow"
-| '''[[States of Germany|State]]''' || {{#if:{{{Bundesland|<noinclude>x</noinclude>}}}|{{#switch:"{{{Bundesland}}}"
+| '''[[States ning Germany|State]]''' || {{#if:{{{Bundesland|<noinclude>x</noinclude>}}}|{{#switch:"{{{Bundesland}}}"
         | "Bayern" = [[Bavaria]]
 	| "Baden-Wuerttemberg" = [[Baden-Württemberg]]
         | "Bremen" = [[Bremen (state)|Bremen]]
@@ -78,10 +78,10 @@
 }}|''Enter Bundesland''}}
 |- class="mergedrow"
 {{#if: {{{Regierungsbezirk|<noinclude>x</noinclude>}}} |
-{{!}} '''[[Regierungsbezirk|Admin. region]]''' {{!!}} {{#ifexist: {{{Regierungsbezirk}}} (region)| [[{{{Regierungsbezirk}}} (region)|{{{Regierungsbezirk}}}]] | {{#ifexist: {{{Regierungsbezirk}}} | [[{{{Regierungsbezirk}}}]] | {{{Regierungsbezirk}}} }} }}
+{{!}} '''[[Regierungsbezirk|Admin. a labuad]]''' {{!!}} {{#ifexist: {{{Regierungsbezirk}}} (region)| [[{{{Regierungsbezirk}}} (region)|{{{Regierungsbezirk}}}]] | {{#ifexist: {{{Regierungsbezirk}}} | [[{{{Regierungsbezirk}}}]] | {{{Regierungsbezirk}}} }} }}
 }}
 |- class="mergedrow"
-| '''[[Districts of Germany|District]]''' || {{#switch:{{{Art|}}} 
+| '''[[Distritu ning Germany|Distritu]]''' || {{#switch:{{{Art|}}} 
   | [[Kreisfreie Stadt|Stadt]] | Kreisfreie Stadt =  [[Urban districts of Germany|Urban district]] 
   | #default = {{#if: {{{Landkreis|{{{Kreis|}}}}}} | {{#switch: {{ucfirst:{{{Landkreis|{{{Kreis|}}}}}} }}
     | Kreisfreie Stadt | [[Kreisfreie Stadt{{!}}Stadt]] | Urban | Urban district | Stadtkreis = [[Urban districts of Germany{{!}}Urban district]]
@@ -90,19 +90,19 @@
 }}
 |- {{#if: {{{Gliederung|<noinclude>x</noinclude>}}}{{{Bürgermeister|}}} | class="mergedrow" | class="mergedbottomrow" }}
 {{#if: {{{Amt|<noinclude>x</noinclude>}}} |
-{{!}} '''[[Amt (country subdivision)|Municipial assoc.]]''' {{!!}} {{#ifexist:{{{Amt}}} (Amt) | [[{{{Amt}}} (Amt)|{{{Amt}}}]] | {{#ifexist:{{{Amt}}} | [[{{{Amt}}}]] | {{{Amt}}} }} }}
+{{!}} '''[[Amt (country subdivision)|Balen a kayanib]]''' {{!!}} {{#ifexist:{{{Amt}}} (Amt) | [[{{{Amt}}} (Amt)|{{{Amt}}}]] | {{#ifexist:{{{Amt}}} | [[{{{Amt}}}]] | {{{Amt}}} }} }}
 }}
 |- {{#if: {{{Gliederung|<noinclude>x</noinclude>}}}{{{Bürgermeister|}}} | class="mergedrow" | class="mergedbottomrow" }}
 {{#if: {{{Gemeindeverwaltungsverband|<noinclude>x</noinclude>}}} |
-{{!}} '''[[Gemeindeverwaltungsverband|Municipial assoc.]]''' {{!!}} {{#ifexist: Gemeindeverwaltungsverband {{{Gemeindeverwaltungsverband}}} | [[Gemeindeverwaltungsverband {{{Gemeindeverwaltungsverband}}}|{{{Gemeindeverwaltungsverband}}}]] | {{#ifexist: {{{Gemeindeverwaltungsverband}}} | [[{{{Gemeindeverwaltungsverband}}}]] | {{{Gemeindeverwaltungsverband}}} }} }}
+{{!}} '''[[Gemeindeverwaltungsverband|Balen a kayanib]]''' {{!!}} {{#ifexist: Gemeindeverwaltungsverband {{{Gemeindeverwaltungsverband}}} | [[Gemeindeverwaltungsverband {{{Gemeindeverwaltungsverband}}}|{{{Gemeindeverwaltungsverband}}}]] | {{#ifexist: {{{Gemeindeverwaltungsverband}}} | [[{{{Gemeindeverwaltungsverband}}}]] | {{{Gemeindeverwaltungsverband}}} }} }}
 }}
 |- {{#if: {{{Gliederung|<noinclude>x</noinclude>}}}{{{Bürgermeister|}}} | class="mergedrow" | class="mergedbottomrow" }}
 {{#if: {{{Samtgemeinde|<noinclude>x</noinclude>}}} |
-{{!}} '''[[Samtgemeinde|Municipial assoc.]]''' {{!!}} {{#ifexist: Samtgemeinde {{{Samtgemeinde}}} | [[Samtgemeinde {{{Samtgemeinde}}}|{{{Samtgemeinde}}}]] | {{#ifexist: {{{Samtgemeinde}}} | [[{{{Samtgemeinde}}}]]|{{{Samtgemeinde}}}}} }}
+{{!}} '''[[Samtgemeinde|Balen a kayanib]]''' {{!!}} {{#ifexist: Samtgemeinde {{{Samtgemeinde}}} | [[Samtgemeinde {{{Samtgemeinde}}}|{{{Samtgemeinde}}}]] | {{#ifexist: {{{Samtgemeinde}}} | [[{{{Samtgemeinde}}}]]|{{{Samtgemeinde}}}}} }}
 }}
 |- {{#if: {{{Gliederung|<noinclude>x</noinclude>}}}{{{Bürgermeister|}}} | class="mergedrow" | class="mergedbottomrow" }}
 {{#if: {{{Verbandsgemeinde|<noinclude>x</noinclude>}}} |
-{{!}} '''[[Verbandsgemeinde|Municipial assoc.]]''' {{!!}} {{#ifexist: Verbandsgemeinde {{{Verbandsgemeinde}}} | [[Verbandsgemeinde {{{Verbandsgemeinde}}}|{{{Verbandsgemeinde}}}]] | {{#ifexist: {{{Verbandsgemeinde}}} | [[{{{Verbandsgemeinde}}}]] | {{{Verbandsgemeinde}}} }} }}
+{{!}} '''[[Verbandsgemeinde|Balen a kayanib]]''' {{!!}} {{#ifexist: Verbandsgemeinde {{{Verbandsgemeinde}}} | [[Verbandsgemeinde {{{Verbandsgemeinde}}}|{{{Verbandsgemeinde}}}]] | {{#ifexist: {{{Verbandsgemeinde}}} | [[{{{Verbandsgemeinde}}}]] | {{{Verbandsgemeinde}}} }} }}
 }}
 |- {{#if: {{{Gliederung|<noinclude>x</noinclude>}}}{{{Bürgermeister|}}} | class="mergedrow" | class="mergedbottomrow" }}
 {{#if: {{{Verwaltungsgemeinschaft|<noinclude>x</noinclude>}}} |
@@ -110,12 +110,12 @@
 }}
 |- {{#if: {{{Gliederung|<noinclude>x</noinclude>}}}{{{Bürgermeister|}}} | class="mergedrow" | class="mergedbottomrow" }}
 {{#if: {{{Verwaltungsverband|<noinclude>x</noinclude>}}} |
-{{!}} '''[[Verwaltungsverband|Municipial assoc.]]''' {{!!}} {{#ifexist: Verwaltungsverband {{{Verwaltungsverband}}} | [[Verwaltungsverband {{{Verwaltungsverband}}}|{{{Verwaltungsverband}}}]] | {{#ifexist: {{{Verwaltungsverband}}} | [[{{{Verwaltungsverband}}}]] | {{{Verwaltungsverband}}} }} }}
+{{!}} '''[[Verwaltungsverband|Balen a kayanib]]''' {{!!}} {{#ifexist: Verwaltungsverband {{{Verwaltungsverband}}} | [[Verwaltungsverband {{{Verwaltungsverband}}}|{{{Verwaltungsverband}}}]] | {{#ifexist: {{{Verwaltungsverband}}} | [[{{{Verwaltungsverband}}}]] | {{{Verwaltungsverband}}} }} }}
 }}
 |- {{#if: {{{Bürgermeister|<noinclude>x</noinclude>}}} | class="mergedrow" | class="mergedbottomrow" }}
 {{#if: {{{Gliederung|<noinclude>x</noinclude>}}} |
 {{!}} {{#switch: {{{Art|}}}
-	| <!-- empty --> = '''Local subdivisions'''
+	| <!-- empty --> = '''Local a pangadake'''
 	| Ortsgemeinde | Gemeinde | Municipality | municipality = = '''Municipal subdivisions'''
 	| Amt | Gemeindeverwaltungsverband | Samtgemeinde | Verbandsgemeinde | Verwaltungsgemeinschaft | Verwaltungsverband = '''Composition'''
         | Stadt | Kreisfreie Stadt | [[Kreisfreie Stadt|Stadt]] | City | city = {{#ifexpr:{{{Einwohner|0}}} > 100000 | '''City subdivisions''' | '''Town subdivisions'''}}
@@ -137,7 +137,7 @@
 }}
 |- {{#if:{{{ruling_party1|<noinclude>x</noinclude>}}}|class="mergedbottomrow"}}
 {{#if:{{{ruling_party1|<noinclude>x</noinclude>}}}
-| {{!}} {{#if:{{{ruling_party2|}}} | '''[[Political party| Governing parties]]''' | '''[[Political party|Governing party]]'''}} {{!!}} {{Polparty|Germany|{{{ruling_party1}}}}} {{#if:{{{ruling_party2|}}} |/&nbsp;{{Polparty|Germany|{{{ruling_party2}}}}} }} {{#if:{{{ruling_party3|}}} |/&nbsp;{{Polparty|Germany|{{{ruling_party3}}}}} }}
+| {{!}} {{#if:{{{ruling_party2|}}} | '''[[Political party| Paritdung gugbyernu]]''' | '''[[Political party|Governing party]]'''}} {{!!}} {{Polparty|Germany|{{{ruling_party1}}}}} {{#if:{{{ruling_party2|}}} |/&nbsp;{{Polparty|Germany|{{{ruling_party2}}}}} }} {{#if:{{{ruling_party3|}}} |/&nbsp;{{Polparty|Germany|{{{ruling_party3}}}}} }}
 }}
 |- 
 {{#if: {{{Fläche|<noinclude>x</noinclude>}}}{{{Einwohner|}}}{{{Höhe|}}}{{{year|}}}
@@ -145,7 +145,7 @@
 }}
 |- {{#if: {{{area_metro|<noinclude>x</noinclude>}}}{{{Höhe|<noinclude>x</noinclude>}}} | class="mergedtoprow"}}
 {{#if: {{{Fläche|<noinclude>x</noinclude>}}} |
-{{!}} '''[[Area]]''' {{!!}} {{formatnum:{{{Fläche}}}}}&nbsp;[[km²]]&nbsp;({{formatnum:{{#expr:0{{{Fläche|}}} div 2.589988110336 round 0}}}}&nbsp;[[Square mile|sq&nbsp;mi]])
+{{!}} '''[[Lapad/Dagul]]''' {{!!}} {{formatnum:{{{Fläche}}}}}&nbsp;[[km²]]&nbsp;({{formatnum:{{#expr:0{{{Fläche|}}} div 2.589988110336 round 0}}}}&nbsp;[[Square mile|sq&nbsp;mi]])
 }}
 |- {{#if: {{{Höhe|<noinclude>x</noinclude>}}} | class="mergedrow" | class="mergedbottomrow"}}
 {{#if: {{{area_metro|<noinclude>x</noinclude>}}} |
@@ -157,14 +157,14 @@
 }}
 |- class="mergedrow" {{#time:m-Y|2007-04-25}}
 {{#if: {{{Einwohner|<noinclude>x</noinclude>}}} |
-{{!}} '''[[Population]]'''
+{{!}} '''[[Populasyun]]'''
 {{!}} {{#if: {{{pop_ref|}}}| style="vertical-align:top"}} {{!}} {{formatnum:{{{Einwohner}}}}} &nbsp;{{#if: {{{Stand|}}} | {{#switch: {{#time:n|{{{Stand}}}}}
 	| 1|2|3|4|5|6|7|8|9|10|11|12 = <small>''({{#time:d/m/Y|{{{Stand}}}}})''</small>
 	| #default = <div {{Highlight2}}>'''Please give "Stand" in YYYY-MM-DD [[Calendar date|format]] , e.&nbsp;g. 2005-12-31'''</div>}}}}{{#if: {{{pop_ref|}}}|{{{pop_ref|}}}}}{{#if: {{{pop_source|}}}|[[Category:Germany articles requiring maintenance|I]]}}
 }}
 |- class="mergedrow"
 {{#if: {{{Fläche|<noinclude>x</noinclude>}}}{{{Einwohner|<noinclude>x</noinclude>}}} |
-{{!}} &nbsp;- '''[[Population density|Density]]''' {{!!}} {{formatnum:{{#expr: 0{{{Einwohner|}}} / {{{Fläche|1}}} round 0}}}} /km²&nbsp;({{formatnum:{{#expr: 0{{{Einwohner|}}} * 2.589988110336 div {{{Fläche|1}}} round 0}}}}&nbsp;/sq&nbsp;mi)
+{{!}} &nbsp;- '''[[Population density|Pangasiksik]]''' {{!!}} {{formatnum:{{#expr: 0{{{Einwohner|}}} / {{{Fläche|1}}} round 0}}}} /km²&nbsp;({{formatnum:{{#expr: 0{{{Einwohner|}}} * 2.589988110336 div {{{Fläche|1}}} round 0}}}}&nbsp;/sq&nbsp;mi)
 }}
 |- class="mergedrow"
 {{#if: {{{pop_urban|<noinclude>x</noinclude>}}} |
@@ -178,7 +178,7 @@
 }}
 |- class="mergedbottomrow" | 
 {{#if: {{{year|<noinclude>x</noinclude>}}} |
-{{!}} '''Founded''' {{!!}} {{#ifexist:{{{year}}}|{{#ifeq:{{#expr:{{{year}}}<100}}|1|[[{{{year}}}|{{{year}}} AD]]|[[{{{year}}}]]}}|{{{year}}}}}
+{{!}} '''Mitatag''' {{!!}} {{#ifexist:{{{year}}}|{{#ifeq:{{#expr:{{{year}}}<100}}|1|[[{{{year}}}|{{{year}}} AD]]|[[{{{year}}}]]}}|{{{year}}}}}
 }}
 |-
 {{#if: {{{PLZ|<noinclude>x</noinclude>}}}{{{Vorwahl|}}}{{{Kfz|}}}{{{Website|}}} | {{!}} colspan="2" align=center style="background:#D8E2EF;" {{!}} '''Other information'''
@@ -205,8 +205,8 @@
 	| <!-- blank --> = 
 	| Amt | Gemeindeverwaltungsverband | Verwaltungsverband = {{#if: {{{Name|}}} | the {{{Art}}} | of }}
 	| Samtgemeinde | Verbandsgemeinde | Verwaltungsgemeinschaft = {{#if: {{{Name|}}} | the {{{Art}}} | of }}
-        | Stadt | Town = the town of
-        | Großstadt | City = the city of
+        | Stadt | Balen = the town of
+        | Großstadt | Lakanbalen = the city of
         | Kreisfreie Stadt | Stadtteil | Stadtsbezirk | Suburb | Ward | Borrough = 
 	| #default = {{#if: {{{Art|}}} | the {{lc:{{{Art}}}}} of}}
 }} {{#if: {{{Name|<noinclude>x</noinclude>}}} | {{{Name}}} | {{PAGENAME}} }} {{#if: {{{City|{{{Town|}}}}}} | within {{{City|{{{Town|}}}}}} | {{#if: {{{Kreis|{{{Landkreis|}}}}}} | within {{#switch: {{ucfirst:{{{Landkreis|{{{Kreis|}}}}}} }}
