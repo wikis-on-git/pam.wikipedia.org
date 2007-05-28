@@ -1,42 +1,41 @@
-{{German commune
-|native_name = Frankfurt am Main
-|common_name = Frankfurt
-|image = [[Image:Skyline Frankfurt am Main.jpg|180px]]
-|caption = Skyline
-|image_flag = 
-|image_flag_size = 
-|image_coat_of_arms = Wappen-frankfurt.png
-|image_coat_of_arms_size = 120px
-|flag_legend = 
-|Coat_of_arms_legend = City coat of arms
-|city_motto = ''Stark im Recht''<br /><small>([[German]])
-|image_map = Karte frankfurt am main in deutschland.png
-|x = 
-|y = 
-|time zone = CET <small>(GMT +1)</small>
-|lat_long = {{coor dms|50|7|N|8|41|E|type:city(2144700)_region:DE}}
-|region = [[Hesse]]
-|departement = Frankfurt
-|mayor = [[Petra Roth]] 
-|party = [[CDU]]
-|mandat = 
-|subdivisions_entry = [[Subdivision|<font color=#000000>Subdivisions</font>]]
-|subdivisions = 
-|area = 248,31 km²
-|date-population =2006 
-|population = 661.877
-|population-ranking=5st in Germany
-|date-density = 2006<ref name="area" />
-|density = 2665 
-|UU-area = 
-|UU-area-date = 
-|UU-pop = 
-|UU-pop-date =
-|AU-area = 
-|AU-area-date = 
-|AU-pop = 
-|AU-pop-date =
-}}
+{{pp-semi}}
+{{Infobox German Location
+|Name               = Frankfurt am Main
+|Art                = City
+|image_photo        = Frankfurtnight.JPG
+|image_caption      = The skyline of Frankfurt at dusk
+|Wappen             = Wappen-frankfurt.png
+|lat_deg            = 50 | lat_min = 6 | lat_sec = 37
+|lon_deg            = 8 | lon_min = 40 | lon_sec = 56
+|Lageplan           = Hessen F.png
+|Lageplanbeschreibung = <!-- Description of image "Lageplan" Default: "Location of XX" -->
+|Bundesland         = Hesse
+|Regierungsbezirk   = Darmstadt
+|Landkreis          = urban
+|Höhe               = 112
+|Fläche             = 248.31
+|Einwohner          = 661877
+|Stand              = 2006-12-31
+|pop_ref            = <ref name="city_pop_2006"/><ref name="urban_area_pop"/>
+|pop_metro          = 1468140
+|pop_metro_date     = 2000-12-31
+|PLZ                = 60001-60599, 65901-65936
+|PLZ-alt            = 6000, 6230
+|Vorwahl            = 069, 06109, 06101
+|Kfz                = F
+|Gemeindeschlüssel  = 06 4 12 000
+|NUTS               = DE712
+|LOCODE             = DE FRA
+|Gliederung         = 46 districts
+|Website            = [http://www.frankfurt.de/ www.frankfurt.de]
+|Bürgermeister      = [[Petra Roth]]
+|Bürgermeistertitel = [[List of mayors of Frankfurt|Lord Mayor]]
+|Partei             = CDU
+|ruling_party1      = CDU
+|ruling_party2      = Green
+|year               = 1st century
+}} {{CoorHeader|50|7|00|N|8|41|00|E|type:city(648325)_region:DE-HE}}
+{{otheruses}}
 
 
 
