@@ -1,0 +1,20 @@
+<noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+
+This is an auxiliary [[Help:Template|template]] that allows one to encode "<code>|</code>" (pipe or [[vertical bar]]) within template parameters.  If it is '''unnecessary''' to get a "<code>|</code>", it is better to use "<code>&amp;#124;</code>".  However the "<code>|</code>" delimiter for a [[Wikipedia:How to use tables|Wiki table]] has to be escaped by a template if it is used within a template.
+
+==Notes==
+There is no such problem with "<code>!</code>" (exclamation mark).  This problem only affects "<code>|</code>" (vertical bar) in conjunction with the [[m:Help:Parameter default]] mechanism within tables.
+
+This template cannot be [[Wikipedia:Template substitution|substituted]].
+
+==See also==
+*[[Wikipedia:Qif conditionals]]
+*[[Template:!]]
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Template namespace templates|{{PAGENAME}}]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+</includeonly>
