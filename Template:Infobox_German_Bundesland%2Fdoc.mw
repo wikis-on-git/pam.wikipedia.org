@@ -1,0 +1,48 @@
+'''Infobox for the states (''Bundeslaender'') of Germany'''
+
+Test page showing all 16 states at [[Template:Infobox German Bundesland/Test states]]
+
+
+==NOTE==
+
+Please do not modify the default map size without checking that the maps for all 16 states will be displayed (check above link after making any changes). The SVG maps used for most entries are very sensitive to display size.
+
+==Blank template==
+<pre>{{Infobox German Bundesland
+|Name               = <!-- Only when different from the article name -->
+|German_name        = <!-- Only when different from the English name -->
+|image_photo        = <!-- Representative photo of location - only use for Berlin and Hamburg -->
+|imagesize          = <!-- Photo size. Default is 250px -->
+|image_caption      = <!-- Photo caption -->
+|state_coa          = <!-- Coat of arms image -->
+|coa_size           = <!-- Size of COA image - Only if smaller than 140 -->
+|coa_link           = <!-- Separate article describing coat of arms. No wikilinking. -->
+|lat_deg            = 56 | lat_min = 0 | lat_sec = 0
+|lon_deg            = 16 | lon_min = 0 | lon_sec = 0
+   <!-- Only use co-ordinates for Berlin and Hamburg -->
+|map                = <!-- Location map within Germany -->
+|capital            = <!-- Capital city - do not use for Berlin and Hamburg -->
+|area               = <!-- Area, in km2. XXX.XX (no commas or other text) -->
+|area_source        = <!-- Reference for area source, including <ref>-tags -->
+|population         = <!-- Population (no commas or other text)-->
+|pop_date           = <!-- Date of population count, in format YYYY-MM-DD -->
+|pop_ref            = <!-- Reference for population source, including <ref>-tags -->
+|GDP                = <!-- Gross domestic product, in billions of Euros (number only) -->
+|GDP_date           = <!-- Year for GDP estiamte -->
+|GDP_percent        = <!-- Percentage of total German GDP coming from this state (number only) -->
+|PLZ                = <!-- Postcode(s) XXXXX–XXXXX (only use for city-states) -->
+|Vorwahl            = <!-- Telephone area code (only use for city-states) -->
+|Kfz                = <!-- Licence plate code (only use for city-states) -->
+|NUTS               = <!-- NUTS value: DEXXX -->
+|LOCODE             = <!-- UN/LOCODE value: "DE XXX"  -->
+|Website            = <!-- [http://www.samplestate.de/ www.samplestate.de] -->
+|leader             = <!-- Head of state government -->
+|leader_title       = <!-- Only when different from [[Minister-president|Prime Minister]] -->
+|leader_party       = <!-- Leader's politcal party - give abbreviation (SPD,CDU,CSU,FDP,PDS,Green) -->
+|ruling_party1      = <!-- Leading political party currently in power - give abbreviations -->
+|ruling_party2      = <!-- 2nd ruling political party - give abbreviations -->
+|ruling_party3      = <!-- 3rd ruling political party - give abbreviations -->
+}}</pre>
+
+==Microformat==
+{{UF-hcard-place}}
