@@ -1,0 +1,110 @@
+{{#switch: {{ucfirst:{{{1}}}}}
+    | Australia | [[Australia]] = {{#switch: {{uc:{{{2}}}}}
+        | ALP = [[Australian Labor Party|ALP]]
+        | CLP = [[Country Liberal Party|CLP]]
+        | LP = [[Liberal Party of Australia|Lib.]]
+	| #default = {{#switch: {{ucfirst: {{{2}}} }}
+            | Democrats | Dem = [[Australian Democrats|Dem.]]
+            | Greens | Green = [[Australian Greens|Greens]]
+            | Labor | Lab = [[Australian Labor Party|ALP]]
+            | Liberal | Lib = [[Liberal Party of Australia|Lib.]]
+            | National | Nat = [[National Party of Australia|Nat.]]
+            | Independent | Ind | Neutral = [[Independent (politician)|Ind.]]
+	    | #default = {{{2}}} }}
+     }}
+    | Czechia | [[Czech Republic]] = {{#switch: {{uc:{{{2}}}}}
+        | ODS = [[Civic Democratic Party|ODS]]
+        | CSSD = [[Czech Social Democratic Party|ČSSD]]
+        | KSCM = [[Communist Party of Bohemia and Moravia|KSČM]]
+        | KDU-CSL = [[Christian and Democratic Union – Czechoslovak People's Party|KDU-ČSL]]
+        | SZ = [[Green Party (Czech Republic)|Greens]]
+        | US-DEU = [[Freedom Union–Democratic Union|US-DEU]]
+        | LIRA = [[Liberal Reform Party|LIRA]]
+        | SNK = [[SNK European Democrats|SNK ED]]
+        | NEZDEM = [[Independent Democrats (Czech Republic)|Ind. Dem.]]
+	| #default = {{#switch: {{ucfirst: {{{2}}} }}
+            | Independent | Ind | Neutral = [[Independent (politician)|Ind.]]
+	    | #default = {{{2}}} }}
+     }}
+    | Germany | [[Germany]] = {{#switch: {{uc:{{{2}}}}}
+	| CDU = [[Christian Democratic Union (Germany)|CDU]]
+	| CSU = [[Christian Social Union of Bavaria|CSU]]
+	| SPD = [[Social Democratic Party of Germany|SPD]]
+        | FDP = [[Free Democratic Party (Germany)|FDP]]
+        | PDS = [[Left Party (Germany)|Left.PDS]]
+        | FW |FWG  = [[Freie Wähler|FW]]
+        | DDP  = [[German Democratic Party|DDP]]
+        | NS | NSDAP  = [[Nazi Party|NSDAP]]
+	| #default = {{#switch: {{ucfirst: {{{2}}} }}
+            | Green | Greens | Grün | Grüne = [[Alliance '90/The Greens|Greens]]
+            | Freie Wähler | Freie wähler = [[Freie Wähler|FW]]
+            | Centre | Zentrum = [[Centre Party (Germany)|Centre]]
+            | Nazi = [[Nazi Party|NSDAP]]
+            | Independent | Ind | Neutral | Parteilos | [[Parteilos]] | [[parteilos]] = [[Independent (politician)|Ind.]]
+	    | #default = {{{2}}} }}
+      }}
+    | Netherlands | [[Netherlands]] | The Netherlands | [[The Netherlands]] | Holland | NL = {{#switch: {{uc:{{{2}}}}}
+	| CDA = [[Christian Democratic Appeal|CDA]]
+	| CU  = [[ChristianUnion|CU]]
+	| D66 = [[Democrats 66|D66]]
+	| GL  = [[GreenLeft|GL]]
+	| PVV = [[Party for Freedom|PVV]]
+        | SGP = [[Reformed Political Party|SGP]]
+        | SP  = [[Socialist Party (Netherlands)|SP]]
+        | VVD = [[People's Party for Freedom and Democracy|VVD]]
+	| #default = {{#switch: {{ucfirst: {{{2}}} }}
+            | Green | Groen = [[GreenLeft|GL]]
+            | PvdA | Pvda = [[Labour Party (Netherlands)|PvdA]]
+            | Independent | Ind | Neutral | Parteilos | [[Parteilos]] | [[parteilos]] = [[Independent (politician)|Ind.]]
+	    | #default = {{{2}}} }}
+      }}
+    | United States | [[United States]] | USA | [[USA]] = {{#switch: {{uc:{{{2}}}}}
+        | D | Democrat = [[Democratic Party (United States)|D]]
+        | R | Republican = [[Republican Party (United States)|R]]
+	| #default = {{#switch: {{ucfirst: {{{2}}} }}
+            | Democrat = [[Democratic Party (United States)|D]]
+            | Republican = [[Republican Party (United States)|R]]
+            | Independent | Ind | Neutral = [[Independent (politician)|Ind.]]
+            | #default = {{{2}}} }}
+      }}
+    | Independent | [[Independent]] | Ind | Ind. | Neutral = [[Independent (politician)|Ind.]]
+    | #default = {{#switch: {{ucfirst: {{{2}}} }}
+            | Independent | Ind | Neutral = [[Independent (politician)|Ind.]]
+            | #default = {{{2|{{{1|}}}}}} }}
+}}<noinclude>__notoc__
+Given a country and a political party, this template will give an abbreviation that links to the entry on that party.
+
+==Usage==
+<nowiki>{{Polparty|country_name|political_party}}</nowiki>
+
+*''country_name'': Name of country (common name or abbreviation), with or without Wikilinking.
+*''political_party'': Name, abbreviation or acronym of politcal party
+
+===Examples===
+#<nowiki>{{Polparty|Australia|Labor}} = [[Australian Labor Party|ALP]]</nowiki>
+#<nowiki>{{Polparty|[[Germany]]|FDP}} = [[Free Democratic Party (Germany)|FDP]]</nowiki>
+#<nowiki>{{Polparty|USA|D}} = [[Democratic Party (United States)|D]]</nowiki>
+#<nowiki>{{Polparty|Czechia|KDU-CSL}} = [[Christian and Democratic Union – Czechoslovak People's Party|KDU-ČSL]]</nowiki>
+#<nowiki>Special case: {{Polparty|Independent}} = [[Independent (politician)|Ind.]]</nowiki>
+
+===Still under construction===
+Most countries are not yet covered.
+
+Do <font color=red>NOT</font> substitute this template at this time, it transludes the entire #switch construction instead of just the link you want.
+
+When adding entries within the template, list countries in alphabetical order. Give wikilinked and non-wikilinked names, as well as any possible abbreviations (eg. United States, USA). 
+
+Each country contains 2 switch groups: one for acronyms, another for non-acronyms. This second group should always end with the Independent and default options. 
+
+==Countries Currently Supported==
+*Australia
+*Czechia (acronyms without diacritics)
+*Germany
+*The Netherlands
+*USA
+
+==Infoboxes using this template==
+*{{tl|Infobox City}}
+*{{tl|Infobox German Location}}
+*{{tl|Infobox German Bundesland}}
+</noinclude>
