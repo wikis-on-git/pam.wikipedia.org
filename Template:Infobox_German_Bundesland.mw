@@ -8,8 +8,8 @@
 {{!-}} 
 {{!}} colspan="2" style="text-align: center; padding: 0.0em 0.0em 0.0em 0.0em;;" {{!}} [[Image:{{{image_photo|Dummy flag.png}}}|{{{image_size|270}}}px]] {{#if:{{{image_caption|}}} | <br/><small>{{{image_caption}}}</small> }} }}
 |-
-| align="center" style="width: 50%; background:#D8E2EF;" {{!}} '''Flag'''
-| align="center" style="width: 50%; background:#D8E2EF;" {{!}} '''Coat of arms'''
+| align="center" style="width: 50%; background:#D8E2EF;" {{!}} '''Bandera'''
+| align="center" style="width: 50%; background:#D8E2EF;" {{!}} '''Sagkal ning armas'''
 |-
 | colspan="2" class="maptable" |
 {| width=100% style="text-align:center; margin:0 auto; background:none;"
@@ -26,12 +26,12 @@
 {{coor|{{{lat_deg|1}}}{{#if: {{{lat_min|}}} | _{{{lat_min}}} }}{{#if: {{{lat_sec|}}} | _{{{lat_sec}}} }}_N_{{{lon_deg|1}}}{{#if: {{{lon_min|}}} | _{{{lon_min}}} }}{{#if: {{{lon_sec|}}} | _{{{lon_sec}}} }}_E_type:city_region:DE |{{#expr: ({{{lat_deg|1}}} * 60 + {{{lat_min|0}}} + {{{lat_sec|0}}} / 60 round 0) / 60 - 0.5 round 0 }}°&nbsp;{{#expr: ({{{lat_deg|1}}} * 60 + {{{lat_min|0}}} + {{{lat_sec|0}}} / 60 round 0) - (({{{lat_deg|1}}} * 60 + {{{lat_min|0}}} + {{{lat_sec|0}}} / 60 round 0) / 60 - 0.5 round 0) * 60 }}′&nbsp;N, {{#expr: ({{{lon_deg|1}}} * 60 + {{{lon_min|0}}} + {{{lon_sec|0}}} / 60 round 0) / 60 - 0.5 round 0 }}°&nbsp;{{#expr: ({{{lon_deg|1}}} * 60 + {{{lon_min|0}}} + {{{lon_sec|0}}} / 60 round 0) - (({{{lon_deg|1}}} * 60 + {{{lon_min|0}}} + {{{lon_sec|0}}} / 60 round 0) / 60 - 0.5 round 0) * 60 }}′&nbsp;E}}
 | }} }}
 |- {{#if: {{{lat_deg|<noinclude>x</noinclude>}}} | class="mergedbottomrow"}}
-| '''[[Time zone]]''' <!-- (standard/[[Daylight saving time|DST]]} -->
+| '''[[Oras zona]]''' <!-- (standard/[[Daylight saving time|DST]]} -->
 | [[Central European Time|CET]]/[[Central European Summer Time|CEST]] ([[UTC+1]]/[[UTC+2|+2]])
 |- 
 | colspan="2" align=center style="background:#D8E2EF;" | '''Administration''' 
 |- class="mergedtoprow adr"
-| '''[[List of Countries|Country]]'''
+| '''[[Tala da ring bangsa|Bangsa]]'''
 | <span class="country-name">[[Germany]]</span> [[Image:Flag of Germany.svg|22px]]
 |- class="mergedrow"
 {{#if: {{{NUTS|<noinclude>x</noinclude>}}} |
@@ -46,20 +46,20 @@
 {{!}}'''[[Capital city|Capital]]''' {{!!}} {{#ifexist: {{{capital}}}|[[{{{capital}}}]]|{{{capital}}}}} 
 }}
 |- class="mergedrow"
-| '''{{#ifexist: {{{leader_title}}} | [[{{{leader_title}}}]] | {{#if: {{{leader_title|}}} | {{{leader_title}}} | [[Minister-President]] }} }}''' 
+| '''{{#ifexist: {{{leader_title}}} | [[{{{leader_title}}}]] | {{#if: {{{leader_title|}}} | {{{leader_title}}} | [[Ministru-Pamuntuk]] }} }}''' 
 | {{#ifexist: {{{leader}}}|[[{{{leader}}}]]|{{{leader}}}}} ({{Polparty|Germany|{{{leader_party}}}}}) 
 |- class="mergedrow"
 {{#if:{{{ruling_party1|<noinclude>x</noinclude>}}}| {{!}} '''{{#if:{{{ruling_party2|<noinclude>x</noinclude>}}} | [[Political party|Governing parties]] | [[Political party|Governing party]]'''}} {{!!}} {{Polparty|Germany|{{{ruling_party1}}}}} {{#if:{{{ruling_party2|<noinclude>x</noinclude>}}} |/&nbsp;{{Polparty|Germany|{{{ruling_party2}}}}} }} {{#if:{{{ruling_party3|<noinclude>x</noinclude>}}} |/&nbsp;{{Polparty|Germany|{{{ruling_party3}}}}} }}
 }}
 |- class="mergedbottomrow"
 {{#if: {{{votes|<noinclude>x</noinclude>}}} |
-{{!}} '''[[Bundesrat of Germany|Votes in Bundesrat]]''' {{!!}}  {{{votes}}} (from 69)
+{{!}} '''[[Bundesrat of Germany|Alal king Bundesrat]]''' {{!!}}  {{{votes}}} (from 69)
 }}  
 |- 
 | colspan="2" align=center style="background:#D8E2EF;" | '''Basic statistics''' 
 |- class="mergedtoprow" 
 {{#if: {{{area|<noinclude>x</noinclude>}}} |
-{{!}} '''[[Area]]'''&nbsp;{{#if: {{{area_source|}}}|{{{area_source|}}}}} {{!!}} {{formatnum:{{#expr:0{{{area|}}} round 0}}}}&nbsp;[[km²]]&nbsp;({{formatnum:{{#expr:0{{{area|}}} div 2.589988110336 round 0}}}}&nbsp;[[Square mile|sq&nbsp;mi]])
+{{!}} '''[[Lapad/Dagul]]'''&nbsp;{{#if: {{{area_source|}}}|{{{area_source|}}}}} {{!!}} {{formatnum:{{#expr:0{{{area|}}} round 0}}}}&nbsp;[[km²]]&nbsp;({{formatnum:{{#expr:0{{{area|}}} div 2.589988110336 round 0}}}}&nbsp;[[Square mile|sq&nbsp;mi]])
 }}
 |- class="mergedrow"
 {{#if: {{{area_metro|<noinclude>x</noinclude>}}} |
@@ -67,16 +67,16 @@
 }}
 |- class="mergedrow"
 {{#if: {{{elevation|<noinclude>x</noinclude>}}} |
-{{!}} &nbsp;- '''[[Elevation]]''' {{!!}} {{formatnum:{{{elevation}}}}}&nbsp;m {{#ifexpr: 0{{{elevation|}}} <0 | | &nbsp;({{#expr: 0{{{elevation|}}} * 3.2808399 round 0}}&nbsp;ft)}} <!-- &nbsp;above [[sea level]] -->
+{{!}} &nbsp;- '''[[Katas]]''' {{!!}} {{formatnum:{{{elevation}}}}}&nbsp;m {{#ifexpr: 0{{{elevation|}}} <0 | | &nbsp;({{#expr: 0{{{elevation|}}} * 3.2808399 round 0}}&nbsp;ft)}} <!-- &nbsp;above [[sea level]] -->
 }}
 |- class="mergedrow"
-| {{#if: {{{pop_ref|}}}| style="vertical-align:bottom"}} | '''[[Population]]''' 
+| {{#if: {{{pop_ref|}}}| style="vertical-align:bottom"}} | '''[[Populasyun]]''' 
 | {{#ifexpr: 0{{{population|}}} > 0 and 0{{{population|}}} < 10000 | {{#expr:{{{population}}} round 0}} | {{formatnum:{{{population}}}}} }}&nbsp;{{#if: {{{pop_date|}}} | {{#switch: {{#time:n|{{{pop_date}}}}}
 	| 1|2|3|4|5|6|7|8|9|10|11|12 = <small>''({{#time:m/Y|{{{pop_date}}}}})''</small>
 	| #default = <div {{Highlight2}}>'''Please give "pop_date" in YYYY-MM-DD [[Calendar date|format]] , e.&nbsp;g. 2005-12-31'''</div>}}}}{{#if: {{{pop_ref|}}}|{{{pop_ref|}}}}}
 |- {{#if: {{{pop_urban|<noinclude>x</noinclude>}}}{{{pop_metro|<noinclude>x</noinclude>}}}| class="mergedrow" | class="mergedbottomrow"}}
 {{#if: {{{area|<noinclude>x</noinclude>}}} |
-{{!}} &nbsp;- '''[[Population density|Density]]''' {{!!}} {{formatnum:{{#expr: 0{{{population|}}} / {{{area|1}}} round 0}}}} /km²&nbsp;({{formatnum:{{#expr: 0{{{population|}}} * 2.589988110336 div {{{area|1}}} round 0}}}}&nbsp;/sq&nbsp;mi) 
+{{!}} &nbsp;- '''[[Population density|Pangasiksik]]''' {{!!}} {{formatnum:{{#expr: 0{{{population|}}} / {{{area|1}}} round 0}}}} /km²&nbsp;({{formatnum:{{#expr: 0{{{population|}}} * 2.589988110336 div {{{area|1}}} round 0}}}}&nbsp;/sq&nbsp;mi) 
 }}
 |- class="mergedrow"
 {{#if: {{{pop_urban|<noinclude>x</noinclude>}}} |
@@ -96,7 +96,7 @@
 }}  	
 |- class="mergedrow" 
 {{#if: {{{PLZ|<noinclude>x</noinclude>}}} | 	 
-{{!}} '''[[List of postal codes in Germany|Postal codes]]''' {{!!}} {{{PLZ}}} 	 
+{{!}} '''[[List of postal codes in Germany|Sulat kodiku]]''' {{!!}} {{{PLZ}}} 	 
 }} 	 
 |- class="mergedrow" 
 {{#if: {{{Vorwahl|<noinclude>x</noinclude>}}} | 	 
