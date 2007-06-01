@@ -1,0 +1,20 @@
+{{Navbox generic
+| name  = Tumors
+| title = [[Pathology]]: [[Tumor]]s, [[neoplasia]], and [[oncology]] ([[ICD-10 Chapter II: Neoplasms; Chapter III: Diseases of the blood and blood-forming organs, and certain disorders involving the immune mechanism|C00-D48]])
+| style = 
+| color = Silver
+| group-style = background-color: LightGray
+| even-style  = background:#eee;
+| group1 = Benign tumors
+|  list1 = [[Hyperplasia|Hyperplastic tumor]] - [[Cyst]] - [[Pseudocyst]] - [[Hamartoma]] - [[Benign|Benign neoplasm]]
+| group2 = Malignant progression
+|  list2 = [[Dysplasia]] - [[Carcinoma in situ]] - [[Cancer|Invasive cancer]] - [[Metastasis]]
+| group3 = Topography
+|  list3 = [[Anal cancer|Anus]] - [[Bladder cancer|Bladder]] - [[cholangiocarcinoma|Bile duct]] - [[Bone tumor|Bone]] - [[Brain tumor|Brain]] - [[Breast cancer|Breast]] - [[Cervical cancer|Cervix]] - [[Colorectal cancer|Colon/rectum]] - [[Duodenal cancer|Duodenum]] - [[Endometrial cancer|Endometrium]] - [[Esophageal cancer|Esophagus]] - [[Ocular oncology|Eye]] - [[Gallbladder cancer|Gallbladder]] - [[Head and neck cancer|Head/Neck]] - [[Hepatocellular carcinoma|Liver]] - [[Cancer of the larynx|Larynx]] - [[Lung cancer|Lung]] - [[Mediastinal germ cell tumor|Mediastinum (chest)]]- [[Oral cancer|Mouth]] - [[Pancreatic cancer|Pancreas]] - [[Penile cancer|Penis]] - [[Prostate cancer|Prostate]] - [[Renal cell carcinoma|Kidney]] - [[Ovarian cancer|Ovaries]] - [[Skin cancer|Skin]] - [[Stomach cancer|Stomach]] - [[Sacrococcygeal teratoma|Tailbone]] - [[Testicular cancer|Testicles]] - [[Thyroid cancer|Thyroid]]
+| group4 = Morphology
+|  list4 = [[Papilloma]]/[[carcinoma]] - [[Choriocarcinoma]] - [[Endodermal sinus tumor]] - [[Teratoma]] - [[Adenoma]]/[[adenocarcinoma]] - [[Soft tissue sarcoma]] - [[Melanoma]] - [[Fibroma]]/[[fibrosarcoma]] - [[Lipoma]]/[[liposarcoma]] - [[Leiomyoma]]/[[leiomyosarcoma]] - [[Rhabdomyoma]]/[[rhabdomyosarcoma]] - [[Mesothelioma]] - [[Angioma]]/[[angiosarcoma]] - [[Osteoma]]/[[osteosarcoma]] - [[Chondroma]]/[[chondrosarcoma]] - [[Glioma]] - [[Lymphoma]]/[[leukemia]]
+| group5 = Treatment
+|  list5 = [[Surgery]] - [[Chemotherapy]] - [[Radiation therapy]] - [[Cancer immunotherapy|Immunotherapy]] - [[Experimental cancer treatment]]
+| group6 = Misc.
+|  list6 = [[Tumor suppressor gene]]s/[[oncogene]]s - [[Cancer staging|Staging]]/[[grading (tumors)|grading]] - [[Carcinogenesis]] - [[Carcinogen]] - [[Cancer research|Research]] - [[Paraneoplastic phenomenon]] - [[ICD-O]] - [[List of oncology-related terms]]
+}}<noinclude>[[Category:Medical navigational boxes|{{PAGENAME}}]]</noinclude>
