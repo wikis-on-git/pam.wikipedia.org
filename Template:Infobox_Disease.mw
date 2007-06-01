@@ -1,0 +1,48 @@
+<includeonly>{| class="infobox" style="width: 200px; font-size: 95%; text-align: left;"
+|+ style="background: {{{Background|lightgrey}}}; font-size: 95%;" | '''{{{Name|{{PAGENAME}}}}}'''<br>''Classification & external resources''
+|-
+{{#if: {{{Image|}}}|
+! colspan="2" style="text-align: center; font-size: smaller;" {{!}} [[Image:{{{Image}}}|{{{Width|190}}}px|center|]]}}
+|- style="line-height: 1;"
+{{#if: {{{Caption|}}}|
+{{!}} colspan="2" style="text-align:center;" {{!}} <small>{{{Caption}}}</small>}}
+|-
+{{#if: {{{ICD10|}}}|
+! [[ICD]]-[[List of ICD-10 codes|10]]
+{{!}} {{{ICD10}}}}}
+|-
+{{#if: {{{ICD9|}}}|
+! [[ICD]]-[[List of ICD-9 codes|9]]
+{{!}} {{{ICD9}}}}}
+|-
+{{#if: {{{ICDO|}}}|
+! [[International Classification of Diseases for Oncology|ICD-O:]]
+{{!}} {{{ICDO}}}}}
+|-
+{{#if: {{{OMIM|}}}{{{OMIM_mult|}}}|
+! [[OMIM]]
+{{!}} [http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id={{{OMIM}}} {{{OMIM}}}] {{{OMIM_mult|}}}}}
+|-
+{{#if: {{{DiseasesDB|}}}|
+! [[Diseases Database|DiseasesDB]]
+{{!}} [http://www.diseasesdatabase.com/ddb{{{DiseasesDB}}}.htm {{{DiseasesDB}}}] {{{DiseasesDB_mult|}}}}}
+|-
+{{#if: {{{MedlinePlus|}}}|
+! [[MedlinePlus]]
+{{!}} [http://www.nlm.nih.gov/medlineplus/ency/article/{{{MedlinePlus}}}.htm {{{MedlinePlus}}}]  {{{MedlinePlus_mult|}}}}}
+|-
+{{#if: {{{eMedicineSubj|}}}|
+! [[eMedicine]]
+{{!}} {{#ifeq: {{{eMedicineSubj|}}}| search | [http://www.emedicine.com/cgi-bin/foxweb.exe/searchengine@/em/searchengine?boolean=and&book=all&maxhits=40&HiddenURL=&query={{{eMedicineTopic}}} topic list] | [http://www.emedicine.com/{{{eMedicineSubj}}}/topic{{{eMedicineTopic}}}.htm {{{eMedicineSubj}}}/{{{eMedicineTopic}}}]&nbsp;}} {{{eMedicine_mult|}}}}}
+|-
+{{#if: {{{MeshID|}}}|
+! '''[[Medical Subject Headings|MeSH]]'''
+{{!}} [http://www.nlm.nih.gov/cgi/mesh/{{{MeshYear|2007}}}/MB_cgi?field=uid&term={{{MeshID|}}} {{{MeshID}}}] }}
+|-
+{{#if: {{{MeshName|}}}|
+{{!}} '''[[Medical Subject Headings|MeSH]]'''
+{{!}} colspan="2" {{!}} ''[http://www.nlm.nih.gov/cgi/mesh/{{{MeshYear|2007}}}/MB_cgi?mode=&term={{{MeshName}}}&field=entry#Tree{{{MeshNumber}}} {{{MeshNumber}}}]''}}
+|}</includeonly><noinclude>
+{{{{FULLPAGENAME}}/doc}}
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
+</noinclude>
