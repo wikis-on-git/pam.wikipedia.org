@@ -13,20 +13,11 @@ __NOTOC__
 {{/box-footer|[[Portal:Science/Mepiling artikulu/archive|Archive]]}}
 
 
-<div style="text-align:center; margin:-7px; padding-bottom:12px;">{{purge|'''Show new selections'''}}</div>
-
-<div style="float:left; width:60%;"> <!-- This width add to the margin below to equal 99%-->
 
 <div style="float:left; width:50%;"> <!-- This width add to the margin below to equal 100%-->
 {{/box-header|''Mepiling larawan''|Portal:Science/Mepiling artikulu|}}
 {{Portal:Science/Mepiling larawan}}
 {{/box-footer|[[Portal:Science/Mepiling larawan/archive|Archive]]}}
-
-</div>
-
-<div style="float:right; width:39%"> <!-- This margin should be right of the above -->
-
-{{Random portal component|max=21|header=''Selected biography''|subpage=Featured biography|seed=53}}
 
 {{/box-header|''Did you know...''|Portal:Science/Did you know|}}
 {{Portal:Science/Did you know}}
