@@ -7,12 +7,16 @@ __NOTOC__
 {{Portal:Science/Intro}}
 {{/box-footer|}}
 
+<div style="float:left; width:50%;"> <!-- This width add to the margin below to equal 100%-->
+{{/box-header|''Mepiling artikulu''|Portal:Science/Mepiling artikulu|}}
+{{Portal:Science/Mepiling artikulu}}
+{{/box-footer|[[Portal:Science/Mepiling artikulu/archive|Archive]]}}
+
 
 <div style="text-align:center; margin:-7px; padding-bottom:12px;">{{purge|'''Show new selections'''}}</div>
 
 <div style="float:left; width:60%;"> <!-- This width add to the margin below to equal 99%-->
 
-{{Random portal component|max=20|header=''Selected article''|subpage=Featured article}}
 
 {{Random portal component|max=20|header=''Selected picture''|subpage=Featured picture|seed=83}}
 
