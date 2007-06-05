@@ -1,20 +1,22 @@
-<includeonly><div style="clear:both" class="NavFrame">
-<div class="NavHead" style="background-color:{{{color|#eee}}}"><div style="float:left;margin-left:0.5em">{{Tnavbar|{{{templateName}}}|mini=1|nodiv=1}}</div>''' {{{header|}}} '''</div>
-<div class="NavContent" style="font-size:0.9em">
-{{{body|}}}{{{category|}}}
-</div>
-</div>
-</includeonly><noinclude>
-This is a generic navigation template. [[KISS principle]] was observed.
+<div class="NavFrame" style="clear:both;">
+<div class="NavHead"  style="<!--
+<!---deprecated:--->
+   {{#if:{{{titlebkg|}}}{{{color|}}} |background:{{{titlebkg|}}}{{{color|}}};}}
+   {{{title_style|}}}
+<!---->
+{{{titlestyle|}}}"> {{Tnavbar|<!---deprecated:--->{{{templateName|}}}<!--
+-->{{{name|<noinclude>Navigation</noinclude>}}}|mini=1|style=position:absolute; width:auto; left:0.5em;}}'''{{{<!---deprecated:--->header|<!---->{{{title}}}}}}'''</div>
+<div class="NavContent" style="margin:0.5em; font-size:0.9em; {{{style|}}}{{{bodystyle|}}}">
+{{{body}}} {{{cat|}}}{{{category|}}}
+<!--end NavContent:--></div><!--
+<!---end NavFrame:---></div><!--
+--><noinclude><!--
 
-See [[Template talk:Navigation Template]] for info on usage.
-==See also==
-*[[Template:Navbox generic]]
-*[[Template:NavigationBox]]
-*[[Template:Dynamic navigation box]]
-*[[Template:Dynamic navigation box with image]]
+###########################################################################
+   Editors - please discuss potential changes on the talk page _first_!
+###########################################################################
 
-[[Category:Navigational templates|*]]
-
-[[tr:Şablon:Dolaşım]]
+--><br/>{{hprotected}}
+{{{{FULLPAGENAME}}/doc}}
+<!--NB Add metadata to the /doc page linked above, not here; thanks!-->
 </noinclude>
