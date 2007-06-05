@@ -4,7 +4,6 @@
    {{#if:{{{titlebkg|}}}{{{color|}}} |background:{{{titlebkg|}}}{{{color|}}};}}
    {{{title_style|}}}
 <!---->
-<br>
 {{{titlestyle|}}}"> {{Tnavbar|<!---deprecated:--->{{{templateName|}}}<!--
 -->{{{name|<noinclude>Navigation</noinclude>}}}|mini=1|style=position:absolute; width:auto; left:0.5em;}}'''{{{<!---deprecated:--->header|<!---->{{{title}}}}}}'''</div>
 <div class="NavContent" style="margin:0.5em; font-size:0.9em; {{{style|}}}{{{bodystyle|}}}">
