@@ -1,0 +1,5 @@
+{{#ifeq:{{NAMESPACE}}|{{TALKSPACE}}|If you wish to make a change, you can|Please discuss changes on the [[{{TALKPAGENAME}}|talk page]] or}} [[Wikipedia:Requests for page protection|request unprotection]]. {{#ifeq:{{NAMESPACE}}|{{TALKSPACE}}||You may use {{tlx|editprotected}} on the [[{{TALKPAGENAME}}|talk page]] to ask for an administrator to make an edit for you.}}<noinclude>
+{{hprotected}}
+
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+</noinclude>
