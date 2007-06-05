@@ -1,6 +1,7 @@
 <div class="NavFrame" style="clear:both;">
 <div class="NavHead"  style="<!--
 <!---deprecated:--->
+<br>
    {{#if:{{{titlebkg|}}}{{{color|}}} |background:{{{titlebkg|}}}{{{color|}}};}}
    {{{title_style|}}}
 <!---->
