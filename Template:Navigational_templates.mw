@@ -1,0 +1,85 @@
+{| class="wikitable" style="margin-left:auto; margin-right:auto; width:auto; text-align:center; font-size:90%;"
+|+ <span style="font-size:130%;">Navigation template comparison</span>
+|- style="line-height:10pt;"
+!style="text-align:left; padding-left:4px;"| {{Tnavbar|Navigational_templates|plain=1}}
+! collapsible !! Header color<sup>†</sup>
+! Image !! Groups !! Style (body)<br/>parameter/s !! Example
+|-
+|style="text-align:left;"| {{tl|Navigation}}
+| {{yes2}} <tt>NavFrame</tt> ||style="background:#ccccff;"| NavHead
+| {{no}} || {{no}} || {{yes}} || {{tl|OPEC}}
+|-
+|style="text-align:left;"| {{tl|Navigation with image}}
+| {{yes2}} <tt>NavFrame</tt>  ||style="background:#ccccff;"| NavHead
+| {{yes2}} Left/right of body || {{no}} || {{yes}} || {{tl|HolmesNovels}}
+|-
+|style="text-align:left;"| {{tl|Navigation with columns}}
+| {{yes2}} <tt>NavFrame</tt> ||style="background:#ccccff;"| NavHead
+| {{no}} || {{no}} || {{yes}} || 
+|-
+|style="text-align:left;"| {{tl|Dynamic navigation box}}
+| {{yes2}} <tt>collapsible</tt> ||style="background:#ccccff;"| navbox
+| {{no}} || {{no}} || {{yes}} || {{tl|CSUHeads}}
+|-
+|style="text-align:left;"| {{tl|Dynamic navigation box with image}}
+| {{yes2}} <tt>NavFrame</tt> ||style="background:#ccccff;"| NavHead
+| {{yes2}} Upper left || {{no}} || {{no}} || {{tl|SlovakPMs}}
+|-
+|style="text-align:left;"| {{tl|Navbox generic}}
+| {{yes2}} <tt>collapsible</tt> ||style="background:#ccccff;"| navbox
+| {{yes2}} Right-hand side || {{yes}} || {{yes}} || {{tl|Dilbert}}
+|-
+|style="text-align:left;"| {{tl|NavigationBox}}
+| {{no}} ||style="background:#ccccff;"| navbox 
+| {{yes2}} Right of title+body || {{no}} || {{no}} || {{tl|EPA}}
+|-
+|colspan="7" style="border-left-style:hidden; border-right-style:hidden;"| 
+|-
+|style="text-align:left;"| {{[[Commons:Template:NavigationBox|Commons:NavigationBox]]}}
+| {{no}} ||style="background:#ccccff;"| #ccccff
+| {{yes2}} Right of title+body || {{no}} || {{no}} ||
+|-
+|style="text-align:left;"| {{[[Commons:Template:Dynamic navigation box|Commons:Dynamic navigation box]]}}
+| {{yes2}} <tt>NavFrame</tt> ||style="background:#ccccff;"| #ccccff
+| {{no}} || {{no}} || {{no}} ||
+|-
+|style="text-align:left;"| {{[[Commons:Template:Dynamic navigation box with image|Commons:Dynamic navigation box with image]]}}&nbsp;
+| {{yes2}} <tt>NavFrame</tt> ||style="background:#ccccff;"| #ccccff
+| {{yes2}} Upper left || {{no}} || {{no}} ||
+|-
+|colspan="7" style="border-left-style:hidden; border-right-style:hidden;"| 
+|-
+|colspan="7" style="text-align:left; font-size: smaller;"| <sup>†</sup> The background color for the header or title is inherited from the class listed below.  The templates have <tt>titlestyle</tt> parameters that can be used to override the default.
+|}
+
+{| class="wikitable" style="margin-left:auto; margin-right:auto; text-align:center; font-size:90%;"
+|+ <span style="font-size:130%;">Collapsible attributes</span>
+|- style="line-height:10pt;"
+!style="text-align:left;"| Type
+! CSS classes
+! Collapses when !! Custom<br/>initial&nbsp;state !! Nesting
+! Header<br/>color !! Font size
+|-
+|align="left"| [[Wikipedia:NavFrame|NavFrame div]]
+| NavFrame, NavHead, NavContent
+| 3+ of the same || {{no}} || {{yes}}
+|style="background:#ccccff;"| #ccccff || 95%
+|-
+|align="left"| [[Wikipedia:NavFrame#Collapsible tables|Collapsible table]]
+| collapsible, navbox
+| 2+ of the same || {{yes}} || {{yes}}
+|style="background:#ccccff;"| #ccccff || 90%
+|-
+|colspan="7" style="text-align:left; font-size:smaller;"|
+For the technically minded, see [[MediaWiki:Common.css|Common.css]] and [[MediaWiki:Common.js|Common.js]].
+|-
+|}<noinclude>
+
+
+<!--Categories-->
+[[Category:Navigational templates| {{PAGENAME}}]]
+
+<!--Other languages-->
+[[ja:Template:Navigational templates]]
+[[zh:Template:Navigational templates]]
+</noinclude>
