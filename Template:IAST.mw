@@ -1,0 +1,16 @@
+<noinclude>{{protected template}}</noinclude>{{transl|sa|IAST|{{{1}}}}}<noinclude>
+
+template to mark [[IAST]] transliteration of Sanskrit. Transcludes {{tl|transl}}.
+
+==Example==
+
+:<code><nowiki>{{lang|sa|म}} {{IAST|ma}}</nowiki></code>
+gives:
+:{{lang|sa|म}} {{IAST|ma}}
+
+use {{tl|ISOtranslit}} for ISO transliteration of non-Sanskrit Indic.
+
+[[Category:Multilingual support templates]]
+[[de:Vorlage:IAST]]
+[[lb:Template:IAST]]
+</noinclude>
