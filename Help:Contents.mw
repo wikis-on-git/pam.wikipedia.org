@@ -1,0 +1,190 @@
+<noinclude>{{pp-semi-protected|small=yes}}</noinclude>
+{{WP help pages (header bar)}}
+{| align="right" style="background:transparent; border-bottom:1px 1px 0px 0px #a3b1bf solid;"
+|
+{{shortcut|[[WP:HELP]]}}
+|}
+{| cellspacing="0" cellpadding="0" align="center" style="width:100%; border:2px #a3b1bf solid;"
+|-
+|colspan="2" align="center" style="background:#cee0f2; text-align:center; border-bottom:1px #a3b1bf solid;" |
+<h2 style="margin:.5em; margin-top:.1em; margin-bottom:.1em; border-bottom:0; font-weight:bold;">Help Contents</h2>
+<h4>[[Wikipedia:FAQ|Frequently Asked Questions]]</h4>
+|-
+| align="center" style="width:50%; background:#f5faff; padding:0.5em; text-align:center;" valign="top"|
+<!-- LEFT COLUMN -->
+<big>'''[[Help:Contents/Getting started|Getting started]]'''</big><br />
+[[Wikipedia:Introduction|Introduction]] <tt>|</tt> [[Wikipedia:Glossary|Glossary of Wikipedia terms]]
+| align="center" style="width:50%; background:#f5faff; border-left:1px solid #cee0f2; padding:0.5em; text-align:center;" valign="top" |
+<!-- RIGHT COLUMN -->
+<big>'''[[Help:Contents/Policies and guidelines|Policies and guidelines]]'''</big><br />
+[[Wikipedia:Five pillars|The Five Pillars]] <tt>|</tt> [[Wikipedia:Manual of Style|Manual of Style]]
+|-
+| align="center" style="width:50%; background:#f5faff; padding:0.5em; text-align:center;" valign="top"|
+<!-- LEFT COLUMN -->
+<big>'''[[Help:Contents/Browsing Wikipedia|Browsing Wikipedia]]'''</big><br />
+[[Wikipedia:Searching|Search for an article]] <tt>|</tt> [[Wikipedia:Basic navigation|Find articles and site functions]]
+| align="center" style="width:50%; background:#f5faff; border-left:1px solid #cee0f2; padding:0.5em; text-align:center;" valign="top" |
+<!-- RIGHT COLUMN -->
+<big>'''[[Help:Contents/Communication|Communication methods]]'''</big><br />
+[[Wikipedia:Village pump|Village pump]] <tt>|</tt> [[Wikipedia:Talk_page_guidelines|Talk pages]]
+|-
+| align="center" style="width:50%; background:#f5faff; padding:0.5em; text-align:center;" valign="top"|
+<!-- LEFT COLUMN -->
+<big>'''[[Help:Contents/Editing Wikipedia|Editing Wikipedia]]'''</big><br />
+[[Wikipedia:Cheatsheet|Cheatsheet]] <tt>|</tt> [[Wikipedia:Contributing to Wikipedia|Contributing to Wikipedia]] <tt>|</tt> [[Wikipedia:tutorial|Tutorial]]
+| align="center" style="width:50%; background:#f5faff; border-left:1px solid #cedff2; padding:0.5em; text-align:center;" valign="top" |
+<!-- RIGHT COLUMN -->
+<big>'''[[Help:Contents/The Wikipedia community|The Wikipedia community]]'''</big><br />
+[[Wikipedia:Adopt-a-User|Adopt-a-User]] <tt>|</tt> [[Wikipedia:Deletion debates|Deleting pages]]
+<tt>|</tt> [[Wikipedia:Resolving disputes|Resolving disputes]]
+|-
+| align="center" style="width:50%; background:#f5faff; padding:0.5em; text-align:center;" valign="top"|
+<!-- LEFT COLUMN -->
+<big>'''[[Help:Contents/Links|Links and references]]'''</big><br />
+[[Help:Link|How to make links]] <tt>|</tt> [[Wikipedia:External links|External links]] <tt>|</tt> [[Wikipedia:Citing sources|Citing sources]]
+| align="center" style="width:50%; background:#f5faff; border-left:1px solid #cee0f2; padding:0.5em; text-align:center;" valign="top" |
+<!-- RIGHT COLUMN -->
+<big>'''[[Help:Contents/Resources and lists|Resources and lists]]'''</big><br />
+[[Wikipedia:WikiProject Stub sorting/Stub types|List of stub types]] <tt>|</tt> [[Wikipedia:Pages needing attention|Pages needing attention]] <tt>|</tt> [[Wikipedia:Template messages|Templates]]
+|-
+| align="center" style="width:50%; background:#f5faff; padding:0.5em; text-align:center;" valign="top"|
+<!-- LEFT COLUMN -->
+<big>'''[[Help:Contents/Images and media|Images and media]]'''</big><br />
+[[Wikipedia:Uploading images|Uploading images]] <tt>|</tt> [[Wikipedia:Image copyright tags|Image copyright tags]] <tt>|</tt> [[Wikipedia:Media|Other media]]
+| align="center" style="width:50%; background:#f5faff; border-left:1px solid #cee0f2; padding:0.5em; text-align:center;" valign="top" |
+<!-- RIGHT COLUMN -->
+<big>'''[[Help:Contents/Account settings and maintenance|Account settings and maintenance]]'''</big><br />
+[[Help:Preferences|Change your preferences]] <tt>|</tt> [[Wikipedia:Customisation#User name and signatures|Change your signature]]
+|-
+| align="center" style="width:50%; background:#f5faff; padding:0.5em; text-align:center;" valign="top"|
+<!-- LEFT COLUMN -->
+<big>'''[[Help:Contents/Tracking changes|Keeping track of changes]]'''</big><br />
+[[Help:Page history|Page history]] <tt>|</tt> [[Help:User contributions|User contributions]] <tt>|</tt> [[Wikipedia:Vandalism|Vandalism]]
+| align="center" style="width:50%; background:#f5faff; border-left:1px solid #cedff2; padding:0.5em; text-align:center;" valign="top" |
+<!-- RIGHT COLUMN -->
+<big>'''[[Help:Contents/Technical information|Technical information]]'''</big><br />
+[[Wikipedia:Tools|Tools]] <tt>|</tt> [[MediaWiki|The MediaWiki software]]
+|-
+| colspan="2" align="center" style="width:100%; background:#f5faff; border-top:1px solid #cee0f2; padding:0.5em; text-align:center;" valign="top" |
+<!-- BOTTOM ROW 1 -->
+<big>'''[[Wikipedia:Questions|Where to ask questions]]'''</big><br />
+'''[[Wikipedia:Help desk|Help Desk]]''' - for questions on how to use Wikipedia.<br />
+'''[[Wikipedia:New contributors' help page|New contributors' help page]]''' - Help for Beginners.<br />
+'''[[Wikipedia:Reference desk|Reference Desk]]''' - for general knowledge questions.
+<!-- BOTTOM ROW 2 -->
+|- style="background:#f5faff;"
+| align="center" style="border-top:2px solid #cedff2; padding:0.5em;" |
+''To view all of the menus on one page, see the [[Help:Contents/Site map|Site Map]].''
+| align="center" style="border-top:2px solid #cedff2; padding:0.5em;" |
+''See also:'' '''''[[Wikipedia:Department directory|Department directory]]''''' ''and'' '''''[[Wikipedia:Quick directory|Quick directory]]'''''.
+|}
+{| cellspacing="0" cellpadding="0" align="center" style="width:100%; border:2px #a3b1bf solid; margin-top: 1em"
+<!-- Tips of the Day -->
+|-
+| id="totdhelp" colspan="2" style="width:100%; margin-top:0em; padding-top:1em; padding-left:1em; padding-right:1em; background:#f5faff;"|
+<span style="font-size:95%">''Tip of the day...''</span>
+{{Wikipedia:Tip of the day/{{CURRENTMONTHNAME}} {{CURRENTDAY}}}}
+|}
+
+__NOTOC__
+__NOEDITSECTION__
+
+<noinclude>
+[[Category:Wikipedia help| ]]
+</noinclude>
+
+[[af:Wikipedia:Help]]
+[[als:Wikipedia:Hilfe]]
+[[am:Help:Contents]]
+[[an:Wikipedia:Aduya]]
+[[ang:Help:Innung]]
+[[ar:ويكيبيديا:مساعدة]]
+[[ast:Ayuda:Conteníu]]
+[[ay:Help:Contents]]
+[[az:Kömək:Mündəricət]]
+[[be:Дапамога:Зьмест]]
+[[bg:Помощ:Съдържание]]
+[[br:Wikipedia:Skoazell]]
+[[bs:Pomoć:Sadržaj]]
+[[ca:Viquipèdia:Ajuda]]
+[[cs:Nápověda:Obsah]]
+[[cy:Wicipedia:Cymorth]]
+[[da:Wikipedia:Hjælp]]
+[[de:Wikipedia:Hilfe]]
+[[el:Βικιπαίδεια:Βοήθεια]]
+[[eo:Helpo:Enhavo]]
+[[es:Wikipedia:Ayuda]]
+[[et:Juhend:Sisukord]]
+[[eu:Wikipedia:Laguntza]]
+[[fa:ویکی‌پدیا:راهنما]]
+[[fi:Wikipedia:Ohje]]
+[[fo:Hjálp:Innihald]]
+[[fr:Aide:Sommaire]]
+[[fy:Wikipedy:Help]]
+[[gl:Wikipedia:Axuda]]
+[[gn:Help:Contents]]
+[[he:עזרה:תפריט ראשי]]
+[[hi:विकिपीडिया:सहायता]]
+[[hr:Wikipedija:Pomoć]]
+[[hu:Segítség:Tartalom]]
+[[ia:Wikipedia:Adjuta]]
+[[id:Bantuan:Isi]]
+[[ilo:Help:Contents]]
+[[io:Help:Helpo]]
+[[is:Wikipedia:Handbók]]
+[[it:Aiuto:Manuale]]
+[[ja:Wikipedia:ヘルプ]]
+[[ka:ვიკიპედია:დახმარება]]
+[[kn:ಸಹಾಯ:ಪರಿವಿಡಿ]]
+[[ko:도움말:목차]]
+[[ksh:Wikipedia:Hilfe]]
+[[ku:Wîkîpediya:Alîkarî]]
+[[kw:Wikipedia:Gweres]]
+[[lb:Hëllef:Hëllef]]
+[[li:Wikipedia:Help]]
+[[lt:Pagalba:Turinys]]
+[[lv:Palīdzība:Contents]]
+[[map-bms:Wikipedia:Bantuan]]
+[[mi:Help:Contents]]
+[[mk:Википедија:Помош]]
+[[mr:Help:Contents]]
+[[ms:Wikipedia:Bantuan]]
+[[mt:Għajnuna:Kontenut]]
+[[nds:Wikipedia:Hülp]]
+[[nds-nl:Help:Wikipedie]]
+[[new:ग्वाहालि:धल:पौ]]
+[[nl:Help:Wikipedia]]
+[[nn:Hjelp:Innhald]]
+[[no:Hjelp:Portal]]
+[[oc:Oiquipedià:Ajuda]]
+[[pl:Wikipedia:Pomoc]]
+[[pms:Wikipedia:Agiut]]
+[[pt:Wikipedia:Ajuda]]
+[[qu:Wikipedia:Yanapana]]
+[[ro:Wikipedia:Ajutor]]
+[[ru:Википедия:Справка]]
+[[scn:Help:Aiutu]]
+[[se:Help:Contents]]
+[[simple:Help:Contents]]
+[[sk:Pomoc:Obsah]]
+[[sl:Pomoč:Vsebina]]
+[[sq:Wikipedia:Ndihmë]]
+[[sr:Помоћ:Садржај]]
+[[su:Wikipedia:Pitulung]]
+[[sv:Wikipedia:Hjälp]]
+[[sw:Help:Contents]]
+[[tl:Wikipedia:Tulong]]
+[[ta:Wikipedia:உதவி]]
+[[te:Help:Contents]]
+[[th:วิกิพีเดีย:ความช่วยเหลือ]]
+[[tr:Yardım:İçindekiler]]
+[[ug:Yardem:Contents]]
+[[uk:Вікіпедія:Довідка]]
+[[ur:معاونت:فہرست]]
+[[uz:Help:Contents]]
+[[vi:Trợ giúp:Mục lục]]
+[[wa:Wikipedia:Aidance]]
+[[yi:הילף:אינהאַלט]]
+[[zh:Help:目录]]
+[[zh-classical:Help:協助]]
+[[zh-min-nan:Help:Bo̍k-lio̍k]]
