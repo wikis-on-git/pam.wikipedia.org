@@ -1,0 +1,402 @@
+<noinclude>{{Help contents back}} 
+{| width="100%" style="border: solid 2px #A3B1BF;|
+|-
+|</noinclude>
+<div style="background-color:#cedff2; border-bottom:0px; border: 1px solid #a3b0bf; text-align:center; font-size:150%; padding:3px; margin:4px;">Searching Wikipedia</div>
+<div style="padding-left:2em;padding-right:2em;">
+{{Shortcut|[[WP:S]]<br>[[WP:SEARCH]]}}
+
+This article provides a detailed overview of Wikipedia's [[search]] feature, and instructions on using external [[search engine]]s, such as [[#Google|Google]], to find information. For a short introduction to searching Wikipedia, see [[Wikipedia:Look it up|Look it up]].
+
+{| style="background-color:transparent; padding:0px;" 
+| valign="top" style="width:180px; float:left; border:1px solid #aaa; padding:4px 2px 4px 10px;" |
+<span style="padding-left:50px;">'''Contents:'''</span><br />
+[[#Wikipedia search|1 Wikipedia search]]<br />
+[[#External search engines|2 External search engines]]<br />
+[[#Browser specific help|3 Browser specific help]]<br />
+[[#See also|4 See also]]
+|}
+==Wikipedia search==
+{{HelpTOC}}
+<div style="border:1px solid #ababff; padding: 1em; margin: 0em 1em 1em 0em; float:left; font-size:105%">
+Enter your keywords in the search box.
+* <font face="MS Sans Serif,Arial">'''Go'''</font> - (or ''Enter'' on keyboard) takes you to the article.
+* <font face="MS Sans Serif,Arial">'''Search'''</font> - returns a list of articles and additional search options.
+</div><br clear="left"/>
+
+===Tips for effective searches===
+
+====Go is case sensitive====
+The "go" function uses an algorithm to decide what page you're likely to be interested in, and this usually masks its case sensitivity - but not always.  For more details about this please see [[Wikipedia:Go button]].
+
+====Avoid short and common words====
+If your search terms include a common "stop word" (such as "the", "your", "more", "right", "while", "when", "who", "which", "such", "every", "about"), you may see many irrelevant results. Historically, these words [[Wikipedia:Common words, searching for which is not possible|could not be searched]] at all, but as of February 2006, Wikipedia's [[Lucene]] index does not use "stop words", so any word can be successfully used in search queries.
+
+====Wildcards====
+Be careful about limited [[wildcard]]s, as they take a toll on the [[server]]. See [http://dev.mysql.com/doc/mysql/en/fulltext-boolean.html Boolean fulltext search] for details on their use.
+
+====Words with special characters====
+In a '''search''' for a word with a [[diaeresis]], such as Sint Odili&euml;nberg, it depends whether this ë is stored as one character or as "&amp;euml;". In the first case one can simply search for Odilienberg (or Odili&euml;nberg); in the second case it can only be found by searching for Odili, euml and/or nberg. This is actually a [[bug (computing)|bug]] that should be fixed -- the entities should be folded into their raw character equivalents so all searches on them are equivalent. See also [[Wikipedia:Special characters]].
+
+====Words in single quotes====
+If a word appears in an article with single [[quotes]], you can only find it if you search for the word with quotes. Since this is rarely desirable, it is better to use double quotes in articles for which this problem does not arise. See the [[wikipedia:manual of style|manual of style]] for more info.
+
+An [[apostrophe]] is identical to a single quote, therefore the name Mu'ammar can be found only by searching for exactly that (and not otherwise). A word with ''<nowiki>'</nowiki>s'' is an exception in that it can be found also by searching for the word without the apostrophe and the s.
+
+====Phrases in double quotes -- exact match only====
+A [[phrase]] can easily be found by enclosing it in double quotes. For example, ''"holly dolly"'' returns six matches; ''holly dolly'' (two standalone words) returns 197.
+
+====Namespaces searched by default====
+The search only applies to the [[namespace]]s selected in the user's [[special:preferences|preferences]]. To search the other namespaces check or uncheck the [[tickbox]]es in "Search in namespaces" box found at the bottom of a search results page. Depending on the [[browser]], a box may still be checked from a previous search, but without being effective any longer! To make sure, uncheck and recheck it.
+
+Searching the image namespace means searching the image descriptions, i.e. the first parts of the image description pages.
+
+====The source text is searched====
+The source text (what one sees in the edit box, also called [[wiki text]]) is searched. This distinction is relevant for [[Wikipedia:Piped link|piped links]], for [[Wikipedia:interlanguage link|interlanguage links]] (to find links to Chinese articles, search for zh, not for Zhongwen), special characters (if ê is coded as &amp;ecirc; it is found searching for ecirc), etc.
+
+====Delay in updating the search index====
+For reasons of efficiency and priority, very recent changes are not always immediately taken into account in searches.
+
+===Multi-lingual Wikipedia search===
+* You can do a multi-lingual Wikipedia search using [http://www.google.com/advanced_search?q=site:wikipedia.org&hl=en&lr= Google Advanced Search] or entering <tt>site:wikipedia.org</tt> in the [http://www.google.com/search?q=site:wikipedia.org Google search box]. 
+
+* [http://wiki.lumrix.net/en Lumrix: AJAX driven Wikipedia search engine]. Supports other languages such as [http://wiki.lumrix.net/de German], [http://wiki.lumrix.net/es Spanish], or [http://wiki.lumrix.net/fr French].
+
+* Qwika has indexes for [http://www.qwika.com/ English], [http://www.qwika.com/find-de/ German], [http://www.qwika.com/find-fr/ French], [http://www.qwika.com/find-jp Japanese], [http://www.qwika.com/find-it/ Italian], [http://www.qwika.com/find-nl/ Dutch], [http://www.qwika.com/find-pt/ Portuguese], [http://www.qwika.com/find-es/ Spanish], [http://www.qwika.com/find-el/ Greek], [http://www.qwika.com/find-ko/ Korean], [http://www.qwika.com/find-cn/ Chinese], and [http://www.qwika.com/find-ru/ Russian] where the original content is combined with machine translated content from/to English.
+
+===Searching for external links===
+[[Special:Linksearch]] is a tool for searching for links from Wikipedia articles to sites outside Wikipedia. For example, [http://en.wikipedia.org/w/index.php?title=Special%3ALinksearch&target=*.yahoo.com all Wikipedia pages linking to Yahoo.com].
+
+==Internal search engines (New)==
+Recently, new ''internal'' search engines were created. These search engines can search Wikipedia articles, meanwhile they are user-friendly and are integrated into Wikipedia for a good experience. They aren't as good as external search engines though.
+
+===WikEh?===
+WikEh? is a '''Wikipedian-friendly''' search engine that searches the articles you want fast. It also searches images that are on Wikipedia. Users can give it a try by clicking on the link below.
+
+* [[Wikipedia:WikEh?/Home/|Search Wikipedia with WikEh?]]
+
+==External search engines==
+Various [[search engine]]s can provide domain-specific searches, which let you search Wikipedia specifically. Searches are based on the text as shown by the browser, so wiki markup is irrelevant. Depending on your browser, you may also be able to use [[Wikipedia:tools|tools]] that allow you to search Wikipedia using [[bookmarklet]]s.
+
+In general, external search engines are faster than a Wikipedia search. However, because the search engine's cache is based on when the site was indexed, the search may not return newly created pages. Similarly, the search engine's cached version of the page will not be as up-to-date as the link to Wikipedia itself. Also, when returning Wikipedia articles in a regular search, [[Wikipedia:mirrors and forks|mirrors and forks]] of Wikipedia content frequently rank higher than the actual Wikipedia articles because of [[search engine optimization]] techniques.
+
+These issues may be less of a problem when using certain search engines that process Wikipedia differently:
+
+* Google tends to include Wikipedia as part of its normal search, and it comes up fairly accurately.
+* Yahoo! includes Wikipedia as part of its content acquisition program and gets a regular [[datafeed]].
+* Clusty downloads and processes the database regularly, generating automatic abstracts and image thumbnails and meaningfully parsing [[Wikipedia:Redirect|redirects]], [[Wikipedia:Disambig|disambiguations]], and [[Wikipedia:Category|categories]].
+* Qwika only indexes wikis, and thus mirrors do not appear in their results. 
+
+===Wikimedia-Search===
+* [http://tools.wikimedia.de/~kolossos/tree/search.php?pro=wikipedia&langauswahl=en Wikimedia-Search] with suggest-function and for all projects.
+
+===Clusty===
+By following the link below, you can use the [[Clusty]] search engine to search and cluster Wikipedia in English only.
+
+* [http://wiki.clusty.com/ Search and Cluster English Wikipedia with Clusty]
+
+If you frequently search via Clusty, consider installing the [http://clusty.com/toolbar Clusty Toolbar] (beta).  Selecting the "Encyclopedia" search source allows you to quickly search the English version of Wikipedia. The Clusty Toolbar is available for [[Microsoft Windows|Windows]] with [[Internet Explorer]] and [[Mozilla Firefox]] (beta).
+
+===Futef===
+FUTEF is a site, currently in [[beta]], limited to Wikipedia content. Besides basic keyword and full text search providing a list of relevant articles, it also lists related categories in a sidebar. 
+
+* [http://futef.com/ Search Wikipedia with Futef]
+
+===Google===
+By following the links below, you can use the [[Google]] search engine to search Wikipedia - either all languages, or English-only. Google indexes all namespaces.
+
+* [http://www.google.com/custom?domains=wikipedia.org&sitesearch=wikipedia.org Search all languages]
+* [http://www.google.com/custom?domains=en.wikipedia.org&sitesearch=en.wikipedia.org Search the English Wikipedia only]
+
+If you frequently search via Google, consider installing the [[Google Toolbar]]. Using the "search this site" button allows you to quickly search the English version of Wikipedia. The official Google Toolbar is available in versions for [[Mozilla Firefox|Firefox]] ([[Linux]], [[Mac OS X]], [[Microsoft Windows]]), and [[Internet Explorer]] ([[Microsoft Windows]]). 
+
+* [http://toolbar.google.com/ Install Google Toolbar]
+
+====How to provide a link to a specific Google Search====
+Wikipedia markup allows you to insert links to Google searches by including <tt>google:</tt> as the prefix for the link. This can sometimes be useful on talk pages. It is done like this:
+
+:<tt><nowiki>[[google:Tipster]]</nowiki></tt>.
+
+Which looks like this:
+
+:[[google:Tipster]]
+
+'''Note:''' It is important not to use spaces in the search. To add more parameters to the search, separate them by a plus sign, '''+'''. For a phrase search, use a hyphen (minus sign), '''-''', between each word. E.g. to search for <tt>"Tip of the day"</tt>, use <tt>Tip-of-the-day</tt>.
+
+To provide a link to a Wikipedia-specific search, include in the google-link <tt>+site:en.wikipedia.org</tt> (no spaces before or after), like this:
+
+:<tt><nowiki>[[google:Tip-of-the-day+site:en.wikipedia.org]]</nowiki></tt>.
+
+Which looks like this:
+
+:[[google:Tip-of-the-day+site:en.wikipedia.org]]
+
+To clean up the link so that only the part you want to show is presented, use the pipe, like this:
+
+:<tt><nowiki>[[google:Tipster+site:en.wikipedia.org|"Tip of the day"]]</nowiki></tt>
+
+Which makes it look like this:
+
+:[[google:Tipster+site:en.wikipedia.org|"Tip of the day"]]
+
+===LuMriX===
+LuMriX is a dynamic query tool which uses lookahead to predict search terms in a list, similar to [[List of Google services and tools#Suggest|Google Suggest]].
+
+By following the link below, you can use the LuMriX search engine to search different language versions of Wikipedia.
+
+* [http://wiki.lumrix.net/ Search Wikipedias with LuMriX]
+
+If you frequently search via LuMriX, consider installing the [http://mycroft.mozdev.org/quick/wikipedia.html LuMriX Firefox Search Plugin] (works on all operating system platforms for which Firefox is available, such as [[Microsoft Windows|Windows]], [[Linux]] and [[Mac OS X]]).
+
+===Lycos===
+There is a full-featured advanced search engine at [http://www.lycos.co.uk/search/advsearch.html Lycos UK].  It is more powerful than Wikipedia's search box, and you can limit searches to a specific URL, such as the Wikipedia website.  Here's how.  Click on the provided link above, and then enter your search term.  Then scroll down to the domain section and add "wikipedia.org" in the box provided.  Then click "Go".
+
+===Qwika===
+Qwika is designed specifically to index wikis. Its main index is Wikipedia and includes:
+
+* all namespaces of Wikipedia 
+* English machine-translated into [http://www.qwika.com/find-de German], [http://www.qwika.com/find-fr French], [http://www.qwika.com/find-jp Japanese], [http://www.qwika.com/find-it Italian], [http://www.qwika.com/find-nl Dutch], [http://www.qwika.com/find-pt Portuguese], [http://www.qwika.com/find-es Spanish], [http://www.qwika.com/find-el Greek], [http://www.qwika.com/find-ko Korean], [http://www.qwika.com/find-cn Chinese] and [http://www.qwika.com/find-ru Russian].
+* The above languages machine translated into [http://www.qwika.com/ English].
+
+This can assist editors contributing to non-English Wikipedias by being able to search in their own language across the entire English version and then view the machine-translated version in their language. 
+
+* [http://www.qwika.com Qwika main page and explanation]
+
+===Wikiwax===
+Wikiwax is a dynamic query like LuMriX. It only searches English Wikipedia, but shows more list entries. 
+
+* [http://www.wikiwax.com/ WikiWax Index to Wikipedia]
+
+===Yahoo!===
+By following the links below, you can use the [[Yahoo!]] search engine to search Wikipedia - either all languages or English-only.
+
+* [http://search.yahoo.com/web/advanced?vs=wikipedia.org Search all Wikipedias with Yahoo!]
+* [http://search.yahoo.com/web/advanced?vs=wikipedia.org&fl=1&vl=lang_en Search English Wikipedias with Yahoo!]
+
+If you frequently search via Yahoo!, consider installing the [http://toolbar.yahoo.com/ Yahoo! Companion Toolbar]. Using the "Search Only the Current Site" button allows you to quickly search the English version of Wikipedia. The official Yahoo! Companion Toolbar is only for Windows with Internet Explorer and Mozilla.
+
+===Other===
+Here are more [[Wikipedia:Tools]] which make searching more convenient.
+
+==Browser specific help==
+===Using Mozilla to automatically search===
+Listed below are ways to search Wikipedia with Mozilla-based browsers, including [[Mozilla|Mozilla Suite]], [[Mozilla Firefox]], and [[Netscape (web browser)|Netscape]] 6 and 7.
+
+====Search Wikipedia from the sidebar or address bar====
+Works with: Mozilla Suite, Mozilla Firefox, Netscape 6/7.
+
+Mozilla and Netscape 6 & 7 come with a sidebar that allows a user to search the Wikipedia site, and Firefox has a toolbar item to do the same. To install the search plugin that tells Mozilla how to search Wikipedia, do the following:
+
+#Go to one of the following sources of Wikipedia search plugins. The Mycroft plugins are sometimes out of date, and plugins from the second source may work better.
+##[http://mycroft.mozdev.org/quick/wikipedia.html Original search plugins from Mycroft]
+##[http://carey.geek.nz/code/wikipedia-searchplugin/ Updated search plugins]
+#There are versions for many languages, so pick the language local to your area.
+#If [[JavaScript]] is enabled, clicking on the name of the search plugin will automatically install the search plugin.
+#If you can't install the search plugin automatically, the second source above lets you right-click on the plugin and save it to disk, or download a [[ZIP file format|ZIP file]] containing all available plugins.  Save the downloaded <tt>.src</tt> file in the <tt>searchplugins</tt> directory where Mozilla is installed and restart the browser to use the new plugin.
+
+To make Wikipedia your default search engine in Mozilla, Beonex Communicator, and Netscape 6/7:
+
+#Go to Edit, Preferences.
+#Expand the Navigator tree and choose Internet Search.
+#Choose Wikipedia as your default search engine.
+
+With Wikipedia selected as your default engine, searches can be conducted via the search sidebar tab, search box, or the web address bar.
+
+====Search Wikipedia using a custom keyword====
+Works with: Mozilla Suite, Mozilla Firefox, Netscape 6/7, Beonex Communicator, Camino.
+
+Wikipedia can also be searched via a custom keyword.
+
+#Create a new bookmark (Bookmarks/Manage Bookmarks/New Bookmark in Firefox)
+#Enter "Wikipedia Quicksearch" for the name (without the quotes).
+#Enter one of the following for the location, again without quotes:
+#*"<nowiki>http://en.wikipedia.org/wiki/Special:Search?search=%s</nowiki>" to search the English Wikipedia
+#*"<nowiki>http://de.wikipedia.org/wiki/Special:Search?search=%s</nowiki>" to search the German Wikipedia
+#*"<nowiki>http://www.google.com/search?q=site:wikipedia.org+%s</nowiki>" to use Google to search all Wikipedias
+#Enter "w" (without the quotes) for the keyword.
+#Click OK.
+
+To search, go to the web address bar (Ctrl-L), enter "w <i>SEARCH_QUERY</i>" (without the quotes), and press Enter.
+
+Many versions of Firefox include this wikipedia quicksearch by default, but use "wp <i>SEARCH_QUERY</i" instead of the form mentioned above.
+
+Note: This can also be done with Opera and Internet Explorer, see below.
+
+====Searching with bookmarklets====
+Javascript can bring additional functionality to your bookmark. The following javascript can be pasted in as the 'Location' of a new bookmark created manually, for example in the 'Manage Bookmarks' window of Firefox. If you highlight a word in a webpage then hit the new bookmark, javascript grabs the word you have selected and uses that to perform the search. If no word is highlighted, you will be prompted to enter one.
+
+<nowiki>javascript:x=escape(getSelection());if(!x)%7Bvoid(x=prompt('Enter%20Word:',''))%7D;if(x)window.
+location='http://en.wikipedia.org/wiki/Special:Search?search='+x</nowiki>
+
+The whole thing should be pasted in as a single line without spaces for it to work.
+
+===Internet Explorer===
+To enable a quick search from the Windows and Internet Explorer Address bars, do the following
+# Open Notepad.
+# Insert all of the text in the box below this list of steps.
+# Choose '''File''' | '''Save as''' and save the file as "wikipedia.reg" (either use quote marks around the file name or choose '''All Files''' from the '''Save as''' type drop-down in Notepad's Save dialog).
+# Double-click on the "wikipedia.reg" file to add the key to your Windows Registry.
+
+<pre>Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchUrl\w]
+@="http://www.wikipedia.org/w/wiki.phtml?search=%s"
+" "="+"
+"#"="%23"
+"&"="%26"
+"?"="%3F"
+"+"="%2B"
+"="="%3D"
+</pre>
+
+This will allow you to for example type "w french revolution" (without the quotes) into the Windows and Internet Explorer Address bars to immediately search Wikipedia for the search term you've specified.
+
+'''Note:''' There are other URLs you can specify instead of the Default (@) key given above. For instance, the line
+<pre>
+@="http://de.wikipedia.org/w/wiki.phtml?search=%s"
+</pre>
+will search the German Wikipedia and 
+<pre>
+@="http://www.google.com/search?q=site:wikipedia.org+%s"
+</pre>
+will use Google to search all language Wikipedias.
+
+===Opera===
+From version 9, [[Opera (web browser)|Opera]] can automatically generate a custom [[search engine]] from any search box. To add a Wikipedia QuickSearch:
+* Right click in the text box and click "Create search..."
+* Choose a keyword. This can be any length, but the shorter the better. (For example 'w' is better than, say, 'wiki'. Also note that the default key for download.com is 'w' so if you wish to use 'w' you will need to change download.com's search first.)
+* In the expanded view (click "Details >>") there is also an option to use this engine as the default. This means that upon highlighting some text and right clicking, clicking "Search" will search Wikipedia.
+* The engine will appear in the menu to the right of the address bar. Furthermore a search can be initiated by typing "<keyword> <search terms>" into the address bar; for example, "w opera web browser" to search Wikipedia for information about Opera.
+* Alternatively, engines can be added manually in the Search tab of Preferences. Click the "Add..." button and enter the following information:
+<pre>
+Name: &Wikipedia
+Keyword: w
+Address: http://www.wikipedia.org/w/wiki.phtml?search=%s
+</pre>
+
+====Previous versions====
+All Opera versions since v6 use a customizable text file called search.ini. This file should only be edited while Opera is not running.
+The following example replaces one of the existing pre-defined [[search engine]]s. It is up to the user to avoid conflicts of shortcut key (key=). By default 'w' is taken by the download.com search, so either this or the Wikipedia one should be changed. Furthermore the 'Search Engine ##' should be replaced with a free number: '12' is free by default. The Search.ini editor (see link below, in the "More information" section) makes editing trivial.
+<pre>
+[Search Engine ##]
+Name=&amp;Wikipedia
+URL=http://www.wikipedia.org/w/wiki.phtml?search=%s
+Query=
+Key=w
+Is post=0
+Has endseparator=0
+Encoding=utf-8
+Search Type=8
+</pre>
+
+* Opera 8 appears to take a copy of the "search.ini" and load it into an internal buffer of some type. After editing the file with your new entry you must change the "File Version" at the top of the file to allow for your changes to be seen in the browser.
+* In Opera 7.0, you should back up your customized search.ini because the file is overwritten by the Opera installer. This is no longer true in 7.10 and later.
+* In Opera 6 and 7.0, the menu accelerator letter is defined by the &amp; in the name. In current versions the accelerator is automatically generated and may no longer be the same as the key.
+
+====More information====
+*[http://www.opera.com/support/search/supsearch.dml?index=351 Searching with Opera]
+*[http://www.schrode.net/opera/search/search_ini.html How to edit Opera's search.ini] (recommended reading prior to hand-editing search.ini)
+
+===K-Meleon===
+[[K-Meleon]] has a search button that can be used to search Google. You can change it to search Wikipedia instead, by doing this:
+#Close K-Meleon.
+#Open up <tt>prefs.js</tt> with a text editor. The file should be in your <tt>K-Meleon\Profiles\PROFILE_NAME\RANDOM_STRING.slt\</tt> directory. 
+#Add this line, and save <tt>prefs.js</tt>.
+
+<nowiki>user_pref("kmeleon.general.searchEngine", "http://en.wikipedia.org/wiki/Special:Search?search=");</nowiki>
+
+Open up K-Meleon and press the search button to search Wikipedia. To go back to Google or to use another search service, edit <tt>prefs.js</tt> and delete the added line
+
+Make sure K-Meleon is closed before editing prefs.js.
+
+==Searching with TomeRaider==
+After downloading the [[Wikipedia:TomeRaider database]] one can search the Wikipedia version offline. One can also search for parts of words.
+
+To search the text that appears only in the page history, you must [[special:export|export]] the text to [[XML]] format first. 
+
+==If you cannot find an appropriate page on Wikipedia==
+If there is no appropriate page on Wikipedia, consider [[Wikipedia:How to start a page|creating a page]], since [[Wikipedia:Introduction|you can edit]] Wikipedia right now.  Or consider adding what you were looking for to the '''[[Wikipedia:Requested articles|Requested articles]]''' page. Or if you have a question, then see '''[[Wikipedia:Questions|Where to ask questions]]''', which is a list of departments where our volunteers answer questions, any question you can possibly imagine.
+
+==See also==
+* [[Wikipedia:Go button]]
+* [[:m:Help:Preferences#Search result settings|Help:Preferences]], changing your search result settings
+
+</div>
+__NOTOC__
+<noinclude>|}</noinclude>
+
+<noinclude>
+[[Category:Wikipedia features|{{PAGENAME}}]]
+[[Category:Wikipedia help]]
+</noinclude>
+
+[[af:Wikipedia:Soek]]
+[[als:Wikipedia:Suche]]
+[[am:Wikipedia:Searching]]
+[[an:Wikipedia:Searching]]
+[[ar:ويكيبيديا:بحث]]
+[[az:Vikipediya:Axtarma]]
+[[bg:Уикипедия:Търсене]]
+[[br:Skoazell:Klask gant al lusker enklask]]
+[[ca:Ajuda:Com buscar pàgines]]
+[[cs:Nápověda:Hledání]]
+[[cv:Википеди:Шырасси]]
+[[cy:Wicipedia:Chwilio am erthygl]]
+[[da:Hjælp:Søgning]]
+[[de:Hilfe:Suche]]
+[[el:Βοήθεια:Αναζήτηση]]
+[[eo:Helpo:Serĉado]]
+[[es:Ayuda:Búsqueda]]
+[[et:Vikipeedia:Otsimine]]
+[[eu:Wikipedia:Bilaketa]]
+[[fa:ویکی‌پدیا:جستجو]]
+[[fi:Ohje:Haku]]
+[[fr:Aide:Recherche]]
+[[fy:Wikipedy:Sykje]]
+[[gl:Wikipedia:Procura]]
+[[he:ויקיפדיה:ניווט]]
+[[hr:Wikipedija:Tražilica]]
+[[hu:Segítség:Keresés]]
+[[hy:Պրոյեկտ:Որոնում]]
+[[ia:Wikipedia:Recerca]]
+[[id:Wikipedia:Pencarian]]
+[[it:Aiuto:Ricerca]]
+[[ja:Wikipedia:検索]]
+[[ka:ვიკიპედია:ძიება]]
+[[kn:Wikipedia:Searching]]
+[[ko:위키백과:찾기]]
+[[la:Vicipaedia:De quaerendo]]
+[[lb:Hëllef:Sichen]]
+[[lt:Pagalba:Paieška]]
+[[mk:Википедија:Пребарување]]
+[[mr:Wikipedia:Searching]]
+[[ms:Wikipedia:Mencari]]
+[[new:विकिपिडिया:मालेज्या]]
+[[nl:Help:Zoeken]]
+[[nn:Hjelp:Søking]]
+[[no:Hjelp:Søking]]
+[[oc:Ajuda:Consultacion]]
+[[oc:Ajuda:Recèrca]]
+[[os:Википеди:Агуырд]]
+[[pl:Pomoc:Przeszukiwanie]]
+[[pt:Wikipedia:Busca na Wikipédia]]
+[[ro:Ajutor:Căutare]]
+[[ru:Википедия:Поиск]]
+[[sco:Wikipedia:Rakin]]
+[[sh:Wikipedia:Searching]]
+[[sk:Pomoc:Vyhľadávanie]]
+[[sl:Wikipedija:Iskanje]]
+[[sq:Ndihmë:Pulla Kërko]]
+[[sv:Wikipedia:Sökning]]
+[[ta:Wikipedia:தேடுதல்]]
+[[te:వికీపీడియా:Searching]]
+[[tl:Wikipedia:Paghahanap sa Wikipedia]]
+[[tr:Vikipedi:Arama]]
+[[uk:Довідка:Пошук]]
+[[uz:Wikipedia:Qidiruv]]
+[[vi:Trợ giúp:Tìm kiếm]]
+[[vls:Wikipedia:Zoek'n]]
+[[yi:הילף:זוכן]]
+[[zh:Help:搜索]]
+[[zh-min-nan:Help:Chhiau-chhoē]]
+[[zh-yue:Wikipedia:搵]]
