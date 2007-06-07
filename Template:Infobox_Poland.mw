@@ -125,7 +125,7 @@
 }}
 |-
 {{#if:{{{car_plates|}}}|
-{{!}} style="background-color:#F2F2F2;" {{!}} [[Polish car number plates|Car plates]]
+{{!}} style="background-color:#F2F2F2;" {{!}} [[Polish car number plates|Plakang Kotsi]]
 {{!}} style="background-color:#FBFBFB;" {{!}} {{{car_plates|}}}
 }}
 |-
@@ -135,7 +135,7 @@
 {{!}} style="background-color:#FBFBFB; font-size:small;" {{!}} {{{twin_towns|}}}
 }}
 |-
-| colspan="2" style="{{{colour_scheme}}}" style="text-align:center; background-color:#FFFFFF; border:1px solid #aaa; font-size:small;" | '''Economy and Traffic'''
+| colspan="2" style="{{{colour_scheme}}}" style="text-align:center; background-color:#FFFFFF; border:1px solid #aaa; font-size:small;" | '''Pamagasiasat at Traffic'''
 |-
 {{#if:{{{economy|}}}|
 {{!}} style="background-color:#F2F2F2;" {{!}} [[Pamagsiasat]]
@@ -170,7 +170,7 @@
 }}
 |-
 {{#if:{{{commons_gallery|}}}|
-{{!}} style="{{{colour_scheme}}}" colspan="2" style="text-align:center; font-size:small;" {{!}} [[Image:Commons-logo.svg|20px]] Watch gallery in [[commons:{{{commons_gallery}}}|Wikimedia Commons]]
+{{!}} style="{{{colour_scheme}}}" colspan="2" style="text-align:center; font-size:small;" {{!}} [[Image:Commons-logo.svg|20px]] Watch gallery king [[commons:{{{commons_gallery}}}|Wikimedia Commons]]
 }}
 |-
 {{#if:{{{website|}}}|
