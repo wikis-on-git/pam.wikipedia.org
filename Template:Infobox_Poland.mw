@@ -21,7 +21,7 @@
   |{{!}}
 }}
 {{#if:{{{coa_pic|}}}
-  |{{!}} style="text-align:center; width:180px;" {{!}} ([[Coat of arms of {{{city_name}}}|Coat of arms]])
+  |{{!}} style="text-align:center; width:180px;" {{!}} ([[Coat of arms of {{{city_name}}}|Sagkal a armas]])
   |{{!}}
 }}
 |-
@@ -31,7 +31,7 @@
 }}
 |-
 {{#if:{{{location_pic|}}}
- |{{!}} colspan="2" style="text-align:center;" {{!}} [[Image:{{{location_pic|}}}|300px|Location of {{{city_name}}}]]
+ |{{!}} colspan="2" style="text-align:center;" {{!}} [[Image:{{{location_pic|}}}|300px|karinan ning {{{city_name}}}]]
 }}
 |-
 | colspan="2" style="{{{colour_scheme}}}" style="text-align:center; background-color:#FFFFFF; border:1px solid #aaa; font-size:small;" | '''Usisa'''
@@ -100,7 +100,7 @@
 }}
 |-
 {{#if:{{{area|}}}|
-{{!}} style="background-color:#F2F2F2;" {{!}} [[Agul/Lapad]]
+{{!}} style="background-color:#F2F2F2;" {{!}} [[Dagul/Lapad]]
 {{!}} style="background-color:#FBFBFB;" {{!}} {{{area|}}} km²
 }}
 |-
