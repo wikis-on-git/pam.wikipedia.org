@@ -1,0 +1,25 @@
+<span class="IPA audiolink nounderlines" style="white-space: nowrap;">[[:Media:{{{1}}}|{{{2}}}]]</span> <span class="metadata audiolinkinfo"><small>([[Wikipedia:Media help|help]]·[[:Image:{{{1}}}|info]])</small></span><noinclude>
+__NOTOC__
+
+== Purpose ==
+
+This template links to an audio file for quick listening.  It is meant to be used inline with text, for pronunciations and the like.
+
+== Usage ==
+
+<code><nowiki>{{Audio-IPA|name of sound file|IPA notation}}</nowiki></code>
+
+Example:
+:<code><nowiki>Swedish: åka {{Audio-IPA|sv-åka.ogg|[ˈoːka]}}, 'travel', 'go'</nowiki></code>
+gives this:
+:Swedish: åka {{Audio-IPA|sv-åka.ogg|[ˈoːka]}}, 'travel', 'go'
+
+== See also ==
+
+* {{tl|Audio}}, a variant without [[International Phonetic Alphabet|IPA]] notation.
+* {{tl|Audio-IPA-nohelp}}, a variant without help links.
+
+[[Category:Audio templates]]
+
+[[sl:Predloga:Avdio-IPA]]
+</noinclude>
