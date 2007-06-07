@@ -12,7 +12,7 @@
   |{{!}}
 }}
 {{#if:{{{coa_pic|}}}
-  |{{!}} style="text-align:center; width:180px;vertical-align: middle;" {{!}} [[Image:{{{coa_pic}}}{{!}}100px{{!}}Coat of arms of {{{city_name}}}]]
+  |{{!}} style="text-align:center; width:180px;vertical-align: middle;" {{!}} [[Image:{{{coa_pic}}}{{!}}100px{{!}}Sagkal armas ning {{{city_name}}}]]
   |{{!}}
 }}
 |-
