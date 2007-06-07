@@ -157,7 +157,7 @@
 {{!}} style="background-color:#FBFBFB;" {{!}} {{{airport|}}}
 }}
 |-
-| colspan="2" style="{{{colour_scheme}}}" style="text-align:center; background-color:#FFFFFF; border:1px solid #aaa; font-size:small;" | '''Administration'''
+| colspan="2" style="{{{colour_scheme}}}" style="text-align:center; background-color:#FFFFFF; border:1px solid #aaa; font-size:small;" | '''Administrasyun'''
 |-
 {{#if:{{{mayor|}}}|
 {{!}} style="background-color:#F2F2F2;" {{!}} [[Mayor]]
