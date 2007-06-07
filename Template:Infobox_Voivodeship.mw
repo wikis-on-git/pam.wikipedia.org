@@ -1,0 +1,53 @@
+{| class="infobox geography"
+|+ align="center"| <big>'''{{{name}}}'''</big>
+| colspan="2" class="mergedrow"|
+{| style="text-align:center; background: none;"
+| style="width: 130px; vertical-align: middle;" | [[Image:{{{flag}}}|140px|]]
+| style="width: 130px; vertical-align: middle;" | [[Image:{{{coat-of-arms}}}|100px|]] 
+|- class="mergedrow"
+| [[Flag of {{PAGENAME}}|Bandera]]
+| [[Coat of arms of {{PAGENAME}}|Sagkal ning armas]]
+|}
+|-
+! colspan="2" align="center"| [[Image:{{{location}}}|280px|Karinan]]
+|----
+! [[Tungku lakanbalen]]
+| {{{capital}}}
+|----
+! [[Lapad/Dagul]]
+| {{{area}}} km²
+|----
+| '''[[Population]]''' {{#if:{{{pop-year|}}}|([[As of {{{pop-year}}}|{{{pop-year}}}]])|}}<br/>&nbsp;- [[Population density|Pangasiksik]]
+| {{{pop}}}<br/> {{{density}}}/km²
+|----
+| '''[[Powiat]]s'''<br/>&nbsp;- [[Urban counties]]<br/>&nbsp;- [[Gabun counties]]
+|                           <br/> {{{urban}}} <br/> {{{land}}}    
+|----
+! [[Gmina|Communes]] 
+|  {{{gmina}}}
+{{#if:{{{counties|}}}|<tr><td align="center" colspan="2">'''Administratibung pangadake:'''<br><br>[[image:{{{counties}}}|250px|Counties]]</td></tr>|}}
+|}<noinclude>
+Usage:
+<pre>
+{{Infobox Voivodeship
+|name = 
+|flag = 
+|coat-of-arms = 
+|location = 
+|counties = 
+|capital = 
+|voivode =
+|marshal voivodeship =
+|area = 
+|pop = 
+|pop-year = 
+|density = 
+|urban = 
+|land = 
+|gmina = 
+}}
+</pre>
+[[Category:European country subdivision infobox templates|Poland voivodeship]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+[[eo:Ŝablono:Informilo Vojevodio]]
+</noinclude>
