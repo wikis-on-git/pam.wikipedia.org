@@ -17,7 +17,7 @@
 }}
 |-
 {{#if:{{{flag_pic|}}}
-  |{{!}} style="text-align:center; width:180px;" {{!}} ([[Flag of {{{city_name}}}{{!}}Flag]])
+  |{{!}} style="text-align:center; width:180px;" {{!}} ([[Bandera ning {{{city_name}}}{{!}}Flag]])
   |{{!}}
 }}
 {{#if:{{{coa_pic|}}}
@@ -34,10 +34,10 @@
  |{{!}} colspan="2" style="text-align:center;" {{!}} [[Image:{{{location_pic|}}}|300px|Location of {{{city_name}}}]]
 }}
 |-
-| colspan="2" style="{{{colour_scheme}}}" style="text-align:center; background-color:#FFFFFF; border:1px solid #aaa; font-size:small;" | '''Basic Information'''
+| colspan="2" style="{{{colour_scheme}}}" style="text-align:center; background-color:#FFFFFF; border:1px solid #aaa; font-size:small;" | '''Usisa'''
 |-
 {{#if:[[Poland]]|
-{{!}} style="background-color:#F2F2F2;" {{!}} [[Country]]
+{{!}} style="background-color:#F2F2F2;" {{!}} [[Bangsa]]
 {{!}} style="background-color:#FBFBFB;" {{!}} [[Poland]] 
 }}
 |-
@@ -61,17 +61,17 @@
 }}
 |- class="note"
 {{#if:{{{population|}}}|
-{{!}} style="background-color:#F2F2F2;" {{!}} [[Population]]
+{{!}} style="background-color:#F2F2F2;" {{!}} [[Populasyun]]
 {{!}} style="background-color:#FBFBFB;" {{!}} {{{population|}}}
 }}
 |-
 {{#if:{{{area_district|}}}|
-{{!}} style="background-color:#F2F2F2;" {{!}} [[Area|Area of district]]
+{{!}} style="background-color:#F2F2F2;" {{!}} [[Area|Dagul ning  district]]
 {{!}} style="background-color:#FBFBFB;" {{!}} {{{area_district|}}} km²
 }}
 |- class="note"
 {{#if:{{{date_founded|}}}|
-{{!}} style="background-color:#F2F2F2;" {{!}}  Founded
+{{!}} style="background-color:#F2F2F2;" {{!}}  Mitatag
 {{!}} style="background-color:#FBFBFB;" {{!}} {{{date_founded|}}}
 }}
 |-
@@ -95,12 +95,12 @@
 }}
 |-
 {{#if:{{{no_of_districts|}}}|
-{{!}} style="background-color:#F2F2F2;" {{!}} Districts (No.)
+{{!}} style="background-color:#F2F2F2;" {{!}} Distritu Bilang
 {{!}} style="background-color:#FBFBFB;" {{!}} {{{no_of_districts|}}}
 }}
 |-
 {{#if:{{{area|}}}|
-{{!}} style="background-color:#F2F2F2;" {{!}} [[Area]]
+{{!}} style="background-color:#F2F2F2;" {{!}} [[Agul/Lapad]]
 {{!}} style="background-color:#FBFBFB;" {{!}} {{{area|}}} km²
 }}
 |-
@@ -110,12 +110,12 @@
 }}
 |-
 {{#if:{{{density|}}}|
-{{!}} style="background-color:#F2F2F2;" {{!}} [[Density]]
+{{!}} style="background-color:#F2F2F2;" {{!}} [[Pangasiksik]]
 {{!}} style="background-color:#FBFBFB;" {{!}} {{{density|}}}/km²
 }}
 |-
 {{#if:{{{area_code|}}}|
-{{!}} style="background-color:#F2F2F2;" {{!}} [[Area code]]
+{{!}} style="background-color:#F2F2F2;" {{!}} [[Aus kodiku]]
 {{!}} style="background-color:#FBFBFB;" {{!}} +48 {{{area_code|}}}
 }}
 |-
@@ -138,17 +138,17 @@
 | colspan="2" style="{{{colour_scheme}}}" style="text-align:center; background-color:#FFFFFF; border:1px solid #aaa; font-size:small;" | '''Economy and Traffic'''
 |-
 {{#if:{{{economy|}}}|
-{{!}} style="background-color:#F2F2F2;" {{!}} [[Economy]]
+{{!}} style="background-color:#F2F2F2;" {{!}} [[Pamagsiasat]]
 {{!}} style="background-color:#FBFBFB;" {{!}} {{{economy|}}}
 }}
 |-
 {{#if:{{{highway|}}}|
-{{!}} style="background-color:#F2F2F2;" {{!}} [[Roads in Poland|Highway]]
+{{!}} style="background-color:#F2F2F2;" {{!}} [[Roads in Poland|Dalan-Salusu]]
 {{!}} style="background-color:#FBFBFB;" {{!}} {{{highway|}}}
 }}
 |-
 {{#if:{{{railway|}}}|
-{{!}} style="background-color:#F2F2F2;" {{!}} [[Railway]]
+{{!}} style="background-color:#F2F2F2;" {{!}} [[Rilis]]
 {{!}} style="background-color:#FBFBFB;" {{!}} {{{railway|}}}
 }}
 |-
