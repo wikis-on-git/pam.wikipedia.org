@@ -1,0 +1,94 @@
+{{Navbox generic
+| name  = Medicina
+| title = [[Health science]] > [[medicina]]
+| groupstyle = background:#ddf;
+| evenstyle  = background:#eee;
+| state = {{{state|autocollapse}}}
+
+| group1 = General
+|  list1 = <div>
+{{nowrap|[[Advanced practice nurse|Advance practice nursing]] •}}
+{{nowrap|[[Chiropractic medicine]] •}}
+{{nowrap|[[Audiology]] •}}
+{{nowrap|[[Dentistry]] •}}
+{{nowrap|[[Dietetics]] •}}
+{{nowrap|[[Emergency medical services]] •}}
+{{nowrap|[[Epidemiology]] •}}
+{{nowrap|[[Medical technology]] •}}
+{{nowrap|[[Midwifery]] •}}
+{{nowrap|[[Nursing]] •}}
+{{nowrap|[[Occupational therapy]] •}}
+{{nowrap|[[Optometry]] •}}
+{{nowrap|[[Osteopathic medicine]] •}}
+{{nowrap|[[Pharmacy]] •}}
+{{nowrap|[[Physical therapy]] <small>(Physiotherapy)</small> •}}
+{{nowrap|[[Physician]] •}}
+{{nowrap|[[Physician assistant]] •}}
+{{nowrap|[[Podiatry]] •}}
+{{nowrap|[[Psychology]] •}}
+{{nowrap|[[Public health]] •}}
+{{nowrap|[[Respiratory therapy]] •}}
+{{nowrap|[[Speech and language pathology]]}}
+</div>
+
+
+| group2 = Physician specialties
+|  list2 = <div>
+{{nowrap|[[Anesthesiology]] •}}
+{{nowrap|[[Dermatology]] •}}
+{{nowrap|[[Emergency medicine]] •}}
+{{nowrap|[[General practitioner|General practice]] <small>(Family medicine)</small> •}}
+{{nowrap|[[Internal medicine]] •}}
+{{nowrap|[[Neurology]] •}}
+{{nowrap|[[Nuclear medicine]] •}}
+{{nowrap|[[Obstetrics and gynecology]] •}}
+{{nowrap|[[Occupational medicine]] •}}
+{{nowrap|[[Ophthalmology]] •}}
+{{nowrap|[[Pathology]] •}}
+{{nowrap|[[Pediatrics]] •}}
+{{nowrap|[[Physical medicine and rehabilitation]] <small>(Physiatry)</small> •}}
+{{nowrap|[[Preventive medicine]] •}}
+{{nowrap|[[Psychiatry]] •}}
+{{nowrap|[[Radiation oncology]] •}}
+{{nowrap|[[Radiology]] •}}
+{{nowrap|[[Surgery]]}}
+</div>
+
+| group3 = [[:Category:Medical specialties|Medical subspecialties]]
+|  list3 = <div>
+{{nowrap|[[Allergy]] and [[immunology]] •}}
+{{nowrap|[[Cardiology]] •}}
+{{nowrap|[[Endocrinology]] •}}
+{{nowrap|[[Gastroenterology]] •}}
+{{nowrap|[[Hematology]] •}}
+{{nowrap|[[Infectious disease]] •}}
+{{nowrap|[[Intensive care medicine]] <small>(Critical care medicine)</small> •}}
+{{nowrap|[[Medical genetics]] •}}
+{{nowrap|[[Nephrology]] •}}
+{{nowrap|[[Oncology]] •}}
+{{nowrap|[[Pulmonology]] •}}
+{{nowrap|[[Rheumatology]]}}
+</div>
+
+| group4 = [[:Category:Surgical specialties|Surgical subspecialties]]
+|  list4 = <div>
+{{nowrap|[[Cardiac surgery]] •}}
+{{nowrap|[[General surgery]] •}}
+{{nowrap|[[Hand surgery]] •}}
+{{nowrap|[[Neurosurgery]] •}}
+{{nowrap|[[Oral and maxillofacial surgery]] •}}
+{{nowrap|[[Orthopaedic surgery]] •}}
+{{nowrap|[[Otolaryngology]] <small>(ENT)</small> •}}
+{{nowrap|[[Pediatric surgery]] •}}
+{{nowrap|[[Plastic surgery]] •}}
+{{nowrap|[[Surgical oncology]] •}}
+{{nowrap|[[Thoracic surgery]] •}}
+{{nowrap|[[Organ transplantation|Transplant surgery]] •}}
+{{nowrap|[[Trauma surgery]] •}}
+{{nowrap|[[Urology]] •}}
+{{nowrap|[[Vascular surgery]]}}
+</div>
+
+}}<noinclude>
+[[Category:Medical navigational boxes|{{PAGENAME}}]]
+</noinclude>
