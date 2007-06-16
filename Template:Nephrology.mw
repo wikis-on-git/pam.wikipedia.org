@@ -1,0 +1,25 @@
+{{Navbox generic
+| name  = Nephrology
+| title = [[Health science]] - [[Medicina]] - [[Tuntunan paman-i]] - [[Pathology]] - [[Nephrology]] ([[ICD-10 Chapter XIV: Diseases of the genitourinary system|N00-N39]])
+| style = 
+| color = silver
+| group-style = background-color: LightGray
+| even-style  = background:#eee;
+| group1 = Sakit da ding [[glomerulus]]
+|  list1 = [[Lupus nephritis]] &#124; [[Post-infectious glomerulonephritis]] &#124; [[Minimal change disease]] &#124; [[Focal segmental glomerulosclerosis]] &#124; [[Diabetic nephropathy]] &#124; [[IgA nephropathy]] &#124; [[Membranous glomerulonephritis]] &#124; [[Nephritic syndrome]] &#124; [[Nephrotic syndrome]]
+| group2 = Sakit da ding [[proximal convoluted tubules]]
+|  list2 = [[Fanconi syndrome]] (Type II [[renal tubular acidosis]]) &#124; [[renal cell carcinoma]]
+| group3 = Sakit da ding [[distal convoluted tubule|distal convoluted tubules]]
+|  list3 = [[pseudohypoaldosteronism]] (Type IV [[renal tubular acidosis]])
+| group4 = Sakit da ding [[collecting duct]]
+|  list4 = Type I [[renal tubular acidosis]] 
+| group5 = Tumour na ning batu
+|  list5 = [[Renal cell carcinoma]] &#124; [[Wilms' tumor]] (children)
+| group6 = Sakit da ding  renal [[vasculature]]
+|  list6 = [[renal artery stenosis]] &#124; [[vasculitis]] &#124; [[atheroembolic sakit]]
+| group7 = [[Tubulointerstitial nephritis|Tubulointerstitial]] sakit da ding batu
+|  list7 = [[Drug-induced interstitial nephritis]] &#124; [[Obstructive nephropathy]] &#124; [[Radiation nephritis]] &#124; [[Reflux nephropathy]] &#124; [[Sarcoidosis]]
+| group8 = Sakit a amamana ning batu/syndromas a maka-anib king epamigana ning batu
+|  list8 =  [[Alport syndrome]] &#124; [[Polycystic kidney disease]] &#124; [[Wilms' tumour]] (children) &#124;
+[[von Hippel-Lindau syndrome]] &#124; [[Hereditary papillary renal carcinoma]] &#124; [[Birt-Hogg-Dube syndrome]] &#124; [[Hereditary renal carcinoma]]
+}}<noinclude>[[Category:Medical navigational boxes|{{PAGENAME}}]] ''This template is part of the [[Wikipedia:Navigational templates#Medicine|Medical series]] of [[Wikipedia:Navigational templates|navigation boxes]]. Refer to [[Template:Medicine]] and its [[Template_talk:Medicine|talk page]] for suggestions on style and editing.''</noinclude>
