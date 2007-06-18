@@ -1,0 +1,9 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Sri Lanka
+| shortname alias = Sri Lanka
+| flag alias      = Flag of Sri Lanka.svg
+| countryname = {{{countryname|Sri Lanka<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| sport = {{{sport|}}}
+}}
