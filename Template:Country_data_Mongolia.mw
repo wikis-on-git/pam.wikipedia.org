@@ -1,0 +1,14 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Mongolia
+| shortname alias = Mongolia
+| flag alias      = Flag of Mongolia.svg
+| flag alias-1949 = Flag of the People's Republic of Mongolia (1949-1992).svg
+| countryname = {{{countryname|Mongolia<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| sport = {{{sport|}}}
+| variant = {{{variant|}}}
+}}<noinclude>
+==Variants==
+* <nowiki>{{flag|Mongolia|1949}}</nowiki> = {{flag|Mongolia|1949}}
+</noinclude>
