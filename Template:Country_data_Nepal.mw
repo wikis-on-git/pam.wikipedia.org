@@ -1,0 +1,9 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Nepal
+| shortname alias = Nepal
+| flag alias      = Flag of Nepal.svg
+| countryname = {{{countryname|Nepal<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| sport = {{{sport|}}}
+}}
