@@ -1,0 +1,9 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Maldives
+| shortname alias = Maldives
+| flag alias      = Flag of Maldives.svg
+| countryname = {{{countryname|Maldives<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| sport = {{{sport|}}}
+}}
