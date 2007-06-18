@@ -1,0 +1,9 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Laos
+| shortname alias = Laos
+| flag alias      = Flag of Laos.svg
+| countryname = {{{countryname|Laos<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| sport = {{{sport|}}}
+}}
