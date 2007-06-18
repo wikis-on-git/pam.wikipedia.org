@@ -1,0 +1,16 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Iran
+| shortname alias = Iran
+| flag alias      = Flag of Iran.svg
+| flag alias-1925 = Iran flag with emblem 1964-1979.png
+| flag alias-1964 = Flag of Iran (1964).svg
+| countryname = {{{countryname|Iran<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+| sport = {{{sport|}}}
+}}<noinclude>
+==Variants==
+* <nowiki>{{flag|Iran|1925}}</nowiki> = {{flag|Iran|1925}}
+* <nowiki>{{flag|Iran|1964}}</nowiki> = {{flag|Iran|1964}}
+</noinclude>
