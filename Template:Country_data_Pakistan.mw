@@ -1,0 +1,9 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Pakistan
+| shortname alias = Pakistan
+| flag alias      = Flag of Pakistan.svg
+| countryname = {{{countryname|Pakistan<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| sport = {{{sport|}}}
+}}
