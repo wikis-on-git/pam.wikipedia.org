@@ -1,0 +1,9 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Bhutan
+| shortname alias = Bhutan
+| flag alias      = Flag of Bhutan.svg
+| countryname = {{{countryname|Bhutan<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| sport = {{{sport|}}}
+}}
