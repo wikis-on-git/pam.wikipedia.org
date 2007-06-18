@@ -1,0 +1,9 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Macau
+| shortname alias = Macau
+| flag alias      = Flag of Macau.svg
+| countryname = {{{countryname|Macao<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| sport = {{{sport|}}}
+}}
