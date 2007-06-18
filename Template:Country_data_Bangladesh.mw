@@ -1,0 +1,14 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Bangladesh
+| shortname alias = Bangladesh
+| flag alias      = Flag of Bangladesh.svg
+| flag alias-1971 = Flag of Bangladesh (1971).svg
+| countryname = {{{countryname|Bangladesh<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+| sport = {{{sport|}}}
+}}<noinclude>
+==Variants==
+* <nowiki>{{flag|Bangladesh|1971}}</nowiki> = {{flag|Bangladesh|1971}}
+</noinclude>
