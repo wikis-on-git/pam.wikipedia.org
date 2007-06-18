@@ -1,0 +1,14 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = People's Republic of China
+| shortname alias = China
+| flag alias      = Flag of the People's Republic of China.svg
+| flag alias-qing = China Qing Dynasty Flag 1889.svg
+| countryname = {{{countryname|China<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+| sport = {{{sport|}}}
+}}<noinclude>
+==Variants==
+* <nowiki>{{flag|China|qing}}</nowiki> = {{flag|China|qing}}
+</noinclude>
