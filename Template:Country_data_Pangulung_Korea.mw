@@ -1,0 +1,14 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = North Korea
+| shortname alias = North Korea
+| flag alias      = Flag of North Korea.svg
+| flag alias-unification = Unification flag of Korea.svg{{!}}border
+| countryname = {{{countryname|North Korea<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| sport = {{{sport|}}}
+| variant = {{{variant|}}}
+}}<noinclude>
+==Variants==
+* <nowiki>{{flag|North Korea|unification}}</nowiki> = {{flag|North Korea|unification}}
+</noinclude>
