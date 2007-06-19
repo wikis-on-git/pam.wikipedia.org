@@ -1,0 +1,54 @@
+<noinclude>{{merge|Navigation}}</noinclude><!--
+
+###############################################################################
+  Editors: Please discuss potential changes on the talk page -first-; thanks!
+###############################################################################
+
+-------------------------------Frame and titlebar-------------------------------
+--><div class="NavFrame" style="clear:both;"><!--
+--><div class="NavHead" style="text-align:center;
+<!---deprecated:--->
+   {{#if:{{{titlebkg|}}}{{{color|}}} 
+   |background:{{{titlebkg|}}}{{{color|}}};}}
+   {{{title_style|}}}
+<!---->
+{{{titlestyle|}}}"> {{Tnavbar|<!---deprecated:-->{{{templateName|}}}<!---->{{{name|<noinclude>Navigation with image</noinclude>}}}|mini=1|style=position:absolute; width:auto; left:0.5em; font-weight:normal;}}'''{{{<!---deprecated:--->header|<!---->{{{title}}}}}}'''</div><!--
+
+---------------------------------Template body----------------------------------
+--><div class="NavContent" style="font-size:0.9em; margin:0.5em; {{{style|}}}{{{bodystyle|}}}"><!--
+--><div style="{{{abovestyle|}}}"><!---deprecated:--->{{{top|}}}<!---->{{{above|}}}</div><!--
+-->{{#if:{{{image<includeonly>|</includeonly>}}}<!--
+
+-->|<!---------------THEN image supplied:-----------------
+--><table style="width:100%; background:transparent;" cellpadding="0" cellspacing="0">
+{{#ifeq:{{{imgpos|}}} |<!--equals:-->left<!--
+     -->|<!-----------then image on left:----------->
+<tr><td style="padding-right:1.5em;"><!----Note: Keep the following and subsequent carriage-returns to maintain formatting:---->
+{{{image}}}
+</td><td>
+{{{body}}}
+</td></tr><!--
+     -->|<!------else image on right (default):------>
+<tr><td>
+{{{body}}}
+</td><td style="padding-left:1.5em;">
+{{{image<noinclude>|[[Image:Example.png|right|64px]]</noinclude>}}}
+</td></tr>
+}}
+</table><!--
+
+-->|<!--------------ELSE image not supplied:--------------
+-->{{{body}}}
+}}<!--
+
+--><div style="{{{belowstyle|}}}">{{{below|}}}<!---deprecated:--->{{{bottom|}}}<!----></div><!--
+-->{{{cat|}}}{{{category|}}}<!--
+
+---end NavContent:--></div><!--
+----end NavFrame:---></div><!--
+--><noinclude>{{pp-semi-template|small=yes}}<!--
+
+
+-->{{{{FULLPAGENAME}}/doc}}
+<!--NB Add metadata to the /doc page linked above, not here - thanks!-->
+</noinclude>
