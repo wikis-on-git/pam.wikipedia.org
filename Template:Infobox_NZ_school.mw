@@ -1,0 +1,37 @@
+{| class="toccolours vcard" style="float: right; margin-left: 1em; width: 27em; font-size: 90%; clear: right" cellspacing="3"
+|-
+| colspan="2" class="fn org" style="text-align: center; font-size: larger;" | '''{{{name}}}'''
+{{#if:{{{badge|}}} | <tr><td colspan="2" style="padding: 1em 0; text-align: center;">{{{badge}}}</td></tr>}}
+|- class="note" style="vertical-align: top;"
+|'''Motto'''
+|style="padding-right: 1em;" | {{{motto}}}
+|- style="vertical-align: top;"
+|'''Clasi'''
+|style="padding-right: 1em;" | {{{type}}}
+|- class="note" style="vertical-align: top;"
+|'''Banua Mitatag'''
+|style="padding-right: 1em;" | {{{established}}}
+|- style="vertical-align: top;"
+|'''Address'''
+|style="padding-right: 1em;" | <span class="label">{{{address}}}</span>
+|- style="vertical-align: top;"
+|'''[[Geographic coordinate system|Coordinates]]'''
+|style="padding-right: 1em;" | {{{coordinates}}}
+|- style="vertical-align: top;"
+|'''Principal'''
+|style="padding-right: 1em;" | {{{principal}}}
+|- style="vertical-align: top;"
+|'''Makalista keng pipagaralan'''
+|style="padding-right: 1em;" | {{{roll}}} 
+|- style="vertical-align: top;"
+|'''Socio-economic decile (10 is high)'''
+|style="padding-right: 1em;" | {{{decile}}}
+|- class="note" style="vertical-align: top;"
+|'''Ministru ning Pipagaralan a Institusyun bilang'''
+|style="padding-right: 1em;" | {{#if:{{{MOE|}}}|[http://www.tki.org.nz/e/schools/display_school_info.php?school_id={{{MOE}}} {{{MOE}}}] }}
+|- class="note" style="vertical-align: top;"
+|'''Website'''
+|style="padding-right: 1em;" | {{{homepage}}}
+|}[[Category:Schools in New Zealand]]<noinclude>
+{{template doc}}
+</noinclude>
