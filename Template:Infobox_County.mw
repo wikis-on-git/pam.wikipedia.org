@@ -1,0 +1,71 @@
+{| class="infobox" style="width: 23em; font-size: 95%; text-align: right;"
+|+ style="font-size: 1.25em;" | '''{{{official_name}}}'''
+|-
+| colspan="2" class="hiddenStructure{{{image_skyline|}}}" style="text-align: center;" | [[Image:{{{image_skyline}}}|250px|none|Skyline of {{{official_name}}}]]
+|- 
+| colspan="2" style="text-align: center;" |
+{| align="center" style="background: none;"
+|- style="text-align: center;"
+| class="hiddenStructure{{{image_flag|}}}" style="width: 135px" | [[Image:{{{image_flag}}}|100px|Official flag of {{{official_name}}}]]<br /><small>[[Flag]]</small>
+| class="hiddenStructure{{{image_seal|}}}" style="width: 110px" | [[Image:{{{image_seal}}}|75px|Official seal of {{{official_name}}}]]<br /><small>[[Seal (device)|Seal]]</small>
+|}
+|- class="hiddenStructure{{{website|}}}" style="font-size: smaller; text-align: center;"
+| colspan="2" | Official website: {{{website}}}
+|- class="hiddenStructure{{{image_map|}}}"
+! colspan="2" style="background-color: #e0e0e0; text-align: center;" | Location
+|- class="hiddenStructure{{{image_map|}}}"
+| align="center" colspan="2" style="font-size: smaller;" |
+[[Image:{{{image_map}}}|250px|Location of {{{official_name}}}]] <br> {{{map_caption|}}}
+|-
+! colspan="2" style="background-color: #e0e0e0; text-align: center;" | Government
+|-
+! {{{subdivision_type}}}
+| {{{subdivision_name}}}
+|-
+! {{{leader_title}}}
+| {{{leader_name}}}
+|- class="hiddenStructure{{{formed|}}}"
+! Formed
+| {{{formed}}}
+|- class="hiddenStructure{{{county_seat|}}}"
+! [[County tungku]]
+| {{{county_seat}}}
+|-
+! colspan="2" style="background-color: #e0e0e0; text-align: center;" | Geographical characteristics
+|-
+! [[Lapad/Dagul]]
+| style="white-space: nowrap;" | {{{area_eganagana}}} [[km²]]
+|- style="text-indent: 1em;"
+! Gabun
+| style="white-space: nowrap;" | {{{area_gabun}}} [[km²]]
+|- style="text-indent: 1em;"
+! Danum
+| style="white-space: nowrap;" | {{{area_danum}}} [[km²]]
+|-
+! [[Populasyun]]
+| class="hiddenStructure{{{population_note|}}}" | {{{population_note}}}
+|- style="text-indent: 1em;"
+! style="white-space: nowrap;" | Total ([[as of {{{population_year}}}|{{{population_year}}}]])
+| {{{population_total}}}
+|- style="text-indent: 1em; white-space: nowrap;"
+! [[Population density|Density]]
+| {{{population_density}}}/[[square kilometre|km²]]
+|- class="hiddenStructure{{{latitude|}}}"
+! [[Latitude]]
+| {{{latitude}}}
+|- class="hiddenStructure{{{longitude|}}}"
+! [[Longitude]]
+| {{{longitude}}}
+|-
+! [[Time zone]]
+| {{{timezone}}} ([[Coordinated Universal Time|UTC]]{{{utc_offset}}})
+|- class="hiddenStructure{{{timezone_DST|}}}" style="text-indent: 1em;" 
+! Summer&nbsp;([[Daylight saving time|DST]])
+| {{{timezone_DST}}} ([[Coordinated Universal Time|UTC]]{{{utc_offset_DST}}})
+|-
+| colspan="2" | {{{footnotes|}}}
+|}
+<noinclude>
+[[Category:Infobox templates|County]]
+[[bg:Шаблон:Американски окръг]]
+</noinclude>
