@@ -1,0 +1,54 @@
+<!--This template employs some extremely complicated and esoteric features of template syntax. Please do not attempt to alter it unless you are certain that you understand the setup and are prepared to repair any consequent collateral damage if the results are unexpected. Any experiments should be conducted in the template sandbox or your user space.
+-->{| border=1 align=right cellpadding=4 cellspacing=0 width=300 style="margin: 0 0 1em 1em; background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse; font-size: 95%;"
+|+ style="font-size: larger" | '''{{{Fullname}}}'''
+| align="center" colspan="2" |
+{| class="borderless" style="text-align:center; background-color: #f9f9f9;"
+| style="width: 130px; vertical-align: middle;" | [[image:{{{Flag}}}|125px|Flag]]
+| style="width: 130px; vertical-align: middle;" | [[Image:{{{Seal}}}|100px|State seal]]
+|- style="font-size: smaller;"
+| {{{Flaglink|[[Bandera ning {{{Name}}}]]}}} 
+| {{{Seallink|[[Seal ning {{{Name}}}]]}}}
+|- style="font-size: smaller;"
+| colspan="2" | ''[[List of U.S. state nicknames|Palayo]]: {{{Nickname}}}''
+|-
+| colspan="2" | [[image:{{{Map}}}|center|Mapa ning United States with {{{Name}}} highlighted]]
+|}
+|-
+| '''[[Languages in the United States|Peka Amanu]]'''
+| {{{OfficialLang}}}
+|-
+| '''[[List of U.S. state capitals|Tungku]]'''<br/>'''[[List of U.S. states' largest cities|Pekamaragul a Lakanbalen]]'''
+| {{{Capital}}}<br/>{{{LargestCity}}}
+|-
+| '''[[Lapad]]'''<br />&nbsp;- Eganagana{{#if: {{{TotalAreaUS|}}} | &nbsp;<br />}}<br />&nbsp;- Lapad{{#if: {{{WidthUS|}}} | &nbsp;<br />}}<br />&nbsp;- Kaba {{#if: {{{LengthUS|}}} | &nbsp;<br />}}<br />&nbsp;- % danum<br />&nbsp;- Latitude<br />&nbsp;- Longitude
+| [[List of U.S. states by area|Ranked {{{AreaRank}}}]]<br />{{#if: {{{TotalAreaUS|}}} | {{{TotalAreaUS|}}}&nbsp;sq&nbsp;mi&nbsp; <br />}} {{{TotalArea}}} km² <br />{{#if: {{{WidthUS|}}} | {{{WidthUS|}}}&nbsp;miles&nbsp; <br />}}{{{Width}}} km <br />{{#if: {{{LengthUS|}}} | {{{LengthUS|}}}&nbsp;miles&nbsp; <br />}}{{{Length}}} km <br />{{{PCWater}}}<br />{{{Latitude}}}<br />{{{Longitude}}}
+|- 
+| '''[[Populasyun]]'''<br />&nbsp;- Total ([[United States Census, 2000|2000]])<br />&nbsp;- [[List of U.S. states by population density|Density]]
+| [[List of U.S. states by population|Ranked {{{PopRank}}}]]<br />{{{2000Pop}}}<br />{{#if: {{{2000DensityUS|}}} | {{{2000DensityUS|}}}/sq.&nbsp;mi&nbsp;<br />}}{{{2000Density}}}/km² ({{{DensityRank}}}) 
+|-
+| '''[[List of U.S. states by elevation|Elevation]]'''<br />&nbsp;- [[List of U.S. states by elevation#Highest point|Pekamatas a lugal]]{{#if: {{{HighestElevUS|}}} | &nbsp;<br />}}<br />&nbsp;- [[List of U.S. states by elevation#Mean elevation|Kaustuan]]{{#if: {{{MeanElevUS|}}} | &nbsp;<br />}}<br />&nbsp;- [[List of U.S. states by elevation#Lowest point|Pekamababang Lugal]]{{#if: {{{LowestElevUS|}}} | &nbsp;<br />}}
+| <br />{{#if: {{{HighestElevUS|}}} | {{{HighestElevUS|}}}&nbsp;feet&nbsp;<br />}}{{{HighestElev}}} m <br />{{#if: {{{MeanElevUS|}}} | {{{MeanElevUS|}}}&nbsp;feet&nbsp; <br />}}{{{MeanElev}}} m <br />{{#if: {{{LowestElevUS|}}} | {{{LowestElevUS|}}}&nbsp;feet&nbsp; <br />}}{{{LowestElev}}} m 
+|-
+| '''[[List of U.S. states by date of statehood|Pangatanggap keng Union]]'''
+| {{{AdmittanceDate}}} ({{{AdmittanceOrder}}})
+|-
+| '''[[Governor of {{{Name}}}|Gobernador]]'''<br>'''[[List of United States Senators from {{{Name}}}|Deng U.S. Senators]]
+| {{{Governor}}}<br>{{{Senators}}}
+|-
+|  '''[[List of U.S. states by time zone|Time zone(s)]]'''
+| {{{TimeZone}}}
+|-
+| '''Abbreviations'''
+| [[U.S. postal abbreviations|{{{PostalAbbreviation| }}}]] [[List of U.S. states by traditional abbreviation|{{{TradAbbreviation| }}}]] [[ISO 3166-2|{{{ISOCode| }}}]]
+|-
+| '''Web site'''
+| [http://{{{Website}}}/ {{{Website}}}]
+|}<noinclude>
+[[Category:Infobox templates|U.S. state]]
+[[Category:Esoteric templates|{{PAGENAME}}]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+[[ko:Template:미국 주 정보]]
+[[ro:Format:Infobox_stat_SUA]]
+[[ru:Шаблон:Штат США]]
+[[vi:Tiêu bản:Tóm tắt về tiểu bang Mỹ]]
+</noinclude>
