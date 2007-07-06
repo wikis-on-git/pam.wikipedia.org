@@ -1,8 +1,5 @@
-{| class="infobox vcard" cellpadding="3" style="width: 21em; font-size: 95%; text-align: left; clear:right; float:right; margin: 0 0 0.5em 1em;"
-|-
-| colspan="2" style="text-align: center; font-size: larger;" | '''<span class="fn org">{{{county}}}</span>, <span class="adr"><span class="region">{{{state}}}</span></span>'''
-|-
-| class="infobox" style="width: 23em; font-size: 95%; text-align: left;"
+{
+| class="infobox" style="width: 23em; font-size: 95%; text-align: right;"
 |+ style="font-size: 1.25em;" | '''{{{official_name}}}'''
 |-
 | colspan="2" class="hiddenStructure{{{image_skyline|}}}" style="text-align: center;" | [[Image:{{{image_skyline}}}|250px|none|Skyline of {{{official_name}}}]]
