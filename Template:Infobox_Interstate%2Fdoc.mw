@@ -1,0 +1,85 @@
+<includeonly>{{template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+{{Infobox Interstate
+|article_route=70
+|type=Main
+|map=Interstate 70 map.png
+|length_mi=2173
+|length_round=
+|length_ref=
+|year_established=[[1956]] (completed in [[1992]])
+|direction_a=West
+|terminus_a=[[Image:I-15.svg|20px]] [[Interstate 15|I-15]] near [[Cove Fort, Utah|Cove Fort, UT]]
+|junction=[[Image:I-25.svg|20px]] [[Interstate 25|I-25]] in [[Denver, Colorado|Denver, CO]]<br>[[Image:I-35.svg|20px]] [[Interstate 35|I-35]] in [[Kansas City, Missouri|Kansas City, MO]]<br>[[Image:I-55.svg|20px]] [[Interstate 55|I-55]] in [[St. Louis, Missouri|St. Louis, MO]]<br>[[Image:I-65.svg|20px]] [[Interstate 65|I-65]] in [[Indianapolis, Indiana|Indianapolis, IN]]<br>[[Image:I-75.svg|20px]] [[Interstate 75|I-75]] in [[Dayton, Ohio|Dayton, OH]]<br>[[Image:I-81.svg|20px]] [[Interstate 81|I-81]] in [[Hagerstown, Maryland|Hagerstown, MD]]<br>[[Image:To plate blue.svg|20px]]<br>[[Image:I-95.svg|20px]][[Image:I-695.svg|25px]] To [[I-95]] via [[I-695 (MD)|I-695]] near [[Baltimore, MD]]
+|direction_b=East
+|terminus_b=[[Image:MD Route 122.svg|25px]] [[Maryland Route 122|MD-122]] in [[Baltimore, MD]]
+}}
+'''''For intrastate Interstates, use {{tl|Infobox Interstate/Intrastate}}.'''''
+
+This is the basic syntax you need to get a complete routebox on the article page, just place this before any other text and fill in the variables. Copy and paste the following code from the box, not the source. Any parameters that do not apply to a particular route can be omitted.
+
+<pre width=100%>
+{{Infobox Interstate
+|article_route=
+|type=
+|map=
+|alternate_name=
+|length_mi=
+|length_round=
+|length_ref=
+|length_notes=
+|year_established=
+|city=
+|direction_a=
+|terminus_a=
+|junction=
+|direction_b=
+|terminus_b=
+}}
+</pre>
+
+For the above parameters here's what you should fill in:
+
+* '''article_route:''' This is the number of the Interstate the article is about (ex. 70)
+* '''type:''' Main (2di), Auxiliary (3di), or Future
+* '''map:''' Name of map over at Wikimedia Commons
+* '''length_mi:''' This is the length of the route in miles.  If you specify beyond integers (i.e. add a decimal value) you will need to set the following parameter, length_round
+* '''length_round:''' If your value for ''length_mi'' is a whole number, you can omit this.  Otherwise it needs to be set to the decimal precision of the ''length_mi'' parameter.
+* '''length_ref:''' To do what a good article writer should, provide your reference for the length of the route using standard &lt;ref&gt; method.  For example: <nowiki><ref name="nyr">[http://www.gribblenation.net/nyroutes/ind/500_599.htm#590i New York Routes - Interstate 590]</ref></nowiki>
+* '''length_notes:''' For any notes regarding the length.
+* '''year_established:''' This is the date the route was commissioned, assigned to its current alignment, or completed
+* '''city:''' ''For beltways only'' -  Name of the city that the Interstate is in
+* '''direction_a:''' This should be either '''south''' or '''west''' to keep in accordance with the U.S. Roads parent project, which lists termini and junctions in progression travelling from West to East and South to North.
+* '''terminus_a:''' This is where the route begins and is either at the '''southern''' terminus or '''western''' terminus.
+* '''junction:''' See [[WP:IH]] for directions regarding this parameter.
+* '''direction_b:''' The opposite of ''direction_a''
+* '''terminus_b:''' Where the route ends, in accordance with the guidelines set forth with starting_terminus
+* '''browse:''' ''For intrastate Interstates only'' -  Browse lines can be added here using the <nowiki>{{XX browse}}</nowiki> templates. See [[WP:IH]] for a full explanation regarding these templates.
+
+By completing the infobox as follows, you'll get a routebox like the one to the upper right.
+<pre width=100%>
+{{Infobox Interstate
+|article_route=70
+|type=Main
+|map=Interstate 70 map.png
+|length_mi=2173
+|length_round=
+|length_ref=
+|year_established=[[1956]] (completed in [[1992]])
+|direction_a=West
+|terminus_a=[[Image:I-15.svg|20px]] [[Interstate 15|I-15]] near [[Cove Fort, Utah|Cove Fort, UT]]
+|junction=[[Image:I-25.svg|20px]] [[Interstate 25|I-25]] in [[Denver, Colorado|Denver, CO]]<br>[[Image:I-35.svg|20px]] [[Interstate 35|I-35]] in [[Kansas City, Missouri|Kansas City, MO]]<br>[[Image:I-55.svg|20px]] [[Interstate 55|I-55]] in [[St. Louis, Missouri|St. Louis, MO]]<br>[[Image:I-65.svg|20px]] [[Interstate 65|I-65]] in [[Indianapolis, Indiana|Indianapolis, IN]]<br>[[Image:I-75.svg|20px]] [[Interstate 75|I-75]] in [[Dayton, Ohio|Dayton, OH]]<br>[[Image:I-81.svg|20px]] [[Interstate 81|I-81]] in [[Hagerstown, Maryland|Hagerstown, MD]]<br>[[Image:To plate blue.svg|20px]]<br>[[Image:I-95.svg|20px]][[Image:I-695.svg|25px]] To [[I-95]] via [[I-695 (MD)|I-695]] near [[Baltimore, MD]]
+|direction_b=East
+|terminus_b=[[Image:MD Route 122.svg|25px]] [[Maryland Route 122|MD-122]] in [[Baltimore, MD]]
+}}
+</pre>
+
+This template is liable to change; please return to this page if your route should in the future look 'broken'. See the [[Template talk:Routeboxint/archive1#In Practice Example|"In Practice Examples" subsection]] for working examples, as well.
+
+'''If you change the template, please either fix broken routeboxes on each article or post a note on [[Template talk:Infobox Interstate|the talk page]] so that we know we need to fix stuff. Thanks!'''
+
+Also, several parameters have been deprecated. Remove them if you see them.
+
+You can use {{tl|Infobox Interstate/quick}} when writing the termini or junction lists to speed things up. See [[WP:IH]] for complete instructions regarding the the quick template.
+
+For more help, please visit [[WP:IH]] or post a note on [[WT:IH]].
