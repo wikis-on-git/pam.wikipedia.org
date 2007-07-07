@@ -1,0 +1,26 @@
+{{Infobox road
+|state=Interstate
+|uri={{#ifeq:{{{type}}}|Future|Future|}}
+|ruta={{{article_route|}}}
+|lagyu_nota={{{type}}} route of the [[Interstate Highway System]]
+|aliwang_lagyu={{{alternate_name|}}}
+|kaba_mi={{{length_mi|}}}
+|kaba_km={{{length_km|}}}
+|kaba_ref={{{length_ref|}}}
+|kaba_round={{{length_round|}}}
+|kaba_nota={{{length_notes|}}}
+|mitatag={{{year_established|}}}
+|mapa={{#if:{{{map|}}}|[[Image:{{{map|}}}|290px]]|}}
+|direction_a={{{direction_a|}}}
+|direction_b={{{direction_b|}}}
+|magumpisang_sepu={{{terminus_a|}}}
+|mapupus_sepu={{{terminus_b|}}}
+|junction={{{junction|}}}
+|beltway_city={{{city|}}}
+|browse={{{browse|}}}
+|commons={{{commons|}}}
+}}<noinclude>{{{{FULLPAGENAME}}/doc}}
+[[Category:geography infobox templates|Interstate]]
+[[Category:transportation infobox templates|Interstate]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+</noinclude>
