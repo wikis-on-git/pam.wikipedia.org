@@ -1,0 +1,109 @@
+{| class="infobox" style="width: 300px; font-size: 90%;"
+|-
+{{#if:{{{marker_image|}}}|
+{{!}}colspan="2" align="center"{{!}}{{{marker_image}}}|
+{{#if:{{{state|{{{province|{{{country|}}}}}}}}}|
+{{!}}colspan="2" align="center"{{!}}{{infobox road/{{{state|{{{province|{{{country}}}}}}}}} {{{type}}} shield|shield_ext={{{shield_ext|}}}|num={{{route}}}}}}}}}
+|-
+{{#if:{{{highway_name|}}}|
+{{!}}colspan="2" align="center"{{!}}'''<big>{{{highway_name}}}</big>'''<br>{{#if:{{{name_notes|}}}|<small>{{{name_notes}}}</small>}}|
+{{#if:{{{state|{{{province|{{{country|}}}}}}}}}|
+{{!}}colspan="2" align="center"{{!}}'''<big>{{infobox road/{{{state|{{{province|{{{country}}}}}}}}} {{{type}}} name|num={{{route}}}}}</big>'''<br>{{#if:{{{name_notes|}}}|<small>{{{name_notes}}}</small>}}|}}}}
+|-
+{{#if:{{{alternate_name|}}}|
+{{!}}colspan="2" align="center"{{!}}{{{alternate_name}}}|}}
+|-
+{{#if:{{{section|}}}|
+{{!}}colspan="2" align="center"{{!}}{{infobox road/{{{state}}} law|route={{{route}}}|section={{{section}}}}}|}}
+|-
+{{#if:{{{maint|}}}|
+{{!}}colspan="2" align="center"{{!}}<small>Maintained by {{{maint}}}</small>|}}
+|-
+{{#if:{{{map|}}}|
+{{!}}colspan="2" align="center"{{!}}{{{map}}}|}}
+|-
+{{#if:{{{length|}}}|
+!bgcolor="#EFEFEF" align=right{{!}}Length:
+{{!}}bgcolor="#EFEFEF"{{!}}{{{length}}}|}}
+|-
+{{#if:{{{length_mi|}}}{{{length_km|}}}
+|{{#ifeq:{{{length_first|}}}|km
+|{{Infobox road/length|km|length_1={{{length_km|}}}|length_ref={{{length_ref|}}}|length_2={{{length_mi|}}}|round={{{length_round|}}}|length_notes={{{length_notes|}}}}}
+|{{#if:{{{length_mi|}}}
+|{{Infobox road/length|mi|length_1={{{length_mi|}}}|length_ref={{{length_ref|}}}|length_2={{{length_km|}}}|round={{{length_round|}}}|length_notes={{{length_notes|}}}}}
+|{{Infobox road/length|km|length_1={{{length_km|}}}|length_ref={{{length_ref|}}}|length_2={{{length_mi|}}}|round={{{length_round|}}}|length_notes={{{length_notes|}}}}}
+}}}}|}}
+|-
+{{#if:{{{established|}}}|
+!bgcolor="#E6E6FF" align=right{{!}}Formed:
+{{!}}bgcolor="#E6E6FF"{{!}}{{{established}}}|}}
+|-
+{{#if:{{{decommissioned|}}}|
+!bgcolor="#E6E6FF" align=right{{!}}Decomd.:
+{{!}}bgcolor="#E6E6FF"{{!}}{{{decommissioned}}}|}}
+|-
+{{#if:{{{direction|}}}|
+!bgcolor="#EFEFEF" align=right{{!}}'''Direction:'''
+{{!}}bgcolor="#EFEFEF"{{!}}{{{direction}}}}}
+|-
+{{#if:{{{starting_terminus|}}}|
+!bgcolor="#EFEFEF" align=right{{!}}{{#if:{{{direction_a|}}}|{{{direction_a}}}&nbsp;end:|From:}}
+{{!}}bgcolor="#EFEFEF"{{!}}{{{starting_terminus}}}|}}
+|-
+{{#if:{{{beltway_city|}}}|
+!bgcolor="#E6E6FF" align=center colspan=2{{!}}[[Beltway]] around {{{beltway_city}}}|}}
+|-
+{{#if:{{{junction|}}}|
+!bgcolor="#EBEBF7" align=right{{!}}Major<br>junctions:
+{{!}}bgcolor="#EBEBF7"{{!}}{{{junction}}}|}}
+|-
+{{#if:{{{ending_terminus|}}}|
+!bgcolor="#EFEFEF" align=right{{!}}{{#if:{{{direction_b|}}}|{{{direction_b}}}&nbsp;end:|To:}}
+{{!}}bgcolor="#EFEFEF"{{!}}{{{ending_terminus}}}|}}
+|-
+{{#if:{{{counties|}}}|
+!bgcolor="#E6E6FF" align=right{{!}}Counties:
+{{!}}bgcolor="#E6E6FF"{{!}}{{{counties}}}|}}
+|-
+{{#if:{{{rural_municipalities|}}}|
+!bgcolor="#E6E6FF" align=right{{!}}Rural municipalities:
+{{!}}bgcolor="#E6E6FF"{{!}}{{{rural_municipalities}}}|}}
+|-
+{{#if:{{{cities|}}}|
+!bgcolor="#E6E6FF" align=right{{!}}Major cities:
+{{!}}bgcolor="#E6E6FF"{{!}}{{{cities}}}|}}
+|-
+{{#if:{{{system|}}}|
+!bgcolor="#EFEFEF" align=right{{!}}System:
+{{!}}bgcolor="#EFEFEF"{{!}}{{{system}}}|}}
+|-
+{{#if:{{{state|{{{province|{{{country|}}}}}}}}}|
+{{!}}colspan=2{{!}}
+{{{!}} width=100% style="background:transparent"
+{{infobox road/{{{state|{{{province|{{{country}}}}}}}}} main}}
+{{infobox road/{{{state|{{{province|{{{country}}}}}}}}} browse|spur_of={{{spur_of|}}}|spur_type={{{spur_type|}}}|previous_type={{{previous_type|}}}|previous_route={{{previous_route|}}}|route={{{browse_route|}}}|next_type={{{next_type|}}}|next_route={{{next_route|}}}}}
+{{!}}-
+{{#ifexist:Template:Infobox road/{{{state}}} extrabrowse/{{{type}}}{{{route}}}|{{Infobox road/{{{state|{{{province|{{{country}}}}}}}}} extrabrowse|{{{type}}}{{{route}}}}}|}}
+{{#if:{{{browse|}}}|{{{browse}}}|}}
+{{infobox road/{{{state|{{{province|{{{country}}}}}}}}} links|type={{{type|}}}}}
+{{!}}}|
+{{#if:{{{browse|}}}|
+{{!}}colspan=2{{!}}
+{{{!}} width=100% style="background:transparent"
+{{{browse}}}
+{{!}}}|}}}}
+|-
+{{#if:{{{commons|}}}|
+{{!}}colspan="2" align="center" style="font-size: small"{{!}}{{Template:Infobox road/commons{{{commons}}}|{{#if:{{{highway_name|}}}|{{{highway_name}}}|{{#if:{{{state|{{{province|{{{country|}}}}}}}}}|{{Infobox road/{{{state|{{{province|{{{country|}}}}}}}}} {{{type|}}} name|num={{{route|}}}}}}}}}|location={{{customcommons|{{PAGENAME}}}}}}}|}}
+|}<noinclude>
+{{esoteric}}
+{{{{FULLPAGENAME}}/doc}}
+
+
+[[Category:transportation infobox templates|Road]]
+[[Category:geography infobox templates|Road]]
+
+[[es:Plantilla:Infobox Carretera]]
+[[fr:Modèle:Infobox route]]
+
+</noinclude>
