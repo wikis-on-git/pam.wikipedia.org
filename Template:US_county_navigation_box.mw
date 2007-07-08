@@ -1,0 +1,70 @@
+<div align=center><table class="navbox collapsible {{{collapse_state|autocollapse}}}" style="margin:auto; width:100%; font-size:84%; color:{{{text_color|}}}">
+<tr>
+<td style="width:75px; background:#eeeeee;">[[Image:{{{map_image|}}}|{{#if:{{{map_size|}}}|{{{map_size|}}}px|100px}}|center|{{{map_caption|{{{county|County/Parish}}} map}}}]]</td>
+<th style="font-weight:normal; background:{{{color|#cddeff}}};"><!--
+
+-->{{#if:{{{template_name<includeonly>|</includeonly>}}}|
+<span style="float:left; text-align:left; width:6em;">{{Tnavbar | {{{template_name|<noinclude>US county navigation box</noinclude>}}} | mini=1 | nodiv=1 | fontcolor={{{text_color|}}} | style=color:{{{text_color|}}} }}</span>}}<!--
+
+--><span style="font-size:115%">Municipalities and Communities of<br clear=left></span><span style="font-size:130%; font-weight:bold;">[[{{{county}}}, {{{state}}}|<span style="color:{{{text_color|}}}">{{{county}}}</span>]], [[{{#switch:{{{state}}}
+| Georgia = {{{state}}} (U.S. state)
+| #default = {{{state}}}
+}}|<span style="color:{{{text_color|}}}">{{{state}}}</span>]]</span><br clear=all><!--
+
+-->{{#if:{{{seat<includeonly>|</includeonly>}}}|
+{{#switch:{{{state}}}
+| Louisiana = [[Parish Seat|<span style="color:{{{text_color|}}}">Parish Seat</span>]]
+| #default  = [[County Seat|<span style="color:{{{text_color|}}}">County Seat</span>]]
+}}: '''[[{{{seat}}}, {{{state}}}|<span style="color:{{{text_color|}}}">{{{seat}}}</span>]]'''
+}} <!-- ** don't remove space **
+
+-->{{#if:{{{seat2|}}}
+| & '''[[{{{seat2}}}, {{{state}}}|<span style="color:{{{text_color|}}}">{{{seat2}}}</span>]]'''
+}}<!--
+
+-->{{#if:{{{title1<includeonly>|</includeonly>}}}|<tr>
+<th style="background:{{{color|#cddeff}}}; font-size:11px; padding:0;">{{{title1}}}</th>
+<td style="color:#000000;">
+{{{body1}}}
+</td></tr>}}<!--
+
+-->{{#if:{{{title2<includeonly>|</includeonly>}}}|<tr>
+<th style="background:{{{color|#cddeff}}}; font-size:11px; padding:0;">{{{title2}}}</th>
+<td style="color:#000000; background:#eeeeee;">
+{{{body2}}}
+</td></tr>}}<!--
+
+-->{{#if:{{{title3<includeonly>|</includeonly>}}}|<tr>
+<th style="background:{{{color|#cddeff}}}; font-size:11px; padding:0;">{{{title3}}}</th>
+<td style="color:#000000;">
+{{{body3}}}
+</td></tr>}}<!--
+
+-->{{#if:{{{title4<includeonly>|</includeonly>}}}|<tr>
+<th style="background:{{{color|#cddeff}}}; font-size:11px; padding:0;">{{{title4}}}</th>
+<td style="color:#000000; background:#eeeeee;">
+{{{body4}}}
+</td></tr>}}<!--
+
+-->{{#if:{{{title5<includeonly>|</includeonly>}}}|<tr>
+<th style="background:{{{color|#cddeff}}}; font-size:11px; padding:0;">{{{title5}}}</th>
+<td style="color:#000000;">
+{{{body5}}}
+</td></tr>}}<!--
+
+-->{{#if:{{{title6<includeonly>|</includeonly>}}}|<tr>
+<th style="background:{{{color|#cddeff}}}; font-size:11px; padding:0;">{{{title6}}}</th>
+<td style="color:#000000; background:#eeeeee;">
+{{{body6}}}
+</td></tr>}}<!--
+
+-->{{#if:{{{title7<includeonly>|</includeonly>}}}|<tr>
+<th style="background:{{{color|#cddeff}}}; font-size:11px; padding:0;">{{{title7}}}</th>
+<td style="color:#000000;">
+{{{body7}}}
+</td></tr>}}
+
+</table></div><noinclude>
+{{{{FULLPAGENAME}}/doc}}
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
+</noinclude>
