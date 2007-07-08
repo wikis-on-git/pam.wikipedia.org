@@ -1,0 +1,94 @@
+<includeonly>{{template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+
+==Usage==
+This template is the master template for all of the United States county/parish templates.  A sample is shown here:
+
+{|style="background:transparent;"
+|<pre>
+{{US county navigation box
+| template_name = Chester County, Pennsylvania
+| county = Chester County
+| state  = Pennsylvania
+| seat   = West Chester
+| map_image   = Map of Pennsylvania highlighting Chester County.svg
+| map_caption = 
+
+| title1 = [[City|Cities]]
+| body1  = 
+{{nowrap|[[Coatesville, Pennsylvania|Coatesville]]}}
+
+| title2 = [[Borough|Boroughs]]
+| body2  = 
+{{nowrap|[[Atglen, Pennsylvania|Atglen]] {{!}}}}
+{{nowrap|[[Avondale, Pennsylvania|Avondale]] {{!}}}} ...
+
+| title3 = [[Civil townships|Townships]]
+| body3  = 
+{{nowrap|[[Birmingham Township, Pennsylvania|Birmingham]] {{!}}}} 
+{{nowrap|[[Caln Township, Pennsylvania|Caln]] {{!}}}} ...
+
+| title4 = [[Unincorporated community|Communities]] and [[census-designated place|CDPs]]
+| body4  = 
+{{nowrap|[[Chesterbrook, Pennsylvania|Chesterbrook]] {{!}}}} 
+{{nowrap|[[Devon-Berwyn, Pennsylvania|Devon-Berwyn]] {{!}}}} ...
+
+}}<noinclude>
+[[Category:"State" county navigational boxes|{{PAGENAME}}]]
+</noinclude>
+
+</pre>
+|}
+
+{{US county navigation box
+| collapse_state = expanded
+| template_name = Chester County, Pennsylvania
+| county = Chester County
+| state  = Pennsylvania
+| seat   = West Chester
+| map_image   = Map of Pennsylvania highlighting Chester County.svg
+| map_caption = 
+
+| title1 = [[City|Cities]]
+| body1  = [[Coatesville, Pennsylvania|Coatesville]]
+
+| title2 = [[Borough|Boroughs]]
+| body2  = [[Atglen, Pennsylvania|Atglen]]&nbsp;{{pipe}} [[Avondale, Pennsylvania|Avondale]]&nbsp;{{pipe}} [[Downingtown, Pennsylvania|Downingtown]]&nbsp;{{pipe}} [[Elverson, Pennsylvania|Elverson]]&nbsp;{{pipe}} [[Honey Brook, Pennsylvania|Honey Brook]]&nbsp;{{pipe}} [[Kennett Square, Pennsylvania|Kennett Square]]&nbsp;{{pipe}} [[Malvern, Pennsylvania|Malvern]]&nbsp;{{pipe}} [[Modena, Pennsylvania|Modena]]&nbsp;{{pipe}} [[Oxford, Pennsylvania|Oxford]]&nbsp;{{pipe}} [[Parkesburg, Pennsylvania|Parkesburg]]&nbsp;{{pipe}} [[Phoenixville, Pennsylvania|Phoenixville]]&nbsp;{{pipe}} [[South Coatesville, Pennsylvania|South Coatesville]]&nbsp;{{pipe}} [[Spring City, Pennsylvania|Spring City]]&nbsp;{{pipe}} [[West Chester, Pennsylvania|West Chester]]&nbsp;{{pipe}} [[West Grove, Pennsylvania|West Grove]]
+
+| title3 = [[Civil townships|Townships]]
+| body3  = [[Birmingham Township, Pennsylvania|Birmingham]]&nbsp;{{pipe}} [[Caln Township, Pennsylvania|Caln]]&nbsp;{{pipe}} [[Charlestown Township, Pennsylvania|Charlestown]]&nbsp;{{pipe}} [[East Bradford Township, Pennsylvania|East Bradford]]&nbsp;{{pipe}} [[East Brandywine Township, Pennsylvania|East Brandywine]]&nbsp;{{pipe}} [[East Caln Township, Pennsylvania|East Caln]]&nbsp;{{pipe}} [[East Coventry Township, Pennsylvania|East Coventry]]&nbsp;{{pipe}} [[East Fallowfield Township, Chester County, Pennsylvania|East Fallowfield]]&nbsp;{{pipe}} [[East Goshen Township, Pennsylvania|East Goshen]]&nbsp;{{pipe}} [[East Marlborough Township, Pennsylvania|East Marlborough]]&nbsp;{{pipe}} [[East Nantmeal Township, Pennsylvania|East Nantmeal]]&nbsp;{{pipe}} [[East Nottingham Township, Pennsylvania|East Nottingham]]&nbsp;{{pipe}} [[East Pikeland Township, Pennsylvania|East Pikeland]]&nbsp;{{pipe}} [[East Vincent Township, Pennsylvania|East Vincent]]&nbsp;{{pipe}} [[East Whiteland Township, Pennsylvania|East Whiteland]]&nbsp;{{pipe}} [[Easttown Township, Pennsylvania|Easttown]]&nbsp;{{pipe}} [[Elk Township, Chester County, Pennsylvania|Elk]]&nbsp;{{pipe}} [[Franklin Township, Chester County, Pennsylvania|Franklin]]&nbsp;{{pipe}} [[Highland Township, Chester County, Pennsylvania|Highland]]&nbsp;{{pipe}} [[Honey Brook Township, Pennsylvania|Honey Brook]]&nbsp;{{pipe}} [[Kennett Township, Pennsylvania|Kennett]]&nbsp;{{pipe}} [[London Britain Township, Pennsylvania|London Britain]]&nbsp;{{pipe}} [[London Grove Township, Pennsylvania|London Grove]]&nbsp;{{pipe}} [[Londonderry Township, Chester County, Pennsylvania|Londonderry]]&nbsp;{{pipe}} [[Lower Oxford Township, Pennsylvania|Lower Oxford]]&nbsp;{{pipe}} [[New Garden Township, Pennsylvania|New Garden]]&nbsp;{{pipe}} [[New London Township, Pennsylvania|New London]]&nbsp;{{pipe}} [[Newlin Township, Pennsylvania|Newlin]]&nbsp;{{pipe}} [[North Coventry Township, Pennsylvania|North Coventry]]&nbsp;{{pipe}} [[Penn Township, Chester County, Pennsylvania|Penn]]&nbsp;{{pipe}} [[Pennsbury Township, Pennsylvania|Pennsbury]]&nbsp;{{pipe}} [[Pocopson Township, Pennsylvania|Pocopson]]&nbsp;{{pipe}} [[Sadsbury Township, Chester County, Pennsylvania|Sadsbury]]&nbsp;{{pipe}} [[Schuylkill Township, Chester County, Pennsylvania|Schuylkill]]&nbsp;{{pipe}} [[South Coventry Township, Pennsylvania|South Coventry]]&nbsp;{{pipe}} [[Thornbury Township, Chester County, Pennsylvania|Thornbury]]&nbsp;{{pipe}} [[Tredyffrin Township, Pennsylvania|Tredyffrin]]&nbsp;{{pipe}} [[Upper Oxford Township, Pennsylvania|Upper Oxford]]&nbsp;{{pipe}} [[Upper Uwchlan Township, Pennsylvania|Upper Uwchlan]]&nbsp;{{pipe}} [[Uwchlan Township, Pennsylvania|Uwchlan]]&nbsp;{{pipe}} [[Valley Township, Chester County, Pennsylvania|Valley]]&nbsp;{{pipe}} [[Wallace Township, Pennsylvania|Wallace]]&nbsp;{{pipe}} [[Warwick Township, Chester County, Pennsylvania|Warwick]]&nbsp;{{pipe}} [[West Bradford Township, Pennsylvania|West Bradford]]&nbsp;{{pipe}} [[West Brandywine Township, Pennsylvania|West Brandywine]]&nbsp;{{pipe}} [[West Caln Township, Pennsylvania|West Caln]]&nbsp;{{pipe}} [[West Fallowfield Township, Chester County, Pennsylvania|West Fallowfield]]&nbsp;{{pipe}} [[West Goshen Township, Pennsylvania|West Goshen]]&nbsp;{{pipe}} [[West Marlborough Township, Pennsylvania|West Marlborough]]&nbsp;{{pipe}} [[West Nantmeal Township, Pennsylvania|West Nantmeal]]&nbsp;{{pipe}} [[West Nottingham Township, Pennsylvania|West Nottingham]]&nbsp;{{pipe}} [[West Pikeland Township, Pennsylvania|West Pikeland]]&nbsp;{{pipe}} [[West Sadsbury Township, Pennsylvania|West Sadsbury]]&nbsp;{{pipe}} [[West Vincent Township, Pennsylvania|West Vincent]]&nbsp;{{pipe}} [[West Whiteland Township, Pennsylvania|West Whiteland]]&nbsp;{{pipe}} [[Westtown Township, Pennsylvania|Westtown]]&nbsp;{{pipe}} [[Willistown Township, Pennsylvania|Willistown]]
+
+| title4 = [[Unincorporated community|Communities]] and [[census-designated place|CDPs]]
+| body4  = [[Chesterbrook, Pennsylvania|Chesterbrook]]&nbsp;{{pipe}} [[Devon-Berwyn, Pennsylvania|Devon-Berwyn]]&nbsp;{{pipe}} [[Exton, Pennsylvania|Exton]]&nbsp;{{pipe}} [[Kenilworth, Pennsylvania|Kenilworth]]&nbsp;{{pipe}} [[Lionville-Marchwood, Pennsylvania|Lionville-Marchwood]]&nbsp;{{pipe}} [[Paoli, Pennsylvania|Paoli]]&nbsp;{{pipe}} [[South Pottstown, Pennsylvania|South Pottstown]]&nbsp;{{pipe}} [[Thorndale, Pennsylvania|Thorndale]]&nbsp;{{pipe}} [[Toughkenamon, Pennsylvania|Toughkenamon]]&nbsp;{{pipe}} [[Unionville, Chester County, Pennsylvania|Unionville]]&nbsp;{{pipe}} [[West Goshen, Pennsylvania|West Goshen]]
+}}
+<br/>
+
+There are a total of 7 title/body pairs, so you can use up to "title7" and "body7" (of course, more can easily be added at any time).
+
+Other optional parameters for special cases:
+
+; map_size
+: Use to set width of map image if different from default (currently 100px). Value is the number without "px", i.e.
+:: <code>| map_size = 80</code>
+
+; color
+: Use this to change the default background color for the main title and sidebar titles, i.e.
+:: <code><nowiki>color = #2e8b57</nowiki></code>
+
+; text_color
+: Use this to change the default text color for the main title and sidebar titles.  Note that you will still need to manually change the color of any wikilinks using a span tag, i.e.
+:: <code><nowiki>[[Unincorporated community|<span style="color:gold">Communities</span>]]</nowiki></code>
+
+; collapse_state
+: <code>autocollapse</code> : (default) the navigation box will start out collapsed if there are two or more collapsible tables on the same page.
+: <code>collapsed</code> : the navigation box will always start out in a collapsed state.
+: blank or anything other than the above (<code>expanded</code>, etc.) : always start out in an expanded state.
+
+<includeonly>
+<!--Categories-->
+[[Category:United States county templates| ]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+
+<!--Other languages-->
+[[tr:Şablon:County]]
+</includeonly>
