@@ -1,5 +1,4 @@
-<includeonly>{| class="infobox vcard" style="width: 21em; font-size: 95%;"
-|-
+<includeonly>{| | class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
 ! style="text-align: center; background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3" |<big class="{{Template:Infobox musical artist/hCard Class|{{{Background|}}} }}">{{{Name}}}</big>
 {{#if:{{{Img|}}}
   |<tr style="text-align: center;"><td colspan="3">[[Image:{{{Img}}}|{{#ifeq:{{lc:{{{Landscape|}}}}}|yes|{{min|300|{{#if:{{#ifexpr:{{{Img_size}}}}}|300|{{{Img_size}}}}}}}x200|{{min|220|{{#if:{{#ifexpr:{{{Img_size}}}}}|300|{{{Img_size}}}}}}}}}px|{{{Img_capt|}}}]] <br /><div style="font-size: 90%; line-height: 15px;">{{{Img_capt|}}}</div></td></tr>
