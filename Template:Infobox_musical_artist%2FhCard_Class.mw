@@ -1,0 +1,12 @@
+{{#switch: {{{1|}}}
+| solo_singer = fn
+| non_vocal_instrumentalist = fn
+| non_performing_personnel = fn
+| group_or_band = fn org
+| cover_band = fn org
+| classical_ensemble = fn org
+| temporary = fn org
+| {{{1|fn}}}
+}}
+
+<!-- "fn" for individual people, "fn org" for bands and other groupings) -->
