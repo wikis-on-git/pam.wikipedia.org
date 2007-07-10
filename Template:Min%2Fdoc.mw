@@ -1,0 +1,32 @@
+<includeonly>{{template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+
+Evaluates and returns the minimum of a list of numeric values (with up to 3 parameters). The parameters can be numeric expressions that will be evaluated. Empty or missing parameters are ignored.
+
+; Syntax<nowiki>:</nowiki>
+: <tt><nowiki>{{min|</nowiki></tt>''[value1]''<tt><nowiki>|</nowiki></tt>''[value2]''<tt><nowiki>|</nowiki></tt>''[value3]''<tt><nowiki>}}</nowiki></tt>
+
+; Examples<nowiki>:</nowiki>
+: <tt><nowiki>{{min}}</nowiki></tt> = "{{min}}".
+: <tt><nowiki>{{min|}}</nowiki></tt> = "{{min|}}".
+: <tt><nowiki>{{min|-7}}</nowiki></tt> = "{{min|-7}}".
+: <tt><nowiki>{{min|-7|}}</nowiki></tt> = "{{min|-7|}}".
+: <tt><nowiki>{{min|7|-5}}</nowiki></tt> = "{{min|7|-5}}".
+: <tt><nowiki>{{min|7|-5|}}</nowiki></tt> = "{{min|7|-5|}}".
+: <tt><nowiki>{{min|7|-5|-8}}</nowiki></tt> = "{{min|7|-5|-8}}".
+: <tt><nowiki>{{min|40*41|300+30}}</nowiki></tt> = "{{min|40*41|300+30}}".
+: <tt><nowiki>{{min|100+10|300+30|200+20}}</nowiki></tt> = "{{min|100+10|300+30|200+20}}".
+
+; See also<nowiki>:</nowiki>
+* [[Template:Max]]
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Templates using ParserFunctions|Min]]
+[[Category:Mathematical function templates|Min]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[nl:Sjabloon:Min]]
+[[th:แม่แบบ:Min]]
+
+</includeonly>
