@@ -1,0 +1,115 @@
+<includeonly>{| class="infobox vcard" style="width: 21em; font-size: 95%;"
+|-
+! style="text-align: center; background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3" |<big class="{{Template:Infobox musical artist/hCard Class|{{{Background|}}} }}">{{{Name}}}</big>
+{{#if:{{{Img|}}}
+  |<tr style="text-align: center;"><td colspan="3">[[Image:{{{Img}}}|{{#ifeq:{{lc:{{{Landscape|}}}}}|yes|{{min|300|{{#if:{{#ifexpr:{{{Img_size}}}}}|300|{{{Img_size}}}}}}}x200|{{min|220|{{#if:{{#ifexpr:{{{Img_size}}}}}|300|{{{Img_size}}}}}}}}}px|{{{Img_capt|}}}]] <br /><div style="font-size: 90%; line-height: 15px;">{{{Img_capt|}}}</div></td></tr>
+}}
+|-
+! style="background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3" | Impormasyun
+{{#if:{{{Birth_name|}}}
+  |<tr><td>'''Lagyu'''</td><td colspan="2">{{{Birth_name}}}</td></tr>
+}}<!--
+-->{{#if:{{{Alias|}}}
+  |<tr><td>'''Kebaluan bilang'''</td><td colspan="2" class="nickname">{{{Alias}}}</td></tr>
+}}<!--
+-->{{#if:{{{Born|}}}
+  |<tr><td>'''Kebaitan'''</td><td colspan="2">{{{Born}}}</td></tr>
+}}<!--
+-->{{#if:{{{Origin|}}}
+  |<tr><td>'''Penibatan'''</td><td colspan="2">{{{Origin}}}</td></tr>
+}}<!--
+-->{{#if:{{{Died|}}}
+  |<tr><td>'''Aldo Kematyan'''</td><td colspan="2">{{{Died}}}</td></tr>
+}}<!--
+-->{{#if:{{{Genre|}}}
+  |<tr><td>'''[[:en:Music genre|Genre]]'''</td><td colspan="2">{{{Genre}}}</td></tr>
+}}<!--
+-->{{#if:{{{Occupation|}}}
+  |<tr><td style="white-space:nowrap;">'''Obra'''</td><td colspan="2">{{{Occupation}}}</td></tr>
+}}<!--
+-->{{#if:{{{Instrument|}}}
+  |<tr><td style="white-space:nowrap;">'''[[:en:Musical instrument|Instrumento]]'''</td><td colspan="2" class="note">{{{Instrument}}}</td></tr>
+}}<!--
+-->{{#if:{{{Voice_type|}}}
+  |<tr><td style="white-space:nowrap;">'''[[:en:Voice type|Clasi ning vocis]]'''</td><td colspan="2" class="note">{{{Voice_type}}}</td></tr>
+}}<!--
+-->{{#if:{{{Years_active|}}}
+  |<tr><td>'''banuang gugunyat'''</td><td colspan="2">{{{Years_active}}}</td></tr>
+}}<!--
+-->{{#if:{{{Label|}}}
+  |<tr><td style="padding-right: 1em;">'''[[:en:Record label|Label]]'''</td><td colspan="2">{{{Label}}}</td></tr>
+}}<!--
+-->{{#if:{{{Associated_acts|}}}
+  |<tr><td textalign="top" style="padding-right: 1em;">'''Kaugne'''</td><td colspan="2">{{{Associated_acts}}}</td></tr>
+}}<!--
+-->{{#if:{{{Influences|}}}
+  |<tr><td textalign="top" style="padding-right: 1em;">'''Megenganyu'''</td><td colspan="2">{{{Influences}}}</td></tr>
+}}<!--
+-->{{#if:{{{URL|}}}
+  |<tr><td>'''Website'''</td><td colspan="2">{{{URL}}}</td></tr>
+}}<!--
+-->{{#if:{{{Current_members|}}}
+  |<tr><th style="background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3">Deng kayanib</th></tr><tr><td style="text-align: center;" colspan="3">{{{Current_members}}}</td></tr>
+}}<!--
+-->{{#if:{{{Past_members|}}}
+  |<tr><th style="background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3">Dating kayanib</th></tr><tr><td style="text-align: center;" colspan="3">{{{Past_members}}}</td></tr>
+}}<!--
+-->{{#if:{{{Notable_instruments|}}}
+  |<tr><th style="background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3">Deng Instrumentu</th></tr><tr><td style="text-align: center;" colspan="3">{{{Notable_instruments}}}</td></tr>
+}}
+|}</includeonly><noinclude>
+Blank Code:
+
+<pre><nowiki>{{Infobox musical artist <!-- See Wikipedia:WikiProject_Musicians -->
+| Name                = 
+| Img                 = 
+| Img_capt            = 
+| Img_size            = 
+| Landscape           = 
+| Background          = 
+| Birth_name          = 
+| Alias               = 
+| Born                = 
+| Died                = 
+| Origin              = 
+| Instrument          = 
+| Voice_type          = 
+| Genre               = 
+| Occupation          = 
+| Years_active        = 
+| Label               = 
+| Associated_acts     = 
+| URL                 = 
+| Current_members     = 
+| Past_members        = 
+| Notable_instruments = 
+}}</nowiki></pre>
+
+Sample:
+
+{{Infobox musical artist <!-- See Wikipedia:WikiProject_Musicians -->
+| Name                = -
+| Img                 = -
+| Img_capt            = -
+| Img_size            = -
+| Landscape           = -
+| Background          = -
+| Birth_name          = -
+| Alias               = -
+| Born                = -
+| Died                = -
+| Origin              = -
+| Instrument          = -
+| Voice_type          = -
+| Genre               = -
+| Occupation          = -
+| Years_active        = -
+| Label               = -
+| Associated_acts     = -
+| URL                 = -
+| Current_members     = -
+| Past_members        = -
+| Notable_instruments = -
+}}
+
+[[:en:Template:Infobox musical artist/doc]]</noinclude>
