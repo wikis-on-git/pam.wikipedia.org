@@ -1,6 +1,7 @@
 <noinclude>{{esoteric}}
-</noinclude>{| class="infobox geography" 
-|+style="font-size: larger; padding: 0 0 .1em 0;"| '''{{{Name}}}'''
+</noinclude>
+{| class="infobox geography" "toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
+| '''{{{Name}}}'''
 | class="maptable" align="center" colspan="2" style="padding: 0.4em 0.8em 0.4em 0.8em;" |
 {| style="text-align:center; background: none;"
 |-
