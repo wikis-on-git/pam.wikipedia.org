@@ -1,0 +1,28 @@
+{{Navbox generic
+|name       = States at territoryu ning Australia
+|titlestyle = {{{titlestyle|background:#ddf;}}}
+|title      = [[States and territories of Australia|States at territoryu]] ning [[Australia]]
+|image      = [[Image:Flag of Australia.svg|80px|Bandera ning Australia]] 
+|bodystyle  = text-align:left;
+|groupstyle = line-height:11pt;
+
+|group1 = States at<br/>mainland&nbsp;territoryu
+|list1  = [[Australian Capital Territory]]{{·}} [[New South Wales]]{{·}} [[Northern Territory]]{{·}} [[Queensland]]{{·}} {{nowrap|[[South Australia]]}}{{·}} [[Tasmania]]{{·}} [[Victoria (Australia)|Victoria]]{{·}} {{nowrap|[[Western Australia]]}}{{·}} {{nowrap|[[Jervis Bay Territory]]}}
+
+|group2 = External&nbsp;territories
+|list2  = [[Ashmore and Cartier Islands]]{{·}} [[Australian Antarctic Territory]]{{·}} [[Christmas Island]]{{·}} {{nowrap|[[Cocos (Keeling) Islands]]}}{{·}} {{nowrap|[[Coral Sea Islands]]}}{{·}} [[Heard Island and McDonald Islands|Heard&nbsp;Island and McDonald&nbsp;Islands]]{{·}} {{nowrap|[[Norfolk Island]]}}
+
+}}<noinclude>
+
+
+<!--Categories-->
+[[Category:Australian navigational boxes|{{PAGENAME}}]]
+[[Category:Country subdivision templates|Australia]]
+
+<!--Other languages-->
+[[de:Vorlage:Navigationsleiste Bundesstaaten und Territorien Australiens]]
+[[he:תבנית:מדינות אוסטרליה]]
+[[pt:Predefinição:Austrália]]
+[[ru:Шаблон:Административное деление Австралии]]
+[[zh:Template:Australia]]
+</noinclude>
