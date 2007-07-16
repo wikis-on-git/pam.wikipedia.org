@@ -1,0 +1,126 @@
+<noinclude>{{esoteric}}
+</noinclude>{| class="infobox geography" 
+|+style="font-size: larger; padding: 0 0 .1em 0;"| '''{{{Name}}}'''
+| class="maptable" align="center" colspan="2" style="padding: 0.4em 0.8em 0.4em 0.8em;" |
+{| style="text-align:center; background: none;"
+|-
+{{#if:{{{CoatOfArms|<noinclude>x</noinclude>}}}|
+{{!}} style="width: 130px; vertical-align: middle;" {{!}} [[Image:{{{Flag}}}|125px|border|Bandera ning {{{the|}}} {{{Name}}}]]
+{{!}} style="width: 130px; vertical-align: middle;" {{!}} [[Image:{{{CoatOfArms}}}|130px|Sagkal a Armas ning {{{the|}}} {{{Name}}}]]
+|
+{{!}} colspan="2" style="vertical-align: middle;" {{!}} [[Image:{{{Flag}}}|125px|border|Bandera ning {{{the|}}} {{{Name}}}]]
+}}
+|- style="font-size: smaller;"
+{{#if:{{{CoatOfArms|<noinclude>x</noinclude>}}}|
+{{!}} style="width: 130px; vertical-align: middle;" {{!}} [[Flag of {{{the|}}} {{{Name}}}|Flag]]
+{{!}} style="width: 130px; vertical-align: middle;" {{!}} [[Coat of Arms of {{{the|}}} {{{Name}}}|Coat of Arms]]
+|
+{{!}} colspan="2" style="vertical-align: middle;" {{!}} [[Flag of {{{the|}}} {{{Name}}}|Flag]]
+}}
+|- style="font-size: smaller;"
+| colspan="2" | [[List of Australian state and territory slogans|Palayo]]: ''{{{Nickname}}}''
+|-{{#if: {{{Motto|}}}| style="font-size: smaller;" 
+{{!}} colspan="2" {{!}} Motto(s): ''{{{Motto}}}'' }}
+|- 
+| colspan="2" | [[Image:{{{Map}}}|230px|Mapa ning Australia kambe ning {{{the|}}} {{{Name}}} makapasala]] <br> [[States and territories of Australia|Aliwang Australian state at territoryu]]
+|}
+|-
+! [[List of Australian capital cities|Tungku]] 
+| {{{Capital}}}
+|- class="mergedtoprow"
+! [[Government of {{{the|}}} {{{Name|Name}}}|Gubyernu]] 
+| [[Constitutional monarchy]]
+|- class="mergedrow"
+! [[{{{ViceroyType|ViceroyType}}} of {{{Name|Name}}}|{{{ViceroyType}}}]] 
+| {{{Viceroy}}}
+|- class="mergedbottomrow"
+! [[{{{ChiefType|ChiefType}}} of {{{Name|Name}}}|{{{ChiefType}}}]] 
+| {{{Chief}}} ({{{ChiefParty}}})
+|- class="mergedtoprow"
+! colspan="2" | [[Parliament of Australia|Federal&nbsp;a pamikatawan]]
+|- class="mergedrow"
+| &nbsp;- [[Australian House of Representatives|Luklukan da reng keng bale]] || {{{HouseSeats}}}
+|- class="mergedbottomrow"
+| &nbsp;- [[Australian Senate|Senate a luklukan]] || {{{SenateSeats}}}
+|- class="mergedtoprow"
+! colspan="2" | [[List of Australian states by Gross State Product|Gross {{{EntityAdjective}}} Product]] ({{{GSPYear}}})
+|- class="mergedrow"
+| &nbsp;- Productu ($m)<sup>&nbsp;</sup> || {{{GSP}}} ({{{GSPRank}}})
+|- class="mergedbottomrow"
+| &nbsp;- Productu balang capita<sup>&nbsp;</sup> || {{{GSPPerCapita}}}/person ({{{GSPPerCapitaRank}}})
+|- class="mergedtoprow"
+! colspan="2" | [[Ranked list of Australian states|Populasyun]] ({{{PopulationYear}}})
+|- class="mergedrow"
+| &nbsp;- Populasyun<sup>&nbsp;</sup> || {{{Population}}} ({{{PopulationRank}}})
+|- class="mergedbottomrow"
+| &nbsp;- [[Population density|Pangasiksik]]<sup>&nbsp;</sup> || {{{Density}}}/km² ({{{DensityRank}}}) <br/> {{formatnum:{{#expr: {{{Density|0}}} * 2.589988110336 round 1}}}}&nbsp;/sq&nbsp;mi 
+|- class="mergedtoprow" 
+! [[List of Australian states and territories by area|Lapad/Dagul]] || &nbsp;
+|- class="mergedrow"
+| &nbsp;- Total<sup>&nbsp;</sup> || {{formatnum:{{{TotalArea}}}}} km² ([[Ranked list of Australian states|{{{AreaRank}}}]])<br/>{{formatnum:{{#expr: {{{TotalArea|0}}} div 2.589988110336 round 0}}}}&nbsp;sq&nbsp;mi 
+|- class="mergedrow"
+| &nbsp;- Gabun || {{formatnum:{{{LandArea|0}}}}}  km²<br/>{{formatnum:{{#expr: {{{LandArea|0}}} div 2.589988110336 round 0}}}}&nbsp;sq&nbsp;mi
+|- class="mergedbottomrow"
+| &nbsp;- Danuman || {{formatnum:{{{WaterArea|0}}}}}  km² ({{{PercentWater}}}%)<br/>{{formatnum:{{#expr: {{{WaterArea|0}}} div 2.589988110336 round 0}}}}&nbsp;sq&nbsp;mi
+|- class="mergedtoprow"
+! [[Katas a elevasyun]] || &nbsp;
+|- class="mergedrow"
+| &nbsp;- Pekamatas || {{#if: {{{HighestPoint|}}}  
+ |{{{HighestPoint}}}<br/>}} {{{HighestElev}}} {{#if: {{{HighestElev_ft|}}}|({{{HighestElev_ft}}}&nbsp;[[Foot (unit)|ft]]) }}
+|- class="mergedbottomrow"
+| &nbsp;- Pekamababa || {{#if: {{{LowestPoint|}}}  
+ |{{{LowestPoint}}}<br/>}} {{{LowestElev}}} {{#if: {{{LowestElev_ft|}}}|({{{LowestElev_ft}}}&nbsp;ft) }}
+|- 
+! [[Oras zona]]
+|| {{{TimeZone}}}
+|- class="mergedtoprow"
+! Abbreviations || &nbsp;
+|- class="mergedrow"
+| &nbsp;- Postal || {{{PostalAbbreviation}}}
+|- class="mergedbottomrow"
+| &nbsp;- '''[[ISO 3166-2|ISO&nbsp;3166-2]]''' || {{{ISOCode}}}
+|-
+{{#if:{{{Emblem_title1|}}}|
+{{!}}- class="mergedtoprow"
+! Emblems 
+{{!}} &nbsp;
+{{!}}- class="mergedrow"
+{{!}} &nbsp;- {{{Emblem_title1}}}
+{{!}} {{{Emblem1}}}
+{{!}}- class="mergedrow"
+}}
+{{#if:{{{Emblem_title2|}}}|
+{{!}} &nbsp;- {{{Emblem_title2}}}
+{{!}} {{{Emblem2}}}
+{{!}}- class="mergedrow"
+}}
+{{#if:{{{Emblem_title3|}}}|
+{{!}} &nbsp;- {{{Emblem_title3}}}
+{{!}} {{{Emblem3}}}
+{{!}}- class="mergedrow"
+}}
+{{#if:{{{Emblem_title4|}}}|
+{{!}} &nbsp;- {{{Emblem_title4}}}
+{{!}} {{{Emblem4}}}
+{{!}}- class="mergedrow"
+}}
+{{#if:{{{Emblem_title5|}}}|
+{{!}} &nbsp;- {{{Emblem_title5}}}
+{{!}} {{{Emblem5}}}
+{{!}}- class="mergedbottomrow"
+}}
+{{#if:{{{Emblem_title6|}}}|
+{{!}} &nbsp;- {{{Emblem_title6}}}
+{{!}} {{{Emblem6}}}
+}}
+|-
+! Web site
+| [http://{{{Website}}}/ {{{Website}}}]
+|-{{#if: {{{Footnotes|}}}| style="font-size: smaller;" 
+{{!}} colspan="2" {{!}} {{{Footnotes}}} }}
+|}<noinclude>
+[[Category:Geography infobox templates|{{PAGENAME}}]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+[[hr:Predložak:Okvir države Australije]]
+[[fi:Malline:Australian osavaltio tai territorio]]
+</noinclude>
