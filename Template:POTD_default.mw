@@ -1,0 +1,14 @@
+{| cellspacing=5 style="border: #ccccff solid; padding: 5px; text-align: center; background-color: white; width: 600px;" 
+| colspan="2" style="font-size:150%" | [[Wikipedia:Picture of the day|Picture of the day]]
+|-
+|[[Image:{{{image}}}|{{{size|300}}}px|{{{texttitle}}}]]
+|
+{{#ifexpr: {{{size|300}}} >= 400 |
+{{!}}-
+{{!}}
+}}
+{{{caption}}}
+
+<small>{{{credit}}}</small><br />
+<small>[[Wikipedia:Picture of the day/{{CURRENTMONTHNAME}} {{CURRENTYEAR}}|Archive]] – [[Wikipedia:Featured pictures|More featured pictures...]]</small>
+|}
