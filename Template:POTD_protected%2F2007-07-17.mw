@@ -1,10 +1,10 @@
 {| style="text-align:{{#ifexpr:{{{rowsize|{{{size|250}}}}}} >= 400|center|left}}; background-color:transparent; {{#ifexpr:{{{rowsize|{{{size|250}}}}}} >= 400|padding:0.9em|}}" cellspacing="0" cellpadding="0"
-|{{#ifexpr:{{{rowsize|{{{size|250}}}}}} < 400|style="padding-right:0.9em;"|}}|[[Image:{{{thumb|Top of Atmosphere.jpg}}}|{{{rowsize|{{{size|250x250}}}}}}px|Earth's atmosphere]]
+|{{#ifexpr:{{{rowsize|{{{size|250}}}}}} < 400|style="padding-right:0.9em;"|}}|[[Image:{{{thumb|300px-MC_Siedleragame.jpeg}}}|{{{rowsize|{{{size|250x250}}}}}}px|Flat-Headed Rock Agama ]]
 {{#ifexpr:{{{rowsize|{{{size|250}}}}}} >= 400|
 {{!}}-
 {{!}}style="padding:0 0.9em 0.9em 0.9em;"{{!}}|{{!}}
 }}
-An image of the top layers of '''[[Earth's atmosphere]]''' leading to [[outer space]]. Atmospheric gases scatter blue wavelengths of [[visible light]] more than other wavelengths, giving the Earth’s visible edge a blue halo. At higher and higher [[altitude]]s, the atmosphere becomes so thin that it essentially ceases to exist. Gradually, the atmospheric halo fades into the blackness of space.
+{{Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}} (pam)}}
 
 <small>Photo credit: [[NASA Johnson Space Center]]</small>
 
