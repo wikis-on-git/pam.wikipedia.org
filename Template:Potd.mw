@@ -1,0 +1,16 @@
+<div class="{{Potd/float {{{float|right}}}}}">
+{|class="toccolours" style="width:{{{width|300}}}px;text-align:center"
+! {{Potd/name/{{{lang|en}}}}}
+|-
+|class="toccolours" style="padding:0"| [[Image:{{Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}}}|{{{width|300}}}px|]]
+|-
+|style="font-size:95%"|{{ {{#ifexist:Template:Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}} ({{#ifeq:{{{lang}}}|no|nb|{{{lang|en}}}}})|Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}} ({{#ifeq:{{{lang}}}|no|nb|{{{lang|en}}}}})|empty}} }}
+|}
+</div><noinclude>
+==Usage==
+<code>&#123;&#123;Potd|width=''width''|lang=''two letter language code (en = standard)''|float=''right/left/center''&#125;&#125;</code>
+
+''e.g.''
+
+<code>&#123;&#123;Potd|width=300|lang=de|float=right&#125;&#125;</code>
+</noinclude>
