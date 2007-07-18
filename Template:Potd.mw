@@ -8,7 +8,7 @@
 |}
 </div><noinclude>
 ==Usage==
-<code>&#123;&#123;Potd|width=''width''|lang=''two letter language code (pam = standard)''|float=''right/left/center''&#125;&#125;</code>
+<code>&#123;&#123;Potd|width=''width''|lang=''two letter language code (en = standard)''|float=''right/left/center''&#125;&#125;</code>
 
 ''e.g.''
 
