@@ -1,6 +1,6 @@
 <div class="{{Potd/float {{{float|right}}}}}">
 {|class="toccolours" style="width:{{{width|300}}}px;text-align:center"
-! {{Potd/name/{{{lang|en}}}}}
+! {{Potd/name/{{{lang|pam}}}}}
 |-
 |class="toccolours" style="padding:0"| [[Image:{{Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}}}|{{{width|300}}}px|]]
 |-
