@@ -4,7 +4,7 @@
 |-
 |class="toccolours" style="padding:0"| [[Image:{{Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}}}|{{{width|300}}}px|]]
 |-
-|style="font-size:95%"|{{ {{#ifexist:Template:Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}} ({{#ifeq:{{{lang}}}|no|nb|{{{lang|en}}}}})|Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}} ({{#ifeq:{{{lang}}}|no|nb|{{{lang|en}}}}})|Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}} (pam)}} }}
+|style="font-size:95%"|{{ {{#ifexist:Template:Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}} ({{#ifeq:{{{lang}}}|no|nb|{{{lang|pam}}}}})|Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}} ({{#ifeq:{{{lang}}}|no|nb|{{{lang|pam}}}}})|Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}} (pam)}} }}
 |}
 </div><noinclude>
 ==Usage==
