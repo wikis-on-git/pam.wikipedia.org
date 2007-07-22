@@ -1,0 +1,16 @@
+<div class="editsection noprint editlink plainlinksneverexpand" align="right" style="float: right; margin-left: 5px;"><small>[{{fullurl:{{{namespace|Template}}}:{{{1}}}|action=edit}} edit{{#if:{{{2|}}}|&#32;{{{2}}}}}]</small></div><noinclude>
+----
+;Usage&#58;
+:{{Tlx|ed right|SomeTemplate}} gives {{ed right|SomeTemplate}}
+:{{Tlx|ed right|SomeTemplate|this link}} gives {{ed right|SomeTemplate|this link}}
+;Caveats&#58;
+:It doesn't work too well within lists. In tables better use a row <tt>|align="right"|</tt>{{Tlx|ed|SomeTemplate|this link}} instead of {{Tlx|ed right}}
+;See also
+:{{lts|Ed}}
+:{{lts|Edi}}
+:{{lts|Ed right}}
+:{{lts|Edit}}
+:{{lts|Ed2}}
+:{{lts|Ed right2}}
+[[Category:Internal link templates|{{PAGENAME}}]]
+</noinclude>
