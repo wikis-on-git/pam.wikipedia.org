@@ -1,0 +1,2 @@
+!bgcolor="#EFEFEF" align=right{{!}}Length:
+{{!}}bgcolor="#EFEFEF"{{!}}{{{length_1}}} {{Infobox road/length link/{{{1}}}}}{{#if:{{{length_ref|}}}|{{{length_ref}}}|}} ({{#if:{{{length_2|}}}|{{{length_2}}}|{{ #expr: {{{length_1}}} * {{Infobox road/length conversion/{{{1}}}}} round {{#if:{{{round|}}}|{{{round}}}|0}} }}}} {{Infobox road/length link/{{Infobox road/length toggle/{{{1}}}}}}}){{#if:{{{length_notes|}}}|<br><small>{{{length_notes}}}</small>|}}
