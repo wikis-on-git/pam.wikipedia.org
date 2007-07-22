@@ -14,8 +14,8 @@
 }}
 |- style="font-size: smaller;"
 {{#if:{{{CoatOfArms|<noinclude>x</noinclude>}}}|
-{{!}} style="width: 130px; vertical-align: middle;" {{!}} [[Flag of {{{the|}}} {{{Name}}}|Flag]]
-{{!}} style="width: 130px; vertical-align: middle;" {{!}} [[Coat of Arms of {{{the|}}} {{{Name}}}|Coat of Arms]]
+{{!}} style="width: 130px; vertical-align: middle;" {{!}} [[Flag of {{{the|}}} {{{Name}}}|Bandera]]
+{{!}} style="width: 130px; vertical-align: middle;" {{!}} [[Coat of Arms of {{{the|}}} {{{Name}}}|Sagkal a Armas]]
 |
 {{!}} colspan="2" style="vertical-align: middle;" {{!}} [[Flag of {{{the|}}} {{{Name}}}|Flag]]
 }}
