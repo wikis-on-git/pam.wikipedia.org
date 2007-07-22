@@ -1,4 +1,5 @@
-{{Infobox road| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
+{{Infobox road
+| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
 |+ style="margin-left: inherit; font-size: medium;" |
 |state=Interstate
 |type={{#ifeq:{{{type}}}|Future|Future|}}
