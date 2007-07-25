@@ -1,0 +1,46 @@
+{| class="infobox" style="width:20em; text-align:left;"
+|+ style="font-size:larger; margin-left:inherit;"|'''{{{fullname}}}'''
+|-
+| colspan="2" style="text-align:center;"| {{{coatofarms}}}
+|-
+| class="toccolours" colspan="2" style="text-align:center; padding:0;"| '''{{{map}}}'''
+|-
+| colspan="2" style="text-align:center; font-size:smaller;"| Mapa makapasala ya ing karinan ning {{{name}}} king Italy
+|-
+| <!--'''[[Geography of Italy|Zona]]''' || {{{zone}}}/-->
+|- 
+! Tungku
+| {{{capital}}}
+|-
+! Pamuntuk
+| {{{governor}}}
+|-
+!| [[Provinces of Italy|Lalawigan]] 
+| {{{province}}}
+|-
+!| [[comune|Comuni]] 
+| {{{municipality}}}
+|-
+! [[Lapad/Dagul]] 
+|| {{{area}}} [[Square kilometre|km²]] 
+|-
+|| &nbsp;- [[Ranked lists of Italian regions|Ranku]]  
+| {{{arearank}}} ({{{areapercent}}} %)
+|-
+! colspan="2"| [[Populasyun]] ({{{population_as_of}}})
+
+|-
+! &nbsp;- Eganagana-Suma
+| {{{population}}}
+|-
+!| &nbsp;- [[Ranked lists of Italian regions|Ranku]]
+| {{{populationrank}}} ({{{populationpercent}}} %)
+|-
+!| &nbsp;- [[Population density|Pangasiksik]]
+| {{{populationdensity}}}/km²
+|}<noinclude>
+[[Category:European country subdivision infobox templates|{{PAGENAME}}]]
+
+[[hr:Predložak:Infobox RegijeIT]]
+[[uk:Шаблон:Картка Регіон Італії]]
+</noinclude>
