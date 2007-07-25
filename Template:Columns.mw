@@ -1,0 +1,36 @@
+<includeonly>{| style="background:{{{bgcol|transparent}}};" cellspacing="0" cellpadding="0"
+|- valign="top"
+|style="width:{{{col1width|{{{width|10em}}}}}};"|
+{{{col1}}}
+|style="width:{{{gap|1.25em}}};"|
+|style="width:{{{col2width|{{{width|10em}}}}}};"|
+{{{col2}}}
+|style="width:{{{gap|1.25em}}};"|
+{{#if:{{{col3|}}} |<!--then:-->
+{{!}}style="width:{{{col3width|{{{width|10em}}}}}};"{{!}}
+{{{col3}}}
+{{!}}style="width:{{{gap|1.25em}}};"{{!}}
+}}
+{{#if:{{{col4|}}} |<!--then:-->
+{{!}}style="width:{{{col4width|{{{width|10em}}}}}};"{{!}}
+{{{col4}}}
+{{!}}style="width:{{{gap|1.25em}}};"{{!}}
+}}
+{{#if:{{{col5|}}} |<!--then:-->
+{{!}}style="width:{{{col5width|{{{width|10em}}}}}};"{{!}}
+{{{col5}}}
+{{!}}style="width:{{{gap|1.25em}}};"{{!}}
+}}
+{{#if:{{{col6|}}} |<!--then:-->
+{{!}}style="width:{{{col6width|{{{width|10em}}}}}};"{{!}}
+{{{col6}}}
+{{!}}style="width:{{{gap|1.25em}}};"{{!}}
+}}
+{{#if:{{{col7|}}} |<!--then:-->
+{{!}}style="width:{{{col7width|{{{width|10em}}}}}};"{{!}}
+{{{col7}}}
+{{!}}style="width:{{{gap|1.25em}}};"{{!}}
+}}
+|}</includeonly><noinclude>
+{{/doc}}
+</noinclude>
