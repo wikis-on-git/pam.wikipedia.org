@@ -1,30 +1,29 @@
-{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
 {| class="infobox geography"
 |+style="font-size: larger; padding: 0 0 .1em 0;"|'''{{{full-name}}}'''
 |-class="mergedrow"
 | bgcolor="#ffffff" align=center colspan=2 |
 {| border=0 cellpadding=2 cellspacing=0 style="padding-top:1em"
 |-class="mergedrow"
-| align=center width=148 valign=bottom | {{border|[[Image:{{{flag}}}|150px]]}}
-| align=center width=148 valign=bottom | [[Image:{{{coat-of-arms}}}|70px]]
+| align=center width=148 vertical-align: center;" | [[Image:{{{flag}}}|125px|border]]
+| align=center width=148 vertical-align: center;" | [[Image:{{{coat-of-arms}}}|85px]]
 |-
-| align=center width=148 | [[Flag of {{{name}}}|Bandera]]
-| align=center width=148 | [[Coat of Arms of {{{name}}}|Coat of Arms]]
+| align=center width=148 | [[Flag of {{{name}}}|Flag]]
+| align=center width=148 | [[Coat of arms of {{{name}}}|Coat of arms]]
 |}
 |-
 {{#if:{{{motto|}}}|<tr><td align=center colspan=2>'''[[Motto]]''': {{{motto}}}</td></tr>|}}
 {{#if:{{{anthem|}}}|<tr><td align=center colspan=2>'''[[Anthem]]''': {{{anthem}}}</td></tr>|}}
-| bgcolor="#c6c6c6" align="center" colspan="2" | [[Image:{{{map}}}|300px]]
+| bgcolor="#c6c6c6" align="center" colspan="2" | [[Image:{{{map}}}|250px]]
 |-
-| '''[[Tungku]]''' || {{{capital}}}
+| '''[[Capital]]''' || {{{capital}}}
 |-
-| '''[[Official language|Peka Amanu]]''' || {{{language}}}
+| '''[[Official language|Official language(s)]]''' || {{{language}}}
 |-
 | '''[[Area]]'''<br />&nbsp;&ndash; Total<br />&nbsp;&ndash; % of Spain
-| [[List of Spanish autonomous communities by area|Ranku{{{area-rank}}}]]<br />&nbsp;[[1 {{{area-magnitude}}} m²|{{{area}}}]] [[square kilometre|km²]]<br />&nbsp;{{{area-percent}}}
+| [[List of Spanish autonomous communities by area|Ranked {{{area-rank}}}]]<br />&nbsp;[[1 {{{area-magnitude}}} m²|{{{area}}}]] [[square kilometre|km²]]<br />&nbsp;{{{area-percent}}}
 |-
 | '''[[Population]]'''<br />&nbsp;&ndash; Total ({{{pop-date}}})<br />&nbsp;&ndash; % of Spain<br />&nbsp;&ndash; [[Density]]
-| [[List of Spanish autonomous communities by population|Ranku {{{pop-rank}}}]]<br />&nbsp;{{{pop}}}<br />&nbsp;{{{pop-percent}}}<br />&nbsp;{{{density}}}/km²
+| [[List of Spanish autonomous communities by population|Ranked {{{pop-rank}}}]]<br />&nbsp;{{{pop}}}<br />&nbsp;{{{pop-percent}}}<br />&nbsp;{{{density}}}/km²
 |-
 | '''[[Demonym]]'''<br />&nbsp;&ndash; [[English language|English]]<br />&nbsp;&ndash; [[Spanish language|Spanish]]{{#if:{{{local-lang|}}}|<br />&nbsp;&ndash; {{{local-lang}}}|}}
 |<br />&nbsp;{{{english-name}}}<br />&nbsp;{{{spanish-name}}}{{#if:{{{local-name|}}}|<br />&nbsp;{{{local-name}}}|}}
@@ -38,7 +37,7 @@
 | {{{president}}}
 |-
 | '''[[ISO 3166-2]]'''
-| ES-{{{code}}}
+| {{{code}}}
 |-
 | align=center colspan=2 | {{{website}}}
 |}<noinclude>
@@ -75,4 +74,10 @@ Usage:
 |website = 
 }}
 </pre>
+
+[[Category:European country subdivision infobox templates|Autonomous community]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+
+[[it:Template:Comunità autonoma]]
+[[sl:Predloga:Infopolje Avtonomna pokrajina]]
 </noinclude>
