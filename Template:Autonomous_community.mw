@@ -7,33 +7,33 @@
 | align=center width=148 vertical-align: center;" | [[Image:{{{flag}}}|125px|border]]
 | align=center width=148 vertical-align: center;" | [[Image:{{{coat-of-arms}}}|85px]]
 |-
-| align=center width=148 | [[Flag of {{{name}}}|Flag]]
-| align=center width=148 | [[Coat of arms of {{{name}}}|Coat of arms]]
+| align=center width=148 | [[Flag of {{{name}}}|Bandera]]
+| align=center width=148 | [[Coat of arms of {{{name}}}|Sagkal ning armas]]
 |}
 |-
-{{#if:{{{motto|}}}|<tr><td align=center colspan=2>'''[[Motto]]''': {{{motto}}}</td></tr>|}}
-{{#if:{{{anthem|}}}|<tr><td align=center colspan=2>'''[[Anthem]]''': {{{anthem}}}</td></tr>|}}
+{{#if:{{{motto|}}}|<tr><td align=center colspan=2>'''[[Motto (Kasebyan)]]''': {{{motto}}}</td></tr>|}}
+{{#if:{{{anthem|}}}|<tr><td align=center colspan=2>'''[[Dalit]]''': {{{anthem}}}</td></tr>|}}
 | bgcolor="#c6c6c6" align="center" colspan="2" | [[Image:{{{map}}}|250px]]
 |-
-| '''[[Capital]]''' || {{{capital}}}
+| '''[[Capitoliu]]''' || {{{capital}}}
 |-
-| '''[[Official language|Official language(s)]]''' || {{{language}}}
+| '''[[Official language|Oficial a amanu]]''' || {{{language}}}
 |-
-| '''[[Area]]'''<br />&nbsp;&ndash; Total<br />&nbsp;&ndash; % of Spain
-| [[List of Spanish autonomous communities by area|Ranked {{{area-rank}}}]]<br />&nbsp;[[1 {{{area-magnitude}}} m²|{{{area}}}]] [[square kilometre|km²]]<br />&nbsp;{{{area-percent}}}
+| '''[[Leparan]]'''<br />&nbsp;&ndash; Total<br />&nbsp;&ndash; % of Spain
+| [[List of Spanish autonomous communities by area|Ranggu {{{area-rank}}}]]<br />&nbsp;[[1 {{{area-magnitude}}} m²|{{{area}}}]] [[square kilometre|km²]]<br />&nbsp;{{{area-percent}}}
 |-
-| '''[[Population]]'''<br />&nbsp;&ndash; Total ({{{pop-date}}})<br />&nbsp;&ndash; % of Spain<br />&nbsp;&ndash; [[Density]]
-| [[List of Spanish autonomous communities by population|Ranked {{{pop-rank}}}]]<br />&nbsp;{{{pop}}}<br />&nbsp;{{{pop-percent}}}<br />&nbsp;{{{density}}}/km²
+| '''[[Populaciun]]'''<br />&nbsp;&ndash; Total ({{{pop-date}}})<br />&nbsp;&ndash; % of Spain<br />&nbsp;&ndash; [[Kapal (Density)]]
+| [[List of Spanish autonomous communities by population|Ranggu {{{pop-rank}}}]]<br />&nbsp;{{{pop}}}<br />&nbsp;{{{pop-percent}}}<br />&nbsp;{{{density}}}/km²
 |-
-| '''[[Demonym]]'''<br />&nbsp;&ndash; [[English language|English]]<br />&nbsp;&ndash; [[Spanish language|Spanish]]{{#if:{{{local-lang|}}}|<br />&nbsp;&ndash; {{{local-lang}}}|}}
+| '''[[Aus kareng memalen]]'''<br />&nbsp;&ndash; [[English language|Inglis]]<br />&nbsp;&ndash; [[Spanish language|Castila]]{{#if:{{{local-lang|}}}|<br />&nbsp;&ndash; {{{local-lang}}}|}}
 |<br />&nbsp;{{{english-name}}}<br />&nbsp;{{{spanish-name}}}{{#if:{{{local-name|}}}|<br />&nbsp;{{{local-name}}}|}}
 |-
 | '''Statute of Autonomy''' || {{{autonomy}}}
 |-
-| '''[[Cortes Generales|Parliamentary<br />representation]]'''<br />&nbsp;&ndash; [[Spanish Congress|Congress seats]]<br />&nbsp;&ndash; [[Spanish Senate|Senate seats]]
+| '''[[Cortes Generales|Pekakatawan king<br />parlamentu]]'''<br />&nbsp;&ndash; [[Spanish Congress|Pekakatawan king Congresu]]<br />&nbsp;&ndash; [[Spanish Senate|Pekakatawan king Senadu]]
 | valign=bottom |<br/><br/>&nbsp;{{{congress}}}<br />&nbsp;{{{senate}}}
 |-
-| valign=top | '''[[{{{president-link}}}|President]]'''
+| valign=top | '''[[{{{president-link}}}|Pamuntuk]]'''
 | {{{president}}}
 |-
 | '''[[ISO 3166-2]]'''
