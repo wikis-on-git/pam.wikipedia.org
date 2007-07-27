@@ -15,7 +15,7 @@
 {{#if:{{{anthem|}}}|<tr><td align=center colspan=2>'''[[Dalit]]''': {{{anthem}}}</td></tr>|}}
 | bgcolor="#c6c6c6" align="center" colspan="2" | [[Image:{{{map}}}|250px]]
 |-
-| '''[[Capitoliu]]''' || {{{capital}}}
+| '''[[Tungku(Capitoliu)]]''' || {{{capital}}}
 |-
 | '''[[Official language|Oficial a amanu]]''' || {{{language}}}
 |-
