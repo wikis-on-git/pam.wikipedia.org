@@ -1,0 +1,10 @@
+== {{#time: F j - D | {{{1|}}}}} ==
+{{#ifexist: Template:POTD/{{{1|{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}}}} |
+{{POTD/{{{1|}}}}}|
+:''None selected''
+}}
+{{#ifexist:Template:POTD/{{{1}}}|[[Template:POTD/{{{1}}}|view]] - [{{fullurl:Template:POTD/{{{1}}}|action=edit}} edit]|[{{fullurl:Template:POTD/{{{1}}}|preload=Template:POTDstart&action=edit}} create]}}
+{{#ifexist:Template:POTD/{{{1}}}| - {{#ifexist:Template:POTD protected/{{{1}}}|[[Template:POTD protected/{{{1}}}|protected version]]|[{{fullurl:Template:POTD protected/{{{1}}}|preload=Template:POTD/{{{1}}}&action=edit}} create protected version]}} {{#ifexist:Wikipedia:Today's featured picture (animation)/{{#time:F" "j", "Y|{{{1|}}}}}| - [[Wikipedia:Today's featured picture (animation)/{{#time:F" "j", "Y|{{{1|}}}}}|animated version]]}}
+{{#ifexist:Template:POTD protected/{{{1}}}||
+<small>To create the protected version, replace the first line with <code><nowiki>{{subst:POTD row</nowiki></code> and save it.</small>}}
+|}}
