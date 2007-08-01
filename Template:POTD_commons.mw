@@ -1,0 +1,57 @@
+<noinclude><div class="thumb t{{#if: {{{float|}}}|{{{float}}}|left}}" style="float:{{#if: {{{float|}}}|{{{float}}}|left}};"><div class=thumbinner style="padding: 1px;">[[:commons:Commons:Picture of the day|Commons picture of the day]] ({{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY}})<br /></noinclude>
+{{#ifeq:{{{thumb}}}|yes|<div class="thumb t{{#if: {{{float|}}}|{{{float}}}|left}}"><div class=thumbinner style="padding: 1px;">{{#ifeq:{{{title}}}|yes|[[:commons:Commons:Picture of the day|Commons picture of the day]]<br />|}}||}}
+{{Template:POTD commons/Multiview
+  |<!---1-->[[Image:Pyrenees topographic map-fr.svg|245x245px]]
+  |<!---2-->[[Image:Franco-Prussian War- Illustrated London News, September 3, 1870.PNG|245x245px]]
+  |<!---3-->[[Image:LantanaFlowerLeaves.jpg|245x245px]]
+  |<!---4-->[[Image:Lisbon (Lisboa) historic elevator Santa Justa Luca Galuzzi 2006.jpg|245x245px]]
+  |<!---5-->[[Image:Fringilla coelebs chaffinch male edit2.jpg|245x245px]]
+  |<!---6-->[[Image:CH Landwasser 2.jpg|245x245px]]
+  |<!---7-->[[Image:Inscriptions on torii, Fushimi Inari shrine, Kyoto.jpg|245x245px]]
+  |<!---8-->[[Image:Glarus Stadtkirche Langhaus.jpg|245x245px]]
+  |<!---9-->[[Image:Flughahn.jpg|245x245px]]
+  |<!--10-->[[Image:IMG 0996 Lhasa Barkhor.jpg|245x245px]]
+  |<!--11-->[[Image:Drosera rotundifolia leaf1.jpg|245x245px]]
+  |<!--12-->[[Image:Milky Way IR Spitzer.jpg|245x245px]]
+  |<!--13-->[[Image:Wrightflyer.jpg|245x245px]]
+  |<!--14-->[[Image:CampanileGiotto-01.jpg|245x245px]]
+  |<!--15-->[[Image:Freudenberg sg Switzerland.jpg|245x245px]]
+  |<!--16-->[[Image:PortraitGirl2005-1a.jpg|245x245px]]
+  |<!--17-->[[Image:Hemerocallis-Taglilie.jpg|245x245px]]
+  |<!--18-->[[Image:Wawadit'la(Mungo Martin House) a Kwakwaka'wakw big house.jpg|245x245px]]
+  |<!--19-->[[Image:Kodak-Vollenda620-detail.jpg|245x245px]]
+  |<!--20-->[[Image:Tavira Igreja Santiago-1-D.jpg|245x245px]]
+  |<!--21-->[[Image:Eta Carinae Nebula 1.jpg|245x245px]]
+  |<!--22-->[[Image:Apis mellifera carnica drone aborning.jpg|245x245px]]
+  |<!--23-->[[Image:Fulmer Falls Closeup 3000px.jpg|245x245px]]
+  |<!--24-->[[Image:Azulejos Parque Eduardo VII-2.jpg|245x245px]]
+  |<!--25-->[[Image:Trifolium repens (inflorescense) Edit.jpg|245x245px]]
+  |<!--26-->[[Image:Oxysternon-conspicillatum male.jpg|245x245px]]
+  |<!--27-->[[Image:Ryan Valentine scores.jpg|245x245px]]
+  |<!--28-->[[Image:Mature flower diagram.svg|245x245px]]
+  |<!--29-->[[Image:SeattleI5Skyline.jpg|245x245px]]
+  |<!--30-->[[Image:MosaikJungferExuvie09.JPG|245x245px]]
+  |<!--31-->[[Image:Libya 4983 Tadrart Acacus Luca Galuzzi 2007.jpg|245x245px]]
+}}{{#ifeq: {{{caption}}}|no||<small style="text-align:center;width:245px;display:block;margin-top:4px;">{{Template:POTD commons/Captions|{{#if: {{{next|}}}|next=yes|}}}}</small>}}{{#ifeq:{{{thumb}}}|yes|</div></div>}}<noinclude></div></div>
+<br style="clear:both;" />
+<div style="color:grey; text-align:center;"><small>'''This information will not be shown when the template is called upon'''</small></div>
+<div class="toccolours" style="background: #FFFFEE; border: 1px solid #FFDAB9;font-size:1em;">
+===Function===
+This template shows the POTD from Commons
+
+A generated list of images for use in this template can be copy-pasted from [http://commons.wikimedia.org/wiki/User:Freestyle_nl/POTD_nl here]. For the [[Template:POTD commons/Captions]] (used for the captions) use [http://commons.wikimedia.org/wiki/User:Freestyle_nl/POTD_caption this] generated list.
+
+===Parameters===
+* thumb=yes - show as thumbnail
+* title=yes - show the title (only in combination with thumb=yes)
+* caption=no - don't show the captions
+* float=left/right - for floating the thumbnail left or right (default=left) 
+
+===Example===
+
+<code><nowiki>{{Template:POTD commons|thumb=yes|title=yes|float=right}}</nowiki></code> - this will show a thumbnailed version, floated right, with the title and captions.
+
+
+</div>
+
+</noinclude>
