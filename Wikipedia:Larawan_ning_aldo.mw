@@ -1,0 +1,71 @@
+<!--{{FPArchiveBar{{CURRENTMONTHNAME}}{{CURRENTYEAR}}}}-->
+{{Featuredpicturetools}}
+{{Shortcut|[[WP:POTD]]}}
+<center><small>[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAMEE}}|action=purge}} Purge page cache]</small></center>
+Ing '''larawan ning aldo''' metung yang letratung miyayalilan aldo-aldo king metung a letratu ibat king '''[[Wikipedia:Featured pictures]]''' (mepiling letratu).
+{{POTD/Day|{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}}}
+
+== Dalerayan ==
+
+# Kaylangan sadya neng mepili ing larawan. Ba yang miyabe kareng pipamilinan ing metung a larawan, lon ya ing 
+[[Wikipedia:Featured picture candidates|featured picture candidates]].
+# King salukuyan, pipilinan la reng larawan basi king nung kapilan la mimunikala. Lon ya ing
+[[Wikipedia:Featured picture candidates/{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}|featured pictures candidates archive]] para king pamitukituki.
+
+:''Lon ya murin ing: [[Wikipedia:Picture of the day/Guidelines|Guidelines for writing Picture of the day captions]]''
+
+== Ing pamanabe ning larawan ning aldo king kekang user page ==
+Malyari meng palub ing larawan king kekang user page o talk page kapamilatan ning pamandagdag king makatuki
+<code>{{tl|Pic of the day}}</code> (makalto ya king babo ing bersion a ini). Lunto ya king metung a kahun a maki leparan a anam a ralan (600) a pixel, at maki ditak a sulat a makaparikil king articulu nung nu ya makabili ing larawan. Malyari ya murin ing bersion a alang sulat kapamilatan ning
+<code>{{tl|POTD}}</code>.
+
+Malyari muring gawang sarili mung pamanayus (layout) ning Larawan ning Aldo, nung sakaling e la bage king kekang user page deng bersion a atyu na. Pisamut-samut mu la reng makatuking sangkap ba kang gawang sarili mu. '''Gumana ya mu ing sistemang iti kareng Larawan ning Aldo manibat Enero 1, 2007.''' Siguraduan meng alilan ing <code>[date]</code> ketang ustung petsa. Para king metung a bersiong manaliling dili na, gamitan me ing   
+<code><nowiki>{{#time:Y-m-d}}</nowiki></code> (example: <code><nowiki>{{POTD/{{#time:Y-m-d}}|image}}</nowiki></code>).
+{| class="prettytable"
+!Template!!Description!!Renders as
+|-
+|<code><nowiki>{{POTD/[date]|image}}</nowiki></code>||The name of the image, without the <code>Image:</code> prefix.||{{POTD/{{#time:Y-m-d}}|image}}
+|-
+|<code><nowiki>{{POTD/[date]|size}}</nowiki></code>||The size of the image, without the trailing <code>px</code>.||{{POTD/{{#time:Y-m-d}}|size}}
+|-
+|<code><nowiki>{{POTD/[date]|caption}}</nowiki></code>||The image caption.||{{POTD/{{#time:Y-m-d}}|caption}}
+|-
+|<code><nowiki>{{POTD/[date]|title}}</nowiki></code>||A link to the article the image represents.||{{POTD/{{#time:Y-m-d}}|title}}
+|}
+
+Atin pang adwang karagdagang layout a tambing nang misamasan (pre-defined)
+*<code><nowiki>{{POTD/{{#time:Y-m-d}}|column}}</nowiki></code>: Keti, mitutumpak la reng larawan ampong sulat, at alang gulis (border). Magagamit ya iti kareng mapilan a [[Wikipedia:Main Page alternatives|Main Page alternatives]] at bage ya murin kareng user page.
+*<code><nowiki>{{POTD/{{#time:Y-m-d}}|row}}</nowiki></code>: Keti, makalulan la king (keraklan) metung a dane ning table (table row). Ini ing bersion a magagamit king [[Pun Bulung]].
+Malyari ya muring permanenting ibili ing Larawan ning Aldo para king metung a mepiling aldo. Idagdag me mu ing particular a bilang (value) ketang petsang buri mu. Alimbawa, ing Larawan ning Aldo ngeni anti ya kaniti
+<code>{{tlp|POTD/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}|image}}</code>. Malyari mu la muring gamitan deng balangkas (parameter) ning petsa kareng aliwang apusan o template. Nung buri mo retang sadya nang megawa, agamit mu la rin deng date parameter kareta, anti kaniti: 
+<code><nowiki>{{</nowiki>[[Template:Pic of the day|Pic of the day]]|date={{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}}}</code> o
+<code><nowiki>{{</nowiki>[[Template:POTD|POTD]]|date={{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}}}</code>. Pasibayu, 
+'''Gumana ya mu ing sistemang iti kareng Larawan ning Aldo manibat Enero 1, 2007.'''
+
+===Deng minunang larawan ning aldo===
+Nung buri meng permanenting iyabe ing metung a Larawan ning Aldo a mepili king pilatan ning Noviembre 1, 2004 at Diciembre 31, 2006, gamitan me ing makatuki:
+<code><nowiki>{{Wikipedia:Picture of the day/[month] [day], [year]}}</nowiki></code> o <code><nowiki>{{Wikipedia:POTD/[month] [day], [year]}}</nowiki></code>. Alimbawa, <code><nowiki>{{Wikipedia:Picture of the day/December 31, 2006}}</nowiki></code>.
+
+Den namang Larawan ning Aldong mepili manibat ketang Mayo 2004 anggang Octubre 2004, malyari la mung puntalan kapamilatan da reng archivo para king balang bulan (month-at-a-time), at malyari lang ibili kareng user pages nung gamitan ya ing [[Help:Images and other uploaded files|standard image syntax]].
+
+== Commons:Larawan ning aldo ==
+{{Template:POTD commons|thumb=yes|title=yes|float=left}}<br style="clear:both;"/>
+
+Ating informaciun tungkul king pamipalub king Commons POTD (Picture of the Day o Larawan ning Aldo) king kekang user page o talk page king [[Template:POTD commons]].
+
+{{POTDArchiveFooter}}
+
+[[Category:Wikipedia featured content|{{PAGENAME}}]]
+[[Category:Wikipedia images|{{PAGENAME}}]]
+[[Category:Main Page|{{PAGENAME}}]]
+
+[[bs:Wikipedia:Slika dana]]
+[[en:Wikipedia:Picture of the day]]
+[[fr:Wikipédia:Image du jour]]
+[[hu:Wikipédia:A nap képe]]
+[[id:Wikipedia:Gambar Pilihan]]
+[[kk:Уикипедия:Тәулік суреті]]
+[[ru:Википедия:Изображение дня]]
+[[os:Википеди:Боны ныв]]
+[[zh:Wikipedia:每日圖片]]
+[[zh-yue:Wikipedia:是日靚畫]]
