@@ -1,23 +1,20 @@
-{{Taxobox_begin | color = darkgray | name = Archaea}}
-{{Taxobox_begin_placement | color = darkgray}}
-{{Taxobox_domain_entry | taxon = '''Archaea'''}}<br/>{{Taxobox authority | 
-author = [[Carl Woese|Woese]], [[Otto Kandler|Kandler]] & [[Mark 
-Wheelis|Wheelis]] | date = 1990}}
-{{Taxobox_end_placement}}
-{{Taxobox_section_subdivision | color = darkgray | plural_taxon = Phyla / 
-Classes}}
-Phylum [[Crenarchaeota]]<br />
-Phylum [[Euryarchaeota]]<br />
-&nbsp;&nbsp;&nbsp; [[Halobacteria]]<br />
-&nbsp;&nbsp;&nbsp; [[Methanobacteria]]<br />
-&nbsp;&nbsp;&nbsp; [[Methanococci]]<br />
-&nbsp;&nbsp;&nbsp; [[Methanopyri]]<br />
-&nbsp;&nbsp;&nbsp; [[Archaeoglobi]]<br />
-&nbsp;&nbsp;&nbsp; [[Thermoplasmata]]<br />
-&nbsp;&nbsp;&nbsp; [[Thermococci]]<br />
-Phylum [[Korarchaeota]]<br />
-Phylum [[Nanoarchaeum|Nanoarchaeota]]
-{{Taxobox_end}}
+{{Taxobox
+| color = darkgray
+| name = Archaea
+| fossil_range = [[Archean]] - Recent
+| image = Halobacteria.jpg
+| image_width = 200px
+| image_caption = ''Deng [[Halobacteria]]'' sp. strain NRC-1, a 5 μm king kaba.
+| domain = '''Archaea'''
+| domain_authority = [[Carl Woese|Woese]], [[Otto Kandler|Kandler]] & [[Mark Wheelis|Wheelis]], 1990
+| subdivision_ranks = Phyla
+| subdivision =
+[[Crenarchaeota]]<br />
+[[Euryarchaeota]]<br />
+[[Korarchaeota]]<br />
+[[Nanoarchaeota]]<br />
+[[Archaeal Richmond Mine Acidophilic Nanoorganisms|ARMAN]]
+}}
 Metung lang maragul a dake da reng [[organismu]]ng mabi[[en:life|bye]] deng  
 '''Archaea''' (a awsan da muring Archaebacteria). E man makaing malino ing 
 eksaktu rang penibatan ([[en:phylogeny]]) deng grupung deti, deng Archaea, 
