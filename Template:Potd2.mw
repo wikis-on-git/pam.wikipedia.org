@@ -1,0 +1,61 @@
+<noinclude>{{protected|it is an easy target for vandalizing the main page}}</noinclude>
+<div class="{{Potd/float {{{float|center}}}}}">
+{| style="width: {{{width|300}}}px; text-align: center;"  class="toccolours"
+| cellpadding="0" | [[Image:{{Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}}}|{{{width|300}}}px|{{{caption|
+{{#ifexist:Template:Potd/name/{{{language|en}}}
+  |{{Potd/name/{{{language|en}}}}}
+  |{{#if:{{{fallback_language|}}}
+    |{{#ifexist:Template:Potd/name/{{{fallback_language|en}}}
+      |{{Potd/name/{{{fallback_language|en}}}}}
+      |{{Potd/name/en}}
+    }}
+    |{{Potd/name/en}}}
+  }}
+}}
+}}}]]
+|-
+! {{{caption|{{#ifexist:Template:Potd/name/{{{language|en}}}
+  |{{Potd/name/{{{language|en}}}}}
+  |{{#if:{{{fallback_language|}}}
+    |{{#ifexist:Template:Potd/name/{{{fallback_language|en}}}
+      |{{Potd/name/{{{fallback_language|en}}}}}
+      |{{Potd/name/en}}
+    }}
+    |{{Potd/name/en}}
+  }}
+}} - {{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}
+|}
+</div>
+{{#ifexist:Template:Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}} ({{{language}}})
+  |'''{{{language|en}}}:''' {{Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}} ({{{language|en}}})}}
+  |{{#ifexist:Template:Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}} ({{{fallback_language}}})
+    |'''{{{fallback_language|en}}}:''' {{Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY}} ({{{fallback_language|en}}})}}
+    |'''en:''' {{Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}} (en)}}
+    }}
+}} <small>(en {{edit|Template:Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}} (en)}}{{ #ifeq:
+{{{language|en}}} | en | |,  {{{language|}}} {{edit|Template:Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}} ({{{language|en}}})}}
+}})</small><noinclude>
+==Usage==
+<pre>
+<nowiki>
+{{Potd2|
+| width="width"
+| language="two letter language code"
+| float="right/left/center"
+| caption="Override 'Picture of the Day' caption"
+}}
+</nowiki>
+</pre>
+
+''e.g.''
+
+<pre>
+<nowiki>
+{{Potd2|
+| width=300
+| language=en
+| float=center
+}}
+</nowiki>
+</pre>
+</noinclude>
