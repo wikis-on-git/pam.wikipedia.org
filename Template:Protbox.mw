@@ -1,0 +1,155 @@
+{|border="0" bgcolor="#ffffff" cellpadding="2" cellspacing=0 align="right" width="305" style="border:2px solid #e7dcc3;margin-left:3px"
+!bgcolor=#e7dcc3 colspan=2|{{{Name}}}
+|-
+{{#if: {{{Photo|}}} |
+{{!}} align=center colspan=2 {{!}} [[Image:{{{Photo}}}{{!}}{{{width|220}}}px]]<br>
+{{{Caption}}} }}
+|-valign=top
+{{#if:{{{Symbol|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}} [[HUGO|Symbol(s)]]: {{!}}{{!}}  style="border-top:2px solid #e7dcc3;" width=220{{!}}[http://www.gene.ucl.ac.uk/nomenclature/data/get_data.php?hgnc_id=HGNC:{{{HGNCid}}} {{{Symbol}}}] {{{AltSymbols}}}}}
+|-
+{{#if:{{{Names|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}Other names:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}}{{{Names}}}}}
+|-valign=top
+{{#ifexpr:{{#expr:{{#if:{{{Chromosome|}}}|1|0}} or {{#if:{{{Gene|}}}|1|0}} or {{#if:{{{Gene_type|}}}|1|0}} }}|{{!}}bgcolor=#e7dcc3 colspan=2 align="center"{{!}}'''[[Genetics|Genetic data]]'''}}
+|-valign=top
+{{#if:{{{Chromosome|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}} [[Locus (genetics)|Locus]]: {{!}}{{!}} style="border-top:2px solid #e7dcc3; " width=220{{!}}[[Chromosome_{{{Chromosome}}}_(human)|Chr. {{{Chromosome}}}]] ''[http://www.ncbi.nlm.nih.gov/Omim/getmap.cgi?chromosome={{{Chromosome}}}{{{Arm}}}{{{Band}}} {{{Arm}}}{{{Band}}}{{{LocusSupplementaryData}}}]''}}
+|-valign=top
+{{#if:{{{Gene|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}} Gene code: {{!}}{{!}}style="border-top:2px solid #e7dcc3" width=220{{!}} {{{Gene}}}}}
+|-valign=top
+{{#if:{{{Gene_type|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}} Gene type: {{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}} {{{Gene_type}}}}}
+|-valign=top
+{{#ifexpr:{{#expr:{{#if:{{{Protein_length|}}}|1|0}} or {{#if:{{{Molecular_weight|}}}|1|0}} or {{#if:{{{Structure|}}}|1|0}} or {{#if:{{{Type|}}}|1|0}} or {{#if:{{{Functions|}}}|1|0}} or {{#if:{{{Domains|}}}|1|0}} or {{#if:{{{Motifs|}}}|1|0}} or {{#if:{{{Alternative_products|}}}|1|0}}}}|{{!}}bgcolor=#e7dcc3 colspan=2 align="center"{{!}}'''Protein Structure/Function'''}}
+|-valign=top
+{{#if:{{{Protein_length|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}} [[Protein|Protein length:]] {{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}} {{{Protein_length}}} ([[Amino Acids]])}}
+|-valign=top
+{{#if:{{{Molecular_weight|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}} [[Atomic mass unit|Molecular Weight:]] {{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}} {{{Molecular_weight}}} (Da)}}
+|-valign=top
+{{#if:{{{Structure|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}} Structure: {{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}} {{{Structure}}}}}
+|-valign=top
+{{#if:{{{Type|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}[[Protein]] type:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}} {{{Type}}}}}
+|-
+{{#if:{{{Functions|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}Functions:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}} {{{Functions}}}}}
+|-
+{{#if:{{{Domains|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}[[Structural domain|Domains:]]{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}} {{{Domains}}}}}
+|-
+{{#if:{{{Motifs|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}[[Structural motif|Motifs:]]{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}} {{{Motifs}}}}}
+|-
+{{#if:{{{Alternative_products|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}Alternative Products:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}} {{{Alternative_products}}}}}
+|-valign=top
+{{#ifexpr:{{#expr:{{#if:{{{Taxa|}}}|1|0}} or {{#if:{{{Cells|}}}|1|0}} or {{#if:{{{Location|}}}|1|0}} or {{#if:{{{Mods|}}}|1|0}} or {{#if:{{{Biophysicochemical_properties|}}}|1|0}} or {{#if:{{{Pathways|}}}|1|0}} or {{#if:{{{Interactions|}}}|1|0}} }}|{{!}}bgcolor=#e7dcc3 colspan=2 align="center"{{!}}'''Other'''}}
+|-
+{{#if:{{{Taxa|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}[[Taxon|Taxa expressing]]:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}}{{{Taxa}}}}}
+|-
+{{#if:{{{Cells|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}[[List of distinct cell types in the adult human body|Cell types]]:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}}{{{Cells}}}}}
+|-
+{{#if:{{{Location|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}Subcellular localization:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}}{{{Location}}}}}
+|-
+{{#if:{{{Mods|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}[[Covalent bond|Covalent]] modifications:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}}{{{Mods}}}}}
+|-
+{{#if:{{{Pathways|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}[[Cell signaling|Pathway(s)]]:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}}{{{Pathways}}}}}
+|-
+{{#if:{{{Interactions|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}[[molecule|Molecular]] interactions:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}}{{{Interactions}}}}}
+|-valign=top
+{{#if:{{{Biophysicochemical_properties|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}Biophysicochemical properties:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}}{{{Biophysicochemical_properties}}}}}
+|-valign=top
+{{#ifexpr:{{#expr:{{#if:{{{Catalytic_activity|}}}|1|0}} or {{#if:{{{Cofactors|}}}|1|0}} or {{#if:{{{Km|}}}|1|0}}  or {{#if:{{{Vmax|}}}|1|0}} or {{#if:{{{Enzyme_regulation|}}}|1|0}} }}|{{!}}bgcolor=#e7dcc3 colspan=2 align="center"{{!}}'''Enzymatic Data'''}}
+|-valign=top
+{{#if:{{{Catalytic_activity|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}[[Catalyst|Catalytic activity]]:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}}{{{Catalytic_activity}}}}}
+|-
+{{#if:{{{Cofactors|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}[[Cofactor (biochemistry)|Cofactor(s)]]:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}}{{{Cofactors}}}}}
+|-
+{{#if:{{{Enzyme_regulation|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}[[Enzyme|Enzyme Regulation]]:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}}{{{Enzyme_regulation}}}}}
+|-
+{{#if:{{{Km|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}[[Michaelis constant#Michaelis_ constant_.27KM.27|''K''<sub>M</sub>]]:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}}{{{Km}}}}}
+|-
+{{#if:{{{Vmax|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}[[Michaelis constant#Reaction rate/velocity V|''V''<sub>Max</sub>]]:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}}{{{Vmax}}}}}
+|-valign=top
+{{#ifexpr:{{#expr:{{#if:{{{Actions|}}}|1|0}} or {{#if:{{{Agonists|}}}|1|0}} or {{#if:{{{Antagonists|}}}|1|0}} }}|{{!}}bgcolor=#e7dcc3 colspan=2 align="center"{{!}}'''Receptor/Ligand data'''}}
+|-valign=top
+{{#if:{{{Actions|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}Actions:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}}{{{Actions}}}}}
+|-valign=top
+{{#if:{{{Agonists|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}[[Agonist]]s:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}}{{{Agonists}}}}}
+|-valign=top
+{{#if:{{{Antagonists|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}[[Receptor antagonist|Antagonists]]:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}}{{{Antagonists}}}}}
+|-valign=top
+{{#ifexpr:{{#expr:{{#if:{{{Diseases|}}}|1|0}} or {{#if:{{{Pharmaceuticals|}}}|1|0}} or {{#if:{{{Biotechnology|}}}|1|0}} }}|{{!}}bgcolor=#e7dcc3 colspan=2 align="center"{{!}}'''Medical/Biotechnological data'''}}
+|-valign=top
+{{#if:{{{Diseases|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}[[Disease|Diseases]]:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}}{{{Diseases}}}}}
+|-
+{{#if:{{{Pharmaceuticals|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}[[Pharmaceuticals]]:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}}{{{Pharmaceuticals}}}}}
+|-
+{{#if:{{{Biotechnology|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}[[Biotechnology|Biotechnological uses]]:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}}{{{Biotechnology}}}}}
+|-valign=top
+{{#ifexpr:{{#expr:{{#if:{{{EntrezGene|}}}|1|0}} or {{#if:{{{OMIM|}}}|1|0}} or {{#if:{{{RefSeq|}}}|1|0}} or {{#if:{{{UniProt|}}}|1|0}} or {{#if:{{{PDB|}}}|1|0}} or {{#if:{{{ECnumber|}}}|1|0}} or {{#if:{{{Codes|}}}|1|0}} or {{#if:{{{Accession_numbers|}}}|1|0}} }}|{{!}}bgcolor=#e7dcc3 colspan=2 align="center"{{!}}'''Database Links'''}}
+|-valign=top
+{{#if:{{{Accession_numbers|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}} Accession Numbers: {{!}}{{!}} style="border-top:1px solid #e7dcc3; " width=220{{!}}[http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val={{{Accession_numbers}}} {{{Accession_numbers}}}]}}
+|-valign=top
+{{#if:{{{ECnumber|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}} [[EC number]]: {{!}}{{!}} style="border-top:1px solid #e7dcc3; " width=220{{!}}[http://www.expasy.org/enzyme/{{{ECnumber}}} {{{ECnumber}}}]}}
+|-valign=top
+{{#if:{{{EntrezGene|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}} [[Entrez]]: {{!}}{{!}} style="border-top:1px solid #e7dcc3; " width=220{{!}}[http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=gene&amp;cmd=retrieve&amp;dopt=default&amp;list_uids={{{EntrezGene}}}&rn=1 {{{EntrezGene}}}]}}
+|-valign=top
+{{#if:{{{OMIM|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}} [[OMIM]]: {{!}}{{!}} style="border-top:1px solid #e7dcc3; " width=220{{!}}[http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id={{{OMIM}}}&rn=1 {{{OMIM}}}]}}
+|-valign=top
+{{#if:{{{PDB|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}} [[Protein Data Bank|PDB]]: {{!}}{{!}} style="border-top:1px solid #e7dcc3; " width=220{{!}}[http://www.pdb.org/pdb/cgi/explore.cgi?pdbId={{{PDB}}} {{{PDB}}}]}}
+|-valign=top
+{{#if:{{{RefSeq|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}} [[National Center for Biotechnology Information|RefSeq]]: {{!}}{{!}} style="border-top:1px solid #e7dcc3;" width=220{{!}}[http://genome.cse.ucsc.edu/cgi-bin/hgGene?org=Human&amp;hgg_gene={{{RefSeq}}}&rn=1 {{{RefSeq}}}]}}
+|-valign=top
+{{#if:{{{UniProt|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}} [[Swiss-Prot|UniProt]]: {{!}}{{!}} style="border-top:1px solid #e7dcc3; " width=220{{!}}[http://www.expasy.org/uniprot/{{{UniProt}}} {{{UniProt}}}]}}
+|-valign=top
+{{#if:{{{Codes|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}} [http://www.gene.ucl.ac.uk/nomenclature/data/get_data.php?hgnc_id=HGNC:{{{HGNCid}}} Codes:] {{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}} {{{Codes}}}}}
+|-valign=top
+{{#ifexpr:{{#expr:{{#if:{{{Pages|}}}|1|0}} or {{#if:{{{Review|}}}|1|0}}}}|{{!}}bgcolor=#e7dcc3 colspan=2 align="center"{{!}}'''Related information'''}}
+|-valign=top
+{{#if:{{{Pages|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}}Related articles:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}}{{{Pages}}}}}
+|-valign=top
+{{#if:{{{Review|}}}|
+{{!}} bgcolor=#e7dcc3 width=85{{!}} Recent publications:{{!}}{{!}}style="border-top:1px solid #e7dcc3" width=220{{!}} {{{Review}}}}}
+
+|}<noinclude>
+
+==About this template==
+This template sets up a Protbox. See [[Wikipedia:WikiProject Molecular and Cellular Biology/protbox usage|protbox usage]] for an explanation.  Although the implementation is complicated, it is relatively simple to use.  Most parameters are optional, so if a particular entry is not relevant for your case, just leave it out.
+
+
+{{esoteric}}
+
+</noinclude>
