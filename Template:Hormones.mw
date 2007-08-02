@@ -1,0 +1,24 @@
+{{Navbox generic
+| name  = Hormones
+| title = [[Endocrine system]]: [[hormone]]s/[[endocrine glands]] (''[[Peptide hormone]]s'', ''[[Steroid hormone]]s'')
+| style = 
+| color = 
+| even-style  = background:#eee;
+| group1 = Hypothalamic-pituitary
+|  list1 = ''' [[Hypothalamus]]:''' [[Thyrotropin-releasing hormone|TRH]], [[Corticotropin-releasing hormone|CRH]] , [[Gonadotropin-releasing hormone|GnRH]], [[Growth hormone releasing hormone|GHRH]], [[somatostatin]], [[dopamine]] - ''' [[Posterior pituitary]]:''' [[vasopressin]], [[oxytocin]] - ''' [[Anterior pituitary]]:''' [[Alpha subunit of glycoprotein hormones|α]] ([[follicle-stimulating hormone|FSH]], [[luteinizing hormone|LH]], [[thyroid-stimulating hormone|TSH]]), [[growth hormone|GH]], [[prolactin]], [[Proopiomelanocortin|POMC]] ([[adrenocorticotropic hormone|ACTH]], [[melanocyte-stimulating hormone|MSH]], [[endorphin]]s, [[lipotropin]]) 
+| group4 = [[Hypothalamic-pituitary-adrenal axis|Adrenal axis]]
+|  list4 = ''' [[adrenal gland#Adrenal medulla|Adrenal medulla]]:''' [[epinephrine]], [[norepinephrine]] - ''' [[adrenal gland#Adrenal cortex|Adrenal cortex]]:'''  [[aldosterone]], [[cortisol]], [[dehydroepiandrosterone|DHEA]]
+| group5 = [[Hypothalamic-pituitary-thyroid axis|Thyroid axis]]
+|  list5 = ''' [[Thyroid]]:''' [[thyroid hormone]] ([[Triiodothyronine|T<sub>3</sub>]] and [[Thyroxine|T<sub>4</sub>]]) - [[calcitonin]] - ''' [[Parathyroid]]:''' [[parathyroid hormone|PTH]] 
+| group6 = [[Hypothalamic-pituitary-gonadal axis|Gonadal axis]]
+|  list6 = '''[[Testis]]:''' [[testosterone]], [[Anti-müllerian hormone|AMH]], [[inhibin]] - ''' [[Ovary]]:''' [[estradiol]],  [[progesterone]], [[inhibin]]/[[activin]], [[relaxin]] (pregnancy) 
+| group7 = Other end. glands
+|  list7 = ''' [[Pancreas]]:''' [[glucagon]], [[insulin]], [[somatostatin]]  - ''' [[Pineal gland]]:''' [[melatonin]]
+| group8 = Non-end. glands
+|  list8 = ''' [[Placenta]]:''' [[Human chorionic gonadotropin|hCG]], [[human placental lactogen|HPL]], [[estrogen]], [[progesterone]] - ''' [[Kidney]]:''' [[renin]], [[erythropoietin|EPO]], [[calcitriol]], [[prostaglandin]] - ''' [[Atrium (anatomy)|Heart&nbsp;atrium]]:''' [[Atrial natriuretic peptide|ANP]] - ''' [[Stomach]]:''' [[gastrin]], [[ghrelin]] - ''' [[Duodenum]]: ''' [[cholecystokinin|CCK]], [[Gastric inhibitory polypeptide|GIP]], [[secretin]], [[motilin]], [[vasoactive intestinal peptide|VIP]] - ''' [[Ileum]]: ''' [[enteroglucagon]] -  ''' [[Adipose tissue]]:''' [[leptin]], [[adiponectin]], [[resistin]] - '''[[Thymus]]:''' [[Thymosin]] - [[Thymopoietin]] - '''[[Liver]]/'''other: [[Insulin-like growth factor]] ([[Insulin-like growth factor 1|IGF-1]], [[Insulin-like growth factor 2|IGF-2]])
+| group9 = Target-derived
+|  list9 = [[Nerve growth factor|NGF]], [[Brain-derived neurotrophic factor|BDNF]], [[NT-3]]
+}}<noinclude>
+[[Category:Medical navigational boxes|{{PAGENAME}}]]
+[[no:Mal:Hormoner]]
+</noinclude>
