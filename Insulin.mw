@@ -1,0 +1,106 @@
+{{confuse|inulin}}
+{{Protbox
+  |Name=Insulin
+  |Photo=Insulincrystals.jpg
+  |Caption=Insulin crystals
+  |Gene = HUGO/[http://www.gene.ucl.ac.uk/nomenclature/data/get_data.php?hgnc_id=HGNC:6081 INS] 
+  |Gene_type=[[Protein]] coding
+  |Structure =[http://www.ncbi.nlm.nih.gov/Structure/mmdb/mmdbsrv.cgi?form=6&db=t&Dopt=s&uid=34502 Solution Structure of Human pro-Insulin Polypeptide]
+  |Review = 
+  |Type=insulin family
+  |Functions=[[glucose]] regulation
+  |Domains=[[INS domain]]
+  |Motifs=[[SP motif]]
+  |Molecular_weight= 5808
+  |Alternative_products=
+  |Catalytic_activity=
+  |Cofactors=
+  |Enzyme_regulation=
+  |Diseases=[[familial hyperproinsulinemia]], [[Diabetes mellitus]]
+  |Pharmaceuticals= insulin ([[Humulin]] [[Novolin]]), insulin lispro ([[Humalog]]), insulin aspart ([[Novolog]]),  insulin detemir ([[Levemir]]), insulin glargine ([[Lantus]]), etc 
+  |Taxa = ''[[Homo sapiens]]''; homologs: in [[metazoan]] [[taxa]] from invertebrates to mammals
+  |Cells = [[pancreas]]: beta cells of the [[Islet of Langerhans|Islets of Langerhans]]
+  |Location=[[extracellular]] fluids 
+  |Mods=[[glycation]], [[proteolytic cleavage]]
+  |Names='''insulin'''
+  |Pathways=[[Insulin signaling pathway]] ([http://www.genome.ad.jp/dbget-bin/show_pathway?hsa04910+3630 KEGG]); [[Type II diabetes mellitus]]   ([http://www.genome.ad.jp/dbget-bin/show_pathway?hsa04930+3630 KEGG]); [[Type I diabetes mellitus]]  ([http://www.genome.ad.jp/dbget-bin/show_pathway?hsa04940+3630 KEGG]); [[Maturity onset diabetes of the young]] ([http://www.genome.ad.jp/dbget-bin/show_pathway?hsa04950+3630 KEGG]); Regulation of [[actin]] [[cytoskeleton]] ([http://www.genome.ad.jp/dbget-bin/show_pathway?hsa04810+3630 KEGG])
+  |Interactions=
+  |Pages=
+  |Actions=
+  |Agonists=
+  |Antagonists= [[glucagon]], [[steroid]]s, most stress hormomes
+  |Codes={{EntrezGene|3630}}; {{OMIM|176730}}; {{UniProt|P01308}}; {{RefSeq|NM_000207}}
+  | Chromosome = 11
+  | Arm = p
+  | Band = 15.5
+  | LocusSupplementaryData = 
+}}
+
+
+== suglung Palwal ==
+
+*[http://www.northcoastmed.com/newsletter/news001.htm Comparison chart of insulin types use to treat diabetes.]
+*[http://www.dailytimes.com.pk/default.asp?page=2006%5C07%5C15%5Cstory_15-7-2006_pg3_2 Inspired by Insulin] article by parent of a diabetic child 
+*[http://www.vega.org.uk/video/programme/18 Frederick Sanger, Nobel Prize for sequencing Insulin] Freeview video with John Sanger and John Walker by the Vega Science Trust.
+*[http://nist.rcsb.org/pdb/molecules/pdb14_1.html Insulin: entry from protein databank]
+*[http://www.med.uni-giessen.de/itr/history/inshist.html The History of Insulin]
+*[http://www.rxlist.com/cgi/generic/insulinlispro.htm Insulin Lispro]
+*[http://archives.cbc.ca/IDD-1-75-702/science_technology/diabetes/ CBC Digital Archives - Banting, Best, Macleod, Collip: Chasing a Cure for Diabetes]
+*[http://www.cosmosmagazine.com/node/663 ''Cosmos Magazine'': Insulin mystery cracked after 20 years]
+*[http://diabetes.niddk.nih.gov/ National Diabetes Information Clearinghouse]
+*[http://link.library.utoronto.ca/insulin/ Discovery and Early Development of Insulin, 1920-1925]
+{{Hormones}}
+
+[[Category:Lilly]]
+[[Category:Recombinant proteins]]
+[[Category:Peptide hormones]]
+[[Category:Pancreatic hormones]]
+[[Category:Insulin therapies]]
+[[Category:Diabetes]]
+
+{{Link FA|no}}
+[[af:Insulien]]
+[[ar:أنسولين]]
+[[ast:Insulina]]
+[[bs:Inzulin]]
+[[bg:Инсулин]]
+[[ca:Insulina]]
+[[cs:Inzulín]]
+[[da:Insulin]]
+[[de:Insulin]]
+[[en:Insulin]]
+[[dv:އިންސިޔުލިން]]
+[[et:Insuliin]]
+[[el:Ινσουλίνη]]
+[[es:Insulina]]
+[[eo:Insulino]]
+[[fr:Insuline]]
+[[gl:Insulina]]
+[[ko:인슐린]]
+[[hr:Inzulin]]
+[[id:Insulin]]
+[[is:Insúlín]]
+[[it:Insulina]]
+[[he:אינסולין]]
+[[lv:Insulīns]]
+[[lt:Insulinas]]
+[[ms:Insulin]]
+[[nl:Insuline]]
+[[ja:インスリン]]
+[[no:Insulin]]
+[[nn:Insulin]]
+[[pl:Insulina]]
+[[pt:Insulina]]
+[[ru:Инсулин]]
+[[sq:Insulina]]
+[[simple:Insulin]]
+[[sk:Inzulín]]
+[[sl:Insulin]]
+[[sr:Инсулин]]
+[[su:Insulin]]
+[[fi:Insuliini]]
+[[sv:Insulin]]
+[[vi:Insulin]]
+[[tr:İnsülin]]
+[[yi:אינסאלין]]
+[[zh:胰岛素]]
