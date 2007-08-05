@@ -1,0 +1,165 @@
+<includeonly>{{template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+==Notes on use==
+This section is in response to a request on how to use '''Template:Infobox Disease''' effectively. The template does not at the current time include summary information about the condition itself. Instead, it contains a consistent interface to other sources that provide information about the condition. Don't worry about trying to fill in all the fields -- even if you can only get one or two, that still can be useful.
+
+1) While editing a condition, copy and paste the following text at the top of the page: (If you prefer, you can include the pipes at the beginning of the line instead.)
+
+{{Infobox_Disease
+ | Name           = {{PAGENAME}}
+ | Image          = 
+ | Caption        = 
+ | DiseasesDB     = 
+ | ICD10          = {{ICD10|Group|Major|minor|LinkGroup|LinkMajor}}
+ | ICD9           = {{ICD9|xxx}}
+ | ICDO           = 
+ | OMIM           = 
+ | MedlinePlus    = 
+ | eMedicineSubj  = 
+ | eMedicineTopic = 
+ | MeshID         = 
+}}
+<pre>
+{{Infobox_Disease
+ | Name           = {{PAGENAME}}
+ | Image          = 
+ | Caption        = 
+ | DiseasesDB     = 
+ | ICD10          = {{ICD10|Group|Major|minor|LinkGroup|LinkMajor}}
+ | ICD9           = {{ICD9|xxx}}
+ | ICDO           = 
+ | OMIM           = 
+ | MedlinePlus    = 
+ | eMedicineSubj  = 
+ | eMedicineTopic = 
+ | MeshID         = 
+}}
+</pre>
+
+2) The best place to start is often the [[Diseases Database]] searching at [http://www.diseasesdatabase.com/begin.asp?gif=1 DiseasesDB]. Click on that link, and type in the name of the condition (for example, "Earache".) Click on the result you were looking for. At this point, you will see on your URL line something like "http://www.diseasesdatabase.com/ddb18027.htm". You can copy the number (in this case, "18027" onto the "DiseasesDB" line in the template, so it looks like this 
+<pre>
+ | DiseasesDB     = 18027
+</pre>
+
+3) You will see a label that reads "Code translations and terms via UMLS.". Click on this link. The goal is to find the ICD9 and ICD10 codes. In this case, you can see "388.7" next to "ICD-9-CM, 2006" and "H92.0" next to "German translation of ICD10, 1995". Fill in these two fields:
+<pre>
+ | ICD10          = H92.0
+ | ICD9           = {{ICD9|388.7}}
+</pre>
+
+You may find multiple codes listed. In this case, just fill them out as follows:
+<pre>
+ | ICD10          = A11, B22
+ | ICD9           = {{ICD9|123}}, {{ICD9|456}}
+</pre>
+
+In some cases, only one of the codes would apply to the current condition, but you may not always be able to determine which is which. [[Wikipedia:Be bold in updating pages|Be bold]], and do your best.
+
+You will notice that there are direct links provided for the ICD9 codes, but not for ICD10. Don't worry about providing direct links for ICD10 codes unless you are feeling very ambitious. Some of the technical issues involved are discussed at [[Template:ICD10]]. However, the easiest way to put in a direct link is to go to [[List of ICD-10 codes]] and copy an example from there.
+
+For the brave, the ICD10 template takes 5 parameters: '''<nowiki>{{ICD10|Group|Major|minor|LinkGroup|LinkMajor}}</nowiki>'''
+:'''Group''' - The upper-case Group letter to be displayed in Wikipedia 
+:'''Major''' - Major group number (2 digits) 
+:'''minor''' - Minor group number (optional) 
+:'''LinkGroup''' - lower-case repeat of the '''Group''' letter to be presented to the WHO's website 
+:'''LinkMajor''' - The major coding at the top of webpage in which the target code exists (may or may not be the same as the '''Major''' code !)
+
+4) In most cases you can skip over the "ICD-O" field, because that only applies to conditions that cause tumors. DiseasesDB doesn't provide these codes, but there are some resources listed for finding them at [[ICD-O]].
+
+5) The final three fields are for [[OMIM]], [[MedlinePlus]], and [[eMedicine]]. It's perfectly fine to leave these blank, but if you want to fill them out, you can sometimes find the pages by clicking on "specific web sites" in DiseaseDatabase. Alternatively use the following links to directly search [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=OMIM OMIM], [http://medlineplus.gov/ MedlinePlus] and [http://www.emedicine.com/ eMedicine].
+
+Don't enter the full URL as this template's parameters, just the number at the end. In the case of eMedicine, there are two fields - put the number at the end into "eMedicineTopic", and put the alphabetic code (such as "neuro" or "orthoped") that precedes it into "eMedicineSubj". 
+
+6) It's a little trickier to fill out the infobox if you can't find it listed in DiseaseDatabase. However, you can look up the codes individually if you would like. A good source for ICD9 codes is [http://icd9cm.chrisendres.com/index.php?action=procslist here], and a good source for ICD10 codes is [http://www3.who.int/icd/vol1htm2003/fr-icd.htm here]. Many more sources for ICD codes are listed at [[ICD|International Statistical Classification of Diseases and Related Health Problems]]. You can look up OMIM codes [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=OMIM here]. 
+
+7) You can use the "Image" and "Caption" to provide an illustration. These fields are optional, but it is helpful to provide an image if you can find one. Of course most images on the internet are copyrighted, but you may be able to find an image already in Wikipedia on a related page. There are over a thousand free images of anatomical structures available at [[List of images and subjects in Gray's Anatomy]]. You could use one of these directly, or if you were feeling ambitious you could load one into a paint program on your computer, and annotate it with a couple of arrows to illustrate the point. Or just open [[Microsoft PowerPoint|PowerPoint]] and spend a few minutes drawing a few circles. It doesn't have to be very fancy to be an improvement on having no image at all. But if you do create a new image, remember to upload it at [http://commons.wikimedia.org/wiki/Special:Upload Wikimedia], not at [http://en.wikipedia.org/wiki/Special:Upload Wikipedia], so that it easier to share images across languages.
+
+There is also an optional "Width" parameter you can add for the image. If your picture is far too big, then add a new line and specify a custom width like this: 
+
+ | Image          = mypicture.png
+ | Caption        = The picture above illustrates a severe case of this condition.
+ | Width          = 325
+
+When no Width parameter is specified, it defaults to a width of 190.
+
+8) Sometimes you will find a condition with more than one entry for OMIM, eMedicine, MedlinePlus, or DiseaseDatabase. There are optional "_mult" fields that allow additional parameters to be passed in.
+
+The templates that may be used to provide the necessary links for these "_mult" fields, without specifying the source's name, are:
+ | DiseasesDB_mult= <nowiki>{{</nowiki>DiseasesDB2|'''number'''}}
+ | OMIM_mult      = <nowiki>{{</nowiki>OMIM2|'''number'''}}
+ | MedlinePlus_mult= <nowiki>{{</nowiki>MedlinePlus2|'''number'''}}
+ | eMedicine_mult = <nowiki>{{</nowiki>eMedicine2|'''field'''|'''topic number'''}}
+
+An example of how this is used at [[Nemaline myopathy]] is provided below. 
+{{Infobox_Disease
+ | Name           = {{PAGENAME}}
+ | Image          = 
+ | Caption        = 
+ | DiseasesDB     = 31991
+ | DiseasesDB_mult= {{DiseasesDB2|33448}} {{DiseasesDB2|33447}}
+ | ICD10          = {{ICD10|G|71|2|g|70}}
+ | ICD9           = {{ICD9|359.0}}
+ | ICDO           = 
+ | OMIM           = 161800
+ | OMIM_mult      = {{OMIM2|256030}} {{OMIM2|605355}}
+ | MedlinePlus    = 
+ | eMedicineSubj  = neuro
+ | eMedicineTopic = 76
+ | eMedicine_mult = {{eMedicine2|neuro|230}}
+}}
+<pre>
+{{Infobox_Disease
+ | Name           = {{PAGENAME}}
+ | Image          = 
+ | Caption        = 
+ | DiseasesDB     = 31991
+ | DiseasesDB_mult= {{DiseasesDB2|33448}} {{DiseasesDB2|33447}}
+ | ICD10          = {{ICD10|G|71|2|g|70}}
+ | ICD9           = {{ICD9|359.0}}
+ | ICDO           = 
+ | OMIM           = 161800
+ | OMIM_mult      = {{OMIM2|256030}} {{OMIM2|605355}}
+ | MedlinePlus    = 
+ | MedlinePlus_mult=
+ | eMedicineSubj  = neuro
+ | eMedicineTopic = 76
+ | eMedicine_mult = {{eMedicine2|neuro|230}}
+}}
+</pre>
+
+9) If there are too many eMedicine articles to list with eMedicine_mult, then one may directly show eMedicine's search list of topics.<br />Set '''eMedicineSubj = search''' and '''eMedicineTopic''' to the term to be searched for.<br />Note that any spaces in the search term must be replaced with the asci code of '''<nowiki>%20</nowiki>'''. Hence: 
+{{Infobox Disease
+ | eMedicineSubj  = search
+ | eMedicineTopic = shaken%20baby%20syndrome
+}}
+<pre>
+{{Infobox Disease
+ | eMedicineSubj  = search
+ | eMedicineTopic = shaken%20baby%20syndrome
+}}
+</pre>
+
+10) Don't worry about getting all the fields -- just do your best, and if you have any questions or suggestions, feel free to ask at [[Template talk:Infobox Disease]].
+
+== MeSH ==
+
+The [[Medical Subject Headings]] (MeSH), formerly known as the Supplement to [[Index medicus]], is a [[controlled vocabulary]] managed by the [[National Library of Medicine]]. To find the MeSH code for a disease, go to the [http://www.nlm.nih.gov/mesh/MBrowser.html MeSH search page] and enter the term into the search box.  The needed MeSH number in the '''Unique ID''' in the MeSH Descriptor Page.
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Medical infobox templates|Disease]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[fr:Modèle:CIM10]]
+[[lt:Šablonas:Ligos infobox]]
+[[nl:Sjabloon:Infobox Disease]]
+[[no:Mal:Infoboks sykdom]]
+[[pl:Kamica nerkowa]]
+[[pt:Predefinição:Info/Doença]]
+[[ru:Шаблон:Болезнь]]
+[[sl:Predloga:Infopolje Bolezen]]
+[[vi:Tiêu bản:Mã bệnh]]
+[[tr:Şablon:hastalık]]
+
+</includeonly>
