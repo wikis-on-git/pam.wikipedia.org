@@ -1,0 +1,24 @@
+{{Navbox generic
+| name  = Endocrine pathology
+| title = [[Endocrinology|Endocrine]] [[pathology]]: [[endocrine diseases]] ([[ICD-10 Chapter IV: Endocrine, nutritional and metabolic diseases|E00-35]], [[List_of_ICD-9_codes_240-279:_Endocrine%2C_nutritional_and_metabolic_diseases%2C_and_immunity_disorders#disorders_of_thyroid_gland_.28240-246.29|240-259]])
+| style = 
+| color = Silver
+| group-style = background-color: LightGray
+| even-style  = background:#eee;
+| group1 = [[Thyroid]]
+|  list1 = [[Hypothyroidism]] ([[Iodine deficiency]], [[Cretinism]], [[Congenital hypothyroidism]], [[Goitre]]) - [[Hyperthyroidism]] ([[Graves disease]], [[Toxic multinodular goitre]],  [[Teratoma]] with thyroid tissue or [[Struma ovarii]]) - [[Thyroiditis]] ([[De Quervain's thyroiditis]], [[Hashimoto's thyroiditis]], [[Riedel's thyroiditis]]) - [[Euthyroid sick syndrome]]
+| group2 = [[Pancreas]]
+|  list2 = [[Diabetes mellitus]] ([[Diabetes mellitus type 1|type 1]], [[Diabetes mellitus type 2|type 2]], [[Diabetic coma|coma]], [[Angiopathy|angiopathy]], [[Diabetic ketoacidosis|ketoacidosis]], [[Diabetic nephropathy|nephropathy]], [[Diabetic neuropathy|neuropathy]], [[Diabetic retinopathy|retinopathy]]) - [[Hypoglycemia]] - [[Hyperinsulinism]] - [[Zollinger-Ellison syndrome]]
+| group3 = [[Parathyroid gland|Parathyroid]]
+|  list3 = [[Hypoparathyroidism]] ([[Pseudohypoparathyroidism]]) - [[Hyperparathyroidism]] ([[Primary hyperparathyroidism|Primary]], [[Secondary hyperparathyroidism|Secondary]], [[Tertiary hyperparathyroidism|Tertiary]])
+| group4 = [[Pituitary gland|Pituitary]]
+|  list4 = hyperfunction ([[Acromegaly]], [[Hyperprolactinaemia]], [[Syndrome of inappropriate antidiuretic hormone]]) - [[Hypopituitarism]] ([[Sheehan's syndrome]], [[Kallmann syndrome]], [[Simmonds' disease]], [[Growth hormone deficiency]]) - [[Diabetes insipidus]] - [[Hypothalamic-pituitary dysfunction]]
+| group5 = [[Adrenal gland|Adrenal]]
+|  list5 = [[Cushing's syndrome]] ([[Nelson's syndrome]], [[Pseudo-Cushing's syndrome]]) - [[Congenital adrenal hyperplasia]] ([[Congenital adrenal hyperplasia due to 21-hydroxylase deficiency|due to 21-hydroxylase deficiency]]) - [[Hyperaldosteronism]] ([[Conn syndrome]], [[Bartter syndrome]]) - [[Adrenal insufficiency]] ([[Addison's disease]]) - [[Hypoaldosteronism]]
+| group6 = [[Gonad]]s
+|  list6 = [[Polycystic ovary syndrome]] - [[5-alpha-reductase deficiency]] - [[Hypogonadism]] - [[Delayed puberty]] - [[Precocious puberty]]
+| group7 = Other
+|  list7 = [[Autoimmune polyendocrine syndrome]] - [[Carcinoid syndrome]] - [[Laron syndrome]] - [[Multiple endocrine neoplasia]] - [[Psychogenic dwarfism]] - [[Androgen insensitivity syndrome]] - [[Progeria]]
+}}<noinclude>
+[[Category:Medical navigational boxes|{{PAGENAME}}]]
+</noinclude>
