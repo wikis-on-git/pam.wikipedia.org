@@ -1,4 +1,4 @@
-<includeonly>{| class="infobox" style="width: 200px; font-size: 95%; text-align: right;"
+<includeonly>{| | class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
 |+ style="background: {{{Background|lightgrey}}}; font-size: 95%;" | '''{{{Name|{{PAGENAME}}}}}'''<br>''Classification & external resources''
 |-
 {{#if: {{{Image|}}}|
