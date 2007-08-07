@@ -1,0 +1,24 @@
+{{Navbox generic
+| name  = Gastrointestinal physiology
+| title = [[Digestive system]], [[human physiology|physiology]]: [[gastrointestinal physiology]]
+| style = 
+| color = #efefef
+| even-style  = background:#eee;
+| group-style = background-color: #efefef
+| group1 = [[Enteric nervous system]]
+|  list1 = [[Meissner's plexus]] - [[Auerbach's plexus]]
+| group2 = Exocrine
+|  list2 = [[Gastric chief cell|Chief cells]] ([[Pepsin|Pepsinogen]]) - [[Parietal cell]]s ([[Gastric acid]], [[Intrinsic factor]]) - [[Goblet cell]]s ([[Mucus]]) 
+| group3 = Endocrine/paracrine
+|  list3 = [[G cell]]s ([[gastrin]]), [[Delta cell|D cells]] ([[somatostatin]]) - [[Enterochromaffin-like cell|ECL cells]] ([[Histamine]]) - ''[[enterogastrone]]:'' I cells ([[Cholecystokinin|CCK]]), K cells ([[Gastric inhibitory polypeptide|GIP]]), [[S cell]]s ([[secretin]]) 
+| group4 = Border
+|  list4 = [[Brunner's glands]] - [[Paneth cell|Paneth cells]] - [[Enterocyte]]s
+| group5 = Fluids
+|  list5 = [[Saliva]] - [[Bile]] - [[Intestinal juice]] - [[Gastric juice]] - [[Pancreatic juice]]
+| group6 = Processes
+|  list6 = [[Swallowing]] - [[Vomiting]] - [[Peristalsis]] ([[Interstitial cell of Cajal]]) - [[Migrating motor complex]] - [[Borborygmus]] - [[Gastrocolic reflex]] - [[Segmentation contractions]] - [[Defecation]]
+}}<noinclude>
+''This template is part of the [[Wikipedia:Navigational templates#Medicine|Medical series]] of [[Wikipedia:Navigational templates|navigation boxes]]. Refer to [[Template:Medicine]] and its [[Template_talk:Medicine|talk page]] for suggestions on style and editing.''
+
+[[Category:Medical navigational boxes|{{PAGENAME}}]]
+</noinclude>
