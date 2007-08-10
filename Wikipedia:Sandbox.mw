@@ -1,4 +1,5 @@
-{| class="infobox" style="width:22em; margin-top:0.75em; background:#f4f4f4; text-align:right; font-size:90%;" cellpadding="2"
+{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
+| class="infobox" style="width:22em; margin-top:0.75em; background:#f4f4f4; text-align:left; font-size:90%;" cellpadding="2"
 ! colspan="3" style="text-align: center; font-size:120%; color: {{
  #if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox Language/family-color|{{{familycolor|}}}}}|black|1}}
  |white
