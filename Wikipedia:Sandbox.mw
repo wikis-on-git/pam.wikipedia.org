@@ -1,72 +1,272 @@
 {| | class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
-|+ style="margin-left: inherit; font-size: medium;" |  | <big><big>'''{{{native_name}}}'''</big></big>
+{{
+ #if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox Language/family-color|{{{familycolor|}}}}}|black|1}}
+ |white
+ |{{{fontcolor|black}}}}}; background-color: {{
+ #if:{{{creator|}}}{{{setting|}}}
+ |black
+ |{{
+  #if:{{{signers|}}}
+  |silver
+  |{{Infobox Language/family-color|{{{familycolor|Default}}}}}}}
+}};" |{{{name|Language name}}} {{
+ #if:{{{nativename|}}}
+ |<br />{{{nativename|}}}}}{{
+  #if:{{{image|}}}
+  |{{Infobox Language/image|{{{caption|}}}|{{{image|}}}}}
+}}{{
+   #if:{{{pronunciation|}}}
+   |{{Infobox Language/pronunciation|{{{pronunciation|}}}}}}}
 |-
-{{#if:{{{image_skyline|}}}|<tr><td align="center" colspan="2">[[Image:{{{image_skyline|}}}|{{{image_skyline_size}}}]]</td></tr>}}
-{{#if:{{{image_skyline_caption|}}}|{{!}}-
-{{!}} align="center" colspan="2" {{!}} <small>{{{image_skyline_caption|}}}</small>
-{{!}}-}}
+| style="padding-left: 0.5em;" |{{
+ #if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox Language/family-color|{{{familycolor|}}}}}|black|1}}
+ |Created&nbsp;by
+ |{{
+  #if:{{{signers|}}}{{#ifeq:{{Infobox Language/family-color|{{{familycolor|}}}}}|silver|1}}
+  |Signed
+  |Spoken}}&nbsp;in}}:
+| colspan="{{
+ #if:{{{date|}}}
+ |1
+ |2}}" style="padding-left: 0.5em;" |{{
+ #if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox Language/family-color|{{{familycolor|}}}}}|black|1}}
+ |{{{creator|—}}}{{
+  #if:{{{date|}}}
+  |{{Infobox Language/creationdate|{{{date}}}}}
+}}
+ |{{{states|{{{region|—}}}}}}}}{{
+  #ifexpr:{{#if:{{{states|}}}|1|0}}+{{#if:{{{region|}}}|1|0}}!=1
+  |{{Infobox Language/statesregion
+   |{{{creator|}}}
+   |{{{setting|}}}
+   |{{{familycolor|}}}
+   |{{{region|—}}}}}}}
 |-
-| align="center" colspan="2"|
-{| border=0 cellpadding=2  cellspacing=0 style="text-align:center;"
-| width="130px" align="center" bgcolor="#eeeeee"|{{#if:{{{image_flag|}}} | [[Image:{{{image_flag}}}|{{{image_flag_size|130px}}}|Bandera ning {{{spanish_name}}}]] | [[Image:Sin bandera.svg|130px|No flag]]}}
-| align=center width="130px" bgcolor="#eeeeee"|{{#if:{{{image_coat_of_arms|}}}|[[Image:{{{image_coat_of_arms}}}|{{{image_coat_of_arms_size}}}|Coat of arms of {{{spanish_name}}}]] | [[Image:Sin escudo.svg|110px|No coat of arms]]}}
+| style="padding-left: 0.5em;" |{{
+ #if:{{{extinct|}}}
+ |[[Extinct language|Language extinction]]
+ |Total&nbsp;{{
+  #if:{{{signers|}}}{{#ifeq:{{Infobox Language/family-color|{{{familycolor|}}}}}|silver|1}}
+  |signers
+  |speakers}}}}:
+| colspan="2" style="padding-left: 0.5em;" |{{
+ #if:{{{extinct|}}}
+ |{{{extinct}}}
+ |{{
+  #if:{{{signers|}}}{{#ifeq:{{Infobox Language/family-color|{{{familycolor|}}}}}|silver|1}}
+  |{{{signers|—}}}
+  |{{{speakers|—}}}}}}}{{
+   #if:{{{rank|}}}
+   |{{Infobox Language/rank|{{{rank|}}}}}}}
 |-
-|align=center width="130px" style="line-height:14px;" bgcolor="#eeeeee"| {{#if:{{{image_flag|}}}|<small>Flag</small>}} 
-| align=center width="130px" style="line-height:14px;" bgcolor="#eeeeee"|{{#if:{{{image_coat_of_arms|}}}| <small>Coat of Arms</small>}}
-|}
-{{#if:{{{city_motto|}}}|<tr><td align="center" colspan="2">''{{{city_motto}}}'' {{#if:{{{city_motto_means|}}}|<br />("''{{{city_motto_means}}}''")}} </td></tr>}}
-|- bgcolor="#dcdcdc"
-! colspan="2" align=center | Karinan
+| style="padding-left: 0.5em;" |{{
+ #if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox Language/family-color|{{{familycolor|}}}}}|black|1}}
+ |Category (purpose)
+ |[[Language family]]}}:
+| colspan="2" style="padding-left: 0.5em; text-align: left;" | {{{family|{{{fam1|{{
+ #if:{{{signers|}}}{{#ifeq:{{Infobox Language/family-color|{{{familycolor|}}}}}|silver|1}}
+ |''unknown''
+ |{{
+  #if:{{{creator|}}}{{{setting|}}}
+  |[[constructed language]]
+  |{{Infobox Language/genetic2|{{{familycolor|Default}}}}}}}}}}}}{{
+ #if:{{{fam2|}}}
+  |<br /><span style="font-size:66%;">&nbsp;</span>{{{fam2|}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;</span>{{
+ #if:{{{fam3|}}}
+  |{{{fam3|}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;</span>{{
+ #if:{{{fam4|}}}
+  |{{{fam4|}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;</span>{{
+ #if:{{{fam5|}}}
+  |{{{fam5|}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{
+ #if:{{{fam6|}}}
+  |{{{fam6|}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{
+ #if:{{{fam7|}}}
+  |{{{fam7|}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{
+ #if:{{{fam8|}}}
+  |{{{fam8|}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{
+ #if:{{{fam9|}}}
+  |{{{fam9|}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{
+ #if:{{{fam10|}}}
+  |{{{fam10|}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{
+ #if:{{{fam11|}}}
+  |{{{fam11|}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{
+ #if:{{{fam12|}}}
+  |{{{fam12|}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{
+ #if:{{{fam13|}}}
+  |{{{fam13|}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{
+ #if:{{{fam14|}}}
+  |{{{fam14|}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{
+ #if:{{{fam15|}}}
+  |{{{fam15|}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>'''{{{name|}}}'''
+|'''{{{name| }}}'''}}<!--close 15-->
+|'''{{{name| }}}'''}}<!--close 14-->
+|'''{{{name| }}}'''}}<!--close 13-->
+|'''{{{name| }}}'''}}<!--close 12-->
+|'''{{{name| }}}'''}}<!--close 11-->
+|'''{{{name| }}}'''}}<!--close 10-->
+|'''{{{name| }}}'''}}<!--close 9-->
+|'''{{{name| }}}'''}}<!--close 8-->
+|'''{{{name| }}}'''}}<!--close 7-->
+|'''{{{name| }}}'''}}<!--close 6-->
+|'''{{{name| }}}'''}}<!--close 5-->
+|'''{{{name| }}}'''}}<!--close 4-->
+|'''{{{name| }}}'''}}<!--close 3-->
+|{{
+ #ifexpr:{{#if:{{{name|}}}|1|0}} and {{#if:{{{signers|}}}{{#ifeq:{{Infobox Language/family-color|{{{familycolor|Default}}}}}|silver|1}}|0|1}}
+ |'''<br />&nbsp;{{{name|}}}}}'''}}<!--close 2-->}}}{{
+ #if:{{{script|}}}
+ |{{Infobox Language/script|{{{script}}}}}}}{{
+ #if:{{{posteriori|}}}
+ |{{Infobox Language/aposteriori|{{{posteriori}}}}}}}{{
+#ifexpr:{{#if:{{{agency|}}}|1|0}} and {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox Language/family-color|{{{familycolor|Default}}}}}|black|1}}|1|0}}
+|{{Infobox Language/agency|{{{agency}}}}}
+|{{
+ #if:{{{nation|}}}{{{agency|}}}
+ |{{Infobox Language/official
+  |1={{
+   #if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox Language/family-color|{{{familycolor|}}}}}|black|1}}
+   |white
+   |{{{fontcolor|black}}}}}
+  |2={{
+   #if:{{{signers|}}}
+   |silver
+   |{{
+    #if:{{{creator|}}}{{{setting|}}}
+    |black
+    |{{Infobox Language/family-color|{{{familycolor|Default}}}}}}}}}
+  |3={{{nation|''none''}}}
+  |4={{{agency|''no official regulation''}}}}}}}}}
 |-
-{{#if:{{{image_city_map|}}}|<tr><td align="center" colspan="2" style="background:#ffffff;">[[Image:{{{image_city_map|}}}|{{{image_city_map_size}}}]]
-{{#if:{{{image_city_map_caption|}}}|<br /><small>{{{image_city_map_caption}}}</small>}}
-</td></tr>}}
-<!--
-//-->
+! colspan="3" style="text-align: center; color: {{
+ #if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox Language/family-color|{{{familycolor|}}}}}|black|1}}
+ |white
+ |{{{fontcolor|black}}}}}; background-color: {{
+  #if:{{{creator|}}}{{{setting|}}}
+  |black
+  |{{
+   #if:{{{signers|}}}
+   |silver
+   |{{Infobox Language/family-color|{{{familycolor|Default}}}}}}}}};" |Language codes
 |-
-| align="center" colspan="2" style="line-height:14px;"|<small>'''Coordinates''' : {{{lat_long}}}</small><br /><small> '''[[Oras Zona]]''' : {{{time_zone}}}</small> {{#if:{{{time_zone_summer|}}}|<br /><small> - summer: {{{time_zone_summer}}}</small>|}}
-|- bgcolor="#dcdcdc"
-! colspan="2" align=center | General information
+| style="padding-left: 0.5em;" |[[ISO 639-1]]:
+| colspan="2" style="padding-left: 0.5em;" |{{
+ #if:{{{iso1|}}}
+ |<tt>{{{iso1}}}</tt>
+ |''none''}}
 |-
-| '''Katutubung Lagyu''' || {{{native_name}}} ([[{{{native_language}}} language|{{{native_language}}}]])
+| style="padding-left: 0.5em;" |[[ISO 639-2]]:
+| colspan="{{
+ #if:{{{iso2b|}}}{{{iso2t|}}}
+ |1
+ |2}}" style="padding-left: 0.5em;" |<tt>{{
+  #if:{{{iso2b|}}}{{{iso2t|}}}
+  |{{{iso2b|{{{iso2|—}}}}}}&nbsp;(B)
+  |{{
+   #if:{{{signers|}}}{{#ifeq:{{Infobox Language/family-color|{{{familycolor|}}}}}|silver|1}}
+   |{{{iso2|sgn}}}
+   |{{
+    #if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox Language/family-color|{{{familycolor|}}}}}|black|1}}
+    |{{{iso2|art}}}
+    |{{{iso2|—}}}}}}}}}</tt>{{
+     #if:{{{iso2b|}}}{{{iso2t|}}}
+     |{{Infobox Language/terminological|{{{iso2t|{{{iso2|}}}}}}}}}}
 |-
-| '''[[Spanish language|Spanish a lagyu]]''' || {{{spanish_name}}}
-{{#if:{{{nickname|}}}|<tr><td>'''Palayo'''</td><td>''{{{nickname}}}''</td></tr>}}<!--
-//-->{{#if:{{{founded|}}}|<tr><td>'''Mitatag'''</td><td>{{{founded}}}</td></tr>}}<!--
-//-->{{#if:{{{postal_code|}}}|<tr><td>'''[[Postal kodiku]]'''</td><td>{{{postal_code}}}</td></tr>}}<!--
-//-->{{#if:{{{area_code|}}}|<tr><td>'''[[Karinan Kodiku]]'''</td><td>34 (Spain) + {{{area_code}}} ({{{province}}})</td></tr>}}<!--
-//-->{{#if:{{{website|}}}|<tr><td>'''[[Website]]'''</td><td>[{{{website}}} {{{website}}}]</td></tr>}}
-|- bgcolor="#dcdcdc"
-! colspan="2" align=center | [[Administration (government)|Administrasyun]]
-|-
-|'''[[Bangsa]]''' || [[Espanya]]
-|-
-|'''[[Makasariling Communidad]]''' || [[{{{community_link}}}|{{{community}}}]]
-|-
-|'''[[Lalawigan]]''' || [[{{{province_link}}}|{{{province}}}]]
-{{#if:{{{comarca|}}}|<tr><td>'''[[Comarca]]'''</td><td>[[{{{comarca_link}}}|{{{comarca}}}]]</td></tr>}}<!--
-//-->{{#if:{{{divisions|}}}|<tr><td>'''Administratibung Pangadake'''</td><td valign="top">{{{divisions}}}</td></tr>}}<!--
-//-->{{#if:{{{neighborhoods|}}}|<tr><td>'''Siping'''</td><td valign="top">{{{neighborhoods}}}</td></tr>}}
-|-
-|'''[[Mayor]]''' ||style="line-height:14px;"| [[{{{mayor}}}]] ([[{{{political_party_link}}}|{{{political_party}}}]])
-|- bgcolor="#dcdcdc"
-! colspan="2" align=center | Geografia
-|-
-| '''[[Area|Gaun Lapad/Dagul]]'''|| {{{area}}} km²
-|-
-| '''[[Katas]]''' || {{{altitude}}} m [[AMSL]]
-|- bgcolor="#dcdcdc"
-! colspan="2" align=center | Population
-|-
-| '''[[Populasyun]]'''||style="line-height:14px;"|{{{population}}} <small>({{{date-population}}})</small> 
-{{#if:{{{population-ranking|}}}| <tr><td>- rank in Spain:</td><td>{{{population-ranking}}}</td></tr>}}
-|-
-| '''[[Pangasiksik]]''' || {{{density}}} hab./km² <small>({{{date-density}}})</small>
-|}
-<noinclude>
-For usage see [[Template talk:Spanish city|talk page]].
-
+| style="padding-left: 0.5em;" |[[ISO 639-3]]:
+| colspan="2" style="padding-left: 0.5em;" |{{
+ #ifexpr:{{#if:{{{lc1|}}}|1|0}} and {{#if:{{{lc2|}}}|1|0}}
+ |{{
+  #if:{{{lc3|}}}
+  |variously
+  |either}}:{{Infobox Language/codelist
+|{{{lc1|}}}|{{{ld1|}}}|{{{ll1|}}}}}{{Infobox Language/codelist
+|{{{lc2|}}}|{{{ld2|}}}|{{{ll2|}}}}}{{Infobox Language/codelist
+|{{{lc3|}}}|{{{ld3|}}}|{{{ll3|}}}}}{{Infobox Language/codelist
+|{{{lc4|}}}|{{{ld4|}}}|{{{ll4|}}}}}{{Infobox Language/codelist
+|{{{lc5|}}}|{{{ld5|}}}|{{{ll5|}}}}}{{Infobox Language/codelist
+|{{{lc6|}}}|{{{ld6|}}}|{{{ll6|}}}}}{{Infobox Language/codelist
+|{{{lc7|}}}|{{{ld7|}}}|{{{ll7|}}}}}{{Infobox Language/codelist
+|{{{lc8|}}}|{{{ld8|}}}|{{{ll8|}}}}}{{Infobox Language/codelist
+|{{{lc9|}}}|{{{ld9|}}}|{{{ll9|}}}}}{{Infobox Language/codelist
+|{{{lc10|}}}|{{{ld10|}}}|{{{ll10|}}}}}{{Infobox Language/codelist
+|{{{lc11|}}}|{{{ld11|}}}|{{{ll11|}}}}}{{Infobox Language/codelist
+|{{{lc12|}}}|{{{ld12|}}}|{{{ll12|}}}}}{{Infobox Language/codelist
+|{{{lc13|}}}|{{{ld13|}}}|{{{ll13|}}}}}{{Infobox Language/codelist
+|{{{lc14|}}}|{{{ld14|}}}|{{{ll14|}}}}}{{Infobox Language/codelist
+|{{{lc15|}}}|{{{ld15|}}}|{{{ll15|}}}}}{{Infobox Language/codelist
+|{{{lc16|}}}|{{{ld16|}}}|{{{ll16|}}}}}{{Infobox Language/codelist
+|{{{lc17|}}}|{{{ld17|}}}|{{{ll17|}}}}}{{Infobox Language/codelist
+|{{{lc18|}}}|{{{ld18|}}}|{{{ll18|}}}}}{{Infobox Language/codelist
+|{{{lc19|}}}|{{{ld19|}}}|{{{ll19|}}}}}{{Infobox Language/codelist
+|{{{lc20|}}}|{{{ld20|}}}|{{{ll20|}}}}}{{Infobox Language/codelist
+|{{{lc21|}}}|{{{ld21|}}}|{{{ll21|}}}}}{{Infobox Language/codelist
+|{{{lc22|}}}|{{{ld22|}}}|{{{ll22|}}}}}{{Infobox Language/codelist
+|{{{lc23|}}}|{{{ld23|}}}|{{{ll23|}}}}}{{Infobox Language/codelist
+|{{{lc24|}}}|{{{ld24|}}}|{{{ll24|}}}}}{{Infobox Language/codelist
+|{{{lc25|}}}|{{{ld25|}}}|{{{ll25|}}}}}{{Infobox Language/codelist
+|{{{lc26|}}}|{{{ld26|}}}|{{{ll26|}}}}}{{Infobox Language/codelist
+|{{{lc27|}}}|{{{ld27|}}}|{{{ll27|}}}}}{{Infobox Language/codelist
+|{{{lc28|}}}|{{{ld28|}}}|{{{ll28|}}}}}{{Infobox Language/codelist
+|{{{lc29|}}}|{{{ld29|}}}|{{{ll29|}}}}}{{Infobox Language/codelist
+|{{{lc30|}}}|{{{ld30|}}}|{{{ll30|}}}}}
+ |{{
+  #if:{{{lc1|}}}
+  |<tt>[http://www.sil.org/iso639-3/documentation.asp?id={{{lc1}}} {{{lc1}}}]</tt>&nbsp;&mdash;&nbsp;{{
+   #if:{{{ll1|}}}
+   |{{#ifeq:{{{ll1|}}}|none
+    |{{{ld1|}}}
+    |[[{{{ll1}}}|{{{ld1|}}}]]}}
+   |[[{{{ld1|}}}]]}}
+  |{{#if:{{{iso3|}}}
+   |{{#ifeq:{{{iso3|}}}|none
+    |''none''
+    |<tt>[http://www.sil.org/iso639-3/documentation.asp?id={{{iso3}}} {{{iso3}}}]</tt>}}
+   |—}}}}}}{{#if:
+ {{{map|}}}
+ |{{Infobox Language/map|{{{map|}}}}}}}
+{{Infobox Language/{{
+  #if:{{{signers|}}}{{#ifeq:{{Infobox Language/family-color|{{{familycolor|}}}}}|silver|1}}
+  |signnotice
+  |{{{notice|IPA notice}}}}}|{{#if:{{{IPAChartEng|}}}|IPAChartEng=1}}}}
+|}<noinclude>
+<div style="clear: both"></div>
 {{esoteric}}
-[[Category:Spanish navigational boxes|{{PAGENAME}}]]
-[[Category:City infobox templates|Spain]]
+{{Template talk:Infobox Language/Usage}}
+
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+[[Category:Language templates|{{PAGENAME}}]]
+
+[[az:Şablon:Dil]]
+[[ca:Template:Llengua]]
+[[cs:Šablona:Infobox jazyk]]
+[[cy:Nodyn:Gwybodlen Iaith]]
+[[de:Vorlage:Infobox Sprache]]
+[[el:Πρότυπο:Πληροφορίες γλώσσας]]
+[[eo:Ŝablono:Informkesto lingvo]]
+[[es:Plantilla:Idioma]]
+[[eu:Txantiloi:Hizkuntza infotaula]]
+[[fi:Malline:Kieli]]
+[[fr:Modèle:Infobox Langue]]
+[[fy:Berjocht:Taaltabel]]
+[[hu:Sablon:Nyelv]]
+[[ilo:Template:Pagsasao]]
+[[io:Template:Linguo]]
+[[ia:Patrono:Infobox lingua]]
+[[it:Template:lingua]]
+[[ja:Template:言語]]
+[[ko:Template:언어]]
+[[ku:Şablon:Ziman]]
+[[la:Formula:Lingua]]
+[[li:Sjabloon:Taal]]
+[[mk:Шаблон:Јазик]]
+[[pl:Szablon:Język]]
+[[pt:Predefinição:Língua]]
+[[ru:Шаблон:Язык]]
+[[sl:Template:Language]]
+[[sv:Mall:språk]]
+[[th:Template:กล่องข้อมูล ภาษา]]
+[[tr:Şablon:Dil]]
+[[tt:Template:Tel]]
+[[vi:Tiêu bản:Tóm tắt về ngôn ngữ]]
+[[uk:Шаблон:Картка:Мова]]
+[[zh:Template:Infobox Language]]
 </noinclude>
