@@ -1,4 +1,4 @@
-{| class="infobox" style="width: 26em; font-size: 85%; text-align: left;"
+{| class="infobox" style="width: 26em; margin: 0 0 1em 1em; font-size: 85%; text-align: left;"
 |+  '''{{{name}}}'''
 {{#if:{{{image|}}}|
   <tr><td colspan="2" style="text-align: center;">[[Image:{{{image}}}|{{#if:{{{image_width|}}}|{{{image_width}}}|225x250px}}|{{{caption|}}}]]<br />{{{caption|}}}</td></tr>
