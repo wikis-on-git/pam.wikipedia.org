@@ -1,4 +1,5 @@
-{| class="infobox" style="width: 26em; font-size: 85%; text-align: left;"
+{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
+| class="infobox" style="width: 26em; font-size: 85%; text-align: left;"
 |+  '''{{{name}}}'''
 {{#if:{{{image|}}}|
   <tr><td colspan="2" style="text-align: center;">[[Image:{{{image}}}|{{#if:{{{image_width|}}}|{{{image_width}}}|225x250px}}|{{{caption|}}}]]<br />{{{caption|}}}</td></tr>
