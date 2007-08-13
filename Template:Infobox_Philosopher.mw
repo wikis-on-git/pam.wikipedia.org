@@ -1,5 +1,6 @@
 <noinclude>{{hprotected}}</noinclude>
-{| class="infobox" cellpadding="2" style="border-color: {{{color}}}; width:26em; font-size: 85%"
+{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
+| class="infobox" cellpadding="2" style="border-color: {{{color}}}; width:26em; font-size: 85%"
 |-
 !bgcolor="{{{color}}}" align="center" colspan="2" style="border-bottom:1px solid {{{color}}}; font-size: 125%;"|{{{region|}}}<br><small>{{{era|}}}</small>
 {{#if:{{{image_name|}}}|
