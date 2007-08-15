@@ -1,66 +1,38 @@
-{| class="infobox" style="width: 26em; margin: 0 0 1em 1em; font-size: 85%; text-align: left;"
-|+  '''{{{name}}}'''
-{{#if:{{{image|}}}|
-  <tr><td colspan="2" style="text-align: center;">[[Image:{{{image}}}|{{#if:{{{image_width|}}}|{{{image_width}}}|225x250px}}|{{{caption|}}}]]<br />{{{caption|}}}</td></tr>
-}}
-! Mibait
-| {{{birth_date}}}<br />{{{birth_place|}}}
-{{#if:{{{death_date|}}}|
-  <tr><th>Mete</th><td>{{{death_date}}}<br />{{{death_place|}}}</td></tr>
-}}{{#if:{{{residence|}}}|
-  <tr><th>Tuknangan</th><td>{{{residence}}}</td></tr>
-}}{{#if:{{{nationality|}}}|
-  <tr><th>Nationality</th><td>{{{nationality}}}</td></tr>
-}}{{#if:{{{field|}}}|
-  <tr><th>Marangle</th><td>{{{field}}}</td></tr>
-}}{{#if:{{{work_institution|}}}|
-  <tr><th>Institution</th><td>{{{work_institution}}}</td></tr>
-}}{{#if:{{{alma_mater|}}}|
-  <tr><th>Alma Mater</th><td>{{{alma_mater}}}</td></tr>
-}}{{#if:{{{doctoral_advisor|}}}|
-  <tr><th>Talausuc Academia</th><td>{{{doctoral_advisor}}}</td></tr>
-}}{{#if:{{{doctoral_students|}}}|
-  <tr><th>Bantug a Magaral</th><td>{{{doctoral_students}}}</td></tr>
-}}{{#if:{{{known_for|}}}|
-  <tr><th>Bantug</th><td>{{{known_for}}}</td></tr>
-}}{{#if:{{{prizes|}}}|
-  <tr><th>Notable Prizes</th><td>{{{prizes}}}</td></tr>
-}}{{#if:{{{religion|}}}|
-  <tr><th>Kaslpantayanan</th><td>{{{religion}}}</td></tr>
-}}{{#if:{{{footnotes|}}}|
-  <tr><td colspan="2"><small>{{{footnotes}}}</small></td></tr>
-}}
-|}<noinclude>
+| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
+{{politbox|
+title=Italy|country=Italy|image=Italy-Emblem.svg|size=130|}}
+|align=left|
+*[[Constitution of Italy|Constitution]]
+*[[Constitutional Court of Italy|Constitutional Court]]
+*[[President of the Italian Republic|President]]
+**[[Giorgio Napolitano]]
+*[[Prime Minister of Italy]]
+**[[Romano Prodi]]
+**[[Prodi II Cabinet|Cabinet]]
+*[[Parliament of Italy|Parliament]]
+**[[Italian Senate|Senate]]
+**[[Italian Chamber of Deputies|Chamber of Deputies]]
+*[[Court of Cassation (Italy)|Court of Cassation]]
+*[[List of political parties in Italy|Political parties and coalitions]]
+**[[House of Freedoms]]
+**[[The Union (political coalition)|The Union]]
+*[[Elections in Italy|Elections for Parliament]]
+** [[Italian general election, 2006|2006]] - [[Italian general election, 2001|2001]]
+*[[Referendum in Italy|Referenda]]
+*[[Regions of Italy|Regions]]
+*[[Provinces of Italy|Provinces]]
+*[[Municipalities of Italy|Municipalities]]
+*{{EUPolitics}}
+*[[Foreign relations of Italy|Foreign relations]]
+*[[Italian political scandals|Political scandals]]
+{{politicsboxend|country=Italy|}}<noinclude>
 
-== Usage ==
-<pre>
-{{Infobox_Scientist
-| lagyu = (Insert name of scientist, mathematician or engineer)
-| image = (Insert *.jpg image preferably at 300px)
-| image_width = (Optional; Insert image width)
-| caption = (Insert photograph caption. Try to include date of photo and the photographer)
-| aldo kebaitan = (Insert date of birth: month, day, year)
-| lugal kebaitan = (Insert place of birth: town, city, country)
-| aldo kematyan = (Insert date of death: month, day, year)
-| lugal kematyan = (Insert place of death: town, city, country)
-| tuknanagan = (Insert countries where scientist has lived. If some are minor, select key countries)
-| nationality = (Insert nationality of scientist)
-| marangle = (State if they are a physicist, chemist, biologist, mathematician, engineer....)
-| work_institution = (Insert key companies and/or universities where they are/were employed)
-| alma_mater = (Insert universities where they obtained their degrees)
-| talausuk a doctoral= (Insert doctoral advisor. If no PhD, can put in equivalent accepted mentors. Then use footnote to explain.)
-| magarala doctoral = (If any, insert their key doctoral or notable students. Does not have to be exhaustive.)
-| bantug   = (Insert key topics/areas of science that made them famous)
-| galal = (Insert most notable prizes and medals.)
-| kasalpantayanan = (Insert religious belief system/affiliation. The consensus is to use this field sparingly.)
-| footnotes = (Insert any extra details here. Especially point out a notable parent or child to link to their wiki pages)
-}}
+[[Category:"Politics of" templates|Italy]]
+[[Category:Italian navigational boxes|{{PAGENAME}}]]
 
-</pre>
+[[fr:Modèle:PolitiqueItalie]]
+[[id:Templat:Politics of Italy]]
+[[mk:Шаблон:Италијанска политика]]
+[[sv:Mall:Italiens politik]]
 
-[[Category:people infobox templates|Scientist]]
-[[Category:science infobox templates|Scientist]]
-[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
-[[ro:Format:Infobox om de ştiinţă]]
-[[sr:Шаблон:Научник]]
 </noinclude>
