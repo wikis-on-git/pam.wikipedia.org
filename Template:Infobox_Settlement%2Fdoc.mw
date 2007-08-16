@@ -1,0 +1,516 @@
+<includeonly>{{template doc page transcluded}}</includeonly>
+<noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+{| class="messagebox standard-talk" style="border: 1px solid #CC9999; background-color: #FFEEEE;"
+|-
+|align="center"|[[Image:Stop hand.svg|50px|Warning]]
+|align="left" width="100%"|<big><big>'''Before making any changes to the template'''</big></big>,  please first try and compare your changes in the test template:[[Template:Infobox Settlement/sandbox]]. Thank you.
+|}
+== Usage ==
+
+<div style="background:lavender;padding:7pt;margin:1px"> 
+*'''Important''': Please enter all numeric values in a raw, unformatted fashion.  References are to be included in their respective section footnotes field.  Numeric values that are not "raw" may create an "Expression error". Raw values will be automatically formatted by the template.  If you find a raw value is not formatted in your usage of the template, please post a notice on the discussion page for this template.
+</div>
+*'''Empty Syntax'''
+For questions see the [[Template_talk:Infobox_City|talk]] page.
+
+<pre>
+{{Infobox Settlement
+<!--See the Table at Infobox Settlement for all fields and descriptions of usage-->
+<!-- Basic info  ---------------->
+|official_name          = 
+|other_name             =
+|native_name            =  <!-- for cities whose native name is not in English -->
+|nickname               = 
+|settlement_type        = <!--For Town or Village (Leave blank for the default City)-->
+|motto                  =
+<!-- images and maps  ----------->
+|image_skyline          = 
+|imagesize              = 
+|image_caption          = 
+|image_flag             = 
+|flag_size              =
+|image_seal             = 
+|seal_size              =
+|image_shield           = 
+|shield_size            =
+|image_blank_emblem     =
+|blank_emblem_type      =
+|blank_emblem_size      =
+|image_map              = 
+|mapsize                = 
+|map_caption            = 
+|image_map1             = 
+|mapsize1               = 
+|map_caption1           = 
+|image_dot_map          =
+|dot_mapsize            =
+|dot_map_caption        =
+|dot_x =  |dot_y =
+|pushpin_map            = <!-- the name of a location map as per http://en.wikipedia.org/wiki/Template:Location_map -->
+|pushpin_label_position = <!-- the position of the pushpin label: left, right, top, bottom, none -->
+|pushpin_map_caption    =
+|pushpin_mapsize        =
+<!-- Location ------------------>
+|subdivision_type       = <!--Country-->
+|subdivision_name       = <!--the name of the country-->
+|subdivision_type1      = 
+|subdivision_name1      = 
+|subdivision_type2      = 
+|subdivision_name2      = 
+|subdivision_type3      = 
+|subdivision_name3      = 
+|subdivision_type4      = 
+|subdivision_name4      =
+<!-- Politics ----------------->
+|government_footnotes   =
+|government_type        =
+|leader_title           =
+|leader_name            =
+|leader_title1          =  <!-- for places with, say, both a mayor and a city manager -->
+|leader_name1           =
+|leader_title2          =
+|leader_name2           =
+|leader_title3          =
+|leader_name3           =
+|leader_title4          =
+|leader_name4           =
+|established_title      =  <!-- Settled -->
+|established_date       = 
+|established_title2     =  <!-- Incorporated (town) -->
+|established_date2      = 
+|established_title3     =  <!-- Incorporated (city) -->
+|established_date3      =
+<!-- Area    --------------------->
+|area_magnitude         = 
+|unit_pref                = <!--Enter: Imperial, if Imperial (metric) is desired-->
+|area_footnotes           =
+|area_total_km2           = <!-- ALL fields dealing with a measurements are subject to automatic unit conversion-->
+|area_land_km2            = <!--See table @ Template:Infobox Settlement for details on automatic unit conversion-->
+|area_water_km2           =
+|area_total_sq_mi         =
+|area_land_sq_mi          =
+|area_water_sq_mi         =
+|area_water_percent       =
+|area_urban_km2           =
+|area_urban_sq_mi         =
+|area_metro_km2           =
+|area_metro_sq_mi         =
+|area_blank1_title        =
+|area_blank1_km2          =
+|area_blank1_sq_mi        =
+<!-- Population   ----------------------->
+|population_as_of               =
+|population_footnotes           =
+|population_note                =
+|population_total               =
+|population_density_km2         =
+|population_density_sq_mi       =
+|population_metro               =
+|population_density_metro_km2   =
+|population_density_metro_sq_mi =
+|population_urban               =
+|population_density_urban_km2   =
+|population_density_urban_sq_mi =
+|population_blank1_title        =
+|population_blank1              =
+|population_density_blank1_km2 =   
+|population_density_blank1_sq_mi =
+<!-- General information  --------------->
+|timezone               = 
+|utc_offset             = 
+|timezone_DST           = 
+|utc_offset_DST         = 
+|latd= |latm= |lats= |latNS=
+|longd= |longm= |longs= |longEW=
+|elevation_footnotes    =  <!--for references: use <ref> </ref> tags-->
+|elevation_m            = 
+|elevation_ft           =
+<!-- Area/postal codes & others -------->
+|postal_code_type       =  <!-- enter ZIP code, Postcode, Post code, Postal code... -->
+|postal_code            =
+|area_code              =
+|blank_name             =
+|blank_info             =
+|blank1_name            =
+|blank1_info            =
+|website                = 
+|footnotes              = 
+}} 
+</pre>
+</div>
+===Table===
+{| class="wikitable" style="background-color: white;"
+| colspan=3 style="background-color: orange;" |This table is still under construction.
+====Name and motto====
+|-
+| style="background-color: whitesmoke;" | '''Field Name'''
+| style="background-color: whitesmoke;" | '''Usage'''
+| style="background-color: whitesmoke;" | '''Description'''
+|- valign=top
+| '''official_name''' || required || The official name in English
+|- valign=top
+| '''other_name''' || optional || For places with a former or more common name like Bombay or Saigon
+|- valign=top
+| '''native_name''' || optional ||This will display under the official name in parentheses as such: </br>Warsaw</br>(Warszawa)
+|- valign=top
+|'''settlement_type''' || optional ||Any type of settlement can be entered, such as towns or villages (Leave blank for the default&mdash;City). Examples: see [[Fort Ann (town), New York|Town]], [[Fort Ann (village), New York|Village]], [[Andes (hamlet), New York|Hamlet]], [[Al Anbar Governorate|Governorate]], [[Isabella Indian Reservation|Reservation]], [[Baja California Sur|A country's political divisions (states)]].
+|- valign=top
+| '''nickname''' || optional ||For a well known nickname(s).
+|- valign=top
+| '''motto''' || optional ||Will place the motto under the nicknames 
+|-
+| colspan=3 style="background-color: orange;" |
+
+====Images and maps====
+|-
+| colspan=3 | These variables are only used for generating categories for this article
+|-
+| style="background-color: whitesmoke;" | '''Field Name'''
+| style="background-color: whitesmoke;" | '''Usage'''
+| style="background-color: whitesmoke;" | '''Description'''
+|- valign=top
+| '''image_skyline''' || optional ||  Despite the name it can be any image that an editor wishes. Default size will be 250px
+|- valign=top
+| '''imagesize''' || optional || Can be used to tweak the size of the image_skyline up or down.  This can can helpful if an editor want to make the infobox wider.
+|- valign=top
+|'''image_caption''' || optional || Will place a caption under the image_skyline (if present)
+|- valign=top
+|'''image_flag''' || optional || Used for a flag. Default size:100px
+|- valign=top
+|'''flag_size ''' || optional || Can be used to tweak the size of the image_flag up or down from 100px as desired.
+|- valign=top
+|'''flag_link ''' || optional || 
+|- valign=top
+|'''image_seal''' || optional ||If the place has an official seal.
+|- valign=top
+|'''seal_link ''' || optional || 
+|- valign=top
+|'''seal_size''' || optional ||
+|- valign=top
+|'''image_shield ''' || optional || Can be used for a place with a coat of arms.
+|- valign=top
+|'''shield_link ''' || optional || Can be used if a wiki article if known but is not automatically linked by the template.  See [[Coquitlam, British Columbia]]'s infobox for an example.
+|- valign=top
+|'''shield_size''' || optional ||
+|- valign=top
+|'''image_blank_emblem''' || optional ||  Can be used if a place has an official logo, crest, emblem, etc.  Logo is the default type.  See [[Kingston upon Hull]]'s infobox for an example.</br><font color=red>Deprecated name ='''city_logo ''' </font>
+|- valign=top
+|'''blank_emblem_type''' || optional || To specify what type of emblem "image_blank_emblem" is.  The default is Logo.
+|- valign=top
+|'''blank_emblem_size ''' || optional ||<font color=red>Deprecated name ='''citylogo_size ''' </font>
+|- valign=top
+|'''blank_emblem_link ''' || optional ||<font color=red>Deprecated name ='''logo_link ''' </font>
+|- valign=top
+|'''image_map''' || optional ||
+|- valign=top
+|'''mapsize''' || optional ||
+|- valign=top
+|'''map_caption''' || optional ||
+|- valign=top
+|'''image_map1''' || optional ||A secondary map image.  The field '''image_map''' must be filled in first.  Example see: [[Bloomsburg, Pennsylvania]].
+|- valign=top
+|'''mapsize1''' || optional ||
+|- valign=top
+|'''map_caption1''' || optional ||
+|- valign=top
+|'''image_dot_map''' || optional ||A field for '''manually''' superimposing a dot over a blank map using an "X" & "Y" system.  Blank maps, if available, can be found over at [http://commons.wikimedia.org/wiki/Main_Page Wikimedia Commons].  Example see: [[Rainbow Lake, Alberta]]
+|- valign=top
+|'''dot_mapsize''' || optional || To change the dot map size; default is 180px.
+|- valign=top
+|'''dot_map_caption''' || optional || For placing a caption under the dot map.
+|- valign=top
+|'''dot_x </br>dot_y''' || optional ||For manually superimposing the dot left/right and up/down on the map.
+|- valign=top
+|'''pushpin_map''' || optional ||The name of a location map as per [[Template:Location map]] (eg. ''Indonesia'' or ''Russia''). The coordinate fields (eg. latd and longd) position a pushpin coordinate marker and label on the map '''automatically'''. Example see: [[Padang, Indonesia]]
+|- valign=top
+|'''pushpin_label_position''' || optional ||The position of the label on the pushpin map relative to the pushpin coordinate marker. Valid options are {left, right, top, bottom, none}. If this field is not specified, the default value is ''right''.
+|- valign=top
+|'''pushpin_mapsize''' || optional ||Must be entered as only a number&mdash;'''no need for px'''.  The default value is 250. 
+|- valign=top
+|'''pushpin_map_caption''' || optional ||Fill out if a different caption from ''map_caption'' is desired.
+|-
+| colspan=3 style="background-color: orange;" |
+
+====Government and Established information====
+|-
+| style="background-color: whitesmoke;" | '''Field Name'''
+| style="background-color: whitesmoke;" | '''Usage'''
+| style="background-color: whitesmoke;" | '''Description'''
+|- valign=top
+|'''subdivision_type''' || optional ||This field is almost always "Country".
+|- valign=top
+|'''subdivision_name''' || optional ||Depends on the subdivision_type
+|- valign=top
+|'''subdivision_type1</br>to</br>subdivision_type4''' || optional ||Can be State/Province, region, county.
+|- valign=top
+|'''subdivision_name1</br>to</br>subdivision_name4''' || optional ||
+|- valign=top
+|'''government_footnotes''' || optional ||If a reference(s) is available this where to put them using the <nowiki><ref> </ref></nowiki> tags and possibly the citing format at {{tl|Cite web}} within the ref tags. 
+|- valign=top
+|'''government_type''' || optional || Example: 
+|- valign=top
+|'''leader_title''' || optional || First title of the place's leader, e.g. Mayor
+|- valign=top
+|'''leader_name ''' || optional || Tip: Names are automatically wiki-linked if an article exists; if the target is not the intended one, insert a character such as "& nbsp;" to disable the link
+|- valign=top
+|'''leader_title1</br>to</br>leader_title4''' || optional ||
+|- valign=top
+|'''leader_name1</br>to</br>leader_name4''' || optional || For long lists use {{tl|Collapsible list}}.  See [[Halifax Regional Municipality|Halifax]] for an example.
+|- valign=top
+|'''established_title''' || optional || Example: First settled
+|- valign=top
+|'''established_date ''' || optional ||
+|- valign=top
+|'''established_title2 ''' || optional ||Example: Incorporated (town) 
+|- valign=top
+|'''established_date2''' || optional ||
+|- valign=top
+|'''established_title3 ''' || optional ||Example: Incorporated (city)
+|- valign=top
+|'''established_date3''' || optional ||
+|-
+| colspan=3 style="background-color: orange;" | 
+====Geographic information====
+|-
+| colspan=3 | These fields have '''dual automatic unit conversion''' meaning that if only metric values are entered, the imperial values will be automatically converted and vise-versa.  If an editor wishes to over-ride the automatic conversion, e.g. if the source gives both metric and imperial or if a range of values is needed, they can should enter both values in their respective fields.
+|-
+| style="background-color: whitesmoke;" | '''Field Name'''
+| style="background-color: whitesmoke;" | '''Usage'''
+| style="background-color: whitesmoke;" | '''Description'''
+|- valign=top
+|'''unit_pref''' || optional ||If the editor would like to change the unit order to imperial (metric) they should enter imperial. The default is metric (imperial). However, template will swap the unit order automatically if the subdivision_name equals same variation of the U.S.</br></br>All values must be entered in a '''raw format, no commas, spaces, or unit symbols'''.  The template will format them automatically.
+|- valign=top
+|'''area_footnotes''' || optional ||If a reference(s) is available this where to put them using the <nowiki><ref> </ref></nowiki> tags and possibly the citing format at {{tl|Cite web}} within the ref tags. 
+|- valign=top
+|'''area_magnitude''' || optional || Area magnitude of total_area in terms of m². Should enter 1 E+6 for area of 1.0 km².  See [[1 E+6 m²]]
+|- valign=top
+|'''area_total_km2''' || optional || Total area in square kilometers&mdash;symbol: km², which is wiki-linked. Value must be entered in '''raw format''', no commas or spaces. Auto-converted to display square miles if area_total_sq_mi is empty. </br><font color=red>Deprecated name ='''area_total ''' </font>
+|- valign=top
+|'''area_land_km2''' || optional || Land area in square kilometers&mdash;symbol: km². Value must be entered in '''raw format''', no comms or spaces. Auto-converted to display square miles if area_land_sq_mi is empty. </br><font color=red>Deprecated name ='''area_land''' </font>
+|- valign=top
+|'''area_water_km2''' || optional ||Water area in square kilometers&mdash;symbol: km². Value must be entered in '''raw format''', no comms or spaces. Auto-converted to display square miles if area_water_sq_mi is empty. </br><font color=red>Deprecated name ='''area_water''' </font>
+|- valign=top
+|'''area_total_sq_mi''' || optional ||Total area in square miles&mdash;symbol: sq&nbsp;mi, which is wiki-linked. Value must be entered in '''raw format''', no comms or spaces. Auto-converted to display square kilometers if area_total_km2 is empty. </br><font color=red>Deprecated name ='''TotalArea_sq_mi''' </font>
+|- valign=top
+|'''area_land_sq_mi ''' || optional ||Land area in square miles&mdash;symbol: sq&nbsp;mi. Value must be entered in '''raw format''', no comms or spaces. Auto-converted to display square kilometers if area_land_km2 is empty. </br><font color=red>Deprecated name ='''LandArea_sq_mi ''' </font>
+|- valign=top
+|'''area_water_sq_mi''' || optional ||Water area in square miles&mdash;symbol: sq&nbsp;mi. Value must be entered in '''raw format''', no comms or spaces. Auto-converted to display square kilometers if area_water_km2 is empty. </br><font color=red>Deprecated name ='''WaterArea_sq_mi ''' </font>
+|- valign=top
+|'''area_water_percent''' || optional || Enter the percent of water without the "%"
+|- valign=top
+|'''area_urban_km2''' || optional || </br><font color=red>Deprecated name ='''area_urban ''' </font>
+|- valign=top
+|'''area_urban_sq_mi''' || optional ||</br><font color=red>Deprecated name ='''UrbanArea_sq_mi ''' </font>
+|- valign=top
+|'''area_metro_km2 ''' || optional || </br><font color=red>Deprecated name ='''area_metro ''' </font>
+|- valign=top
+|'''area_metro_sq_mi''' || optional || </br><font color=red>Deprecated name ='''MetroArea_sq_mi ''' </font>
+|- valign=top
+|'''area_blank1_title''' || optional || Example see [[London]]
+|- valign=top
+|'''area_blank1_km2''' || optional ||
+|- valign=top
+|'''area_blank1_sq_mi''' || optional ||
+|- valign=top
+|'''area_blank2_title''' || optional ||
+|- valign=top
+|'''area_blank2_km2''' || optional ||
+|- valign=top
+|'''area_blank2_sq_mi''' || optional ||
+|- valign=top
+|'''elevation_footnotes''' || optional ||If a reference(s) is available this where to put them using the <nowiki><ref> </ref></nowiki> tags and possibly the citing format at {{tl|Cite web}} within the ref tags.
+|- valign=top
+|'''elevation_m''' || optional ||Raw number entered in meters.  Will automatically convert to display elevation in feet if elevation_ft is empty.  However, if a range in elevation (i.e. 5&ndash;50 m ) is desired, the editor must enter a converted range in the elevation_ft field to over-ride the automatic conversion. </br><font color=red>Deprecated name ='''elevation ''' </font>
+|- valign=top
+|'''elevation_ft''' || optional ||Raw number, entered in feet.  Will automatically convert to display elevation in meters if '''elevation_m''' field is empty.  However, if a range in elevation (i.e. 50&ndash;500 ft ) is desired, the editor must enter a converted range in the '''elevation_m''' field to over-ride the automatic conversion.
+
+|- valign=top
+|'''latd''' || optional ||Latitude degrees.  Can also be used for decimal degrees.
+|- valign=top
+|'''latm ''' || optional ||Latitude minutes
+|- valign=top
+|'''lats''' || optional ||Latitude seconds
+|- valign=top
+|'''latNS''' || optional ||Latitude North or South.  
+|- valign=top
+|'''longd''' || optional ||
+|- valign=top
+|'''longm''' || optional ||
+|- valign=top
+|'''longs''' || optional ||
+|- valign=top
+|'''longEW''' || optional ||
+|-
+| colspan=3 style="background-color: orange;" |
+
+====Population infomation====
+|-
+| colspan=3 | The density fields have '''dual automatic unit conversion''' meaning that if only metric values are entered, the imperial values will be automatically converted and vise-versa.  If an editor wishes to over-ride the automatic conversion, e.g. if the source gives both metric and imperial or if a range of values is needed, they can should enter both values in their respective fields.
+|-
+| style="background-color: whitesmoke;" | '''Field Name'''
+| style="background-color: whitesmoke;" | '''Usage'''
+| style="background-color: whitesmoke;" | '''Description'''
+|- valign=top
+|'''population_as_of ''' || optional ||
+|- valign=top
+|'''population_footnotes''' || optional ||If a reference(s) is available this where to put them using the <nowiki><ref> </ref></nowiki> tags and possibly the citing format at {{tl|Cite web}} within the ref tags.
+|- valign=top
+|'''population_total''' || optional ||
+|- valign=top
+|'''population_density_km2''' || optional || </br><font color=red>Deprecated name ='''population_density''' </font>
+|- valign=top
+|'''population_density_sq_mi''' || optional || </br><font color=red>Deprecated name ='''population_density_mi2''' </font>
+|- valign=top
+|'''population_metro''' || optional ||
+|- valign=top
+|'''population_density_metro_km2''' || optional ||
+|- valign=top
+|'''population_density_metro_sq_mi''' || optional || </br><font color=red>Deprecated name ='''population_density_metro_mi2''' </font>
+|- valign=top
+|'''population_urban ''' || optional ||
+|- valign=top
+|'''population_density_urban_km2''' || optional ||
+|- valign=top
+|'''population_density_urban_sq_mi''' || optional || </br><font color=red>Deprecated name ='''population_density_urban_mi2''' </font>
+|- valign=top
+|'''population_blank1_title''' || optional || Can be used for estimates. Example: [[Windsor, Ontario]] 
+|- valign=top
+|'''population_blank1''' || optional || The population value for blank1_title
+|- valign=top
+|'''population_density_blank1_km2''' || optional ||
+|- valign=top
+|'''population_density_blank1_sq_mi''' || optional ||
+|- valign=top
+|'''population_blank2_title''' || optional ||
+|- valign=top
+|'''population_blank2''' || optional ||
+|- valign=top
+|'''population_density_blank2_km2''' || optional ||
+|- valign=top
+|'''population_density_blank2_sq_mi''' || optional ||
+|- valign=top
+|'''population_note''' || optional ||A place for additional infomation such as the name of the source.  See [[Windsor, Ontario]] for example.
+|-
+| colspan=3 style="background-color: orange;" |
+
+====Other infomation====
+|-
+| style="background-color: whitesmoke;" | '''Field Name'''
+| style="background-color: whitesmoke;" | '''Usage'''
+| style="background-color: whitesmoke;" | '''Description'''
+|- valign=top
+|'''timezone''' || optional ||
+|- valign=top
+|'''utc_offset''' || optional ||
+|- valign=top
+|'''timezone_DST''' || optional ||
+|- valign=top
+|'''utc_offset_DST''' || optional ||
+|- valign=top
+|'''postal_code_type''' || optional ||
+|- valign=top
+|'''postal_code''' || optional ||
+|- valign=top
+|'''area_code''' || optional ||
+|- valign=top
+|'''blank_name''' || optional ||Can be used for additional information such as car plates
+|- valign=top
+|'''blank_info''' || optional || This is where the information for the ''blank_name'' would go.  Example see: [[Warsaw]].
+|- valign=top
+|'''blank1_name''' || optional ||
+|- valign=top
+|'''blank1_info''' || optional ||
+|- valign=top
+|'''footnotes''' || optional ||
+|- valign=top
+|'''website''' || optional ||
+<!--|- valign=top
+|'''Field Name''' || optional ||-->
+|}
+
+
+<!-- Gray table ends -->
+
+===Microformat===
+{{UF-hcard-geo}}
+
+==Usage Example==
+from [[Detroit, Michigan]]--Note Pipe characters are ''in front'' of the line of cell data, instead of at the end of the line, which simplify the spacing:
+
+<pre>
+{{Infobox Settlement
+ | official_name = City of Detroit
+ | nickname = Motor City, Motown, Rock City, The D
+ | motto = "Speramus Meliora; Resurget Cineribus"<br />([[Latin]] for, "We Hope For Better Things; It Shall Rise From the Ashes")
+ | image_skyline = DetroitSkyline.jpg
+ | image_flag = Detroit flag.png
+ | image_seal = Detroit Seal.png
+ |image_map = Wayne_County_Michigan_Incorporated_and_Unincorporated_areas_Detroit_highlighted.svg
+
+ | map_caption = Location in [[Wayne County, Michigan|Wayne County]], [[Michigan]]
+ |subdivision_type = [[Countries of the world|Country]]
+ |subdivision_type1 = [[U.S. state|State]]
+ |subdivision_type2 = [[List of counties in Michigan|County]]
+ |subdivision_name = [[United States]]
+ |subdivision_name1 = [[Michigan]]
+ |subdivision_name2 = [[Wayne County, Michigan|Wayne County]]
+ | established_title = Founded
+ | established_date = [[1701]]
+ | established_title2 = Incorporation
+ | established_date2 = [[1806]]
+ | government_type = [[Mayor-council government|Strong Mayor-Council]]
+ | leader_title =[[List of mayors of Detroit, Michigan|Mayor]]
+ | leader_name =[[Kwame Kilpatrick]] (D)
+ | area_magnitude = 1 E8
+ | area_total_sq_mi =143.0
+ | area_total_km2 = 370.2
+ | area_land_sq_mi = 138.8
+ | area_land_km2 = 359.4
+ | area_water_sq_mi = 4.2
+ | area_water_km2 = 10.8
+ | area_urban_sq_mi = 1295
+ | area_urban_km2 = 3354
+ | area_metro_km2 = 10135
+ | area_metro_sq_mi = 3913
+ | population_as_of=2006
+ | population_footnotes =<ref>{{cite web|url=http://www.census.gov/popest/estimates.php|title=US Census July 1, 2006 est}}</ref>
+ | population_total = 871121
+ | population_urban = 3903377
+ | population_metro = 4468966
+ | population_density_sq_mi = 6856
+ | population_density_km2 = 2647
+ | timezone = [[Eastern Time Zone (North America)|EST]]
+ | utc_offset = -5
+ | timezone_DST = [[Eastern Daylight Time|EDT]]
+ | utc_offset_DST = -4
+ | latd = 42 | latm = 19 | lats = 53.76 | latNS = N
+ | longd = 83 | longm = 2 | longs = 51 | longEW = W
+ | elevation_footnotes=<ref name= elevation>{{cite web |url={{Gnis3|1617959}} |title=USGS detail on Detroit |accessdate=2007-02-18 }} </ref>
+ | elevation_ft = 600
+ | elevation_m = 183
+ | website = http://www.detroitmi.gov/
+ | footnotes =
+ }}</pre>
+<includeonly>
+<!-- Add Cats below-->
+[[Category:Intricate templates|{{PAGENAME}}]]
+[[Category:City infobox templates|{{PAGENAME}}]]
+[[Category:Templates generating hCards|{{PAGENAME}}]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+
+<!-- Add interwikis below-->
+[[da:Skabelon:Infoboks by]]
+[[es:Plantilla:Infobox City]]
+[[hu:Sablon:Infobox város]]
+[[ja:Template:Infobox City]]
+[[no:Mal:Infoboks_by]]
+[[pt:Predefinição:Infobox Cidade]]
+[[ro:Format:Infobox City]]
+[[simple:Template:Infobox City]]
+[[sl:Predloga:Infopolje Naselje]]
+[[fi:Malline:Kaupunki2]]
+[[sv:Mall:Ortsfakta]]
+[[vi:Tiêu bản:Tóm tắt về thành phố]]
+[[zh:Template:Infobox City]]
+</includeonly>
