@@ -1,0 +1,439 @@
+<includeonly>
+{| class="infobox geography vcard" style="width: {{{geobox_width|256}}}px; padding: 0;"
+
+<!-- *** Name *** -->
+|- class="mergedtoprow" 
+{{Geobox row | | {{{other_name|aliwang lagyu}}}{{{category|}}} }}
+! colspan="2" style="text-align: center; background-color: #dfdfdf; font-size: 1.25em;" | '''{{#if: {{{name|}}}| <span class="fn org">{{{name|}}}</span>| <span class="fn org">{{PAGENAME}}</span> }} {{#if:{{{native_name| }}} | <span style="white-space: nowrap;"> (''{{{native_name}}}'') </span> }}'''
+{{!}}- class="mergedrow"
+
+{{#if: {{{other_name|}}} | {{Geobox row | 1 | {{{category|}}} }}
+! colspan="2" style="text-align: center; background-color: #dfdfdf;" {{!}} <span style="white-space: nowrap">{{{other_name}}}</span>{{#if: {{{other_name1|}}} 
+|, <span style="white-space: nowrap">{{{other_name1}}}</span> }}{{#if: {{{other_name2|}}} 
+|, <span style="white-space: nowrap">{{{other_name2}}}</span> }}{{#if: {{{other_name3|}}} 
+|, <span style="white-space: nowrap">{{{other_name3}}}</span> }}{{#if: {{{other_name4|}}} 
+|, <span style="white-space: nowrap">{{{other_name4}}}</span> }}{{#if: {{{other_name5|}}} 
+|, <span style="white-space: nowrap">{{{other_name5}}}</span> }}{{#if: {{{other_name6|}}} 
+|, <span style="white-space: nowrap">{{{other_name6}}}</span> }}{{#if: {{{other_name7|}}} 
+|, <span style="white-space: nowrap">{{{other_name7}}}</span> }}{{#if: {{{other_name8|}}} 
+|, <span style="white-space: nowrap">{{{other_name8}}}</span> }}{{#if: {{{other_name9|}}} 
+|, <span style="white-space: nowrap">{{{other_name9}}}</span> }}
+{{!}}- class="mergedrow"
+}}
+
+{{#if: {{{category|}}}| {{Geobox row | 1 | }}
+! colspan=2 style="text-align: center; background-color: #dfdfdf" {{!}} {{Geobox label | {{{category|}}} | {{{category_label|}}} }}{{Geobox note | {{{category_note|}}} }}
+{{!}}- class="mergedrow"
+}}
+
+<!-- *** Image *** -->
+|- class="mergedtoprow"
+{{#if: {{{map_first|}}}|
+{{#if: {{{map|}}} | {{Geobox2 map| {{{map|}}}| {{{map_caption|}}}|{{{map_size|}}}|{{#if:{{{map_locator|}}}|{{Geobox coor2dec|{{{long_d|}}}|{{{long_m|}}}|{{{long_s|}}}|{{{long_EW|}}}|2}}|{{{map_locator_x|}}}}}|{{#if:{{{map_locator|}}}|{{Geobox coor2dec|{{{lat_d|}}}|{{{lat_m|}}}|{{{lat_s|}}}|{{{lat_NS|}}}|2}}|{{{map_locator_y|}}}}}| {{{map_locator|}}}|{{{map_background|}}}|table }} }}
+{{#if: {{{map1|}}} | {{Geobox2 map| {{{map1|}}}| {{{map1_caption|}}}|{{{map1_size|}}}|{{#if:{{{map1_locator|}}}|{{Geobox coor2dec|{{{long_d|}}}|{{{long_m|}}}|{{{long_s|}}}|{{{long_EW|}}}|2}}|{{{map1_locator_x|}}}}}|{{#if:{{{map1_locator|}}}|{{Geobox coor2dec|{{{lat_d|}}}|{{{lat_m|}}}|{{{lat_s|}}}|{{{lat_NS|}}}|2}}|{{{map1_locator_y|}}}}}| {{{map1_locator|}}}|{{{map1_background|}}}|table }} }} |
+{{#if: {{{image|}}} | {{Geobox image| {{{image|}}}| {{{image_caption|}}}| {{{image_size|}}} }} }}
+}}
+{{!}}- class="mergedrow"
+
+<!-- *** Symbols *** -->
+|- class="mergedtoprow"
+{{#if: {{{flag|}}}{{{symbol|}}} | 
+<td colspan="2"><table style="width: 100%; background: none; align=center; border: none; padding: 0; margin: 0">
+<tr class="mergedrow">
+{{#if: {{{flag|}}}|
+<td style="width:{{#if: {{{symbol|}}}|50%|100%}}; text-align: center; vertical-align: bottom;"><div style="padding-top: 0.4em">[[Image:{{{flag|}}}|{{#if: {{{flag_size|}}}| {{{flag_size|}}}px|120px}}]]</div><div style="padding-top: 0.4em">{{Geobox label | {{{flag_type|Flag}}} | {{{flag_label|}}} }}{{Geobox note|{{{flag_note|}}} }}</div></td> }}
+{{#if: {{{symbol|}}}{{{image_seal|}}}{{{image_shield|}}}|
+<td style="width:{{#if: {{{flag|}}}|50%|100%}}; text-align: center; vertical-align: bottom;"><div  style="padding-top: 0.4em">[[Image:{{{symbol|}}}|{{#if: {{{symbol_size|}}}| {{{symbol_size|}}}px|90px}}]]</div><div style="padding-top: 0.4em">{{Geobox label | {{{symbol_type|Coat of arms}}} | {{{symbol_label|}}} }}{{Geobox note|{{{symbol_note|}}} }}</div></td>}}
+</tr>
+</table>
+</td>
+</tr>
+}}
+
+<!-- *** Nickname & motto *** -->
+|- class="mergedtoprow"
+{{#if: {{{etymology|}}} | {{Geobox row || {{{motto|}}}{{{nickname|}}} }}
+{{!}} colspan="2" style="text-align: center;" {{!}} '''{{Geobox label|{{{etymology_type| Name origin}}}|{{{etymology_label|}}}}}: '''{{{etymology}}}{{Geobox note|{{{etymology_note|}}} }}
+{{!}}- class="mergedrow"
+}}
+
+{{#if: {{{nickname|}}} | {{Geobox_row | {{{etymology|}}}| {{{motto|}}} }}
+{{!}} colspan="2" style="text-align: center;" {{!}} '''{{Geobox label |{{{nickname_type|{{#if: {{{nickname1|}}}| Nicknames| Nickname}} }}}|{{{nickname_label|}}}}}: '''''{{{nickname}}}''{{Geobox note |{{{nickname_note|}}} }} {{#if: {{{nickname1|}}} | , ''{{{nickname1}}}''{{Geobox note |{{{nickname1_note|}}} }} }} {{#if: {{{nickname2|}}} | , ''{{{nickname2}}}''{{Geobox note |{{{nickname2_note|}}} }} }} {{#if: {{{nickname3|}}} | , ''{{{nickname3}}}''{{Geobox note |{{{nickname3_note|}}} }} }} {{#if: {{{nickname4|}}} | , ''{{{nickname4}}}''{{Geobox note |{{{nickname4_note|}}} }} }} {{#if: {{{nickname5|}}} | , ''{{{nickname5}}}''{{Geobox note |{{{nickname5_note|}}} }} }} {{#if: {{{nickname6|}}} | , ''{{{nickname6}}}''{{Geobox note |{{{nickname6_note|}}} }} }} {{#if: {{{nickname7|}}} | , ''{{{nickname7}}}''{{Geobox note |{{{nickname7_note|}}} }} }} {{#if: {{{nickname8|}}} | , ''{{{nickname8}}}''{{Geobox note |{{{nickname8_note|}}} }} }} {{#if: {{{nickname9|}}} | , ''{{{nickname9}}}''{{Geobox note |{{{nickname9_note|}}} }} }}
+{{!}}- class="mergedrow"
+}}
+
+{{#if: {{{motto|}}} | {{Geobox_row | {{{etymology|}}}{{{nickname|}}} | }}
+{{!}} colspan="2" style="text-align: center;" {{!}} '''{{Geobox label |{{{motto_type|{{#if: {{{motto1|}}}| Mottos| Motto}} }}}|{{{motto_label|}}}}}: '''''{{{motto}}}''{{Geobox note |{{{motto_note|}}} }} {{#if: {{{motto1|}}} | , ''{{{motto1}}}''{{Geobox note |{{{motto1_note|}}} }} }} {{#if: {{{motto2|}}} | , ''{{{motto2}}}''{{Geobox note |{{{motto2_note|}}} }} }} {{#if: {{{motto3|}}} | , ''{{{motto3}}}''{{Geobox note |{{{motto3_note|}}} }} }} {{#if: {{{motto4|}}} | , ''{{{motto4}}}''{{Geobox note |{{{motto4_note|}}} }} }} {{#if: {{{motto5|}}} | , ''{{{motto5}}}''{{Geobox note |{{{motto5_note|}}} }} }} {{#if: {{{motto6|}}} | , ''{{{motto6}}}''{{Geobox note |{{{motto6_note|}}} }} }} {{#if: {{{motto7|}}} | , ''{{{motto7}}}''{{Geobox note |{{{motto7_note|}}} }} }} {{#if: {{{motto8|}}} | , ''{{{motto8}}}''{{Geobox note |{{{motto8_note|}}} }} }} {{#if: {{{motto9|}}} | , ''{{{motto9}}}''{{Geobox note |{{{motto9_note|}}} }} }}
+{{!}}- class="mergedrow"
+}}
+
+<!-- *** Country & region *** -->
+|- class="mergedtoprow"
+{{#if: {{{country|}}} | {{Geobox_row || {{{state|}}}{{{region|}}}{{{district|}}} }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{country_type|{{#if: {{{country1|}}}| Countries| Country}} }}} | {{{country_label|}}} }}
+{{!}} {{Geobox link|{{{country|}}}}}{{Geobox link|{{{country1|}}}|, }}{{Geobox link|{{{country2|}}}|, }}{{Geobox link|{{{country3|}}}|, }}{{Geobox link|{{{country4|}}}|, }}{{Geobox link|{{{country5|}}}|, }}{{Geobox link|{{{country6|}}}|, }}{{Geobox link|{{{country7|}}}|, }}{{Geobox link|{{{country8|}}}|, }}{{Geobox link|{{{country9|}}}|, }}
+{{!}}- class="mergedrow"
+}}
+
+{{#if: {{{state|}}}| {{Geobox_row | {{{country|}}} | {{{region|}}}{{{district|}}} }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{state_type|{{#if: {{{state1|}}}| States| State}} }}} | {{{state_label|}}} }}
+{{!}} {{Geobox link|{{{state|}}}}}{{Geobox link|{{{state1|}}}|, }}{{Geobox link|{{{state2|}}}|, }}{{Geobox link|{{{state3|}}}|, }}{{Geobox link|{{{state4|}}}|, }}{{Geobox link|{{{state5|}}}|, }}{{Geobox link|{{{state6|}}}|, }}{{Geobox link|{{{state7|}}}|, }}{{Geobox link|{{{state8|}}}|, }}{{Geobox link|{{{state9|}}}|, }}{{Geobox link|{{{state10|}}}|, }}{{Geobox link|{{{state11|}}}|, }}{{Geobox link|{{{state12|}}}|, }}{{Geobox link|{{{state13|}}}|, }}{{Geobox link|{{{state14|}}}|, }}
+{{!}}- class="mergedrow"
+}}
+
+{{#if: {{{region|}}}| {{Geobox_row | {{{country|}}}{{{state|}}} | {{{district|}}} }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{region_type|{{#if: {{{region1|}}}| Regions| Region}} }}} | {{{region_label|}}} }}
+{{!}} {{Geobox link|{{{region|}}}}}{{Geobox link|{{{region1|}}}|, }}{{Geobox link|{{{region2|}}}|, }}{{Geobox link|{{{region3|}}}|, }}{{Geobox link|{{{region4|}}}|, }}{{Geobox link|{{{region5|}}}|, }}{{Geobox link|{{{region6|}}}|, }}{{Geobox link|{{{region7|}}}|, }}{{Geobox link|{{{region8|}}}|, }}{{Geobox link|{{{region9|}}}|, }}{{Geobox link|{{{region10|}}}|, }}{{Geobox link|{{{region11|}}}|, }}{{Geobox link|{{{region12|}}}|, }}{{Geobox link|{{{region13|}}}|, }}{{Geobox link|{{{region14|}}}|, }}
+{{!}}- class="mergedrow"
+}}
+
+{{#if: {{{district|}}}| {{Geobox_row | {{{country|}}}{{{state|}}}{{{region|}}} | }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{district_type|{{#if: {{{district1|}}}| Districts| District}} }}} | {{{district_label|}}} }}
+{{!}} {{Geobox link|{{{district|}}}}}{{Geobox link|{{{district1|}}}|, }}{{Geobox link|{{{district2|}}}|, }}{{Geobox link|{{{district3|}}}|, }}{{Geobox link|{{{district4|}}}|, }}{{Geobox link|{{{district5|}}}|, }}{{Geobox link|{{{district6|}}}|, }}{{Geobox link|{{{district7|}}}|, }}{{Geobox link|{{{district8|}}}|, }}{{Geobox link|{{{district9|}}}|, }}{{Geobox link|{{{district10|}}}|, }}{{Geobox link|{{{district11|}}}|, }}{{Geobox link|{{{district12|}}}|, }}{{Geobox link|{{{district13|}}}|, }}{{Geobox link|{{{district14|}}}|, }}
+{{!}}- class="mergedrow"
+}}
+
+<!-- *** Municipal parts *** --->
+|- class="mergedtoprow"
+{{#if: {{{part_type|}}}{{{part|}}} | {{Geobox row | | }} 
+! style="white-space: nowrap" {{!}} {{Geobox label|{{#if: {{{part_type|}}}| {{{part_type}}}| Municipal parts}}|{{{part_label|}}}}}
+{{!}}<div class="NavFrame" style="border:none; padding: 0; font-size: 100%;"><div class="NavFrame" style="border:none; padding: 0; font-size: 100%;"><div class="NavFrame" style="border:none; padding: 0; font-size: 100%;">
+<div class="NavHead" style="height: auto; text-align: left; background-color: #f9f9f9; font-weight: normal;">{{{part_count|}}}{{Geobox note|{{{part_count_note|}}}}}</div>
+<div class="NavContent" text-align: left; style="display:none;">
+{{#if: {{{part|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part|}}}}}{{Geobox note|{{{part_note|}}}}}</p>{{#if: {{{part1|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part1|}}}}}{{Geobox note|{{{part1_note|}}}}}</p>{{#if: {{{part2|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part2|}}}}}{{Geobox note|{{{part2_note|}}}}}</p>{{#if: {{{part3|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part3|}}}}}{{Geobox note|{{{part3_note|}}}}}</p>{{#if: {{{part4|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part4|}}}}}{{Geobox note|{{{part4_note|}}}}}</p>{{#if: {{{part5|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part5|}}}}}{{Geobox note|{{{part5_note|}}}}}</p>{{#if: {{{part6|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part6|}}}}}{{Geobox note|{{{part6_note|}}}}}</p>{{#if: {{{part7|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part7|}}}}}{{Geobox note|{{{part7_note|}}}}}</p>{{#if: {{{part8|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part8|}}}}}{{Geobox note|{{{part8_note|}}}}}</p>{{#if: {{{part9|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part9|}}}}}{{Geobox note|{{{part9_note|}}}}}</p>{{#if: {{{part10|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part10|}}}}}{{Geobox note|{{{part10_note|}}}}}</p>{{#if: {{{part11|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part11|}}}}}{{Geobox note|{{{part11_note|}}}}}</p>{{#if: {{{part12|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part12|}}}}}{{Geobox note|{{{part12_note|}}}}}</p>{{#if: {{{part13|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part13|}}}}}{{Geobox note|{{{part13_note|}}}}}</p>{{#if: {{{part14|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part14|}}}}}{{Geobox note|{{{part14_note|}}}}}</p>{{#if: {{{part15|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part15|}}}}}{{Geobox note|{{{part15_note|}}}}}</p>{{#if: {{{part16|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part16|}}}}}{{Geobox note|{{{part16_note|}}}}}</p>{{#if: {{{part17|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part17|}}}}}{{Geobox note|{{{part17_note|}}}}}</p>{{#if: {{{part18|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part18|}}}}}{{Geobox note|{{{part18_note|}}}}}</p>{{#if: {{{part19|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part19|}}}}}{{Geobox note|{{{part19_note|}}}}}</p>{{#if: {{{part20|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part20|}}}}}{{Geobox note|{{{part20_note|}}}}}</p>{{#if: {{{part21|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part21|}}}}}{{Geobox note|{{{part21_note|}}}}}</p>{{#if: {{{part22|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part22|}}}}}{{Geobox note|{{{part22_note|}}}}}</p>{{#if: {{{part23|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part23|}}}}}{{Geobox note|{{{part23_note|}}}}}</p>{{#if: {{{part24|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part24|}}}}}{{Geobox note|{{{part24_note|}}}}}</p>{{#if: {{{part25|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part25|}}}}}{{Geobox note|{{{part25_note|}}}}}</p>{{#if: {{{part26|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part26|}}}}}{{Geobox note|{{{part26_note|}}}}}</p>{{#if: {{{part27|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part27|}}}}}{{Geobox note|{{{part27_note|}}}}}</p>{{#if: {{{part28|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part28|}}}}}{{Geobox note|{{{part28_note|}}}}}</p>{{#if: {{{part29|}}}
+|<p style="padding: 0; margin: 0; text-align: left;">&nbsp;-&nbsp;{{Geobox link|{{{part29|}}}}}{{Geobox note|{{{part29_note|}}}}}</p>
+}} }} }} }} }} }} }} }} }} }} }} }} }} }} }} }} }} }} }} }} }} }} }} }} }} }} }} }} }} }}
+</div>
+</div></div></div>
+{{!}}-class="mergedrow"
+}}
+
+<!-- *** Geography *** -->
+|- class="mergedtoprow" style="margin-top: 20px"
+{{#if: {{{area|}}}{{{area_imperial|}}}{{{area_land|}}}{{{area_land_imperial|}}}{{{area_water|}}}{{{area_water_imperial|}}}{{{area_urban|}}}{{{area_urban_imperial|}}}{{{area_metro|}}}{{{area_metro_imperial|}}} | {{Geobox row || 1}}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{area_type|Area}}} | {{{area_label|}}} }}
+{{!}} {{#if: {{{area|}}}{{{area_imperial|}}}| {{Unit area| {{{area_unit| {{#if: {{{area|}}}| sqkm| sqmi}} }}}| {{{area|{{{area_imperial|}}} }}} | {{{area_round|0}}} }}{{Geobox note|{{{area_note|}}} }} }} 
+{{!}}- class="mergedrow"
+
+{{#if: {{{area_land|}}}{{{area_land_imperial|}}} | {{Geobox row | 1 | {{{area_water|}}}{{{area_water_imperial|}}}{{{area_urban|}}}{{{area_urban_imperial|}}}{{{area_metro|}}}{{{area_metro_imperial|}}}{{{location|}}}{{{elevation|}}}{{{elevation_imperial|}}}{{{lat_d|}}}{{{highest|}}}{{{highest_location|}}}{{{highest_lat_d|}}}{{{highest_elevation|}}}{{{highest_elevation_imperial|}}}{{{lowest|}}}{{{lowest_location|}}}{{{lowest_lat_d|}}}{{{lowest_elevation|}}}{{{lowest_elevation_imperial|}}} }} 
+{{!}} &nbsp;-&nbsp;land 
+{{!}} {{Unit area| {{{area_unit| {{#if: {{{area_land|}}}| sqkm| sqmi}} }}}| {{{area_land|{{{area_land_imperial|}}} }}} | {{{area_round|0}}} }}{{Geobox note|{{{area_land_note|}}} }}
+{{!}}- class="mergedrow" 
+}}
+
+{{#if: {{{area_water|}}}{{{area_water_imperial|}}} | {{Geobox row | 1 | {{{area_urban|}}}{{{area_urban_imperial|}}}{{{area_metro|}}}{{{area_metro_imperial|}}}{{{location|}}}{{{elevation|}}}{{{elevation_imperial|}}}{{{lat_d|}}}{{{highest|}}}{{{highest_location|}}}{{{highest_lat_d|}}}{{{highest_elevation|}}}{{{highest_elevation_imperial|}}}{{{lowest|}}}{{{lowest_location|}}}{{{lowest_lat_d|}}}{{{lowest_elevation|}}}{{{lowest_elevation_imperial|}}} }} 
+{{!}} &nbsp;-&nbsp;water 
+{{!}} {{Unit area| {{{area_unit| {{#if: {{{area_water|}}}| sqkm| sqmi}} }}}| {{{area_water|{{{area_water_imperial|}}} }}} | {{{area_round|0}}} }}{{#if: {{{area_water_percentage|}}} | , {{#ifeq: {{{area_water_percentage}}} | auto | {{#expr: 100 * {{{area_water|{{{area_water_imperial|0}}}}}} / {{{area|{{{area_imperial|1}}}}}} round {{{area_percentage_round|0}}} }} | {{{area_water_percentage}}} }}%}}{{Geobox note|{{{area_water_note|}}} }}
+{{!}}- class="mergedrow" 
+}}
+
+{{#if: {{{area_urban|}}}{{{area_urban_imperial|}}} | {{Geobox row | 1 | {{{area_metro|}}}{{{area_metro_imperial|}}}{{{location|}}}{{{elevation|}}}{{{elevation_imperial|}}}{{{lat_d|}}}{{{highest|}}}{{{highest_location|}}}{{{highest_lat_d|}}}{{{highest_elevation|}}}{{{highest_elevation_imperial|}}}{{{lowest|}}}{{{lowest_location|}}}{{{lowest_lat_d|}}}{{{lowest_elevation|}}}{{{lowest_elevation_imperial|}}}  }} 
+{{!}} &nbsp;-&nbsp;urban 
+{{!}} {{Unit area| {{{area_unit| {{#if: {{{area_urban|}}}| sqkm| sqmi}} }}}| {{{area_urban|{{{area_urban_imperial|}}} }}} | {{{area_round|0}}} }}{{Geobox note|{{{area_urban_note|}}} }}
+{{!}}- class="mergedrow" 
+}}
+
+{{#if: {{{area_metro|}}}{{{area_metro_imperial|}}} | {{Geobox row | 1 | {{{elevation|}}}{{{elevation_imperial|}}}{{{lat_d|}}}{{{highest|}}}{{{highest_location|}}}{{{highest_lat_d|}}}{{{highest_elevation|}}}{{{highest_elevation_imperial|}}}{{{lowest|}}}{{{lowest_location|}}}{{{lowest_lat_d|}}}{{{lowest_elevation|}}}{{{lowest_elevation_imperial|}}}  }} 
+{{!}} &nbsp;-&nbsp;metro 
+{{!}} {{Unit area| {{{area_unit| {{#if: {{{area_metro|}}}| sqkm| sqmi}} }}}| {{{area_metro|{{{area_metro_imperial|}}} }}} | {{{area_round|0}}} }}{{Geobox note|{{{area_metro_note|}}} }}
+{{!}}- class="mergedrow" 
+}}
+}}
+
+{{#if: {{{location|}}}{{{elevation|}}}{{{elevation_imperial|}}}{{{lat_d|}}}| {{Geobox row | {{{area|}}}{{{area_imperial}}}{{{area_total|}}}{{{area_land|}}}{{{area_land_imperial|}}}{{{area_water|}}}{{{area_water_imperial|}}}{{{area_urban|}}}{{{area_urban_imperial|}}}{{{area_metro|}}}{{{area_metro_imperial|}}} | {{{lat_d|}}}{{{elevation|}}}{{{elevation_imperial|}}}{{{highest|}}}{{{highest_location|}}}{{{highest_lat_d|}}}{{{highest_elevation|}}}{{{highest_elevation_imperial|}}}{{{lowest|}}}{{{lowest_location|}}}{{{lowest_lat_d|}}}{{{lowest_elevation|}}}{{{lowest_elevation_imperial|}}}  }} 
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{location_type|Center}}} | {{{location_label|}}} }}
+{{!}} {{{location|}}}{{Geobox note| {{{location_note|}}} }}
+{{!}}- class="mergedrow"  
+
+{{#if: {{{lat_d|}}} | {{Geobox row | 1 | {{{elevation|}}}{{{elevation_imperial|}}}{{{highest|}}}{{{highest_location|}}}{{{highest_lat_d|}}}{{{highest_elevation|}}}{{{highest_elevation_imperial|}}}{{{lowest|}}}{{{lowest_location|}}}{{{lowest_lat_d|}}}{{{lowest_elevation|}}}{{{lowest_elevation_imperial|}}} }} 
+{{!}} &nbsp;-&nbsp;coordinates
+{{!}} {{Geobox coor|{{{lat_d|}}}|{{{lat_m|}}}|{{{lat_s|}}}|{{{lat_NS|}}}|{{{long_d|}}}|{{{long_m|}}}|{{{long_s|}}}|{{{long_EW|}}}|{{{coordinates_type|type:city}}}{{#if:{{{population|}}}|({{{population|}}})}}|title=yes|format={{{coordinates_format|}}}}}{{Geobox note|{{{coordinates_note|}}}}}
+{{!}}-class="mergedrow"
+}}
+
+{{#if: {{{elevation|}}}{{{elevation_imperial|}}}| {{Geobox row | 1 | {{{highest|}}}{{{highest_location|}}}{{{highest_lat_d|}}}{{{highest_elevation|}}}{{{highest_elevation_imperial|}}}{{{lowest|}}}{{{lowest_location|}}}{{{lowest_lat_d|}}}{{{lowest_elevation|}}}{{{lowest_elevation_imperial|}}} }} 
+{{!}} &nbsp;-&nbsp;elevation
+{{!}} {{Unit height| {{{elevation_unit| {{#if: {{{elevation|}}}| m| ft}} }}}| {{{elevation|{{{elevation_imperial|}}}}}} | {{{elevation_round|0}}} }}{{Geobox note|{{{elevation_note|}}} }}
+{{!}}- class="mergedrow"
+}}
+}}
+
+{{#if: {{{highest|}}}{{{highest_location|}}}{{{highest_lat_d|}}}{{{highest_elevation|}}}{{{highest_elevation_imperial|}}} | {{Geobox row | {{{area|}}}{{{area_imperial}}}{{{area_total|}}}{{{area_land|}}}{{{area_land_imperial|}}}{{{area_water|}}}{{{area_water_imperial|}}}{{{area_urban|}}}{{{area_urban_imperial|}}}{{{area_metro|}}}{{{area_metro_imperial|}}}{{{location|}}}{{{elevation|}}}{{{elevation_imperial|}}}{{{lat_d|}}} | {{{highest_location|}}}{{{highest_lat_d|}}}{{{highest_elevation|}}}{{{highest_elevation_imperial|}}}{{{lowest|}}}{{{lowest_location|}}}{{{lowest_lat_d|}}}{{{lowest_elevation|}}}{{{lowest_elevation_imperial|}}} }} 
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{highest_type|Highest point}}} | {{{highest_label|}}} }}
+{{!}} {{Geobox link| {{{highest|}}}}}{{Geobox_note|{{{highest_note|}}} }}
+{{!}}- class="mergedrow"
+
+{{#if: {{{highest_location|}}} | {{Geobox row | 1 | {{{highest_lat_d|}}}{{{highest_elevation|}}}{{{highest_elevation_imperial|}}}{{{lowest|}}}{{{lowest_location|}}}{{{lowest_lat_d|}}}{{{lowest_elevation|}}}{{{lowest_elevation_imperial|}}} }}
+{{!}} &nbsp;-&nbsp;location
+{{!}} {{Geobox link| {{{highest_location||}}}}}{{Geobox_note| {{{highest_location_note|}}}}}
+{{!}}-class="mergedrow"
+}}
+
+{{#if: {{{highest_lat_d|}}} | {{Geobox row | 1 | {{{highest_elevation|}}}{{{highest_elevation_imperial|}}}{{{lowest|}}}{{{lowest_location|}}}{{{lowest_lat_d|}}}{{{lowest_elevation|}}}{{{lowest_elevation_imperial|}}} }}
+{{!}} &nbsp;-&nbsp;coordinates
+{{!}} {{Geobox coor|{{{highest_lat_d|}}}|{{{highest_lat_m|}}}|{{{highest_lat_s|}}}|{{{highest_lat_NS|}}}|{{{highest_long_d|}}}|{{{highest_long_m|}}}|{{{highest_long_s|}}}|{{{highest_long_EW|}}}|{{{highest_coordinates_type|type:landmark}}}|format={{{highest_coordinates_format|{{{coordinates_format|}}}}}}}}{{Geobox note|{{{highest_coordinates_note|}}}}}
+{{!}}-class="mergedrow"
+}}
+
+{{#if: {{{highest_elevation|}}}{{{highest_elevation_imperial|}}} | {{Geobox row | 1 | {{{lowest|}}}{{{lowest_location|}}}{{{lowest_lat_d|}}}{{{lowest_elevation|}}}{{{lowest_elevation_imperial|}}} }}
+{{!}} &nbsp;-&nbsp;elevation
+{{!}} {{Unit height| {{{highest_elevation_unit| {{#if: {{{highest_elevation|}}}| m| ft}} }}}| {{{highest_elevation|{{{highest_elevation_imperial|}}}}}} | {{{highest_elevation_round|0}}} }}{{Geobox note|{{{highest_elevation_note|}}} }}
+{{!}}-class="mergedrow"
+}}
+}}
+
+{{#if: {{{lowest|}}}{{{lowest_location|}}}{{{lowest_lat_d|}}}{{{lowest_elevation|}}}{{{lowest_elevation_imperial|}}} | {{Geobox row | {{{area|}}}{{{area_imperial}}}{{{area_total|}}}{{{area_land|}}}{{{area_land_imperial|}}}{{{area_water|}}}{{{area_water_imperial|}}}{{{area_urban|}}}{{{area_urban_imperial|}}}{{{area_metro|}}}{{{area_metro_imperial|}}}{{{location|}}}{{{elevation|}}}{{{elevation_imperial|}}}{{{lat_d|}}}{{{highest|}}}{{{highest_location|}}}{{{highest_lat_d|}}}{{{highest_elevation|}}}{{{highest_elevation_imperial|}}} | {{{lowest_location|}}}{{{lowest_lat_d|}}}{{{lowest_elevation|}}}{{{lowest_elevation_imperial|}}} }} 
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{lowest_type|Lowest point}}} | {{{lowest_label|}}} }}
+{{!}} {{Geobox link| {{{lowest|}}}}}{{Geobox_note|{{{lowest_note|}}}}}
+{{!}}- class="mergedrow"
+
+{{#if: {{{lowest_location|}}} | {{Geobox row | 1 | {{{lowest_lat_d|}}}{{{lowest_elevation|}}}{{{lowest_elevation_imperial|}}} }}
+{{!}} &nbsp;-&nbsp;location
+{{!}} {{Geobox link| {{{lowest_location||}}}}}{{Geobox_note| {{{lowest_location_note|}}}}}
+{{!}}-class="mergedrow"
+}}
+
+{{#if: {{{lowest_lat_d|}}} | {{Geobox row | 1 | {{{lowest_elevation|}}}{{{lowest_elevation_imperial|}}} }}
+{{!}} &nbsp;-&nbsp;coordinates
+{{!}} {{Geobox coor|{{{lowest_lat_d|}}}|{{{lowest_lat_m|}}}|{{{lowest_lat_s|}}}|{{{lowest_lat_NS|}}}|{{{lowest_long_d|}}}|{{{lowest_long_m|}}}|{{{lowest_long_s|}}}|{{{lowest_long_EW|}}}|{{{lowest_coordinates_type|type:landmark}}}|format={{{lowest_coordinates_format|{{{coordinates_format|}}}}}}}}{{Geobox note|{{{lowest_coordinates_note|}}}}}
+{{!}}-class="mergedrow"
+}}
+
+{{#if: {{{lowest_elevation|}}}{{{lowest_elevation_imperial|}}} | {{Geobox row | 1 | }}
+{{!}} &nbsp;-&nbsp;elevation
+{{!}} {{Unit height| {{{lowest_elevation_unit| {{#if: {{{lowest_elevation|}}}| m| ft}} }}}| {{{lowest_elevation|{{{lowest_elevation_imperial}}}}}} | {{{lowest_elevation_round|0}}} }}{{Geobox note|{{{lowest_elevation_note|}}} }}
+{{!}}-class="mergedrow"
+}}
+}}
+
+<!-- *** Population *** -->
+|- class="mergedtoprow"
+{{#if: {{{population|}}} | {{Geobox row || {{{population_urban|}}}{{{population_metro|}}}{{{population_density|}}}{{{population_density_imperial|}}}{{{population_density_urban|}}}{{{population_density_urban_imperial|}}}{{{population_density_metro|}}}{{{population_density_metro_imperial|}}} }} 
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{population_type|Population}}} | {{{population_label|}}} }}
+{{!}} {{formatnum: {{{population|}}} }}{{#if: {{{population_as_of|}}}|&#32;(<span style="font-style:italic;">{{{population_as_of|}}}</span>) }}{{Geobox note|{{{population_note|}}} }}
+{{!}}- class="mergedrow"
+
+{{#if: {{{population_urban|}}} | {{Geobox row| 1 | {{{population_metro|}}}{{{population_density|}}}{{{population_density_imperial|}}}{{{population_density_urban|}}}{{{population_density_urban_imperial|}}}{{{population_density_metro|}}}{{{population_density_metro_imperial|}}} }}
+{{!}} &nbsp;-&nbsp;urban
+{{!}} {{formatnum: {{{population_urban|}}} }}{{#if: {{{population_urban_as_of|}}}|&#32;(<span style="font-style:italic;">{{{population_urban_as_of|}}}</span>) }}{{Geobox note|{{{population_urban_note|}}} }}
+{{!}}- class="mergedrow" 
+}}
+
+{{#if: {{{population_metro|}}} | {{Geobox row| 1 | {{{population_density|}}}{{{population_density_imperial|}}}{{{population_density_urban|}}}{{{population_density_urban_imperial|}}}{{{population_density_metro|}}}{{{population_density_metro_imperial|}}} }}
+{{!}} &nbsp;-&nbsp;metro
+{{!}} {{formatnum: {{{population_metro|}}} }}{{#if: {{{population_metro_as_of|}}}|&#32;(<span style="font-style:italic;">{{{population_metro_as_of|}}}</span>) }}{{Geobox note|{{{population_metro_note|}}} }}
+{{!}}- class="mergedrow" 
+}}
+}}
+
+{{#if: {{{population_density|}}}{{{population_density_imperial|}}} | {{Geobox row | {{{population|}}}{{{population_total|}}}{{{population_urban|}}}{{{population_metro|}}} | {{{population_density_urban|}}}{{{population_density_urban_imperial|}}}{{{population_density_metro|}}}{{{population_density_metro_imperial|}}} }} 
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{density_type|Density}}} | {{{density_label|Population density}}} }}
+{{!}} {{Unit area density| {{{area_unit| {{#if: {{{population_density|}}}| sqkm| sqmi}} }}}| {{#if: {{{population_density|}}} | {{#ifeq: {{{population_density}}} | auto | {{#expr: {{{population|0}}} / {{{area|1}}} round {{{population_round|0}}} }} | {{{population_density}}} }} | {{#ifeq: {{{population_density_imperial}}} | auto | {{#expr: {{{population|0}}} / {{{area_imperial|1}}} round {{{population_round|0}}} }} | {{{population_density_imperial}}} }} }} | {{{population_density_round|0}}} }}{{Geobox note|{{{population_density_note|}}} }} 
+{{!}}- class="mergedrow"
+
+{{#if: {{{population_density_urban|}}}{{{population_density_urban_imperial|}}} | {{Geobox row | 1 | {{{population_density_metro|}}}{{{population_density_metro_imperial|}}} }}  
+{{!}} &nbsp;-&nbsp;urban 
+{{!}} {{Unit area density| {{{area_unit| {{#if: {{{population_density_urban|}}}| sqkm| sqmi}} }}}| {{#if: {{{population_density_urban|}}} | {{#ifeq: {{{population_density_urban}}} | auto | {{#expr: {{{population_urban|0}}} / {{{area_urban|1}}} round {{{population_round|0}}} }} | {{{population_density_urban}}} }} | {{#ifeq: {{{population_density_urban_imperial}}} | auto | {{#expr: {{{population_urban|0}}} / {{{area_urban_imperial|1}}} round {{{population_round|0}}} }} | {{{population_density_urban_imperial}}} }} }} | {{{population_density_round|0}}} }}{{Geobox note|{{{population_density_urban_note|}}} }}
+{{!}}- class="mergedrow"
+}}
+
+{{#if: {{{population_density_metro|}}}{{{population_density_metro_imperial|}}} | {{Geobox row | 1 | }}  
+{{!}} &nbsp;-&nbsp;metro 
+{{!}} {{Unit area density| {{{area_unit| {{#if: {{{population_density_metro|}}}| sqkm| sqmi}} }}}| {{#if: {{{population_density_metro|}}} | {{#ifeq: {{{population_density_metro}}} | auto | {{#expr: {{{population_metro|0}}} / {{{area_metro|1}}} round {{{population_round|0}}} }} | {{{population_density_metro}}} }} | {{#ifeq: {{{population_density_metro_imperial}}} | auto | {{#expr: {{{population_metro|0}}} / {{{area_metro_imperial|1}}} round {{{population_round|0}}} }} | {{{population_density_metro_imperial}}} }} }} | {{{population_density_round|0}}} }}{{Geobox note|{{{population_density_metro_note|}}} }}
+{{!}}- class="mergedrow"
+}}
+}}
+
+<!-- *** Government *** -->
+|- class="mergedtoprow"
+{{#if: {{{government|}}}| {{Geobox row || {{{established|}}}{{{mayor|}}}{{{leader|}}} }} 
+! style="white-space: nowrap" {{!}} {{Geobox label |{{{government_type|Government type}}} |{{{government_label|}}} }}
+{{!}} {{{government|}}}{{Geobox note|{{{government_note|}}} }}
+{{!}}- class="mergedrow"
+}}
+
+{{#if: {{{established|}}}| {{Geobox row | {{{government|}}}| {{{established1|}}}{{{mayor|}}}{{{leader|}}} }} 
+! style="white-space: nowrap" {{!}} {{Geobox label |{{{established_type|Founded}}} |{{{established_label|}}} }}
+{{!}} {{{established|}}}{{Geobox note|{{{established_note|}}} }}
+{{!}}- class="mergedrow"
+
+{{#if: {{{established1|}}} | {{Geobox row | 1 | {{{established2|}}}{{{mayor|}}}{{{leader|}}} }}
+{{!}} style="white-space: nowrap" {{!}}&nbsp;-&nbsp;{{Geobox label |{{{established1_type|Founded 1}}} |{{{established1_label|}}} }}
+{{!}} {{{established1|}}}{{Geobox note|{{{established1_note|}}} }}
+{{!}}- class="mergedrow"
+
+{{#if: {{{established2|}}} | {{Geobox row | 1 | {{{established3|}}}{{{mayor|}}}{{{leader|}}} }}
+{{!}} style="white-space: nowrap" {{!}}&nbsp;-&nbsp;{{Geobox label |{{{established2_type|Founded 2}}} |{{{established2_label|}}} }}
+{{!}} {{{established2|}}}{{Geobox note|{{{established2_note|}}} }}
+{{!}}- class="mergedrow"
+
+{{#if: {{{established3|}}} | {{Geobox row | 1 | {{{mayor|}}}{{{leader|}}} }}
+{{!}} style="white-space: nowrap" {{!}}&nbsp;-&nbsp;{{Geobox label |{{{established3_type|Founded 3}}} |{{{established3_label|}}} }}
+{{!}} {{{established3|}}}{{Geobox note|{{{established3_note|}}} }}
+{{!}}- class="mergedrow"
+}}
+}}
+}}
+}}
+
+{{#if: {{{leader|}}}{{{mayor|}}} | {{Geobox row | {{{government|}}}{{{established|}}} | {{{leader1|}}} }} 
+! style="white-space: nowrap" {{!}} {{Geobox label | {{#if: {{{leader_type|}}}{{{mayor_type|}}}| {{{leader_type|{{{mayor_type}}}}}}| Mayor}} | {{{leader_label|}}} }}
+{{!}} {{Geobox link| {{{leader|{{{mayor|}}} }}} }}{{#if: {{{mayor_party|}}}{{{leader_party|}}}|&#32;({{{mayor_party|{{{leader_party|}}}}}})}}{{Geobox note|{{{leader_note|{{{mayor_note|}}} }}} }}
+{{!}}- class="mergedrow"
+
+{{#if: {{{leader1|}}} | {{Geobox row | 1 | {{{leader2|}}} }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{leader1_type| Leader 1}}} | {{{leader1_label|}}} }}
+{{!}} {{Geobox link| {{{leader1|}}} }}{{#if: {{{leader1_party|}}}|&#32;({{{leader1_party}}})}}{{Geobox note|{{{leader1_note|}}} }}
+{{!}}- class="mergedrow"
+
+{{#if: {{{leader2|}}} | {{Geobox row | 1 | {{{leader3|}}} }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{leader2_type| Leader 2}}} | {{{leader2_label|}}} }}
+{{!}} {{Geobox link| {{{leader2|}}} }}{{#if: {{{leader2_party|}}}|&#32;({{{leader2_party}}})}}{{Geobox note|{{{leader2_note|}}} }}
+{{!}}- class="mergedrow"
+
+{{#if: {{{leader3|}}} | {{Geobox row | 1 | }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{leader3_type| Leader 3}}} | {{{leader3_label|}}} }}
+{{!}} {{Geobox link| {{{leader3|}}} }}{{#if: {{{leader3_party|}}}|&#32;({{{leader3_party}}})}}{{Geobox note|{{{leader3_note|}}} }}
+{{!}}- class="mergedrow"
+}}
+}}
+}}
+}}
+
+<!-- *** Various codes *** -->
+|- class="mergedtoprow"
+{{#if: {{{timezone|}}} | {{Geobox row || {{{timezone_DST|}}}{{{code|}}}{{{postal_code|}}}{{{code1|}}}{{{area_code|}}} }}
+! style="white-space: nowrap" {{!}} {{Geobox label| {{{timezone_type|Time zone}}} | {{{timezone_label|}}} }}
+{{!}} {{Geobox link| {{{timezone}}} }}{{#if: {{{utc_offset|}}}| &#32;([[UTC{{{utc_offset}}}]]) }}{{Geobox note|{{{timezone_note|}}} }} 
+{{!}}- class="mergedrow"
+
+{{#if: {{{timezone_DST|}}} | {{Geobox row | 1 | {{{code|}}}{{{postal_code|}}}{{{code1|}}}{{{area_code|}}} }}
+{{!}} &nbsp;-&nbsp;{{Geobox label|summer&nbsp;(DST)|Daylight saving time}}
+{{!}} {{Geobox link| {{{timezone_DST}}} }}{{#if: {{{utc_offset_DST|}}}| &#32;([[UTC{{{utc_offset_DST}}}]]) }}{{Geobox note|{{{timezone_DST_note|}}} }}
+{{!}}- class="mergedrow"
+}}
+}}
+
+{{#if: {{{code|}}}{{{postal_code|}}}{{{code1|}}}{{{area_code|}}} | 
+{{#if: {{{code|}}}{{{postal_code|}}} | {{Geobox row | {{{timezone|}}} | {{{code1|}}}{{{area_code|}}}{{{code2|}}} }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{#if: {{{postal_code_type|}}}{{{code_type|}}}| {{{postal_code_type|{{{code_type|}}}}}} | Postal code }} | {{{postal_code_label|{{{code_label|}}} }}} }}                                      
+{{!}} {{{code| {{{postal_code|}}} }}}{{Geobox note|{{{code_note|{{{postal_code_note|}}} }}} }} 
+{{!}}- class="mergedrow"
+}}
+
+{{#if: {{{code1|}}}{{{area_code|}}} | {{Geobox row | {{{timezone|}}}{{{code|}}}{{{postal_code|}}} | {{{code2|}}} }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{#if: {{{area_code_type|}}}{{{code1_type|}}}| {{{area_code_type| {{{code1_type|}}} }}} | Area code}} | {{{area_code_label|{{{code1_label|}}} }}} }}
+{{!}} {{{code1| {{{area_code|}}} }}}{{Geobox note|{{{code1_note|{{{area_code_note|}}} }}} }}
+{{!}}- class="mergedrow"
+}}
+
+{{#if: {{{code2|}}} | {{Geobox row | 1 | {{{code3|}}} }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{code2_type| Code 2}}} | {{{code2_label|}}} }}
+{{!}} {{{code2}}}{{Geobox note|{{{code2_note|}}} }}
+{{!}}- class="mergedrow"
+
+{{#if: {{{code3|}}} | {{Geobox row | 1 | }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{code3_type| Code 3}}} | {{{code3_label|}}} }}
+{{!}} {{{code3}}}{{Geobox note|{{{code3_note|}}} }}
+{{!}}- class="mergedrow"
+}}
+}}
+}}
+
+<!-- *** Free fields *** -->
+|- class="mergedtoprow"
+{{#if: {{{free|}}} | {{Geobox row || {{{free1_type|}}}{{{free2_type|}}}{{{free3_type|}}} }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{free_type| Free}}} | {{{free_label|}}} }}
+{{!}} {{{free|}}}{{Geobox note|{{{free_note|}}} }}
+{{!}}- class="mergedrow"
+}}
+
+{{#if: {{{free1|}}} | {{Geobox row | {{{free_type|}}} | {{{free2_type|}}}{{{free3_type|}}} }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{free1_type| Free 1}}} | {{{free1_label|}}} }}
+{{!}} {{{free1|}}}{{Geobox note|{{{free2_note|}}} }}
+{{!}}- class="mergedrow"
+}}
+
+{{#if: {{{free2|}}} | {{Geobox row | {{{free_type|}}}{{{free1_type|}}} | {{{free3_type|}}} }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{free2_type| Free 2}}} | {{{free2_label|}}} }}
+{{!}} {{{free2|}}}{{Geobox note|{{{free2_note|}}} }}
+{{!}}- class="mergedrow"
+}}
+
+{{#if: {{{free3|}}} | {{Geobox row | {{{free_type|}}}{{{free1_type|}}}{{{free2_type|}}} }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{free3_type| Free3}}} | {{{free3_label|}}} }}
+{{!}} {{{free3|}}}{{Geobox note|{{{free3_note|}}} }}
+{{!}}- class="mergedrow"
+}}
+
+<!-- *** Map *** -->
+|- class="mergedtoprow"
+{{#if: {{{map_first|}}}|
+{{#if: {{{image|}}} | {{Geobox image| {{{image|}}}| {{{image_caption|}}}| {{{image_size|}}} }} }} |
+{{#if: {{{map|}}} | {{Geobox2 map| {{{map|}}}| {{{map_caption|}}}|{{{map_size|}}}|{{#if:{{{map_locator|}}}|{{Geobox coor2dec|{{{long_d|}}}|{{{long_m|}}}|{{{long_s|}}}|{{{long_EW|}}}|2}}|{{{map_locator_x|}}}}}|{{#if:{{{map_locator|}}}|{{Geobox coor2dec|{{{lat_d|}}}|{{{lat_m|}}}|{{{lat_s|}}}|{{{lat_NS|}}}|2}}|{{{map_locator_y|}}}}}| {{{map_locator|}}}|{{{map_background|}}}|table }} }}
+{{#if: {{{map1|}}} | {{Geobox2 map| {{{map1|}}}| {{{map1_caption|}}}|{{{map1_size|}}}|{{#if:{{{map1_locator|}}}|{{Geobox coor2dec|{{{long_d|}}}|{{{long_m|}}}|{{{long_s|}}}|{{{long_EW|}}}|2}}|{{{map1_locator_x|}}}}}|{{#if:{{{map1_locator|}}}|{{Geobox coor2dec|{{{lat_d|}}}|{{{lat_m|}}}|{{{lat_s|}}}|{{{lat_NS|}}}|2}}|{{{map1_locator_y|}}}}}| {{{map1_locator|}}}|{{{map1_background|}}}|table }} }} 
+{{#if: {{{map2|}}} | {{Geobox2 map| {{{map2|}}}| {{{map2_caption|}}}|{{{map2_size|}}}|{{#if:{{{map2_locator|}}}|{{Geobox coor2dec|{{{long_d|}}}|{{{long_m|}}}|{{{long_s|}}}|{{{long_EW|}}}|2}}|{{{map2_locator_x|}}}}}|{{#if:{{{map2_locator|}}}|{{Geobox coor2dec|{{{lat_d|}}}|{{{lat_m|}}}|{{{lat_s|}}}|{{{lat_NS|}}}|2}}|{{{map2_locator_y|}}}}}| {{{map2_locator|}}}|{{{map2_background|}}}|table }} }}
+{{!}}- class="mergedrow"
+}}
+
+<!-- *** Website *** -->
+|- class="mergedtoprow"
+{{#if: {{{website|}}} | {{Geobox row}}
+! colspan="2" style="text-align: center;" {{!}} {{geobox label| {{{website_type|Website}}} }}: {{{website|}}}{{Geobox note|{{{website_note|}}} }}
+{{!}}- class="mergedrow"
+}}
+
+<!-- *** Footnotes *** -->
+|- class="mergedtoprow"
+{{#if: {{{footnotes|}}} | {{Geobox row}}
+{{!}} colspan="2" {{!}} {{{footnotes|}}}
+{{!}}- class="mergedrow"
+}}
+|}</includeonly><noinclude>
+{{Geobox transclude|title|cities, towns, villages, hamlets and any other types of human settlements}}
+
+== Other names ==
+
+The following names redirect here, please use the most appropriate name when placing this template on an article ('''Geobox Settlement''' may be used as well): '''Geobox Borough''', '''Geobox City''', '''Geobox Neighborhood''', '''Geobox Town''', '''Geobox Township''', '''Geobox Village'''.
+
+== Field instructions  ==
+
+{{Geobox transclude|Settlement/Doc}}
+
+==Microformat==
+{{UF-hcard-place}}
+
+== Blank templates ==
+{{Geobox transclude|Settlement/Blank}}
+[[Category: Geobox|Settlement]]
+[[Category: City infobox templates|Geobox]]
+</noinclude>
