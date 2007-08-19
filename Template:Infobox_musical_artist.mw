@@ -1,10 +1,10 @@
 <includeonly>{| | class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
-! style="text-align: center; background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3" |<big class="{{Template:Infobox musical artist/hCard Class|{{{Background|}}} }}">{{{Name}}}</big>
+! style="text-align: center; color: {{{color|black}}}; background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3" |<big class="{{Template:Infobox musical artist/hCard Class|{{{Background|}}} }}">{{{Name}}}</big>
 {{#if:{{{Img|}}}
   |<tr style="text-align: center;"><td colspan="3">[[Image:{{{Img}}}|{{#ifeq:{{lc:{{{Landscape|}}}}}|yes|{{min|300|{{#if:{{#ifexpr:{{{Img_size}}}}}|300|{{{Img_size}}}}}}}x200|{{min|220|{{#if:{{#ifexpr:{{{Img_size}}}}}|300|{{{Img_size}}}}}}}}}px|{{{Img_capt|}}}]] <br /><div style="font-size: 90%; line-height: 15px;">{{{Img_capt|}}}</div></td></tr>
 }}
 |-
-! style="background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3" | Impormasyun
+! style="color: {{{color|black}}}; background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3" | Impormasyun
 {{#if:{{{Birth_name|}}}
   |<tr><td>'''Lagyu'''</td><td colspan="2">{{{Birth_name}}}</td></tr>
 }}<!--
@@ -48,13 +48,13 @@
   |<tr><td>'''Website'''</td><td colspan="2">{{{URL}}}</td></tr>
 }}<!--
 -->{{#if:{{{Current_members|}}}
-  |<tr><th style="background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3">Deng kayanib</th></tr><tr><td style="text-align: center;" colspan="3">{{{Current_members}}}</td></tr>
+  |<tr><th style="color: {{{color|black}}}; background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3">Deng kayanib</th></tr><tr><td style="text-align: center;" colspan="3">{{{Current_members}}}</td></tr>
 }}<!--
 -->{{#if:{{{Past_members|}}}
-  |<tr><th style="background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3">Dating kayanib</th></tr><tr><td style="text-align: center;" colspan="3">{{{Past_members}}}</td></tr>
+  |<tr><th style="color: {{{color|black}}}; background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3">Dating kayanib</th></tr><tr><td style="text-align: center;" colspan="3">{{{Past_members}}}</td></tr>
 }}<!--
 -->{{#if:{{{Notable_instruments|}}}
-  |<tr><th style="background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3">Deng Instrumentu</th></tr><tr><td style="text-align: center;" colspan="3">{{{Notable_instruments}}}</td></tr>
+  |<tr><th style="color: {{{color|black}}}; background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3">Deng Instrumentu</th></tr><tr><td style="text-align: center;" colspan="3">{{{Notable_instruments}}}</td></tr>
 }}
 |}</includeonly><noinclude>
 Blank Code:
@@ -65,6 +65,7 @@ Blank Code:
 | Img_capt            = 
 | Img_size            = 
 | Landscape           = 
+| color               = 
 | Background          = 
 | Birth_name          = 
 | Alias               = 
