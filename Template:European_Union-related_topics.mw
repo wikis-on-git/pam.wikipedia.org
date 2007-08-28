@@ -1,7 +1,7 @@
 {{Navbox generic
 |name   = European Union-related topics
-|state  = {{state|uncollapsed}}}
-|title  = [[Image:Flag of the European Union.svg|30px]] Major [[European Union]]-related topics
+|state  = {{{state|uncollapsed}}}
+|title  = [[Image:Flag of Europe.svg|30px]] Major [[European Union]]-related topics
 |bodystyle  = background:white; text-align:left;
 |groupstyle = text-align:right; white-space:nowrap; 
 
