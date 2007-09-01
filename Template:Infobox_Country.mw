@@ -1,4 +1,3 @@
-
 <!-- Infobox Country -->{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
 |+ style="margin-left: inherit; font-size: medium;" | '''{{{native_name}}}'''
 |-
@@ -24,11 +23,11 @@
 | '''[[Demographics of {{{common_name}}}|Pekamaragul a &nbsp;lakanbalen]]'''
 | {{{largest_city}}}
 |- style="vertical-align: top;"
-| '''[[Official language|Peka &nbsp;Amanu]]'''
+| '''[[Official language|Peka Amanu]]'''
 | {{{official_languages}}}
 |- style="vertical-align: top;"
-| '''[[Major regional languages|Amanu karing Labuad]]'''
-| {{{major_regional_languages}}}
+| '''[[Regional languages|Amanu karing Labuad]]'''
+| {{{regional_languages}}}
 |- style="vertical-align: top;"
 | style="white-space: nowrap;" | '''[[List of countries by system of government|Gubyernu]]''' <div style="text-align: right;">{{{leader_titles}}}</div>
 | style="white-space: nowrap;" | {{{government_type}}}<br>{{{leader_names}}}
