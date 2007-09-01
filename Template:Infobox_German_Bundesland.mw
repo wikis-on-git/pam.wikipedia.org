@@ -35,7 +35,7 @@
 | <span class="country-name">[[Germany]]</span> [[Image:Flag of Germany.svg|22px]]
 |- class="mergedrow"
 {{#if: {{{NUTS|<noinclude>x</noinclude>}}} |
-{{!}} '''[[Nomenclature of Territorial Units for Statistics|NUTS Region]]''' {{!!}} {{{NUTS}}} [[Image:European flag.svg|22px]]
+{{!}} '''[[Nomenclature of Territorial Units for Statistics|NUTS Region]]''' {{!!}} {{{NUTS}}} [[Image:Flag of Europe.svg|22px]]
 }}
 |- class="mergedrow"
 {{#if: {{{divisions|<noinclude>x</noinclude>}}} |
