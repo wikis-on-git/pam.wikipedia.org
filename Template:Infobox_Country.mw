@@ -20,7 +20,7 @@
 | '''[[Tungku]]'''
 | {{{capital}}}<br><small>[http://kvaleberg.com/extensions/mapsources/index.php?params={{{latd}}}_{{{latm}}}_{{{latNS}}}_{{{longd}}}_{{{longm}}}_{{{longEW}}}_region:{{{CCTLD}}}_type:country({{{area}}}) {{{latd}}}°{{{latm}}}&prime;&nbsp;{{{latNS}}} {{{longd}}}°{{{longm}}}&prime;&nbsp;{{{longEW}}}]</small>
 |- style="vertical-align: top;"
-| '''[[Demographics of {{{common_name}}}|Pekamaragul a &nbsp;lakanbalen]]'''
+| '''[[Demograpia ning {{{common_name}}}|Pekamaragul a &nbsp;lakanbalen]]'''
 | {{{largest_city}}}
 |- style="vertical-align: top;"
 | '''[[Official language|Peka Amanu]]'''
@@ -29,7 +29,7 @@
 | '''[[Regional languages|Amanu karing Labuad]]'''
 | {{{regional_languages}}}
 |- style="vertical-align: top;"
-| style="white-space: nowrap;" | '''[[List of countries by system of government|Gubyernu]]''' <div style="text-align: right;">{{{leader_titles}}}</div>
+| style="white-space: nowrap;" | '''[[List of countries by system of government|Gubiernu]]''' <div style="text-align: right;">{{{leader_titles}}}</div>
 | style="white-space: nowrap;" | {{{government_type}}}<br>{{{leader_names}}}
 |- style="vertical-align: top;"
 | style="white-space: nowrap;" | '''{{{sovereignty_type}}}'''<br>{{{established_events}}}
