@@ -1,8 +1,4 @@
-{{Navbox
-| name  = Aanatomical features ning tau
-| title = [[Human anatomy|Human anatomical features]]
-| titlestyle = background:#efefef
-| list1 = 
+
 
 '''[[head (anatomy)|BUNTUK]]''': [[Bungu ning tau|Bungu]] - [[Kanwan]] – [[Mata]] – [[Balugbug]] – [[Arung|Arung]] – [[Mouth (human)|Asbuk]] – [[Dila]] – [[ipan|Ipan]] – [[Panga|Panga]] – [[Lupa]] – [[Pisni]] – [[Baba]]
 
@@ -17,7 +13,7 @@
 
 '''[[Balat|BALAT]]''': [[Buak]]
 
-}}{{#ifeq:{{{1}}}|nocat||<includeonly>[[Category:Human anatomy]]</includeonly>}}<noinclude>
+{{#ifeq:{{{1}}}|nocat||<includeonly>[[Category:Human anatomy]]</includeonly>}}<noinclude>
 [[ar:قالب:تشريح الإنسان]]
 [[da:Skabelon:Menneskets anatomi]]
 [[en:Template:Human anatomical features]]
