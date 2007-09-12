@@ -60,7 +60,7 @@
 <!-- *** Country & region *** -->
 |- class="mergedtoprow"
 {{#if: {{{country|}}} | {{Geobox_row || {{{state|}}}{{{region|}}}{{{district|}}} }}
-! style="white-space: nowrap" {{!}} {{Geobox label | {{{country_type|Country}}} | {{{country_label|}}} }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{country_type|Bangsa}}} | {{{country_label|}}} }}
 {{!}} {{Geobox link|{{{country|}}} }}
 {{!}}- class="mergedrow"
 }}
@@ -72,13 +72,13 @@
 }}
 
 {{#if: {{{region|}}} | {{Geobox_row | {{{country|}}}{{{state|}}} | {{{district|}}} }}
-! style="white-space: nowrap" {{!}} {{Geobox label | {{{region_type|Region}}} | {{{region_label|}}} }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{region_type|Labuad}}} | {{{region_label|}}} }}
 {{!}} {{Geobox link|{{{region|}}} }}
 {{!}}- class="mergedrow"
 }}
 
 {{#if: {{{district|}}} | {{Geobox_row | {{{country|}}}{{{state|}}}{{{region|}}} | }}
-! style="white-space: nowrap" {{!}} {{Geobox label | {{{district_type|District}}} | {{{district_label|}}} }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{district_type|Distritu}}} | {{{district_label|}}} }}
 {{!}} {{Geobox link|{{{district|}}} }}
 {{!}}- class="mergedrow"
 }}
@@ -86,12 +86,12 @@
 <!-- *** Capital *** --->
 |- class="mergedtoprow"
 {{#if: {{{capital|}}} | {{Geobox row | | {{{capital_location|}}}{{{capital_lat_d|}}}{{{capital_elevation|}}}{{{capital_elevation_imperial|}}}{{{part|}}}{{{part_count|}}}{{{city|}}}{{{city_count|}}}{{{municipality_count|}}} }} 
-! style="white-space: nowrap" {{!}} {{Geobox label | {{{capital_type|Capital}}} | {{{capital_label|}}} }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{capital_type|Tungku}}} | {{{capital_label|}}} }}
 {{!}} {{Geobox link| {{{capital|}}}}}{{Geobox_note|{{{capital_note|}}} }}
 {{!}}- class="mergedrow"
 
 {{#if: {{{capital_location|}}} | {{Geobox row | 1 | {{{capital_lat_d|}}}{{{capital_elevation|}}}{{{capital_elevation_imperial|}}}{{{part|}}}{{{part_count|}}}{{{city|}}}{{{city_count|}}}{{{municipality_count|}}} }}
-{{!}} style="white-space: nowrap" {{!}}&nbsp;-&nbsp;{{{capital_location_type|center}}}
+{{!}} style="white-space: nowrap" {{!}}&nbsp;-&nbsp;{{{capital_location_type|kalibudtan}}}
 {{!}} {{{capital_location||}}}{{Geobox_note| {{{capital_location_note|}}}}}
 {{!}}-class="mergedrow"
 }}
@@ -110,7 +110,7 @@
 }}
 
 {{#if: {{{city|}}}{{{city_count|}}} | {{Geobox_row | {{{capital|}}}| {{{part|}}}{{{part_count|}}} {{{municipality_count|}}} }}
-! style="white-space: nowrap" {{!}}{{Geobox label | {{{city_type|{{#if: {{{city1|}}} | Cities| Largest city}} }}} | {{{city_label|}}} }}
+! style="white-space: nowrap" {{!}}{{Geobox label | {{{city_type|{{#if: {{{city1|}}} | Lakanbalen| Pekamaragul a lakanbalen}} }}} | {{{city_label|}}} }}
 {{!}} {{#if: {{{city_count|}}} | {{{city_count|}}}{{#if: {{{city|}}}|:&#32;}} }}{{Geobox link|{{{city|}}}}}{{Geobox link|{{{city1|}}}|, }}{{Geobox link|{{{city2|}}}|, }}{{Geobox link|{{{city3|}}}|, }}{{Geobox link|{{{city4|}}}|, }}{{Geobox link|{{{city5|}}}|, }}{{Geobox link|{{{city6|}}}|, }}{{Geobox link|{{{city7|}}}|, }}{{Geobox link|{{{city8|}}}|, }}{{Geobox link|{{{city9|}}}|, }}{{Geobox link|{{{city10|}}}|, }}{{Geobox link|{{{city11|}}}|, }}{{Geobox link|{{{city12|}}}|, }}{{Geobox_note | {{{city_note|}}} }}
 {{!}}- class="mergedrow"
 }}
@@ -163,7 +163,7 @@
 }}
 
 {{#if: {{{municipality_count|}}} | {{Geobox_row | {{{capital|}}}{{{part|}}}{{{part_count|}}}{{{city|}}}{{{city_count|}}} | }}
-! {{Geobox label | {{{municipality_type|Municipalities}}} | {{{municipality_label|}}} }}
+! {{Geobox label | {{{municipality_type|Balen}}} | {{{municipality_label|}}} }}
 {{!}} {{{municipality_count|}}}{{Geobox_note | {{{municipality_note|}}} }}
 {{!}}- class="mergedrow"
 }}
@@ -172,7 +172,7 @@
 <!-- *** Geography *** -->
 |- class="mergedtoprow"
 {{#if: {{{area|}}}{{{area_imperial|}}} | {{Geobox row | | {{{area1|}}}{{{area1_imperial|}}}{{{highest|}}}{{{highest_location|}}}{{{highest_lat_d|}}}{{{highest_elevation|}}}{{{highest_elevation_imperial|}}}{{{lowest|}}}{{{lowest|}}}{{{lowest_location|}}}{{{lowest_lat_d|}}}{{{lowest_elevation|}}}{{{lowest_elevation_imperial|}}} }}
-! style="white-space: nowrap" {{!}}{{Geobox label | {{{area_type|Area}}} | {{{area_label|}}} }}
+! style="white-space: nowrap" {{!}}{{Geobox label | {{{area_type|Lapad/Dagul}}} | {{{area_label|}}} }}
 {{!}} {{Unit area| {{{area_unit| {{#if: {{{area|}}}| sqkm| sqmi}} }}}| {{{area|{{{area_imperial|}}} }}} | {{{area_round|0}}} }}{{Geobox note|{{{area_note|}}} }} 
 {{!}}- class="mergedrow"
 
@@ -244,7 +244,7 @@
 <!-- *** Population *** -->
 |- class="mergedtoprow"
 {{#if: {{{population|}}} | {{Geobox row | | {{{population1|}}}{{{population_density|}}}{{{population_density_imperial|}}} }} 
-! style="white-space: nowrap" {{!}} {{Geobox label | {{{population_type|Population}}} | {{{population_label|}}} }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{population_type|Populasyun}}} | {{{population_label|}}} }}
 {{!}} {{formatnum: {{{population|}}} }}{{#if: {{{population_as_of|}}}|&#32;(<span style="font-style:italic;">{{{population_as_of|}}}</span>) }}{{Geobox note|{{{population_note|}}} }}
 {{!}}- class="mergedrow"
 
@@ -268,7 +268,7 @@
 }}
 
 {{#if: {{{population_density|}}}{{{population_density_imperial|}}} | {{Geobox row | {{{population|}}} | {{{population1_density|}}}{{{population1_density_imperial|}}} }} 
-! style="white-space: nowrap" {{!}} {{Geobox label | {{{population_density_type|Density}}} | {{{population_density_label|Population density}}} }}
+! style="white-space: nowrap" {{!}} {{Geobox label | {{{population_density_type|Pangasiksik}}} | {{{population_density_label|Population density}}} }}
 {{!}} {{Unit area density| {{{area_unit| {{#if: {{{population_density|}}}| sqkm| sqmi}} }}}| {{#if: {{{population_density|}}} | {{#ifeq: {{{population_density}}} | auto | {{#expr: {{{population|0}}} / {{{area|1}}} round {{{population_round|0}}} }} | {{{population_density}}} }} | {{#ifeq: {{{population_density_imperial}}} | auto | {{#expr: {{{population|0}}} / {{{area_imperial|1}}} round {{{population_round|0}}} }} | {{{population_density_imperial}}} }} }} | {{{population_density_round|0}}} }}{{Geobox note|{{{population_density_note|}}} }} 
 {{!}}- class="mergedrow"
 
@@ -294,7 +294,7 @@
 <!-- *** Government *** -->
 |- class="mergedtoprow"
 {{#if: {{{established|}}}| {{Geobox row || {{{established1|}}}{{{leader|}}} }} 
-! style="white-space: nowrap" {{!}} {{Geobox label |{{#if: {{{established_type|}}}|{{{established_type|}}}|Founded}}| {{{established_label|}}} }}
+! style="white-space: nowrap" {{!}} {{Geobox label |{{#if: {{{established_type|}}}|{{{established_type|}}}|Mitatag}}| {{{established_label|}}} }}
 {{!}} {{{established|}}}{{Geobox note|{{{established_note|}}} }}
 {{!}}- class="mergedrow"
 
