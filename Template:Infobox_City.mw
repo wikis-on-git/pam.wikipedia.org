@@ -13,7 +13,7 @@
 {{#if:{{{image_seal|}}}| {{!}} style="vertical-align: middle;" {{!}} [[Image:{{{image_seal|}}}|100px|Opisyal seal ning {{{official_name|}}}]] }}
 {{!}}-
 {{#if:{{{image_flag|}}}| {{!}} <small>'''[[Bandera ning {{{official_name}}}|Bandera]]'''</small> }}
-{{#if:{{{image_seal|}}}| {{!}} <small>'''[[Seal ning {{{official_name}}}|Seal]]'''</small>}}
+{{#if:{{{image_seal|}}}| {{!}} <small>'''[[Seal ning {{{official_name}}}|Sagisag]]'''</small>}}
 {{!}}}
 {{!}}- class="mergedrow"
 }}<!-- ***** Nickname ***** -->
