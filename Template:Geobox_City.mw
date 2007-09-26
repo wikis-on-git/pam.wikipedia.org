@@ -1,5 +1,5 @@
 <includeonly>{{#if: {{{lat_d|}}}| {{Geobox coor title|{{{lat_d|}}}|{{{lat_m|}}}|{{{lat_s|}}}|{{{lat_NS|}}}|{{{long_d|}}}|{{{long_m|}}}|{{{long_s|}}}|{{{long_EW|}}}|{{{coordinates_type|type:city}}}{{#if:{{{population|}}}|({{{population|}}})}}}}}}
-{| class="infobox geography" style="width: {{{geobox_width|256}}}px; padding: 0;"
+{| class="infobox geography" style="width: {{{geobox_width|100}}}px; padding: 0;"
 
 <!-- *** Name *** -->
 |- class="mergedtoprow" 
