@@ -1,142 +1,120 @@
-{{Geobox City
-<!-- *** Name section *** -->
-| name                        = Lakanbalen at County ning Denver
-| native_name                 = 
-| other_name                  = 
-| other_name1                 = 
-| category                    = 
-<!-- *** Image *** -->
-| image                       = 2006-07-14-Denver_Skyline_Midnight.jpg
-| image_size                  =    
-| image_caption               = 
-<!-- *** Symbols *** -->
-| flag_type                   = [[Flag of Denver, Colorado|Bandera]]
-| flag                        = Flag of Denver, Colorado.svg
-| flag_size                   = 125
-| symbol_type                 = [[Seal of Denver, Colorado|Sagisag]]
-| symbol                      = DenverCOseal.gif
-| symbol_size                 = 75
-<!-- *** Nickname & motto *** -->
-| nickname                    = The Mile-High City
-| motto                       = 
-<!-- *** Country etc. *** -->
-| country_type                = [[Countries of the world|Bangsa]]
-| country                     = United States
-| state_type                  = [[Political divisions of the United States|State]]
-| state                       = Colorado
-| region_type                 = [[Lakanbalen-County]]
-| region                      = Denver (coextensive)
-| district                    = 
-<!-- *** Geography *** -->
-| area_imperial               = 154.9
-| area_note                   = <ref name="denfacts" />
-| area_land_imperial          = 153.3
-| area_water_imperial         = 1.6
-| area_water_percentage       = auto
-| area_percentage_round       = 2
-| area_round                  = 1
-| area_urban_imperial         =
-| area_metro_imperial         = 8414.4
-| area_metro_land_imperial    = 8384.4
-| area_metro_water_imperial   = 29.9
-| area_metro_water_percentage = auto
-| area_metro_percentage_round = 2
-| area_metro_round            = 1
-| location                    =
-| location_type               = Karinan
-| lat_d                       = 39
-| lat_m                       = 43
-| lat_s                       = 35
-| lat_NS                      = N
-| long_d                      = 104
-| long_m                      = 57
-| long_s                      = 56
-| long_EW                     = W
-| coordinates_type            = region:US_type:city
-| elevation_imperial          = 5280
-| elevation_note              = <ref name="denfacts" />
-| elevation_round             = 1
-| highest_name                = 
-| highest location            =
-| highest_lat_d               =         
-| highest_lat_m               = 
-| highest_lat_s               = 
-| highest_lat_NS              = 
-| highest_long_d              =         
-| highest_long_m              = 
-| highest_long_s              = 
-| highest_long_EW             =
-| highest_elevation_imperial  = 
-| lowest_name                 = 
-| lowest_location             =
-| lowest_lat_d                =         
-| lowest_lat_m                = 
-| lowest_lat_s                = 
-| lowest_lat_NS               = 
-| lowest_long_d               =         
-| lowest_long_m               = 
-| lowest_long_s               = 
-| lowest_long_EW              =
-| lowest_elevation_imperial   =
-<!-- *** Population *** -->
-| population_as_of            = 2006
-| population                  = 566974 <!-- please do not update without providing new reference -->
-| population_note             = <ref name=PopEstCounty/>
-| population_density_imperial = 3642
-| population_density_round    = 1
-| population_urban            =
-| population_density_urban_imperial =
-| population_metro_as_of      = 2006
-| population_metro            = 2408750 <!-- please do not update without providing new reference -->
-| population_metro_note       = <ref name=PopEstCBSA />
-| population_density_metro_imperial = auto
-<!-- *** Government *** -->
-| government_type             = Gubyernu
-| government                  = Strong Mayor/Weak Council
-| established_type            = Mitatag
-| established                 = [[Nobiembri 22]] [[1858]]
-| established_note            = <ref name="denfacts" />
-| established1_type           = [[Municipal corporation|Incorporated]]
-| established1                = [[Nobiembri 7]] [[1861]]
-| established1_note           = <ref name="denfacts" />
-| leader                      = [[John Hickenlooper]] ([[Democratic Party (United States)|D]])
-<!-- *** Various codes *** -->
-| timezone                    = [[Mountain Standard Time Zone|MST]]
-| utc_offset                  = -7
-| timezone_DST                = [[Mountain Daylight Time|MDT]]
-| utc_offset_DST              = -6
-| postal_code                 = 
-| postal_code_type            = 
-| area_code                   = [[Area code 303|303]], [[Area code 720|720]]
-| area_code_type              =  
-| code2_type                  =
-| code2                       =
-<!-- *** Free fields *** -->
-| free_type                   =  
-| free                        =
-| free1_type                  =  
-| free1                       = 
-<!-- *** Map section *** -->
-| map                         = Map_of_Colorado_highlighting_Denver_County.svg
-| map_size                    = 
-| map_caption                 = Location of Denver in Colorado
-| map_locator                 =  
-| map1                        = Map of USA CO.svg
-| map1_caption                = Location of Colorado in the United States
-<!-- *** Website *** -->
-| website                     = http://www.denvergov.org
-<!-- *** Footnotes *** -->
-| footnotes                   =    
-}}
-
-
-{| align="center"
-|+'''Current sporting venues in Denver, Colorado'''
-|-
-| [[Image:DSCN5753 invescofieldatmilehigh e.jpg|thumb|200px|[[Invesco Field at Mile High]]]] 
-| [[Image:Coors field 1.JPG|thumb|131px|[[Coors Field]]]]
-| [[Image:Denver Pepsi Center 1.jpg|thumb|176px|[[Pepsi Center]]]]
-|}
+<!-- Infobox begins -->
+{{Infobox Settlement
+|official_name          = Lakanbalen at County ning Denver
+|other_name             =
+|native_name            =  <!-- for cities whose native name is not in English -->
+|nickname               = The Mile-High City
+|settlement_type        = City & County<!--For Town or Village (Leave blank for the default City)-->
+|motto                  = 
+|image_skyline          = 2006-07-14-Denver_Skyline_Midnight.jpg
+|imagesize              = 
+|image_caption          = 
+|image_flag             = Flag of Denver, Colorado.svg
+|flag_size              =125px
+|image_seal             = DenverCOseal.gif
+|seal_size              =75px
+|image_shield           = 
+|shield_size            =
+|city_logo              =
+|citylogo_size          =
+|image_map              = Map_of_Colorado_highlighting_Denver_County_(colored).svg
+|mapsize                = 
+|map_caption            = Karinan ning Denver king Colorado
+|image_map1             = Map of USA CO.svg
+|mapsize1               = 
+|map_caption1           = Karinan ning Colorado king United States
+|image_dot_map          =
+|dot_mapsize            =
+|dot_map_caption        =
+|dot_x =  |dot_y =
+|pushpin_map            = <!-- the name of a location map as per http://en.wikipedia.org/wiki/Template:Location_map -->
+|pushpin_label_position = <!-- the position of the pushpin label: left, right, top, bottom, none -->
+|pushpin_map_caption    =
+|pushpin_mapsize        =
+|subdivision_type       = [[Countries of the world|Bangsa]]
+|subdivision_name       = United States
+|subdivision_type1      = [[Political divisions of the United States|State]]
+|subdivision_name1      = Colorado
+|subdivision_type2      = [[City-County]]
+|subdivision_name2      = Denver (coextensive)
+|subdivision_type3      = 
+|subdivision_name3      = 
+|subdivision_type4      = 
+|subdivision_name4      = 
+|government_footnotes   =
+|government_type        =Strong Mayor/Weak Council
+|leader_title           =Mayor
+|leader_name            =[[John Hickenlooper]] ([[Democratic Party (United States)|D]])
+|leader_title1          =  <!-- for places with, say, both a mayor and a city manager -->
+|leader_name1           =
+|leader_title2          =
+|leader_name2           =
+|leader_title3          =
+|leader_name3           =
+|leader_title4          =
+|leader_name4           =
+|established_title      =  Founded <ref name="denfacts" />
+|established_date       = [[November 22]] [[1858]]
+|established_title2     =  [[Municipal corporation|Incorporated]]
+|established_date2      = [[November 7]] [[1861]]
+|established_title3     =  <!-- Incorporated (city) -->
+|established_date3      = 
+|area_magnitude         = 
+|unit_pref                =Imperial <!--Enter: Imperial, if Imperial (metric) is desired-->
+|area_footnotes           =<ref name="denfacts" />
+|area_total_km2           = <!-- ALL fields dealing with a measurements are subject to automatic unit conversion-->
+|area_land_km2            = <!--See table @ Template:Infobox Settlement for details on automatic unit conversion-->
+|area_water_km2           = 
+|area_total_sq_mi         = 154.9
+|area_land_sq_mi          = 153.3
+|area_water_sq_mi         = 1.6
+|area_water_percent       = 1.03
+|area_urban_km2           = 
+|area_urban_sq_mi         = 
+|area_metro_km2           = 
+|area_metro_sq_mi         = 8414.4
+|population_as_of               = 2006
+|population_footnotes           =<ref name=PopEstCounty/> <ref name=PopEstCBSA />
+|population_note                = 
+|population_total               = 566974 <!-- please do not update without providing new reference -->
+|population_density_km2         = 
+|population_density_sq_mi       = 3642
+|population_metro               =2408750 <!-- please do not update without providing new reference -->
+|population_density_metro_km2   =
+|population_density_metro_sq_mi =286
+|population_urban               = 
+|population_density_urban_km2   =
+|population_density_urban_sq_mi =
+|population_blank1_title        =
+|population_blank1              =
+|population_density_blank1_km2 =   
+|population_density_blank1_sq_mi = 
+|timezone               = [[Mountain Standard Time Zone|MST]]
+|utc_offset             = -7
+|timezone_DST           = [[Mountain Daylight Time|MDT]]
+|utc_offset_DST         = -6
+|latd                   = 39
+|latm                   = 44
+|lats                   = 21
+|latNS                  = N
+|longd                  = 104
+|longm                  = 59
+|longs                  = 5
+|longEW                 = W
+|coordinates_type= region:US_type:city
+|elevation_footnotes    = <ref name="denfacts" /> <!--for references: use <ref> </ref> tags-->
+|elevation_m            = 
+|elevation_ft           = 5280
+|postal_code_type       =  <!-- enter ZIP code, Postcode, Post code, Postal code... -->
+|postal_code            =
+|area_code              =[[Area code 303|303]], [[Area code 720|720]]
+|blank_name             =
+|blank_info             =
+|blank1_name            =
+|blank1_info            =
+|website                = http://www.denvergov.org
+|footnotes              = 
+}} <!-- Infobox ends -->
 
 
 
