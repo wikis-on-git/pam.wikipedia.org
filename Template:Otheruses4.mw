@@ -1,4 +1,4 @@
-:<span class="dablink">''{{#if: {{{1|}}}|This article is about {{{1}}}.&#32;|}}For {{#if: {{{2|}}}|{{{2}}}|other uses}}, see [[{{#if: {{{3|}}}|{{{3}}}|{{PAGENAME}} (disambiguation)}}]].''</span><noinclude>
+:<span class="dablink">''{{#if: {{{1|}}}|Ing articulung iti tungkul ya keng {{{1}}}.&#32;|}}Para {{#if: {{{2|}}}|{{{2}}}|keng aliwang gamit}}, lawen ye ing  [[{{#if: {{{3|}}}|{{{3}}}|{{PAGENAME}} (disambiguation)}}]].''</span><noinclude>
 ----
 For further information, see talk page.
 [[Category:Disambiguation and redirection templates|{{PAGENAME}}]]  The <nowiki>{{about}}</nowiki> template redirects here, so take that into account while considering visibility.
