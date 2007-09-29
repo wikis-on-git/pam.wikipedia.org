@@ -1,58 +1,92 @@
-<!--Use en-UK spelling-->{{Infobox Country|
-native_name = ''Bundesrepublik Deutschland'' |
-conventional_long_name = Federal Republic of Germany |
-common_name = Alemanya |
-national_motto = [[Das Lied der Deutschen|''Einigkeit und Recht und Freiheit'']]
-([[German language|German]]: "Unity and Justice and Freedom" ) |
-national_anthem = The third stanza of "[[Das Lied der Deutschen]]" |
-<!--The official national anthem of Germany is ONLY the third stanza! source: http://www.bundesregierung.de/Bundesregierung/-,8394/Nationalhymne.htm-->
-image_flag = Flag of Germany.svg |
-image_coat = Coat of Arms of Germany.svg |
-symbol_type = Coat of arms |
-image_map = LocationGermany.png |
-capital = [[Berlin]] |latd=52|latm=31|latNS=N|longd=13|longm=24|longEW=E|
-largest_city = [[Berlin]] |
-official_languages = [[Aleman (amanu)|Aleman]] <sup>1</sup>|
-government_type = [[Federal republic|Federal Republic]] |
-leader_titles = • [[President of Germany|President]]<br>• [[Chancellor of Germany|Chancellor]]<br>• [[Vice-Chancellor of Germany|Vice Chancellor]] |
-leader_names = [[Horst Köhler]]<br>[[Angela Merkel]] ([[Christian Democratic Union (Germany)|CDU]])<br> [[Franz Müntefering]] ([[SPD]]) |
-sovereignty_type = [[German Empire|Formation]]|
-established_events =&nbsp;[[Holy Roman Empire]]<br>&nbsp;[[German Empire]]<br>&nbsp;[[Germany|Federal Republic]]<br>&nbsp;[[German reunification|Reunification]] |
-established_dates = <br>843 ([[Treaty of Verdun]])<br>[[January 18]] [[1871]]<br>[[May 23]] [[1949]]<br>[[October 3]] [[1990]] |
-area = 357,050 |
-areami² = 137,858 | <!--DO not remove per [[WP:MOSNUM]] -->
-area_rank = 63rd |
-area_magnitude = 1 E11 |
-percent_water = 2.416 |
-population_estimate = 82,422,299 |
-population_estimate_year = 2006 |
-population_estimate_rank = 14th |
-population_census = N/A |
-population_census_year = 2000|
-population_density = 231.1 |
-population_densitymi² = 598.5 | <!--DO not remove per [[WP:MOSNUM]] -->
-population_density_rank = 34th |
-GDP_PPP_year = 2006 |
-GDP_PPP = $2.609 [[trillion]] |
-GDP_PPP_rank = 5th |
-GDP_PPP_per_capita = $31,472 |
-GDP_PPP_per_capita_rank = 17th |
-HDI_year=2003 |
-HDI=0.930 |
-HDI_rank=20th |
-HDI_category=<font color="#009900">high</font> |
-currency = [[Euro]] (€) <sup>2</sup> |
-currency_code = EUR |
-time_zone = CET |
-utc_offset = +1 |
-time_zone_DST = CEST |
-utc_offset_DST = +2 |
-cctld = [[.de]] [http://www.deutschland.de www.deutschland.de] |
-calling_code = 49 |
-footnotes = <sup>1</sup> [[Danish language|Danish]], [[Low German]], [[Sorbian languages|Sorbian]], [[Romani language|Romany]] and [[Frisian language|Frisian]] are officially recognised and protected as minority languages by the [[European Charter for Regional or Minority Languages|ECRML]].
-<sup>2</sup> Prior to 2002: [[German mark|Deutsche Mark]] |
+{{Infobox Country
+|native_name                 = <span style="line-height:1.33em;">{{lang|de|''Bundesrepublik Deutschland''}}</span>
+|conventional_long_name      = <span style="line-height:1.33em;">Federal Republic of Germany</span>
+|common_name                 = Alemania
+|national_anthem             = {{lang|de|"''[[Das Lied der Deutschen]]''"}} (third [[stanza]])<br/><small>also called {{lang|de|"''Einigkeit und Recht und Freiheit''"}} </small><!--The official national anthem of Germany is ONLY the third stanza! Source: http://www.bundesregierung.de/Bundesregierung/-,8394/Nationalhymne.htm-->
+|image_flag                  = Flag of Germany.svg‎
+|image_coat                  = Coat of Arms of Germany.svg
+|image_map                   = Location Germany EU Europe.png
+|map_caption                 = {{map_caption |countryprefix= |region=on the [[Europe|European continent]] |subregion=the [[European Union]] |location_color=dark green | subregion_color=light green |region_color=dark grey |legend=}}
+
+|capital                     = [[Berlin]]
+|latd=52 |latm=31 |latNS=N |longd=13 |longm=24 |longEW=E
+|largest_city                = capital
+|official_languages          = [[Aleman (amanu)|Aleman]]
+|regional_languages          = [[Danes (amanu)|Danes]], [[Baju Aleman]], [[Sorbias amanu|Sorbianu]], [[Romani (amanu)|Romani]], [[Frisun (amanu)|Frisun]]
+|government_type             = [[Parliamentary]] [[Federal republic|Federal Republic]]
+|leader_title1               = [[President of Germany|President]]
+|leader_name1                = [[Horst Köhler]]
+|leader_title2               = [[Chancellor of Germany|Chancellor]]
+|leader_name2                = [[Angela Merkel]] ([[Christian Democratic Union (Germany)|CDU]])
+|sovereignty_type            = [[Kingdom of Germany|Formation]]
+|sovereignty_note            = 843
+|established_event1          = [[Eastern Francia]]
+|established_date1           = 843
+|established_event2          = [[Holy Roman Empire]]
+|established_date2           = 962
+|established_event3          = [[German Confederation]]
+|established_date3           = [[8 June]] [[1815]]
+|established_event4          = [[German Empire]]
+|established_date4           = [[18 January]] [[1871]]
+|established_event5          = [[History of Germany|Federal Republic]]
+|established_date5           = [[23 May]] [[1949]]
+|established_event6          = [[German reunification|Reunification]]
+|established_date6           = [[3 October]] [[1990]]
+|accessionEUdate             = [[25 March]] [[1957]]
+|EUseats                     = 99
+|area                        = 357,021
+|areami²                     = 137,858 <!--Do not remove per [[WP:MOSNUM]]-->
+|area_rank                   = 63rd
+|area_magnitude              = 1 E11
+|percent_water               = 2.416
+|population_estimate         = 82,314,900<ref>{{cite web |url=http://www.destatis.de/jetspeed/portal/cms/Sites/destatis/Internet/EN/Navigation/Statistics/Bevoelkerung/Bevoelkerungsstand/Bevoelkerungsstand.psml|title=Current population|author=[[Federal Statistical Office of Germany|Destatis]]|accessdate=2007-07-02}}</ref>
+|population_estimate_year    = Dec.&nbsp;2006
+|population_estimate_rank    = 14th
+|population_census           = 82,797,408 (July 2000 est.)
+|population_census_year      = 2000
+|population_density          = 230.9
+|population_densitymi²       = 598.5 <!--Do not remove per [[WP:MOSNUM]]-->
+|population_density_rank     = 50th
+|GDP_PPP_year                = 2006
+|GDP_PPP                     = $2.585 trillion 
+|GDP_PPP_rank                = 5th
+|GDP_PPP_per_capita          = $31,400
+|GDP_PPP_per_capita_rank     = 17th
+|GDP_nominal                 = $2.89 trillion
+|GDP_nominal_rank            = 3rd
+|GDP_nominal_year            = 2006
+|GDP_nominal_per_capita      = $35,072
+|GDP_nominal_per_capita_rank = 19th
+|HDI_year                    = 2004
+|HDI                         = {{increase}} 0.932
+|HDI_rank                    = 21st
+|HDI_category                = <font color="#009900">high</font>
+|FSI                         = 38.4
+|FSI_year                    = 2007
+|FSI_rank                    = 154th
+|FSI_category                = <font color="#f8f400">Monitoring</font> 
+|Gini                        = 28.3
+|Gini_year                   = 2000
+|Gini_category               = <font color="#009900">low</font>
+|currency                    = [[Euro]] ([[Euro sign|€]])
+|currency_code               = EUR
+|time_zone                   = CET
+|utc_offset                  = +1
+|time_zone_DST               = CEST
+|utc_offset_DST              = +2
+|cctld                       = [[.de]]
+|calling_code                = 49
+|ISO_3166-1_alpha2           = DE
+|ISO_3166-1_alpha3           = DEU
+|ISO_3166-1_numeric          = ?
+|alt_sport_code              = GER
+|vehicle_code                = D
+|aircraft_code               = D
+|demonym                     = German
+|footnote1                   = [[Danish language|Danish]], [[Low German]], [[Sorbian languages|Sorbian]], [[Romani language|Romany]] and [[Frisian language|Frisian]] are officially recognized and protected by the [[European Charter for Regional or Minority Languages|ECRML]].
 }}
-Ing '''Germany''' neng misan mayayaus yang '''Aleman''' ([[Aleman (amanu)|Aleman]]: ''Deutschland''), ing aus opisyal '''Republikang Federal ning Germany''' o keng amanung [[English]] ing  '''Federal Republic of Germany''' ({{Audio-de|Bundesrepublik Deutschland|De-Bundesrepublik_Deutschland-pronunciation.ogg}}), metung yang bangsa king [[Kalibudtang Europa]]. Ing sepu na king pangulu iyapin ing [[Pangulung Dayat Malat]], [[Denmark]], at ing [[Dayat Malat ning Baltic]], king aslagan ing [[Poland]] at ing [[Czech Republik|Czech Republika]], king mauli ing [[Austria]] at  [[Switzerland]], at king albugan ing [[France]], [[Luxembourg]], [[Belgium]] at ing  [[Netherlands]].
+
+Ing '''Alemania''' ([[Aleman (amanu)|Aleman]]: ''Deutschland''), ing aus opisial '''Republikang Federal ning Alemania'''({{Audio-de|Bundesrepublik Deutschland|De-Bundesrepublik_Deutschland-pronunciation.ogg}}), metung yang bangsa king [[Kalibudtang Europa]]. Ing sepu na king pangulu iyapin ing [[Pangulung Dayat Malat]], [[Denmark]], at ing [[Dayat Malat ning Baltic]], king aslagan ing [[Poland]] at ing [[Czech Republik|Czech Republika]], king mauli ing [[Austria]] at  [[Switzerland]], at king albugan ing [[France]], [[Luxembourg]], [[Belgium]] at ing  [[Netherlands]].
 
 Ing Germany metung yang [[Constitutional democracy|democratic]] parliamentaryung [[Federation|federal]] republika, a atin 16 [[States of Germany|states]], at nung nu neng misan timawa lang gagalo lual ning federasyun. Keng kasalesalayan, deti dakal lang timawang bangsa a atin sariling amlat, kalinangan, kasalpantayanan, ing Germany  [[German unification|pisantmetung]] la bilang [[Nation-state|bangsang state]] inyang [[Franco-Prussian Labanan]] inyang 1870/1871. 
 
