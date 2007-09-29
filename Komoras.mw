@@ -1,58 +1,59 @@
+{{Infobox Country
+|native_name              = {{lang|fr|''Union des Comores''}}<br/>{{lang|swb|''Udzima wa Komori''}}<br/><big>{{rtl-lang|ar|الإتّحاد القمريّ}}</big> <br> ''Al-Ittiḥād Al-Qumriyy''
+|conventional_long_name   = Union of the Comoros
+|common_name              = Comoras
+|image_flag               = Flag of the Comoros.svg
+|image_coat               = COA of Comoros.svg
+|image_map                = LocationComoros.svg
+|national_motto           = {{lang|fr|''"Unité - Justice - Progrès"''}}{{spaces|2}}<small>([[French language|French]])<br/>"Unity - Justice - Progress"</small>
+|national_anthem          = {{lang|swb|''[[Udzima wa ya Masiwa]]''}}{{spaces|2}}<small>([[Comorian language|Comorian]])<br/>"The Union of the Great Islands"</small>
+|official_languages       = [[Comoranu (amanu)|Comoranu]], [[Arabu (amanu)|Arabu]], [[Pranses (amanu)|Pranses]]
+|capital                  = [[Moroni, Comoros|Moroni]]
+|latd=11 |latm=41 |latNS=S |longd=43 |longm=16 |longEW=E
+|largest_city             = capital
+|government_type          = [[Federal republic]]
+|leader_title1            = [[President of Comoros|President]]
+|leader_name1             = [[Ahmed Abdallah Mohamed Sambi|Ahmed Abdallah M. Sambi]]
+|area_rank                = 178th
+|area_magnitude           = 1_E9
+|area                     = 2,235
+|areami²                  = 838 <!--Do not remove per [[WP:MOSNUM]]-->
+|percent_water            = negligible
+|population_estimate      = 798,000
+|population_estimate_year = 2005
+|population_estimate_rank = 159th
+|population_census        = 
+|population_census_year   = 
+|population_density       = 275
+|population_densitymi³    = 712 <!--Do not remove per [[WP:MOSNUM]]-->
+|population_density_rank  = 25th
+|GDP_PPP_year             = 2004
+|GDP_PPP                  = $1.049 billion
+|GDP_PPP_rank             = 171st
+|GDP_PPP_per_capita       = $1,660
+|GDP_PPP_per_capita_rank  = 156th
+|HDI_year                 = 2004
+|HDI                      = {{increase}} 0.556
+|HDI_rank                 = 132nd
+|HDI_category             = <font color="#ffcc00">medium</font>
+|sovereignty_type         = [[Independence]]
+|sovereignty_note         = from [[France]]
+|established_event1       = Date
+|established_date1        = [[July 6]] [[1975]]
+|currency                 = [[Comorian franc]]
+|currency_code            = KMF
+|time_zone                = [[East Africa Time|EAT]]
+|utc_offset               = +3
+|time_zone_DST            = not observed
+|utc_offset_DST           = +3
+|cctld                    = [[.km]]
+|calling_code             = 269
+|footnotes                = 
+}}
+
 == External links ==
 *[http://www.anjouan.net/ Anjouan.net]
 
-
-{{Infobox_Country|
-native_name = ''Union des Comores<br/>Udzima wa Komori''<br/>اتحاد القمر|
-conventional_long_name = Union of the Comoros |
-common_name = Comoros |
-image_flag = Flag of the Comoros.svg |
-image_coat = COA_of_Comoros.svg |
-image_map = LocationComoros.png |
-national_motto = Unité - Justice - Progrès<br/>([[French language|French]], "Unity, justice, progress") |
-national_anthem = [[Udzima wa ya Masiwa]] |
-official_languages = [[Comorian (amanu)|Comorian]], [[Arabic (amanu)|Arabic]], [[French (amanu)|French]] |
-capital = [[Moroni, Comoros|Moroni]] |latd=11|latm=41|latNS=S|longd=43|longm=16|longEW=E|
-largest_city = [[Moroni, Comoros|Moroni]] |
-government_type= [[Federal Republic]]|
-leader_title1 = [[President of Comoros|President]] | 
-leader_name1 = [[Ahmed Abdallah Mohamed Sambi]] |
-area_rank = 167th |
-area_magnitude = 1_E9 |
-area= 2,170 |
-areami² = 838 | <!-- Do not remove per [[WP:MOSNUM]] -->
-percent_water = Negligible |
-population_estimate = 798,000 |
-population_estimate_year = 2005 |
-population_estimate_rank = 159th |
-population_census= |
-population_census_year=  |
-population_density = 275 |
-population_densitymi² = 712 | <!-- Do not remove per [[WP:MOSNUM]] -->
-population_density_rank = 275 |
-GDP_PPP_year = 2004 |
-GDP_PPP = $1,049,000,000 |
-GDP_PPP_rank = 171st |
-GDP_PPP_per_capita = $1,660 |
-GDP_PPP_per_capita_rank = 156th |
-HDI_year = 2003 |
-HDI = 0.547 |
-HDI_rank = 132nd |
-HDI_category = <font color="#FFCC00">medium</font> |
-sovereignty_type = [[Independence]] |
-sovereignty_note = from [[France]] |
-established_event1 = Date |
-established_date1 = [[July 6]], [[1975]] |
-currency = [[Comorian franc]] |
-currency_code = KMF |
-time_zone=   |
-utc_offset= +3 |
-time_zone_DST= observed? |
-utc_offset_DST=  ? |
-cctld= [[.km]] |
-calling_code = 269 |
-footnotes =
-}}
 {{Africa}}
 
 [[Category:African Union member states]]
