@@ -21,7 +21,7 @@
 | {{{capital}}}<br><small>[http://kvaleberg.com/extensions/mapsources/index.php?params={{{latd}}}_{{{latm}}}_{{{latNS}}}_{{{longd}}}_{{{longm}}}_{{{longEW}}}_region:{{{CCTLD}}}_type:country({{{area}}}) {{{latd}}}°{{{latm}}}&prime;&nbsp;{{{latNS}}} {{{longd}}}°{{{longm}}}&prime;&nbsp;{{{longEW}}}]</small>
 |- style="vertical-align: top;"
 | '''[[Demograpia ning {{{common_name}}}|Pekamaragul a &nbsp;lakanbalen]]'''
-| {{{largest_city}}}
+| {{{largest_city|capital}}}
 |- style="vertical-align: top;"
 | '''[[Official language|Peka Amanu]]'''
 | {{{official_languages}}}
