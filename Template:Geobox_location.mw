@@ -1,0 +1,7 @@
+<includeonly>{{#switch:{{{1}}}|
+|top    = 
+|bottom = 
+|left   = 
+|right  = 
+|ratio  = 
+}}</includeonly><noinclude>Blank template to avoid error messages[[Category:Geobox2|location]]</noinclude>
