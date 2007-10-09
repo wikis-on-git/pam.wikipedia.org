@@ -1,0 +1,41 @@
+{{documentation subpage}}
+{{merge|Template doc|date=October 2007|Template talk:Template doc}}
+
+This template automatically displays a documentation box like you are seeing now, of which the content is transcluded from another page. It is intended for pages which are [[Wikipedia:Transclusion|transcluded]] in other pages, i.e. templates, whether in the template namespace or not.  
+
+==Usage==
+<pre>
+&lt;noinclude&gt;{{documentation}}&lt;noinclude&gt;
+or &lt;noinclude&gt;{{documentation|template:any page}}&lt;noinclude&gt;
+</pre>
+
+This code should be added at the bottom of the template code, with no extra space before "<code>&lt;noinclude&gt;</code>" (which would cause extra space on pages where the template is used). The parameter can be used as shown above to transclude an arbitrary documentation page.
+
+Add categories and interwiki links to the documentation page inside includeonly tags.
+
+If the documentation page contains includeonly or noinclude tags as part of the documentation, replace the "<" with "&amp;lt;".
+
+==Functions==
+If the documentation page doesn't exist, the "edit" link includes a [[mw:Manual:Creating pages with preloaded text|preload]] parameter so that clicking it will pre-fill the edit form with the basic documentation page format. The header depends on the namespace; for example, it will display "Template documentation" in the template namespace.
+
+==Rationale==
+This template allows any page to use any documentation page, and makes it possible to protect templates while allowing anyone to edit the template's documentation, categories, and interwiki links. It also reduces server resources by circumventing a [[Wikipedia:Template limits|technical limitation of templates]] (see a [{{fullurl:Project:Village pump (technical)&diff=prev&oldid=69888944}} developer's explanation]).
+
+==See also==
+* {{tiw|template doc}} (similar template with more documentation; see [[User:Pathoschild/Sandbox|template comparison]])
+* {{tiw|documentation subpage}} (replaces older {{[[template:Template doc page viewed directly|Template doc page viewed directly]]}} and {{[[template:Template doc page transcluded|Template doc page transcluded]]}})
+*{{tim|Documentation}}
+
+<!-- for the template  -->
+<includeonly>
+[[Category:Template documentation| ]]
+[[Category:Formatting templates|Template documentation]]
+
+[[fr:Modèle:Documentation modèle]]
+[[es:Plantilla:Uso de plantilla]]
+[[hu:Sablon:Sablondokumentáció]]
+[[ko:틀:틀 설명문서]]
+[[nl:Sjabloon:Sjabdoc]]
+[[sl:Predloga:Dokumentacija]]
+[[zh:Template:Template doc]]
+</includeonly>
