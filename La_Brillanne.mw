@@ -1,0 +1,99 @@
+{{French commune|nomcommune = La Brillanne
+|région=[[Provence-Alpes-Côte d'Azur]]
+|département=[[Alpes-de-Haute-Provence]]
+|arrondissement = Forcalquier
+|canton = Peyruis
+|insee=04034
+|cp=04700
+|maire=André Piche
+|mandat=[[2001]]-[[2008]]
+|intercomm = Communauté de communes Intercommunalité du Luberon Oriental
+|longitude=5.89166666667
+|latitude=43.9275
+|alt moy=349 m
+|alt mini=332 m
+|alt maxi=520 m
+|hectares=722
+|km²=7.22
+|sans=765
+|date-sans=1999
+|dens=105
+|date-dens=1995|}}
+
+Ing '''La Brillanne'''  metung at [[Ding Commune king France|commune]] king [[Alpes-de-Haute-Provence]] ''[[Ding départamentu king France|départamentu]]'' at king ''[[Ding Labuad ning France|labuad]]'' ning [[Provence-Alpes-Côte d'Azur]]., king mauling [[France]].
+
+
+==Demography==
+
+{| class="wikitable"
+|+Population history
+|-
+! 1962
+! 1968
+! 1975
+! 1982
+! 1990
+! 1999
+|-
+| 492
+| 521
+| 591
+| 573
+| 649
+| 765
+|}
+
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:1200 color:gray1 width:1       
+  from:start till:end             
+  bar:800 color:gray1              
+  from:start till:end            
+  bar:400 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,98)(84,94) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 550 1968: 521
+  points:(84,94)(100,104)    color:blue    width:2 #1975: 591
+  points:(100,104)(128,101)   color:blue    width:2 #1982: 573
+  points:(128,101)(160,112)   color:blue    width:2 #1990: 649
+  points:(160,112)(196,128)   color:blue    width:2 #1999: 765
+  points:(196,128)(228,137)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+
+==Lawen ya rin==
+* [[Communes of the Alpes-de-Haute-Provence department]]
+
+==Suglung Palwal==
+* [http://www.ign.fr/affiche_rubrique.asp?rbr_id=1087&CommuneId=11383 La Brillanne on the ''Institut géographique national'' site]
+* [http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=04034&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE La Brillanne on the ''Insee'' site]
+* [http://www.quid.fr/communes.html?mode=query&req=La_Brillanne La Brillanne on the ''Quid'' site]
+* [http://www.lion1906.com/Pages/ResultatLocalisation.php?InseeVille=040034 Location of La Brillanne and adjoining communes on a map of France (Lion 1906)]
+* [http://www.mapquest.com/maps/map.adp?latlongtype=decimal&latitude=43.9275&longitude=5.89166666666667&zoom=8  Street map of La Brillanne (Mapquest)]
+
+{{Provence-geo-stub}}
+
+[[Category:Ding Communening Alpes-de-Haute-Provence|Brillanne]]
+
+[[ceb:Brillanne]]
+[[en:La Brillanne]]
+[[fr:La Brillanne]]
+[[it:La Brillanne]]
+[[nl:La Brillanne]]
+[[pl:La Brillanne]]
+[[vo:La Brillanne]]
