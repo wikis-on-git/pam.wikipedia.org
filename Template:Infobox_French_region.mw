@@ -48,33 +48,33 @@ Executive Council]]
 {{!}}-
 }}
 {{#if: {{{cantons|<noinclude>-</noinclude>}}} |
-{{!}} [[Cantons of France|Cantons]]
+{{!}} [[Ding Canton ning France|Cantons]]
 {{!}} {{{cantons}}}
 {{!}}-
 }}
 {{#if: {{{communes|<noinclude>-</noinclude>}}} |
-{{!}} [[Ding Communening France|Communes]]
+{{!}} [[Ding Commune ning France|Communes]]
 {{!}} {{{communes}}}
 {{!}}-
 }}
 {{#if: {{{area|<noinclude>-</noinclude>}}} | 
 {{!}} colspan="2" bgcolor="#efefef" {{!}} '''Statistics'''
 {{!}}-
-{{!}}[[Ranked_list_of_French_regions#By_area|Land area]]<sup>1</sup>
+{{!}}[[Ranked_list_of_French_regions#By_area|Gabun lapad]]<sup>1</sup>
 {{!}}[[1 E{{{area_scale}}} m²|{{{area}}} km²]]{{#if:{{{foot|}}} |<!--then:-->{{{foot}}}}}
 {{!}}-
 }}
 {{#if: {{{population_estimate|<noinclude>-</noinclude>}}} |
-{{!}} [[Ranked_list_of_French_regions#By_population|Population]]
+{{!}} [[Ranked_list_of_French_regions#By_population|Populasyun]]
 {{!}} (Ranked {{{population_rank}}})
 {{!}}-
-{{!}} &nbsp;- [[January 1]], [[{{{population_estimate_year}}}]] est.
+{{!}} &nbsp;- [[Eneru 1]], [[{{{population_estimate_year}}}]] est.
 {{!}} {{{population_estimate}}}
 {{!}}-
-{{!}} &nbsp;- [[March 8]], [[{{{population_census_year}}}]] census
+{{!}} &nbsp;- [[Marsu 8]], [[{{{population_census_year}}}]] census
 {{!}} {{{population_census}}}
 {{!}}-
-{{!}} &nbsp;- Density <small>({{{population_density_year}}})</small>
+{{!}} &nbsp;- Pangasiksik <small>({{{population_density_year}}})</small>
 {{!}} [[Ranked_list_of_French_regions#By_density|{{{population_density}}}]]/km²{{#if:{{{foot|}}} |<!--then:-->{{{foot}}}}}
 {{!}}-
 }}
