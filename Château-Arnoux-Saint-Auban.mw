@@ -1,0 +1,101 @@
+{{French commune
+|nomcommune=Château-Arnoux-Saint-Auban
+|région=[[Provence-Alpes-Côte d'Azur]]
+|département=[[Alpes-de-Haute-Provence]]
+|arrondissement=Forcalquier
+|canton=[[Canton of Volonne|Volonne]]
+|insee=04049
+|cp=04160
+|maire=José Escanez
+|mandat=2001-2008
+|intercomm=[[Communauté de communes de la Moyenne Durance]]
+|longitude=6.00916
+|latitude=44.09416
+|alt moy=440 m
+|alt mini=403 m
+|alt maxi=742 m
+|hectares=1,834
+|km²=18.34
+|sans=4,970
+|date-sans=1999
+|dens=270
+|date-dens=1999|}}
+
+Ing '''Château-Arnoux-Saint-Auban'''  metung at [[Ding Commune king France|commune]] king [[Alpes-de-Haute-Provence]] ''[[Ding départamentu king France|départamentu]]'' at king ''[[Ding Labuad ning France|labuad]]'' ning [[Provence-Alpes-Côte d'Azur]]., king mauling [[France]].
+
+Ding pakatuknang ausan dong ''Jarlandins''.
+
+==Demography==
+{| class="wikitable"
+|+Population history
+|-
+! 1962
+! 1968
+! 1975
+! 1982
+! 1990
+! 1999
+|-
+| 5785
+| 6532
+| 6240
+| 5576
+| 5109
+| 4970
+|}
+
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:9000 color:gray1 width:1       
+  from:start till:end             
+  bar:6000 color:gray1              
+  from:start till:end            
+  bar:3000 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,129)(84,143) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 5785 1968: 6532
+  points:(84,143)(100,138)    color:blue    width:2 #1975: 6240
+  points:(100,138)(128,125)   color:blue    width:2 #1982: 5576
+  points:(128,125)(160,117)   color:blue    width:2 #1990: 5109
+  points:(160,117)(196,114)   color:blue    width:2 #1999: 4970
+  </timeline>     
+
+
+==Lawen ya rin==
+* [[Communes of the Alpes-de-Haute-Provence department]]
+
+==Suglung Palwal==
+* [http://www.ign.fr/affiche_rubrique.asp?rbr_id=1087&CommuneId=84846 Château-Arnoux-Saint-Auban on the ''Institut géographique national'' site]
+* [http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=04049&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Château-Arnoux-Saint-Auban on the Insee site]
+* [http://www.quid.fr/communes.html?mode=query&req=Château-Arnoux-Saint-Auban Château-Arnoux-Saint-Auban on the Quid site]
+* [http://www.lion1906.com/Pages/ResultatLocalisation.php?InseeVille=040049 location of Château-Arnoux-Saint-Auban and adjoining communes on a map of France (Lion 1906)]
+* [http://www.mapquest.com/maps/map.adp?latlongtype=decimal&latitude=44.0941666666667&longitude=6.00916666666667&zoom=8  street map of Château-Arnoux-Saint-Auban (Mapquest)]
+
+{{DEFAULTSORT:Chateau-Arnoux-Saint-Auban}}
+[[Category:Communes of Alpes-de-Haute-Provence]]
+{{Provence-geo-stub}}
+
+[[ceb:Château-Arnoux-Saint-Auban]]
+[[en:Château-Arnoux-Saint-Auban]]
+[[de:Château-Arnoux-Saint-Auban]]
+[[fr:Château-Arnoux-Saint-Auban]]
+[[it:Château-Arnoux-Saint-Auban]]
+[[nl:Château-Arnoux-Saint-Auban]]
+[[pl:Château-Arnoux-Saint-Auban]]
+[[sr:Château-Arnoux-Saint-Auban]]
+[[vo:Château-Arnoux-Saint-Auban]]
