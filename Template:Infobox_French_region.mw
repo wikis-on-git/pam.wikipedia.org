@@ -1,5 +1,5 @@
 <!-- Infobox template for regions in France -->
-{|  class="infobox vcard" width="280px" cellspacing="0" cellpadding="2" style="font-size: 90%;"
+{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
 !align="center" style="font-size:135%" colspan="2" |'''<span class="fn">{{{native_name}}}</span>'''
 |-
 {{#if: {{{image_flag|<noinclude>-</noinclude>}}} |
