@@ -1,0 +1,49 @@
+<noinclude>
+{{Esoteric}}
+</noinclude>{| width="200" align="right" border="2" cellpadding="4" cellspacing="0" style="margin: 1em 1em 1em 1em; background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse; font-size: 95%;"
+|+ <big>'''{{{Name|{{PAGENAME}}}}}'''</big>
+{{#if:{{{Meaning|}}}|<br /><small>''"{{{Meaning|}}}"''</small>}}
+|-
+| colspan="2" align="center" | {{#if:{{{Map|}}}|[[Image:{{{Map|}}}|Location of {{{Name|}}} Province]]<br />}}<small>[[Ding Lalawigan ning Vietnam]]</small>
+|-
+! bgcolor="#dddddd" colspan="2" | Administration
+|-
+| [[Provinces of Vietnam#People's Council|Maldang Usukan]] Makalukluk || {{{Council Chair|}}}
+|-
+| [[Provinces of Vietnam#People's Committee|Maldang Committee]] Makalukluk || {{{Committee Chair|}}}
+|-
+! bgcolor="#dddddd" colspan="2" | Geografia
+|-
+| Capital || {{{Capital|}}}
+|-
+| [[Dikng Lalawigan ning Vietnam#Regions|Labuad]] || {{{Region|}}}
+|-
+| Lapad || {{#if:{{{Area|}}}|{{{Area|}}} km²}}
+|-
+! bgcolor="#dddddd" colspan="2" | Demographics
+|- valign="top"
+| Populasyun<br />&nbsp;• Pangasiksik
+| {{{Population|}}}{{#if:{{{Population year|}}}| ([[{{{Population year|}}}]])}}{{#if:{{{Population density|}}}|<br />{{{Population density|}}}/km²}}
+|-
+| [[List of ethnic groups in Vietnam|Katutubu]] || {{{Ethnicities|}}}
+|-
+! bgcolor="#dddddd" colspan="2" |
+|-
+| Calling code || {{{Calling code|}}}
+|-
+| [[ISO 3166-2:VN|ISO 3166-2]] || {{{ISO code|}}}
+|-
+| Website || {{#if:{{{Website|}}}|[http://{{{Website}}}/ {{{Website}}}]}}
+|}
+<includeonly>[[Category:Provinces of Vietnam|{{{Name|{{PAGENAME}}}}}]]</includeonly><noinclude>
+
+==See also==
+*[[Wikipedia:WikiProject Vietnamese provinces]]
+
+[[Category:Provinces of Vietnam|µ]]
+[[Category:Asian country subdivision infobox templates|Vietnam province]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+
+[[ja:Template:基礎情報 ベトナムの省]]
+[[vi:Tiêu bản:Tỉnh Việt Nam]]
+</noinclude>
