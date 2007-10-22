@@ -1,0 +1,88 @@
+<!-- Infobox template for regions in France -->
+{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
+!align="center" style="font-size:135%" colspan="2" |'''<span class="fn">{{{native_name}}}</span>'''
+|-
+{{#if: {{{image_flag|<noinclude>-</noinclude>}}} |
+{{!}}width="50%" align="center" style="border-top:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;"{{!}}<table style="border:1px solid #eeeeee;"><tr><td>[[Image:{{{image_flag<noinclude>|Placeholder.png</noinclude>}}}|{{#if:{{{image_flag_size|}}}|{{{image_flag_size}}}|120px}}|Flag of {{{common_name}}}]]</td></tr></table>
+{{!}}width="50%" align="center" style="border-top:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;" class="logo"{{!}}[[Image:{{{image_logo<noinclude>|Placeholder.png</noinclude>}}}|{{#if:{{{image_logo_size|}}}|{{{image_logo_size}}}|90px}}|Logo of {{{common_name}}}]]
+{{!}}-
+{{!}}align="center" width="50%" style="line-height:14px;background-color:#ffffff;"{{!}}<small>({{#if:{{{flag|}}}|{{{flag}}}|Region flag}})</small>
+{{!}}align="center" width="50%" style="line-height:14px;background-color:#ffffff;"{{!}}<small>({{#if:{{{logo|}}}|{{{logo}}}|Region logo}})</small>
+{{!}}-
+}}
+|-
+!colspan="2" bgcolor="#efefef"| Karinan
+|-
+| align=center colspan="2" |
+{| style="background:#f9f9f9;" border="0" cellpadding="2" cellspacing="0"
+|- align=center
+| [[Image:{{{image_map}}}|{{{image_map_size}}}|Mapa ning France mamasala ne ing Labuad ning {{{common_name}}}]]
+|}
+|-
+{{#if: {{{capital|<noinclude>-</noinclude>}}} | 
+{{!}} colspan="2" bgcolor="#efefef" {{!}} '''Administrasyun'''
+{{!}}-
+{{!}}Tungku
+{{!}} <span class="adr"><span class="locality">{{{capital}}}</span></span>
+{{!}}-
+}}
+{{#if: {{{Regional president|<noinclude>-</noinclude>}}} |
+{{!}} [[President of the regional council|Labuad Pamuntuk]]
+{{!}} <span class="N">{{{Regional president}}}</span>
+{{!}}-
+}}
+{{#if: {{{executive|<noinclude>-</noinclude>}}} |
+{{!}} [[President of the regional council|Pamuntuk ning
+Executive Council]]
+{{!}} {{{executive}}}
+{{!}}-
+}}
+{{#if: {{{departments|<noinclude>-</noinclude>}}} |
+{{!}} [[Ding Departamentu ning France|Departamentu]]
+{{!}} {{{departments}}}
+{{!}}-
+}}
+{{#if: {{{arrondissements|<noinclude>-</noinclude>}}} |
+{{!}} [[Arrondissements of France|Arrondissements]]
+{{!}} {{{arrondissements}}}
+{{!}}-
+}}
+{{#if: {{{cantons|<noinclude>-</noinclude>}}} |
+{{!}} [[Ding Canton ning France|Cantons]]
+{{!}} {{{cantons}}}
+{{!}}-
+}}
+{{#if: {{{communes|<noinclude>-</noinclude>}}} |
+{{!}} [[Ding Commune ning France|Commune]]
+{{!}} {{{communes}}}
+{{!}}-
+}}
+{{#if: {{{area|<noinclude>-</noinclude>}}} | 
+{{!}} colspan="2" bgcolor="#efefef" {{!}} '''Statistics'''
+{{!}}-
+{{!}}[[Ranked_list_of_French_regions#By_area|Gabun lapad]]<sup>1</sup>
+{{!}}[[1 E{{{area_scale}}} m²|{{{area}}} km²]]{{#if:{{{foot|}}} |<!--then:-->{{{foot}}}}}
+{{!}}-
+}}
+{{#if: {{{population_estimate|<noinclude>-</noinclude>}}} |
+{{!}} [[Ranked_list_of_French_regions#By_population|Populasyun]]
+{{!}} (Ranked {{{population_rank}}})
+{{!}}-
+{{!}} &nbsp;- [[Eneru 1]], [[{{{population_estimate_year}}}]] est.
+{{!}} {{{population_estimate}}}
+{{!}}-
+{{!}} &nbsp;- [[Marsu 8]], [[{{{population_census_year}}}]] census
+{{!}} {{{population_census}}}
+{{!}}-
+{{!}} &nbsp;- Pangasiksik <small>({{{population_density_year}}})</small>
+{{!}} [[Ranked_list_of_French_regions#By_density|{{{population_density}}}]]/km²{{#if:{{{foot|}}} |<!--then:-->{{{foot}}}}}
+{{!}}-
+}}
+|-
+| colspan="2" style="border-top:solid 1px #ccd2d9; font-size: smaller;" |<sup>1</sup> French Land Register data, which exclude lakes, ponds, and glaciers larger than 1 km² (0.386 sq. mi. or 247 acres) as well as the [[estuary|estuaries]] of rivers<br>{{{footnotes}}}
+|-
+!colspan="2" align="center" bgcolor="#efefef"|[[Image:Flag of France.svg|border|40px|France]]
+|}<noinclude>
+[[Category:French subdivision infobox templates|Region]]
+[[fi:Malline:Ranskan alue]]
+</noinclude>
