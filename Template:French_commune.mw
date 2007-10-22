@@ -101,7 +101,7 @@
 {{!}}-
 }}
 {{#if: {{{administrative subdivision|<noinclude>-</noinclude>}}} |
-{{!}}[[French Polynesia#Administrative divisions|Administrative subdivision]]
+{{!}}[[French Polynesia#Administrative divisions|Administratibung pangadake]]
 {{!}} {{{administrative subdivision}}}
 {{!}}-
 }}
@@ -116,7 +116,7 @@
 {{!}}-
 }}
 {{#if: {{{département|<noinclude>-</noinclude>}}} |
-{{!}}[[Departamentu ning France France|Departmentu]]
+{{!}}[[Departamentu ning France|Departamentu]]
 {{!}} {{{département}}}
 {{!}}-
 }}
