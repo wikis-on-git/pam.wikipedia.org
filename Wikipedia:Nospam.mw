@@ -1,4 +1,5 @@
 == Pages locked from recreation ==
+<small>1.1</small>
 
 : [en] '''Administrators:''' add a new line here to stop pages being created
 : [es] '''Administradores:''' añadan una nueva línea para evitar que una página vuelva a ser creada
@@ -37,6 +38,7 @@
 * {{:W/w/index.php}}
 * {{:W/w/w/index.php}}
 * {{:W/w/w/w/index.php}}
+* {{:W/w/w/w/w/index.php}}
 * {{:W/w/w/w/w/w/index.php}}
 <!-- wiktionaries are case sensitive, but it won't hurt on other wikis, so again: -->
 * {{:w/index.php}}
