@@ -6,8 +6,8 @@
 {{!}}width="50%" align="center" style="border-top:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;"{{!}}<table style="border:1px solid #eeeeee;"><tr><td>[[Image:{{{image_flag<noinclude>|Placeholder.png</noinclude>}}}|{{#if:{{{image_flag_size|}}}|{{{image_flag_size}}}|120px}}|Flag of {{{common_name}}}]]</td></tr></table>
 {{!}}width="50%" align="center" style="border-top:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;" class="logo"{{!}}[[Image:{{{image_logo<noinclude>|Placeholder.png</noinclude>}}}|{{#if:{{{image_logo_size|}}}|{{{image_logo_size}}}|90px}}|Logo of {{{common_name}}}]]
 {{!}}-
-{{!}}align="center" width="50%" style="line-height:14px;background-color:#ffffff;"{{!}}<small>({{#if:{{{flag|}}}|{{{flag}}}|Region flag}})</small>
-{{!}}align="center" width="50%" style="line-height:14px;background-color:#ffffff;"{{!}}<small>({{#if:{{{logo|}}}|{{{logo}}}|Region logo}})</small>
+{{!}}align="center" width="50%" style="line-height:14px;background-color:#ffffff;"{{!}}<small>({{#if:{{{flag|}}}|{{{flag}}}|Labuad bandera}})</small>
+{{!}}align="center" width="50%" style="line-height:14px;background-color:#ffffff;"{{!}}<small>({{#if:{{{logo|}}}|{{{logo}}}|Labaud sagisag}})</small>
 {{!}}-
 }}
 |-
