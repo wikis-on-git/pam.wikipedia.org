@@ -7,7 +7,7 @@
 {{!}}width="50%" align="center" style="border-top:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;" class="logo"{{!}}[[Image:{{{image_logo<noinclude>|Placeholder.png</noinclude>}}}|{{#if:{{{image_logo_size|}}}|{{{image_logo_size}}}|90px}}|Logo of {{{common_name}}}]]
 {{!}}-
 {{!}}align="center" width="50%" style="line-height:14px;background-color:#ffffff;"{{!}}<small>({{#if:{{{flag|}}}|{{{flag}}}|Labuad bandera}})</small>
-{{!}}align="center" width="50%" style="line-height:14px;background-color:#ffffff;"{{!}}<small>({{#if:{{{logo|}}}|{{{logo}}}|Labaud sagisag}})</small>
+{{!}}align="center" width="50%" style="line-height:14px;background-color:#ffffff;"{{!}}<small>({{#if:{{{logo|}}}|{{{logo}}}|Labuad sagisag}})</small>
 {{!}}-
 }}
 |-
