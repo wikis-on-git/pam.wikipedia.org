@@ -174,7 +174,7 @@
 {{!}}-
 }}
 {{#if: {{{area|<noinclude>-</noinclude>}}} |
-{{!}}Land area{{#if:{{{overseas collectivity|}}}|&nbsp;|¹}}
+{{!}}Lapad ning gabun{{#if:{{{overseas collectivity|}}}|&nbsp;|¹}}
 {{!}} {{{area}}} km²
 {{!}}-
 }}
