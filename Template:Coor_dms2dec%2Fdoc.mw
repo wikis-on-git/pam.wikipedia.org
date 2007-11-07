@@ -1,0 +1,25 @@
+{{tl|Coord/dms2dec}} converts cardinal direction and degree-minutes-seconds to decimal coordinate.
+
+== Usage ==
+ &#123;{coord/dms2dec|''direction''|''degrees''|''minutes''|''seconds''}}
+
+== Examples ==
+
+<table class="prettytable">
+{{template example row|N|10|20|35.67}}
+{{template example row|N|10|20|35}}
+{{template example row|N|10|20|30}}
+{{template example row|E|10|25.39}}
+{{template example row|E|10|25}}
+{{template example row|S|10|20}}
+{{template example row|W|11.341666}}
+{{template example row|W|11.3416}}
+{{template example row|W|11.34}}
+{{template example row|W|11}}
+</table>
+
+<includeonly>
+[[Category:Coord template]]
+
+[[:eo:Ŝablono:Koord/gmsaldek]]
+</includeonly>
