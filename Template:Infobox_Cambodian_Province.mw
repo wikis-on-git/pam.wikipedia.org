@@ -1,0 +1,42 @@
+{| class="infobox" align="right" style="font-size:95%"
+<caption>'''{{{name}}}'''<br><big>{{{khmer}}}</big></caption>
+! colspan=2 align=center bgcolor=#CCCCFF|Statistics
+<!--|-
+||Tungku:||{{{capital}}}-->
+|-
+||'''Bangsa:'''||valign=top|{{CAM}}
+|-
+||'''Pangadake:'''||valign=top|[[Provinces of Cambodia|Province]]
+|-
+||'''Lapad:'''||valign=top| {{{area}}} [[square kilometre|km²]]
+|-
+||'''Pakatuknang:'''||valign=top|{{{population}}} <small>''({{{population_as_of}}})''</small>
+|-
+||'''[[populasyun pangasiksik|Pop. pangasiksik]]:'''||valign=top|{{{density}}} inh./km²
+|-
+{{#if:{{{districts|}}}|
+{{!}} '''Distritu''':
+{{!}} {{{districts}}}}}
+|-
+{{#if:{{{communes|}}}|
+{{!}} '''Commune''':
+{{!}} {{{communes}}}}}
+|-
+{{#if:{{{villages|}}}|
+{{!}} '''Barangay''':
+{{!}} {{{villages}}}}}
+|-
+||'''[[ISO 3166-2:KH|ISO 3166-2]]:'''||{{{isocode}}}
+|-
+!colspan=2 align=center bgcolor=#E52B50|Map
+|-
+|colspan=2 align=center|[[image:{{{mapimage}}}|Map of Cambodia highlighting {{PAGENAME}}]]
+|}<noinclude>
+[[Category:Asian country subdivision infobox templates|Cambodia province]]
+
+[[en:Template:Infobox Province Cambodia]]
+[[es:Plantilla:Provincia de Camboya]]
+[[fr:Modèle:Cambodge/Province]]
+[[id:Templat:Infobox Provinsi di Kamboja]]
+[[km:Template:Infobox Cambodian Province]]
+</noinclude>
