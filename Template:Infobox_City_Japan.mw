@@ -1,0 +1,134 @@
+{| class="toccolours vcard" border="0" cellpadding="1" style="margin: 0 0 1em 1em; width: 20em; font-size: 90%; float: right; clear: right;"
+|+ style="margin-left: inherit; | <font style="font-size:125%" class="fn org">'''{{{Name}}}'''</font>{{#if: {{{JapaneseName|}}}| <br/><font class="nickname" style="font-size:125%"> '''{{{JapaneseName}}}'''</font> }}
+|-
+{{#if: {{{MapImage<includeonly>|</includeonly>}}}{{{CityMap|}}} |
+{{!}} align="center" colspan="2" style="font-size: 0.9em;" {{!}} [[Image:{{{MapImage<includeonly>|</includeonly>}}}{{{CityMap|}}}|235px|Karinan ning {{{Name}}}]] <br /> {{{Name}}}'s karinan king {{{Prefecture}}}, [[Japan]]. }}
+|-
+| align="center" colspan="2" style="background-color: #e0e0e0;" | '''Location'''
+|-
+| '''[[Bangsa]]'''
+|[[Japan]]
+|- class="adr"
+{{#if:  {{{Region|}}}|
+  {{!}} '''[[Ding Labuad ning Japan|Labuad]]'''
+}}
+{{#if:  {{{Region|}}}|
+  {{!}} <span class="region">{{{Region|}}}</span>
+}}
+|-
+{{#if:  {{{Prefecture|}}}|
+  {{!}} '''[[Ding Prefecture ning Japan|Prefecture]]'''
+}}
+{{#if:  {{{Prefecture|}}}|
+  {{!}} {{{Prefecture|}}}
+}}
+|- 
+{{#if:  {{{District|}}}|
+  {{!}} '''[[Distritu ning Japan|Distritu]]'''
+}}
+{{#if:  {{{District|}}}|
+  {{!}} {{{District|}}}
+}}
+|-
+| align="center" colspan="2" style="background-color: #e0e0e0;" | '''Physical characteristics'''
+|-
+{{#if:  {{{Area_km2|}}}|
+  {{!}} style="white-space: nowrap;" {{!}} '''[[Lapad/Dagul]]'''
+  {{!}} style="white-space: nowrap;" {{!}} {{km2 to sq mi|{{{Area_km2|}}}|abbr=yes|wiki=yes}} 
+}}
+|-
+{{#if:  {{{Population|}}}|
+  {{!}} style="white-space: nowrap;" colspan="2" {{!}} '''[[Populasyun]]''' <small>(as of {{{PopDate}}})</small>
+}}
+|-
+{{#if:  {{{Population|}}}|
+  {{!}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total
+}}
+{{#if:  {{{Population|}}}|
+  {{!}} {{formatnum:{{{Population|}}} }}
+}}
+|-
+{{#if:  {{{Density_km2|}}}|
+  {{!}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Populasyun pangasiksik|Pangasiksik]]
+}}
+{{#if:  {{{Density_km2|}}}|
+  {{!}} {{PD km2 to sq mi|{{{Density_km2|}}}|abbr=yes}}
+}}
+|-
+{{#if:  {{{Coords|}}}|
+  {{!}} '''[[Location (geography)|Karinan]]'''
+}}
+{{#if:  {{{Coords|}}}|
+  {{!}} {{{Coords|}}}
+}}
+|-
+| align="center" colspan="2" style="background-color: #e0e0e0;" | '''Symbols'''
+|-
+{{#if:  {{{Tree|}}}|
+  {{!}} '''[[Pun Dutung]]'''
+}}
+{{#if:  {{{Tree|}}}|
+  {{!}} {{{Tree|}}}
+}}
+|-
+{{#if:  {{{Flower|}}}|
+  {{!}} '''[[Bulaklak]]'''
+}}
+{{#if:  {{{Flower|}}}|
+  {{!}} {{{Flower|}}}
+}}
+|-
+{{#if:  {{{Bird|}}}|
+  {{!}} '''[[Ayup]]'''
+}}
+{{#if:  {{{Bird|}}}|
+  {{!}} {{{Bird|}}}
+}}
+|-
+{{#ifeq:  {{{SymbolImage|}}}| Image:Blank.png |  |
+{{#if:  {{{SymbolImage|}}}|
+  {{!}}  colspan="2" style="background: none;" align="center" {{!}} [[Image:{{{SymbolImage}}}{{!}}130px{{!}}Symbol of {{{Name}}}]]<br/>{{#if:{{{SymbolDescription|}}}|{{{SymbolDescription}}}|Symbol of {{{Name}}}}}
+}}
+}}
+|-
+| align="center" colspan="2" style="background-color: #e0e0e0;" | '''{{{Name}}} Government Office'''
+|- 
+{{#if:  {{{Mayor|}}}|
+  {{!}} '''[[Mayor]]'''
+}}
+{{#if:  {{{Mayor|}}}|
+  {{!}} {{{Mayor|}}}
+}}
+|-
+{{#if:  {{{CityHallAddress|}}}|
+  {{!}} '''[[Address (geography)|Address]]'''
+}}
+{{#if:  {{{CityHallAddress|}}}|
+  {{!}} 〒{{{CityHallPostalCode|}}} <br /> {{{CityHallAddress|}}}
+}}
+|-
+{{#if:  {{{CityHallPhone|}}}|
+  {{!}} '''[[Telephone number|Phone number]]'''
+}}
+{{#if:  {{{CityHallPhone|}}}|
+  {{!}} {{{CityHallPhone|}}}
+}}
+|-
+{{#if:  {{{CityHallLink|}}}| 
+{{!}} align="center" colspan="2" style="font-size: 0.9em;" {{!}} '''Official website:''' {{{CityHallLink|}}} }}
+|}
+</span><noinclude>
+
+{{template doc}}
+
+[[Category:Intricate templates|{{PAGENAME}}]]
+[[Category:Templates using ParserFunctions|Infobox City]]
+[[Category:City infobox templates|Japan]]
+[[fi:Malline:Japanin kaupunki]]
+[[en:Template:Infobox City Japan]]
+[[ja:Template:日本の市]]
+[[ru:Шаблон:Город Японии]]
+[[sv:Mall:Infobox japansk stad]]
+[[uk:Шаблон:Місто Японії]]
+[[zh:Template:日本都市]]
+</noinclude>
