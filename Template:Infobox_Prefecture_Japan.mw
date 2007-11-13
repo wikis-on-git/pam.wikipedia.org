@@ -1,0 +1,69 @@
+{| class="infobox geography" style="font-size:95%; width:23em;"
+|+ style="font-size:large; margin:inherit; line-height:115%;"| '''{{{Name}}} {{#switch:{{{Name}}}|Tokyo=Metropolis|Hokkaidō=|Prefecture}} <span style="white-space:nowrap;">({{{JapaneseName}}})</span>'''
+|-
+|colspan="2" style="text-align:center;"| [[Image:{{{Map}}}|250px|Map of Japan with {{{Name}}} highlighted]]
+|- class="mergedtoprow"
+| '''Tungku'''
+| {{{Capital}}}
+|- class="mergedrow"
+| [[Regions of Japan|'''Labuad''']]
+| {{{Region}}}
+|- class="mergedrow"
+| [[List of islands of Japan|'''Pulu''']]
+| {{{Island}}}
+|- class="mergedbottomrow"
+| '''Governor'''
+| {{{Governor}}}
+|- class="mergedtoprow"
+| [[List of Japanese prefectures ranked by area|'''Lapad''']]
+| {{{TotalArea}}} [[square kilometre|km²]] ({{{AreaRank}}})
+|- class="mergedbottomrow"
+| &nbsp;- '''% water'''
+| {{{PCWater}}}%
+|- class="mergedtoprow"
+|colspan="2"| '''Populasyun''' &nbsp;<span style="font-size:90%;">({{{PopDate}}})</span>
+|- class="mergedrow"
+| &nbsp;- [[List of Japanese prefectures by population|'''Populasyun''']]
+| {{{Population}}} ({{{PopRank}}})
+|- class="mergedbottomrow"
+| &nbsp;- [[Population density|'''Pangasiksik''']]
+| {{{Density}}} /km²
+|- class="mergedtoprow"
+| [[:Category:{{#if:{{{DistrictCategory|}}}|{{{DistrictCategory}}}|Districts in {{{Name}}} Prefecture}}|'''Distritu''']]
+| {{{Districts}}}
+|- class="mergedbottomrow"
+| [[Municipality of Japan|'''Balen''']]
+| {{{Municipalities}}}
+|-
+| [[ISO 3166-2:JP|'''ISO 3166-2''']]
+| {{{ISOCode}}}
+|- style="vertical-align:top;"
+| '''Website'''
+| {{{Website}}}
+|- class="mergedtoprow"
+|colspan="2"| '''Prefectural Symbols''' 
+|- class="mergedrow"
+| &nbsp;- '''Bulaklak'''
+| {{{Flower}}}
+|- class="mergedrow"
+| &nbsp;- '''Pun Dutung'''
+| {{{Tree}}}
+|- class="mergedrow"
+| &nbsp;- '''Ayup'''
+| {{{Bird}}}
+|- class="mergedrow"
+{{#if:{{{OtherSymbol1|}}} | 
+{{!}} &nbsp;- '''{{{OtherSymbol1}}}'''
+{{!}} {{{OtherSymbol1Value}}} 
+{{!}}- class="mergedrow"
+}}
+|class="mergedbottomrow" colspan="2" style="text-align:center; background:none;"| [[Image:{{{Symbol}}}|130px|{{#if:{{{SymbolName|}}}|{{{SymbolName}}}|Symbol of {{{Name}}} Prefecture}}]]<br/>{{#if:{{{SymbolDescription|}}}|{{{SymbolDescription}}}|Symbol of {{{Name}}} Prefecture}}
+|}<noinclude>
+[[Category:Asian country subdivision infobox templates|Japan prefecture]]
+[[fi:Malline:Japanin prefektuuri]]
+[[ja:Template:基礎情報 都道府県]]
+[[lt:template:Japonijos prefektūros]]
+[[th:แม่แบบ:กล่องข้อมูล จังหวัดประเทศญี่ปุ่น]]
+[[tr:Şablon:Japonya ili]]
+[[zh:Template:Infobox Prefecture Japan]]
+</noinclude>
