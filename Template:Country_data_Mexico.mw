@@ -1,0 +1,29 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Mexico
+| flag alias = Flag of Mexico.svg
+| flag alias-1821 = Flag of Mexico 1821.png
+| flag alias-1823 = Flag of Mexico (1823-1864, 1867-1968).png
+| flag alias-1864 = Flag of Mexico 1864.png
+| flag alias-1881 = Flag of Mexico (1881-1899).png
+| flag alias-1899 = Flag of Mexico (1899-1917).png
+| flag alias-1917 = Flag of Mexico (1917-1934).png
+| flag alias-1934 = Flag of Mexico (1934-1968).png
+| link alias-naval = Mexican Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1821
+| var2 = 1823
+| var3 = 1864
+| var4 = 1881
+| var5 = 1899
+| var6 = 1917
+| var7 = 1934
+| redir1 = MEX
+</noinclude>}}<noinclude>
+[[af:Sjabloon:Landdata Meksiko]]
+[[ml:ഫലകം:Country data Mexico]]
+[[sl:Predloga:Podatki države Mehika]]
+</noinclude>
