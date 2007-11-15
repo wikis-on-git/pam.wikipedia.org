@@ -1,0 +1,157 @@
+<!-- Infobox template for Islands -->
+{| class="infobox vcard" width="280" style="font-size: 90%; background:#f5fffa;"
+!align="center" colspan="2" |<big class="fn org">'''{{{name}}}'''</big>{{#if: {{{native name|<noinclude>-</noinclude>}}}|<br>'''{{#if: {{{native name link|<noinclude>-</noinclude>}}}|[[{{{native name link}}}{{!}}Native name]]|Native name}}: {{{native name}}}'''}}{{#if:{{{nickname|<noinclude>-</noinclude>}}}|<br>Nickname: {{{nickname}}}}}<nowiki />
+|-
+{{#if: {{{image name|<noinclude>-</noinclude>}}} |
+{{!}}-
+{{!}} align="center" colspan="2" {{!}} [[Image:{{{image name}}}|{{#if:{{{image size|}}}|{{{image size}}}|250px}}|{{{image caption|}}}]]{{#if:{{{image caption|}}}|<br><small>{{{image caption|}}}</small>}}
+{{!}}-
+}}
+|-
+!colspan="2" bgcolor="#cef2e0"|Geography
+{{#if: {{{locator map|<noinclude>-</noinclude>}}}|
+{{!}}-
+{{!}} colspan="2" align="center" {{!}} [[Image:{{{locator map}}}|250px]]
+}}<nowiki/>
+|- style="vertical-align: top;"
+|'''Location'''||<span class="label">{{{location}}}</span>
+{{#if: {{{coordinates|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''Coordinates'''{{!}}{{!}}{{{coordinates}}}}}<nowiki />
+{{#if: {{{archipelago|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;" class="note"
+{{!}}'''Archipelago'''{{!}}{{!}}{{{archipelago}}}}}<nowiki />
+{{#if: {{{total islands|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''Total islands'''{{!}}{{!}}{{{total islands}}}}}<nowiki />
+{{#if: {{{major islands|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''Major islands'''{{!}}{{!}}{{{major islands}}}}}<nowiki />
+{{#if: {{{area|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''Area'''{{!}}{{!}}{{{area}}}}}<nowiki />
+{{#if: {{{highest mount|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''Highest point'''{{!}}{{!}}{{{highest mount}}}}}{{#if: {{{elevation|<noinclude>-</noinclude>}}}|&nbsp;{{{elevation}}}}}<nowiki />
+|-
+!colspan="2" bgcolor="#cef2e0"|Administration
+|- 
+| colspan="2" align="center" | <includeonly>{{flag|{{{country}}}}}</includeonly>
+{{#if: {{{country admin divisions title|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''{{{country admin divisions title}}}'''{{!}}{{!}}{{{country admin divisions}}}}}<nowiki/>
+{{#if: {{{country admin divisions title 1|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''{{{country admin divisions title 1}}}'''{{!}}{{!}}{{{country admin divisions 1}}}}}<nowiki/>
+{{#if: {{{country admin divisions title 2|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''{{{country admin divisions title 2}}}'''{{!}}{{!}}{{{country admin divisions 2}}}}}<nowiki/>
+{{#if: {{{country capital|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''Capital city'''{{!}}{{!}}{{{country capital}}}}}<nowiki />
+{{#if: {{{country largest city|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''Largest city'''{{!}}{{!}}{{{country largest city}}}}}{{#if: {{{country largest city population|<noinclude>-</noinclude>}}}|&nbsp;({{{country largest city population}}})}}<nowiki />
+{{#if: {{{country leader name|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''{{{country leader title}}}'''{{!}}{{!}}{{{country leader name}}}}}<nowiki />
+{{#if: {{{country 1|<noinclude>-</noinclude>}}}|
+{{!}}- 
+{{!}} colspan="2" align="center" style="border-top:1px dashed;" {{!}} <includeonly>{{flag|{{{country 1}}}}}</includeonly>
+{{#if: {{{country 1 admin divisions title|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''{{{country 1 admin divisions title}}}'''{{!}}{{!}}{{{country 1 admin divisions}}}}}
+{{#if: {{{country 1 capital|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''Capital city'''{{!}}{{!}}{{{country 1 capital}}}}}<nowiki />
+{{#if: {{{country 1 largest city|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''Largest city'''{{!}}{{!}}{{{country 1 largest city}}}}}{{#if: {{{country 1 largest city population|<noinclude>-</noinclude>}}}|&nbsp;({{{country 1 largest city population}}})}}
+}}<nowiki/>
+{{#if: {{{country 1 leader name|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''{{{country 1 leader title}}}'''{{!}}{{!}}{{{country 1 leader name}}}}}<nowiki />
+{{#if: {{{country 2|<noinclude>-</noinclude>}}}|
+{{!}}-
+{{!}} colspan="2" align="center" style="border-top:1px dashed;" {{!}} <includeonly>{{flag|{{{country 2}}}}}</includeonly>
+{{#if: {{{country 2 admin divisions title|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''{{{country 2 admin divisions title}}}'''{{!}}{{!}}{{{country 2 admin divisions}}}}}
+{{#if: {{{country 2 capital|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''Capital city'''{{!}}{{!}}{{{country 2 capital}}}}}<nowiki />
+{{#if: {{{country 2 largest city|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''Largest city'''{{!}}{{!}}{{{country 2 largest city}}}}}{{#if: {{{country 2 largest city population|<noinclude>-</noinclude>}}}|&nbsp;({{{country 2 largest city population}}})}}
+}}<nowiki/>
+{{#if: {{{country 2 leader name|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''{{{country 2 leader title}}}'''{{!}}{{!}}{{{country 2 leader name}}}}}<nowiki />
+{{#if: {{{country 3|<noinclude>-</noinclude>}}}|
+{{!}}-
+{{!}} colspan="2" align="center" style="border-top:1px dashed;" {{!}} <includeonly>{{flag|{{{country 3}}}}}</includeonly>
+{{#if: {{{country 3 admin divisions title|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''{{{country 3 admin divisions title}}}'''{{!}}{{!}}{{{country 3 admin divisions}}}}}
+{{#if: {{{country 3 capital|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''Capital city'''{{!}}{{!}}{{{country 3 capital}}}}}<nowiki />
+{{#if: {{{country 3 largest city|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''Largest city'''{{!}}{{!}}{{{country 3 largest city}}}}}{{#if: {{{country 3 largest city population|<noinclude>-</noinclude>}}}|&nbsp;({{{country 3 largest city population}}})}}
+}}<nowiki/>
+{{#if: {{{country 3 leader name|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''{{{country 3 leader title}}}'''{{!}}{{!}}{{{country 3 leader name}}}}}<nowiki />
+{{#if: {{{country 4|<noinclude>-</noinclude>}}}|
+{{!}}-
+{{!}} colspan="2" align="center" style="border-top:1px dashed;" {{!}} <includeonly>{{flag|{{{country 4}}}}}</includeonly>
+{{#if: {{{country 4 admin divisions title|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''{{{country 4 admin divisions title}}}'''{{!}}{{!}}{{{country 4 admin divisions}}}}}
+{{#if: {{{country 4 capital|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''Capital city'''{{!}}{{!}}{{{country 4 capital}}}}}<nowiki />
+{{#if: {{{country 4 largest city|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''Largest city'''{{!}}{{!}}{{{country 4 largest city}}}}}{{#if: {{{country 4 largest city population|<noinclude>-</noinclude>}}}|&nbsp;({{{country 4 largest city population}}})}}
+}}<nowiki/>
+{{#if: {{{country 4 leader name|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''{{{country 4 leader title}}}'''{{!}}{{!}}{{{country 4 leader name}}}}}<nowiki />
+{{#if: {{{country 5|<noinclude>-</noinclude>}}}|
+{{!}}-
+{{!}} colspan="2" align="center" style="border-top:1px dashed;" {{!}} <includeonly>{{flag|{{{country 5}}}}}</includeonly>
+{{#if: {{{country 5 admin divisions title|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''{{{country 5 admin divisions title}}}'''{{!}}{{!}}{{{country 5 admin divisions}}}}}
+{{#if: {{{country 5 capital|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''Capital city'''{{!}}{{!}}{{{country 5 capital}}}}}<nowiki />
+{{#if: {{{country 5 largest city|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''Largest city'''{{!}}{{!}}{{{country 5 largest city}}}}}{{#if: {{{country 5 largest city population|<noinclude>-</noinclude>}}}|&nbsp;({{{country 5 largest city population}}})}}
+}}<nowiki/>
+{{#if: {{{country 5 leader name|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''{{{country 5 leader title}}}'''{{!}}{{!}}{{{country 5 leader name}}}}}<nowiki />
+{{#if: {{{population|<noinclude>-</noinclude>}}}|
+{{!}}-
+!colspan="2" bgcolor="#cef2e0"{{!}}Demographics
+{{#if: {{{population|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''Populasyun'''{{!}}{{!}}{{{population}}}}}{{#if:{{{population as of|<noinclude>-</noinclude>}}}|&#32;(as of {{{population as of}}})}}<nowiki />
+{{#if: {{{density|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''Pangasiksik'''{{!}}{{!}}{{{density}}}}}<nowiki />
+{{#if: {{{ethnic groups|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}'''Katutubu'''{{!}}{{!}}{{{ethnic groups}}}}}<nowiki />
+}}<nowiki />
+{{#if: {{{additional info|<noinclude>-</noinclude>}}}|
+{{!}}- style="vertical-align: top;"
+{{!}}colspan="2"{{!}}{{{additional info}}}}}
+|}<noinclude>
+{{template doc}}
+[[Category:Geography infobox templates|Island of Indonesia]]
+</noinclude>
