@@ -1,0 +1,71 @@
+{| class="infobox geography"
+|+style="font-size: larger; padding: 0 0 .1em 0;"|'''{{{full-name}}}'''
+|-class="mergedrow"
+| bgcolor="#ffffff" align=center colspan=2 |
+{| border=0 cellpadding=2 cellspacing=0 style="padding-top:1em"
+|-class="mergedrow"
+| align=center width=148 vertical-align: middle;" | [[Image:{{{flag}}}|150px|border]]
+| align=center width=148 vertical-align: middle;" | [[Image:{{{coat-of-arms}}}|70px]]
+|-
+| align=center width=148 | [[Flag of {{{name}}}|Bandera]]
+| align=center width=148 | [[Coat of Arms of {{{name}}}|SAgkal ning Armas]]
+|}
+|-
+{{#if:{{{motto|}}}|<tr><td align=center colspan=2>'''[[Motto]]''': {{{motto}}}</td></tr>|}}
+{{#if:{{{anthem|}}}|<tr><td align=center colspan=2>'''[[Anthem]]''': {{{anthem}}}</td></tr>|}}
+| bgcolor="#c6c6c6" align="center" colspan="2" | [[Image:{{{map}}}|210px]]
+|-
+| '''[[Tungku]]''' || {{{capital}}}
+|-
+| '''[[Official language|Opisyal a amanu]]''' || {{{language}}}
+|-
+| '''[[Lapad/Dagul]]'''<br />&nbsp;&ndash; Total<br />&nbsp;&ndash; % of Spain
+| [[List of Spanish provinces by area|Ranku {{{area-rank}}}]]<br />&nbsp;{{{area}}} km²<br />&nbsp;{{{area-percent}}}
+|-
+| '''[[Populasyun]]'''<br />&nbsp;&ndash; Total ({{{pop-date}}})<br />&nbsp;&ndash; % of Spain<br />&nbsp;&ndash; [[Density]]
+| [[List of Spanish provinces by population|Ranked {{{pop-rank}}}]]<br />&nbsp;{{{pop}}}<br />&nbsp;{{{pop-percent}}}<br />&nbsp;{{{density}}}/km²
+|-
+| '''[[Demonym]]'''<br />&nbsp;&ndash; [[English language|English]]<br />&nbsp;&ndash; [[Spanish language|Spanish]]{{#if:{{{local-lang|}}}|<br />&nbsp;&ndash; {{{local-lang}}}|}}
+|<br />&nbsp;{{{english-name}}}<br />&nbsp;{{{spanish-name}}}{{#if:{{{local-name|}}}|<br />&nbsp;{{{local-name}}}|}}
+|-
+| '''Autonomous Community''' || {{{autonomous-community}}}
+|-
+| '''Gobyuernu''' || {{{government}}}
+|-
+| '''President''' || {{{president}}}
+|-
+| align=center colspan=2 | {{{website}}}
+|}<noinclude>
+Usage:
+<pre>{{Spanish Province
+|name = 
+|full-name = 
+|flag = 
+|coat-of-arms = 
+|motto = 
+|anthem = 
+|map = 
+|capital = 
+|language = 
+|area = 
+|area-rank = 
+|area-magnitude =
+|area-percent = 
+|pop = 
+|pop-rank = 
+|pop-percent = 
+|pop-date = 
+|density = 
+|english-name = 
+|spanish-name = 
+|local-lang = 
+|local-name = 
+|autonomous-community =  
+|government = 
+|president =
+|website=  
+}}
+</pre>
+[[Category:European country subdivision infobox templates|Spain province]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+</noinclude>
