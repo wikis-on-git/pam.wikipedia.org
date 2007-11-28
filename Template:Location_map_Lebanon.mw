@@ -1,0 +1,16 @@
+{{#switch:{{{1}}}|
+|name=Lebanon
+|float=none
+|background=blue
+|top=34.715
+|bottom=32.965
+|left=34.942
+|right=36.888
+|image=Lebanon_governorates_color.png
+|width=200px
+|caption=}}<noinclude>see {{tl|Location map}}
+[[ar:قالب:خارطة مواقع لبنان]]
+[[de:Vorlage:Positionskarte Libanon]]
+[[ru:Шаблон:ПозКарта Ливан]]
+[[fi:Malline:Location map Lebanon]]
+</noinclude><noinclude>[[Category:Location map by country templates|{{PAGENAME}}]]</noinclude>
