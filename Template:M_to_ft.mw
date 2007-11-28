@@ -1,0 +1,22 @@
+<noinclude>{{pp-template}} ;Usage:
+:<nowiki>{{m to ft | num | abbr | spell | precision | wiki}}</nowiki>
+
+;Examples
+:''[[WP:MOSNUM#Units of measurement|Manual of Style]] notation'': <nowiki>{{m to ft|1000}}</nowiki>&nbsp;&rarr; {{m to ft|1000}}
+:''Short notation'': <nowiki>{{m to ft|1000|abbr=yes}}</nowiki>&nbsp;&rarr; {{m to ft|1000|abbr=yes}}
+:''Full notation'': <nowiki>{{m to ft|num=1000|abbr=no|spell=Commonwealth|precision=2|wiki=yes}}</nowiki>&nbsp;&rarr; {{m to ft|num=1000|abbr=no|spell=Commonwealth|precision=2|wiki=yes}}
+
+''Italicized'' parameters are optional:
+*'''num''' is a required parameter, which specifies the number of meters to be converted to feet.  Please do not format this parameter; i.e., use 1234 instead of 1,234.
+*'''''abbr''''' can take values of either ''mos'', ''yes'', or ''no''.  ''Mos'' will show the names of the units as specified in the [[WP:MOSNUM#Units of measurement|Manual of Style for dates and numbers]] (meters, ft); ''yes'' will show the abbreviated names of the units (m, ft); and ''no'' will show the full names of the units (meters, feet).  The default value is ''mos''.
+*'''''spell''''' can take values of ''American'' or ''Commonwealth'' and is only meaningful when ''abbr'' is set to ''no''.  ''American'' will use "meters", and ''Commonwealth''&mdash;"metres".  The default value is ''American''.
+*'''''precision''''' is the number of decimal digits in the converted value.  The default value is&nbsp;0.
+*'''''wiki''''' specifies whether the names of the units should be wikified or not and can take values of either ''yes'' or ''no''. The default value is ''no''.
+
+Capitalization of the parameters is unimportant.</noinclude><includeonly>{{FORMATNUM:{{{num|{{{1}}}}}}}}&nbsp;{{#ifexpr:({{#ifeq:{{LC:{{{abbr|mos}}}}}|mos|1|0}} OR {{#ifeq:{{LC:{{{abbr|mos}}}}}|no|1|0}})|{{#ifeq:{{LC:{{{spell|american}}}}}|american|{{#ifeq:{{LC:{{{wiki|no}}}}}|yes|[[metre|meters]]|meters}}|{{#ifeq:{{LC:{{{wiki|no}}}}}|yes|[[metre]]s|metres}}}}|{{#ifeq:{{LC:{{{wiki|no}}}}}|yes|[[metre|m]]|m}}}} ({{FORMATNUM:{{#expr:{{{num|{{{1}}}}}}/.3048 round {{{precision|0}}}}}}}&nbsp;{{#ifeq:{{LC:{{{abbr|mos}}}}}|no|{{#ifeq:{{LC:{{{wiki|no}}}}}|yes|[[foot (unit of length)|feet]]|feet}}|{{#ifeq:{{LC:{{{wiki|no}}}}}|yes|[[foot (unit of length)|ft]]|ft}}}})</includeonly><noinclude>
+==See also==
+*{{tl|ft to m}}
+*{{tl|convert}}
+
+[[Category:Conversion templates|{{PAGENAME}}]]
+</noinclude>
