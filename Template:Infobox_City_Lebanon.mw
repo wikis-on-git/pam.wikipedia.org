@@ -1,0 +1,82 @@
+<includeonly>
+[[Category:Settlements in Lebanon]]
+{{#if:{{{governorate|}}}|[[Category:Settlements in the {{{governorate}}}|{{{official_name}}}]]}}
+{{#if:{{{district|}}}|[[Category:Settlements in the {{{district}}}|{{{official_name}}}]]}}
+{| class="infobox geography vcard" style="width: 23em;"
+|-
+| colspan="2" align=center style="width:100%; font-size: 1.25em; background-color: #efefef;" | '''<span class="fn org">{{{official_name}}}</span>{{#if:{{{native_name|}}}|&#x0020;<span style="white-space: nowrap;">(<span class="nickname">{{{native_name}}}</span>)</span>}}'''
+|-<!-- ***** Skyline Image ***** -->
+{{#if:{{{image_skyline|}}}|
+{{!}} colspan="2" style="text-align: center; padding: 0.7em 0.8em 0.7em 0.8em;" {{!}} [[Image:{{{image_skyline|}}}|{{#if:{{{image_size|}}}|{{{image_size}}}|250px}}|none|{{{image_caption|Skyline of {{{official_name|}}}}}}]]{{#if:{{{image_caption|}}}|<small>{{{image_caption|}}}</small>}}
+{{!}}-class="mergedtoprow"
+}}
+|-
+! colspan=2 style="background-color: #efefef; text-align:center" | Administration
+|- <!-- ***** Country ***** --> class="mergedtoprow"
+! [[List of countries|Country]]
+{{!}} {{flagcountry|Lebanon}}
+{{!}}-
+|- <!-- ***** Governorate ***** --> class="mergedrow"
+{{#if:{{{governorate|}}}|
+! [[Governorates of Lebanon|Governorate]]
+{{!}} [[{{{governorate}}}]]
+{{!}}-
+}}
+|-  class="adr" <!-- ***** District ***** --> class="mergedbottomrow"
+{{#if:{{{district|}}}|
+! [[Districts of Lebanon|District]]
+{{!}} <span class="region">[[{{{district}}}]]</span>
+{{!}}-
+}} <!-- ***** Government ***** -->
+{{#if:{{{leader_title|}}}|
+{{!}}- class="mergedtoprow" style="font-size:95%"
+! {{{leader_title}}}
+{{!}} {{{leader_name}}}
+{{#if:{{{leader_title1|}}}|
+{{!}}- class="mergedrow" style="font-size:95%"
+! {{{leader_title1}}}
+{{!}} {{{leader_name1}}}
+{{#if:{{{leader_title2|}}}|
+{{!}}- class="mergedrow" style="font-size:95%"
+! {{{leader_title2}}}
+{{!}} {{{leader_name2}}}
+{{#if:{{{leader_title3|}}}|
+{{!}}- class="mergedbottomrow" style="font-size:95%"
+! {{{leader_title3}}}
+{{!}} {{{leader_name3}}}
+}} }} }} }}
+{{#if:{{{mapx|}}}{{{area_total_km2|}}}{{{lat_deg|}}}{{{elevation_m|}}}{{{elevation_m_lo|}}}|
+{{!}}- <!-- ***** Geography***** -->
+! colspan=2 style="background-color: #efefef; text-align:center" {{!}} Geography
+{{#if:{{{mapx|}}}|
+{{!}}- align="center" class="mergedtoprow"
+{{!}}colspan="2" {{!}}{{location map|Lebanon
+ |mark=Red_pog.svg
+ |width=200
+ |float=none
+ |label={{{official_name}}}
+ |position={{{locator_text_position|right}}}
+ |lat={{{mapx|33.95}}}
+ |long={{{mapy|35.85}}}
+ |caption=Location of {{{official_name}}}, Lebanon
+}}
+{{!}}-}}
+{{#if:{{{area_total_km2|}}}|
+{{!}}- class="mergedtoprow"
+! Area
+{{!}} {{km2 to sq mi|{{{area_total_km2|}}}|abbr=yes|wiki=yes}}
+{{!}}-
+}}{{#if:{{{lat_deg|}}}|
+{{!}}- {{#if:{{{area_total_km2|}}}|class="mergedrow"|class="mergedtoprow"}}
+! Coordinates
+{{!}} {{coord|{{{lat_deg}}}|{{{lat_min}}}|{{{lat_sec}}}|{{{lat_hem}}}|{{{lon_deg}}}|{{{lon_min}}}|{{{lon_sec}}}|{{{lon_hem}}}|display=inline,title}}
+{{!}}-
+}}{{#if:{{{elevation|{{{elevation_m|}}}}}}{{{elevation_m_lo|}}}{{{elevation_m_hi|}}}|
+{{!}}- {{#if:{{{area_total_km2|}}}{{{lat_deg|}}}|class="mergedbottomrow"|class="mergedtoprow"}}
+! Elevation
+{{!}} {{#if:{{{elevation_m_lo|}}}{{{elevation_m_hi|}}}|{{formatnum:{{{elevation_m_lo|}}}&ndash;{{{elevation_m_hi|}}}&nbsp;[[Metre|m]] &nbsp;({{#expr:{{{elevation_m_lo|}}} div 0.3048 round 0}}&ndash;{{#expr:{{{elevation_m_hi|}}} div 0.3048 round 0}}&nbsp;[[Foot (unit)|ft]]) }}|{{m to ft|{{{elevation_m|}}}|abbr=yes|wiki=yes}} }}
+{{!}}-
+}} }}
+|}</includeonly><noinclude>
+{{template doc}}
+</noinclude>
