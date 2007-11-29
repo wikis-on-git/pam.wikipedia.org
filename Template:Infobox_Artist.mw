@@ -1,0 +1,69 @@
+{| class="infobox vcard" style="width:{{{box_width|22em}}}; font-size:90%;" cellspacing="5"
+|-
+|colspan="2" style="text-align:center; font-size:larger; background-color:{{{bgcolour|#c0c0c0}}}; color:#000000;" class="fn"| '''{{{name|{{PAGENAME}}}}}'''
+|-
+|colspan="2" style="text-align:center; font-size:90%;"| {{#if:{{{image<includeonly>|</includeonly>}}} |<!--then:-->
+[[Image:{{{image}}}|{{#if:{{{imagesize|}}}|<!--then:-->{{{imagesize}}}|<!--else:-->220px}}| ]]<br/><small>{{{caption<includeonly>|</includeonly>}}}</small>
+}}
+{{#if:{{{birthname<includeonly>|</includeonly>}}} |<!--then:-->
+<tr><td style="text-align:right;">'''Lagyu kebaitan'''</td><td class="nickname">{{{birthname}}}</td></tr>
+}}
+|-
+
+|width="85px" align="right" | '''Mibait'''
+| {{{birthdate}}}<br/> {{{location<includeonly>|</includeonly>}}}
+|-
+
+{{#if:{{{deathdate<includeonly>|</includeonly>}}} |
+{{!}} align="right" {{!}} '''Died''' {{!}}{{!}} {{{deathdate}}}<br/>{{{deathplace<includeonly>|</includeonly>}}}
+}}
+|-
+
+{{#if:{{{nationality<includeonly>|</includeonly>}}} |
+{{!}} align="right" {{!}} '''Bangsa''' {{!}}{{!}} {{{nationality}}} 
+}}
+|-
+
+{{#if:{{{field<includeonly>|</includeonly>}}} |
+{{!}} align="right" {{!}} '''Larangan''' {{!}}{{!}} {{{field}}}
+}}
+|-
+
+{{#if:{{{training<includeonly>|</includeonly>}}} |
+{{!}} align="right" {{!}} '''Pamagsane''' {{!}}{{!}} {{{training}}}
+}}
+|-
+
+{{#if:{{{movement<includeonly>|</includeonly>}}} |
+{{!}} align="right" {{!}} '''Kilusan''' {{!}}{{!}} <span class="role">{{{movement}}}</span>
+}}
+|-
+
+{{#if:{{{famous works<includeonly>|</includeonly>}}} |
+{{!}} align="right" {{!}} '''Bantug a obra''' {{!}}{{!}} <span class="note">{{{famous works}}}</span>
+}}
+|-
+
+{{#if:{{{patrons<includeonly>|</includeonly>}}} |
+{{!}} align="right" {{!}} '''Padrun'''{{!}}{{!}} {{{patrons}}}
+}}
+|-
+
+{{#if:{{{influenced by<includeonly>|</includeonly>}}} |
+{{!}} align="right" {{!}} '''Ayasag neng'''{{!}}{{!}} {{{influenced by}}}
+}}
+|-
+
+{{#if:{{{influenced<includeonly>|</includeonly>}}} |
+{{!}} align="right" {{!}} '''Ayasag'''{{!}}{{!}} {{{influenced}}}
+}}
+|-
+
+{{#if:{{{awards<includeonly>|</includeonly>}}} |
+{{!}} align="right" {{!}} '''Galal''' {{!}}{{!}} {{{awards}}}
+}}
+|-
+
+|}<noinclude>
+{{template doc}}
+</noinclude>
