@@ -1,0 +1,62 @@
+{{mergefrom|Hcard-bday|Template_talk:Birth_date_and_age#Edit_request}}
+<includeonly>{{template doc page transcluded|Template:Birth date and age}}</includeonly>
+<noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- 
+    PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE
+    YOU CAN EDIT THE TEMPLATE DOCUMENTATION BELOW THIS COMMENT
+-->
+== Usage ==
+
+These templates ('''{{tl|Birth date}}''' and '''{{tl|Birth date and age}}''') return a person's date of birth and optionally his/her age. The latter also have the shortcut: '''{{tl|Bda}}'''.
+
+Using this template rather than simply inserting the date into articles allows for the inclusion of hidden [[metadata]] about the date. This metadata can be used by web browsers and other software tools to extract the details, and display them using some other website or mapping tool, index or search them.
+
+Syntax:
+
+:<nowiki>{{Birth date|year of birth|month of birth|day of birth}}</nowiki>
+
+or
+
+:<nowiki>{{Birth date and age|year of birth|month of birth|day of birth}}</nowiki>
+:<nowiki>{{Bda|year of birth|month of birth|day of birth}}</nowiki>
+
+Examples:
+
+:<nowiki>{{Birth date|1993|2|24}}</nowiki> returns "{{Birth date|1993|2|24}}"
+
+:<nowiki>{{Birth date and age|1993|2|24}}</nowiki> returns {{Birth date and age|1993|2|24}}
+
+An optional parameter, df, can be set (to "y" or "yes" for example) to display the day before the month. This is primarily used in articles about people from parts of the world where the day precedes the month in a date. Conversely the (unimplemented) parameter mf can be set for month first, currently the default behaviour.
+
+Examples:
+
+:<nowiki>{{Birth date|1993|2|24|df=yes}}</nowiki> returns "{{Birth date|1993|2|24|df=yes}}"
+
+:<nowiki>{{Birth date and age|1993|2|24|df=yes}}</nowiki> returns "{{Birth date and age|1993|2|24|df=yes}}"
+
+The templates also return the date, hidden by CSS, in the [[ISO 8601]] format needed by [[HCard|hCard microformat]]s. for example:
+
+:<nowiki>(<span class="bday">1993-02-24</span>)</nowiki>
+
+See [[WP:UF|the microformats project]] for details.
+
+'''Note:''' The template will appear broken when the parameters are left blank (as seen above).
+
+'''Note:''' Do not use this template inside of the [[WP:PERSONDATA|Persondata]] template as it can interfere with data extraction.
+
+==See also==
+
+* [[Template:Death date and age]] – similar, for death date (and age at death)
+
+<includeonly>
+
+<!-- PLEASE ADD CATEGORIES BELOW THIS LINE, THANKS. -->
+
+[[Category:Date mathematics templates|{{PAGENAME}}]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+
+<!-- PLEASE ADD INTERWIKIS BELOW THIS LINE, THANKS. -->
+
+[[fr:Modèle:Date de naissance et âge]]
+[[ro:Format:Birth date and age/doc]]
+</includeonly>
