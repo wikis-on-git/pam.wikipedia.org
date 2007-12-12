@@ -1,0 +1,75 @@
+{{Infobox Commune de France|
+|nomcommune=Misérieux
+|région=[[Rhône-Alpes]]
+|département=Ain
+|arrondissement=Bourg-en-Bresse
+|canton=[[Canton of Reyrieux]]
+|insee=01250
+|cp=01600
+|maire=Danielle Comtet
+|mandat=2001-2008
+|intercomm= [[Communauté de communes Saône Vallée]]
+|longitude=
+|latitude=
+|alt moy=226 m
+|alt mini=211 m
+|alt maxi=280 m
+|hectares=741
+|km²=7,41
+|sans=1821
+|date-sans=1999
+|dens=192|}}
+
+
+
+'''Misérieux''' metung yang [[commune king France|commune]] king [[France|French]] ''[[Ding Departamentu ning France|departamentu]], '' ning [[Ain]] king aslagan [[France]].
+Inyang [[1999]] atin yang [[populasyun]] a 1821.
+
+==Demographic evolution==
+
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:2100 color:gray1 width:1       
+  from:start till:end             
+  bar:1400 color:gray1              
+  from:start till:end            
+  bar:700 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,66)(84,67)       color:blue    width:2 #1962 tot 1968  
+  points:(84,67)(100,76)      color:blue    width:2 #1975  
+  points:(100,76)(128,90)     color:blue    width:2 #1982  
+  points:(128,90)(160,119)     color:blue    width:2 #1990  
+  points:(160,119)(196,136)  color:blue    width:2 #1999     
+  
+</timeline>     
+
+
+
+==Lawen ya rin==
+*[[Communes of the Ain département]]
+
+
+
+{{RhoneAlpes-geo-stub}}
+
+[[Category:Ding Communes ning Ain]]
+
+[[en:Misérieux]]
+[[fr:Misérieux]]
+[[nl:Misérieux]]
