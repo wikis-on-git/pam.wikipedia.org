@@ -1,0 +1,56 @@
+{{Infobox Commune de France|nomcommune=Montagnieu| région=[[Rhône-Alpes]] |département=Ain | arrondissement=Belley |canton=[[Canton of Lhuis]]| insee=01255|cp=01470 |maire= Max Vern|mandat= 2001-2007| intercomm= [[Communauté de communes Rhône Chartreuse de Portes]] | longitude= |latitude= |alt moy=225 m |alt mini= |alt maxi= | hectares=  |km²= 6,22|sans=397 |date-sans=[[1999]] |dens= |}}
+
+
+
+'''Montagnieu'''  metung yang [[commune king France|commune]] king [[France|French]] ''[[Ding Departamentu ning France|departamentu]], '' ning [[Ain]], king aslagan [[France]]
+Inyang [[1999]] atin yang [[p[opulasyun]] a 397.
+
+==Demographic evolution==
+
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:540 color:gray1 width:1       
+  from:start till:end             
+  bar:360 color:gray1              
+  from:start till:end            
+  bar:180 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,110)(84,116) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 287 1968: 306
+  points:(84,116)(100,131)    color:blue    width:2 #1975: 354
+  points:(100,131)(128,137)   color:blue    width:2 #1982: 372
+  points:(128,137)(160,132)   color:blue    width:2 #1990: 356
+  points:(160,132)(196,142)   color:blue    width:2 #1999: 386
+  points:(196,142)(228,158)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+
+
+
+==Lawen ye ing==
+*[[Communes of the Ain département]]
+
+
+
+{{RhoneAlpes-geo-stub}}
+
+[[Category:Ding Commune ning Ain]]
+
+[[en:Montagnieu, Ain]]
+[[fr:Montagnieu]]
+[[nl:Montagnieu]]
