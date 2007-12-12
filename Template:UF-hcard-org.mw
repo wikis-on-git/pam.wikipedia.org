@@ -1,4 +1,4 @@
-[[Image:Hcard-microformat-button.png|right|button to indicate the presence of an hCard microformat]]
+
 
 The HTML mark up produced by this template includes an [[HCard| hCard microformat]], which makes the organisation's details [[Parsing|parsable]] by computers, either acting automatically to catalogue article across Wikipedia, or via a browser tool operated by a reader, to (for example) add the subject to an address book. For more information about the use of [[microformat]]s on Wikipedia, please see [[WP:UF|the microformat project]].
 
