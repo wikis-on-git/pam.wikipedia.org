@@ -9,7 +9,7 @@ It links to {{Coor URL}}, then displays the coordinates.
 The template outputs data in:
 * Degree/minutes/seconds ("DMS", precision is degrees, or degrees/minutes, or degrees/minutes/seconds, based on input)
 * Decimal (precision by number of decimal places, based on input)
-** [[Image:Geo-microformat-button.png|button to indicate the presence of a Geo microformat|This button indicates the presence of a Geo microformat on a page]] A computer-readable [[Geo (microformat)|Geo microformat]].
+**  A computer-readable [[Geo (microformat)|Geo microformat]].
 
 {{tl|coord}} will be used by tools which parse the raw Wikipedia database dumps, such as [[:de:Wikipedia:WikiProjekt_Georeferenzierung/Wikipedia-World/en|Wikipedia-World]] and [[Google Earth]]. The template '''must not''' be modified without reference to these projects.
 
