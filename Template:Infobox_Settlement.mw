@@ -36,7 +36,7 @@
 }}<!-- ***** Nickname ***** -->
 {{#if:{{{nickname|}}}|
 	<tr class="mergedrow">
-		<td colspan="2" align="center">[[Nickname]]: <span class="nickname">{{{nickname|}}}</span></td>
+		<td colspan="2" align="center">[[Palayo]]: <span class="nickname">{{{nickname|}}}</span></td>
 	</tr>
 }}<!-- ***** Motto ***** -->
 {{#if:{{{motto|}}}|
