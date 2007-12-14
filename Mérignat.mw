@@ -1,0 +1,73 @@
+{{Infobox Commune de France||nomcommune=Mérignat
+|région=[[Rhône-Alpes]]
+|département=Ain
+|arrondissement= Nantua
+|canton=[[Canton of Poncin]]
+|insee=01242
+|cp=01450
+|maire=Armand Balivet
+|mandat=2001-2008
+|intercomm=[[Communauté de communes Bugey-Vallée de l'Ain]]
+|longitude=
+|latitude=
+|alt moy=385 m
+|alt mini=300 m
+|alt maxi=587 m
+|hectares=317
+|km²=3,17
+|sans=114
+|date-sans=1999
+|dens=35|}}
+
+
+'''Mérignat''' Ing '''Monthieux''' metung yang [[commune king France|commune]] king ''[[Ding Departamentu ning France|departamentu]], '' ning [[Ain]] king aslagan [[France|France]]. Inyang [[1999]] atin yang populasyun a 114.
+
+==Demographic evolution==
+
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:300 color:gray1 width:1       
+  from:start till:end             
+  bar:200 color:gray1              
+  from:start till:end            
+  bar:100 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,89)(84,71)       color:blue    width:2 #1962 tot 1968  
+  points:(84,71)(100,69)      color:blue    width:2 #1975  
+  points:(100,69)(128,65)     color:blue    width:2 #1982  
+  points:(128,65)(160,68)     color:blue    width:2 #1990  
+  points:(160,68)(196,85)  color:blue    width:2 #1999     
+  
+</timeline>     
+
+
+
+
+==Lawen ye==
+*[[Communes of the Ain département]]
+
+
+
+{{RhoneAlpes-geo-stub}}
+
+[[Category:Ding Commune ning Ain]]
+
+[[en:Mérignat]]
+[[fr:Mérignat]]
+[[nl:Mérignat]]
