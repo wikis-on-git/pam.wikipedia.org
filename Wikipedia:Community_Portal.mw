@@ -49,3 +49,17 @@ You have my approval.[[User:Val2397|Val2397]] 18:20, 11 Agostu 2007 (UTC)
 == [[User:AlleborgoBot|AlleborgoBot]] ==
 Hi, AlleborgoBot is an interwiki bot run by [[:it:Utente:Alleborgo|Alleborgo]] starting at the italian wikipedia. The bot uses the pywikipedia framework daily updated to the last SVN version. The Bot runs in autonomous, but sometimes, it will run in manual assisted mode to solve interwiki conflicts. Already has a bot flag in ar, an, az, bar, bg, br, bpy, bs, ca, ceb, cs, da, de, el, en, eo, es, eu, fa, fi, fr, frp, gl, he, hr, ht, hu, hy, id, is, it, ja, jv, ka, ksh, ku, lb, li, lmo, ln, lt, mk, mi, ml, ms, nap, nds, nds-nl, nl, nn, no, pl, pt, ro, roa-tara, ru, sco, sh, sk, simple, sl, sq, sr, su, sv, ta, th, tr, tt, uk, ur, vec, vi, vo, zh, zh-yue. On it wiki has done more than 65000 edit. Now I'm requesting the flag here, thanks  --[[User:AlleborgoBot|AlleborgoBot]] 14:07, 13 October 2007 (UTC)
 ===Approval===
+
+==Betawiki: better support for your language in MediaWiki==
+Dear community. I am writing to you to promote a special wiki called [[betawiki:|Betawiki]]. This wiki facilitates the localisation (l10n) of the MediaWiki interface. You may have changed many messages here to use your language in the interface, but if you would log in to for example the Japanese language Wiktionary, you would not be able to use the interface as well translated as here. In fact, of 1,736 messages in the core of MediaWiki, 5.99% of the messages have been translated. Betawiki also supports the translation of messages for 126 extensions, with 2,174 messages. Many of them are used in WMF projects and they are vital for understanding the wiki. Currently 0.00% of the WMF extension messages have been translated. Translators for over 90 languages contribute their work to MediaWiki this way every month.
+
+If you wish to contribute to better support of your language in MediaWiki, as well as for many MediaWiki extensions, please visit [[betawiki:Translating:Intro|Betawiki]], [http://translatewiki.net/w/?title=Special:Userlogin&type=signup&uselang=en create an account] and [[betawiki:Betawiki:Rights|request translator privileges]]. You can see the current status of localisation of your language on [[mw:Localisation_statistics|MediaWiki.org]] and do not forget to get in touch with others that may already be [[betawiki:Translating:Languages|working on your language on Betawiki]].
+
+If you have any further questions, [[betawiki:User_talk:Siebrand|please let me know on my talk page on Betawiki]]. We will try and assist you as much as possible, for example by [[betawiki:Import requests|importing]] all messages from a local wiki for you to start with, if you so desire.
+
+You can also find us on the Freenode [[w:en:Internet Relay Chat|IRC]] network in the channel #mediawiki-i18n where we will be happy to help you get started.
+
+Thank you very much for your attention and I do hope to see some of you on [[betawiki:|Betawiki]] soon! Thanks, [[betawiki:User:GerardM|GerardM@Betawiki]]
+
+==The village pump==
+Could someome be so kind and move my contribution to your "village pump" and also, could someone please add a link to your village pump on [[meta:International names for Village Pump|meta]] [[User:GerardM|GerardM]] 09:33, 30 January 2008 (UTC)
