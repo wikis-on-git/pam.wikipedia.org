@@ -309,25 +309,25 @@
 }}
 <!----------First predecessor/successor---------->
 {{#if:{{{opponent|}}}|
-! Opponent(s)
+! Kalaban
 {{!}} {{{opponent}}}
 {{!}}-
 {{#if:{{{incumbent|}}}|
-! Incumbent
+! Kasalungsungan
 {{!}} {{{incumbent}}}
 {{!}}-
 }}
 |{{#if:{{{succeeding|}}}|
-! Succeeding
+! Menalili
 {{!}} {{{succeeding}}}
 {{!}}-
 |{{#if:{{{{{#if:{{{predecessor|}}}|predecessor|preceded}}|}}} |
-! Preceded&nbsp;by
+! Minuna&nbsp;kaya
 {{!}} {{{{{#if:{{{predecessor|}}}|predecessor|preceded}}|}}}
 {{!}}-
 }}
 {{#if:{{{{{#if:{{{successor|}}}|successor|succeeded}}|}}}|
-! Succeeded&nbsp;by
+! Menalili&nbsp;kaya
 {{!}} {{{{{#if:{{{successor|}}}|successor|succeeded}}|}}}
 {{!}}-
 }}
@@ -355,12 +355,12 @@
 {{!}}-
 }}
 {{#if:{{{runningmate1|}}}|
-! Running&nbsp;Mate
+! Kayabeng&nbsp;tinagal
 {{!}} {{{runningmate1}}}
 {{!}}-
 }}
 {{#if:{{{opponent1|}}}|
-! Opponent(s)
+! Kalaban
 {{!}} {{{opponent1}}}
 {{!}}-
 }}
@@ -2887,7 +2887,7 @@
 }}
 <!----------Spouse, etc.---------->
 {{#if:{{{spouse|}}}|
-! Spouse
+! Asawa
 {{!}} {{{spouse}}}
 {{!}}-
 }}
@@ -2897,12 +2897,12 @@
 {{!}}-
 }}
 {{#if:{{{children|}}}|
-! Children
+! Anak
 {{!}} {{{children}}}
 {{!}}-
 }}
 {{#if:{{{residence|}}}|
-! Residence
+! Tuknanngan
 {{!}} {{{residence}}}
 {{!}}-
 }}
@@ -2912,17 +2912,17 @@
 {{!}}-
 }}
 {{#if:{{{occupation|}}}|
-! Occupation
+! Obra
 {{!}} {{{occupation}}}
 {{!}}-
 }}
 {{#if:{{{profession|}}}|
-! Profession
+! Carera
 {{!}} {{{profession}}}
 {{!}}-
 }}
 {{#if:{{{cabinet|}}}|
-! Cabinet
+! Cabineti
 {{!}} {{{cabinet}}}
 {{!}}-
 }}
@@ -2937,12 +2937,12 @@
 {{!}}-
 }}
 {{#if:{{{religion|}}}|
-! Religion
+! Kasalpantayan
 {{!}} {{{religion}}}
 {{!}}-
 }}
 {{#if:{{{signature|}}}|
-! Signature
+! Pirma
 {{!}} [[Image:{{{signature}}}|128px|{{PAGENAME}}'s signature]]
 {{!}}-
 }}
