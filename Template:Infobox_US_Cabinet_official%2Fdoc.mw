@@ -1,0 +1,457 @@
+<includeonly><div style="clear:both;"></div>{{intricate template}}
+<div class="editsection noprint editlink plainlinksneverexpand" align="right" style="float:right; margin-left:5px;"><small>[http://en.wikipedia.org/w/index.php?title=Template:Infobox_Officeholder/doc&action=edit edit&#32;the instructions]</small></div></includeonly><tt>&#123;{'''Template:Infobox Officeholder'''}}</tt> incorporates the following templates (i.e., all of the templates listed <span class="plainlinksneverexpand">[http://en.wikipedia.org/w/index.php?offset=&limit=1000&target=Template%3AInfobox_Officeholder&title=Special%3AWhatlinkshere&namespace=10 redirect]</span> here). Please use the most appropriate name when placing this template on a page.
+{| class="plainlinksneverexpand" style="background:transparent; width:100%; margin:auto; font-family:monospace;"
+| width="50%" align="left" valign="top" |
+* {{Whatlinkshere|Infobox AM}}
+* {{Whatlinkshere|Infobox Ambassador}}
+* {{Whatlinkshere|Infobox CanadianMP}}
+* {{Whatlinkshere|Infobox CanadianSenator}}
+* {{Whatlinkshere|Infobox Chancellor}}
+* {{Whatlinkshere|Infobox Congressman}}
+* {{Whatlinkshere|Infobox Congressional Candidate}}
+* {{Whatlinkshere|Infobox Defense Minister}}
+* {{Whatlinkshere|Infobox Deputy First Minister}}
+* {{Whatlinkshere|Infobox Deputy Prime Minister}}
+* {{Whatlinkshere|Infobox Eritrea Cabinet official}}
+* {{Whatlinkshere|Infobox First Minister}}
+* {{Whatlinkshere|Infobox Governor}}
+* {{Whatlinkshere|Infobox Governor General}}
+* {{Whatlinkshere|Infobox Governor-Elect}}
+* {{Whatlinkshere|Infobox Governor-General}}
+* {{Whatlinkshere|Infobox Indian politician}}
+* {{Whatlinkshere|Infobox Judge}}
+* {{Whatlinkshere|Infobox Lt Governor}}
+* {{Whatlinkshere|Infobox Mayor}}
+* {{Whatlinkshere|Infobox Minister}}
+* {{Whatlinkshere|Infobox MEP}}
+* {{Whatlinkshere|Infobox MLA}}
+* {{Whatlinkshere|Infobox MP}}
+* {{Whatlinkshere|Infobox PM}}
+* {{Whatlinkshere|Infobox Politician}}
+| width="50%" align="left" valign="top" |
+* {{Whatlinkshere|Infobox Politician (general)}}
+* {{Whatlinkshere|Infobox Premier}}
+* {{Whatlinkshere|Infobox President}}
+* {{Whatlinkshere|Infobox President-elect}}
+* {{Whatlinkshere|Infobox Prime Minister}}
+* {{Whatlinkshere|Infobox Prime Minister-elect}}
+* {{Whatlinkshere|Infobox Representative-elect}}
+* {{Whatlinkshere|Infobox SCC Chief Justice}}
+* {{Whatlinkshere|Infobox SCC Puisne Justice}}
+* {{Whatlinkshere|Infobox Secretary-General}}
+* {{Whatlinkshere|Infobox Senator}}
+* {{Whatlinkshere|Infobox Senator-elect}}
+* {{Whatlinkshere|Infobox Speaker}}
+* {{Whatlinkshere|Infobox State Representative}}
+* {{Whatlinkshere|Infobox State SC Associate Justice}}
+* {{Whatlinkshere|Infobox State SC Justice}}
+* {{Whatlinkshere|Infobox State Senator}}
+* {{Whatlinkshere|Infobox US Ambassador}}
+* {{Whatlinkshere|Infobox US Associate Justice}}
+* {{Whatlinkshere|Infobox US Cabinet official}}
+* {{Whatlinkshere|Infobox US Chief Justice}}
+* {{Whatlinkshere|Infobox US Territorial Governor}}
+* {{Whatlinkshere|Infobox Vice President}}
+|}
+
+<includeonly>
+==Microformat==
+{{UF-hcard-person}}
+</includeonly>
+==Usage==
+Paste the code for the relevant office and then add the [[#Personal data|personal data]] to the bottom. There are no required fields and some fields will not appear when others are in use. For instructions on how to implement multiple terms, see [[Template:Infobox Officeholder/example#Multiple terms|this page]].
+
+===General office===
+{{For|examples of this code in use|Template:Infobox Officeholder/example#General office}}
+<pre>
+{{Infobox Officeholder
+| honorific-prefix    =
+| name                =
+| honorific-suffix    =
+| image               =
+| imagesize           =
+| smallimage          =
+| caption             =
+| order               =
+| office              =
+| term_start          =
+| term_end            =
+| vicepresident       =
+| viceprimeminister   =
+| deputy              =
+| lieutenant          =
+| monarch             =
+| president           =
+| primeminister       =
+| governor            =
+| governor-general    =
+| governor_general    =
+| succeeding          =<!-- For President-elect or equivalent -->
+| predecessor         =
+| successor           =
+| constituency        =
+| majority            =
+| order2              =<!-- Can be repeated up to eight times by changing the number -->
+| office2             =<!-- Can be repeated up to eight times by changing the number -->
+| term_start2         =<!-- Can be repeated up to eight times by changing the number -->
+| term_end2           =<!-- Can be repeated up to eight times by changing the number -->
+| vicepresident2      =<!-- Can be repeated up to eight times by changing the number -->
+| viceprimeminister2  =<!-- Can be repeated up to eight times by changing the number -->
+| deputy2             =<!-- Can be repeated up to eight times by changing the number -->
+| lieutenant2         =<!-- Can be repeated up to eight times by changing the number -->
+| monarch2            =<!-- Can be repeated up to eight times by changing the number -->
+| president2          =<!-- Can be repeated up to eight times by changing the number -->
+| primeminister2      =<!-- Can be repeated up to eight times by changing the number -->
+| governor2           =<!-- Can be repeated up to eight times by changing the number -->
+| succeeding2         =<!-- Can be repeated up to eight times by changing the number -->
+| predecessor2        =<!-- Can be repeated up to eight times by changing the number -->
+| successor2          =<!-- Can be repeated up to eight times by changing the number -->
+| constituency2       =<!-- Can be repeated up to eight times by changing the number -->
+| majority2           =<!-- Can be repeated up to eight times by changing the number -->
+</pre>
+''add [[#Personal data|personal data]]''
+
+===Ambassador===
+{{For|examples of this code in use|Template:Infobox Officeholder/example#Ambassador}}
+<pre>
+{{Infobox Ambassador
+| honorific-prefix    =
+| name                =
+| honorific-suffix    =
+| image               =
+| imagesize           =
+| order               =<!-- Can be repeated up to eight times by adding a number -->
+| ambassador_from     =<!-- Can be repeated up to eight times by adding a number -->
+| country             =<!-- Can be repeated up to eight times by adding a number -->
+| term_start          =<!-- Can be repeated up to eight times by adding a number -->
+| term_end            =<!-- Can be repeated up to eight times by adding a number -->
+| predecessor         =<!-- Can be repeated up to eight times by adding a number -->
+| successor           =<!-- Can be repeated up to eight times by adding a number -->
+| president           =<!-- Can be repeated up to eight times by adding a number -->
+</pre>
+''add [[#Personal data|personal data]]''
+
+===Assembly Member===
+{{For|examples of this code in use|Template:Infobox Officeholder/example#Assembly Member}}
+<pre>
+{{Infobox AM
+| honorific-prefix    =
+| name                =
+| honorific-suffix    =
+| image               =
+| caption             =
+| constituency_AM     =<!-- Can be repeated up to eight times by adding a number -->
+| assembly            =<!-- Can be repeated up to eight times by adding a number -->
+| majority            =<!-- Can be repeated up to eight times by adding a number -->
+| term_start          =<!-- Can be repeated up to eight times by adding a number -->
+| term_end            =<!-- Can be repeated up to eight times by adding a number -->
+| predecessor         =<!-- Can be repeated up to eight times by adding a number -->
+| successor           =<!-- Can be repeated up to eight times by adding a number -->
+</pre>
+''add [[#Personal data|personal data]]''
+
+===Governor===
+{{For|examples of this code in use|Template:Infobox Officeholder/example#Governor}}
+<pre>
+{{Infobox Governor 
+| honorific-prefix    =
+| name                =
+| honorific-suffix    =
+| image               =
+| order               =<!-- Can be repeated up to eight times by adding a number -->
+| office              =<!-- Can be repeated up to eight times by adding a number -->
+| term_start          =<!-- Can be repeated up to eight times by adding a number -->
+| term_end            =<!-- Can be repeated up to eight times by adding a number -->
+| lieutenant          =<!-- Can be repeated up to eight times by adding a number -->
+| predecessor         =<!-- Can be repeated up to eight times by adding a number -->
+| successor           =<!-- Can be repeated up to eight times by adding a number -->
+</pre>
+''add [[#Personal data|personal data]]''
+
+If Governor was appointed by a President, add:
+<pre>
+| president           =<!-- name of president -->
+</pre>
+
+If Governor appointed by other, add:
+<pre>
+| appointed           =<!-- name of appointer -->
+</pre>
+
+===Judge===
+{{For|examples of this code in use|Template:Infobox Officeholder/example#Judge}}
+<pre>
+{{Infobox Judge
+| honorific-prefix    =
+| name                =
+| honorific-suffix    =
+| image               =
+| imagesize           =
+| caption             =
+| office              =<!-- Can be repeated up to eight times by changing the number -->
+| term_start          =<!-- Can be repeated up to eight times by changing the number -->
+| term_end            =<!-- Can be repeated up to eight times by changing the number -->
+| nominator           =<!-- Can be repeated up to eight times by changing the number -->
+| appointer           =<!-- Can be repeated up to eight times by changing the number -->
+| predecessor         =<!-- Can be repeated up to eight times by changing the number -->
+| successor           =<!-- Can be repeated up to eight times by changing the number -->
+</pre>
+''add [[#Personal data|personal data]]''
+
+===Member of Parliament===
+{{For|examples of this code in use|Template:Infobox Officeholder/example#Member of Parliament}}
+<pre>
+{{Infobox MP
+| honorific-prefix    =
+| name                =
+| honorific-suffix    =
+| image               =
+| caption             =
+| constituency_MP     =<!-- Can be repeated up to eight times by adding a number -->
+| parliament          =<!-- Can be repeated up to eight times by adding a number -->
+| majority            =<!-- Can be repeated up to eight times by adding a number -->
+| term_start          =<!-- Can be repeated up to eight times by adding a number -->
+| term_end            =<!-- Can be repeated up to eight times by adding a number -->
+| predecessor         =<!-- Can be repeated up to eight times by adding a number -->
+| successor           =<!-- Can be repeated up to eight times by adding a number -->
+</pre>
+''add [[#Personal data|personal data]]''
+
+===U.S. Representatives===
+====U.S. Congressman====
+{{For|examples of this code in use|Template:Infobox Officeholder/example#US Congressman}}
+<pre>
+{{Infobox Congressman 
+| honorific-prefix    =
+| name                =
+| honorific-suffix    =
+| image               =
+| state               =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| district            =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| term_start          =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| term_end            =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| preceded            =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| succeeded           =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+</pre>
+''add [[#Personal data|personal data]]''
+
+If Congressman served as Speaker of the House add:
+<pre>
+| speaker             =<!-- number of office holder -->
+| term_start2         =
+| term_end2           =
+| predecessor2        =
+| successor2          =
+</pre>
+
+If Congressman has been elected but not sworn in:
+<pre>
+| succeeding          =<!-- the name of the incumbent congressman -->
+</pre>
+
+====State Representative====
+{{For|examples of this code in use|Template:Infobox Officeholder/example#State Representative}}
+<pre>
+{{Infobox State Representative 
+| honorific-prefix    =
+| name                =
+| honorific-suffix    =
+| image               =
+| state_house         =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| district            =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| term_start          =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| term_end            =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| preceded            =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| succeeded           =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+</pre>
+''add [[#Personal data|personal data]]''
+
+For Representative from states that have an Assembly, instead of state_house use:
+<pre>
+| state_assembly      =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+</pre>
+
+For Representative from states that have a House of Delegates, instead of state_house use:
+<pre>
+| state_delegate      =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+</pre>
+
+For Representative from states that have a Legislature, instead of state_house use:
+<pre>
+| state_legislature   =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+</pre>
+
+If Representative served as Speaker of the State House add:
+<pre>
+| speaker             =<!-- number of office holder -->
+| state_house         =
+| term_start2         =
+| term_end2           =
+| predecessor2        =
+| successor2          =
+</pre>
+
+===U.S. Senators===
+====U.S. Senator====
+{{For|examples of this code in use|Template:Infobox Officeholder/example#US Senator}}
+<pre>
+{{Infobox Senator 
+| honorific-prefix    =
+| name                =
+| honorific-suffix    =
+| image               =
+| imagesize           =
+| jr/sr               =<!-- Can be repeated up to eight times by changing the number -->
+| state               =<!-- Can be repeated up to eight times by changing the number -->
+| term_start          =<!-- Can be repeated up to eight times by changing the number -->
+| term_end            =<!-- Can be repeated up to eight times by changing the number -->
+| preceded            =<!-- Can be repeated up to eight times by changing the number -->
+| succeeded           =<!-- Can be repeated up to eight times by changing the number -->
+</pre>
+''add [[#Personal data|personal data]]''
+
+<pre>
+| alongside           =<!-- the name of fellow senator -->
+</pre>
+
+If Senator has just been elected and is a Senator-Elect:
+<pre>
+| succeeding          =<!-- the name of the incumbent senator -->
+</pre>
+
+If Senator served as Senate Majority Leader add:
+<pre>
+| majorityleader3     =<!-- number of office holder -->
+| term_start3         =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| term_end3           =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| predecessor3        =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| successor3          =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+</pre>
+
+If Senator served as Congressman add:
+<pre>
+| state3              =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| district3           =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| term_start3         =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| term_end3           =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| preceded3           =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| succeeded3          =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+</pre>
+
+====State Senator====
+{{For|examples of this code in use|Template:Infobox Officeholder/example#State Senator}}
+<pre>
+{{Infobox State Senator 
+| honorific-prefix    =
+| name                =
+| honorific-suffix    =
+| image               =
+| state_senate        =<!-- Can be repeated up to eight times by changing the number -->
+| district            =<!-- Can be repeated up to eight times by changing the number -->
+| term_start          =<!-- Can be repeated up to eight times by changing the number -->
+| term_end            =<!-- Can be repeated up to eight times by changing the number -->
+| preceded            =<!-- Can be repeated up to eight times by changing the number -->
+| succeeded           =<!-- Can be repeated up to eight times by changing the number -->
+</pre>
+''add [[#Personal data|personal data]]''
+
+If State Senator served as Majority Leader of the State Senate add:
+<pre>
+| majority_leader3    =<!-- number of office holder -->
+| term_start3         =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| term_end3           =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| predecessor3        =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| successor3          =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+</pre>
+
+
+If State Senator served as Minority Leader of the State Senate add:
+<pre>
+| minority_leader3    =<!-- number of office holder -->
+| term_start3         =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| term_end3           =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| predecessor3        =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| successor3          =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+</pre>
+
+If State Senator served as Majority Floor Leader of the State Senate add:
+<pre>
+| majority_leader3    =<!-- number of office holder -->
+| term_start3         =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| term_end3           =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| predecessor3        =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| successor3          =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+</pre>
+
+If State Senator served as Minority Floor Leader of the State Senate add:
+<pre>
+| minority_leader3    =<!-- number of office holder -->
+| term_start3         =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| term_end3           =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| predecessor3        =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+| successor3          =<!-- Can be repeated up to seven times by adding a number, start at 3 -->
+</pre>
+
+===Personal data===
+Place this underneath the template
+<pre>
+| birth_date          =
+| birth_place         =
+| death_date          =
+| death_place         =
+| nationality         =
+| party               =
+| otherparty          = <!--For additional political affiliations -->
+| spouse              =
+| relations           =
+| children            =
+| residence           =
+| alma_mater          =
+| occupation          =
+| profession          =
+| religion            =
+| signature           =
+| website             =
+| footnotes           =
+}}
+</pre>
+
+<includeonly>
+<!--Categories-->
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+[[Category:People infobox templates|Officeholder]]
+[[Category:Politics infobox templates|Officeholder]]
+
+<!--Other languages-->
+[[ast:Plantilla:Info presidentes]]
+[[bg:Шаблон:Президент инфо]]
+[[bs:Šablon:Infokutija predsjednik]]
+[[cs:Šablona:Infobox PrezidentUSA]]
+[[cy:Nodyn:Arlywydd UDA]]
+[[eu:Txantiloi:Presidente infotaula]]
+[[fi:Malline:Hallitsija]]
+[[hu:Sablon:President infobox]]
+[[ms:Templat:Politik]]
+[[fr:Modèle:FichePresidentUS]]
+[[ga:Teimpléad:Bosca Sonraí Uachtaráin]]
+[[he:תבנית:נשיא ארצות הברית]]
+[[id:Templat:Politikus]]
+[[ja:Template:大統領]]
+[[lb:Template:Minister]]
+[[mk:Шаблон:Инфокутија државник]]
+[[nl:Sjabloon:Amerikaanse President]]
+[[no:Mal:Infoboks president USA]]
+[[nn:Mal:Infoboks leiar]]
+[[ps:Template:ولسمشربکس]]
+[[pl:Szablon:Polityk infobox]]
+[[ru:Шаблон:Правитель]]
+[[ro:Format:Functie oficiala]]
+[[simple:Template:Infobox President]]
+[[sk:Šablóna:Prezident USA]]
+[[sl:Predloga:Infopolje Predsednik]]
+[[sv:Mall:Regeringschef]]
+[[vi:Tiêu bản:Tổng thống]]
+[[ta:வார்ப்புரு:தகவற்சட்டம் தலைவர்கள்]]
+[[tr:Şablon:Bilgikutusu Başkan]]
+[[zh:Template:Infobox President]]
+</includeonly>
