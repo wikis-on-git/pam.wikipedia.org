@@ -1,0 +1,76 @@
+{{Infobox Commune de France||nomcommune=Outriaz
+|région=[[Rhône-Alpes]]
+|département=[[Ain]]
+|arrondissement= Nantua
+|canton=[[Canton of Brénod]]
+|insee=01282
+|cp=01430
+|maire=Claude Morel
+|mandat=2001-2008
+|intercomm= ''sans''
+|longitude=
+|latitude=
+|alt moy=680 m
+|alt mini=647 m
+|alt maxi=1103 m
+|hectares=591
+|km²=5,91
+|sans=264
+|date-sans=1999
+|dens=44|}}
+
+Ing '''Outriaz''' metung yang [[commune king France|commune]] king [[France|French]] ''[[Ding Departamentu ning France|departamentu]], '' ning [[Ain]]. Inyang [[1999]] atin yang [[populasyun]] a 264.
+
+
+==Demographic pamanalkus==
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)
+
+DateFormat = yyyy                                 
+Period     = manibat:1960 anggang:2010                 
+ScaleMajor = unit:banuang pilatan:10 start:1960
+
+PlotData =                          
+  bar:390 color:gray1 width:1       
+  from:start till:end             
+  bar:260 color:gray1              
+  from:start till:end            
+  bar:130 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1
+
+LineData =       
+  layer:front    
+  points:(48,123)(84,118)       color:blue    width:2 #1962 tot 1968  
+  points:(84,118)(100,109)      color:blue    width:2 #1975  
+  points:(100,109)(128,131)     color:blue    width:2 #1982  
+  points:(128,131)(160,140)     color:blue    width:2 #1990  
+  points:(160,140)(196,135)  color:blue    width:2 #1999     
+  points:(196,135)(228,138)     color:blue    width:2 #2004/5
+
+</timeline>
+
+==Lawen ya rin==
+*[[Communes of the Ain département]]
+
+{{RhoneAlpes-geo-stub}}
+
+{{coord|46|04|N|5|33|E|display=title|region:FR_type:city_source:GNS-enwiki}}
+
+[[Category:Ding Commune ning Ain]]
+
+[[ceb:Outriaz]]
+[[de:Outriaz]]
+[[en:Outriaz]]
+[[es:Outriaz]]
+[[fr:Outriaz]]
+[[it:Outriaz]]
+[[lmo:Outriaz]]
+[[nl:Outriaz]]
+[[pl:Outriaz]]
+[[vo:Outriaz]]
