@@ -32,8 +32,8 @@ Colors =
   id:gray1 value:gray(0.9)
 
 DateFormat = yyyy                                 
-Period     = manibat:1960 anggang:2010                 
-ScaleMajor = unit:banuang pilatan:10 start:1960
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:years increment:10 start:1960
 
 PlotData =                          
   bar:390 color:gray1 width:1       
