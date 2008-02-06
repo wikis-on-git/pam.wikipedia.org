@@ -1,0 +1,71 @@
+{{Infobox Commune de France||nomcommune=Ozan
+|région=[[Rhône-Alpes]]
+|département=[[Ain]]
+|arrondissement=Bourg-en-Bresse
+|canton=[[Canton of Pont-de-Vaux]]
+|insee=01284
+|cp=01190
+|maire=Gilbert Verdet 
+|mandat=2001-2008
+|intercomm=[[Communauté de communes de Pont-de-Vaux]]
+|longitude=
+|latitude=
+|alt moy=202 m
+|alt mini=170 m
+|alt maxi=205 m
+|hectares=660
+|km²=6,6
+|sans=467
+|date-sans=1999
+|dens=70|}}
+
+Ing '''Ozan''' metung yang [[commune king France|commune]] king [[France|French]] ''[[Ding Departamentu ning France|departamentu]], '' ning [[Ain]] king aslagan France.
+
+Inyang [[1999]] atin yang [[populasyun]] a 467.
+
+==Demographic evolution==
+
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)
+
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+
+PlotData =                          
+  bar:600 color:gray1 width:1       
+  from:start till:end             
+  bar:400 color:gray1              
+  from:start till:end            
+  bar:200 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1
+
+LineData =       
+  layer:front    
+  points:(48,118)(84,113)       color:blue    width:2 #1962 tot 1968  
+  points:(84,113)(100,107)      color:blue    width:2 #1975  
+  points:(100,107)(128,116)     color:blue    width:2 #1982  
+  points:(128,116)(160,136)     color:blue    width:2 #1990  
+  points:(160,136)(196,152)  color:blue    width:2 #1999     
+  points:(196,152)(228,165)     color:blue    width:2 #2004/5
+
+</timeline>
+
+==Lawen ye ing==
+*[[Communes of the Ain département]]
+
+{{RhoneAlpes-geo-stub}}
+
+{{coord|46|23|N|4|55|E|display=title|region:FR_type:city_source:GNS-enwiki}}
+
+[[Category:Ding Commune ning Ain]]
+
+[[en:Ozan, Ain]]
+[[fr:Ozan]]
+[[nl:Ozan]]
