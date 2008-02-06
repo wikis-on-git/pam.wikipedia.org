@@ -33,7 +33,7 @@ Colors =
 
 DateFormat = yyyy                                 
 Period     = from:1960 till:2010                 
-ScaleMajor = unit:years increment:10 start:1960
+ScaleMajor = unit:year increment:10 start:1960
 
 PlotData =                          
   bar:390 color:gray1 width:1       
