@@ -1,0 +1,75 @@
+{| class="infobox geography" style="width:23em;"
+|-
+<!----------Header---------->
+|colspan="2" class="mergedtoprow" style="line-height:1.25em; text-align:center; font-size:1.2em;"| {{{Header}}}
+|-
+<!----------Abbreviations---------->
+|colspan="2" style="text-align:center;"| Abbreviations: {{{Abbreviation}}}{{spaces|2}}<span style="font-size:90%;">([[pinyin]]: {{{AbbrevPinyin}}})</span>
+|-
+<!----------Map---------->
+|colspan="2" style="text-align:center;"| [[Image:{{{Map}}}|{{#if:{{{MapLabel|}}} |<!--then:-->{{{MapLabel}}}|<!--else:-->{{{Name}}} makapasala ya kening mapa}}]]
+|-
+<!----------Origin of name, Administration type---------->
+| '''Penibatan ning Lagyu'''           || {{{OriginOfName}}}</tr>
+| '''Administrasyun&nbsp;uri''' || {{{AdministrationType}}}</tr>
+|-
+<!----------Capital/largest city---------->
+| {{#ifeq:{{{Capital}}}|<!--equals:-->{{{LargestCity}}} |<!--then:-->'''Tungku'''<br/>(and largest city) {{!!}} {{{Capital}}} |<!--else:-->'''Capital''' {{!!}} {{{Capital}}}</tr> <tr><td>'''Largest city'''</td><td>{{{LargestCity|}}}</td></tr><!--end #if:-->}}
+|-
+<!----------CPC Committee Secretary---------->
+| '''[[Communist Party of China|CPC]]&nbsp;[[Committee|Ctte]]&nbsp;Secretary'''
+| {{{Secretary}}}
+|-
+<!----------Governor/Chairman---------->
+| '''{{#ifeq:{{{AdministrationType}}}|<!--equals:-->[[Autonomous region of China|Autonomous region]] |<!--then:-->Chairman |<!--else:-->Governor}}'''
+| {{{Governor}}}
+|-
+<!----------Area---------->
+| '''[[Lapad/DAgul]]'''
+| {{{Area}}}&nbsp;[[Kilometru kudradu|km²]] ([[List of China administrative divisions by area|{{{AreaRank}}}]])
+|-
+<!----------Population---------->
+| '''[[Populasyun]]''' ([[{{{PopYear}}}]])<br/>&nbsp;- [[Population density|Pangasiksik]]
+| {{{Pop}}} ([[List of China administrative divisions by population|{{{PopRank}}}]])<br/>{{{PopDensity}}}/km² ([[List of China administrative divisions by population density|{{{PopDensityRank}}}]])
+|-
+<!----------GDP---------->
+| '''[[Gross domestic product|GDP]]''' ([[{{{GDPYear}}}]])<br/>&nbsp;- per capita
+| [[Renminbi|CNY]]&nbsp;{{{GDP}}} ([[List of China administrative divisions by GDP|{{{GDPRank}}}]])<br/>[[Renminbi|CNY]]&nbsp;{{{GDPperCapita}}} ([[List of China administrative divisions by GDP per capita|{{{GDPperCapitaRank}}}]])
+|-
+<!----------HDI---------->
+| '''[[Human Development Index|HDI]]''' ([[{{{HDIYear}}}]])
+| {{{HDI}}}&nbsp;({{{HDICat}}})&nbsp;([[List of China administrative divisions by HDI|{{{HDIRank}}}]])
+|-
+<!----------Nationalities---------->
+| '''[[Nationalities of China|Major nationalities]]'''<!--Always?: (2000)--> ||  {{{Nationalities}}}
+|-
+<!----------Administrative divisions, ISO 3166-2---------->
+| '''[[Prefecture of China|Prefecture-level]]'''
+| {{#if:{{{Prefectures|}}} |<!--then:-->{{{Prefectures}}}&nbsp;divisions}}
+|-
+| '''[[County of China|County-antas]]'''
+| {{#if:{{{Counties|}}} |<!--then:-->{{{Counties}}}&nbsp;divisions}}
+|-
+| '''[[Township of China|Township-level]]'''†
+| {{#if:{{{Townships|}}} |<!--then:-->{{{Townships}}}&nbsp;divisions}}
+|-
+| '''[[ISO 3166-2]]''' || CN-{{{ISOAbbrev}}}
+|-
+<!----------Official website---------->
+|colspan="2" style="text-align:center;"| '''Official website'''<br/>{{{Website}}}
+|-
+<!----------Footnotes---------->
+|colspan="2"| {{smaller|'''Source for population and GDP data:'''}}<div style="padding-left:2em;"><small>《中国统计年鉴—2005》 ''China Statistical Yearbook 2005''<br/>ISBN 7503747382</div>{{smaller|'''Source for nationalities data:'''}}<div style="padding-left:2em;"><small>《2000年人口普查中国民族人口资料》 ''Tabulation on nationalities of 2000 population census of China''<br/>ISBN 7105054255</small></div>† <small>As at [[December 31]], [[2004]]</small>
+|-
+|}<noinclude>
+
+
+<!--Categories-->
+[[Category:Asian country subdivision infobox templates|China, People's Republic of]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+
+<!--Other languages-->
+[[fi:Malline:Kiinan provinssi]]
+[[hi:Template:ज्ञानसन्दूक चीन प्रदेश]]
+[[ms:Templat:Infobox PRC province]]
+</noinclude>
