@@ -25,7 +25,7 @@
 | {{{Governor}}}
 |-
 <!----------Area---------->
-| '''[[Lapad/DAgul]]'''
+| '''[[Lapad/Dagul]]'''
 | {{{Area}}}&nbsp;[[Kilometru kudradu|km²]] ([[List of China administrative divisions by area|{{{AreaRank}}}]])
 |-
 <!----------Population---------->
@@ -50,7 +50,7 @@
 | '''[[County of China|County-antas]]'''
 | {{#if:{{{Counties|}}} |<!--then:-->{{{Counties}}}&nbsp;divisions}}
 |-
-| '''[[Township of China|Township-level]]'''†
+| '''[[Township of China|Balen-antas]]'''†
 | {{#if:{{{Townships|}}} |<!--then:-->{{{Townships}}}&nbsp;divisions}}
 |-
 | '''[[ISO 3166-2]]''' || CN-{{{ISOAbbrev}}}
