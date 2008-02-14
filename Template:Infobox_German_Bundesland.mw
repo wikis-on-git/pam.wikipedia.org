@@ -17,7 +17,7 @@
 | align=center style="width:50%; border:0; vertical-align:middle;" | [[Image:{{{state_coa|Sin escudo.svg}}}|{{#ifexpr: 0{{{coa_size|}}} < 1 or 0{{{coa_size|}}} > 120 | 75px | {{{coa_size}}}px }}|Coat of arms of {{PAGENAME}}]] {{#if:{{{coa_link|}}} | <br/> [[{{{coa_link}}}|Details]] }}
 |}
 |- 
-| align="center" colspan="2" style="background:#D8E2EF;" |'''{{{map_text|Location}}}'''
+| align="center" colspan="2" style="background:#D8E2EF;" |'''{{{map_text|Karinan}}}'''
 |- 
 | colspan="2" style="text-align: center; padding: 0.1em 0.1em 0.1em 0.1em;;" | {{#if: {{{map|}}} | [[Image:{{{map}}}|<!-- DO NOT MODIFY --> {{#if:{{{map_size|}}} |{{{map_size}}}px|155px}}|{{{map_text|Mapa ning Germany, karinan ning {{PAGENAME}} highlighted}}}]] | [[Image:Unknown location in Germany.png|155px|Give correct map!]]}}
 |- class="mergedtoprow"
