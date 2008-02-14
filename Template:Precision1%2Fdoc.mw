@@ -1,0 +1,21 @@
+<includeonly>{{template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+
+{{tl|precision1}} is very similar to {{tl|precision}}, but the output range is only 0 to 6.  Thus the functinality of  &#123;{precision1}&#125; is a subset of the functionality of &#123;{precision}&#125;, but the advantage is that the template code is much shorter.  It is useful when one has to be cautious of template pre-expand limits.
+
+== Examples ==
+<table class="prettytable">
+{{template example row|111.12345678}}
+{{template example row|111.1234567}}
+{{template example row|111.123456}}
+{{template example row|111.12345}}
+{{template example row|111.1234}}
+{{template example row|111.123}}
+{{template example row|111.12}}
+{{template example row|111.1}}
+{{template example row|111}}
+{{template example row|110}}
+{{template example row|100}}
+{{template example row|111.10}}
+{{template example row|111.100}}
+{{template example row|111.1000}}
+</table>
