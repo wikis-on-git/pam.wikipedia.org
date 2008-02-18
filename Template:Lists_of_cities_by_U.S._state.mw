@@ -1,0 +1,13 @@
+{{United States topic
+<!-- passed through to Template:Navbox -->
+| name  = Lists of cities by U.S. state
+| title = [[List of cities, towns, and villages in the United States|Lists of cities in the United States]]
+| bodystyle  = text-align:left;
+| groupstyle = text-align:right; vertical-align:top;
+<!-- specific to Template:United States topic -->
+| prefix = List of cities in
+| exclude-isl = y
+}}<noinclude>
+
+[[Category:United States topic navigational boxes|People]]
+</noinclude>
