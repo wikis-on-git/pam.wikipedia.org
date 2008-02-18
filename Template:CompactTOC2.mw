@@ -1,0 +1,9 @@
+{| id="toc" class="toc" summary="Contents"
+|style="width:4.5em;"| '''{{MediaWiki:Toc}}'''
+| [[#top|Top]]&nbsp;'''·''' [[#0–9|0–9]]&nbsp;'''·''' [[#A|A]] [[#B|B]] [[#C|C]] [[#D|D]] [[#E|E]] [[#F|F]] [[#G|G]] [[#H|H]] [[#I|I]] [[#J|J]] [[#K|K]] [[#L|L]] [[#M|M]] [[#N|N]] [[#O|O]] [[#P|P]] [[#Q|Q]] [[#R|R]] [[#S|S]] [[#T|T]] [[#U|U]] [[#V|V]] [[#W|W]] [[#X|X]] [[#Y|Y]] [[#Z|Z]] __NOTOC__
+|}<noinclude>
+{{pp-template|small=yes}}
+==See also==
+* [[Template:CompactTOC8]] for a more full-featured version with many options.
+[[Category:TOC templates|{{PAGENAME}}]]
+</noinclude>
