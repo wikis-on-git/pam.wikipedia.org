@@ -1,0 +1,39 @@
+{{Navbox
+| name       = {{{name|United States topic}}}
+| title = {{#if:{{{title|}}} 
+  | {{{title}}}
+  | [[{{{prefix|}}} {{#if:{{{prefix|}}}| {{#if:{{{suffix|}}}||the}} }} United States{{{suffix|}}}]]
+  }}
+| image      = {{{image|}}}
+| state      = {{{state|<noinclude>no</noinclude>autocollapse}}}
+| titlestyle = {{{titlestyle|}}}
+| bodystyle  = {{{bodystyle|}}}
+| abovestyle = {{{abovestyle|}}}
+| belowstyle = {{{belowstyle|}}}
+| groupstyle = {{{groupstyle|}}}
+| liststyle  = {{{liststyle|}}}
+| evenstyle  = background:transparent;<noinclude><!--Avoid Navbox default of background:#f7f7f7; for even numbered list parameters, since this template may display list1,list3,etc. For same reason, don't pass-through values for evenstyle or oddstyle.--></noinclude>
+
+| above  = {{{above|}}}
+
+| group1 = {{{group1|[[U.S. state|States]]}}}
+| list1  = [[{{{prefix|}}} Alabama{{{suffix|}}}|Alabama]]{{·}} [[{{{prefix|}}} Alaska{{{suffix|}}}|Alaska]]{{·}} [[{{{prefix|}}} Arizona{{{suffix|}}}|Arizona]]{{·}} [[{{{prefix|}}} Arkansas{{{suffix|}}}|Arkansas]]{{·}} [[{{{prefix|}}} California{{{suffix|}}}|California]]{{·}} [[{{{prefix|}}} Colorado{{{suffix|}}}|Colorado]]{{·}} [[{{{prefix|}}} Connecticut{{{suffix|}}}|Connecticut]]{{·}} [[{{{prefix|}}} Delaware{{{suffix|}}}|Delaware]]{{·}} [[{{{prefix|}}} Florida{{{suffix|}}}|Florida]]{{·}} [[{{{prefix|}}} {{{GA|Georgia (U.S. state)}}}{{{suffix|}}}|Georgia]]{{·}} [[{{{prefix|}}} Hawaii{{{suffix|}}}|Hawaii]]{{·}} [[{{{prefix|}}} Idaho{{{suffix|}}}|Idaho]]{{·}} [[{{{prefix|}}} Illinois{{{suffix|}}}|Illinois]]{{·}} [[{{{prefix|}}} Indiana{{{suffix|}}}|Indiana]]{{·}} [[{{{prefix|}}} Iowa{{{suffix|}}}|Iowa]]{{·}} [[{{{prefix|}}} Kansas{{{suffix|}}}|Kansas]]{{·}} [[{{{prefix|}}} Kentucky{{{suffix|}}}|Kentucky]]{{·}} [[{{{prefix|}}} Louisiana{{{suffix|}}}|Louisiana]]{{·}} [[{{{prefix|}}} Maine{{{suffix|}}}|Maine]]{{·}} [[{{{prefix|}}} Maryland{{{suffix|}}}|Maryland]]{{·}} [[{{{prefix|}}} Massachusetts{{{suffix|}}}|Massachusetts]]{{·}} [[{{{prefix|}}} Michigan{{{suffix|}}}|Michigan]]{{·}} [[{{{prefix|}}} Minnesota{{{suffix|}}}|Minnesota]]{{·}} [[{{{prefix|}}} Mississippi{{{suffix|}}}|Mississippi]]{{·}} [[{{{prefix|}}} Missouri{{{suffix|}}}|Missouri]]{{·}} [[{{{prefix|}}} Montana{{{suffix|}}}|Montana]]{{·}} [[{{{prefix|}}} Nebraska{{{suffix|}}}|Nebraska]]{{·}} [[{{{prefix|}}} Nevada{{{suffix|}}}|Nevada]]{{·}} [[{{{prefix|}}} New Hampshire{{{suffix|}}}|New&nbsp;Hampshire]]{{·}} [[{{{prefix|}}} New Jersey{{{suffix|}}}|New&nbsp;Jersey]]{{·}} [[{{{prefix|}}} New Mexico{{{suffix|}}}|New&nbsp;Mexico]]{{·}} [[{{{prefix|}}} New York{{{suffix|}}}|New&nbsp;York]]{{·}} [[{{{prefix|}}} North Carolina{{{suffix|}}}|North&nbsp;Carolina]]{{·}} [[{{{prefix|}}} North Dakota{{{suffix|}}}|North&nbsp;Dakota]]{{·}} [[{{{prefix|}}} Ohio{{{suffix|}}}|Ohio]]{{·}} [[{{{prefix|}}} Oklahoma{{{suffix|}}}|Oklahoma]]{{·}} [[{{{prefix|}}} Oregon{{{suffix|}}}|Oregon]]{{·}} [[{{{prefix|}}} Pennsylvania{{{suffix|}}}|Pennsylvania]]{{·}} [[{{{prefix|}}} Rhode Island{{{suffix|}}}|Rhode&nbsp;Island]]{{·}} [[{{{prefix|}}} South Carolina{{{suffix|}}}|South&nbsp;Carolina]]{{·}} [[{{{prefix|}}} South Dakota{{{suffix|}}}|South&nbsp;Dakota]]{{·}} [[{{{prefix|}}} Tennessee{{{suffix|}}}|Tennessee]]{{·}} [[{{{prefix|}}} Texas{{{suffix|}}}|Texas]]{{·}} [[{{{prefix|}}} Utah{{{suffix|}}}|Utah]]{{·}} [[{{{prefix|}}} Vermont{{{suffix|}}}|Vermont]]{{·}} [[{{{prefix|}}} Virginia{{{suffix|}}}|Virginia]]{{·}} [[{{{prefix|}}} Washington{{{suffix|}}}|Washington]]{{·}} [[{{{prefix|}}} West Virginia{{{suffix|}}}|West&nbsp;Virginia]]{{·}} [[{{{prefix|}}} Wisconsin{{{suffix|}}}|Wisconsin]]{{·}} [[{{{prefix|}}} Wyoming{{{suffix|}}}|Wyoming]]
+
+| group2 = {{#if:{{{exclude-wdc|}}}|| {{nowrap|[[Federal district]]}} }}
+| list2  = {{#if:{{{exclude-wdc|}}}|| {{nowrap|[[{{{prefix|}}} {{{DC|Washington, D.C.}}}{{{suffix|}}}|Washington, D.C. <small>(District of Columbia)</small>]]}} }}
+
+| group3 = {{#if:{{{exclude-ter|}}}|| {{nowrap|[[Insular area|Insular areas]]}} }}
+| list3  = {{#if:{{{exclude-ter|}}}|| [[{{{prefix|}}} American Samoa{{{suffix|}}}|American&nbsp;Samoa]]{{·}} [[{{{prefix|}}} Guam{{{suffix|}}}|Guam]]{{·}} [[{{{prefix|}}} {{#if:{{{prefix|}}}|{{#if:{{{suffix|}}}||the}}}} Northern Mariana Islands{{{suffix|}}}|Northern&nbsp;Mariana&nbsp;Islands]]{{·}} [[{{{prefix|}}} Puerto Rico{{{suffix|}}}|Puerto&nbsp;Rico]]{{·}} [[{{{prefix|}}} {{#if:{{{prefix|}}}|{{#if:{{{suffix|}}}||the}}}} United States Virgin Islands{{{suffix|}}}|U.S.&nbsp;Virgin&nbsp;Islands]] }}
+
+| group4 = {{#if:{{{exclude-isl|}}}|| {{nowrap|[[United States Minor Outlying Islands|Outlying islands]]}} }}
+| list4  = {{#if:{{{exclude-isl|}}}|| [[{{{prefix|}}} Baker Island{{{suffix|}}}|Baker&nbsp;Island]]{{·}} [[{{{prefix|}}} Howland Island{{{suffix|}}}|Howland&nbsp;Island]]{{·}} [[{{{prefix|}}} Jarvis Island{{{suffix|}}}|Jarvis&nbsp;Island]]{{·}} [[{{{prefix|}}} Johnston Atoll{{{suffix|}}}|Johnston&nbsp;Atoll]]{{·}} [[{{{prefix|}}} Kingman Reef{{{suffix|}}}|Kingman&nbsp;Reef]]{{·}} [[{{{prefix|}}} Midway Atoll{{{suffix|}}}|Midway&nbsp;Atoll]]{{·}} [[{{{prefix|}}} Navassa Island{{{suffix|}}}|Navassa&nbsp;Island]]{{·}} [[{{{prefix|}}} Palmyra Atoll{{{suffix|}}}|Palmyra&nbsp;Atoll]]{{·}} [[{{{prefix|}}} Serranilla Bank{{{suffix|}}}|Serranilla&nbsp;Bank]]{{·}}[[{{{prefix|}}} Wake Island{{{suffix|}}}|Wake&nbsp;Island]] }}
+
+| group5 = {{{group5|}}}
+| list5  = {{{list5|}}} 
+
+| below = {{{below|}}}
+
+}}<noinclude>
+{{template doc}}
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
+</noinclude>
