@@ -170,7 +170,7 @@
 }} }} }} }} }}<!-- ***** Geographical characteristics ***** -->
 {{#if:{{{area_total_km2|}}}{{{area_total_sq_mi|}}}{{{area_total_dunam|}}}{{{area_land_km2|}}}{{{area_land_sq_mi|}}}{{{area_water_km2|}}}{{{area_water_sq_mi|}}}{{{area_urban_km2|}}}{{{area_urban_sq_mi|}}}{{{area_metro_km2|}}}{{{area_blank1_km2|}}}{{{area_metro_sq_mi|}}}{{{area_blank1_sq_mi|}}}|
 	<tr <!-- ***** Area ***** --> class="mergedtoprow">
-		<td colspan="2">'''[[Area]]''' {{#if:{{{area_footnotes|}}}|{{{area_footnotes}}}}}</td>
+		<td colspan="2">'''[[Lapad/Dagul]]''' {{#if:{{{area_footnotes|}}}|{{{area_footnotes}}}}}</td>
 	</tr>
 {{#if:{{{area_total_km2|}}}{{{area_total_sq_mi|}}}{{{area_total_dunam|}}}|
 	<tr class="mergedrow">
@@ -189,7 +189,7 @@
 	</tr>
 {{#if:{{{area_land_km2|}}}{{{area_land_sq_mi|}}}|
 	<tr class="mergedrow">
-		<th>&nbsp;-&nbsp;Land</th>
+		<th>&nbsp;-&nbsp;Gabun</th>
 		<td>{{#switch:{{{subdivision_name|}}}|[[United States]]|[[United Kingdom]]|United States|United Kingdom|[[United States of America]]|United States of America|[[United States|United States of America]]|{{UK}}=
 {{#if:{{{area_land_sq_mi|}}}  |<!--THEN-->&nbsp;{{formatnum:{{{area_land_sq_mi| }}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_land_km2|}}}|{{{area_land_km2|}}}|{{#expr: {{{area_land_sq_mi| }}} * 2.589988110336 round 1}} }} }}&nbsp;km²)
 |<!--OR ELSE-->{{formatnum:{{#expr: {{{area_land_km2|}}} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_land_km2|}}}|{{{area_land_km2|}}}|{{#expr: {{{area_land_sq_mi| }}} * 2.589988110336 round 1}} }} }}&nbsp;km²) }} 
@@ -202,7 +202,7 @@
 	</tr>
 }}{{#if:{{{area_water_km2|}}}{{{area_water_sq_mi|}}}|
 	<tr class="mergedrow">
-		<th>&nbsp;- Water</th>
+		<th>&nbsp;- Danum</th>
 		<td>{{#switch:{{{subdivision_name|}}}|[[United States]]|[[United Kingdom]]|United States|United Kingdom|[[United States of America]]|United States of America|[[United States|United States of America]]|{{UK}}=
 {{#if:{{{area_water_sq_mi|}}} |<!--THEN-->&nbsp;{{formatnum:{{{area_water_sq_mi| }}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_water_km2|}}}|{{{area_water_km2| }}}|{{#expr: {{{area_water_sq_mi| }}} * 2.589988110336 round 1}} }} }}&nbsp;km²)
 |<!--OR ELSE-->{{formatnum:{{#expr: {{{area_water_km2| }}} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_water_km2|}}}|{{{area_water_km2| }}}|{{#expr: {{{area_water_sq_mi| }}} * 2.589988110336 round 1}} }} }}&nbsp;km²) }} 
@@ -268,7 +268,7 @@
 }} }}<!-- ***** Elevation ***** -->
 {{#if:{{{elevation_m|}}}{{{elevation_ft|}}}|
 	<tr class="mergedbottomrow">
-		<th>[[Elevation]] {{#if:{{{elevation_footnotes|}}}|{{{elevation_footnotes}}}}}</th>
+		<th>[[Katas]] {{#if:{{{elevation_footnotes|}}}|{{{elevation_footnotes}}}}}</th>
 		<td>{{#switch:{{{subdivision_name|}}}|[[United States]]|[[United Kingdom]]|United States|United Kingdom|[[United States of America]]|United States of America|[[United States|United States of America]]|{{UK}}=
 {{#if:{{{elevation_ft|}}} |<!--THEN-->&nbsp;{{formatnum:{{{elevation_ft}}} }}&nbsp;[[foot (unit of length)|ft]]&nbsp;({{formatnum:{{#if:{{{elevation_m|}}}|{{{elevation_m| }}}|{{#expr: {{{elevation_ft}}} * 0.3048 round 1}} }} }}&nbsp;[[metre|m]])
 |<!--OR ELSE-->{{formatnum:{{#expr: {{{elevation_m| }}} div 0.3048 round 0}} }}&nbsp;[[foot (unit of length)|ft]]&nbsp;({{formatnum:{{#if:{{{elevation_m|}}}|{{{elevation_m| }}}|{{#expr: {{{elevation_ft}}} * 0.3048 round 1}} }} }}&nbsp;[[metre|m]]) }} 
@@ -282,7 +282,7 @@
 }}<!-- ***** Population ***** -->
 {{#if:{{{population_total|}}}{{{population_urban|}}}{{{population_metro|}}}{{{population_blank1|}}}{{{population_blank2|}}}|
 	<tr class="mergedtoprow">
-		<td colspan="2">'''Population''' {{#if:{{{population_as_of|}}}|({{{population_as_of}}}){{#if:{{{population_footnotes|}}}|{{{population_footnotes}}}}}}}</td>
+		<td colspan="2">'''Populasyun''' {{#if:{{{population_as_of|}}}|({{{population_as_of}}}){{#if:{{{population_footnotes|}}}|{{{population_footnotes}}}}}}}</td>
 	</tr>
 {{#if:{{{population_total|}}}|
 	<tr class="mergedrow">
@@ -309,7 +309,7 @@
 	</tr>
 }}{{#if:{{{population_density_urban_sq_mi|}}}{{{population_density_urban_km2|}}}|
 	<tr class="mergedrow">
-		<th>&nbsp;- Urban Density
+		<th>&nbsp;- Balen Pangasiksik
 		<td>{{#switch:{{{subdivision_name|}}}|[[United States]]|[[United Kingdom]]|United States|United Kingdom|[[United States of America]]|United States of America|[[United States|United States of America]]|{{UK}}=
 {{#if:{{{population_density_urban_sq_mi|}}} |<!--THEN-->{{formatnum:{{{population_density_urban_sq_mi| }}}}}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_urban_km2|}}}|{{{population_density_urban_km2}}}|{{#expr: {{{population_density_urban_sq_mi| }}}div 2.589988110336 round 1}} }} }}/km²)
 |<!--OR ELSE-->{{formatnum:{{#expr: {{{population_density_urban_km2}}} * 2.589988110336 round 1}} }}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_urban_km2|}}}|{{{population_density_urban_km2}}}|{{#expr: {{{population_density_urban_sq_mi| }}}div 2.589988110336 round 1}} }} }}/km²) }} 
@@ -327,7 +327,7 @@
 	</tr>
 }}{{#if:{{{population_density_metro_sq_mi|}}}{{{population_density_metro_km2|}}}|
 	<tr class="mergedrow">
-		<th>&nbsp;- Metro Density</th>
+		<th>&nbsp;- Pangasiksik</th>
 		<td>{{#switch:{{{subdivision_name|}}}|[[United States]]|[[United Kingdom]]|United States|United Kingdom|[[United States of America]]|United States of America|[[United States|United States of America]]|{{UK}}=
 {{#if:{{{population_density_metro_sq_mi|}}}|<!--THEN-->{{formatnum:{{{population_density_metro_sq_mi| }}}}}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_metro_km2|}}}|{{{population_density_metro_km2}}}|{{#expr: {{{population_density_metro_sq_mi| }}}div 2.589988110336 round 1}} }} }}/km²)
 |<!--OR ELSE-->{{formatnum:{{#expr: {{{population_density_metro_km2}}} * 2.589988110336 round 1}} }}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_metro_km2|}}}|{{{population_density_metro_km2}}}|{{#expr: {{{population_density_metro_sq_mi| }}}div 2.589988110336 round 1}} }} }}/km²) }} 
@@ -345,7 +345,7 @@
 	</tr>
 }}{{#if:{{{population_density_blank1_km2|}}}{{{population_density_blank1_sq_mi|}}}|
 	<tr class="mergedrow">
-		<th>&nbsp;- {{{population_blank1_title|}}} Density</th>
+		<th>&nbsp;- {{{population_blank1_title|}}} Pangasiksik</th>
 		<td>{{#switch:{{{subdivision_name|}}}|[[United States]]|[[United Kingdom]]|United States|United Kingdom|[[United States of America]]|United States of America|[[United States|United States of America]]|{{UK}}=
 {{#if:{{{population_density_blank1_sq_mi|}}} |<!--THEN-->{{formatnum:{{{population_density_blank1_sq_mi}}} }}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_blank1_km2|}}}|{{{population_density_blank1_km2}}}|{{#expr: {{{population_density_blank1_sq_mi}}} div 2.589988110336 round 1}} }} }}/km²)
 |<!--OR ELSE-->{{formatnum:{{#expr: {{{population_density_blank1_km2}}} * 2.589988110336 round 1}} }}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_blank1_km2|}}}|{{{population_density_blank1_km2}}}|{{#expr: {{{population_density_blank1_sq_mi}}} div 2.589988110336 round 1}} }} }}/km²) }} 
@@ -382,7 +382,7 @@
 }} }}<!-- ***** Time Zone ***** -->
 {{#if:{{{timezone|}}}|
 	<tr class="mergedtoprow">
-		<th>[[Time zone]]</th>
+		<th>[[Oras zona]]</th>
 		<td>{{{timezone}}} ([[UTC{{{utc_offset}}}]])
 	</tr>
 {{#if:{{{timezone_DST|}}}|
@@ -399,7 +399,7 @@
 }}<!-- ***** Area Code(s) ***** -->
 {{#if:{{{area_code|}}}|
 	<tr class="mergedrow">
-		<th>Area code(s)</th>
+		<th>Karinan codiku(s)</th>
 		<td>{{{area_code}}}</td>
 	</tr>
 
@@ -407,7 +407,7 @@
 }}<!---------------Twin Cities--------------->
 {{#if:{{{twin1|}}}|
 	<tr <!-- ***** Twin Cities ***** --> class="mergedtoprow">
-		<td>'''[[List of twin towns and sister cities|Twin Cities]]'''</td>
+		<td>'''[[List of twin towns and sister cities|Kambal Lakanbalen]]'''</td>
 	</tr>
 }}{{#if:{{{twin1|}}}|
 	<tr class="mergedrow">
