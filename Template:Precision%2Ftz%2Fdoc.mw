@@ -1,0 +1,19 @@
+<includeonly>{{template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+
+This template, {{tl|precision/tz}}, returns the number of trailing zeroes after the decimal point.
+
+== Examples ==
+<table class="prettytable">
+{{template example row|123}}
+{{template example row|123.}}
+{{template example row|123.0}}
+{{template example row|123.4}}
+{{template example row|123.40}}
+{{template example row|123.000}}
+{{template example row|123.4000}}
+{{template example row|100}}
+{{template example row|100.}}
+</table>
+<includeonly>
+[[Category:Mathematical function templates|{{PAGENAME}}]] 
+</includeonly>
