@@ -1,0 +1,50 @@
+<includeonly>{{template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+
+==Usage==
+Simply place the following code in the header area of [[Wikipedia: NavFrame#Collapsible tables|collapsible tables]] to add left justified <small>{{nowrap|v • d • e}}</small> navigational functionality:
+
+<pre>{{Tnavbar-collapsible| Heading wikitext |{{subst:PAGENAME}}}}</pre>
+
+===Parameters===
+
+====Mandatory====
+; 1 : (the first unnamed parameter) Text that appears centered in the titlebar (the top bar).
+; 2 : (the second unnamed parameter) The name of the template, which is needed for the "<small>{{nowrap|view • talk • edit}}</small>" links to work properly on all of the pages where the template is used on. You can use <code><nowiki>{{subst:PAGENAME}}</nowiki></code> as a shortcut for this value.
+
+====Optional====
+; plain : If set to <code>plain=1</code> then <small>{{nowrap|v • d • e}}</small> will be expanded to the longer form of <small>view • talk • edit</small>.
+; fontcolor : Specifies the title text color and the link color of the <small>{{nowrap|v • d • e}}</small>.
+
+===Note to editors with access to this template===
+This template is likely represented across <span class="plainlinks">[{{fullurl:Special:Whatlinkshere/{{NAMESPACEE}}:{{BASEPAGENAMEE}}|limit=5000}} '''tens of thousands''' of pages]</span>, so please tread lightly when editing here.
+
+==See also==
+;{{tl|Tnavbar}}: This template [[Wikipedia:Transclusion|transcludes]] tnavbar, the source is more customizable.
+;{{tl|tnavbar-header}}: Positions <small>v • d • e</small> on the right edge of the line, often used in non-collapsible navbox heading.
+;{{tl|Tnavbar-navframe}}: For use in conjunction with [[Wikipedia:NavFrame|Navframe div]]s, positions <small>v • d • e</small> opposite of the [hide]/[show] feature.
+
+Make use of meta-template to reduce code bloat and simplify editing:
+{{Navigational templates}}
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Internal link templates|{{PAGENAME}}]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[bg:Шаблон:tnavbar-collapsible]]
+[[cy:Nodyn:Bar llywio-ehangu]]
+[[da:Skabelon:Tnavbar-collapsible]]
+[[hu:Sablon:Navifejléc-kinyit]]
+[[id:Templat:Tnavbar-collapsible]]
+[[is:Template:Tnavbar-collapsible]]
+[[ja:Template:Tnavbar-collapsible]]
+[[ko:틀:안내 참조-접이식]]
+[[lv:Veidne:Tnavbar-collapsible]]
+[[ms:Templat:Tnavbar-collapsible]]
+[[ro:Format:Tnavbar-collapsible/doc]]
+[[sl:Predloga:Prednavmeni-skrčljivo]]
+[[sq:Stampa:Tnavbar-collapsible]]
+[[tr:Şablon:Tnavbar-collapsible]]
+
+</includeonly>
