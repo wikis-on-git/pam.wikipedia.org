@@ -1,0 +1,33 @@
+{{Navbox
+|name  = EMSpectrum
+|title = [[Electromagnetic spectrum]]
+|liststyle  = line-height:1.5em;
+|groupstyle = background:lavender;
+
+|abovestyle = line-height:1.3em; padding:0.75em;
+|above = ''<big>←</big>&nbsp;shorter wavelengths{{spaces|7}}longer wavelengths&nbsp;<big>→</big>''<br />
+'''[[Gamma ray]]s{{·}} [[X-ray]]s{{·}} [[Ultraviolet]]{{·}} [[Visible spectrum|Visible]]{{·}} [[Infrared]]{{·}} [[Terahertz radiation]]{{·}} [[Microwave]]{{·}} [[Radio waves|Radio]]'''
+
+|group2 = [[Visible spectrum|Visible (optical)]]
+|list2  = [[Violet (color)|Violet]]{{·}} <!--No indigo please-->[[Blue]]{{·}} [[Green]]{{·}} [[Yellow]]{{·}} [[Orange (colour)|Orange]]{{·}} [[Red]]
+
+|group3 = [[Microwave]]s
+|list3  = [[W band]]{{·}} [[V band]]{{·}} [[Ka band|K<sub>a</sub> band]]{{·}} [[K band]]{{·}} [[Ku band|K<sub>u</sub> band]]{{·}} [[X band]]{{·}} [[C band]]{{·}} [[S band]]{{·}} [[L band]]
+
+|group4 = [[Radio spectrum|Radio]]
+|list4  = [[Extremely high frequency|EHF]]{{·}} [[Super high frequency|SHF]]{{·}} [[Ultra high frequency|UHF]]{{·}} [[Very high frequency|VHF]]{{·}} [[High frequency|HF]]{{·}} [[medium frequency|MF]]{{·}} [[low frequency|LF]]{{·}} [[Very low frequency|VLF]]{{·}} [[Ultra low frequency|ULF]]{{·}} [[Super low frequency|SLF]]{{·}} [[Extremely low frequency|ELF]]
+
+|group5 = [[Wavelength|Wavelength types]]
+|list5  = [[Microwave]]{{·}} [[Shortwave]]{{·}} [[Mediumwave]]{{·}} [[Longwave]]
+}}<noinclude>
+
+[[Category:Physics navigation templates|{{PAGENAME}}]]
+[[Category:Applied science and technology-related navigation templates|{{PAGENAME}}]]
+
+[[ml:ഫലകം:EMSpectrum]]
+[[ja:Template:電磁波]]
+[[pl:Szablon:Widmo elektromagnetyczne]]
+[[pt:Predefinição:Espectro eletromagnético]]
+[[ro:Format:SpectruEM]]
+[[ru:Шаблон:EMSpectrum]]
+</noinclude>
