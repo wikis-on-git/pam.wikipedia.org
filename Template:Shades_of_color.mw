@@ -1,0 +1,185 @@
+<includeonly>{| class="navbox collapsible" <!-- allow a parameter to add/remove autocollapsible -->
+|-
+! colspan="10" style="background:{{{bgcolor|{{{color}}}}}}; color:{{{textcolor|white}}};" | {{tnavbar-collapsible|1=[[:Category:Shades of {{{catcolorname|{{{colorname|{{{color}}}}}}}}}|<span style="color:{{{textcolor|white}}};">Shades of {{{colorname|{{{color}}}}}}</span>]]|2=Shades of {{{colorname|{{{color}}}}}}|fontcolor={{{textcolor|white}}}}}
+|-valign="bottom" align="center"
+{{#if:{{{color1|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article1|{{{name1|{{{color1}}}}}}}}}|{{{name1|{{{color1}}}}}}]]
+{{#if:{{{color2|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article2|{{{name2|{{{color2}}}}}}}}}|{{{name2|{{{color2}}}}}}]]
+{{#if:{{{color3|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article3|{{{name3|{{{color3}}}}}}}}}|{{{name3|{{{color3}}}}}}]]
+{{#if:{{{color4|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article4|{{{name4|{{{color4}}}}}}}}}|{{{name4|{{{color4}}}}}}]]
+{{#if:{{{color5|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article5|{{{name5|{{{color5}}}}}}}}}|{{{name5|{{{color5}}}}}}]]
+{{#if:{{{color6|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article6|{{{name6|{{{color6}}}}}}}}}|{{{name6|{{{color6}}}}}}]]
+{{#if:{{{color7|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article7|{{{name7|{{{color7}}}}}}}}}|{{{name7|{{{color7}}}}}}]]
+{{#if:{{{color8|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article8|{{{name8|{{{color8}}}}}}}}}|{{{name8|{{{color8}}}}}}]]
+{{#if:{{{color9|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article9|{{{name9|{{{color9}}}}}}}}}|{{{name9|{{{color9}}}}}}]]
+{{#if:{{{color10|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article10|{{{name10|{{{color10}}}}}}}}}|{{{name10|{{{color10}}}}}}]]}}}}}}}}}}}}}}}}}}}}
+|-
+{{#if:{{{color1|}}}|{{!}}style="background:{{{color1}}}; "{{!}}&nbsp;
+{{#if:{{{color2|}}}|{{!}}style="background:{{{color2}}}; "{{!}}&nbsp;
+{{#if:{{{color3|}}}|{{!}}style="background:{{{color3}}}; "{{!}}&nbsp;
+{{#if:{{{color4|}}}|{{!}}style="background:{{{color4}}}; "{{!}}&nbsp;
+{{#if:{{{color5|}}}|{{!}}style="background:{{{color5}}}; "{{!}}&nbsp;
+{{#if:{{{color6|}}}|{{!}}style="background:{{{color6}}}; "{{!}}&nbsp;
+{{#if:{{{color7|}}}|{{!}}style="background:{{{color7}}}; "{{!}}&nbsp;
+{{#if:{{{color8|}}}|{{!}}style="background:{{{color8}}}; "{{!}}&nbsp;
+{{#if:{{{color9|}}}|{{!}}style="background:{{{color9}}}; "{{!}}&nbsp;
+{{#if:{{{color10|}}}|{{!}}style="background:{{{color10}}}; "{{!}}&nbsp;}}}}}}}}}}}}}}}}}}}}
+|-valign="bottom" align="center"
+{{#if:{{{color11|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article11|{{{name11|{{{color11}}}}}}}}}|{{{name11|{{{color11}}}}}}]]
+{{#if:{{{color12|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article12|{{{name12|{{{color12}}}}}}}}}|{{{name12|{{{color12}}}}}}]]
+{{#if:{{{color13|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article13|{{{name13|{{{color13}}}}}}}}}|{{{name13|{{{color13}}}}}}]]
+{{#if:{{{color14|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article14|{{{name14|{{{color14}}}}}}}}}|{{{name14|{{{color14}}}}}}]]
+{{#if:{{{color15|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article15|{{{name15|{{{color15}}}}}}}}}|{{{name15|{{{color15}}}}}}]]
+{{#if:{{{color16|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article16|{{{name16|{{{color16}}}}}}}}}|{{{name16|{{{color16}}}}}}]]
+{{#if:{{{color17|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article17|{{{name17|{{{color17}}}}}}}}}|{{{name17|{{{color17}}}}}}]]
+{{#if:{{{color18|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article18|{{{name18|{{{color18}}}}}}}}}|{{{name18|{{{color18}}}}}}]]
+{{#if:{{{color19|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article19|{{{name19|{{{color19}}}}}}}}}|{{{name19|{{{color19}}}}}}]]
+{{#if:{{{color20|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article20|{{{name20|{{{color20}}}}}}}}}|{{{name20|{{{color20}}}}}}]]}}}}}}}}}}}}}}}}}}}}
+|-
+{{#if:{{{color11|}}}|{{!}}style="background:{{{color11}}}; "{{!}}&nbsp;
+{{#if:{{{color12|}}}|{{!}}style="background:{{{color12}}}; "{{!}}&nbsp;
+{{#if:{{{color13|}}}|{{!}}style="background:{{{color13}}}; "{{!}}&nbsp;
+{{#if:{{{color14|}}}|{{!}}style="background:{{{color14}}}; "{{!}}&nbsp;
+{{#if:{{{color15|}}}|{{!}}style="background:{{{color15}}}; "{{!}}&nbsp;
+{{#if:{{{color16|}}}|{{!}}style="background:{{{color16}}}; "{{!}}&nbsp;
+{{#if:{{{color17|}}}|{{!}}style="background:{{{color17}}}; "{{!}}&nbsp;
+{{#if:{{{color18|}}}|{{!}}style="background:{{{color18}}}; "{{!}}&nbsp;
+{{#if:{{{color19|}}}|{{!}}style="background:{{{color19}}}; "{{!}}&nbsp;
+{{#if:{{{color20|}}}|{{!}}style="background:{{{color20}}}; "{{!}}&nbsp;}}}}}}}}}}}}}}}}}}}}
+|-valign="bottom" align="center"
+{{#if:{{{color21|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article21|{{{name21|{{{color21}}}}}}}}}|{{{name21|{{{color21}}}}}}]]
+{{#if:{{{color22|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article22|{{{name22|{{{color22}}}}}}}}}|{{{name22|{{{color22}}}}}}]]
+{{#if:{{{color23|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article23|{{{name23|{{{color23}}}}}}}}}|{{{name23|{{{color23}}}}}}]]
+{{#if:{{{color24|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article24|{{{name24|{{{color24}}}}}}}}}|{{{name24|{{{color24}}}}}}]]
+{{#if:{{{color25|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article25|{{{name25|{{{color25}}}}}}}}}|{{{name25|{{{color25}}}}}}]]
+{{#if:{{{color26|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article26|{{{name26|{{{color26}}}}}}}}}|{{{name26|{{{color26}}}}}}]]
+{{#if:{{{color27|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article27|{{{name27|{{{color27}}}}}}}}}|{{{name27|{{{color27}}}}}}]]
+{{#if:{{{color28|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article28|{{{name28|{{{color28}}}}}}}}}|{{{name28|{{{color28}}}}}}]]
+{{#if:{{{color29|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article29|{{{name29|{{{color29}}}}}}}}}|{{{name29|{{{color29}}}}}}]]
+{{#if:{{{color30|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article30|{{{name30|{{{color30}}}}}}}}}|{{{name30|{{{color30}}}}}}]]}}}}}}}}}}}}}}}}}}}}
+|-
+{{#if:{{{color21|}}}|{{!}}style="background:{{{color21}}}; "{{!}}&nbsp;
+{{#if:{{{color22|}}}|{{!}}style="background:{{{color22}}}; "{{!}}&nbsp;
+{{#if:{{{color23|}}}|{{!}}style="background:{{{color23}}}; "{{!}}&nbsp;
+{{#if:{{{color24|}}}|{{!}}style="background:{{{color24}}}; "{{!}}&nbsp;
+{{#if:{{{color25|}}}|{{!}}style="background:{{{color25}}}; "{{!}}&nbsp;
+{{#if:{{{color26|}}}|{{!}}style="background:{{{color26}}}; "{{!}}&nbsp;
+{{#if:{{{color27|}}}|{{!}}style="background:{{{color27}}}; "{{!}}&nbsp;
+{{#if:{{{color28|}}}|{{!}}style="background:{{{color28}}}; "{{!}}&nbsp;
+{{#if:{{{color29|}}}|{{!}}style="background:{{{color29}}}; "{{!}}&nbsp;
+{{#if:{{{color30|}}}|{{!}}style="background:{{{color30}}}; "{{!}}&nbsp;}}}}}}}}}}}}}}}}}}}}
+|-valign="bottom" align="center"
+{{#if:{{{color31|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article31|{{{name31|{{{color31}}}}}}}}}|{{{name31|{{{color31}}}}}}]]
+{{#if:{{{color32|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article32|{{{name32|{{{color32}}}}}}}}}|{{{name32|{{{color32}}}}}}]]
+{{#if:{{{color33|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article33|{{{name33|{{{color33}}}}}}}}}|{{{name33|{{{color33}}}}}}]]
+{{#if:{{{color34|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article34|{{{name34|{{{color34}}}}}}}}}|{{{name34|{{{color34}}}}}}]]
+{{#if:{{{color35|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article35|{{{name35|{{{color35}}}}}}}}}|{{{name35|{{{color35}}}}}}]]
+{{#if:{{{color36|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article36|{{{name36|{{{color36}}}}}}}}}|{{{name36|{{{color36}}}}}}]]
+{{#if:{{{color37|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article37|{{{name37|{{{color37}}}}}}}}}|{{{name37|{{{color37}}}}}}]]
+{{#if:{{{color38|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article38|{{{name38|{{{color38}}}}}}}}}|{{{name38|{{{color38}}}}}}]]
+{{#if:{{{color39|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article39|{{{name39|{{{color39}}}}}}}}}|{{{name39|{{{color39}}}}}}]]
+{{#if:{{{color40|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article40|{{{name40|{{{color40}}}}}}}}}|{{{name40|{{{color40}}}}}}]]}}}}}}}}}}}}}}}}}}}}
+|-
+{{#if:{{{color31|}}}|{{!}}style="background:{{{color31}}}; "{{!}}&nbsp;
+{{#if:{{{color32|}}}|{{!}}style="background:{{{color32}}}; "{{!}}&nbsp;
+{{#if:{{{color33|}}}|{{!}}style="background:{{{color33}}}; "{{!}}&nbsp;
+{{#if:{{{color34|}}}|{{!}}style="background:{{{color34}}}; "{{!}}&nbsp;
+{{#if:{{{color35|}}}|{{!}}style="background:{{{color35}}}; "{{!}}&nbsp;
+{{#if:{{{color36|}}}|{{!}}style="background:{{{color36}}}; "{{!}}&nbsp;
+{{#if:{{{color37|}}}|{{!}}style="background:{{{color37}}}; "{{!}}&nbsp;
+{{#if:{{{color38|}}}|{{!}}style="background:{{{color38}}}; "{{!}}&nbsp;
+{{#if:{{{color39|}}}|{{!}}style="background:{{{color39}}}; "{{!}}&nbsp;
+{{#if:{{{color40|}}}|{{!}}style="background:{{{color40}}}; "{{!}}&nbsp;}}}}}}}}}}}}}}}}}}}}
+|-valign="bottom" align="center"
+{{#if:{{{color41|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article41|{{{name41|{{{color41}}}}}}}}}|{{{name41|{{{color41}}}}}}]]
+{{#if:{{{color42|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article42|{{{name42|{{{color42}}}}}}}}}|{{{name42|{{{color42}}}}}}]]
+{{#if:{{{color43|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article43|{{{name43|{{{color43}}}}}}}}}|{{{name43|{{{color43}}}}}}]]
+{{#if:{{{color44|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article44|{{{name44|{{{color44}}}}}}}}}|{{{name44|{{{color44}}}}}}]]
+{{#if:{{{color45|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article45|{{{name45|{{{color45}}}}}}}}}|{{{name45|{{{color45}}}}}}]]
+{{#if:{{{color46|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article46|{{{name46|{{{color46}}}}}}}}}|{{{name46|{{{color46}}}}}}]]
+{{#if:{{{color47|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article47|{{{name47|{{{color47}}}}}}}}}|{{{name47|{{{color47}}}}}}]]
+{{#if:{{{color48|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article48|{{{name48|{{{color48}}}}}}}}}|{{{name48|{{{color48}}}}}}]]
+{{#if:{{{color49|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article49|{{{name49|{{{color49}}}}}}}}}|{{{name49|{{{color49}}}}}}]]
+{{#if:{{{color50|}}}|{{!}} width="5%" style="font-size:90%;" {{!}} [[{{{article50|{{{name50|{{{color50}}}}}}}}}|{{{name50|{{{color50}}}}}}]]}}}}}}}}}}}}}}}}}}}}
+|-
+{{#if:{{{color41|}}}|{{!}}style="background:{{{color41}}}; "{{!}}&nbsp;
+{{#if:{{{color42|}}}|{{!}}style="background:{{{color42}}}; "{{!}}&nbsp;
+{{#if:{{{color43|}}}|{{!}}style="background:{{{color43}}}; "{{!}}&nbsp;
+{{#if:{{{color44|}}}|{{!}}style="background:{{{color44}}}; "{{!}}&nbsp;
+{{#if:{{{color45|}}}|{{!}}style="background:{{{color45}}}; "{{!}}&nbsp;
+{{#if:{{{color46|}}}|{{!}}style="background:{{{color46}}}; "{{!}}&nbsp;
+{{#if:{{{color47|}}}|{{!}}style="background:{{{color47}}}; "{{!}}&nbsp;
+{{#if:{{{color48|}}}|{{!}}style="background:{{{color48}}}; "{{!}}&nbsp;
+{{#if:{{{color49|}}}|{{!}}style="background:{{{color49}}}; "{{!}}&nbsp;
+{{#if:{{{color50|}}}|{{!}}style="background:{{{color50}}}; "{{!}}&nbsp;}}}}}}}}}}}}}}}}}}}}
+|-
+|}</includeonly><noinclude>
+
+== Note ==
+
+This template is used to generate shades of color navigation templates.
+
+== Sample ==
+
+<nowiki>{{</nowiki>Shades of color<br>
+|color=Green<br>
+|color1=Green<br>
+|color2=Red<br>
+|color3=Violet<br>
+|color4=Purple<br>
+|color5=Brown<br>
+|color6=Cyan<br>
+|color7=Black<br>
+|color8=Orange<br>
+|color9=White<br>
+|color10=Yellow<br>
+|color11=Blue<br>
+|color12=Magenta<nowiki>}}</nowiki>
+{{Shades of color
+|color=Green
+|color1=Green
+|color2=Red
+|color3=Violet
+|color4=Purple
+|color5=Brown
+|color6=Cyan
+|color7=Black
+|color8=Orange
+|color9=White
+|color10=Yellow
+|color11=Blue
+|color12=Magenta}}
+
+== Parameters ==
+
+{| class="wikitable"
+! colspan="2" style="text-align: center;" | Global parameters
+|-
+!color
+|Base color of the template.
+|-
+!bgcolor
+|(Optional) Color used as the background color of the title bar. Defaults to the color parameter.
+|-
+!textcolor
+|(Optional) Color used for the title text. Defaults to white.
+|-
+!colorname
+|(Optional) Name of main shade, defaults to the color parameter.
+|-
+!catcolorname
+|(Optional) Color name in the Category:Shades of ..., defaults to the color parameter.
+|-
+! colspan="2" style="text-align: center;" | Per shade parameters (N may be 1 to 50)
+|-
+!colorN
+|Color used as the background of the swatch. May be a hexcode.
+|-
+!nameN
+|(Optional) Name of the color swatch. Defaults to the colorN parameter.
+|-
+!articleN
+|(Optional) Name of the article for the shade. Defaults to the nameN parameter or if that is not set colorN.
+|-
+|}
+[[pt:Predefinção:Sombras de cor]]
+</noinclude>
