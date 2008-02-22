@@ -1,0 +1,168 @@
+<!-- with a width of 260px, each entry for the color blue can fit on a single line
+:Not at all font sizes. It can never be assumed that text will have a fixed pixel size. I changed it to 21em. This makes all entries for the color blue fit on a single line, at all tested font sizes. [[User:Gerbrant|Shinobu]]
+-->{| class="toccolours" style="float:right; width:21em; clear:right; margin: 0em 0em 1em 1em;"
+|-
+! colspan="3" style="text-align: center; background-color:#{{{bgcolor|{{{hex}}}}}}; color:{{{textcolor|inherit}}};" | {{{title}}}
+|-
+{{#ifeq:{{{pic|1}}}|{{{pic|2}}}|! style="text-align:center;" colspan="3" {{!}} [[{{{pic}}}|none|250px]]}}
+|-
+{{#ifeq:{{{wavelength|1}}}{{{frequency|1}}}|{{{wavelength|2}}}{{{frequency|2}}}|
+{{!}} colspan="3" style="height:25px; text-align: center;" {{!}} &mdash; [[Spectral color|Spectral coordinates]] &mdash;}}
+|-
+{{#ifeq:{{{wavelength|1}}}|{{{wavelength|2}}}|! style="text-align:left;" colspan="2" {{!}} [[Wavelength]]
+{{!}} {{{wavelength}}} [[Nanometre|nm]]}}
+|-
+{{#ifeq:{{{frequency|1}}}|{{{frequency|2}}}|! style="text-align:left;" colspan="2" {{!}} [[Frequency]]
+{{!}} {{{frequency}}} [[Terahertz|THz]]}}
+|-
+{{#ifeq:{{{symbolism|1}}}|{{{symbolism|2}}}|
+{{!}} colspan="3" style="height:25px; text-align: center;" {{!}} &mdash; Commonly represents &mdash;
+{{!}}-
+{{!}} colspan="3" style="text-align: left;" {{!}} {{{symbolism}}}
+}}
+|-
+| colspan="3" style="height:25px; text-align: center;" | <span style="position:relative; float:right; font-size:70%;"><imagemap>Image:Information-silk.png|About these coordinates
+rect 0 0 50 50 [[Wikipedia:WikiProject Color/Normalized Color Coordinates|About these coordinates]]
+desc none</imagemap></span>&mdash; {{ #ifeq:{{lc:{{{spelling}}}}}|colour|Colour|Color}} coordinates &mdash;
+|-
+{{#ifeq:{{{r|1}}}|{{{r|2}}}|! style="text-align:left;" colspan="2" {{!}} [[web colors#Hex triplet|Hex triplet]]
+{{!}} #{{{hex}}}}}
+|-
+{{#ifeq:{{{r|1}}}|{{{r|2}}}|! style="text-align:left;" {{!}} {{#ifeq:{{{sRGB|1}}}|{{{sRGB|2}}}|[[sRGB color space|sRGB]]|{{{rgbspace|[[RGB color model|RGB]]}}}}}<sup>'''B'''</sup>
+{{!}} ([[red|r]], [[green|g]], [[blue|b]])
+{{!}} ({{{r}}}, {{{g}}}, {{{b}}})}}
+|-
+{{#ifeq:{{{cmyk|1}}}|{{{cmyk|2}}}|! style="text-align:left;" {{!}} [[CMYK color model|CMYK]]<sup>'''H'''</sup>
+{{!}} ([[cyan|c]], [[magenta|m]], [[yellow|y]], [[black|k]]) 
+{{!}} ({{{c}}}, {{{m}}}, {{{y}}}, {{{k}}})}}
+|-
+{{#ifeq:{{{h|1}}}|{{{h|2}}}|! style="text-align:left;" {{!}} [[HSV color space|HSV]]
+{{!}} ([[hue|h]], [[Saturation (color theory)|s]], [[Brightness|v]])
+{{!}} ({{{h}}}&deg;, {{{s}}}%, {{{v}}}%)}}
+|-
+! style="text-align:left;" colspan="2" | '''Source'''
+| {{{source|<sup><nowiki>[</nowiki>[[Wikipedia:WikiProject Color/Sources for Color Coordinates|Unsourced]]<nowiki>]</nowiki></sup><includeonly>[[Category:WikiProject Color articles needing infobox sources]]</includeonly>}}}
+<!--{{#ifeq:{{{source|1}}}|{{{source|2}}}|! style="text-align:left;" colspan="2" {{!}} '''Source'''
+{{!}} {{{source}}}}}-->
+|-
+{{#ifeq:{{{colorspace|1}}}|{{{colorspace|2}}}|! style="text-align:left;" colspan="2" {{!}} [[Color space]]
+{{!}} {{{colorspace}}}}}
+|-
+| colspan="3" style="text-align: center; font-size:smaller;" | {{#ifeq:{{{r|1}}}|{{{r|2}}}|'''B''': Normalized to <nowiki>[</nowiki>0&ndash;255] (byte)<br>}}{{#ifeq:{{{cmyk|1}}}|{{{cmyk|2}}}|'''H''': Normalized to <nowiki>[</nowiki>0&ndash;100] (hundred)<br>}}{{{caveat|}}}
+|}<noinclude>
+==Note==
+For articles standardised to british spelling, add the parameter <code>spelling=Colour</code>. The word "colour" is case-insensitive.
+
+Note that CMYK values are not included by default as there is no single way to obtain a CMYK quartet from an RGB triplet. Variations in paper and ink processes account for the various combinations of non-invertible matrices and look-up tables used in converting from RGB to CMYK. If you wish to obtain CMYK values for these colors, you will get appropriate conversion values from your graphics application when you define the type of ink and paper you will be printing on.
+see [[Talk:List_of_colors]]
+
+==Parameters==
+
+The following template parameters are supported.
+
+{| class="wikitable"
+! colspan="2" style="text-align: center;" | [[Spectral color]] Parameters (optional)
+|-
+! wavelength
+| The [[wavelength]] interval in [[Nanometre|nm]].
+|-
+! frequency
+| The [[frequency]] in [[Terahertz|THz]].
+|-
+! colspan="2" style="text-align: center;" | Symbolism (optional)
+|-
+! symbolism
+| What the color commonly represents. Multiple lines may be included using <nowiki><br></nowiki>
+|-
+! colspan="2" style="text-align: center;" | RGB Parameters (optional)
+|-
+! r 
+| The red coordinate in the RGB space. Enables the display of RGB coordinates.
+|-
+! g
+| The green coordinate in the RGB space.
+|-
+! b
+| The blue coordinate in the RGB space.
+|-
+! hex 
+| This parameter is also shown when RGB is specified.
+|-
+! rgbspace 
+| (Optional) Specifies the RGB space used. Replaces the default "[[RGB color model|RGB]]".
+|-
+! sRGB 
+| (Optional) Specifies that the RGB space is sRGB. Overrides rgbspace if used.
+|-
+! colspan="2" style="text-align: center;" |  CMYK Parameters (optional)
+|-
+! cmyk 
+| Enables the display of CMYK coordinates.
+|-
+! c 
+| Cyanic CMYK color space coordinate
+|-
+! m 
+| Magenta CMYK color space coordinate
+|-
+! y 
+| Yellow CMYK color space coordinate
+|-
+! k 
+| Black CMYK color space coordinate
+|-
+! colspan="2" style="text-align: center;" |  HSV Parameters (optional)
+|-
+! h 
+| Hue HSV color space coordinate. Enables the display of HSV coordinates.
+|-
+! s 
+| Saturation HSV color space coordinate
+|-
+! v 
+| Value HSV color space coordinate
+|-
+! colspan="2" style="text-align: center;" |  Other Parameters
+|-
+! bgcolor
+| (Optional) Color in hex format used for background behind the name of the color. Defaults to value specified by the hex parameter.
+|-
+! caveat 
+| (Optional) Additional text to display at the bottom of the infobox.
+|-
+! colorspace 
+| (Optional) Colorspace of this color.
+|-
+! hex 
+| Color in hex format, also used as default for bgcolor unless present. 
+|-
+! pic 
+| (Optional) Name of an image to display. Do not use wikicode: use the format <code>pic=Image:Example.jpg</code>
+|-
+! source 
+| Source for these color coordinates. See [[Wikipedia:WikiProject Color/Sources for Color Coordinates]]. 
+|-
+! spelling 
+| (Optional) For articles standardised to the british spelling this can be set to "Colour". The word "colour" is case-insensitive.
+|-
+! textcolor 
+| (Optional) Colour in which to show the name of the colour. Should be set to white if "hex" is a dark colour, or else not set.
+|-
+! title 
+| Name of the color
+|}
+
+[[Category:Infobox templates|Color]]
+[[Category:Templates using ParserFunctions]]
+
+[[az:Şablon:Məlumat Qutusu Rəng]]
+[[es:Plantilla:Infobox Color]]
+[[fa:الگو:رنگ]]
+[[fr:Modèle:Infobox Couleur]]
+[[ko:틀:색 정보]]
+[[ja:Template:Infobox color]]
+[[ro:Format:Cutie culori]]
+[[ru:Шаблон:Infobox color]]
+[[tr:Şablon:Bilgi Kutusu Renk]]
+[[zh-yue:Template:Infobox color]]
+</noinclude>
