@@ -1,0 +1,41 @@
+<includeonly>{{template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+This creates an entry in a table of counties in the United States. Features:
+
+==Normal usage== 
+'''<nowiki>{{</nowiki><code>Countyrow|Name= |N= |Num= |Seat= |Data1= |Data2= ... |Data6= |Population=|Area=</code><nowiki>}}</nowiki>'''<br />
+
+==Required parameters==
+*<code>Name=</code> is the name of the county without the word "County" as used in the link, e.g. [[Los Angeles County, California]] or [[Arlington County, Virginia]] you would use '''Name=Los Angeles''' or '''Name=Arlington''' etc.
+*<code>N=</code> is the two-digit [[Federal_Information_Processing_Standard_state_code|FIPS state code]] of the county's state, e.g. '''N=04''' for Arizona, '''N=10''' for Delaware, etc. The name of the state will be composed from this number.
+*<code>Num=</code> is the three-digit fips county code for that county, e.g. '''N=001''' or '''N=037''' etc.
+*<code>Seat=</code> is the county seat. The state's name is included automatically in the wikilink. Can be replaced with <code>noseat</code> parameter (see below)
+*<code>Population=</code> is the population of the county. This must be given as a raw number without any commas, as the etmplate formats this value using the {{tl|nts}} template.
+*<code>Area=</code> is the total area of the county:
+** If this is a raw number, then the template will assume its the area in square miles, format it with {{tl|nts}}, and also give the area in square kilometers.
+** If this isn't a raw number, then then the value is dsiplayed unaltered
+* A map is automically generated, using the information from the parameters given, with a size of 150px. See also <code>map</code> and <code>size</code> paramets below.
+
+==Optional parameters==
+*<code>Type=</code> Normally, the county link is of the form <code><nowiki>[['name' county, state|'name' county]]</nowiki></code>. If non-empty, then link becomes <code><nowiki>[['name' 'type', state|'name' 'type']]</nowiki></code>.
+**<code>Notype=yes</code> results in no addition being apended to the county name. (e.g. for City and County of Honolulu).
+*<code>Noseat=</code> is used when a county doesn't have one seat. The value of this parameter is displayed instead. (For example, a note about the lack of seat, or the details of multiple seats)
+*<code>Data1=</code>... <code>Data6=</code> up to six columsn of additional information can be included. Convention is to include (in the following order):
+*# The county's licence plate code ([[U.S._and_Canadian_license_plates#County-coded|where applicable]])
+*# County's creation date/year
+*# The county's origin (which counties it was formed out of) 
+*# The etymolgy of the county name
+*<code>Map=</code> is the name of the image to used for the county map when the autmatically generated version doesn't work. The <code>Image:</code> prefix must not be included. Default size is 150px.
+*<code>Size=</code> is used when 150px produces a map that is too big. Example: <code>Size=100px</code>
+
+==See also==
+*{{tl|Countytabletop}}
+
+For further help or information, see [[WP:COUNTYLISTS]]
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:County table templates|{{PAGENAME}}]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[ro:Format:Countyrow]]
+</includeonly>
