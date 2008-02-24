@@ -1,0 +1,40 @@
+{{documentation subpage}}
+__NOTOC__
+==Usage==
+ <nowiki>{{documentation subpage}}</nowiki>
+'''OR'''
+  <nowiki>{{documentation subpage|[[main page to link to]]|[[documentation to link to]]}}</nowiki>
+
+This template should be placed at the top of "/doc" pages. It changes output depending on where it is viewed:
+* On a "/doc" page, it displays a box explaining template documentation and links to the template page.
+* On other pages (ie, pages transcluding the "/doc" page), it notes that the documentation is transcluded from a subpage.
+
+==Functions==
+In addition to the output message, the template categorizes pages to [[:Category:Documentation subpages|Documentation subpages]] and defaults the [[m:Help:Categories#Sort order|sort key]] to the page name without namespace (ie, "Foo" on "Template:Foo", so it would be sorted in categories under 'F'). 
+
+==Lawen ya rin==
+* [[Wikipedia:Template documentation]] for how this template is used.
+{{ Documentation/doc/see also }}
+<includeonly>
+<!-- categories and interwiki links -->
+[[Category:Template documentation| {{PAGENAME}}]]
+[[Category:Template namespace templates]]
+
+[[bg:template:Директно гледана документация]]
+[[da:template:Template doc page viewed directly]]
+[[en:Template:Documentation subpage/doc]]
+[[es:template:Template doc page viewed directly]]
+[[fr:template:Template doc page viewed directly]]
+[[id:template:Dokumentasi templat dilihat langsung]]
+[[ka:template:თარგის ინფო გვერდის ხედვა პირდაპირ]]
+[[ml:ഫലകം:Template doc page transcluded]]
+[[nl:template:Sjabdoc direct]]
+[[ja:template:Documentation subpage]]
+[[pl:Szablon:Podstrona dokumentacji]]
+[[ro:template:Template doc page viewed directly]]
+[[simple:template:Template doc page viewed directly]]
+[[sl:template:Dokumentacijska podstran]]
+[[uk:template:Документація шаблона (безпосередня)]]
+[[zh:template:Template doc page viewed directly]]
+
+</includeonly>
