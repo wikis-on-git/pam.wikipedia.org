@@ -1,0 +1,146 @@
+<includeonly>{{esoteric}}{{template doc page transcluded}}</includeonly><noinclude>{{Template:Documentation subpage}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+<br/><span style="font-size:200%;">Tnavbar</span>{{spaces|2}}('''T'''emplate '''nav'''igation '''bar''')
+
+==Usage==
+Copyable examples when inside a given [[Wikipedia:Navigational templates|template]] adds Tnavbar navigational functionality:
+:<tt><nowiki>{{Tnavbar|{{subst:PAGENAME}}|mini=1}}</nowiki></tt> 
+:<tt><nowiki>{{Tnavbar|{{subst:PAGENAME}}|plain=1}}</nowiki></tt> 
+:<tt><nowiki>{{Tnavbar|{{subst:PAGENAME}}|mini=1|nodiv=1}}</nowiki></tt> 
+:<tt><nowiki>{{Tnavbar|{{subst:PAGENAME}}|plain=1|nodiv=1}}</nowiki></tt> 
+:<tt><nowiki>{{Tnavbar|{{subst:PAGENAME}}|miniv=1}}</nowiki></tt> 
+:<tt><nowiki>{{Tnavbar|{{subst:PAGENAME}}|viewplain=1}}</nowiki></tt> 
+:<tt><nowiki>{{Tnavbar|{{subst:PAGENAME}}|miniv=1|nodiv=1}}</nowiki></tt> 
+:<tt><nowiki>{{Tnavbar|{{subst:PAGENAME}}|viewplain=1|nodiv=1}}</nowiki></tt> 
+:<tt><nowiki>{{Tnavbar|{{subst:PAGENAME}}|fontcolor=green}}</nowiki></tt> 
+
+:The <code><nowiki>{{subst:PAGENAME}}</nowiki></code> will be substituted with the template's name when parsed by the servers.
+:<nowiki>{{Tnavbar|Tnavbar/doc}}</nowiki> gives: {{Tnavbar|Tnavbar/doc}}
+
+==Note to editors with edit access to this template==
+This template is represented across [[Special:Whatlinkshere/Template:Tnavbar|tens of thousands of pages]], so please tread lightly when editing here.  Conducting sufficient [[Template:Template sandbox|sandbox testing]] ([[Template:Tnavbar/Sandbox|Tnavbar specific]]) to establish the validity of edits relative to Tnavbar is '''strongly''' encouraged prior to attempting to integrate changes.
+
+==Examples==
+<pre>{{Tnavbar|Name of Template|mini= |nodiv= |fontcolor= }}</pre>
+
+=== Required parameters ===
+*<code><nowiki>{{Tnavbar|Name of Template}}</nowiki></code> the template name is required.
+
+=== Optional parameters ===
+{| class="wikitable"
+! Options !! Parameters !! Produces...
+|-
+! colspan="3" | Normal
+|-
+| Normal || <code><nowiki>{{tnavbar|Template Name}}</nowiki></code> || {{tnavbar|Tnavbar/doc}}
+|-
+| No "This box:" text. || <code><nowiki>{{tnavbar|Template Name|plain=1}}</nowiki></code> || {{tnavbar|Tnavbar/doc|plain=1}}
+|-
+| Good for "blending" into text. || <code><nowiki>{{tnavbar|Template Name|nodiv=1}}</nowiki></code> || Lorem {{tnavbar|Tnavbar/doc|nodiv=1}} Ipsum
+|-
+|Blended no "This box:" text. || <code><nowiki>{{tnavbar|Template Name|plain=1|nodiv=1}}</nowiki></code> || Lorem {{tnavbar|Tnavbar/doc|plain=1|nodiv=1}} Ipsum
+|-
+| For a color option. || <code><nowiki>{{tnavbar|Template Name|fontcolor=color}}</nowiki></code> || {{tnavbar|Tnavbar/doc|fontcolor=green}}
+|-
+! colspan="3" | Mini
+|-
+| Makes Tnavbar display in a mini version: || <code><nowiki>{{tnavbar|Template Name|mini=1}}</nowiki></code> || {{tnavbar|Tnavbar/doc|mini=1}}
+|-
+| Good for "blending" into text. || <code><nowiki>{{tnavbar|Template Name|mini=1|nodiv=1}}</nowiki></code> || Lorem {{tnavbar|Tnavbar/doc|mini=1|nodiv=1}} Ipsum
+|-
+! colspan="3" | View only
+|-
+| For a simpler access option. || <code><nowiki>{{tnavbar|Template Name|miniv=1}}</nowiki></code> || {{tnavbar|Tnavbar/doc|miniv=1}}
+|-
+| For a full simpler access option. || <code><nowiki>{{tnavbar|Template Name|viewplain=1}}</nowiki></code> || {{tnavbar|Tnavbar/doc|viewplain=1}}
+|}
+
+== Prepackaged ==
+;{{tl|tnavbar-header}}: Positions <small>v • d • e</small> on the right edge of the line, often used in non-collapsible navbox heading.
+;{{tl|Tnavbar-navframe}}: For use in conjunction with [[Wikipedia:NavFrame|Navframe div]]s, positions <small>v • d • e</small> opposite of the [hide]/[show] feature.
+;{{tl|Tnavbar-collapsible}}: For use in conjunction with [[Wikipedia: NavFrame#Collapsible tables|Collapsible tables]],floats <small>v • d • e</small> opposite of the [hide]/[show] feature.
+
+<br/>A list of meta-templates that may be used in place of custom navbox code follows.
+
+== See also ==
+{{Navigational templates}}
+
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Internal link templates|{{PAGENAME}}]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[ang:Template:Tnavbar-mini-nodiv]]
+[[ar:قالب:Tnavbar]]
+[[be:Шаблён:Tnavbar]]
+[[bn:Template:তথ্যছক-Tnavbar]]
+[[bpy:মডেল:Tnavbar]]
+[[ca:Plantilla:Tnavbar]]
+[[ceb:Template:Tnavbar-plain]]
+[[cv:Шаблон:Tnavbar]]
+[[da:Skabelon:Tnavbar]]
+[[el:Πρότυπο:Tnavbar-mini-nodiv]]
+[[es:Plantilla:Barnavp]]
+[[fa:الگو:نوارپیونددان]]
+[[fr:Modèle:Tnavbar]]
+[[fi:Malline:Tnavbar]]
+[[ga:Teimpléad:Tnavbar]]
+[[hi:Template:Tnavbar]]
+[[hr:Predložak:Tnavbar]]
+[[hu:Sablon:Tnavbar]]
+[[id:Templat:Tnavbar]]
+[[ilo:Template:Tnavbar]]
+[[ja:Template:Tnavbar]]
+[[ka:თარგი:Tnavbar]]
+[[kk:Үлгі:Tnavbar]]
+[[ko:틀:안내 참조]]
+[[kn:ಟೆಂಪ್ಲೇಟು:Tnavbar]]
+[[ku:Şablon:Tnavbar]]
+[[lmo:Template:Tnavbar]]
+[[lo:Template:Tnavbar]]
+[[lt:Šablonas:Tnavbar]]
+[[lv:Veidne:Tnavbar]]
+[[it:Template:Tnavbar]]
+[[is:Snið:Tnavbar]]
+[[mi:Template:Tnavbar]]
+[[mk:Шаблон:Tnavbar]]
+[[ml:Template:Tnavbar]]
+[[mn:Template:Tnavbar]]
+[[ms:Templat:Tnavbar]]
+[[mt:Template:Tnavbar]]
+[[mr:साचा:Tnavbar]]
+[[ne:Template:Tnavbar]]
+[[new:Template:Tnavbar]]
+[[nl:Sjabloon:Tnavbar]]
+[[no:Mal:Tnavbar]]
+[[nov:Template:Tnavbar]]
+[[oc:Modèl:Tnavbar]]
+[[pam:Template:Tnavbar]]
+[[pl:Szablon:Tnavbar]]
+[[ps:Template:Tnavbar]]
+[[pt:Predefinição:Tnavbar-mini-nodiv]]
+[[ro:Format:Tnavbar]]
+[[ru:Шаблон:Tnavbar]]
+[[sh:Үлгі:Tnavbar]]
+[[si:Template:Tnavbar]]
+[[simple:Template:Tnavbar]]
+[[sk:Šablóna:Tnavbar]]
+[[sl:Predloga:Prednavmeni]]
+[[sr:Шаблон:Tnavbar]]
+[[su:Citakan:Tnavbar]]
+[[fi:Malline:Tnavbar]]
+[[sv:Mall:Tnavbar]]
+[[ta:வார்ப்புரு:Tnavbar]]
+[[te:మూస:Tnavbar]]
+[[tg:Шаблон:Tnavbar]]
+[[th:แม่แบบ:Tnavbar]]
+[[tl:Template:Tnavbar]]
+[[tr:Şablon:Dçubuğu]]
+[[uk:Шаблон:Tnavbar]]
+[[ur:سانچہ:Tnavbar]]
+[[vi:Tiêu bản:Tnavbar]]
+[[yi:מוסטער:Tnavbar]]
+[[zh:Template:Tnavbar]]
+[[zh-yue:Template:Tnavbar]]
+</includeonly>
