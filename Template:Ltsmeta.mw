@@ -1,0 +1,29 @@
+<span class="plainlinksneverexpand">[[m:Template:{{{1|{{PAGENAME}}}}}|<!---
+----
+---->Template:{{ucfirst:{{{1|{{PAGENAME}}}}}}}]]&#160;<tt>(</tt><small><!---
+----
+---->[{{fullurl:m:Template:{{{1|{{PAGENAME}}}}}|action=edit}} edit]&#160;<!---
+----
+---->[[m:Template talk:{{{1|{{PAGENAME}}}}}|talk]]&#160;[{{fullurl:m:Special:<!---
+----
+---->Whatlinkshere/Template:{{{1|{{PAGENAME}}}}}|limit=500}} <!---
+----
+---->links]&#160;[{{fullurl:m:Template:{{{1|{{PAGENAME}}}}}|<!---
+----
+---->action=history}} history]</small><tt>)</tt></span> on <!---
+----
+---->[[m:Category:Template|Meta]]<noinclude><!---
+----
+---->
+----
+==Usage==
+This {{Tlxm|{{PAGENAME}}|''template name''}} shows links for a template also available on [[m:Category:Template|Meta]]. It's used for templates often copied from Meta to other sister projects, or vice versa.
+
+In general is a means of checking interwiki on the key parameters that may be affected by a change in the template page where used (i.e. '{PAGENAME}' is default), or which is specified by the first argument, if given one. 
+
+{{Lts/Doc|2}} <!-- transforming to common Doc page pattern usage page 
+---- the '|2' is for V=2, feeding interwikitmp-gpr vice '|1' for internal 
+---- link templates, '|3' for miscellaneous, etc. 
+--->
+[[Category:Interwiki link templates|{{PAGENAME}}]]
+</noinclude>
