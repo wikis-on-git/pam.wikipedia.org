@@ -1,0 +1,23 @@
+<includeonly>{{
+  #ifeq: {{lc:{{SUBPAGENAME}}}} | {{{override|doc}}}
+  | <!-- doc page -->
+</includeonly>{{
+    #ifeq: {{{doc-notice|show}}} | show
+    | <div class="messagebox" id="template_doc_page_viewed_directly" style="padding-left:1ex;">'''This is a [[Wikipedia:Template documentation|documentation]] [[Wikipedia:Subpages|subpage]] for {{{1|[[{{SUBJECTSPACE}}:{{BASEPAGENAME}}]]}}}''' <small>(see that page for the {{ #if: {{SUBJECTSPACE}} | {{lc:{{SUBJECTSPACE}}}} | article }} itself)</small>.<br />It contains usage information, [[Wikipedia:Categories|categories]] and other content that is not part of the original {{ #if: {{SUBJECTSPACE}} |{{lc:{{SUBJECTSPACE}}}} page|article}}. </div>
+  }}{{DEFAULTSORT:{{PAGENAME}}}}{{
+    #if: {{{inhibit|}}}
+    | <!-- skip -->
+    | [[Category:{{
+      #if: {{SUBJECTSPACE}}
+      | {{SUBJECTSPACE}}
+      | Article
+    }} documentation<noinclude>| </noinclude>]]
+  }}<includeonly>
+|<!-- if not on a /doc subpage, do nothing -->
+}}</includeonly><noinclude>
+
+{{pp-semi-template|small=yes}}
+----
+{{documentation}}<!--
+Add categories and interwikis to the /doc subpage, not here!
+--></noinclude>
