@@ -4,7 +4,7 @@
 |website = [http://www.houstontx.gov www.houstontx.gov]
 |image_skyline = Downtown_Houston_7.jpg
 |image_flag = Flag of Houston, Texas.png
-|image_seal = {{#ifeq:Houston, Texas|Houston, Texas|Seal of Houston, Texas.png|}}
+|image_seal = {{#ifeq:Houston, Texas|Houston, Texas||}}
 |image_map = HoustoninTexas2.PNG
 |map_caption = Location in the state of [[Texas]]
 |subdivision_type = [[Countries of the world|Country]]
