@@ -6,7 +6,7 @@
 -->{{#if:{{{template_name<includeonly>|</includeonly>}}}|
 <span style="float:left; text-align:left; width:6em;">{{Tnavbar | {{{template_name|<noinclude>US county navigation box</noinclude>}}} | mini=1 | nodiv=1 | fontcolor={{{text_color|}}} | style=color:{{{text_color|}}} }}</span>}}<!--
 
---><span style="font-size:115%">Municipalities and Communities of<br clear=left></span><span style="font-size:130%; font-weight:bold;">[[{{{county}}}, {{{state}}}|<span style="color:{{{text_color|}}}">{{{county}}}</span>]], [[{{#switch:{{{state}}}
+--><span style="font-size:115%">Balen ampong Communidad ning<br clear=left></span><span style="font-size:130%; font-weight:bold;">[[{{{county}}}, {{{state}}}|<span style="color:{{{text_color|}}}">{{{county}}}</span>]], [[{{#switch:{{{state}}}
 | Georgia = {{{state}}} (U.S. state)
 | #default = {{{state}}}
 }}|<span style="color:{{{text_color|}}}">{{{state}}}</span>]]</span><br clear=all><!--
