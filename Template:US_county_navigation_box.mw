@@ -13,8 +13,8 @@
 
 -->{{#if:{{{seat<includeonly>|</includeonly>}}}|
 {{#switch:{{{state}}}
-| Louisiana = [[Parish Seat|<span style="color:{{{text_color|}}}">Parish Seat</span>]]
-| #default  = [[County Seat|<span style="color:{{{text_color|}}}">County Seat</span>]]
+| Louisiana = [[Parish Seat|<span style="color:{{{text_color|}}}">Parish Tungku</span>]]
+| #default  = [[County Seat|<span style="color:{{{text_color|}}}">County Tungku</span>]]
 }}: '''[[{{{seat}}}, {{{state}}}|<span style="color:{{{text_color|}}}">{{{seat}}}</span>]]'''
 }} <!-- ** don't remove space **
 
