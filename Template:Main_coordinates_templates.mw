@@ -1,0 +1,19 @@
+<noinclude>
+'''Note:''' This template is used to generate a see also list for certain coordinate templates. 
+----
+<small>''Template begins here''</small>
+</noinclude>
+*[[Template:Coor URL]]
+*[[Template:Coord]]
+*Standard coordinates link
+**[[Template:Coor d]]
+**[[Template:Coor dm]]
+**[[Template:Coor dms]]
+*Displays coordinates near article title
+**[[Template:Coor title d]]
+**[[Template:Coor title dm]]
+**[[Template:Coor title dms]]
+*Standard coordinates link, and coordinates near article title
+**[[Template:Coor at d]]
+**[[Template:Coor at dm]]
+**[[Template:Coor at dms]]
