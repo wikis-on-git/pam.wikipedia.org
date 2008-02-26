@@ -1,0 +1,20 @@
+<includeonly>{{template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+This template combines:
+*[[Template:Coor dm]]
+*[[Template:Coor title dm]]
+
+It lists the coordinates within the article text and at the upper-right corner of the article, just below the horizontal rule running under the article's title (in Monobook, placement in other skins varies).
+
+==See also==
+*{{main coordinates templates}}
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Coordinates templates|{{PAGENAME}}]]
+[[Category:Title templates|{{PAGENAME}}]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[zh-yue:Template:座標]]
+
+</includeonly>
