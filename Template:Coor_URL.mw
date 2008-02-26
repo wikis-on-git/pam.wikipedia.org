@@ -1,12 +1,5 @@
-http://tools.wikimedia.de/~magnus/geo/geohack.php?params=<noinclude>
-
-For a discussion of the "geohack" page, see [[User talk:Magnus Manske/GeoTemplate]]
-
-==See also==
-*{{main coordinates templates}}
-[[Category:Coordinates templates|*]]
-
-[[de:Vorlage:KoordinateURL]]
-[[es:Plantilla:Coor site]]
-[[ja:Template:座標URL]]
+http://tools.wikimedia.de/~magnus/geo/geohack.php?pagename={{FULLPAGENAMEE}}&params=<noinclude>
+{{protected template}}
+{{{{FULLPAGENAME}}/doc}}
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
 </noinclude>
