@@ -1,0 +1,7 @@
+<includeonly>{{template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+
+{{tl|precision/tz/1}} is a subroutine used by {{lt|precision/tz}}, due to lack of support for local variables.
+
+<includeonly>
+[[Category:Mathematical function templates|{{PAGENAME}}]] 
+</includeonly>
