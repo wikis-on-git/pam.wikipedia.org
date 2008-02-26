@@ -1,0 +1,26 @@
+<includeonly>{{template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+== Usage ==
+<pre>{{Coor URL}}</pre>
+
+This template is not meant to be used directly.
+
+== See also ==
+* {{main coordinates templates}}
+
+<includeonly>
+[[Category:Coordinates templates|{{PAGENAME}}]]
+
+[[bg:Шаблон:Coor URL]]
+[[de:Vorlage:KoordinateURL]]
+[[es:Plantilla:Coor site]]
+[[fi:Malline:Coor URL]]
+[[fr:Modèle:Coor URL]]
+[[ia:Patrono:Coor URL]]
+[[it:Template:Coor URL]]
+[[ja:Template:座標URL]]
+[[nl:Sjabloon:MapsServer]]
+[[sl:Predloga:Koordinate URL]]
+[[sv:Mall:Coor URL]]
+[[zh-yue:Template:座標 URL]]
+</includeonly
