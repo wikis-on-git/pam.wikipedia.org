@@ -133,7 +133,7 @@
 {{!}} {{{superordo}}}<br><small>{{{superordo_authority|}}}</small>}}
 |-valign=top
 {{#if:{{{ordo|}}}|
-{{!}}  Order:
+{{!}}  Pamitukituki:
 {{!}} {{{ordo}}}<br><small>{{{ordo_authority|}}}</small>}}
 |-valign=top
 {{#if:{{{subordo|}}}|
