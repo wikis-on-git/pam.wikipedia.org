@@ -1,0 +1,3 @@
+<noinclude>{{pp-template}}</noinclude><includeonly>{{#if:{{{df|}}}|[[{{#expr:{{{3|{{{day}}}}}}}} {{MONTHNAME|{{{2|{{{month|{{{2}}}}}}}}}}}]]|[[{{MONTHNAME|{{{2|{{{month|{{{2}}}}}}}}}}} {{#expr:{{{3|{{{day}}}}}}}}]]}} [[{{{1|{{{year|{{{1}}}}}}}}}]] (aged&nbsp;{{age at date | {{{4|{{{year|{{{4}}}}}}}}} | {{{5|{{{month|{{{5}}}}}}}}} | {{{6|{{{day|{{{6}}}}}}}}} | {{{1|{{{year|{{{1}}}}}}}}} | {{{2|{{{month|{{{2}}}}}}}}} | {{{3|{{{day|{{{3}}}}}}}}} }})</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
