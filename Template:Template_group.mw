@@ -1,0 +1,11 @@
+<includeonly>{{#if:{{{title|}}}<!--
+-->|<!--THEN:--><table class="template-group" style="clear:both; width:100%; border:1px solid #aaa; margin:0; padding:5px; text-align:center;">
+<tr> <th style="background:#afeeee; {{{titlestyle|}}}">{{{title}}}</th> </tr>
+<tr> <td style="padding-top:0.5em;">
+{{{list}}} <!--Note: {{{list}}} must start on a newline as some templates are wikicoded tables (i.e. start with "{|" )-->
+</td></tr></table><!--
+-->|<!--ELSE:--><br/>{{{list}}}
+}}
+{{{category|}}}{{{cat|}}}</includeonly><noinclude>{{Documentation}}
+<!--Please add metadata (categories, interwiki links) to /doc page, not here - thanks! -->
+</noinclude>
