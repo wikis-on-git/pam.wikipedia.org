@@ -1,7 +1,8 @@
 <noinclude><hr/> '''Template''' | [[Template:Infobox Russian federal subject/Instructions|Instructions]]<hr/> {{intricate template}}
 </noinclude>{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
 
-<span class="fn org">{{{EnglishName|{{PAGENAME}}}}} </span>{{en icon}}<!--
+|-
+! colspan="2" style="background:deepskyblue; text-align:center; font-size:115%;"| <span class="fn org">{{{EnglishName|{{PAGENAME}}}}} </span>{{en icon}}<!--
 --------------Names--------------
 -->{{#if: {{{RussianName|}}}   |<!--then:--><br />'''<span class="nickname">{{lang|ru|{{{RussianName}}}}}</span>''' {{ru icon}}<!--end#if:-->}}<!--
 -->{{#if: {{{LocalName1|}}}    |<!--then:--><br />'''<span class="nickname">{{{LocalName1}}}</span>'''<!--
