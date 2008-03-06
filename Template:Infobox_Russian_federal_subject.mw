@@ -29,7 +29,7 @@
 -------CoA and flag-------
       --><tr bgcolor="deepskyblue">
 <th align="center">[[Heraldry|Sagkal ning Armas]]</th>
-<th align="center">[[Flag]]</th>
+<th align="center">[[Bandera]]</th>
 </tr><tr>
 <th style="vertical-align:middle; text-align:center;">[[Image:{{{CoatOfArms}}}|90px]]<br /> <small>{{{CoatOfArmsLink|}}}</small></th>
 <th style="vertical-align:middle; text-align:center;">[[Image:{{{Flag}}}|border|100px]]<br /> <small>{{{FlagLink|}}}</small></th></tr><!--
@@ -60,7 +60,7 @@
 |-
 | '''Mitatag'''||{{{FoundationDate|n/a}}}
 |-
-! [[Federal subjects of Russia|Political status]] <br /> [[Federal districts of Russia|Federal district]] <br /> [[Economic regions of Russia|LabuadEconomic&nbsp;pamagsiasat]]
+! [[Federal subjects of Russia|Political status]] <br /> [[Federal districts of Russia|Federal distritu]] <br /> [[Economic regions of Russia|Labuad&nbsp;pamagsiasat]]
 | {{#if:<!--A-->{{{PoliticalStatus|}}} |<!--thenA:-->{{#if:<!--B-->{{{PoliticalStatusLink|}}} |<!--thenB:-->[[{{{PoliticalStatusLink}}}|{{{PoliticalStatus}}}]] |<!--elseB:-->{{{PoliticalStatus}}}<!---endB:-->}} |<!--elseA:-->n/a<!-- endA: -->}}<br />{{{FederalDistrict|n/a}}}<br />{{{EconomicRegion|n/a}}}
 |-
 | '''Code''' || {{{CodeNumber|n/a}}}
@@ -68,13 +68,13 @@
 <!-----------------Area----------------->
 !colspan="2" style="background:deepskyblue; text-align:center;"| [[Lapad]]
 |-
-| '''Area'''<br /><small>{{nowrap|- [[List of federal subjects of Russia by area|Rank&nbsp;within&nbsp;Russia]]}}</small>
+| '''Area'''<br /><small>{{nowrap|- [[List of federal subjects of Russia by area|Ranku&nbsp;kilub&nbsp;Russia]]}}</small>
 | {{#if:{{{Area|}}}|<!--then:-->{{FORMATNUM:{{{Area}}}}}&nbsp;[[Square kilometre|km²]]|<!--else:-->n/a<!--end#if:-->}}<br /><small>{{{AreaRank|n/a}}}</small>
 |-
 <!--------------Population, official language-------------->
 !colspan="2" style="background:deepskyblue; text-align:center;"| [[Demographics of Russia|Populasyun]] (agpang keng [[Russian Census (2002)|2002 Census]])
 |-
-| '''Populasyun'''<br /><small>{{nowrap|- [[List of federal subjects of Russia by population|Rank&nbsp;within&nbsp;Russia]]}}<br />- Pangasiksik<br />- Urban<br />- Rural</small>
+| '''Populasyun'''<br /><small>{{nowrap|- [[List of federal subjects of Russia by population|Rank&nbsp;within&nbsp;Russia]]}}<br />- Pangasiksik<br />- Kabalenan<br />- Bariu</small>
 | {{#if:{{{Population|}}} |<!--then:-->{{FORMATNUM:{{{Population}}}}}&nbsp;inhabitants |<!--else:-->n/a<!--end#if:-->}}<br /><small>{{{PopulationRank|n/a}}}<br />{{#if:<!--A-->{{{Population|}}} |<!--thenA:-->{{#if:<!--B-->{{{Area|}}} |<!--thenB:-->{{FORMATNUM:{{#expr:{{{Population}}}/{{{Area}}} round 1}}}}&nbsp;inhab.&nbsp;/&nbsp;km² |<!--elseB:-->n/a<!--endB:-->}} |<!--elseA:-->n/a<!--endA:-->}}<br />{{{UrbanPopulation|n/a}}}<br />{{{RuralPopulation|n/a}}}</small>
 |-
 | '''Opisyal a Amanu{{{LangLangs|}}}''' || {{{LangList|n/a}}}
