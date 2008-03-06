@@ -61,15 +61,15 @@
 |-
 | '''Mitatag'''||{{{FoundationDate|n/a}}}
 |-
-! [[Federal subjects of Russia|Political status]] <br /> [[Federal districts of Russia|Federal distritu]] <br /> [[Economic regions of Russia|Labuad&nbsp;pamagsiasat]]
+! [[Federal subjects of Russia|Kabilyan Pampolitica]] <br /> [[Federal districts of Russia|Federal distritu]] <br /> [[Economic regions of Russia|Labuad&nbsp;pamagsiasat]]
 | {{#if:<!--A-->{{{PoliticalStatus|}}} |<!--thenA:-->{{#if:<!--B-->{{{PoliticalStatusLink|}}} |<!--thenB:-->[[{{{PoliticalStatusLink}}}|{{{PoliticalStatus}}}]] |<!--elseB:-->{{{PoliticalStatus}}}<!---endB:-->}} |<!--elseA:-->n/a<!-- endA: -->}}<br />{{{FederalDistrict|n/a}}}<br />{{{EconomicRegion|n/a}}}
 |-
-| '''Code''' || {{{CodeNumber|n/a}}}
+| '''Codiku''' || {{{CodeNumber|n/a}}}
 |-
 <!-----------------Area----------------->
 !colspan="2" style="background:deepskyblue; text-align:center;"| [[Lapad]]
 |-
-| '''Area'''<br /><small>{{nowrap|- [[List of federal subjects of Russia by area|Ranku&nbsp;kilub&nbsp;Russia]]}}</small>
+| '''Lapad'''<br /><small>{{nowrap|- [[List of federal subjects of Russia by area|Ranku&nbsp;kilub&nbsp;Russia]]}}</small>
 | {{#if:{{{Area|}}}|<!--then:-->{{FORMATNUM:{{{Area}}}}}&nbsp;[[Square kilometre|km²]]|<!--else:-->n/a<!--end#if:-->}}<br /><small>{{{AreaRank|n/a}}}</small>
 |-
 <!--------------Population, official language-------------->
@@ -86,7 +86,7 @@
 | '''{{{HeadTitle|Head}}}''' || {{{HeadName|n/a}}}<!--
  -->{{#if: {{{PrimeTitle|}}} | <tr><td>'''{{{PrimeTitle}}}'''</td><td>{{#if: {{{PrimeName|}}} | {{{PrimeName}}} | n/a }}</td></tr> }}
 |-
-| '''[[Legislature|Legislative&nbsp;body]]''' || {{{Legislature|n/a}}}
+| '''[[Legislature|Talasulatbatas&nbsp;pamikatawan]]''' || {{{Legislature|n/a}}}
 |-
 | '''[[Basic law|{{{ConstitutionType|Basic Law}}}]]''' || {{{ConstitutionName|n/a}}}
 |-
