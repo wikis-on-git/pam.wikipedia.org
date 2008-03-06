@@ -1,0 +1,100 @@
+<noinclude><hr/> '''Template''' | [[Template:Infobox Russian federal subject/Instructions|Instructions]]<hr/> {{intricate template}}
+</noinclude>{| class="infobox geography vcard" width="20em" cellpadding="4" cellspacing="0" style="border-right-width:2px; border-bottom-width:2px;"
+|-
+! colspan="2" style="background:deepskyblue; text-align:center; font-size:115%;"| <span class="fn org">{{{EnglishName|{{PAGENAME}}}}} </span>{{en icon}}<!--
+--------------Names--------------
+-->{{#if: {{{RussianName|}}}   |<!--then:--><br />'''<span class="nickname">{{lang|ru|{{{RussianName}}}}}</span>''' {{ru icon}}<!--end#if:-->}}<!--
+-->{{#if: {{{LocalName1|}}}    |<!--then:--><br />'''<span class="nickname">{{{LocalName1}}}</span>'''<!--
+-->{{#if:{{{LocalLangName1|}}} |<!--then:--><span style="font-size:0.95em; color:#555; position:relative;">&nbsp;'''(<span class="nickname">{{{LocalLangName1}}}</span>)'''</span><!--
+---endif LocalLangName1 -->}}<!-- endif LocalName1 -->}}<!--
+-->{{#if:{{{LocalName2|}}}     |<!--then:--><br />'''<span class="nickname">{{{LocalName2}}}</span>'''<!--
+-->{{#if:{{{LocalLangName2|}}} |<!--then:--><span style="font-size:0.95em; color:#555; position:relative;">&nbsp;'''(<span class="nickname">{{{LocalLangName2}}}</span>)'''</span><!--
+---end#if:-->}}<!--end#if:-->}}<!--
+-->{{#if:{{{LocalName3|}}}     |<!--then:--><br />'''<span class="nickname">{{{LocalName3}}}</span>'''<!--
+-->{{#if:{{{LocalLangName3|}}} |<!--then:--><span style="font-size:0.95em; color:#555; position:relative;">'''&nbsp;(<span class="nickname">{{{LocalLangName3}}}</span>)'''</span><!--
+---end#if:-->}}<!--end#if:-->}}<!--
+-->{{#if:{{{LocalName4|}}}     |<!--then:--><br />'''<span class="nickname">{{{LocalName4}}}}</span>''' |<!--else:-->{{#if:{{{LocalLangName4|}}} |<!--then:--><span style="font-size:0.95em; color:#555; position:relative;">'''&nbsp;(<span class="nickname">{{{LocalLangName4}}}</span>)'''</span><!--
+---end#if:-->}}<!--end#if:-->}}
+|-
+<!-----------------Map----------------->
+|colspan="2" align="center"| {{#if: {{{LocatorMap|}}} |<!--
+       then: -->[[Image:{{{LocatorMap}}}|200px]] <br /><small>{{{LocatorMapLegend|}}}</small><!--
+-->|<!--else:-->[[Image:Missing map.png|200px]]<!--
+---end#if:-->}}<!--
+-----------------CoA/Flag-----------------
+-->{{#if:<!--A-->{{{CoatOfArms|}}}<!--
+-->|<!--thenA:
+   -->{{#if:<!--B-->{{{Flag|}}}<!--
+   -->|<!--thenB:
+-------CoA and flag-------
+      --><tr bgcolor="deepskyblue">
+<th align="center">[[Heraldry|Sagkal ning Armas]]</th>
+<th align="center">[[Flag]]</th>
+</tr><tr>
+<th style="vertical-align:middle; text-align:center;">[[Image:{{{CoatOfArms}}}|90px]]<br /> <small>{{{CoatOfArmsLink|}}}</small></th>
+<th style="vertical-align:middle; text-align:center;">[[Image:{{{Flag}}}|border|100px]]<br /> <small>{{{FlagLink|}}}</small></th></tr><!--
+   -->|<!--elseB:
+-------CoA only-------
+      --><tr>
+<th colspan="2" bgcolor="deepskyblue" align="center">[[Heraldry|Sagkal ning Armas]]</th>
+</tr><tr>
+<th colspan="2" align="center">[[Image:{{{CoatOfArms}}}|90px]]<br /> <small>{{{CoatOfArmsLink|}}}</small></th></tr><!--
+   ---endB:-->}}<!--
+-->|<!--elseA:
+   -->{{#if:<!--C-->{{{Flag|}}}<!--
+   -->|<!--thenC:
+-------flag only-------
+      --><tr>
+<th colspan="2" bgcolor="deepskyblue" align="center">[[Bandera]]</th>
+</tr><tr>
+<th colspan="2" align="center">[[Image:{{{Flag}}}|border|150px]]<br /> <small>{{{FlagLink|}}}</small></th></tr><!--
+   ---endC:-->}}<!--
+-------no flag or coat-of-arms-------
+---endA:-->}}<!--
+------------Anthem, adm. center, establishment, code------------>
+|-
+|colspan="2" style="text-align:center;"|'''[[National anthem|Dalit Pangbangsa]]:''' {{{AnthemLink|n/a}}}
+|-
+! {{{AdmCtrOrCapital|Administrative center}}}
+|style="padding-right:0.75em;"|{{{AdmCtrName|n/a}}}
+|-
+| '''Mitatag'''||{{{FoundationDate|n/a}}}
+|-
+! [[Federal subjects of Russia|Political status]] <br /> [[Federal districts of Russia|Federal district]] <br /> [[Economic regions of Russia|LabuadEconomic&nbsp;pamagsiasat]]
+| {{#if:<!--A-->{{{PoliticalStatus|}}} |<!--thenA:-->{{#if:<!--B-->{{{PoliticalStatusLink|}}} |<!--thenB:-->[[{{{PoliticalStatusLink}}}|{{{PoliticalStatus}}}]] |<!--elseB:-->{{{PoliticalStatus}}}<!---endB:-->}} |<!--elseA:-->n/a<!-- endA: -->}}<br />{{{FederalDistrict|n/a}}}<br />{{{EconomicRegion|n/a}}}
+|-
+| '''Code''' || {{{CodeNumber|n/a}}}
+|-
+<!-----------------Area----------------->
+!colspan="2" style="background:deepskyblue; text-align:center;"| [[Lapad]]
+|-
+| '''Area'''<br /><small>{{nowrap|- [[List of federal subjects of Russia by area|Rank&nbsp;within&nbsp;Russia]]}}</small>
+| {{#if:{{{Area|}}}|<!--then:-->{{FORMATNUM:{{{Area}}}}}&nbsp;[[Square kilometre|km²]]|<!--else:-->n/a<!--end#if:-->}}<br /><small>{{{AreaRank|n/a}}}</small>
+|-
+<!--------------Population, official language-------------->
+!colspan="2" style="background:deepskyblue; text-align:center;"| [[Demographics of Russia|Populasyun]] (agpang keng [[Russian Census (2002)|2002 Census]])
+|-
+| '''Populasyun'''<br /><small>{{nowrap|- [[List of federal subjects of Russia by population|Rank&nbsp;within&nbsp;Russia]]}}<br />- Pangasiksik<br />- Urban<br />- Rural</small>
+| {{#if:{{{Population|}}} |<!--then:-->{{FORMATNUM:{{{Population}}}}}&nbsp;inhabitants |<!--else:-->n/a<!--end#if:-->}}<br /><small>{{{PopulationRank|n/a}}}<br />{{#if:<!--A-->{{{Population|}}} |<!--thenA:-->{{#if:<!--B-->{{{Area|}}} |<!--thenB:-->{{FORMATNUM:{{#expr:{{{Population}}}/{{{Area}}} round 1}}}}&nbsp;inhab.&nbsp;/&nbsp;km² |<!--elseB:-->n/a<!--endB:-->}} |<!--elseA:-->n/a<!--endA:-->}}<br />{{{UrbanPopulation|n/a}}}<br />{{{RuralPopulation|n/a}}}</small>
+|-
+| '''Opisyal a Amanu{{{LangLangs|}}}''' || {{{LangList|n/a}}}
+|-
+<!-----------------Government----------------->
+!colspan="2" style="background:deepskyblue; text-align:center;"|'''Gubyernu''' {{#if:{{{GovAsOf|}}}|(as of {{{GovAsOf}}})}}
+|-
+| '''{{{HeadTitle|Head}}}''' || {{{HeadName|n/a}}}<!--
+ -->{{#if: {{{PrimeTitle|}}} | <tr><td>'''{{{PrimeTitle}}}'''</td><td>{{#if: {{{PrimeName|}}} | {{{PrimeName}}} | n/a }}</td></tr> }}
+|-
+| '''[[Legislature|Legislative&nbsp;body]]''' || {{{Legislature|n/a}}}
+|-
+| '''[[Basic law|{{{ConstitutionType|Basic Law}}}]]''' || {{{ConstitutionName|n/a}}}
+|-
+<!-----------------Official website----------------->
+! colspan="2" style="background:deepskyblue; text-align:center;"| [[Website|Official website]]
+|-
+|colspan="2" align="center"| {{{Website|n/a}}}
+
+|}<noinclude>
+
+{{template doc}}
+</noinclude>
