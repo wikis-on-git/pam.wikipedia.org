@@ -1,5 +1,4 @@
-
-{| class="infobox geography" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
+{| class="infobox geography" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: center"
 
 |-
 | '''{{{Name}}} {{#switch:{{{Name}}}|Tokyo=Metropolis|Hokkaidō=|Prefecture}} <span style="white-space:nowrap;">({{{JapaneseName}}})</span>'''
