@@ -75,7 +75,7 @@
 <!--------------Population, official language-------------->
 !colspan="2" style="background:deepskyblue; text-align:center;"| [[Demographics of Russia|Populasyun]] (agpang keng [[Russian Census (2002)|2002 Census]])
 |-
-| '''Populasyun'''<br /><small>{{nowrap|- [[List of federal subjects of Russia by population|Rank&nbsp;within&nbsp;Russia]]}}<br />- Pangasiksik<br />- Kabalenan<br />- Bariu</small>
+| '''Populasyun'''<br /><small>{{nowrap|- [[List of federal subjects of Russia by population|Ranku&nbsp;keng&nbsp;Russia]]}}<br />- Pangasiksik<br />- Kabalenan<br />- Bariu</small>
 | {{#if:{{{Population|}}} |<!--then:-->{{FORMATNUM:{{{Population}}}}}&nbsp;pakatuknang |<!--else:-->n/a<!--end#if:-->}}<br /><small>{{{PopulationRank|n/a}}}<br />{{#if:<!--A-->{{{Population|}}} |<!--thenA:-->{{#if:<!--B-->{{{Area|}}} |<!--thenB:-->{{FORMATNUM:{{#expr:{{{Population}}}/{{{Area}}} round 1}}}}&nbsp;inhab.&nbsp;/&nbsp;km² |<!--elseB:-->n/a<!--endB:-->}} |<!--elseA:-->n/a<!--endA:-->}}<br />{{{UrbanPopulation|n/a}}}<br />{{{RuralPopulation|n/a}}}</small>
 |-
 | '''Opisyal a Amanu{{{LangLangs|}}}''' || {{{LangList|n/a}}}
