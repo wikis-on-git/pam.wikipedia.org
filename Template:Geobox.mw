@@ -155,7 +155,7 @@ Geobox22 list{{#if:{{{building_fold|}}}|_fold}} | Geobox 0}}
 }} {{ {{#if: {{{river|}}}| 
 
 Geobox22 list{{#if:{{{river_fold|}}}|_fold}} | Geobox 0}}
-| {{#if: {{{river1|}}}| Rivers| Ilug}} | {{{river_type|}}} | Rivers which flow through the site | {{{river_label|}}} 
+| {{#if: {{{river1|}}}| Ilug| River}} | {{{river_type|}}} | Rivers which flow through the site | {{{river_label|}}} 
 |{{{river|}}}|{{{river_note|}}}|{{{river1|}}}|{{{river1_note|}}}|{{{river2|}}}|{{{river2_note|}}}|{{{river3|}}}|{{{river3_note|}}}|{{{river4|}}}|{{{river4_note|}}}|{{{river5|}}}|{{{river5_note|}}}|{{{river6|}}}|{{{river6_note|}}}|{{{river7|}}}|{{{river7_note|}}}|{{{river8|}}}|{{{river8_note|}}}|{{{river9|}}}|{{{river9_note|}}}|{{{river10|}}}|{{{river10_note|}}}|{{{river11|}}}|{{{river11_note|}}}|{{{river12|}}}|{{{river12_note|}}}|{{{river13|}}}|{{{river13_note|}}}|{{{river14|}}}|{{{river14_note|}}}|{{{river15|}}}|{{{river15_note|}}}| 
 }}
 
@@ -167,7 +167,7 @@ Geobox22 list{{#if:{{{river_fold|}}}|_fold}} | Geobox 0}}
 
 {{!}}- class="mergedtoprow" {{#if: {{{location|}}}{{{elevation|}}}{{{elevation_imperial|}}}{{{prominence|}}}{{{prominence_imperial|}}}{{{lat_d|}}}{{{capital|}}}{{{capital_location|}}}{{{capital_elevation|}}}{{{capital_elevation_imperial|}}}{{{capital_lat_d|}}}| 
 {{ {{#if: {{{location|}}}{{{elevation|}}}{{{elevation_imperial|}}}{{{prominence|}}}{{{prominence_imperial|}}}{{{lat_d|}}}{{{capital|}}}{{{capital_location|}}}{{{capital_elevation|}}}{{{capital_elevation_imperial|}}}{{{capital_lat_d|}}}| Geobox22 data | Geobox 0}} 
-| {{#if: {{{capital|}}} | Tungkul | {{#switch: {{lc:{{{1}}}}} | city | town | settlement = Center | mountain = Summit | Location }} }} | {{{location_type|}}}{{{capital_type|}}} | {{#if: {{{capital|}}} | Capital of the region | Location }} | {{{location_label|}}}{{{capital_label|}}}
+| {{#if: {{{capital|}}} | Tungku | {{#switch: {{lc:{{{1}}}}} | city | town | settlement = Center | mountain = Summit | Location }} }} | {{{location_type|}}}{{{capital_type|}}} | {{#if: {{{capital|}}} | Capital of the region | Location }} | {{{location_label|}}}{{{capital_label|}}}
 | {{#if: {{{capital|}}} | {{{capital|}}} | {{{location|}}} }} | {{{location_note|}}}{{{capital_note|}}}| 
 }} {{ {{#if: {{{capital_location|}}} |
 
