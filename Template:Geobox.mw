@@ -84,7 +84,7 @@ Geobox22 list{{#if:{{{state_fold|}}}|_fold}}{{#if:{{{state_flag|}}}|_flag}} | Ge
 }} {{ {{#if: {{{region|}}} | 
 
 Geobox22 {{#if: {{{region1|}}}|list|data}}{{#if:{{{region_fold|}}}|_fold}} | Geobox 0}}
-|{{#if: {{{region1|}}}| Regions| Labuad}} | {{{region_type|}}} | Regions in which the site lies | {{{region_label|}}} 
+|{{#if: {{{region1|}}}| Labuad| Region}} | {{{region_type|}}} | Regions in which the site lies | {{{region_label|}}} 
 |{{{region|}}}|{{{region_note|}}}|{{{region1|}}}|{{{region1_note|}}}|{{{region2|}}}|{{{region2_note|}}}|{{{region3|}}}|{{{region3_note|}}}|{{{region4|}}}|{{{region4_note|}}}|{{{region5|}}}|{{{region5_note|}}}|{{{region6|}}}|{{{region6_note|}}}|{{{region7|}}}|{{{region7_note|}}}|{{{region8|}}}|{{{region8_note|}}}|{{{region9|}}}|{{{region9_note|}}}|{{{region10|}}}|{{{region10_note|}}}|{{{region11|}}}|{{{region11_note|}}}|{{{region12|}}}|{{{region12_note|}}}|{{{region13|}}}|{{{region13_note|}}}|{{{region14|}}}|{{{region14_note|}}}|{{{region15|}}}|{{{region15_note|}}}|
 }} {{ {{#if: {{{district|}}} |
 
