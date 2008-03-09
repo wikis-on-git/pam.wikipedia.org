@@ -1,7 +1,7 @@
-{| class="infobox geography" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: center"
+{| class="infobox geography" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
 
 |-
-| '''{{{Name}}} {{#switch:{{{Name}}}|Tokyo=Metropolis|Hokkaidō=|Prefecture}} <span style="white-space:nowrap;">({{{JapaneseName}}})</span>'''
+! colspan="2" style="background:deepskyblue; text-align:center; font-size:115%;"| <span class="fn org">| '''{{{Name}}} {{#switch:{{{Name}}}|Tokyo=Metropolis|Hokkaidō=|Prefecture}} <span style="white-space:nowrap;">({{{JapaneseName}}})</span>'''
 |-
 |colspan="2" style="text-align:center;"| [[Image:{{{Map}}}|250px|Map of Japan with {{{Name}}} highlighted]]
 |- class="mergedtoprow"
