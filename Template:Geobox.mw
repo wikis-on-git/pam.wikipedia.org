@@ -74,7 +74,7 @@ Geobox22 line plain| Geobox 0}}
 
 {{!}}- class="mergedtoprow" {{ {{#if: {{{country|}}} | 
 Geobox22 list{{#if:{{{country_fold|}}}|_fold}}{{#if:{{{country_flag|}}}|_flag}} | Geobox 0}}
-|{{#if:{{{country1|}}}|Countries|Country}} | {{{country_type|}}} | Country/Countries in which the site lies | {{{country_label|}}}  
+|{{#if:{{{country1|}}}|Countries|Bangsa}} | {{{country_type|}}} | Country/Countries in which the site lies | {{{country_label|}}}  
 |{{{country|}}}|{{{country_note|}}}|{{{country1|}}}|{{{country1_note|}}}|{{{country2|}}}|{{{country2_note|}}}|{{{country3|}}}|{{{country3_note|}}}|{{{country4|}}}|{{{country4_note|}}}|{{{country5|}}}|{{{country5_note|}}}|{{{country6|}}}|{{{country6_note|}}}|{{{country7|}}}|{{{country7_note|}}}|{{{country8|}}}|{{{country8_note|}}}|{{{country9|}}}|{{{country9_note|}}}|{{{country10|}}}|{{{country10_note|}}}|{{{country11|}}}|{{{country11_note|}}}|{{{country12|}}}|{{{country12_note|}}}|{{{country13|}}}|{{{country13_note|}}}|{{{country14|}}}|{{{country14_note|}}}|{{{country15|}}}|{{{country15_note|}}}| 
 }} {{ {{#if: {{{state|}}} | 
 
