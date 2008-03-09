@@ -84,17 +84,17 @@ Geobox22 list{{#if:{{{state_fold|}}}|_fold}}{{#if:{{{state_flag|}}}|_flag}} | Ge
 }} {{ {{#if: {{{region|}}} | 
 
 Geobox22 {{#if: {{{region1|}}}|list|data}}{{#if:{{{region_fold|}}}|_fold}} | Geobox 0}}
-|{{#if: {{{region1|}}}| Regions| Region}} | {{{region_type|}}} | Regions in which the site lies | {{{region_label|}}} 
+|{{#if: {{{region1|}}}| Regions| Labuad}} | {{{region_type|}}} | Regions in which the site lies | {{{region_label|}}} 
 |{{{region|}}}|{{{region_note|}}}|{{{region1|}}}|{{{region1_note|}}}|{{{region2|}}}|{{{region2_note|}}}|{{{region3|}}}|{{{region3_note|}}}|{{{region4|}}}|{{{region4_note|}}}|{{{region5|}}}|{{{region5_note|}}}|{{{region6|}}}|{{{region6_note|}}}|{{{region7|}}}|{{{region7_note|}}}|{{{region8|}}}|{{{region8_note|}}}|{{{region9|}}}|{{{region9_note|}}}|{{{region10|}}}|{{{region10_note|}}}|{{{region11|}}}|{{{region11_note|}}}|{{{region12|}}}|{{{region12_note|}}}|{{{region13|}}}|{{{region13_note|}}}|{{{region14|}}}|{{{region14_note|}}}|{{{region15|}}}|{{{region15_note|}}}|
 }} {{ {{#if: {{{district|}}} |
 
 Geobox22 {{#if: {{{district1|}}}|list|data}}{{#if:{{{district_fold|}}}|_fold}} | Geobox 0}}
-|{{#if: {{{district1|}}}| Districts| District}} | {{{district_type|}}} |  Districts in which the site lies | {{{district_label|}}} 
+|{{#if: {{{district1|}}}| Districts| Distritu}} | {{{district_type|}}} |  Districts in which the site lies | {{{district_label|}}} 
 |{{{district|}}}|{{{district_note|}}}|{{{district1|}}}|{{{district1_note|}}}|{{{district2|}}}|{{{district2_note|}}}|{{{district3|}}}|{{{district3_note|}}}|{{{district4|}}}|{{{district4_note|}}}|{{{district5|}}}|{{{district5_note|}}}|{{{district6|}}}|{{{district6_note|}}}|{{{district7|}}}|{{{district7_note|}}}|{{{district8|}}}|{{{district8_note|}}}|{{{district9|}}}|{{{district9_note|}}}|{{{district10|}}}|{{{district10_note|}}}|{{{district11|}}}|{{{district11_note|}}}|{{{district12|}}}|{{{district12_note|}}}|{{{district13|}}}|{{{district13_note|}}}|{{{district14|}}}|{{{district14_note|}}}|{{{district15|}}}|{{{district15_note|}}}|
 }} {{ {{#if: {{{municipality|}}}| 
 
 Geobox22 {{#if: {{{municipality1|}}}|list|data}}{{#if:{{{municipality_fold|}}}|_fold}} | Geobox 0}}
-|{{#if: {{{municipality1|}}}| Municipalities| Municipality}} | {{{municipality_type|}}} | Municiplities in which the site lies | {{{municipality_label|}}} 
+|{{#if: {{{municipality1|}}}| Municipalities| Balen}} | {{{municipality_type|}}} | Municiplities in which the site lies | {{{municipality_label|}}} 
 |{{{municipality|}}}|{{{municipality_note|}}}|{{{municipality1|}}}|{{{municipality1_note|}}}|{{{municipality2|}}}|{{{municipality2_note|}}}|{{{municipality3|}}}|{{{municipality3_note|}}}|{{{municipality4|}}}|{{{municipality4_note|}}}|{{{municipality5|}}}|{{{municipality5_note|}}}|{{{municipality6|}}}|{{{municipality6_note|}}}|{{{municipality7|}}}|{{{municipality7_note|}}}|{{{municipality8|}}}|{{{municipality8_note|}}}|{{{municipality9|}}}|{{{municipality9_note|}}}|{{{municipality10|}}}|{{{municipality10_note|}}}|{{{municipality11|}}}|{{{municipality11_note|}}}|{{{municipality12|}}}|{{{municipality12_note|}}}|{{{municipality13|}}}|{{{municipality13_note|}}}|{{{municipality14|}}}|{{{municipality14_note|}}}|{{{municipality15|}}}|{{{municipality15_note|}}}|
 }}
 
@@ -140,22 +140,22 @@ Geobox22 list{{#if:{{{tributary_fold|}}}{{{child_fold|}}}{{{tributary_right_fold
 }} }} {{ {{#if: {{{city|}}} | 
 
 Geobox22 list{{#if:{{{city_fold|}}}|_fold}} | Geobox 0}}
-| {{#if: {{{city1|}}}| Cities| City}} | {{{city_type|}}} | Settlements which lie in the site | {{{city_label|}}} 
+| {{#if: {{{city1|}}}| Cities| Lakanbalen}} | {{{city_type|}}} | Settlements which lie in the site | {{{city_label|}}} 
 |{{{city|}}}|{{{city_note|}}}|{{{city1|}}}|{{{city1_note|}}}|{{{city2|}}}|{{{city2_note|}}}|{{{city3|}}}|{{{city3_note|}}}|{{{city4|}}}|{{{city4_note|}}}|{{{city5|}}}|{{{city5_note|}}}|{{{city6|}}}|{{{city6_note|}}}|{{{city7|}}}|{{{city7_note|}}}|{{{city8|}}}|{{{city8_note|}}}|{{{city9|}}}|{{{city9_note|}}}|{{{city10|}}}|{{{city10_note|}}}|{{{city11|}}}|{{{city11_note|}}}|{{{city12|}}}|{{{city12_note|}}}|{{{city13|}}}|{{{city13_note|}}}|{{{city14|}}}|{{{city14_note|}}}|{{{city15|}}}|{{{city15_note|}}}| 
 }} {{ {{#if: {{{landmark|}}}| 
 
 Geobox22 list{{#if:{{{landmark_fold|}}}|_fold}} | Geobox 0}}
-| {{#if: {{{landmark1|}}}| Landmarks| Landmark}} | {{{landmark_type|}}} | Landmarks which lie in the site | {{{landmark_label|}}} 
+| {{#if: {{{landmark1|}}}| Landmarks| Gabunpalatandanan}} | {{{landmark_type|}}} | Landmarks which lie in the site | {{{landmark_label|}}} 
 |{{{landmark|}}}|{{{landmark_note|}}}|{{{landmark1|}}}|{{{landmark1_note|}}}|{{{landmark2|}}}|{{{landmark2_note|}}}|{{{landmark3|}}}|{{{landmark3_note|}}}|{{{landmark4|}}}|{{{landmark4_note|}}}|{{{landmark5|}}}|{{{landmark5_note|}}}|{{{landmark6|}}}|{{{landmark6_note|}}}|{{{landmark7|}}}|{{{landmark7_note|}}}|{{{landmark8|}}}|{{{landmark8_note|}}}|{{{landmark9|}}}|{{{landmark9_note|}}}|{{{landmark10|}}}|{{{landmark10_note|}}}|{{{landmark11|}}}|{{{landmark11_note|}}}|{{{landmark12|}}}|{{{landmark12_note|}}}|{{{landmark13|}}}|{{{landmark13_note|}}}|{{{landmark14|}}}|{{{landmark14_note|}}}|{{{landmark15|}}}|{{{landmark15_note|}}}| 
 }} {{ {{#if: {{{building|}}}| 
 
 Geobox22 list{{#if:{{{building_fold|}}}|_fold}} | Geobox 0}}
-| {{#if: {{{building1|}}}| Buildings| Building}} | {{{building_type|}}} | Buildings which lie in the site | {{{building_label|}}} 
+| {{#if: {{{building1|}}}| Buildings| Pakatalakad}} | {{{building_type|}}} | Buildings which lie in the site | {{{building_label|}}} 
 |{{{building|}}}|{{{building_note|}}}|{{{building1|}}}|{{{building1_note|}}}|{{{building2|}}}|{{{building2_note|}}}|{{{building3|}}}|{{{building3_note|}}}|{{{building4|}}}|{{{building4_note|}}}|{{{building5|}}}|{{{building5_note|}}}|{{{building6|}}}|{{{building6_note|}}}|{{{building7|}}}|{{{building7_note|}}}|{{{building8|}}}|{{{building8_note|}}}|{{{building9|}}}|{{{building9_note|}}}|{{{building10|}}}|{{{building10_note|}}}|{{{building11|}}}|{{{building11_note|}}}|{{{building12|}}}|{{{building12_note|}}}|{{{building13|}}}|{{{building13_note|}}}|{{{building14|}}}|{{{building14_note|}}}|{{{building15|}}}|{{{building15_note|}}}| 
 }} {{ {{#if: {{{river|}}}| 
 
 Geobox22 list{{#if:{{{river_fold|}}}|_fold}} | Geobox 0}}
-| {{#if: {{{river1|}}}| Rivers| River}} | {{{river_type|}}} | Rivers which flow through the site | {{{river_label|}}} 
+| {{#if: {{{river1|}}}| Rivers| Ilug}} | {{{river_type|}}} | Rivers which flow through the site | {{{river_label|}}} 
 |{{{river|}}}|{{{river_note|}}}|{{{river1|}}}|{{{river1_note|}}}|{{{river2|}}}|{{{river2_note|}}}|{{{river3|}}}|{{{river3_note|}}}|{{{river4|}}}|{{{river4_note|}}}|{{{river5|}}}|{{{river5_note|}}}|{{{river6|}}}|{{{river6_note|}}}|{{{river7|}}}|{{{river7_note|}}}|{{{river8|}}}|{{{river8_note|}}}|{{{river9|}}}|{{{river9_note|}}}|{{{river10|}}}|{{{river10_note|}}}|{{{river11|}}}|{{{river11_note|}}}|{{{river12|}}}|{{{river12_note|}}}|{{{river13|}}}|{{{river13_note|}}}|{{{river14|}}}|{{{river14_note|}}}|{{{river15|}}}|{{{river15_note|}}}| 
 }}
 
@@ -167,7 +167,7 @@ Geobox22 list{{#if:{{{river_fold|}}}|_fold}} | Geobox 0}}
 
 {{!}}- class="mergedtoprow" {{#if: {{{location|}}}{{{elevation|}}}{{{elevation_imperial|}}}{{{prominence|}}}{{{prominence_imperial|}}}{{{lat_d|}}}{{{capital|}}}{{{capital_location|}}}{{{capital_elevation|}}}{{{capital_elevation_imperial|}}}{{{capital_lat_d|}}}| 
 {{ {{#if: {{{location|}}}{{{elevation|}}}{{{elevation_imperial|}}}{{{prominence|}}}{{{prominence_imperial|}}}{{{lat_d|}}}{{{capital|}}}{{{capital_location|}}}{{{capital_elevation|}}}{{{capital_elevation_imperial|}}}{{{capital_lat_d|}}}| Geobox22 data | Geobox 0}} 
-| {{#if: {{{capital|}}} | Capital | {{#switch: {{lc:{{{1}}}}} | city | town | settlement = Center | mountain = Summit | Location }} }} | {{{location_type|}}}{{{capital_type|}}} | {{#if: {{{capital|}}} | Capital of the region | Location }} | {{{location_label|}}}{{{capital_label|}}}
+| {{#if: {{{capital|}}} | Tungkul | {{#switch: {{lc:{{{1}}}}} | city | town | settlement = Center | mountain = Summit | Location }} }} | {{{location_type|}}}{{{capital_type|}}} | {{#if: {{{capital|}}} | Capital of the region | Location }} | {{{location_label|}}}{{{capital_label|}}}
 | {{#if: {{{capital|}}} | {{{capital|}}} | {{{location|}}} }} | {{{location_note|}}}{{{capital_note|}}}| 
 }} {{ {{#if: {{{capital_location|}}} |
 
@@ -177,7 +177,7 @@ Geobox22 data plain | Geobox 0}} | sub = 1
 }} {{ {{#if: {{{elevation|}}}{{{elevation_imperial|}}}{{{capital_elevation|}}}{{{capital_elevation_imperial|}}}| 
 
 Geobox21 unit | Geobox 0}} | sub = 1
-| elevation | | Elevation above sea level (ASL) | 
+| katas | | Elevation above sea level (ASL) | 
 |height|m|ft|{{#if: {{{capital_elevation_unit|}}} | {{{capital_elevation_unit|}}} | {{{elevation_unit|}}}}}|{{{elevation|}}}{{{capital_elevation|}}}|{{{elevation_imperial|}}}{{{capital_elevation_imperial|}}}|{{#if:{{{capital_elevation_round|}}}|{{{capital_elevation_round|}}}|{{{elevation_round|0}}}}}|{{{elevation_note|}}}{{{capital_elevation_note|}}}|
 }} {{ {{#if: {{{prominence|}}}{{{prominence_imperial|}}} | 
 
@@ -197,7 +197,7 @@ Geobox22 coor | Geobox 0}} | sub = 1
 }} {{ {{#if: {{{highest_location|}}}{{{source_location|}}}| 
 
 Geobox22 data plain| Geobox 0}} | sub = 1 
-| location | | Location |  
+| location | | Karinan |  
 |{{#ifexist:{{{highest_location|}}}{{{source_location|}}}|[[{{{highest_location|}}}{{{source_location|}}}]]|{{{highest_location|}}}{{{source_location|}}}}}{{#if: {{{highest_region|}}}{{{source_region|}}}|, {{#ifexist:{{{highest_region|}}}{{{source_region|}}}|[[{{{highest_region|}}}{{{source_region|}}}]]|{{{highest_region|}}}{{{source_region|}}}}} }}{{#if: {{{highest_country|}}}{{{source_country|}}}|, {{#ifexist:{{{highest_country|}}}{{{source_country|}}}|[[{{{highest_country|}}}{{{source_country|}}}]]|{{{highest_country|}}}{{{source_country|}}}}} }}{{#if: {{{highest_country1|}}}{{{source_country1|}}}| & {{#ifexist:{{{highest_country1|}}}{{{source_country1|}}}|[[{{{highest_country1|}}}{{{source_country1|}}}]]|{{{highest_country1|}}}{{{source_country1|}}}}} }}|{{{highest_location_note|}}}{{{source_location_note|}}}|
 }} {{ {{#if: {{{highest_elevation|}}}{{{highest_elevation_imperial|}}}{{{source_elevation|}}}{{{source_elevation_imperial|}}} | 
 
@@ -444,7 +444,7 @@ Geobox21 unit | Geobox 0}}
 }} {{#if: {{{area|}}}{{{area_imperial|}}} | 
 
 {{ {{#if: {{{area|}}}{{{area_imperial|}}} | Geobox21 unit| Geobox 0}} 
-| Area | {{{area_type|}}} | area | {{{area_label|}}} 
+| Lualas | {{{area_type|}}} | area | {{{area_label|}}} 
 |area|{{#switch:{{lc:{{{1|}}}}}|building|construction|monument|statue=sqm|sqkm}}|{{#switch:{{lc:{{{1|}}}}}|building|construction|monument|statue=sqft|sqmi}}|{{{area_unit|}}}|{{{area|}}}|{{{area_imperial|}}}|{{{area_round|0}}}|{{{area_note|}}}|
 }} {{ {{#if: {{{area_land|}}}{{{area_land_imperial|}}} | 
 
@@ -454,7 +454,7 @@ Geobox21 unit | Geobox 0}} | sub = 1
 }} {{ {{#if: {{{area_water|}}}{{{area_water_imperial|}}} | 
 
 Geobox21 unit | Geobox 0}} | sub = 1
-| water | {{{area_water_type|}}} | Water area | {{{area_water_label|}}} 
+| water | {{{area_water_type|}}} | Danuman lualas | {{{area_water_label|}}} 
 |area|sqkm|sqmi|{{{area_water_unit|}}}|{{{area_water|}}}|{{{area_water_imperial|}}}|{{{area_water_round|0}}}|{{{area_water_note|}}}|comma={{#ifeq:{{{area_water_percentage|}}}{{{area_water_share|}}}|auto|{{#expr:{{{area_water|}}}{{{area_water_imperial|}}} / {{{area|}}}{{{area_imperial|}}} * 100 round {{#if: {{{area_water_share_round|}}}{{{area_water_percentage_round|}}}|{{{area_water_share_round|}}}{{{area_water_percentage_round|}}}|{{#if: {{{area_share_round|}}}|{{{area_share_round|}}}|{{{area_percentage_round|0}}} }} }} }}% }}|
 }} {{ {{#if: {{{area_urban|}}}{{{area_urban_imperial|}}} | 
 
@@ -536,7 +536,7 @@ Geobox21 unit | Geobox 0}} | sub = 1
 
 {{!}}- class="mergedtoprow" {{#if: {{{population|}}} | 
 {{ {{#if: {{{population|}}}| Geobox22 data plain | Geobox 0}} 
-| Population | {{{populatrion_type|}}} | Total population | 
+| Populasyun | {{{populatrion_type|}}} | Total population | 
 |{{formatnum: {{{population|}}} }}{{#if: {{{population_date|}}}{{{population_as_of|}}}| ({{{population_date|}}}{{{population_as_of|}}})}}|{{{population_note|}}}|
 }} {{ {{#if: {{{population_urban|}}} | 
 
@@ -571,7 +571,7 @@ Geobox22 data plain | Geobox 0}} | sub = 1
 }} }} {{#if: {{{population_density|}}}{{{population_density_imperial|}}} | 
 
 {{ {{#if: {{{population_density|}}}{{{population_density_imperial|}}} | Geobox21 unit | Geobox 0}}
-| Density | {{{density_type|}}} | Population density | {{{density_label|}}}
+| Pangasiksik | {{{density_type|}}} | Population density | {{{density_label|}}}
 |area density|sqkm|sqmi|{{{area_unit|}}}|{{#ifeq: {{{population_density|}}} | auto | {{#expr: {{{population|0}}} / {{{area|1}}} round {{{population_density_round|0}}} }} | {{{population_density|}}} }} | {{#ifeq: {{{population_density_imperial|}}} | auto | {{#expr: {{{population|0}}} / {{{area_imperial|1}}} round {{{population_density_round|0}}} }} | {{{population_density_imperial|}}} }} | {{{population_density_round|0}}}| {{{population_density_note|}}}|
 }} {{ {{#if: {{{population_urban_density|}}}{{{population_urban_density_imperial|}}} | 
 
@@ -665,7 +665,7 @@ Geobox22 list{{#if:{{{material_fold|}}}|_fold}} | Geobox 0}}
 
 {{!}}- class="mergedtoprow" {{#if: {{{established|}}} | 
 {{ {{#if: {{{established|}}} | Geobox22 data plain | Geobox 0}}  
-| Founded | {{{established_type|}}} | Foundation date | {{{established_label|}}}  
+| Mitatag | {{{established_type|}}} | Foundation date | {{{established_label|}}}  
 |{{{established|}}}|{{{established_note|}}}|
 }} {{ {{#if: {{{established1|}}} | 
 
@@ -829,7 +829,7 @@ Geobox22 data plain | Geobox 0 }} | sub = 1
 
 {{!}}- class="mergedtoprow" {{#if: {{{timezone|}}} | 
 {{ {{#if: {{{timezone|}}} | Geobox22 data plain | Geobox 0}} 
-| Timezone | {{{timezone_type|}}} | Basic timezone | {{{timezone_label|}}} 
+| Oraszona | {{{timezone_type|}}} | Basic timezone | {{{timezone_label|}}} 
 | {{#ifexist: {{{timezone|}}} | [[{{{timezone|}}}]] | {{{timezone|}}} }}{{#if: {{{utc_offset|}}}|&nbsp;([[UTC{{{utc_offset}}}]]) }} | {{{timezone_note|}}}|
 }} {{ {{#if: {{{timezone_DST|}}} | 
 
@@ -839,7 +839,7 @@ Geobox22 data plain | Geobox 0}} | sub = 1
 }} }} {{ {{#if: {{{postal_code|}}} | 
 
 Geobox22 data | Geobox 0 }}  
-| Postal code | {{{postal_code_type|}}} | Postal code | {{{postal_code_label|}}} 
+| Postal codiku | {{{postal_code_type|}}} | Postal code | {{{postal_code_label|}}} 
 | {{{postal_code|}}} | {{{postal_code_note|}}}| 
 }} {{ {{#if: {{{area_code|}}} | 
 
