@@ -1,0 +1,49 @@
+{|width="100%" cellspacing="0" cellpadding="2" style="margin-bottom:1em;border:1px solid #CCCCCC;background-color:#F9F9F9"
+|<small><span style="color:#888888">'''Larawan ning aldo kareng aliwang amanu:'''</span></small>
+<div><small>
+{{Potd/Languages}}
+</small></div>
+|<div style="margin-right:4px;border:1px solid #CCCCCC;border-right-width:3px;border-bottom-width:3px;background:#FFFFFF;padding:3px;text-align:center;font-size:smaller;line-height:1.2"><div>{{CURRENTDAYNAME}}</div><div style="font-size:x-large">{{CURRENTDAY}}</div><div>{{CURRENTMONTHNAME}}</div><div>{{CURRENTYEAR}}</div><div style="background:#AAAAAA;color:#000000">'''{{CURRENTTIME}}''' UTC</div></div>
+|}
+{{Potd|width=300|float=right|lang=pam}}
+{{shortcut|[[COM:POTD]]}}
+Deni reng larawan a mepiling lunto king [[Main Page|Pun Bulung]] antimong '''Larawan ning Aldo'''. Uling makabulalag la keng bulung a iti, malyari da lang ilikas deng talagamit kareng aliwang amanu.   
+
+Manibat king 1 ya ing Julio 2007, kaylangan lang maging '''[[Commons:Featured pictures|Mepiling larawan]]''' a e pa megamit a Larawan ning Aldo deng pilinang maging Larawan ning Aldo. Pipilinan la reng [[Commons:Featured pictures|Mepiling larawan]] kapamilatan ning pamikakasundu [[Commons:Featured picture candidates|keni]]. Makabili ne man ing metung a listaan da reng larawan a malyaring gamitan a Larawan ning Aldo [[Commons talk:Picture of the day/Unused featured pictures|keni]].
+{|
+|-
+|
+[[Image:Featured envelope.svg|left|50px]]<span class="plainlinks">'''[http://lists.wikimedia.org/mailman/listinfo/daily-image-l Tanggapan ya ing Larawan ning Aldo king E-mail]'''</span><br />
+[[commons:daily-image-l|daily-image-l]] mailing list
+|width=50|
+|
+[[Image:Feed-icon.svg|left|50px]]<span class="plainlinks">'''[http://tools.wikimedia.de/~daniel/potd/commons/potd-400x300.rss Tanggapan ya ing Larawan ning Aldo king RSS]'''</span><br />
+[[Commons:Press_releases/Picture_of_the_Day_RSS#How_to_access_the_Picture_of_the_Day|karagdagang informaciun]]
+|}
+
+Malyari yang ibili king metung a bulung ing salukuyan a '''Larawan ning Aldo''' kapamilatan ning apusan o template a<br />
+<tt><nowiki>{{Potd|width=300|float=right|lang=pam}}</nowiki></tt><br />
+Malyari yang akit ing larawan a iti keti<br />
+<tt><nowiki>[[Image:{{Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}}}]]</nowiki></tt><br />
+Malyari yang lon ing ''caption'' kapamilatan ning<br />
+<tt><nowiki>{{Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}} (pam)}}</nowiki></tt>
+<br clear="all" />
+== Ing bulan a ini ==
+{{Potd/{{CURRENTYEAR}}-{{CURRENTMONTH}}|width=300|lang=pam}}
+
+== Ing tutuking bulan ==
+* [[Template:Potd/{{#ifexpr: {{CURRENTMONTH}}=12|{{#expr:{{CURRENTYEAR}}+1}}-01|{{CURRENTYEAR}}-{{#ifexpr: {{CURRENTMONTH}}+1<10|0{{#expr:{{CURRENTMONTH}}+1}}|{{#expr:{{CURRENTMONTH}}+1}} }} }}|Deng larawan ning aldo keng tutuking bulan]]
+
+[[Category:Commons:Potd (pam)| ]]
+
+[[bs:Wikipedia:Slika dana]]
+[[en:Wikipedia:Picture of the day]]
+[[fr:Wikipédia:Image du jour]]
+[[hu:Wikipédia:A nap képe]]
+[[kk:Уикипедия:Тәулік суреті]]
+[[os:Википеди:Боны ныв]]
+[[pam:Wikipedia:Larawan ning Aldo]]
+[[ru:Википедия:Изображение дня]]
+[[zh:Wikipedia:每日圖片]]
+[[zh-classical:Wikipedia:每日圖繪]]
+[[zh-yue:Wikipedia:是日靚畫]]
