@@ -14,7 +14,7 @@
 | '''Administrasyun&nbsp;uri''' || {{{AdministrationType}}}</tr>
 |-
 <!----------Capital/largest city---------->
-| {{#ifeq:{{{Capital}}}|<!--equals:-->{{{LargestCity}}} |<!--then:-->'''Tungku'''<br/>(and largest city) {{!!}} {{{Capital}}} |<!--else:-->'''Capital''' {{!!}} {{{Capital}}}</tr> <tr><td>'''Pekamaragul a lakanbalen'''</td><td>{{{LargestCity|}}}</td></tr><!--end #if:-->}}
+| {{#ifeq:{{{Capital}}}|<!--equals:-->{{{LargestCity}}} |<!--then:-->'''Tungku'''<br/>(and largest city) {{!!}} {{{Capital}}} |<!--else:-->'''Tungku''' {{!!}} {{{Capital}}}</tr> <tr><td>'''Pekamaragul a lakanbalen'''</td><td>{{{LargestCity|}}}</td></tr><!--end #if:-->}}
 |-
 <!----------CPC Committee Secretary---------->
 | '''[[Communist Party of China|CPC]]&nbsp;[[Committee|Ctte]]&nbsp;Secretary'''
