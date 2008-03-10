@@ -21,7 +21,7 @@
 | {{{Secretary}}}
 |-
 <!----------Governor/Chairman---------->
-| '''{{#ifeq:{{{AdministrationType}}}|<!--equals:-->[[Autonomous region of China|Autonomous region]] |<!--then:-->Chairman |<!--else:-->Governor}}'''
+| '''{{#ifeq:{{{AdministrationType}}}|<!--equals:-->[[Autonomous region of China|Autonomous region]] |<!--then:-->Chairman |<!--else:-->Gobernador}}'''
 | {{{Governor}}}
 |-
 <!----------Area---------->
