@@ -1,0 +1,10 @@
+<!--{{Fact}} begin-->{{fix
+|link=Wikipedia:Citation needed
+|text=citation needed
+|class=noprint Template-Fact
+|title=This claim needs references to reliable sources
+|date={{{date|}}}
+|cat=[[Category:All articles with unsourced statements]]
+|cat-date=Category:Articles with unsourced statements}}<includeonly>{{#if:{{NAMESPACE}}||{{#if:{{{date|}}}|{{#ifexist:Category:Articles with unsourced statements since {{{date}}}||[[Category:Articles with invalid date parameter in template]]}}|}}}}</includeonly><!--{{Fact}} end--><noinclude>
+{{documentation}}
+</noinclude>
