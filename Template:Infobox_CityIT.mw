@@ -3,7 +3,7 @@
 |-
 ! colspan="2" | <big>{{{city}}}<big>
 |-
-! colspan="2" | {{#if:{{{img_coa|}}}|{{#if:{{{img_coa_small|}}}|[[Image:{{{img_coa}}}|Coat of arms of {{{city}}}]]|[[Image:{{{img_coa}}}|140x140px|Coat of arms of {{{city}}}]]}}<br/>Municipal coat of arms|}}
+! colspan="2" | {{#if:{{{img_coa|}}}|{{#if:{{{img_coa_small|}}}|[[Image:{{{img_coa}}}|Coat of arms of {{{city}}}]]|[[Image:{{{img_coa}}}|140x140px|Coat of arms of {{{city}}}]]}}<br/>Balen sagkal armas|}}
 |-
 | '''Bangsa'''
 |{{flagicon|Italy}} [[Italy]]
