@@ -1,0 +1,88 @@
+{| class="infobox" style="width:25em; text-align:left; font-size:90%;"
+|-
+!colspan="2" style="background:{{infobox colors|Technology}}; padding:0.25em 0 0.33em; text-align:center; font-size:larger;"| {{{name}}}
+|-
+{{#if: {{{image<includeonly>|</includeonly>}}} |
+{{!}}colspan="2" style="text-align:center; padding-bottom:0.25em;"{{!}} [[Image:{{{image}}}|288px]]<!--
+--><div style="font-size:90%;">{{{caption<includeonly>|</includeonly>}}}</div>
+}}
+|-
+{{#if: {{{other_name<includeonly>|</includeonly>}}} |
+! Other&nbsp;names
+{{!}} {{{other_name}}}
+}}
+|-
+{{#if: {{{classification<includeonly>|</includeonly>}}} |
+! Classification
+{{!}} {{{classification}}}
+}}
+|-
+{{#if: {{{types<includeonly>|</includeonly>}}} |
+! Types
+{{!}} {{{types}}}
+}}
+|-
+{{#if: {{{used_with<includeonly>|</includeonly>}}} |
+! Used with
+{{!}} {{{used_with}}}
+}}
+|-
+{{#if: {{{inventor<includeonly>|</includeonly>}}} |
+! Inventor
+{{!}} {{{inventor}}}
+{{!}}-
+}}
+|-
+{{#if: {{{manufacturer<includeonly>|</includeonly>}}} |
+! Manufacturer
+{{!}} {{{manufacturer}}}
+}}
+|-
+{{#if: {{{model<includeonly>|</includeonly>}}} |
+! Model
+{{!}} {{{model}}}
+}}
+|-
+{{#if: {{{related<includeonly>|</includeonly>}}} |
+! Related
+{{!}} {{{related}}}
+}}
+|-
+|}<noinclude>
+
+
+==Blank template==
+<div style="width:21em; background:#ddd; border:1px solid black; padding:0.5em 1em;">
+<pre>
+{{Infobox Tool
+| name       = 
+| image      = 
+| caption    = 
+| other_name = 
+| classification = 
+| types      = 
+| used_with  = 
+| inventor   = 
+| manufacturer = 
+| model      = 
+| related    = 
+}}
+</pre>
+</div>
+
+== Usage ==
+;name:Name of the tool
+;image:An image illustrating the item 
+;caption:Caption for the image above
+;other_name:Other name(s) used for this item
+;classification:General type, e.g. hand tool, power tool, garden tool, etc.
+;uses:What is this item used for, e.g. cutting, concentrating force, guiding, protecting, seizing and holding, etc.
+;types:Different types of this tool, e.g. hammer = ball-peen hammer, cross-peen hammer, etc.
+;used_with:Tools that this one is used in conjunction with, e.g. hammer + chisel, punc, etc.
+;inventor:Inventor(s) of the item (if any)
+;manufacturer:If this is an item specific to a particular manufacturer, put the name here
+;model:if this is a particular manufacturer's model, put the model name or number here
+;related:related tools, e.g. hammer = axe, maul, etc.
+
+[[Category:Applied science and technology infobox templates|{{PAGENAME}}]]<!--probably needs focusing-->
+</noinclude>
