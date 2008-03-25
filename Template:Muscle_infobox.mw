@@ -1,0 +1,63 @@
+<noinclude>{{pp-semi-template|small=yes}}</noinclude>
+{| class="infobox" style="width:20em;"
+|- style="text-align:center;"
+!style="background: antiquewhite;" colspan="3"|'''''{{{Name}}}'''''
+|- style="text-align: center;"
+{{#if: {{{Image|}}} | {{!}} colspan="2" {{!}} [[Image:{{{Image}}}|{{{Width|250}}}px|center|]] }}
+|- style="text-align: center; line-height: 1;" 
+{{#if: {{{Caption|}}} | {{!}} colspan="2" {{!}} <small>{{{Caption}}}</small> }}
+|- style="text-align: center;"
+{{#if: {{{Image2|}}} | {{!}} colspan="2" {{!}} [[Image:{{{Image2}}}|{{{Width|250}}}px|center|]] }}
+|- style="text-align: center; line-height: 1;" 
+{{#if: {{{Caption2|}}} | {{!}} colspan="2" {{!}} <small>{{{Caption2}}}</small> }}
+|- style="text-align: center;" 
+{{#if:{{{Map<includeonly>|</includeonly>}}}|
+{{!}} colspan="2" {{!}} <noinclude><span style="float:left;">†</span></noinclude>{{ {{{Map}}} | {{{MapPos}}} | Inline=1 }}
+{{!}}- style="text-align: center; line-height: 1;" 
+{{#if:{{{MapCaption<includeonly>|</includeonly>}}}|
+{{!}} colspan="2" {{!}} <small>{{{MapCaption}}}</small>
+}}
+}}
+|- 
+{{#if: {{{Latin|}}} | 
+{{!}} '''[[Latin]]''' 
+{{!}} style="width:20%" colspan="2" {{!}}''{{{Latin}}}'' }}
+|- 
+{{#if: {{{GraySubject|}}} |
+{{!}} '''[[List of subjects in Gray's Anatomy:{{{GraySubject}}}#Gray.27s_page_.23{{{GrayPage|}}}|Gray's]]'''
+{{!}} colspan="2" {{!}} ''[http://education.yahoo.com/reference/gray/subjects/subject?id={{{GraySubject}}}#p{{{GrayPage|}}} subject #{{{GraySubject}}} {{{GrayPage|}}}]'' }}
+|- style="vertical-align:top; background:#E0E0E0; width:20%"
+|'''[[List of bones of the human skeleton|Origin:]]'''
+|colspan="2"|{{{Origin}}}
+|- style="vertical-align:top; background:#E0E0E0"
+|'''[[List of bones of the human skeleton|Insertion:]]'''
+|colspan="2"|{{{Insertion}}}
+|- style="vertical-align:top; background:Pink"  
+|'''[[Artery|Artery:]]'''
+|colspan="2"|{{{Blood}}}
+|- style="vertical-align:top; background:Yellow "  
+|'''[[List of human nerves|Nerve:]]'''
+|colspan="2"|{{{Nerve}}}
+|- style="vertical-align:top;"
+|'''[[Kinesiology|Action:]]'''
+|colspan="2"|{{{Action}}}
+|- style="vertical-align:top; background:antiquewhite "
+{{#if: {{{Antagonist|}}} |
+{{!}} '''[[Antagonist (muscle)|Antagonist:]]'''
+{{!}} colspan="2" {{!}} {{{Antagonist}}} }}
+|- style="text-align: left;" 
+{{#if:{{{MeshName<includeonly>|</includeonly>}}}|
+! [[Medical Subject Headings|MeSH]]
+{{!}} style="white-space: nowrap;" {{!}} <noinclude>†&nbsp;</noinclude>''[http://www.nlm.nih.gov/cgi/mesh/{{{MeshYear|2007}}}/MB_cgi?mode=&term={{{MeshName}}} {{{MeshName}}}]''
+}}
+|- 
+{{#if: {{{DorlandsPre|}}} |
+{{!}} '''[[Elsevier|Dorlands/Elsevier]] '''
+{{!}} colspan="2" {{!}} ''[http://www.mercksource.com/pp/us/cns/cns_hl_dorlands.jspzQzpgzEzzSzppdocszSzuszSzcommonzSzdorlandszSzdorlandzSzdmd_{{{DorlandsPre}}}zPzhtm#{{{DorlandsSuf}}} {{{DorlandsPre}}}/{{{DorlandsSuf}}}]'' }}
+|}<noinclude>
+[[Category:Medical infobox templates|Muscle]]
+
+[[es:Plantilla:Infobox Músculo]]
+[[nl:Sjabloon:Infobox Muscle]]
+
+</noinclude>
