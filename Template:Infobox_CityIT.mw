@@ -3,7 +3,7 @@
 ! colspan="2" | <big class="fn org">{{{official_name|Comune di {{{name}}}}}}<big>
 {{#if:{{{image_skyline|}}}
 |{{!}}-
-{{!}}colspan=2{{!}}[[Image:{{{image_skyline}}}|center|244px|{{{image_caption|Picture of {{{name}}}}}}]]{{#if:{{{image_caption|}}}|<center>{{{image_caption}}}</center>}}}}
+{{!}}colspan=2{{!}}[[Image:{{{image_skyline}}}|right|244px|{{{image_caption|Picture of {{{name}}}}}}]]{{#if:{{{image_caption|}}}|<center>{{{image_caption}}}</center>}}}}
 |-{{#if:{{{img_coa|}}}|{{#if:{{{img_coa_small|}}}|[[Image:{{{img_coa}}}|Coat of arms of {{{city}}}]]|[[Image:{{{img_coa}}}|140x140px|Coat of arms of {{{city}}}]]}}<br/>Balen sagkal armas|}}
 <!-- ###### Locator map (auto-drawn using [[Template:Location map]]) -->
 |-
