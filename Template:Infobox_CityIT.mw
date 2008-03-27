@@ -3,12 +3,12 @@
 ! colspan="2" | <big class="fn org">{{{official_name|Comune di {{{name}}}}}}<big>
 {{#if:{{{image_skyline|}}}
 |{{!}}-
-{{!}}colspan=2{{!}}[[Image:{{{image_skyline}}}|right|244px|{{{image_caption|Picture of {{{name}}}}}}]]{{#if:{{{image_caption|}}}|<center>{{{image_caption}}}</center>}}}}
+{{!}}colspan=2{{!}}[[Image:{{{image_skyline}}}|center|244px|{{{image_caption|Picture of {{{name}}}}}}]]{{#if:{{{image_caption|}}}|<center>{{{image_caption}}}</center>}}}}
 |-{{#if:{{{img_coa|}}}|{{#if:{{{img_coa_small|}}}|[[Image:{{{img_coa}}}|Coat of arms of {{{city}}}]]|[[Image:{{{img_coa}}}|140x140px|Coat of arms of {{{city}}}]]}}<br/>Balen sagkal armas|}}
 <!-- ###### Locator map (auto-drawn using [[Template:Location map]]) -->
 |-
 {{#if:{{{mapx|}}}|
-{{!}} colspan="2" style="text-align: center; padding-top: 0em; padding-bottom: 0em;" {{!}}<center><div><div style="width:211px; background:transparent">
+{{!}} colspan="2" style="text-align: right; padding-top: 0em; padding-bottom: 0em;" {{!}}<center><div><div style="width:211px; background:transparent">
 <div style="position:relative; width:211px">[[Image:Regions of Italy.svg|211px]]<br/><div style="position:absolute;z-index:200;
 top:{{#expr:100*(47.3417-{{{mapx}}}) / (47.3417-35.493128) round 1}}%;
 left:{{#expr:100*({{{mapy}}}-6.627159) / (18.519859-6.627159) round 1}}%; height:0; width:0; margin:0; padding:0;">
