@@ -1,92 +1,87 @@
-{| class="maptable" align="left" colspan="2" style="padding: 0.4em 0.8em 0.4em 0.8em;" |
+<!--This template employs some extremely complicated and esoteric features of template syntax. Please do not attempt to alter it unless you are certain that you understand the setup and are prepared to repair any consequent collateral damage if the results are unexpected. Any experiments should be conducted in the template sandbox or your user space.
+-->{| class="infobox geography" 
+|+style="font-size: larger; padding: 0 0 .1em 0;"| '''{{{Fullname}}}'''
+| class="maptable" align="center" colspan="2" style="padding: 0.4em 0.8em 0.4em 0.8em;" |
+{| style="text-align:center; background: none;"
+| style="width: 130px; vertical-align: middle;" | {{border|[[Image:{{{Flag}}}|125px|Watawat ng {{{Name}}}]]}}
+| style="width: 130px; vertical-align: middle;" | [[Image:{{{Seal}}}|100px|Pang-estadong sagisag ng {{{Name}}}]]
+|- style="font-size: smaller;"
+| {{{Flaglink|[[Watawat ng {{{Name}}}]]}}} 
+| {{{Seallink|[[Sagisag ng {{{Name}}}]]}}}
+|- style="font-size: smaller;"
+| colspan="2" | ''[[Tala ng mga palayaw ng mga estado ng Estados Unidos|Mga palayaw]]: {{{Nickname}}}''
+|-{{#if: {{{Motto|}}}| style="font-size: smaller;" 
+{{!}} colspan="2" {{!}}''[[Tala ng mga motto ng mga estado ng Estados Unidos|Mga motto]]: {{{Motto}}}'' }}
+|-{{#ifexist: {{{Former|}}}| style="font-size: smaller;" 
+{{!}} colspan="2" {{!}}''Kilala bilang'' [[{{{Former}}}]] ''bago ng pag-eestado'' {{#if:{{{Former_flag|}}}|[[Image:{{{Former_flag}}}|30px]]}} }}
+|- class="maptable"
+| colspan="2" | [[Image:{{{Map}}}|center|Map of the United States with {{{Name}}} highlighted]]
+|}
 |-
-! colspan="2" | <big class="fn org">{{{official_name|Comune di {{{name}}}}}}<big>
-{{#if:{{{image_skyline|}}}
-|{{!}}-
-{{!}}colspan=2{{!}}[[Image:{{{image_skyline}}}|center|244px|{{{image_caption|Picture of {{{name}}}}}}]]{{#if:{{{image_caption|}}}|<center>{{{image_caption}}}</center>}}}}
-|-{{#if:{{{img_coa|}}}|{{#if:{{{img_coa_small|}}}|[[Image:{{{img_coa}}}|Coat of arms of {{{city}}}]]|[[Image:{{{img_coa}}}|140x140px|Coat of arms of {{{city}}}]]}}<br/>Balen sagkal armas|}}
-<!-- ###### Locator map (auto-drawn using [[Template:Location map]]) -->
+{{#if:{{{OfficialLang|}}}|
+{{!}} '''[[Mga wika sa Estados Unidos|Opisyal na wika]]'''
+{{!}} {{{OfficialLang}}}|}}
+|-class="mergedtoprow"
+| '''[[Tala ng mga kabisera sa Estados Unidos|Kabisera]]''' || {{{Capital}}}
+|-class="mergedrow"
+| '''[[Tala ng mga pinakamalaking lungsod ng mga estado sa Estados Unidos|Pinakamalaking lungsod]]''' || {{{LargestCity}}}
+|-class="mergedrow"
+{{#if: {{{LargestMetro|}}}|
+{{!}} '''Pinakamalaking [[Kalakhan ng Estados Unidos|kalakhan]]''' {{!}}{{!}} {{{LargestMetro}}} }}
+|- class="mergedtoprow"  
+| '''[[Area]]'''<sup>&nbsp;</sup> || [[Tala ng mga estado ng Estados Unidos ayon sa lawak|Inuuri bilang {{{AreaRank}}}]]
+|-class="mergedrow"
+| &nbsp;- Kabuuan  || {{{TotalAreaUS}}}&nbsp;[[milya kuwadrado|sq&nbsp;mi]] <br/>({{{TotalArea}}} [[kilometro kuwadrado|km²]])
+|-class="mergedrow"
+| &nbsp;- Lapad  || {{{WidthUS}}}&nbsp;miles&nbsp;({{{Width}}} [[kilometro|km]])
+|-class="mergedrow" 
+| &nbsp;- Haba  || {{{LengthUS}}}&nbsp;miles&nbsp;({{{Length}}} km)
+|-class="mergedrow"
+| &nbsp;- % tubig || {{{PCWater}}}
+|-class="mergedrow"
+| &nbsp;- Latitud || {{{Latitude}}}
+|-class="mergedbottomrow"
+| style="border-top: 0;" | &nbsp;- Longhitud || {{{Longitude}}}
+|- class="mergedtoprow" 
+| '''[[Populasyon]]'''<sup>&nbsp;</sup> || [[Tala ng mga estado ng Estados Unidos ayon sa populasyon|Inuuri bilang {{{PopRank}}}]]
+|-class="mergedrow"
+| &nbsp;- Kabuuan ([[Sensus ng Estados Unidos ng 2000|2000]]) || {{{2000Pop}}}
+|-{{#if:{{{MedianHouseholdIncome|}}}|class="mergedrow"|class="mergedbottomrow" }}
+| &nbsp;- [[Tala ng mga estado ng Estados Unidos ayon sa densidad ng populasyon|Densidad]] || {{{2000DensityUS}}}/sq&nbsp;mi&nbsp;<br />{{{2000Density}}}/km² ({{{DensityRank}}}) 
+|-{{#if:{{{MedianHouseholdIncome|}}}|class="mergedbottomrow"
+{{!}} &nbsp;- [[Sambahayang sahod sa Estados Unidos#Mga sahod ayon sa estado|Kalagitnaang sahod]]<sup>&nbsp;</sup> {{!}}{{!}} {{{MedianHouseholdIncome}}} ({{{IncomeRank}}}) }}
+|-class="mergedtoprow"
+| '''[[Tala ng mga estado ng Estados Unidos ayon sa kataasan|Kataasan]]''' || &nbsp;
+|-class="mergedrow"
+| &nbsp;- [[Tala ng mga estado ng Estados Unidos ayon sa kataasan#Tinatala ayon sa pinakamataas na tuktok|Pinakamataas ng tuktok]]
+| {{{HighestPoint}}}<br/>{{{HighestElevUS}}}&nbsp;ft&nbsp; ({{{HighestElev}}} m)
+|-class="mergedrow"
+| &nbsp;- [[Tala ng mga estado ng Estados Unidos ayon sa kataasan#Tinatala ayon sa karaniwang kataasan|Karaniwan]] ||  {{{MeanElevUS}}}&nbsp;ft&nbsp; ({{{MeanElev}}} m)
+|-class="mergedbottomrow"
+| &nbsp;- [[Tala ng mga estado ng Estados Unidos ayon sa kataasan#Tinatala ayon sa pinakamababa na tuktok|Pinakamababa na tuktok]] || {{#if: {{{LowestPoint|}}}  
+ |{{{LowestPoint}}}<br/>}} {{{LowestElevUS}}}&nbsp;ft&nbsp; ({{{LowestElev}}} m)
 |-
-{{#if:{{{mapx|}}}|
-{{!}} colspan="2" style="text-align: right; padding-top: 0em; padding-bottom: 0em;" {{!}}<center><div><div style="width:211px; background:transparent">
-<div style="position:relative; width:211px">[[Image:Regions of Italy.svg|211px]]<br/><div style="position:absolute;z-index:200;
-top:{{#expr:100*(47.3417-{{{mapx}}}) / (47.3417-35.493128) round 1}}%;
-left:{{#expr:100*({{{mapy}}}-6.627159) / (18.519859-6.627159) round 1}}%; height:0; width:0; margin:0; padding:0;">
-<div style="position:relative; top:-4px; left:-4px; width:8px; text-align:center; z-index:201">[[Image:Red_pog.svg|8x8px]]</div>
-{{#switch:{{#if:{{{locator_position|}}}|{{{locator_position}}}|right}}
-|right=<div style="font-size:90%; line-height:110%; position:relative; top:-1.5em; left:0.5em; text-align:left; width:6em; z-index:202;">
-|left=<div style="font-size:90%; line-height:110%; position:relative; top:-1.5em; left:-6.5em; width:6em; text-align:right; z-index:202;">
-}}<!--<span style="padding:1px;background:none">{{{native_name}}}</span>-->
-</div></div></div></div><small>Karinan ning {{{name}}} king Italy</small></center>}}
+| '''[[Tala ng mga estado sa Estados Unidos ayon sa pag-eestado|Pagtanggap sa Unyon]]'''<sup>&nbsp;</sup>
+| {{{AdmittanceDate}}} ({{{AdmittanceOrder}}})
+|-class="mergedtoprow"
+| '''[[Gobernador#Estados Unidos|Gobernador]]''' || {{{Governor}}}
+|-class="mergedbottomrow"
+|  '''[[Senado ng Estados Unidos|Mga senador pang-Estados Unidos]] || {{{Senators}}}
+|- class="mergedtoprow"
+{{#if: {{{TimeZone2|}}}|
+{{!}} '''[[Tala ng mga estado sa Estados Unidos ayon sa sona ng oras|Mga sona ng oras]]''' {{!}}{{!}} &nbsp;
+{{!}}- class="mergedrow"
+{{!}} &nbsp;- {{{TZ1Where}}} {{!}}{{!}} {{{TimeZone}}}
+{{!}}- class="mergedrow"
+{{!}} &nbsp;- {{{TZ2Where}}} {{!}}{{!}} {{{TimeZone2}}} |
+{{!}} '''[[List of U.S. states by time zone|Time zone]]'''
+{{!}} {{{TimeZone}}} }}
 |-
-{{#if: {{{map<includeonly>|</includeonly>}}} |
-{{!}} align="center" colspan="2" {{!}} [[Image:{{{map}}}|211px|center|{{{native_name}}}]]<center><small>{{{native_name}}} }}
-|- class="adr"
-| '''Bangsa'''
-|{{flagicon|Italy}} [[Italy]]
+| '''Mga daglat'''
+| [[Mga pang-koreong daglat ng Estados Unidos|{{{PostalAbbreviation| }}}]] [[Tala ng mga estado sa Estados Unidos ayon sa tradisyunal na daglat|{{{TradAbbreviation| }}}]] [[ISO 3166-2|{{{ISOCode| }}}]]
 |-
-| '''[[Regions of Italy|Labuad]]'''
-|{{{region}}}
-|-
-| '''[[Provinces of Italy|Lalawigan]]'''
-|{{{province}}}
-|-
-| '''Mayor'''
-| {{{mayor}}}
-|-
-| {{#if:{{{mayor_party|}}}|<br/> &nbsp;- [[List of political parties in Italy|Partidu]]|}}
-| {{#if:{{{mayor_party|}}}|<br/>{{{mayor_party}}}|}}
-{{#if:{{{altitude|}}}
-|{{!}}-
-{{!}}'''Katas'''
-{{!}}{{{altitude}}} m}}
-|-
-| '''Lapad/Dagul'''
-| {{{area_cityproper}}} km²
-|-
-| '''Populasyun'''
-|
-|-
-|&nbsp;- Total {{#if:{{{population_as_of|}}}|(as of {{{population_as_of}}})|}}
-|{{{populationdensity}}}
-|-
-|&nbsp;- Pangasiksik
-|{{{populationdensitymetric}}}/km²
-|-
-| '''Oras zona'''
-| [[Central European Time|CET]], [[UTC+1]]
-|-
-| '''Coordinates'''
-| {{{coordinates}}}
-|-
-| '''[[Demonym|Gentilic]]'''
-| {{{gentilic}}}
-|-
-| '''[[Area codes in Italy|Dialing kodiku]]'''
-| {{{telephone}}}
-|-
-| '''Postal kodiku'''
-| {{{postalcode}}}
-|-
-|{{#if:{{{frazioni|}}}|'''''[[Frazione|Frazioni]]'''''|}}
-|<small>{{{frazioni|}}}</small>
-|-
-|{{#if:{{{saint|}}}|'''Patron'''|}}
-|{{{saint|}}}
-|-
-|{{#if:{{{day|}}}|&nbsp;- Day|}}
-|{{{day|}}}
-
-
-
-| align="center" colspan="2" | {{#if:{{{website|}}}|<small>'''Website:''' {{{website}}}</small>|}}
-|}<noinclude><!--Leave <noinclude> starting in the same line as the last line of the template code-->
-[[Category:City infobox templates|Italy]]
-
-[[de:Vorlage:Gemeinde it]]
-[[fr:Modèle:Commune italienne]]
-[[hu:Sablon:Olasz Város]]
-[[it:Template:Comune]]
-[[ro:Format:Infobox_orase_Italia]]
-[[tr:Şablon:Infobox CityIT]]
-</noinclude>
+| '''Websayt'''
+| [http://{{{Website}}}/ {{{Website}}}]
+|-{{#if: {{{Footnotes|}}}| style="font-size: smaller;" 
+{{!}} colspan="2" {{!}} {{{Footnotes}}} }}
+|}<noinclude>
