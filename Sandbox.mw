@@ -19,7 +19,7 @@ left:{{#expr:100*({{{mapy}}}-6.627159) / (18.519859-6.627159) round 1}}%; height
 }}<!--<span style="padding:1px;background:none">{{{native_name}}}</span>-->
 </div></div></div></div><small>Karinan ning {{{name}}} king Italy</small></center>}}
 |-{{#if: {{{map<includeonly>|</includeonly>}}} |
-{{!}} align="center" colspan="2" {{!}} [[Image:{{{map}}}|211px|center|{{{native_name}}}]]<center><small>{{{native_name}}} }}
+{{!}} align="center" colspan="2" {{!}} |[[Image:{{{map}}}|211px|center|{{{native_name}}}]]<center><small>{{{native_name}}} }}
 |- class="adr"
 | '''Bangsa'''
 |{{flagicon|Italy}} [[Italy]]
