@@ -1,0 +1,249 @@
+{{#switch:{{{sigla|}}}
+|AG=Provincia di Agrigento-Stemma.png
+|AL=Provincia di Alessandria-Stemma.png
+|AN=Provincia di Ancona-Stemma.png
+|AO=Valle d'Aosta-Stemma.svg
+|AP=Provincia di Ascoli Piceno-Stemma.png
+|AQ=Provincia dell'Aquila-Stemma.png
+|AR=Provincia di Arezzo-Stemma.png
+|AT=Provincia di Asti-Stemma.png
+|AV=Provincia di Avellino-Stemma.png
+|BA=Provincia di Bari-Stemma.png
+|BG=Provincia di Bergamo-Stemma.png
+|BI=Provincia di Biella-Stemma.png
+|BL=Provincia di Belluno-Stemma.png
+|BN=Provincia di Benevento-Stemma.png
+|BO=Provincia di Bologna-Stemma.png
+|BR=Provincia di Brindisi-Stemma.png
+|BS=Provincia di Brescia-Stemma.png
+|BT=Italy.Province.Barletta-Andria-Trani.COA.png
+|BZ=Suedtirol CoA.svg
+|CA=Provincia di Cagliari-Stemma.png
+|CB=Provincia di Campobasso-Stemma.png
+|CE=Provincia di Caserta-Stemma.png
+|CH=Provincia di Chieti-Stemma.png
+|CI=Sin escudo.svg
+|CL=Provincia di Caltanissetta-Stemma.png
+|CN=Provincia di Cuneo-Stemma.png
+|CO=Provincia di Como-Stemma.png
+|CR=Provincia di Cremona-Stemma.png
+|CS=Provincia di Cosenza-Stemma.png
+|CT=Provincia di Catania-Stemma.png
+|CZ=Provincia di Catanzaro-Stemma.png
+|EN=Provincia di Enna-Stemma.png
+|FC=Provincia di Forlì-Cesena-Stemma.png
+|FE=Provincia di Ferrara-Stemma.png
+|FG=Provincia di Foggia-Stemma.png
+|FI=Provincia di Firenze-Stemma.png
+|FM=Provincia di Fermo-Stemma.png
+|FR=Provincia di Frosinone-Stemma.png
+|GE=Provincia di Genova-Stemma.png
+|GO=Provincia di Gorizia-Stemma.png
+|GR=Provincia di Grosseto-Stemma.png
+|IM=Provincia di Imperia-Stemma.png
+|IS=Provincia di Isernia-Stemma.png
+|KR=Provincia di Crotone-Stemma.png
+|LC=Provincia di Lecco-Stemma.png
+|LE=Provincia di Lecce-Stemma.png
+|LI=Provincia di Livorno-Stemma.png
+|LO=Provincia di Lodi-Stemma.png
+|LT=Provincia di Latina-Stemma.png
+|LU=Provincia di Lucca-Stemma.png
+|MB=Provincia di Monza e Brianza-Stemma.gif
+|MC=Provincia di Macerata-Stemma.png
+|ME=Provincia di Messina-Stemma.png
+|MI=Provincia di Milano-Stemma.png
+|MN=Provincia di Mantova-Stemma.png
+|MO=Provincia di Modena-Stemma.png
+|MS=Provincia di Massa-Carrara-Stemma.png
+|MT=Provincia di Matera-Stemma.png
+|NA=Provincia Di Napoli.jpg
+|NO=Provincia di Novara-Stemma.png
+|NU=Provincia di Nuoro-Stemma.png
+|OG=Sin escudo.svg
+|OR=Provincia di Oristano-Stemma.png
+|OT=Sin escudo.svg
+|PA=Provincia di Palermo-Stemma.png
+|PC=Provincia di Piacenza-Stemma.png
+|PD=Provincia di Padova-Stemma.png
+|PE=Provincia di Pescara-Stemma.png
+|PG=Provincia di Perugia-Stemma.png
+|PI=Provincia di Pisa-Stemma.png
+|PN=Provincia di Pordenone-Stemma.png
+|PO=Provincia di Prato-Stemma.png
+|PR=Provincia di Parma-Stemma.png
+|PT=Provincia di Pistoia-Stemma.png
+|PU=Provincia di Pesaro e Urbino-Stemma.png
+|PV=Provincia di Pavia-Stemma.png
+|PZ=Provincia di Potenza-Stemma.png
+|RA=Provincia di Ravenna-Stemma.png
+|RC=Provincia di Reggio Calabria-Stemma.png
+|RE=Provincia di Reggio Emilia-Stemma.png
+|RG=Provincia di Ragusa-Stemma.png
+|RI=Provincia di Rieti-Stemma.png
+|RM=Provincia di Roma-Stemma.png
+|RN=Provincia di Rimini-Stemma.png
+|RO=Provincia di Rovigo-Stemma.png
+|SA=Provincia di Salerno-Stemma.png
+|SI=Provincia di Siena-Stemma.png
+|SO=Provincia di Sondrio-Stemma.png
+|SP=Provincia della Spezia-Stemma.png
+|SR=Provincia di Siracusa-Stemma.png
+|SS=Provincia di Sassari-Stemma.png
+|SV=Provincia di Savona-Stemma.png
+|TA=Provincia di Taranto-Stemma.png
+|TE=Provincia di Teramo-Stemma.png
+|TN=Provincia autonoma di Trento-Stemma-k1.png
+|TO=Provincia di Torino-Stemma.png
+|TP=Provincia di Trapani-Stemma.png
+|TR=Provincia di Terni-Stemma.png
+|TS=Provincia di Trieste-Stemma.png
+|TV=Provincia di Treviso-Stemma.png
+|UD=Provincia di Udine-Stemma.png
+|VA=Provincia di Varese-Stemma.png
+|VB=Provincia del Verbano Cusio Ossola-Stemma.png
+|VC=Provincia di Vercelli-Stemma.png
+|VE=Provincia di Venezia-Stemma.png
+|VI=Provincia di Vicenza-Stemma.png
+|VR=Provincia di Verona-Stemma.png
+|VS=Sin escudo.svg
+|VT=Provincia di Viterbo-Stemma.png
+|VV=Provincia di Vibo Valentia-Stemma.png
+|
+}}<noinclude>
+----
+Purpose:
+
+Provides the image name for the coat of arms of an Italian province for the standard province code (e.g. VT).
+
+----
+Usage
+<code><pre><nowiki>
+{{ProvinciaIT (coat of arms)|sigla=THE_CODE}}
+</nowiki></pre></code>
+
+----
+Example:
+<code><pre><nowiki>
+[[Image:{{ProvinciaIT (coat of arms)|sigla=AL}}|thumb]]
+</nowiki></pre></code>
+produces:
+
+[[Image:{{ProvinciaIT (coat of arms)|sigla=AL}}|thumb]]
+<br clear=right>
+
+----
+Valid codes:
+
+<br>AG=Province of Agrigento
+<br>AL=Province of Alessandria
+<br>AN=Province of Ancona
+<br>AO=Valle d'Aosta
+<br>AP=Province of Ascoli Piceno
+<br>AQ=Province of L'Aquila
+<br>AR=Province of Arezzo
+<br>AT=Province of Asti
+<br>AV=Province of Avellino
+<br>BA=Province of Bari
+<br>BG=Province of Bergamo
+<br>BI=Province of Biella
+<br>BL=Province of Belluno
+<br>BN=Province of Benevento
+<br>BO=Province of Bologna
+<br>BR=Province of Brindisi
+<br>BS=Province of Brescia
+<br>BT=Province of Barletta-Andria-Trani
+<br>BZ=Province of Bolzano
+<br>CA=Province of Cagliari
+<br>CB=Province of Campobasso
+<br>CE=Province of Caserta
+<br>CH=Province of Chieti
+<br>CI=Province of Carbonia-Iglesias
+<br>CL=Province of Caltanissetta
+<br>CN=Province of Cuneo
+<br>CO=Province of Como
+<br>CR=Province of Cremona
+<br>CS=Province of Cosenza
+<br>CT=Province of Catania
+<br>CZ=Province of Catanzaro
+<br>EN=Province of Enna
+<br>FC=Province of Forlì-Cesena
+<br>FE=Province of Ferrara
+<br>FG=Province of Foggia
+<br>FI=Province of Florence
+<br>FM=Province of Fermo
+<br>FR=Province of Frosinone
+<br>GE=Province of Genoa
+<br>GO=Province of Gorizia
+<br>GR=Province of Grosseto
+<br>IM=Province of Imperia
+<br>IS=Province of Isernia
+<br>KR=Province of Crotone
+<br>LC=Province of Lecco
+<br>LE=Province of Lecce
+<br>LI=Province of Livorno
+<br>LO=Province of Lodi
+<br>LT=Province of Latina
+<br>LU=Province of Lucca
+<br>MB=Province of Monza and Brianza
+<br>MC=Province of Macerata
+<br>ME=Province of Messina
+<br>MI=Province of Milan
+<br>MN=Province of Mantua
+<br>MO=Province of Modena
+<br>MS=Province of Massa-Carrara
+<br>MT=Province of Matera
+<br>NA=Province of Naples
+<br>NO=Province of Novara
+<br>NU=Province of Nuoro
+<br>OG=Province of Ogliastra
+<br>OR=Province of Oristano
+<br>OT=Province of Olbia-Tempio
+<br>PA=Province of Palermo
+<br>PC=Province of Piacenza
+<br>PD=Province of Padua
+<br>PE=Province of Pescara
+<br>PG=Province of Perugia
+<br>PI=Province of Pisa
+<br>PN=Province of Pordenone
+<br>PO=Province of Prato
+<br>PR=Province of Parma
+<br>PT=Province of Pistoia
+<br>PU=Province of Pesaro and Urbino
+<br>PV=Province of Pavia
+<br>PZ=Province of Potenza
+<br>RA=Province of Ravenna
+<br>RC=Province of Reggio Calabria
+<br>RE=Province of Reggio Emilia
+<br>RG=Province of Ragusa
+<br>RI=Province of Rieti
+<br>RM=Province of Rome
+<br>RN=Province of Rimini
+<br>RO=Province of Rovigo
+<br>SA=Province of Salerno
+<br>SI=Province of Siena
+<br>SO=Province of Sondrio
+<br>SP=Province of La Spezia
+<br>SR=Province of Siracusa
+<br>SS=Province of Sassari
+<br>SV=Province of Savona
+<br>TA=Province of Taranto
+<br>TE=Province of Teramo
+<br>TN=Province of Trento
+<br>TO=Province of Turin
+<br>TP=Province of Trapani
+<br>TR=Province of Terni
+<br>TS=Province of Trieste
+<br>TV=Province of Treviso
+<br>UD=Province of Udine
+<br>VA=Province of Varese
+<br>VB=Province of Verbano-Cusio-Ossola
+<br>VC=Province of Vercelli
+<br>VE=Province of Venice
+<br>VI=Province of Vicenza
+<br>VR=Province of Verona
+<br>VS=Province of Medio Campidano
+<br>VT=Province of Viterbo
+<br>VV=Province of Vibo Valentia
+
+</noinclude>
