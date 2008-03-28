@@ -1,0 +1,69 @@
+{{#switch:{{{sigla|}}}
+|ABR=Regione-Abruzzo-Stemma.svg
+|BAS= Regione-Basilicata-Stemma.svg
+|CAL=Coat_of_arms_of_Calabria.svg
+|CAM=Regione-Campania-Stemma.svg
+|EMR=Regione-Emilia-Romagna-Stemma.png
+|FVG=Friuli-Venezia Giulia-coat-of-arms.jpg
+|LAZ=Lazio-Stemma.png
+|LIG=Regione-Liguria-Stemma.png
+|LOM=Regione-Lombardia-Stemma.svg
+|MAR=Coat of arms of Marche.svg
+|MOL=Regione-Molise-Stemma.svg
+|PMN=Regione-Piemonte-Stemma.svg
+|PUG= Regione-Puglia-Stemma.png
+|SAR= Sardegna-Stemma.svg 
+|SIC=Regione-Sicilia-Stemma.png
+|TOS=Regione-Toscana-Stemma.png
+|TAA=Coat of arms of Trentino-South Tyrol.svg
+|UMB=Regione-Umbria-Stemma.svg
+|VAO=Valle_d%27Aosta-Stemma.svg
+|VEN=Veneto-Stemma.png
+|
+}}<noinclude>
+----
+Purpose:
+
+Provides the image name for the coat of arms of an Italian region for the standard region code (e.g. PMT).
+
+----
+Usage
+<code><pre><nowiki>
+{{RegioneIT (coat of arms)|sigla=THE_CODE}}
+</nowiki></pre></code>
+
+----
+Example:
+<code><pre><nowiki>
+[[Image:{{RegioneIT (coat of arms)|sigla=FVG}}|thumb]]
+</nowiki></pre></code>
+produces:
+
+[[Image:{{RegioneIT (coat of arms)|sigla=FVG}}|thumb]]
+<br clear=right>
+
+----
+Valid codes:
+
+<br>ABR=[[Abruzzo]]
+<br>BAS=[[Basilicata]]
+<br>CAL=[[Calabria]]
+<br>CAM=[[Campania]]
+<br>EMR=[[Emilia-Romagna]]
+<br>FVG=[[Friuli-Venezia Giulia]]
+<br>LAZ=[[Lazio]]
+<br>LIG=[[Liguria]]
+<br>LOM=[[Lombardy]]
+<br>MAR=[[Marche]]
+<br>MOL=[[Molise]]
+<br>PMN=[[Piedmont]]
+<br>PUG=[[Puglia]]
+<br>SAR=[[Sardinia]]
+<br>SIC=[[Sicily]]
+<br>TOS=[[Tuscany]]
+<br>TAA=[[Trentino-Alto Adige/Südtirol]]
+<br>UMB=[[Umbria]]
+<br>VAO=[[Valle d'Aosta]]
+<br>VEN=[[Veneto]]
+
+</noinclude>
