@@ -1,0 +1,22 @@
+<includeonly>
+{{Navbox
+|name = {{ProvinciaIT (unlinked)|sigla={{{province_code|}}}}}
+|title = {{Navbox Province of Italy/title|province_code={{{province_code}}}}}
+|imageleft = [[Image:{{RegioneIT (coat of arms)|sigla={{ProvinciaIT (region code)|sigla={{{province_code|}}} }} }}|55px|{{RegioneIT (unlinked)|sigla={{ProvinciaIT (region code)|sigla={{{province_code|}}} }} }}]]
+|image = [[Image:{{ProvinciaIT (coat of arms)|sigla={{{province_code|}}} }}|55px|{{ProvinciaIT (unlinked)|sigla={{{province_code|}}}}}]]
+|list1 = {{{list|}}}
+}}
+<!--Categories-->{{#if: {{{nocat|}}}||
+{{ #ifeq:{{FULLPAGENAME}}|Template:{{ProvinciaIT (unlinked)|sigla={{{province_code|}}}}}|[[Category:Italian navigational boxes (provinces) |{{ProvinciaIT (alpha-sort form)|sigla={{{province_code|}}} }}]]|{{Navbox Province of Italy/Categories for commune|province_code={{{province_code|}}}}}
+}}
+}}</includeonly><noinclude>
+== Sample output ==
+{{ {{PAGENAME}}
+| nocat=yes
+| province_code=AT
+| list={{WrapItemsAfterSeparator|[[Agliano Terme]] | [[Albugnano]] | [[Antignano]] | [[Aramengo]] | [[Asti]] | [[Azzano d'Asti]] | [[Baldichieri d'Asti]] | [[Berzano di San Pietro]] | [[Bruno (AT)|Bruno]] | [[Bubbio]] | [[Buttigliera d'Asti]] | [[Calamandrana]] | [[Calliano (AT)|Calliano]] | [[Calosso]] | [[Camerano Casasco]] | [[Canelli]] | [[Cantarana]] | [[Capriglio]] | [[Casorzo]] | [[Cassinasco]] | [[Castagnole Monferrato]] | [[Castagnole delle Lanze]] | [[Castel Boglione]] | [[Castel Rocchero]] | [[Castell'Alfero]] | [[Castellero]] | [[Castelletto Molina]] | [[Castello di Annone]] | [[Castelnuovo Belbo]] | [[Castelnuovo Calcea]] | [[Castelnuovo Don Bosco]] | [[Cellarengo]] | [[Celle Enomondo]] | [[Cerreto d'Asti]] | [[Cerro Tanaro]] | [[Cessole]] | [[Chiusano d'Asti]] | [[Cinaglio]] | [[Cisterna d'Asti]] | [[Coazzolo]] | [[Cocconato]] | [[Corsione]] | [[Cortandone]] | [[Cortanze]] | [[Cortazzone]] | [[Cortiglione]] | [[Cossombrato]] | [[Costigliole d'Asti]] | [[Cunico]] | [[Dusino San Michele]] | [[Ferrere]] | [[Fontanile]] | [[Frinco]] | [[Grana (AT)|Grana]] | [[Grazzano Badoglio]] | [[Incisa Scapaccino]] | [[Isola d'Asti]] | [[Loazzolo]] | [[Maranzana]] | [[Maretto]] | [[Moasca]] | [[Mombaldone]] | [[Mombaruzzo]] | [[Mombercelli]] | [[Monale]] | [[Monastero Bormida]] | [[Moncalvo]] | [[Moncucco Torinese]] | [[Mongardino]] | [[Montabone]] | [[Montafia]] | [[Montaldo Scarampi]] | [[Montechiaro d'Asti]] | [[Montegrosso d'Asti]] | [[Montemagno (AT)|Montemagno]] | [[Montiglio Monferrato]] | [[Moransengo]] | [[Nizza Monferrato]] | [[Olmo Gentile]] | [[Passerano Marmorito]] | [[Penango]] | [[Piea]] | [[Pino d'Asti]] | [[Piovà Massaia]] | [[Portacomaro]] | [[Quaranti]] | [[Refrancore]] | [[Revigliasco d'Asti]] | [[Roatto]] | [[Robella]] | [[Rocca d'Arazzo]] | [[Roccaverano]] | [[Rocchetta Palafea]] | [[Rocchetta Tanaro]] | [[San Damiano d'Asti]] | [[San Giorgio Scarampi]] | [[San Martino Alfieri]] | [[San Marzano Oliveto]] | [[San Paolo Solbrito]] | [[Scurzolengo]] | [[Serole]] | [[Sessame]] | [[Settime]] | [[Soglio (AT)|Soglio]] | [[Belveglio]] | [[Tigliole]] | [[Tonco]] | [[Tonengo]] | [[Vaglio Serra]] | [[Valfenera]] | [[Vesime]] | [[Viale (AT)|Viale]] | [[Viarigi]] | [[Vigliano d'Asti]] | [[Villa San Secondo]] | [[Villafranca d'Asti]] | [[Villanova d'Asti]] | [[Vinchio]]}}
+}}
+
+[[Category:Italian navigational boxes (provinces)| ]]
+
+</noinclude>
