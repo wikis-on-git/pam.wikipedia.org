@@ -1,0 +1,248 @@
+{{#switch:{{{sigla|}}}
+|AG=Province of Agrigento
+|AL=Province of Alessandria
+|AN=Province of Ancona
+|AO=Aosta Valley
+|AP=Province of Ascoli Piceno
+|AQ=Province of L&#39;Aquila
+|AR=Province of Arezzo
+|AT=Province of Asti
+|AV=Province of Avellino
+|BA=Province of Bari
+|BG=Province of Bergamo
+|BI=Province of Biella
+|BL=Province of Belluno
+|BN=Province of Benevento
+|BO=Province of Bologna
+|BR=Province of Brindisi
+|BS=Province of Brescia
+|BT=Province of Barletta-Andria-Trani
+|BZ=Province of Bolzano-Bozen
+|CA=Province of Cagliari
+|CB=Province of Campobasso
+|CE=Province of Caserta
+|CH=Province of Chieti
+|CI=Province of Carbonia-Iglesias
+|CL=Province of Caltanissetta
+|CN=Province of Cuneo
+|CO=Province of Como
+|CR=Province of Cremona
+|CS=Province of Cosenza
+|CT=Province of Catania
+|CZ=Province of Catanzaro
+|EN=Province of Enna
+|FC=Province of Forlì-Cesena
+|FE=Province of Ferrara
+|FG=Province of Foggia
+|FI=Province of Florence
+|FM=Province of Fermo
+|FR=Province of Frosinone
+|GE=Province of Genoa
+|GO=Province of Gorizia
+|GR=Province of Grosseto
+|IM=Province of Imperia
+|IS=Province of Isernia
+|KR=Province of Crotone
+|LC=Province of Lecco
+|LE=Province of Lecce
+|LI=Province of Livorno
+|LO=Province of Lodi
+|LT=Province of Latina
+|LU=Province of Lucca
+|MB=Province of Monza and Brianza
+|MC=Province of Macerata
+|ME=Province of Messina
+|MI=Province of Milan
+|MN=Province of Mantua
+|MO=Province of Modena
+|MS=Province of Massa-Carrara
+|MT=Province of Matera
+|NA=Province of Naples
+|NO=Province of Novara
+|NU=Province of Nuoro
+|OG=Province of Ogliastra
+|OR=Province of Oristano
+|OT=Province of Olbia-Tempio
+|PA=Province of Palermo
+|PC=Province of Piacenza
+|PD=Province of Padua
+|PE=Province of Pescara
+|PG=Province of Perugia
+|PI=Province of Pisa
+|PN=Province of Pordenone
+|PO=Province of Prato
+|PR=Province of Parma
+|PT=Province of Pistoia
+|PU=Province of Pesaro e Urbino
+|PV=Province of Pavia
+|PZ=Province of Potenza
+|RA=Province of Ravenna
+|RC=Province of Reggio Calabria
+|RE=Province of Reggio Emilia
+|RG=Province of Ragusa
+|RI=Province of Rieti
+|RM=Province of Rome
+|RN=Province of Rimini
+|RO=Province of Rovigo
+|SA=Province of Salerno
+|SI=Province of Siena
+|SO=Province of Sondrio
+|SP=Province of La Spezia
+|SR=Province of Syracuse
+|SS=Province of Sassari
+|SV=Province of Savona
+|TA=Province of Taranto
+|TE=Province of Teramo
+|TN=Province of Trento
+|TO=Province of Turin
+|TP=Province of Trapani
+|TR=Province of Terni
+|TS=Province of Trieste
+|TV=Province of Treviso
+|UD=Province of Udine
+|VA=Province of Varese
+|VB=Province of Verbano-Cusio-Ossola
+|VC=Province of Vercelli
+|VE=Province of Venice
+|VI=Province of Vicenza
+|VR=Province of Verona
+|VS=Province of Medio Campidano
+|VT=Province of Viterbo
+|VV=Province of Vibo Valentia
+|
+}}<noinclude>
+----
+Purpose:
+
+Provides a province name, in its English form (e.g.) ''Province of Rome'' for its standard abbreviation, (e.g.) RM
+
+----
+Usage
+<code><pre><nowiki>
+{{ProvinciaIT (unlinked)|sigla=THE_CODE}}
+</nowiki></pre></code>
+
+----
+Example:
+<code><pre><nowiki>
+{{ProvinciaIT (unlinked)|sigla= RE}}
+</nowiki></pre></code>
+produces:
+
+{{ProvinciaIT (unlinked)|sigla= RE}}
+
+----
+Valid codes:
+
+<br>AG=Province of Agrigento
+<br>AL=Province of Alessandria
+<br>AN=Province of Ancona
+<br>AO=Aosta Valley
+<br>AP=Province of Ascoli Piceno
+<br>AQ=Province of L'Aquila
+<br>AR=Province of Arezzo
+<br>AT=Province of Asti
+<br>AV=Province of Avellino
+<br>BA=Province of Bari
+<br>BG=Province of Bergamo
+<br>BI=Province of Biella
+<br>BL=Province of Belluno
+<br>BN=Province of Benevento
+<br>BO=Province of Bologna
+<br>BR=Province of Brindisi
+<br>BS=Province of Brescia
+<br>BT=Province of Barletta-Andria-Trani
+<br>BZ=Province of Bolzano
+<br>CA=Province of Cagliari
+<br>CB=Province of Campobasso
+<br>CE=Province of Caserta
+<br>CH=Province of Chieti
+<br>CI=Province of Carbonia-Iglesias
+<br>CL=Province of Caltanissetta
+<br>CN=Province of Cuneo
+<br>CO=Province of Como
+<br>CR=Province of Cremona
+<br>CS=Province of Cosenza
+<br>CT=Province of Catania
+<br>CZ=Province of Catanzaro
+<br>EN=Province of Enna
+<br>FC=Province of Forlì-Cesena
+<br>FE=Province of Ferrara
+<br>FG=Province of Foggia
+<br>FI=Province of Florence
+<br>FM=Province of Fermo
+<br>FR=Province of Frosinone
+<br>GE=Province of Genoa
+<br>GO=Province of Gorizia
+<br>GR=Province of Grosseto
+<br>IM=Province of Imperia
+<br>IS=Province of Isernia
+<br>KR=Province of Crotone
+<br>LC=Province of Lecco
+<br>LE=Province of Lecce
+<br>LI=Province of Livorno
+<br>LO=Province of Lodi
+<br>LT=Province of Latina
+<br>LU=Province of Lucca
+<br>MB=Province of Monza and Brianza
+<br>MC=Province of Macerata
+<br>ME=Province of Messina
+<br>MI=Province of Milan
+<br>MN=Province of Mantua
+<br>MO=Province of Modena
+<br>MS=Province of Massa-Carrara
+<br>MT=Province of Matera
+<br>NA=Province of Naples
+<br>NO=Province of Novara
+<br>NU=Province of Nuoro
+<br>OG=Province of Ogliastra
+<br>OR=Province of Oristano
+<br>OT=Province of Olbia-Tempio
+<br>PA=Province of Palermo
+<br>PC=Province of Piacenza
+<br>PD=Province of Padua
+<br>PE=Province of Pescara
+<br>PG=Province of Perugia
+<br>PI=Province of Pisa
+<br>PN=Province of Pordenone
+<br>PO=Province of Prato
+<br>PR=Province of Parma
+<br>PT=Province of Pistoia
+<br>PU=Province of Pesaro e Urbino
+<br>PV=Province of Pavia
+<br>PZ=Province of Potenza
+<br>RA=Province of Ravenna
+<br>RC=Province of Reggio Calabria
+<br>RE=Province of Reggio Emilia
+<br>RG=Province of Ragusa
+<br>RI=Province of Rieti
+<br>RM=Province of Rome
+<br>RN=Province of Rimini
+<br>RO=Province of Rovigo
+<br>SA=Province of Salerno
+<br>SI=Province of Siena
+<br>SO=Province of Sondrio
+<br>SP=Province of La Spezia
+<br>SR=Province of Syracuse
+<br>SS=Province of Sassari
+<br>SV=Province of Savona
+<br>TA=Province of Taranto
+<br>TE=Province of Teramo
+<br>TN=Province of Trento
+<br>TO=Province of Turin
+<br>TP=Province of Trapani
+<br>TR=Province of Terni
+<br>TS=Province of Trieste
+<br>TV=Province of Treviso
+<br>UD=Province of Udine
+<br>VA=Province of Varese
+<br>VB=Province of Verbano-Cusio-Ossola
+<br>VC=Province of Vercelli
+<br>VE=Province of Venice
+<br>VI=Province of Vicenza
+<br>VR=Province of Verona
+<br>VS=Province of Medio Campidano
+<br>VT=Province of Viterbo
+<br>VV=Province of Vibo Valentia
+
+</noinclude>
