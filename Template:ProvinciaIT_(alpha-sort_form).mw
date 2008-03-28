@@ -1,0 +1,248 @@
+{{#switch:{{{sigla|}}}
+|AG=Agrigento, Province of 
+|AL=Alessandria, Province of 
+|AN=Ancona, Province of 
+|AO=Aosta Valley
+|AP=Ascoli Piceno, Province of 
+|AQ=Aquila, Province of 
+|AR=Arezzo, Province of 
+|AT=Asti, Province of 
+|AV=Avellino, Province of 
+|BA=Bari, Province of 
+|BG=Bergamo, Province of 
+|BI=Biella, Province of 
+|BL=Belluno, Province of 
+|BN=Benevento, Province of 
+|BO=Bologna, Province of 
+|BR=Brindisi, Province of 
+|BS=Brescia, Province of 
+|BT=Barletta-Andria-Trani, Province of 
+|BZ=Bolzano-Bozen, Province of 
+|CA=Cagliari, Province of 
+|CB=Campobasso, Province of 
+|CE=Caserta, Province of 
+|CH=Chieti, Province of 
+|CI=Carbonia-Iglesias, Province of 
+|CL=Caltanissetta, Province of 
+|CN=Cuneo, Province of 
+|CO=Como, Province of 
+|CR=Cremona, Province of 
+|CS=Cosenza, Province of 
+|CT=Catania, Province of 
+|CZ=Catanzaro, Province of 
+|EN=Enna, Province of 
+|FC=Forlì-Cesena, Province of 
+|FE=Ferrara, Province of 
+|FG=Foggia, Province of 
+|FI=Florence, Province of 
+|FM=Fermo, Province of 
+|FR=Frosinone, Province of 
+|GE=Genoa, Province of 
+|GO=Gorizia, Province of 
+|GR=Grosseto, Province of 
+|IM=Imperia, Province of 
+|IS=Isernia, Province of 
+|KR=Crotone, Province of 
+|LC=Lecco, Province of 
+|LE=Lecce, Province of 
+|LI=Livorno, Province of 
+|LO=Lodi, Province of 
+|LT=Latina, Province of 
+|LU=Lucca, Province of 
+|MB=Monza and Brianza, Province of 
+|MC=Macerata, Province of 
+|ME=Messina, Province of 
+|MI=Milan, Province of 
+|MN=Mantua, Province of 
+|MO=Modena, Province of 
+|MS=Massa-Carrara, Province of 
+|MT=Matera, Province of 
+|NA=Naples, Province of 
+|NO=Novara, Province of 
+|NU=Nuoro, Province of 
+|OG=Ogliastra, Province of 
+|OR=Oristano, Province of 
+|OT=Olbia-Tempio, Province of 
+|PA=Palermo, Province of 
+|PC=Piacenza, Province of 
+|PD=Padua, Province of 
+|PE=Pescara, Province of 
+|PG=Perugia, Province of 
+|PI=Pisa, Province of 
+|PN=Pordenone, Province of 
+|PO=Prato, Province of 
+|PR=Parma, Province of 
+|PT=Pistoia, Province of 
+|PU=Pesaro and Urbino, Province of 
+|PV=Pavia, Province of 
+|PZ=Potenza, Province of 
+|RA=Ravenna, Province of 
+|RC=Reggio Calabria, Province of 
+|RE=Reggio Emilia, Province of 
+|RG=Ragusa, Province of 
+|RI=Rieti, Province of 
+|RM=Rome, Province of 
+|RN=Rimini, Province of 
+|RO=Rovigo, Province of 
+|SA=Salerno, Province of 
+|SI=Siena, Province of 
+|SO=Sondrio, Province of 
+|SP=La Spezia, Province of 
+|SR=Syracuse, Province of 
+|SS=Sassari, Province of 
+|SV=Savona, Province of 
+|TA=Taranto, Province of 
+|TE=Teramo, Province of 
+|TN=Trento, Province of 
+|TO=Turin, Province of 
+|TP=Trapani, Province of 
+|TR=Terni, Province of 
+|TS=Trieste, Province of 
+|TV=Treviso, Province of 
+|UD=Udine, Province of 
+|VA=Varese, Province of 
+|VB=Verbano-Cusio-Ossola, Province of 
+|VC=Vercelli, Province of 
+|VE=Venice, Province of 
+|VI=Vicenza, Province of 
+|VR=Verona, Province of 
+|VS=Medio Campidano, Province of 
+|VT=Viterbo, Province of 
+|VV=Vibo Valentia, Province of 
+|
+}}<noinclude>
+----
+Purpose:
+
+Provides a default-alpha-sort form (e.g.) ''Rome, Province of'' for its standard abbreviation, (e.g.) RM
+
+----
+Usage
+<code><pre><nowiki>
+{{ProvinciaIT (alpha-sort form)|sigla=THE_CODE}}
+</nowiki></pre></code>
+
+----
+Example:
+<code><pre><nowiki>
+{{ProvinciaIT (alpha-sort form)|sigla= RE}}
+</nowiki></pre></code>
+produces:
+
+{{ProvinciaIT (alpha-sort form)|sigla= RE}}
+
+----
+Valid codes:
+
+<br>AG=[[Province of Agrigento]]
+<br>AL=[[Province of Alessandria]]
+<br>AN=[[Province of Ancona]]
+<br>AO=[[Valle d'Aosta]]
+<br>AP=[[Province of Ascoli Piceno]]
+<br>AQ=[[Province of L'Aquila]]
+<br>AR=[[Province of Arezzo]]
+<br>AT=[[Province of Asti]]
+<br>AV=[[Province of Avellino]]
+<br>BA=[[Province of Bari]]
+<br>BG=[[Province of Bergamo]]
+<br>BI=[[Province of Biella]]
+<br>BL=[[Province of Belluno]]
+<br>BN=[[Province of Benevento]]
+<br>BO=[[Province of Bologna]]
+<br>BR=[[Province of Brindisi]]
+<br>BS=[[Province of Brescia]]
+<br>BT=[[Province of Barletta-Andria-Trani]]
+<br>BZ=[[Province of Bolzano]]
+<br>CA=[[Province of Cagliari]]
+<br>CB=[[Province of Campobasso]]
+<br>CE=[[Province of Caserta]]
+<br>CH=[[Province of Chieti]]
+<br>CI=[[Province of Carbonia-Iglesias]]
+<br>CL=[[Province of Caltanissetta]]
+<br>CN=[[Province of Cuneo]]
+<br>CO=[[Province of Como]]
+<br>CR=[[Province of Cremona]]
+<br>CS=[[Province of Cosenza]]
+<br>CT=[[Province of Catania]]
+<br>CZ=[[Province of Catanzaro]]
+<br>EN=[[Province of Enna]]
+<br>FC=[[Province of Forlì-Cesena]]
+<br>FE=[[Province of Ferrara]]
+<br>FG=[[Province of Foggia]]
+<br>FI=[[Province of Florence]]
+<br>FM =[[Province of Fermo]]
+<br>FR=[[Province of Frosinone]]
+<br>GE=[[Province of Genoa]]
+<br>GO=[[Province of Gorizia]]
+<br>GR=[[Province of Grosseto]]
+<br>IM=[[Province of Imperia]]
+<br>IS=[[Province of Isernia]]
+<br>KR=[[Province of Crotone]]
+<br>LC=[[Province of Lecco]]
+<br>LE=[[Province of Lecce]]
+<br>LI=[[Province of Livorno]]
+<br>LO=[[Province of Lodi]]
+<br>LT=[[Province of Latina]]
+<br>LU=[[Province of Lucca]]
+<br>MB=[[Province of Monza and Brianza]]
+<br>MC=[[Province of Macerata]]
+<br>ME=[[Province of Messina]]
+<br>MI=[[Province of Milan]]
+<br>MN=[[Province of Mantua]]
+<br>MO=[[Province of Modena]]
+<br>MS=[[Province of Massa-Carrara]]
+<br>MT=[[Province of Matera]]
+<br>NA=[[Province of Naples]]
+<br>NO=[[Province of Novara]]
+<br>NU=[[Province of Nuoro]]
+<br>OG=[[Province of Ogliastra]]
+<br>OR=[[Province of Oristano]]
+<br>OT=[[Province of Olbia-Tempio]]
+<br>PA=[[Province of Palermo]]
+<br>PC=[[Province of Piacenza]]
+<br>PD=[[Province of Padua]]
+<br>PE=[[Province of Pescara]]
+<br>PG=[[Province of Perugia]]
+<br>PI=[[Province of Pisa]]
+<br>PN=[[Province of Pordenone]]
+<br>PO=[[Province of Prato]]
+<br>PR=[[Province of Parma]]
+<br>PT=[[Province of Pistoia]]
+<br>PU=[[Province of Pesaro and Urbino]]
+<br>PV=[[Province of Pavia]]
+<br>PZ=[[Province of Potenza]]
+<br>RA=[[Province of Ravenna]]
+<br>RC=[[Province of Reggio Calabria]]
+<br>RE=[[Province of Reggio Emilia]]
+<br>RG=[[Province of Ragusa]]
+<br>RI=[[Province of Rieti]]
+<br>RM=[[Province of Rome]]
+<br>RN=[[Province of Rimini]]
+<br>RO=[[Province of Rovigo]]
+<br>SA=[[Province of Salerno]]
+<br>SI=[[Province of Siena]]
+<br>SO=[[Province of Sondrio]]
+<br>SP=[[Province of La Spezia]]
+<br>SR=[[Province of Siracusa]]
+<br>SS=[[Province of Sassari]]
+<br>SV=[[Province of Savona]]
+<br>TA=[[Province of Taranto]]
+<br>TE=[[Province of Teramo]]
+<br>TN=[[Province of Trento]]
+<br>TO=[[Province of Turin]]
+<br>TP=[[Province of Trapani]]
+<br>TR=[[Province of Terni]]
+<br>TS=[[Province of Trieste]]
+<br>TV=[[Province of Treviso]]
+<br>UD=[[Province of Udine]]
+<br>VA=[[Province of Varese]]
+<br>VB=[[Province of Verbano-Cusio-Ossola]]
+<br>VC=[[Province of Vercelli]]
+<br>VE=[[Province of Venice]]
+<br>VI=[[Province of Vicenza]]
+<br>VR=[[Province of Verona]]
+<br>VS=[[Province of Medio Campidano]]
+<br>VT=[[Province of Viterbo]]
+<br>VV=[[Province of Vibo Valentia]]
+
+</noinclude>
