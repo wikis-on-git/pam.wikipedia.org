@@ -1,0 +1,3 @@
+{{ #ifeq:{{{province_code|}}}|AO|[[Comuni]] of {{ProvinciaIT|sigla={{{province_code|}}}}}
+|{{RegioneIT|sigla={{ProvinciaIT (region code)|sigla={{{province_code|}}} }}}} &middot; ''[[comune|Comuni]]'' of the {{ProvinciaIT|sigla={{{province_code|}}}}}
+}}
