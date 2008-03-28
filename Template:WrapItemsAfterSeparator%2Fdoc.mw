@@ -1,0 +1,74 @@
+<includeonly>{{template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+This template was designed to be used in creating well-formated lists of links in footer navagation boxes with adjacent items set apart by mid-dots (or other separators). 
+
+Its key feature is that individual items which contain spaces will ''not'' end up broken between two lines and hence become harder for the reader to recognize. Rather, line breaks will only occur immediately after the separator.
+
+An example of such a box follows.
+
+{{Navbox generic lake in Italy 
+| state = {{{state|autocollapse}}}
+| template_name = Lago di Garda
+| lake_page_name = Lake Garda
+| main_lake_name = Lake Garda
+| other_lake_names = Lago di Garda, Benaco
+| italy_region1 = [[Lombardy]]
+| italy_region1_provinces = [[Province of Brescia]]
+| italy_region2 = [[Veneto]]
+| italy_region2_provinces = [[Province of Verona]]
+| italy_region3 = [[Trentino-Alto Adige/Südtirol]]
+| italy_region3_provinces = [[Province of Trento]]
+
+| image = [[Image:Lake garda from space.jpg |60px]]
+
+| settlements = {{WrapItemsAfterSeparator|[[Bardolino]] | [[Brenzone]] | [[Castelnuovo del Garda]] | [[Desenzano del Garda]] | [[Garda (VR)|Garda]] | [[Gardone Riviera]] | [[Gargnano]] | [[Lazise]] | [[Limone sul Garda]] | [[Lonato]] | [[Malcesine]] | [[Manerba del Garda]] | [[Moniga del Garda]] | [[Nago-Torbole]] | [[Padenghe sul Garda]] | [[Peschiera del Garda]] | [[Riva del Garda]] | [[Salò]] | [[San Felice del Benaco]] | [[Sirmione]] | [[Tignale]] | [[Torri del Benaco]] | [[Toscolano-Maderno]] | [[Tremosine]]}}
+
+| islands = {{WrapItemsAfterSeparator |[[Isola del Garda]] | [[Isola dell'Olivo]] | [[Isola San Biagio]] | [[Isola di Sogno]] | [[Isola di Trimelone]]}}
+
+| rivers = {{WrapItemsAfterSeparator |[[Mincio]] | [[Sarca]]}}
+
+| valleys =
+
+| mountains = 
+
+| landmarks =  
+
+| films = 
+
+| people =  {{WrapItemsAfterSeparator |[[Catullus]] | [[Gabriele D'Annunzio]]}}
+}}
+
+==Usage==
+ <nowiki>
+ {{WrapItemsAfterSeparator}}
+ | title =
+ | separator = 
+ | item1 | item2 | item3 | […] }}
+</nowiki>
+All parameters are optional. 
+
+The list of un-named parameters should not contain line-breaks, and its pipe-signs should have exactly one space on each side.<br />
+The title will appear at the start of the list, emboldened, and will be followed by a colon and spaces.<br />
+The separator defaults to a middot.
+
+Equals signs in parameter values should be escaped as {{tl|Equals}}. (Not as {{tl|Eq}}, or as {{tl|{{Equals}}}}).<br />
+Pipes in parameter values can be left as they are when they are used to create piped links. Otherwise they should be escaped as {{tl|!}}.
+
+There is currently a limit of about 400 items: any more are silently ignored.
+
+==Examples==
+The basic usage, and probably most useful, is simply a list of items, which will normally be links, marked off by the pipe symbol (<tt>|</tt>), with ''exactly one space, and no carriage returns'', on each side of it.
+
+<code><nowiki>
+{{WrapItemsAfterSeparator | [[Bardolino]] | [[Brenzone]] | [[Castelnuovo del Garda]] | [[Desenzano del Garda]] | [[Garda (VR)|Garda]] | [[Gardone Riviera]] | [[Gargnano]] | [[Lazise]] | [[Limone sul Garda]] | [[Lonato]] | [[Malcesine]] | [[Manerba del Garda]] | [[Moniga del Garda]] | [[Nago-Torbole]] | [[Padenghe sul Garda]] | [[Peschiera del Garda]] | [[Riva del Garda]] | [[Salò]] | [[San Felice del Benaco]] | [[Sirmione]] | [[Tignale]] | [[Torri del Benaco]] | [[Toscolano-Maderno]] | [[Tremosine]] }}
+</nowiki></code>
+
+{{WrapItemsAfterSeparator | [[Bardolino]] | [[Brenzone]] | [[Castelnuovo del Garda]] | [[Desenzano del Garda]] | [[Garda (VR)|Garda]] | [[Gardone Riviera]] | [[Gargnano]] | [[Lazise]] | [[Limone sul Garda]] | [[Lonato]] | [[Malcesine]] | [[Manerba del Garda]] | [[Moniga del Garda]] | [[Nago-Torbole]] | [[Padenghe sul Garda]] | [[Peschiera del Garda]] | [[Riva del Garda]] | [[Salò]] | [[San Felice del Benaco]] | [[Sirmione]] | [[Tignale]] | [[Torri del Benaco]] | [[Toscolano-Maderno]] | [[Tremosine]] }}
+
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+
+</includeonly>
