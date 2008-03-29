@@ -7,8 +7,7 @@
 |-{{#if:{{{img_coa|}}}|{{#if:{{{img_coa_small|}}}|[[Image:{{{img_coa}}}|Coat of arms of {{{city}}}]]|[[Image:{{{img_coa}}}|140x140px|Coat of arms of {{{city}}}]]}}<br/>Balen sagkal armas|}}
 <!-- ###### Locator map (auto-drawn using [[Template:Location map]]) -->
 |-
-! colspan="2" 
-{{#if:{{{mapx|}}}|
+! colspan="2" {{#if:{{{mapx|}}}|
 {{!}}style="text-align: right; padding-top: 0em; padding-bottom: 0em;" {{!}}<center><div><div style="width:211px; background:transparent">
 <div style="position:relative; width:211px">[[Image:Regions of Italy.svg|211px]]<br/><div style="position:absolute;z-index:200;
 top:{{#expr:100*(47.3417-{{{mapx}}}) / (47.3417-35.493128) round 1}}%;
