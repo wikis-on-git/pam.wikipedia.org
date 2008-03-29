@@ -1,0 +1,37 @@
+{| class="infobox" align="right" style="font-size:95%"
+<caption>'''{{{name}}}'''{{#if:{{{khmer|}}}|<br><big>{{{khmer}}}</big>}}</caption>
+! colspan=2 align=center bgcolor=#CCCCFF|Statistics
+|-
+||'''Bangsa:'''||valign=top|{{CAM}}
+|-
+||'''Lalawigan:'''||valign=top|{{{province}}}
+|-
+{{#if:{{{area|}}}|
+{{!}} '''Lualas:''':
+{{!}} {{{area}}} [[square kilometre|km²]]}}
+|-
+{{#if:{{{population|}}}|
+{{!}} '''Pakatuknang:''':
+{{!}} {{{population}}} {{#if:{{{population_as_of|}}}|<small>''({{{population_as_of}}})''</small>}}}}
+|-
+{{#if:{{{density|}}}|
+{{!}} '''[[population density|Pop. pangasiksik]]:''':
+{{!}} {{{density}}} inh./km²}}
+|-
+{{#if:{{{communes|}}}|
+{{!}} '''Commune''':
+{{!}} {{{communes}}}}}
+|-
+{{#if:{{{villages|}}}|
+{{!}} '''Barriu''':
+{{!}} {{{villages}}}}}
+|-
+{{#if:{{{geocode|}}}|
+{{!}} '''Geocode''':
+{{!}} {{{geocode}}}}}
+|-
+{{#if:{{{map|}}}|
+{{!}}colspan="2" align=center{{!}}[[Image:{{{map}}}|210x250px|Map highlighting {{{name}}}]]}}
+|}<noinclude>
+[[Category:Asian country subdivision infobox templates|Cambodia district]]
+</noinclude>
