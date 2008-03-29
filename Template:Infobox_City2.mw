@@ -1,6 +1,5 @@
-<includeonly>{| class="infobox geography" style="width: 23em;"
-|-
-| colspan="2" align=center style="width:100%; font-size: 1.25em;" | '''{{{official_name}}}{{#if:{{{native_name|}}}|&#x0020;<span style="white-space: nowrap;">({{{native_name}}})</span>}}'''
+<includeonly>{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
+|+ style="margin-left: inherit; font-size: medium;" | <big>'''{{{official_name}}}{{#if:{{{native_name|}}}|&#x0020;<span style="white-space: nowrap;">({{{native_name}}})</span>}}'''
 |-<!-- ***** Skyline Image ***** -->
 {{#if:{{{image_skyline|}}}|
 {{!}} colspan="2" style="text-align: center; padding: 0.7em 0.8em 0.7em 0.8em;;" {{!}} [[Image:{{{image_skyline|}}}|{{#if:{{{imagesize|}}}|{{{imagesize}}}|250px}}|none|{{{image_caption|Skyline ning {{{official_name|}}}}}}]]{{#if:{{{image_caption|}}}|<small>{{{image_caption|}}}</small>}}
