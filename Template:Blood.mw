@@ -1,0 +1,28 @@
+{{Navbox
+| name  = Blood
+| title = [[Blood]]
+| titlestyle = 
+| group1 = General
+|  list1 = [[Blood plasma|Plasma]] - [[Hematopoietic stem cell|Hematopoietic stem cells]] 
+
+| group2 = [[Lymphocyte|Lymphoid]] - [[white blood cell|WBC]] 
+|  list2 = [[T cell|T cells]]: [[Cytotoxic T cell|Cytotoxic CD8<sup>+</sup>]], [[T helper cell|Helper CD4<sup>+</sup>]]/[[Regulatory T cell|Regulatory]], [[gamma/delta T cells|γδ]], [[Natural Killer T cell]]<BR>[[B cell|B cells]]: [[Plasma cell|Plasma]], [[Memory B cell|Memory]]<BR>[[Natural killer cell|Natural killer cells]] ([[Lymphokine-activated killer cell]])
+
+| group3 = [[Myeloid]] - [[white blood cell|WBC]] 
+|  list3 = [[Granulocyte]]s ([[Neutrophil granulocyte|Neutrophil]], [[Eosinophil granulocyte|Eosinophil]], [[Basophil granulocyte|Basophil]]) - [[Mast cell|Mast cell precursors]]<BR>[[Dendritic cell|Dendritic cells]] ([[Langerhans cell|Langerhans cells]], [[Follicular dendritic cells]])<BR>[[Monocyte]]s/[[Macrophage]]s ([[Histiocyte]]s, [[Kupffer cell|Kupffer cells]], [[Langhans giant cell]]s, [[Microglia]],  [[Osteoclast]]s)<BR>[[Megakaryoblast]] - [[Megakaryocyte]] - [[Platelet]]s
+
+| group4 = [[Myeloid]] - [[Red blood cell|RBC]]
+|  list4 = [[Reticulocyte]] - [[Normoblast]]
+
+| group5 = 
+|  list5 = 
+}}<noinclude>
+''This template is part of the [[Wikipedia:Navigational templates#Medicine|Medical series]] of [[Wikipedia:Navigational templates|navigation boxes]]. Refer to [[Template:Medicine]] and its [[Template_talk:Medicine|talk page]] for suggestions on style and editing.''
+
+[[Category:Anatomy navigational boxes|{{PAGENAME}}]]
+
+<!--[[fr:Modèle:Sang]]-->
+[[ar:قالب:دم]]
+[[cs:Šablona:Krev]]
+[[pt:Predefinição:Sangue]]
+</noinclude>
