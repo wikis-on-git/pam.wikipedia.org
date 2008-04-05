@@ -1,0 +1,11 @@
+{{<noinclude>
+
+This template can be used in place of a literal "{{" when the latter would be interpreted as a syntactic marker.
+
+For example, <tt><nowiki>{{urlencode:{{((}} and {{!}}}}</nowiki></tt> produces {{urlencode:{{((}} and {{!}}}}
+
+==See also==
+* [[:Template:))]]
+* [[:Template:=]]
+[[Category:Template namespace templates]]
+</noinclude>
