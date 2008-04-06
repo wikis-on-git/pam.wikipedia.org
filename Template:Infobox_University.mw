@@ -41,7 +41,7 @@
 | <tr><th> [[Chairman]] 
 </th><td> {{{chairman}}}</td></tr>
 }}{{#if: {{{chancellor<includeonly>|</includeonly>}}}
-| <tr><th> [[Chancellor (education)|Chancellor]]
+| <tr><th> [[Chancellor (education)|Canciller]]
 </th><td> {{{chancellor}}}</td></tr>
 }}{{#if: {{{president<includeonly>|</includeonly>}}}
 | <tr><th> [[University President|Pamuntuk]]
