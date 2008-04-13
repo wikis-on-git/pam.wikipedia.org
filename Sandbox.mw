@@ -1,7 +1,14 @@
 <!-- Infobox template for Communes in France and Collectivités d'outre-mer of France-->
 
-| class="toccolours" border="1" cellpadding="2" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right"
-|+ style="margin-left: inherit; font-size: medium;" | '''{{{native_name}}}'''
+{| class="infobox vcard" width="280px" cellspacing="0" cellpadding="2" style="font-size: 90%;"
+{{!}} align="center" colspan="2" style="border-bottom:solid 1px #ccd2d9;"{{!}}
+{{#if: {{{name|{{{nomcommune|<noinclude>{{{name}}}</noinclude>}}}}}} |
+'''Commune of <span class="fn org">{{{name|{{{nomcommune|<noinclude>{{{name}}}</noinclude>}}}}}}</span>'''|<!--[[Category:France articles requiring maintenance|missingfield]]-->
+}}
+|-
+{{#if: {{{native_name|<noinclude>-</noinclude>}}} |
+{{!}} align="center" style="font-size:135%;background-color:#e8e8ff;" colspan="2" {{!}} '''<span class="fn org">{{{native_name}}}</span>'''
+}}
 |-
 {{#if: {{{image_flag|<noinclude>-</noinclude>}}} |
 <!--These 50% widths are problem - the cells are in the same columns as the headers/data for the rest of the table... maybe make this a sub-table?-->
