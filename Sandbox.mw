@@ -6,8 +6,8 @@
 |-
 {{#if: {{{image_flag|<noinclude>-</noinclude>}}} |
 <!--These 50% widths are problem - the cells are in the same columns as the headers/data for the rest of the table... maybe make this a sub-table?-->
-{{!}}width="50%" align="center" style="border-top:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;"{{!}}<table style="border:1px solid #eeeeee;"><tr><td>[[Image:{{{image_flag<noinclude>|Placeholder.png</noinclude>}}}|{{{image_flag_size<noinclude>|120px</noinclude>}}}|Flag of {{{common_name}}}]]</td></tr></table>
-{{!}}width="50%" align="center" style="border-top:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;"{{!}}[[Image:{{{image_coat_of_arms<noinclude>|Placeholder.png</noinclude>}}}|{{{image_coat_of_arms_size<noinclude>|120px</noinclude>}}}|Coat of arms of {{{common_name}}}]]
+{{!}}width="20%" align="center" style="border-top:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;"{{!}}<table style="border:1px solid #eeeeee;"><tr><td>[[Image:{{{image_flag<noinclude>|Placeholder.png</noinclude>}}}|{{{image_flag_size<noinclude>|120px</noinclude>}}}|Flag of {{{common_name}}}]]</td></tr></table>
+{{!}}width="20%" align="center" style="border-top:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;"{{!}}[[Image:{{{image_coat_of_arms<noinclude>|Placeholder.png</noinclude>}}}|{{{image_coat_of_arms_size<noinclude>|120px</noinclude>}}}|Coat of arms of {{{common_name}}}]]
 {{!-}}
 {{!}}align="center" width="50%" style="line-height:14px;background-color:#ffffff;"{{!}}<small>{{{flag_legend}}}</small>
 {{!}}align="center" width="50%" style="line-height:14px;background-color:#ffffff;"{{!}}<small>{{{Coat_of_arms_legend}}}</small>
