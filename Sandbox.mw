@@ -1,6 +1,6 @@
 <!-- Infobox template for Communes in France and Collectivités d'outre-mer of France-->
 {| class="infobox vcard" width="280px" cellspacing="0" cellpadding="2" style="font-size: 90%;"
-{{!}} align="center" colspan="2" style="border-bottom:solid 1px #ccd2d9;"{{!}}
+{{!}} align="left" colspan="2" style="border-bottom:solid 1px #ccd2d9;"{{!}}
 {{#if: {{{name|{{{nomcommune|<noinclude>{{{name}}}</noinclude>}}}}}} |
 '''Commune of <span class="fn org">{{{name|{{{nomcommune|<noinclude>{{{name}}}</noinclude>}}}}}}</span>'''|<!--[[Category:France articles requiring maintenance|missingfield]]-->
 }}
