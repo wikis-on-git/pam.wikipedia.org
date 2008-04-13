@@ -1,4 +1,6 @@
-<!-- Infobox template for Communes in France and Collectivités d'outre-mer of France-->
+<!-- Infobox template for Communes in France and Collectivités d'outre-mer of France-->{{
+#if: {{{longitude|<noinclude>-</noinclude>}}}|{{#iferror:{{#expr:{{{longitude|-2}}}+1}}|<!--[[Category:France articles requiring maintenance|Badlongitude]]-->|{{coord|{{{latitude|50}}}|{{{longitude|-2}}}|format=dms|display=title|region:FR_type:city}} }}
+{| class="infobox vcard" width="280px" cellspacing="0" cellpadding="2" style="font-size: 90%;"
 {{!}} align="center" colspan="2" style="border-bottom:solid 1px #ccd2d9;"{{!}}
 {{#if: {{{name|{{{nomcommune|<noinclude>{{{name}}}</noinclude>}}}}}} |
 '''Commune of <span class="fn org">{{{name|{{{nomcommune|<noinclude>{{{name}}}</noinclude>}}}}}}</span>'''|<!--[[Category:France articles requiring maintenance|missingfield]]-->
