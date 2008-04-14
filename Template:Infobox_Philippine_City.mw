@@ -2,7 +2,7 @@
 |+colspan="2" style="text-align: center; font-size: larger;"| '''{{{infoboxtitle}}}'''
 {{ #if: {{{sealfile|}}} |
 {{!}}-
-{{!}}colspan="2" style="text-align: center;"{{!}} [[{{{sealfile}}}{{!}}center{{!}}100px{{!}}Official seal of {{{infoboxtitle}}}]]
+{{!}}colspan="2" style="text-align: center;"{{!}} [[Image:{{{sealfile}}}{{!}}center{{!}}100px{{!}}Opisyal a selyu sagisag ning {{{infoboxtitle}}}]]
 }}
 |-
 | colspan="2" style="text-align: center; background: #e0e0e0;;"| '''Karinan'''
