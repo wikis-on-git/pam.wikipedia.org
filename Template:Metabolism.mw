@@ -1,0 +1,23 @@
+<noinclude>
+{|cellspacing=10 width=100% style="border: 1px solid #a79c83; background-color:#faf8f1; -moz-border-radius: 10px;"
+|-
+|style="color:#000"|This page is the [[WP:TEMPLATE|template]] for the '''Metabolism Navigation''' template. This template should be used on the general pages relating to [[metabolism]] and [[metabolic pathways]].
+
+This template is part of [[Wikipedia:Wikiproject Metabolic Pathways|Metabolic Pathways WikiProject]].
+|-
+|}
+
+==The Template==
+</noinclude>{{Navbox
+| name  = Metabolism
+| title = [[Metabolism]]
+| titlestyle = background:#E0E0E0
+| list1 = 
+
+[[Catabolism]] - [[Anabolism]]
+
+[[Metabolic pathway]] - [[Metabolic network]] - [[Cellular respiration]] ([[Anaerobic respiration|Anaerobic]]/[[Aerobic respiration|Aerobic]])
+
+[[Protein metabolism]] - [[Carbohydrate metabolism]] - [[Fatty acid metabolism|Lipid metabolism]] - [[Human iron metabolism|Iron metabolism]]
+
+}}
