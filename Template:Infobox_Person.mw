@@ -24,67 +24,67 @@
         -->{{#if:{{{birth_date<includeonly>|</includeonly>}}} |{{{birth_date}}}<br/> }}<!--
         -->{{{birth_place<includeonly>|</includeonly>}}}
 
-|label2  = {{#if:{{{death_date<includeonly>|</includeonly>}}}{{{death_place|}}} |Died }}
+|label2  = {{#if:{{{death_date<includeonly>|</includeonly>}}}{{{death_place|}}} |Kematyan }}
 |data2   = {{#if:{{{death_date<includeonly>|</includeonly>}}} |{{{death_date}}}<br/> }}<!--
         -->{{{death_place<includeonly>|</includeonly>}}}
-|label3  = Cause&nbsp;of death
+|label3  = Sangkan&nbsp;ning pangamate
 |data3   = {{{death_cause<includeonly>|</includeonly>}}}
-|label4  = Burial&nbsp;place
+|label4  = Kutkutan&nbsp;lugal
 |class4  = label
 |data4   = {{{resting_place<includeonly>|</includeonly>}}}<!--
            -->{{#if:{{{resting_place_coordinates|}}}
                 | <br/>{{{resting_place_coordinates}}} }}
-|label5  = Residence
+|label5  = tuknangan
 |class5  = label
 |data5   = {{{residence<includeonly>|</includeonly>}}}
-|label6  = Nationality
+|label6  = Bangsa
 |data6   = {{{nationality<includeonly>|</includeonly>}}}
 |label7  = Other&nbsp;names
 |class7  = nickname
 |data7   = {{{other_names<includeonly>|</includeonly>}}}
-|label8  = Education
+|label8  = Pegaralan
 |data8   = {{{education<includeonly>|</includeonly>}}}
 |label9  = Alma&nbsp;mater
 |data9   = {{{alma_mater<includeonly>|</includeonly>}}}
-|label10 = Occupation
+|label10 = Obra
 |data10  = {{{occupation<includeonly>|</includeonly>}}}
 |label11 = Employers
 |data11  = {{{employer<includeonly>|</includeonly>}}}
-|label12 = Home&nbsp;town
+|label12 = Balen&nbsp;
 |data12  = {{{home_town<includeonly>|</includeonly>}}}
 |label13 = Title
 |data13  = {{{title<includeonly>|</includeonly>}}}
-|label14 = Salary
+|label14 = Tatanggapan a bayad
 |data14  = {{{salary<includeonly>|</includeonly>}}}
 |label15 = Net&nbsp;worth
 |data15  = {{{networth<includeonly>|</includeonly>}}}
-|label16 = Height
+|label16 = Katas
 |data16  = {{{height<includeonly>|</includeonly>}}}
-|label17 = Weight
+|label17 = Timbang
 |data17  = {{{weight<includeonly>|</includeonly>}}}
 |label18 = Known&nbsp;for
 |data18  = {{{known|{{{known_for<includeonly>|</includeonly>}}}}}}
 |label19 = Term
 |data19  = {{{term<includeonly>|</includeonly>}}}
-|label20 = Predecessor
+|label20 = Elilan
 |data20  = {{{predecessor<includeonly>|</includeonly>}}}
-|label21 = Successor
+|label21 = Menalili
 |data21  = {{{successor<includeonly>|</includeonly>}}}
 |label22 = Political&nbsp;party
 |data22  = {{{party<includeonly>|</includeonly>}}}
 |label23 = Board member&nbsp;of
 |data23  = {{{boards<includeonly>|</includeonly>}}}
-|label24 = Religious beliefs
+|label24 = Kapanwalan
 |data24  = {{{religion<includeonly>|</includeonly>}}}
-|label25 = Spouse
+|label25 = Asawa
 |data25  = {{{spouse<includeonly>|</includeonly>}}}
 |label26 = Partner
 |data26  = {{{partner<includeonly>|</includeonly>}}}
 |label27 = Children
 |data27  = {{{children<includeonly>|</includeonly>}}}
-|label28 = Parents
+|label28 = Pengari
 |data28  = {{{parents<includeonly>|</includeonly>}}}
-|label29 = Relatives
+|label29 = Kamaganak
 |data29  = {{{relations|{{{relatives<includeonly>|</includeonly>}}}}}}
 
 |data30  = {{#if:{{{signature<includeonly>|</includeonly>}}}
