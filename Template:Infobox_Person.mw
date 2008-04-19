@@ -1,0 +1,109 @@
+<noinclude>{{start infobox page}}</noinclude><!--
+-->{{Infobox
+|bodyclass  = biography vcard
+|bodystyle  = width:{{#if:{{{box_width|}}} |{{{box_width}}} |22em}}; font-size:95%; text-align:left;
+|above      = '''{{{name|{{PAGENAME}}}}}'''
+|aboveclass = fn
+|abovestyle = text-align:center; font-size:125%;
+|image      = {{#if:{{{image<includeonly>|</includeonly>}}}
+                | [[Image:{{{image}}}|<!--
+                    -->{{#if:{{{image_size|{{{imagesize|}}}}}}
+                         |{{{image_size|{{{imagesize}}}}}} |225px}}<!--
+               -->]]<!--
+           -->}}
+|imageclass = {{image class|{{{image}}}}}
+|imagestyle = padding:4pt; line-height:1.25em; text-align:center; font-size:8pt;
+|caption    = <div style="padding-top:2pt;">{{{caption<includeonly>|</includeonly>}}}</div>
+|labelstyle = padding:0.2em 1.0em 0.2em 0.2em; background:transparent; line-height:1.2em; text-align:left; font-size:90%;
+|datastyle  = padding:0.2em; line-height:1.3em; vertical-align:middle; font-size:90%;
+
+|label1  = {{#if:{{{birth_name<includeonly>|</includeonly>}}}<!--
+              -->{{{birth_date|}}}{{{birth_place|}}}
+             | Mibait }}
+|data1   = {{#if:{{{birth_name|}}} |{{{birth_name}}}<br/> }}<!--
+        -->{{#if:{{{birth_date<includeonly>|</includeonly>}}} |{{{birth_date}}}<br/> }}<!--
+        -->{{{birth_place<includeonly>|</includeonly>}}}
+
+|label2  = {{#if:{{{death_date<includeonly>|</includeonly>}}}{{{death_place|}}} |Died }}
+|data2   = {{#if:{{{death_date<includeonly>|</includeonly>}}} |{{{death_date}}}<br/> }}<!--
+        -->{{{death_place<includeonly>|</includeonly>}}}
+|label3  = Cause&nbsp;of death
+|data3   = {{{death_cause<includeonly>|</includeonly>}}}
+|label4  = Burial&nbsp;place
+|class4  = label
+|data4   = {{{resting_place<includeonly>|</includeonly>}}}<!--
+           -->{{#if:{{{resting_place_coordinates|}}}
+                | <br/>{{{resting_place_coordinates}}} }}
+|label5  = Residence
+|class5  = label
+|data5   = {{{residence<includeonly>|</includeonly>}}}
+|label6  = Nationality
+|data6   = {{{nationality<includeonly>|</includeonly>}}}
+|label7  = Other&nbsp;names
+|class7  = nickname
+|data7   = {{{other_names<includeonly>|</includeonly>}}}
+|label8  = Education
+|data8   = {{{education<includeonly>|</includeonly>}}}
+|label9  = Alma&nbsp;mater
+|data9   = {{{alma_mater<includeonly>|</includeonly>}}}
+|label10 = Occupation
+|data10  = {{{occupation<includeonly>|</includeonly>}}}
+|label11 = Employers
+|data11  = {{{employer<includeonly>|</includeonly>}}}
+|label12 = Home&nbsp;town
+|data12  = {{{home_town<includeonly>|</includeonly>}}}
+|label13 = Title
+|data13  = {{{title<includeonly>|</includeonly>}}}
+|label14 = Salary
+|data14  = {{{salary<includeonly>|</includeonly>}}}
+|label15 = Net&nbsp;worth
+|data15  = {{{networth<includeonly>|</includeonly>}}}
+|label16 = Height
+|data16  = {{{height<includeonly>|</includeonly>}}}
+|label17 = Weight
+|data17  = {{{weight<includeonly>|</includeonly>}}}
+|label18 = Known&nbsp;for
+|data18  = {{{known|{{{known_for<includeonly>|</includeonly>}}}}}}
+|label19 = Term
+|data19  = {{{term<includeonly>|</includeonly>}}}
+|label20 = Predecessor
+|data20  = {{{predecessor<includeonly>|</includeonly>}}}
+|label21 = Successor
+|data21  = {{{successor<includeonly>|</includeonly>}}}
+|label22 = Political&nbsp;party
+|data22  = {{{party<includeonly>|</includeonly>}}}
+|label23 = Board member&nbsp;of
+|data23  = {{{boards<includeonly>|</includeonly>}}}
+|label24 = Religious beliefs
+|data24  = {{{religion<includeonly>|</includeonly>}}}
+|label25 = Spouse
+|data25  = {{{spouse<includeonly>|</includeonly>}}}
+|label26 = Partner
+|data26  = {{{partner<includeonly>|</includeonly>}}}
+|label27 = Children
+|data27  = {{{children<includeonly>|</includeonly>}}}
+|label28 = Parents
+|data28  = {{{parents<includeonly>|</includeonly>}}}
+|label29 = Relatives
+|data29  = {{{relations|{{{relatives<includeonly>|</includeonly>}}}}}}
+
+|data30  = {{#if:{{{signature<includeonly>|</includeonly>}}}
+             | '''Signature'''<br/>[[Image:{{{signature}}}|128px]] }}
+|data31  = {{#if:{{{website<includeonly>|</includeonly>}}}
+             | '''Website'''<br/>{{{website}}} }}
+|data32  = {{#if:{{{footnotes<includeonly>|</includeonly>}}}
+             | <div style="text-align:left;"><!--
+               --><div style="border-top:1px solid;">'''Notes'''</div><!--
+               --><div style="line-height:1.2em;">{{{footnotes}}}</div><!--
+            --></div><!--
+        -->}}
+}}<noinclude>
+{{end infobox page}}
+
+{{pp-semi-template|small=yes}}
+{{#ifeq:{{SUBPAGENAME}}|sandbox |{{Template sandbox notice}} }}
+
+<!---Please add metadata to the <includeonly> section at the bottom of the /doc subpage--->
+</noinclude>
+
+[[en:Template:Infobox Person]]
