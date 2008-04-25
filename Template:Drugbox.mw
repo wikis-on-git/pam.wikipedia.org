@@ -1,0 +1,259 @@
+{| id="drugInfoBox" style="float: right; clear: right; margin: 0 0 0.5em 1em; background: #ffffff;" class="toccolours" border="0" cellpadding="1" align="right" width="280"
+|-
+{{#if:{{{image|}}}{{{image2|}}}|
+{{#if:{{{image|}}}|{{!}}-
+{{!}} align="center" colspan="2" {{!}} [[Image:{{{image}}} | {{px|{{{width|}}}|220}} ]] }}
+{{#if:{{{image2|}}}|{{!}}-
+{{!}} align="center" colspan="2" {{!}} [[Image:{{{image2}}} | {{px|{{{width2|}}}|{{{width|}}}|220}} ]] }}|
+{{#ifexist:Image:{{PAGENAME}}.png|{{!}}-
+{{!}} align="center" colspan="2" {{!}} [[Image:{{PAGENAME}}.png | {{px|{{{width|}}}|220}} | Chemical structure of {{PAGENAME}} ]]|{{#ifeq: {{{type|}}} | mab | | {{#ifeq: {{{type|}}} | combo | | <includeonly>[[Category:Drug pages needing a structure drawing]]</includeonly>}}}} }} }}
+|-
+{{#if:{{{imagename|}}}{{{drug_name|}}}|{{!}}-
+{{!}} align="center" colspan="2" {{!}} <div style="font-size:medium; line-height:167%;"> {{{imagename|}}}{{{drug_name|}}} |
+{{!}} align="center" colspan="2" {{!}} <div style="font-size:medium; line-height:167%;"> {{PAGENAME}} }}{{#ifeq:{{{type|}}} | mab | <sup>[[Nomenclature of monoclonal antibodies|?]]</sup>}} 
+</div>
+|-
+<!-- Top header for Combination, Monoclonal else defaut IUPAC header
+-->{{#switch: {{{type|}}} 
+  | combo = {{!}} align="center" colspan="2" bgcolor="#dddddd" {{!}} '''Combination of'''
+  | mab   = {{!}} align="center" colspan="2" bgcolor="#dddddd" {{!}} '''[[Monoclonal_antibody#Applications|Therapeutic monoclonal antibody]]'''
+  | = {{!}} align="center" colspan="2" bgcolor="#dddddd" {{!}} '''Systematic ([[International Union of Pure and Applied Chemistry nomenclature|IUPAC]]) name''' }}
+|-
+<!-- Naming 1) If not mab or combo show IUPAC value -->{{#ifeq: {{{type|}}} | mab | | {{#ifeq: {{{type|}}} | combo | | {{!}} bgcolor="#eeeeee" style="text-align: center; vertical-align: top;" colspan="2" {{!}} {{#if:{{{IUPAC_name|}}} | <span style="font-size:11px">{{{IUPAC_name}}}</span> | ? }} }} }}
+|-
+<!-- Naming 2) If type=mab then show monoclonal antibody details -->{{#ifeq: {{{type|}}} | mab | {{!}} bgcolor="#ddeeff" style="vertical-align: top;" {{!}} [[Monoclonal antibody#Production|Source]] {{!}}{{!}} bgcolor="#eeeeee" {{!}} {{#if:{{{source|}}} | {{{source}}} | ? }} }}
+|-
+{{#ifeq: {{{type|}}} | mab | {{!}} bgcolor="#ddeeff" style="vertical-align: top;" {{!}} [[Antigen|Target]] {{!}}{{!}} Bgcolor="#eeeeee" {{!}} {{#if:{{{target|}}} | {{{target}}} | ? }} }}
+|-
+<!-- Naming 3) if type=combo show its components (2 obligatory, 3 & 4 optional) -->{{#ifeq: {{{type|}}} | combo | {{!}} bgcolor="#ddeeff" {{!}} [[{{{component1|? Component}}}]] {{!}}{{!}} bgcolor="#eeeeee" {{!}} {{{class1|? Class}}} }}
+|-
+{{#ifeq: {{{type|}}} | combo | {{!}} bgcolor="#ddeeff" {{!}} [[{{{component2|? Component}}}]] {{!}}{{!}} bgcolor="#eeeeee" {{!}} {{{class2|? Class}}} }}
+|-
+{{#ifeq: {{{type|}}} | combo | {{#if:{{{component3|}}} |
+{{!}}-
+{{!}} bgcolor="#ddeeff" {{!}} [[{{{component3|?}}}]]
+{{!}} bgcolor="#eeeeee" {{!}} {{{class3|? Class}}}
+}} }}
+|-
+{{#ifeq: {{{type|}}} | combo | {{#if:{{{component4|}}} |
+{{!}}-
+{{!}} bgcolor="#ddeeff" {{!}} [[{{{component4|?}}}]]
+{{!}} bgcolor="#eeeeee" {{!}} {{{class4|? Class}}}
+}} }}
+|-
+| colspan="2" bgcolor="#dddddd" | '''Identifiers'''
+|-
+| bgcolor="#ddeeff" width="90" | [[CAS registry number|CAS number]]
+| bgcolor="#eeeeee" | {{#if:{{{CAS_number|}}} | <span class="reflink plainlinksneverexpand">[http://www.nlm.nih.gov/cgi/mesh/2006/MB_cgi?term={{{CAS_number}}}&rn=1 {{{CAS_number}}}]</span> | ? }}  {{#if:{{{CAS_supplemental|}}} | <br>{{{CAS_supplemental|}}} }} 
+|-
+| bgcolor="#ddeeff" | [[Anatomical Therapeutic Chemical Classification System|ATC code]]
+| bgcolor="#eeeeee" | {{#if:{{{ATC_prefix|}}} | [[ATC_code_{{{ATC_prefix}}}|{{{ATC_prefix}}}]]{{#if:{{{ATC_suffix|}}} | <span class="reflink plainlinksneverexpand">[http://www.whocc.no/atcddd/indexdatabase/index.php?query={{{ATC_prefix}}}{{{ATC_suffix}}} {{{ATC_suffix}}}]</span>  {{{ATC_supplemental|}}} }} | ? }}
+|-
+| bgcolor="#ddeeff" | [[PubChem]]
+| bgcolor="#eeeeee" | {{#if:{{{PubChem|}}} | <span class="reflink plainlinksneverexpand">[http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid={{{PubChem}}} {{{PubChem}}}]</span> | ? }}
+{{#if:{{{DrugBank|}}} |
+{{!}}-
+{{!}} bgcolor="#ddeeff" {{!}} [[DrugBank]]
+{{!}} bgcolor="#eeeeee" {{!}} <span class="reflink plainlinksneverexpand">[http://redpoll.pharmacy.ualberta.ca/drugbank/cgi-bin/getCard.cgi?CARD={{{DrugBank}}} {{{DrugBank}}}]</span>
+}}
+|-
+<!-- If type=combo, then none of following physical data parameters to displayed   
+-->{{#ifeq: {{{type|}}} | combo | | {{!}} colspan="2" bgcolor="#dddddd" {{!}} '''Chemical data''' }}
+|-
+{{#ifeq: {{{type|}}} | combo | | {{!}} bgcolor="#ddeeff" {{!}} [[Chemical formula|Formula]] {{!}}{{!}} bgcolor="#eeeeee" {{!}} {{#if:{{{chemical_formula|}}} | {{{chemical_formula}}} | {{#if:{{{C|}}}{{{H|}}}{{{O|}}}{{{N|}}} | {{OrganicBox_{{#if:{{{C|}}} |atom }} | atom_name={{#if:{{{C|}}} |Carbon }}  | atom_color=rgb(000,000,000) | atom_abb=C  | atom_number={{{C}}}  |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{H|}}} |atom }} | atom_name={{#if:{{{H|}}} |Hydrogen }}  | atom_color=rgb(77,77,77) | atom_abb=H  | atom_number={{{H}}}  |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{As|}}} |atom }} | atom_name={{#if:{{{As|}}} |Arsenic}} | atom_color=rgb(101,71,120) | atom_abb=As| atom_number={{{As}}}  |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{Au|}}} |atom }} | atom_name={{#if:{{{Au|}}} |Gold}} | atom_color=rgb(127,84,0) | atom_abb=Au| atom_number={{{Au}}}  |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{B|}}} |atom }}| atom_name={{#if:{{{B|}}}|Boron}}    | atom_color=rgb(116,82,82) | atom_abb=B | atom_number={{{B}}} |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{Br|}}} |atom }}| atom_name={{#if:{{{Br|}}}|Bromine}}    | atom_color=rgb(83,20,20) | atom_abb=Br | atom_number={{{Br}}} |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{Cl|}}} |atom }}| atom_name={{#if:{{{Cl|}}}|Chlorine}}   | atom_color=rgb(15,95,15) | atom_abb=Cl | atom_number={{{Cl}}} |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{Co|}}} |atom }} | atom_name={{#if:{{{Co|}}} |Cobalt }}  | atom_color=rgb(53,59,90) | atom_abb=Co  | atom_number={{{Co}}}  |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{F|}}} |atom }} | atom_name={{#if:{{{F|}}} |Fluorine}}   | atom_color=rgb(66,98,98) | atom_abb=F  | atom_number={{{F}}}  |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{Gd|}}} |atom }} | atom_name={{#if:{{{Gd|}}} |Gadolinium}} | atom_color=rgb(64,0,64) | atom_abb=Gd  | atom_number={{{Gd}}}  |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{I|}}} |atom }} | atom_name={{#if:{{{I|}}} |Iodine}}     | atom_color=rgb(74,11,74) | atom_abb=I  | atom_number={{{I}}}  |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{K|}}} |atom }} | atom_name={{#if:{{{K|}}} |Potassium}}  | atom_color=rgb(72,32,106) | atom_abb=K  | atom_number={{{K}}}  |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{Mn|}}} |atom }} | atom_name={{#if:{{{Mn|}}} |Manganese}}  | atom_color=rgb(78,21,99) | atom_abb=Mn  | atom_number={{{Mn}}}  |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{N|}}} |atom }} | atom_name={{#if:{{{N|}}} |Nitrogen }}  | atom_color=rgb(0,0,128) | atom_abb=N  | atom_number={{{N}}}  |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{Na|}}} |atom }}| atom_name={{#if:{{{Na|}}}|Sodium}}   | atom_color=rgb(11,11,97) | atom_abb=Na | atom_number={{{Na}}} |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{O|}}} |atom }} | atom_name={{#if:{{{O|}}} |Oxygen}}     | atom_color=rgb(116,35,35) | atom_abb=O  | atom_number={{{O}}}  |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{P|}}} |atom }} | atom_name={{#if:{{{P|}}} |Phosphorus}} | atom_color=rgb(127,63,0) | atom_abb=P  | atom_number={{{P}}}  |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{Pt|}}} |atom }} | atom_name={{#if:{{{Pt|}}} |Platinum}} | atom_color=rgb(21,53,79) | atom_abb=Pt  | atom_number={{{Pt}}}  |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{S|}}} |atom }} | atom_name={{#if:{{{S|}}} |Sulfur}}     | atom_color=rgb(114,97,31) | atom_abb=S  | atom_number={{{S}}}  |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{Se|}}} |atom }}| atom_name={{#if:{{{Se|}}}|Selenium}}   | atom_color=rgb(105,78,25) | atom_abb=Se | atom_number={{{Se}}} |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{Sr|}}} |atom }}| atom_name={{#if:{{{Sr|}}}|Strontium}}   | atom_color=rgb(14,67,14) | atom_abb=Sr | atom_number={{{Sr}}} |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{Tc|}}} |atom }} | atom_name={{#if:{{{Tc|}}} |Technetium}} | atom_color=rgb(30,79,84) | atom_abb=Tc| atom_number={{{Tc}}}  |var1= }}<!--
+     DATA -->{{OrganicBox_{{#if:{{{Zn|}}} |atom }} | atom_name={{#if:{{{Zn|}}} |Zinc}} | atom_color=rgb(54,60,104) | atom_abb=Zn| atom_number={{{Zn}}}  |var1= }}<!--
+     DATA --><sup>{{#if:{{{charge|}}}|{{{charge}}}|&nbsp;}}</sup> | ? }} }} }}
+|-
+{{#ifeq: {{{type|}}} | combo | | {{!}} bgcolor="#ddeeff" {{!}} [[Molecular mass|Mol. mass]] {{!}}{{!}} bgcolor="#eeeeee" {{!}} {{#if:{{{molecular_weight|}}} | {{{molecular_weight}}} | ? }} }} 
+|-
+{{#ifeq: {{{type|}}} | combo | | {{#if:{{{smiles|}}} |
+{{!}} bgcolor="#ddeeff" {{!}} [[Simplified molecular input line entry specification|SMILES]]
+{{!}} bgcolor="#eeeeee" {{!}} <!-- exluded until it is clear how we can use a nowiki-tag for template replacements <small><small><small><small>{{{smiles}}}</small></small></small></small><br> --><span class="reflink plainlinksneverexpand">[http://www.emolecules.com/cgi-bin/search?t=ex&q={{urlencode:{{{smiles}}}}} eMolecules]</span> & <span class="reflink plainlinksneverexpand">[http://pubchem.ncbi.nlm.nih.gov/search/?smarts={{urlencode:{{{smiles}}}}} PubChem]</span>
+}} }}
+|-
+{{#ifeq: {{{type|}}} | combo | | {{#if:{{{synonyms|}}} |
+{{!}} bgcolor="#ddeeff" {{!}} [[Synonym]]s
+{{!}} bgcolor="#eeeeee" {{!}} {{{synonyms}}}
+}} }}
+|-
+{{#ifeq: {{{type|}}} | combo | | {{#if:{{{density|}}} | {{!}} colspan="2" bgcolor="#dddddd" {{!}} '''Physical data''' |
+{{#if:{{{melting_point|}}} | {{!}} colspan="2" bgcolor="#dddddd" {{!}} '''Physical data''' |
+{{#if:{{{boiling_point|}}} | {{!}} colspan="2" bgcolor="#dddddd" {{!}} '''Physical data''' | 
+{{#if:{{{solubility|}}} | {{!}} colspan="2" bgcolor="#dddddd" {{!}} '''Physical data''' |
+{{#if:{{{specific_rotation|}}} | {{!}} colspan="2" bgcolor="#dddddd" {{!}} '''Physical data''' | {{#if:{{{sec_combustion|}}} | {{!}} colspan="2" bgcolor="#dddddd" {{!}} '''Physical data'''
+}} }} }} }} }} }} }}
+|-
+{{#ifeq: {{{type|}}} | combo | | {{#if:{{{density|}}} |
+{{!}} bgcolor="#ddeeff" {{!}} [[Density]]
+{{!}} bgcolor="#eeeeee" {{!}} {{{density}}}&nbsp;g/cm³
+}} }}
+|-
+{{#ifeq: {{{type|}}} | combo | | {{#if:{{{melting_point|}}} |
+{{!}} bgcolor="#ddeeff" {{!}} [[Melting point|Melt. point]]
+{{!}} bgcolor="#eeeeee" {{!}} {{{melting_point}}}{{#if:{{{melting_high|}}}| –{{{melting_high}}}}}&nbsp;°C ({{#expr: ( {{{melting_point}}} * 9 / 5 ) + 32 round 0 }}{{#if:{{{melting_high|}}}| –{{#expr: ( {{{melting_high}}} * 9 / 5 ) + 32 round 0 }} }}&nbsp;°F) {{{melting_notes|}}} 
+}} }}
+|-
+{{#ifeq: {{{type|}}} | combo | | {{#if:{{{boiling_point|}}} |
+{{!}} bgcolor="#ddeeff" {{!}} [[Boiling point]]
+{{!}} bgcolor="#eeeeee" {{!}} {{{boiling_point}}}&nbsp;°C ({{#expr: ( {{{boiling_point}}} * 9 / 5 ) + 32 round 0 }}&nbsp;°F) {{{boiling_notes|}}} 
+}} }}
+|-
+{{#ifeq: {{{type|}}} | combo | | {{#if:{{{solubility|}}} |
+{{!}} bgcolor="#ddeeff" {{!}} [[Solubility]] in [[Water (molecule)|water]]
+{{!}} bgcolor="#eeeeee" {{!}} {{{solubility}}}&nbsp;mg/mL (20&nbsp;°C)
+}} }}
+|-
+{{#ifeq: {{{type|}}} | combo | | {{#if:{{{specific_rotation|}}} |
+{{!}} bgcolor="#ddeeff" {{!}} [[Specific rotation|Spec. rot]]
+{{!}} bgcolor="#eeeeee" {{!}} {{{specific_rotation}}}
+}} }}
+|-
+{{#ifeq: {{{type|}}} | combo | | {{#if:{{{sec_combustion|}}} |
+{{!}} bgcolor="#ddeeff" {{!}} [[Standard enthalpy change of combustion|SEC Combust]]
+{{!}} bgcolor="#eeeeee" {{!}} {{{sec_combustion}}}
+}} }}
+|-
+{{#ifeq: {{{type|}}} | combo | | {{!}} colspan="2" bgcolor="#dddddd" {{!}} '''Pharmacokinetic data''' }}
+|-
+{{#ifeq: {{{type|}}} | combo | | {{!}} bgcolor="#ddeeff" style="vertical-align: top;" {{!}} [[Bioavailability]] {{!}}{{!}} bgcolor="#eeeeee" {{!}} {{#if:{{{bioavailability|}}} | {{{bioavailability}}} | ? }} }}
+{{#ifeq: {{{type|}}} | combo | | {{#if:{{{protein_bound|}}} |
+{{!}}-
+{{!}} bgcolor="#ddeeff" style="vertical-align: top;" {{!}} [[Plasma protein binding|Protein binding]]
+{{!}} bgcolor="#eeeeee" {{!}} {{{protein_bound}}}
+}} }}
+|-
+{{#ifeq: {{{type|}}} | combo | | {{!}} bgcolor="#ddeeff" style="vertical-align: top;" {{!}} [[Drug metabolism|Metabolism]] {{!}}{{!}} bgcolor="#eeeeee" {{!}} {{#if:{{{metabolism|}}} | {{{metabolism}}} | ? }} }}
+|-
+{{#ifeq: {{{type|}}} | combo | | {{!}} bgcolor="#ddeeff" style="vertical-align: top;" {{!}} [[Biological half-life|Half life]] {{!}}{{!}} bgcolor="#eeeeee" {{!}} {{#if:{{{elimination_half-life|}}} | {{{elimination_half-life}}} | ? }} }}
+|-
+{{#ifeq: {{{type|}}} | combo | | {{!}} bgcolor="#ddeeff" style="vertical-align: top;" {{!}} [[Excretion]] {{!}}{{!}} bgcolor="#eeeeee" {{!}} {{#if:{{{excretion|}}} | {{{excretion}}} | ? }} }}
+|-
+| colspan="2" bgcolor="#dddddd" | '''Therapeutic considerations'''
+|-
+{{#if:{{{licence_EU|}}} | {{!}}  bgcolor="#ddeeff" {{!}} [[Regulation of therapeutic goods|Licence data]] {{!}}{{!}} bgcolor="#eeeeee" {{!}} |
+{{#if:{{{licence_US|}}} | {{!}}  bgcolor="#ddeeff" {{!}} [[Regulation of therapeutic goods|Licence data]] {{!}}{{!}} bgcolor="#eeeeee" {{!}} |
+}} }}
+{{#if:{{{licence_EU|}}} | <span class="reflink plainlinksneverexpand">[http://www.emea.europa.eu/humandocs/Humans/EPAR/{{{licence_EU}}}/{{{licence_EU}}}.htm EU]</span>{{#if:{{{licence_US|}}} | ,&nbsp; }}
+}}{{#if:{{{licence_US|}}} | <span class="reflink plainlinksneverexpand">[http://www.accessdata.fda.gov/scripts/cder/drugsatfda/index.cfm?fuseaction=Search.SearchAction&SearchTerm={{{licence_US}}}&SearchType=BasicSearch US]</span> 
+}}
+|-
+| bgcolor="#ddeeff" style="vertical-align: top;" | [[Pregnancy category|Pregnancy cat.]] 
+| bgcolor="#eeeeee" |  
+{{#if:{{{pregnancy_AU|}}} | 
+  {{#switch: {{{pregnancy_AU|}}} 
+    | a  | A = A
+    | b1 | B1 = B1
+    | b2 | B2 = B2
+    | b3 | B3 = B3
+    | b  | B = B? 
+    | c  | C = C 
+    | d  | D = D 
+    | x  | X = X 
+    | ?
+  }}<small>([[Australia|AU]]) </small>
+}}{{#if:{{{pregnancy_US|}}} |
+  {{#switch: {{{pregnancy_US|}}} 
+    | a | A = A 
+    | b | B = B 
+    | c | C = C
+    | d | D = D 
+    | x | X = X 
+    | ?
+ }}<small>([[United States|US]]) </small>
+}}{{#if:{{{pregnancy_category|}}} | {{{pregnancy_category}}} | {{#if:{{{pregnancy_AU|}}} | | {{#if:{{{pregnancy_US|}}} | | ? }} }} }}
+|-
+| bgcolor="#ddeeff" style="vertical-align: top;" | [[Regulation of therapeutic goods|Legal status]]
+| bgcolor="#eeeeee" | <!--
+  All but first country block must start the '{{#ifeq' on same line as preceeding block's closing '}}'.
+  Test for upper & lower case,  use wikilinked two-letter ISO country codes (ISO 3166-1) within the framework of [[WP:MOS]].
+  Note space after counry code as separator & allows line wrapping.
+  Previous legal-status kept both for backwards compatibility - most articles current use this and for furture appends free-text to country-specified categorisations. -->   
+{{#if:{{{legal_AU|}}} |
+  {{#switch: {{{legal_AU|}}}
+     | unscheduled | Unscheduled = U<small>nscheduled</small> |
+     | s2 | S2 | Schedule 2 = [[Standard for the Uniform Scheduling of Drugs and Poisons#Schedule 2 Pharmacy Medicine|Pharmacy Only (S2)]] 
+     | s3 | S3 | Schedule 3 = [[Standard for the Uniform Scheduling of Drugs and Poisons#Schedule 3 Pharmacist Only Medicine|Pharmacist Only (S3)]] 
+     | s4 | S4 | Schedule 4 = [[Standard for the Uniform Scheduling of Drugs and Poisons#Schedule 4 Prescription Only Medicine|Prescription Only (S4)]] 
+     | s5 | S5 | Schedule 5 = [[Standard for the Uniform Scheduling of Drugs and Poisons#Schedule 5 Caution|Caution (S5)]]
+     | s6 | S6 | Schedule 6 = [[Standard for the Uniform Scheduling of Drugs and Poisons#Schedule 6 Poison|Poison (S6)]]
+     | s7 | S7 | Schedule 7 = [[Standard for the Uniform Scheduling of Drugs and Poisons#Schedule 7 Dangerous Poison|Dangerous Poison (S7)]]
+     | s8 | S8 | Schedule 8 = [[Standard for the Uniform Scheduling of Drugs and Poisons#Schedule 8 Controlled Drug|Controlled (S8)]]
+     | s9 | S9 | Schedule 9 = [[Standard for the Uniform Scheduling of Drugs and Poisons#Schedule 9 Prohibited Substance|Prohibited (S9)]]
+     | ?
+  }}<small>([[Australia|AU]]) </small>
+}}{{#if:{{{legal_CA|}}} |
+   {{#switch: {{{legal_CA|}}}
+     | Schedule I   = [[Controlled_Drugs_and_Substances_Act#Schedule_I|Schedule I]]
+     | Schedule II  = [[Controlled_Drugs_and_Substances_Act#Schedule_II|Schedule II]]
+     | Schedule III = [[Controlled_Drugs_and_Substances_Act#Schedule_II|Schedule III]]
+     | Schedule IV  = [[Controlled_Drugs_and_Substances_Act#Schedule_IV|Schedule IV]]
+     | Schedule V   = [[Controlled_Drugs_and_Substances_Act#Schedule_V|Schedule V]]
+     | Schedule VI  = [[Controlled_Drugs_and_Substances_Act#Schedule_VI_(Precursors)|Schedule VI]]
+     | Schedule VII = [[Controlled_Drugs_and_Substances_Act#Schedule_VII|Schedule VII]]
+     | Schedule VIII= [[Controlled_Drugs_and_Substances_Act#Schedule_VIII|Schedule VIII]]
+     | ?
+  }}<small>([[Canada|CA]]) </small>
+}}{{#if:{{{legal_UK|}}} |
+  {{#switch: {{{legal_UK|}}}
+     | gsl | GSL = GSL
+     | p   | P =P
+     | pom | POM = [[Prescription drug|POM]]
+     | cd  | CD =CD
+     | Class A = [[Misuse_of_Drugs_Act_1971#Class_A_drugs|Class A]]
+     | Class B = [[Misuse_of_Drugs_Act_1971#Class_B_drugs|Class B]]
+     | Class C = [[Misuse_of_Drugs_Act_1971#Class_C_drugs|Class C]]
+     | ?
+  }}<small>([[United Kingdom|UK]]) </small>
+}}{{#if:{{{legal_US|}}} |
+  {{#switch: {{{legal_US|}}}
+     | otc | OTC = [[Over-the-counter drug|OTC]]
+     | {{Unicode|℞}}-only | {{Unicode|℞}} | rx | Rx | rx-only | Rx-only = [[Prescription drug|{{Unicode|℞}}<small>-only</small>]]
+     | Schedule I   = [[Controlled_Substances_Act#Schedule_I_drugs|Schedule I]]
+     | Schedule II  = [[Controlled_Substances_Act#Schedule_II_drugs|Schedule II]]
+     | Schedule III = [[Controlled_Substances_Act#Schedule_III_drugs|Schedule III]]
+     | Schedule IV  = [[Controlled_Substances_Act#Schedule_IV_drugs|Schedule IV]]
+     | Schedule V   = [[Controlled_Substances_Act#Schedule_V_drugs|Schedule V]] 
+     | ?
+  }}<small>([[United States|US]]) </small>
+}}{{#if:{{{legal_status|}}} |
+  {{#switch: {{{legal_status|}}}
+     | rx | RX | Rx | rx-only | Rx-only = {{Unicode|℞}} P<small>rescription only</small> 
+     | {{{legal_status}}}
+  }}
+}}
+|-
+{{#if:{{{dependency_liability|}}} |
+{{!}}-
+{{!}} bgcolor="#ddeeff" style="vertical-align: top; white-space: nowrap;" {{!}} Dependence Liability
+{{!}} bgcolor="#eeeeee" style="vertical-align: top;" {{!}} {{{dependency_liability}}}
+}}
+|-
+| bgcolor="#ddeeff" style="vertical-align: top;" | [[Route of administration|Routes]]
+| bgcolor="#eeeeee" | {{#if:{{{routes_of_administration|}}} | {{{routes_of_administration}}} | ? }}
+{{#if: {{{chemical_formula|}}} | [[Category:Drug pages needing formula fontification]] |}}
+|-
+|}<noinclude>
+{{pp-template|small=yes}}
+{{documentation}}
+</noinclude>
