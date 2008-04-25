@@ -1,0 +1,508 @@
+{{documentation subpage}}
+
+==Notes on use==
+The '''[[Template:Drugbox]]''' allows a consistent interface to other sources that provide information about a drug, fixed drug-combinations or monoclonal antibody drugs. Don't worry about trying to fill in all the fields -- even specifying just one or two can still be useful.  This template now allows for combination products (see 1b) and monoclonal antibody (previously [[Template:Drugbox-mab]], see 1c).
+
+'''1a) Single chemical drugs:''' While editing a drug page, copy and paste either style of the following text at the top of the page:
+
+'''Shortened single-drug form:''' &nbsp; <small>(For visibility, vertical-bar pipes "|" start a line but can also end a line.)</small>
+<pre>
+{{Drugbox
+| IUPAC_name        = 
+| image             = 
+| CAS_number        = 
+| ATC_prefix        = 
+| ATC_suffix        = 
+| PubChem           = 
+| DrugBank          = 
+| chemical_formula  = 
+| molecular_weight  = 
+| bioavailability   = 
+| protein_bound     = 
+| metabolism        = 
+| elimination_half-life = 
+| excretion         = 
+| pregnancy_AU      =  <!-- A / B1 / B2 / B3 / C / D / X -->
+| pregnancy_US      =  <!-- A / B            / C / D / X -->
+| pregnancy_category=  
+| legal_AU =  <!-- S2, S3, S4, S5, S6, S7, S8, S9 or Unscheduled-->
+| legal_CA =  <!-- Schedule I, II, III, IV, V, VI, VII, VIII -->
+| legal_UK =  <!-- GSL, P, POM, CD, or Class A, B, C -->
+| legal_US =  <!-- OTC / Rx-only / Schedule I, II, III, IV, V -->
+| legal_status      = 
+| routes_of_administration = 
+}}
+</pre>
+
+'''Full single-drug template''' with extended fields:
+<pre>
+{{Drugbox
+| IUPAC_name        = 
+| image             =  
+| width             =  
+| image2            = 
+| width2            = 
+| imagename         = <!-- else may use drug_name -->
+| drug_name         = <!-- else may use imagename -->
+| CAS_number        = 
+| CAS_supplemental  =
+| ATC_prefix        = 
+| ATC_suffix        = 
+| ATC_supplemental  = 
+| PubChem           = 
+| DrugBank          = 
+| chemical_formula  = 
+| C= | H= | As= | Au= | Br= | Cl= | Co= | F= | Gd= | I= | Mn=
+| N= | Na= | O= | P= | Pt= | S= | Se= | Sr= | Tc= | Zn= | charge=
+| molecular_weight  = 
+| smiles            = 
+| synonyms          = 
+| density           = 
+| melting_point     =
+| melting_high      =
+| melting_notes     = 
+| boiling_point     = 
+| boiling_notes     =
+| solubility        = 
+| specific_rotation = 
+| sec_combustion    = 
+| bioavailability   = 
+| protein_bound     = 
+| metabolism        = 
+| elimination_half-life = 
+| excretion         = 
+| licence_EU        =  <!-- EMEA requires brand name --> 
+| licence_US        =  <!-- FDA may use generic name -->  
+| pregnancy_AU      =  <!-- A / B1 / B2 / B3 / C / D / X -->
+| pregnancy_US      =  <!-- A / B            / C / D / X -->
+| pregnancy_category=  
+| legal_AU =  <!-- S2, S3, S4, S5, S6, S7, S8, S9 or Unscheduled-->
+| legal_CA =  <!-- Schedule I, II, III, IV, V, VI, VII, VIII -->
+| legal_UK =  <!-- GSL, P, POM, CD, or Class A, B, C -->
+| legal_US =  <!-- OTC / Rx-only / Schedule I, II, III, IV, V -->
+| legal_status      = 
+| dependency_liability = 
+| routes_of_administration = 
+}}
+</pre>
+
+'''OR Alternatively:''' use [[User:Diberri|Diberri's]] excellent [http://diberri.dyndns.org/wikipedia/templates/index.html?type=drugbank Wikipedia template filling tool] which will generate a populated template to copy & paste into an article if given a [[DrugBank]] ID number (which may be obtained from [http://redpoll.pharmacy.ualberta.ca/drugbank/ DrugBank search]). Please select for ''Fill template vertically'', but as Wikipedia is a general encyclopedia, most drugs do not warrant ''Show extended fields''.
+
+
+'''1b) Combination products''' uses a different subset of parameters, defining the parameter '''type=combo'''. Generally combination articles will not need display the molecular images of its constituents (the relevant specific articles would have the images). It disables all Chemical & Pharmacology parameters (which describe properties of single drug items). These redundant disabled parameters are best not included in the template calling, so use the following abridged forms of the template:  
+
+'''Shortened combination product form:'''
+<pre>
+{{Drugbox
+| type              = combo
+| component1        = <!-- Drugname, automatically linked -->
+| class1            = <!-- Group, manual link using [[..|..]] -->
+| component2        = <!-- Drugname, automatically linked -->
+| class2            = <!-- Group, manual link using [[..|..]] -->
+| CAS_number        = 
+| ATC_prefix        = 
+| ATC_suffix        = 
+| PubChem           = 
+| DrugBank          = 
+| pregnancy_AU      =  <!-- A / B1 / B2 / B3 / C / D / X -->
+| pregnancy_US      =  <!-- A / B            / C / D / X -->
+| pregnancy_category=  
+| legal_AU =  <!-- S2, S3, S4, S5, S6, S7, S8, S9 or Unscheduled-->
+| legal_CA =  <!-- Schedule I, II, III, IV, V, VI, VII, VIII -->
+| legal_UK =  <!-- GSL, P, POM, CD, or Class A, B, C -->
+| legal_US =  <!-- OTC / Rx-only / Schedule I, II, III, IV, V -->
+| legal_status      = 
+| routes_of_administration = 
+}}
+</pre>
+
+'''Full combination product template''' with extended fields and allowing for upto 4 items:
+<pre>
+{{Drugbox
+| type              = combo
+| drug_name         = 
+| component1        = <!-- Drugname, automatically linked -->
+| class1            = <!-- Group, manual link using [[..|..]] -->
+| component2        = <!-- Drugname, automatically linked -->
+| class2            = <!-- Group, manual link using [[..|..]] -->
+| component3        = <!-- Drugname, automatically linked -->
+| class3            = <!-- Group, manual link using [[..|..]] -->
+| component4        = <!-- Drugname, automatically linked -->
+| class4            = <!-- Group, manual link using [[..|..]] -->
+| CAS_number        = 
+| CAS_supplemental  =
+| ATC_prefix        = 
+| ATC_suffix        = 
+| ATC_supplemental  = 
+| PubChem           = 
+| DrugBank          = 
+| licence_EU        =  <!-- EMEA requires brand name --> 
+| licence_US        =  <!-- FDA may use generic name -->  
+| pregnancy_AU      =  <!-- A / B1 / B2 / B3 / C / D / X -->
+| pregnancy_US      =  <!-- A / B            / C / D / X -->
+| pregnancy_category=  
+| legal_AU =  <!-- S2, S3, S4, S5, S6, S7, S8, S9 or Unscheduled-->
+| legal_CA =  <!-- Schedule I, II, III, IV, V, VI, VII, VIII -->
+| legal_UK =  <!-- GSL, P, POM, CD, or Class A, B, C -->
+| legal_US =  <!-- OTC / Rx-only / Schedule I, II, III, IV, V -->
+| legal_status      = 
+| dependency_liability = 
+| routes_of_administration = 
+}}
+</pre>
+
+Note that for drug-combinations at least two components must be defined, with optional 3rd or 4th components. For each component:
+* define its name (which will be automatically wikilinked)
+* and the class of agent it belongs to but this usually needs manual wikilinking, eg for [[Seretide]]:
+{{Drugbox
+| type       = combo
+| drug_name  = Seretide
+| component1 = Fluticasone
+| class1     = [[Glucocorticoids|Glucocorticoid]] 
+| component2 = Salmeterol 
+| class2     = [[Beta2-adrenergic receptor agonist|Long-Acting Beta2 Agonist]]
+}}
+<pre>
+| type       = combo
+| drug_name  = Seretide
+| component1 = Fluticasone
+| class1     = [[Glucocorticoids
+               |Glucocorticoid]]
+| component2 = Salmeterol 
+| class2     = [[Beta2-adrenergic receptor
+    agonist|Long-Acting Beta2 Agonist]]
+</pre>
+<br clear="right">
+
+
+1c) '''Monoclonal antibody drug''' uses a different subset of parameters, defining the parameter '''type=mab'''. This allows the alternative parameter of the derived source and target of action to be specified. The MAB name has appended after it a "?" linked to [[Nomenclature of monoclonal antibodies]], saving on the need explain how each MAB has been named.  
+
+'''Shortened Monoclonal antibody form:'''
+<pre>
+{{Drugbox
+| type              = mab
+| image             = 
+| source            = <!-- organism from which derived -->
+| target            = <!-- antigen -->
+| CAS_number        = 
+| ATC_prefix        = 
+| ATC_suffix        = 
+| PubChem           = 
+| DrugBank          = 
+| chemical_formula  = 
+| molecular_weight  = 
+| bioavailability   = 
+| protein_bound     = 
+| metabolism        = 
+| elimination_half-life = 
+| excretion         = 
+| pregnancy_AU      =  <!-- A / B1 / B2 / B3 / C / D / X -->
+| pregnancy_US      =  <!-- A / B            / C / D / X -->
+| pregnancy_category=  
+| legal_AU =  <!-- S2, S3, S4, S5, S6, S7, S8, S9 or Unscheduled-->
+| legal_CA =  <!-- Schedule I, II, III, IV, V, VI, VII, VIII -->
+| legal_UK =  <!-- GSL, P, POM, CD, or Class A, B, C -->
+| legal_US =  <!-- OTC / Rx-only / Schedule I, II, III, IV, V -->
+| legal_status      = 
+| routes_of_administration = 
+}}
+</pre>
+
+'''Full Monoclonal antibody template''' with extended fields:
+<pre>
+{{Drugbox
+| type              = mab
+| image             =  
+| width             =  
+| image2            = 
+| width2            = 
+| imagename         = <!-- else may use drug_name -->
+| drug_name         = <!-- else may use imagename -->
+| source            = <!-- organism from which derived -->
+| target            = <!-- antigen -->
+| CAS_number        = 
+| CAS_supplemental  =
+| ATC_prefix        = 
+| ATC_suffix        = 
+| ATC_supplemental  = 
+| PubChem           = 
+| DrugBank          = 
+| chemical_formula  = 
+| C= | H= | N= | Co= | I= | Br= | Cl= | F= | O= 
+| P= | S= | Se= | Na= | charge=
+| molecular_weight  = 
+| smiles            = 
+| synonyms          = 
+| density           = 
+| melting_point     =
+| melting_high      =
+| melting_notes     = 
+| boiling_point     = 
+| boiling_notes     =
+| solubility        = 
+| specific_rotation = 
+| sec_combustion    = 
+| bioavailability   = 
+| protein_bound     = 
+| metabolism        = 
+| elimination_half-life = 
+| excretion         = 
+| licence_EU        =  <!-- EMEA requires brand name --> 
+| licence_US        =  <!-- FDA may use generic name -->  
+| pregnancy_AU      =  <!-- A / B1 / B2 / B3 / C / D / X -->
+| pregnancy_US      =  <!-- A / B            / C / D / X -->
+| pregnancy_category=  
+| legal_AU =  <!-- S2, S3, S4, S5, S6, S7, S8, S9 or Unscheduled-->
+| legal_CA =  <!-- Schedule I, II, III, IV, V, VI, VII, VIII -->
+| legal_UK =  <!-- GSL, P, POM, CD, or Class A, B, C -->
+| legal_US =  <!-- OTC / Rx-only / Schedule I, II, III, IV, V -->
+| legal_status      = 
+| dependency_liability = 
+| routes_of_administration = 
+}}
+</pre>
+
+
+2) None of the fields are obligatory.
+DrugBank does not include every known drug and likewise Protein Binding may not be applicable to the drug (e.g. if only ever applied externally), so if these fields are not defined then their row is not shown.
+
+3) You can use the '''image''' to provide an illustration. These fields are optional, but it is helpful to provide an image if you can find one. Of course most images on the internet are copyrighted.  
+
+You may specify the image name directly, else the template defaults to trying to use [[Image:PAGENAME.png]], where PAGENAME is the name of the drug article being written.
+
+There is also an optional '''width''' parameter you can add for the image. If your picture is far too big, then add a new line and specify a custom width like this: 
+
+  | image            = Aspirin.png
+  | width            = 325
+
+When no width parameter is specified, it defaults to a width of 220.
+
+Occasionally a second image might be added to show the chemical structure in a different format. Use the optional '''image2''' parameter for this. Hence the [[Paracetamol]] article uses:
+
+  | image            = Paracetamol-skeletal.png 
+  | image2           = Paracetamol-3D.png 
+
+image2 generally uses the same width settings as the first image, i.e. as defined by '''width''' otherwise a default value of 220. A specific '''width2''' may though be applied. 
+
+
+4) Additional ATC or CAS codes may be included with the optional  '''ATC_supplemental''' & '''CAS_supplement''' parameter as a comma-separated lists. CAS or ATC templates may be used to have these additional codes link to the relevant databases:
+<pre>
+  | CAS_supplemental ={{CAS|427-51-0}} (acetate)
+  | ATC_supplemental ={{ATC|M02|AA15}}, {{ATC|S01|BC03}}  
+</pre>
+Adds the following linked codes:
+ For CAS -  {{CAS|427-51-0}} (acetate)
+ For ATC - {{ATC|M02|AA15}}, {{ATC|S01|BC03}}
+
+
+5) An optional parameter of '''Dependence Liability''' allows opioids or benzodiazepines to be flagged with the risk of becoming dependent upon them, although in many cases this may be somewhat subjective. Drugs should be rated as ''Low'', ''Medium'', ''High'' or ''Extremely High'':
+
+  | dependency_liability=High 
+
+
+6) Additional optional physical proprerties are for [[Melting point]], [[Boiling point]], [[Specific rotation]] and [[Standard enthalpy change of combustion]]
+
+  | melting_point    =
+  | boiling_point    =
+  | specific_rotation=
+  | sec_combustion   =
+
+7) You can provide the chemical formula as either the default
+
+  | chemical_formula =
+
+or by setting atom counts for each element, in these parameters:
+
+  | C= | H= | As= | Au= | Br= | Cl= | Co= | F= | Gd= | I= | Mn=
+  | N= | Na= | O= | P= | Pt= | S= | Se= | Sr= | Tc= | Zn= | charge=
+
+ e.g.   | C=2 | H=6 | O=1
+ gives  Formula   <font color="000000">[[Carbon|C]]</font><sub>2</sub><font color="4D4D4D">[[Hydrogen|H]]</font><sub>6</sub><font color="742323">[[Oxygen|O]]</font>
+
+Irrespective of the order of asigning values to the constituent parameters, the formula is displayed with elements in the above order. The charge parameter, if defined, is shown superscripted. 
+ 
+ e.g.   | C=2 | O=1 | H=6 | charge=+   is identical to next line
+        | C=2 | H=6 | O=1 | charge=+
+ giving Formula   <font color="000000">[[Carbon|C]]</font><sub>2</sub><font color="4D4D4D">[[Hydrogen|H]]</font><sub>6</sub><font color="742323">[[Oxygen|O]]</font><sup>+</sup>
+
+8) Licensing information - There are two major licensing authorities that make drug information easily accessible: The US [[Food and Drug Administration]] (FDA) and the [[European Medicines Agency]] (EMEA). NB The word "Licence" is the noun in British English, "License" is the verb.
+
+The FDA "Label Information" and the EMEA "Product Information", where available, are very detailed. There is material aimed at the professional and also plain-English consumer information. These are excellent reliable source for article information but also contains much that makes it a worthwhile "External link" since there is no way one can include all the info. Both sites work using of the brand name of the drug but the FDA site also allows searches with the generic name (active ingredient), which lists generic variants where they are licensed. 
+<pre>
+  | licence_EU =    <!-- EMEA requires brand name --> 
+  | licence_US =    <!-- FDA may use generic name -->  
+</pre>
+Lists of products and the parameter term to use may be easily searched for: 
+* European Public Assessment Reports [http://www.emea.europa.eu/sitemap.htm SiteMap]. Authorised Products: [http://www.emea.europa.eu/htms/human/epar/a-fepar.htm EMEA A-F], [http://www.emea.europa.eu/htms/human/epar/g-lepar.htm EMEA G-L], [http://www.emea.europa.eu/htms/human/epar/m-repar.htm EMEA M-R], [http://www.emea.europa.eu/htms/human/epar/s-zepar.htm EMEA S-Z]
+*: When items are composed of more than one word, '''licence_EU''' uses adjoined words (i.e. no spaces); e.g. ''infanrixpenta'' for Infanrix Penta.
+* Drugs@FDA [http://www.accessdata.fda.gov/scripts/cder/drugsatfda/index.cfm?fuseaction=Search.Search_Drug_Name Search by Drug Name or Active Ingredient]
+*: Where items are composed of more than one word, '''licence_US''' requires an underscore '_' in place of any spaces; e.g. ''Acyclovir_Sodium''.
+
+
+9) Legal status has been previously declared using just the '''legal_status''' parameter with a variety of markup styles used to indicate various countries and their classifications. Alternatively '''legal_AU''', '''legal_CA''', '''legal_UK''' and '''legal_US''' may be set to the fixed options in the table below. The template will ensure the catagorisation is shown correctly capitalised, use Unicode Rx symbol and add a linked 2-letter country code as per [[WP:MOS]]. '''legal_status''' may still be used with the country-specific parameters as it is appended afterwards, allowing backwards compatibility for articles that only define this parameter, or for the future with free-text of other information.
+
+ Hence | legal_AU     = S2
+       | legal_UK     = gsl
+       | legal_US     = Rx-only
+       | legal_status = Not marketed in Asia
+
+ Gives S2<small>([[Australia|AU]])</small> POM<small>([[United Kingdom|UK]])</small> {{Unicode|℞}}-only<small>([[United States|US]])</small>  Not marketed in Asia
+
+Note: if a drug is restricted everywhere to prescription-only, please set '''legal_status = Rx-only''' rather than similarly define for each and every country ('Rx-only' is specifically recognised by legal_status and shows as ''{{Unicode|℞}} P<small>rescription only</small>'')  
+
+{|class="wikitable"
+|-
+!Abbreviation<br>(options) !!Meaning
+|-
+! legal_status !! Anywhere
+|-
+| Rx-only || ℞ Prescription only
+|-
+! legal_AU !! Australia<br>(ee [[Standard for the Uniform Scheduling of Drugs and Poisons|SUSDP]])
+|-
+|Unscheduled || Unscheduled/exempt
+|-
+|S2 || Schedule 2 Pharmacy Medicine
+|-
+|S3 || Schedule 3 Pharmacist Only Medicine
+|-
+|S4 || Schedule 4 Prescription Only Medicine
+|-
+|S5 || Schedule 5 Caution 
+|-
+|S6 || Schedule 6 Poison 
+|-
+|S7 || Schedule 7 Dangerous Poison 
+|-
+|S8 || Schedule 8 Controlled Drug
+|-
+|S9 || Schedule 9 Prohibited Substance 
+|-
+! legal_CA !! Canada
+|-
+|? || Over the counter
+|-
+|? || Prescription only. Where known may specify:
+|-
+| align="center" | Schedule I&nbsp;&nbsp; || rowspan=8 | see [[Controlled Drugs and Substances Act]]
+|-
+| align="center" | Schedule II&nbsp;
+|-
+| align="center" | Schedule III
+|-
+| align="center" | Schedule IV&nbsp;
+|-
+| align="center" | Schedule V&nbsp;&nbsp;
+|-
+| align="center" | Schedule VI&nbsp;
+|-
+| align="center" | Schedule VII
+|-
+| align="center" | Schedule VIII
+|-
+! legal_UK !! United Kingdom
+|-
+|GSL || General Sale List
+|-
+|P || Pharmacy Medicine
+|-
+|POM || Prescription Only Medicine
+|-
+|CD || Controlled Drug. Where known may specify:
+|-
+| align="center" | Class A || rowspan=3 | see [[Misuse of Drugs Act 1971]]
+|-
+| align="center" | Class B
+|-
+| align="center" | Class C
+|-
+! legal_US !! United States
+|-
+|OTC || Over the counter
+|-
+|℞-only<br>Rx-only || Prescription only. Where known may specify:
+|-
+| align="center" | Schedule I&nbsp;&nbsp; || rowspan=5 | see [[Controlled Substances Act]]
+|-
+| align="center" | Schedule II&nbsp;
+|-
+| align="center" | Schedule III
+|-
+| align="center" | Schedule IV&nbsp;
+|-
+| align="center" | Schedule V&nbsp;&nbsp;
+|-
+|}
+
+10) Pregnancy Categorisation has been previously declared using just the '''pregnancy_category''' parameter with a variety of markup styles used to indicate various countries and their classifications. Alternatively '''pregnancy_AU''' and '''pregnancy_US''' may be set to the fixed categories. For Australia values permitted are: A, B1, B2, B3, C, D or X (note if just set to 'B' then '''B?''' is shown). For US values permitted are: A, B, C, D or X.
+
+Note the UK does not have official designated categorisations, but has both a variety of standard phrases with explanatory qualifications, plus many individual descriptions. '''pregnancy_category''' may still be used with the country-specific parameters as it is appended afterwards, allowing backwards compatibility for articles that only define this parameter, or for the future with free-text of other information.
+<pre>
+ Hence | pregnancy_AU = B1
+       | pregnancy_US = C
+       | pregnancy_category = Used in pregnancy
+           for [[Pregnancy-induced hypertension|PIH]]
+</pre>
+ Gives B1<small>([[Australia|AU]])</small> C<small>([[United States|US]])</small> Used in pregnancy for [[Pregnancy-induced hypertension|PIH]]
+
+11) Optional additional Chemical data fields of [[Simplified molecular input line entry specification|SMILES]] and [[Synonyms]] are for most drugs '''not helpful''' to the wider readership. 
+
+  | smiles            = 
+  | synonyms          = 
+
+12) '''Physical data''' - this is an entirely optional section, and for most drugs is '''not helpful''' to the wider readership. Only include if information of particular interest for the drug as to its chemical propersites (e.g. in its manufacture or as an important chemical in its own right, e.g. [[Aspirin]]). If any of the following optional parameters are defined then a new section header of 'Physical data' is shown.
+ 
+  | density           = 
+  | melting_point     = 
+  | boiling_point     = 
+  | solubility        = 
+  | specific_rotation = 
+  | sec_combustion    = 
+
+The template will add the following to the numeric values provided:
+*'''Density''' - added 'g/cm<sup>3</sup>'
+*'''Melting''' or '''Boiling''' points - added '°C' along with calculated converted value in °F.
+*'''Solubility''' - added 'mg/mL (20°C)'
+
+ Hence:  | melting_point = 100
+ gives:  Melting point   100°C (212°F)
+
+In addition, where the melting point occurs over a range of temperatures, use '''melting_high''' for the upper value.
+
+ Hence:  | melting_point = 100
+         | melting_high  = 104
+ gives:  Melting point   100-104 °C (212-219 °F)
+
+Comments can be added to the melting and boiling point entries using '''melting_notes''' and '''boiling_notes'''
+
+ Hence:  | boiling_point = 100
+         | boiling_notes = (sublimes)
+ gives:  Boiling point   100 °C (212 °F) (sublimes)
+
+
+
+13) Don't worry about getting all the fields -- just do your best, and if you have any questions or suggestions, feel free to ask at [[Template talk:Drugbox]].
+
+__NOEDITSECTION__
+{{intricate template}}
+
+==See also==
+* [[WP:PHARM]] for wikiproject page
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+[[Category:Medicine infobox templates|{{PAGENAME}}]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[de:Vorlage:Infobox Arzneistoff]]
+[[es:Plantilla:Medicamento]]
+[[fr:Modèle:Pharmacologie]]
+[[it:Template:Drugbox]]
+[[ja:Template:Drugbox]]
+[[ml:ഫലകം:Drugbox/doc]]
+[[nl:Sjabloon:Geneesmiddel]]
+[[pt:Predefinição:Info/Droga]]
+[[tr:Şablon:İlaç]]
+[[zh:Template:Drugbox]]
+[[vi:Tiêu bản:Dược phẩm]]</includeonly>
