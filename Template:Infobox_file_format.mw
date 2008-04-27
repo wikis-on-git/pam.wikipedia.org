@@ -1,0 +1,91 @@
+{| class="infobox" style="text-align: left; width: 23em; font-size: 90%;"
+! colspan="2" style="text-align: center"|'''{{{name|{{PAGENAME}}}}}'''
+|-
+{{#if:{{{icon|}}}|
+{{!}} colspan="2" style="text-align: center;" {{!}} {{{icon}}}
+{{!}}-
+}}
+{{#if:{{{logo|}}}
+{{!}} colspan="2" style="text-align: center;" {{!}} {{{logo}}}
+{{!}}-
+}}
+{{#if:{{{screenshot|}}}|
+{{!}} colspan="2" style="text-align: center; border: 0px solid #aaaaaa;" {{!}} {{{screenshot}}}{{#if:{{{caption|}}}|<br /><span style="font-size: 83%;">{{{caption}}}</span>|}}
+{{!}}-
+}}
+{{#if:{{{extension|}}}|
+! [[filename extension|File extension]]
+{{!}} <code>{{{extension|None}}}</code>
+{{!}}-
+}}
+{{#if:{{{mime|}}}|
+! [[MIME]] type
+{{!}} <code>{{{mime}}}</code>
+{{!}}-
+}}
+{{#if:{{{type code|{{{typecode|}}}}}}|
+! [[Type code]]
+{{!}} {{{type code|{{{typecode}}}}}}
+{{!}}-
+}}
+{{#if:{{{uniform type|}}}|
+! [[Uniform Type Identifier]]
+{{!}} {{{uniform type}}}
+{{!}}-
+}}
+{{#if:{{{magic|}}}|
+! [[Magic number (programming)|Magic number]]
+{{!}} {{{magic}}}
+{{!}}-
+}}
+{{#if:{{{owner|}}}|
+! Developed by
+{{!}} {{{owner}}}
+{{!}}-
+}}
+{{#if:{{{released|}}}|
+! Initial release
+{{!}} {{{released|}}}
+{{!}}-
+}}
+{{#if:{{{latest release version|{{{latest_release_version|}}}}}}|
+! [[Software release life cycle|Latest release]]
+{{!}} {{{latest release version|{{{latest_release_version|}}}}}} {{#if:{{{latest release date|{{{latest_release_date|}}}}}}| / {{{latest release date|{{{latest_release_date|}}}}}}}}
+{{!}}-
+}}
+{{#if:{{{type|{{{genre|}}}}}}|
+! Type of format
+{{!}} {{{type|{{{genre|}}}}}}
+{{!}}-
+}}
+{{#if:{{{container for|{{{containerfor|}}}}}}|
+! Container for
+{{!}} {{{container for|{{{containerfor}}}}}}
+{{!}}-
+}}
+{{#if:{{{contained by|{{{containedby|}}}}}}|
+! Contained by
+{{!}} {{{contained by|{{{containedby}}}}}}
+{{!}}-
+}}
+{{#if:{{{extended from|{{{extendedfrom|}}}}}}|
+! Extended from
+{{!}} {{{extended from|{{{extendedfrom}}}}}}
+{{!}}-
+}}
+{{#if:{{{extended to|{{{extendedto|}}}}}}|
+! Extended to
+{{!}} {{{extended to|{{{extendedto}}}}}}
+{{!}}-
+}}
+{{#if:{{{standard|}}}
+! [[International standard|Standard(s)]]
+{{!}} {{{standard}}}
+{{!}}-
+}}
+{{#if:{{{url|}}}|
+! [[Website]]
+{{!}} {{{url|}}}
+{{!}}-
+}}
+|}<noinclude>{{Documentation}}</noinclude>
