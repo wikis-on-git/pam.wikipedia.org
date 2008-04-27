@@ -1,0 +1,57 @@
+{{ navbox
+| title  = [[Multimedia]] [[Data compression|compression]] formats
+| name   = Compression Formats
+
+| group1 = [[Video compression]]
+| list1  =
+{{Navbox generic subgroup
+| group1 = [[International Organization for Standardization|ISO]]/[[International Electrotechnical Commission|IEC]]
+| list1  = [[Motion JPEG|MJPEG]]{{·}} [[JPEG_2000#Motion_JPEG_2000|Motion JPEG 2000]]{{·}} [[MPEG-1]]{{·}} [[MPEG-2]]{{·}} [[MPEG-4 Part 2|MPEG-4 ASP]]{{·}} [[H.264/MPEG-4 AVC|MPEG-4/AVC]]
+| group2 = [[ITU-T]]
+| list2  = [[H.120]]{{·}} [[H.261]]{{·}} [[H.262]]{{·}} [[H.263]]{{·}} [[H.264/MPEG-4 AVC|H.264]]
+| group3 = Others
+| list3  = [[AMV video format|AMV]]{{·}} [[Audio Video Standard|AVS]]{{·}} [[Bink Video|Bink]]{{·}} [[Dirac (codec)|Dirac]]{{·}} [[Indeo]]{{·}} [[Pixlet]]{{·}} [[RealVideo]]{{·}} [[RTVideo]] {{·}} [[SheerVideo]] {{·}} [[Smacker video|Smacker]]{{·}} [[Snow (codec)|Snow]] {{·}} [[Theora]]{{·}} [[VC-1]]{{·}} [[VP6]]{{·}} [[VP7]]{{·}} [[Windows Media Video|WMV]]
+}}
+
+| group2 = [[Audio compression (data)|Audio compression]]
+| list2  =
+{{Navbox generic subgroup
+| group1 = [[International Organization for Standardization|ISO]]/[[International Electrotechnical Commission|IEC]]
+| list1  = [[MP3|MPEG-1 Layer III (MP3)]]{{·}} [[MPEG-1 Audio Layer II|MPEG-1 Layer II]]{{·}} [[MPEG-1 Audio Layer I|MPEG-1 Layer I]]{{·}} [[Advanced Audio Coding|AAC]]{{·}} [[HE-AAC]]{{·}} [[HE-AAC v2]]
+| group2 = [[ITU-T]]
+| list2  = [[G.711]]{{·}} [[G.722]]{{·}} [[G.722.1]]{{·}} [[G.722.2]]{{·}} [[G.723]]{{·}} [[G.723.1]]{{·}} [[G.726]]{{·}} [[G.728]]{{·}} [[G.729]]{{·}} [[G.729.1]]{{·}} [[G.729a]]
+| group3 = Others
+| list3  = [[Dolby Digital|AC3]]{{·}} [[Adaptive_multi-rate_compression|AMR]]{{·}} [[Apple Lossless]]{{·}} [[Adaptive Transform Acoustic Coding|ATRAC]]{{·}} [[Free Lossless Audio Codec|FLAC]]{{·}} [[Internet Low Bit Rate Codec|iLBC]]{{·}} [[Monkey's Audio]]{{·}} [[μ-law algorithm|μ-law]]{{·}} [[Musepack]]{{·}} [[Nellymoser Asao Codec in Flash|Nellymoser]]{{·}} [[OptimFROG]]{{·}} [[RealAudio]]{{·}} [[RTAudio]]{{·}} [[Shorten|SHN]]{{·}} [[Siren Codec|Siren]]{{·}}  [[Speex]]{{·}} [[Vorbis]]{{·}} [[WavPack]]{{·}} [[Windows Media Audio|WMA]]{{·}} [[TAK (audio codec)|TAK]]
+}}
+
+| group3 = [[Image compression]]
+| list3  =
+{{Navbox generic subgroup
+| group1 = [[International Organization for Standardization|ISO]]/[[International Electrotechnical Commission|IEC]]/[[ITU-T]]
+| list1  = [[JPEG]]{{·}} [[JPEG 2000]]{{·}} [[Lossless JPEG|lossless JPEG]]{{·}} [[JBIG]]{{·}} [[JBIG2]]{{·}} [[Portable Network Graphics|PNG]] {{·}} [[Wireless Application Protocol Bitmap Format|WBMP]]
+| group2 = Others
+| list2  = [[BMP file format|BMP]]{{·}} [[Graphics Interchange Format|GIF]]{{·}} [[ICER]] {{·}} [[ILBM]]{{·}} [[PCX]]{{·}} [[Progressive Graphics File|PGF]] {{·}} [[Truevision TGA|TGA]] {{·}} [[Tagged Image File Format|TIFF]] {{·}} [[JPEG XR|JPEG XR / HD Photo]]
+}}
+
+| group4 = [[Container format (digital)|Media container]]s
+| list4  = 
+{{Navbox generic subgroup
+| group1 = General
+| list1  = [[3GP]]{{·}} [[Advanced Systems Format|ASF]]{{·}} [[Audio Video Interleave|AVI]]{{·}} [[Bink Video|Bink]]{{·}} [[DivX Media Format|DMF]]{{·}} [[Digital Picture Exchange|DPX]]{{·}} [[Flash Video|FLV]]{{·}} [[Matroska]]{{·}} [[MPEG-4 Part 14|MP4]]{{·}} [[MXF]]{{·}} [[NUT Container|NUT]]{{·}} [[Ogg]]{{·}} [[Ogg Media]]{{·}} [[QuickTime]]{{·}} [[RealMedia]]{{·}} [[Smacker video|Smacker]]{{·}} [[VOB]]
+| group2 = Audio only
+| list2  = [[Audio Interchange File Format|AIFF]]{{·}} [[Au file format|AU]]{{·}} [[WAV]]
+}}
+
+| below    = See [[Template:Compression Methods|Compression Methods]] for methods and [[Template:Compression Software Implementations|Compression Software Implementations]] for codecs
+}}<!-- [[Category:multimedia compression formats]] --><noinclude>
+
+{{mergefrom|Compression Software Implementations}}
+
+[[Category:Computing templates|{{PAGENAME}}]]
+
+[[cs:Šablona:Kompresní formáty]]
+[[da:Skabelon:Mediekompression]]
+[[ja:Template:圧縮フォーマット]]
+[[ru:Шаблон:Форматы медиаданных]]
+[[zh:Template:多媒体压缩格式]]
+</noinclude>
