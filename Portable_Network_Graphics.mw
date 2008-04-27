@@ -1,0 +1,120 @@
+{{Infobox file format
+| name         = Portable Network Graphics
+| icon         = PNG
+| screenshot   = [[Image:PNG transparency demonstration 1.png]] <br /> [[Image:PNG transparency demonstration 2.png]]
+| caption      = A PNG image with an 8-bit transparency channel (top). The same image is overlaid onto a checkered background (bottom), typically used with [[graphics software]] to denote the transparency.
+| extension    = .png
+| mime         = image/png
+| typecode     = <code>PNGf</code>
+| uniform type = public.png
+| genre        = [[Lossless data compression|lossless]] [[Raster graphics|bitmap]] [[Graphics file format|image format]]
+| containerfor = 
+| containedby  = 
+| owner        = PNG Development Group (donated to [[W3C]])
+| extendedfrom = 
+| extendedto   = [[Animated Portable Network Graphics|APNG]], [[JPEG Network Graphics|JNG]] and [[Multiple-image Network Graphics|MNG]]
+| standard     = [[International Organization for Standardization|ISO]] [[List of ISO standards|15948]], [[Internet Engineering Task Force|IETF]] RFC 2083
+}}
+
+Ing '''Portable Network Graphics''' ('''PNG''') metung yang [[Raster graphics|bitmapped]] [[Graphics file format|image format]] a gagamit [[lossless data compression]]. Melalang ya iti ba yang samasan ampong alilan ing format a [[Graphics Interchange Format|GIF]], antimong image-format o ayus-larawan a e mangailangan lisensiang [[patent]]. Ing PNG agkas de antimong 
+P-N-G ampong ''ping''.<ref>[http://www.libpng.org/pub/png/#history History of PNG]</ref> Ing 
+PNG [[Acronym and initialism|initialism]] maliari yang ituring a optionally [[recursive acronym|recursive]], a e opisial  a mangabaldugang “PNG's Not GIF” (Ing PNG e ya GIF).<ref>[http://web-building.crispen.org/formats/png.html GIF, JPEG or PNG?]</ref>
+
+Susuportan no ning PNG deng palette-based a kuleng (palettes a 24-bit [[RGB color model|RGB]]), [[greyscale]] o larawan a RGB. Megawa ya ing PNG para king pamanalis kareng larawan king Internet at e king propesional a graphics, ania e no susuportan deng aliwang [[color space]] (antimo ing [[CMYK color model|CMYK]]).
+
+Keraklan, gagamitan de reng simpan (file) a PNG ing file-extension a "<code>PNG</code>" o "<code>png</code>" at mibie ya karela ing [[MIME]] media type "<code>image/png</code>" (me-apruba ya kanitang [[Octubri 14]] [[1996]]).
+
+== Pikuanan ==
+{{reflist}}
+
+== Lon la murin deti ==
+* [[Comparison of graphics file formats]]
+* [[Digital image editing]]
+* [[Computer Graphics]], including:
+** [[Comparison of layout engines (graphics)]]
+* Related [[graphics file formats]]
+** [[JPEG Network Graphics]] (JNG)
+** [[Multiple-image Network Graphics|MNG]] (MNG)
+** [[Graphics Interchange Format|GIF]]
+** [[XPM (image format)|XPM]] for portable icons
+** [[Animated Portable Network Graphics|APNG]] Animated PNG
+* [[Image file formats]]
+* [[libpng]]
+
+== Suglung palual ==
+=== libpng.org ===
+* [http://www.libpng.org/pub/png/ PNG Home Site]
+* [http://www.libpng.org/pub/png/libpng.html libpng Home Page]
+* [http://www.libpng.org/pub/png/pngapbr.html PNG-supporting browsers] – Overview of PNG status in different [[web browser]]s. First Windows IE support in 4.0b1; Netscape 4.04 [http://oregon.usgs.gov/png_images.html].
+* [http://www.libpng.org/pub/png/slashpng-1999.html ''The Story of PNG'' by  Greg Roelofs]
+* [http://www.libpng.org/pub/png/book/ ''PNG: The Definitive Guide (Online Version)'' by Greg Roelofs]
+
+=== W3C ===
+* [http://www.w3.org/TR/2003/REC-PNG-20031110/ PNG Specification (Second Edition), W3C Recommendation [[10 November]] [[2003]]]
+* [http://www.w3.org/Graphics/PNG/Inline-img.html Test inline PNG images]
+
+=== Aliwa pa ===
+* [http://www.mywebsite.force9.co.uk/png/ An introduction to the PNG image format] – Including test images, file editing tips, and reviews of PNG image tools for Windows.
+* RFC 2083
+* [http://entropymine.com/jason/testbed/pngtrans/ PNG transparency test]
+* [http://mrclay.org/web_design/lonely_planet/ "The Lonely Planet"] – PNG-based animation for web browsers
+* [http://hsivonen.iki.fi/png-gamma/ More information about PNG color correction]
+* [http://php.net/gd The GD-library to generate dynamic PNG-files with PHP]
+* [http://www.cs.toronto.edu/~cosmin/pngtech/optipng.html A guide to PNG optimization]
+<!--*[http://en.wikibooks.org/wiki/How_to_future_proof_electronic_information#Images_.26_Photos_.28Raster_Graphics.29 PNG as a future proof format] Broken link, even without the anchor, maybe the title is wrong?-->
+* [http://schaik.com/png/adam7.html PNG Adam7 interlacing]
+
+=== E pamibage (incompatibility) king Internet Explorer ===
+* [http://support.microsoft.com/default.aspx?scid=kb;en-us;294714 PNG Files Do Not Show Transparency in Internet Explorer]
+* [http://homepage.ntlworld.com/bobosola/ The PNG problem in Windows Internet Explorer]
+* [http://www.nrkn.com/alpha/ png transparency in IE]
+* [http://www.bazon.net/mishoo/articles.epl?art_id=430 PieNG — PNG support in MSIE/Win]
+* [http://koivi.com/ie-png-transparency/ PNG-24 Alpha Transparency With Microsoft Internet Explorer or better (MSIE 5.5+)] (PHP fix)
+* [http://blog.psyrendust.com/pngpong/ PNGPong, an open source solution to display transparent PNGs in IE, Firefox, and Safari without the use of filters, PHP, or complicated Javascript and CSS]
+
+{{Compression Formats}}
+
+[[Category:Graphics file formats]]
+[[Category:Graphics standards]]
+[[Category:ISO standards]]
+[[Category:World Wide Web Consortium standards]]
+[[Category:Open formats]]
+
+[[als:PNG]]
+[[ca:PNG]]
+[[cs:Portable Network Graphics]]
+[[da:Portable Network Graphics]]
+[[de:Portable Network Graphics]]
+[[en:Portable Network Graphics]]
+[[eo:PNG]]
+[[es:Portable Network Graphics]]
+[[eu:PNG]]
+[[fa:پی‌ان‌جی]]
+[[fi:PNG]]
+[[fr:Portable Network Graphics]]
+[[gl:Portable Network Graphics]]
+[[he:PNG]]
+[[hr:PNG]]
+[[hu:PNG]]
+[[id:PNG]]
+[[is:PNG]]
+[[it:Portable Network Graphics]]
+[[ja:Portable Network Graphics]]
+[[ka:PNG]]
+[[ko:PNG]]
+[[ksh:Portable network graphics]]
+[[lt:PNG]]
+[[nl:Portable Network Graphics]]
+[[no:Portable Network Graphics]]
+[[pl:PNG]]
+[[pt:PNG]]
+[[ru:Portable Network Graphics]]
+[[sk:Portable Network Graphics]]
+[[sl:PNG]]
+[[sr:PNG]]
+[[sv:PNG]]
+[[th:PNG]]
+[[tr:PNG]]
+[[uk:PNG]]
+[[vi:PNG]]
+[[zh:PNG]]
