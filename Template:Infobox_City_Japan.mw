@@ -1,5 +1,5 @@
-{| class="toccolours vcard" border="0" cellpadding="1" style="margin: 0 0 1em 1em; width: 20em; font-size: 90%; float: right; clear: right;"
-|+ style="margin-left: inherit; | <font style="font-size:125%" class="fn org">'''{{{Name}}}'''</font>{{#if: {{{JapaneseName|}}}| <br/><font class="nickname" style="font-size:125%"> '''{{{JapaneseName}}}'''</font> }}
+{| class="infobox vcard" style="width: 20em; "
+|+ style="margin-left: inherit; | <b style="font-size:125%" class="fn org">{{{Name}}}</b>{{#if: {{{JapaneseName|}}}| <br/><b class="nickname" style="font-size:125%"> {{{JapaneseName}}}</b> }}
 |-
 {{#if: {{{MapImage<includeonly>|</includeonly>}}}{{{CityMap|}}} |
 {{!}} align="center" colspan="2" style="font-size: 0.9em;" {{!}} [[Image:{{{MapImage<includeonly>|</includeonly>}}}{{{CityMap|}}}|235px|Karinan ning {{{Name}}}]] <br /> {{{Name}}}'s karinan king {{{Prefecture}}}, [[Japan]]. }}
