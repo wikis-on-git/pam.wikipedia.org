@@ -1,0 +1,66 @@
+<table class="navbox {{#ifeq:{{{state|}}}|plain||collapsible {{{state|autocollapse}}}}} nowraplinks" style="margin:auto; {{#ifeq:{{{nogroups|}}}|true|{{#if:{{{l1|}}}|{{#if:{{{l2|}}}|background:white;}}}}|background:white;}} {{{bodystyle|}}}"><!--
+
+---Titlebar---
+--><tr><th colspan="{{{span|1}}}" style="text-align:center;width:100%;{{{titlestyle|}}}"><!--
+-->{{#ifeq:{{{navbar|}}}|plain||<div style="float:left; width:6em; text-align:left;">{{Tnavbar| {{{name<noinclude>|Navbox</noinclude>}}}|fontstyle={{{titlestyle|}}};border:none;|mini=1}}</div>}}<span style="font-size:110%;">{{{title}}}</span></th></tr><!--
+
+---Above (optional)---
+-->{{#if:{{{above|}}}|<tr><td style="text-align:center;{{{abovestyle|}}}" colspan="{{{span|1}}}">{{{above|}}}</td></tr>}}<!--
+
+---First group and image(s)---
+-->{{#if:{{{l1|}}}|<tr><!--
+
+-->{{#if:{{{imageleft|}}}|{{#ifeq:{{{nogroups|}}}|true|<td rowspan="{{{imagespan|}}}" style="vertical-align:middle; padding-right:7px; width:0%;">{{{imageleft}}}</td>}}}}<!--
+
+-->{{#if:{{{g1|}}}|<th style="{{{gs|}}}">{{{g1|}}}</th>}}<td colspan="{{#if:{{{g1|}}}|1|{{#ifeq:{{{nogroups|}}}|true|1|2}}}}" style="text-align:{{#if:{{{g1|}}}|left|center}};{{{os|}}}">{{{l1|}}}</td><!--
+
+-->{{#if:{{{image|}}}|<td rowspan="{{{imagespan|}}}" style="vertical-align:middle; padding-left:7px; width:0%;">{{{image}}}</td>}}<!--
+
+--></tr>}}<!--
+
+---Remaining groups---
+-->{{#if:{{{l2|}}}|<tr>{{#if:{{{g2|}}}|<th style="{{{gs|}}}">{{{g2|}}}</th>}}<td colspan="{{#if:{{{g2|}}}|1|{{#ifeq:{{{nogroups|}}}|true|1|2}}}}" style="text-align:{{#if:{{{g2|}}}|left|center}};{{{es|}}}">{{{l2|}}}</td></tr>}}<!--
+
+-->{{#if:{{{l3|}}}|<tr>{{#if:{{{g3|}}}|<th style="{{{gs|}}}">{{{g3|}}}</th>}}<td colspan="{{#if:{{{g3|}}}|1|{{#ifeq:{{{nogroups|}}}|true|1|2}}}}" style="text-align:{{#if:{{{g3|}}}|left|center}};{{{os|}}}">{{{l3|}}}</td></tr>}}<!--
+
+-->{{#if:{{{l4|}}}|<tr>{{#if:{{{g4|}}}|<th style="{{{gs|}}}">{{{g4|}}}</th>}}<td colspan="{{#if:{{{g4|}}}|1|{{#ifeq:{{{nogroups|}}}|true|1|2}}}}" style="text-align:{{#if:{{{g4|}}}|left|center}};{{{es|}}}">{{{l4|}}}</td></tr>}}<!--
+
+-->{{#if:{{{l5|}}}|<tr>{{#if:{{{g5|}}}|<th style="{{{gs|}}}">{{{g5|}}}</th>}}<td colspan="{{#if:{{{g5|}}}|1|{{#ifeq:{{{nogroups|}}}|true|1|2}}}}" style="text-align:{{#if:{{{g5|}}}|left|center}};{{{os|}}}">{{{l5|}}}</td></tr>}}<!--
+
+-->{{#if:{{{l6|}}}|<tr>{{#if:{{{g6|}}}|<th style="{{{gs|}}}">{{{g6|}}}</th>}}<td colspan="{{#if:{{{g6|}}}|1|{{#ifeq:{{{nogroups|}}}|true|1|2}}}}" style="text-align:{{#if:{{{g6|}}}|left|center}};{{{es|}}}">{{{l6|}}}</td></tr>}}<!--
+
+-->{{#if:{{{l7|}}}|<tr>{{#if:{{{g7|}}}|<th style="{{{gs|}}}">{{{g7|}}}</th>}}<td colspan="{{#if:{{{g7|}}}|1|{{#ifeq:{{{nogroups|}}}|true|1|2}}}}" style="text-align:{{#if:{{{g7|}}}|left|center}};{{{os|}}}">{{{l7|}}}</td></tr>}}<!--
+
+-->{{#if:{{{l8|}}}|<tr>{{#if:{{{g8|}}}|<th style="{{{gs|}}}">{{{g8|}}}</th>}}<td colspan="{{#if:{{{g8|}}}|1|{{#ifeq:{{{nogroups|}}}|true|1|2}}}}" style="text-align:{{#if:{{{g8|}}}|left|center}};{{{es|}}}">{{{l8|}}}</td></tr>}}<!--
+
+-->{{#if:{{{l9|}}}|<tr>{{#if:{{{g9|}}}|<th style="{{{gs|}}}">{{{g9|}}}</th>}}<td colspan="{{#if:{{{g9|}}}|1|{{#ifeq:{{{nogroups|}}}|true|1|2}}}}" style="text-align:{{#if:{{{g9|}}}|left|center}};{{{os|}}}">{{{l9|}}}</td></tr>}}<!--
+
+-->{{#if:{{{l10|}}}|<tr>{{#if:{{{g10|}}}|<th style="{{{gs|}}}">{{{g10|}}}</th>}}<td colspan="{{#if:{{{g10|}}}|1|{{#ifeq:{{{nogroups|}}}|true|1|2}}}}" style="text-align:{{#if:{{{g10|}}}|left|center}};{{{es|}}}">{{{l10|}}}</td></tr>}}<!--
+
+-->{{#if:{{{l11|}}}|<tr>{{#if:{{{g11|}}}|<th style="{{{gs|}}}">{{{g11|}}}</th>}}<td colspan="{{#if:{{{g11|}}}|1|{{#ifeq:{{{nogroups|}}}|true|1|2}}}}" style="text-align:{{#if:{{{g11|}}}|left|center}};{{{os|}}}">{{{l11|}}}</td></tr>}}<!--
+
+-->{{#if:{{{l12|}}}|<tr>{{#if:{{{g12|}}}|<th style="{{{gs|}}}">{{{g12|}}}</th>}}<td colspan="{{#if:{{{g12|}}}|1|{{#ifeq:{{{nogroups|}}}|true|1|2}}}}" style="text-align:{{#if:{{{g12|}}}|left|center}};{{{es|}}}">{{{l12|}}}</td></tr>}}<!--
+
+-->{{#if:{{{l13|}}}|<tr>{{#if:{{{g13|}}}|<th style="{{{gs|}}}">{{{g13|}}}</th>}}<td colspan="{{#if:{{{g13|}}}|1|{{#ifeq:{{{nogroups|}}}|true|1|2}}}}" style="text-align:{{#if:{{{g13|}}}|left|center}};{{{os|}}}">{{{l13|}}}</td></tr>}}<!--
+
+-->{{#if:{{{l14|}}}|<tr>{{#if:{{{g14|}}}|<th style="{{{gs|}}}">{{{g14|}}}</th>}}<td colspan="{{#if:{{{g14|}}}|1|{{#ifeq:{{{nogroups|}}}|true|1|2}}}}" style="text-align:{{#if:{{{g14|}}}|left|center}};{{{es|}}}">{{{l14|}}}</td></tr>}}<!--
+
+-->{{#if:{{{l15|}}}|<tr>{{#if:{{{g15|}}}|<th style="{{{gs|}}}">{{{g15|}}}</th>}}<td colspan="{{#if:{{{g15|}}}|1|{{#ifeq:{{{nogroups|}}}|true|1|2}}}}" style="text-align:{{#if:{{{g15|}}}|left|center}};{{{os|}}}">{{{l15|}}}</td></tr>}}<!--
+
+-->{{#if:{{{l16|}}}|<tr>{{#if:{{{g16|}}}|<th style="{{{gs|}}}">{{{g16|}}}</th>}}<td colspan="{{#if:{{{g16|}}}|1|{{#ifeq:{{{nogroups|}}}|true|1|2}}}}" style="text-align:{{#if:{{{g16|}}}|left|center}};{{{es|}}}">{{{l16|}}}</td></tr>}}<!--
+
+-->{{#if:{{{l17|}}}|<tr>{{#if:{{{g17|}}}|<th style="{{{gs|}}}">{{{g17|}}}</th>}}<td colspan="{{#if:{{{g17|}}}|1|{{#ifeq:{{{nogroups|}}}|true|1|2}}}}" style="text-align:{{#if:{{{g17|}}}|left|center}};{{{os|}}}">{{{l17|}}}</td></tr>}}<!--
+
+-->{{#if:{{{l18|}}}|<tr>{{#if:{{{g18|}}}|<th style="{{{gs|}}}">{{{g18|}}}</th>}}<td colspan="{{#if:{{{g18|}}}|1|{{#ifeq:{{{nogroups|}}}|true|1|2}}}}" style="text-align:{{#if:{{{g18|}}}|left|center}};{{{es|}}}">{{{l18|}}}</td></tr>}}<!--
+
+-->{{#if:{{{l19|}}}|<tr>{{#if:{{{g19|}}}|<th style="{{{gs|}}}">{{{g19|}}}</th>}}<td colspan="{{#if:{{{g19|}}}|1|{{#ifeq:{{{nogroups|}}}|true|1|2}}}}" style="text-align:{{#if:{{{g19|}}}|left|center}};{{{os|}}}">{{{l19|}}}</td></tr>}}<!--
+
+-->{{#if:{{{l20|}}}|<tr>{{#if:{{{g20|}}}|<th style="{{{gs|}}}">{{{g20|}}}</th>}}<td colspan="{{#if:{{{g20|}}}|1|{{#ifeq:{{{nogroups|}}}|true|1|2}}}}" style="text-align:{{#if:{{{g20|}}}|left|center}};{{{es|}}}">{{{l20|}}}</td></tr>}}<!--
+
+---Below (optional)---
+-->{{#if:{{{below|}}}|<tr><td style="text-align:center;{{{belowstyle|}}}" colspan="{{{span|1}}}">{{{below|}}}</td></tr>}}<!--
+
+--></table><noinclude>
+{{pp-template|small=yes}}
+{{template doc}}
+</noinclude>
