@@ -1,0 +1,478 @@
+{{documentation subpage}}
+<includeonly>{{Intricate template}}</includeonly><!--
+ -->
+This template allows a [[Wikipedia:Navigational templates|navigational template]] to be set up relatively quickly by supplying it one or more lists of links. It is similar to {{Tl|Navbox generic}} in appearance, with some default styles that should work for most navigational templates. It is not recommended that one modifies the default styles but it is possible if one wishes to do so.
+
+== Usage ==
+Please remove the parameters that are left blank.
+
+<pre>{{Navbox
+|name    = {{subst:PAGENAME}}
+|state   = 
+|title   = 
+|image   = 
+|above   = 
+
+|group1  = 
+|list1   = 
+|group2  = 
+|list2   = 
+ ...
+|group20 = 
+|list20  = 
+
+|below   = 
+}}</pre>
+
+==Parameter list==
+{| align=right |width=245px
+|-
+| &nbsp; <!--left margin of table-->
+|
+{{Navbox
+|name = Navbox/doc
+|state = uncollapsed
+|titlestyle = background:#DDDDDD; border-style:inset; border-width:2px;
+|groupstyle = background:#EEEEF0; border-style:inset; border-width:2px;
+|liststyle = border-style:inset; border-width:2px;
+|abovestyle = background:#EEEEF0; border-style:inset; border-width:2px;
+|belowstyle = background:#EEEEF0; border-style:inset; border-width:2px;
+|image = {{{image}}}
+|title = {{{title}}}
+|above = {{{above}}}
+|group1 = {{{group1}}}
+|list1 = {{{list1}}}
+|group2 = {{{group2}}}
+|list2 = {{{list2}}}
+|list3 = {{{list3}}} ''without {{{group3}}}''
+|group4 = {{{group4}}}
+|list4 = {{{list4}}}
+|below = {{{below}}}<br/>See alternate navbox formats under: [[#Layout of table|''Layout of table'']]
+}}
+|}
+The navbox uses lowercase parameter names, as shown in the box (''at right'').  The mandatory ''name'' and ''title'' will create a one-line box if other parameters are omitted.
+<br/>
+
+Images and groups have restrictions explained below under ''[[#Parameter descriptions|Parameter descriptions]]'', where another parameter (''"imageleft"'' ) can replace all group-cells.
+
+Notice "group1" (etc.) is optional, as are sections named "above/below".
+{{-}}
+The concise list of parameters is as follows:
+
+:<code>name -</code> the name of the template.
+:<code>title -</code> text in the title bar, such as: <nowiki>[[Widget stuff]]</nowiki>.
+:<code>state - autocollapse, show, collapsed</code>, or <code>plain</code> (the status of box expansion,
+:::where "autocollapse" hides stacked navboxes; "plain" removes the "[hide]" button).
+
+:<code>titlestyle - </code>a CSS style for the title-bar, such as: <code>background:gray;</code>
+:<code>groupstyle - </code>a CSS style for the group-cells, such as: <code>background:lightgray;</code>
+
+:<code>image - </code>an optional right-side image (coded as the whole image tag: <nowiki>[[Image:XX.jpg|90px]]</nowiki> ).
+:<code>imageleft - </code>an optional left-side image, replacing group-cells (coded as the whole image tag).
+
+:<code>above - </code>text to appear above the group/list section (could be a list of overall wikilinks).
+
+:<code>group<sub>n</sub> - </code>the left-side text before list-n (if group-n omitted, list-n starts at left of box).
+:<code>list<sub>n</sub> - </code>text listing wikilinks, often separated by middot templates, such as: [<font/>[A]]<code>{<font/>{·}}</code> [<font/>[B]]
+:<code>below - </code>optional text to appear below the group/list section.
+:<code>navbar - </code>title-bar nav link (default: <code>Tnavbar</code> for <small>v • d • e</small> links; "navbar=plain" will omit, but should only be used when absolutely necessary).
+
+Further details, and complex restrictions, are explained below under section ''[[#Parameter descriptions|Parameter descriptions]]''. See some alternate navbox formats under: [[#Layout of table|''Layout of table'']].
+
+==Parameter descriptions==
+===Mandatory===
+:; ''name''
+:: The name of the template, which is needed for the "v{{·}} d{{·}} e" ("view{{·}} discuss{{·}} edit") links to work properly on all pages where the template is used. You can enter <code><nowiki>{{subst:PAGENAME}}</nowiki></code> for this value as a shortcut.
+
+:; ''title''
+:: Text that appears centered in the top row of the table. It is usually the template's topic, i.e. a succinct description of the body contents. This should be a single line, but if a second line is needed, use <code><nowiki>{{-}}</nowiki></code> to ensure proper centering.
+
+: '''''list<sub>n</sub>''''' ('''''body''''' may be used in place of '''''list1''''')  
+::  (i.e. ''list1'', ''list2'', etc.) The body of the template, usually a list of links. Format is inline, although the text can be entered on separate lines if the entire list is enclosed within <code><nowiki><div> </div></nowiki></code>.  At least one ''list'' parameter is required; each additional ''list'' is displayed in a separate row of the table. Each ''list<sub>n</sub>'' may be preceded by a corresponding ''group<sub>n</sub>'' parameter, if provided (see below).
+
+===Optional===
+
+====Cells====
+:; ''group<sub>n</sub>''
+:: (i.e. ''group1'', ''group2'', etc.) If specified, text appears in a header cell displayed to the left of ''list<sub>n</sub>''. If omitted, ''list<sub>n</sub>'' uses the full width of the table.
+
+:; ''image''
+:: An image to be displayed in a cell below the title and to the right of the body (the groups/lists). For the image to display properly, the ''list1'' parameter must be specified. The ''image'' parameter accepts standard wikicode for displaying an image, i.e.
+::: <code><nowiki>[[Image:Example.jpg|100px]]</nowiki></code>
+
+:; ''imageleft''
+:: An image to be displayed in a cell below the title and to the left of the body (lists). For the image to display properly, the ''list1'' parameter must be specified and no groups can be specified. The ''imageleft'' parameter accepts standard wikicode for displaying an image, i.e.
+::: <code><nowiki>[[Image:Example.jpg|100px]]</nowiki></code>
+
+:; ''above''
+:: A full-width cell displayed between the titlebar and first group/list, i.e. ''above'' the template's body (groups, lists and image). In a template without an image, ''above'' behaves in the same way as the ''list1'' parameter without the ''group1'' parameter.
+
+:; ''below''
+:: A full-width cell displayed ''below'' the template's body (groups, lists and image). In a template without an image, ''below'' behaves in the same way as the template's final ''list<sub>n</sub>'' parameter without a ''group<sub>n</sub>'' parameter. For an example of the ''below'' parameter in use, see {{tl|Lists of the provinces and territories of Canada}}.
+
+====Styles====
+Styles are generally not recommended as to maintain consistency among templates and pages in Wikipedia.  However, the option to modify styles is given.
+
+:; ''titlestyle''
+:: [[Cascading Style Sheets|CSS]] styles to apply to ''title'', most often the titlebar's background color:
+::: <code><nowiki>titlestyle = background:</nowiki>''#nnnnnn'';</code>
+::: <code><nowiki>titlestyle = background:</nowiki>''name'';</code>
+
+:; ''bodystyle''
+:: Specifies [[Cascading Style Sheets|CSS]] styles to apply to the template body. The shorter name ''style'' may be used when no other style parameters are specified. This option should be used sparingly as it can lead to visual inconsistencies. Examples:
+::: <code>background:#''nnnnnn'';</code>
+::: <code>width:''N''&nbsp;[em/%/px or width:auto];</code>
+::: <code>float:[''left/right/none''];</code>
+::: <code>clear:[''right/left/both/none''];</code>
+
+:; ''groupstyle''
+:: CSS styles to apply to the ''groupN'' cells. This option overrides any styles that are applied to the entire table. Examples:
+::: <code>background:#''nnnnnn'';</code>
+::: <code>text-align:[''left/center/right''];</code>
+::: <code>vertical-align:[''top/middle/bottom''];</code>
+
+:; ''liststyle''
+:: CSS styles to apply to all lists. Overruled by the ''oddstyle'' and ''evenstyle'' parameters (if specified) below.
+
+:; ''oddstyle''
+:; ''evenstyle''
+::Applies to odd/even list numbers.  Overrules styles defined by ''liststyle''.  The default behavior is to add striped colors (white and gray) to odd/even rows, respectively, in order to improve readability.  These should not be changed except in extraordinary circumstances.
+
+:; ''abovestyle''
+:; ''belowstyle''
+:: CSS styles to apply to the top cell (specified via the ''above'' parameter) and bottom cell (specified via the ''below'' parameter). Typically used to set background color or text alignment:
+::: <code>background:#''nnnnnn'';</code>
+::: <code>text-align:[''left/center/right''];</code>
+
+===== Default styles =====
+
+The style settings listed here are those that editors using the navbox change most often. The other more complex style settings were left out of this list to keep it simple.
+
+:<code>titlestyle   = background:#ccccff;</code>
+:<code>bodystyle    = background:white; width:100%; vertical-align:middle;</code>
+:<code>abovestyle   = background:#ddddff; text-align:center;</code>
+:<code>belowstyle   = background:#ddddff; text-align:center;</code>
+:<code>groupstyle   = background:#ddddff; text-align:right;</code>
+:<code>liststyle    = background:transparent; text-align:left/center;</code>
+:<code>oddstyle     = background:transparent;</code>
+:<code>evenstyle    = background:#f7f7f7;</code>
+
+Since ''liststyle'' and ''oddstyle'' are transparent odd lists have the color of the ''bodystyle'', which defaults to white. A list has <code>text-align:left;</code> if it has a group, if not it has <code>text-align:center;</code>. Since only ''bodystyle'' has a vertical-align all the others inherit its <code>vertical-align:middle;</code>.
+
+====Other====
+: '''''state''''' <code>autocollapse, show, collapsed</code> <small>or</small> <code>plain</code>
+:: Defaults to <code>autocollapse</code>. A navbox with <code>autocollapse</code> will start out collapsed if there are two or more tables on the same page that use other collapsible tables. Otherwise, the navbox will be expanded. For the technically minded, see [[MediaWiki:Common.js]].
+:: If set to <code>collapsed</code>, the navbox will always start out in a collapsed state.
+:: If set to <code>plain</code>, the navbox will always be expanded with no [hide] link on the right.
+:: If set to blank or anything other than <code>autocollapse</code>, <code>collapsed</code> or <code>plain</code> (such as "show"), the navbox will always start out in an expanded state, but have the "hide" button.
+
+: To show the box when standalone (non-included) but then auto-hide contents when in an article, put "show" inside &lt;noinclude> tags:
+:: <code>state = </code><nowiki><noinclude>show</noinclude><includeonly>autocollapse</includeonly></nowiki>
+:: That double setting will force the box visible when standalone (even when followed by other boxes), displaying "[hide]" but then auto-collapse the box when stacked inside an article.
+
+: Often times, editors will want a default initial state for a nav box, which may be overridden in an article. Here is the trick to do this:
+
+::In your intermediate template, create a parameter also named "state" as a pass-through like this:
+::<tt><nowiki>| state = {{{state<includeonly>|your_desired_initial_state</includeonly>}}}</nowiki></tt>
+
+::Example: {{tl|peso}} with autocollapse as the default initial state. [[Bolivian peso]] transcludes it and has only one nav box. So the peso nav box shows. [[Chilean peso]] has two nav boxes. So the peso nav box collapses.
+
+::Example: {{tl|Historical currencies of Hungary}} with expanded as the default initial state. All transcluding articles shows the content by default, unless there were an hypothetical article that specifies state = collapsed when transcluding.
+
+::The <nowiki><includeonly>|</nowiki> will make the template expanded when viewing the template page by itself.
+
+:; ''navbar''
+:: Defaults to <code>Tnavbar</code>. If set to <code>plain</code>, the <small>v • d • e</small> links on the left side of the titlebar will not be displayed. Currently, however, the title will also no longer be centered. See [[#Title centering]] below for a workaround.
+
+== Layout of table ==
+Table generated by {{tl|Navbox}} '''without''' ''image'', ''above'' and ''below'' parameters (borders added for illustration only):
+{{Navbox
+|name = Navbox/doc
+|state = uncollapsed
+|groupstyle = border-style:inset; border-width:2px;
+|liststyle = border-style:inset; border-width:2px;
+|titlestyle = border-style:inset; border-width:2px;
+|title = {{{title}}}
+|group1 = {{{group1}}}
+|list1 = {{{list1}}}
+|group2 = {{{group2}}}
+|list2 = {{{list2}}}
+|list3 = {{{list3}}} ''without {{{group3}}}''
+|group4 = {{{group4}}}
+|list4 = {{{list4}}}
+}}
+
+
+Table generated by {{tl|Navbox}} '''with''' ''image'', ''above'' and ''below'' parameters (borders added for illustration only):
+{{Navbox
+|name = Navbox/doc
+|state = uncollapsed
+|groupstyle = border-style:inset; border-width:2px;
+|liststyle = border-style:inset; border-width:2px;
+|titlestyle = border-style:inset; border-width:2px;
+|abovestyle = border-style:inset; border-width:2px;
+|belowstyle = border-style:inset; border-width:2px;
+|image = {{{image}}}
+|title = {{{title}}}
+|above = {{{above}}}
+|group1 = {{{group1}}}
+|list1 = {{{list1}}}
+|group2 = {{{group2}}}
+|list2 = {{{list2}}}
+|list3 = {{{list3}}} ''without {{{group3}}}''
+|group4 = {{{group4}}}
+|list4 = {{{list4}}}
+|below = {{{below}}}
+}}
+
+
+Table generated by {{tl|Navbox}} '''with''' ''image'', ''imageleft'', ''lists'', and '''without''' ''groups'', ''above'', ''below'':
+{{Navbox
+|name = Navbox/doc
+|state = uncollapsed
+|liststyle = border-style:inset; border-width:2px;
+|titlestyle = border-style:inset; border-width:2px;
+|image = {{{image}}}
+|imageleft = {{{imageleft}}}
+|title = {{{title}}}
+|list1 = {{{list1}}}
+|list2 = {{{list2}}}
+|list3 = {{{list3}}}
+|list4 = {{{list4}}}
+}}
+
+==Title centering==
+If the either the navbar (the v • d • e links) or the [show]/[hide] are disabled, then the title is not centered:
+
+{{Navbox
+|state=
+|name=Template talk:Navbox
+|title=1234567890123456789012345678901234567890
+|list1=Normal navbox
+}}
+{{navbox
+|state=plain
+|name=Template talk:Navbox
+|title=1234567890123456789012345678901234567890
+|list1=No '''[show]/[hide]''' link
+}}
+{{navbox
+|navbar=plain
+|state=
+|name=Template talk:Navbox
+|title=1234567890123456789012345678901234567890
+|list1=No navbar
+}}
+
+
+This can be resolved by padding the title with {{tlx|pad|5.5em}} on the right or left:
+
+{{navbox
+|state=plain
+|name=Template talk:Navbox
+|title=1234567890123456789012345678901234567890{{pad|5.5em}}
+|list1=Padded right
+}}
+{{navbox
+|navbar=plain
+|state=
+|name=Template talk:Navbox
+|title={{pad|5.5em}}1234567890123456789012345678901234567890
+|list1=Padded left
+}}
+
+
+Note that omitting both the [show]/[hide] link and the navbar has no effect on the title centering, as follows:
+
+{{navbox
+|state=
+|name=Template talk:Navbox
+|title=1234567890123456789012345678901234567890
+|list1=Normal navbox
+}}
+{{navbox
+|state=plain
+|navbar=plain
+|name=Template talk:Navbox
+|title=1234567890123456789012345678901234567890
+|list1=No '''[show]/[hide]''' link or navbar
+}}
+
+== Examples ==
+<!--Please don't encourage folk to use <div>s within Navboxes as (unless handled carefully) they can negate liststyles/groupstyles/etc settings.-->
+
+=== No image ===
+<pre>
+{{Navbox
+|name  = Navbox/doc
+|title = [[Multimedia Super Corridor|MSC (Multimedia Super Corridor) Malaysia]]{{-}}''without image''
+
+|group1 = Centre
+|list1  = [[Cyberjaya]]
+
+|group2 = Area
+|list2  = [[Klang Valley]]
+
+|group3 = Major landmarks
+|list3  = [[Petronas Twin Towers]]{{·}} [[Kuala Lumpur Tower]]{{·}} [[Kuala Lumpur Sentral]]{{·}} [[Technology Park Malaysia]]{{·}} [[Putrajaya]]{{·}} [[Cyberjaya]]{{·}} 
+[[Kuala Lumpur International Airport]]
+
+|group4 = Infrastructure
+|list4  = [[Express Rail Link]]{{·}} [[KL-KLIA Dedicated Expressway]]
+
+|group5 = Prime applications
+|list5  = [[EGovernment]]{{·}} [[MyKad]]  
+}}
+</pre>
+
+{{Navbox
+|name   = Navbox/doc
+|state  = uncollapsed
+|title  = [[Multimedia Super Corridor|MSC (Multimedia Super Corridor) Malaysia]]{{-}}''without image''
+|group1 = Centre
+|list1  = [[Cyberjaya]]
+|group2 = Area
+|list2  = [[Klang Valley]]
+|group3 = Major landmarks
+|list3  = [[Petronas Twin Towers]]{{·}} [[Kuala Lumpur Tower]]{{·}} [[Kuala Lumpur Sentral]]{{·}} [[Technology Park Malaysia]]{{·}} [[Putrajaya]]{{·}} [[Cyberjaya]]{{·}} [[Kuala Lumpur International Airport]]
+|group4 = Infrastructure
+|list4  = [[Express Rail Link]]{{·}} [[KL-KLIA Dedicated Expressway]]
+|group5 = Prime applications
+|list5  = [[EGovernment]]{{·}} [[MyKad]]  
+}}
+
+
+=== With image, without groups ===
+<pre>
+{{Navbox
+|name  = Navbox/doc
+|title = [[Multimedia Super Corridor|MSC (Multimedia Super Corridor) Malaysia]]
+|image = [[Image:Flag of Malaysia.svg|80px]]
+|list1 = [[Petronas Twin Towers]]{{·}} [[Kuala Lumpur Tower]]{{·}} [[Kuala Lumpur Sentral]]{{·}} [[Technology Park Malaysia]]{{·}} [[Putrajaya]]{{·}} [[Cyberjaya]]{{·}} [[Kuala Lumpur International Airport]]
+}}
+</pre>
+{{Navbox
+|name  = Navbox/doc
+|state = uncollapsed
+|title = [[Multimedia Super Corridor|MSC (Multimedia Super Corridor) Malaysia]]
+|image = [[Image:Flag of Malaysia.svg|80px]]
+|list1 = [[Petronas Twin Towers]]{{·}} [[Kuala Lumpur Tower]]{{·}} [[Kuala Lumpur Sentral]]{{·}} [[Technology Park Malaysia]]{{·}} [[Putrajaya]]{{·}} [[Cyberjaya]]{{·}} [[Kuala Lumpur International Airport]]
+}}
+
+
+=== With two images, without groups, multiple lists ===
+<pre>
+{{Navbox
+|name  = Navbox/doc
+|title = [[Multimedia Super Corridor|MSC (Multimedia Super Corridor) Malaysia]]
+|image = [[Image:Flag of Malaysia.svg|80px]]
+|imageleft = [[Image:Flag of Malaysia.svg|80px]]
+|list1 = [[Petronas Twin Towers]]{{·}} [[Kuala Lumpur Tower]]{{·}} [[Kuala Lumpur Sentral]]
+|list2 = [[Express Rail Link]]{{·}} [[KL-KLIA Dedicated Expressway]]
+|list3 = [[EGovernment]]{{·}} [[MyKad]]
+|list4 = [[Klang Valley]]
+}}
+</pre>
+
+{{Navbox
+|name  = Navbox/doc
+|state = uncollapsed
+|title = [[Multimedia Super Corridor|MSC (Multimedia Super Corridor) Malaysia]]
+|image = [[Image:Flag of Malaysia.svg|80px]]
+|imageleft = [[Image:Flag of Malaysia.svg|80px]]
+|list1 = [[Petronas Twin Towers]]{{·}} [[Kuala Lumpur Tower]]{{·}} [[Kuala Lumpur Sentral]]
+|list2 = [[Express Rail Link]]{{·}} [[KL-KLIA Dedicated Expressway]]
+|list3 = [[EGovernment]]{{·}} [[MyKad]]
+|list4 = [[Klang Valley]]
+}}
+
+
+=== With image, groups, above, below ===
+<pre>
+{{Navbox
+|name  = Navbox/doc
+|title = [[Multimedia Super Corridor|MSC (Multimedia Super Corridor) Malaysia]]
+|image = [[Image:Flag of Malaysia.svg|80px]]
+
+|above = Above text goes here
+
+|group1 = Centre
+|list1  = [[Cyberjaya]]
+
+|group2 = Area
+|list2  = [[Klang Valley]]
+
+|group3 = Major landmarks
+|list3  = [[Petronas Twin Towers]]{{·}} [[Kuala Lumpur Tower]]{{·}} [[Kuala Lumpur Sentral]]{{·}} [[Technology Park Malaysia]]{{·}} [[Putrajaya]]{{·}} [[Cyberjaya]]{{·}} [[Kuala Lumpur International Airport]]
+
+|group4 = Infrastructure
+|list4  = [[Express Rail Link]]{{·}} [[KL-KLIA Dedicated Expressway]]
+
+|group5 = Prime applications
+|list5  = [[EGovernment]]{{·}} [[MyKad]]
+
+|below  = Website: [http://www.msc.com.my/ www.msc.com.my]
+}}
+</pre>
+
+{{Navbox
+|name  = Navbox/doc
+|state = uncollapsed
+|title = [[Multimedia Super Corridor|MSC (Multimedia Super Corridor) Malaysia]]
+|image = [[Image:Flag of Malaysia.svg|80px]]
+|above = Above text goes here
+|group1 = Centre
+|list1  = [[Cyberjaya]]
+|group2 = Area
+|list2  = [[Klang Valley]]
+|group3 = Major landmarks
+|list3  = [[Petronas Twin Towers]]{{·}} [[Kuala Lumpur Tower]]{{·}} [[Kuala Lumpur Sentral]]{{·}} [[Technology Park Malaysia]]{{·}} [[Putrajaya]]{{·}} [[Cyberjaya]]{{·}} [[Kuala Lumpur International Airport]]
+|group4 = Infrastructure
+|list4  = [[Express Rail Link]]{{·}} [[KL-KLIA Dedicated Expressway]]
+|group5 = Prime applications
+|list5  = [[EGovernment]]{{·}} [[MyKad]]
+|below  = Website: [http://www.msc.com.my/ www.msc.com.my]
+}}
+
+== Technical details ==
+<!-- NOT FULLY IMPLEMENTED YET: see [[MediaWiki_talk:Common.css#Extra_CSS_for_Navboxes]]
+
+This template uses CSS classes for most of its looks, thus it is fully skinnable. -->
+
+Internally this meta template uses HTML markup instead of wiki markup for the table code. That is the usual way we make meta templates since wiki markup has several drawbacks. For instance it makes it harder to use [[m:Help:ParserFunctions|parser functions]] and special characters in parameters. 
+
+[[m:Help:ParserFunctions|Parser functions]] are used for calculations.
+
+For more technical details see the [[{{TALKPAGENAME}}|talk page]], the CSS classes in [[MediaWiki:common.css]] and the collapsible table used to hide the box in [[MediaWiki:common.js]]
+
+== See also ==
+
+* {{tl|Navbox generic subgroup}} &ndash; Allows the creation of subgroups within {{tl|Navbox}}.
+* {{tl|Navbox group}} &ndash; Allows groups past 20 in {{t1|Navbox}} and 12 in {{tl|Navbox generic subgroup}}.
+* {{t1|Navigation with collapsible groups}} &ndash; Another variation.
+* {{tn|·}} and {{tn|•}} &ndash; The dot and bullet commonly used to separate items in Navbox lists.
+* [[Wikipedia:Line break handling]] &ndash; The how-to guide about how to handle word wraps (line breaks) on Wikipedia, such as the wrapping of the link lists used in navboxes.
+* {{t1|Nobold}} &ndash; To display text at normal font-weight within a context where the default font-weight is bold, e.g. header cells in tables.
+
+
+{{Navigational templates}}
+
+<includeonly>
+<!--Categories-->
+[[Category:Navbox (navigational) templates| ]]
+[[Category:Wikipedia metatemplates|{{PAGENAME}}]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+
+<!--Other languages-->
+[[es:Plantilla:Navbox]]
+[[fa:الگو:جعبه گشتن]]
+[[fr:Modèle:Méta palette de navigation]]
+[[hi:साँचा:Navbox]]
+[[ja:Template:Navbox]]
+[[ko:틀:Navbox]]
+[[no:Mal:Navbox]]
+[[pt:Predefinição:Navbox]]
+[[sl:Predloga:Navpolje]]
+[[th:แม่แบบ:Navbox]]
+[[zh:Template:Navbox]]
+</includeonly>
