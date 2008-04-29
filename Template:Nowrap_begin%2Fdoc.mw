@@ -1,0 +1,134 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+__NOTOC__
+This is the {{tl|nowrap begin}} template.
+
+This template prevents word wraps (line breaks) in text and links with spaces in. It is designed to handle the really tricky wrapping cases where you need full control. For instance in very complex long link lists. It works similarly to {{tl|nowrap}} and {{tl|nowraplinks}}.
+
+This template takes no parameters, instead it works in pair with {{tl|nowrap end}}.
+
+=== Helper templates ===
+
+This template has a number of helper templates which allows you to tell the web browser exactly where line breaks may occur:
+
+'''Note!''' These helper templates may only be used in sections surrounded by {{tl|nowrap begin}} and {{tl|nowrap end}} or they may cause weird behaviour of your page.
+
+* {{tl|wrap}} - Marks where a wrap may occur.
+* {{tl|·wrap}} or {{tl|·w}} - Looks like this: " '''·''' ". For dotted lists. Renders a bold middot surrounded by spaces and then marks that a wrap may occur ''after'' the midddot.
+* {{tl|•wrap}} or {{tl|•w}} - Looks like this: " • ". For dotted lists that use small font and thus need a bigger dot. Renders a bullet surrounded by spaces and then marks that a wrap may occur ''after'' the bullet.
+* {{tl|–wrap}} or {{tl|–w}} - Looks like this: " &ndash; ". For dashed lists. Renders a ndash surrounded by spaces and then marks that a wrap may occur ''after'' the ndash.
+* {{tl|!wrap}} or {{tl|!w}} - Looks like this: " &#124; ". For pipe separated lists. Renders a pipe surrounded by spaces and then marks that a wrap may occur ''after'' the pipe. The pipe used is not a real pipe but the code <code>&amp;#124;</code> so should work within wiki tables etc.
+* {{tl|\wrap}} or {{tl|\w}} - Looks like this: " / ". For slash separated lists. Renders a slash surrounded by spaces and then marks that a wrap may occur ''after'' the slash. The "\" in the name leans the other way than the rendered slash "/" for wiki-technical reasons.
+
+=== Usage ===
+
+<pre><nowiki>
+{{nowrap begin}}
+
+[[Salt]] and{{wrap}} [[Pepper]] and{{wrap}} [[Curry]] 
+and{{wrap}} [[Saffron]].{{wrap}} 
+[[Salt]] and{{wrap}} [[Pepper]] and{{wrap}} [[Curry]] 
+and{{wrap}} [[Saffron]]. 
+
+{{nowrap end}}
+</nowiki></pre>
+
+It will render something like this:
+
+:[[Salt]] and [[Pepper]] and [[Curry]] and 
+:[[Saffron]]. [[Salt]] and [[Pepper]] and 
+:[[Curry]] and [[Saffron]]. 
+
+But it will ''not'' render like this:
+
+:[[Salt]] and [[Pepper]] and [[Curry]] 
+:and [[Saffron]]. [[Salt]] and [[Pepper]] 
+:and [[Curry]] and [[Saffron]]. 
+
+To make your code readable and easy to edit, you can put each wrappable "line" on its own line. And let's use some dots too. Like this:
+
+<pre><nowiki>
+{{nowrap begin}}
+
+[[Salt]] and [[Pepper]]{{·wrap}} 
+[[Pepper]] and [[Curry]]{{·wrap}} 
+[[Curry]] and [[Saffron]]{{·wrap}} 
+[[Saffron]] and [[Salt]]
+
+{{nowrap end}}
+</nowiki></pre>
+
+It will render something like this:
+
+:[[Salt]] and [[Pepper]] '''·''' [[Pepper]] and [[Curry]] '''·''' 
+:[[Curry]] and [[Saffron]] '''·''' [[Saffron]] and [[Salt]]
+
+But it will ''not'' render like this:
+
+:[[Salt]] and [[Pepper]] '''·''' [[Pepper]] 
+:and [[Curry]] '''·''' [[Curry]] and [[Saffron]] 
+:'''·''' [[Saffron]] and [[Salt]]
+
+=== Examples ===
+
+Here are the above examples in actual running code in a table. Try dragging the width of your web browser window so it becomes smaller and smaller and watch how the line wrapping behaves:
+
+{| class="wikitable"
+|-
+|
+{{nowrap begin}}
+[[Salt]] and{{wrap}} [[Pepper]] and{{wrap}} [[Curry]] 
+and{{wrap}} [[Saffron]].{{wrap}} 
+[[Salt]] and{{wrap}} [[Pepper]] and{{wrap}} [[Curry]] 
+and{{wrap}} [[Saffron]]. 
+{{nowrap end}}
+|
+{{nowrap begin}}
+[[Salt]] and [[Pepper]]{{·wrap}} 
+[[Pepper]] and [[Curry]]{{·wrap}} 
+[[Curry]] and [[Saffron]]{{·wrap}} 
+[[Saffron]] and [[Salt]]
+{{nowrap end}}
+|}
+
+An example demonstrating all the helper templates:
+
+{| class="wikitable"
+|-
+|
+{{nowrap begin}}
+[[Salt]]{{wrap}} [[Pepper]]{{wrap}} [[Curry]]{{·wrap}} [[Saffron]]{{·wrap}} [[Salt]]{{•wrap}} [[Pepper]]{{•wrap}} [[Curry]]{{–wrap}} [[Saffron]]{{–wrap}} [[Salt]]{{!wrap}} [[Pepper]]{{!wrap}} [[Curry]]{{\wrap}} [[Saffron]]{{\wrap}} [[Salt]]
+{{nowrap end}}
+|
+{{nowrap begin}}
+[[Salt]]{{wrap}} [[Pepper]]{{wrap}} [[Curry]]{{·wrap}} [[Saffron]]{{·wrap}} [[Salt]]{{•wrap}} [[Pepper]]{{•wrap}} [[Curry]]{{–wrap}} [[Saffron]]{{–wrap}} [[Salt]]{{!wrap}} [[Pepper]]{{!wrap}} [[Curry]]{{\wrap}} [[Saffron]]{{\wrap}} [[Salt]]
+{{nowrap end}}
+|}
+
+=== Technical details ===
+
+The actual code that does the job is this HTML+CSS code:
+
+:<code><nowiki><span style="white-space:nowrap;"> Text and links </span> <span style="white-space:nowrap;"> More text and links </span></nowiki></code>
+
+It means that wraps may only happen in the unprotected space between the <code><nowiki></span></nowiki></code> and the <code><nowiki><span ...></nowiki></code>. That's what {{tl|nowrap begin}} and its helper templates are packaging in an easy to use way.
+
+{{tl|·wrap}} and the other helper templates should not have any spaces or newlines before them or they will render two spaces before the dot. They tolerate anything from no to several spaces and even a newline after them and they will still only render one space after the dot. If a wrap occurs then the wrap will come after the dot, even if there are spaces before the helper template.
+
+The {{tl|·wrap}} causes problems if inside sections of bolded and/or italicised text. Do end the bold text before the {{tl|·wrap}} and continue the bold text after it to avoid the problems. {{tl|•wrap}} and the other helper templates only have this problem if the section is bolded and italicised at the same time.
+
+=== See also ===
+
+* {{tl|nowrap end}} - The other end of this template.
+* {{tl|nowrap}} - A template with similar purpose.
+* {{tl|nowraplinks}} - Prevents wraps inside links and only allows wraps between the links and in normal text. Very useful for link lists and usually easier to use than this template.
+* {{tn|·}} and {{tn|•}} - If you need dots/bullets when not using <code><nowiki>{{nowrap begin}}+{{nowrap end}}</nowiki></code>.
+* [[Wikipedia:Line break handling]] - The how-to guide detailing how to handle word wraps (line breaks) on Wikipedia. 
+
+<includeonly>
+<!-- ADD CATEGORIES AND INTERWIKIS BELOW THIS LINE -->
+[[Category:Wikipedia formatting templates|{{PAGENAME}}]]
+
+[[ko:틀:Nowrap 시작]]
+[[ja:Template:Nowrap begin]]
+</includeonly>
