@@ -1,0 +1,7 @@
+{{#switch: {{SUBPAGENAME}}
+  |sandbox|testcases={{ #rel2abs: ../doc }}
+  |#default={{SUBJECTPAGENAME}}/doc
+}}<noinclude>
+[[Category:Template documentation|{{PAGENAME}}]]
+[[ja:Template:Documentation/docname]]
+</noinclude>
