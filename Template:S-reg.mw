@@ -1,0 +1,30 @@
+<includeonly>|-
+! colspan="3" style="background: #ACE777;" | {{#if:{{{1}}}||Regnal titles}}{{#switch:{{{1}}}
+ |#default={{#if:{{{1}}}|Regnal titles}}
+ |cm=Cambodian nobility
+ |cn=[[Chinese nobility]]
+ |de=[[German nobility]]
+ |dk=[[Danish nobility]]
+ |en=[[Peerage of England]]
+ |en-bt=[[List of extant Baronetcies|Baronetage of England]]
+ |es=[[Spanish nobility]]
+ |fr=[[French nobility]]
+ |gb=[[Peerage of Great Britain]]
+ |gb-bt=[[List of extant Baronetcies|Baronetage of Great Britain]]
+ |ie-bt=[[List of extant Baronetcies|Baronetage of Ireland]]
+ |ie=[[Peerage of Ireland]]
+ |im=Head of State of the [[Isle of Man]]
+ |it=[[Italian nobility]]
+ |jp=[[Imperial House of Japan|Japanese royalty]]
+ |nv=[[Kingdom of Navarre|Navarrese royalty]]
+ |nl=[[List of Dutch noble families|Dutch nobility]]
+ |sct=[[Peerage of Scotland]]
+ |sct-bt=[[List of extant Baronetcies|Baronetage of Nova Scotia]]
+ |uk=[[Peerage of the United Kingdom]]
+ |uk-bt=[[List of extant Baronetcies|Baronetage of the United Kingdom]]
+ |vn=[[Vietnamese nobility]]
+ |other=Titles of nobility
+}}</includeonly><noinclude>
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here. -->
+</noinclude>
