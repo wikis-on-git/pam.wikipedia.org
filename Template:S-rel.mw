@@ -1,0 +1,18 @@
+<noinclude>{{Pp-template|small=yes}}{{s-start}}</noinclude>
+|-
+! colspan="3" style="background:#FABE60;" |{{#if:{{{1|}}}|{{#switch:{{{1}}}
+ |#default={{#if:{{{1}}}|Religious titles}}
+ |ac=[[Anglican Communion|Anglican Communion titles]]
+ |bu=[[Buddhism|Buddhist titles]]
+ |ca=[[Roman Catholic Church|Roman Catholic Church titles]]
+ |en=[[Church of England|Church of England titles]]
+ |mo=[[Latter Day Saint movement|Church of Latter Day Saints titles]]
+ |or=[[Orthodox Christianity|Orthodox Church titles]]
+ |is=[[Islam|Islamic titles]]
+ |jw=[[Judaism|Jewish titles]]
+ |sc=[[Church of Scotland|Church of Scotland titles]]
+ |sh=[[Shia Islam|Shī‘a Islam titles]]
+ |su=[[Sunni Islam|Sunni Islam titles]]
+}}|Religious titles}}<noinclude>
+{{s-end}}
+{{documentation}}</noinclude>
