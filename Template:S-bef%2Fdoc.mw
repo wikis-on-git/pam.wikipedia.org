@@ -1,0 +1,37 @@
+<noinclude>
+{{template doc page viewed directly}}
+</noinclude>
+This template creates a single first-column succession box column to be used with [[Template:S-start/doc|succession boxes]].
+
+==Usage==
+
+The format is <code><nowiki>{{</nowiki>s-bef|before=|''parameter''}}</code>, where ''parameter'' is replaced by one of the parameter names shown in the following table. The use of a parameter is optional.
+
+:''as'' &mdash; Adds a title line beneath a predecessor's name to designate a change in title.
+
+This template allows for multiple row-spans using the parameter |rows=| between the template name and the first parameter.
+
+==Example==
+From the [[Louis XIV of France]] article:
+<pre style="font-size:95%; width:95%; overflow:auto;">
+{{s-start}}
+{{s-reg}}
+{{s-bef | before = [[Louis XIII of France|Louis XIII]]}}
+{{s-ttl | title = [[List of French monarchs|King of France]] and [[List of Navarrese monarchs|Navarre]]
+| years = 14 May 1643 – 1 September 1715}}
+{{s-aft | after = [[Louis XV of France|Louis XV]]}}
+{{end}}
+</pre>
+{{s-start}}
+{{s-reg}}
+{{s-bef | before = [[Louis XIII of France|Louis XIII]]}}
+{{s-ttl | title = [[List of French monarchs|King of France]] and [[List of Navarrese monarchs|Navarre]]
+| years = 14 May 1643 – 1 September 1715}}
+{{s-aft | after = [[Louis XV of France|Louis XV]]}}
+{{end}}
+
+==See also==
+Documentation for creating succession boxes can be found at [[Template:s-start/doc]].
+<includeonly>
+[[Category:Succession templates|{{PAGENAME}}]]
+</includeonly>
