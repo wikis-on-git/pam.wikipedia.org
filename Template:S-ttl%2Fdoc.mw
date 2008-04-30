@@ -1,0 +1,64 @@
+<noinclude>
+{{template doc page viewed directly}}
+</noinclude>
+This template creates a single succession box center column to be used with [[Template:S-start/doc|succession boxes]] for the function of listing titles.
+
+==Usage==
+
+The format is <code><nowiki>{{</nowiki>s-ttl|title=''enter title here''|years=''enter years title was held here''|''parameter=''}}</code>, where ''parameter='' can be used optionally for any of the additional parameters listed in the following table. 
+
+:''district'' &mdash; For use with parliamentary offices.  Insert as a wikilink the district represented during the tenure in office.
+:''regent1 (or regent 2, or regent 3)'' AND ''years1 (or years2, or years3)'' &mdash; These parameters can be used when an office is held in tandem with another person.  Examples of this include co-rulers of a country or region and regencies.  It does not include consorts or sub-positions such as vice presidencies.  The "years" parameter should only contain years, not days or months, but all other guidelines rules apply.
+:''alongside'' &mdash; This parameter is reserved for political positions where two people share power, such as US senators.
+:''lords'' &mdash; Designates that the person was a member of the House of Lords.  The parameter is asking for the dates they served in the house.
+:''creation'' &mdash; Adds a sub-line beneath the title that allows for a "creation" number for certain noble titles (such as the Dukes of Cornwall).
+:''dynasty'' &mdash; Adds a sub-line beneath the title that allows for a "dynasty" number for certain royal dynastic lines (such as the Pharaohs of Egypt).
+
+This template allows for multiple row-spans using the parameter |rows=| between the template name and the first parameter.
+
+==Example==
+From the [[Richard, 1st Earl of Cornwall]] article:
+<pre style="font-size:95%; width:95%; overflow:auto;">
+{{s-start}}
+{{s-reg | en}}
+{{s-new | creation}}
+{{s-ttl | title=[[Earl of Cornwall]]
+| creation=7th creation
+| years=4 March 1857 – 21 January 1861}}
+{{s-aft | after=[[Edmund, 2nd Earl of Cornwall|Edmund]]}}
+{{end}}
+</pre>
+{{s-start}}
+{{s-reg | en}}
+{{s-new | creation}}
+{{s-ttl | title=[[Earl of Cornwall]]
+| creation=7th creation
+| years=4 March 1857 – 21 January 1861}}
+{{s-aft | after=[[Edmund, 2nd Earl of Cornwall|Edmund]]}}
+{{end}}
+
+From the [[Jefferson Davis]] article:
+<pre style="font-size:95%; width:95%; overflow:auto;">
+{{s-start}}
+{{s-par | us-sen}}
+{{s-bef | before=[[Stephen Adams]]}}
+{{s-ttl | title=[[List of United States Senators from Mississippi|Senator from Mississippi (Class 1)]]
+| years=March 4, 1857 – January 21, 1861
+| alongside=[[Albert G. Brown]]}}
+{{s-aft|after=[[Adalbert Ames]]}}
+{{end}}
+</pre>
+{{s-start}}
+{{s-par | us-sen}}
+{{s-bef | before=[[Stephen Adams]]}}
+{{s-ttl | title=[[List of United States Senators from Mississippi|Senator from Mississippi (Class 1)]]
+| years=March 4, 1857 – January 21, 1861
+| alongside=[[Albert G. Brown]]}}
+{{s-aft|after=[[Adalbert Ames]]}}
+{{end}}
+
+==See also==
+Documentation for creating succession boxes can be found at [[Template:S-start/doc]].
+<includeonly>
+[[Category:Succession templates|{{PAGENAME}}]]
+</includeonly>
