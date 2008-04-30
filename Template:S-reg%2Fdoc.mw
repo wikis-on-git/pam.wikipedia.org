@@ -1,0 +1,107 @@
+<includeonly>
+{{template doc page transcluded}}
+</includeonly><noinclude>
+{{template doc page viewed directly}}
+</noinclude>
+This template creates a header to be used with [[Template:S-start/doc|succession boxes]] for [[regnal name]]s, titles of [[nobility]], and [[peerage]].
+
+==Usage==
+
+===Without parameter===
+The template defaults to <span style="background: #ACE777; border: 1px #aaa solid; padding: 0.2em;">&nbsp;'''Regnal titles'''&nbsp;</span> if no parameter is given. In the following table, the first column contains the header and the second column shows the template call used to create it.
+
+{{s-start}}
+{{s-reg}}
+| <code><nowiki>{{s-reg}}</nowiki></code>
+{{s-end}}
+
+===With parameter===
+The format is <code><nowiki>{{</nowiki>s-reg|''parameter''}}</code>, where ''parameter'' is replaced by one of the parameter names shown in the following table. The first column displays the header and the second column contains the parameter name. Comments (if any) are shown in the third column.
+
+{{s-start}}
+{{s-reg|cm}}
+| cm
+{{s-reg|cn}}
+| cn
+{{s-reg|de}}
+| de || <small>([[Germany]] and the [[Holy Roman Empire]])</small>
+{{s-reg|dk}}
+| dk
+{{s-reg|en}}
+| en || (before 1707)
+{{s-reg|en-bt}}
+| en-bt || (before 1707)
+{{s-reg|es}}
+| es || (after 1555)
+{{s-reg|fr}}
+| fr
+{{s-reg|gb}}
+| gb || (1707–1801)
+{{s-reg|gb-bt}}
+| gb-bt || (1707–1801)
+{{s-reg|ie}}
+| ie || (until 1922)
+{{s-reg|ie-bt}}
+| ie-bt || (before 1801)
+{{s-reg|im}}
+| im
+{{s-reg|it}}
+| it
+{{s-reg|jp}}
+| jp
+{{s-reg|nv}}
+| nv
+{{s-reg|nl}}
+| nl || (the [[Netherlands]])
+{{s-reg|sct}}
+| sct || (before 1707)
+{{s-reg|sct-bt}}
+| sct-bt || (before 1707)
+{{s-reg|uk}}
+| uk || (after 1801)
+{{s-reg|uk-bt}}
+| uk-bt || (after 1801)
+{{s-reg|vn}}
+| vn
+{{s-reg|other}}
+| other
+{{s-end}}
+
+==Example==
+From the [[Hirohito]] article:
+<pre style="font-size:95%; width:95%; overflow:auto;">
+{{s-start}}
+{{s-reg}}
+{{s-bef|before=[[Emperor Taishō|Emperor Taishō </br><small>(Yoshihito)</small>]]}}
+{{s-ttl|title=[[List of Emperors of Japan|Emperor of Japan]]
+       |years=[[December 25]], [[1926]] – [[January 7]], [[1989]]}}
+{{s-aft|after=[[Akihito|Akihito</br><small>present emperor</small>]]}}
+{{s-end}}
+</pre>
+{{s-start}}
+{{s-reg|}}
+{{s-bef|before=[[Emperor Taishō|Emperor Taishō </br><small>(Yoshihito)</small>]]}}
+{{s-ttl|title=[[List of Emperors of Japan|Emperor of Japan]]
+       |years=[[December 25]], [[1926]] – [[January 7]], [[1989]]}}
+{{s-aft|after=[[Akihito|Akihito</br><small>present emperor</small>]]}}
+{{s-end}}
+
+==Former background colors==
+# <span style="background: #F9F9F9; border: 1px #aaa solid; padding: 0.2em;">&nbsp;'''Regnal titles'''&nbsp;</span> &ndash; #F9F9F9 &ndash; added 7 December 2005<br/><br/>
+# <span style="background: #FFDAB9; border: 1px #aaa solid; padding: 0.2em;">&nbsp;'''Regnal titles'''&nbsp;</span> &ndash; #FFDAB9 &ndash; changed 7 December 2005<br/><br/>
+# <span style="background: #EEDDFF; border: 1px #aaa solid; padding: 0.2em;">&nbsp;'''Regnal titles'''&nbsp;</span> &ndash; #EEDDFF &ndash; changed 7 December 2005<br/><br/>
+# <span style="background: #CCFFCC; border: 1px #aaa solid; padding: 0.2em;">&nbsp;'''Regnal titles'''&nbsp;</span> &ndash; #CCFFCC &ndash; changed 7 December 2005<br/><br/>
+# <span style="background: #8FBC8F; border: 1px #aaa solid; padding: 0.2em;">&nbsp;'''Regnal titles'''&nbsp;</span> &ndash; #8FBC8F &ndash; changed 23 February 2007<br/><br/>
+# <span style="background: #8ED874; border: 1px #aaa solid; padding: 0.2em;">&nbsp;'''Regnal titles'''&nbsp;</span> &ndash; #8ED874 &ndash; changed 10 June 2007<br/><br/>
+# <span style="background: #A3D874; border: 1px #aaa solid; padding: 0.2em;">&nbsp;'''Regnal titles'''&nbsp;</span> &ndash; #A3D874 &ndash; changed 10 June 2007<br/><br/>
+# <span style="background: #9BEC52; border: 1px #aaa solid; padding: 0.2em;">&nbsp;'''Regnal titles'''&nbsp;</span> &ndash; #9BEC52 &ndash; changed 20 June 2007<br/><br/>
+# <span style="background: #77DC1E; border: 1px #aaa solid; padding: 0.2em;">&nbsp;'''Regnal titles'''&nbsp;</span> &ndash; #77DC1E &ndash; changed 20 June 2007<br/><br/>
+# <span style="background: #91EB41; border: 1px #aaa solid; padding: 0.2em;">&nbsp;'''Regnal titles'''&nbsp;</span> &ndash; #91EB41 &ndash; changed 20 June 2007<br/><br/>
+# <span style="background: #B3DAA9; border: 1px #aaa solid; padding: 0.2em;">&nbsp;'''Regnal titles'''&nbsp;</span> &ndash; #B3DAA9 &ndash; changed 25 July 2007<br/><br/>
+# <span style="background: #ACE777; border: 1px #aaa solid; padding: 0.2em;">&nbsp;'''Regnal titles'''&nbsp;</span> &ndash; #ACE777 &ndash; current as of 27 July 2007<br/><br/>
+
+==See also==
+Documentation for creating succession boxes can be found at [[Template:S-start/doc]].
+<includeonly>
+[[Category:Succession templates|{{PAGENAME}}]]
+</includeonly>
