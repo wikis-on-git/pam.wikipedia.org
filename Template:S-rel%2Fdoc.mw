@@ -1,0 +1,69 @@
+<includeonly>
+{{template doc page transcluded}}
+</includeonly><noinclude>
+{{template doc page viewed directly}}
+</noinclude>
+This template creates a header to be used with [[Template:S-start/doc|succession boxes]] for religious titles.
+
+==Usage==
+
+===Without parameter===
+The template defaults to <span style="background: #FABE60; border: 1px #aaa solid; padding: 0.2em;">&nbsp;'''Religious titles'''&nbsp;</span> if no parameter is given. In the following table, the first column contains the header and the second column shows the template call used to create it.
+
+{{s-start}}
+{{s-rel}}
+| <code><nowiki>{{s-rel}}</nowiki></code>
+{{s-end}}
+
+===With parameter===
+The format is <code><nowiki>{{</nowiki>s-rel|''parameter''}}</code>, where ''parameter'' is replaced by one of the parameter names shown in the following table. The first column displays the header and the second column contains the parameter name.
+
+{{s-start}}
+{{s-rel|ac}}
+| ac
+{{s-rel|bu}}
+| bu
+{{s-rel|ca}}
+| ca
+{{s-rel|en}}
+| en
+{{s-rel|mo}}
+| mo
+{{s-rel|or}}
+| or
+{{s-rel|is}}
+| is
+{{s-rel|jw}}
+| jw
+{{s-rel|sc}}
+| sc
+{{s-rel|sh}}
+| sh
+{{s-rel|su}}
+| su
+{{s-end}}
+
+==Example==
+From the [[Pope Pius V]] article:
+<pre style="font-size:95%; width:95%; overflow:auto;">
+{{s-start}}
+{{s-rel|ca}}
+{{s-bef|before=[[Pope Pius IV|Pius IV]]}}
+{{s-ttl|title=[[List of popes|Pope]]
+       |years=1566&ndash;1572}}
+{{s-aft|after=[[Pope Gregory XIII|Gregory XIII]]}}
+{{s-end}}
+</pre>
+{{s-start}}
+{{s-rel|ca}}
+{{s-bef|before=[[Pope Pius IV|Pius IV]]}}
+{{s-ttl|title=[[List of popes|Pope]]
+       |years=1566&ndash;1572}}
+{{s-aft|after=[[Pope Gregory XIII|Gregory XIII]]}}
+{{s-end}}
+
+==See also==
+Documentation for creating succession boxes can be found at [[Template:S-start/doc]].
+<includeonly>
+[[Category:Succession templates|{{PAGENAME}}]]
+</includeonly>
