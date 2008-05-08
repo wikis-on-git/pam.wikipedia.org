@@ -27,7 +27,7 @@
 | [[List of U.S. states by population|Ranked {{{PopRank}}}]]<br />{{{2000Pop}}}<br />{{#if: {{{2000DensityUS|}}} | {{{2000DensityUS|}}}/sq.&nbsp;mi&nbsp;<br />}}{{{2000Density}}}/km² ({{{DensityRank}}}) 
 |-
 | '''[[List of U.S. states by elevation|Elevation]]'''<br />&nbsp;- [[List of U.S. states by elevation#Highest point|Pekamatas a lugal]]{{#if: {{{HighestElevUS|}}} | &nbsp;<br />}}<br />&nbsp;- [[List of U.S. states by elevation#Mean elevation|Kaustuan]]{{#if: {{{MeanElevUS|}}} | &nbsp;<br />}}<br />&nbsp;- [[List of U.S. states by elevation#Lowest point|Pekamababang Lugal]]{{#if: {{{LowestElevUS|}}} | &nbsp;<br />}}
-| <br />{{#if: {{{HighestElevUS|}}} | {{{HighestElevUS|}}}&nbsp;pie&nbsp;<br />}}{{{HighestElev}}} m <br />{{#if: {{{MeanElevUS|}}} | {{{MeanElevUS|}}}&nbsp;pie&nbsp; <br />}}{{{MeanElev}}} m <br />{{#if: {{{LowestElevUS|}}} | {{{LowestElevUS|}}}&nbsp;feet&nbsp; <br />}}{{{LowestElev}}} m 
+| <br />{{#if: {{{HighestElevUS|}}} | {{{HighestElevUS|}}}&nbsp;pie&nbsp;<br />}}{{{HighestElev}}} m <br />{{#if: {{{MeanElevUS|}}} | {{{MeanElevUS|}}}&nbsp;pie&nbsp; <br />}}{{{MeanElev}}} m <br />{{#if: {{{LowestElevUS|}}} | {{{LowestElevUS|}}}&nbsp;pie&nbsp; <br />}}{{{LowestElev}}} m 
 |-
 | '''[[List of U.S. states by date of statehood|Pangatanggap keng Union]]'''
 | {{{AdmittanceDate}}} ({{{AdmittanceOrder}}})
