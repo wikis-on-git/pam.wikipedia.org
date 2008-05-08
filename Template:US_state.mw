@@ -21,9 +21,9 @@
 | {{{Capital}}}<br/>{{{LargestCity}}}
 |-
 | '''[[Lapad]]'''<br />&nbsp;- Eganagana{{#if: {{{TotalAreaUS|}}} | &nbsp;<br />}}<br />&nbsp;- Lapad{{#if: {{{WidthUS|}}} | &nbsp;<br />}}<br />&nbsp;- Kaba {{#if: {{{LengthUS|}}} | &nbsp;<br />}}<br />&nbsp;- % danum<br />&nbsp;- Latitude<br />&nbsp;- Longitude
-| [[List of U.S. states by area|Ranked {{{AreaRank}}}]]<br />{{#if: {{{TotalAreaUS|}}} | {{{TotalAreaUS|}}}&nbsp;sq&nbsp;mi&nbsp; <br />}} {{{TotalArea}}} km² <br />{{#if: {{{WidthUS|}}} | {{{WidthUS|}}}&nbsp;miles&nbsp; <br />}}{{{Width}}} km <br />{{#if: {{{LengthUS|}}} | {{{LengthUS|}}}&nbsp;miles&nbsp; <br />}}{{{Length}}} km <br />{{{PCWater}}}<br />{{{Latitude}}}<br />{{{Longitude}}}
+| [[List of U.S. states by area|Ranku {{{AreaRank}}}]]<br />{{#if: {{{TotalAreaUS|}}} | {{{TotalAreaUS|}}}&nbsp;sq&nbsp;mi&nbsp; <br />}} {{{TotalArea}}} km² <br />{{#if: {{{WidthUS|}}} | {{{WidthUS|}}}&nbsp;milya&nbsp; <br />}}{{{Width}}} km <br />{{#if: {{{LengthUS|}}} | {{{LengthUS|}}}&nbsp;milya&nbsp; <br />}}{{{Length}}} km <br />{{{PCWater}}}<br />{{{Latitude}}}<br />{{{Longitude}}}
 |- 
-| '''[[Populasyun]]'''<br />&nbsp;- Total ([[United States Census, 2000|2000]])<br />&nbsp;- [[List of U.S. states by population density|Density]]
+| '''[[Populasyun]]'''<br />&nbsp;- Total ([[United States Census, 2000|2000]])<br />&nbsp;- [[List of U.S. states by population density|Pangasiksik]]
 | [[List of U.S. states by population|Ranked {{{PopRank}}}]]<br />{{{2000Pop}}}<br />{{#if: {{{2000DensityUS|}}} | {{{2000DensityUS|}}}/sq.&nbsp;mi&nbsp;<br />}}{{{2000Density}}}/km² ({{{DensityRank}}}) 
 |-
 | '''[[List of U.S. states by elevation|Elevation]]'''<br />&nbsp;- [[List of U.S. states by elevation#Highest point|Pekamatas a lugal]]{{#if: {{{HighestElevUS|}}} | &nbsp;<br />}}<br />&nbsp;- [[List of U.S. states by elevation#Mean elevation|Kaustuan]]{{#if: {{{MeanElevUS|}}} | &nbsp;<br />}}<br />&nbsp;- [[List of U.S. states by elevation#Lowest point|Pekamababang Lugal]]{{#if: {{{LowestElevUS|}}} | &nbsp;<br />}}
