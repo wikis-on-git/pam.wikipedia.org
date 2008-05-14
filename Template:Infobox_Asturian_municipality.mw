@@ -1,0 +1,45 @@
+{| border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width: 300px; background:#f7f8ff; border: 1px #aaaaaa solid; border-collapse: collapse; font-size: 95%;"
+|+ style="margin-left: inherit; font-size: larger; font-weight: bold;" | {{{name|{{PAGENAME}}}}} {{#if:{{{othername|}}}|<br>{{{othername}}}}}
+| align="center" colspan="2" |
+{| style="background: transparent; text-align: center;"
+| width="130px" | [[Image:{{{flag|Sin bandera.svg}}}|125px|Bandera ning {{{name|{{PAGENAME}}}}}]]
+| width="130px" | [[Image:{{{coat of arms|Sin escudo.svg}}}|{{{coat of arms size|80px}}}|Sgkal armas ning {{{name|{{PAGENAME}}}}}]]
+|-
+| <small>[[Flag of {{{name|{{PAGENAME}}}}}|(In detail)]]</small>
+| <small>[[Coat of arms of {{{name|{{PAGENAME}}}}}|(In detail)]]</small>
+|}
+|- 
+| align="center" colspan="2" | [[Image:{{{map|falta.svg}}}|300px]]<br/>[[Principalidad ning Asturias]]
+|-
+| [[Demonym]]<br> {{#if:{{{demonym English|}}}|&nbsp;• [[English language|English]] <br>}} &nbsp;• [[Spanish language|Spanish]] <br> {{#if:{{{demonym Asturian|}}}|&nbsp;• [[Asturian language|Asturian]]<br>}} {{#if:{{{demonym Eonavian|}}}|&nbsp;• [[Eonavian]]}} 
+|| <br> {{#if:{{{demonym English|}}}|{{{demonym English}}} <br>}} {{{demonym Spanish|}}} <br> {{#if:{{{demonym Asturian|}}}|{{{demonym Asturian}}}<br>}} {{#if:{{{demonym Eonavian|}}}|{{{demonym Eonavian}}}<br>}}
+|-
+| [[Tungku]] || {{#if:{{{capital|}}}|{{{capital}}}|}}
+|-
+| [[Geographic coordinate system|Coordinates]] || {{{coordinates|}}}
+|-
+| [[Judicial districts in Asturias|Judicial district]] || {{{judicial district|}}}
+|- 
+| [[Parish (subnational entity)|Parokia]] || {{{parishes|}}}
+|- 
+| [[Populasyun]]&nbsp;{{#if:{{{year|}}}|([[{{{year}}}]])}}<br />&nbsp;• Total<br />&nbsp;• [[Population density|Pangasiksik]]<br />&nbsp;• % ning Asturias || [[List of municipalities in Asturias by population|Ranku]]: {{{population rank|n/a}}}<br />{{#if:{{{population|}}}|{{{population}}} inhabitants|}}<br />{{#if:{{{density|}}}|{{{density}}} people/km²|}}<br />{{#if:{{{population percentage|}}}|{{{population percentage}}} %|}}
+|-
+| [[Lualas]]<br />&nbsp;• Total<br />&nbsp;• % of Asturias || [[List of municipalities in Asturias by area|Ranku]]: {{{area rank|n/a}}}<br />{{#if:{{{area|}}}|{{{area}}} [[Square kilometer|km²]]|}}<br />{{#if:{{{area percentage|}}}|{{{area percentage}}} %|}}
+|- 
+| Pekamatas a taluktuk || {{#if:{{{highest point|}}}|{{{highest point}}}&nbsp;[[metre|m]]|}}
+|-
+| [[Koreu codiku]] || {{{postcode|}}}
+|-
+| [[Balen Pamuntuk]] || {{#if:{{{mayor|}}}|[[{{{mayor}}}]]|}} {{#if:{{{party|}}}|({{{party}}})}}
+|-
+| [[Balen sanggunian]] || {{#if:{{{council seats|}}}|{{{council seats}}} seats + the mayor|}}
+|-
+| valign="top" | [[Political party|Political parties]]{{#if:{{{election year|}}}|<br>(elections&nbsp;of&nbsp;{{{election year}}})}} || {{{council parties|}}}
+|-
+| Website || {{{website|}}}
+|}
+<noinclude>
+[[Category:Spanish navigational boxes]]
+[[ast:Plantilla:Conceyu]]
+[[es:Plantilla:Infobox Concejo ast]]
+</noinclude>
