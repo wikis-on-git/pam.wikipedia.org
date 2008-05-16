@@ -1,0 +1,17 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Gibraltar
+| flag alias = Flag of Gibraltar.svg
+| flag alias-ensign = Government Ensign of Gibraltar.svg
+| flag alias-civil = Civil Ensign of Gibraltar.svg
+| flag alias-governor = Flag of the Governor of Gibraltar.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = ensign
+| var2 = civil
+| var3 = governor
+| redir1 = GIB
+</noinclude>
+}}
