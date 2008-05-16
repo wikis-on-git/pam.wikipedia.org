@@ -1,0 +1,29 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = France
+| flag alias = Flag of France.svg
+| flag alias-ancient = Flag of France (XII-XIII).svg
+| flag alias-modern = Flag of France (XIV-XVI).svg
+| flag alias-royal = Naval Ensign of the Kingdom of France.svg
+| flag alias-restauration = Pavillon royal de France.svg
+| flag alias-free = Flag of Free France 1940-1944.svg
+| flag alias-vichy = VichyFlag.svg
+| flag alias-naval = Civil and Naval Ensign of France.svg
+| link alias-naval = French Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = ancient
+| var2 = modern
+| var3 = royal
+| var4 = restauration
+| var5 = free
+| var6 = vichy
+| redir1 = FRA
+| related1 = Free French
+</noinclude>
+}}<noinclude>
+[[af:Sjabloon:Landdata Frankryk]]
+[[sl:Predloga:Podatki države Francija]]
+</noinclude>
