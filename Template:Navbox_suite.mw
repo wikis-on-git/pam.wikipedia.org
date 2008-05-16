@@ -1,0 +1,14 @@
+<onlyinclude>{{Navbox
+|navbar = off
+|state = off
+|style = width:auto;float:right;margin:0em 0em 0em 1em;
+|title = Navbox suite
+|list1 = {{t1|Navbox}}
+|list2 = {{t1|Navbox subgroup}}
+|list3 = {{t1|Navbox with columns}}
+|list4 = {{t1|Navbox with collapsible groups}}
+}}</onlyinclude><!--
+
+NOTE: A template MUST support all of the parameters marked with a cross in Template:Navbox/doc in order to be Navbox suite compliant.  In particular, the name, state, border, and navbar parameters are especially important.  -->
+
+[[Category:Navbox (navigational) templates| ]]
