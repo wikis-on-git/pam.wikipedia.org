@@ -1,0 +1,9 @@
+<!-- {{Primarysources|date={{{date|}}}}} start -->{{ambox
+| type  = content
+| image = [[Image:Question book-3.svg|50px]]
+| text  = '''This {{{1|article or section}}} needs [[Wikipedia:Verifiability|sources&nbsp;or&nbsp;references]] that appear in reliable, third-party publications.'''<br/><small>[[Wikipedia:No original research#Primary, secondary, and tertiary sources|Primary source]]s and sources affiliated with the subject of the article are generally not sufficient for a Wikipedia article. Please include more appropriate [[Wikipedia:Citing sources|citations]] from [[Wikipedia:Reliable sources|reliable sources]], or discuss the issue on the talk page.{{#if:{{{date|}}}|<br>This article has been tagged since ''{{{date}}}''.}}</small>
+}}</div><includeonly>{{#if:{{{date|}}}|[[Category:Articles lacking reliable references from {{{date}}}]]|[[Category:Articles lacking reliable references]]}}{{#if:{{NAMESPACE}}||{{#if:{{{date|}}}|{{#ifexist:Category:Articles lacking reliable references from {{{date}}}||[[Category:Articles with invalid date parameter in template]]}}|}}}}
+[[Category:All articles lacking sources]]</includeonly><!-- {{Primarysources|date={{{date|}}}}} end--><noinclude>
+{{pp-template|small=yes}}
+{{documentation}}
+</noinclude>
