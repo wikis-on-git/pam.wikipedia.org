@@ -1,0 +1,978 @@
+{| class="infobox vcard" cellpadding="3" style="width: {{{box_width|22em}}}; text-align: left; font-size: 90%; {{{box_style|}}}"
+| class="fn org" colspan="2" bgcolor={{{bgcolor_section|lavender}}} style="text-align: center; font-size: larger;" |'''{{{name<includeonly>|{{PAGENAME}}</includeonly>}}}'''{{#if:{{{native_name<includeonly>|</includeonly>}}}|<br/><span class="nickname">{{{native_name}}}</span>}}{{#if:{{{latin_name|}}}|<br/><span class="nickname">{{{latin_name}}}</span>}}
+|-
+{{#if: {{{logo|}}} |
+{{!}} colspan="2" style="text-align:center;" {{!}} {{{logo}}}
+{{!}}-
+|
+{{#if: {{{Logo|}}} |
+{{!}} colspan="2" style="text-align:center;" {{!}} [[Image:{{{Logo}}}|{{{Size|200}}}px|center|{{{Name}}}]]
+{{!}}-
+|
+{{#if: {{{seal_image|}}} |
+{{!}} colspan="2" style="text-align:center;" {{!}} {{{seal_image}}}
+{{!}}-
+|
+{{#if:{{{image<includeonly>|</includeonly>}}} |
+{{!}} {{#if:{{{bgcolor_image|}}}|bgcolor={{{bgcolor_image}}}}} colspan="2" style="padding: .5em 0 {{#if:{{{motto|}}}{{{caption|}}}|0|.5em}} 0; text-align: center;" {{!}}{{#if:{{{{{#if:{{{image size|}}}|image|}} size|}}}|[[Image:{{{image}}}|center|{{{{{#if:{{{image size|}}}|image|}} size}}}]]|{{#if:{{{image{{#if:{{{image_size|}}}|_|}}size|}}}|[[Image:{{{image}}}|center|{{{image{{#if:{{{image_size|}}}|_|}}size}}}]]|{{#ifeq:{{isValidPageName|{{{image|}}}}}|valid|[[Image:{{{image}}}|center|200px]]|{{{image}}}}}}}}}
+{{!}}-
+}}}}}}}}
+{{#if: {{{imagewikilink|}}} |
+{{!}} {{#if:{{{bgcolor_image|}}}|bgcolor={{{bgcolor_image}}}}} colspan="2" style="padding: .5em 0  0; text-align: center;" {{!}}{{#if:{{{imagewikilink|}}}|{{{imagewikilink}}}|}}
+{{!}}-
+}}
+{{#if:{{{image<includeonly>|</includeonly>}}} |
+{{#if:{{{caption<includeonly>|</includeonly>}}} {{{motto|}}} |
+{{!}} colspan="2" style="padding:4px 0 4px 0; text-align: center;" {{!}} <small>{{{caption<includeonly>|<p/></includeonly>}}}</small>{{#if:{{{motto<includeonly>|</includeonly>}}}|<div style="clear:both;">{{{motto}}}</div>{{#if:{{{motto_translation|}}}|<div style="clear:both;"><small>''{{{motto_translation}}}''</small></div>}}}}
+{{!}}-
+}}
+}}
+! colspan="2" bgcolor={{{bgcolor_section|lavender}}} style="text-align: center;" | {{#if:{{{streetaddress|}}}|Address|Location}}
+|- class="adr"
+| {{#if:{{{bgcolor_address|}}}|bgcolor={{{bgcolor_address}}}}} colspan="2" style="text-align: center;" | {{#if:{{{address|}}}|<span class="street-address">{{{address}}}</span><br />}} {{#if:{{{streetaddress|}}}|<span class="street-address">{{{streetaddress}}}</span><br />}} {{#if:{{{street|}}}|<span class="street-address">{{{street}}}</span><br />}} {{#if:{{{{{#if:{{{Location|}}}|L|l}}ocation|}}}|<span class="street-address">{{{{{#if:{{{Location|}}}|L|l}}ocation}}}</span><br />}} {{#if: {{{{{#if:{{{Region|}}}|R|r}}egion|}}}|<span class="locality">{{{{{#if:{{{Region|}}}|R|r}}egion}}}</span><br />}} {{#if: {{{city|}}}|<span class="locality">{{{city}}}</span>,}} {{#if: {{{city/town|}}}|<span class="locality">{{{city/town}}}</span>,}} {{#if: {{{state|}}}|<span class="region">{{{state}}}</span>{{#if: {{{country|}}}|,|}}}} {{#if: {{{province|}}}|<span class="region">{{{province}}}</span>,}} {{#if: {{{county|}}}|<span class="region">{{{county}}}</span>,}} {{#if: {{{postcode|}}}|<span class="region">{{{postcode}}}</span>,}} {{#if: {{{postalcode|}}}|<span class="region">{{{postalcode}}}</span>,}} {{#if:{{{zipcode|}}}|<span class="postal-code">[[ZIP code|{{{zipcode}}}]]</span><br />}} {{#if: {{{country|}}}|{{#ifeq:{{isValidPageName|{{{country}}}}}|valid|<span class="country-name"> {{flagcountry|{{{country}}}}}</span>|<span class="country-name">{{{country}}}</span>}}}} {{#if: {{{country1|}}}|{{#ifeq:{{isValidPageName|{{{country1}}}}}|valid|<span class="country-name1"> {{flagcountry|{{{country1}}}}}</span>|<span class="country-name1">{{{country1}}}</span>}}}} <noinclude>Address or Location</noinclude>
+|-
+{{#if: {{{coordinates<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} [[Geographic coordinate system|Coordinates]]
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{coordinates}}}
+{{!}}-
+}}
+{{#if:{{{latitude|}}} |
+{{!}} colspan="2" style="font-size:111.11%" {{!}} {{coord|{{{latitude}}}|{{{longitude}}}|{{#if: {{{dms|}}}|format=dms|}}region:GB_type:landmark|display=title}}
+{{!}}-
+}}
+! colspan="2" bgcolor={{{bgcolor_section|lavender}}} style="text-align: center;" | Information
+|-
+{{#if: {{{locale<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Locale
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{locale}}}
+{{!}}-
+}}
+{{#if: {{{schoolnumber<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} School&nbsp;number
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{schoolnumber}}}
+{{!}}-
+}}
+{{#if: {{{Number<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} School&nbsp;number
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{Number}}}
+{{!}}-
+}}
+{{#if: {{{schoolboard<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} School&nbsp;board
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{schoolboard}}}
+{{!}}-
+}}
+{{#if: {{{district<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} School&nbsp;district
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{district}}}
+{{!}}-
+}}
+{{#if: {{{authority<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Authority
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{authority}}}
+{{!}}-
+}}
+{{#if: {{{educational authority<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Authority
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{educational authority}}}
+{{!}}-
+}}
+{{#if: {{{religion<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Religion
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{religion}}}
+{{!}}-
+}}
+{{#if: {{{denomination<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Denomination
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{denomination}}}
+{{!}}-
+}}
+{{#if: {{{category<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{category_label|Category}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{category}}}
+{{!}}-
+}}
+{{#if: {{{oversight<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{oversight_label|Oversight}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{oversight}}}
+{{!}}-
+}}
+{{#if: {{{{{#if:{{{religious_affiliation|}}}|religious_|}}affiliation<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{#if:{{{religious_affiliation|}}}|Religious&nbsp;|}}Affiliation(s)
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{{{#if:{{{religious_affiliation|}}}|religious_|}}affiliation}}}
+{{!}}-
+}}
+{{#if: {{{affiliations<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Affiliations
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{affiliations}}}
+{{!}}-
+}}
+{{#if: {{{authorizer<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Authorizer
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{authorizer}}}
+{{!}}-
+}}
+{{#if: {{{superintendent<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Superintendent
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{superintendent}}}
+{{!}}-
+}}
+{{#if: {{{trustee<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Area&nbsp;trustee
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{trustee}}}
+{{!}}-
+}}
+{{#if: {{{founder<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Founder{{#if: {{{founder_pl|}}} |s}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{founder}}}
+{{!}}-
+}}
+{{#if: {{{specialist<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Specialist{{#if: {{{specialist_pl|}}} |s}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{specialist}}}
+{{!}}-
+}}
+{{#if: {{{session<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Session
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{session}}}
+{{!}}-
+}}
+{{#if: {{{president<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} President
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{president}}}
+{{!}}-
+}}
+{{#if: {{{head of school<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Head&nbsp;of&nbsp;school
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{head of school}}}
+{{!}}-
+}}
+{{#if: {{{head{{#if:{{{head_teacher|}}}|_|}}teacher<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Headteacher
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{head{{#if:{{{head_teacher|}}}|_|}}teacher}}}
+{{!}}-
+}}
+{{#if: {{{head teacher<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Head teacher
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{head teacher}}}
+{{!}}-
+}}
+{{#if: {{{executive_headteacher<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Executive&nbsp;headteacher
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{executive_headteacher}}}
+{{!}}-
+}}
+{{#if: {{{acting_headteacher<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Acting&nbsp;headteacher
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{acting_headteacher}}}
+{{!}}-
+}}
+{{#if: {{{headmistress<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Headmistress
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{headmistress}}}
+{{!}}-
+}}
+{{#if: {{{headmaster<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Headmaster
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{headmaster}}}
+{{!}}-
+}}
+{{#if: {{{head<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{#if: {{{head_name|}}}|{{{head_name}}}|{{{head_label|Head&nbsp;teacher}}}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{head}}}
+{{!}}-
+}}
+{{#if: {{{rel_head_name<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{rel_head_name}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{rel_head}}}
+{{!}}-
+}}
+{{#if: {{{head_name2<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{head_name2}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{head2}}}
+{{!}}-
+}}
+{{#if: {{{r_head<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{r_head_label}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{r_head}}}
+{{!}}-
+}}
+{{#if: {{{chair<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{chair_label|Chair}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{chair}}}
+{{!}}-
+}}
+{{#if: {{{chairman<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{chairman_label|Chairman}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{chairman}}}
+{{!}}-
+}}
+{{#if: {{{chairperson<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{chairperson_label|Chairperson}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{chairperson}}}
+{{!}}-
+}}
+{{#if: {{{{{#if:{{{Principal|}}}|P|p}}rincipal<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{principal_label|Principal}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{{{#if:{{{Principal|}}}|P|p}}rincipal}}}
+{{!}}-
+}}
+{{#if: {{{principal1<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{principal_label1|Principal}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{principal1}}}
+{{!}}-
+}}
+{{#if: {{{principal2<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{principal_label2|Principal}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{principal2}}}
+{{!}}-
+}}
+{{#if: {{{principal3<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{principal_label3|Principal}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{principal3}}}
+{{!}}-
+}}
+{{#if: {{{principal4<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{principal_label4|Principal}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{principal4}}}
+{{!}}-
+}}
+{{#if: {{{viceprincipal<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{viceprincipal_label|Vice&nbsp;principal}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{viceprincipal}}}
+{{!}}-
+}}
+{{#if: {{{viceprincipal1<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{viceprincipal_label1|Vice&nbsp;principal}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{viceprincipal1}}}
+{{!}}-
+}}
+{{#if: {{{viceprincipal2<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{viceprincipal_label2|Vice&nbsp;principal}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{viceprincipal2}}}
+{{!}}-
+}}
+{{#if: {{{viceprincipal3<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{viceprincipal_label3|Vice&nbsp;principal}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{viceprincipal3}}}
+{{!}}-
+}}
+{{#if: {{{viceprincipal4<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{viceprincipal_label4|Vice&nbsp;principal}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{viceprincipal4}}}
+{{!}}-
+}}
+{{#if: {{{asst principal<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Asst.&nbsp;Principal
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{asst principal}}}
+{{!}}-
+}}
+{{#if: {{{assistant_principals<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{viceprincipal_label|Assistant&nbsp;principals}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{assistant_principals}}}
+{{!}}-
+}}
+{{#if: {{{campus director<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Campus&nbsp;Director
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{campus director}}}
+{{!}}-
+}}
+{{#if: {{{dean<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Dean
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{dean}}}
+{{!}}-
+}}
+{{#if: {{{administrator<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Administrator
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{administrator}}}
+{{!}}-
+}}
+{{#if: {{{rector<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Rector
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{rector}}}
+{{!}}-
+}}
+{{#if: {{{chaplain<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Chaplain
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{chaplain}}}
+{{!}}-
+}}
+{{#if: {{{director<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Director
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{director}}}
+{{!}}-
+}}
+{{#if: {{{custodian<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Chief&nbsp;custodian
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{custodian}}}
+{{!}}-
+}}
+{{#if: {{{staff<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Staff
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{staff}}}
+{{!}}-
+}}
+{{#if: {{{number of staff<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Staff
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{number of staff}}}
+{{!}}-
+}}
+{{#if: {{{enrollment<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Enrollment
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}}
+{{{enrollment}}}{{#if: {{{enrollment_as_of|}}}|&nbsp;({{{enrollment_as_of}}})}}
+{{!}}-
+}}
+{{#if: {{{{{#if:{{{Students|}}}|S|s}}tudents<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Students
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{{{#if:{{{Students|}}}|S|s}}tudents}}}
+{{!}}-
+}}
+{{#if: {{{sixth_form_students<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Sixth Form Students
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} class="plainlinks" {{!}} {{{sixth_form_students}}}
+{{!}}-
+}}
+{{#if: {{{pupils<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Pupils
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{pupils}}}
+{{!}}-
+}}
+{{#if: {{{number of pupils<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Pupils
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{number of pupils}}}
+{{!}}-
+}}
+|-
+{{#if: {{{gradeK<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} style="text-align: center;" {{!}} [[Kindergarten]]
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{gradeK}}}
+{{!}}-
+}}
+{{#if: {{{grade1<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} style="text-align: center;" {{!}} [[First Grade|Grade 1]]
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{grade1}}}
+{{!}}-
+}}
+{{#if: {{{grade2<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} style="text-align: center;" {{!}} [[Second Grade|Grade 2]]
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{grade2}}}
+{{!}}-
+}}
+{{#if: {{{grade3<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} style="text-align: center;" {{!}} [[Third Grade|Grade 3]]
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{grade3}}}
+{{!}}-
+}}
+{{#if: {{{grade4<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} style="text-align: center;" {{!}} [[Fourth Grade|Grade 4]]
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{grade4}}}
+{{!}}-
+}}
+{{#if: {{{grade5<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} style="text-align: center;" {{!}} [[Fifth Grade|Grade 5]]
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{grade5}}}
+{{!}}-
+}}
+{{#if: {{{grade6<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} style="text-align: center;" {{!}} [[Sixth Grade|Grade 6]]
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{grade6}}}
+{{!}}-
+}}
+{{#if: {{{grade7<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} style="text-align: center;" {{!}} [[Seventh Grade|Grade 7]]
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{grade7}}}
+{{!}}-
+}}
+{{#if: {{{grade8<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} style="text-align: center;" {{!}} [[Eighth Grade|Grade 8]]
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{grade8}}}
+{{!}}-
+}}
+{{#if: {{{grade9<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} style="text-align: center;" {{!}} [[Ninth Grade|Grade 9]]
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{grade9}}}
+{{!}}-
+}}
+{{#if: {{{grade10<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} style="text-align: center;" {{!}} [[Tenth Grade|Grade 10]]
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{grade10}}}
+{{!}}-
+}}
+{{#if: {{{grade11<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} style="text-align: center;" {{!}} [[Eleventh Grade|Grade 11]]
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{grade11}}}
+{{!}}-
+}}
+{{#if: {{{grade12<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} style="text-align: center;" {{!}} [[Twelfth Grade|Grade 12]]
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{grade12}}}
+{{!}}-
+}}
+{{#if: {{{grade13<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} style="text-align: center;" {{!}} Grade 13
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{grade13}}}
+{{!}}-
+}}
+{{#if: {{{other<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} style="text-align: center;" {{!}} Other
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{other}}}
+{{!}}-
+}}
+{{#if: {{{other_grade_enrollment<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} style="text-align: center;" {{!}} {{{other_grade_label|other_grade_label|Other}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{other_grade_enrollment}}}
+{{!}}-
+}}
+{{#if: {{{other_grade_enrollment_1<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} style="text-align: center;" {{!}} {{{other_grade_label_1|other_grade_label_1|Other}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{other_grade_enrollment_1}}}
+{{!}}-
+}}
+{{#if: {{{other_grade_enrollment_2<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} style="text-align: center;" {{!}} {{{other_grade_label_2|other_grade_label_2|Other}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{other_grade_enrollment_2}}}
+{{!}}-
+}}
+{{#if: {{{employees<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Employees
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{employees}}}
+{{!}}-
+}}
+{{#if: {{{num_employ<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Employees
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{num_employ}}}
+{{!}}-
+}}
+{{#if: {{{key_people<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Key&nbsp;people
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{key_people}}}
+{{!}}-
+}}
+{{#if: {{{ranking<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} USNWR&nbsp;ranking
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{ranking}}}
+{{!}}-
+}}
+{{#if: {{{bar pass rate<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Bar&nbsp;pass&nbsp;rate
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{bar pass rate}}}
+{{!}}-
+}}
+{{#if: {{{faculty<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Faculty
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{faculty}}}
+{{!}}-|
+{{#if: {{{teaching_staff<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Teaching staff
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{teaching_staff}}}
+{{!}}-
+}}
+}}
+{{#if: {{{roll<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} School&nbsp;roll
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{roll}}}
+{{!}}-
+}}
+{{#if: {{{decile<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Socio-economic&nbsp;decile
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{decile}}}
+{{!}}-
+}}
+{{#if: {{{MOE<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Ministry&nbsp;of&nbsp;Education&nbsp;Institution&nbsp;no.
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} [http://www.tki.org.nz/e/schools/display_school_info.php?school_id={{{MOE}}} {{{MOE}}}]}}
+|-
+{{#if: {{{ceeb<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} CEEB&nbsp;Code
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{ceeb}}}
+{{!}}-
+}}
+{{#if: {{{school code<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} MOE&nbsp;Code
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{school code}}}
+{{!}}-
+}}
+{{#if: {{{LEA<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} [[Local Education Authority|LEA]]
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{LEA}}}
+{{!}}-
+}}
+{{#if: {{{ofsted<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} [[Office for Standards in Education|Ofsted]] number
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} [http://www.ofsted.gov.uk/reports/index.cfm?fuseaction=summary&id={{{ofsted}}} {{{ofsted}}}]}}
+|-
+{{#if: {{{testaverage<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{#if:{{{testname}}}|{{{testname}}}&nbsp;}}Average
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{testaverage}}}
+{{!}}-
+}}
+{{#if: {{{{{#if:|{{{National_ranking|}}}|N|n}}ational_rankingational_ranking<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} National&nbsp;ranking
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{{{#if:|{{{National_ranking|}}}|N|n}}ational_rankingational_ranking}}}
+{{!}}-
+}}
+{{#if: {{{classes<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Classes
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{classes}}}
+{{!}}-
+}}
+{{#if: {{{{{#if:|{{{Classes offered|}}}|C|c}}lasses offered<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Classes&nbsp;offered
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{{{#if:|{{{Classes offered|}}}|C|c}}lasses offered}}}
+{{!}}-
+}}
+{{#if: {{{avg_class_size<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Average&nbsp;class&nbsp;size
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{avg_class_size}}}
+{{!}}-
+}}
+{{#if: {{{class<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Average&nbsp;class&nbsp;size
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{class}}}
+{{!}}-
+}}
+{{#if: {{{ratio<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Student:teacher&nbsp;ratio
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{ratio}}}
+{{!}}-
+}}
+{{#if: {{{SAT<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Average&nbsp;SAT&nbsp;scores{{#if:{{{year|}}}|&nbsp;({{{year}}})}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{SAT}}}
+{{!}}-
+}}
+{{#if: {{{ACT<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Average&nbsp;ACT&nbsp;scores{{#if:{{{year|}}}|&nbsp;({{{year}}})}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{ACT}}}
+{{!}}-
+}}
+{{#if: {{{{{#if:{{{Graduates|}}}|G|g}}<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{#if:{{{year|}}}|({{{year}}})&nbsp;}}Graduates
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{{{#if:{{{Graduates|}}}|G|g}}raduates}}}
+{{!}}-
+}}
+{{#if: {{{gender<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{gender_label|Gender}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{gender}}}
+{{!}}-
+}}
+{{#if: {{{lower_age<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Age
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{lower_age}}}{{#if: {{{upper_age|}}}|&#32;to {{{upper_age}}}|+}}}}
+|-
+{{#if: {{{houses<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Houses
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{houses}}}
+{{!}}-
+}}
+<!-- if there is a school type, label the field as "School Type" and show it together with funding type (aka type); otherwise, label it "Funding Type" and show only the funding type (aka type) -->
+{{#if: {{{schooltype|}}}<!--
+-->|{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} School&nbsp;type
+    {{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}}<!--
+   -->{{#if: {{{fundingtype|}}}<!--
+   -->|{{#ifexist:{{{fundingtype}}} school|[[{{{fundingtype}}} school{{!}}{{{fundingtype}}}]]|{{{fundingtype}}}{{#if:{{{schooltype|}}}|,}} }}<!--
+   -->|{{#if: {{{type|}}}|{{{type}}}}}<!--
+   -->}} {{{schooltype}}}<!--
+-->|{{#if: {{{fundingtype|}}}<!--
+   -->|{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{#if:{{{fundingtype|}}}|Funding&nbsp;type|Type}}
+       {{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{fundingtype}}}<!--
+   -->|{{#if: {{{type|}}}<!--
+      -->|{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{#if:{{{fundingtype|}}}|Funding&nbsp;type|Type}}
+          {{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{type}}}<!--
+      -->}}<!--{{{type|}}}
+   -->}}<!--{{{fundingtype|}}}
+-->}}
+|-
+{{#if: {{{{{#if:{{{System|}}}|S|s}}ystem<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Education System
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{{{#if:{{{System|}}}|S|s}}ystem}}}
+{{!}}-
+}}
+{{#if: {{{fees<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} School&nbsp;fees
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{fees}}}
+{{!}}-
+}}
+{{#if: {{{annual tuition<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Annual&nbsp;tuition
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{annual tuition}}}
+{{!}}-
+}}
+{{#if: {{{tuition<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Tuition
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{tuition}}}
+{{!}}-
+}}
+{{#if: {{{revenue<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Revenue
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{revenue}}}
+{{!}}-
+}}
+{{#if: {{{endowment<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Endowment
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{endowment}}}
+{{!}}-
+}}
+{{#if: {{{budget<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Budget
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{budget}}}
+{{!}}-
+}}
+{{#if: {{{enrolment<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Enrolment
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{enrolment}}}
+{{!}}-
+}}
+{{#if: {{{products<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Key&nbsp;products
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{products}}}
+{{!}}-
+}}
+{{#if: {{{age range<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Age&nbsp;range
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{age range}}}
+{{!}}-
+}}
+{{#if: {{{{{#if:{{{Years|}}}|Y|y}}ears<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Years&nbsp;Offered
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{{{#if:{{{Years|}}}|Y|y}}ears}}}
+{{!}}-
+}}
+{{#if: {{{years taught<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Years&nbsp;taught
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{years taught}}}
+{{!}}-
+}}
+{{#if: {{{nursery years taught<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Years&nbsp;taught
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{nursery years taught}}}
+{{!}}-
+}}
+{{#if: {{{primary years taught<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Years&nbsp;taught
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{primary years taught}}}
+{{!}}-
+}}
+{{#if: {{{secondary years taught<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Years&nbsp;taught
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{secondary years taught}}}
+{{!}}-
+}}
+{{#if: {{{grades<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{grades_label|Grades}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{grades}}}
+{{!}}-
+}}
+{{#if: {{{schedule<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Schedule
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{schedule}}}
+{{!}}-
+}}
+{{#if: {{{medium of language<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Medium&nbsp;of&nbsp;Language
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{medium of language}}}
+{{!}}-
+}}
+{{#if: {{{medium{{#if:{{{mediums|}}}|s|}}<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Medium&nbsp;of&nbsp;Language
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{medium{{#if:{{{mediums|}}}|s|}}}}} }}
+|-
+{{#if: {{{language<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Language
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{language}}}
+{{!}}-
+}}
+{{#if: {{{classrooms<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Classrooms
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{classrooms}}}
+{{!}}-
+}}
+{{#if: {{{area<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Area
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{area}}}
+{{!}}-
+}}
+{{#if: {{{{{#if:{{{Campuses|}}}|C|c}}ampuses<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Campuses
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{{{#if:{{{Campuses|}}}|C|c}}ampuses}}}
+{{!}}-
+}}
+{{#if: {{{campus<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Campus
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{campus}}}
+{{!}}-
+}}
+{{#if: {{{campus type<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Campus
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{campus type}}}
+{{!}}-
+}}
+{{#if: {{{campus_size<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Campus&nbsp;size
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{campus_size}}}
+{{!}}-
+}}
+{{#if: {{{campus size<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Campus&nbsp;size
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{campus size}}}
+{{!}}-
+}}
+{{#if: {{{campus_Bound<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} College&nbsp;Bound
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{campus_Bound}}}
+{{!}}-
+}}
+{{#if: {{{schedtyp<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Schedule&nbsp;type
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{schedtyp}}}
+{{!}}-
+}}
+{{#if: {{{Hours_in_Day<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Hours&nbsp;in&nbsp;school&nbsp;day
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{Hours_in_Day}}}
+{{!}}-
+}}
+{{#if: {{{athletics<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Athletics
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{athletics}}}
+{{!}}-
+}}
+{{#if: {{{athletic conference|}}} {{{conference<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Athletics&nbsp;conference
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{athletic conference|{{{conference}}}}}}
+{{!}}-
+}}
+{{#if: {{{slogan<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Slogan
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{slogan}}}
+{{!}}-
+}}
+{{#if: {{{song<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Song
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{song}}}
+{{!}}-
+}}
+{{#if: {{{fightsong<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} [[Fight song]]
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{fightsong}}}
+{{!}}-
+}}
+{{#if: {{{vision<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Vision
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{vision}}}
+{{!}}-
+}}
+<!-- Put the motto here only if there is no "image=" -->
+{{#if: {{{image|}}}||{{#if: {{{motto<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Motto{{#if: {{{motto_pl|}}} |es}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{motto}}}{{#if:{{{motto_translation|}}}|&nbsp;({{{motto_translation}}})}}}}
+{{!}}-
+}}
+{{#if: {{{accreditation{{#if:{{{accreditation|}}}||s}}<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Accreditation(s)
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{accreditation{{#if:{{{accreditation|}}}||s}}}}}
+{{!}}-
+}}
+{{#if: {{{rival{{#if:{{{rival|}}}||s}}<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Rival{{#if:{{{rival|}}}||s}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{rival{{#if:{{{rival|}}}||s}}}}}
+{{!}}-
+}}
+|-
+{{#if: {{{mascot<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Mascot
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{mascot}}} {{#if: {{{mascot image|}}}|{{{mascot image}}}}}
+{{!}}-
+}}
+{{#if: {{{sports<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Sports
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{sports}}}
+{{!}}-
+}}
+{{#if: {{{patron<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Patron&nbsp;saint(s)
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{patron}}}
+{{!}}-
+}}
+{{#if: {{{teams<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{teams_label|Teams}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{teams}}}
+{{!}}-
+}}
+{{#if: {{{team{{#if:{{{team_name|}}}|_|}}name<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Team&nbsp;name
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{team{{#if:{{{team_name|}}}|_|}}name}}}
+{{!}}-
+}}
+{{#if: {{{team name<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Team&nbsp;name
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{team name}}}
+{{!}}-
+}}
+{{#if: {{{nickname<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} [[Athletic nickname|Nickname]]
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{nickname}}}
+{{!}}-
+}}
+{{#if: {{{colo{{#if:{{{colours|}}}|u|}}rs<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Colo{{#if:{{{colours|}}}|u|}}r(s)
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{colo{{#if:{{{colours|}}}|u|}}rs}}}
+{{!}}-
+}}
+{{#if: {{{school{{#if:{{{school_colours|}}}|_|}}colo{{#if:{{{school{{#if:{{{school_colours|}}}|_|}}colours|}}}|u|}}rs<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} School&nbsp;Colo{{#if:{{{school{{#if:{{{school_colours|}}}|_|}}colours|}}}|u|}}r(s)
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{school{{#if:{{{school_colours|}}}|_|}}colo{{#if:{{{school{{#if:{{{school_colours|}}}|_|}}colours|}}}|u|}}rs}}}
+{{!}}-
+}}
+{{#if: {{{school colo{{#if:{{{school colours|}}}|u|}}rs<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} School&nbsp;colo{{#if:{{{school colours|}}}|u|}}r(s)
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{school colo{{#if:{{{school colours|}}}|u|}}rs}}}
+{{!}}-
+}}
+{{#if: {{{yearbook<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Yearbook
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{yearbook}}}
+{{!}}-
+}}
+{{#if: {{{publication<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Publication
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{publication}}}
+{{!}}-
+}}
+{{#if: {{{newspaper<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Newspaper
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{newspaper}}}
+{{!}}-
+}}
+{{#if: {{{{{#if:{{{Opened|}}}|O|o}}pened<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Opened
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{{{#if:{{{Opened|}}}|O|o}}pened}}}
+{{!}}-
+}}
+{{#if: {{{founded<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Founded
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{founded}}}
+{{!}}-
+}}
+{{#if: {{{established<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Established
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{#if: {{{approx|}}} |c.}}{{{established}}}
+{{!}}-
+}}
+{{#if: {{{status<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Status
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{status}}}
+{{!}}-
+}}
+{{#if: {{{closed<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Closed
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{#if: {{{c_approx|}}} |c.}}{{{closed}}}
+{{!}}-
+}}
+{{#if: {{{International_Students<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} International&nbsp;students
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{International_Students}}}
+{{!}}-
+}}
+{{#if: {{{alumni<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Alumni
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{alumni}}}
+{{!}}-
+}}
+{{#if: {{{nobel_laureates<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} [[Nobel laureate]]s
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{nobel_laureates}}}
+{{!}}-
+}}
+{{#if: {{{communities<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Communities&nbsp;served
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{communities}}}
+{{!}}-
+}}
+{{#if: {{{feeders<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Feeder&nbsp;schools
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{feeders}}}
+{{!}}-
+}}
+{{#if: {{{main feeder schools<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Feeder&nbsp;schools
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{main feeder schools}}}
+{{!}}-
+}}
+{{#if: {{{main feeder school for<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Feeder&nbsp;to
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{main feeder school for}}}
+{{!}}-
+}}
+{{#if: {{{information<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Information
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{information}}}
+{{!}}-
+}}
+{{#if: {{{free_label<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{free_label<includeonly>|Other</includeonly>}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{free{{#if:{{{free_text|}}}|_text|}}<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+{{#if: {{{free_label{{#if:{{{free_label_1|}}}|_|}}1<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{free_label{{#if:{{{free_label_1|}}}|_|}}1<includeonly>|Other</includeonly>}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{free_{{#if:{{{free_text1|}}}|text|}}1<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+{{#if: {{{free_label{{#if:{{{free_label_2|}}}|_|}}2<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{free_label{{#if:{{{free_label_2|}}}|_|}}2<includeonly>|Other</includeonly>}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{free_{{#if:{{{free_text2|}}}|text|}}2<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+{{#if: {{{free_label{{#if:{{{free_label_3|}}}|_|}}3<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{free_label{{#if:{{{free_label_3|}}}|_|}}3<includeonly>|Other</includeonly>}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{free_{{#if:{{{free_text3|}}}|text|}}3<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+{{#if: {{{free_label{{#if:{{{free_label_4|}}}|_|}}4<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{free_label{{#if:{{{free_label_4|}}}|_|}}4<includeonly>|Other</includeonly>}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{free_{{#if:{{{free_text4|}}}|text|}}4<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+{{#if: {{{free_label{{#if:{{{free_label_5|}}}|_|}}5<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} {{{free_label{{#if:{{{free_label_5|}}}|_|}}5<includeonly>|Other</includeonly>}}}
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} {{!}} {{{free_{{#if:{{{free_text5|}}}|text|}}5<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+{{#if: {{{footnotes<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} colspan="2" style="text-align: center;"{{!}} <small>{{{footnotes}}}</small>
+{{!}}-
+}}
+{{#if: {{{homepage<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Homepage
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} class="plainlinks" {{!}} {{{homepage}}}
+{{!}}-
+}}
+{{#if: {{{url<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Homepage
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} class="plainlinks" {{!}} {{{url}}}
+{{!}}-
+}}
+{{#if: {{{website<includeonly>|</includeonly>}}} |
+{{!}} bgcolor={{{bgcolor_label|#efefef}}} {{!}} Homepage
+{{!}} bgcolor={{{bgcolor_value|#f8f8ff}}} class="plainlinks" {{!}} {{{website}}}
+{{!}}-
+}}
+{{#if: {{{picture<includeonly>|</includeonly>}}} |
+{{!}} colspan="2" style="text-align: center; padding: 0.7em 0.8em 0.7em 0.8em;;" {{!}} {{{picture}}}{{#if:{{{image_caption<includeonly>|</includeonly>}}}|<small><br/>{{{image_caption}}}</small>}}
+{{!}}-
+{{#if: {{{picture2<includeonly>|</includeonly>}}} |
+{{!}} colspan="2" style="text-align: center; padding: 0.7em 0.8em 0.7em 0.8em;;" {{!}} {{{picture2}}}{{#if:{{{image_caption2<includeonly>|</includeonly>}}}|<small><br/>{{{image_caption2}}}</small>}}
+}}
+
+}}
+<!-- deprecated
+|-
+| bgcolor={{{bgcolor_label|#efefef}}} | Last&nbsp;updated
+| bgcolor={{{bgcolor_value|#f8f8ff}}} | {{{lastupdate}}}
+-->
+|}<noinclude>
+{{pp-semi-template|small=yes}}
+{{documentation}}
+</noinclude>
