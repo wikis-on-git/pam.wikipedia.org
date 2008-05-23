@@ -1,0 +1,59 @@
+{{Navbox
+|name       = Leonardo da Vinci
+|title      = [[Leonardo da Vinci]]
+|titlestyle = background:#E6C373
+|image  = [[Image:Leonardo self.jpg|75px]]
+|state  = {{#if:{{{show|}}}||autocollapse}}
+|above  = '''Key''': *Attributed (''[[Leonardo da Vinci#List of paintings|see here for details]]''){{·}}**Collaboration with [[Andrea del Verrocchio|Verrocchio]]{{·}}†Lost
+|abovestyle = background:#FFECBF
+|groupstyle = background:#FFECBF; text-align:center;
+|group1= Paintings
+|list1=
+
+'''Early works''':
+
+{{nowrap|†''[[Medusa (Leonardo da Vinci)|Medusa]]''{{·}}}}
+{{nowrap|*''[[Dreyfus Madonna]]'' (c. 1469){{·}}}}
+{{nowrap|**''[[The Baptism of Christ (Verrocchio)|The Baptism of Christ]]'' (1472–75){{·}}}}
+{{nowrap|''[[Annunciation (Leonardo)|The Annunciation]]'' (c.1475–80)}}
+
+'''Mature works''':
+
+{{nowrap|*''[[Ginevra de' Benci]]'' (1475){{·}}}}
+{{nowrap|*''[[Madonna of the Carnation|The Madonna of the Carnation]]'' (c. 1478–80){{·}}}}
+{{nowrap|*''[[The Benois Madonna|Benois Madonna]]'' (c.1478–80){{·}}''[[St. Jerome in the Wilderness]]'' (c.1480){{·}}}}
+{{nowrap|''[[Adoration of the Magi (Leonardo)|The Adoration of the Magi]]'' (1481){{·}}}}
+{{nowrap|''[[Virgin of the Rocks|The Virgin of the Rocks]]'' (c. 1483–86){{·}}}}
+{{nowrap|*''[[Lady with an Ermine]]'' (1488–90){{·}}}}
+{{nowrap|*''[[Portrait of a Musician]]'' (1490){{·}}}}
+{{nowrap|*''[[Madonna Litta]]'' (1490–91){{·}}}}
+{{nowrap|*''[[La Belle Ferronière|La belle ferronière]]'' (1495–98){{·}}}}
+{{nowrap|''[[The Last Supper (Leonardo)|The Last Supper]]'' (1498){{·}}}}
+{{nowrap|*''[[Madonna of the Yarnwinder]]'' (1501){{·}}}}
+{{nowrap|''[[Mona Lisa]]'' (1503–05/07){{·}}}}
+{{nowrap|''[[Virgin of the Rocks|The Virgin of the Rocks]]'' (c. 1505–08){{·}}}}
+{{nowrap|†''[[The Battle of Anghiari (painting)|The Battle of Anghiari]]'' (1505){{·}}}}
+{{nowrap|†''[[Leda and the Swan (Leonardo)|Leda and the Swan]]'' (c. 1508){{·}}}}
+{{nowrap|''[[The Virgin and Child with St. Anne]]'' (c. 1510){{·}}}}
+{{nowrap|''[[St. John the Baptist (Leonardo)|St. John the Baptist]]'' (1513–16){{·}}}}
+{{nowrap|*''[[Bacchus (Leonardo)|Bacchus]]'' (1515)}}
+
+'''Recent attributions''':
+
+{{nowrap|**''[[Tobias and the Angel (Verrocchio)|Tobias and the Angel]]'' (1470–80){{·}}}}
+{{nowrap|''[[The Holy Infants Embracing]]'' (c. 1486–90)}}
+
+|group2= Sculpture
+|list2= [[Sforza monument]] (unexecuted)
+|group3= Works on<br>paper
+|list3= ''[[Vitruvian Man]]'' (1492){{·}}{{nowrap|''[[The Virgin and Child with St Anne and St John the Baptist]]'' (c. 1499–1500)}}
+|group4= Manuscripts
+|list4= [[Codex Atlanticus]]{{·}}[[Codex Leicester]]{{·}}[[Codex Trivulzianus]]
+|group5= Inventions
+|list5= [[Leonardo's robot]]{{·}}[[Viola organista]]
+|belowstyle = background:#FFECBF
+|below = {{nowrap|[[Cultural depictions of Leonardo da Vinci]]{{·}}}}{{nowrap|[[Leonardo da Vinci - scientist and inventor]]{{·}}}}{{nowrap|[[Leonardo da Vinci's personal life]]}}
+}}<noinclude>
+[[Category:Artist (painter) templates|Leonardo da Vinci]]
+<!--[[Category:Scientist templates... Inventor templates... etc?-->
+</noinclude>
