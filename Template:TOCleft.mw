@@ -1,0 +1,6 @@
+{| cellspacing="0" cellpadding="0" style="clear: {{{clear|left}}}; margin-bottom: .5em; float: left; padding: .5em 1.4em .8em 0; background: none; width: {{{width|{{{1|auto}}}}}};" {{#if:{{{limit|}}}|class="toclimit-{{{limit}}}"}}
+| __TOC__
+|}<noinclude>
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
