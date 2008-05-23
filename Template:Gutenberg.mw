@@ -1,0 +1,95 @@
+<cite class="gutenberg" style="font-style:normal" {{
+  #if: {{{ref|}}}
+  |{{#ifeq:{{{ref}}}|none||id="{{{ref}}}"}}
+  |{{#if:{{{last|}}} | {{#if:{{{year|}}} | id="Reference-{{{last}}}-{{{year}}}" }} }}
+}}>{{
+  #if: {{{author|}}}{{{last|}}}
+  | {{
+    #if: {{{authorlink|}}}
+    | [[{{{authorlink}}}|{{
+      #if: {{{last|}}}
+      | {{{last}}}{{ #if: {{{first|}}} | , {{{first}}} }}
+      | {{{author}}}
+    }}]]
+    | {{
+      #if: {{{last|}}}
+      | {{{last}}}{{ #if: {{{first|}}} | , {{{first}}} }}
+      | {{{author}}}
+    }}
+  }}
+}}{{
+  #if: {{{author|}}}{{{last|}}}
+  | {{ #if: {{{coauthors|}}} | <nowiki>;</nowiki>&#32;{{{coauthors}}} }}
+}}{{
+  #if: {{{origdate|}}}
+  | &#32;<nowiki>[</nowiki>{{{origdate}}}]
+  | {{
+    #if: {{{origyear|}}}
+    | {{
+      #if: {{{origmonth|}}}
+      | &#32;<nowiki>[</nowiki>{{{origmonth}}} {{{origyear}}}]
+      | &#32;<nowiki>[</nowiki>{{{origyear}}}]
+    }}
+  }}
+}}{{
+  #if: {{{date|}}}
+  | &#32;({{{date}}})
+  | {{
+    #if: {{{year|}}}
+    | {{
+      #if: {{{month|}}}
+      | &#32;({{{month}}} {{{year}}})
+      | &#32;({{{year}}})
+    }}
+  }}
+}}{{ #if: {{{author|}}}{{{last|}}} | .
+}}{{
+  #if: {{{chapter|}}}
+  | &#32;“{{
+    #if: {{{chapterurl|}}}
+    | [{{{chapterurl}}} {{{chapter}}}]
+    | {{{chapter}}}
+}}”,}}{{
+  #if: {{{editor|}}}
+  | &#32;{{{editor}}}:
+}} <i>[http://www.gutenberg.org/etext/{{{1|{{{no}}}}}} ''{{{2|{{{name|{{PAGENAME}}}}}}}}'']</i>{{
+  #if: {{{format|}}} | &#32;({{{format}}})
+}}{{
+  #if: {{{others|}}} | , {{{others}}}
+}}{{
+  #if: {{{edition|}}} | , {{{edition}}}
+}}{{
+  #if: {{{series|}}} | , {{{series}}}
+}}{{
+  #if: {{{language|}}} | &#32;(in {{{language}}})
+}}{{
+  #if: {{{publisher|}}}
+  | {{#if: {{{format|}}}{{{others|}}}{{{edition|}}} | ,&#32; | .&#32; }}{{ 
+    #if: {{{location|}}} 
+    | {{{location}}}:&#32;
+  }}{{{publisher}}}
+}}{{
+  #if: {{{pages|}}} | ,&#32;{{{pages}}}
+}}{{
+  #if: {{{doi|}}} | . [[Digital object identifier|DOI]]:[http://dx.doi.org/{{{doi}}} {{{doi}}}]
+}}{{
+  #if: {{{id|}}} | . {{{id}}}
+}}{{
+  #if: {{{isbn|}}} | . ISBN {{{isbn}}}
+}}{{
+  #if: {{{oclc|}}} | . [[OCLC]] [http://worldcat.org/oclc/{{urlencode:{{{oclc}}}}} {{{oclc}}}]
+}}{{
+  #if: {{{accessdate|}}}
+  | . Retrieved on [[{{{accessdate}}}]]
+  | {{
+    #if: {{{accessyear|}}}
+    | . Retrieved {{
+      #if: {{{accessmonth|}}}
+      | on [[{{{accessmonth}}} {{{accessyear}}}]]
+      | during [[{{{accessyear}}}]]
+    }}
+  }}
+}}, available at [[Project Gutenberg]].{{ #if: {{{quote|}}} | &nbsp;“{{{quote}}}”
+}}</cite><noinclude>
+{{documentation}}
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
