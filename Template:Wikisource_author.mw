@@ -1,0 +1,12 @@
+<div class="infobox sisterproject">
+<div style="float: left;">[[Image:Wikisource-logo.svg|50px|none|Wikisource]]</div>
+<div style="margin-left: 60px;">Ing [[Wikisource]] atin  yang orihinal a obrang gewa nang o tungkul kang:
+<div style="margin-left: 10px;">'''''[[:s:Author:{{{1|{{PAGENAME}}}}}|{{{2|{{{1|{{PAGENAME}}}}}}}}]]'''''</div>
+</div>
+</div><noinclude>
+{{pp-template|small=yes}}
+[[Category:Wikisource link templates|Wikisource author]]
+[[az:Şablon:VikiMənbə yazıçı]]
+[[bg:Шаблон:Уикиизточник автор]]
+[[zh:Template:Wikisource author]]
+</noinclude>
