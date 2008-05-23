@@ -45,7 +45,7 @@
 }}}}
 |-valign=top
 {{#if:{{{domain|}}}|
-{{!}} Domain:
+{{!}} Sikluban:
 {{!}} {{{domain}}}<br><small>{{{domain_authority|}}}</small>}}
 |-valign=top
 {{#if:{{{superregnum|}}}|
@@ -149,7 +149,7 @@
 {{!}} {{{parvordo}}}<br><small>{{{parvordo_authority|}}}</small>}}
 |-valign=top
 {{#if:{{{zoodivisio|}}}|
-{{!}}  Division:
+{{!}}  Pangadake:
 {{!}} {{{zoodivisio}}}<br><small>{{{zoodivisio_authority|}}}</small>}}
 |-valign=top
 {{#if:{{{zoosectio|}}}|
@@ -169,7 +169,7 @@
 {{!}} {{{superfamilia}}}<br><small>{{{superfamilia_authority|}}}</small>}}
 |-valign=top
 {{#if:{{{familia|}}}|
-{{!}}  Family:
+{{!}}  Familia:
 {{!}} {{{familia}}}<br><small>{{{familia_authority|}}}</small>}}
 |-valign=top
 {{#if:{{{subfamilia|}}}|
