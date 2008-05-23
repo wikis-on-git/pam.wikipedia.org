@@ -1,0 +1,21 @@
+[[Image:wikisource-logo.svg|15px]] {{{1}}}.<noinclude>{{pp-template}}
+
+==Usage==
+
+: <tt><nowiki>{{ws | [[s: <wikisource link> | <wikisource article title>]] in <work>}}</nowiki></tt>
+
+===Example===
+: <tt><nowiki>{{ws |"[[s:Catholic Encyclopedia (1913)/The Knights Templars|The Knights Templars]]" in the 1913 ''Catholic Encyclopedia''}}</nowiki>
+</tt>
+
+would look like:
+
+:{{ws|"[[s:Catholic Encyclopedia (1913)/The Knights Templars|The Knights Templars]]" in the 1913 ''Catholic Encyclopedia''}}
+
+==See also==
+* {{tl|wikisource}} - to create the sidebox
+* {{tl|cite wikisource}}
+* {{tl|1911EB}} - For 1911 Encyclopaedia Britannica entries
+* {{tl|1913CE}} - For 1913 Catholic Encyclopedia entries
+[[Category:Wikisource link templates|Ws]]
+</noinclude>
