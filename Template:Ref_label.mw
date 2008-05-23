@@ -1,0 +1,10 @@
+<span class="reference"><sup  {{#ifeq:{{{noid}}}|noid||id="ref_{{{1}}}{{{3}}}"}}>[[#endnote_{{{1}}}{{{3}}}|[{{{2}}}]]]</sup></span><noinclude>
+{{pp-template}}
+{{Documentation|Template:Ref/doc}}
+[[Category:Citation templates|{{PAGENAME}}]]
+[[Category:Inline templates|{{PAGENAME}}]]
+[[hr:Predložak:Ref label]]
+[[sl:Predloga:Oznaka ref]]
+[[ja:Template:Ref label]]
+
+</noinclude>
