@@ -61,6 +61,125 @@ Ing '''Carreño''' metung yang balen king [[Autonomous Communidad]] ning [[Princ
 
 [[Image:Candás.jpg|thumb|250px|Mayayakit king Candás]]
 
+
+
+
+== Demografia==
+
+
+{| align="center" margin=13px"
+|- align="center"
+|
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.7)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.9)
+
+ImageSize  = width:800 height:400
+PlotArea   = left: 60 bottom: 30 top: 20 right: 20
+DateFormat = x.y
+Period     = from:0 till:15000
+TimeAxis   = orientation:vertical
+AlignBars  = late
+ScaleMajor = gridcolor:darkgrey increment:3000 start:0
+ScaleMinor = gridcolor:lightgrey increment:1500 start:0
+BackgroundColors = canvas:sfondo
+
+
+BarData=
+  bar: 1842 text: 1842
+  bar: 1860 text: 1860
+  bar: 1877 text: 1877
+  bar: 1887 text: 1887
+  bar: 1900 text: 1900
+  bar: 1910 text: 1910
+  bar: 1920 text: 1920
+  bar: 1930 text: 1930
+  bar: 1940 text: 1940
+  bar: 1950 text: 1950
+  bar: 1960 text: 1960
+  bar: 1970 text: 1970
+  bar: 1980 text: 1980
+  bar: 1990 text: 1990
+  bar: 2000 text: 2000
+  bar: 2001 text: 2001
+  bar: 2002 text: 2002
+  bar: 2003 text: 2003
+  bar: 2004 text: 2004
+  bar: 2005 text: 2005
+  bar: 2006 text: 2006
+  bar: 2007 text: 2007
+  bar: 2008 text: 2008
+  bar: 2009 text: 2009
+  bar: 2010 text: 2010
+
+PlotData=
+  color:barra width:20 align:center
+  bar: 1842 from:4982 till: 0
+  bar: 1860 from:6052 till: 0
+  bar: 1877 from:6271 till: 0
+  bar: 1887 from:7091 till: 0
+  bar: 1900 from:7533 till: 0
+  bar: 1910 from:8962 till: 0
+  bar: 1920 from:8876 till: 0
+  bar: 1930 from:10256 till: 0
+  bar: 1940 from:10009 till: 0
+  bar: 1950 from:9931 till: 0
+  bar: 1960 from:11128 till: 0
+  bar: 1970 from:11529 till: 0
+  bar: 1980 from:11470 till: 0
+  bar: 1990 from:11009 till: 0
+  bar: 2000 from:10557 till: 0
+  bar: 2001 from:10567 till: 0
+  bar: 2002 from:10527 till: 0
+  bar: 2003 from:10431 till: 0
+  bar: 2004 from:10435 till: 0
+  bar: 2005 from:10716 till: 0
+  bar: 2006 from:10842 till: 0
+  bar: 2007 from:10826 till: 0
+  bar: 2008 from:0000 till: 0
+  bar: 2009 from:0000 till: 0
+  bar: 2010 from:0000 till: 0
+
+PlotData=
+  bar: 1842 at: 4982 fontsize:S text: 4.982 shift:(0,5)
+  bar: 1860 at: 6052 fontsize:S text: 6.052 shift:(0,5)
+  bar: 1877 at: 6271 fontsize:S text: 6.271 shift:(0,5)
+  bar: 1887 at: 7091 fontsize:S text: 7.091 shift:(0,5)
+  bar: 1900 at: 7533 fontsize:S text: 7.533 shift:(0,5)
+  bar: 1910 at: 8962 fontsize:S text: 8.962 shift:(0,5)
+  bar: 1920 at: 8876 fontsize:S text: 8.876 shift:(0,5)
+  bar: 1930 at: 10256 fontsize:S text: 10.256 shift:(0,5)
+  bar: 1940 at: 10009 fontsize:S text: 10.009 shift:(0,5)
+  bar: 1950 at: 9931 fontsize:S text: 9.931 shift:(0,5)
+  bar: 1960 at: 11128 fontsize:S text: 11.128 shift:(0,5)
+  bar: 1970 at: 11529 fontsize:S text: 11.529 shift:(0,5)
+  bar: 1980 at: 11470 fontsize:S text: 11.470 shift:(0,5)
+  bar: 1990 at: 11009 fontsize:S text: 11.009 shift:(0,5)
+  bar: 2000 at: 10557 fontsize:S text: 10.557 shift:(0,5)
+  bar: 2001 at: 10567 fontsize:S text: 10.567 shift:(0,5)
+  bar: 2002 at: 10527 fontsize:S text: 10,527 shift:(0,5)
+  bar: 2003 at: 10431 fontsize:S text: 10.431 shift:(0,5)
+  bar: 2004 at: 10435 fontsize:S text: 10.435 shift:(0,5)
+  bar: 2005 at: 10716 fontsize:S text: 10.716 shift:(0,5)
+  bar: 2006 at: 10842 fontsize:S text: 10.842 shift:(0,5)
+  bar: 2007 at: 10826 fontsize:S text: 10.826 shift:(0,5)
+  bar: 2008 at: 0 fontsize:S text: . shift:(0,5)
+  bar: 2009 at: 0 fontsize:S text: . shift:(0,5)
+  bar: 2010 at: 0 fontsize:S text: . shift:(0,5)
+
+
+
+
+</timeline>
+|-
+| <center><small>ref: [http://www.ine.es/ Instituto Nacional de Estadística de España] - grafics for Wikipedia</small></center>
+|}
+[[Image:Candás.jpg|thumb|250px|View over Candás]]
+
+
 ==Suglung Palual==
 *[http://www.ayto-carreno.es/ Ayuntamiento de Carreño]
 *[http://candas.com.es/ Diario de noticias e información sobre Candás y Carreño] {{es}}
