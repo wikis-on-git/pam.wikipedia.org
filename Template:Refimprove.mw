@@ -1,7 +1,7 @@
 <!-- {{Refimprove|{{{1|}}}|date={{{date|}}}}} start -->{{ambox
 | type  = content
 | image = [[Image:Question book-3.svg|50px]]
-| text  = '''This {{{1|article}}} needs additional [[Wikipedia:Citing sources|citations]] for [[Wikipedia:Verifiability|verification]].'''<br /><small>Please help [{{fullurl:{{FULLPAGENAME}}|action=edit}} improve this article] by adding [[Wikipedia:Reliable sources|reliable references]]. {{#if:{{{talk|}}}|See [[{{TALKPAGENAME}}|talk page]] for details.|}} Unsourced material may be [[Template:Fact|challenged]] and removed.{{#if:{{{date|}}}|'' ({{{date}}})''}}</small>
+| text  = '''Ining {{{1|artikulu}}} mangailangan yang karagdagan a [[Wikipedia:Citing sources|dalerayan]] a [[Wikipedia:Verifiability|maliaring magpatutu kaya]].'''<br /><small>Sana makasaup kang [{{fullurl:{{FULLPAGENAME}}|action=edit}} magpasanting kaniti] kapamilatan ning [[Wikipedia:Reliable sources|pamandagdag  dalerayan]]. {{#if:{{{talk|}}}|Lon me ing [[{{TALKPAGENAME}}|pamisabi-sabi]] para kareng detalle.|}} Deng pakasulat a e malino pikuanan maliari lang [[Template:Fact|salungatan]] ampong ilako.{{#if:{{{date|}}}|'' ({{{date}}})''}}</small>
 }}<includeonly>{{#if:{{{date|}}}|{{{category|[[Category:Articles needing additional references from {{{date|}}}]]}}}|{{{category|[[Category:Articles needing additional references]]}}}}}{{#if:{{NAMESPACE}}||{{#if:{{{date|}}}|{{#ifexist:Category:Articles needing additional references from {{{date}}}||[[Category:Articles with invalid date parameter in template]]}}|}}}}</includeonly><!-- {{Refimprove}} end --><noinclude>
 {{pp-template|small=yes}}
 {{template doc}}
