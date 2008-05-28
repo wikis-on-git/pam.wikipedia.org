@@ -1,0 +1,50 @@
+{| class="infobox" style="width:25em; text-align:left; font-size:90%;"
+|-
+!colspan="2" style="background:{{infobox colors|Technology}}; padding:0.25em 0 0.33em; text-align:center; font-size:larger;"| {{{name}}}
+|-
+{{#if: {{{image<includeonly>|</includeonly>}}} |
+{{!}}colspan="2" style="text-align:center; padding-bottom:0.25em;"{{!}} [[Image:{{{image}}}|{{{image size|288}}}px]]<!--
+--><div style="font-size:90%;">{{{caption<includeonly>|</includeonly>}}}</div>
+}}
+|-
+{{#if: {{{other_name<includeonly>|</includeonly>}}} |
+! Aliwang&nbsp;lagiu
+{{!}} {{{other_name}}}
+}}
+|-
+{{#if: {{{classification<includeonly>|</includeonly>}}} |
+! Pamitinduk-tinduk (Classification)
+{{!}} {{{classification}}}
+}}
+|-
+{{#if: {{{types<includeonly>|</includeonly>}}} |
+! Uri
+{{!}} {{{types}}}
+}}
+|-
+{{#if: {{{used_with<includeonly>|</includeonly>}}} |
+! Gagamitan ya kayabe ning
+{{!}} {{{used_with}}}
+}}
+|-
+{{#if: {{{inventor<includeonly>|</includeonly>}}} |
+! Menimbentu
+{{!}} {{{inventor}}}
+{{!}}-
+}}
+|-
+{{#if: {{{manufacturer<includeonly>|</includeonly>}}} |
+! Gagawa
+{{!}} {{{manufacturer}}}
+}}
+|-
+{{#if: {{{model<includeonly>|</includeonly>}}} |
+! Modelu
+{{!}} {{{model}}}
+}}
+|-
+{{#if: {{{related<includeonly>|</includeonly>}}} |
+! Makaugne
+{{!}} {{{related}}}
+}}
+|}<noinclude>{{documentation}}</noinclude>
