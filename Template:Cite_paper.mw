@@ -1,0 +1,42 @@
+<includeonly>{{#if: {{{title|}}}
+  |{{
+  #if: {{{author|}}}{{{last|}}}
+  | {{
+    #if: {{{authorlink|}}}
+    | [[{{{authorlink}}}|{{
+      #if: {{{last|}}}
+      | {{{last}}}{{ #if: {{{first|}}} | , {{{first}}} }}
+      | {{{author}}}
+    }}]]
+    | {{
+      #if: {{{last|}}}
+      | {{{last}}}{{ #if: {{{first|}}} | , {{{first}}} }}
+      | {{{author}}}
+    }}
+  }}{{#if: {{{coauthors|}}} 
+    | <nowiki>;</nowiki>&#32;{{{coauthors}}} 
+    }}
+  }}{{#if: {{{date|}}}
+    |&#32;({{#ifeq:{{#time:Y-m-d|{{{date}}}}}|{{{date}}}|[[{{{date}}}]]|{{{date}}}}}). 
+    |. 
+  }}{{#if: {{{url|}}}
+    |&#32;{{#if: {{{curly|}}}|“|"}}''[{{{url}}} {{{title}}}]''{{#if: {{{curly|}}}|”|"}}
+    |&#32;{{#if: {{{curly|}}}|“|"}}''{{{title}}}''{{#if: {{{curly|}}}|”|"}}
+  }}{{#if: {{{format|}}}
+    | &#32;({{{format}}})
+  }}. {{#if: {{{version|}}}
+    |{{{version}}}.&#32;
+  }}{{#if: {{{pages|}}}
+    | &#32;{{{pages}}}
+  }}{{#if: {{{publisher|}}}
+    |{{{publisher}}}.&#32;
+  }}{{#if:{{{id|}}}
+  | {{{id}}}
+  }}{{#if: {{{accessdate|}}}
+    |&#32;Retrieved on [[{{{accessdate}}}]].
+  }}
+  |You must specify '''''title = ''''' when using {{[[Template:cite paper|cite paper]]}}{{#if:{{{quote|}}}|&nbsp;“{{{quote}}}”}}.{{#if: {{NAMESPACE}}|| [[Category:Articles with broken citations]]}}
+}}</includeonly><noinclude>
+{{pp-template|small=yes}}
+{{documentation}}
+</noinclude>
