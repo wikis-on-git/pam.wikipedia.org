@@ -8,43 +8,43 @@
 }}
 |-
 {{#if: {{{other_name<includeonly>|</includeonly>}}} |
-! Other&nbsp;names
+! Aliwang&nbsp;lagiu
 {{!}} {{{other_name}}}
 }}
 |-
 {{#if: {{{classification<includeonly>|</includeonly>}}} |
-! Classification
+! Pamitinduk-tinduk (Classification)
 {{!}} {{{classification}}}
 }}
 |-
 {{#if: {{{types<includeonly>|</includeonly>}}} |
-! Types
+! Uri
 {{!}} {{{types}}}
 }}
 |-
 {{#if: {{{used_with<includeonly>|</includeonly>}}} |
-! Used with
+! Gagamitan ya kayabe ning
 {{!}} {{{used_with}}}
 }}
 |-
 {{#if: {{{inventor<includeonly>|</includeonly>}}} |
-! Inventor
+! Menimbentu
 {{!}} {{{inventor}}}
 {{!}}-
 }}
 |-
 {{#if: {{{manufacturer<includeonly>|</includeonly>}}} |
-! Manufacturer
+! Gagawa
 {{!}} {{{manufacturer}}}
 }}
 |-
 {{#if: {{{model<includeonly>|</includeonly>}}} |
-! Model
+! Modelu
 {{!}} {{{model}}}
 }}
 |-
 {{#if: {{{related<includeonly>|</includeonly>}}} |
-! Related
+! Makaugne
 {{!}} {{{related}}}
 }}
 |-
@@ -70,19 +70,19 @@
 </pre>
 </div>
 
-== Usage ==
-;name:Name of the tool
-;image:An image illustrating the item 
-;caption:Caption for the image above
-;other_name:Other name(s) used for this item
-;classification:General type, e.g. hand tool, power tool, garden tool, etc.
-;uses:What is this item used for, e.g. cutting, concentrating force, guiding, protecting, seizing and holding, etc.
-;types:Different types of this tool, e.g. hammer = ball-peen hammer, cross-peen hammer, etc.
-;used_with:Tools that this one is used in conjunction with, e.g. hammer + chisel, punc, etc.
-;inventor:Inventor(s) of the item (if any)
-;manufacturer:If this is an item specific to a particular manufacturer, put the name here
-;model:if this is a particular manufacturer's model, put the model name or number here
-;related:related tools, e.g. hammer = axe, maul, etc.
+== Pamangamit ==
+;name:Lagiu ning kasangkapan
+;image:Metung a larawan ning kasangkapan 
+;caption:Caption para king larawan king babo
+;other_name:Aliwang lagiu para king bageng iti
+;classification:Pangkabilugan a uri, al., kasangkapang gamat, kasangkapang di kurienti, kasangkapan king pamananaman, atlwp.
+;uses:Nu ya magagamit iti, al. pamamutut, pamanipun king sikanan/puersa, pamang-giya, proteksiun/pamangambil, panalan, atlwp.
+;types:Miyayaliwang uri ning kasangkapan a iti, al. martiliu = martiliung di kabra, martiliung di bola, atlwp.
+;used_with:Kasangkapan a magagamit kayabe na niti, al. martiliu + pat, pamusbus, atlwp.
+;inventor:Menimbentu king kasangkapan (nung atin)
+;manufacturer:Nung ating partikular a kumpaniang gagawa kaniti, ibili mu keni
+;model:Nung iti metung yang partikular a modelu ning gagawa, ibili mu keni 
+;related:Makaugneng kasangkapan, al. martiliu = palakul, palatso, atlwp.
 
 [[Category:Applied science and technology infobox templates|{{PAGENAME}}]]<!--probably needs focusing-->
 </noinclude>
