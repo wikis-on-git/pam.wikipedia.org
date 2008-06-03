@@ -1,0 +1,24 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Croatia
+| flag alias = Flag of Croatia.svg
+| flag alias-1941 = Flag of Croatia Ustasa.svg
+| flag alias-1947 = Flag of SR Croatia.svg
+| flag alias-1990 = Flag of Croatia (1990).svg
+| flag alias-naval = Naval Ensign of Croatia.svg
+| link alias-naval = Croatian Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1941
+| var2 = 1947
+| var3 = 1990
+| redir1 = HRV
+| redir2 = CRO
+</noinclude>
+}}<noinclude>
+[[af:Sjabloon:Landdata Kroasië]]
+[[ms:Templat:Country data Croatia]]
+[[sl:Predloga:Podatki države Hrvaška]]
+</noinclude>
