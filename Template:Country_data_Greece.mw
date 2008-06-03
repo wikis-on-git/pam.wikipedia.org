@@ -1,0 +1,27 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Greece
+| flag alias = Flag of Greece.svg
+| flag alias-old = Flag of Greece (1828-1978).svg
+| flag alias-1970 = Flag of Greece (1970-1975).PNG
+| flag alias-royal = Hellenic Kingdom Flag 1935.svg
+| flag alias-otto = State Flag of the Kingdom of Greece (1833-1862).png
+| flag alias-royalnavy = Hellenic Naval Ensign 1935.svg
+| link alias-naval = Hellenic Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = old
+| var2 = 1970
+| var3 = royal
+| var4 = otto
+| var5 = royalnavy
+| redir1 = GRC
+| redir2 = GRE
+</noinclude>
+}}<noinclude>
+[[af:Sjabloon:Landdata Griekeland]]
+[[ml:ഫലകം:Country data Greece]]
+[[sl:Predloga:Podatki države Grčija]]
+</noinclude>
