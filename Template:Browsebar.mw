@@ -1,15 +1,32 @@
-<div id="browsebar" style="margin-top:-3px; margin-bottom:0.2em; text-align: center; font-size: 98%;"><!--The following should link fundamental portals:--> 
-[[Portal:Kalalangan|Kalalangan (Arts)]]{{·}}
-[[Portal:Biography|Biografia]]{{·}}
-[[Portal:Geografia|Geografia]]{{·}} 
-[[Portal:Amlat|Amlat]]{{·}}
-[[Portal:Matematiku|Matematiku]]{{·}}
-[[Portal:Philosophy|Philosophy]]{{·}}
-[[Portal:Science|Science]]{{·}}
-[[Portal:Aguman|Aguman]]{{·}}
-[[Portal:Technology|Technology]]
+<div id="browsebar" style="margin:-3px auto 0.2em; text-align: center; font-size: 98%;"><!--The following should link to sections of Portal:Portals --> 
+[[Portal:Kalamnan/Portals#Kalinangan at kalalangan|Kalinangan]]{{·}}
+[[Portal:Kalamnan/Portals#Geografia ampong lugal|Geografia]]{{·}}
+[[Portal:Kalamnan/Portals#Kabulasan at kalusugan|Kabulasan]]{{·}}
+[[Portal:Kalamnan/Portals#Amlat at mengapalyari|Amlat]]{{·}}
+[[Portal:Kalamnan/Portals#Mathematicu at usutng ukul|Mathematicu]]{{·}}
+[[Portal:Kalamnan/Portals#Natural and physical sciences|Nature]]{{·}}
+[[Portal:Kalamnan/Portals#Philosophy and thinking|Philosofia]]{{·}}
+[[Portal:Kalamnan/Portals#Kasalpantayanan at kapanualan tuntunan |Kasalpantyanan]]{{·}}
+[[Portal:Kalamnan/Portals#Social sciences ampong aguman|Aguman]]{{·}}
+[[Portal:Kalamnan/Portals#Technology and applied sciences|Technology]]
 </div><noinclude>
 
+{{pp-semi-template|small=yes}}
+
+<!--Categories-->
+[[Category:Bar-style templates|Browsebar]]
+
+<!--Other languages-->
+[[br:Patrom:Barrenn-glask]]
+[[en:Template:Browsebar]]
+[[lb:Template:Index]]
+[[nl:Sjabloon:Browsebar]]
+[[ru:Шаблон:Индекс]]
+[[sl:Predloga:Browsebar]]
+[[zh:Template:Browsebar]]
+[[zh-classical:Template:Browsebar]]
+[[fr:Template:Browsebar]]
+</noinclude
 
 <!--Categories-->
 [[Category:Wikipedia content navigation templates|Browsebar]]
