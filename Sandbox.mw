@@ -1,35 +1,23 @@
-* [[Category:Asia]]
-Deng subcategory
-Deng makatuking subkategoriya ing kayabe kaniting kategoriya 20 subkategoriya, ibat king 20 kabilugan. 
-
-A
-[+] [[Category:Africa]]
-[+] [[Category:Asia]]
-B
-[+] Bangsa agpang keng Continenti
-[+] Bangsa king Aslagang Asia
-C
-[+] Continenti
-D
-[+] Deng Bangsa D katuglung.
-[+] Ding Bangsa king Maulingalbugang Asia
-E
-[+] Europa
-F
-[+] Filipinas
-G
-[+] Geografia agpang keng bangsa
-[+] Grupung Walu
-K
-[+] Kalibudtang Aslagang Bangsa
-M
-[+] Malapit Aslagang Bangsa M katuglung.
-[+] Mauling America
-[+] Mauling Americanung Bangsa
-[+] Mauling Aslagang Asia
-[+] Maulingalbugang Asia
-P
-[+] Pangulung America
-[+] Pulung Bangsa
-U
-[+] United States
+{{Drugbox|
+| image = Propranolol-2D-skeletal.png
+| image2 = Propranolol-3D-balls.png
+| IUPAC_name = 1-(isopropylamino)-<br />3-(naphthalen-1-yloxy)propan-2-ol
+| ATC_prefix=C07
+| ATC_suffix=AA05
+| PubChem=4946
+| DrugBank=APRD00194
+| CAS_number = 525-66-6
+| C=16 | H=21 | N=1 | O=2
+| molecular_weight = 259.34 g/mol
+| bioavailability = 26%
+| metabolism = [[hepatic]] (extensive)
+| elimination_half-life = 4-5 hours
+| excretion = [[renal]] <1%
+| pregnancy_AU = C
+| pregnancy_US = C
+| pregnancy_category = 
+| legal_AU = S4
+| legal_UK = POM
+| legal_US = Rx-only
+| routes_of_administration = oral, [[intravenous|iv]]
+}}
