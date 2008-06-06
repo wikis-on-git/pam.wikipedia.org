@@ -1,0 +1,8 @@
+[[{{{atom_name}}}|<span style="color: {{{atom_color}}}; font-weight: bold;">{{{atom_abb}}}</span>]]{{#ifeq:{{{atom_number}}}|1||<sub>{{{atom_number}}}</sub>}}<noinclude>
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+[[ar:قالب:OrganicBox atom]]
+[[ko:틀:OrganicBox atom]]
+[[ml:ഫലകം:OrganicBox atom]]
+[[ja:Template:OrganicBox atom]]
+[[ru:Шаблон:OrganicBox atom]]
+</noinclude>
