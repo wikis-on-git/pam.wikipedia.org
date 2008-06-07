@@ -1,0 +1,63 @@
+<noinclude>{{Documentation subpage}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+These templates are designed to be used in a [[Help:Table|table]] to make a cell with text in that cell, with an appropriately coloured background.  They are commonly used in [[:Category:Comparisons|comparison tables]].
+
+For example, <code>{{tl|yes}}</code> makes a cell with a green background; the text in the cell is taken from the [[Help:Template#Parameters|template parameter]] and defaults to "Yes".
+
+If you find a table cell template that does not take a parameter and you want to be able to change the text in the cell, '''do not''' duplicate the template; instead, edit the template and change the text to a default parameter substitution.  For example, if a template's text is <code>Dropped</code>, change that to <code><nowiki>{{{1|Dropped}}}</nowiki></code>.
+
+===Templates in this series===
+:{| class="wikitable" |
+! width=15% | CSS class<ref name="table-cell-templates-table-css">The CSS class of table cell templates may be referenced in a [[m:help:User style|user stylesheet]] to change appearance.</ref> !! Templates !! Preview 1 !! Preview 2 !! Preview 3
+|-
+| <tt>table-rh</tt> || {{tl|rh}}<ref name="table-cell-templates-table-after+pipe">Does not take a parameter; the content should be placed after the template call, separated by a pipe (|) character.</ref> | Row header || {{rh}} | Row header || ||
+|-
+| <tt>table-yes</tt> || {{tl|yes}}, {{tlp|yes|<nowiki>Alternate [[text]]</nowiki>}} || {{yes}} || {{yes|Alternate [[text]]}} ||
+|-
+| <tt>table-no</tt> || {{tl|no}} || {{no}} || ||
+|-
+| <tt>table-yes2</tt> || {{tl|yes2}}<ref name="table-cell-templates-table-after"/> Text, {{tl|won}}, {{tlp|won|5}} || {{yes2}} Text || {{won}} || {{won|5}}
+|-
+| <tt>table-no2</tt> || {{tl|no2}}<ref name="table-cell-templates-table-after">Does not take a parameter; the content should be placed after the template call.</ref> Text, {{tl|nom}}, {{tlp|nom|5}} || {{no2}} Text ||{{nom}} || {{nom|5}}
+|-
+| <tt>table-partial</tt> || {{tl|partial}}, {{tl|Yes-No}}, {{tl|some}} || {{partial}} || {{Yes-No}} || {{some}}
+|-
+| <tt>table-any</tt> || {{tl|any}} || {{any}} || ||
+|-
+| <tt>table-na</tt> || {{tl|n/a}} || {{n/a}} || ||
+|-
+| <tt>table-unknown</tt> || {{tl|dunno}}, {{tl|unk}} || {{dunno}} || {{unk}} ||
+|-
+| <tt>table-depends</tt> || {{tl|depends}} || {{depends}} || ||
+|-
+| <tt>table-included</tt> || {{tl|included}} || {{included}} || ||
+|-
+| <tt>table-dropped</tt> || {{tl|dropped}}, {{tl|terminated}} || {{dropped}} || {{terminated}} ||
+|-
+| <tt>table-beta</tt> || {{tl|beta}}, {{t1|table-experimental}} || {{beta}} || {{table-experimental}} ||
+|-
+| <tt>table-free</tt> || {{tl|free}} || {{free}} || ||
+|-
+| <tt>table-nonfree</tt> || {{tl|nonfree}}<ref name="table-cell-templates-table-after"/> <nowiki>[[US$]]3.14</nowiki> || {{nonfree}} [[United States dollar|US$]]3.14 || ||
+|-
+| ''unstyled'' || {{tl|incorrect}} || {{incorrect}} || ||
+|-
+| ''unstyled'' || {{tl|No result}} || {{No result}} || ||
+|-
+| ''unstyled'' || {{tl|?}}<ref name="table-cell-templates-table-noparam">Does not take a parameter; not really a table cell template at all, but here for completeness</ref> || {{?}} || ||
+|}
+
+===Notes===
+{{reflist}}
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Table cell templates]]
+</includeonly>
+<noinclude>
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[ca:Plantilla:Plantilles per les cel·les de les taules]]
+[[ja:Template:Table cell templates]]
+[[ko:틀:모름]]
+[[zh:Template:Table cell templates]]
+</noinclude>
