@@ -1,0 +1,86 @@
+<includeonly>{| class="infobox vevent" style="width: 20em;"
+|-
+! colspan="3" scope="col" class="summary" style="background: khaki;" | “{{{Name}}}”
+|-
+| colspan="3" style="text-align:center;" | {{#if:{{{Cover|}}}|
+{{#ifeq:{{{Cover}}}|none| |[[Image:{{{Cover}}}|{{min|200|{{{Cover size|}}}}}px|{{#ifeq:{{{Border|}}}|yes|border{{!}}}}“{{{Name}}}” cover]]}}| }}
+{{#if:{{{Caption|}}} | <div style="font-size: 0.8em; line-height: 1.4em;">{{{Caption}}}</div>
+}}
+|-
+! colspan="3" scope="col" class="description" style="background: khaki;" | [[Single (music)|Tunggal]] by {{{Artist}}}{{#if:{{{Album|}}}{{{from Album|}}} | <br>from the album ''{{{Album|}}}{{{from Album|}}}''}}
+|-
+{{#if:{{{A-side|}}} |
+! scope="row" style="width: 5.2em; text-align: left;" {{!}} [[A-side and B-side|A-dane]]
+{{!}} colspan="2" style="width: 14em;" {{!}} {{{A-side}}}
+{{!}}-
+}}
+{{#if:{{{B-side|}}} |
+! scope="row" style="width: 5.2em; text-align: left;" {{!}} [[A-side and B-side|B-dane]]
+{{!}} colspan="2" style="width: 14em;" {{!}} {{{B-side}}}
+{{!}}-
+}}
+{{#if:{{{Released|}}} |
+! scope="row" style="width: 5.2em; text-align: left;" {{!}} Linual
+{{!}} colspan="2" style="width: 14em;" {{!}} {{{Released}}}
+{{!}}-
+}}
+{{#if:{{{Format|}}} |
+! scope="row" style="width: 5.2em; text-align: left;" {{!}} Balangkas
+{{!}} colspan="2" style="width: 14em;" {{!}} {{{Format}}}
+{{!}}-
+}}
+{{#if:{{{Recorded|}}} |
+! scope="row" style="width: 5.2em; text-align: left;" {{!}} Mitala
+{{!}} colspan="2" style="width: 14em;" {{!}} {{{Recorded}}}
+{{!}}-
+}}
+{{#if:{{{Genre|}}} |
+! scope="row" style="width: 5.2em; text-align: left;" {{!}} [[Music genre|Genre]]
+{{!}} colspan="2" style="width: 14em;" {{!}} {{{Genre}}}
+{{!}}-
+}}
+{{#if:{{{Length|}}} |
+! scope="row" style="width: 5.2em; text-align: left;" {{!}} Kaba
+{{!}} colspan="2" style="width: 14em;" {{!}} {{{Length}}}
+{{!}}-
+}}
+{{#if:{{{Label|}}} |
+! scope="row" style="width: 5.2em; text-align: left;" {{!}} [[Record label|Tatak]]
+{{!}} colspan="2" style="width: 14em;" {{!}} {{{Label}}}
+{{!}}-
+}}
+{{#if:{{{Writer|}}} |
+! scope="row" style="width: 5.2em; text-align: left;" {{!}} [[Songwriter|Talasulat]]
+{{!}} colspan="2" style="width: 14em;" {{!}} {{{Writer|}}}
+{{!}}-
+}}
+{{#if:{{{Producer|}}} |
+! scope="row" style="width: 5.2em; text-align: left;" {{!}} [[Record producer|Talapalual]]
+{{!}} colspan="2" style="width: 14em;" {{!}} {{{Producer}}}
+{{!}}-
+}}
+{{#ifeq: {{{Clip requested?|}}} |yes|[[Category:Song articles missing an audio sample]]|}}
+|-
+{{#if:{{{Certification|}}} |
+! scope="row" style="width: 5.2em; text-align: left;" {{!}} [[Music recording sales certification|Certification]]
+{{!}} colspan="2" style="width: 14em;" {{!}} {{{Certification}}}
+{{!}}-
+}}
+{{#if:{{{Last single|}}}{{{Next single|}}} |
+! colspan="3" scope="col" style="background: khaki;" {{!}} {{#if:{{{Chronology|}}} | {{{Chronology}}} | {{{Artist}}}&#32;singles}}&#32;chronology
+{{!}}-
+{{!}} colspan="3" {{!}}
+{{{!}} cellspacing="0" cellpadding="0" width="100%" style="background: transparent;"
+{{!}}- style="text-align: center; font-size: 0.8em; line-height: 1.4em;"
+{{!}} style="width: 33%; vertical-align: top; padding: 0.2em 0.1em 0.2em 0;" {{!}} {{{Last single|}}}
+{{!}} style="width: 33%; vertical-align: top; padding: 0.2em 0.1em 0.2em 0.1em;" {{!}} {{{This single|}}}
+{{!}} style="width: 33%; vertical-align: top; padding: 0.2em 0 0.2em 0.1em;" {{!}} {{{Next single|}}}
+{{!}}}
+{{!}}-
+}}
+{{{Misc|}}}
+|}{{#if:{{{Chart position|}}}|[[Category:Single articles with infobox field chart position]]}}</includeonly><noinclude>
+{{#ifeq:{{FULLPAGENAME}}|Template:Infobox Single/sandbox|{{Template sandbox notice}}|{{documentation}}}}
+{{#ifeq:{{FULLPAGENAME}}|Template:Infobox Single|{{pp-semi-template|small=yes}}}}<!--
+Add cats and interwikis to the /doc subpage, not here!
+--></noinclude>
