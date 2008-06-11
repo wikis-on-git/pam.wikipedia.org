@@ -1,0 +1,197 @@
+{{Documentation subpage}}
+
+'''{{Tl|Navbox Musical artist}}''' is the standard [[Wikipedia:Navigational templates|navigational template]] for [[musician]] articles, and is within the purview of [[Wikipedia:WikiProject Musicians|WikiProject Musicians]]. Please discuss major changes on the {{Talk|talk page}} before making them. See also [[Wikipedia:WikiProject Musicians/Navbox]] for more information.
+
+== Usage ==
+Please remove the parameters that are left blank.
+
+<pre>{{Navbox Musical artist
+| name       = {{subst:PAGENAME}}
+| state      = 
+| title      = 
+| background = 
+| above      = 
+
+| group1     = 
+| list1      = 
+
+| group2     = 
+| list2      = 
+
+ ...
+
+| group12    = 
+| list12     = 
+
+| below      = 
+}}</pre>
+
+== Parameters ==
+=== Mandatory ===
+:; ''name''
+:: The name of the template, which is needed for the "v{{·}} d{{·}} e" ("view{{·}} discuss{{·}} edit") links to work properly on all pages where the template is used. You can enter <code><nowiki>{{subst:PAGENAME}}</nowiki></code> for this value as a shortcut.
+
+:; ''title''
+:: Text that appears centered in the top row of the table. It is usually the template's topic, i.e. a succinct description of the body contents. This should be a single line, but if a second line is needed, use <code><nowiki>{{-}}</nowiki></code> to ensure proper centering.
+
+: '''''list<sub>n</sub>'''''
+::  (i.e. ''list1'', ''list2'', etc.) The body of the template, usually a list of links. Format is inline, although the text can be entered on separate lines if the entire list is enclosed within <code><nowiki><div> </div></nowiki></code>.  At least one ''list'' parameter is required; each additional ''list'' is displayed in a separate row of the table. Each ''list<sub>n</sub>'' may be preceded by a corresponding ''group<sub>n</sub>'' parameter, if provided (see below).
+
+:; ''background''
+::  Use one of the seven categories from [[Template:Infobox Musical artist#Background]].
+
+<div style="margin-left:4em">
+{{Template:Infobox Musical artist/doc/type}}
+</div>
+
+=== Optional ===
+==== Cells ====
+:; ''group<sub>n</sub>''
+:: (i.e. ''group1'', ''group2'', etc.) If specified, text appears in a cell displayed to the left of ''list<sub>n</sub>''.  Use these fields to provide label a for ''list<sub>n</sub>'', such as "Studio albums", "Films", "Former members", etc.
+
+:; ''above''
+:: A full-width cell displayed between the titlebar and first group/list, i.e. ''above'' the template's body (groups, lists and image). In a template without an image, ''above'' behaves in the same way as the ''list1'' parameter without the ''group1'' parameter.
+
+:; ''below''
+:: A full-width cell displayed ''below'' the template's body (groups, lists and image).
+
+==== Other ====
+:; ''state''
+:: Defaults to <code>autocollapse</code>. If set to <code>collapsed</code>, the navbox will always start out in a collapsed state. If set to blank or anything other than <code>autocollapse</code> or <code>collapsed</code>, the navbox will always start out in an expanded state. A navbox with <code>autocollapse</code> will start out collapsed if there are two or more tables on the same page that use <tt>collapsible</tt>. For the technically minded, see [[MediaWiki:Common.js]].
+
+:; ''navbar''
+:: Defaults to <code>Tnavbar</code>. If set to <code>plain</code>, the {{Tnavbar|Navbox|mini=1}} links on the left side of the titlebar will not be displayed.
+
+== Examples ==
+
+{{Tl|Navbox}} is used to build this template. {{Tl|Navbox}} uses the {{tl|nowraplinks}} CSS class thus links do not line break in this template. These examples then also uses {{Tl|·}} and <code>&amp;nbsp;</code> (where needed) to prevent the names breaking across. If there are non-linked portions of text that need to be controlled for wrapping use the {{Tl|nowrap begin}} + {{Tl|·wrap}} + {{Tl|nowrap end}} templates. If a small space between groups is desired leave an empty line between them.
+
+=== Band ===
+<pre style="overflow: auto;">
+{{Navbox Musical artist
+| name       = Led Zeppelin
+| title      = [[Led Zeppelin]]
+| background = group_or_band
+| above      = '''[[Jimmy Page]]'''{{·}} '''[[Robert Plant]]'''{{·}} '''[[John Paul Jones (musician)|John Paul Jones]]'''{{·}} '''[[John Bonham]]'''
+
+| group1     = Studio albums
+| list1      = ''[[Led Zeppelin (album)|Led Zeppelin]]''{{·}} ''[[Led Zeppelin II]]''{{·}} ''[[Led Zeppelin III]]''{{·}} [[Image:Zoso.svg|55px|Led Zeppelin IV]]&amp;nbsp;(''[[Led Zeppelin IV]]''){{·}} ''[[Houses of the Holy]]''{{·}} ''[[Physical Graffiti]]''{{·}} ''[[Presence]]''{{·}} ''[[In Through the Out Door]]''
+
+| group2     = Live albums
+| list2      = ''[[The Song Remains the Same (album)|The Song Remains the Same]]''{{·}} ''[[BBC Sessions (Led Zeppelin album)|BBC Sessions]]''{{·}} ''[[How the West Was Won (Led Zeppelin album)|How the West Was Won]]''
+
+| group3     = Compilations
+| list3      = ''[[Coda (album)|Coda]]''{{·}} ''[[Led Zeppelin (box set)|Box Set]]''{{·}} ''[[Profiled]]''{{·}} ''[[Led Zeppelin Remasters|Remasters]]''{{·}} ''[[Led Zeppelin Box Set, Vol. 2|Box Set 2]]''{{·}} ''[[The Complete Studio Recordings (Led Zeppelin)|Complete Studio Recordings]]''{{·}} ''[[Early Days: Best of Led Zeppelin Volume One]]''{{·}} ''[[Latter Days: Best of Led Zeppelin Volume Two]]''{{·}} ''[[Mothership (album)|Mothership]]''
+
+| group4     = [[Led Zeppelin#Filmography|Films]]
+| list4      = ''[[The Song Remains the Same (film)|The Song Remains the Same]]''{{·}} ''[[Led Zeppelin (DVD)|Led Zeppelin DVD]]''
+
+| group5     = [[:Category:Led Zeppelin|Related articles]]
+| list5      = [[Led Zeppelin discography|Discography]]{{·}} [[Peter Grant (music manager)|Peter Grant]]{{·}} [[Richard Cole]]{{·}} [[Swan Song Records]]{{·}} [[The Yardbirds]]{{·}} [[XYZ (band)|XYZ]]{{·}} [[The Firm (band)|The Firm]]{{·}} [[Page and Plant]]{{·}} [[Strange Sensation]]{{·}} [[Led Zeppelin bootleg recordings|Bootlegs]]{{·}} [[Led Zeppelin concerts|Concerts]]{{·}} [[:Category:Led Zeppelin songs|Songs]]
+}}
+</pre>
+
+{{Navbox Musical artist
+| name       = Led Zeppelin
+| title      = [[Led Zeppelin]]
+| background = group_or_band
+| above      = '''[[Jimmy Page]]'''{{·}} '''[[Robert Plant]]'''{{·}} '''[[John Paul Jones (musician)|John Paul Jones]]'''{{·}} '''[[John Bonham]]'''
+
+| group1     = Studio albums
+| list1      = ''[[Led Zeppelin (album)|Led Zeppelin]]''{{·}} ''[[Led Zeppelin II]]''{{·}} ''[[Led Zeppelin III]]''{{·}} [[Image:Zoso.svg|55px|Led Zeppelin IV]]&nbsp;(''[[Led Zeppelin IV]]''){{·}} ''[[Houses of the Holy]]''{{·}} ''[[Physical Graffiti]]''{{·}} ''[[Presence]]''{{·}} ''[[In Through the Out Door]]''
+
+| group2     = Live albums
+| list2      = ''[[The Song Remains the Same (album)|The Song Remains the Same]]''{{·}} ''[[BBC Sessions (Led Zeppelin album)|BBC Sessions]]''{{·}} ''[[How the West Was Won (Led Zeppelin album)|How the West Was Won]]''
+
+| group3     = Compilations
+| list3      = ''[[Coda (album)|Coda]]''{{·}} ''[[Led Zeppelin (box set)|Box Set]]''{{·}} ''[[Profiled]]''{{·}} ''[[Led Zeppelin Remasters|Remasters]]''{{·}} ''[[Led Zeppelin Box Set, Vol. 2|Box Set 2]]''{{·}} ''[[The Complete Studio Recordings (Led Zeppelin)|Complete Studio Recordings]]''{{·}} ''[[Early Days: Best of Led Zeppelin Volume One]]''{{·}} ''[[Latter Days: Best of Led Zeppelin Volume Two]]''{{·}} ''[[Mothership (album)|Mothership]]''
+
+| group4     = [[Led Zeppelin#Filmography|Films]]
+| list4      = ''[[The Song Remains the Same (film)|The Song Remains the Same]]''{{·}} ''[[Led Zeppelin (DVD)|Led Zeppelin DVD]]''
+
+| group5     = [[:Category:Led Zeppelin|Related articles]]
+| list5      = [[Led Zeppelin discography|Discography]]{{·}} [[Peter Grant (music manager)|Peter Grant]]{{·}} [[Richard Cole]]{{·}} [[Swan Song Records]]{{·}} [[The Yardbirds]]{{·}} [[XYZ (band)|XYZ]]{{·}} [[The Firm (band)|The Firm]]{{·}} [[Page and Plant]]{{·}} [[Strange Sensation]]{{·}} [[Led Zeppelin bootleg recordings|Bootlegs]]{{·}} [[Led Zeppelin concerts|Concerts]]{{·}} [[:Category:Led Zeppelin songs|Songs]]
+}}
+
+=== Musician ===
+<pre style="overflow: auto;">
+{{Navbox Musical artist
+| name       = Bob Dylan
+| title      = [[Bob Dylan]]
+| background = solo_singer
+
+| group1     = Studio albums
+| list1      = ''[[Bob Dylan (album)|Bob Dylan]]''{{·}} ''[[The Freewheelin' Bob Dylan]]''{{·}} ''[[The Times They Are a-Changin']]''{{·}} ''[[Another Side of Bob Dylan]]''{{·}} ''[[Bringing It All Back Home]]''{{·}} ''[[Highway 61 Revisited]]''{{·}} ''[[Blonde on Blonde]]''{{·}} ''[[John Wesley Harding (album)|John Wesley Harding]]''{{·}} ''[[Nashville Skyline]]''{{·}} ''[[Self Portrait (Bob Dylan album)|Self Portrait]]''{{·}} ''[[New Morning]]''{{·}} ''[[Pat Garrett & Billy the Kid (album)|Pat Garrett & Billy the Kid]]''{{·}} ''[[Dylan (1973 album)|Dylan]]''{{·}} ''[[Planet Waves]]''{{·}} ''[[Blood on the Tracks]]''{{·}} ''[[The Basement Tapes]]''{{·}} ''[[Desire (album)|Desire]]''{{·}} ''[[Street Legal (album)|Street Legal]]''{{·}} ''[[Slow Train Coming]]''{{·}} ''[[Saved (album)|Saved]]''{{·}} ''[[Shot of Love]]''{{·}} ''[[Infidels]]''{{·}} ''[[Empire Burlesque]]''{{·}} ''[[Knocked Out Loaded]]''{{·}} ''[[Down in the Groove]]''{{·}} ''[[Oh Mercy]]''{{·}} ''[[Under the Red Sky]]''{{·}} ''[[Good as I Been to You]]''{{·}} ''[[World Gone Wrong]]''{{·}} ''[[Time out of Mind]]''{{·}} ''[["Love and Theft"]]''{{·}} ''[[Modern Times (Bob Dylan album)|Modern Times]]''
+
+| group2     = Live albums
+| list2      = ''[[The Concert for Bangla Desh (album)|The Concert for Bangla Desh]]''{{·}} ''[[Before the Flood]]''{{·}} ''[[Hard Rain (album)|Hard Rain]]''{{·}} ''[[Bob Dylan at Budokan]]''{{·}} ''[[Real Live]]''{{·}} ''[[Dylan & The Dead]]''{{·}} ''[[The 30th Anniversary Concert Celebration]]''{{·}} ''[[MTV Unplugged (Bob Dylan album)|MTV Unplugged]]''{{·}} ''[[Live at The Gaslight 1962]]''{{·}} ''[[Live at Carnegie Hall 1963]]''
+
+| group3     = [[Traveling Wilburys]]
+| list3      = ''[[Traveling Wilburys Vol. 1]]''{{·}} ''[[Traveling Wilburys Vol. 3]]''
+
+| group4     = Compilations
+| list4      = ''[[Bob Dylan's Greatest Hits]]''{{·}} ''[[Bob Dylan's Greatest Hits Vol. II]]''{{·}} ''[[Masterpieces]]''{{·}} ''[[Biograph (album)|Biograph]]''{{·}} ''[[Bob Dylan's Greatest Hits Volume 3]]''{{·}} ''[[The Essential Bob Dylan]]''{{·}} ''[[Dylan (2007 album)|Dylan]]''
+
+| group5     = The Bootleg Series
+| list5      = ''[[The Bootleg Series Volumes 1–3 (Rare & Unreleased) 1961–1991|Volumes 1–3 (Rare & Unreleased) 1961–1991]]''{{·}} ''[[The Bootleg Series Vol. 4: Bob Dylan Live 1966, The "Royal Albert Hall" Concert|Vol. 4: Bob Dylan Live 1966, The "Royal Albert Hall" Concert]]''{{·}} ''[[The Bootleg Series Vol. 5: Bob Dylan Live 1975, The Rolling Thunder Revue|Vol. 5: Bob Dylan Live 1975, The Rolling Thunder Revue]]''{{·}} ''[[The Bootleg Series Vol. 6: Bob Dylan Live 1964, Concert at Philharmonic Hall|Vol. 6: Bob Dylan Live 1964, Concert at Philharmonic Hall]]''{{·}} ''[[The Bootleg Series Vol. 7: No Direction Home: The Soundtrack|Vol. 7: No Direction Home: The Soundtrack]]''
+
+| group6     = Films
+| list6      = ''[[Dont Look Back]]''{{·}} ''[[Eat the Document]]''{{·}} ''[[Pat Garrett and Billy the Kid]]''{{·}} ''[[Renaldo and Clara]]''{{·}} ''[[Hearts of Fire]]''{{·}} ''[[Masked and Anonymous]]''{{·}} ''[[No Direction Home]]''
+
+| group7     = Writings
+| list7      = ''[[Tarantula (book)|Tarantula]]''{{·}} ''[[Writings and Drawings]]''{{·}} ''[[Lyrics: 1962–1985]]''{{·}} ''[[Drawn Blank]]''{{·}} ''[[Chronicles, Vol. 1]]''{{·}} ''[[Lyrics: 1962–2001]]
+
+| group8     = Related articles
+| list8      = [[Bob Dylan discography|Discography]]{{·}} [[:Category:Bob Dylan albums|Albums]]{{·}} [[:Category:Bob Dylan songs|Songs]]{{·}} [[:Category:Bob Dylan|Related topics]]
+}}
+</pre>
+
+{{Navbox Musical artist
+| name       = Bob Dylan
+| title      = [[Bob Dylan]]
+| background = solo_singer
+
+| group1     = Studio albums
+| list1      = ''[[Bob Dylan (album)|Bob Dylan]]''{{·}} ''[[The Freewheelin' Bob Dylan]]''{{·}} ''[[The Times They Are a-Changin']]''{{·}} ''[[Another Side of Bob Dylan]]''{{·}} ''[[Bringing It All Back Home]]''{{·}} ''[[Highway 61 Revisited]]''{{·}} ''[[Blonde on Blonde]]''{{·}} ''[[John Wesley Harding (album)|John Wesley Harding]]''{{·}} ''[[Nashville Skyline]]''{{·}} ''[[Self Portrait (Bob Dylan album)|Self Portrait]]''{{·}} ''[[New Morning]]''{{·}} ''[[Pat Garrett & Billy the Kid (album)|Pat Garrett & Billy the Kid]]''{{·}} ''[[Dylan (1973 album)|Dylan]]''{{·}} ''[[Planet Waves]]''{{·}} ''[[Blood on the Tracks]]''{{·}} ''[[The Basement Tapes]]''{{·}} ''[[Desire (album)|Desire]]''{{·}} ''[[Street Legal (album)|Street Legal]]''{{·}} ''[[Slow Train Coming]]''{{·}} ''[[Saved (album)|Saved]]''{{·}} ''[[Shot of Love]]''{{·}} ''[[Infidels]]''{{·}} ''[[Empire Burlesque]]''{{·}} ''[[Knocked Out Loaded]]''{{·}} ''[[Down in the Groove]]''{{·}} ''[[Oh Mercy]]''{{·}} ''[[Under the Red Sky]]''{{·}} ''[[Good as I Been to You]]''{{·}} ''[[World Gone Wrong]]''{{·}} ''[[Time out of Mind]]''{{·}} ''[["Love and Theft"]]''{{·}} ''[[Modern Times (Bob Dylan album)|Modern Times]]''
+
+| group2     = Live albums
+| list2      = ''[[The Concert for Bangla Desh (album)|The Concert for Bangla Desh]]''{{·}} ''[[Before the Flood]]''{{·}} ''[[Hard Rain (album)|Hard Rain]]''{{·}} ''[[Bob Dylan at Budokan]]''{{·}} ''[[Real Live]]''{{·}} ''[[Dylan & The Dead]]''{{·}} ''[[The 30th Anniversary Concert Celebration]]''{{·}} ''[[MTV Unplugged (Bob Dylan album)|MTV Unplugged]]''{{·}} ''[[Live at The Gaslight 1962]]''{{·}} ''[[Live at Carnegie Hall 1963]]''
+
+| group3     = [[Traveling Wilburys]]
+| list3      = ''[[Traveling Wilburys Vol. 1]]''{{·}} ''[[Traveling Wilburys Vol. 3]]''
+
+| group4     = Compilations
+| list4      = ''[[Bob Dylan's Greatest Hits]]''{{·}} ''[[Bob Dylan's Greatest Hits Vol. II]]''{{·}} ''[[Masterpieces]]''{{·}} ''[[Biograph (album)|Biograph]]''{{·}} ''[[Bob Dylan's Greatest Hits Volume 3]]''{{·}} ''[[The Essential Bob Dylan]]''{{·}} ''[[Dylan (2007 album)|Dylan]]''
+
+| group5     = The Bootleg Series
+| list5      = ''[[The Bootleg Series Volumes 1–3 (Rare & Unreleased) 1961–1991|Volumes 1–3 (Rare & Unreleased) 1961–1991]]''{{·}} ''[[The Bootleg Series Vol. 4: Bob Dylan Live 1966, The "Royal Albert Hall" Concert|Vol. 4: Bob Dylan Live 1966, The "Royal Albert Hall" Concert]]''{{·}} ''[[The Bootleg Series Vol. 5: Bob Dylan Live 1975, The Rolling Thunder Revue|Vol. 5: Bob Dylan Live 1975, The Rolling Thunder Revue]]''{{·}} ''[[The Bootleg Series Vol. 6: Bob Dylan Live 1964, Concert at Philharmonic Hall|Vol. 6: Bob Dylan Live 1964, Concert at Philharmonic Hall]]''{{·}} ''[[The Bootleg Series Vol. 7: No Direction Home: The Soundtrack|Vol. 7: No Direction Home: The Soundtrack]]''
+
+| group6     = Films
+| list6      = ''[[Dont Look Back]]''{{·}} ''[[Eat the Document]]''{{·}} ''[[Pat Garrett and Billy the Kid]]''{{·}} ''[[Renaldo and Clara]]''{{·}} ''[[Hearts of Fire]]''{{·}} ''[[Masked and Anonymous]]''{{·}} ''[[No Direction Home]]''
+
+| group7     = Writings
+| list7      = ''[[Tarantula (book)|Tarantula]]''{{·}} ''[[Writings and Drawings]]''{{·}} ''[[Lyrics: 1962–1985]]''{{·}} ''[[Drawn Blank]]''{{·}} ''[[Chronicles, Vol. 1]]''{{·}} ''[[Lyrics: 1962–2001]]
+
+| group8     = Related articles
+| list8      = [[Bob Dylan discography|Discography]]{{·}} [[:Category:Bob Dylan albums|Albums]]{{·}} [[:Category:Bob Dylan songs|Songs]]{{·}} [[:Category:Bob Dylan|Related topics]]
+}}
+
+== See also ==
+
+* {{tn|·}} and {{tn|•}} - The dots and bullets usually used in the link lists in the navboxes.
+* {{tl|Navbox}} - Standard Navbox.
+* [[Wikipedia:Line break handling]] – The how-to guide about how to handle word wraps (line breaks) on Wikipedia, such as the wrapping of the link lists used in navboxes.
+
+
+{{Navigational templates}}
+
+<includeonly>
+<!--Categories-->
+[[Category:Music templates| ]]
+[[Category:WikiProject Musicians templates|{{PAGENAME}}]]
+[[Category:Wikipedia metatemplates|{{PAGENAME}}]]
+
+[[ja:Template:Navbox Musical artist]]
+[[pt:Predefinição:Rodapé-bandas]]
+[[ru:Шаблон:Музыкант]]
+</includeonly>
