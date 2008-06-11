@@ -36,7 +36,7 @@
   |<tr><td>'''banuang gugunyat'''</td><td colspan="2">{{{Years_active}}}</td></tr>
 }}<!--
 -->{{#if:{{{Label|}}}
-  |<tr><td style="padding-right: 1em;">'''[[:en:Record label|Label]]'''</td><td colspan="2">{{{Label}}}</td></tr>
+  |<tr><td style="padding-right: 1em;">'''[[:en:Record label|Tatak]]'''</td><td colspan="2">{{{Label}}}</td></tr>
 }}<!--
 -->{{#if:{{{Associated_acts|}}}
   |<tr><td textalign="top" style="padding-right: 1em;">'''Kaugne'''</td><td colspan="2">{{{Associated_acts}}}</td></tr>
