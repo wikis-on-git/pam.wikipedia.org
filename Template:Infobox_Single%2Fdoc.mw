@@ -1,0 +1,106 @@
+{{documentation subpage|[[Template:Infobox Single]]|[[Template:Infobox Single/doc]]}}{{#ifeq:{{FULLPAGENAME}}|Wikipedia:WikiProject Songs||{{for|non-single songs or B-sides|Template:Infobox Song}}}}
+====Code====
+{{Infobox Single <!-- See Wikipedia:WikiProject_Songs -->
+| Name           = Country House
+| Cover          = 
+| Artist         = [[Blur (band)|Blur]]
+| Album          = [[The Great Escape (album)|The Great Escape]]
+| Released       = {{Start date|1995|08|14}} <small>([[United Kingdom|UK]])</small>
+| Format         = [[Gramophone record|7"]], [[cassette single|cassette]], [[CD single|CD]]
+| Recorded       = 1995
+| Genre          = [[Britpop]]
+| Length         = 3:57
+| Label          = [[Food Records|Food]], [[EMI]]
+| Producer       = [[Stephen Street]]
+| Audio sample?  = 
+| Last single    = "[[To the End]]"<br />(1994)
+| This single    = "'''Country House'''"<br />(1995)
+| Next single    = "[[The Universal (song)|The Universal]]"<br />(1995)
+}}
+
+<pre style="overflow:auto;">
+{{Infobox Single <!-- See Wikipedia:WikiProject_Songs -->
+| Name           = 
+| Cover          = 
+| Cover size     = 
+| Border         = 
+| Caption        = 
+| Artist         = 
+| Album          = 
+| A-side         = 
+| B-side         = 
+| Released       = 
+| Format         = 
+| Recorded       = 
+| Genre          = 
+| Length         = 
+| Label          = 
+| Writer         = 
+| Producer       = 
+| Audio sample?  = 
+| Certification  = 
+| Last single    = 
+| This single    = 
+| Next single    = 
+| Misc           = 
+}}
+</pre>
+
+====Details====
+Try to fill in as many of the details as you can. If you can't find out some details, leave the section blank or with "???" to make it easier for someone else to fill in later.
+
+;Name : This field should contain the name of the single. This field is mandatory.
+;Cover : Upload a copy of the single cover (under [[fair use]]—use the tag "<nowiki>{{albumcover}}</nowiki>"). Ideally the image should be 200px wide. Enter the file name only into the field: <code><nowiki><Image Name>.jpg</nowiki></code>.
+;Border : Type "yes" in this field to place a 1px border around the single's cover.
+;Artist : This field should contain the name of the artist. This field is mandatory.
+;A-side : This field should only be used if there is a record title distinct from the A-side.
+;Released : This field should refer to the <em>earliest</em> known date, using a ''single'' occurrence of {{tl|Start date}} as <nowiki>{{Start date|YYYY|MM|DD}}</nowiki>, for example "<nowiki>{{Start date|2007|7|31}}</nowiki>". (Use "<nowiki>{{Start date|YYYY|MM}}</nowiki>" if only year and month are known, or "<nowiki>{{Start date|YYYY}}</nowiki>" for just a year).
+;Recorded : This field should include details on where and when the song was recorded. 
+;Length : The length should be formatted as mm:ss.
+;Label : This field should refer to the label on which the single/album was originally released. Where significantly different versions have been released (featuring alternate track listings) e.g. U.S. vs. UK, the later release date and/or record label should be mentioned in the article. Drop words like "Records" from the end of the label's name (e.g. use <nowiki>[[Universal Records|Universal]]</nowiki> rather than <nowiki>[[Universal Records]]</nowiki>).
+;Producer : The producer is not necessarily the same as the "Artist" field.
+;Misc : This field allows you to provide additional infobox data (additional chronologies using {{tl|Extra chronology 2}} or {{tl|Extra album cover 2}} for example).
+
+====Chronology====
+The chronology section should link to the previous single on the left and the next single on the right. Songs should be ordered based on the first release dates of their official singles.
+
+* For ''first'' singles the left box (the "<TT>Last single=</TT>" field) should be left blank.
+* For ''latest'' singles, the right box (the "<TT>Next single=</TT>" field) should be left blank.
+
+Wikipedia's [[Wikipedia:Manual of Style (dates and numbers)#Date formatting|date style guidelines]] recommend that years should not be linked within the chronology section.
+
+*''Note: album cover images should NOT be used in this section as they do not meet Wikipedia fair use requirements.''
+
+====Examples====
+Here are some examples of articles using the infoboxes:
+
+* "[[Country House (song)|Country House]]"
+* "[[I Want to Hold Your Hand]]"
+* "[[Smells Like Teen Spirit]]"
+
+====See also====
+*{{template|Infobox Standard}}
+{{#ifeq:{{FULLPAGENAME}}|Wikipedia:WikiProject Songs||
+====Microformat====
+{{UF-hcal}}}}<includeonly>{{#ifeq:{{FULLPAGENAME}}|Template:Infobox Single|
+<!-- categories and interwiki links -->
+[[Category:Music infobox templates|Single]]
+[[Category:Templates using ParserFunctions]]
+[[Category:WikiProject Songs templates]]
+
+[[ca:Plantilla:Infobox Single]]
+[[da:Skabelon:Infoboks single]]
+[[es:Plantilla:Single]]
+[[hu:Sablon:Infobox kislemez]]
+[[ja:Template:Infobox Single]]
+[[nl:Sjabloon:Infobox Single]]
+[[pt:predefinição:Info single]]
+[[id:Templat:Infobox single]]
+[[mk:Шаблон:Инфокутија Сингл]]
+[[ro:Format:Infobox Single]]
+[[fi:Malline:Musiikkisingle]]
+[[sv:Mall:Infobox singel]]
+[[th:แม่แบบ:กล่องข้อมูล ซิงเกิล]]
+[[uk:Шаблон:Сингл]]
+[[zh:Template:Infobox_Single]]
+}}</includeonly>
