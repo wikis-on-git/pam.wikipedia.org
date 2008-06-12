@@ -1,5 +1,4 @@
-{| class="infobox" style="text-align: left; width: 23em; font-size: 90%;"
-! colspan="2" style="text-align: center"|'''{{{name|{{PAGENAME}}}}}'''
+{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right"|'''{{{name|{{PAGENAME}}}}}'''
 |-
 {{#if:{{{icon|}}}|
 {{!}} colspan="2" style="text-align: center;" {{!}} {{{icon}}}
