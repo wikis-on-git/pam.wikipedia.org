@@ -1,0 +1,92 @@
+{{ infobox file format
+| name         = Windows Bitmap
+| extension    = .bmp or .dib
+| mime         = image/x-ms-bmp</tt> (unofficial)<tt>
+| type code    = <tt>'BMP '</tt>
+| uniform type = com.microsoft.bmp 
+| genre        = [[Raster graphics]]
+}}
+
+Ing '''BMP''' o '''BMP file format''', a ausan da mu namang '''bitmap''' o '''DIB file format''' (para ''device-independent bitmap''), metung yang [[image file format]] a magagamit ba lang isimpan o isinup deng larawan a digital, lalu na kareng operating system a [[Microsoft Windows]] ampong [[OS/2]].
+
+Dakal la reng  [[graphical user interface]] a gagamit bitmap kareng karelang built-in graphics subsystems;<ref>{{cite book | title = Cross-Platform GUI Programming with Wxwidgets | author = Julian Smart, Stefan Csomor, and Kevin Hock | url = http://books.google.com/books?id=CyMsvtgnq0QC&pg=PA265&dq=bitmap+pixmap+gui&as_brr=3&ei=4SjwRrTpHYSipgL63NS3BA&sig=4_ev_R-Xs8tXCVONCaiJEnFLtI0 | publisher = Prentice Hall | year = 2006 | isbn = 0131473816 }}</ref> alimbawa, king [[Graphics Device Interface|GDI]] subsystem da reng platform a Microsoft Windows ampong OS/2, nung nu ing partikular a format a magagamit ya pin ing ''Windows and OS/2 bitmap file format'', a keraklan dirinan dang lagiu ning [[file extension]] ning <code>.BMP</code> o <code>.DIB</code>. 
+
+==Pamagsimpan kareng pixel (Pixel storage)==
+
+Kareng simpan a BMP a e makasiksik (uncompressed BMP files), at dakal pang aliwang file format a [[bitmap]], misisimpan la reng [[pixel]] da reng larawan (image pixels) a maki [[color depth]] a 1, 4, 8, 16, 24, o 32 bit balang pixel (bits per pixel). Den namang larawan a 8 bits o mas ditak, maliari la king [[grayscale]] o [[indexed color]]. Maliari yang isimpan ing metung a [[alpha channel]] (para king [[transparency (graphic)|transparency]]) king aliwang simpan o file, nung nu ne kawangis ning larawan a grayscale, o king kapat a channel a manalili kareng larawan a 24-bit king 32 bits per pixel.
+
+Deng simpan a bitmap a [[image compression|e makasiksik]] (anti ing BMP), misna la karagul kesa kareng file format a makasiksik o compressed (king sanu man kareng miyayaliwang paralan) para king pareung larawan. Alimbawa, ing [[:Image:Wikipedia-logo.png|Wikipedia logo]] a 1058×1058, a maki dagul a manga 287.65 [[kilobyte|KB]] king [[Portable Network Graphics|PNG]] format, 3358 [[kilobyte|KB]] ya nung metung yang 24-bit a BMP file. Keraklan, e la bage king pamanalis king [[w:Internet}Aptas]] (Internet) o kareng [[w:Digital media|media]].a mangabagal o limitadu king agiu rang dalan.   
+
+Paka-ayus la kareng dane (rows) deng bit a magdala kareng bitmap pixel. Dependi king color depth, gumamit yang e kumulang king '''''n''/8''' bytes (''n'' ing bit depth, uling ing metung a byte katumbas ya king walung bit). Maliari yang tantian ing dagul ning BMP file a   n-bit (2<sup>''n''</sup> colors), kayabe ne ing epektu ning pamagumpisa ning balang kataya king angganan a 32-bit, anti kaniti:
+
+:<math>\mbox{rowsize} = 4 \cdot \Big\lfloor\frac {(n \cdot \mbox{width}) + 31}{32}\Big\rfloor</math>, nung nu ing floor function, bibie ne ing least integer a e lati king argument; a ya pin ing bilang da reng dword a 32-bit nung nu ya maliaring ipalub ing metung a dane da reng ''n''-bit pixel; parakalan (multiply) meng makatapat iti, at akua me ing bilang da reng byte.
+
+: <math>\mbox{filesize} \approx 54 + 4 \cdot 2^n + \mbox{rowsize} \cdot \mbox{height}</math>, 
+nung nu ing ''tas'' (''height'') ampo ing ''lapad'' (''width'') masusukad la kareng [[pixel]].
+
+Ketang formula king babo, ing '''54''' kasindagul ne ning [[Header (information technology)|header]] king pkabaluan a Windows V3 BMP version (14-byte BMP file header plus 40-byte DIB V3 header); ating aliwang header version a mas maragul o malati kesa kanita. At ing <math>4 \cdot 2^n</math>  kasindagul ne ning color [[Palette (computing)|palette]]; metung yang tantia ing dagul a ini, uling  <math>3 \cdot 2^n</math> bytes ya ing dagul ning color palette king OS/2 V1 version. Den namang aliwang version, dependi ing pamituldu (pamag-''define'') da king bilang da reng kuleng kailangan ning larawan. Mapaliaring mas ditak la reti kesa king <math>2^n</math>.<ref name=DIBhelp/> Bukud mung deng simpan a maki walu o mas ditak a bits per pixel ing gagamit palette; alimbawa, para kareng bitmap a 16-bit (o mas matas), idayu ya itang dakeng tungkul king palette king pamag-karkula:
+
+:<math>\mbox{filesize} \approx 54 + \mbox{rowsize} \cdot \mbox{height} </math>
+
+== Pamangamit king format a BMP ==
+
+Uling simpli ya ing file format a BMP, uling balu reng balu deng gagamit king Windows ampo reng aliwa, uling dakal a [[w:documentation|misusulat]] tungkul kaniti, at alang makaing pigaganakan a patent, metung yang maralas magagamit a format, a akikilala da reng image processing program ibat kareng dakal a operating system.    
+
+Lipat ning mangaragul la reng simpan a BMP uling ala lang nanumang pangasiksik o compression, maliari nong isiksikdeng dakal a simpan a BMP kapamilatan da reng algorithm a maki [[lossless data compression]], alimbawa ing [[ZIP (file format)|ZIP]], uling maki ulit-ulit la o redundant a data deti.
+
+== Deng format a makaugne ==
+{{main|Image file formats}}
+
+Kayawig ne ning BMP ing [[X Window System]], a maki [[X Bitmap|XBM]] format para kareng larawan a [[black-and-white]], ampong [[X PixMap|XPM]] (''pixelmap'') para kareng larawan a maki kule. Atin muring miyayaliwang format a "raw" o e meprosesu, a mag-save king raw [[data]] a yalang aliwang impormasiun. Magagamit la murin deng format a [[Portable Pixmap]] (PPM) ampong [[Truevision TGA]], oneng e la masiadung magagamit, o gagamit da la mu para kareng espesial a sangkan. Alimbawa, maliari yang magdalang impormasiun tungkul king transparency ing TGA.
+
+Dakal la pa reng aliwang bitmap file format a magagamit da, oneng e ro gagamitan deti deng keraklan.<ref>{{cite web | url = http://www.file-extensions.org/filetype/extensions/name/Bitmap+image/
+ | title = List of bitmap file types | work = Search File-Extensions.org}}</ref>
+
+== Lon la murin deti ==
+
+* [[Comparison of graphics file formats]]
+* [[Microsoft Paint]], a built-in Windows bitmap editor
+
+== Dalerayan ==
+
+{{reflist}}
+
+== Suglung palual ==
+
+* [http://atlc.sourceforge.net/bmp.html#_toc381201084 For a table view of the bitmap file format] at sourceforge
+* [http://www.digicamsoft.com/bmp/bmp.html Bitmap File Structure]
+* [http://www.wotsit.org/list.asp?search=bmp Wotsit.org's entry on the BMP format]
+* [http://www.herdsoft.com/ti/davincie/imex3j8i.htm An introduction to DIBs (Device Independent Bitmaps)]
+* [http://wvnvaxa.wvnet.edu/vmswww/bmp.html Example BMP images with various internal formats]
+* [http://www.file-extensions.org/search/?searchstring=bitmap Bitmap entries at File-extensons.org]
+
+[[Category:Graphics file formats]]
+[[Category:Microsoft Windows multimedia technology]]
+
+{{Compression Formats}}
+
+[[bg:BMP]]
+[[ca:BMP]]
+[[cs:BMP]]
+[[de:Windows Bitmap]]
+[[en:BMP file format]]
+[[es:Windows bitmap]]
+[[fr:Windows bitmap]]
+[[gl:BMP]]
+[[ko:BMP 파일 포맷]]
+[[id:Bitmap]]
+[[it:Windows bitmap]]
+[[ka:BMP]]
+[[hu:BMP]]
+[[nl:BMP (bestandsindeling)]]
+[[ja:Windows bitmap]]
+[[no:Windows Bitmap]]
+[[pl:BMP (format)]]
+[[pt:Device Independent Bitmap]]
+[[ru:BMP]]
+[[sk:BMP (formát)]]
+[[fi:BMP (tiedostomuoto)]]
+[[sv:BMP]]
+[[vi:BMP]]
+[[uk:BMP]]
+[[zh:BMP]]
