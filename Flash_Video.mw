@@ -1,0 +1,41 @@
+{{Infobox file format
+| name = Flash Video
+| icon = [[Image:FlashVideo.png|64px|Official FLV icon from Adobe Systems]]
+| extension = .flv, .f4v, .f4p, .f4a, .f4b
+| mime = video/x-flv, video/mp4, video/x-m4v, audio/mp4a-latm, video/3gpp, video/quicktime, audio/mp4
+| type code =
+| uniform type =
+| owner = [[Adobe Systems]] (originally developed by [[Macromedia]])
+| genre = [[media container]]
+| container for =
+| contained by =
+| extended from =
+| extended to =
+| standard =
+}}
+
+Ing '''Flash Video''' o '''FLV''' lagiu ne ning metung a file format a gagamitan king pamagdalang video kapamilatan ning Internet kapamilatan ning [[Adobe Systems|Adobe]] [[Adobe Flash Player|Flash Player]] (a sadiang mayayaus a [[Macromedia]] Flash Player) versions 6–10. Angga king version 9 update 2 ning Flash Player, ing Flash Video mangabaldugan yang file format a ating makibandi (proprietary file format), a maki extension a FLV. Susuportan ne ning pekabayung pamipalual ning Flash Player ing [[H.264]] video ampo ing [[HE-AAC]] audio. Maliari muring ilangkap (embed) kareng simpan a [[SWF]] ing laman a Flash Video. Kayabe la kareng pikabaluan a gagamit king format a Flash Video deng [[YouTube]], [[Google Video]], [[Reuters|Reuters.com]], [[Yahoo! Video]], ampong dakal a kumpaniang mamalita king telebisiun, kareng karelang website.
+
+Maliari yang alben ing Flash Video kareng dakal a operating system, kapamilatan ning maleparan pangakalat a Adobe Flash Player ampong [[web browser]] [[plugin]], o metung kareng mapilang third-party program anti reng [[MPlayer]], [[VLC media player]], [[Quicktime]], o sanumang player a gagamit kareng [[DirectShow]] filter (alibawa ing [[Media Player Classic]], [[Windows Media Player]], ampong [[Windows Media Center]]) nung maka-install ya ing [[ffdshow]] filter. 
+
+== Deng FLV player ==
+Ing '''FLV player''' metung yang uri ning [[media player]] a gagamitan ba yang paganan ing [[flash video]] ibat kareng [[Personal computer|PC]] ampo kareng [[Internet]] website. Maliari yang gamitan dili na ing metung a FLV player, agiang e gagamit [[Adobe Flash]] authoring o developmental tool.
+
+{{Adobe Flash}}
+
+{{Compression Formats}}
+
+[[Category:Adobe Flash]]
+[[Category:Container formats]]
+
+[[de:Flash Video]]
+[[en:Flash Video]]
+[[es:Flash Video]]
+[[fr:Flash Video]]
+[[ko:플래시 비디오]]
+[[ja:Flash Video]]
+[[pl:FLV]]
+[[pt:FLV]]
+[[ru:Flash Video]]
+[[sv:FLV]]
+[[zh:FLV]]
