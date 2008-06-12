@@ -1,0 +1,98 @@
+<includeonly>{{template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+==Usage==
+<pre>
+{{Infobox file format
+| name                   = 
+| icon                   = 
+| logo                   = 
+| screenshot             = 
+| caption                = 
+| extension              = 
+| mime                   = 
+| type code              = 
+| uniform type           = 
+| magic                  = 
+| owner                  = 
+| released               = 
+| latest release version = 
+| latest release date    = 
+| genre                  = 
+| container for          = 
+| contained by           = 
+| extended from          = 
+| extended to            = 
+| standard               = 
+| url                    = 
+}}
+</pre>
+==Example==
+{{Infobox file format
+| name                   = Scalable Vector Graphics
+| icon                   = 
+| logo                   = 
+| screenshot             = [[Image:SVG.svg|200px]]
+| caption                = 
+| extension              = <tt>.svg</tt>, <tt>.svgz</tt>
+| mime                   = image/svg+xml<ref>[http://www.w3.org/TR/SVGMobile12/mimereg.html M Media Type registration for image/svg+xml]</ref>
+| type code              = 
+| uniform type           = 
+| magic                  = 
+| owner                  = [[World Wide Web Consortium]]
+| released               = {{initial release|2001|09|04}}
+| latest release version = 1.2T
+| latest release date    = [[August 10]], [[2006]]
+| genre                  = [[vector graphics|vector image format]]
+| container for          = 
+| contained by           = 
+| extended from          = [[XML]]
+| extended to            = 
+| standard               = 
+| url                    = [http://www.w3.org/Graphics/SVG/ w3.org/Graphics/SVG/]
+}}
+<pre style="overflow:auto;">
+{{Infobox file format
+| name                   = Scalable Vector Graphics
+| icon                   = 
+| logo                   = 
+| screenshot             = [[Image:SVG.svg|200px]]
+| caption                = 
+| extension              = <tt>.svg</tt>, <tt>.svgz</tt>
+| mime                   = image/svg+xml<ref>[http://www.w3.org/TR/SVGMobile12/mimereg.html M Media Type registration for image/svg+xml]</ref>
+| type code              = 
+| uniform type           = 
+| magic                  = 
+| owner                  = [[World Wide Web Consortium]]
+| released               = {{initial release|2001|09|04}}
+| latest release version = 1.2T
+| latest release date    = [[August 10]], [[2006]]
+| genre                  = [[vector graphics|vector image format]]
+| container for          = 
+| contained by           = 
+| extended from          = [[XML]]
+| extended to            = 
+| standard               = 
+| url                    = [http://www.w3.org/Graphics/SVG/ w3.org/Graphics/SVG/]
+}}
+</pre>
+
+<noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude><includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Software infobox templates|File Format]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[fi:Malline:Tiedostomuoto]]
+[[da:Skabelon:Infobox filformat]]
+[[fr:Modèle:Infobox format de données]]
+[[it:Template:Infobox formato file]]
+[[hu:Sablon:Infobox fájlformátumok]]
+[[ja:Template:Infobox file format]]
+[[ko:틀:파일 정보]]
+[[no:Mal:Infobox file format]]
+[[pt:Predefinição:Info formato de ficheiro]]
+[[ru:Шаблон:Файловый формат]]
+[[sv:Mall:Infobox filformat]]
+[[th:แม่แบบ:กล่องข้อมูล รูปแบบไฟล์]]
+[[zh:Template:Infobox file format]]
+</includeonly>
