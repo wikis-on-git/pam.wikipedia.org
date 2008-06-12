@@ -1,0 +1,62 @@
+Ing '''3GP''' metung yang [[multimedia]] [[container format]] a tutulduan ning [[3GPP|Third Generation Partnership Project (3GPP)]] a magamit kareng [[cellphone]] a [[3G]]. 
+
+{{Infobox file format
+| name = 3GP
+| icon =
+| extension = .3gp .3g2
+| mime = video/3gpp audio/3gpp
+| type code = 
+| uniform type = 
+| owner = 
+| genre = [[media container]]
+| container for = 
+| contained by = 
+| extended from = 
+| extended to = 
+| standard = 
+}}
+
+==Detalleng teknikal==
+Metung yang simpling bersion ning [[MPEG-4 Part 14]] (MP4) container format ing 3GP. Melalang ya bang mabawas ing pamangailangan king espasiung pisimpanan (storage requirement) ampong bandwidth, ba lang mipagiu kareng cellphone deng simpan. Manyimpan yang video stream anti king [[MPEG-4 Part 2]], [[H.263]] o [[H.264|MPEG-4 Part 10 (AVC/H.264)]], ampo kareng audio stream anti king [[Adaptive Multi-Rate|AMR-NB]], [[AMR-WB]], [[AMR-WB+]], [[Advanced Audio Coding|AAC-LC]] o [[HE-AAC]]. Pane yang [[w:Endianness|big-endian]] ing metung a simpan a 3GP - una nong sisimpan ampong yalis deng pekamaulagang byte. Atin ya muring impormasiun tungkul king dagul da reng larawan/imahen ampong bitrate. Adua la reng standard para king format a iti:  
+* [[3GPP]] (para kareng [[GSM]]-based a cellphone, at maki filename extension a <tt>.3gp</tt>)
+* [[3GPP2]] (para kareng [[CDMA]]-based a cellphone, a maki filename extension a <tt>.3g2</tt>)
+Pareu lang makabasi king MPEG-4 ampong [[H.263]] video, at AAC o AMR audio.
+
+Nung iyalis la reti king computer, maliari lang alben deng pelikulang 3GP kareng platform a  [[Linux]], [[Macintosh (computer)|Mac]], and [[Microsoft Windows|Windows]] a gagamitan la reng program anti ing [[VLC media player]], [[RealPlayer]], [[QuickTime]], [[GOM_Player|GOM Player]] ampong [[Media Player Classic]]. 
+
+==Deng hardware a gagamit kaniti==
+* Agiu rang paganan deng [[3G]] capable a cellphone ing playback ampong pamag-record ning video king 3GP format (miyayaliwa ing angganan ning memory, maximum filesize para playback ampong recording, ampong angganan ning resolution). 
+* Agiu da murin deng bayu o masanting a klasing cellphone a yalang kagiwan a 3G ing pamag-playback ampong pamag-record king format a iti (oneng maki limitasiun) 
+* King iMovie '08, maliari yang i-save anting simpan a .3gp ing metung a pelikulang milual (exported) kapamilatan ning "Tiny" setting. Maliari yang patigtig iti king Mac, iPhone (at sanumang handset a makapag-load ampong play king file), iPod touch o gagamit king Mac Web Gallery service ning Apple. 
+* Maliaring kopian ing audio a me-[[w:ripping|import]] ibat king CD papunta king [[PlayStation 3]] kareng USB device king 3GP format.
+
+==Suglung palual==
+* [http://www.3gp.com/  www.3GP.com]
+* [http://www.mv3gp.com  Mobile Video 3GP]
+* [http://www.3gp.se  About the 3GP file format]
+
+{{Compression Formats}}
+
+[[Category:Computer file formats]]
+[[Category:Container formats]]
+
+[[ca:3GP]]
+[[de:3gp]]
+[[en:3GP]]
+[[es:3GP]]
+[[fr:3gp]]
+[[it:3gp]]
+[[hu:3GP]]
+[[ms:3GP]]
+[[no:3gp]]
+[[pl:3GP]]
+[[pt:3GP]]
+[[ro:3gp]]
+[[ru:3gp]]
+[[fi:3GP]]
+[[sv:3gp]]
+[[th:3GP]]
+[[vi:3gp]]
+[[tr:3GP]]
+[[uk:3gp]]
+[[zh:3GP]]
