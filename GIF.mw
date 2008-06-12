@@ -1,0 +1,87 @@
+{{redirect|GIF}}
+{{Infobox file format
+| name = Graphics Interchange Format
+| screenshot = [[Image:Rotating earth (large).gif|200px]]
+| caption = Metung a dudurut a globu king format a GIF. E mapinu ing pamangimut da reng lugal a iro/asul a mamaliwa dayu; karaniwang maliliari iti nung e magagamit ing ''dithering''.
+| extension = <tt>.gif</tt>
+| mime = <tt>image/gif</tt>
+| type code = <tt>GIF </tt>
+| uniform type = com.compuserve.gif
+| magic = <code>GIF87a</code>/<code>GIF89a</code>
+| owner = [[CompuServe]]
+| genre = [[Raster graphics]] [[Graphics file formats|image format]]
+| container for = 
+| contained by = 
+| extended from = 
+| extended to = 
+}}
+[[Image:Sunflower as GIF.gif|thumb|250px|Metung a larawan a GIF. Uli ning prosesung ''dithering'' a megamit ba yang alagpusan ing limitasiun na king 256 a kule ning format a iti, lalto yang magaspang ing larawan.]]
+Ing '''Graphics Interchange Format''' ('''GIF''') metung yang [[w:Graphics file formats|image format]] a [[8-bit color|8-bit-per-pixel]] [[Raster graphics|bitmap]] a pepakilala ning [[CompuServe]] aniang 1987. Manibat kanita, mikalat ne king [[World Wide Web]] uli ning maleparan a suporta at uling malagua yang dalan (portability).  
+
+Gagamit yang anggang 256 (aduang dalan limampulu't anam) a kule iting format, a aliwa king  24-bit RGB color space. Susuporta ya murin king [[Animation|pamangimut]] (animation), at paintulutan na ing 256 a kule para king balang kuadru (frame). Uling limitadu la reng kule, e bage ing GIF format kareng letratung de kolor (color photographs), ampo reng aliwang larawan nung nu la misasanib deng miyayaliwang kuleng e mikakawani. Bage ya iti kareng mas simpling larawan antimo deng diseniu o logo a maki solidu o metung mung kule.  
+
+Makasiksik (compressed) la reng larawan a GIF kapamilatan ning sistemang [[Lempel-Ziv-Welch]] (LZW) [[lossless data compression]] bang mabawas ing dagul ning simpan (file size) kabang e masisira ing itsura ning larawan. Me-patent ya ining paralan ning pamanyiksik (compression technique) kanitang 1985. Uli ning kontrobersia ketang pamikasundu king pamag-lisensia (licensing agreement) ning tatalan king patent, ing [[Unisys]], ampo ing CompuServe kanitang 1994, meyagyag lang gawa ya ing [[Portable Network Graphics]] (PNG) standard. Manibat kanita, mepasu no reng patent a makaparikil kaniti.    
+
+== Alternatibu/Kayalili ==
+Me-diseniu ya ing [[Portable Network Graphics]] (PNG) anting panalili king format a GIF bang lisian ing pamanyaklo king patent ning Unisys king LZW compression technique.<ref name="PNG" /> Mas masanting ing pamanyiksik king PNG, at mas dakal ya gamit kesa king GIF. Mas bage ya kesa king FIF nung kailangan ing pamipalto king tuneng kule (true-color imaging), [[alpha transparency]], o lossless data format. Mumuna yang meyalkus ing [[Multiple-image Network Graphics|MNG]] antimong solusiun a basi king PNG para king pamangimut (animation), dapot e makaing mikalat iti. Mas buri de pa murin ing GIF format king pamangimut, dapot atin nang mayayalkus (under development) a tutung [[Animated Portable Network Graphics]] lalam ning [[Mozilla]], at suportan ne ning daratang a  [[Mozilla Firefox#Version 3.0|Firefox 3]] release.<ref name="APNG">[http://wiki.mozilla.org/APNG_Specification APNG Specification - MozillaWiki<!-- Bot generated title -->]</ref><ref name="mozlabsapng">[http://labs.mozilla.com/2007/08/better-animations-in-firefox-3/ Mozilla Labs » Blog Archive » Better animations in Firefox 3<!-- Bot generated title -->]</ref>
+
+== Lon la murin deti ==
+* [[Comparison of graphics file formats]]
+* [[Comparison of layout engines (graphics)]]
+* [[Image file formats]]
+* [[Software patent]]
+
+== Dalerayan ==
+{{reflist}}
+
+== Suglung palual ==
+* [http://www.w3.org/Graphics/GIF/spec-gif89a.txt GIF89a specification]
+* [http://www.olsenhome.com/gif/ The GIF Pronunciation Page]
+* [http://members.aol.com/royalef/gifabout.htm GIF Animation on the WWW] - technical explanation of the GIF89a format and how it allows animation
+* [http://www.arturocampos.com/ac_lzw_gif.html LZW GIF decoding] by Arturo San Emeterio Campos
+* [http://www.cis.udel.edu/%7Eamer/CISC651/lzw.and.gif.explained.html LZW and GIF explained]
+* [http://www.ddj.com/dept/architect/184404817 Replacing a Dictionary with a Square Root] - suggestions for compressing GIFs without using LZW compression
+* [http://www.sph.sc.edu/comd/rorden/graphics.html Web Graphics] discusses and illustrates the differences between GIF, JPEG and PNG formats
+
+{{Compression Formats}}
+
+[[Category:Graphics file formats]]
+[[Category:CompuServe]]
+
+[[ar:جي آي إف]]
+[[ca:GIF]]
+[[cs:GIF]]
+[[da:Graphics Interchange Format]]
+[[de:Graphics Interchange Format]]
+[[en:Graphics Interchange Format]]
+[[es:Graphics Interchange Format]]
+[[eo:GIF]]
+[[eu:GIF]]
+[[fa:جیف]]
+[[fr:Graphics Interchange Format]]
+[[gl:GIF]]
+[[ko:GIF]]
+[[hr:GIF]]
+[[id:GIF]]
+[[is:GIF]]
+[[it:Graphics Interchange Format]]
+[[he:GIF]]
+[[ka:GIF]]
+[[lb:.gif]]
+[[lt:GIF]]
+[[hu:GIF]]
+[[nl:Graphics Interchange Format]]
+[[ja:Graphics Interchange Format]]
+[[no:GIF]]
+[[pl:Graphics Interchange Format]]
+[[pt:Graphics Interchange Format]]
+[[ru:GIF]]
+[[sk:Graphics Interchange Format]]
+[[sl:GIF]]
+[[fi:GIF]]
+[[sv:GIF]]
+[[th:GIF]]
+[[vi:GIF]]
+[[tr:GIF]]
+[[uk:GIF]]
+[[zh:GIF]]
