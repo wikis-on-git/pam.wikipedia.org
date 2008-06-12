@@ -1,0 +1,60 @@
+{{Infobox file format
+| name = RealAudio
+| icon = 
+| logo = 
+| screenshot = 
+| caption = 
+| extension = <tt>.ram</tt>
+| mime = 
+| type code = 
+| uniform type = 
+| magic = 
+| owner = 
+| genre = 
+| container for = 
+| contained by = 
+| extended from = 
+| extended to = 
+| standard = 
+}}
+Ing '''RealAudio''' metung yang [[audio format]] a ating makibandi (proprietary) a gewa ning  [[RealNetworks]]. Miyayaliwa la reng gagamitan nang [[audio codec]], manibat kareng format a mababa bitrate (low-bitrate) angga kareng format a high-fidelity para king musika. Maliari ya muring gamitan antimong [[w:Streaming media|streaming]] audio format, a pátigtig kabang kukuldas (o da-download) ya iti. Aniang purmeru, dakal kareng istasiun a radiu king Aptas (Internet) ing gagamit king RealAudio bang patigtig kareng karelang programa kabang maliliari iti (in real time). Nanupata, e ra ne makaing gagamitan iti ngeni, at deng mas sikat a audio format na ing maralas a magagamit. 
+
+Pepalual de ing mumuna nang bersion ning RealAudio kanitang [[1995]]. Aniang 2006, ing bersion a RealAudio 10 ing magagamit. 
+
+===Deng file extension===
+Aniang purmeru, makikilala la reng simpan a real audio RealAudio kapamilatan ning 
+[[filename extension]] a '''.ra''' (para king Real Audio). Kanitang 1997, miyampang yang video format a inaus nang [[RealVideo]] ing RealNetworks. [[RealMedia]] ing lagiu na niting piyabeng audio ampong video format, at maki file extension yang '''.rm'''. Nanupata, mibalik ne ing RealProducer (ing manimuna nang encoder ning Real) king pamangamit king '''.ra''' kareng simpan a bukud mung katni o (audio-only files); inumpisan na naman ing pamangamit king '''.rv''' kareng simpan a alben (video files, ating audio man o ala), ampong '''.rmvb''' kareng [[variable bit rate|VBR]] video files. Magagamit la murin deng '''.ram''' (Real Audio Metadata) ampong '''.smil''' ([[Synchronized Multimedia Integration Language]]) a file format antimong suglung (link) manibat kareng bulung suge (web page).  
+
+==Lon la murin deti==
+* [[Icecast]] -- metung a libri ampong timawa penibatan (open source) a streaming server para kareng istasiun radiu king Aptas (internet radio station) a susuporta kareng format a [[Advanced Audio Coding|AAC]], [[MP3]], [[Ogg]] [[Vorbis]], [[Theora]], ampong [[Nullsoft Streaming Video|NSV]]
+* [[SHOUTcast]] -- metung a freeware server para kareng internet radio station a susuporta king [[Advanced Audio Coding|AAC]], [[MP3]], ampong [[Nullsoft Streaming Video|NSV]]
+* [[Windows Media Audio]] -- deng media format a [[Microsoft|Microsoft's]] 
+* [[Comparison of audio codecs]]
+
+==Suglung palual==
+* [http://www.realnetworks.com/products/codecs/realaudio.html Description of the codec, from RealNetworks]
+* [http://www.real.com RealPlayer - Official media player for RealAudio] ([http://www.real.com/linux Linux version])
+* [http://www.realaudioguide.com/ Real Audio Guide - RealNetworks Product List]
+* [http://www.jetaudio.com  JetAudio, A free player that plays RealAudio streams and files, without the use of any RealAudio program ]
+* [http://wiki.multimedia.cx/index.php?title=RealMedia A more technical description of the RealMedia format and codecs]
+* [http://swen.antville.org/stories/735413/ How to download Real Audio streams and convert Real Audio to MP3]
+* [http://thutt.mine.nu/keeplistening.html A program to download Real Audio streams.]
+*[http://www.ebu.ch/CMSimages/en/tec_doc_t3296_tcm6-10497.pdf EBU subjective listening tests on low-bitrate audio codecs]
+*[http://www.videohelp.com/tools?tool=Real7ime_Converter Unofficial Real7ime Converter information and download website]
+* [http://www.free-codecs.com/download/RealMedia_Splitter.htm Filter for playing RealNetworks audio/video files using Windows Media Player] 
+{{Compression Formats}}
+
+[[Category:Audio codecs]]
+
+[[ca:RealAudio]]
+[[de:RealAudio]]
+[[en:RealAudio]]
+[[es:RealAudio]]
+[[eo:RealAudio]]
+[[fr:RealAudio]]
+[[ko:리얼오디오]]
+[[it:RealAudio]]
+[[ja:RealAudio]]
+[[pl:RealAudio]]
+[[vi:RealAudio]]
+[[zh:RealAudio]]
