@@ -1,0 +1,68 @@
+{{Refimprove|date=December 2007}}{{redirect|AVI|other uses of Avi and AVI|Avi}}
+{{Infobox file format
+| name = Audio Video Interleave
+| icon = [[Image:AVI Ext icon.png|64px|AVI Extension Icon]]
+| extension = <tt>.avi</tt>
+| mime = video/avi<br />video/msvideo<br />video/x-msvideo
+| type code = 'Vfw '
+| uniform type = public.avi
+| owner = [[Microsoft]]
+| genre = 
+| container for = [[Sound recording and reproduction|Audio]], [[Video]]
+| contained by = 
+| extended from = 
+| extended to = 
+| standard = 
+}}
+
+Ing '''Audio Video Interleave''', a mas kilala ketang kayang [[acronym]] a '''AVI''', metung yang [[multimedia]] [[container format (digital)|container format]] a pepakilala ning [[Microsoft]] kanitang Noviembri [[1992]] kayabe ning kayang teknolohiyang [[Video for Windows]]. Maliari lang maglaman audio ampong video data deng simpan (file) a AVI king metung a simpanan (file container) a magpaintulut king miyayagnan a audio-with-video playback. Kawangis ning DVD video format, susuporta la reng AVI file king multiple streaming a audio ampong video, pero e la masiadung magagamit deng gamit a reti. Gagamit la murin deng simpan a AVI kareng file format extension a inalkus (developed) ning grupung [[Matrox]] [[OpenDML]] kanitang Febreru [[1996]]. Susuportan no ning Microsoft deng simpan a reti, a maki (e opisial) a aus a "AVI 2.0".   
+
+==Lon la murin deti==
+*[[Comparison of container formats]]
+*[[Video editing software]]
+
+==Dalerayan==
+<!--See http://en.wikipedia.org/wiki/Wikipedia:Footnotes
+for an explanation of how to generate footnotes using the <ref(erences/)> tags-->
+{{reflist}}
+
+==Suglung palual==
+* [http://www.alexander-noe.com/video/amg/en_myths.html Myths about AVI]
+* [http://www.divxland.org  DivXLand.org] Software, guides and support for AVI container format
+* [http://www.jmcgowan.com/avi.html John P. McGowan's AVI Overview]
+* [http://msdn2.microsoft.com/en-us/library/ms779636.aspx Microsoft's AVI RIFF File Reference]
+* [http://pvdtools.sourceforge.net/aviformat.txt PVDTools' RIFF-AVI File Format Documentation]
+* [http://www.fourcc.org Dave Wilson's comprehensive list of FourCC codes]
+* [http://www.the-labs.com/Video/odmlff2-avidef.pdf OpenDML (AVI 2.0) format specification]
+* [http://www.cs.auckland.ac.nz/compsci335s2t/lectures/mano/WindowsMedia.pdf AVI format examples]
+* [http://guides.macrumors.com/AVI  AVI compatibility with Apple Macintosh Operating System]
+
+{{Compression Formats}}
+
+[[Category:Container formats]]
+[[Category:Microsoft Windows multimedia technology]]
+
+[[bs:AVI]]
+[[ca:AVI]]
+[[cs:Audio Video Interleave]]
+[[da:AVI]]
+[[de:Audio Video Interleave]]
+[[en:Audio Video Interleave]]
+[[es:AVI]]
+[[eu:AVI]]
+[[fr:Audio Video Interleave]]
+[[ko:오디오 비디오 인터리브]]
+[[it:Audio Video Interleave]]
+[[hu:AVI]]
+[[nl:AVI (bestandsindeling)]]
+[[ja:Audio Video Interleave]]
+[[no:Audio Video Interleave]]
+[[pl:AVI]]
+[[pt:AVI]]
+[[ro:AVI]]
+[[ru:Microsoft Audio Video Interleave]]
+[[sr:AVI]]
+[[fi:AVI]]
+[[sv:AVI]]
+[[tr:Audio Video Interleave]]
+[[uk:AVI]]
