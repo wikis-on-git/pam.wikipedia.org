@@ -1,23 +1,90 @@
-{{Drugbox|
-| image = Propranolol-2D-skeletal.png
-| image2 = Propranolol-3D-balls.png
-| IUPAC_name = 1-(isopropylamino)-<br />3-(naphthalen-1-yloxy)propan-2-ol
-| ATC_prefix=C07
-| ATC_suffix=AA05
-| PubChem=4946
-| DrugBank=APRD00194
-| CAS_number = 525-66-6
-| C=16 | H=21 | N=1 | O=2
-| molecular_weight = 259.34 g/mol
-| bioavailability = 26%
-| metabolism = [[hepatic]] (extensive)
-| elimination_half-life = 4-5 hours
-| excretion = [[renal]] <1%
-| pregnancy_AU = C
-| pregnancy_US = C
-| pregnancy_category = 
-| legal_AU = S4
-| legal_UK = POM
-| legal_US = Rx-only
-| routes_of_administration = oral, [[intravenous|iv]]
+{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right"|'''{{{name|{{PAGENAME}}}}}'''
+|-
+{{#if:{{{icon|}}}|
+{{!}} colspan="2" style="text-align: center;" {{!}} {{{icon}}}
+{{!}}-
 }}
+{{#if:{{{logo|}}}
+{{!}} colspan="2" style="text-align: center;" {{!}} {{{logo}}}
+{{!}}-
+}}
+{{#if:{{{screenshot|}}}|
+{{!}} colspan="2" style="text-align: center; border: 0px solid #aaaaaa;" {{!}} {{{screenshot}}}{{#if:{{{caption|}}}|<br /><span style="font-size: 83%;">{{{caption}}}</span>|}}
+{{!}}-
+}}
+{{#if:{{{extension|}}}|
+! [[filename extension|File extension]]
+{{!}} <code>{{{extension|None}}}</code>
+{{!}}-
+}}
+{{#if:{{{mime|}}}|
+! [[MIME]] type
+{{!}} <code>{{{mime}}}</code>
+{{!}}-
+}}
+{{#if:{{{type code|{{{typecode|}}}}}}|
+! [[Type code]]
+{{!}} {{{type code|{{{typecode}}}}}}
+{{!}}-
+}}
+{{#if:{{{uniform type|}}}|
+! [[Uniform Type Identifier]]
+{{!}} {{{uniform type}}}
+{{!}}-
+}}
+{{#if:{{{magic|}}}|
+! [[Magic number (programming)|Magic number]]
+{{!}} {{{magic}}}
+{{!}}-
+}}
+{{#if:{{{owner|}}}|
+! Developed by
+{{!}} {{{owner}}}
+{{!}}-
+}}
+{{#if:{{{released|}}}|
+! Initial release
+{{!}} {{{released|}}}
+{{!}}-
+}}
+{{#if:{{{latest release version|{{{latest_release_version|}}}}}}|
+! [[Software release life cycle|Latest release]]
+{{!}} {{{latest release version|{{{latest_release_version|}}}}}} {{#if:{{{latest release date|{{{latest_release_date|}}}}}}| / {{{latest release date|{{{latest_release_date|}}}}}}}}
+{{!}}-
+}}
+{{#if:{{{type|{{{genre|}}}}}}|
+! Type of format
+{{!}} {{{type|{{{genre|}}}}}}
+{{!}}-
+}}
+{{#if:{{{container for|{{{containerfor|}}}}}}|
+! Container for
+{{!}} {{{container for|{{{containerfor}}}}}}
+{{!}}-
+}}
+{{#if:{{{contained by|{{{containedby|}}}}}}|
+! Contained by
+{{!}} {{{contained by|{{{containedby}}}}}}
+{{!}}-
+}}
+{{#if:{{{extended from|{{{extendedfrom|}}}}}}|
+! Extended from
+{{!}} {{{extended from|{{{extendedfrom}}}}}}
+{{!}}-
+}}
+{{#if:{{{extended to|{{{extendedto|}}}}}}|
+! Extended to
+{{!}} {{{extended to|{{{extendedto}}}}}}
+{{!}}-
+}}
+{{#if:{{{standard|}}}
+! [[International standard|Standard(s)]]
+{{!}} {{{standard}}}
+{{!}}-
+}}
+{{#if:{{{url|}}}|
+! [[Website]]
+{{!}} {{{url|}}}
+{{!}}-
+}}
+|}<noinclude>{{Documentation}}</noinclude>
