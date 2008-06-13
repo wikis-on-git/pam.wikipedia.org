@@ -4,7 +4,8 @@
 
 {{ infobox file format
 | name          = Ogg
-| icon          = [[Image:XiphophorusLogoSVG.svg|Vorbis Logo]]
+| icon          = 
+[[Image:XiphophorusLogoSVG.svg|Vorbis Logo]]
 | logo          = 
 | extension     = .ogv, .oga, .ogx, .ogg
 | mime          = video/ogg ([[Internet Assigned Numbers Authority|unregistered]]), audio/ogg ([[Internet Assigned Numbers Authority|unregistered]]), application/ogg
