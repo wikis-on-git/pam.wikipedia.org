@@ -1,0 +1,68 @@
+{{Infobox file format
+| name = Tagged Image File Format
+| extension = <tt>.tiff</tt>, <tt>.tif</tt>
+| mime = image/tiff, image/tiff-fx
+| type code = TIFF
+| uniform type = public.tiff
+| owner = [[Aldus]], now [[Adobe Systems]]
+| genre = [[Image file formats]]
+| container for = 
+| contained by = 
+| extended from = 
+| extended to = [[Exchangeable image file format|Exif]], [[Design rule for Camera File system|DCF]], [[Tag Image File Format / Electronic Photography|TIFF/EP]]
+| standard = 
+}}
+Ing '''Tagged Image File Format''' (a pepakuyad da king '''TIFF''') metung yang file format para king pamanyimpan kareng [[w:raster graphics|larawan]] o images, kayabe no reng [[letratu]] ampong ginulis (line art). Tatalnan na ne ning [[Adobe Systems]]. Aniang purmeru, lelangan ne ning kumpaniang [[Aldus]]<ref>Makabili king Version 4 ampong 5 ning TIFF specification ing pangamanung (sentence) a "This memorandum has been prepared jointly by Aldus and Microsoft in conjunction with leading scanner and printer manufacturers"; mika pamisaup king pamamisali (co-marketing) ampong suporta king pamanalkus king TIFF kayabe ya ing Microsoft aniang panaun a iti, agiang ali ya deretsung sinaup ing Microsoft king pamanalkus kaniti. King Version 6 (1992) ning TIFF specification, e ne mebanggit ing Microsoft. [http://palimpsest.stanford.edu/bytopic/imaging/std/tiff5.html TIFF Revision 5.0] [http://partners.adobe.com/public/developer/en/tiff/TIFF6.pdf TIFF Revision 6.0]</ref> bang magamit ketang ausan da kanitang "desktop publishing". Gagamitan de ing TIFF format kareng dakal a aplikasiun a maki kaugnayan king pamag-prosesu kareng larawan (image-manipulation applications), king pamaglimbag ampong pamag-layout, king [[image scanner|[pamag-scan]], [[FAX|pamag-fax]], [[Word processor|word processing]], [[optical character recognition]] at aliwa pang aplikasiun.<ref>Ing TIFF ing mepiling native format para kareng raster graphics king [[NeXTstep]] operating system; midala ining suporta king TIFF keng [[Mac OS X]].</ref> Ing Adobe Systems, a yang mekasali king Aldus, ing tatalan  ngeni king copyright king TIFF specification. Ala yang maragul a pamagbayu (update) ing TIFF manibat kanitang 1992, dapot ating milimbag a Aldus/Adobe technical note a maki minor extension king format, at ating mapilan a specifications, kayabe ne ing [[Tag Image File Format / Electronic Photography|TIFF/EP]], a makabasi king TIFF 6.0 specification.
+
+== Lon la murin deti ==
+*[[Comparison of graphics file formats]]
+*[[Image file formats]]
+*[[Windows Picture and Fax Viewer]]
+*[[GeoTIFF]]
+*[[MIME]] image/tiff RFC 3302, image/tiff-fx RFC 3950
+*[[Digital Negative (file format)|DNG]]
+
+== Notes ==
+<references />
+
+== Suglung palual ==
+*[http://partners.adobe.com/public/developer/tiff/index.html Adobe TIFF Resources page]: Adobe links to the specification and main TIFF resources
+*[http://www.remotesensing.org/libtiff/ LibTIFF Home Page]: Widely used library used for reading and writing TIFF files as well as TIFF file processing command line tools
+*[http://www.awaresystems.be/imaging/tiff.html TIFF File Format FAQ and TIFF Tag Reference]: Everything you always wanted to know about the TIFF File Format but were afraid to ask
+*[http://www.awaresystems.be/imaging/tiff/bigtiff.html The BigTIFF File Format Proposal]: Breaking the 4 gigabyte boundary
+*[http://www.digitalpreservation.gov/formats/fdd/fdd000022.shtml TIFF description] at Digital Preservation (The Library of Congress)
+*[http://palimpsest.stanford.edu/bytopic/imaging/std/tiff4.html TIFF Revision 4.0]: Specification for revision 4.0, in HTML (warning: for historical purposes only, the TIFF 6.0 spec contains the full 4.0 revision)
+*[http://palimpsest.stanford.edu/bytopic/imaging/std/tiff5.html TIFF Revision 5.0]: Specification for revision 5.0, in HTML (warning: for historical purposes only, the TIFF 6.0 spec contains the full 5.0 revision)
+*[http://partners.adobe.com/public/developer/en/tiff/TIFF6.pdf TIFF Revision 6.0]: Specification for revision 6.0, in PDF (warning: there is an outdated and flawed section (jpeg compression), corrected in supplements, and there are additions to this PDF too – for the full specification, see link to Adobe TIFF Resources)
+*[http://tiffcentral.com TIFF Central] More TIFF links and information.
+
+{{Compression Formats}}
+
+[[Category:HDR file formats]]
+[[Category:Graphics file formats]]
+[[Category:Adobe Systems]]
+
+[[cs:Tagged Image File Format]]
+[[de:Tagged Image File Format]]
+[[en:Tagged Image File Format]]
+[[es:TIFF]]
+[[eu:TIFF]]
+[[fr:Tagged Image File Format]]
+[[gl:TIFF]]
+[[ko:TIFF]]
+[[it:Tagged Image File Format]]
+[[ka:TIFF]]
+[[lb:.tif]]
+[[lt:TIF]]
+[[hu:TIFF]]
+[[nl:Tag(ged) Image File Format]]
+[[ja:Tagged Image File Format]]
+[[no:Tagged Image File Format]]
+[[pl:TIFF]]
+[[pt:Tagged Image File Format]]
+[[ru:TIFF]]
+[[sv:TIFF]]
+[[th:TIF]]
+[[tr:TIFF]]
+[[uk:TIFF]]
+[[zh:TIFF]]
