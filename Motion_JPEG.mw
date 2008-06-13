@@ -1,0 +1,22 @@
+King [[multimedia]], ing '''Motion JPEG''' ('''M-JPEG''') metung yang karaniwa o informal a lagiu para kareng format a multimedia nung nu saparadu yang [[w:Image compression|masisiksik]] (compressed) antimong larawan (image) a [[JPEG]] ing balang metung a [[video frame]] o [[interlace]]d field ning metung a [[digital video]] sequence. Pane yang magagamit kareng mangalating gamit a digital anti kareng [[digital camera]].   
+
+== Suglung palual ==
+* [http://mjpeg.sourceforge.net MJPEG tools] for recording from MJPEG capture cards and manipulating the data
+* [http://developer.apple.com/documentation/QuickTime/QTFF/qtff.pdf Apple Quicktime Format, including specification for MJPEG-A & MJPEG-B pp95]
+* [http://tools.ietf.org/html/rfc2435 RFC 2435] RTP Payload Format for JPEG-compressed Video
+
+{{Compression Formats}}
+
+[[Category:Video codecs]]
+
+[[de:Motion JPEG]]
+[[et:MJPEG]]
+[[en:Motion JPEG]]
+[[es:MJPEG]]
+[[fr:Motion-JPEG]]
+[[it:MJPEG]]
+[[hu:Motion JPEG]]
+[[ja:Motion JPEG]]
+[[ru:MJPEG]]
+[[sv:MJPEG]]
+[[zh:Motion JPEG]]
