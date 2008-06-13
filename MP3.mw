@@ -1,0 +1,123 @@
+{{alternateuses}}
+{{Infobox file format
+| name = MPEG-1 Audio Layer 3
+| icon =
+| logo =
+| | extension = .mp3
+| mime = audio/mpeg
+| type code =
+| uniform type =
+| magic = 
+| owner =
+| genre = Audio
+| container for =
+| contained by =
+| extended from =
+| extended to =
+| standard =
+}}
+Ing '''[[MPEG-1]] Audio Layer 3''', a mas maralas dang ausang '''MP3''', metung yang encoding format para king [[digital audio]] a gagamit king metung a uri ning [[lossy data compression]]. 
+
+Maralas yang magagamit iti para king pamanyimpan king consumer audio (deng patigtig o katni para king pansariling/personal a gamit). Metung ya muring [[de facto standard]] a encoding para king pamanalis ampong pamipatigtig king musika kareng [[digital audio player]].
+
+Metung yang format a audio-specific (bukud mung kareng tigtigan o katni) a diniseniu da reng mapilan a lupung da reng inieru king [[Fraunhofer Society | Fraunhofer]] [http://www.iis.fraunhofer.de/EN/bf/amm/mp3history/mp3history01.jsp IIS] king in [[Erlangen]], [[Alemania]], [[Bell labs|AT&T-Bell Labs]] king Murray Hill, NJ, USA, Thomson-Brandt, ampong [http://fr.wikipedia.org/wiki/CCETT  CCETT]. Metanggap ya antimong  [[International Organization for Standardization|ISO]]/[[International Electrotechnical Commission|IEC]] standard kanitang 1991.  
+
+Gagamit yang [[lossy data compression|lossy]] [[audio data compression|compression]] [[algorithm]] ing MP3 bang mabawas mayap ing kantidad o karakal ning data a kailangan ba yang dalan ing data recording kabang manatili yang malapit ketang orihinal a audio (tigtigan o katni) a e mesiksik (uncompressed) para kareng keraklan a makiramdam. Nanupata, e re tuturing a [[high fidelity]] audio deng audiophile (mahilig king pamakiramdam musika). Ing metung a simpan (file) a MP3 a melalang king mid-range (kasantingan o makalibutad) a [[bitrate]] setting a 128 kbit/s, mamie yang simpan a metung a kapulu (1/10th) ning dagul ning [[Red Book (audio CD standard)|CD]] a melalang ketang orihinal a pikuanan ning tigtigan. Maliaring maglalang simpan a MP3 king mas matas o mas mabanang bitrate, at mas matas o mas mababa ing kalidad a lunto. Gagana iting pamanyiksik (compression) kapamilata'ning pamagbawas king panga-saktu (accuracy) da reng mapilan a dake ning katni (parts of sound) a tuturing dang lagpus king daramdaman ding keraklan da reng tau. Keraklan, ausan dang [[w:Perceptual_coding|Perceptual Coding]] iti.      
+<ref>{{cite paper
+  | author = Jayant, N. S., Johnston, J. D. and Safranek, R. J.
+  | title = Signal compression based on models of human perception
+  | publisher = Proc. IEEE, Oct. 1993, pp. 1385-1422
+  | date=  1993–10
+  | url = http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=241504 }}</ref>
+Kilub na niti, babie yang pamilarawan o pamag-representa ning katni kilub ning makuyad (short term) a time/frequency analysis window, kapamilatan ning pamangamit kareng modelung [[psychoacoustic]] ba lang idayû o bawasan ing panga-saktu da reng dakeng e ra making daramdaman deng tau, at pamag-record king matalab o episienting paralan ketang mitatagan a impormasiun. E malaut iti kareng prinsipiu o paralan a ginamit da king [[JPEG]], metung a format a magagamit king pamanyiksik larawan (image compression format). 
+
+==Panaliling/Alternatibung teknolohiya==
+{{main|List of codecs}}
+Dakal la pa reng aliwang audio [[codec]], lossy man o lossless. Pareu la pamilia king MP3 deng [[mp3PRO]], [[Advanced Audio Coding|AAC]], ampong [[MP2]], at magdependi la king alus miwawangis a [[psychoacoustic model]]. Ing [[Fraunhofer Gesellschaft]] murin ing makibandi kareng dakal karing pekamaulagang [[patent]] a nung nu la makabasi deting codec, kabang deng [[Dolby Labs]], [[Sony]], [[Thomson Consumer Electronics]], ampong [[AT&T]] naman ing tatalan kareng aliwa. 
+
+==Lon la murin deti==
+<div style="-moz-column-count:2; column-count:2;">
+*[[Audio compression (data)]]
+*[[Comparison of audio codecs]]
+*[[Copyright infringement]]
+*[[Digital audio player]]
+*[[ID3]]
+*[[Joint stereo]]
+*[[LRC (file format)]]
+*[[Media player]]
+*[[MP3 blog]]
+*[[MP3 Surround]]
+*[[Streaming Media]]
+*[[DJ digital controller]]
+*[[Advanced Audio Coding|AAC]]
+*[[Ogg Vorbis]]
+</div>
+
+==Dalerayan==
+{{reflist|2}}
+
+==Suglung palual==
+* [http://www.iis.fraunhofer.de/fhg/iis/EN/bf/amm/index.jsp Fraunhofer IIS]
+* [http://www.iis.fraunhofer.de/fhg/iis/EN/bf/amm/mp3history/mp3history01.jsp The Story of MP3] — How MP3 was invented, by Fraunhofer IIS
+
+{{Compression Formats}}
+
+[[Category:Audio codecs]]
+[[Category:MPEG]]
+[[Category:MP3]]
+[[Category:Thomson SA]]
+[[Category:1994 introductions]]
+
+[[af:MPEG-1 Oudio Laag 3]]
+[[ar:إم‌بي‌3]]
+[[zh-min-nan:MP3]]
+[[bs:MP3]]
+[[bg:MP3]]
+[[ca:MP3]]
+[[cs:MP3]]
+[[da:MP3]]
+[[de:MPEG-1 Audio Layer 3]]
+[[el:MP3]]
+[[en:MP3]] 
+[[es:MP3]]
+[[eo:MP3]]
+[[eu:MP3]]
+[[fa:ام‌پی‌تری]]
+[[fr:MPEG-1/2 Audio Layer 3]]
+[[ga:MP3]]
+[[gl:MP3]]
+[[ko:MP3]]
+[[hr:MP3]]
+[[id:MP3]]
+[[it:MP3]]
+[[he:MP3]]
+[[ka:MP3]]
+[[lv:Mp3]]
+[[lb:MP3]]
+[[lt:MP3]]
+[[li:MP3]]
+[[hu:MP3]]
+[[ms:MP3]]
+[[nl:MP3]]
+[[ja:MP3]]
+[[no:MP3]]
+[[nn:MP3]]
+[[pl:MP3]]
+[[pt:MP3]]
+[[ro:MP3]]
+[[ru:MP3]]
+[[sq:MP3]]
+[[simple:MP3]]
+[[sk:MP3]]
+[[sl:MP3]]
+[[sr:MP3]]
+[[fi:MP3]]
+[[sv:MP3]]
+[[th:MP3]]
+[[vi:MP3]]
+[[tr:MP3]]
+[[uk:MP3]]
+[[vec:MP3]]
+[[yi:MP3]]
+[[zh-yue:MP3]]
+[[zh:MP3]]
