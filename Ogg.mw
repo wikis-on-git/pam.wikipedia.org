@@ -1,0 +1,94 @@
+{{otheruses}}
+:''Ba kang mabiasang maglalang simpan a alben o katni (audio or video files) para king Wikipedia ampo reng kapatad nang proyektu, munta ka king
+[[Wikipedia:Creation and usage of media files]].''
+
+{{ infobox file format
+| name          = Ogg
+| icon          = [[Image:XiphophorusLogoSVG.svg|Vorbis Logo]]
+| logo          = 
+| extension     = .ogv, .oga, .ogx, .ogg
+| mime          = video/ogg ([[Internet Assigned Numbers Authority|unregistered]]), audio/ogg ([[Internet Assigned Numbers Authority|unregistered]]), application/ogg
+| magic         = OggS
+| owner         = [[Xiph.Org Foundation]]
+| creatorcode   = [[Chris Montgomery]]
+| genre         = [[Container format]]
+| container for = [[Vorbis]], [[Theora]], [[Speex]], [[FLAC]], [[Dirac (codec)|Dirac]], and others.}}
+
+Ing '''Ogg''' metung yang [[free file format|libri]] ampong [[open standard]] a [[container format (digital)|container format]] a mamantinian ning [[Xiph.Org Foundation]]. E ya limitadu kareng [[software patent]] ing Ogg format, at megawa ya para king matalab o episienting [[w:streaming media|streaming]] ampong pamangamit king [[digital multimedia]]ng matas a kalidad. 
+   
+Ing lagiung ‘Ogg’ mangabaldugan yang [[file format]] a maliaring mag-multiplex king mapilan a mikakawani ampong sariling [[free software|libri]] ampong [[open source software|open source]] a [[codec]] para king [[sound|audio]], [[video]], text (alimbawa [[subtitles]]), ampong [[metadata]].     
+
+King pamibalangkas a multimediang (multimedia framework) Ogg, ing [[Theora]] ing magsilbing [[lossy]] video layer, kabang ing [[Vorbis]] codec a keraklan para king musika naman ing magsilbing audio layer. Maliari ya muring magsilbing audio layer ing codec para king pamanyiksik king pamagsalitang tau (human speech compression codec), ing [[Speex]]; ing [[FLAC]] a [[lossless]] audio compression codec; ampo ing [[OggPCM]]. 
+
+Ing katayang ‘Ogg’ keraklan deng gagamitan king [[audio file format]] a [[Vorbis|Ogg Vorbis]]; ing buri nang sabian niti, maki Vorbis-encoded audio king lulanan a Ogg. Aniang mumuna, gagamitan de ing .ogg file extension kng sanumang laman a kakalat da kapamilatan ning Ogg. nanupata, aniang 2007, pekisabi ning Xiph.Org Foundation a gamitan ya mu king Vorbis ing .ogg king Vorbis uling pigaganakan da ing pamibage da reti (backward compatibility concerns). Migdisisiun ya ing Xiph.Org Foundation a maglalang bayung grupu da reng file extension ampong media tyupe para kareng miyayaliwang uri ning laman, alimbawa .oga kareng audio only file, .ogv king video, maki katni man o ala (kayabe ya ing Theora), ampong .ogx kareng applications.<ref>{{cite web     
+|url = http://wiki.xiph.org/index.php/MIME_Types_and_File_Extensions
+|title = MIME Types and File Extensions
+|work  = XiphWiki
+|date  = 2007-09-07
+|accessdate = 2007-09-10
+}}</ref>
+
+== Lon la murin deti ==
+{{portal|Free software|Free Software Portal Logo.svg}} 
+
+* [[Audio data compression]]
+* [[Comparison of container formats]]
+* [[LRC (file format)]]
+
+== Dalerayan ==
+
+{{reflist}}
+
+== Suglung palual ==
+
+{{HelpCommons|Commons:Media help|Ogg}}
+{{commonscat|Ogg files}}
+{{wiktionary}}
+
+* [http://www.xiph.org/ogg/ The Xiph.Org Foundation official webpage &mdash; Ogg] 
+* [http://www.ietf.org/rfc/rfc3533.txt RFC 3533 &mdash; The Ogg Encapsulation Format Version 0] 
+* [http://www.ietf.org/rfc/rfc3534.txt RFC 3534 &mdash; The application/ogg Media Type] 
+* [http://creativecommons.org/technology/ogg Using Creative Commons Metadata in Ogg containers] 
+* [http://www.catb.org/~esr/jargon/html/O/ogg.html Ogg etymology] from the [[Jargon File]]
+* [http://xiph.org/quicktime/ Xiph.Org's official Ogg QuickTime Components for iTunes and iMovie (Windows and Mac OS X)]
+* [http://www.illiminable.com/ogg/ Windows Media Player codecs for Vorbis, Speex, Theora and FLAC]
+* [http://v2v.cc/~j/ffmpeg2theora/ ffmpeg2theora] Ogg Theora encoder, commandline application for Linux, Win32 and [[DOS]] (use port or [[HX_DOS_Extender|HX]]) 
+
+{{Xiph.org}} 
+{{Compression Formats}}
+
+[[Category:Ogg files]]
+[[Category:Container formats]]
+[[Category:Free multimedia codecs, containers, and splitters]]
+[[Category:Xiph.Org projects]]
+[[Category:Open formats]]
+
+[[ast:Ogg]]
+[[ca:Ogg]]
+[[cs:Ogg]]
+[[da:Ogg]]
+[[de:Ogg]]
+[[en:Ogg]]
+[[es:Ogg]]
+[[eo:Ogg]]
+[[fr:Ogg]]
+[[gl:Ogg]]
+[[ko:Ogg]]
+[[hr:OGG]]
+[[it:Ogg]]
+[[lb:.ogg]]
+[[hu:Ogg]]
+[[ms:Ogg]]
+[[nl:Ogg (bestandsindeling)]]
+[[ja:Ogg]]
+[[no:Ogg]]
+[[nn:Ogg]]
+[[pl:Ogg]]
+[[pt:Ogg]]
+[[ro:Ogg]]
+[[ru:Ogg]]
+[[sr:Ogg]]
+[[sv:Ogg]]
+[[ta:ஆக்]]
+[[th:Ogg]]
+[[zh:Ogg]]
