@@ -1,0 +1,61 @@
+{{Infobox file format
+| name = Waveform
+| icon = [[Image:WAV.png|64px]]
+| extension = .wav
+| mime = audio/wav<br />audio/wave<br />audio/x-wav
+| type code = WAVE
+| uniform type = com.microsoft.waveform-​audio
+| owner = [[Microsoft]] & [[IBM]]
+| genre = [[audio format|audio file]]
+| container for = 
+| contained by = 
+| extended from = [[RIFF (File format)|RIFF]]
+| extended to = 
+| standard = 
+}}
+Ing '''WAV''' (o '''WAVE'''), a pamikuyad king Waveform [[audio format]], [[audio file format]] standard ne ning [[Microsoft]] ampo ning [[International Business Machines|IBM]] para king pamanyimpan king audio bitstream kareng [[personal computer|PC]]. Kawangis ne ning paralan a [[Resource Interchange File Format|RIFF]] [[bitstream format]] para king pamanyimpan data kareng “chunks” (pira-pirasu), ania malapit ya king [[Interchange File Format|IFF]] da reng [[Amiga]] computer ampo ing [[Audio Interchange File Format|AIFF]] kareng [[Apple Macintosh|Macintosh]] computer. Iti ing manimunang format a magagamit kareng [[Microsoft Windows|Windows]] system para king e metagin (raw) ampong e mesiksik (uncompressed) a audio. Ing default bitstream encoding (itang magamit liban kaniti) yapin ing Microsoft [[Linear pulse code modulation|Pulse Code Modulation]] (PCM) format.  
+
+== Dalerayan ==
+{{Reflist}}
+
+== Lon la murin deti ==
+* [[Audio Compression Manager]]
+* [[Broadcast Wave Format]] (BWF)
+* [[RF64]], an extended file format for audio (multichannel file format enabling file sizes to exceed 4 gigabytes)
+
+== Suglung palual ==
+* [http://ccrma.stanford.edu/courses/422/projects/WaveFormat/ A summary of the WAVE file format]
+* [http://www.sonicspot.com/guide/wavefiles.html Another summary of WAVE file format]
+* [http://www.borg.com/~jglatt/tech/wave.htm WAV file format]
+* [http://technology.niagarac.on.ca/courses/ctec1631/WavFileFormat.html Basic WAV file format]
+* [http://www.bcr.org/cdp/best/digital-audio-bp.pdf A detailed explanation of digital audio formats and best practices (pdf)]
+* [http://www.microsoft.com/whdc/device/audio/multichaud.mspx WAVE_FORMAT_EXTENSIBLE Specification]
+* [http://dream.cs.bath.ac.uk/researchdev/wave-ex/wave_ex.html More information on WAVE_FORMAT_EXTENSIBLE]
+
+{{Compression Formats}}
+
+[[Category:Container formats]]
+[[Category:Digital audio]]
+[[Category:Microsoft Windows multimedia technology]]
+
+[[ca:WAV]]
+[[cs:WAV]]
+[[da:Wav]]
+[[de:RIFF WAVE]]
+[[en:WAV]]
+[[es:Waveform Audio Format]]
+[[fr:WAVEform audio format]]
+[[ko:웨이브]]
+[[id:WAV]]
+[[it:WAV]]
+[[hu:WAV]]
+[[nl:WAV]]
+[[ja:WAV]]
+[[pl:WAV]]
+[[pt:WAV]]
+[[simple:WAV]]
+[[fi:WAV]]
+[[sv:WAVE]]
+[[tr:WAV]]
+[[uk:WAV]]
+[[zh:WAV]]
