@@ -38,7 +38,7 @@
 | <tr><th> [[Rector]] 
 </th><td> {{{rector}}}</td></tr>
 }}{{#if: {{{chairman<includeonly>|</includeonly>}}}
-| <tr><th> [[Chairman]] 
+| <tr><th> [[Chairman|Talapamuntuk (Chairman)]] 
 </th><td> {{{chairman}}}</td></tr>
 }}{{#if: {{{chancellor<includeonly>|</includeonly>}}}
 | <tr><th> [[Chancellor (education)|Canciller]]
