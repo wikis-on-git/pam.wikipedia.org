@@ -1,0 +1,72 @@
+{{Infobox file format
+| name = Windows Media Audio
+| icon = [[Image:VistaWMAIcon.PNG|64px|WMA Extension Icon]]
+| extension = .wma
+| mime = audio/x-ms-wma
+| type code =
+| uniform type = com.microsoft.windows-?media-wma
+| owner = [[Microsoft]]
+| genre = [[Audio file format]]
+| container for =
+| contained by =
+| extended from =
+| extended to =
+| standard =
+}}
+Ing '''Windows Media Audio''' ('''WMA''') metung yang teknolohiyang [[audio data compression]] a ayalkus (developed) ning [[Microsoft]]. Gagamitan de ing lagiu ketang kayang [[audio file format]] o kareng kayang [[audio codec]]. Metung yang teknolohiyang [[w:Proprietary software|ating makibandi]] (proprietary) a kayabe king balangkas o framework a [[Windows Media]]. Bibilugan de reng apat a saparadung codec ing WMA. Ing orihinal a WMA codec, a ausan da kabud a  ''WMA'', megawa ya anting kakumpitensiya da reng sikat a codec a [[MP3]] ampong [[RealAudio]].<ref>{{cite web |author=Smith, Tony |title=Microsoft readies MP3-killer digital music format |date=[[1999-03-12]] |url=http://www.theregister.co.uk/1999/03/12/microsoft_readies_mp3killer_digital_music/ |accessdate=2007-08-16 }}</ref><ref name="RealNetworks MSAudio Analysis">{{cite web |url=http://www.real.com/msaudio/ |title=Analysis of the Microsoft Audio Codec |publisher=RealNetworks |accessdate=2007-08-16 }}</ref> Ngeni, metung ya kareng pekasikat a codec, kayabe ning MP3 ampo ing [[Advanced Audio Codec|MPEG-4 AAC]]. Aniang 2003, megi yang kadua keng MP3 king bilang da reng standalone player a gagamitan kaya.<ref>{{cite web |author=Rosoff, Matt |title=PC At Center of Microsoft's Digital Media Hub Strategy |date=[[2004-01-19]] |url=http://www.directionsonmicrosoft.com/sample/DOMIS/update/2004/02feb/0204chpadm.htm |accessdate=2007-08-16 }}</ref> Ing ''WMA Pro'', metung a mas bayu ampong mas masulung a codec, gagamit yang [[Surround sound|multichannel]] ampong high [[Audio bit depth|resolution]] audio.<ref name="Windows Media 9 Series Whitepaper">{{cite web |title=Windows Media 9 Series Capabilities and Benefits Overview |publisher=International Narcotics Control Board |url=http://www.cse.dmu.ac.uk/~hoi/mult2003/week6/WinMedia9WhitePaper.doc |format=DOC |accessdate=2007-08-16 }}</ref> Ating [[Lossless data compression|lossless]] a codec, ing ''WMA Lossless'', a manyiksik (mag-compress) king audio data a e mawawala ing audio fidelity (pamilupa king orihinal).<ref name="Windows Media 9 Series Whitepaper"/> Ita namang ''WMA Voice'', a megawa para kareng siuala (voice content), manyiksik yang gagamit  serie o pamitukituki (range) ning mababang [[bit rate]].<ref name="Windows Media 9 Series Whitepaper"/>.<ref name="Windows Media 9 Series Whitepaper"/>
+
+==Lon la murin deti==
+*[[Codec]] – Ing teknikal a kataya para king compressor ampong decompressor 
+*[[Windows Media]] – Metung a digital media platform a sasaklo tunggal-tunggal o indibidual a teknolohiyang Windows Media 
+*[[Windows Media Video]] – Metung a video file format ampong codec a ayalkus (developed) ning Microsoft
+*[[JPEG XR|JPEG XR / HD Photo]] – Metung a image file format ampong codec a ayalkus ning Microsoft
+*[[Windows Media DRM]] – Metung a dake ning Windows Media para king pamanibala kareng katulirang digital (digital rights management), a magsilbi bang talan kareng katuliran king pamangamit kareng laman a uring media 
+*[[WMV HD]] – Ing komersial a lagiu (marketing name) da reng high definition video a me-encode kapamilatan ning Windows Media Video 9 codec
+*[[Surround sound]] – Audio a maki channel a maigit king adua
+*[[MPlayer]] – Metung a third-party, open source, cross-platform media player a maliaring patigtig kareng dakal a Windows Media file a gagamit king FFmpeg
+*[[FFmpeg]] – Metung a third-party, cross-platform, free software codec library a pagana (implement)kareng Windows Media Video codec
+*[[Lossy data compression]] – Pamanyiksik data (data compression) nung nukarin ating impormasiun a mawawala
+*[[Lossless data compression]] – Pamanyiksik data nung nukarin alang mawawalang impormasiun 
+*[[List of audio formats]]
+*[[Comparison of audio codecs]]
+
+==Suglung palual==
+*[http://www.microsoft.com/windowsmedia/ Windows Media homepage at Microsoft]
+*[http://www.rjamorim.com/test/ Listening tests (performed between 2002-2004) featuring Windows Media Audio at several bit rates]
+*[http://wiki.hydrogenaudio.org/index.php?title=WMA WMA page in Hydrogenaudio Wiki]
+*[http://www.medialab.sonera.fi/demos/streaming/avq/audio_real_vs_windowsmedia/ Audio quality comparison between RealAudio and Windows Media Audio]
+*[http://www.spinnaker.com/crypt/drm/freeme/Technical Description of the algorithm used for Windows Media encryption]
+*[http://svn.mplayerhq.hu/ffmpeg/trunk/libavcodec/wmadec.c?view=markup Windows Media Audio decoder source code at FFMpeg's CVS]
+*[http://www.digit-life.com/articles/mp3pro/ mp3PRO vs MP3] - includes graphs comparing high-frequency performance for WMA/MP3/WAV
+*[http://www.jakeludington.com/ask_jake/20050811_convert_wma_to_mp3.html Convert WMA to MP3] - tutorial on how to convert WMA to MP3
+
+==Dalerayan==
+{{reflist|2}}
+
+{{Compression Formats}}
+
+[[Category:Audio codecs]]
+[[Category:Computer file formats]]
+[[Category:Digital audio]]
+[[Category:Microsoft Windows multimedia technology]]
+
+[[cs:WMA]]
+[[de:Windows Media Audio]]
+[[en:Windows Media Audio]]
+[[es:Windows Media Audio]]
+[[fr:Windows Media Audio]]
+[[ko:윈도 미디어 오디오]]
+[[it:Windows Media Audio]]
+[[hu:Windows Media Audio]]
+[[nl:Windows Media Audio]]
+[[ja:Windows Media Audio]]
+[[no:Windows Media Audio]]
+[[pl:Windows Media Audio]]
+[[pt:Windows Media Audio]]
+[[ru:Windows Media Audio]]
+[[simple:WMA]]
+[[sv:WMA]]
+[[tr:Windows Ortam Sesi]]
+[[uk:WMA]]
+[[zh-yue:WMA]]
+[[zh:WMA]]
