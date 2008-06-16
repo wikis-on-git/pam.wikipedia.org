@@ -1,7 +1,19 @@
-{{langWithName|el|Greek|{{{1}}}}}<noinclude>
-== See also ==
-* [[Template:Lang-grc]] for [[Ancient Greek]], [[Template:Polytonic]] for rendering [[polytonic Greek script]].
-[[Category:Multilingual support templates|Lang-el]]
+{{langWithName|el|Griegu|{{{1}}}}}<noinclude>
+
+== Lon la murin deti ==
+* {{tl|lang-grc}} for [[Ancient Greek]], 
+* {{tl|polytonic}} for rendering [[polytonic Greek script]].
+
+[[Category:Multilingual support templates|{{PAGENAME}}]]
+
+[[bg:Шаблон:Lang-el]]
+[[en:Template:Lang-el]]
+[[ia:Patrono:Lang-el]]
+[[lv:Veidne:Val-el]]
+[[mk:Шаблон:Lang-el]]
+[[ru:Шаблон:Lang-el]]
+[[simple:Template:Lang-el]]
+[[sr:Шаблон:Грчки1]]
 [[fi:Malline:K-el]]
 [[zh:Template:Lang-el]]
 </noinclude>
