@@ -1,0 +1,30 @@
+Bukud kareng pikabaluan a paralan ning pamanyiksik larawan a [[lossy]] (lossy image compression techniques) ning [[Joint Photographic Experts Group]] - deng [[JPEG]] ampong [[JPEG 2000]] - atin ya muring atlung standard  para king [[lossless compression]] (nung nu atin yang uri [mode] a lossy ing JPEG-LS) iti. 
+
+[[Image:DPCM.jpg|frame|Ing DPCM encoder model.]]
+[[Image:lossless_mode.jpg|frame|Mapilang pepasimpling block diagram para king sistemang lossless.]]
+[[Image:prediction.jpg|frame|Atlung siping-siping a sample a makapadurut king sample a papaula (to be predicted).]]
+Ing lossless JPEG meyalkus (developed) ya antimong tauling dagdag king JPEG kanitang 1993. Gagamit yang tutung aliwang paralan ketang lossy JPEG standard. Gagamit yang predictive scheme (paralan ning pamanula) iti kareng atlung pekamalapit (causal) a kasiping na (babo o ''upper'', kaili o ''left'', ampong babong kaili o ''upper-left''), at magagamit ing [[w:Information entropy|entropy]] coding ketang prediction error (kamalian king pamanula). E re susuportan deng standard [[libjpeg|Independent JPEG Group  library]], dapot ginawa yang patch i Ken Murchison ning Oceana Matrix Ltd., nung nu tutuglungan ne ing IJG library ba neng asuportan ing Lossless JPEG. Dakal la muring gagamit king Lossless JPEG king pamaglarawan a pang-medisina (medical imaging). Magagamit ya mu naman king [[Digital Negative (file format)|DNG]] ampo kareng aliwang digital camera ba lang isiksik deng e pa meprosesung larawan (raw images), oneng liban kaniti, e maleparan ing pamangamit kaya.
+
+==Suglung palual==
+
+*[http://www.jpeg.org/public/wg1n1816.pdf JPEG 2000 still image coding versus other standards]
+*[http://itohws03.ee.noda.sut.ac.jp/~matsuda/mrp JPEG2000, JPEG-LS and other lossless codecs on greyscale images]
+*[http://www.jpeg.org/jpeg/jpegls.html JPEG-LS home page]
+*[http://www.hpl.hp.com/loco/ LOCO-I home page]
+*[http://www.hpl.hp.com/loco/JPEGLSTerms.htm Licensing terms for HP's LOCO technology in JPEG-LS (free reg. req.; not sublicensable; available only to companies)]
+*[http://kt.ijs.si/aleks/jpeg-ls/index.htm Links to Various Implementations]
+*[http://www.dclunie.com/jpegls.html Single-tone/grayscale JPEG-LS encoder algorithm]
+
+==Dalerayan==
+
+{{refs}}
+
+{{Compression Formats}}
+
+[[Category:Graphics file formats]]
+[[Category:Lossless compression algorithms]]
+[[Category:Lossy compression algorithms]]
+
+[[en:Lossless JPEG]]
+[[fr:JPEG-LS]]
+[[ru:JPEG-LS]]
