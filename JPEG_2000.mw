@@ -1,0 +1,71 @@
+{{Infobox file format
+| name = JPEG 2000
+| screenshot = [[Image:JPEG JFIF and 2000 Comparison.png|300px]]
+| caption = Comparison of JPEG 2000 with the original JPEG format.
+| extension = <tt>.jp2</tt>, <tt>.j2k</tt>
+| mime = <tt>image/jp2</tt>
+| owner = [[Joint Photographic Experts Group]]
+| creatorcode = <tt>jp2 </tt>
+| genre = [[graphics file format]]
+| containerfor = 
+| containedby = 
+| extendedfrom = 
+| extendedto = 
+}}
+Ing '''JPEG 2000''' metung yang standard ning [[pamanyiksik larawan]] o image compression a basi king [[wavelet]]. Lelangan ne ning lupung (committee) a [[Joint Photographic Experts Group]] kanitang banuang 2000 king kapakayan nang alilan ya ing orihinal a standard a [[JPEG]] (a melalang bandang 1991) a basi king [[discrete cosine transform]]. Ing standardized [[filename extension]], '''.jp2''' ya para king [[International Organization for Standardization|ISO]]/[[International Electrotechnical Commission|IEC]] 15444-1 conforming files, at '''.jpx''' ya para karing extended part-2 specification, a mibulalag antimong ISO/IEC 15444-2, kabang ing [[w:Internet media type|MIME type]], '''image/jp2''' ya.
+   
+Mangailangan yang misnang karakal a panaun king pamaglako pangasiksik (decompression) kesa king JPEG, at paintulutan na ing mas matas a uring pamanguldas [simpan] (sophisticated progressive downloads), dapot halus pareu ing panaun da para king pamanyiksik (compression rates). Lalu yang pupulâ ing HOEG kuntoru mitatas ing pamiyanting pamaniksik (compression rates), imbes na magpalual kareng "blocking and ringing" [[w:compression artifact|artifacts]] ning JPEG, anian lalung sasákit ing diretsung pamikumpara da reng karelang bilis ning pamanyiksik (compression rate).
+
+Mibulalag ya antimong [[International Organization for Standardization|ISO]] standard, ISO/IEC 15444-1:2000, ing metung a dake ning JPEG 2000. Aniang banuang 2008, e pa maleparan ing pamangamit da reng [[web browser]] king JPEG 2000, ania e pa pangkabilugan ing pamangamit kaniti king  
+[[World Wide Web]]. 
+
+Lipat ning gínawa nong paralan ba lang ibage deng miyayaliwang uri da ring meta-data, king salukuyan, ala pang matatanggap a paralan ba yang ilangkap (embed) la reng [[Exchangeable image file format|Exif]] data, dapot atin nang memunikalang JPEG 2000 "'''JpgTiffExif->JP2'''" UUID box bang manyalikut impormasiun, at papaliari ne ning [http://owl.phy.queensu.ca/~phil/exiftool/ ExifTool] version 6.92 o mas bayu.   
+
+==Lon la murin deti==
+* [[w:Comparison of graphics file formats]]
+* [[w:J2K-Codec]] — Metung a pisasali rang JPEG2000 decoder a mediseniung malaguang gamitan.
+* [[ECW (file format)|ECW]] — metung a wavelet compression format a maliaring pakiyanti king JPEG 2000.
+* [[QuickTime]] — metung a multimedia framework, application ampong web browser plugin a gewa ning Apple Computer, a maki agyu king encoding, decoding ampong pamanigtig kareng simpan a multimedia(nung nu la tambing kayabe deng larawan a JPEG2000).
+* [[MrSID]] — metung a wavelet compression format a maliaring pakiyanti king JPEG 2000
+* [[Progressive Graphics File|PGF]] — mabilis a wavelet compression format a maliaring pakiyanti king JPEG 2000
+* [[Ziproxy]] — Metung a HTTP proxy a maki image recompression (pasibayung pamanyiksik larawan) paras king/manibat king JPEG 2000
+
+==Dalerayan==
+<references/>
+
+*[http://www.jpeg.org/JPEG2000.htm Official JPEG 2000 page]
+*[http://www.jpeg.org/jpeg2000/CDs15444.html Final Committee Drafts of JPEG 2000 standard] (as the official JPEG 2000 standard is not freely available, the final drafts are the most accurate freely available documentation about this standard)
+*[http://www.crc.ricoh.com/~gormish/jpeg2000.html Gormish Notes on JPEG 2000]
+*[http://www.rii.ricoh.com/%7Egormish/pdf/dcc2000_jpeg2000_note.pdf Technical overview of JPEG 2000] ([[Portable Document Format|PDF]])
+*[http://www.kom.auc.dk/~myap04/pjts/master.pdf Efficient HW/SW Implementation of JPEG2000] ([[Portable Document Format|PDF]])
+
+==Suglung palual==
+*[http://www.jpeg.org/JPEG2000.htm Official JPEG 2000 website]
+*[http://www.watermarkingworld.com/books_list?k=Jpeg2000 All published books about JPEG 2000]
+
+;Pamiyanti king JPEG 2000:
+*[http://www.fnordware.com/j2k/jp2samples.html Side-by side comparison of appearance of 16k JPEG and JPEG 2000 files]
+*[http://kt.ijs.si/aleks/jpeg/artifacts.htm JPEG and JPEG 2000 Artifacts]
+
+{{Compression Formats}}
+
+[[Category:ISO standards]]
+[[Category:Graphics file formats]]
+[[Category:Wavelets]]
+
+[[cs:JPEG 2000]]
+[[de:JPEG 2000]]
+[[en:JPEG 2000]]
+[[es:JPEG 2000]]
+[[fr:JPEG 2000]]
+[[ko:JPEG 2000]]
+[[it:JPEG 2000]]
+[[nl:JPEG 2000]]
+[[ja:JPEG 2000]]
+[[pl:JPEG 2000]]
+[[pt:JPEG 2000]]
+[[ru:JPEG 2000]]
+[[fi:JPEG 2000]]
+[[sv:JPEG 2000]]
+[[uk:JPEG 2000]]
+[[zh:JPEG 2000]]
