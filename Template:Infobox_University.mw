@@ -139,7 +139,7 @@
 | <tr><th> Athletics
 </th><td> {{{athletics}}}</td></tr>
 }}{{#if: {{{affiliations<includeonly>|</includeonly>}}}
-| <tr><th> Affiliations
+| <tr><th> Kaugne
 </th><td> {{{affiliations}}}</td></tr>
 }}{{#if: {{{nobel_laureates<includeonly>|</includeonly>}}}
 | <tr><th> [[Nobel Laureate|Menikuang Galal a Nobel]]
