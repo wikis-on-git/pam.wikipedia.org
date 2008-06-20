@@ -1,0 +1,35 @@
+{{navbox
+| name   = Apple software
+| title  = [[Apple Inc.]] [[List of Macintosh software|software]]
+| style  = width:100%;<noinclude>
+| state  = expanded</noinclude>
+
+| group1 = [[Operating system|OS]]
+| list1  = [[System 6]], [[System 7]], [[Mac OS 8]], [[Mac OS 9]], [[Mac OS X]]<small>&nbsp;([[Mac OS X Public Beta|Public Beta]]{{·}} "[[Mac OS X v10.0|Cheetah]]"{{·}} "[[Mac OS X v10.1|Puma]]"{{·}} "[[Mac OS X v10.2|Jaguar]]"{{·}} "[[Mac OS X v10.3|Panther]]"{{·}} "[[Mac OS X v10.4|Tiger]]"{{·}} "[[Mac OS X v10.5|Leopard]]"{{·}} "[[Mac OS X v10.6|Snow Leopard]]")</small>{{·}} [[iPhone OS]]
+
+| group2 = Consumer
+| list2  = [[MobileMe]]{{·}} [[iLife]]<small>&nbsp;([[iMovie]]{{·}} [[iDVD]]{{·}} [[iPhoto]]{{·}} [[GarageBand]]{{·}} [[iWeb]]{{·}} [[iTunes]])</small>{{·}} [[iWork]]<small>&nbsp;([[Keynote (presentation software)|Keynote]]{{·}} [[Pages]]{{·}} [[Numbers (software)|Numbers]])</small>
+
+| group3 = [[Prosumer]]
+| list3  = [[Final Cut Express]]{{·}} [[Logic Express]]
+
+| group4 = Professional
+| list4  = [[Aperture (photography software)|Aperture]]{{·}} [[FileMaker|FileMaker Pro]]{{·}} [[Final Cut Studio]]{{·}} [[Logic Studio]]{{·}} [[Shake (software)|Shake]]
+
+| group5 = Bundled
+| list5  = [[Front Row (software)|Front Row]]{{·}} [[iChat]]{{·}} [[Mail (application)|Mail]]{{·}} [[Photo Booth]]{{·}} [[QuickTime]]{{·}} [[Safari (web browser)|Safari]]{{·}} [[TextEdit]]
+
+| group6 = Server
+| list6  = [[Apple Remote Desktop]]{{·}} [[Mac OS X Server]]{{·}} [[WebObjects]]{{·}} [[Xsan]]
+
+| group7 = Discontinued
+| list7  = [[.Mac]]{{·}} [[AppleWorks]]{{·}} [[HyperCard]]{{·}} [[MacDraw]]{{·}} [[Mac OS]]{{·}} [[MacPaint]]{{·}} [[MacProject]]{{·}} [[MacTerminal]]{{·}} [[MacWrite]]{{·}} [[ResEdit]]
+}}<noinclude>{{Documentation, template|Template:Apple/doc}}
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Software templates|{{PAGENAME}}]]
+[[Category:Apple Inc.-related templates|{{PAGENAME}}]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[is:Snið:Apple forrit]]
+[[no:Mal:Apples programvare]]
+[[ru:Шаблон:Програмное обеспечение Apple]]</noinclude>
