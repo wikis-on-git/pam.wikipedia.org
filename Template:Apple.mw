@@ -1,0 +1,33 @@
+{{navbox 
+| name     = Apple
+| title    = [[Apple Inc.]]<noinclude>
+| state    = expanded</noinclude>
+
+| group1   = [[:Category:Apple Inc. employees|Board of directors]]
+| list1    = [[William Campbell (business executive)|William Campbell]]{{·}} [[Millard Drexler]]{{·}} [[Al Gore]]{{·}} [[Steve Jobs]]{{·}} [[Andrea Jung]]{{·}} [[Arthur D. Levinson]]{{·}} [[Eric E. Schmidt]]{{·}} [[Jerry York (businessman)|Jerry York]]
+
+| group2   = [[:Category:Macintosh platform|Hardware]] [[List of Macintosh models grouped by CPU type|products]]
+| list2    = [[Apple TV]]{{·}} [[iPhone]]{{·}} {{nowrap|[[iPod]] ([[iPod classic|classic]], [[iPod nano|nano]], [[iPod shuffle|shuffle]], [[iPod touch|touch]])}}{{·}} {{nowrap|[[Macintosh|Mac]] ([[iMac]], [[Mac mini|mini]], [[Mac Pro|Pro]]){{·}}[[MacBook family|MacBook]] ([[MacBook Air|Air]], [[MacBook]], [[MacBook Pro|Pro]]){{·}}[[Xserve]]}}
+
+| group3   = [[:Category:Apple Inc. hardware|Accessories]]
+| list3    = [[AirPort]]{{·}} [[Apple Cinema Display|Cinema Display]]{{·}} [[Apple Mighty Mouse|Mighty Mouse]]{{·}} [[Time Capsule (Apple)|Time Capsule]]
+
+| group4   = [[:Category:Apple Inc. software|Software]] [[List of Macintosh software|products]]
+| list4    = [[Aperture (photography software)|Aperture]]{{·}} [[FileMaker|FileMaker Pro]]{{·}} [[Final Cut Studio]]{{·}} [[iLife]]{{·}} [[iTunes]]{{·}} [[iWork]]{{·}} [[Logic Studio]]{{·}} [[Mac OS X]]&nbsp;([[Mac OS X Server|Server]]){{·}} [[QuickTime]]{{·}} [[Safari (web browser)|Safari]]{{·}} [[Xsan]]
+
+| group5   = [[:Category:Apple Inc. services|Stores and services]]
+| list5    = [[Apple Developer Connection|ADC]]{{·}} [[AppleCare]]{{·}} [[Apple Specialist]]{{·}} [[Apple Store (retail)|Apple Store]]&nbsp;([[Apple Store (online)|online]]){{·}} [[Apple certification programs|Certifications]]{{·}} [[Genius Bar]]{{·}} [[iTunes Store]]{{·}} [[MobileMe]]{{·}} [[One to One (service)|One to One]]{{·}} [[ProCare]]
+
+| group6   = [[:Category:Apple Inc.|See also]]
+| list6    = {{nowrap|[[Apple Inc. advertising|Advertising]] ([[Get a Mac]], [[iPod advertising|iPods]], [[List of Apple Inc. slogans|Slogans]])}}{{·}} [[Braeburn Capital]]{{·}} [[FileMaker Inc.]]{{·}} {{nowrap|[[History of Apple|History]] ([[List of acquisitions by Apple Inc.|Acquisitions]], [[List of products discontinued by Apple Inc.|Discontinued products]], [[Apple Inc. litigation|Litigation]], [[Typography of Apple Inc.|Typography]])}}{{·}} [[Portal:Apple Inc.|Portal]]
+
+| below    = {{nowrap begin}}'''Annual revenue:''' [[United States dollar|US$]]24.01 billion ({{profit}}24.3% [[Fiscal year|FY]] 2007){{·w}} '''Employees:''' 17,787 full-time; 2,399 temporary{{·w}} '''Stock symbol:''' ({{Nasdaq2|AAPL}}, {{Lse2|ACP}}, {{FWB2|APC}}){{·w}} '''Website:''' [[apple.com|www.apple.com]]{{nowrap end}}
+}}<noinclude>
+
+This is not meant to be an exhaustive guide to Apple content on Wikipedia. However, it can be added to any Apple-related article.
+{{Documentation, template|Template:Apple/doc}}
+[[Category:Computer company templates|{{PAGENAME}}]]
+
+[[is:Snið:Apple]]
+[[zh:Apple]]
+[[ru:шаблон:apple]]</noinclude>
