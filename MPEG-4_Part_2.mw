@@ -1,0 +1,24 @@
+Ing '''MPEG-4 Part 2''' metung yang teknolohiya ning [[video compression]] a inalkus (developed) ning [[MPEG]]. Kayabe ya king [[MPEG-4]] [[ISO]]/[[IEC]] standard (ISO/IEC 14496-2). Metung yang standard ning pamanyiksik (compression) a [[discrete cosine transform]], kalupa da reng minunang standard antimo ing [[MPEG-1]] ampo ing [[MPEG-2]]. Pamipaliari (implementations) na la niting standard a iti deng mapilan a sikat a [[codec]], antimo ing [[DivX]], [[Xvid]] ampo ing [[Nero Digital]]. Dapat a tandanan a ing [[H.264/MPEG-4 AVC|MPEG-4 Part 10]] mangabaldugan yang aliwang format king MPEG-4 Part 2, at e dapat pagkamalian kaniti. Keraklan, ausan deng [[H.264]] o [[AVC]] ing [[MPEG-4 Part 10]], at miyabe reng inalkus o gewa ning [[ITU-T]] ampo ning [[MPEG]].    
+
+==Pikabaluan a pamipaliaring software (Popular software implementations)==
+* [[Xvid]]
+* [[DivX]] (by [[DivX, Inc.]])
+* [[Nero Digital]]
+* [[3ivx]]
+* [[QuickTime]]
+* [[libavcodec]]
+
+==Suglung palual==
+*[http://www.m4if.org/resources/profiles/index.php Levels for MPEG-4 Visual Profiles]
+
+==Notes==
+<references/>
+
+{{Compression Formats}}
+
+[[Category:Video codecs]]
+[[Category:MPEG]]
+
+[[en: MPEG-4 Part 2]]
+[[es:MPEG-4 Parte 2]]
+[[fr:MPEG-4 Part 2]]
