@@ -1,0 +1,72 @@
+Ing '''MPEG-1''' metung yang minunang [[standard]] a [[lossy]] a pamanyiksik (compression) ning video ampong audio. Mediseniu ya ba yang isiksik ing [[VHS]]-quality raw digital video ampo ing CD audio pababa king (26:1 a compression ration king mumuna ampong 6:1 king kadua) <ref name=mpeg_faqs1/> a alang apapansinan a pangabawas king kalidad na, bang makagawang [[Video CD]]s, digital [[Cable television|cable]]/[[Satellite television|satellite]] TV ampong [[digital audio broadcasting]] (DAB). <ref name=Didier_MPEG/> <ref name=kurihama89>{{Citation | first = Leonardo | last = Chiariglione | title = Kurihama 89 press release | | date=[[October 21]], [[1989]] | year = 1989 | publisher = [[ISO]]/[[IEC]] | url = http://www.chiariglione.org/mpeg/meetings/kurihama89/kurihama_press.htm | accessdate = 2008-04-09 }}</ref> 
+
+King salukuyan, ing MPEG-1 megi neng matatanggap (compatible) a format para king lossy lossy audio/video king yatu, a magagamit kareng dakal a produktu ampong teknolohiya. Mapaliaring ing MP3 audio format a pepakilala na ing pikabaluan diling dake ning standard a MPEG-1.
+
+Lipat ning maluat ne (kumpara kareng aliwa), e ne man mas matsura o mababang uri kesa kareng mas bayung teknolohiya ing MPEG-1. Agpang kang [[Leonardo Chiariglione]] (metung kareng mitátag king [[MPEG]]): "Alang katutuan king paniwalang alang patugut a susulung ing teknolohiya ning pamanyiksik." ("the idea that compression technology keeps on improving is a myth.")<ref name=opensource>{{Citation | first = Leonardo | last = Chiariglione | title = Open source in MPEG | date=March, 2001 | year = 2001 | publisher = [[Linux Journal]] | url = http://www.chiariglione.org/leonardo/publications/linux/linux00.htm | accessdate = 2008-04-09 }}</ref>
+
+Makabulalag (published) ya ing MPEG-1 standard antimong '''[[ISO]]/[[IEC]]-11172'''.
+{{Infobox file format
+| name = Moving Picture Experts Group Phase 1 (MPEG-1)
+| icon = 
+| logo =
+| extension = <tt>.mpg, .mpeg, .mp1, .mp2, .mp3, .m1v, .m1a, .m2a, .mpa, .mpv</tt>
+| mime = audio/mpeg, video/mpeg
+| owner = [[ISO]], [[IEC]]
+| typecode = 
+| uniform type = 
+| magic = 
+| genre = audio, video, container
+| created = 1988-1992
+| container for = 
+| contained by = 
+| extended from = [[JPEG]], [[H.261]]
+| extended to = [[MPEG-2]]
+| standard = [[ISO]]/[[IEC]]-11172
+}}__TOC__
+
+== Lon la murin deti ==
+*[[MPEG]] Ing Moving Picture Experts Group, deng minalkus (developers) ning  MPEG-1 standard
+*[[MP3]] Karagdagang (e makaing teknikal) a detalle tungkul king MPEG-1 Layer III audio
+*[[MPEG Multichannel]] Backwards compatible a 5.1 channel [[surround sound]] extension king Layer II audio
+*[[MPEG-2]] Ing diretsung kayalili ning MPEG-1 standard
+
+== Dalerayan ==
+{{reflist}}
+
+== Suglung palual ==
+*[http://www.chiariglione.org/mpeg/ Official Web Page of the Moving Picture Experts Group (MPEG) a working group of ISO/IEC]
+*[http://www.mpegif.org/ MPEG Industry Forum Organization]
+*[http://standards.iso.org/ittf/PubliclyAvailableStandards/c025029_ISO_IEC_TR_11172-5_1998(E)_Software_Simulation.zip Source Code to Implement MPEG-1]
+
+{{MPEG}}
+
+{{Compression Formats}}
+
+{{Compression Methods}}
+
+[[Category:Audio codecs]]
+[[Category:Video codecs]]
+[[Category:MPEG]]
+
+[[bn:এমপেগ-১]]
+[[bs:MPEG-1]]
+[[ca:MPEG-1]]
+[[da:MPEG-1]]
+[[de:MPEG-1]]
+[[en: MPEG-1]]
+[[et:MPEG-1]]
+[[es:MPEG-1]]
+[[fr:MPEG-1]]
+[[ko:MPEG-1]]
+[[it:MPEG-1]]
+[[ms:MPEG-1]]
+[[ja:MPEG-1]]
+[[pl:MPEG-1]]
+[[ru:MPEG-1]]
+[[sk:MPEG-1]]
+[[sr:МПЕГ-1]]
+[[fi:MPEG-1]]
+[[sv:MPEG-1]]
+[[tr:MPEG-1]]
+[[uk:MPEG-1]]
+[[zh:MPEG-1]]
