@@ -1,0 +1,18 @@
+{{Infobox file format
+| name = Windows Media Video
+| icon = [[Image:VistaWMVIcon.PNG|64px|WMV Icon]]
+| extension = .wmv
+| mime = video/x-ms-wmv
+| type code = 
+| uniform type = com.microsoft.windows-?media-wmv
+| owner = [[Microsoft]]
+| genre = [[video file format]]
+| container for = 
+| contained by = 
+| extended from = 
+| extended to = 
+| standard = 
+}}
+Ing '''Windows Media Video''' ('''WMV''') metung yang [[Data compression|compressed]] [[video file format]] para kareng mapilang [[Proprietary software|proprietary]] [[codec]] a gewa ning [[Microsoft]]. Mediseniu ya ing orihinal a codec (a ausan dang ''WMV'') para kareng Internet streaming application, anting metung a kakumpitensia king [[RealVideo]]. Deta namang aliwang codec (alimbawa ing ''WMV Screen'' ampo ing ''WMV Image'') para karen lang makabukud o partikular a laman. Uli ning kayang  pamipara-pareu (standardization) kapamilatan ning [[Society of Motion Picture and Television Engineers]] (SMPTE),<ref name="mssmpte">[http://www.microsoft.com/presspass/press/2006/apr06/04-24VC1PR.mspx SMPTE VC-1 Receiving Industrywide Support]</ref><ref name="netanewssmpte">[http://www.betanews.com/article/Microsoft_VC1_Codec_Now_a_Standard/1144097224 Microsoft VC-1 Codec Now a Standard]</ref> mepili yang gamitan ing WMV para kareng pisikal a format (physical-delivery formats) anti king [[HD DVD]] ampong [[Blu-ray Disc]]<ref name="bluray">[http://www.microsoft.com/presspass/press/2004/sep04/09-01BluRayDiscPR.mspx Blu-ray Disc BD-ROM Specification Adds Microsoft's VC-1 Advanced Video Codec]</ref><ref name="hddvd">[http://www.microsoft.com/Presspass/press/2007/jan07/01-08HDDVDMomentumPR.mspx Microsoft Technology Brings HD DVD to the Mainstream]</ref>.
+
+[[en:Windows Media Video]]
