@@ -97,3 +97,11 @@ My fellow Kapampangan Wikipedians,
 You are all cordially invited to the '''First Philippine Wikipedia Virtual Meetup''' to be held on May 3, 2008 at 8:00 PM Philippine Standard Time (UTC+8).  We all hope that you can make it.  For more information, please see [[:en:Wikipedia talk:Tambayan Philippines#Final Call : Virtual meetup|the English Wikipedia]].  Likewise, please indicate your willingness to attend so you may be sent an invitation to the conference.
 
 Thanks and we hope to see you there! --[[:en:User:Sky Harbor|<font color="#0066ff" ><b>Sky Harbor</b></font>]] 14:31 2 Mayo 2008 (UTC)
+
+== [[User:SieBot|SieBot]] ==
+Hi, I request a bot bit for [[User:SieBot|SieBot]].
+* Botmaster : [[User:Siebrand|Siebrand]]
+* Bot's name : [[User:SieBot|SieBot]]
+* List of botflags on others Wikipedias: Almost every Wikipedia (some 25 missing). See [http://toolserver.org/~vvv/sulutil.php?user=SieBot current list of user status and edits]
+* Purpose: Interwiki (pywikipedia)
+* Technical details : [[User:SieBot|SieBot]] is an interwiki bot starting at any Wikipedia. The bot uses the pywikipedia framework and runs day and night in autonomous mode. Sometimes the bot will run in manual assisted mode to solve interwiki conflicts. It has made over 5 million edits since it started. [[User:Siebrand|Siebrand]] 22:35, 26 Juniu 2008 (UTC)
