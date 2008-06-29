@@ -1,0 +1,58 @@
+{{Infobox file format
+| name = Advanced Systems Format
+| icon = 
+| extension = .asf
+| mime = video/x-ms-asf, application/vnd.ms-asf <ref>http://www.iana.org/assignments/media-types/application/vnd.ms-asf </ref>
+| type code = 'ASF_'
+| uniform type = com.microsoft.advanced-systems-format
+| owner = [[Microsoft]]
+| genre = [[Container format]]
+| container for = [[Windows Media Audio|WMA]], [[Windows Media Video|WMV]], [[MPEG4]] etc.
+| contained by = 
+| extended from = 
+| extended to = 
+| standard =
+| magic =  30 26 b2 75
+}} 
+
+Ing '''Advanced Systems Format''' (sadiang '''Advanced Streaming Format''', '''Active Streaming Format''') ing 's [[Proprietary software|proprietary]] [[digital audio]]/[[digital video]] [[container format (digital)|container format]] ning [[Microsoft]], a magagamit lalu na king [[w:streaming media|mediang mamagus]] (streaming media). Kayabe ya king [[Windows Media]] framework o balangkas a [[Windows Media]] ing ASF.
+
+==Lon la murin deti==
+*[[w:Advanced Stream Redirector]] (ASX)
+*[[w:Comparison of container formats]]
+
+==Dalerayan==
+{{reflist|2}}
+
+==Suglung palual==
+*[http://msdn.microsoft.com/en-us/library/ms983668.aspx ASF overview]
+*[http://msdn.microsoft.com/en-us/library/aa390652.aspx MSDN Windows Media Formats]
+*[http://www.digitalpreservation.gov/formats/fdd/fdd000067.shtml Library of Congress analysis of ASF format sustainability]
+*[http://avifile.sourceforge.net/asf-1.0.htm ASF Container Format]
+*[http://msdn.microsoft.com/en-us/library/ms983653(printer).aspx MSDN How To Embed Windows Media Player in a HTML Web Page (For Webmasters)]
+*[http://www.microsoft.com/windows/windowsmedia/howto/articles/CustomizedExp.aspx Creating A Windows Media Custom Experience (For Webmasters)]
+
+{{Compression Formats}}
+{{Internet Explorer}}
+
+{{DEFAULTSORT:Advanced System Format}}
+
+[[Category:Internet Explorer]]
+[[Category:Container formats]]
+[[Category:Microsoft Windows multimedia technology]]
+[[Category:Digital rights management]]
+
+[[ca:Advanced System Format]]
+[[de:Advanced Streaming Format]]
+[[en: Advanced Systems Format]]
+[[es:Advanced Streaming Format]]
+[[fr:Advanced Streaming Format]]
+[[ko:능동 스트리밍 포맷]]
+[[id:Advanced Systems Format]]
+[[it:Advanced Systems Format]]
+[[hu:Advanced Streaming Format]]
+[[ja:Advanced Systems Format]]
+[[pl:Advanced Systems Format]]
+[[ru:Advanced Systems Format]]
+[[fi:ASF]]
+[[tr:Advanced Streaming Format]]
