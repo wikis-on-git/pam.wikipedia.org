@@ -1,0 +1,43 @@
+
+
+<div class="tright" style="border-color: #F8FCFF;">
+<div class="thumbinner" style="width:158px;">
+<imagemap>
+Image:Biological_classification_L_Pengo.svg|150px|The various levels of the scientific classification system.
+rect 100 27 225 68 [[Species]]
+rect 100 90 225 132 [[Genus]]
+rect 100 154 225 196 [[Family (biology)|Family]]
+rect 100 217 225 259 [[Order (biology)|Order]]
+rect 100 280 225 322 [[Class (biology)|Class]]
+rect 100 344 225 386 [[Phylum]]
+rect 100 407 225 449 [[Kingdom (biology)|Kingdom]]
+rect 100 471 225 513 [[Domain (biology)|Domain]]
+rect 100 534 225 576 [[Life]]
+default [[:Image:Biological_classification_L_Pengo.svg]]
+desc none
+</imagemap>
+----
+<div class="thumbcaption"><imagemap>
+Image:Magnify-clip.png|right
+default [[Image:Biological_classification_L_Pengo.svg|Enlarge]]
+desc none
+</imagemap>{{{description|The hierarchy of {{#ifeq:{{lc:{{FULLPAGENAME}}}}|biological classification|biological classification|[[biological classification]]}}'s major eight [[taxonomic rank]]s. <!--
+-->{{#switch:{{lc:{{{level|{{PAGENAME}}}}}}}|
+species=A [[genus]] contains one or more species.
+|genus=A [[family (biology)|family]] contains one or more genera.
+|family (biology)|family=An [[order (biology)|order]] contains one or more families.
+|order (biology)|order=A [[class (biology)|class]] contains one or more orders.
+|phylum=A [[kingdom (biology)|kingdom]] contains one or more phyla.
+|kingdom (biology)|kingdom=A [[Domain (biology)|domain]] contains one or more kingdoms.
+|domain (biology)|domain|life=[[Life]] is divided into domains, which are subdivided into further groups.
+|#default=<!--null-->}} Intermediate minor rankings are not shown.}}}</div></div></div><noinclude>
+
+This template uses [[:Image:Biological_classification_L_Pengo.svg]] and [[mw:Extension:ImageMap|ImageMap]] magic to link the label boxes to the right pages and give a general description. The description can be completely overridden using the <code>description</code> parameter, or you can force it to display as though it were on the page of a certain level using the <code>level</code> parameter.
+
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+[[Category:Biology navigational boxes|{{PAGENAME}}]]
+[[Category:Wikipedia imagemaps|{{PAGENAME}}]]
+
+[[ja:Template:Biological classification]]
+[[nl:Sjabloon:Biologische taxonomie]]
+</noinclude>
