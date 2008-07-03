@@ -30,7 +30,7 @@ species=A [[genus]] contains one or more species.
 |domain (biology)|domain|life=[[Life]] is divided into domains, which are subdivided into further groups.
 |#default=<!--null-->}} Intermediate minor rankings are not shown.}}}</div></div></div><noinclude>
 
-This template uses [[:Image:Biological_classification_L_Pengo.svg]] and [[mw:Extension:ImageMap|ImageMap]] magic to link the label boxes to the right pages and give a general description. The description can be completely overridden using the <code>description</code> parameter, or you can force it to display as though it were on the page of a certain level using the <code>level</code> parameter.
+Ining modelu (template) gagamit yang [[:Image:Biological_classification_L_Pengo.svg]] ampong [[mw:Extension:ImageMap|ImageMap]] magic ba lang pituglung-tuglung deng label boxes kareng ustung bulung at munie makuyad a pamilarawan. Maliari yang lakton ing pamilarawan kapamilatan ning <code>description</code> parameter, o maliari mung ipilit a pakit ne anti ya mong atiu king bulung ning metung a lebel a gagamitan ya ing <code>level</code> parameter.
 
 [[Category:Templates using ParserFunctions|{{PAGENAME}}]]
 [[Category:Biology navigational boxes|{{PAGENAME}}]]
