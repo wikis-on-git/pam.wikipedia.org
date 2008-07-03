@@ -1,0 +1,48 @@
+{{{assessors}}} ({{{year}}}). [http://www.iucnredlist.org/search/details.php/{{{id}}}/all ''{{{title}}}'']. ''2006 [[IUCN Red List|IUCN Red List of Threatened Species]]''. [[World Conservation Union|IUCN]] 2006. Retrieved on {{{downloaded}}}.<noinclude>
+----
+==About==
+
+{{pp-semi-template|small=yes}}
+
+Template for making references to 2006 IUCN Red List of Threatened Species. 
+
+Further comments can be added after the template.
+ 
+==Usage==
+All parameters are '''required.'''
+
+ <nowiki>{{</nowiki>IUCN2006
+ |assessors=
+ |year=
+ |id=
+ |title=
+ |downloaded=
+ <nowiki>}}</nowiki>
+
+==Example usage==
+
+ <nowiki>{{</nowiki>IUCN2006
+ |assessors=Rylands, A.B., Bampi, M.I., Chiarello, A.G., da Fonseca, G.A.B., Mendes, S.L. & Marcelino, M.
+ |year=2003
+ |id=11506
+ |title=Leontopithecus rosalia
+ |downloaded=04 May 2006<nowiki>}}</nowiki>
+
+== See also==
+*{{tl|IUCN}}
+*{{tl|Redlist}}
+
+[[Category:External link templates|{{PAGENAME}}]]
+[[Category:Specific source templates|{{PAGENAME}}]]
+[[Category:Flora external link templates|{{PAGENAME}}]]
+[[bg:Шаблон:IUCN2006]]
+[[de:Vorlage:IUCN2007]]
+[[es:Plantilla:IUCN2006]]
+[[eo:Ŝablono:IUCN2006]]
+[[fr:Modèle:IUCN2006]]
+[[ko:틀:IUCN2006]]
+[[hr:Predložak:IUCN2006]]
+[[sl:Predloga:IUCN2006]]
+[[vi:Tiêu bản:IUCN2006]]
+[[zh:Template:IUCN2006]]
+</noinclude>
