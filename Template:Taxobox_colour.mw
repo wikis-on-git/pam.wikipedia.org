@@ -1,0 +1,14 @@
+<includeonly>{{#switch:{{lc:{{{1}}}}}
+|[[animal]]ia|[[animalia]] = D3D3A4
+|[[archaeplastida]]|[[plant]]ae|[[plantae]] = 90EE90 <!--lightgreen-->
+|[[fungus|fungi]]|[[fungi]] = ADD8E6 <!--lightblue-->
+|[[chromalveolata]] = ADFF2F <!--greenyellow-->
+|[[rhizaria]] = E6E6FA <!--lavender-->
+|[[excavata]]|[[excavates]]|[[excavate|excavata]]|[[excavates|excavata]] = F0E68C <!-- Khaki-->
+|[[amoebozoa]] = FFC8A0
+|[[bacteria]] = D3D3D3
+|[[archaea]] = F3E0E0
+|[[virus]]|[[viruses]]|[[virus]]es|i|ii|iii|iv|v|vi|vii|viii = EE82EE
+|[[incertae sedis]]|''[[incertae sedis]]'' = FAF0E6
+|transparent";{{!}}[[Category:Taxoboxes with an invalid color]]}}</includeonly><noinclude>
+{{template doc}}</noinclude>
