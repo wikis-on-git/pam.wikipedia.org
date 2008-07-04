@@ -6,7 +6,7 @@
 {{#if:{{{image2|}}}|[[image:{{{image2}}}|{{{image2_width|frameless}}}|{{{image2_caption|}}}]]<br /><small><div style="text-align:center">{{{image2_caption|}}}</div></small>}}
 |-style="background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum}}}}}}}}}}}}}}}}}}}};"
 {{#if:{{{status|}}}|
-! [[Conservation status]]
+! [[Kabilian a pang-konserbasiun]]
 {{!}}-
 {{!}}
 <div style="text-align:center">{{#if:{{{status_system|}}}|{{#switch:{{{status_system}}}
