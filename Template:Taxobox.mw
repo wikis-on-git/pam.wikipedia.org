@@ -185,7 +185,7 @@
 {{!}} <span class="superdomain">{{{superdomain}}}</span><br /><small>{{{superdomain_authority|}}}</small>}}
 |-valign="top"
 {{#if:{{{domain|}}}|
-{{!}} Domain:
+{{!}} Sakup:
 {{!}} <span class="domain">{{{domain}}}</span><br /><small>{{{domain_authority|}}}</small>}}
 |-valign="top"
 {{#if:{{{unranked_regnum|}}}|
