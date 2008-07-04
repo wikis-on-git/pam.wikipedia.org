@@ -11,11 +11,11 @@
 {{!}}
 <div style="text-align:center">{{#if:{{{status_system|}}}|{{#switch:{{{status_system}}}
   |iucn2.3|IUCN2.3={{#switch:{{{status}}}
-    |EX|ex=[[Image:Status iucn2.3 EX.svg|frameless]]<br />[[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }} [[Category:extinct species]]
+    |EX|ex=[[Image:Status iucn2.3 EX.svg|frameless]]<br />[[Extinction|Mewala nang Laganas]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }} [[Category:extinct species]]
     |EW|ew=[[Image:Status iucn2.3 EW.svg|frameless]]<br />[[Extinct in the Wild]][[Category:Species extinct in the wild]]
-    |CR|cr=[[Image:Status iucn2.3 CR.svg|frameless]]<br />[[Critically endangered species|Critically Endangered]] [[Category:Critically endangered species]]
-    |EN|en=[[Image:Status iucn2.3 EN.svg|frameless]]<br />[[Endangered species|Endangered]] [[Category:Endangered species]]
-    |VU|vu=[[Image:Status iucn2.3 VU.svg|frameless]]<br />[[Vulnerable species|Vulnerable]] [[Category:Vulnerable species]]
+    |CR|cr=[[Image:Status iucn2.3 CR.svg|frameless]]<br />[[Critically endangered species|Maibug nang Mawala]] [[Category:Critically endangered species]]
+    |EN|en=[[Image:Status iucn2.3 EN.svg|frameless]]<br />[[Endangered species|Dilikadu]] [[Category:Endangered species]]
+    |VU|vu=[[Image:Status iucn2.3 VU.svg|frameless]]<br />[[Vulnerable species|Maki Panganib]] [[Category:Vulnerable species]]
     |LR|lr=[[Image:Status iucn2.3 blank.svg]]<br />Lower risk [[Category:Invalid conservation status]]
     |CD|cd|LR/CD|lr/CD|LR/cd|lr/cd=[[Image:Status iucn2.3 CD.svg|frameless]]<br />[[Conservation Dependent]]
     |NT|nt|LR/NT|lr/NT|LR/nt|lr/nt=[[Image:Status iucn2.3 NT.svg|frameless]]<br />[[Near Threatened]] [[Category:Near Threatened species]]
@@ -109,25 +109,25 @@
     |'''''Invalid status'''''[[Category:Invalid conservation status]]
 }}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[New Zealand Threat Classification System|NZ TCS]]}}){{{status_ref|}}}</small>
     |{{#switch:{{{status}}}
-      |EX|ex=[[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }} [[Category:extinct species]]
-      |CR|cr=[[Critically endangered species|Critically Endangered]]
-      |EN|en=[[Endangered species|Endangered]]
+      |EX|ex=[[Extinction|Mewala nang Laganas]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }} [[Category:extinct species]]
+      |CR|cr=[[Critically endangered species|Maibug nang Mawala]]
+      |EN|en=[[Endangered species|Dilikadu]]
       |{{{status}}}
 }}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|{{{status_system}}}}}){{{status_ref|}}}</small>[[Category:Taxoboxes with an unrecognised status system]]
 }}|{{#switch:{{{status}}}
-  |EX|ex=[[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }} [[Category:extinct species]][[Category:Taxoboxes needing a status system parameter]]
+  |EX|ex=[[Extinction|Mewala nang Laganas]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }} [[Category:extinct species]][[Category:Taxoboxes needing a status system parameter]]
   |EW|ew=[[Extinction|Extinct]]&nbsp;in&nbsp;the&nbsp;wild [[Category:Species extinct in the wild]][[Category:Taxoboxes needing a status system parameter]]
-  |CR|cr=[[Critically endangered species|Critically endangered]] [[Category:Critically endangered species]][[Category:Taxoboxes needing a status system parameter]]
-  |EN|en=[[Endangered species|Endangered]] [[Category:Endangered species]][[Category:Taxoboxes needing a status system parameter]]
-  |VU|vu=[[Vulnerable species|Vulnerable]] [[Category:Vulnerable species]][[Category:Taxoboxes needing a status system parameter]]
+  |CR|cr=[[Critically endangered species|Maibug nang Mawala]] [[Category:Critically endangered species]][[Category:Taxoboxes needing a status system parameter]]
+  |EN|en=[[Endangered species|Dilikadu]] [[Category:Endangered species]][[Category:Taxoboxes needing a status system parameter]]
+  |VU|vu=[[Vulnerable species|Maki Panganib]] [[Category:Vulnerable species]][[Category:Taxoboxes needing a status system parameter]]
   |NT|nt=[[Near Threatened]] [[Category:Near Threatened species]][[Category:Taxoboxes needing a status system parameter]]
   |LC|lc=[[Least Concern]] [[Category:Least Concern species]][[Category:Taxoboxes needing a status system parameter]]
   |SE|se|SECURE|Secure|secure=Secure[[Category:Taxoboxes needing a status system parameter]]
   |DD|dd=[[Data Deficient]][[Category:Taxoboxes needing a status system parameter]]
-  |DOM|dom|DOMESTICATED|Domesticated|domesticated=Domesticated [[Category:Domesticated animals]]
-  |PE|pe=[[Image:Status_none_PE.svg|frameless]]<br />[[Critically endangered]], possibly extinct [[Category:Critically endangered species]][[Category:Taxoboxes needing a status system parameter]]
-  |PEW|pew=[[Image:Status_none_PEW.svg|frameless]]<br />[[Critically endangered]], possibly extinct in the wild [[Category:Critically endangered species]][[Category:Taxoboxes needing a status system parameter]]
-  |CITES_A1='''Appendix I'''<br />[[Threatened species|Threatened with extinction]]
+  |DOM|dom|DOMESTICATED|Domesticated|domesticated=Matunud [[Category:Domesticated animals]]
+  |PE|pe=[[Image:Status_none_PE.svg|frameless]]<br />[[Maibug nang mawala]], mapaliaring mewala ne [[Category:Critically endangered species]][[Category:Taxoboxes needing a status system parameter]]
+  |PEW|pew=[[Image:Status_none_PEW.svg|frameless]]<br />[[Maibug neng mawala]], mapaliaring mewala ne king ilang [[Category:Critically endangered species]][[Category:Taxoboxes needing a status system parameter]]
+  |CITES_A1='''Appendix I'''<br />[[Threatened species|Dilikadung mawala]]
   |CITES_A2=Appendix II 
   |CITES_A3=Appendix III
   |FOSSIL|Fossil|fossil=Fossil
@@ -137,7 +137,7 @@
   |LR/NT|lr/NT|LR/nt|lr/nt=[[Image:Status iucn2.3 NT.svg|frameless]]<br />[[Near Threatened]] [[Category:Near Threatened species]][[Category:Taxoboxes needing a status system parameter]]<!--This case is subject to deletion once status systems are added-->
 
   |LR/LC|lr/LC|LR/lc|lr/lc=[[Image:Status iucn2.3 LC.svg|frameless]]<br />[[Least Concern]] [[Category:Least Concern species]][[Category:Taxoboxes needing a status system parameter]]<!--This case is subject to deletion once status systems are added-->
-  |GX|gx=[[Image:Status TNC GX.svg|frameless]]<br />Presumed [[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }}[[Category:Taxoboxes needing a status system parameter]]<!--This case is subject to deletion once status systems are added-->
+  |GX|gx=[[Image:Status TNC GX.svg|frameless]]<br />Mapaliaring [[Extinction|Mewala nang Laganas]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }}[[Category:Taxoboxes needing a status system parameter]]<!--This case is subject to deletion once status systems are added-->
   |GH|gh=[[Image:Status TNC GH.svg|frameless]]<br />Possibly [[Extinction|Extinct]][[Category:Taxoboxes needing a status system parameter]]<!--This case is subject to deletion once status systems are added-->
   |G1|g1=[[Image:Status TNC G1.svg|frameless]]<br />Critically Imperiled[[Category:Taxoboxes needing a status system parameter]]<!--This case is subject to deletion once status systems are added-->
   |G2|g2=[[Image:Status TNC G2.svg|frameless]]<br />Imperiled[[Category:Taxoboxes needing a status system parameter]]<!--This case is subject to deletion once status systems are added-->
