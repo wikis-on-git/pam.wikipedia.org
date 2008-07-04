@@ -197,7 +197,7 @@
 {{!}} {{{superregnum}}}<br /><small>{{{superregnum_authority|}}}</small>}}
 |-valign="top"
 {{#if:{{{regnum|}}}|
-{{!}}  Kingdom:
+{{!}}  Kaarian:
 {{!}} <span class="kingdom">{{{regnum}}}</span><br /><small>{{{regnum_authority|}}}</small>}}
 |-valign="top"
 {{#if:{{{subregnum|}}}|
@@ -253,7 +253,7 @@
 {{!}} {{{superclassis}}}<br /><small>{{{superclassis_authority|}}}</small>}}
 |-valign="top"
 {{#if:{{{classis|}}}|
-{{!}}  Class:
+{{!}}  Pinduan:
 {{!}} <span class="taxoclass">{{{classis}}}</span><br /><small>{{{classis_authority|}}}</small>}}
 |-valign="top"
 {{#if:{{{subclassis|}}}|
@@ -277,7 +277,7 @@
 {{!}} <span class="superorder">{{{superordo}}}</span><br /><small>{{{superordo_authority|}}}</small>}}
 |-valign="top"
 {{#if:{{{ordo|}}}|
-{{!}}  Order:
+{{!}}  Orden:
 {{!}} <span class="order">{{{ordo}}}</span><br /><small>{{{ordo_authority|}}}</small>}}
 |-valign="top"
 {{#if:{{{subordo|}}}|
@@ -313,7 +313,7 @@
 {{!}} <span class="superfamily">{{{superfamilia}}}</span><br /><small>{{{superfamilia_authority|}}}</small>}}
 |-valign="top"
 {{#if:{{{familia|}}}|
-{{!}}  Family:
+{{!}}  Familia:
 {{!}} <span class="family">{{{familia}}}</span><br /><small>{{{familia_authority|}}}</small>}}
 |-valign="top"
 {{#if:{{{subfamilia|}}}|
@@ -325,7 +325,7 @@
 {{!}} {{{supertribus}}}<br /><small>{{{supertribus_authority|}}}</small>}}
 |-valign="top"
 {{#if:{{{tribus|}}}|
-{{!}}  Tribe:
+{{!}}  Tribu:
 {{!}} {{{tribus}}}<br /><small>{{{tribus_authority|}}}</small>}}
 |-valign="top"
 {{#if:{{{subtribus|}}}|
