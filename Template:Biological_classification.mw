@@ -4,12 +4,12 @@
 Image:Biological_classification_L_Pengo.svg|150px|Deng miyayaliwang lebel o balitang ning sientipikung sistema ning pamitinduk-tinduk (scientific system of classification).
 rect 100 27 225 68 [[Species]]
 rect 100 90 225 132 [[Genus]]
-rect 100 154 225 196 [[Family (biology)|Familia]]
-rect 100 217 225 259 [[Order (biology)|Orden]]
-rect 100 280 225 322 [[Class (biology)|Pinduan]]
+rect 100 154 225 196 [[Familia (biolohia)|Familia]]
+rect 100 217 225 259 [[Orden (biolohia)|Orden]]
+rect 100 280 225 322 [[Class (biolohia)|Pinduan]]
 rect 100 344 225 386 [[Phylum]]
-rect 100 407 225 449 [[Kingdom (biology)|Kaarian]]
-rect 100 471 225 513 [[Domain (biology)|Sakup]]
+rect 100 407 225 449 [[Kingdom (biolohia)|Kaarian]]
+rect 100 471 225 513 [[Domain (biolohia)|Sakup]]
 rect 100 534 225 576 [[Bie]]
 default [[:Image:Biological_classification_L_Pengo.svg]]
 desc none
