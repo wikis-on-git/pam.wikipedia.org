@@ -19,7 +19,7 @@ desc none
 Image:Magnify-clip.png|right
 default [[Image:Biological_classification_L_Pengo.svg|Enlarge]]
 desc none
-</imagemap>{{{description|Ing pamituki-tuki da reng walung pekamaulagang [[w:taxonomic rank|ranggung taxonomic]] ning {{#ifeq:{{lc:{{FULLPAGENAME}}}}|biological classification|biological classification|[[sistemang biolohikal]]}}. <!--
+</imagemap>{{{description|Ing pamituki-tuki da reng walung pekamaulagang [[w:taxonomic rank|ranggung pang-taxonomia]] ning {{#ifeq:{{lc:{{FULLPAGENAME}}}}|biological classification|biological classification|[[sistemang biolohikal]]}}. <!--
 -->{{#switch:{{lc:{{{level|{{PAGENAME}}}}}}}|
 species=Ing [[genus]] atin yang metung o maigit pang species.
 |genus=Ing [[w:family (biology)|familia]] atin yang metung o maigit pang genus.
