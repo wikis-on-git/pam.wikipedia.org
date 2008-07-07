@@ -1,0 +1,63 @@
+{{tfd|Redirectstohere}}<includeonly>{{#if:{{{hide|}}}||<span class="dablink" style="{{#if:{{{hide|}}}|background:transparent; filter:alpha(opacity=0);-moz-opacity:.0;opacity:.0; }}<!-- this if should allow inclusion, but make the template invisible to readers,
+ while retaining the warning to editors that the section title is linked on the page.
+ ---                     --> {{{border|}}};"><!--
+ -->{{#if:{{{1|}}}<!--
+ -->|<!--
+     -->{{#if:{{{2|}}}<!--
+     -->|<!-- Note: this "Then" encloses all cases with MORE than one argument
+              The corresponding Else (Only '{1}' defined is located far below.
+         -->{{{1|}}}<!--
+         -->{{#if:{{{2|}}}|<!-- repeated for clarity in showing repeat pattern
+      ===     -->{{#if:{{{3|}}}|,&nbsp; |&nbsp;and&nbsp;<!--
+      ===     -->}}{{{2|}}}<!-- note how the if statements are closed preceding
+                                the output of the parameter of interest.
+          -->}}<!--
+===================== pattern repeats nn times following
+          -->{{#if:{{{3|}}}|<!--
+      ===     -->{{#if:{{{4|}}}|,&nbsp; |&nbsp;and&nbsp;<!--
+      ===     -->}}{{{3|}}}<!--
+         -->}}<!--
+(Now the indentation of the pattern allowed to float left here for a bit)
+=====================
+ -->{{#if:{{{4|}}}|<!--
+ === -->{{#if:{{{5|}}}|,&nbsp; |&nbsp;and&nbsp;<!--
+ === -->}}{{{4|}}}<!--
+ -->}}<!--
+ -->{{#if:{{{5|}}}|<!--
+ === -->{{#if:{{{6|}}}|,|&nbsp;and&nbsp;<!--
+ === -->}}{{{5|}}}<!--
+ -->}}<!--
+ -->{{#if:{{{6|}}}|<!--
+ === -->{{#if:{{{7|}}}|,&nbsp; |&nbsp;and&nbsp;<!--
+ === -->}}{{{6|}}}<!--
+ -->}}<!--
+ -->{{#if:{{{7|}}}|<!--
+ === -->{{#if:{{{8|}}}|,|&nbsp;and&nbsp;<!--
+ === -->}}{{{7|}}}<!--
+ -->}}<!--
+ -->{{#if:{{{8|}}}|<!--
+ === -->{{#if:{{{9|}}}|,&nbsp; |&nbsp;and&nbsp;<!--
+ === -->}}{{{8|}}}<!--
+ -->}}<!--
+====================
+resume indent of pattern (end) to reflect nested level...
+         -->{{#if:{{{9|}}}|<!--
+     ===     -->{{#if:{{{10|}}}|,&nbsp; |&nbsp;and&nbsp;<!--
+     ===     -->}}{{{9|}}}<!--
+         -->}}<!--
+         -->{{#if:{{{3|}}}|&nbsp;all redirect to|&nbsp;both redirect to<!--
+         -->}}<!--
+                 
+EndThen: {2} (and {1} well) defined
+     -->|<!-- else {2} undefined--but defined single link "{1}" comes to here
+         -->{{{1}}} redirects<!--
+     -->}}<!-- Endif/EndElse {2} while inside 'then {1} defined'
+ -->&nbsp;here.<!--
+ -->|<br><font color="red">'''Error: [[Template:Redirectstohere]] needs a page link as <nowiki>{{{1}}}</nowiki>'''<br><!--
+ -->}}</span><!-- Endif/Endelse: {1} tested...All Output done (This terminates all occurrences)
+
+End dablink template (subst'd)
+-->}}</includeonly><!--
+ --><noinclude>
+{{documentation}}
+</noinclude>
