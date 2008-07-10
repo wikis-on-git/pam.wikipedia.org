@@ -2,9 +2,9 @@
 |+<big>'''{{{Name}}}<br>{{{AlternateName}}}'''</big>
 | align="center" colspan="2"|
 {| border=0 cellpadding=2 cellspacing=0 style="background:#f9f9f9; text-align:center;"
-| width="130px"| [[image:{{{Flag}}}|125px|Flag of {{{Name}}}]] || align=center width=130px| [[Image:{{{CoatOfArms}}}|100px|Sagkal ning armas ning {{{Name}}}]]
+| width="130px"| [[image:{{{Flag}}}|125px|Bandera ning {{{Name}}}]] || align=center width=130px| [[Image:{{{CoatOfArms}}}|100px|Sagkal ning armas ning {{{Name}}}]]
 |-
-| width="130px"| <small>[[Bandera ning {{{Name}}}]]</small> || align=center width=130px| <small>[[Coat of arms of {{{Name}}}]]</small>
+| width="130px"| <small>[[Bandera ning {{{Name}}}]]</small> || align=center width=130px| <small>[[Sagkal ning armas ning {{{Name}}}]]</small>
 |}
 |-
 | align=center colspan=2 | <small>''Motto: {{{Motto}}}''</small>
