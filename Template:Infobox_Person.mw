@@ -24,7 +24,7 @@
         -->{{#if:{{{birth_date<includeonly>|</includeonly>}}} |{{{birth_date}}}<br/> }}<!--
         -->{{{birth_place<includeonly>|</includeonly>}}}
 
-|label2  = {{#if:{{{death_date<includeonly>|</includeonly>}}}{{{death_place|}}} |Kematyan }}
+|label2  = {{#if:{{{death_date<includeonly>|</includeonly>}}}{{{death_place|}}} |Kematian }}
 |data2   = {{#if:{{{death_date<includeonly>|</includeonly>}}} |{{{death_date}}}<br/> }}<!--
         -->{{{death_place<includeonly>|</includeonly>}}}
 |label3  = Sangkan&nbsp;ning pangamate
