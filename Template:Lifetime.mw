@@ -1,0 +1,19 @@
+<includeonly>{{{{{subst|}}}#if:{{{3|}}}|{{DEFAULTSORT:{{{3}}}}}}}
+[[Category:{{{{{subst|}}}#switch:{{{{{subst|}}}uc:{{{1|}}}}}
+ || MISSING = Year of birth missing {{{{{subst|}}}#switch:{{{{{subst|}}}uc:{{{2|}}}}}||LIVING=(living people)}}
+ | UNKNOWN  = Year of birth unknown
+ | #default = {{{1}}} births
+}}]]
+[[Category:{{{{{subst|}}}#switch:{{{{{subst|}}}uc:{{{2|}}}}}
+ || LIVING  = Living people
+ | MISSING  = Year of death missing
+ | UNKNOWN  = Year of death unknown
+ | #default = {{{2}}} deaths
+}}]]</includeonly><noinclude>
+
+<code><nowiki>{{DEFAULTSORT:{{{3}}}}}</nowiki>
+<br /><nowiki>[[Category:{{{1}}} births]]</nowiki>
+<br /><nowiki>[[Category:{{{2}}} deaths]]</nowiki></code>
+
+{{Documentation}}<!-- PLEASE ADD CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
+</noinclude>
