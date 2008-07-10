@@ -2,7 +2,7 @@
 |+<big>'''{{{Name}}}<br>{{{AlternateName}}}'''</big>
 | align="center" colspan="2"|
 {| border=0 cellpadding=2 cellspacing=0 style="background:#f9f9f9; text-align:center;"
-| width="130px"| [[image:{{{Flag}}}|125px|Flag of {{{Name}}}]] || align=center width=130px| [[Image:{{{CoatOfArms}}}|100px|Coat of arms of {{{Name}}}]]
+| width="130px"| [[image:{{{Flag}}}|125px|Flag of {{{Name}}}]] || align=center width=130px| [[Image:{{{CoatOfArms}}}|100px|Sagkal ning armas ning {{{Name}}}]]
 |-
 | width="130px"| <small>[[Bandera ning {{{Name}}}]]</small> || align=center width=130px| <small>[[Coat of arms of {{{Name}}}]]</small>
 |}
@@ -11,7 +11,7 @@
 |-
 | align=center colspan=2 style="background:#f9f9f9;" | [[image:{{{Map}}}|Mapa ning Canada a mika {{{Name}}} highlighted|280px]]
 |-
-|'''[[Opisyal a amanu]]''' || {{{OfficialLang}}}
+|'''[[Opisial a amanu]]''' || {{{OfficialLang}}}
 |-
 |'''[[Tungku]]''' || {{{Capital}}}
 |-
@@ -26,7 +26,7 @@
 |'''[[Lapad/Dagul]]''' <br>Total<br>&nbsp;- Gabun<br>&nbsp;- Danum&nbsp;&nbsp;<small>(% of total)</small>&nbsp;
 |[[List of Canadian provinces and territories by area|Ranked {{{AreaRank}}}]]<br>{{{TotalArea}}} km²<br>{{{LandArea}}} km²<br>{{{WaterArea}}} km² <small>({{{PercentWater}}}%)</small>
 |-
-|'''[[Populasyun]]''' <br>&nbsp;- Total ({{{PopulationYear}}})<br>&nbsp;- Pangasiksik
+|'''[[Populasiun]]''' <br>&nbsp;- Total ({{{PopulationYear}}})<br>&nbsp;- Pangasiksik
 |[[List of Canadian provinces and territories by population|Ranked {{{PopulationRank}}}]] <br>{{{Population}}}<br>{{{Density}}}/km²
 |-
 |'''[[Gross domestic product|GDP]]''' ('''[[2005|{{{GDP_year}}}]]''')<br>&nbsp;- Total<br>&nbsp;- Per capita
@@ -41,7 +41,7 @@
 | '''Abbreviations''' <br>&nbsp;- [[Canadian subnational postal abbreviations|Postal]] <br>&nbsp;- [[ISO 3166-2]] <br>&nbsp;- Postal Code Prefix
 | <br>{{{PostalAbbreviation}}}<br>{{{ISOCode}}}<br>{{{PostalCodePrefix}}}
 |-
-| '''[[Bulaklak]]'''
+| '''[[Sampaga]]'''
 | {{{Flower}}}
 |-
 | '''[[Pun Dutung]]'''
