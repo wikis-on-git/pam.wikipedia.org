@@ -13,8 +13,8 @@
 |block=p
 |series color=
 |phase color=
-|appearance=colorless (gas)<br />very pale blue (liquid)
-|image name=O,8
+|appearance= [[Image:Liquid Oxygen.gif|55px|left]]<br />Liquid Oxygen
+|image name=
 |image size=
 |image name comment=
 |image name 2=
@@ -27,7 +27,7 @@
 |color=
 |phase=gas
 |phase comment=
-|density gplstp=1.429
+|density =1.429g/cm^3
 |density gpcm3nrt=
 |density gpcm3nrt 2=
 |density gpcm3mp=
@@ -53,7 +53,10 @@
 |vapor pressure 100 k=90
 |vapor pressure comment=
 |crystal structure=cubic
-|oxidation states=&minus;'''2''', &minus;1<br />(neutral oxide)
+<!-- 
+<div align="center">img src="<http://ec1.images-amazon.com/images/P/B000M8RA80.01-" width="200px"></div> -->
+
+|oxidation states=''[[Oxygen difluoride|2]]'', ''[[Dioxygen difluoride|1]]'', [[peroxide|&minus;1]], &minus;'''2'''<br />(neutral oxide)
 |oxidation states comment=
 |electronegativity=3.44
 |number of ionization energies=4
@@ -68,7 +71,7 @@
 |electrical resistivity=
 |electrical resistivity at 0=
 |electrical resistivity at 20=
-|thermal conductivity=26.58 m
+|thermal conductivity=26.58x10<sup>-3</sup>&nbsp;
 |thermal conductivity 2=
 |thermal diffusivity=
 |thermal expansion=
@@ -86,7 +89,7 @@
 |CAS number=7782-44-7
 |isotopes=
 {{Elementbox_isotopes_stable | mn=16 | sym=O | na=99.76% | n=8 }}
-{{Elementbox_isotopes_stable | mn=17 | sym=O | na=0.038% | n=9 }}
-{{Elementbox_isotopes_stable | mn=18 | sym=O | na=0.21% | n=10 }}
+{{Elementbox_isotopes_stable | mn=17 | sym=O | na=0.039% | n=9 }}
+{{Elementbox_isotopes_stable | mn=[[oxygen-18|18]] | sym=[[oxygen-18|O]] | na=0.201% | n=10 }}
 |isotopes comment=
-}}
+}}<noinclude>[[Category:Periodic table infobox templates|Oxygen]]</noinclude>
