@@ -1,0 +1,48 @@
+{{Documentation subpage}}
+<includeonly>{{high-use| 2,800,000 }}</includeonly>
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+This is an auxiliary template allowing to encode "<code>|</code>"
+within template parameters. It is necessary if the character is used in wiki table syntax, or if the parameter is automatically wikilinked and you wish to use a pipe to specify different link text from the target page name. In other cases it is better to use "<code>&amp;#124;</code>". 
+
+This template cannot be used for putting the character as text in a wiki table; in that case, again,  "<code>&amp;#124;</code>" can be used.
+
+Note that no special template is needed for "<code>!</code>" (exclamation mark).
+
+This is a '''high risk template''',
+and it usually cannot be [[WP:SUBST|substituted]] (see conditions for substing on [[Template talk:!#Usage|the talk page]]).
+
+=== See also ===
+
+* {{tn|!!}}
+* {{tn|!-}}
+* {{tn|-!}}
+* [[Wikipedia:Qif conditionals]]
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Template namespace templates|{{PAGENAME}}]]
+[[Category:Wikipedia formatting templates|{{PAGENAME}}]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[bg:Шаблон:!]]
+[[bn:Template:!]]
+[[cs:Šablona:!]]
+[[de:Vorlage:!]]
+[[es:Plantilla:!]]
+[[ja:Template:!]]
+[[nl:Sjabloon:!]]
+[[no:Mal:!]]
+[[pap:Template:!]]
+[[pt:Template:!]]
+[[ru:Шаблон:!]]
+[[sl:Template:!]]
+[[vi:Tiêu bản:!]]
+[[zh:Template:!]]
+[[zh-yue:Template:!]]
+[[he:תבנית:!]]
+[[hsb:Předłoha:!]]
+[[uk:Шаблон:!]]
+[[fi:Malline:!]]
+[[simple:Template:!]]
+</includeonly>
