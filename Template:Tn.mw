@@ -1,0 +1,6 @@
+<includeonly><nowiki>{</nowiki>[[Template:{{{1}}}|<nowiki>{</nowiki>{{{1}}}<nowiki>}</nowiki>]]<nowiki>}</nowiki></includeonly><noinclude>
+
+
+{{template doc}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
