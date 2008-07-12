@@ -1,0 +1,122 @@
+{{documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+== Usage ==
+<nowiki>To use an SVG periodic table image of form {{{symbol}}}-TableImage.svg, instead of the default {{{symbol}}}-TableImage.png, add the atomic number to the list (switch statement) below the line containing:</nowiki>
+
+<nowiki><!-- Enter the element number for any elements that have svg pictures--></nowiki>
+
+in this page ([[Template:Elementbox]])'s source.
+
+Be sure to maintain the formatting and order.
+
+<pre>
+<nowiki>
+{{Elementbox
+|name=
+|number=
+|symbol
+|left=
+|right=
+|above=
+|below=
+|series=
+|series comment=
+|group=
+|period=
+|block=
+|series color=
+|phase color=
+|appearance=
+|image name=
+|image size=
+|image name 2=
+|image name 2 comment=
+|atomic mass=
+|atomic mass 2=
+|atomic mass comment=
+|electron configuration=
+|electrons per shell=
+|color=
+|phase=gas
+|phase comment=
+|density gplstp=
+|density gpcm3nrt=
+|density gpcm3nrt 2=
+|density gpcm3mp=
+|melting point K=
+|melting point C=
+|melting point F=
+|melting point pressure=
+|boiling point K=
+|boiling point C=
+|boiling point F=
+|boiling point pressure=
+|triple point K=
+|triple point kPa=
+|critical point K=
+|critical point MPa=
+|heat fusion=
+|heat fusion 2=
+|heat fusion pressure=
+|heat vaporization=
+|heat vaporization pressure=
+|heat capacity=
+|heat capacity pressure=
+|vapor pressure 1=
+|vapor pressure 10=
+|vapor pressure 100=
+|vapor pressure 1 k=
+|vapor pressure 10 k=
+|vapor pressure 100 k=
+|vapor pressure comment=
+|crystal structure=
+|oxidation states=
+|oxidation states comment=
+|electronegativity=
+|number of ionization energies=
+|1st ionization energy=
+|2nd ionization energy=
+|3rd ionization energy=
+|atomic radius=
+|atomic radius calculated=
+|covalent radius=
+|Van der Waals radius=
+|magnetic ordering=
+|electrical resistivity=
+|electrical resistivity at 0=
+|electrical resistivity at 20=
+|thermal conductivity=
+|thermal conductivity 2=
+|thermal diffusivity=
+|thermal expansion=
+|thermal expansion at 25=
+|speed of sound=
+|speed of sound rod at 20=
+|speed of sound rod at r.t.=
+|Young's modulus=
+|Shear modulus=
+|Bulk modulus=
+|Poisson ratio=
+|Mohs hardness=
+|Vickers hardness=
+|Brinell hardness=
+|CAS number=
+|isotopes=
+|isotopes comment=
+}}
+</nowiki>
+</pre>
+
+== See also ==
+
+<includeonly><!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Elementbox templates|{{PAGENAME}}]]
+[[Category:Periodic table infobox templates]]
+
+[[br:Patrom:Infobox elfenn kimiek]]
+[[mk:Шаблон:Елементкутија]]
+[[qu:Plantilla:Elementbox]]
+[[ro:Format:Elementbox]]
+[[sv:Mall:Grundämne]]
+</includeonly>
