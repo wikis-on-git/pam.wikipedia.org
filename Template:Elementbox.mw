@@ -31,18 +31,18 @@
  |Solid|solid=000000
 }}}}" | General
 |-
-| [[list of elements by name|Name]], [[list of elements by symbol|Symbol]], [[list of elements by number|Number]]
+| [[list of elements by name|Lagyu]], [[list of elements by symbol|Symbulu]], [[list of elements by number|Numeru]]
 | {{{name}}}, {{{symbol}}}, {{{number}}}
 |-
 {{#if:{{{series|}}}|<tr><td>[[Chemical series]]</td><td>{{#ifeq:{{{series|}}}|noble gas|[[{{{series}}}]]es|[[{{{series}}}]]s}}{{#if:{{{series 2|}}}|, {{{series 2}}}}}</td></tr>}}
 |-
-| [[group (periodic table)|Group]], [[period (periodic table)|Period]], [[periodic table block|Block]]
+| [[group (periodic table)|Lupung]], [[period (periodic table)|Period]], [[periodic table block|Bloki]]
 | {{#switch:{{{series}}}
  |lanthanide|lanthanides|actinide|actinides=[[Group number of lanthanides and actinides|n/a]],&nbsp;
- |[[group {{{group}}} element|{{{group}}}]],&nbsp;
+ |[[group{{{group}}} element|{{{group}}}]],&nbsp;
 }}[[period {{{period}}} element|{{{period}}}]], [[{{{block}}}-block|{{{block}}}]]
 |-
-<tr><td>[[color|Appearance]]</td><td>{{{appearance}}}{{#if:{{{image name 2|}}}|
+<tr><td>[[color|Itsura]]</td><td>{{{appearance}}}{{#if:{{{image name 2|}}}|
 </td></tr>
 {{!}} colspan="2" align="center" {{!}} [[image:{{{image name}}}.jpg{{!}}{{{image size|125px}}}{{!}}{{{image name comment|}}}]]&nbsp;[[Image:{{{image name 2}}}.jpg{{!}}130px{{!}}{{{image name 2 comment|}}}]]|{{#if:{{{image name|}}}|<br />[[image:{{{image name}}}.jpg{{!}}125px{{!}}{{{image name comment|}}}]]}}}}
 |-
