@@ -1,0 +1,41 @@
+<includeonly>{{template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+
+This macro is used similarly to {{tn|tl}}, to show the name of a template with the open and close braces around it. But this macro makes the inner braces part of the link, whereas {{tn|tl}} does not make the braces part of the link. This is to allow shorter template names to be easier to click on. The "Tn" name is short for '''T'''emplate '''n'''ame.
+
+=== Usage ===
+
+<pre><nowiki>
+{{tn|name}}
+</nowiki></pre>
+
+It will render this:
+
+:{{tn|name}}
+
+Compare with:
+
+<pre><nowiki>
+{{tl|name}}
+</nowiki></pre>
+
+Which renders this:
+
+:{{tl|name}}
+
+=== See also ===
+
+There are several similar templates, these two lists most of them with some examples:
+
+* {{tn|tl}}
+* {{tn|lts}}
+
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Internal link templates|{{PAGENAME}}]]
+[[Category:Typing-aid templates|{{PAGENAME}}]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[vi:Tiêu bản:Tn]]
+</includeonly>
