@@ -1,0 +1,51 @@
+{{Infobox
+|bodystyle=width:{{{infoboxwidth|{{{width|20em}}}}}};
+|abovestyle=background:inherit; font-weight:bold; font-style:italic;
+|labelstyle=background:inherit; white-space:nowrap;
+|above= {{{name|{{PAGENAME}}}}}
+|image= {{{image|}}}
+|caption= {{{image_caption|}}}
+|label1= Author
+|data1= {{{author}}}
+|label2= Original title
+|data2= {{#if:{{{title_orig|}}}|''{{{title_orig}}}''}}
+|label3= Translator
+|data3= {{{translator|}}}
+|label4= Illustrator
+|data4= {{{illustrator|}}}
+|label5= Cover artist
+|data5= {{{cover_artist|}}}
+|label6= Country
+|data6= {{{country|}}}
+|label7= Language
+|data7= {{{language|}}}
+|label8= Series
+|data8= {{{series|}}}
+|label9= Subject(s)
+|data9= {{{subject|}}}
+|label10= Genre(s)
+|data10= {{{genre|}}}
+|label11= [[Publisher]]
+|data11= {{{publisher}}}
+|label12= Publication date
+|data12= {{{pub_date|{{{release_date|}}}}}}
+|label13= Published in<br/>English
+|data13= {{{english_pub_date|{{{english_release_date|}}}}}}
+|label14= Media type
+|data14= {{{media_type|}}}
+|label15= Pages
+|data15= {{{pages|}}}
+|label16= Size and weight
+|data16= {{{size_weight|}}}
+|label17= [[International Standard Book Number|ISBN]]
+|data17= {{{isbn|}}}
+|label18= [[OCLC]]
+|data18= {{#if:{{{oclc|}}}| [http://worldcat.org/oclc/{{urlencode:{{{oclc}}}}} {{{oclc}}}] }}
+|label19= Preceded by
+|data19= {{#if:{{{preceded_by|}}}|''{{{preceded_by}}}''}}
+|label20= Followed by
+|data20= {{#if:{{{followed_by|}}}|''{{{followed_by|}}}''}}
+}}<noinclude>
+{{pp-template|small=yes}}
+{{documentation}}
+</noinclude>
