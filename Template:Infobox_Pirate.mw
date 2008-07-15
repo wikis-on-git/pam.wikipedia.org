@@ -1,0 +1,77 @@
+<includeonly>{| class="infobox" style="width: 315px; border-spacing: 2px; font-size: 95%;"
+|- 
+! colspan="2" style="background:lightsteelblue; text-align:center; font-size: 100%; " | {{{name}}}
+|-
+| colspan="2" style="background:lightsteelblue; text-align:center;" | {{{lived}}}
+|-
+{{#if:{{{image|}}}|
+{{!}} colspan="2" style="text-align:center; font-size:90%; border-bottom: 1px solid #aaa;" {{!}} {{{image|}}}<br/>{{{caption|}}}
+}}
+|-
+{{#if:{{{nickname|}}}|
+! style="text-align:left;" {{!}} Nickname:
+{{!}} {{{nickname|}}}
+}}
+|-
+{{#if:{{{type|}}}|
+! style="text-align:left;" {{!}} Type:
+{{!}} {{{type|}}}
+}}
+|-
+{{#if:{{{placeofbirth|}}}|
+! style="text-align:left;" {{!}} Place&nbsp;of&nbsp;birth:
+{{!}} {{{placeofbirth|}}}
+}}
+|-
+{{#if:{{{placeofdeath|}}}|
+! style="text-align:left;" {{!}} Place&nbsp;of&nbsp;death:
+{{!}} {{{placeofdeath|}}}
+}}
+|-
+{{#if:{{{allegiance|}}}|
+! style="text-align:left;" {{!}} Allegiance:
+{{!}} {{{allegiance|}}}
+}}
+|-
+{{#if:{{{serviceyears|}}}|
+! style="text-align:left;" {{!}} Years&nbsp;of&nbsp;service:
+{{!}} {{{serviceyears|}}}
+}}
+|-
+{{#if:{{{rank|}}}|
+! style="text-align:left;" {{!}} Rank:
+{{!}} {{{rank|}}}
+}}
+|-
+{{#if:{{{base of operations|}}}|
+! style="text-align:left;" {{!}} Base of Operations:
+{{!}} {{{base of operations|}}}
+}}
+|-
+{{#if:{{{commands|}}}|
+! style="text-align:left;" {{!}} Commands:
+{{!}} {{{commands|}}}
+}}
+|-
+{{#if:{{{battles|}}}|
+! style="text-align:left;" {{!}} Battles/wars:
+{{!}} {{{battles|}}}
+}}
+|-
+{{#if:{{{wealth|}}}|
+! style="text-align:left;" {{!}} Wealth:
+{{!}} {{{wealth|}}}
+}}
+|-
+{{#if:{{{laterwork|}}}|
+! style="text-align:left;" {{!}} Later&nbsp;work:
+{{!}} {{{laterwork|}}}
+}}
+|}</includeonly><noinclude> <div style="clear: both"></div>
+== Usage ==
+{{Infobox Pirate/doc}} 
+[[Category:People infobox templates|Pirate]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+[[Category:WikiProject Piracy templates|{{PAGENAME}}]]
+[[ru:Шаблон:Пират]]
+</noinclude>
