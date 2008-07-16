@@ -1,0 +1,13 @@
+<includeonly>{{#if: {{{3|}}}|{{DEFAULTSORT:{{{3|}}} }}| }}
+[[Category:{{ #if:{{{1|}}}|{{{1}}} births|Date of birth unknown}}|{{ #If: {{{3|}}}|{{{3}}}|{{PAGENAME}} }}]]
+[[Category:{{ #if:{{{2|}}}|{{#switch: {{lc:{{{2}}}}}
+ | not known = Date of death unknown
+ | unknown = Date of death unknown
+ | unk = Date of death unknown
+ | u = Date of death unknown
+ | {{{2}}} deaths}}|Living people}}|{{ #If: {{{3|}}}|{{{3}}}|{{PAGENAME}} }}]]</includeonly>
+<noinclude>
+{{BD/doc}}
+[[Category:Category templates|{{PAGENAME}}]]
+[[Category:Templates with categories|{{PAGENAME}}]]
+</noinclude>
