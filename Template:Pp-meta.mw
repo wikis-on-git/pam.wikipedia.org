@@ -1,0 +1,78 @@
+{{#ifeq:{{lc:{{{small|}}}}}|yes|
+<div class="metadata plainlinks" id="protected-icon" style="position:absolute; z-index:100; right:55px; top:10px;">
+{{#tag:imagemap|
+Image:{{{image|{{#switch:{{lc:{{{type}}}}}
+ |full=Padlock.svg
+ |semi=Padlock-silver-medium.svg
+ |move=Padlock-olive.svg
+ |indef=Padlock-red.svg
+ |office=Padlock-black.svg
+ |create=Padlock-skyblue.svg
+ |#default=Transparent.gif
+}}}}}{{!}}20px{{!}}{{{icon-text|{{#switch:{{lc:{{{type}}}}}
+ |full=Fully protected
+ |semi=Semi-protected
+ |move=Move protected
+ |indef=Permanently protected
+ |create=Protected from creation
+ |office=Protected by the Wikimedia Office
+ |#default=<!--null-->
+}}}}}
+default [[{{{icon-link|Wikipedia:Protection policy#{{lc:{{{type}}}}}}}}|{{{icon-text|This {{#ifeq:{{NAMESPACE}}|{{ns:0}}|article|page}} is {{#switch:{{lc:{{{type}}}}}
+ |semi=semi-
+ |move=move-
+ |indef=permanently<nowiki> </nowiki>
+ |create=creation-
+ |office=<!--null, but should this have a special tag?-->
+ |full
+ |#default=<!--null-->
+}}protected{{#ifeq:{{lc:{{{type}}}}}|indef||{{#if:{{{expiry|}}}|<nowiki> </nowiki>until {{#time:F j, Y|{{{expiry}}}}}}}}}{{{icon-reason|}}}.}}}]]
+desc none
+}}
+</div>
+|
+{{{!}} {{main talk other | demospace={{{demospace|}}}
+ | 1 = class="ambox ambox-protection metadata plainlinks"
+ | 2 = class="messagebox standard-talk metadata plainlinks"
+ | 3 = class="messagebox protected metadata plainlinks" style="border:2px solid #99B; padding:0px; font-size:0.9em;"
+ }}
+{{!}} {{main talk other|1=class="ambox-image" {{!}} |demospace={{{demospace|}}}}}
+[[Image:{{{image|{{#switch:{{lc:{{{type}}}}}
+ |full=Padlock.svg
+ |semi=Padlock-silver-medium.svg
+ |move=Padlock-olive.svg
+ |indef=Padlock-red.svg
+ |office=Padlock-black.svg
+ |create=Padlock-skyblue.svg
+ |#default=Transparent.gif
+}}}}}|40px|{{{icon-text|This page is {{#switch:{{lc:{{{type}}}}}
+ |semi=semi-
+ |move=move-
+ |indef=permanently<nowiki> </nowiki>
+ |create=creation-
+ |office=<!--null, but should this have a special tag?-->
+ |full
+ |#default=<!--null-->
+}}protected.}}}]]
+{{!}} {{main talk other|1=class="ambox-text"|demospace={{{demospace|}}}}} style="v-align:center; align=left;" {{!}}<!--
+
+-->'''{{{reason-text|{{#switch:{{lc:{{{type}}}}}
+ |full=This page is currently [[Wikipedia:This page is protected|protected]] from editing
+ |semi=Editing of this {{#ifeq:{{NAMESPACE}}|{{ns:0}}|article|page}} by [[Wikipedia:User access levels#Autoconfirmed_users|new]] or [[Wikipedia:User access levels#Anonymous_users|unregistered]] users is currently [[Wikipedia:Protection policy|disabled]]
+ |move=This {{#ifeq:{{NAMESPACE}}|{{ns:0}}|article|page}} is currently [[Wikipedia:This page is protected|protected]] from [[Help:Moving a page|page moves]]
+ |indef=This page is [[Wikipedia:This page is protected|protected]] from editing ''indefinitely''
+ |office=This {{#ifeq:{{NAMESPACE}}|{{ns:0}}|article|page}} is currently [[Wikipedia:This page is protected|protected]] from editing
+ |create=[[Help:Starting a new page|Recreation]] of this {{#ifeq:{{NAMESPACE}}|{{ns:0}}|article|page}} [[Wikipedia:This page is protected|has been disabled]]
+}}{{#ifeq:{{lc:{{{type}}}}}|indef||{{#if:{{{expiry|}}}|&#32;until {{#time:[[F j]], [[Y]]|{{{expiry}}}}}}}}}{{{reason<includeonly>|</includeonly>}}}.}}}'''<br /> {{{explanation-text|{{#ifeq:{{lc:{{{dispute}}}}}|yes|This protection is '''not''' an endorsement of the {{#ifeq:{{{type}}}|move|[{{fullurl:Special:Log|type=move&page={{FULLPAGENAMEE}}}} current title]|[{{fullurl:{{FULLPAGENAMEE}}|action=history}} current version]}}.}} See the [[Wikipedia:Protection policy|protection policy]] and [{{fullurl:Special:Log|type=protect&page={{FULLPAGENAMEE}}}} protection log] for more details. {{#switch:{{lc:{{{type}}}}}
+ |full|indef=Please discuss any changes on the [[{{TALKPAGENAME}}|talk page]]; you may use the {{tlx|editprotected}} template to ask an [[Wikipedia:Administrator|administrator]] to make the edit if it is supported by [[Wikipedia:Consensus|consensus]]. {{#ifeq:{{NAMESPACE}}|{{ns:8}}<!--MediaWiki-->||You may also [[Wikipedia:Requests for page protection|request]] that this page be unprotected.}}
+ |semi=If you cannot edit this {{#switch:{{NAMESPACE}}|{{ns:0}}=article|{{ns:6}}=image|#default=page}} and you wish to make a change, you can {{#ifeq:{{NAMESPACE}}|{{TALKSPACE}}||[[{{TALKPAGENAME}}|discuss changes on the talk page]],}} [[Wikipedia:Requests for page protection#Current requests for unprotection|request unprotection]], [[Special:Userlogin|log in]], or <span class="plainlinks">[http://en.wikipedia.org/w/index.php?title=Special:Userlogin&type=signup <span style="color:#002bb8;" title="Sign in / create account">create an account</span>].
+ |move=The page may still be edited but cannot be moved until unprotected. Please discuss any suggested moves on the [[{{TALKPAGENAME}}|talk page]] or at [[Wikipedia:Requested moves]].  You can also [[Wikipedia:Requests for page protection|request]] that the page be unprotected.  
+ |office=If you are able to edit this page, please discuss all changes and additions on the [[{{TALKPAGENAME}}|talk page]] first. '''Do not remove protection from this article unless you are authorized by the Wikimedia Foundation to do so.'''
+ |create=Please see the {{#if:{{{xfd|}}}|'''[[{{{xfd}}}|deletion discussion]]''' or the}} [{{fullurl:Special:Log|type=delete&page={{FULLPAGENAMEE}}}} deletion log] for details of why this page was deleted. If you would like to create a page at this title, you must first [[Wikipedia:Requests for page protection|request]] for it to be unprotected, or for the deleted material to be restored via [[Wikipedia:Deletion review|deletion review]].
+}}}}}
+{{!}}}
+}}<!--End if small--><includeonly>{{#ifeq:{{lc:{{{categories|no}}}}}|no||{{{categories|}}}}}</includeonly><noinclude>
+
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
