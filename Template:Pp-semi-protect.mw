@@ -1,0 +1,25 @@
+<noinclude>{{pp-template|small=yes}}</noinclude><includeonly>{{pp-meta
+|type=semi
+|small={{{small|}}}
+|demospace={{{demospace|}}}
+|expiry={{{expiry|}}}
+|dispute=no
+|reason={{#if:{{{reason|}}}|&#32;because {{lcfirst:{{{reason|}}}}}}}
+|categories={{{categories|[[Category:Semi-protected|{{PAGENAME}}]]{{#ifexpr:{{#if:{{{expiry|}}}|{{#time:U|today}}>{{#time:U|{{{expiry}}}}}|0}}|[[Category:Protected pages with expiry expired|{{PAGENAME}}]]}}}}}}}</includeonly><noinclude>
+{{pp-semi-protected|categories=no|demospace=main|reason=of a reason}}
+
+----
+* Use {{tlx|{{lc:{{PAGENAME}}}}}} for the normal template
+* Use {{tlx|{{lc:{{PAGENAME}}}}|reason&#61;text}} for applying a specific reason
+* Use {{tlx|{{lc:{{PAGENAME}}}}|expiry&#61;{{#time:F j, Y|+1 month}}}} for a specific expiration date
+* Use {{tlx|{{lc:{{PAGENAME}}}}|small&#61;yes}} for just an icon at the top
+* Use {{tlx|{{lc:{{PAGENAME}}}}|expiry&#61;<nowiki>{{subst:#time:F j, Y|+7 days}}</nowiki>}} for a specific expiration time period
+
+Note that ''(UTC)'' will be added automatically.
+
+This template is not to be used as a bluff. '''''Only use it on SEMI-PROTECTED pages.''''' Please note that only [[Wikipedia:Administrators|administrators]] can protect pages.
+
+{{protection templates}}
+{{in category|Semi-protected|Protected pages with expiry expired}}
+[[Category:Protection templates|{{PAGENAME}}]]
+</noinclude>
