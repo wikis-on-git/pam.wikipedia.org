@@ -1,0 +1,105 @@
+<noinclude>{{start infobox page}}</noinclude><!--
+-->{{Infobox
+|bodyclass  = vcard
+|bodystyle  = width:{{{box_width|26em}}}; text-align:left; font-size:85%;
+|aboveclass = fn
+|above      = '''{{{name<includeonly>|{{PAGENAME}}</includeonly>}}}'''
+|abovestyle = background:transparent; text-align:center; font-size:125%
+|data1      = {{{honorific_suffix|{{{honorific_suffix<includeonly>|</includeonly>}}}}}}
+|data1style = background:transparent; text-align:center; font-size:90%
+|image      = {{#if:{{{image<includeonly>|</includeonly>}}}
+                | [[Image:{{{image}}}|<!--
+                    -->{{#if:{{{image_size|{{{imagesize|}}}}}}
+                         |{{{image_size|{{{imagesize}}}}}} |225px}}<!--
+               -->|{{{caption|}}}]]<!--
+           -->}}
+|imageclass = {{image class|{{{image}}}}}
+|imagestyle = padding:4pt; line-height:1.25em; text-align:center; font-size:8pt;
+
+|caption    = <div style="padding-top:0.3em; line-height:1.2em;"><!--
+                    -->{{{caption<includeonly>|</includeonly>}}}</div>
+|labelstyle = background:transparent; line-height:1.1em;
+|datastyle  = line-height:1.3em; vertical-align:middle;
+
+
+|label2  = {{#if:{{{birth_name<includeonly>|</includeonly>}}}<!--
+              -->{{{birth_date|}}}{{{birth_place|}}}
+             | Born }}
+|data2   = {{#if:{{{birth_name<includeonly>|</includeonly>}}} |{{{birth_name}}}<br/>}}<!--
+        -->{{#if:{{{birth_date<includeonly>|</includeonly>}}} |{{{birth_date}}}<br/>}}<!--
+        -->{{{birth_place<includeonly>|</includeonly>}}}
+
+|label3  = {{#if:{{{death_date<includeonly>|</includeonly>}}}<!--
+              -->{{{death_place|}}}{{{death_cause|}}}
+             | Died }}
+|data3   = {{#if:{{{death_date<includeonly>|</includeonly>}}}  |{{{death_date}}}<br/>}}<!--
+        -->{{#if:{{{death_place<includeonly>|</includeonly>}}} |{{{death_place}}}<br/>}}<!--
+        -->{{{death_cause<includeonly>|</includeonly>}}}
+
+|label4  = Residence
+|data4   = {{{residence<includeonly>|</includeonly>}}}
+|label5  = Citizenship
+|data5   = {{{citizenship<includeonly>|</includeonly>}}}
+|label6  = Nationality
+|data6   = {{{nationality<includeonly>|</includeonly>}}}
+|label7  = Ethnicity
+|data7   = {{{ethnicity<includeonly>|</includeonly>}}}
+|label8  = Fields
+|data8   = {{{field|{{{fields<includeonly>|</includeonly>}}}}}}
+
+|label9  = Institutions
+|data9   = {{{workplaces<includeonly>|</includeonly>}}}<!--
+        -->{{{work_institutions|}}}{{{work_institution|}}}
+
+|label10  = [[Alma mater]]
+|data10   = {{{alma_mater<includeonly>|</includeonly>}}}
+|label11 = [[Doctorate|Doctoral]] advisor
+|data11  = {{{doctoral_advisor<includeonly>|</includeonly>}}}
+
+|label12 = {{#if:{{{doctoral_advisor<includeonly>|</includeonly>}}}
+             | Other academic&nbsp;advisors
+             | Academic advisors }}
+|data12  = {{{academic_advisors<includeonly>|</includeonly>}}}
+
+|label13 = Doctoral students
+|data13  = {{{doctoral_students<includeonly>|</includeonly>}}}
+
+|label14 = {{#if:{{{doctoral_students<includeonly>|</includeonly>}}}
+             | Other notable&nbsp;students
+             | Notable students }}
+|data14  = {{{notable_students<includeonly>|</includeonly>}}}
+
+|label15 = Known&nbsp;for
+|data15  = {{{known_for<includeonly>|</includeonly>}}}
+|label16 = Influences
+|data16  = {{{influences<includeonly>|</includeonly>}}}
+|label17 = Influenced
+|data17  = {{{influenced<includeonly>|</includeonly>}}}
+|label18 = Notable awards
+|data18  = {{{awards<includeonly>|</includeonly>}}}{{{prizes|}}}
+|label19 = [[Author citation (botany)|Author abbreviation (botany)]]
+|data19  = {{{author_abbreviation_bot|{{{author_abbrev_bot<includeonly>|</includeonly>}}}}}}
+|label20 = [[Author citation (zoology)|Author abbreviation (zoology)]]
+|data20  = {{{author_abbreviation_zoo|{{{author_abbrev_zoo<includeonly>|</includeonly>}}}}}}
+|label21 = Religious stance
+|data21  = {{{religion<includeonly>|</includeonly>}}}
+
+|data22  = {{#if:{{{signature<includeonly>|</includeonly>}}}
+             | '''Signature'''<br/><!--
+               -->[[Image:{{{signature}}}|128px<noinclude><br/></noinclude><!--
+                 -->|{{{name<includeonly>|{{PAGENAME}}</includeonly>}}}'s signature]] }}
+
+|data23  = {{#if:{{{footnotes<includeonly>|</includeonly>}}}
+             | <div style="padding-top:0.25em; text-align:left; font-style:90%;"><!--
+                    -->'''Notes'''<br/>{{{footnotes}}}</div> }}
+}}<!--
+
+-->{{#if:{{{author_abbreviation_zoo|{{{author_abbrev_zoo|}}}}}}
+     | [[Category:Zoologists with author abbreviations<!--
+         -->|{{{author_abbreviation_zoo|{{{author_abbrev_zoo}}}}}}]]<!--
+-->}}<!--
+--><noinclude>
+{{end infobox page}}
+
+<!---Please add metadata to the <includeonly> section at the bottom of the /doc subpage--->
+</noinclude>
