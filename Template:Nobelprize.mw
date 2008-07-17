@@ -1,0 +1,6 @@
+<noinclude>{{Template doc page transcluded}}</noinclude>
+<noinclude>{{template:nobelprize/doc}}</noinclude>
+[[Image:Nobel prize winner.svg|35px|left|This person is a Nobel prize winner]]
+<includeonly>[[Category:Nobel Prize for {{{1}}} winners]]
+{{#ifexist:{{{2}}}|[[Category:Nobel Prize for {{{2}}} winners]]}}</includeonly>
+<noinclude>[[Category:Templates with categories]]</noinclude>
