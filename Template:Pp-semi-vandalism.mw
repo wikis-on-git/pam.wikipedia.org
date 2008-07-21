@@ -1,0 +1,12 @@
+<noinclude>{{pp-template|small=yes}}</noinclude><includeonly>{{pp-meta
+|type=semi
+|small={{{small|}}}
+|demospace={{{demospace|}}}
+|expiry={{{expiry|}}}
+|dispute=no
+|reason=&#32;[[Wikipedia:Vandalism|due to vandalism]]
+|icon-reason=<nowiki> </nowiki>due to vandalism
+|categories={{{categories|[[Category:Semi-protected against vandalism|{{PAGENAME}}]]{{#ifexpr:{{#if:{{{expiry|}}}|{{#time:U|today}}>{{#time:U|{{{expiry}}}}}|0}}|[[Category:Protected pages with expiry expired|{{PAGENAME}}]]}}}}}}}</includeonly><noinclude>
+{{pp-semi-vandalism|demospace=main|categories=no}}
+{{Documentation}}
+</noinclude>
