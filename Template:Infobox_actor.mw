@@ -1,4 +1,6 @@
-{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right"
+{| class="infobox vcard" style="width:{{{box_width|22em}}}; font-size:90%; text-align:left;"
+! colspan="2" style="text-align:center; font-size:larger; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" class="fn" | {{{name|{{PAGENAME}}}}}
+|-
 {{#if:{{{image<includeonly>|</includeonly>}}} |
 {{!}} colspan="2" style="text-align:center; font-size:100%;" class="{{image class names|{{{image}}}}}" {{!}} [[Image:{{{image}}}|{{#if:{{{image_size|{{{imagesize<includeonly>|</includeonly>}}}}}}|{{{image_size|{{{imagesize<includeonly>|</includeonly>}}}}}}|220px}}]]<br /><small>{{{image_caption|{{{caption<includeonly>|</includeonly>}}}}}}</small>
 {{!}}-
