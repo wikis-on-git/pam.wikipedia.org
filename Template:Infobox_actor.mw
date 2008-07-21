@@ -47,7 +47,7 @@
 {{#if:{{{academyawards<includeonly>|</includeonly>}}} {{{afiawards<includeonly>|</includeonly>}}} {{{arielaward<includeonly>|</includeonly>}}} {{{baftaawards<includeonly>|</includeonly>}}} {{{cesarawards<includeonly>|</includeonly>}}} {{{emmyawards<includeonly>|</includeonly>}}} {{{filmfareawards<includeonly>|</includeonly>}}} {{{geminiawards<includeonly>|</includeonly>}}} {{{goldencalfawards<includeonly>|</includeonly>}}} {{{goldenglobeawards<includeonly>|</includeonly>}}} {{{goldenraspberryawards<includeonly>|</includeonly>}}} {{{goyaawards<includeonly>|</includeonly>}}} {{{grammyawards<includeonly>|</includeonly>}}} {{{iftaawards<includeonly>|</includeonly>}}} {{{olivierawards|{{{laurenceolivierawards<includeonly>|</includeonly>}}}}}} {{{imageaward|{{{naacpimageawards<includeonly>|</includeonly>}}}}}} {{{nationalfilmawards|}}} {{{screenactorguildsawards|{{{sagawards<includeonly>|</includeonly>}}}}}} {{{tonyawards<includeonly>|</includeonly>}}} {{{awards<includeonly>|</includeonly>}}} | 
 {{!}} colspan="2" align="center" {{!}}
 {{{!}} class="collapsible collapsed" style="width: 100%; background: transparent;"
-! colspan="2" style="background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}" {{!}} Awards won
+! colspan="2" style="background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}" {{!}} Galal a simbut
 {{!}}-
 {{#if:{{{academyawards<includeonly>|</includeonly>}}} |
 ! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Academy Award]]s
