@@ -1,0 +1,178 @@
+{| class="infobox vcard" style="width:{{{box_width|22em}}}; font-size:90%; text-align:left;"
+! colspan="2" style="text-align:center; font-size:larger; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" class="fn" | {{{name|{{PAGENAME}}}}}
+|-
+{{#if:{{{image<includeonly>|</includeonly>}}} |
+{{!}} colspan="2" style="text-align:center; font-size:100%;" class="{{image class names|{{{image}}}}}" {{!}} [[Image:{{{image}}}|{{#if:{{{image_size|{{{imagesize<includeonly>|</includeonly>}}}}}}|{{{image_size|{{{imagesize<includeonly>|</includeonly>}}}}}}|220px}}]]<br /><small>{{{image_caption|{{{caption<includeonly>|</includeonly>}}}}}}</small>
+{{!}}-
+}}
+{{#if:{{{birthname<includeonly>|</includeonly>}}} {{{birth_date|{{{birthdate<includeonly>|</includeonly>}}}}}} {{{location|{{{birth_place|{{{birthplace<includeonly>|</includeonly>}}}}}}}}} |
+! Kebaitan
+{{!}} {{#if:{{{birthname<includeonly>|</includeonly>}}}|{{{birthname}}}<br />}} {{#if:{{{birth_date|{{{birthdate<includeonly>|</includeonly>}}}}}}|{{{birth_date|{{{birthdate}}}}}}<br />}} {{{location|{{{birth_place|{{{birthplace<includeonly>|</includeonly>}}}}}}}}}
+{{!}}-
+}}
+{{#if:{{{death_date|{{{deathdate<includeonly>|</includeonly>}}}}}} {{{death_place|{{{deathplace<includeonly>|</includeonly>}}}}}} |
+! Kematian
+{{!}} {{#if:{{{death_date|{{{deathdate<includeonly>|</includeonly>}}}}}}|{{{death_date|{{{deathdate}}}}}}<br />}} {{{death_place|{{{deathplace<includeonly>|</includeonly>}}}}}}
+{{!}}-
+}}
+{{#if:{{{alias|{{{othername<includeonly>|</includeonly>}}}}}} |
+! Aliwang {{nowrap|lagiu}}
+{{!}} <span class="nickname">{{{alias|{{{othername}}}}}}</span>
+{{!}}-
+}}
+{{#if:{{{occupation<includeonly>|</includeonly>}}} |
+! Obra
+{{!}} {{{occupation}}}
+{{!}}-
+}}
+{{#if:{{{yearsactive<includeonly>|</includeonly>}}} |
+! Banuang aktibu
+{{!}} {{{yearsactive}}}
+{{!}}-
+}}
+{{#if:{{{spouse<includeonly>|</includeonly>}}} |
+! {{nowrap|Asawa}}
+{{!}} {{{spouse}}}
+{{!}}-
+}}
+{{#if:{{{domesticpartner<includeonly>|</includeonly>}}} |
+! Domestic {{nowrap|partner(s)}}
+{{!}} {{{domesticpartner}}}
+{{!}}-
+}}
+{{#if:{{{website<includeonly>|</includeonly>{{{homepage|{{{URL|}}}}}}}}} |
+! style="font-size: 100%;" align="center" colspan="2" {{!}} '''[{{{website<includeonly>|</includeonly>{{{homepage|{{{URL|}}}}}}}}} Opisial a website (karinan king Aptas)]'''
+{{!}}-
+}}
+{{#if:{{{academyawards<includeonly>|</includeonly>}}} {{{afiawards<includeonly>|</includeonly>}}} {{{arielaward<includeonly>|</includeonly>}}} {{{baftaawards<includeonly>|</includeonly>}}} {{{cesarawards<includeonly>|</includeonly>}}} {{{emmyawards<includeonly>|</includeonly>}}} {{{filmfareawards<includeonly>|</includeonly>}}} {{{geminiawards<includeonly>|</includeonly>}}} {{{goldencalfawards<includeonly>|</includeonly>}}} {{{goldenglobeawards<includeonly>|</includeonly>}}} {{{goldenraspberryawards<includeonly>|</includeonly>}}} {{{goyaawards<includeonly>|</includeonly>}}} {{{grammyawards<includeonly>|</includeonly>}}} {{{iftaawards<includeonly>|</includeonly>}}} {{{olivierawards|{{{laurenceolivierawards<includeonly>|</includeonly>}}}}}} {{{imageaward|{{{naacpimageawards<includeonly>|</includeonly>}}}}}} {{{nationalfilmawards|}}} {{{screenactorguildsawards|{{{sagawards<includeonly>|</includeonly>}}}}}} {{{tonyawards<includeonly>|</includeonly>}}} {{{awards<includeonly>|</includeonly>}}} | 
+{{!}} colspan="2" align="center" {{!}}
+{{{!}} class="collapsible collapsed" style="width: 100%; background: transparent;"
+! colspan="2" style="background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}" {{!}} Awards won
+{{!}}-
+{{#if:{{{academyawards<includeonly>|</includeonly>}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Academy Award]]s
+{{!}}-
+{{!}} colspan="2" {{!}} {{{academyawards}}}
+{{!}}-
+}}
+{{#if:{{{afiawards<includeonly>|</includeonly>}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Australian Film Institute Awards]]
+{{!}}-
+{{!}} colspan="2" {{!}} {{{afiawards}}}
+{{!}}-
+}}
+{{#if:{{{arielaward<includeonly>|</includeonly>}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Ariel Award]]s
+{{!}}-
+{{!}} colspan="2" {{!}} {{{arielaward}}}
+{{!}}-
+}}
+{{#if:{{{baftaawards<includeonly>|</includeonly>}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[British Academy of Film and Television Arts|BAFTA Awards]]
+{{!}}-
+{{!}} colspan="2" {{!}} {{{baftaawards}}}
+{{!}}-
+}}
+{{#if:{{{cesarawards<includeonly>|</includeonly>}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[César Award]]s
+{{!}}-
+{{!}} colspan="2" {{!}} {{{cesarawards}}}
+{{!}}-
+}}
+{{#if:{{{emmyawards<includeonly>|</includeonly>}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Emmy Award]]s
+{{!}}-
+{{!}} colspan="2" {{!}} {{{emmyawards}}}
+{{!}}-
+}}
+{{#if:{{{filmfareawards<includeonly>|</includeonly>}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Filmfare Awards]]
+{{!}}-
+{{!}} colspan="2" {{!}} {{{filmfareawards}}}
+{{!}}-
+}}
+{{#if:{{{geminiawards<includeonly>|</includeonly>}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Gemini Award]]s
+{{!}}-
+{{!}} colspan="2" {{!}} {{{geminiawards}}}
+{{!}}-
+}}
+{{#if:{{{goldencalfawards<includeonly>|</includeonly>}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Golden Calf (award)|Golden Calf Awards]]
+{{!}}-
+{{!}} colspan="2" {{!}} {{{goldencalfawards}}}
+{{!}}-
+}}
+{{#if:{{{goldenglobeawards<includeonly>|</includeonly>}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Golden Globe Award]]s
+{{!}}-
+{{!}} colspan="2" {{!}} {{{goldenglobeawards}}}
+{{!}}-
+}}
+{{#if:{{{goldenraspberryawards<includeonly>|</includeonly>}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Golden Raspberry Awards]]
+{{!}}-
+{{!}} colspan="2" {{!}} {{{goldenraspberryawards}}}
+{{!}}-
+}}
+{{#if:{{{goyaawards<includeonly>|</includeonly>}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Goya Awards]]
+{{!}}-
+{{!}} colspan="2" {{!}} {{{goyaawards}}}
+{{!}}-
+}}
+{{#if:{{{grammyawards<includeonly>|</includeonly>}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Grammy Award]]s
+{{!}}-
+{{!}} colspan="2" {{!}} {{{grammyawards}}}
+{{!}}-
+}}
+{{#if:{{{olivierawards|{{{laurenceolivierawards<includeonly>|</includeonly>}}}}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Laurence Olivier Award]]s
+{{!}}-
+{{!}} colspan="2" {{!}} {{{olivierawards|{{{laurenceolivierawards}}}}}}
+{{!}}-
+}}
+{{#if:{{{iftaawards<includeonly>|</includeonly>}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Irish Film and Television Awards]]
+{{!}}-   
+{{!}} colspan="2" {{!}} {{{iftaawards}}}
+{{!}}-
+}}
+{{#if:{{{imageaward|{{{naacpimageawards<includeonly>|</includeonly>}}}}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[NAACP Image Awards]]
+{{!}}-   
+{{!}} colspan="2" {{!}} {{{imageaward|{{{naacpimageawards}}}}}}
+{{!}}-
+}}
+{{#if:{{{nationalfilmawards<includeonly>|</includeonly>}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[National Film Awards]]
+{{!}}-
+{{!}} colspan="2" {{!}} {{{nationalfilmawards}}}
+{{!}}-
+}}
+{{#if:{{{screenactorguildsawards|{{{sagawards<includeonly>|</includeonly>}}}}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Screen Actors Guild Awards]]
+{{!}}-
+{{!}} colspan="2" {{!}} {{{screenactorguildsawards|{{{sagawards}}}}}}
+{{!}}-
+}}
+{{#if:{{{tonyawards<includeonly>|</includeonly>}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Tony Award]]s
+{{!}}-
+{{!}} colspan="2" {{!}} {{{tonyawards}}}
+{{!}}-
+}}
+{{#if:{{{awards<includeonly>|</includeonly>}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|&#35;ed8}}; color:#000;" {{!}} Aliwang Galal
+{{!}}-
+{{!}} colspan="2" {{!}} {{{awards}}}
+{{!}}-
+}}
+{{!}}}
+}}
+|}<noinclude>
+{{#ifeq:{{SUBPAGENAME}}|sandbox| {{Template sandbox notice}} }}
+{{#ifeq:{{FULLPAGENAME}}|Template:Infobox Actor| {{pp-template|small=yes}} }}
+{{template doc}}
+</noinclude>
