@@ -1,0 +1,5 @@
+<includeonly><span  class="spanAr" {{#if:{{{2|}}}|lang="{{{2}}}" xml:lang="{{{2}}}"}} dir="rtl" style="font-size:1.25em">{{{1}}}</span>&lrm;</includeonly><noinclude>
+{{Dokumentation}}
+
+[[Kategorie:Vorlage:Fremdsprachenunterstützung|Arabische Schrift]]
+</noinclude>
