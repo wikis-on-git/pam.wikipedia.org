@@ -1,6 +1,5 @@
 <noinclude>{{start infobox page}}</noinclude><!--
 -->{{Infobox
-
 |bodyclass  = biography vcard
 |bodystyle  = width:{{#if:{{{box_width|}}} |{{{box_width}}} |22em}}; font-size:95%; text-align:left;
 |above      = '''{{{name|{{PAGENAME}}}}}'''
