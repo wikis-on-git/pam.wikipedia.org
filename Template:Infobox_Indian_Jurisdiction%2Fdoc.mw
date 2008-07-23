@@ -1,0 +1,603 @@
+{{documentation subpage}}<includeonly>{{pp-semi-protected|small=yes}}</includeonly>
+{{{{<noinclude>BASE</noinclude>PAGENAME}}/Subpages}}
+
+{{intricate template}}
+{{template shortcut|IIJ}}
+
+
+<div style="font-size: 80%">
+{{TOClimit|limit=2}}
+</div>
+
+== Support ==
+<!-- Displayed example -->
+{{Infobox Indian Jurisdiction
+|native_name           = Srinagar
+|other_name            = سرینگر &nbsp;<small><small><small><small>•</small></small></small></small>&nbsp; سِرېنَگَر
+|nickname              = Paradise on Earth
+|type                  = capital
+|skyline               = Srinagar.jpg
+|skyline_caption       = View of Srinagar and [[Dal Lake]]
+|latd=34.09 |longd=74.79
+|state_name            = Jammu and Kashmir
+|region                = [[Kashmir region|Kashmir]]
+|district              = [[Srinagar district|Srinagar]]
+|area_total            = 105
+|area_magnitude        = 9
+|altitude              = 1730
+|climate               = ETh
+|precip                = 658
+|temp_summer           = 22
+|temp_winter           = 4
+|distance_1            = 876
+|direction_1           = NW
+|destination_1         = Delhi
+|distance_2            = 2275
+|direction_2           = NE
+|mode_2                = [[Indian highways|land]]
+|destination_2         = Mumbai
+|established_title     = Settled
+|established_date      = [[3rd century BC|3rd century BCE]]
+|population_as_of      = 2001
+|population_total      = 894940
+|population_total_cite = <ref name="GOI_2001">{{cite web
+<!-- -->|url        = http://www.censusindia.net/results/data/j&k_uatowns.PDF
+<!-- -->|title      = Population in the age group 0-6 and literates by sex—urban agglomeration/town
+<!-- -->|work       = [[Census of India 2001]]
+<!-- -->|publisher  = [[Government of India]]
+<!-- -->|date       = [[27 May]] [[2002]]
+<!-- -->|accessdate = 2007-04-14}}</ref>
+|population_density    = 556
+|population_metro      = 971357
+|population_metro_cite = <ref name="GOI_2001"/>
+|population_males      = 481750
+|population_females    = 413190
+|sex_ratio             = 1.17
+|literacy              = 59.18%
+|official_languages    = [[Kashmiri language|Kashmiri]], [[Urdu]]
+|leader_title_1        = [[Mayor of Srinagar|Mayor]]
+|leader_name_1         = [[Ghulam Mustafa Bhat]]<ref>{{cite news
+<!-- -->|url=http://www.tribuneindia.com/2006/20060331/j&k.htm#4
+<!-- -->|title=Bhat re-elected Mayor
+<!-- -->|work=[[The Tribune]]
+<!-- -->|publisher=The Tribune Trust
+<!-- -->|date=[[30 March]] [[2006]]
+<!-- -->|accessdate=2007-04-14}}</ref>
+|area_telephone        = 0194
+|postal_code           = 190 001
+|unlocode              = INSXR
+|vehicle_code_range    = JK
+|website               = www.srinagar.nic.in
+|footnotes             = <small><references/></small>
+|coord_title           = no
+|autocat               = no
+}}
+
+<div style="{{{{BASEPAGENAME}}/nav-style}} width:50%;">
+* This template is supported by '''[[Wikipedia:WikiProject India|WikiProject India]]''' and '''[[Wikipedia:WikiProject Cities|WikiProject Cities]]'''.
+</div>
+
+== Guidelines ==
+
+<div style="{{{{BASEPAGENAME}}/nav-style}} width:50%;">
+* If you see "expression error" messages, remove all commas and other punctuation from inputted numbers. Numeric inputs must be '''raw''' and unformatted (i.e., without commas, spaces, symbols, and references&mdash;1234 and '''not''' 1,234). 
+* If you see random strings of alphanumeric characters (e.g., "UNIQ1a90b62f53 ..."), separate out non-numeric material (e.g., references, notes, comments, etc.) and add them to the proper "cite" field (e.g., in <code><nowiki>area_total_cite</nowiki></code>, not in <code><nowiki>area_total</nowiki></code>).
+* Raw values will be automatically formatted (using commas) by the template.
+* All parameters are optional; the template can also be used to display only a locator map and/or caption.
+* For other issues, '''[http://en.wikipedia.org/w/index.php?title=Template_talk:Infobox_Indian_Jurisdiction&action=edit&section=new post a comment or question]''' on the '''[[Template talk:Infobox Indian Jurisdiction|talk page]]'''.
+</div>
+
+== Troubleshooting ==
+<div style="{{{{BASEPAGENAME}}/nav-style}} width:50%;">
+
+;Infobox how-to
+* For a list of infobox parameters, see the '''[[{{FULLPAGENAME}}#Parameters|parameters]]''' section.
+* For copyable and empty infobox code, see the '''[[{{FULLPAGENAME}}#Empty code|code]]''' section.
+* For help in finding missing information, see the '''[[{{FULLPAGENAME}}#Resources|resources]]''' section.
+
+;Locator maps
+* [[Scalable Vector Graphics|SVG]] locator maps are [[Template:Infobox Indian Jurisdiction/Parameters|auto-selected]] whenever coordinates are provided; the specific map is based on state/metro name provided and has a locator dot placed on it.
+* The maps are provided by the '''[[Wikipedia:WikiProject Indian maps|WikiProject Indian maps]]'''. Questions, issues, and requests can be posted on either the '''[[Wikipedia talk:WikiProject Indian maps|Indian maps talk page]]''' or on the general '''[[Wikipedia talk:Notice board for India-related topics|India-related talk page]]'''.
+* If a locator map is not displaying properly, try the following:
+*# Click on the image to go to the main image page on the [[Wikipedia:Wikimedia Commons|Wikimedia Commons]].
+*# Make a hard reload ('''Ctrl+F5''' in [[Internet Explorer]], or '''Shift+Control+R''' in [[Mozilla Firefox]] and [[Opera (web browser)|Opera]]), in order to purge the image cache.
+*# Follow the directions under the "'''SVG Support'''" section by clicking on the "'''Tryx'''" links under the "'''View [large|medium] PNG'''" fields. You may need to play around with "a/ab" (by changing it to "a/a1", "a/a2", "b/a1", etc.) to force it to rasterise.
+*# Once it displays, try the reloading with original/main image page url and its should display.
+*# Please post unsolved issues to the '''[[Wikipedia talk:WikiProject Indian maps|Indian maps talk page]]'''.
+
+;Related
+* These '''[[Wikipedia:WikiProject_India#Project_organisation|related WikiProjects]]''' provide additional guidance in building your article:
+** '''[[Wikipedia:WikiProject Indian cities|Indian cities]]'''
+** '''[[Wikipedia:WikiProject Indian districts|Indian districts]]'''
+** '''[[Wikipedia:WikiProject Protected areas of India|Indian protected areas]]'''
+** '''[[Wikipedia:WikiProject Regions of India|Indian regions]]'''
+** '''[[Wikipedia:WikiProject Indian states|Indian states]]'''
+</div>
+
+== Microformat ==
+<div style="{{{{BASEPAGENAME}}/nav-style}} width:50%;">
+The HTML mark up produced by this template includes an [[HCard|hCard microformat]], which makes the place-name and location [[Parsing|parsable]] by computers, either acting automatically to catalogue article across Wikipedia, or via a browser tool operated by a person, to (for example) add the subject to an address book. Within the hCard is a [[WP:GEOUF|Geo microformat]], which additionally makes the [[Geographic coordinate system|coordinates]] (latitude & longitude) parsable, so that they can be, say, looked up on a map, or downloaded to a [[Global Positioning System|GPS]] unit. For more information about the use of [[microformat]]s on Wikipedia, please see [[WP:UF|the microformat project]].
+
+hCard uses HTML classes including:
+{{flatlist}}
+*"adr"
+*"county-name"
+*"fn"
+*"label"
+*"locality"
+*"nickname"
+*"note"
+*"org"
+*"vcard"
+{{endflatlist}}
+
+Geo is produced by calling {{tl|coord}}, and uses HTML classes
+hCard uses HTML classes including:
+{{flatlist}}
+*"geo"
+*"latitude"
+*"longitude"
+{{endflatlist}}
+
+'''Please do not rename or remove these classes.'''
+
+[[Category:Templates generating hCards and Geo|{{PAGENAME}}]]
+</div>
+
+== Parameters ==
+
+{| class="<!--sortable -->wikitable" width="100%" style="font-size:85%; text-align:left; border:1px solid steelblue;"
+! width=“100” | Parameter
+! width=“250” | Description
+! width=“050” | Sources
+! width=“250” | Examples
+|- <!-- ###### Title bar ###### -->
+! colspan="4" style="text-align:left; background-color: lightsteelblue;" | <big>Title bar</big>
+|-
+| <code><nowiki>type</nowiki></code> <br><code><nowiki>type_2</nowiki></code> || type of place || - || <code><nowiki>state</nowiki></code>, <code><nowiki>union territory</nowiki></code> <br><code><nowiki>region</nowiki></code> <br><code><nowiki>division</nowiki></code> <br><code><nowiki>district</nowiki></code>, <code><nowiki>subdistrict</nowiki></code> <br><code><nowiki>capital</nowiki></code>, <code><nowiki>hq</nowiki></code> <br><code><nowiki>metropolitan city</nowiki></code> <br><code><nowiki>city</nowiki></code>, <code><nowiki>town</nowiki></code> <br><code><nowiki>neighbourhood</nowiki></code>, <code><nowiki>suburb</nowiki></code> <br><code><nowiki>village</nowiki></code> <br><code><nowiki>national park</nowiki></code>
+|-
+| <code><nowiki>native_name</nowiki></code> || name ([[Indian renaming controversy|Indian spelling]], in [[Indian English]]) || [http://www.fallingrain.com/world/IN/ '''(list)'''] || <code><nowiki>Bengalūru</nowiki></code>
+|-
+| <code><nowiki>other_name</nowiki></code> || name (alternate) || - || <code><nowiki>Bangalore</nowiki></code><br><code><nowiki>ಬೆಂಗಳೂರು</nowiki></code>
+|-
+| <code><nowiki>state_name</nowiki></code> || [[states and territories of India|state/territory]] || - || <code><nowiki>Karnataka</nowiki></code><br>This entry will automatically create a category, therefore do not [[Help:Link|link]] this entry. Doing so will cause [http://en.wikipedia.org/w/index.php?title=Jorhat&oldid=212775324 this]. It is important to spell the name exactly as it is used in Wikipedia. Incorrect spellings/usage will cause red linked categories to appear, as can be seen at the bottom of the page [http://en.wikipedia.org/w/index.php?title=Puducherry&oldid=215336404 here]. Leaving the entry blank or removing it will cause the redlink category [[:Category:Cities and towns in]] to appear at the bottom of the page.
+|-
+| <code><nowiki>metro</nowiki></code> || for suburbs/neighbourhoods, metro name || - || <code><nowiki>Chennai</nowiki></code>
+|-
+| <code><nowiki>nickname</nowiki></code> || common/recognised nickname || - || <code><nowiki>Paradise on Earth</nowiki></code>
+|-
+| <code><nowiki>iucn_category</nowiki></code> || [[World Conservation Union]] ([[IUCN]]) [[IUCN#Protected_Area_Management_Categories|protected area management categories]] || - || <code><nowiki>Ia</nowiki></code> <br><code><nowiki>VI</nowiki></code>
+|- <!-- ###### Skyline ###### -->
+! colspan="4" style="text-align:left; background-color: lightsteelblue;" | <big>Skyline image</big>
+|-
+| <code><nowiki>skyline</nowiki></code> || image of skyline, terrain, or landmark (filename, without the "Image:" part) || '''[http://www.flickr.com/search/?z=t&l=5&q=Mumbai&m=text Flickr (free images)]''' || <code><nowiki>Srinagar.jpg</nowiki></code>
+|-
+| <code><nowiki>skyline_caption</nowiki></code> || brief description of image || - || <code><nowiki>View of Srinagar and [[Dal Lake]]</nowiki></code>
+|- <!-- ###### Map ###### -->
+! colspan="4" style="text-align:left; background-color: lightsteelblue;" | <big>Locator map</big>
+|-
+| <code><nowiki>base_map</nowiki></code> || for custom maps; this field overrides the infobox's auto-selected map and displays the inputted map instead <br>(leave out the "Image:" part) || - || <code><nowiki>Ladakh locator map.svg</nowiki></code>
+|-
+| <code><nowiki>base_map_label</nowiki></code> || "no"/"yes" hides/shows locator dot and label <br>(default is "yes") || - || <code><nowiki>no</nowiki></code> <br><code><nowiki>yes</nowiki></code>
+|-
+| <code><nowiki>locator_position</nowiki></code> || "left"/"right" places indicator label to left/right of locator dot <br>(useful when label runs outside the map or infobox) <br> (default is "right") || - || <code><nowiki>left</nowiki></code> <br><code><nowiki>right</nowiki></code>
+|-
+| <code><nowiki>inset_map_marker</nowiki></code> || "no"/"yes" hides/shows dot on inset map of India. <br>(useful when state/territory is too small to see in inset map) <br> (default is "no") || - || <code><nowiki>no</nowiki></code> <br><code><nowiki>yes</nowiki></code>
+|-
+| <code><nowiki>map_caption</nowiki></code> || brief description of map || - || <code><nowiki>Map of Kashmir with Ladakh highlighted in red{{Ref_label|A|α|none}}</nowiki></code>
+|- <!-- ###### Geography ###### -->
+! colspan="4" style="text-align:left; background-color: lightsteelblue;" | <big>Geography</big>
+|-
+| <code><nowiki>latd</nowiki></code> || decimalised [[latitude]] ([[degree (angle)|degree]]s) || rowspan="4" | '''[http://www.fallingrain.com/world/IN/index.html Falling Rain] <br>[http://www.giswiki.org/hjl_get_CoorE.htm Google Maps API] <br>[http://www.google.com/search?hl=en&q=site%3Awikimapia.org+Mumbai+Maharashtra&btnG=Search WikiMapia]''' || <code><nowiki>|latd=34.09</nowiki></code>
+|-
+| <code><nowiki>longd</nowiki></code> || decimalised [[longitude]] ([[degree (angle)|degree]]s) || <code><nowiki>|longd=74.79</nowiki></code>
+|-
+| <code><nowiki>latd</nowiki></code> <br><code><nowiki>latm</nowiki></code> <br><code><nowiki>lats</nowiki></code> || dms [[latitude]] ([[degree (angle)|degree]]s, [[minute of arc|minute]]s, [[minute of arc|second]]s) || <code><nowiki>|latd=27 |latm=06 |lats=00</nowiki></code>
+|-
+| <code><nowiki>longd</nowiki></code> <br><code><nowiki>longm</nowiki></code> <br><code><nowiki>longs</nowiki></code> || dms [[longitude]] ([[degree (angle)|degree]]s, [[minute of arc|minute]]s, [[minute of arc|second]]s) || <code><nowiki>|longd=93 |longm=37 |longs=12</nowiki></code>
+|-
+| <code><nowiki>area_total</nowiki></code> || [[area]] ([[square kilometre|km²]]) || - || <code><nowiki>38863</nowiki></code>
+|-
+| <code><nowiki>area_total_cite</nowiki></code> || note/citation || - || <code><nowiki><sup>'''†'''</sup></nowiki></code>
+|-
+| <code><nowiki>altitude</nowiki></code> || [[elevation]], measured from [[sea level]] ([[metre|m]]) || - || <code><nowiki>33</nowiki></code>
+|-
+| <code><nowiki>coastline</nowiki></code> || [[coast]]line length ([[kilometre|km]]) || - || <code><nowiki>48</nowiki></code>
+|- <!-- ###### Climate ###### -->
+! colspan="4" style="text-align:left; background-color: lightsteelblue;" | <big>Climate</big>
+|-
+| <code><nowiki>climate</nowiki></code> || [[Köppen climate classification]] || '''[[Climatic regions of India]]''' || <code><nowiki>Tropical wet</nowiki></code><br><code><nowiki>ETh</nowiki></code>
+|-
+| <code><nowiki>precip</nowiki></code> || total annual [[precipitation]] ([[millimetre|mm]]) || rowspan="4" | '''[[Climate of India#Statistics|Climate of India]]''' <br>'''[http://www.bbc.co.uk/weather/world/country_guides/results.shtml?tt=TT002240 BBC]''' <br>'''[http://www.weatherbase.com/ Weatherbase]''' <br>'''[http://www.wunderground.com/global/IN.html Wunderground]''' <br>'''[http://www.weather.com/ weather.com]''' || <code><nowiki>658</nowiki></code>
+|-
+| <code><nowiki>temp_annual</nowiki></code> || mean year-round [[temperature]] ([[Celsius|°C]]) || <code><nowiki>26.0</nowiki></code>
+|-
+| <code><nowiki>temp_summer</nowiki></code> || mean summer (Mar – May) [[temperature]] ([[Celsius|°C]]) || <code><nowiki>30.3</nowiki></code>
+|-
+| <code><nowiki>temp_winter</nowiki></code> || mean winter (Jan – Feb) [[temperature]] ([[Celsius|°C]]) || <code><nowiki>23.5</nowiki></code>
+|- <!-- ###### Distances ###### -->
+! colspan="4" style="text-align:left; background-color: lightsteelblue;" | <big>Distances to other places</big>
+|-
+| <code><nowiki>distance_1</nowiki></code> <br><code><nowiki>distance_2</nowiki></code> <br><code><nowiki>distance_3</nowiki></code> || distance (km) || rowspan="4" | '''[http://www.mapsofindia.com/distances/ (find)]''' || <code><nowiki>1499</nowiki></code>
+|-
+| <code><nowiki>direction_1</nowiki></code> <br><code><nowiki>direction_2</nowiki></code> <br><code><nowiki>direction_3</nowiki></code> || [[cardinal direction]] in which destination lies || <code><nowiki>S</nowiki></code><br><code><nowiki>north-northwest</nowiki></code><br><code><nowiki>NNW</nowiki></code>
+|-
+| <code><nowiki>destination_1</nowiki></code> <br><code><nowiki>destination_2</nowiki></code> <br><code><nowiki>destination_3</nowiki></code> || place of destination || <code><nowiki>Delhi</nowiki></code>
+|-
+| <code><nowiki>mode_1</nowiki></code> <br><code><nowiki>mode_2</nowiki></code> <br><code><nowiki>mode_3</nowiki></code> || mode of travel || <code><nowiki>[[Indian highways|land]]</nowiki></code><br><code><nowiki>air</nowiki></code>
+|- <!-- ###### Demographics ###### -->
+! colspan="4" style="text-align:left; background-color: lightsteelblue;" | <big>Demographics</big>
+|-
+| <code><nowiki>population_total</nowiki></code> || population || '''[http://www.censusindiamaps.net/ (find)]''' || <code><nowiki>80221171</nowiki></code>
+|-
+| <code><nowiki>population_total_cite</nowiki></code> || note/citation || - || <code><nowiki>{{GR|India}}</nowiki></code><br><code><nowiki><ref name="GOI_2001"/></nowiki></code>
+<!--<ref>{{cite web
+|url= http://www.censusindia.net/results/data/j&k_uatowns.PDF
+|title= Population in the age group 0-6 and literates by sex—urban agglomeration/town
+|work= [[Census of India 2001]]
+|publisher= [[Government of India]]
+|date= [[27 May]] [[2002]]
+|accessdate= 2007-04-14}}</ref>-->
+|-
+| <code><nowiki>population_rank</nowiki></code> || ranking (1st, 2nd, etc.) per [[list of million-plus cities in India|list]] || - || <code><nowiki>5th</nowiki></code>
+|-
+| <code><nowiki>population_as_of</nowiki></code> || year that data were estimated || - || <code><nowiki>2001</nowiki></code>
+|-
+| <code><nowiki>population_density</nowiki></code> || quotient of <code><nowiki>population_total</nowiki></code> and <code><nowiki>area_total</nowiki></code><br> || - || <code><nowiki>819</nowiki></code>
+|-
+| <code><nowiki>population_density_cite</nowiki></code> || note/citation || - || <code><nowiki><sup>'''‡'''</sup></nowiki></code>
+|-
+| <code><nowiki>population_metro</nowiki></code> || for cities, [[metropolitan area|metro]] population (see [[list of most populous metropolitan areas in India|list]]) || - || <code><nowiki>14681589</nowiki></code>
+|-
+| <code><nowiki>population_metro_cite</nowiki></code> || note/citation || - || <code><nowiki><sup>'''7'''</sup></nowiki></code>
+|-
+| <code><nowiki>population_metro_rank</nowiki></code> || per [[list of most populous metropolitan areas in India|list]] || - || <code><nowiki>1st</nowiki></code>
+|-
+| <code><nowiki>population_urban</nowiki></code> || percentage living in urban areas || - || <code><nowiki>15.1%</nowiki></code>
+|-
+| <code><nowiki>sex_ratio</nowiki></code> || [[Human sex ratio|sex ratio]] (# males)/(# females) || - || <code><nowiki>1.17</nowiki></code>
+|-
+| <code><nowiki>literacy</nowiki></code> <br><code><nowiki>literacy_male</nowiki></code> <br><code><nowiki>literacy_female</nowiki></code> || [[literacy]] rate (%) || - || <code><nowiki>59.18%</nowiki></code>
+|-
+| <code><nowiki>official_languages</nowiki></code> || [[languages of India|languages]] ([[official languages of India|official]] only) || - || <code><nowiki>[[Kashmiri language|Kashmiri]], [[Urdu]]</nowiki></code>
+|- <!-- ###### Main settlements ###### -->
+! colspan="4" style="text-align:left; background-color: lightsteelblue;" | <big>Main settlements (cities, towns, etc.)</big>
+|-
+| <code><nowiki>capital</nowiki></code> || capital city || - || <code><nowiki>Leh</nowiki></code>
+|-
+| <code><nowiki>hq</nowiki></code> || district headquarters || - || <code><nowiki>Machilipatnam</nowiki></code>
+|-
+| <code><nowiki>largest_city</nowiki></code> || largest city (by city population); link to main article || - || <code><nowiki>Ranchi</nowiki></code>
+|-
+| <code><nowiki>largest_metro</nowiki></code> || largest city (by greater metro population); link to main article, '''not''' to metro/corporation articles || - || <code><nowiki>[[Kochi, India|Kochi]]</nowiki></code>
+|-
+| <code><nowiki>nearest_city</nowiki></code> || nearest city || - || <code><nowiki>Golaghat</nowiki></code>
+|- <!-- ###### Main settlements ###### -->
+! colspan="4" style="text-align:left; background-color: lightsteelblue;" | <big>Main settlements (cities, towns, etc.)</big>
+|-
+| <code><nowiki>region</nowiki></code> || home [[region]] || '''[[List of regions in India]]''' || <code><nowiki>[[Kashmir region|Kashmir]]</nowiki></code> <br><code><nowiki>Ladakh</nowiki></code>
+|-
+| <code><nowiki>division</nowiki></code> || home [[division (country subdivision)|division]] || '''[[Divisions of India]]''' || <code><nowiki>[[Gorakhpur division|Gorakhpur]]</nowiki></code>
+|-
+| <code><nowiki>district</nowiki></code> || '''name(s)''' of home [[districts of India|district]](s) || '''[[List of districts of India]]''' || <code><nowiki>[[Kargil district|Kargil]]</nowiki></code> <br><code><nowiki>[[Mumbai City]]<br/> • [[Mumbai Suburban]]</nowiki></code>
+|-
+| <code><nowiki>districts</nowiki></code> || '''number''' of districts (for regions, states, and other large areas) || '''[[List of districts of India]]''' || <code><nowiki>3</nowiki></code>
+|-
+| <code><nowiki>taluk_names</nowiki></code> || home taluk(s), tehsil(s), ''[[panchayat samiti]]'', mandal(s), subdistrict(s), etc. || - || <code><nowiki>Amruthalur</nowiki></code>
+|- <!-- ###### Government ###### -->
+! colspan="4" style="text-align:left; background-color: lightsteelblue;" | <big>Government</big>
+|-
+| <code><nowiki>leader_title_1</nowiki></code> <br><code><nowiki>leader_title_2</nowiki></code> <br><code><nowiki>leader_title_3</nowiki></code> || job title || - || <code><nowiki>Chief Minister</nowiki></code>
+|-
+| <code><nowiki>leader_name_1</nowiki></code> <br><code><nowiki>leader_name_2</nowiki></code> <br><code><nowiki>leader_name_3</nowiki></code> || current leader's name || - || <code><nowiki>Sheila Dikshit</nowiki></code>
+|-
+| <code><nowiki>established_title</nowiki></code> || title of founding/establishing event || - || <code><nowiki>Settled</nowiki></code>
+|-
+| <code><nowiki>established_date</nowiki></code> || date when event happened || - || <code><nowiki>[[3rd century BC|3rd century BCE]]</nowiki></code>
+|-
+| <code><nowiki>legislature_type</nowiki></code> || type of government || - || <code><nowiki>[[Bicameralism|Bicameral]]</nowiki></code>
+|-
+| <code><nowiki>legislature_strength</nowiki></code> || number of elected/appointed legislators || - || <code><nowiki>141</nowiki></code>
+|-
+| <code><nowiki>parliament_const</nowiki></code> || parliamentary constituency ([[14th Lok Sabha]]) || - || <code><nowiki>Chennai Central</nowiki></code>
+|-
+| <code><nowiki>assembly_const</nowiki></code> || assembly constituency (e.g., [[list of Chennai Corporation wards|Chennai Corporation wards]]) || - || <code><nowiki>Mylapore</nowiki></code>
+|-
+| <code><nowiki>planning_agency</nowiki></code> || urban/metro planning agency || - || <code><nowiki>[[Chennai Metropolitan Development Authority|CDMA]]</nowiki></code><br><code><nowiki>[[Mumbai Metropolitan Region Development Authority|MMRDA]]</nowiki></code>
+|-
+| <code><nowiki>civic_agency</nowiki></code> || civic agency || - || <code><nowiki>Chennai Corporation</nowiki></code><br><code><nowiki>Municipal Corporation of Greater Mumbai</nowiki></code>
+|-
+| <code><nowiki>corp_zone</nowiki></code> || city/metro corporation zone || - || <code><nowiki>[[Adyar (Tamil Nadu)|Adyar]]</nowiki></code>
+|-
+| <code><nowiki>corp_ward</nowiki></code> || [[ward]] || - || <code><nowiki>147</nowiki></code>
+|-
+| <code><nowiki>jurisdiction_title_1</nowiki></code> <br><code><nowiki>jurisdiction_title_2</nowiki></code> <br><code><nowiki>jurisdiction_title_3</nowiki></code> || jurisdiction type || - || <code><nowiki>[[Panchayati Raj|District panchayat]]</nowiki></code> <br><code><nowiki>Zilla parishad</nowiki></code> <br><code><nowiki>Municipality</nowiki></code>
+|-
+| <code><nowiki>jurisdiction_name_1</nowiki></code> <br><code><nowiki>jurisdiction_name_2</nowiki></code> <br><code><nowiki>jurisdiction_name_3</nowiki></code> || name/value || - || <code><nowiki>Thiruvananthapuram</nowiki></code> <br><code><nowiki>[[Raigad (zilla parishad)|Raigad]]</nowiki></code> <br><code><nowiki>Kalyan-Dombivli</nowiki></code>
+|- <!-- ###### Blanks ###### -->
+! colspan="4" style="text-align:left; background-color: lightsteelblue;" | <big>Blank fields (for extra/customised information)</big>
+|-
+| <code><nowiki>blank_title_1</nowiki></code> <br><code><nowiki>blank_title_2</nowiki></code> || field title (1st) || - || <code><nowiki>Visitation</nowiki></code> <br><code><nowiki>Governing body</nowiki></code>
+|-
+| <code><nowiki>blank_value_1</nowiki></code> <br><code><nowiki>blank_value_2</nowiki></code> || field value (1st); <br>'''commas/notes are allowed''' || - || <code><nowiki>5,228</nowiki></code> <br><code><nowiki>[[Government of India]], [[Government of Assam]]</nowiki></code>
+|- <!-- ###### Codes ###### -->
+! colspan="4" style="text-align:left; background-color: lightsteelblue;" | <big>Codes</big>
+|-
+| <code><nowiki>area_telephone</nowiki></code> || area telephone code(s) || '''[http://www.pppindia.com/stdcode/ (find)]''' || <code><nowiki>771</nowiki></code>
+|-
+| <code><nowiki>postal_code</nowiki></code> || [[Postal Index Number|pincode]] || '''[http://www.indiapost.gov.in/pinsearch1.asp (find)]''' || <code><nowiki>492 001</nowiki></code>
+|-
+| <code><nowiki>unlocode</nowiki></code> || [[UN/LOCODE]] || '''[http://www.unece.org/cefact/locode/in.htm (find)]''' || <code><nowiki>INSXR</nowiki></code>
+|-
+| <code><nowiki>vehicle_code_range</nowiki></code> || [[Indian licence plates|Indian licence plate]] numbers || - || <code><nowiki>WB-01 to WB-04</nowiki></code>
+|-
+| <code><nowiki>abbreviation</nowiki></code> || [[ISO 3166-2|ISO abbreviation]] || '''[https://mail.nic.in/src/MailService_e-mail_address_Policy_WithCodes.pdf (find)]''' || <code><nowiki>IN-AR-ES</nowiki></code>
+|- <!-- ###### Website ###### -->
+! colspan="4" style="text-align:left; background-color: lightsteelblue;" | <big>Website</big>
+|-
+| <code><nowiki>website</nowiki></code> || URL of government website || '''[http://districts.gov.in/ (find)]''' || <code><nowiki>bhopal.nic.in</nowiki></code>
+|- <!-- ###### Portal ###### -->
+! colspan="4" style="text-align:left; background-color: lightsteelblue;" | <big>Portal</big>
+|-
+| <code><nowiki>portal</nowiki></code> || [[Wikipedia:Portal|Wikipedia portal]] [[Portal:List of portals|name]] || - || <code><nowiki>Kerala</nowiki></code>
+|- <!-- ###### Footnotes ###### -->
+! colspan="4" style="text-align:left; background-color: lightsteelblue;" | <big>Footnotes</big>
+|-
+| <code><nowiki>footnotes</nowiki></code> || notes/references/comments || - || <code><nowiki><sup>'''†'''</sup>&nbsp;(Notes/comments).</nowiki></code></small><br/><code><nowiki><references/></nowiki></code></small>
+|- <!-- ###### Symbols ###### -->
+! colspan="4" style="text-align:left; background-color: lightsteelblue;" | <big>Symbols (flags, seals, logos, etc.)</big>
+|-
+| <code><nowiki>seal</nowiki></code> || image filename (without the "Image:" part); <br>prefereably [[Scalable Vector Graphics|SVG]] || - || <code><nowiki>Jammu-Kashmir-flag.svg</nowiki></code>
+|-
+| <code><nowiki>seal_size</nowiki></code> || image size ([[pixel]]s) || - || <code><nowiki>100px</nowiki></code>
+|-
+| <code><nowiki>seal_caption</nowiki></code> || very brief description of symbol || - || <code><nowiki>Flag of Jammu and Kashmir</nowiki></code>
+|- <!-- ###### Internal controls ###### -->
+! colspan="4" style="text-align:left; background-color: lightsteelblue;" | <big>Internal/miscellaneous</big>
+|-
+| <code><nowiki>coord_title</nowiki></code> || "no" hides the title coordinates <br>(displayed at top right-hand corner of article) <br>default is "yes" || - || <code><nowiki>yes</nowiki></code> <br><code><nowiki>no</nowiki></code>
+|-
+| <code><nowiki>autocat</nowiki></code> || "no" prevents infobox from auto-categorising an article (see [[Help:Category]]) <br>default is "yes" || - || <code><nowiki>yes</nowiki></code> <br><code><nowiki>no</nowiki></code>
+|}
+
+== Empty code ==
+
+=== Basic ===
+
+<div>
+<pre>
+{{Infobox Indian Jurisdiction
+|type               = 
+|native_name        = 
+|state_name         = 
+|district           = 
+|latd = |latm = |lats = 
+|longd= |longm= |longs= 
+|area_total         = 
+|area_magnitude     = 
+|altitude           = 
+|population_total   = 
+|population_as_of   = 
+|population_density = 
+|leader_title_1     = 
+|leader_name_1      = 
+|leader_title_2     = 
+|leader_name_2      = 
+|footnotes          = 
+}}
+</pre>
+</div>
+
+=== Full ===
+
+<div>
+<pre>
+{{Infobox Indian Jurisdiction
+|type                    = 
+|native_name             = 
+|other_name              = <!-- optional -->
+|nickname                = 
+|iucn_category           = <!-- for protected areas only -->
+|state_name              = 
+|metro                   = <!-- for neighbourhoods/suburbs only -->
+|skyline                 = 
+|skyline_caption         = 
+|latd = |latm = |lats = 
+|longd= |longm= |longs= 
+|base_map                = <!-- only if default map not wanted -->
+|locator_position        = <!-- left/right -->
+|base_map_label          = <!-- yes/no -->
+|inset_map_marker        = <!-- yes/no -->
+|map_caption             = 
+|area_total              = 
+|area_magnitude          = 
+|area_rank               = 
+|area_total_cite         = 
+|area_metro              = 
+|area_metro_cite         = 
+|altitude                = 
+|altitude_cite           = 
+|coastline               = 
+|climate                 = 
+|precip                  = 
+|temp_annual             = 
+|temp_winter             = 
+|temp_summer             = 
+|destinatione_1          = 
+|direction_1             = 
+|distance_1              = 
+|mode_1                  = 
+|destinatione_2          = 
+|direction_2             = 
+|distance_2              = 
+|mode_2                  = 
+|destinatione_3          = 
+|direction_3             = 
+|distance_3              = 
+|mode_3                  = 
+|capital                 = <!-- for states/territories/regions only -->
+|hq                      = <!-- for districts only -->
+|largest_city            = 
+|largest_metro           = 
+|nearest_city            = 
+|region                  = 
+|division                = 
+|district                = <!-- names -->
+|districts               = <!-- number -->
+|taluk_names             = 
+|population_total        = 
+|population_rank         = 
+|population_as_of        = 
+|population_total_cite   = 
+|population_density      = 
+|population_density_cite = 
+|population_metro        = 
+|population_metro_rank   = 
+|population_metro_as_of  = 
+|population_metro_cite   = 
+|sex_ratio               = 
+|literacy                = 
+|literacy_male           = 
+|literacy_female         = 
+|official_languages      = 
+|leader_title_1          = 
+|leader_name_1           = 
+|leader_title_2          = 
+|leader_name_2           = 
+|leader_title_3          = 
+|leader_name_3           = 
+|established_title       = 
+|established_date        = 
+|legislature_type        = 
+|legislature_strength    = 
+|parliament_const        = 
+|assembly_const          = 
+|planning_agency         = 
+|civic_agency            = 
+|corp_zone               = 
+|corp_ward               = 
+|jurisdiction_title_1    = 
+|jurisdiction_name_1     = 
+|jurisdiction_title_2    = 
+|jurisdiction_name_2     = 
+|jurisdiction_title_3    = 
+|jurisdiction_name_3     = 
+|blank_title_1           = 
+|blank_value_1           = 
+|blank_title_2           = 
+|blank_value_2           = 
+|abbreviation            = <!-- ISO 3166-2 -->
+|area_telephone          = 
+|postal_code             = 
+|unlocode                = 
+|vehicle_code_range      = 
+|website                 = 
+|website_caption         = 
+|portal                  = 
+|footnotes               = 
+|seal                    = 
+|seal_size               = 
+|seal_caption            = 
+|coord_title             = <!-- yes/no -->
+|autocat                 = <!-- yes/no -->
+}}
+</pre>
+</div>
+
+== Resources ==
+
+{{Infobox Indian Jurisdiction
+|type               = region
+|native_name        = Ladakh
+|other_name         = ལ་དྭགས་
+|state_name         = Jammu and Kashmir
+|skyline            = Tanglanglapass.jpg
+|skyline_caption    = Tanglang La mountain pass in Ladakh
+|base_map           = Ladakh locator map.svg<!--India-LADAKH Full.svg-->
+|base_map_label     = no
+|map_caption        = Map of Kashmir with Ladakh highlighted in red{{Ref_label|A|α|none}}
+|latd = 34.14 |longd = 77.55
+|largest_city       = Leh
+|official_languages = [[Ladakhi language|Ladakhi]], [[Urdu]]
+|area_total         = 45110
+|area_total_cite    = {{Ref_label|B|β|none}}
+|population_total   = 270126
+|population_as_of   = 2001 
+|population density = 24
+|population_density_cite = <ref name="census"><!--
+-->{{cite web
+<!-- -->|year       = 2001
+<!-- -->|url        = http://leh.nic.in/census.htm
+<!-- -->|title      = Census 2001
+<!-- -->|work       = Roof of the World
+<!-- -->|publisher  = Ladakh Autonomous Hill Development Council, Leh
+<!-- -->|accessdate = 2006-08-23
+<!-- -->}}</ref>
+|blank_title_1 = [[Infant mortality rate]]
+|blank_value_1 = 19%<!--
+--><ref>{{cite web
+<!-- -->|last      = Wiley
+<!-- -->|first     = AS
+<!-- -->|year      = 2001
+<!-- -->|url       = http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=9818554&dopt=Abstract
+<!-- -->|title     = The ecology of low natural fertility in Ladakh
+<!-- -->|publisher = Department of Anthropology, Binghamton University (SUNY) 13902-6000, USA, PubMed publication
+<!-- -->|accessdate = 2006-08-22
+<!-- -->}}</ref> (1981)
+|website           = leh.nic.in
+|coord_title       = no
+|autocat           = no
+}}
+
+<div style="{{{{BASEPAGENAME}}/nav-style}} width:50%;">
+This section lists resources useful in finding information about Indian cities, towns, and other places.
+
+=== Coordinates ===
+
+Many [[India]]-related articles lack [[geographic coordinate system|geographic coordinates]]. Coordinates allow {{tl|Infobox Indian Jurisdiction‎}} to display a locator map showing the place's location in India. See [[Wikipedia:WikiProject Indian maps|WikiProject Indian maps]] for details.
+
+==== Using Wikimapia ====
+# '''Follow [http://www.google.com/search?hl=en&q=+site%3Awikimapia.org+PLACENAME+STATENAME&btnG=Google+Search this link]''' and replace "PLACENAME" with the place's name and "STATENAME" with the state or union territory.
+# Once coordinates are found, '''add <code><nowiki>|latd=yy.yyy |longd=xx.xxx</nowiki></code> to the article's infobox code''' (replace <code><nowiki>yy.yyy</nowiki></code> and <code><nowiki>xx.xxx</nowiki></code> with the [[latitude]] and [[longitude]] found).
+# Both the decimalised format (e.g., <code><nowiki>|latd=22.5</nowiki></code>) and the [[degree (angle)|degree]]-[[minute of arc|minute]]-[[arcsecond|second]] format (<code><nowiki>|latd=22 |latm=30 |lats=00</nowiki></code>) are acceptable.
+
+==== Others ====
+* [http://www.fallingrain.com/world/IN/index.html Fallingrain (Coords not always accurate)]
+* [http://www.giswiki.org/hjl_get_CoorE.htm Get exact coordinates using Google Maps API]
+
+=== Maps ===
+* [[OpenStreetMap]] has many free and downloadable street maps and other geographic data.
+
+=== Pin code ===
+* [http://www.indiapost.gov.in/pinsearch1.asp Pincode Search]
+
+==== Tamil Nadu ====
+* District, Taluk
+** [http://gisd.tn.nic.in/tnmaps Tamil Nadu Maps]
+** [[:Image:Chennai_district_map.png|CMA taluk map + corporation zones]]
+*  Zone, Ward, Constituency in Chennai
+** [http://gisd.tn.nic.in/tnmaps/chn_ward.php Clickable ward map]
+** [[List of Chennai Corporation wards]]
+</div>
+
+<includeonly>
+<!--Categories-->
+{{DEFAULTSORT:Indian Jurisdiction}}
+[[Category:India subdivision templates| ]]
+[[Category:Asian country subdivision infobox templates]]
+[[Category:City infobox templates]]
+[[Category:Templates using ParserFunctions|Infobox Indian Jurisdiction]]
+
+<!--Interwikis-->
+[[bn:Template:তথ্যছক ভারতের নগর এলাকা]]
+[[fi:Malline:Intian kaupunki]]
+[[fr:Modèle:Infobox Juridiction Indienne]]
+[[gu:Template:Infobox Indian Jurisdiction]]
+[[new:Template:भारतयागु नगर इलाकायागु तथ्यांक]]
+[[pt:Predefinição:India zonas urbanas]]
+[[rmy:Format:Moxton_Indiyake_thanimata]]
+[[simple:Template:Infobox Indian Jurisdiction]]
+[[ta:வார்ப்புரு:Infobox Indian Jurisdiction]]
+[[te:మూస:భారత స్థల సమాచారపెట్టె]]
+[[vi:Tiêu bản:Thông tin đô thị Ấn Độ]]
+</includeonly>
