@@ -1,0 +1,374 @@
+<includeonly>{| class="infobox vcard" style="width:235px; font-size:82.5%; line-height:1.40em; text-align:left; background-color:#F9F9F9; border: 1px solid #D9D9D9;"
+|- <!-- ###### Title bar ###### -->
+{{#if: {{{native_name|}}}|
+{{!}} colspan="2" style="color:black; line-height:1.15em; background-color:{{IIJ/P|PT|{{{type|}}}}}; font-size:1.30em; text-align:center;" {{!}}<!--
+--><span style="color:#002bb8; position:relative; float:left; font-size:85%;">&nbsp;&nbsp;</span><!--
+-->[[Template:Infobox Indian Jurisdiction|<span title="How to use this infobox" style="color:#002bb8; position:relative; float:right; font-size:85%;">?</span>]]<!--
+-->{{#if: {{{other_name|}}}|'''{{{other_name|}}}'''<br>}}<!--
+-->'''<span class="fn org">{{{native_name}}}</span>'''<!--
+--><br><span class="label" style="font-size: small;"><small><!--
+-->{{#if: {{{metro|}}}     |{{AutoLink|{{{metro|}}}}}&nbsp;•&nbsp;}}<!--
+-->{{#if: {{{state_name|}}}|<!--
+-- -->{{#ifeq: {{{type|}}}|state||<!--
+-- -- -->{{#ifeq: {{{type|}}}|union territory||<!--
+-- -- -- -->{{AutoLink|{{#ifeq:{{{state_name}}}|Punjab|[[Punjab (India)|Punjab]]|{{{state_name|}}}}}}}&nbsp;•&nbsp;<!--
+-- -- -->}}<!--
+-- -->}}<!--
+-->|}}[[India]]</small></span>
+|}}
+|- <!-- ###### Nickname ###### -->
+{{#if: {{{nickname|}}}|
+{{!}} colspan="2" align="center" style="background-color: {{IIJ/P|PT|{{{type|}}}}};" {{!}} <small>'''Nickname:''' ''<span class="nickname">{{{nickname|}}}</span></small>|}}''
+|- <!-- ###### IUCN category ###### -->
+{{#if: {{{iucn_category|}}} |
+{{!}} colspan="2" align="center" {{Infobox protected area/IUCN {{{iucn_category|}}} }} }}
+|- <!-- ###### Skyline ###### -->
+{{#if: {{{skyline|}}}|
+{{!}} colspan="2" style="border-bottom: 2px dotted #DCDCDC;" {{!}} <center><div><div style="235px; background:transparent">
+<div style="position:relative; width:235px;">
+[[Image:{{{skyline|}}}|235px|none|{{{skyline_caption|View of {{{native_name|}}}, India}}}]]</div></div></div><small>{{{skyline_caption|}}}</small></center>
+|}}
+|- <!-- ###### Locator map ###### -->
+{{#ifexpr: {{#if:{{{latd|}}}|1|0}}+{{#ifeq:{{{type|}}}|state|1|0}}+{{#ifeq:{{{type|}}}|union territory|1|0}} > 0|
+{{!}} colspan="2" {{!}}<center><div><div style="width:235px; background:transparent">
+<div style="position:relative; width:235px;">[[Image: {{{base_map|{{IIJ/P|MB|{{{metro|{{{state_name|}}}}}}}}}}}|235px|border|Map {{#if:{{{metro|}}}|of {{{metro|}}}&nbsp;|}}indicating the location of {{{native_name|{{SUBPAGENAME}}}}}]]
+<!-- ###### Inset map ###### -->
+{{#ifeq:{{IIJ/P|MC|{{{metro|{{{state_name|}}}}}}|inset}}|yes|<div style="position:absolute; width:55px; left:{{IIJ/P|MC|{{{metro|{{{state_name|}}}}}}|inset_map_x}}; top:{{IIJ/P|MC|{{{metro|{{{state_name|}}}}}}|inset_map_y}};">
+<div style="position:relative;">[[Image:{{IIJ/P|MI|{{{state_name|}}}}}|55px|border|Thumbnail map of India with {{{state_name|}}} highlighted]]<div style="position:absolute; z-index:2; top:{{#expr:100*({{IIJ/P|MC|inset|top}}-
+<!-- -->{{#if: {{{latm|}}}|
+<!-- --><!-- -->({{{latd|00}}}+({{{latm|00}}}/60)+({{{lats|00}}}/360))|
+<!-- --><!-- -->{{{latd|00}}}
+<!-- -->}}
+) / ({{IIJ/P|MC|inset|top}}-{{IIJ/P|MC|inset|bottom}}) round 4}}%; left:{{#expr:100*(
+<!-- -->{{#if: {{{latm|}}}|
+<!-- --><!-- -->({{{longd|00}}}+({{{longm|00}}}/60)+({{{longs|00}}}/360))|
+<!-- --><!-- -->{{{longd|00}}}
+<!-- -->}}
+-{{IIJ/P|MC|inset|left}}) / ({{IIJ/P|MC|inset|right}}-{{IIJ/P|MC|inset|left}}) round 4}}%; height:0; width:0; margin:0; padding:0;">{{#ifeq:{{{inset_map_marker|}}}|yes|
+<div style="position:relative; top:-4px; left:-4px; width:8px; text-align:center; z-index:3">[[Image:Locator Dot.svg|4x4px|Location of {{{native_name|{{SUBPAGENAME}}}}} in India]]</div>}}</div></div></div>
+<!-- -->|}}<!--
+---- -->
+{{#ifeq:{{{base_map_label|}}}|no||
+<div style="position:absolute; top:{{#expr:100*({{IIJ/P|MC|{{{metro|{{{state_name|}}}}}}|top}}-
+<!-- -->{{#if: {{{latm|}}}|
+<!-- --><!-- -->({{{latd|00}}}+({{{latm|00}}}/60)+({{{lats|00}}}/360))|
+<!-- --><!-- -->{{{latd|00}}}
+<!-- -->}}
+) / ({{IIJ/P|MC|{{{metro|{{{state_name|}}}}}}|top}}-{{IIJ/P|MC|{{{metro|{{{state_name|}}}}}}|bottom}}) round 4}}%; left:{{#expr:100*(
+<!-- -->{{#if: {{{latm|}}}|
+<!-- --><!-- -->({{{longd|00}}}+({{{longm|00}}}/60)+({{{longs|00}}}/360))|
+<!-- --><!-- -->{{{longd|00}}}
+<!-- -->}}
+-{{IIJ/P|MC|{{{metro|{{{state_name|}}}}}}|left}}) / ({{IIJ/P|MC|{{{metro|{{{state_name|}}}}}}|right}}-{{IIJ/P|MC|{{{metro|{{{state_name|}}}}}}|left}}) round 4}}%; height:0; width:0; margin:0; padding:0;">
+<div style="position:relative; top:-4px; left:-4px; width:8px; text-align:center; z-index:3">[[Image:Locator Dot.svg|8x8px|Location of {{{native_name|}}}]]</div>
+<div style="font-size:90%; line-height:110%; position:relative; top:-1.45em; 
+{{#switch:{{{locator_position|{{IIJ/P|MC|{{{metro|{{{state_name|}}}}}}|locator_position}}}}}
+|right = text-align:left;  left: 0.50em; width:12em;
+|left  = text-align:right; left:-12.5em; width:12em;
+}}"><span style="padding:1px; background:none"><span class="plainlinksneverexpand">&nbsp;<b>[http://maps.google.com/maps?ll=<!--
+---- -->{{#if: {{{latm|}}}|
+<!-- --><!-- -->{{#expr: {{{latd|00}}}+({{{latm|00}}}/60)+({{{lats|00}}}/360) }},{{#expr: {{{longd|00}}}+({{{longm|00}}}/60)+({{{longs|00}}}/360) }}|
+<!-- --><!-- -->{{{latd|00}}},{{{longd|00}}}
+<!-- -->}}<!--
+-->&spn=0.1,0.1&t=h <span title="Detailed aerial imagery of {{{native_name|{{SUBPAGENAME}}}}} (Google Maps)">{{{capital|{{{native_name|{{SUBPAGENAME}}}}}}}}</span>]</b>&nbsp;</span></span>
+</div></div>}}<!--
+-->{{#if: {{{map_caption|}}}|<small>{{{map_caption|}}}</small>|}}</div></div></center>
+|}}
+|- <!-- ###### Coordinates ###### -->
+{{#if: {{{native_name|}}}|
+{{!}} colspan="2" align="center" bgcolor={{IIJ/P|PT|{{{type|}}}}} {{!}} '''[[Geographic coordinate system|Coordinates]]:''' <!--
+-->{{#if: {{{latm|}}}|
+<!-- -->{{coord|{{{latd|00}}}|{{{latm|00}}}|{{{lats|00}}}|N|{{{longd|00}}}|{{{longm|00}}}|{{{longs|00}}}|E|type:city|display=inline}}|
+<!-- -->{{#if: {{{latd|}}}|
+<!-- --><!--#then:-->{{coord|{{{latd|00}}}|N|{{{longd|00}}}|E|region:IN_type:city|display=inline}}|
+<!-- --><!--#else:--><span class="plainlinks">[http://www.google.com/search?safe=off&q={{urlencode: <!-- -->"{{{native_name|{{SUBPAGENAME}}}}}" "{{{state_name|India}}}" site:wikimapia.org}} (find coordinates)]</span>[[Category:{{{state_name<!--|Indian-->}}} location articles needing coordinates<!-- from {{CURRENTMONTHNAME}} {{CURRENTYEAR}}-->|{{SUBPAGENAME}}]]<!--
+<!-- -->}}<!--
+-->}}
+{{!-}} <!-- ###### Time zone ###### -->
+<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 width=100px {{!}} '''[[Time zone]]'''
+<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" {{!}} [[Indian Standard Time|IST]] ([[UTC+5:30]])
+|}}
+|- <!-- ###### Geography ###### -->
+{{#ifexpr:
+   {{#expr: {{#if:{{{area_total|}}}|1|0}} + {{#if:{{{area_metro|}}}|1|0}} + {{#if:{{{altitude|}}}|1|0}} + {{#if:{{{districts|}}}|1|0}} + {{#if:{{{coastline|}}}|1|0}} }} > 0 |
+<!----->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Geography of India|Area]]'''<!--
+-->{{#if: {{{area_metro|}}}    |<br> • [[Metropolitan area|Metro]]|}}<!--
+-->{{#if: {{{altitude|}}}      |<br> • [[Elevation]]|}}<!--
+-->{{#if: {{{coastline|}}}  |<br> • [[Coastline]]|}}
+<!----->{{!}} {{!}} <!--
+-->{{#if: {{{area_total|}}} |<!--
+---->{{#if: {{{area_magnitude|}}} |<!--
+------>[[1_E{{{area_magnitude|}}}_m²|{{formatnum: {{{area_total|}}} }}&nbsp;km²]]&nbsp;({{formatnum: {{#expr:0.386102159*{{{area_total|}}} round 0}}}}&nbsp;sq&nbsp;mi)<!--
+------>|<!--
+------>{{km2 to mi2|{{{area_total|}}}|abbr=yes|precision=0}}<!--
+---->{{#if: {{{area_rank|}}} |<!--
+------>&nbsp;<small>([[{{IIJ/P|CT|area_rank|{{{type|}}}}}|{{{area_rank|}}}]])</small><!--
+---->|}}<!--
+-->|}} }}<!--
+-->{{#if: {{{area_total_cite|}}} |<small>{{{area_total_cite|}}}</small>|}}<!--
+-->{{#if: {{{area_metro|}}}    |<br> • {{km2 to mi2|{{{area_metro|}}}|abbr=yes|precision=0}}|}}<!--
+-->{{#if: {{{area_metro_cite|}}} |<small>{{{area_metro_cite|}}}</small>|}}<!--
+-->{{#if: {{{altitude|}}}      |<br> • {{m to ft|{{{altitude|}}}|precision=0|abbr=yes}}|}}<!--
+-->{{#if: {{{altitude_cite|}}} |<small>{{{altitude_cite|}}}</small>|}}<!--
+-->{{#if: {{{coastline|}}}|<br> • {{km to mi|{{{coastline|}}}|precision=0|abbr=yes}}|}}
+}} 
+|- <!-- ###### Weather ###### -->
+{{#if: {{{precip|}}}{{{temp_winter|}}}{{{temp_summer|}}}|
+<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 {{!}} '''[[Climate of India|Climate]]'''<!--
+-->{{#if: {{{precip|}}}       |<br> • [[Precipitation (meteorology)|Precipitation]]|}}<!--
+-->{{#if: {{{temp_annual|}}}{{{temp_winter|}}}{{{temp_summer|}}}|<br>'''[[Temperature]]'''|}}<!--
+-->{{#if: {{{temp_summer|}}}  |<br> • Summer|}}<!--
+-->{{#if: {{{temp_winter|}}}  |<br> • Winter|}}
+<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" {{!}}<!--
+-->{{#if: {{{climate|}}}      |[[Climatic regions of India|{{{climate|}}}]] <small>([[Köppen climate classification|Köppen]])</small>|}}<!--
+-->{{#if: {{{precip|}}}       |<br> • {{mm to in|{{{precip|}}}|precision=1|abbr=yes}}|}}<!--
+-->{{#if: {{{temp_annual|}}}{{{temp_winter|}}}{{{temp_summer|}}}|}}<!--
+-->{{#if: {{{temp_annual|}}}  |<br>{{{temp_annual|}}}&nbsp;°C ({{#expr:1.8*{{{temp_annual|}}}+32 round 0}}&nbsp;°F)|<br>}}<!--
+-->{{#if: {{{temp_summer|}}}  |<br> • {{{temp_summer|}}}&nbsp;°C ({{#expr:1.8*{{{temp_summer|}}}+32 round 0}}&nbsp;°F)|}}<!--
+-->{{#if: {{{temp_winter|}}}  |<br> • {{{temp_winter|}}}&nbsp;°C ({{#expr:1.8*{{{temp_winter|}}}+32 round 0}}&nbsp;°F)|}}
+}}
+|- <!-- ###### Distances ###### -->
+{{#if: {{{distance_1|}}}|
+<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 {{!}} '''Distance(s)'''<!--
+-->{{#if: {{{distance_1|}}}|<br> • From {{AutoLink|{{{destination_1|}}}}}|}}<!--
+-->{{#if: {{{distance_2|}}}|<br> • From {{AutoLink|{{{destination_2|}}}}}|}}<!--
+-->{{#if: {{{distance_3|}}}|<br> • From {{AutoLink|{{{destination_3|}}}}}|}}
+<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" {{!}}<!--
+-->{{#if: {{{distance_1|}}}|<br> • {{formatnum:{{{distance_1}}}}}&nbsp;km <!--({{formatnum:{{#expr:0.621371192*{{{distance_1|}}} round 0}}}}&nbsp;mi)-->{{{direction_1|}}} {{#if:{{{mode_1|}}}|<small>({{{mode_1|}}})</small>}}}}<!--
+-->{{#if: {{{distance_2|}}}|<br> • {{formatnum:{{{distance_2}}}}}&nbsp;km <!--({{formatnum:{{#expr:0.621371192*{{{distance_2|}}} round 0}}}}&nbsp;mi)-->{{{direction_2|}}} {{#if:{{{mode_2|}}}|<small>({{{mode_2|}}})</small>}}}}<!--
+-->{{#if: {{{distance_3|}}}|<br> • {{formatnum:{{{distance_3}}}}}&nbsp;km <!--({{formatnum:{{#expr:0.621371192*{{{distance_3|}}} round 0}}}}&nbsp;mi)-->{{{direction_3|}}} {{#if:{{{mode_3|}}}|<small>({{{mode_3|}}})</small>}}}}
+}}
+|- <!-- ###### Centres of government ###### -->
+{{#if: {{{capital|}}}|
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[List of Indian state and union territory capitals|Capital]]'''
+<!-- -->{{!}} {{!}} {{AutoLink|{{{capital|}}}}}
+|}}
+|-
+{{#if: {{{hq|}}}|
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[List of Indian districts|Headquarters]]'''
+<!-- -->{{!}} {{!}} {{AutoLink|{{{hq|}}}}}
+}}
+|-
+{{#if: {{{largest_city|}}}|
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''Largest city'''
+<!-- -->{{!}} {{!}} {{AutoLink|{{{largest_city|}}}}}
+}}
+|-
+{{#if: {{{largest_metro|}}}|
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''Largest metro'''
+<!-- -->{{!}} {{!}} {{AutoLink|{{{largest_metro|}}}}}
+}}
+|-
+{{#if: {{{nearest_city|}}}|
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''Nearest city'''
+<!-- -->{{!}} {{!}} {{AutoLink|{{{nearest_city|}}}}}
+}}
+|- <!-- ###### Subdivisions ###### -->
+{{#if: {{{region|}}}|
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[List of regions in India|Region]]'''
+<!-- -->{{!}} {{!}} {{AutoLink|{{{region}}}}}
+}}
+|-
+{{#if: {{{division|}}}|
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Divisions of {{{state_name|}}}|Division]]'''
+<!-- -->{{!}} {{!}} {{#ifexist:{{{division}}} division|[[{{{division}}} division{{!}}{{{division}}}]]|{{AutoLink|{{{division}}}}}}}
+}}
+|-
+{{#if: {{{district|}}} |<!-- Districts (names) -->
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Districts of India|District(s)]]'''
+<!-- -->{{!}} {{!}} {{#ifexist:{{{district}}} district|[[{{{district}}} district{{!}}{{{district}}}]]|{{AutoLink|{{{district}}}}}}}
+}}
+|-
+{{#if: {{{districts|}}}|<!-- Districts (number) -->
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[List of Indian districts|District(s)]]'''
+<!-- -->{{!}} {{!}} {{{districts|}}}
+}}
+|-
+{{#if: {{{taluk_names|}}}|
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Tehsil|Subdistrict]]'''
+<!-- -->{{!}} {{!}} {{AutoLink|{{{taluk_names}}}}}
+}}
+|- <!-- ###### Demographics ###### -->
+{{#ifexpr:
+   {{#expr:
+      {{#if:{{{population_total|}}}|1|0}} + {{#if:{{{population_density|}}}|1|0}} + {{#if:{{{sex_ratio|}}}|1|0}} + {{#if:{{{literacy|}}}|1|0}} + {{#if:{{{population_metro|}}}|1|0}} }} > 0 |
+<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 {{!}} '''[[Population]]'''<!--
+-->{{#ifexpr: {{#if:{{{population_density|}}}|1|0}} + ({{#if:{{{population_total|}}}|1|0}} * {{#if:{{{area_total|}}}|1|0}})         |<br> • [[Population density|Density]]|}}<!--
+-->{{#if: {{{population_metro|}}}      |<br> • [[Metropolitan area|Metro]]|}}<!--
+-->{{#if: {{{population_urban|}}}        |<br> • [[Urbanization|Urban]]|}}<!--
+-->{{#if: {{{sex_ratio|}}}             |<br> • [[Human sex ratio|Sex ratio]]|}}<!--
+-->{{#if: {{{literacy|}}}         |<br> • [[Literacy rate]]|}}<!--
+-->{{#if: {{{literacy_male|}}}    |<br>   • Male|}}<!--
+-->{{#if: {{{literacy_female|}}}  |<br>   • Female|}}
+<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" {{!}}<!--
+-->{{#if: {{{population_total|}}}     |{{formatnum: {{{population_total}}}}}|}}<!--
+-->{{#if: {{{population_total_cite|}}}|<small>{{{population_total_cite|}}}</small>|}}<!--
+-->{{#if: {{{population_rank|}}}      |<small>&nbsp;([[{{IIJ/P|CT|population_rank|{{{type|}}}}}|{{{population_rank|}}}]])</small>|}}<!--
+-->{{#if: {{{population_as_of|}}}     |<small>&nbsp;([[as of {{{population_as_of|}}}|{{{population_as_of|}}}]])</small>|}}<!--
+-->{{#if: {{{population_density|}}}   |<br> • {{convert| {{{population_density|}}}|/km2|0|abbr=on}} |
+   {{#if: {{{area_total|}}} | 
+      {{#if: {{{population_total|}}}  | 
+         <br> • {{convert|{{#expr: {{{population_total|}}}/{{{area_total|}}} round 0 }}|/km2|0|abbr=on}} | 
+      }} |
+   }}
+}}<!--
+-->{{#if: {{{population_density_cite|}}} |<small>{{{population_density_cite|}}}</small>|}}<!--
+-->{{#if: {{{population_metro|}}}        |<br> • {{formatnum:{{{population_metro|}}}}}|}}<!--
+-->{{#if: {{{population_metro_cite|}}}   |<small>{{{population_metro_cite|}}}</small>|}}<!--
+-->{{#if: {{{population_metro_rank|}}}   |<small>&nbsp;([[List of most populous metropolitan areas in India|{{{population_metro_rank|}}}]])</small>|}}<!--
+-->{{#if: {{{population_metro_as_of|}}}  |<small>&nbsp;([[as of {{{population_metro_as_of|}}}|{{{population_metro_as_of|}}}]])</small>|}}<!--
+-->{{#if: {{{population_urban|}}}        |<br> • {{{population_urban|}}}|}}<!--
+-->{{#if: {{{sex_ratio|}}}               |<br> • {{{sex_ratio|}}}|}}<!--
+-->{{#if: {{{literacy|}}}                |<br> • {{{literacy|}}}|}}<!--
+-->{{#if: {{{literacy_male|}}}           |<br>   • {{{literacy_male|}}}|}}<!--
+-->{{#if: {{{literacy_female|}}}         |<br>   • {{{literacy_female|}}}|}}
+}}
+|-
+{{#if: {{{official_languages|}}}|
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Official languages of India|Language(s)]]'''
+<!-- -->{{!}} {{!}} {{AutoLink|{{{official_languages|}}}}}
+}}
+|- <!-- ###### Government ###### -->
+{{#if: {{{leader_title_1|{{{leader_title|}}}}}}|
+<!--#then:-->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 {{!}} '''{{{leader_title_1|{{{leader_title|}}}}}}'''
+<!--      -->{{!}} style="border-top: 2px dotted #DCDCDC;" {{!}} {{AutoLink|{{{leader_name_1|{{{leader_name|}}}}}}}}
+}}
+|-
+{{#if: {{{leader_title_2|}}}|
+<!--#then:-->{{!}} bgcolor=#F4F4F4 {{!}} '''{{{leader_title_2|}}}'''
+<!--      -->{{!}} {{!}} {{AutoLink|{{{leader_name_2|}}}}}
+|}}
+|-
+{{#if: {{{leader_title_3|}}}|
+<!--#then:-->{{!}} bgcolor=#F4F4F4 {{!}} '''{{{leader_title_3|}}}'''
+<!--      -->{{!}} {{!}} {{AutoLink|{{{leader_name_3|}}}}}
+|}}
+|-
+{{#if: {{{established_date|}}}|
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''{{{established_title|{{IIJ/P|CT|established_date|{{{type|}}}}}}}}'''
+<!-- -->{{!}} {{!}} {{{established_date|}}}
+}}
+|-
+{{#if: {{{legislature_type|}}}|
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Government of India|Legislature]]''' (seats)
+<!-- -->{{!}} {{!}} {{AutoLink|{{{legislature_type|}}}}} ({{{legislature_strength|}}})
+}}
+|-
+{{#if: {{{parliament_const|}}}|
+<!--#then:-->{{!}} bgcolor=#F4F4F4 {{!}} '''[[14th_Lok_Sabha|Parliamentary constituency]]'''
+<!--      -->{{!}} {{!}} {{AutoLink|{{{parliament_const|}}} (Lok Sabha constituency)|{{{parliament_const|}}}}}
+|}}
+|-
+{{#if: {{{assembly_const|}}}|
+<!--#then:-->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Vidhan Sabha|Assembly constituency]]'''
+<!--      -->{{!}} {{!}} {{AutoLink|{{{assembly_const|}}}}}
+|}}
+|-
+{{#if:{{{planning_agency|}}}|
+<!--#then:-->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Urban planning|Planning Agency]]'''
+<!--      -->{{!}} {{!}} {{AutoLink|{{{planning_agency|{{IIJ/P|CT|planning_agency_name|{{{metro|}}}}}}}}}}
+|}}
+|-
+{{#if:{{{civic_agency|}}}|
+<!--#then:-->{{!}} bgcolor=#F4F4F4 {{!}} '''Civic agency'''
+<!--      -->{{!}} {{!}} {{AutoLink|{{{civic_agency}}}}}
+|}}
+|-
+{{#if:{{{corp_zone|}}}|
+<!--#then:-->{{!}} bgcolor=#F4F4F4 {{!}} '''[[List of {{{metro|Chennai}}} Corporation wards|Zone]]'''
+<!--      -->{{!}} {{!}} {{AutoLink|{{{corp_zone|}}}}}
+|}}
+|-
+{{#if: {{{corp_ward|}}}|
+<!--#then:-->{{!}} bgcolor=#F4F4F4 {{!}} '''[[List of {{{metro|Chennai}}} Corporation wards|Ward]]'''
+<!--      -->{{!}} {{!}} {{AutoLink|{{{corp_ward|}}}}}
+|}}
+|-
+{{#if: {{{jurisdiction_title_1|}}}|
+<!--#then:-->{{!}} bgcolor=#F4F4F4 {{!}} '''{{{jurisdiction_title_1|}}}'''
+<!--      -->{{!}} {{!}} {{AutoLink|{{{jurisdiction_name_1|}}}}}
+|}}
+|-
+{{#if:{{{jurisdiction_title_2|}}}|
+<!--#then:-->{{!}} bgcolor=#F4F4F4 {{!}} '''{{{jurisdiction_title_2|}}}'''
+<!--      -->{{!}} {{!}} {{AutoLink|{{{jurisdiction_name_2|}}}}}
+|}}
+|-
+{{#if:{{{jurisdiction_title_3|}}}|
+<!--#then:-->{{!}} bgcolor=#F4F4F4 {{!}} '''{{{jurisdiction_title_3|}}}'''
+<!--      -->{{!}} {{!}} {{AutoLink|{{{jurisdiction_name_3|}}}}}
+|}}
+|-
+{{#if:{{{blank_title_1|}}}|
+<!--#then:-->{{!}} bgcolor=#F4F4F4 {{!}} '''{{{blank_title_1|}}}'''
+<!--      -->{{!}} {{!}} {{AutoLink|{{{blank_value_1|}}}}}
+|}}
+|-
+{{#if:{{{blank_title_2|}}}|
+<!--#then:-->{{!}} bgcolor=#F4F4F4 {{!}} '''{{{blank_title_2|}}}'''
+<!--      -->{{!}} {{!}} {{AutoLink|{{{blank_value_2|}}}}}
+|}}
+|- <!-- ###### Codes ###### -->
+{{#ifexpr:
+   {{#expr:
+      {{#if: {{{postal_code|}}}|1|0}} + {{#if:{{{area_telephone|}}}|1|0}} + {{#if:{{{vehicle_code_range|}}}|1|0}} }} > 0 |
+<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 {{!}} '''Codes'''<!--
+-->{{#if: {{{postal_code|}}}       |<br> • [[Postal Index Number|Pincode]]|}}<!--
+-->{{#if: {{{area_telephone|}}}    |<br> • [[Communications in India|Telephone]]|}}<!--
+-->{{#if: {{{unlocode|}}}          |<br> • [[UN/LOCODE]]|}}<!--
+-->{{#if: {{{vehicle_code_range|}}}|<br> • [[Indian licence plates|Vehicle]]|}}
+<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" {{!}}<!--
+-->{{#if: {{{postal_code|}}}       |<br> • {{{postal_code|}}}|}}<!--
+-->{{#if: {{{area_telephone|}}}    |<br> • +{{{area_telephone|}}}|}}<!--
+-->{{#if: {{{unlocode|}}}          |<br> • {{{unlocode|}}}</small>|}}<!--
+-->{{#if: {{{vehicle_code_range|}}}|<br> • {{{vehicle_code_range|}}}|}}
+|}}
+|-
+{{#if: {{{abbreviation|}}}|
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[ISO 3166-2|ISO abbreviation]]'''
+<!-- -->{{!}} {{!}} [[ISO 3166-2:IN|{{{abbreviation}}}]]
+|}}
+|-
+{{#if: {{{website|}}}|
+<!-- -->{{!}} colspan="2" align="center" bgcolor={{IIJ/P|PT|{{{type|}}}}} {{!}} '''Website''': [http://{{{website|}}} {{{website_caption|{{{website|}}}}}}]
+|}}
+|-
+{{#if: {{{portal|}}}|
+<!-- -->{{!}} colspan="2" align="center" bgcolor=#F4F4F4 {{!}} [[Image:Portal.png|14px|{{{portal|}}}]] '''Portal''': [[Portal:{{{portal|}}}|{{{portal|}}}]]&nbsp;&nbsp;
+|}}
+|-
+{{#if: {{{footnotes|}}}|
+<!-- -->{{!}} colspan=2 align="left" {{!}} <small>{{{footnotes|}}}</small>
+|}}
+|-
+{{#if: {{{seal|}}}|
+<!-- -->{{!}} colspan="2" align="center" {{!}} <div><div style="width:{{{seal_size|75px}}}; background:transparent;"><div style="position:relative; width:{{{seal_size|75px}}}px;">[[Image:{{{seal|}}}|{{{seal_size|75px}}}|{{{seal_caption|Seal of {{{native_name|}}}}}}]]</div></div></div>{{{seal_caption|Seal of {{{native_name|}}}}}}
+|}}
+|}<!-- ###### Coor title x ###### -->
+{{#ifeq:{{{coord_title|}}}|no||
+<!-- -->{{#if: {{{latm|}}}|
+<!-- --><!-- -->{{coord|{{{latd|00}}}|{{{latm|00}}}|{{{lats|00}}}|N|{{{longd|00}}}|{{{longm|00}}}|{{{longs|00}}}|E|type:city|display=title}}|
+<!-- --><!-- -->{{#if: {{{latd|}}}|
+<!-- --><!-- --><!-- -->{{coord|{{{latd|00}}}|N|{{{longd|00}}}|E|region:IN_type:city|display=title}}|
+<!-- --><!-- -->}}
+<!-- -->}}
+}}<!-- ###### Categories ###### -->{{#ifeq:{{{autocat|}}}|no||
+{{#if: {{{type|{{{type_1|}}}}}}|
+<!-- -->{{#switch: {{{type|}}}
+<!-- ---->|state |union territory = [[Category:States and territories of India]][[Category:{{{state_name|}}}]]
+<!-- ---->|region                 = [[Category:Regions of India]]{{#ifexist:Category:Regions of {{{state_name|}}}|[[Category:Regions of {{{state_name|}}}]]}}
+<!-- ---->|division               = [[Category:Divisions of {{{state_name|}}}]]
+<!-- ---->|district               = [[Category:Districts of {{{state_name|}}}]]
+<!-- ---->|mandal                 = {{#ifexist:Category:Mandals in {{{district|}}} district|[[Category:Mandals in {{{district|}}} district]]}}
+<!-- ---->|metropolitan city      = [[Category:Metropolitan cities in India]][[Category:Cities and towns in {{#ifeq:{{{state_name|}}}|Delhi|the National Capital Territory of Delhi|{{{state_name|}}}}}{{#ifeq:{{{state_name|}}}|Punjab|_(India)|}}]]
+<!-- ---->|capital                = [[Category:Indian capital cities]][[Category:Cities and towns in {{{state_name|}}}{{#ifeq:{{{state_name|}}}|Punjab|_(India)|}}]]
+<!-- ---->|city |town             = [[Category:Cities and towns in {{#ifeq:{{{state_name|}}}|Delhi|the National Capital Territory of Delhi|{{{state_name|}}}}}{{#ifeq:{{{state_name|}}}|Punjab|_(India)|}}]]
+<!-- ---->|neighbourhood          = {{#ifexist:Category:{{{metro|}}} neighbourhoods|[[Category:{{{metro|}}} neighbourhoods]]}}{{#ifexist:Category:Neighbourhoods of {{{metro|}}}|[[Category:Neighbourhoods of {{{metro|}}}]]}}
+<!-- ---->|suburb                 = [[Category:Cities and towns in {{{state_name|}}}{{#ifeq:{{{state_name|}}}|Punjab|_(India)|}}]]{{#ifexist:Category:{{{metro|}}} suburbs|[[Category:{{{metro|}}} suburbs]]}}{{#ifexist:Category:Suburbs of {{{metro|}}}|[[Category:Suburbs of {{{metro|}}}]]}}
+<!-- ---->|village                = {{#ifeq:{{{state_name|}}}|Andhra Pradesh|{{#ifexist:Category:Villages in {{{district|}}} district|[[Category:Villages in {{{district|}}} district]]|}}|[[Category:Villages in {{{state_name|}}}{{#ifeq:{{{state_name|}}}|Punjab|_(India)|}}]]}}
+<!-- -->}}}}{{#if: {{{type_2|}}}|
+<!-- -->{{#switch: {{{type_2|}}}
+<!-- ---->|mandal                 = {{#ifexist:Category:Mandals in {{{district|}}} district|[[Category:Mandals in {{{district|}}} district]]}}
+<!-- ---->|capital                = [[Category:Indian capital cities]]
+<!-- -->}}}}}}</includeonly><noinclude>
+{{documentation}}</noinclude>
