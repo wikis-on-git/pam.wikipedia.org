@@ -1,0 +1,8 @@
+{{#switch:{{{2|NONE}}}
+|NONE|hatnote|hat={{dablink|1=<span class="plainlinks selfreference">{{{1}}}</span>}}
+|inline|=<span class="plainlinks selfreference">{{{1}}}</span>
+}}<!--
+ * Note to editors - matching the empty string for inline with "|=" is important!
+--><noinclude>
+{{documentation}}
+</noinclude>
