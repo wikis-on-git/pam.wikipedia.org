@@ -1,0 +1,192 @@
+<includeonly>{{#switch: {{{1|}}}
+
+
+
+<!-- ###### Map (base) ###### -->
+|MB   = {{#switch: {{{2|}}}
+
+<!-- State-level maps -->
+<!-- -->|Arunachal Pradesh |Andhra Pradesh |Assam |Bihar |Goa |Gujarat |Himachal Pradesh |Jammu and Kashmir |Karnataka |Kerala |Manipur |Meghalaya |Nagaland |Orissa |Punjab |Punjab (India) |Rajasthan |Sikkim |Tamil Nadu |Uttarakhand | West Bengal = {{{2|}}} locator map.svg
+
+<!-- Territory-level maps -->
+<!-- --> |Puducherry = WikiprojectIndiacities pondicherry.GIF
+
+<!-- City-level maps -->
+<!-- -->|Chennai |Delhi |Mumbai     = {{{2|}}} area locator map.svg
+
+<!-- Default map -->
+<!-- -->|#default                   = India-locator-map-blank.svg
+
+<!-- -->}}
+
+
+
+<!-- ###### Map (coordinates) ###### -->
+|MC   = {{#switch:{{{2}}}
+
+<!-- Metro-level maps -->
+<!-- -->|Chennai               = {{#switch:{{{3}}}|
+<!-- --><!-- -->|top=13.295 |bottom=12.844 |left=80.00 |right=80.3575
+<!-- --><!-- -->|inset_map_x=179px |inset_map_y=253px |inset=yes |locator_position=right}}
+<!-- -->|Delhi                 = {{#switch:{{{3}}}|
+<!-- --><!-- -->|top=28.74488 |bottom=28.45401 |left=77.01150 |right=77.38930
+<!-- --><!-- -->|inset_map_x=1px |inset_map_y=1px |inset=yes |locator_position=right}}
+<!-- -->|Mumbai                = {{#switch:{{{3}}}|
+<!-- --><!-- -->|top=19.3274 |bottom=18.8894 |left=72.7692 |right=73.1165
+<!-- --><!-- -->|inset_map_x=1px |inset_map_y=1px |inset=yes |locator_position=right}}
+
+<!-- State-level maps -->
+<!-- -->|Andhra Pradesh        = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=19.957 |bottom=12.522 |left=76.593 |right=84.935
+<!-- --><!-- -->|inset_map_x=178px |inset_map_y=151px |inset=yes  |locator_position=right}}
+<!-- -->|Arunachal Pradesh     = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=29.49 |bottom=23.74 |left=89.61 |right=97.52
+<!-- --><!-- -->|inset_map_x=1px |inset_map_y=1px |inset=yes |locator_position=right}}
+<!-- -->|Assam                 = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=29.49 |bottom=23.74 |left=89.61 |right=97.52 
+<!-- --><!-- -->|inset_map_x=1px |inset_map_y=1px |inset=yes |locator_position=right}}
+<!-- -->|Bihar                 = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=27.48 |bottom=24.24 |left=83.46 |right=88.28 
+<!-- --><!-- -->|inset_map_x=179px |inset_map_y=1px |inset=yes |locator_position=right}}
+<!-- -->|Goa                   = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=15.811<!--15.856--> |bottom=14.861<!--14.906--> |left=73.567<!--73.54--> |right=74.287<!--74.26-->
+<!-- --><!-- -->|inset_map_x=1px |inset_map_y=1px |inset=yes |locator_position=right}}
+<!-- -->|Gujarat               = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=24.87 |bottom=19.80 |left=68.03 |right=74.60
+<!-- --><!-- -->|inset_map_x=0px |inset_map_y=129px |inset=yes |locator_position=right}}
+<!-- -->|Himachal Pradesh      = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=33.31 |bottom=30.16 |left=75.39 |right=79.05
+<!-- --><!-- -->|inset_map_x=179px |inset_map_y=176px |inset=yes |locator_position=right}}
+<!-- -->|Jammu and Kashmir     = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=37.5 |bottom=32 |left=72.10 |right=80.6
+<!-- --><!-- -->|inset_map_x=1px |inset_map_y=1px |inset=yes |locator_position=right}}
+<!-- -->|Karnataka             = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=18.45 |bottom=11.48 |left=73.66 |right=78.62
+<!-- --><!-- -->|inset_map_x=1px |inset_map_y=1px |inset=yes |locator_position=right}}
+<!-- -->|Kerala                = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=12.9 |bottom=8.18 |left=73.8 |right=77.8
+<!-- --><!-- -->|inset_map_x=2px |inset_map_y=210px |inset=yes |locator_position=left}}
+<!-- -->|Manipur               = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=29.49 |bottom=23.74 |left=89.61 |right=97.52
+<!-- --><!-- -->|inset_map_x=1px |inset_map_y=1px |inset=yes |locator_position=right}}
+<!-- -->|Meghalaya             = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=29.49 |bottom=23.74 |left=89.61 |right=97.52
+<!-- --><!-- -->|inset_map_x=1px |inset_map_y=1px |inset=yes |locator_position=right}}
+<!-- -->|Nagaland              = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=29.49 |bottom=23.74 |left=89.61 |right=97.52
+<!-- --><!-- -->|inset_map_x=1px |inset_map_y=1px |inset=yes |locator_position=right}}
+<!-- -->|Orissa                = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=23.15 |bottom=17.21 |left=81.32 |right=87.93
+<!-- --><!-- -->|inset_map_x=1px |inset_map_y=1px |inset=yes |locator_position=right}}
+<!-- -->|Punjab|Punjab (India) = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=32.55 |bottom=29.50 |left=73.70 |right=77.03
+<!-- --><!-- -->|inset_map_x=1px |inset_map_y=1px |inset=yes |locator_position=left}}
+<!-- -->|Rajasthan             = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=30.47 |bottom=22.67 |left=69.35 |right=78.66
+<!-- --><!-- -->|inset_map_x=1px |inset_map_y=1px |inset=yes |locator_position=right}}
+<!-- -->|Sikkim                = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=28.15 |bottom=21.48 |left=84.99 |right=90.15
+<!-- --><!-- -->|inset_map_x=1px |inset_map_y=1px |inset=yes |locator_position=right}}
+<!-- -->|Tamil Nadu            = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=13.6299 |bottom=7.9422 |left=76.1599 |right=80.8
+<!-- --><!-- -->|inset_map_x=1px |inset_map_y=1px |inset=yes |locator_position=right}}
+<!-- -->|Uttarakhand           = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=31.61 |bottom=28.50 |left=77.46 |right=81.19
+<!-- --><!-- -->|inset_map_x=179px |inset_map_y=1px |inset=yes |locator_position=right}}
+<!-- -->|West Bengal           = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=28.15 |bottom=21.48 |left=84.99 |right=90.15
+<!-- --><!-- -->|inset_map_x=1px |inset_map_y=1px |inset=yes |locator_position=right}}
+
+<!-- India-level (shaded) maps -->
+<!-- -->|inset                 = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=38.65 |bottom=5.96 |left=66.00 |right=98.76
+<!-- --><!-- -->|inset_map_x=1px |inset_map_y=1px |inset=no |locator_position=right
+<!-- --><!-- -->}}
+
+<!-- India-level (unshaded) map -->
+<!-- -->|India |#default       = {{#switch:{{{3}}}
+<!-- --><!-- -->|top=38.4 |bottom=6.6 |left=67.8<!--67.3--> |right=97.1
+<!-- --><!-- -->|inset_map_x=1px |inset_map_y=1px |inset=no |locator_position=right
+<!-- --><!-- -->}}
+
+<!-- -->}}
+
+
+
+<!-- ###### Map (inset) ###### -->
+|MI   = {{#switch: {{{2|}}}
+
+<!-- -->|Lakshadweep            = IndiaLakshadweep.png
+<!-- -->|Uttarakhand            = India Uttaranchal locator map.svg
+<!-- -->|Puducherry             = IndiaPondicherry.png
+<!-- -->|India                  = India-locator-map-blank.svg
+<!-- -->|#default               = India {{{2|}}} locator map.svg
+
+<!-- -->}}
+
+
+
+<!-- ###### Place types ###### -->
+|PT   = {{#switch: {{{2|}}}
+
+<!-- Statoid entities -->
+<!-- -->|state                        = <nowiki>#E6D1CE</nowiki>
+<!-- -->|union territory              = <nowiki>#E6D1CE</nowiki>
+
+<!-- Sub-statoids -->
+<!-- -->|region                             = <nowiki>#DDDDDD</nowiki>
+<!-- -->|division                           = <nowiki>#DFE5E5</nowiki>
+<!-- -->|district                           = <nowiki>#EAEFEF</nowiki>
+<!-- -->|subdistrict |taluk |tehsil |mandal = <nowiki>#EFF5F5</nowiki>
+
+<!-- Cities, neighbourhoods, towns, and villages -->
+<!-- -->|capital |hq                  = <nowiki>#E1E5F3</nowiki>
+<!-- -->|metropolitan city            = <nowiki>#D3DAED</nowiki>
+<!-- -->|city |town                   = <nowiki>#D9E3F4</nowiki>
+<!-- -->|neighbourhood |suburb        = <nowiki>#F9F9F9</nowiki>
+<!-- -->|village                      = <nowiki>#D9EBF9</nowiki>
+
+<!-- Protected areas -->
+<!-- -->|national park                = <nowiki>#CDE5B2</nowiki>
+
+<!-- Default -->
+<!-- -->|#default                     = <nowiki>#F9F9F9</nowiki>
+
+<!-- -->}}
+
+
+
+<!-- ###### Caption translations ###### -->
+|CT   = {{#switch: {{{2|}}}
+
+<!-- Geography -->
+<!-- -->|area                 = {{#switch: {{{3|}}}
+<!-- --><!-- -->|state |union territory = [[List of states and territories of India by area|Area]]
+<!-- --><!-- -->|#default               = [[Area]]
+<!-- --><!-- -->}}
+<!-- -->|area_rank            = {{#switch: {{{3|}}}
+<!-- --><!-- -->|state |union territory = List of states and territories of India by area
+<!-- --><!-- -->|#default               = Area
+<!-- --><!-- -->}}
+
+<!-- Demographics -->
+<!-- -->|population_rank       = {{#switch: {{{3|}}}
+<!-- --><!-- -->|state |union territory = List of states and territories of India by population
+<!-- --><!-- -->|#default               = List of most populous cities in India
+<!-- --><!-- -->}}
+
+<!-- Government -->
+<!-- -->|established_date      = {{#switch: {{{3|}}}
+<!-- --><!-- -->|state |union territory = [[States Reorganisation Act|Established]]
+<!-- --><!-- -->|#default               = Established
+<!-- --><!-- -->}}
+
+<!-- -->}}
+
+
+
+}}</includeonly><noinclude>{{pp-semi-protected|small=yes}}{{{{BASEPAGENAME}}/Subpages}}<center><div style="{{{{BASEPAGENAME}}/nav-style}} width:80%;">
+For Indian places, this template chooses parameters (e.g., base/inset maps, map markers, etc.) displayed in the {{tl|Infobox Indian Jurisdiction}} template.
+</div></center>
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+</noinclude>
