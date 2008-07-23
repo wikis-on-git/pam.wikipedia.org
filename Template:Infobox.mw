@@ -1,4 +1,6 @@
-<table class="infobox {{{bodyclass|}}}" cellspacing="5" style="width:25em; text-align: left; font-size: 88%; {{{bodystyle|}}}"><!--
+<table class="infobox {{{bodyclass|}}}" cellspacing="5" style="width:25em; text-align: left; font-size: 88%; {{{bodystyle|}}}">
+{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right"
+<!--
  Caption
 -->{{#if:{{{title|}}}|<caption class="{{{titleclass|}}}" style="font-size: 130%; font-weight: bold; {{{titlestyle|}}}">{{{title}}}</caption>}}
 <!--
