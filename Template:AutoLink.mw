@@ -1,0 +1,10 @@
+{{#ifexist:{{{1|}}}|{{#if:{{{2|}}}|[[{{{1}}}|{{{2}}}]]|[[{{{1}}}]]}}|{{#if:{{{2|}}}|{{{2}}}|{{{1}}}}}}}<noinclude>{{pp-template|small=yes}}
+{{esoteric}}
+To use this template, put <nowiki>{{AutoLink|target|word}}</nowiki> (if there is no word parameter, then the template will function in the same way as if it were the target). If the link location exists a link will be created, if not it will not. This template exists to avoid redlinks being created. If the page is created, the link will be formed.
+
+This template also exists to allow templates to accept either plain text or wikitext for parameters, automatically linkifying the value if it is plain text, and an article exists there. (see [[WP:IAP|Infobox Australian Place]])
+
+This template should not be used in the mainspace, as [[Wikipedia:Red link|red links]] are good.
+
+[[Category:Internal link templates|{{PAGENAME}}]]
+</noinclude>
