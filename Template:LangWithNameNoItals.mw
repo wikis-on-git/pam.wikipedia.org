@@ -1,0 +1,7 @@
+<noinclude>{{protected template}}</noinclude>[[{{{2}}} language|{{{2}}}]]: {{lang|{{{1}}}|{{{3}}}}}<noinclude>
+
+{{tdeprecated|LangWithName}}
+
+identical to {{tl|LangWithName}}.
+
+[[Category:Multilingual support templates|{{PAGENAME}}]]</noinclude>
