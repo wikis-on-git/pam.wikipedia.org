@@ -1,5 +1,5 @@
-http://tools.wikimedia.de/~magnus/geo/geohack.php?pagename={{FULLPAGENAMEE}}&params=<noinclude>
-{{protected template}}
-{{{{FULLPAGENAME}}/doc}}
+http://stable.toolserver.org/geohack/geohack.php?pagename={{FULLPAGENAMEE}}&params=<noinclude>
+{{pp-template|small=yes}}
+{{documentation}}
 <!-- Add cats and interwikis to the /doc subpage, not here! -->
 </noinclude>
