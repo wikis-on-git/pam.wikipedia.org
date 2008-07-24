@@ -1,4 +1,4 @@
-<includeonly>{| class="infobox vcard" style="width:235px; font-size:82.5%; line-height:1.40em; text-align:left; background-color:#F9F9F9; border: 1px solid #D9D9D9;"
+<includeonly>{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right"
 |- <!-- ###### Title bar ###### -->
 {{#if: {{{native_name|}}}|
 {{!}} colspan="2" style="color:black; line-height:1.15em; background-color:{{IIJ/P|PT|{{{type|}}}}}; font-size:1.30em; text-align:center;" {{!}}<!--
