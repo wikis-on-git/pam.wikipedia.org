@@ -1,0 +1,3 @@
+<span class="IPA audiolink nounderlines" style="white-space: nowrap;">[[:Media:{{{1}}}|{{{2}}}]]</span> <span class="metadata audiolinkinfo"><small>([[Wikipedia:Media help|help]]·[[:Image:{{{1}}}|info]])</small></span><includeonly>{{#if: {{{lang|}}} |  [[Category:Articles including recorded pronunciations ({{{lang}}})]] | [[Category:Articles including recorded pronunciations]]}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
