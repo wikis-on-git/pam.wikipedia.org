@@ -93,7 +93,7 @@
    {{#expr: {{#if:{{{area_total|}}}|1|0}} + {{#if:{{{area_metro|}}}|1|0}} + {{#if:{{{altitude|}}}|1|0}} + {{#if:{{{districts|}}}|1|0}} + {{#if:{{{coastline|}}}|1|0}} }} > 0 |
 <!----->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Geography of India|Lualas]]'''<!--
 -->{{#if: {{{area_metro|}}}    |<br> • [[Metropolitan area|Metro]]|}}<!--
--->{{#if: {{{altitude|}}}      |<br> • [[Katas]]|}}<!--
+-->{{#if: {{{altitude|}}}      |<br> • [[Kátas]]|}}<!--
 -->{{#if: {{{coastline|}}}  |<br> • [[Coastline]]|}}
 <!----->{{!}} {{!}} <!--
 -->{{#if: {{{area_total|}}} |<!--
@@ -140,7 +140,7 @@
 }}
 |- <!-- ###### Centres of government ###### -->
 {{#if: {{{capital|}}}|
-<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[List of Indian state and union territory capitals|Tungkuj]]'''
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[List of Indian state and union territory capitals|Tungku]]'''
 <!-- -->{{!}} {{!}} {{AutoLink|{{{capital|}}}}}
 |}}
 |-
@@ -192,7 +192,7 @@
 {{#ifexpr:
    {{#expr:
       {{#if:{{{population_total|}}}|1|0}} + {{#if:{{{population_density|}}}|1|0}} + {{#if:{{{sex_ratio|}}}|1|0}} + {{#if:{{{literacy|}}}|1|0}} + {{#if:{{{population_metro|}}}|1|0}} }} > 0 |
-<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 {{!}} '''[[Populasyun]]'''<!--
+<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 {{!}} '''[[Populasiun]]'''<!--
 -->{{#ifexpr: {{#if:{{{population_density|}}}|1|0}} + ({{#if:{{{population_total|}}}|1|0}} * {{#if:{{{area_total|}}}|1|0}})         |<br> • [[Population density|Pangasiksik]]|}}<!--
 -->{{#if: {{{population_metro|}}}      |<br> • [[Metropolitan area|Metro]]|}}<!--
 -->{{#if: {{{population_urban|}}}        |<br> • [[Urbanization|Urban]]|}}<!--
