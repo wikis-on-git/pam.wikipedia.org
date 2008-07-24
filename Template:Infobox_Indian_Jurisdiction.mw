@@ -85,15 +85,15 @@
 <!-- -->}}<!--
 -->}}
 {{!-}} <!-- ###### Time zone ###### -->
-<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 width=100px {{!}} '''[[Time zone]]'''
+<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 width=100px {{!}} '''[[Oras zona]]'''
 <!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" {{!}} [[Indian Standard Time|IST]] ([[UTC+5:30]])
 |}}
 |- <!-- ###### Geography ###### -->
 {{#ifexpr:
    {{#expr: {{#if:{{{area_total|}}}|1|0}} + {{#if:{{{area_metro|}}}|1|0}} + {{#if:{{{altitude|}}}|1|0}} + {{#if:{{{districts|}}}|1|0}} + {{#if:{{{coastline|}}}|1|0}} }} > 0 |
-<!----->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Geography of India|Area]]'''<!--
+<!----->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Geography of India|Lualas]]'''<!--
 -->{{#if: {{{area_metro|}}}    |<br> • [[Metropolitan area|Metro]]|}}<!--
--->{{#if: {{{altitude|}}}      |<br> • [[Elevation]]|}}<!--
+-->{{#if: {{{altitude|}}}      |<br> • [[Katas]]|}}<!--
 -->{{#if: {{{coastline|}}}  |<br> • [[Coastline]]|}}
 <!----->{{!}} {{!}} <!--
 -->{{#if: {{{area_total|}}} |<!--
@@ -114,7 +114,7 @@
 }} 
 |- <!-- ###### Weather ###### -->
 {{#if: {{{precip|}}}{{{temp_winter|}}}{{{temp_summer|}}}|
-<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 {{!}} '''[[Climate of India|Climate]]'''<!--
+<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 {{!}} '''[[Climate of India|Klima]]'''<!--
 -->{{#if: {{{precip|}}}       |<br> • [[Precipitation (meteorology)|Precipitation]]|}}<!--
 -->{{#if: {{{temp_annual|}}}{{{temp_winter|}}}{{{temp_summer|}}}|<br>'''[[Temperature]]'''|}}<!--
 -->{{#if: {{{temp_summer|}}}  |<br> • Summer|}}<!--
@@ -140,7 +140,7 @@
 }}
 |- <!-- ###### Centres of government ###### -->
 {{#if: {{{capital|}}}|
-<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[List of Indian state and union territory capitals|Capital]]'''
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[List of Indian state and union territory capitals|Tungkuj]]'''
 <!-- -->{{!}} {{!}} {{AutoLink|{{{capital|}}}}}
 |}}
 |-
@@ -150,7 +150,7 @@
 }}
 |-
 {{#if: {{{largest_city|}}}|
-<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''Largest city'''
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''Pekamaragul a lakanbalen'''
 <!-- -->{{!}} {{!}} {{AutoLink|{{{largest_city|}}}}}
 }}
 |-
@@ -165,22 +165,22 @@
 }}
 |- <!-- ###### Subdivisions ###### -->
 {{#if: {{{region|}}}|
-<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[List of regions in India|Region]]'''
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[List of regions in India|Labuad]]'''
 <!-- -->{{!}} {{!}} {{AutoLink|{{{region}}}}}
 }}
 |-
 {{#if: {{{division|}}}|
-<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Divisions of {{{state_name|}}}|Division]]'''
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Divisions of {{{state_name|}}}|Pangadake]]'''
 <!-- -->{{!}} {{!}} {{#ifexist:{{{division}}} division|[[{{{division}}} division{{!}}{{{division}}}]]|{{AutoLink|{{{division}}}}}}}
 }}
 |-
 {{#if: {{{district|}}} |<!-- Districts (names) -->
-<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Districts of India|District(s)]]'''
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Districts of India|Distritu)]]'''
 <!-- -->{{!}} {{!}} {{#ifexist:{{{district}}} district|[[{{{district}}} district{{!}}{{{district}}}]]|{{AutoLink|{{{district}}}}}}}
 }}
 |-
 {{#if: {{{districts|}}}|<!-- Districts (number) -->
-<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[List of Indian districts|District(s)]]'''
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[List of Indian districts|Distritu)]]'''
 <!-- -->{{!}} {{!}} {{{districts|}}}
 }}
 |-
@@ -192,8 +192,8 @@
 {{#ifexpr:
    {{#expr:
       {{#if:{{{population_total|}}}|1|0}} + {{#if:{{{population_density|}}}|1|0}} + {{#if:{{{sex_ratio|}}}|1|0}} + {{#if:{{{literacy|}}}|1|0}} + {{#if:{{{population_metro|}}}|1|0}} }} > 0 |
-<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 {{!}} '''[[Population]]'''<!--
--->{{#ifexpr: {{#if:{{{population_density|}}}|1|0}} + ({{#if:{{{population_total|}}}|1|0}} * {{#if:{{{area_total|}}}|1|0}})         |<br> • [[Population density|Density]]|}}<!--
+<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 {{!}} '''[[Populasyun]]'''<!--
+-->{{#ifexpr: {{#if:{{{population_density|}}}|1|0}} + ({{#if:{{{population_total|}}}|1|0}} * {{#if:{{{area_total|}}}|1|0}})         |<br> • [[Population density|Pangasiksik]]|}}<!--
 -->{{#if: {{{population_metro|}}}      |<br> • [[Metropolitan area|Metro]]|}}<!--
 -->{{#if: {{{population_urban|}}}        |<br> • [[Urbanization|Urban]]|}}<!--
 -->{{#if: {{{sex_ratio|}}}             |<br> • [[Human sex ratio|Sex ratio]]|}}<!--
@@ -225,7 +225,7 @@
 }}
 |-
 {{#if: {{{official_languages|}}}|
-<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Official languages of India|Language(s)]]'''
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Official languages of India|Amanu]]'''
 <!-- -->{{!}} {{!}} {{AutoLink|{{{official_languages|}}}}}
 }}
 |- <!-- ###### Government ###### -->
@@ -312,11 +312,11 @@
 {{#ifexpr:
    {{#expr:
       {{#if: {{{postal_code|}}}|1|0}} + {{#if:{{{area_telephone|}}}|1|0}} + {{#if:{{{vehicle_code_range|}}}|1|0}} }} > 0 |
-<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 {{!}} '''Codes'''<!--
+<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 {{!}} '''Kodiku'''<!--
 -->{{#if: {{{postal_code|}}}       |<br> • [[Postal Index Number|Pincode]]|}}<!--
--->{{#if: {{{area_telephone|}}}    |<br> • [[Communications in India|Telephone]]|}}<!--
+-->{{#if: {{{area_telephone|}}}    |<br> • [[Communications in India|Telepanu]]|}}<!--
 -->{{#if: {{{unlocode|}}}          |<br> • [[UN/LOCODE]]|}}<!--
--->{{#if: {{{vehicle_code_range|}}}|<br> • [[Indian licence plates|Vehicle]]|}}
+-->{{#if: {{{vehicle_code_range|}}}|<br> • [[Indian licence plates|Saken]]|}}
 <!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" {{!}}<!--
 -->{{#if: {{{postal_code|}}}       |<br> • {{{postal_code|}}}|}}<!--
 -->{{#if: {{{area_telephone|}}}    |<br> • +{{{area_telephone|}}}|}}<!--
