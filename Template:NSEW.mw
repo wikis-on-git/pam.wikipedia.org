@@ -1,0 +1,13 @@
+{| class="wikitable" style="margin:auto;" width = "75%" border = "2"
+| align="center" | {{{5}}}
+| align="center" | '''North:''' {{{1}}}
+| align="center" | {{{6}}}
+|- 
+| align="center" | '''West:''' {{{4}}}
+| align="center" | '''{{PAGENAME}}''' 
+| align="center" | '''East:''' {{{3}}}
+|- 
+| align="center" | {{{7}}}
+| align="center" | '''South:''' {{{2}}}
+| align="center" | {{{8}}}
+|}
