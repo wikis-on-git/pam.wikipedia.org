@@ -1,0 +1,9 @@
+{{convert/{{#ifeq:{{{4}}}|chain|and/chain|{{{d}}}}}|{{{1}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|s={{{s|}}}|r={{{r}}}|d={{{d}}}
+|u=mi
+|n=mile
+|o=km
+|b=1609.344
+|j=3.206648885-{{{j|0}}}}}<noinclude>
+{{pp-template|small=yes}}
+[[Category:Subtemplates of Template Convert]]
+</noinclude>
