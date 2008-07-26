@@ -1,0 +1,56 @@
+{{Cmbox
+|type = info
+|text = <div>
+{{{!}} style="width:100%; background:transparent;" cellspacing="0"
+{{!-}}
+{{#if:{{{topic|}}}{{{description|}}}{{{portal|}}}
+ | <tr style="background:#{{darken|224|240|249|5}}; font-size:1.2em; line-height:1.1em;">
+     <td style="{{#if:{{{portal|}}} |<!--then:-->border-top:1px solid #aaa; border-bottom:1px solid #aaa; border-left:1px solid #aaa; |<!--else:-->border:1px solid #aaa;}} padding:0.4em;"><!--
+      -->{{#if:{{{topic|}}}  |'''Templates relating to {{{topic}}}.'''&nbsp;}}<!--
+      -->{{#if:{{{description|}}} |{{{description}}} }}<!--
+      -->{{#if:{{{portal|}}} |<td style="border-top:1px solid #aaa; border-right:1px solid #aaa; border-bottom:1px solid #aaa; vertical-align:middle;">{{portal|{{{portal}}}|left=yes|margin=0}} }}
+}}
+{{!-}}
+{{!}}colspan="2"<!--(in case {{{portal}}} used)--> style="line-height:1.4em;"{{!}} <!--
+-->{{#if:{{{type|}}}
+    | <div style="padding-top:0.15em; font-size:95%;">'''The pages listed in this category are meant to be <!--
+   -->{{#switch:{{{type}}}
+       |ambox         = [[Wikipedia:Article message boxes|Article message box]] templates.'''
+       |external link = templates providing [[Wikipedia:External links|external links]].'''
+       |infobox       = [[Help:Infobox|infobox]] templates.'''
+       |meta          = metatemplates.'''
+       |navbox        = [[Wikipedia:Navigational templates|navigational templates]].'''<div style="padding:0.15em 0; line-height:1.35em;">If subcategories exist for other types of templates (e.g. [[Help:Infobox|infobox]]es) relating to this topic, they should be appear at the start of the subcategories listing immediately below this messagebox.</div>
+       |stub          = [[Wikipedia:WikiProject Stub sorting/Stub types|stub]] templates.'''
+       |conversion    = templates that perform conversions.'''
+       |formatting    = templates that provide formatting.'''
+       |timeline      = [[Wikipedia:Timeline|timeline]] templates.'''
+       |userbox       = [[Wikipedia:Userboxes|userbox]] templates.'''
+       |#default      = {{#if:{{{1|{{{description|}}}}}} |{{{1|{{{description|}}}}}} |}}'''
+       |{{{type}}} templates.'''
+      }}
+    | <div style="font-size:95%;">'''The pages listed in this category are [[Wikipedia:Templates|templates]].''' <div style="padding:0.15em 0; line-height:1.35em;">This page is part of [[:Category:Wikipedia Administration|Wikipedia's administration]] and not part of the encyclopedia.</div></div> {{#if:{{{ALTTEXT|}}} |<br/><hr/>{{{ALTTEXT}}}<hr/>}}
+}}
+{{{!}} class="collapsible collapsed" style="width:100%; padding-top:0.25em; background:transparent; line-height:1.3em; font-size:90%;"
+!style="border-bottom:1px solid #aaa; text-align:left;"{{!}} <span style="font-size:110%;">Further template category notes</span>
+{{!-}}
+{{!}}style="padding-top:0.5em;"{{!}} '''This [[Help:Category|category]] contains pages in the [[Wikipedia:Template namespace|template namespace]].''' It should not be used to categorize [[Wikipedia:What is an article?|article]]s or pages in other [[Help:Namespace|namespace]]s.
+{{!-}}
+{{!}}style="padding-bottom:0.5em; white-space:nowrap;"{{!}} μ = stub;&nbsp; τ = template;&nbsp; ω = [[Wikipedia:WikiProject|WikiProject]];&nbsp; ρ = [[Wikipedia:WikiReader|WikiReader]]
+{{!-}}
+{{#if:{{{help|}}}{{{2|}}}
+  | {{#ifeq:{{{help|}}}|no | |<td style="border-top:1px solid #aaa;">{{{help}}}</td>}}
+  | <td style="padding-bottom:0.5em; border-top:1px solid #aaa;"><!--
+        -->To include a template in this category, add<br/><!--
+        --><code style="font-size:110%; white-space:nowrap;"><!--
+            --><nowiki>&lt;noinclude>[[</nowiki>{{FULLPAGENAME}}<!--
+            --><nowiki>|{{PAGENAME}}]]&lt;/noinclude></nowiki><!--
+        --></code><br/>to the end of the template code, making sure it starts on the same line as the last character of the code.<!--
+ --></td>
+}}
+{{!}}}
+{{!}}}
+}}<includeonly>[[Category:Wikipedia template categories|{{PAGENAME}}]]</includeonly><noinclude>
+{{documentation}}
+
+<!---Please add metadata to the <includeonly> section at the bottom of the /doc subpage--->
+</noinclude>
