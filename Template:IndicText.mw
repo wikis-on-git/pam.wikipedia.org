@@ -1,0 +1,5 @@
+<noinclude>{{pp-semi-template|small=yes}}</noinclude><div class="infobox" style="width:{{{width|268px}}}; padding:0.2em; margins:0em;"><!--268px matches width of [[Template:Infobox Country or territory]]-->
+{| width="{{{width|268}}}" align="right" class="expansion" style="background:#f7f8ff; border-collapse:collapse; padding:0em; margins:0em; font-size:smaller; line-height:1.2em;"
+|style="width:62px; vertical-align:middle;"| [[Image:Example.of.complex.text.rendering.svg]]
+|style="vertical-align:middle;"| <span style="line-height:1.6em;">'''Ining articulu atin yang [[Brahmic family of scripts|kulit a ibat India]].'''</span><br/>Nung [[Help:Multilingual support (Indic)|alang suporta king pamagpalto kaniti]], maliari kang manakit [[mojibake|question marks, kahun o aliwang sulat]] lipat ning kulit a Indic; o e ustung pangabili da reng ''vowel'' ampong kakulangan kareng panuglung (''conjuncts'').
+|}</div><noinclude>{{documentation}}</noinclude>
