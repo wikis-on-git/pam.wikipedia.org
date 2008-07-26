@@ -1,0 +1,51 @@
+{{infobox
+|bodyclass= vcard
+|aboveclass=fn
+|above= {{{name}}}
+|image= {{#if: {{{image|}}}| [[image:{{{image}}}|{{min|200|{{{image_size|}}}}}px]] }}
+|caption= {{{caption|}}}
+|headerstyle= background: #ccccff;
+|header1= Personal information
+|label2= Name
+|data2= {{{name}}}
+|label3= Nationality
+|data3= {{{nationality|}}}
+|label4= Birth date
+|data4= {{{birth_date}}}
+|label5= Birth place
+|data5= {{{birth_place}}}
+|label6= Date of death
+|data6= {{{death_date|}}}
+|label7= Place of death
+|data7= {{{death_place|}}}
+|label8= Education
+|data8= {{{education|}}}
+|label9= Spouse
+|data9= {{{spouse|}}}
+|label10= Parents
+|data10= {{{parents|}}}
+|label11= Children
+|data11= {{{children|}}}
+
+|header12= Work
+|class13= note
+|label13= Engineering Discipline
+|data13= {{{discipline|}}}
+|label14= Institution memberships
+|data14= {{{institutions|}}}
+|label15= Practice name
+|data15= {{{practice_name|}}}
+|class16= note
+|label16=  Significant projects
+|data16= {{{significant_projects|}}}
+|class17= note
+|label17= Significant design
+|data17= {{{significant_design|}}}
+|label18= Significant advance
+|data18= {{{significant_advance|}}}
+|label19= Significant Awards
+|data19= {{{significant_awards|}}}
+}}<noinclude>
+
+{{documentation}}
+</noinclude>
