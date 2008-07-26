@@ -1,0 +1,40 @@
+<table class="plainlinks cmbox 
+{{#switch:{{{type|}}}
+| speedy     = cmbox-speedy
+| delete     = cmbox-delete
+| content    = cmbox-content
+| style      = cmbox-style
+| move       = cmbox-move
+| protection = cmbox-protection
+| notice          <!-- notice = default -->
+| #default   = cmbox-notice
+}}" style="{{{style|}}}">
+<tr>
+{{#ifeq:{{{image|}}}|none
+| <!-- No image. Cell with some width or padding necessary for text cell to have 100% width. --><td style="border: none; padding: 1px;"></td>
+| <td class="cmbox-image"><div style="width: 52px;">
+  {{#if:{{{image|}}}
+  | {{{image}}}
+  | {{#switch:{{{type|}}}
+    | speedy     = [[Image:Cmbox deletion.png|40x40px]] 
+    | delete     = [[Image:Cmbox deletion.png|40x40px]] 
+    | content    = [[Image:Cmbox content.png|40x40px]]
+    | style      = [[Image:Cmbox style.png|40x40px]]
+    | move       = [[Image:Cmbox move.png|40x40px]]
+    | protection = [[Image:Cmbox protection.png|40x40px]]
+    | notice          <!-- notice = default -->
+    | #default   = [[Image:Cmbox notice.png|40x40px]]
+    }}
+  }}</div></td>
+}}
+<td class="cmbox-text" style="{{{textstyle|}}}"> {{{text}}} </td>
+{{#if:{{{imageright|}}}
+| <td class="cmbox-imageright"> {{{imageright}}} </td>
+}}
+</tr>
+</table><noinclude>
+
+{{pp-template|small=yes}}
+{{Documentation}}
+<!-- Add categories and inter-wikis to the /doc subpage, not here! -->
+</noinclude>
