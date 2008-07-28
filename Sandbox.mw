@@ -1,90 +1,183 @@
-{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right"|'''{{{name|{{PAGENAME}}}}}'''
-|-
-{{#if:{{{icon|}}}|
-{{!}} colspan="2" style="text-align: center;" {{!}} {{{icon}}}
-{{!}}-
+{{pp-semi-protected|small=yes}}
+<!--
+This page is monitored regularly for nonsense and vandalism. People who vandalize articles repeatedly will be blocked from editing.
+
+If you would like to experiment with Wikipedia, please copy the following address into your browser's address bar:
+http://en.wikipedia.org/wiki/Wikipedia:Sandbox
+
+It will take you to a page where new users can try out the editing features!
+-->
+{{otherpeople}}
+{{Infobox Person
+| name        = William Henry Gates III
+| image       = Bill Gates in Poland cropped.jpg
+| caption     = Bill Gates
+| birth_date  = {{birth date and age|1955|10|28}}
+| birth_place = [[Seattle, Washington|Seattle]], [[Washington]], [[United States|U.S.]]
+| occupation  = Chairman of [[Microsoft]]<br>Co-Chair of [[Bill & Melinda Gates Foundation]]
+| networth    = {{gain}}[[United States dollar|US$]]58 [[1,000,000,000 (number)|billion]] (2008)<ref name="networth">{{cite web
+  | title = The World's Billionaires #3 William Gates III
+  | publisher = [[Forbes]]
+  | date = 2008-03-05
+  | url = http://www.forbes.com/lists/2008/10/billionaires08_William-Gates-III_BH69.html
+  | accessdate = 2008-03-06 }}</ref>
+| spouse      = [[Melinda Gates]] (1994–present)
+| children    = Three
+| residence = [[United States]]
+| alma_mater = Harvard University (Did not graduate)<ref> {{cite news
+  | last = Gewertz
+  | first = Ken
+  | title = Bill Gates to speak at Commencement
+  | publisher = Harvard University Gazette
+  | date = 2007-03-21 
+  | url = http://www.news.harvard.edu/gazette/2007/03.22/99-gates.html
+  | accessdate = 2008-06-21}}</ref>
+| website     = [http://www.microsoft.com/presspass/exec/billg/default.mspx Bill Gates]
+|signature     = BillGates Signature.svg
+| footnotes   =
 }}
-{{#if:{{{logo|}}}
-{{!}} colspan="2" style="text-align: center;" {{!}} {{{logo}}}
-{{!}}-
+
+'''William Henry Gates III'''<!-- Do not insert "KBE," it will be removed. --> (born [[October 28]] [[1955]])<ref>{{harv|Manes|1994|p=11}}</ref> is an [[United States|American]] [[business magnate]], [[philanthropist]], the [[List of the 100 wealthiest people|world's third richest person]] (as of 2008),<ref name="networth" /> and [[chairman of the board|chairman]]<ref name="chapman">{{cite news|first=Glenn|last=Chapman|title=Bill Gates Signs Off|date=2008-06-27|work=Agence France-Presse|url=http://afp.google.com/article/ALeqM5i8aV1bK5vmwLaw9wYr9nY5bFc4YA}}</ref> of [[Microsoft]], the software company he founded with [[Paul Allen]]. During his career at Microsoft, Gates held the positions of [[chief executive officer|CEO]] and [[software architecture|chief software architect]], and remains the largest individual shareholder with more than 9 percent of the [[common stock]].<ref>{{cite web | title=Microsoft 2007 Proxy Statement | url=http://www.microsoft.com/msft/reports/proxy2007.mspx | publisher=[[Microsoft]] | date=2007-09-28 | accessdate=2008-02-14}}</ref> He has also authored or co-authored several books.
+
+==Dalerayan==
+* {{citation|title=How to be a Billionaire: Proven Strategies from the Titans of Wealth|first=Martin|last=Fridson|year=2001|publisher=[[John Wiley & Sons]]|isbn=0471416177}}
+* {{citation|title=The Road Ahead|last=Gates|first=Bill |year=1996 |publisher=[[Penguin Books]] |isbn=0140260404 }}
+* {{citation|title=Bill Gates (Biography (a & E))|first=Jeanne M.|last=Lesinski|year=2006|publisher=[[A&E Television Networks]]|isbn=0822570270}}
+* {{citation|title =Gates: How Microsoft's Mogul Reinvented an Industry and Made Himself The Richest Man in America|isbn = 0671880748|year =1994|publisher =[[Touchstone Pictures]]|last=Manes|first=Stephen}}
+
+==Suglung Palual==
+{{sisterlinks|Bill Gates}}
+*[http://www.microsoft.com/presspass/exec/billg/bio.mspx Biography of Bill Gates at Microsoft.com]
+*[http://www.forbes.com/static/bill2005/LIRBH69.html Forbes: World's Richest People]
+*[http://www.gatesfoundation.org/ Bill & Melinda Gates Foundation]
+
+{{start box}}
+{{s-hon}}
+{{succession box|
+before=[[Warren Buffett]]|
+title=[[Lists of billionaires|World's Richest Person]]|
+years=1996–2007|
+after= [[Warren Buffett]]}}
+{{end box}}
+
+{{Microsoft Executives}}
+{{Time Persons of the Year 2001-2025}}
+
+{{Persondata
+|NAME=Gates, William Henry, III
+|ALTERNATIVE NAMES=Gates, Bill
+|SHORT DESCRIPTION=Business entrepreneur
+|DATE OF BIRTH={{Birth date and age|1955|10|28|mf=y}}
+|PLACE OF BIRTH=[[Seattle, Washington|Seattle]], [[Washington]]
+|DATE OF DEATH= N/A
+|PLACE OF DEATH= N/A
 }}
-{{#if:{{{screenshot|}}}|
-{{!}} colspan="2" style="text-align: center; border: 0px solid #aaaaaa;" {{!}} {{{screenshot}}}{{#if:{{{caption|}}}|<br /><span style="font-size: 83%;">{{{caption}}}</span>|}}
-{{!}}-
-}}
-{{#if:{{{extension|}}}|
-! [[filename extension|File extension]]
-{{!}} <code>{{{extension|None}}}</code>
-{{!}}-
-}}
-{{#if:{{{mime|}}}|
-! [[MIME]] type
-{{!}} <code>{{{mime}}}</code>
-{{!}}-
-}}
-{{#if:{{{type code|{{{typecode|}}}}}}|
-! [[Type code]]
-{{!}} {{{type code|{{{typecode}}}}}}
-{{!}}-
-}}
-{{#if:{{{uniform type|}}}|
-! [[Uniform Type Identifier]]
-{{!}} {{{uniform type}}}
-{{!}}-
-}}
-{{#if:{{{magic|}}}|
-! [[Magic number (programming)|Magic number]]
-{{!}} {{{magic}}}
-{{!}}-
-}}
-{{#if:{{{owner|}}}|
-! Developed by
-{{!}} {{{owner}}}
-{{!}}-
-}}
-{{#if:{{{released|}}}|
-! Initial release
-{{!}} {{{released|}}}
-{{!}}-
-}}
-{{#if:{{{latest release version|{{{latest_release_version|}}}}}}|
-! [[Software release life cycle|Latest release]]
-{{!}} {{{latest release version|{{{latest_release_version|}}}}}} {{#if:{{{latest release date|{{{latest_release_date|}}}}}}| / {{{latest release date|{{{latest_release_date|}}}}}}}}
-{{!}}-
-}}
-{{#if:{{{type|{{{genre|}}}}}}|
-! Type of format
-{{!}} {{{type|{{{genre|}}}}}}
-{{!}}-
-}}
-{{#if:{{{container for|{{{containerfor|}}}}}}|
-! Container for
-{{!}} {{{container for|{{{containerfor}}}}}}
-{{!}}-
-}}
-{{#if:{{{contained by|{{{containedby|}}}}}}|
-! Contained by
-{{!}} {{{contained by|{{{containedby}}}}}}
-{{!}}-
-}}
-{{#if:{{{extended from|{{{extendedfrom|}}}}}}|
-! Extended from
-{{!}} {{{extended from|{{{extendedfrom}}}}}}
-{{!}}-
-}}
-{{#if:{{{extended to|{{{extendedto|}}}}}}|
-! Extended to
-{{!}} {{{extended to|{{{extendedto}}}}}}
-{{!}}-
-}}
-{{#if:{{{standard|}}}
-! [[International standard|Standard(s)]]
-{{!}} {{{standard}}}
-{{!}}-
-}}
-{{#if:{{{url|}}}|
-! [[Website]]
-{{!}} {{{url|}}}
-{{!}}-
-}}
-|}<noinclude>{{Documentation}}</noinclude>
+{{DEFAULTSORT:Gates, Bill}}
+[[Category:1955 births]]
+[[Category:American agnostics]]
+[[Category:American billionaires]]
+[[Category:American businesspeople]]
+[[Category:American chief executives]]
+[[Category:American computer programmers]]
+[[Category:American philanthropists]]
+[[Category:American technology writers]]
+[[Category:Bill & Melinda Gates Foundation people]]
+[[Category:Bill Gates]]
+[[Category:Businesspeople in software]]
+[[Category:Harvard University people]]
+[[Category:Recipients of Honorary British Knighthoods]]
+[[Category:Knights Commander of the Order of the British Empire]]
+[[Category:Members of the United States National Academy of Engineering]]
+[[Category:Microsoft employees]]
+[[Category:National Medal of Technology recipients]]
+[[Category:People from Seattle, Washington]]
+[[Category:Philanthropists]]
+[[Category:Time magazine Persons of the Year]]
+[[Category:Windows people]]
+[[Category:Living people]]
+[[Category:Fellows of the British Computer Society]]
+
+[[af:Bill Gates]]
+[[ang:Bill Gates]]
+[[ar:بيل غيتس]]
+[[ast:Bill Gates]]
+[[zh-min-nan:Bill Gates]]
+[[bs:Bill Gates]]
+[[br:Bill Gates]]
+[[bg:Бил Гейтс]]
+[[ca:Bill Gates]]
+[[cs:Bill Gates]]
+[[cy:Bill Gates]]
+[[da:Bill Gates]]
+[[de:Bill Gates]]
+[[en:Bill Gates]]
+[[et:Bill Gates]]
+[[el:Μπιλ Γκέιτς]]
+[[es:Bill Gates]]
+[[eo:Bill Gates]]
+[[eu:Bill Gates]]
+[[fa:بیل گیتس]]
+[[fr:Bill Gates]]
+[[ga:Bill Gates]]
+[[gl:Bill Gates]]
+[[ko:빌 게이츠]]
+[[hi:बिल गेट्स]]
+[[hr:Bill Gates]]
+[[io:Bill Gates]]
+[[ilo:Bill Gates]]
+[[id:Bill Gates]]
+[[ia:Bill Gates]]
+[[is:Bill Gates]]
+[[it:Bill Gates]]
+[[he:ביל גייטס]]
+[[jv:Bill Gates]]
+[[ku:Bill Gates]]
+[[la:Gulielmus Gates]]
+[[lv:Bils Geitss]]
+[[lb:Bill Gates]]
+[[lt:Bilas Geitsas]]
+[[lij:Bill Gates]]
+[[li:Bill Gates]]
+[[jbo:bil.geits]]
+[[hu:Bill Gates]]
+[[mk:Бил Гејтс]]
+[[ml:ബില്‍ ഗേറ്റ്സ്]]
+[[mt:Bill Gates]]
+[[mr:बिल गेट्स]]
+[[ms:Bill Gates]]
+[[nl:Bill Gates]]
+[[new:बिल गेट्स]]
+[[ja:ビル・ゲイツ]]
+[[no:Bill Gates]]
+[[nn:Bill Gates]]
+[[oc:Bill Gates]]
+[[uz:Bill Gates]]
+[[km:ប៊ីល ហ្គេត]]
+[[nds:Bill Gates]]
+[[pl:Bill Gates]]
+[[pt:Bill Gates]]
+[[ro:Bill Gates]]
+[[qu:Bill Gates]]
+[[ru:Гейтс, Билл]]
+[[sa:बिल गेट्स]]
+[[sq:Bill Gates]]
+[[scn:Bill Gates]]
+[[simple:Bill Gates]]
+[[sk:Bill Gates]]
+[[sl:Bill Gates]]
+[[sr:Бил Гејтс]]
+[[sh:Bill Gates]]
+[[fi:Bill Gates]]
+[[sv:Bill Gates]]
+[[tl:Bill Gates]]
+[[ta:பில் கேட்ஸ்]]
+[[te:బిల్ గేట్స్]]
+[[th:บิลล์ เกตส์]]
+[[vi:Bill Gates]]
+[[tr:Bill Gates]]
+[[uk:Білл Гейтс]]
+[[ur:بل گیٹس]]
+[[yi:ביל גייטס]]
+[[zh-yue:比爾蓋茨]]
+[[bat-smg:Bils Geitsos]]
+[[zh:比尔·盖茨]]
