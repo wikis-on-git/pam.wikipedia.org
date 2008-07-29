@@ -1,5 +1,4 @@
-<includeonly>{| class="infobox biota" style="text-align:center; padding:2.5px; width:200px;"
-|- style="text-align:center;"
+<includeonly>{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right"
 ! style="background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum}}}}}}}}}}}}}}}}}}}};"|{{{name|{{Taxobox name|{{{genus}}}|{{{species}}}|{{{binomial}}}}}}}}{{#if: {{{fossil_range|}}}|<br /><small>Fossil range: {{{fossil_range}}}</small>}}
 |- style="text-align:center;" 
 | {{#if:{{{image|}}}|[[image:{{{image}}}|{{{image_width|frameless}}}|{{{image_caption|}}}]]<br /><small><div style="text-align:center">{{{image_caption|}}}</div></small>}}
