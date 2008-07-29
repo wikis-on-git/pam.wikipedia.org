@@ -1,0 +1,25 @@
+<noinclude>{{pp-template|small=yes}}</noinclude><includeonly>{{pp-meta
+|type=semi
+|small={{{small|}}}
+|demospace={{{demospace|}}}
+|expiry={{{expiry|}}}
+|dispute=no
+|reason={{#if:{{{reason|}}}|&#32;because {{lcfirst:{{{reason|}}}}}}}
+|categories={{{categories|[[Category:Semi-protected|{{PAGENAME}}]]{{#ifexpr:{{#if:{{{expiry|}}}|{{#time:U|today}}>{{#time:U|{{{expiry}}}}}|0}}|[[Category:Protected pages with expiry expired|{{PAGENAME}}]]}}}}}}}</includeonly><noinclude>
+{{pp-semi-protected|categories=no|demospace=main|reason=of a reason}}
+
+----
+* Gamitan me ing {{tlx|{{lc:{{PAGENAME}}}}}} para king karaniwang modelu o template
+* Gamitan me ing {{tlx|{{lc:{{PAGENAME}}}}|reason&#61;text}} para kareng partikular a sangkan
+* Gamitan me ing {{tlx|{{lc:{{PAGENAME}}}}|expiry&#61;{{#time:F j, Y|+1 month}}}} para king partikular a petsa ning pangapupus (expiration date)
+* Gamitan {{tlx|{{lc:{{PAGENAME}}}}|small&#61;yes}} para mu keng icon king babo
+* Gamitan me ing {{tlx|{{lc:{{PAGENAME}}}}|expiry&#61;<nowiki>{{subst:#time:F j, Y|+7 days}}</nowiki>}} para king partikular a taning ning pangapupus (specific time period)
+
+Kapabaluan: tambing yang mibili ing ''(UTC)''.
+
+E ya para king biru-biru ining template o modelu. '''''Gamitan ya kareng bulung a SEMI-PROTECTED o maki dakeng makakambil.''''' Pakitandanan a den mung [[Wikipedia:Administrators|talapanibala]] ing makapangambil o makaprotekta kareng bulung.
+
+{{protection templates}}
+{{in category|Semi-protected|Protected pages with expiry expired}}
+[[Category:Protection templates|{{PAGENAME}}]]
+</noinclude>
