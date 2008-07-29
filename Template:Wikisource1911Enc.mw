@@ -1,8 +1,8 @@
 <div class="infobox sisterproject">[[Image:Wikisource-logo.svg|left|50px| ]]
-<div style="margin-left: 60px;">Atiu king [[Wikisource]] ing laman ning articulu ibat {{#if:{{{2|}}}|a|king}} [[Encyclopædia Britannica Eleventh Edition|1911 Encyclopædia Britannica]] {{#if:{{{2|}}}|tungkul king}} '''''[[Wikisource:1911 Encyclopædia Britannica/{{{1|{{PAGENAME}}}}}|{{{2|{{{1|{{PAGENAME}}}}}}}}]]'''''.</div></div><noinclude>
+<div style="margin-left: 60px;">Atiu king [[Wikisource]] ing articulu {{#if:{{{2|}}}|ning|ning}} [[Encyclopædia Britannica Eleventh Edition|1911 Encyclopædia Britannica]] {{#if:{{{2|}}}|tungkul king}} '''''[[Wikisource:1911 Encyclopædia Britannica/{{{1|{{PAGENAME}}}}}|{{{2|{{{1|{{PAGENAME}}}}}}}}]]'''''.</div></div><noinclude>
 
 ==Lon ya murin iti==
-* [[Wikipedia:Sister projects]] para king mas kumpletung impormasiun
+* [[Wikipedia:Sister projects]] para king kumpletung impormasiun king pamangamit
 
 [[Category:Wikisource link templates|Wikisource1911Enc]]
 [[Category:1911 Britannica templates|Wikisource1911Enc]]
