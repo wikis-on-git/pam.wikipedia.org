@@ -1,0 +1,8 @@
+<!--{{Expand}} begin-->{{ambox
+| type = notice
+| image= [[Image:Wiki letter w.svg|44px]]
+| text = '''Please help [{{fullurl:{{PAGENAME}}|action=edit}} improve this {{{1|article or section}}}] by expanding it.''' Further information might be found on the [[{{TALKPAGENAME}}#{{#if:{{{talksection|}}}|{{anchorencode:{{{talksection}}}}}}}|talk page]] or at [[Wikipedia:Requests for expansion|requests for expansion]]. <small>{{#if:{{{date|}}}|''({{{date}}})''}}</small>
+}}<includeonly>{{{category|{{#if:{{{date|}}}|[[Category:Articles to be expanded since {{{date}}}]]|[[Category:Articles to be expanded]]}}[[Category:All articles to be expanded]]}}}{{#if:{{NAMESPACE}}||{{#if:{{{date|}}}|{{#ifexist:Category:Articles to be expanded since {{{date}}}||[[Category:Articles with invalid date parameter in template]]}}|}}}}</includeonly><!--{{Expand}} end--><noinclude>
+{{pp-template|small=yes}}
+{{documentation}}
+</noinclude>
