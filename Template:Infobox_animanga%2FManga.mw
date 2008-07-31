@@ -21,7 +21,7 @@
 }}{{
   #if: {{{publisher_other<includeonly>|</includeonly>}}} | <tr><td colspan="2" style="padding: 0;">
 <table class="collapsible collapsed" style="background: transparent; width: 100%;" cellspacing="0">
-<tr><th style="background: #eef">Other publishers:</th></tr>
+<tr><th style="background: #eef">aliwapang talalimbag:</th></tr>
 <tr><td style="background: transparent;">{{{publisher_other}}}</td></tr>
 </table>
 </td></tr>
@@ -31,7 +31,7 @@
   #if: {{{magazine<includeonly>|</includeonly>}}} | <tr><th style="background: #eef;">Magazine</th><td>''{{{magazine}}}''</td></tr>
 }}{{
   #if: {{{published|}}}
-  | <tr><th style="background: #eef;">Published</th><td>{{{published}}}
+  | <tr><th style="background: #eef;">Melimbag</th><td>{{{published}}}
   | {{
     #if: {{{first<includeonly>|</includeonly>}}} | <tr><th style="background: #eef;">Original run</th><td>{{nowrap|{{{first}}}}} – {{
       #if: {{{last<includeonly>|</includeonly>}}} | {{nowrap|{{{last}}}}} | ongoing
