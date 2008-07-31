@@ -1,0 +1,79 @@
+<noinclude>
+<div class="messagebox standard-talk">Please see [[Template:Infobox animanga]] for usage instructions and notes.</div>
+{{Infobox animanga/Header2}}
+</noinclude>|-
+! colspan="2" style="background: #ccf; text-align: center;" | {{
+  #ifeq: {{{OEM}}} | yes
+  | [[Original English-language manga]]
+  | [[Manga]]
+}}{{
+  #if: {{{title<includeonly>|</includeonly>}}} | <nowiki>:</nowiki> <span style="font-weight: normal;">''{{{title}}}''</span>
+}}</th></tr>{{
+  #if: {{{author<includeonly>|</includeonly>}}} | <tr><th style="background: #eef;">Talakudtangsulat</th><td>{{{author}}}</td></tr>
+}}{{
+  #if: {{{illustrator<includeonly>|</includeonly>}}} | {{
+    #ifeq: {{{illustrator}}} | {{{author|}}} | [[Category:Anime and manga articles using obsolete infobox parameters]] | <tr><th style="background: #eef;">Talagulis</th><td>{{{illustrator}}}</td></tr>
+  }}
+}}{{
+  #if: {{{publisher<includeonly>|</includeonly>}}} | <tr><th style="background: #eef;">Talalimbag</th><td>{{{publisher}}}</td></tr>
+}}{{
+  #if: {{{publisher_en<includeonly>|</includeonly>}}} | <tr><th style="background: #eef;">English talalimbag</th><td>{{{publisher_en}}}</td></tr>
+}}{{
+  #if: {{{publisher_other<includeonly>|</includeonly>}}} | <tr><td colspan="2" style="padding: 0;">
+<table class="collapsible collapsed" style="background: transparent; width: 100%;" cellspacing="0">
+<tr><th style="background: #eef">Other publishers:</th></tr>
+<tr><td style="background: transparent;">{{{publisher_other}}}</td></tr>
+</table>
+</td></tr>
+}}{{
+  #if: {{{demographic<includeonly>|</includeonly>}}} | <tr><th style="background: #eef;">Demographic</th><td>{{{demographic}}}</td></tr>
+}}{{
+  #if: {{{magazine<includeonly>|</includeonly>}}} | <tr><th style="background: #eef;">Magazine</th><td>''{{{magazine}}}''</td></tr>
+}}{{
+  #if: {{{published|}}}
+  | <tr><th style="background: #eef;">Published</th><td>{{{published}}}
+  | {{
+    #if: {{{first<includeonly>|</includeonly>}}} | <tr><th style="background: #eef;">Original run</th><td>{{nowrap|{{{first}}}}} – {{
+      #if: {{{last<includeonly>|</includeonly>}}} | {{nowrap|{{{last}}}}} | ongoing
+    }}</td></tr>
+  }}
+}}{{
+  #if: {{{volumes<includeonly>|</includeonly>}}} | <tr><th style="background: #eef;">[[tankōbon|Volumes]]</th><td>{{
+    #if: {{{chapter_list|}}}{{{volume_list|}}} | [[{{{volume_list|{{{chapter_list}}}}}}|{{{volumes}}}]]
+    | {{{volumes}}}
+  }}</td></tr>
+}}<includeonly>{{
+  #switch: {{NAMESPACE}}
+  | Talk
+  | User = 
+  | #default = {{
+    #ifeq: {{{OEM}}} | yes
+    | [[Category:Original English-language manga]]
+    | [[Category:Manga series]]
+  }}
+}}{{
+  #if: {{{magazine|}}} | | {{
+  #if: {{{first|}}} | {{
+    #iferror: {{
+      #ifexpr: {{{volumes|0}}} <= 1 | {{
+        #if: {{{last|}}} || [[Category:Anime and manga articles using obsolete infobox parameters]]
+      }}
+    }}
+  }}
+  }}
+}}{{
+  #ifeq: {{{title}}} | {{PAGENAME}} | [[Category:Anime and manga articles using obsolete infobox parameters]]
+}}</includeonly><noinclude>
+{{Infobox animanga/Footer}}
+
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+[[Category:Anime and manga infobox templates|Manga]]
+
+[[id:Templat:Kotakinfo animanga/Manga]]
+[[ja:Template:Infobox animanga/Manga]]
+[[ko:틀:만화애니 정보/만화]]
+[[no:Mal:Infoboks animanga/Manga]]
+[[th:แม่แบบ:กล่องข้อมูล การ์ตูน/มังงะ]]
+[[vi:Tiêu bản:Thông tin animanga/Manga]]
+[[zh:Template:Infobox animanga/Manga]]
+</noinclude>
