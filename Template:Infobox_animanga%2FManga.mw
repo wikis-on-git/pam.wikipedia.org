@@ -1,7 +1,7 @@
 <noinclude>
 <div class="messagebox standard-talk">Please see [[Template:Infobox animanga]] for usage instructions and notes.</div>
 {{Infobox animanga/Header2}}
-</noinclude>|-
+</noinclude>| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right"|-
 ! colspan="2" style="background: #ccf; text-align: center;" | {{
   #ifeq: {{{OEM}}} | yes
   | [[Original English-language manga]]
