@@ -33,7 +33,7 @@
   #if: {{{published|}}}
   | <tr><th style="background: #eef;">Melimbag</th><td>{{{published}}}
   | {{
-    #if: {{{first<includeonly>|</includeonly>}}} | <tr><th style="background: #eef;">Original run</th><td>{{nowrap|{{{first}}}}} – {{
+    #if: {{{first<includeonly>|</includeonly>}}} | <tr><th style="background: #eef;">Mumunang lual</th><td>{{nowrap|{{{first}}}}} – {{
       #if: {{{last<includeonly>|</includeonly>}}} | {{nowrap|{{{last}}}}} | ongoing
     }}</td></tr>
   }}
