@@ -1,0 +1,40 @@
+<noinclude><div class="messagebox standard-talk">Please see [[Template:Infobox animanga]] for usage instructions and notes.</div>
+</noinclude>{{Template:Infobox animanga/Header2}}
+! colspan="2" style="font-size: 120%; background: #ccf; text-align: center;" | ''{{
+  #if: {{{name|}}} | {{{name}}} | {{PAGENAME}}
+}}''
+{{
+  #if: {{{image<includeonly>|</includeonly>}}} | <tr><td colspan="2" style="text-align: center;">{{{image}}}{{
+    #if: {{{caption<includeonly>|</includeonly>}}} | <br /> <small>{{{caption}}}</small>
+  }}</td></tr>
+}}{{
+  #if: {{{ja_name<includeonly>|</includeonly>}}}{{{ja_kanji|}}} | <tr><td colspan="2" style="background: #ddf; text-align: center;"><span lang="ja">{{{ja_name|{{{ja_kanji}}}}}}</span>{{
+    #if: {{{ja_name_trans<includeonly>|</includeonly>}}}{{{ja_romaji|}}} | <br /><small>(''{{{ja_name_trans|{{{ja_romaji}}}}}}'')</small>
+  }}</td></tr>
+}}{{
+  #if: {{{genre<includeonly>|</includeonly>}}} | <tr><th style="background: #eef;">Genre</th><td>{{{genre}}}</td></tr>
+}}{{
+  #if: {{{ja_name_trans<includeonly>|</includeonly>}}}{{{ja_romaji|}}} | {{
+    #ifeq: {{{name|{{PAGENAME}}}}} | {{{ja_name_trans|{{{ja_romaji}}}}}} | [[Category:Anime and manga articles using obsolete infobox parameters]]
+  }}
+}}<noinclude>
+{{Infobox animanga/Footer}}
+
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+[[Category:Anime and manga infobox templates|Header]]
+
+[[cs:Šablona:Infobox animanga/Záhlaví]]
+[[el:Πρότυπο:Κουτί Πληροφοριών Σειράς Animanga Επικεφαλίδα]]
+[[fr:Modèle:Infobox animanga/Header]]
+[[ko:틀:만화애니 정보/header]]
+[[id:Templat:Kotakinfo animanga/Atasan]]
+[[is:Snið:Infobox animanga/Haus]]
+[[ja:Template:Infobox animanga/Header]]
+[[ms:Templat:Infobox animanga/Header]]
+[[no:Mal:Infoboks animanga/Topp]]
+[[ro:Format:Infobox animanga/Header]]
+[[th:แม่แบบ:กล่องข้อมูล การ์ตูน/ส่วนหัว]]
+[[vi:Tiêu bản:Thông tin animanga/Đầu]]
+[[tr:Şablon:Infobox animanga/Header]]
+[[zh:Template:Infobox animanga/Headerofja]]
+</noinclude>
