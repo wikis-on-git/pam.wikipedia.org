@@ -1,7 +1,7 @@
 <noinclude>{{start infobox page}}</noinclude><!--
 -->{{Infobox
 |bodyclass  = biography vcard
-|bodystyle  = width:{{#if:{{{box_width|}}} |{{{box_width}}} |22em}}; font-size:95%; text-align:right;
+|bodystyle  = width:{{#if:{{{box_width|}}} |{{{box_width}}} |22em}}; font-size:95%; text-align:left;
 |above      = '''{{{name|{{PAGENAME}}}}}'''
 |aboveclass = fn
 |abovestyle = text-align:center; font-size:125%;
@@ -14,7 +14,7 @@
 |imageclass = {{image class|{{{image}}}}}
 |imagestyle = padding:4pt; line-height:1.25em; text-align:center; font-size:8pt;
 |caption    = <div style="padding-top:2pt;">{{{caption<includeonly>|</includeonly>}}}</div>
-|labelstyle = padding:0.2em 1.0em 0.2em 0.2em; background:transparent; line-height:1.2em; text-align:left; font-size:90%;
+|labelstyle = padding:0.2em 1.0em 0.2em 0.2em; background:transparent; line-height:1.2em; text-align:right; font-size:90%;
 |datastyle  = padding:0.2em; line-height:1.3em; vertical-align:middle; font-size:90%;
 
 |label1  = {{#if:{{{birth_name<includeonly>|</includeonly>}}}<!--
