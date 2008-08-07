@@ -1,0 +1,27 @@
+<noinclude>Values:
+*'''c''' for '''c'''onventional phonetic spelling
+*'''t''' for the name in '''T'''ibetan characters
+*'''w''' for the transliteration of the Tibetan name according to '''W'''ylie romanisation
+*'''z''' for the spelling in the PRC's [[Tibetan Pinyin]] ('''Z'''angwen Pinyin)
+*'''l''' for the pronunciation in the '''L'''hasa dialect, given in the [[International Phonetic Alphabet]]
+
+At current, the only mandatory portion is that the formatting will be off if you don't include a value for t or w (use [[Template:bo-wo]] to include only the Tibetan Pinyin). '''Also note''' that "c" is currently non-functional because of formatting problems. Just include the conventional spelling as part of the value for "t", separated from the Tibetan spelling by a comma.
+
+By default, the <nowiki>[[Tibetan]]</nowiki> link is directed to [[Tibetan script]]. If you would like it to point to [[Tibetan language]] instead (which is appropriate if you are including a conventional spelling or anything else other than Tibetan script), set '''lang''' to "yes" or "1".
+
+Example:
+
+<nowiki>'''Vimalamitra''' ({{bo|t=Drime Shenyen, དྲི་མེད་བཤེས་གཉེན་|w=Dri-med Bshes-gnyen|z=Chimê Xê'nyên|l=ʈʂʰìmeʔ ɕèɲẽ|lang=yes}})</nowiki>
+
+yields:
+
+'''Vimalamitra''' ({{bo|t=Drime Shenyen, དྲི་མེད་བཤེས་གཉེན་|w=Dri-med Bshes-gnyen|z=Chimê Xê'nyên|l=ʈʂʰìmeʔ ɕèɲẽ|lang=yes}})
+
+</noinclude>{{ #if: {{{t|}}} |{{ #if: {{{lang|}}} |[[Tibetan language|Tibetan]]|[[Tibetan script|{{ #if: {{{script|}}} |Tibetan script|Tibetan}}]]}}: <span style="font-family:'Tibetan Machine Uni'">{{{t}}}</span> |}}{{ #if: {{{w|}}} |{{ #if: {{{t|}}} |&#59;&nbsp;|}}[[Wylie transliteration|Wylie]]: ''<nowiki></nowiki>{{{w}}}'' |}}{{ #if: {{{z|}}} |&#59; [[Tibetan Pinyin|ZWPY]]: {{{z}}} |}}{{ #if: {{{o|}}} |&#59; [[Tibetan Pinyin|ZWPY]]: {{{o}}} |}}{{ #if: {{{l|}}} |&#59; Lhasa dialect [[help:IPA|IPA]]: {{Template:IPA|[{{{l}}}]}} |}}<noinclude>
+[[Category:Multilingual support templates|Bo]]
+
+[[hu:Sablon:Bo]]
+[[ja:Template:Bo]]
+[[vi:Tiêu bản:Bo]]
+[[zh:Template:Bo]]
+</noinclude>
