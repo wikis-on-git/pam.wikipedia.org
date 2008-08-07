@@ -1,7 +1,7 @@
 {{ambox
 | type = style
 | image = [[Image:Text document with red question mark.svg|50px]]
-| text = This {{{1|article or section}}} includes a [[{{SITENAME}}:Citing sources|list of references]] or [[Wikipedia:External links|external links]], but its sources remain unclear because it lacks '''[[Wikipedia:Citing_sources#How_to_cite_sources|in-text citations]].'''<br /> <small>You can [[{{SITENAME}}:WikiProject Fact and Reference Check|improve]] this article by introducing more precise citations [[Wikipedia:When to cite|where appropriate]]. {{#if:{{{date|}}}|''({{{date}}})''}}</small>
+| text = Ining {{{1|articulu o dake}}} atin yang [[{{SITENAME}}:Citing sources|tala da reng dalerayan]] o [[Wikipedia:External links|suglung palual]], oneng e la malino deng kayang pikuanan uling kulang yang '''[[Wikipedia:Citing_sources#How_to_cite_sources|in-text citation]].'''<br /> <small>You can [[{{SITENAME}}:WikiProject Fact and Reference Check|improve]] this article by introducing more precise citations [[Wikipedia:When to cite|where appropriate]]. {{#if:{{{date|}}}|''({{{date}}})''}}</small>
 }}<includeonly>{{{category|[[Category:Articles lacking in-text citations|{{PAGENAME}}]]}}}</includeonly><noinclude>
 {{template doc}}
 
