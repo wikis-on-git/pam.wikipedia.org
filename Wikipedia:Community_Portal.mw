@@ -100,3 +100,11 @@ Hi, I request a bot flag for [[User:CarsracBot|CarsracBot]]
 *'''Function Summary''': interwiki
 *'''Already has a bot flag in''': a lot of 100 wikipedias (nl, tr, ksh, ceb, an, vo, li, fy ...)
 I will start to some test edits. Thanks [[User:Carsrac|Carsrac]] 17:03, 20 Mayu 2008 (UTC)
+
+== [[User:SpBot|SpBot]] ==
+Hello. I would like to get a bot-flag on this wiki.
+*'''Operator:''' [[:de:User:Euku]]
+*'''Purpose:''' Interwiki links: It adds/modifies/deletes interwiki links.
+*'''Software:''' pywikipediabot framework via SVN
+*'''Already has bot flag on:''' >90 Wikipedias, for example: ar, bn, ca, cs, '''de''', '''en''', es, eu, da, '''fr''', he, hu, it, pl, ro, '''ru''', sq, tr. (Since 2006 on German Wikipedia, with [http://tools.wikimedia.de/~interiot/cgi-bin/count_edits?user=SpBot&dbname=dewiki_p >80.000 edits]), look at [http://tools.wikimedia.de/~vvv/sulutil.php?user=SpBot&rights=1 details]
+:Thank you! --[[:de:User:Euku|Euku]] 11:09, 8 Agostu 2008 (UTC)
