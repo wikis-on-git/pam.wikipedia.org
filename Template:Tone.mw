@@ -1,6 +1,6 @@
 <!--{{Tone}} start-->{{ambox
 |type=style
-|text='''The [[WP:TONE|tone]] or style of this {{{1|article or section}}} may not be appropriate for Wikipedia.'''<br /><small>Specific concerns may be found on the [[{{TALKPAGENAME}}|talk page]]. See Wikipedia's [[Wikipedia:Guide to writing better articles|guide to writing better articles]] for suggestions. {{#if:{{{date|}}}|''({{{date}}})''}}</small>
+|text='''Ing [[WP:TONE|pamangamanu (''tone'')]] o istilu ning {{{1|articulu o seksion a iti}}} mapaliaring e bage king Wikipedia.'''<br /><small>Maliari lang lon deng partikular a puna king [[{{TALKPAGENAME}}|bulung ning pisasabian]]. Lon me ing [[Wikipedia:Guide to writing better articles|saup king pamaniulat mas masanting a articulu]] ning Wikipedia para kareng munikala. {{#if:{{{date|}}}|''({{{date}}})''}}</small>
 }}<includeonly>{{{category|[[Category:All articles needing style editing]][[Category:Wikipedia articles needing style editing {{#if:{{{date|}}}|from {{{date}}}|}}]]}}}</includeonly><!--{{Tone}} end--><noinclude>
 {{documentation}}
 </noinclude>
