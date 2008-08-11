@@ -12,23 +12,23 @@
 {{!-}}
 }}
 {{#if:{{{State Party|}}} |<!--then:-->
-{{!}} '''[[Table of World Heritage Sites based on State Parties|State&nbsp;Party]]'''
+{{!}} '''[[Table of World Heritage Sites based on State Parties|Partidu ning&nbsp;Estadu]]'''
 {{!}} {{{State_Party<includeonly>|</includeonly><!--deprecated:-->{{{State Party|}}}<!---->}}}
 {{!-}}
 }}
-| '''Type'''
+| '''Uri'''
 | {{{Type}}}
 |-
 | '''[[World Heritage Site#Selection criteria|Criteria]]'''
 | {{{Criteria}}}
 |-
-| '''Reference'''
+| '''Dalerayan'''
 | {{#if:{{{Link|}}}
   |<!--then-->[{{{Link}}} {{{ID}}}]
   |<!--else-->[http://whc.unesco.org/en/list/{{{ID}}} {{{ID}}}]
   }}
 |- class="adr"
-| '''Region'''**
+| '''Labuad'''**
 |style="line-height:150%; white-space:nowrap;"| <span class="region">{{{Region}}}</span>
 |-
 {{#if:{{{Coordinates|<noinclude>-</noinclude>}}} |<!--then:-->
@@ -39,7 +39,7 @@
 |-
 |colspan="2" align="center" style="background:#eee; font-size:110%;"| '''Inscription history'''
 |-
-|'''Inscription'''
+|'''Pangatala'''
 |style="line-height:150%;"| {{{Year}}}&nbsp; <!--
 --><small>({{#if:{{{Session|}}}
     |<!--then-->{{{Session}}}
@@ -57,13 +57,13 @@
     }} [[World Heritage Site#World Heritage Committee Session|Session]])</small>
 |-
 {{#if:{{{Extension|<noinclude>-</noinclude>}}} |<!--then:-->
-{{!}} '''Extensions'''
+{{!}} '''Suglung'''
 {{!}} {{{Extension}}}
 {{!-}}
 }}
 |-
 {{#if:{{{Danger|<noinclude>-</noinclude>}}}    |<!--then:-->
-{{!}} '''[[List of World Heritage Sites in danger|Endangered]]'''
+{{!}} '''[[List of World Heritage Sites in danger|Maki Panganib]]'''
 {{!}} {{{Danger}}}
 {{!-}}
 }}
