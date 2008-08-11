@@ -1,0 +1,6 @@
+<!--{{Tone}} start-->{{ambox
+|type=style
+|text='''The [[WP:TONE|tone]] or style of this {{{1|article or section}}} may not be appropriate for Wikipedia.'''<br /><small>Specific concerns may be found on the [[{{TALKPAGENAME}}|talk page]]. See Wikipedia's [[Wikipedia:Guide to writing better articles|guide to writing better articles]] for suggestions. {{#if:{{{date|}}}|''({{{date}}})''}}</small>
+}}<includeonly>{{{category|[[Category:All articles needing style editing]][[Category:Wikipedia articles needing style editing {{#if:{{{date|}}}|from {{{date}}}|}}]]}}}</includeonly><!--{{Tone}} end--><noinclude>
+{{documentation}}
+</noinclude>
