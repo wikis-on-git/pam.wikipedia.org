@@ -1,0 +1,75 @@
+{| class="infobox vcard" style="width:{{{infoboxwidth|20em}}};max-width:{{{maxwidth|285px}}}; font-size:90%;"
+!colspan="2" style="background:#eee; padding:0.2em; line-height:110%; text-align:center; font-size:135%;"| <!--deprecated:--><span class="fn org">{{{WHS|<!---->{{{Name<includeonly>|</includeonly>}}}}}}</span>*
+|-
+!colspan="2" style="padding-bottom:0.4em; text-align:center; font-size:110%;"| [[World Heritage Site|UNESCO World Heritage Site]]
+|-
+{{#if:{{{Image<includeonly>|</includeonly>}}} |<!--then:-->
+{{!}}colspan="2" align="center" style="padding-bottom:0.3em;"{{!}} <hr>{{{Image}}}
+{{!-}}
+}}
+{{#if:{{{imagecaption<includeonly>|</includeonly>}}} |<!--then:-->
+{{!}}colspan="2" align="center" style="padding-bottom:0.3em;"{{!}} {{{imagecaption}}}<hr>
+{{!-}}
+}}
+{{#if:{{{State Party|}}} |<!--then:-->
+{{!}} '''[[Table of World Heritage Sites based on State Parties|State&nbsp;Party]]'''
+{{!}} {{{State_Party<includeonly>|</includeonly><!--deprecated:-->{{{State Party|}}}<!---->}}}
+{{!-}}
+}}
+| '''Type'''
+| {{{Type}}}
+|-
+| '''[[World Heritage Site#Selection criteria|Criteria]]'''
+| {{{Criteria}}}
+|-
+| '''Reference'''
+| {{#if:{{{Link|}}}
+  |<!--then-->[{{{Link}}} {{{ID}}}]
+  |<!--else-->[http://whc.unesco.org/en/list/{{{ID}}} {{{ID}}}]
+  }}
+|- class="adr"
+| '''Region'''**
+|style="line-height:150%; white-space:nowrap;"| <span class="region">{{{Region}}}</span>
+|-
+{{#if:{{{Coordinates|<noinclude>-</noinclude>}}} |<!--then:-->
+{{!}} '''[[Geographic coordinate system|Coordinates]]'''
+{{!}} {{{Coordinates}}}
+{{!-}}
+}}
+|-
+|colspan="2" align="center" style="background:#eee; font-size:110%;"| '''Inscription history'''
+|-
+|'''Inscription'''
+|style="line-height:150%;"| {{{Year}}}&nbsp; <!--
+--><small>({{#if:{{{Session|}}}
+    |<!--then-->{{{Session}}}
+    |<!--else-->{{#switch: {{{Year}}}
+                | 1977=1st  | 1978=2nd  | 1979=3rd  | 1980=4th  | 1981=5th
+                | 1982=6th  | 1983=7th  | 1984=8th  | 1985=9th  | 1986=10th
+                | 1987=11th | 1988=12th | 1989=13th | 1990=14th | 1991=15th
+                | 1992=16th | 1993=17th | 1994=18th | 1995=19th | 1996=20th
+                | 1997=21st | 1998=22nd | 1999=23rd | 2000=24th | 2001=25th
+                | 2002=26th | 2003=27th | 2004=28th | 2005=29th | 2006=30th
+                | 2007=31st | 2008=32nd | 2009=33rd | 2010=34th | 2011=35th
+                | 2012=36th | 2013=37th | 2014=38th | 2015=39th | 2016=40th
+                | #default = Unknown
+                }}
+    }} [[World Heritage Site#World Heritage Committee Session|Session]])</small>
+|-
+{{#if:{{{Extension|<noinclude>-</noinclude>}}} |<!--then:-->
+{{!}} '''Extensions'''
+{{!}} {{{Extension}}}
+{{!-}}
+}}
+|-
+{{#if:{{{Danger|<noinclude>-</noinclude>}}}    |<!--then:-->
+{{!}} '''[[List of World Heritage Sites in danger|Endangered]]'''
+{{!}} {{{Danger}}}
+{{!-}}
+}}
+|-
+|colspan="2" style="line-height:150%; padding-top:0.8em; border-top: 1px #aaa solid; text-align:left; font-size:80%; font-weight:lighter;"|<span style="margin:0.5em; color:#555;">* [http://whc.unesco.org/en/list Name as inscribed on World Heritage List.]<br/><span style="margin:0.5em; color:#555;">** [http://whc.unesco.org/en/list/?search=&search_by_country=&type=&media=&region=&order=region Region as classified by UNESCO.]</span>
+|}<noinclude>
+{{clear}}{{Template doc}}
+<!--Please add any categories and interwiki links on the /doc page, not here. -->
+</noinclude>
