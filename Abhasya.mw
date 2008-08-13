@@ -1,4 +1,4 @@
-{{Infobox Country
+{{Infobox Country <!----Non-political information---->
 
 |conventional_long_name = Abkhazia
 |common_name        = Abkhazia
@@ -45,10 +45,11 @@
 |established_date1  = <br/><br/>[[9 April]] [[1991]]<br/>[[25 December]] [[1991]]
 |currency           = [[Georgian lari]]
 |currency_code      = GEL
-}}}}
 }}
+---------------
 
-===Demographicu===
+
+==Demographicu==
 
 {| class="wikitable"
  !Banua
@@ -244,3 +245,5 @@ Image:Dramatic theatre Chanba.jpg|Chanba Dramatic theatre king Sukhumi
 [[vo:Labkasän]]
 [[yo:Abkhez]]
 [[zh:阿布哈茲]]
+
+}}
