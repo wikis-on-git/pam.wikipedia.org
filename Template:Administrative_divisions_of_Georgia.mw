@@ -1,0 +1,31 @@
+{{Navbox
+|name       = Administratibung pangadake ning Georgia
+|state      = {{{state|collapsed}}}
+|title      = [[Administrative divisions of Georgia (country)|Administratibung pangadake ning Georgia]]
+|image      = [[Image:Gruzie-pahýl.png|56px|Outline of Georgia]]<br/>{{lower|4px|[[Image:Flag of Georgia.svg|56px|border|Bandera ning Georgia]]}}
+
+|group1 = {{nowrap|[[Autonomous republic]]s}}
+|list1  = [[Abkhazia]]{{smallsup|1}}{{·}} [[Adjara]]
+
+|group2 = Labuad
+|list2  = <div>
+[[Guria]]{{·}} [[Imereti]]{{·}} [[Kakheti]]{{·}} [[Kvemo Kartli]]{{·}} [[Mtskheta-Mtianeti]]{{·}} [[Racha-Lechkhumi and Kvemo Svaneti|Racha-Lechkhumi and Kvemo Svaneti]]{{·}} [[Samegrelo-Zemo Svaneti]]{{·}} [[Samtskhe-Javakheti]]{{·}} {{nowrap|[[Shida Kartli]]}}{{smallsup|2}}
+</div>
+
+|group3 = {{nowrap|City with special status}}
+|list3  = [[Tbilisi]]&nbsp;<small>(capital)</small>
+
+|belowstyle = background:lavender; text-align:center;
+|below      = {{smallsup|1}} Self-proclaimed republic which ''[[de jure]]'' is part of Georgia.{{spaces|3}}{{smallsup|2}} Includes the self-proclaimed [[South Ossetia|Republic of South Ossetia]] and the [[South Ossetia|Provisional Administrative Entity of South Ossetia]].</div>
+}}
+<noinclude>
+<!--Categories-->
+[[Category:Georgian navigational boxes|{{PAGENAME}}]]
+[[Category:Europe country subdivision templates|Georgia]]
+
+<!--Other languages-->
+[[bg:Шаблон:Административно деление на Грузия]]
+[[en:Template:Administrative divisions of Georgia]]
+[[fr:Modèle:Régions de la Géorgie]]
+[[it:Template:Suddivisioni della Georgia]]
+</noinclude>
