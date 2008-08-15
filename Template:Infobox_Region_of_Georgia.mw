@@ -1,0 +1,43 @@
+{| class="toccolours" style="float: right; margin: 0 0 1em 1em;" width="250"
+|-
+{{#if: {{{fullname<includeonly>|</includeonly>}}} |
+! colspan="2" style="font-size: 130%; background-color: lightsteelblue;" {{!}} {{{fullname}}} {{
+ #if: {{{fullname_local<includeonly>|</includeonly>}}} |<br>{{{fullname_local}}} }} }} {{
+ #if: {{{fullname_tran<includeonly>|</includeonly>}}} |<br>{{{fullname_tran}}} }}
+|- style="text-align:center;"
+| colspan="2" class="toccolours" style="padding: 0;"| '''{{{administrativemap}}}'''
+|- style="text-align:center; font-size:smaller;"
+| colspan="2" | Mapa papakit ne ing makabayung pangadake pampolitika
+|-
+| colspan="2" style="border-bottom: 5px solid lightsteelblue; font-size: 1%;" | &nbsp;
+|- style="vertical-align:top;"
+{{#if: {{{capital<includeonly>|</includeonly>}}} |
+{{!}} '''Tungku''' {{!!}} {{{capital}}} }}
+|- style="vertical-align:top;"
+{{#if: {{{governor<includeonly>|</includeonly>}}} |
+{{!}} '''Gobernador''' {{!!}} {{{governor}}} }}
+|- style="vertical-align:top;"
+{{#if: {{{iso<includeonly>|</includeonly>}}} | 
+{{!}} '''Labuad ISO 3166 code''' {{!!}} {{{iso}}} }}
+|- style="vertical-align:top;"
+{{#if: {{{districts<includeonly>|</includeonly>}}} | 
+{{!}} '''[[Distritu]]''' {{!!}} {{{districts}}} }}
+|- style="vertical-align:top;"
+{{#if: {{{area<includeonly>|</includeonly>}}} | 
+{{!}} '''[[Lualas]]''' {{!!}} {{{area}}} [[Square kilometre|km²]] }}
+|- style="vertical-align:top;"
+{{#if: {{{population<includeonly>|</includeonly>}}} |
+{{!}} '''[[Populasyun]] {{!!}} {{{population}}} }}
+|-
+| colspan="2" style="border-bottom: 5px solid lightsteelblue; font-size: 1%;" | &nbsp;
+|- style="text-align:center; font-size:smaller;"
+| colspan="2" class="toccolours" style="padding: 0;"| '''{{{historicalmap}}}'''
+|- style="text-align:center; font-size:smaller;"
+| colspan="2" | Mapa papakit ne ing maamlat a labuad ning {{{name}}} king Georgia
+|}<noinclude>
+
+
+[[Category:Country subdivision infobox templates|Georgia]]<!--probably needs focusing-->
+
+[[mk:Infobox Region of Georgia]]
+</noinclude>
