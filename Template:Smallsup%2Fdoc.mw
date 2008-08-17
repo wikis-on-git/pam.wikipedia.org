@@ -1,0 +1,16 @@
+{{template doc page}}
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+Superscripts <nowiki><small></nowiki>-sized text, i.e.
+: <code><big><nowiki>{{smallsup|Text to be superscripted}}</nowiki></big></code> produces: {{smallsup|Text to be superscripted}}
+
+This template may be listed at [[Wikipedia:Subst]] as a good candidate for substituting (i.e. <nowiki>{{subst:smallsup}}</nowiki>&nbsp;). On a page that uses the template many times, however, this is likely to clutter and lengthen the page significantly.
+
+== See also ==
+* {{tl|sup}} (superscript normal-sized text)
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Wikipedia formatting templates|{{PAGENAME}}]]
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+
+</includeonly>
