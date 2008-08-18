@@ -1,4 +1,4 @@
-:<span class="boilerplate seealso">''See also: {{#if:{{{1|}}}|[[:{{{1}}}|{{{l1|{{{1}}}}}}]] | '''[[Template talk:See also|MISSING ARTICLES]]''' 
+:<span class="boilerplate seealso">''Lon ya murin: {{#if:{{{1|}}}|[[:{{{1}}}|{{{l1|{{{1}}}}}}]] | '''[[Template talk:See also|MISSING ARTICLES]]''' 
 }}{{#if:{{{2|}}}|{{#if:{{{3|}}}|, |&nbsp;and }} [[:{{{2}}}|{{{l2|{{{2}}}}}}]]
 }}{{#if:{{{3|}}}|{{#if:{{{4|}}}|, |,&nbsp;and }} [[:{{{3}}}|{{{l3|{{{3}}}}}}]]
 }}{{#if:{{{4|}}}|{{#if:{{{5|}}}|, |,&nbsp;and }} [[:{{{4}}}|{{{l4|{{{4}}}}}}]]
