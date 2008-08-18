@@ -1,0 +1,9 @@
+<!--{{Copyedit}} begin-->{{ambox
+| type  = style
+| image = [[Image:Acap.svg|30px]]
+| text  = '''This {{{1|article or section}}} needs [[Wikipedia:How to copy-edit|copy editing]] for  {{{for|grammar, style, cohesion, tone or spelling.}}}'''<br /><small>You can assist by [{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|action=edit}} editing it] now. A how-to [[Wikipedia:How to copy-edit|guide]] is available.{{#if:{{{date|}}}|''&nbsp;({{{date}}})''|}}</small>
+}}<includeonly>{{#ifeq:{{{categories}}}|no||{{#if:{{{date|}}}|{{{category|[[Category:Wikipedia articles needing copy edit from {{{date}}}]]}}}|{{{category|[[Category:Wikipedia articles needing copy edit]]}}}}}{{{category|[[Category:All articles needing copy edit]]}}}}}{{#if:{{NAMESPACE}}||{{#if:{{{date|}}}|{{#ifexist:Category:Wikipedia articles needing copy edit from {{{date}}}||[[Category:Articles with invalid date parameter in template]]}}|}}}}
+</includeonly><!--{{Copyedit}} end--><noinclude>{{pp-semi-protected|small=yes}}
+{{Documentation}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
+</noinclude>
