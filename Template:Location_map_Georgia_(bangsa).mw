@@ -1,0 +1,19 @@
+{{#switch:{{{1}}}
+| name   = Georgia (bangsa)
+| top    = 43.5
+| bottom = 41.0
+| left   = 39.9
+| right  = 46.8
+| image  = Georgia blank.png 
+
+}}<noinclude>{{Location map/Info}}
+
+[[Category:Location map by country templates|{{PAGENAME}}]]
+
+[[be-x-old:Шаблён:Лякалізацыйная мапа Грузіі]]
+[[bg:Шаблон:ПК Грузия]]
+[[hsb:Předłoha:LocMap Georgiska]]
+[[ka:თარგი:პოზრუკა საქართველო]]
+[[nl:Sjabloon:Positiekaart Georgië]]
+[[ru:Шаблон:ПозКарта Грузия]]
+</noinclude>
