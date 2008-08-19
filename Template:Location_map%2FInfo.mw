@@ -1,0 +1,35 @@
+<small style="display:block;margin-left:1.5em">← [[Template:Location map]]</small><includeonly>
+{| class="prettytable" style="text-align:center"
+|+ Location map of {{{{PAGENAME}}|name}}
+|-
+|colspan="4"|[[image:{{{{PAGENAME}}|image}}|400x400px|{{PAGENAME}}]]
+|-
+! name
+|colspan="3"| [[{{{{PAGENAME}}|name}}]]
+|-
+!rowspan="4"|border coordinates
+|-
+|colspan="3"| {{{{PAGENAME}}|top}}
+|-
+| {{{{PAGENAME}}|left}}
+| ←↕→
+| {{{{PAGENAME}}|right}}
+|-
+|colspan="3"| {{{{PAGENAME}}|bottom}}
+|-
+! image 
+|colspan="3"| <tt>[[:Image:{{{{PAGENAME}}|image}}|{{{{PAGENAME}}|image}}]]</tt>
+|-
+! map center
+|colspan="4"| {{coord|{{#expr:({{{{PAGENAME}}|top}}+{{{{PAGENAME}}|bottom}})/2}}|{{#expr:({{{{PAGENAME}}|left}}+{{{{PAGENAME}}|right}})/2}}}}
+|}
+</includeonly><noinclude>
+[[Category:Template namespace templates|{{PAGENAME}}]]
+[[de:Vorlage:Positionskarte/Info]]
+[[dsb:Pśedłoga:LocMap/info]]
+[[hsb:Předłoha:LocMap/info]]
+[[lv:Veidne:Location map/Info]]
+[[nl:Sjabloon:Positiekaart/info]]
+[[ru:Шаблон:ПозКарта/Инфо]]
+[[tl:Template:Location map/Info]]
+[[zh:Template:Location map/Info]]</noinclude>
