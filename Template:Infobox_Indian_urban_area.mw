@@ -16,7 +16,7 @@
 -- -->}}<!--
 -->|}}[[India]]</small></span>
 |}}
-|- <!-- ###### Nickname ###### -->
+|- <!-- ###### Palayo ###### -->
 {{#if: {{{nickname|}}}|
 {{!}} colspan="2" align="center" style="background-color: {{IIJ/P|PT|{{{type|}}}}};" {{!}} <small>'''Nickname:''' ''<span class="nickname">{{{nickname|}}}</span></small>|}}''
 |- <!-- ###### IUCN category ###### -->
@@ -91,10 +91,10 @@
 |- <!-- ###### Geography ###### -->
 {{#ifexpr:
    {{#expr: {{#if:{{{area_total|}}}|1|0}} + {{#if:{{{area_metro|}}}|1|0}} + {{#if:{{{altitude|}}}|1|0}} + {{#if:{{{districts|}}}|1|0}} + {{#if:{{{coastline|}}}|1|0}} }} > 0 |
-<!----->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Geography of India|Area]]'''<!--
+<!----->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Geography of India|Lapad]]'''<!--
 -->{{#if: {{{area_metro|}}}    |<br> • [[Metropolitan area|Metro]]|}}<!--
--->{{#if: {{{altitude|}}}      |<br> • [[Elevation]]|}}<!--
--->{{#if: {{{coastline|}}}  |<br> • [[Coastline]]|}}
+-->{{#if: {{{altitude|}}}      |<br> • [[Tas]]|}}<!--
+-->{{#if: {{{coastline|}}}  |<br> • [[Bebe dayatmalat]]|}}
 <!----->{{!}} {{!}} <!--
 -->{{#if: {{{area_total|}}} |<!--
 ---->{{#if: {{{area_magnitude|}}} |<!--
@@ -127,7 +127,7 @@
 -->{{#if: {{{temp_summer|}}}  |<br> • {{{temp_summer|}}}&nbsp;°C ({{#expr:1.8*{{{temp_summer|}}}+32 round 0}}&nbsp;°F)|}}<!--
 -->{{#if: {{{temp_winter|}}}  |<br> • {{{temp_winter|}}}&nbsp;°C ({{#expr:1.8*{{{temp_winter|}}}+32 round 0}}&nbsp;°F)|}}
 }}
-|- <!-- ###### Distances ###### -->
+|- <!-- ###### Dayu ###### -->
 {{#if: {{{distance_1|}}}|
 <!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 {{!}} '''Distance(s)'''<!--
 -->{{#if: {{{distance_1|}}}|<br> • From {{AutoLink|{{{destination_1|}}}}}|}}<!--
@@ -138,7 +138,7 @@
 -->{{#if: {{{distance_2|}}}|<br> • {{formatnum:{{{distance_2}}}}}&nbsp;km <!--({{formatnum:{{#expr:0.621371192*{{{distance_2|}}} round 0}}}}&nbsp;mi)-->{{{direction_2|}}} {{#if:{{{mode_2|}}}|<small>({{{mode_2|}}})</small>}}}}<!--
 -->{{#if: {{{distance_3|}}}|<br> • {{formatnum:{{{distance_3}}}}}&nbsp;km <!--({{formatnum:{{#expr:0.621371192*{{{distance_3|}}} round 0}}}}&nbsp;mi)-->{{{direction_3|}}} {{#if:{{{mode_3|}}}|<small>({{{mode_3|}}})</small>}}}}
 }}
-|- <!-- ###### Centres of government ###### -->
+|- <!-- ###### Deng sentru ning kapamahalan ###### -->
 {{#if: {{{capital|}}}|
 <!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[List of Indian state and union territory capitals|Capital]]'''
 <!-- -->{{!}} {{!}} {{AutoLink|{{{capital|}}}}}
@@ -163,7 +163,7 @@
 <!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''Nearest city'''
 <!-- -->{{!}} {{!}} {{AutoLink|{{{nearest_city|}}}}}
 }}
-|- <!-- ###### Subdivisions ###### -->
+|- <!-- ###### Dake ###### -->
 {{#if: {{{region|}}}|
 <!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[List of regions in India|Region]]'''
 <!-- -->{{!}} {{!}} {{AutoLink|{{{region}}}}}
@@ -193,7 +193,7 @@
    {{#expr:
       {{#if:{{{population_total|}}}|1|0}} + {{#if:{{{population_density|}}}|1|0}} + {{#if:{{{sex_ratio|}}}|1|0}} + {{#if:{{{literacy|}}}|1|0}} + {{#if:{{{population_metro|}}}|1|0}} }} > 0 |
 <!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 {{!}} '''[[Population]]'''<!--
--->{{#ifexpr: {{#if:{{{population_density|}}}|1|0}} + ({{#if:{{{population_total|}}}|1|0}} * {{#if:{{{area_total|}}}|1|0}})         |<br> • [[Population density|Density]]|}}<!--
+-->{{#ifexpr: {{#if:{{{population_density|}}}|1|0}} + ({{#if:{{{population_total|}}}|1|0}} * {{#if:{{{area_total|}}}|1|0}})         |<br> • [[Population density|Pangasiksik ning populasiun]]|}}<!--
 -->{{#if: {{{population_metro|}}}      |<br> • [[Metropolitan area|Metro]]|}}<!--
 -->{{#if: {{{population_urban|}}}        |<br> • [[Urbanization|Urban]]|}}<!--
 -->{{#if: {{{sex_ratio|}}}             |<br> • [[Human sex ratio|Sex ratio]]|}}<!--
@@ -225,10 +225,10 @@
 }}
 |-
 {{#if: {{{official_languages|}}}|
-<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Official languages of India|Language(s)]]'''
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Official languages of India|Amanu]]'''
 <!-- -->{{!}} {{!}} {{AutoLink|{{{official_languages|}}}}}
 }}
-|- <!-- ###### Government ###### -->
+|- <!-- ###### Kapamahalan ###### -->
 {{#if: {{{leader_title_1|{{{leader_title|}}}}}}|
 <!--#then:-->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 {{!}} '''{{{leader_title_1|{{{leader_title|}}}}}}'''
 <!--      -->{{!}} style="border-top: 2px dotted #DCDCDC;" {{!}} {{AutoLink|{{{leader_name_1|{{{leader_name|}}}}}}}}
