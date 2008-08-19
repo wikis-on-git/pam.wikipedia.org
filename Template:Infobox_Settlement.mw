@@ -273,12 +273,12 @@
 	</tr>
 }}{{#if:{{{named_for|}}}|
 	<tr class="mergedrow">
-		<th>Named for</th>
+		<th>Mipalgiu keng</th>
 		<td>{{{named_for}}}</td>
 	</tr>
 }}<!-- *** Seat of government and subdivisions within the settlement **** -->{{#if:{{{seat|}}}|
      <tr class="mergedtoprow">
-      <th>{{#if:{{{seat_type|}}}|{{{seat_type}}}|Seat}}</th>
+      <th>{{#if:{{{seat_type|}}}|{{{seat_type}}}|Luklukan}}</th>
         <td>{{{seat}}}</td>
       </tr> 
 }}{{#if:{{{parts|}}}{{{p1|}}}|
