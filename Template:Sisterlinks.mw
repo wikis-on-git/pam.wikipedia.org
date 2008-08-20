@@ -1,0 +1,33 @@
+{| class="infobox sisterproject" style="width:235px; line-height:2.25em; font-size:90%;"
+|- style="line-height:1.3em;"
+!colspan="2" align="center"| Manakit kang karagdagang impormasiun tungkul king {{{1|{{PAGENAME}}}}} kareng kapatad nang proyektu ning Wikipedia:
+|-
+!width="37px"| [[Image:Wiktionary-logo-en.png|25x27px| ]]</span>
+| <span title="Wiktionary">[[wikt:Special:Search/{{{wikt|{{{1|{{PAGENAME}}}}}}}}|Kabaldugan king diccionariu]]
+|-
+! [[Image:Wikibooks-logo.svg|27px| ]]
+| [[b:Special:Search/{{{b|{{{1|{{PAGENAME}}}}}}}}|Aklat]]
+|-
+! [[Image:Wikiquote-logo.svg|23x27px| ]]
+| [[q:Special:Search/{{{q|{{{1|{{PAGENAME}}}}}}}}|Quotations]]
+|-
+! [[Image:Wikisource-logo.svg|26x27px| ]]
+| [[s:Special:Search/{{{s|{{{1|{{PAGENAME}}}}}}}}|Kasulatan a dalerayan]]
+|-
+! <span title="Commons">[[Image:Commons-logo.svg|19x25px| ]]
+| [[commons:Special:Search/{{{commons|{{{1|{{PAGENAME}}}}}}}}|Larawan ampong media]]
+|-
+! {{lower|6px|[[Image:Wikinews-logo.svg|27px| ]]}}
+| [[n:Special:Search/{{{n|{{{1|{{PAGENAME}}}}}}}}|News stories]]
+|-
+! [[Image:Wikiversity-logo-Snorky.svg|27px| ]]
+| [[v:Special:Search/{{{v|{{{1|{{PAGENAME}}}}}}}}|Learning resources]]
+|-
+<!--! <span title="Wikispecies">[[Image:Wikispecies-logo.svg|23x27px| ]]
+-->
+|}<noinclude>
+{{clear}}
+<br/><hr/>
+<br/>{{protected template}}
+{{documentation}}
+</noinclude>
