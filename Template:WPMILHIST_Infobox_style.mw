@@ -1,0 +1,19 @@
+<includeonly>{{#switch:{{{1|}}}
+|main_box= class="infobox {{#if:{{{2|}}}|{{{2}}}}}" style="width: 315px; border-spacing: 2px; text-align: left; font-size: 90%;"
+|header_bar= style="background: lightsteelblue; text-align: center; vertical-align: middle;"
+|nav_box= margin: 0; float: right; clear: right; width: 315px; margin-bottom: 0.5em; margin-left: 1em;
+|nav_box_wide=  
+|nav_box_header= background: lightsteelblue; font-size: 90%;
+|nav_box_wide_header= background: lightsteelblue; font-size: 95%;
+|nav_box_label= background: gainsboro;
+|nav_box_text=
+|image_box= style="text-align: center; font-size: 90%; border-bottom: 1px solid #aaa; line-height: 1.25em;"
+|image_box_plain= style="text-align: center; font-size: 90%; line-height: 1.25em;"
+|internal_border= 1px dotted #aaa;
+|section_border= 1px solid #aaa;
+|#default=
+}}</includeonly><noinclude>
+{{pp-template|small=yes}}
+{{Wikipedia:WikiProject Military history/Infobox style}}
+[[Category:WikiProject Military history templates| ]]
+</noinclude>
