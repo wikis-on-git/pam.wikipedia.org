@@ -1,0 +1,17 @@
+{| class="wikitable" 
+|-
+! width="15%" | 1900
+! width="15%" | 1930
+! width="15%" | 1950
+! width="15%" | 1970
+! width="15%" | 1986
+! width="15%" | {{{latest_year|2005}}}
+|-
+| align="center" | {{{pop_1900|''n/a''}}}
+| align="center" | {{{pop_1930|''n/a''}}}
+| align="center" | {{{pop_1950|''n/a''}}}
+| align="center" | {{{pop_1970|''n/a''}}}
+| align="center" | {{{pop_1986|''n/a''}}}
+| align="center" | {{{pop_latest|''n/a''}}}
+|-
+|}
