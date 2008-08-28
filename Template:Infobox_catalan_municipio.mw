@@ -1,0 +1,57 @@
+{| class="infobox vcard" style="width: 20em;" style="font-size: 85%"
+|- 
+| colspan="2" align="center" |<font color="#0066aa"><big><big class="fn org">'''{{{title|{{PAGENAME}}}}}'''</big></big></font>
+{{#if: {{{image_skyline<includeonly>|</includeonly>}}} |
+<tr><td align="center" colspan="2">[[Image:{{{image_skyline}}}|{{{image_skyline_size|250px}}}]]</td></tr>
+}}{{#if: {{{image_skyline_caption<includeonly>|</includeonly>}}} |
+<tr><td align="center" colspan="2"><small>{{{image_skyline_caption}}}</small></td></tr>
+}}
+|-
+| align="center" colspan="2" |
+{| border=0 cellpadding=2  cellspacing=0 style="background-color:transparent;text-align:center;"
+| width="110px" align="center" |{{#if: {{{flag|}}} |
+[[Image:{{{flag}}}|{{{image_flag_size|100px}}}|Bandera ning {{{city_name}}}]] |
+}}
+| align=center width="90px" |{{#if: {{{arms|}}} |
+[[Image:{{{arms}}}|{{{image_coat_of_arms_size|70px}}}|Sagkal armas ning {{{city_name}}}]] | }}
+|-
+|align=center width="110px" style="line-height:14px;" | {{#if:{{{flag<includeonly>|</includeonly>}}}|<small>Flag</small>}} 
+| align=center width="110px" style="line-height:14px;" |{{#if:{{{arms<includeonly>|</includeonly>}}}| <small>Sagkal Armas</small>}}
+|}
+|- bgcolor="#dcdcdc"
+! colspan="2" align=center | Karinan
+{{#if: {{{location_map<includeonly>|</includeonly>}}} |
+<tr><td align="center" colspan="2" style="background-color:transparent;">[[Image:{{{location_map}}}|{{{location_map_size|220px}}}]] </td></tr>
+}}
+|- bgcolor="#dcdcdc"
+! colspan="2" align=center | General information 
+|- class="note"
+| 
+{{#if: {{{province<includeonly>|</includeonly>}}} |
+<tr><td>'''Lalawigan'''</td><td>{{{province}}}</td></tr>
+}}
+{{#if: {{{comarca<includeonly>|</includeonly>}}} |
+<tr><td>'''[[Comarca]]'''</td><td>{{{comarca}}}</td></tr>
+}}
+{{#if: {{{demonym<includeonly>|</includeonly>}}} |
+<tr><td>'''Demonym'''</td><td>{{{demonym}}}</td></tr>
+}}
+{{#if: {{{area<includeonly>|</includeonly>}}} |
+<tr><td>'''[[Area|Lualas gabun]]'''</td><td>{{{area}}} km²</td></tr>
+}}
+{{#if: {{{elevation<includeonly>|</includeonly>}}} |
+<tr><td>'''[[Katas]]'''</td><td>{{{elevation}}} m [[AMSL]]</td></tr>
+}}
+{{#if: {{{population<includeonly>|</includeonly>}}} |
+<tr><td>'''[[Populasiun]]'''</td><td>{{{population}}} <small> ([[{{{population_year}}}]])</small> </td></tr>
+}}
+{{#if: {{{population_density<includeonly>|</includeonly>}}} |
+<tr><td>'''[[Pangasiksik]]'''</td><td>{{{population_density}}} hab./km² {{#if: {{{density_year| <small> ([[{{{density_year}}}]])</small> | }}}}} </td></tr>
+}}
+{{#if: {{{mayor<includeonly>|</includeonly>}}} |
+<tr><td>'''[[Mayor]]'''</td><td>[[{{{mayor}}}]] {{#if: {{{political_party|([[{{{political_party}}}]]) | }}}}} </td></tr>
+}}
+{{#if: {{{website<includeonly>|</includeonly>}}} |
+<tr><td colspan=2 bgcolor="#dcdcdc" align=center> '''website''': [{{{website}}} {{{website}}}]</td></tr>
+}}
+|}
