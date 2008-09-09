@@ -1,0 +1,81 @@
+<noinclude>{{start infobox page}}
+</noinclude>{| class="infobox geography vcard"
+|+ class="fn org" style="padding-bottom:0.1em; line-height:1.2em; font-size:130%;"| '''{{{full-name}}}'''
+|- class="mergedrow"
+|colspan="2" align="center" style="background:white;"|
+{| style="padding-top:1em;" border="0" cellspacing="0" cellpadding="2"
+|- class="mergedrow"
+|style="width:133px; text-align:center; vertical-align:middle;"| <!--
+ --><includeonly>[[Image:{{{flag}}}|125px|border|Bandera ning {{{name}}}]]</includeonly><!--
+ --><noinclude>''Flag image''</noinclude>
+|style="width:133px; text-align:center; vertical-align:middle;"| <!--
+ --><includeonly>[[Image:{{{coat-of-arms}}}|85px|Sagkal armas ningf {{{name}}}]]</includeonly><!--
+ --><noinclude>''Coat-of-arms image''</noinclude>
+|-
+|style="width:133px; text-align:center;"| [[Flag of {{{name<noinclude>|</noinclude>}}}|Bandera]]
+|style="width:133px; text-align:center;"| [[Coat of arms of {{{name<noinclude>|</noinclude>}}}|Kalasag]]
+|}
+|-
+{{#if:{{{motto|}}} |<tr><td colspan="2" align="center">'''[[Motto]]''': {{{motto}}}</td></tr>|}}
+{{#if:{{{anthem|}}} |<tr><td colspan="2" align="center">'''[[Dalit Pangbangsa]]''': {{{anthem}}}</td></tr>|}}
+|colspan="2" style="background:#c6c6c6; text-align:center;"| <!--
+ --><includeonly>[[Image:{{{map}}}|250px|Mapa ning {{{name}}}]]</includeonly><!--
+ --><noinclude>''Map image''</noinclude>
+|-
+|style="vertical-align:middle;"| '''[[Tungku]]'''
+| {{{capital}}}
+|-
+{{#if:{{{coordinates<includeonly>|</includeonly>}}} |<tr><th style="vertical-align:middle;">[[Geographic coordinate system|Coordinates]]</td><td>{{{coordinates}}}</td></tr>|}}
+|-
+|style="vertical-align:middle;"| '''[[Official language|Pka amanu]]'''
+| {{{language}}}
+|-
+{{#if:{{{ethnic-groups<includeonly>|</includeonly>}}} |<tr><th style="vertical-align:middle;">[[Ethnic groups]]</td><td>{{{ethnic-groups}}}</td></tr>|}}
+|-
+| '''[[Lualas]]'''<br/><!--
+ -->&nbsp;&ndash; Total<br/><!--
+ -->&nbsp;&ndash; % of Spain
+| [[List of Spanish autonomous communities by area|Ranked {{{area-rank}}}]]<br/><!--
+ -->&nbsp;[[1 {{{area-magnitude}}} m²|{{{area}}}]] [[square kilometre|km²]]<br/><!--
+ -->&nbsp;{{{area-percent}}}
+|-
+| '''[[Populasiun]]'''<br/><!--
+ -->&nbsp;&ndash; Total ({{{pop-date}}})<br/><!--
+ -->&nbsp;&ndash; % of Spain<br/><!--
+ -->&nbsp;&ndash; [[Pangasiksik]]
+| [[List of Spanish autonomous communities by population|Ranku {{{pop-rank}}}]]<br/><!--
+ -->&nbsp;{{{pop}}}<br/><!--
+ -->&nbsp;{{{pop-percent}}}<br/><!--
+ -->&nbsp;{{{density}}}/km²
+|-
+| '''[[Demonym]]'''<br/><!--
+ -->&nbsp;&ndash; [[English language|English]]<br/><!--
+ -->&nbsp;&ndash; [[Spanish language|Spanish]]<!--
+ -->{{#if:{{{local-lang|}}} |<br/>&nbsp;&ndash; {{{local-lang}}}|}}
+| <br/><!--
+ -->&nbsp;{{{english-name}}}<br/><!--
+ -->&nbsp;{{{spanish-name}}}<!--
+ -->{{#if:{{{local-name|}}} |<br/>&nbsp;{{{local-name}}}|}}
+|-
+|style="vertical-align:middle;"| <div style="line-height:1.1em;">'''Statute of Autonomy'''</div>
+| {{{autonomy}}}
+|-
+| <div style="line-height:1.1em;">'''[[Cortes Generales|Parliamentary<br/>representation]]'''</div><!--
+ -->&nbsp;&ndash; [[Congress of Deputies (Spain)|Congress seats]]<br/><!--
+ -->&nbsp;&ndash; [[Spanish Senate|Senate seats]]
+|style="vertical-align:bottom;"| <div style="line-height:1.1em;"><br/><br/></div><!--
+ -->&nbsp;{{{congress}}}<br/><!--
+ -->&nbsp;{{{senate}}}
+|-
+|style="vertical-align:top;"| '''[[{{{president-link<noinclude>|</noinclude>}}}|President]]'''
+| <span class="agent">{{{president}}}</span>
+|-
+| '''[[ISO 3166-2:ES|ISO 3166-2]]'''
+| {{{code}}}
+|-
+|colspan="2" style="text-align:center;"| {{{website}}}
+|}<noinclude>
+{{end infobox page}}
+
+<!---Please add metadata to the <includeonly> section at the bottom of the /doc subpage--->
+</noinclude>
