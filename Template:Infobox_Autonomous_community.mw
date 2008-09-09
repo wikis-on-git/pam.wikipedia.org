@@ -27,7 +27,7 @@
 |-
 {{#if:{{{coordinates<includeonly>|</includeonly>}}} |<tr><th style="vertical-align:middle;">[[Geographic coordinate system|Coordinates]]</td><td>{{{coordinates}}}</td></tr>|}}
 |-
-|style="vertical-align:middle;"| '''[[Official language|Pka amanu]]'''
+|style="vertical-align:middle;"| '''[[Official language|Peka amanu]]'''
 | {{{language}}}
 |-
 {{#if:{{{ethnic-groups<includeonly>|</includeonly>}}} |<tr><th style="vertical-align:middle;">[[Ethnic groups]]</td><td>{{{ethnic-groups}}}</td></tr>|}}
