@@ -1,0 +1,212 @@
+{| class="infobox vcard" style="width:{{{box_width|23em}}}; font-size:90%; text-align:left;"
+! colspan="2" style="text-align:center; font-size:larger; background-color:{{#if:{{{currentmembers|}}}|lightsteelblue|{{#if:{{{pastmembers|}}}|lightsteelblue|{{#if:{{{deathdate|}}}|silver|&#35;ed8}}}}}}; color:#000;" class="fn" | {{{name|{{PAGENAME}}}}}
+|-
+{{#if:{{{image|}}}|
+{{!}} colspan="2" style="text-align:center; font-size:.8;line-height:1.25em;" {{image class|{{{image}}}}} {{!}} [[Image:{{{image}}}|{{#if:{{{imagesize|}}}|{{{imagesize}}}|220px}}]]<br /><small>{{{caption|}}}</small>
+{{!}}-
+}}
+{{#if:{{{chinesename|}}} |
+! width="85" {{!}} Lagiung Isic
+{{!}} <big>{{{chinesename}}}</big>
+{{!}}-
+}}
+{{#if:{{{tradchinesename|}}} |
+! width="85" {{!}} Lagiung Isic
+{{!}} <big>{{{tradchinesename}}}</big>  <small>([[Traditional Chinese|Tradisional]])</small>
+{{!}}-
+}}
+{{#if:{{{simpchinesename|}}} |
+! width="85" {{!}} Chinese name
+{{!}} <big>{{{simpchinesename}}}</big>  <small>([[Simplified Chinese|Simpli]])</small>
+{{!}}-
+}}
+{{#if:{{{pinyinchinesename|}}} |
+! width="85" {{!}} Pinyin
+{{!}} {{{pinyinchinesename}}}  <small>([[Mandarin (linguistics)|Mandarin]])</small>
+{{!}}-
+}}
+{{#if:{{{jyutpingchinesename|}}} |
+! width="85" {{!}} Jyutping
+{{!}} {{{jyutpingchinesename}}}  <small>([[Cantonese (linguistics)|Cantonese]])</small>
+{{!}}-
+}}
+{{#if:{{{birthname|}}} |
+! width="85" {{!}} Birth name
+{{!}} {{{birthname}}}
+{{!}}-
+}}
+{{#if:{{{ancestry|}}} |
+! width="85" {{!}} Pipumpunan
+{{!}} {{{ancestry}}}
+{{!}}-
+}}
+{{#if:{{{origin|}}} |
+! width="85" {{!}} Penibatan
+{{!}} {{{origin}}}
+{{!}}-
+}}
+{{#if:{{{birthdate|}}} {{{birthplace|}}} {{{location|}}} |
+! Kebaitan
+{{!}} {{#if:{{{birthdate|}}}|{{{birthdate}}}<br />}} {{{birthplace|{{{location|}}}}}}
+{{!}}-
+}}
+{{#if:{{{deathdate|}}} {{{deathplace|}}} |
+! Kematian
+{{!}} {{#if:{{{deathdate|}}}|{{{deathdate}}}<br />}} {{{deathplace|}}}
+{{!}}-
+}}
+{{#if:{{{restingplace|}}} {{{restingplace|}}} |
+! Pipaglibingan
+{{!}} {{#if:{{{restingplace|}}}|<span class="label">{{{restingplace}}}</span><br />}} {{{restingplacecoordinates|}}}
+{{!}}-
+}}
+{{#if:{{{othername|}}} |
+! Aliwang lagiu
+{{!}} <span class="nickname">{{{othername}}}</span>
+{{!}}-
+}}
+{{#if:{{{occupation|}}} |
+! Obra
+{{!}} {{{occupation}}}
+{{!}}-
+}}
+{{#if:{{{genre|}}}|
+! style="white-space:nowrap;" {{!}} [[Music genre|Uri ning Musica]]
+{{!}} {{{genre}}}
+{{!}}-
+}}
+{{#if:{{{instrument|}}}|
+! style="white-space:nowrap;" {{!}} [[Musical instrument|Instrumentu]]
+{{!}} class="note" {{!}} {{{instrument}}}
+{{!}}-
+}}
+{{#if:{{{voicetype|}}}|
+! style="white-space:nowrap;" {{!}} [[Voice type|Uri ning bosis]]
+{{!}} class="note" {{!}} {{{voicetype}}}
+{{!}}-
+}}
+{{#if:{{{label|}}}|
+! style="white-space:nowrap; padding-right:1em;" {{!}} [[Record label|Marca]]
+{{!}} {{{label}}}
+{{!}}-
+}}
+{{#if:{{{yearsactive|}}} |
+! Years active
+{{!}} {{{yearsactive}}}
+{{!}}-
+}}
+{{#if:{{{associatedact|}}}|
+! style="white-space:nowrap; padding-right:1em;" {{!}} Makaugneng lage
+{{!}} {{{associatedact}}}
+{{!}}-
+}}
+{{#if:{{{currentmembers|}}}|
+! style="white-space:nowrap; padding-right:1em;" {{!}} Current Members
+{{!}} {{{currentmembers}}}
+{{!}}-
+}}
+{{#if:{{{pastmembers|}}}|
+! style="white-space:nowrap; padding-right:1em;" {{!}} Past Members
+{{!}} {{{pastmembers}}}
+{{!}}-
+}}
+{{#if:{{{spouse|}}} |
+! Spouse(s)
+{{!}} {{{spouse}}}
+{{!}}-
+}}
+{{#if:{{{partner|}}} |
+! Partner(s)
+{{!}} {{{partner}}}
+{{!}}-
+}}
+{{#if:{{{children|}}} |
+! Children
+{{!}} {{{children}}}
+{{!}}-
+}}
+{{#if:{{{parents|}}} |
+! Parents
+{{!}} {{{parents}}}
+{{!}}-
+}}
+{{#if:{{{influences|}}} |
+! Influences
+{{!}} <span class="label">{{{influences}}}</span>
+{{!}}-
+}}
+{{#if:{{{influenced|}}} |
+! Influenced
+{{!}} <span class="label">{{{influenced}}}</span>
+{{!}}-
+}}
+{{#if:{{{website|{{{homepage|}}}}}} |
+! Opisial a karinan
+{{!}} {{{website|{{{homepage|}}}}}}
+{{!}}-
+}}
+{{#if:{{{awards|}}} {{{hongkongfilmwards|}}} {{{goldenbauhiniaawards|}}} {{{hkfcsawards|}}} {{{goldenhorseawards|}}} {{{goldenroosterawards|}}}{{{mtvasiaawards|}}}{{{goldenmelodyawards|}}}{{{ntsawards|}}} {{{awards|}}} |
+{{!}} colspan="2" align="center" {{!}}
+{{{!}} class="collapsible collapsed" width=100%
+! style="background-color:{{#if:{{{currentmembers|}}}|lightsteelblue|{{#if:{{{pastmembers|}}}|lightsteelblue|{{#if:{{{deathdate|}}}|silver|&#35;ed8}}}}}}" {{!}} Awards
+{{!}}-
+{{#if:{{{hongkongfilmwards|}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{deathdate|}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Hong Kong Film Awards]]
+{{!}}-
+{{!}} colspan="2" {{!}} {{{hongkongfilmwards}}}
+{{!}}-
+}}
+{{#if:{{{goldenbauhiniaawards|}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{deathdate|}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Golden Bauhinia Awards]]
+{{!}}-
+{{!}} colspan="2" {{!}} {{{goldenbauhiniaawards}}}
+{{!}}-
+}}
+{{#if:{{{hkfcsawards|}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{deathdate|}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Hong Kong Film Critics Society Awards]]
+{{!}}-
+{{!}} colspan="2" {{!}} {{{hkfcsawards}}}
+{{!}}-
+}}
+{{#if:{{{goldenhorseawards|}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{deathdate|}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Golden Horse Film Festival and Awards|Golden Horse Awards]]
+{{!}}-
+{{!}} colspan="2" {{!}} {{{goldenhorseawards}}}
+{{!}}-
+}}
+{{#if:{{{goldenroosterawards|}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{deathdate|}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Golden Rooster Awards]]
+{{!}}-
+{{!}} colspan="2" {{!}} {{{goldenroosterawards}}}
+{{!}}-
+}}
+{{#if:{{{mtvasiaawards|}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{currentmembers|}}}|lightsteelblue|{{#if:{{{pastmembers|}}}|lightsteelblue|{{#if:{{{deathdate|}}}|silver|&#35;ed8}}}}}}; color:#000;" {{!}} [[MTV Asia Awards]]
+{{!}}-
+{{!}} colspan="2" {{!}} {{{mtvasiaawards}}}
+{{!}}-
+}}
+{{#if:{{{goldenmelodyawards|}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{currentmembers|}}}|lightsteelblue|{{#if:{{{pastmembers|}}}|lightsteelblue|{{#if:{{{deathdate|}}}|silver|&#35;ed8}}}}}}; color:#000;" {{!}} [[Golden Melody Award]]s
+{{!}}-
+{{!}} colspan="2" {{!}} {{{goldenmelodyawards}}}
+{{!}}-
+}}
+{{#if:{{{ntsawards|}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{currentmembers|}}}|lightsteelblue|{{#if:{{{pastmembers|}}}|lightsteelblue|{{#if:{{{deathdate|}}}|silver|&#35;ed8}}}}}}; color:#000;" {{!}} [[New Talent Singing Awards]]
+{{!}}-
+{{!}} colspan="2" {{!}} {{{ntsawards}}}
+{{!}}-
+}}
+{{#if:{{{awards|}}} |
+{{#if:{{{hongkongfilmwards|}}} {{{goldenbauhiniaawards|}}} {{{hkfcsawards|}}} {{{goldenhorseawards|}}} {{{goldenroosterawards|}}}{{{mtvasiaawards|}}}{{{goldenmelodyawards|}}}{{{ntsawards|}}} |
+! colspan="2" style="text-align:center; background-color:{{#if:{{{currentmembers|}}}|lightsteelblue|{{#if:{{{pastmembers|}}}|lightsteelblue|{{#if:{{{deathdate|}}}|silver|&#35;ed8}}}}}}; color:#000;" {{!}} Other Awards}}
+{{!}}-
+{{!}} colspan="2" {{!}} {{{awards}}}
+{{!}}-
+}}
+{{!}}}
+}}
+|}<noinclude>
+{{template doc|Template:Infobox Chinese-language singer and actor/doc}}
+</noinclude>
