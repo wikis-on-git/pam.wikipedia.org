@@ -16,7 +16,7 @@
 {{!}}-
 }}
 {{#if:{{{simpchinesename|}}} |
-! width="85" {{!}} Chinese name
+! width="85" {{!}} Lagiung Isic
 {{!}} <big>{{{simpchinesename}}}</big>  <small>([[Simplified Chinese|Simpli]])</small>
 {{!}}-
 }}
