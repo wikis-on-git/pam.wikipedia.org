@@ -145,10 +145,10 @@
 {{!}} {{{website|{{{homepage|}}}}}}
 {{!}}-
 }}
-{{#if:{{{awards|}}} {{{hongkongfilmwards|}}} {{{goldenbauhiniaawards|}}} {{{hkfcsawards|}}} {{{goldenhorseawards|}}} {{{goldenroosterawards|}}}{{{mtvasiaawards|}}}{{{goldenmelodyawards|}}}{{{ntsawards|}}} {{{Galal|}}} |
+{{#if:{{{awards|}}} {{{hongkongfilmwards|}}} {{{goldenbauhiniaawards|}}} {{{hkfcsawards|}}} {{{goldenhorseawards|}}} {{{goldenroosterawards|}}}{{{mtvasiaawards|}}}{{{goldenmelodyawards|}}}{{{ntsawards|}}} {{{awards|}}} |
 {{!}} colspan="2" align="center" {{!}}
 {{{!}} class="collapsible collapsed" width=100%
-! style="background-color:{{#if:{{{currentmembers|}}}|lightsteelblue|{{#if:{{{pastmembers|}}}|lightsteelblue|{{#if:{{{deathdate|}}}|silver|&#35;ed8}}}}}}" {{!}} Awards
+! style="background-color:{{#if:{{{currentmembers|}}}|lightsteelblue|{{#if:{{{pastmembers|}}}|lightsteelblue|{{#if:{{{deathdate|}}}|silver|&#35;ed8}}}}}}" {{!}} Galal
 {{!}}-
 {{#if:{{{hongkongfilmwards|}}} |
 ! colspan="2" style="text-align:center; background-color:{{#if:{{{deathdate|}}}|silver|&#35;ed8}}; color:#000;" {{!}} [[Hong Kong Film Awards]]
