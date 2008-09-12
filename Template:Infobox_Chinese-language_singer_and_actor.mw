@@ -12,12 +12,12 @@
 }}
 {{#if:{{{tradchinesename|}}} |
 ! width="85" {{!}} Lagiung Isic
-{{!}} <big>{{{tradchinesename}}}</big>  <small>([[Traditional Chinese|Tradisional]])</small>
+{{!}} <big>{{{tradchinesename}}}</big>  <small>([[w:Traditional Chinese|Tradisiunal]])</small>
 {{!}}-
 }}
 {{#if:{{{simpchinesename|}}} |
 ! width="85" {{!}} Lagiung Isic
-{{!}} <big>{{{simpchinesename}}}</big>  <small>([[Simplified Chinese|Simpli]])</small>
+{{!}} <big>{{{simpchinesename}}}</big>  <small>([[w:Simplified Chinese|Simpli]])</small>
 {{!}}-
 }}
 {{#if:{{{pinyinchinesename|}}} |
