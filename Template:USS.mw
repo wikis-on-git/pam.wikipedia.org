@@ -1,0 +1,36 @@
+<includeonly><!-- link:
+-->[[USS <!--
+-->{{{1}}}<!--
+-->{{#if:{{{2|}}}<!--
+then:-->|&#32;({{{2}}})<!--
+-->}}<!--
+-->|<!-- link text:
+-->{{#switch:{{{3|7}}}<!--
+     -->|1 = <!--
+             -->{{#if:{{{2|}}}<!--
+             then:-->|{{{2}}}<!--
+             else:-->|Hull Number Missing<!--
+             -->}}<!--
+     -->|2 = ''{{{1}}}''<!--
+     -->|3 = ''{{{1}}}''&nbsp;<!--
+             -->{{#if:{{{2|}}}<!--
+             then:-->|({{{2}}})<!--
+             else:-->|Hull Number Missing<!--
+             -->}}<!--
+     -->|4 = Invalid Optional Parameter <!--
+     -->|5 = USS&nbsp;<!--
+             -->{{#if:{{{2|}}}<!--
+             then:-->|({{{2}}})<!--
+             else:-->|Hull Number Missing<!--
+             -->}}<!--
+     -->|6 = USS&nbsp;''{{{1}}}''<!--
+     -->|USS&nbsp;''{{{1}}}''<!--
+             -->{{#if:{{{2|}}}<!--
+             then:-->|&nbsp;({{{2}}})<!--
+             -->}}<!--
+-->}}<!--
+-->]]</includeonly><noinclude>
+Ini metung yang shortcut king pamaniuglung kareng articulu tungkul kareng bapor ning [[US Navy]].
+{{template doc}}
+<!-- Idagdag la reng kategoria ampong interwikis king /doc subpage, e keni! -->
+</noinclude>
