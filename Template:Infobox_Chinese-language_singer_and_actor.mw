@@ -31,7 +31,7 @@
 {{!}}-
 }}
 {{#if:{{{birthname|}}} |
-! width="85" {{!}} Birth name
+! width="85" {{!}} Lagiu aniang mibait ya
 {{!}} {{{birthname}}}
 {{!}}-
 }}
@@ -91,7 +91,7 @@
 {{!}}-
 }}
 {{#if:{{{yearsactive|}}} |
-! Years active
+! Banua aniang aktibu ya
 {{!}} {{{yearsactive}}}
 {{!}}-
 }}
@@ -101,42 +101,42 @@
 {{!}}-
 }}
 {{#if:{{{currentmembers|}}}|
-! style="white-space:nowrap; padding-right:1em;" {{!}} Current Members
+! style="white-space:nowrap; padding-right:1em;" {{!}} Kasalungsungan a kayanib
 {{!}} {{{currentmembers}}}
 {{!}}-
 }}
 {{#if:{{{pastmembers|}}}|
-! style="white-space:nowrap; padding-right:1em;" {{!}} Past Members
+! style="white-space:nowrap; padding-right:1em;" {{!}} Sadiang kayanib
 {{!}} {{{pastmembers}}}
 {{!}}-
 }}
 {{#if:{{{spouse|}}} |
-! Spouse(s)
+! Asawa
 {{!}} {{{spouse}}}
 {{!}}-
 }}
 {{#if:{{{partner|}}} |
-! Partner(s)
+! Kapareha
 {{!}} {{{partner}}}
 {{!}}-
 }}
 {{#if:{{{children|}}} |
-! Children
+! Anak
 {{!}} {{{children}}}
 {{!}}-
 }}
 {{#if:{{{parents|}}} |
-! Parents
+! Pengari
 {{!}} {{{parents}}}
 {{!}}-
 }}
 {{#if:{{{influences|}}} |
-! Influences
+! Impluensia
 {{!}} <span class="label">{{{influences}}}</span>
 {{!}}-
 }}
 {{#if:{{{influenced|}}} |
-! Influenced
+! A-impluensian
 {{!}} <span class="label">{{{influenced}}}</span>
 {{!}}-
 }}
