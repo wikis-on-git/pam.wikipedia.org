@@ -145,7 +145,7 @@
 {{!}} {{{website|{{{homepage|}}}}}}
 {{!}}-
 }}
-{{#if:{{{awards|}}} {{{hongkongfilmwards|}}} {{{goldenbauhiniaawards|}}} {{{hkfcsawards|}}} {{{goldenhorseawards|}}} {{{goldenroosterawards|}}}{{{mtvasiaawards|}}}{{{goldenmelodyawards|}}}{{{ntsawards|}}} {{{awards|}}} |
+{{#if:{{{awards|}}} {{{hongkongfilmwards|}}} {{{goldenbauhiniaawards|}}} {{{hkfcsawards|}}} {{{goldenhorseawards|}}} {{{goldenroosterawards|}}}{{{mtvasiaawards|}}}{{{goldenmelodyawards|}}}{{{ntsawards|}}} {{{Galal|}}} |
 {{!}} colspan="2" align="center" {{!}}
 {{{!}} class="collapsible collapsed" width=100%
 ! style="background-color:{{#if:{{{currentmembers|}}}|lightsteelblue|{{#if:{{{pastmembers|}}}|lightsteelblue|{{#if:{{{deathdate|}}}|silver|&#35;ed8}}}}}}" {{!}} Awards
