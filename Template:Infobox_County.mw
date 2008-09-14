@@ -1,71 +1,132 @@
-{| class="infobox" style="width: 23em; font-size: 95%; text-align: left;"
-|+ style="font-size: 1.25em;" | '''{{{official_name}}}'''
+<includeonly>{{#if:{{{lat deg|}}}| {{#if:{{{long deg|}}}| {{coord|{{{lat deg}}}|{{{lat min|0}}}|N|{{{long deg}}}|{{{long min|0}}}|W|display=title}} }} }}
+{| class="infobox vcard" cellpadding="3" style="width: 21em; font-size: 95%; text-align: left; clear:right; float:right; margin: 0 0 0.5em 1em;"
 |-
-| colspan="2" class="hiddenStructure{{{image_skyline|}}}" style="text-align: center;" | [[Image:{{{image_skyline}}}|250px|none|Skyline of {{{official_name}}}]]
-|- 
-| colspan="2" style="text-align: center;" |
-{| align="center" style="background: none;"
-|- style="text-align: center;"
-| class="hiddenStructure{{{image_flag|}}}" style="width: 135px" | [[Image:{{{image_flag}}}|100px|Official flag of {{{official_name}}}]]<br /><small>[[Flag]]</small>
-| class="hiddenStructure{{{image_seal|}}}" style="width: 110px" | [[Image:{{{image_seal}}}|75px|Official seal of {{{official_name}}}]]<br /><small>[[Seal (device)|Seal]]</small>
-|}
-|- class="hiddenStructure{{{website|}}}" style="font-size: smaller; text-align: center;"
-| colspan="2" | Official website: {{{website}}}
-|- class="hiddenStructure{{{image_map|}}}"
-! colspan="2" style="background-color: #e0e0e0; text-align: center;" | Location
-|- class="hiddenStructure{{{image_map|}}}"
-| align="center" colspan="2" style="font-size: smaller;" |
-[[Image:{{{image_map}}}|250px|Location of {{{official_name}}}]] <br> {{{map_caption|}}}
+| colspan="2" style="text-align: center; font-size: larger;" | '''<span class="fn org">{{{county}}}</span>, <span class="adr"><span class="region">{{{state}}}</span></span>'''
 |-
-! colspan="2" style="background-color: #e0e0e0; text-align: center;" | Government
+{{#if: {{{seal|}}}|
+{{!}} colspan="2" style="text-align: center;" {{!}} [[Image:{{{seal|}}}|{{{seal size|75}}}px|Sagisag ning {{{county|}}}, {{{state|}}}]]}}
 |-
-! {{{subdivision_type}}}
-| {{{subdivision_name}}}
+|colspan="2" style="text-align: center; background:#E0E0E0; "| '''Mapa'''
 |-
-! {{{leader_title}}}
-| {{{leader_name}}}
-|- class="hiddenStructure{{{formed|}}}"
-! Formed
-| {{{formed}}}
-|- class="hiddenStructure{{{county_seat|}}}"
-! [[County tungku]]
-| {{{county_seat}}}
+|colspan="2" style="text-align: center;"| [[Image:Mapa ning {{{state}}} pamasala ne ing {{{county}}}.svg|{{#switch:{{{state}}}|New Jersey =120px|Vermont =120px|Maine=130px|Delaware=120px|New Hampshire=110px|Illinois=130px|Alabama=120px|Mississippi=120px|Ohio=180px|Indiana=130px|Nevada=130px|Idaho=130px|200px}}|Map of {{{state|}}} highlighting {{{county|}}} ]]<br>Location in the state of {{#switch:{{{state}}} 
+| Georgia = [[Georgia (U.S. state)|Georgia]]
+| [[{{{state|}}}]]}}
+|- <!-- It seems that the U.S. maps that show one state highlighted are named "Map of USA MD.svg" (for Maryland, as an example. This switch statement looks at the state name and replaces it with the two-letter abbreviation. This way, we can simply call "Map of USA {{Switch for state}} without having to manually update every county's page. User:Timneu22 February 18 -->
+|colspan="2" style="text-align: center;" {{!}} [[Image:Map of USA {{#switch:{{{state}}}
+| Alabama = AL.svg
+| Alaska = AK full.png
+| Arizona = AZ.svg
+| Arkansas = AR.svg
+| California = CA.svg
+| Colorado = CO.svg
+| Connecticut = CT.svg
+| Delaware = DE.svg
+| Florida = FL.svg
+| Georgia = GA.svg
+| Hawaii = HI full.png | Hawai{{okina}}i = HI full.png
+| Idaho = ID.svg
+| Illinois = IL.svg
+| Indiana = IN.svg
+| Iowa = IA.svg
+| Kansas = KS.svg
+| Kentucky = KY.svg
+| Louisiana = LA.svg
+| Maine = ME.svg
+| Maryland = MD.svg
+| Massachusetts = MA.svg
+| Michigan = MI.svg
+| Minnesota = MN.svg
+| Mississippi = MS.svg
+| Missouri = MO.svg
+| Montana = MT.svg
+| Nebraska = NE.svg
+| Nevada = NV.svg
+| New Hampshire = NH.svg
+| New Jersey = NJ.svg
+| New Mexico = NM.svg
+| New York = NY.svg
+| North Carolina = NC.svg
+| North Dakota = ND.svg
+| Ohio = OH.svg
+| Oklahoma = OK.svg
+| Oregon = OR.svg
+| Pennsylvania = PA.svg
+| Rhode Island = RI.svg
+| South Carolina = SC.svg | South&nbsp;Carolina = SC.svg
+| South Dakota = SD.svg
+| Tennessee = TN.svg
+| Texas = TX.svg
+| Utah = UT.svg
+| Vermont = VT.svg
+| Virginia = VA.svg
+| Washington = WA.svg
+| West Virginia = WV.svg
+| Wisconsin = WI.svg
+| Wyoming = WY.svg
+| ERROR, wrong state name. looking for Map of USA XX.svg where XX is the two-letter abbreviation of the state}} {{!}} Map of the USA highlighting {{{state}}}{{!}}200px{{!}}Map of the U.S. highlighting {{{state}}}]]<br>{{{state}}}'s location in the [[United States|U.S.]]
 |-
-! colspan="2" style="background-color: #e0e0e0; text-align: center;" | Geographical characteristics
+| colspan="2" style="text-align: center; background:#E0E0E0;" | '''Statistics'''
+|- class="note"
+!style="background:#efefef;"| {{{founded title|Mitatag}}} <!-- old way, use "founded". new way: use date, year (and automatically create links-->
+| {{#if:{{{founded|}}}|{{{founded}}}
+| {{#if:{{{founded date|}}}| {{AutoLink|{{{founded date}}}}}, {{AutoLink|{{{founded year|}}}}}
+| {{#if:{{{founded year|}}}| {{AutoLink|{{{founded year|}}}}} | ''information needed''}} }} }}
 |-
-! [[Lapad/Dagul]]
-| style="white-space: nowrap;" | {{{area_eganagana}}} [[km²]]
-|- style="text-indent: 1em;"
-! Gabun
-| style="white-space: nowrap;" | {{{area_gabun}}} [[km²]]
-|- style="text-indent: 1em;"
-! Danum
-| style="white-space: nowrap;" | {{{area_danum}}} [[km²]]
+!style="background:#efefef;"| [[County seat|Luklukan]]<!-- use old way and new way -->
+| {{#if:{{{seat|}}}|{{{seat}}}
+| {{#if:{{{seat wl|}}}|[[{{{seat wl}}}, {{{state}}}{{!}}{{{seat wl}}}]]}} }}
 |-
-! [[Populasyun]]
-| class="hiddenStructure{{{population_note|}}}" | {{{population_note}}}
-|- style="text-indent: 1em;"
-! style="white-space: nowrap;" | Total ([[as of {{{population_year}}}|{{{population_year}}}]])
-| {{{population_total}}}
-|- style="text-indent: 1em; white-space: nowrap;"
-! [[Population density|Density]]
-| {{{population_density}}}/[[square kilometre|km²]]
-|- class="hiddenStructure{{{latitude|}}}"
-! [[Latitude]]
-| {{{latitude}}}
-|- class="hiddenStructure{{{longitude|}}}"
-! [[Longitude]]
-| {{{longitude}}}
+{{#if: {{{largest city|}}}|<!-- OLD WAY -->
+! style="background:#efefef" {{!}} Pekamaragul a Lakanbalen
+{{!}} {{{largest city}}} }}
 |-
-! [[Time zone]]
-| {{{timezone}}} ([[Coordinated Universal Time|UTC]]{{{utc_offset}}})
-|- class="hiddenStructure{{{timezone_DST|}}}" style="text-indent: 1em;" 
-! Summer&nbsp;([[Daylight saving time|DST]])
-| {{{timezone_DST}}} ([[Coordinated Universal Time|UTC]]{{{utc_offset_DST}}})
+{{#if: {{{largest city wl|}}}|<!-- NEW WAY; if a user has "largest city" and "largest city wl", they can just correct it-->
+! style="background:#efefef" {{!}} Pekamaragul {{{city type|lakanbalen}}}
+{{!}} {{#ifeq: {{{largest city wl}}}|{{{seat wl}}}|{{{largest city wl}}}|[[{{{largest city wl}}}, {{{state}}}{{!}}{{{largest city wl}}}]] }} }}
 |-
-| colspan="2" | {{{footnotes|}}}
-|}
-<noinclude>
-[[Category:Infobox templates|County]]
-[[bg:Шаблон:Американски окръг]]
+!style="background:#efefef;"| [[Lualas]]<br>&nbsp;- Eganagana<br>&nbsp;- Gabun<br>&nbsp;- Danuman
+| <br> {{#if:{{{area_total_sq_mi|}}}|{{formatnum:{{{area_total_sq_mi|}}}}}&nbsp;[[square mile|kd&nbsp;mi]]|{{#if:{{{area_total_km2|}}}|{{formatnum:{{#expr:{{{area_total_km2|}}}/ 2.589988110336 round 0}}}}&nbsp;[[square mile|sq&nbsp;mi]]}} }} {{#if:{{{area_total_km2|}}}|({{formatnum:{{{area_total_km2|}}}}}&nbsp;[[square kilometre|km²]])|{{#if:{{{area_total_sq_mi|}}}|({{formatnum:{{#expr:{{{area_total_sq_mi|}}}* 2.589988110336 round 0}}}}&nbsp;[[square kilometre|km²]]) }}}}<br>{{#if:{{{area_land_sq_mi|}}}|{{formatnum:{{{area_land_sq_mi|}}}}}&nbsp;sq&nbsp;mi|{{#if:{{{area_land_km2|}}}|{{formatnum:{{#expr:{{{area_land_km2|}}}/ 2.589988110336 round 0}}}}&nbsp;sq&nbsp;mi}} }} {{#if:{{{area_land_km2|}}}|({{formatnum:{{{area_land_km2|}}}}}&nbsp;km²)|{{#if:{{{area_land_sq_mi|}}}|({{formatnum:{{#expr:{{{area_land_sq_mi|}}}* 2.589988110336 round 0}}}}&nbsp;km²) }}}}<br>{{#if:{{{area_water_sq_mi|}}}|{{formatnum:{{{area_water_sq_mi|}}}}}&nbsp;sq&nbsp;mi|{{#if:{{{area_water_km2|}}}|{{formatnum:{{#expr:{{{area_water_km2|}}}/ 2.589988110336 round 0}}}}&nbsp;sq&nbsp;mi}} }} {{#if:{{{area_water_km2|}}}|({{formatnum:{{{area_water_km2|}}}}}&nbsp;km²)|{{#if:{{{area_water_sq_mi|}}}|({{formatnum:{{#expr:{{{area_water_sq_mi|}}}* 2.589988110336 round 0}}}}&nbsp;km²) }}}}, {{{area percentage|}}}
+|-
+!style="background:#efefef;"| [[Populasiun]]{{#if:{{{census estimate yr|}}}|<sup>Est.</sup>||}}<br>&nbsp;-&nbsp;{{#if: {{{census yr|}}}|([[United States Census, {{{census yr}}}|{{{census yr}}}]])<br>&nbsp;-}}{{#if: {{{census estimate yr|}}}|([[United States Census Bureau|{{{census estimate yr}}}]])<br>&nbsp;-}} [[Population density|Pangasiksik]] 
+|<br> {{formatnum:{{{pop|}}}}} <br> {{#if:{{{density_sq_mi|}}}|{{formatnum:{{{density_sq_mi|}}}}}/sq&nbsp;mi|{{#if:{{{density_km2|}}}|{{formatnum:{{#expr:{{{density_km2|}}}* 2.589988110336 round 0}}}}/sq&nbsp;mi}} }} {{#if:{{{density_km2|}}}|({{formatnum:{{{density_km2|}}}}}/km²)|{{#if:{{{density_sq_mi|}}}|({{formatnum:{{#expr:{{{density_sq_mi|}}}/ 2.589988110336 round 0}}}}/km²) }}}}
+|-
+{{#if: {{{time zone|}}}|
+! style="background:#efefef;" {{!}} [[Oras zona]]
+{{!}} {{#switch:{{{time zone}}}
+| Eastern = [[North American Eastern Time Zone|Eastern]]: [[Coordinated Universal Time|UTC-5]]/[[Daylight saving time|-4]]
+| Central = [[North American Central Time Zone|Central]]: [[Coordinated Universal Time|UTC-6]]/[[Daylight saving time|-5]]
+| Mountain = {{#ifeq:{{{state}}}|Arizona|[[Mountain Time Zone|Mountain]]: [[Coordinated Universal Time|UTC-7]]|[[Mountain Time Zone|Mountain]]: [[Coordinated Universal Time|UTC-7]]/[[Daylight saving time|-6]]}}
+| Pacific = [[Pacific Time Zone|Pacific]]: [[Coordinated Universal Time|UTC-8]]/[[Daylight saving time|-7]]
+| Alaska = [[Alaska Time Zone|Alaska]]: [[Coordinated Universal Time|UTC-9]]/[[Daylight saving time|-8]]
+| Hawaii = [[Hawaii-Aleutian time zone]]: [[Coordinated Universal Time|UTC-10]]
+| {{{time zone}}} : {{{UTC offset|}}}/{{{DST offset|}}}
+}} }}
+|-
+{{#if: {{{web|}}}|
+{{!}} colspan="2" style="text-align: left; border-top: solid 1px #ccd2d9;" {{!}} '''Website:''' <span class="url">[http://{{{web|}}} {{{web|}}}]</span>}}
+|- class="note"
+{{#if: {{{named for|}}}|
+{{!}} colspan="2" style="text-align: left; border-top: solid 1px #ccd2d9;" {{!}} '''Mipalagyu kang:''' {{{named for}}}}}
+|-
+{{#if: {{{flag|}}}|
+! style="background:#E0E0E0; border-top: solid 1px #ccd2d9;" {{!}} County flag
+{{!}} style="background:#E0E0E0;" {{!}} [[Image:{{{flag|}}}|{{{flag size|100}}}px|Bandera ning {{{county|}}}, {{{state|}}}]]}}
+|-
+{{#if: {{{logo|}}}|
+! style="background:#E0E0E0; border-top: solid 1px #ccd2d9;" {{!}} County logo
+{{!}} style="background:#E0E0E0;" {{!}} [[Image:{{{logo|}}}|{{{logo size|100}}}px|Logo ning {{{county|}}}, {{{state|}}}]]}}
+|-
+{{#if: {{{ex image|}}}|
+{{!}} colspan="2" {{!}} [[Image:{{{ex image}}}|center|{{{ex image size|200}}}px]]<small>{{{ex image cap|}}}</small> }}
+|-
+<!----- footnotes ----->
+{{#if: {{{footnotes|}}} |
+{{!}} colspan="2" style="text-align: left; border-top: solid 1px #ccd2d9;" {{!}} <small>{{{footnotes|}}}</small> }}
+|}<!--Add the category automatically, except for some states-->{{#switch:{{{state}}}
+| Alaska=[[Category:Alaska boroughs]]
+| Georgia=[[Category:Georgia (U.S. state) counties]]
+| Louisiana=[[Category:Louisiana parishes]]
+| {{#ifeq:{{NAMESPACE}}|Template talk| |[[Category:{{{state}}} counties]]}} }}</includeonly><noinclude>
+
+{{documentation}}
 </noinclude>
