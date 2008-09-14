@@ -1,20 +1,9 @@
-{{catmore}}
-{{Languages of Asia (category)}}
-{{Commons cat|Languages of the Philippines}}
+{{Asia topic
+|name   = Languages of Asia (category)
+|state  = {{{state<includeonly>|autocollapse</includeonly>}}}
+|title  = Languages of Asia (categories)
+|prefix = :Category:Languages of
+}}<noinclude>
 
-[[Category:Languages of Southeast Asia|Philippines]]
-[[Category:Filipino culture]]
-[[Category:Filipino society]]
-
-[[de:Kategorie:Philippinische Sprache]]
-[[eo:Kategorio:Lingvoj de la Filipinoj]]
-[[fr:Catégorie:Langue des Philippines]]
-[[ko:분류:필리핀의 언어]]
-[[id:Kategori:Bahasa di Filipina]]
-[[it:Categoria:Lingue nelle Filippine]]
-[[mk:Категорија:Јазици на Филипините]]
-[[nl:Categorie:Taal in de Filipijnen]]
-[[ja:Category:フィリピンの言語]]
-[[ru:Категория:Языки Филиппин]]
-[[fi:Luokka:Filippiinien kielet]]
-[[zh:Category:菲律賓語言]]
+[[Category:Asia templates|Languages]]
+</noinclude>
