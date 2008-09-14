@@ -1,0 +1,1 @@
+{{#if:{{{shield_ext|}}}|[[Image:I-{{{num}}} ({{{shield_ext|}}}).svg|88x70px]]|[[Image:I-{{{num}}}.svg|88x70px]]}}<noinclude>[[Category:Interstate highway infobox templates|{{PAGENAME}}]]</noinclude>
