@@ -1,4 +1,4 @@
-{| class="infobox bordered" style="float: right; margin: 0 0 1em 1em; width:270px;
+{| class="infobox bordered" style="width:270px;"
 ! colspan="3" style="text-align: center; font-size:110%; color: {{
  #if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox Language/family-color|{{{familycolor|}}}}}|black|1}}
  |white
