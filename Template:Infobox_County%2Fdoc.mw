@@ -1,0 +1,71 @@
+{{documentation subpage}}
+<!---PLEASE ADD METADATA TO THE <includeonly> SECTION AT THE BOTTOM OF THIS PAGE--->
+'''Infobox U.S. County''' is the standard infobox used for all county articles in the United States. There are other templates that are helpful for U.S. County Articles:
+* [[Template:USCensusPop|USCensusPop]] - lists the population of the county per decade.
+* [[Template:Coord|Coord]] - a cool template that displays the coordinates of the county. Notes about this one:
+** If a user enters the '''lat deg''' and '''long deg''' variables on this template, "coord" displays by default with "0" values for minutes.
+** A user can enter all four variables if necessary: '''lat deg''', '''lat min''', '''long deg''', '''long min'''.
+** For more advanced syntax usage of the "coord" template, do not use latitude/longitude but manually add "coord" to the article using the alternative syntax available within the [[Template:Coord|coord template]].
+
+''See [[Template Talk:Infobox U.S. County/Sample|the sample page]] to see how this template is rendered.''
+
+<pre style="font-size:95%; overflow:auto;">
+<!--Note that Map image is generated automatically: Map of STATE highlighting COUNTY.svg.-->
+
+{{Infobox U.S. County
+|county        =  <!-- the word "County" should appear here. Type "Washington County", not "Washington" -->
+|state         = 
+|seal          =  <!-- image of county seal -->
+|founded year  =  <!-- if you include a reference, the year's wikilink won't work so add the [[]] to the year -->
+|founded date  =  <!-- optional: syntax is: February 1 -->
+|founded title =  <!-- optional. The word "Founded" displays if this is not declared. -->
+|seat wl       =  <!-- county seat; the WikiLink is created for you: "City" results in "[[City, State|City]]" -->
+|largest city wl =  <!-- largest city; the WikiLink is created for you: "City" results in "[[City, State|City]]" -->
+|city type     =  <!-- optional: Put "Village" here and the page will say "Largest Village" (if "city" doesn't apply) -->
+|area_total_sq_mi = 
+|area_total_km2   = 
+|area_land_sq_mi  =  <!--ALL AREA fields: ENTER in RAW format only, i.e. 10000 and NOT 10,000-->
+|area_land_km2    = 
+|area_water_sq_mi =  <!-- ALL AREA fields: Units will convert automatically; km² to sq&nbsp;mi & vise versa-->
+|area_water_km2   = 
+|area percentage  = 
+|lat deg       =  <!-- optional, enter degrees north -->
+|lat min       =  <!-- optional, enter minutes north -->
+|long deg      =  <!-- optional, enter degrees west; used with "latitude" to display COORD template -->
+|long min      =  <!-- optional, enter minutes west --> 
+|pop           =  <!--NUMBERS ONLY, raw formated, i.e. 10000 and NOT 10,000-->
+|census yr     =
+|census estimate yr =  <!-- use for non-U.S. census years; this prevents red links to "2006 U.S. census", for example-->
+|density_sq_mi =  <!--RAW format only -->
+|density_km2   = 
+|time zone     =  <!-- Choices: Eastern, Central, Mountain, Pacific, Alaska, Hawaii; or enter something else and use old DST and UTC variables  -->
+|footnotes     = 
+|web           = 
+|named for     = 
+|logo          = 
+|flag          = 
+|ex image      =  <!-- optional, add an extra image to the bottom of the infobox -->
+|ex image size =  <!-- defaults to 200px if not specified -->
+|ex image cap  =  <!-- caption of the extra image --> 
+}}
+</pre>
+
+== Microformat ==
+{{UF-hcard-geo}}
+
+<includeonly>
+[[Category:United States subdivision infobox templates|County]]
+[[Category:United States county infobox templates| ]]
+
+[[ar:قالب:معلومات مقاطعة أمريكية]]
+[[de:Vorlage:Infobox County (USA)]]
+[[es:Plantilla:Condado de Estados Unidos]]
+[[fr:Modèle:Infobox Comté des États-Unis]]
+[[hr:Predložak:US County infobox]]
+[[ja:Template:Infobox U.S. County]]
+[[nds:Vörlaag:Infobox US-Kreis]]
+[[no:Mal:Infoboks amerikanske fylker]]
+[[ro:Format:Infobox comitat SUA]]
+[[vi:Tiêu bản:Infobox U.S. County]]
+[[zh:Template:Infobox U.S. County]]
+</includeonly>
