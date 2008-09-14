@@ -1,0 +1,112 @@
+{{Navbox
+|name   = {{{name|Asia topic}}}
+|state  = {{{state|<noinclude>expanded</noinclude>}}}
+|border = {{{border|}}}
+|title  = {{#if:{{{title|}}} |{{{title}}} |[[{{{1|{{{prefix|}}}}}} Asia{{{2|{{{suffix|}}}}}}]]}}
+|image  = {{{image|}}}
+|groupstyle = padding:0.35em 1.0em; line-height:1.1em; <!--reduces gap between wrapped groupname lines-->
+
+|group1 = [[List of sovereign states|Sovereign<br>states]]
+|list1  = <div><!--(reduces gap between wrapped lines)-->
+{{nowrap begin}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|AF|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|AF}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|AM|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|AM}}]]{{smallsup|1}}{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|AZ|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|AZ}}]]{{smallsup|1}}{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|BH|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|BH}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|BD|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|BD}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|BT|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|BT}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} Brunei{{{2|{{{suffix|}}}}}}|Brunei]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|MM|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|MM}}]]{{smallsup|2}}{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|KH|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|KH}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} Ing Maldang Republica ning Tsina{{{2|{{{suffix|}}}}}}|People's Republic of China]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|CY|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|CY}}]]{{smallsup|1}}{{·w}}
+[[{{{1|{{{prefix|}}}}}} East Timor{{{2|{{{suffix|}}}}}}|East Timor]]{{smallsup|3}}{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|EG|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|EG}}]]{{smallsup|4}}{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|GE|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|GE}}]]{{smallsup|1}}{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|IN|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|IN}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|ID|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|ID}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|IR|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|IR}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|IQ|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|IQ}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|IL|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|IL}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|JP|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|JP}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|JO|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|JO}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|KZ|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|KZ}}]]{{smallsup|4}}{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|KP|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|KP}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|KR|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|KR}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|KW|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|KW}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|KG|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|KG}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} Laos{{{2|{{{suffix|}}}}}}|Laos]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|LB|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|LB}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|MY|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|MY}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} the {{i2c|MV|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|MV}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|MN|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|MN}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|NP|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|NP}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|OM|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|OM}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|PK|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|PK}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|PH|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|PH}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|QA|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|QA}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|RU|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|RU}}]]{{smallsup|4}}{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|SA|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|SA}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|SG|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|SG}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|LK|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|LK}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|SY|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|SY}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|TJ|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|TJ}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} the Republic of China{{{2|{{{suffix|}}}}}}|Republic of China]]{{smallsup|5}}{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|TH|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|TH}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|TR|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|TR}}]]{{smallsup|4}}{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|TM|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|TM}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|AE|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|AE}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|UZ|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|UZ}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|VN|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|VN}}]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} {{i2c|YE|article={{{article|yes}}}}}{{{2|{{{suffix|}}}}}}|{{i2c|YE}}]]
+{{nowrap end}}
+</div>
+
+|group2 = [[Dependent territory|Dependencies]],<br/>[[Autonomous area|autonomies]],<br/>other [[Territory (country subdivision)|territories]]
+|list2  =<div><!--(reduces gap between wrapped lines)-->
+{{nowrap begin}}
+[[{{{1|{{{prefix|}}}}}} Aceh{{{2|{{{suffix|}}}}}}|Aceh]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} Adjara{{{2|{{{suffix|}}}}}}|Adjara]]{{smallsup|1}}{{·w}}
+''[[{{{1|{{{prefix|}}}}}} Abkhazia{{{2|{{{suffix|}}}}}}|Abkhazia]]''{{·w}}
+[[{{{1|{{{prefix|}}}}}} Akrotiri and Dhekelia{{{2|{{{suffix|}}}}}}|Akrotiri and Dhekelia]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} Altai{{{2|{{{suffix|}}}}}}|Altai]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} the British Indian Ocean Territory{{{2|{{{suffix|}}}}}}|British Indian Ocean Territory]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} Buryatia{{{2|{{{suffix|}}}}}}|Buryatia]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} Christmas Island{{{2|{{{suffix|}}}}}}|Christmas Island]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} the Cocos (Keeling) Islands{{{2|{{{suffix|}}}}}}|Cocos (Keeling) Islands]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} Guangxi{{{2|{{{suffix|}}}}}}|Guangxi]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} Hong Kong{{{2|{{{suffix|}}}}}}|Hong Kong]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} Inner Mongolia{{{2|{{{suffix|}}}}}}|Inner Mongolia]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} Iraqi Kurdistan{{{2|{{{suffix|}}}}}}|Iraqi Kurdistan]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} Jakarta{{{2|{{{suffix|}}}}}}|Jakarta]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} Khakassia{{{2|{{{suffix|}}}}}}|Khakassia]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} Macau{{{2|{{{suffix|}}}}}}|Macau]]{{·w}}
+''[[{{{1|{{{prefix|}}}}}} Nagorno-Karabakh{{{2|{{{suffix|}}}}}}|Nagorno-Karabakh]]''{{·w}}
+[[{{{1|{{{prefix|}}}}}} Nakhchivan{{{2|{{{suffix|}}}}}}|Nakhchivan]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} Ningxia{{{2|{{{suffix|}}}}}}|Ningxia]]{{·w}}
+''[[{{{1|{{{prefix|}}}}}} Northern Cyprus{{{2|{{{suffix|}}}}}}|Northern Cyprus]]''{{·w}}
+[[{{{1|{{{prefix|}}}}}} Palestine{{{2|{{{suffix|}}}}}}|Palestine]] ([[{{{1|{{{prefix|}}}}}} the Gaza Strip{{{2|{{{suffix|}}}}}}|Gaza Strip]]{{·w}} [[{{{1|{{{prefix|}}}}}} the West Bank{{{2|{{{suffix|}}}}}}|West Bank]]){{·w}}
+[[{{{1|{{{prefix|}}}}}} Papua{{{2|{{{suffix|}}}}}}|Papua]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} Sakha{{{2|{{{suffix|}}}}}}|Sakha]]{{·w}}
+''[[{{{1|{{{prefix|}}}}}} South Ossetia{{{2|{{{suffix|}}}}}}|South Ossetia]]''{{·w}}
+[[{{{1|{{{prefix|}}}}}} Tibet{{{2|{{{suffix|}}}}}}|Tibet]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} Tuva{{{2|{{{suffix|}}}}}}|Tuva]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} West Papua{{{2|{{{suffix|}}}}}}|West Papua]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} Xinjiang{{{2|{{{suffix|}}}}}}|Xinjiang]]{{·w}}
+[[{{{1|{{{prefix|}}}}}} Yogyakarta{{{2|{{{suffix|}}}}}}|Yogyakarta]]
+{{nowrap end}}
+</div>
+
+|belowstyle = padding:0.4em 0.2em 0.2em; line-height:1.4em; font-size:95%; 
+|below = {{#if: {{{countries_only|}}} | |''Italics'' indicates an [[List of unrecognized countries|unrecognised or partially recognised country]].&nbsp;}} <!--
+ -->{{nowrap|{{lower|0.2em|<sup>1</sup>}} Sometimes included in [[Europe]], depending on the [[Borders of the continents#Europe and Asia|border definitions]].&nbsp;}} <!--
+ -->{{nowrap|{{lower|0.2em|<sup>2</sup>}} Also known as [[Myanmar]].&nbsp;}} <!--
+ -->{{nowrap|{{lower|0.2em|<sup>3</sup>}} Sometimes included in [[Oceania]], and also known as [[Timor-Leste]].&nbsp;}} <!--
+ -->{{nowrap|{{lower|0.2em|<sup>4</sup>}} [[List of countries spanning more than one continent|Transcontinental country]].&nbsp;}} <!--
+ -->{{nowrap|{{lower|0.2em|<sup>5</sup>}} Commonly known as [[Taiwan]].&nbsp;}} <!--
+ -->{{#if:{{{countries_only|}}}<!--
+end#if-->}}
+}}<noinclude>
+{{pp-template|small=yes}}
+{{documentation}}
+</noinclude>{{#if:{{{2|}}}{{{suffix|}}}|[[Category:Region topic template using suffix]]}}
