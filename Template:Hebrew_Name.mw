@@ -1,0 +1,26 @@
+[[Hebrew language|Hebrew]]: <span style="white-space:nowrap; font-size:125%; font-family:David, Narkisim, Arial">{{#ifeq: {{{5}}}|nobold||}}<span lang="he" xml:lang="he">{{{hebrew|{{{1}}}}}}</span>{{#ifeq: {{{5}}}|nobold||}},</span> <small>[[Hebrew language#Modern Hebrew|Standard]]</small>&nbsp;''{{transl|he||{{{stan|{{{2}}}}}}}}'' <small>[[Tiberian vocalization|Tiberian]]</small>&nbsp;''{{transl|he|{{{tiber|{{{3}}}}}}}}''{{#if: {{{means|{{{4|}}}}}}|&nbsp;&#59; {{{means|{{{4}}}}}}|}}<noinclude>
+
+== How to use ==
+
+This Wiki markup:
+
+:<code>{&#x7B;Hebrew Name | hebrew=A | stan=B | tiber=C | means="D"}}</code>
+
+produces this:
+
+:{{Hebrew Name | hebrew=A | stan=B | tiber=C | means="D"}}
+
+The template may also be used with unnamed parameters. For example:
+:<code>{&#x7B;Hebrew Name |A|B|C|}</code>
+
+produces:
+
+:{{Hebrew Name |A|B|C}}
+
+Some notes:
+
+*The <code>hebrew</code>, <code>stan</code> and <code>tiber</code> parameters are mandatory.
+*The <code>means</code> parameter is optional.
+*The order of parameters doesn't matter when they are entered by name (as in the first example above).
+
+[[Category:Hebrew name templates|Hebrew Name]]</noinclude>
