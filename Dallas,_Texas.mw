@@ -3,7 +3,7 @@
 official_name = Lakanbalen ning Dallas |
 nickname = Big 'D'|
 image_skyline = Dallas,_Texas_Skyline_2005.jpg |
-image_flag = Flag of Dallas, Texas.png |
+image_flag = |
 image_seal = {{#ifeq:Dallas, Texas|Dallas, Texas|Dallas seal.PNG|}} |
 image_map = Texas map - Dallas.svg |
 map_caption = Location in the state of [[Texas]] |
@@ -59,7 +59,7 @@ footnotes =
 </div>
 
 == Suglung Palwal ==
-{{portal|Dallas|Flag of Dallas, Texas.png}}
+{{portal|Dallas|}}
 {{portal|Texas|Texasflaginstate.png}}
 {{sisterlinks|Dallas}}
 *[http://www.dallascityhall.com/ Official City Website]
