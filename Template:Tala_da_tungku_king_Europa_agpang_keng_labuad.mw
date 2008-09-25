@@ -1,0 +1,122 @@
+{{Navbox with columns
+|name  = Tala da reng tungku king Europa agpang keng labuad
+|state = {{{state|<includeonly>collapsed</includeonly>}}}
+|title=Deng [[Tungku]] ning [[Europa]] abe no reng estadu ampong territoryu.
+|colwidth = 18em
+
+
+
+|col1width  = 20em
+|col1header = [[Central Europe|Central]]
+|col1 = <div style="padding-left:0.75em;">
+{{nowrap begin}}
+'''[[Berlin]]''', ''[[Germany]]''<br/>
+'''[[Bratislava]]''', ''[[Slovakia]]''<br/>
+'''[[Budapest]]''', ''[[Hungary]]''<br/>
+'''[[Ljubljana]]''', ''[[Slovenia]]''<br/>
+'''[[Prague]]''', ''[[Czech Republic]]''<br/>
+'''[[Vienna]]''', ''[[Austria]]''<br/>
+'''[[Warsaw]]''', ''[[Poland]]''
+
+<div style="width:95%; background:#ddf; text-align:center;">'''[[Eastern Europe|Eastern]]'''</div>
+
+'''[[Ankara]]''', ''[[Turkey]]''&nbsp;{{smallsup|1}}<br/>
+'''[[Astana]]''', ''[[Kazakhstan]]''&nbsp;{{smallsup|1}}<br/>
+'''[[Baku]]''', ''[[Azerbaijan]]''&nbsp;{{smallsup|1}}<br/>
+'''[[Bucharest]]''', ''[[Romania]]''<br/>
+'''[[Chişinău]]''', ''[[Moldova]]''<br/>
+'''[[Kiev]]''', ''[[Ukraine]]''<br/>
+'''[[Minsk]]''', ''[[Belarus]]''<br/>
+'''[[Moscow]]''', ''[[Russia]]''&nbsp;{{smallsup|1}}<br/>
+'''[[Sofia]]''', ''[[Bulgaria]]''<br/>
+'''[[Sukhumi]]''', ''[[Abkhazia]]''&nbsp;{{smallsup|3}}<br/>
+'''[[Tbilisi]]''', ''[[Georgia (country)|Georgia]]''&nbsp;{{smallsup|1}}<br/>
+'''[[Tskhinvali]]''', ''[[South Ossetia]]''&nbsp;{{smallsup|3}}<br/>
+'''[[Yerevan]]''', ''[[Armenia]]''&nbsp;{{smallsup|2}}
+{{nowrap end}}
+</div>
+
+|col2header = [[Southern Europe|Southern]]
+|col2 = {{nowrap begin}}
+
+'''[[Athens]]''', ''[[Greece]]''<br/>
+'''[[Belgrade]]''', ''[[Serbia]]''<br/>
+'''''[[Gibraltar]]''''', ''[[Gibraltar]]''<br/>
+'''[[Nicosia]]''', ''[[Cyprus]]''&nbsp;{{smallsup|2}}<br/>
+'''[[Podgorica]]''', ''[[Montenegro]]''<br/>
+'''[[Pristina]]''', ''[[Kosovo]]''&nbsp;{{smallsup|3}}<br/>
+'''[[Rome]]''', ''[[Italy]]''<br/>
+'''[[City of San Marino|San Marino]]''', ''[[San Marino]]''<br/>
+'''[[Sarajevo]]''', ''[[Bosnia and Herzegovina]]''<br/>
+'''[[Skopje]]''', ''[[Republic of Macedonia]]''<br/>
+'''[[Tirana]]''', ''[[Albania]]''<br/>
+'''[[Valletta]]''', ''[[Malta]]''<br/>
+'''[[Vatican City]]''', ''[[Vatican City]]''<br/>
+'''[[Zagreb]]''', ''[[Croatia]]''
+{{nowrap end}}
+
+|col3header = [[Western Europe|Western]]
+|col3 = {{nowrap begin}}
+'''[[Amsterdam]]''', ''[[Netherlands]]''<br/>
+'''[[Andorra la Vella]]''', ''[[Andorra]]''<br/>
+'''''[[Barcelona]]''''', ''[[Catalonia]]''&nbsp;{{smallsup|5}}<br/>
+'''[[Berne]]''', ''[[Switzerland]]''<br/>
+'''[[Brussels]]''', ''[[Belgium]]''&nbsp;{{smallsup|6}}<br/>
+'''[[Lisbon]]''', ''[[Portugal]]''<br/>
+'''[[Luxembourg (city)|Luxembourg]]''', ''[[Luxembourg]]''<br/>
+'''[[Madrid]]''', ''[[Spain]]''<br/>
+'''[[Monaco]]''', ''[[Monaco]]''<br/>
+'''[[Paris]]''', ''[[France]]''<br/>
+'''''[[Saint Helier|St. Helier]]''''', ''[[Jersey]]''<br/>
+'''''[[Santiago de Compostela]]''''', ''[[Galicia (Spain)|Galicia]]''{{smallsup|5}}<br/>
+'''''[[Seville]]''''', ''[[Andalusia]]&nbsp;{{smallsup|5}}<br/>
+'''''[[St. Peter Port]]''''', ''[[Guernsey]]''<br/>
+'''[[Vaduz]]''', ''[[Liechtenstein]]''<br/>
+'''''[[Vitoria]]''''', ''[[The Basque Country]]{{smallsup|5}}<br/>
+'''''[[Valencia, Spain|Valencia]]''''', ''[[Valencian Community]]{{smallsup|5}}<br/>
+{{nowrap end}}
+
+|col4width  = 16.25em
+|col4header = [[Northern Europe|Northern]]
+|col4 = {{nowrap begin}}
+'''''[[Belfast]]''''', ''[[Northern Ireland]]''&nbsp;{{smallsup|4}}<br/>
+'''''[[Cardiff]]''''', ''[[Wales]]''&nbsp;{{smallsup|4}}<br/>
+'''[[Copenhagen]]''', ''[[Denmark]]''<br/>
+'''''[[Douglas, Isle of Man|Douglas]]''''', ''[[Isle of Man]]''<br/>
+'''[[Dublin]]''', ''[[Republic of Ireland|Ireland]]''<br/>
+'''''[[Edinburgh]]''''', ''[[Scotland]]''&nbsp;{{smallsup|4}}<br/>
+'''[[Helsinki]]''', ''[[Finland]]''<br/>
+'''[[London]]''', ''[[England]]&nbsp;{{smallsup|4}}{{\}}[[United Kingdom|UK]]''<br/>
+'''''[[Longyearbyen]]''''', ''[[Svalbard and Jan Mayen|Svalbard]]''<br/>
+'''''[[Mariehamn]]''''', ''[[Åland Islands]]''<br/>
+'''[[Oslo]]''', ''[[Norway]]''<br/>
+'''[[Reykjavík]]''', ''[[Iceland]]''<br/>
+'''[[Riga]]''', ''[[Latvia]]''<br/>
+'''[[Stockholm]]''', ''[[Sweden]]''<br/>
+'''[[Tallinn]]''', ''[[Estonia]]''<br/>
+'''''[[Tórshavn]]''''', ''[[Faroe Islands]]''<br/>
+'''[[Vilnius]]''', ''[[Lithuania]]''
+{{nowrap end}}
+
+|belowstyle = padding:0.5em 0 0.3em; font-size:95%; line-height:1.3em;
+|below = {{nowrap|{{lower|0.2em|{{smallsup|1}}}} [[List of countries spanning more than one continent|Transcontinental country]].}}&nbsp; <!--
+      -->{{nowrap|{{lower|0.2em|{{smallsup|2}}}} Entirely in [[Southwest Asia]] but having socio-political connections with Europe.}}&nbsp; <!--
+      -->{{nowrap|{{lower|0.2em|{{smallsup|3}}}} [[List of unrecognised countries|Partially recognised country]].}}&nbsp; <!--
+-->{{nowrap|{{lower|0.2em|{{smallsup|4}}}} Part of the [[United Kingdom]].}}&nbsp; <!--
+-->{{nowrap|{{lower|0.2em|{{smallsup|5}}}} Part of [[Spain]].}}&nbsp; <!--
+      -->{{nowrap|{{lower|0.2em|{{smallsup|6}}}} Also the seat of the [[European Union]], see [[Location of European Union institutions]] and [[Brussels and the European Union]].}}
+}}<noinclude>
+<br/>{{collapsible option}}
+
+== Lawen ya rin ==
+{{Continent-based templates}}
+
+[[Category:Europe templates|Tungku]]
+[[Category:Capital city templates|{{PAGENAME}}]]
+[[Category:Europe country subdivision templates|Tungku]]
+[[Category:Tungku king Europa|τ]]
+
+[[id:Templat:Ibukota di Eropa]]
+[[lv:Veidne:Eiropas galvaspilsētas]]
+[[tr:Avrupa başkentleri]]
+</noinclude>
