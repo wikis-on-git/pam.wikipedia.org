@@ -10,7 +10,7 @@
 | align="center" colspan="2" |
 {| border=0 cellpadding=2  cellspacing=0 style="background-color:transparent;text-align:center;"
 | width="130px" align="center" |{{#if: {{{image_flag|}}} |
-[[Image:{{{image_flag}}}|border|{{#if:{{{image_flag_size}}}|{{{image_flag_size}}}|100px}}|Flag of {{{spanish_name}}}]]}}
+[[Image:{{{image_flag}}}|border|{{#if:{{{image_flag_size}}}|{{{image_flag_size}}}|100px}}|Bandera ning {{{spanish_name}}}]]}}
 | align=center width="130px" |{{#if: {{{image_coat_of_arms|}}} |
 [[Image:{{{image_coat_of_arms}}}|{{{image_coat_of_arms_size|100px}}}|Sagkal ning Armas ning {{{native_name}}}]]}}
 |-
@@ -56,7 +56,7 @@
 |- bgcolor="#dcdcdc"
 ! colspan="2" align=center | [[Administration (government)|Administrasiun]]
 |-
-|'''[[Bangsa]]''' || <span class="label">[[Spain]]</span>
+|'''[[Bangsa]]''' || <span class="label">[[Espanya]]</span>
 |-
 |'''[[Autonomous Communidad]]''' || [[{{{community_link}}}|{{{community}}}]]
 |-
