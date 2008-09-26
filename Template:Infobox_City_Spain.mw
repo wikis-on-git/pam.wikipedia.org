@@ -60,7 +60,7 @@
 |-
 |'''[[Autonomous Communidad]]''' || [[{{{community_link}}}|{{{community}}}]]
 |-
-|'''[[Provinces of Spain|Province]]''' || [[{{{province_link}}}|{{{province}}}]]
+|'''[[Provinces of Spain|Lalawigan]]''' || [[{{{province_link}}}|{{{province}}}]]
 {{#if: {{{comarca<includeonly>|</includeonly>}}} |
 <tr><td>'''[[Comarca]]'''</td><td>[[{{{comarca_link}}}|{{{comarca}}}]]</td></tr>
 }}{{
