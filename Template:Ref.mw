@@ -1,5 +1,5 @@
 {{Ambox
 | type = content
-| image = [[Image:Question book-3.svg|50px]]
+| image = [[Image:Question book-4.svg|50px]]
 | text  = '''This section does not cite any [[{{SITENAME}}:Citing sources|references or sources]].''' <small>{{#if:{{{date|}}}| (''{{{date}}}'')}}</small><br /><small class="plainlinks">Please [{{fullurl:{{FULLPAGENAME}}|action=edit}} improve this section] by adding citations to [[{{SITENAME}}:Reliable sources|reliable sources]]. [[{{SITENAME}}:Verification|Unverifiable]] material may be challenged and removed.</small>
 }}<includeonly>{{#if:{{{date|}}}|{{{category|[[Category:Articles needing additional references from {{{date}}}]]}}}|{{{category|[[Category:Articles needing additional references]]}}}}}{{#if:{{NAMESPACE}}||{{#if:{{{date|}}}|{{#ifexist:Category:Articles lacking sources from {{{date}}}||[[Category:Articles with invalid date parameter in template]]}}|}}}}<!--{{{category|[[Category:Articles lacking reliable references]]}}}--></includeonly><noinclude>{{documentation}}</noinclude>
