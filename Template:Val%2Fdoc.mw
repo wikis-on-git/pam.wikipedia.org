@@ -1,0 +1,91 @@
+<includeonly>{{template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+
+==Purpose==
+Set of templates that can be used to easily present values in [[scientific notation]], including uncertainty. They have the same look and feel and wrap the entire result in a"[[Template:nowrap|nowrap]]" block, so it never gets broken in separate pieces at the end of a line.
+
+== Arguments ==
+There are four ways this template can be used:
+* <code><nowiki>{{val|''number''}}</nowiki></code> - for displaying values without uncertainty/significance.
+* <code><nowiki>{{val|''number''|''uncertainty''}}</nowiki></code> - for displaying values with uncertainty like so {{val|1234|56}}.
+* <code><nowiki>{{val|''number''|''upper uncertainty''|''lower uncertainty''}}</nowiki></code> - for displaying values with uncertainty like so {{val|1234|+56|-78}}.
+* <code><nowiki>{{val|''number''|(''significance'')}}</nowiki></code> - for displaying values with significance like so {{val|1234|(56)}}.
+They all take roughly the same arguments
+{|
+| '''1'''  || The value (must be a valid number)
+|-
+| '''2'''  || The (upper limit of) uncertainty (must be a valid number) or significance (must be a valid number in parenthesis)
+|-
+| '''3'''  || The lower limit of uncertainty (must be a valid negative number)
+|-
+| '''e'''  || The exponent for the power of 10 (optional). This will show up in the result as as "&nbsp;×&nbsp;10{{su|p=e}}".
+|-
+| ||<DIV style="margin-left:2em;">Values (arguments '''1'''-'''3''' and '''e''') are run through code copied from {{tl|delimitnum}} for readability, except for argument '''2''' when it is surrounded by parenthesis. '''This currently causes an error for large numbers, numbers that require high precision and numbers that end in zeros after the decimal point. This last issues is being addressed, the other issues are a caused by a limitation in the wikipedia software for which there currently is no known fix.'''
+|-
+| '''u''' / '''ul'''   || The units for the number (optional, with/without a link to the page about the unit respectively).
+|-
+| '''up''' / '''upl''' || The units per for the units (optional, requires '''u''' to be specified, with/without a link to the page about the unit respectively).
+|-
+| ||<DIV style="margin-left:2em;">Units (specified by '''u''', '''ul''', '''up''' and '''upl''') are replaced by a more esthetically pleasing HTML representation and get a link ('''ul''' and '''upl''' only, if they are in the list found in {{tl|val/units}} or if they are supported by {{tl|convert}}). You can specify units using just '''u'''; a good example is "ul=m/s", which gets translated to "[[Meter per second|m·s<sup>-1</sup>]]", or you can use '''u''' and '''up''', as in "u/up"; a good examples if "ul=m|up=s", which gets translated to "[[Meter|m]]/s".</DIV>
+|-
+| '''h'''  || A header for the value (such as ∆, Ø, etc.., optional).
+|-
+| '''f'''  || A footer for the value (such as %, optional).
+|-
+| ||<DIV style="margin-left:2em;">Headers (specified by '''h''') and footers (specified by '''f''') are put in front of or behind the value ''as is'': this includes spaces. They are inside the ''nowrap'' block and will always be on the same line as the value.</DIV>
+|}
+
+See {{tl|val/test}} for a list of examples of the correct output of {{tl|val}} and the errors it may return when incorrectly used.
+
+== Errors ==
+There is strict checking on the validity of arguments; any incorrect use will result in an error, which is displayed using {{tl|FormattingError}}. Pages that contain incorrect use of this template will show up on [[:Category:Pages with incorrect formatting templates use]].
+
+
+
+== Examples ==
+:{|
+|-
+|<code><nowiki>{{val|1234567890}}</nowiki></code>||&nbsp;→&nbsp;||{{val|1234567890}}
+|-
+|<code><nowiki>{{val|1.23456789}}</nowiki></code>||&nbsp;→&nbsp;||{{val|1.23456789}}
+|-
+|colspan=3|'''Uncertainty/significance'''
+|-
+|<code><nowiki>{{val|1.234|0.005}}</nowiki></code>||&nbsp;→&nbsp;||{{val|1.234|0.005}}
+|-
+|<code><nowiki>{{val|1.234|+0.005|-0.001}}</nowiki></code>||&nbsp;→&nbsp;||{{val|1.234|+0.005|-0.001}}
+|-
+|<code><nowiki>{{val|1.234|(5)}}</nowiki></code>||&nbsp;→&nbsp;||{{val|1.234|(5)}}
+|-
+|colspan=3|'''Exponents/units'''
+|-
+|<code><nowiki>{{val|1.234|e=10|u=m}}</nowiki></code>||&nbsp;→&nbsp;||{{val|1.234|e=10|u=m}}
+|-
+|<code><nowiki>{{val|1.234|e=10|u=m2}}</nowiki></code>||&nbsp;→&nbsp;||{{val|1.234|e=10|u=m2}}
+|-
+|<code><nowiki>{{val|1.234|e=10|ul=m}}</nowiki></code>||&nbsp;→&nbsp;||{{val|1.234|e=10|ul=m}}
+|-
+|<code><nowiki>{{val|1.234|0.05|e=5}}</nowiki></code>||&nbsp;→&nbsp;||{{val|1.234|0.05|e=5}}
+|-
+|<code><nowiki>{{val|1.234567|+0.00005|-0.00004|e=-23|ul=m/s}}</nowiki></code>||&nbsp;→&nbsp;||{{val|1.234567|+0.00005|-0.00004|e=-23|ul=m/s}}
+|-
+|<code><nowiki>{{val|1.234567|0.04|e=3|ul=psi}}</nowiki></code>||&nbsp;→&nbsp;||{{val|1.234567|0.04|e=3|ul=psi}}
+|-
+|<code><nowiki>{{val|123.4|ul=USgal}}</nowiki></code>||&nbsp;→&nbsp;||{{val|123.4|ul=USgal}}
+|-
+|<code><nowiki>{{val|12.34|ul=mpgimp}}</nowiki></code>||&nbsp;→&nbsp;||{{val|12.34|ul=mpgimp}}
+|-
+|colspan=3|'''Header/footer'''
+|-
+|<code><nowiki>{{val|h=Δ&amp;nbsp;|12.34|f=%}}</nowiki></code>||&nbsp;→&nbsp;||{{val|h=Δ&nbsp;|12.34|f=%}}
+|}
+
+== See Also ==
+* {{tl|val/units}}
+* {{tl|val/unitswithlink}}
+* {{tl|val/delimitnum}}
+* {{tl|val/delimitnum/firstgroup}}
+* {{tl|val/delimitnum/group}}
+* {{tl|val/delimitnum/real}}
+
+<includeonly>[[Category:Wikipedia formatting and function templates|Val]]</includeonly>
