@@ -1,0 +1,4 @@
+<noinclude>{{documentation|Template:val/doc}}</noinclude><includeonly><!--
+-->{{#ifexpr:{{{1|0}}}<0|&minus;}}<!-- Output minus if negative
+-->{{val/delimitnum/real|{{#expr:abs {{{1|0}}}}}}}<!-- Output value (always positive)
+--><includeonly>
