@@ -16,7 +16,7 @@
 [[Image:{{{arms}}}|{{{image_coat_of_arms_size|70px}}}|Sagkal armas ning {{{city_name}}}]] | }}
 |-
 |align=center width="110px" style="line-height:14px;" | {{#if:{{{flag<includeonly>|</includeonly>}}}|<small>Bandera</small>}} 
-| align=center width="110px" style="line-height:14px;" |{{#if:{{{arms<includeonly>|</includeonly>}}}| <small>Coat of Arms</small>}}
+| align=center width="110px" style="line-height:14px;" |{{#if:{{{arms<includeonly>|</includeonly>}}}| <small>Sagkal armas</small>}}
 |}
 |- bgcolor="#dcdcdc"
 ! colspan="2" align=center | Karinan
