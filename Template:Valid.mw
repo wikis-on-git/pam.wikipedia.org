@@ -1,0 +1,18 @@
+<noinclude>
+{{pp-template|small=yes}}
+==Purpose==
+Determines whether something is valid in a vertain context. Currently only implemented for determining if a number is within the precision that wikipedia expressions can handle.
+==Returns==
+'''true''' if the argument is valid, '''false''' if it is not.
+==Examples==
+:<code><nowiki>{{valid|number=A}}</nowiki></code> = {{valid|number=A}} ''(not a number)''
+:<code><nowiki>{{valid|number=1234}}</nowiki></code> = {{valid|number=1234}}
+:<code><nowiki>{{valid|number=+1234}}</nowiki></code> = {{valid|number=+1234}}
+:<code><nowiki>{{valid|number=-1234}}</nowiki></code> = {{valid|number=-1234}}
+:<code><nowiki>{{valid|number=(1234)}}</nowiki></code> = {{valid|number=(1234)}} ''(one pair of parenthesis is allowed)''
+:<code><nowiki>{{valid|number=--1234}}</nowiki></code> = {{valid|number=--1234}} ''(incorrect sign use)''
+:<code><nowiki>{{valid|number=1234567890}}</nowiki></code> = {{valid|number=1234567890}}
+:<code><nowiki>{{valid|number=12345678901234567890}}</nowiki></code> = {{valid|number=12345678901234567890}} ''(too large)''
+:<code><nowiki>{{valid|number=1.234567890}}</nowiki></code> = {{valid|number=1.234567890}}
+:<code><nowiki>{{valid|number=1.2345678901234567890}}</nowiki></code> = {{valid|number=1.2345678901234567890}} ''(too many decimals)''
+</noinclude><includeonly>{{#if:{{{number|}}}|{{#ifeq:{{{number}}}|{{evalns|{{{number}}}}}|true|{{#ifeq:{{{number}}}|+{{evalns|{{{number}}}}}|true|{{#ifeq:{{{number}}}|({{evalns|{{{number}}}}})|true|false}}}}}}}}</includeonly>
