@@ -1,0 +1,26 @@
+{{Navbox
+|name       = Location of US capital
+|state      = autocollapse
+|title      = [[List of capitals in the United States|Location of the capital of the United States]]
+|groupstyle = text-align:left;
+|liststyle  = width:100%;
+|above      =
+|below      =
+
+|group1 = <span style="font-weight:normal; font-size:90%;">1774</span>{{spaces|19}}[[First Continental Congress]]
+|list1  = [[Philadelphia]]
+
+|group2 = <span style="font-weight:normal; font-size:90%;">1775 – 1781</span>{{spaces|7}}[[Second Continental Congress]]
+|list2  = [[Philadelphia]]&nbsp;<big>→</big> [[Baltimore, Maryland|Baltimore]]&nbsp;<big>→</big> [[Lancaster, Pennsylvania|Lancaster]]&nbsp;<big>→</big> [[York, Pennsylvania|York]]
+
+|group3 = <span style="font-weight:normal; font-size:90%;">1781 – 1789</span>{{spaces|7}}[[Congress of the Confederation|Congress of the Confederation]]
+|list3  = [[Philadelphia]]&nbsp;<big>→</big> [[Princeton, New Jersey|Princeton]]&nbsp;<big>→</big> [[Annapolis, Maryland|Annapolis]]&nbsp;<big>→</big> [[Trenton, New Jersey|Trenton]]&nbsp;<big>→</big> [[New York City]]
+
+|group4 = <span style="font-weight:normal; font-size:90%;">1789 – present</span>{{spaces|4}}[[Federal government of the United States]]
+|list4  = [[New York City]]&nbsp;<big>→</big> [[Philadelphia]]&nbsp;<big>→</big> [[Washington, D.C.]]
+
+}}<noinclude>
+
+[[Category:United States government navigational boxes|Capital]]
+[[ro:Format:Primele capitale SUA]]
+</noinclude>
