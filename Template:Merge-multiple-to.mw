@@ -1,0 +1,14 @@
+{{mbox
+|demospace={{{demospace|}}}
+|type  = move
+|image = [[Image:Merge-arrows.svg|50px]]
+|text  = It has been suggested that this {{#if:{{NAMESPACE}}|page|article}} or section be [[Help:Merging and moving pages|merged]] with {{Pagelist|delim=''|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|{{{9|}}}|{{{10|}}}|{{{11|}}}|{{{12|}}}|{{{13|}}}|{{{14|}}}|{{{15|}}}|{{{16|}}}|{{{17|}}}|{{{18|}}}|{{{19|}}}|{{{20|}}}}}   to form ''[[:{{NAMESPACE}}:{{{target}}}|{{{target}}}]]''. ([[{{{discuss|:{{TALKPAGENAME}}}}}|Discuss]])}}<includeonly>{{
+#switch:{{NAMESPACE}}
+|Help|Help talk|Portal|Portal talk|Wikipedia|Wikipedia talk=[[Category:Items to be merged|{{PAGENAME}}]]
+|Category|Category talk|Image|Image talk|MediaWiki|MediaWiki talk|Template|Template talk|User|User talk=
+|#default=[[Category:Articles to be merged{{#if: {{{date|}}} | &#32;since {{{date}}} }}|{{PAGENAME}}]]
+}}[[Category:All articles to be merged]]</includeonly><noinclude>
+
+{{Documentation, template}}
+<!-- Add categories and inter-wikis to the /doc subpage, not here! -->
+</noinclude>
