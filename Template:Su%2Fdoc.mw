@@ -1,0 +1,44 @@
+<noinclude>{{Documentation subpage}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+==Purpose==
+Template for creating two smaller lines of text on one actual line, this can be used for [[Template:val|scientific notations of uncertainty]] and [[Template:PhysicsParticle|physics]] symbols, such as [[:Category:Nuclide templates|nuclides]] and [[Template:SubatomicParticle|particles]].
+
+It was named after the '''&lt;sup>''' and '''&lt;sub>''' HTML tags, which share the first two letters of their name with this template. This template uses the third letter of the name of these tags, '''p''' and '''b''', as the name of the argument that drives the output of the top and bottom line, respectively.
+
+== Arguments ==
+{|
+|'''p''' || The contents of the top line.
+|-
+|'''b''' || The contents of the bottom line.
+|-
+|'''a''' || The alignment of both lines ('''r''' for right, '''c''' for center aligned, default is left aligned)
+|-
+|'''w''' || The size of the characters ('''f''' for fixed width (monospace), default is whatever the current font is)
+|}
+
+==Examples==
+'''Simple example''': <code><nowiki>X{{su|p=a}}X{{su|b=b}}X{{su|p=a|b=b}}X</nowiki></code>
+:X{{su|p=a}}X{{su|b=b}}X{{su|p=a|b=b}}X
+'''Left aligned (default)''': <code><nowiki>X{{su|p=aaaaa|b=b}}X{{su|p=a|b=bbbbb}}X</nowiki></code>
+:X{{su|p=aaaaa|b=b}}X{{su|p=a|b=bbbbb}}X
+'''Right aligned:''' <code><nowiki>X{{su|a=r|p=aaaaa|b=b}}X{{su|a=r|p=a|b=bbbbb}}X</nowiki></code>
+:X{{su|a=r|p=aaaaa|b=b}}X{{su|a=r|p=a|b=bbbbb}}X
+'''Center aligned:''' <code><nowiki>X{{su|a=c|p=aaaaa|b=b}}X{{su|a=c|p=a|b=bbbbb}}X</nowiki></code>
+:X{{su|a=c|p=aaaaa|b=b}}X{{su|a=c|p=a|b=bbbbb}}X
+'''Smaller font''': <code><nowiki>&lt;small>X{{su|p=a}}X{{su|b=b}}X{{su|p=a|b=b}}X&lt;/small></nowiki></code>
+:<small>X{{su|p=a}}X{{su|b=b}}X{{su|p=a|b=b}}X</small>
+'''Larger font''': <code><nowiki>&lt;big>X{{su|p=a}}X{{su|b=b}}X{{su|p=a|b=b}}X&lt;/big></nowiki></code>
+:<big>X{{su|p=a}}X{{su|b=b}}X{{su|p=a|b=b}}X</big>
+'''Fixed width''': 
+<code><nowiki>X{{su|p=111|b=www}}X{{su|w=f|p=111|b=www}}X</nowiki></code>
+:X{{su|p=...|b=www}}X{{su|w=f|p=...|b=www}}X
+
+==See Also==
+* {{tl|sup}} - {{sup|superscript}} text
+* {{tl|sub}} - {{sub|subscript}} text
+* [[Subscript and superscript]]
+<includeonly>
+[[Category:Wikipedia formatting and function templates|Su]]
+[[Category:Mathematical formatting templates|{{PAGENAME}}]]
+[[ja:Template:Su]]
+</includeonly>
