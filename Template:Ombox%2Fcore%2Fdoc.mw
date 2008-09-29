@@ -1,0 +1,16 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+This is the {{tl|ombox/core}} helper meta-template.
+
+Do not use this template directly, use {{tl|ombox}} instead.
+
+This template is called from {{tl|ombox}}. It holds most of the code for {{tlf|ombox}}, while {{tlf|ombox}} does parameter preprocessing. Thus simplifying the code in {{tlf|ombox/core}}.
+
+For more documentation see {{tl|ombox}}.
+
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Wikipedia metatemplates|{{PAGENAME}}]]
+
+</includeonly>
