@@ -1,0 +1,11 @@
+<noinclude>
+{{documentation}}
+<!--
+PLEASE ADD CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS
+Normally, the code for the template is included, but this template is too complex to do that.
+--></noinclude><includeonly>{{#ifeq:{{{p|{{{b|}}}}}}|{{{b}}}
+|<sub>{{{b}}}</sub>
+|{{#if:{{{b|}}}
+|<SPAN style="{{#ifeq: {{{w|}}}|f| font: 80% monospace; |font-size:80%; }} display:-moz-inline-box; -moz-box-orient:vertical; display:inline-block; vertical-align: bottom; /*Horizontal positioning, affects IE&FF*/margin-bottom:-0.4em; min-height:1em; line-height:1em; {{#switch: {{{a|}}}|r=text-align:right|c=text-align:center}}"><SPAN style="display:block; min-height:1em; /*Horizontal positioning, affects IE only*/margin-top:-1.4em;">{{{p|&nbsp;}}}</SPAN><SPAN style="display:block; min-height:1em;">{{{b|&nbsp;}}}</SPAN></SPAN>
+|<sup>{{{p}}}</sup>
+}}}}</includeonly>
