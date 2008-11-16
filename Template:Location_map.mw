@@ -26,7 +26,7 @@
   | left: -{{#expr: {{#if: {{Location map {{{1}}}|marksize}}|{{Location map {{{1}}}|marksize}}|8}} / 2 round 0 }}px; top: -{{#expr: {{#if: {{Location map {{{1}}}|marksize}}|{{Location map {{{1}}}|marksize}}|8}} / 2 round 0 }}px; width: {{#if: {{Location map {{{1}}}|marksize}}|{{Location map {{{1}}}|marksize}}|8}}px; font-size: {{#if: {{Location map {{{1}}}|marksize}}|{{Location map {{{1}}}|marksize}}|8}}px; 
 }}">[[Image:{{#if: {{{mark|}}} 
   | {{{mark}}} 
-  | {{#if: {{Location map {{{1}}}|mark}}|{{Location map {{{1}}}|mark}}|Red pog2.svg<!--see Talk "Redundant marker"-->}}
+  | {{#if: {{Location map {{{1}}}|mark}}|{{Location map {{{1}}}|mark}}|Red pog.svg}}
 }}|{{#if: {{{marksize|}}} 
   | {{{marksize}}}x{{{marksize}}} 
   | {{#if: {{Location map {{{1}}}|marksize}}|{{Location map {{{1}}}|marksize}}|8}}x{{#if: {{Location map {{{1}}}|marksize}}|{{Location map {{{1}}}|marksize}}|8}}
