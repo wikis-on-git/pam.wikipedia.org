@@ -1,13 +1,13 @@
-===Bot flag in meta for [[User:Superzerocool|Superzerocool]]===
+==Bot flag in meta for [[User:Superzerocool|Superzerocool]]==
 I request bot status an this wiki in order to update interwikis.
 *Bot User: [[User:Superzerocool]]
 *The bot uses pywikipedia software and is constantly updated with CVS.
-====Approval====
+===Approval===
 #
-====Reject====
+===Reject===
 # Bot is inactive for a very long time [[User:Carsrac|Carsrac]] 17:07, 20 Mayu 2008 (UTC)
 
-=== Bot request for [[User:Byrialbot]] ===
+== Bot request for [[User:Byrialbot]] ==
 Hello! I ask for permission to run my interwiki bot [[User:Byrialbot|Byrialbot]] here at the Kapampangan Wikipedia, and to get a bot flag for it.
 * Bot account: [[User:Byrialbot]] ([[Special:Contributions/Byrialbot|contributions]])
 * Botmaster: [[User:Byrial]]
@@ -16,12 +16,12 @@ Hello! I ask for permission to run my interwiki bot [[User:Byrialbot|Byrialbot]]
 * Purpose: Interwiki
 * Technical details: Interwiki using Pywikipediabot (constantly updated  with CVS) starting from da:, nn:, no: and sv:. It mostly runs manually assisted and I try to solve found interwiki conflicts when I can.
 It will soon begin to do test edits. Thank you! [[User:Byrial|Byrial]] 16:58, 29 Juniu 2007 (UTC)
-====Approval====
+===Approval===
 You have my approval.
 [[User:Val2397|Val2397]] 16:36, 30 Juniu 2007 (UTC)
 : Thank you. The bot now has got a botflag. [[User:Byrial|Byrial]] 18:35, 9 Juliu 2007 (UTC)
 
-=== Bot status [[User:BotMultichill|BotMultichill]] ===
+== Bot status [[User:BotMultichill|BotMultichill]] ==
 Hi, i request a bot bit for [[User:BotMultichill|BotMultichill]].
 * Botmaster : [[User:Multichill|Multichill]]
 * Bot's name : [[User:BotMultichill|BotMultichill]]
@@ -29,11 +29,11 @@ Hi, i request a bot bit for [[User:BotMultichill|BotMultichill]].
 * Purpose: Interwiki (pywikipedia)
 * Technical details : [[User:BotMultichill|BotMultichill]] is an interwiki bot starting at the [[:nl:Gebruiker:BotMultichill|Dutch wikipedia]]. The bot uses the pywikipedia framework and runs day and night in autonomous mode. Sometimes the bot will run in manual assisted mode to solve interwiki conflicts. [[User:Multichill|Multichill]] 11:33, 3 Juliu 2007 (UTC)
 
-==== Approval for User:BotMultichill ====
+=== Approval for User:BotMultichill ===
 
 You have my approval.[[User:Val2397|Val2397]] 18:07, 4 Juliu 2007 (UTC)
 
-=== Bot status for [[User:PipepBot|PipepBot]] ===
+== Bot status for [[User:PipepBot|PipepBot]] ==
 Hello! I ask for permission to run my interwiki bot [[User:PipepBot|PipepBot]] here, and to get a bot flag for it.
 * Operator: [[:it:User:Pipep]]
 * Purpose: Interwiki
