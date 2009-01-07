@@ -1,0 +1,61 @@
+{{IPAhelp}}
+Wikipedia offers several templates for proper display of [[IPA]] transcriptions. 
+
+In general, instances of the IPA on a page should be enclosed in the {{tl|IPA}} template, which formats  the text in an IPA-compatible font. If a substantial portion of a page is in the IPA, it is customary to post notice of that fact with <nowiki>{{IPA notice|lang=en}}</nowiki>, though each token still requires the {{tl|IPA}} template for proper formatting. 
+
+However, if there are not enough occurrences to warrant a notice, then consider a template that links to an IPA key for the first instance of the IPA on a page or section:
+
+*for '''[[English language|English]]''' words, in a broad, non-regional transcription, as when giving the pronunciation of a key word in an article, use templates linking to [[Help:IPA for English]], a chart of the subset of the IPA that is relevant to English:
+** {{tl|IPA-en}}, appearing as: {{IPA-en|word}},
+** {{tl|pron-en}}, appearing as: {{pron-en|word}},
+** {{tl|IPAlink-en}}, appearing as: {{IPAlink-en|word}}.
+*for '''foreign''' words that are not assimilated into English, regional pronunciations of English words, and non-standard English dialects, use templates linking to the more general [[Help:IPA]] chart, containing all major IPA symbols:
+** {{tl|IPA-all}}, appearing as: {{IPA-all|word}}, or
+** {{tl|pronounced}}, appearing as: {{pronounced|word}}, or
+** {{tl|IPAlink}}, appearing as: {{IPAlink|word}}.
+*for '''[[Australian English]]''' pronunciation specifically, use:
+** {{tl|IPA-en-au}}, appearing as: {{IPA-en-au|word}}, or
+** {{tl|pron-en-au}}, appearing as: {{pron-en-au|word}}
+For IPA keys dedicated to a specific language in broad transcription, there are:
+*for '''[[Armenian language|Armenian]]''':
+**{{tl|IPA-hy}}, appearing as: {{IPA-hy|word}}
+*for '''[[Czech language|Czech]]''':
+**{{tl|IPA-cs}}, appearing as: {{IPA-cs|word}}
+*for '''[[French language|French]]''':
+**{{tl|IPA-fr}}, appearing as: {{IPA-fr|word}}
+*for '''[[German language|German]]''':
+** {{tl|IPA-de}}, appearing as: {{IPA-de|word}}
+*for '''[[Hebrew language|Hebrew]]''':
+**{{tl|IPA-he}}, appearing as: {{IPA-he|word}}, or
+**{{tl|IPA-he-small}}, appearing as: {{IPA-he-small|word}}
+*for '''[[Hungarian language|Hungarian]]''':
+**{{tl|IPA-hu}}, appearing as: {{IPA-hu|word}}
+::(though {{tl|IPAr|hu}} is preferred)
+*for '''[[Irish language|Irish]]''':
+**{{tl|IPA-ga}}, appearing as: {{IPA-ga|word}}
+*for '''[[Italian language|Italian]]''':
+**{{tl|IPA-it}}, appearing as: {{IPA-it|word}}
+*for '''[[Korean language|Korean]]''':
+**{{tl|IPA-ko}}, appearing as: {{IPA-ko|word}}
+*for '''[[Polish language|Polish]]''':
+**{{tl|IPA-pl}}, appearing as: {{IPA-pl|word}} (NB: this does ''not'' add square brackets), or
+**{{tl|Audio-IPA-pl}}, appearing with soundfile as: {{Audio-IPA-pl|word.ogg|word}}
+::(though {{tl|IPAr|pl}} is preferred)
+*for '''[[Russian language|Russian]]''':
+**{{tl|IPA-ru}}, appearing as: {{IPA-ru|word}}
+*for '''[[Spanish language|Spanish]]''':
+**{{tl|IPA-es}}, appearing as: {{IPA-es|word}}
+
+The template {{tl|IPAr}} can be used to generate a properly linked transcription for any language, with optional soundfile, and (currently for Polish only) offers the ability to enter ordinary letters for conversion to phonetic symbols. See [[Template:IPAr|the template page]] for usage.
+
+==Note==
+The older inconsistently named (though still operational) templates {{tl|IPA2}}, {{tl|IPAEng}}, and {{tl|pronEng}} are deprecated, and are to be no longer used.
+
+==See also==
+*[[:Category:IPA templates]]
+*{{tl|IPA}}
+*{{tl|respell}}, for [[pronunciation respelling]]s, which may be used for English words in addition to the IPA
+
+<noinclude>
+[[sr:Шаблон:Кориштење МФА шаблона]]
+</noinclude>
