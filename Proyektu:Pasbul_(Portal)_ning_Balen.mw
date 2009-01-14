@@ -121,3 +121,10 @@ I start my bot now for 50 test edits. Thank you in advance! --[[User:WikiDreamer
 *'''Software:''' pywikipediabot framework via SVN
 *'''Already has bot flag on:''' [http://toolserver.org/~purodha/sample/dbswithuser.php?usr=Luckas-bot&uselang=en +/- 70 wikis]
 Thanks. [[User:Luckas Blade|Luckas Blade]] 22:05, 14 Nobiembri 2008 (UTC)
+
+== Bot flag for [[User:Ptbotgourou|Ptbotgourou]] ==
+*'''Operator:''' [[:fr:User:Gdgourou|Gdgourou]]
+*'''Purpose:''' Interwiki links: It adds/modifies/deletes interwiki links 
+*'''Software:''' pywikipediabot framework via SVN
+*'''Already has bot flag on:''' [http://toolserver.org/~purodha/sample/dbswithuser.php?usr=Ptbotgourou&uselang=en +/- 95 wikis] + global bot
+--[[User:Gdgourou|Gdgourou]] 08:43, 14 Eneru 2009 (UTC)
