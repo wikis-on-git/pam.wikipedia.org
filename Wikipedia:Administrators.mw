@@ -1,0 +1,472 @@
+{{shortcut|[[WP:ADMIN]]}}
+
+Deng '''Administrators''', Wikipedian lang maki "''[[SysOp]] rights''" o 
+katuliran antimong [[SysOp]]. Agpang king patakaran a salukuyang mimiral king 
+Wikipedia, e maigpit ing pamagkalub kaniti kareng malwat na muring manambag 
+artikulu, at metung a kilala at pagtiwalan a kayanib ning komunidad. Ngeni, 
+mitatas na keraklan ing batayan king pamamili kareti. Nanupata, mapilan la pa 
+murin deng gagawan dang talapanibala balang paruminggu.     
+
+<center>'''[[:en:Wikipedia:Requests for administrator attention|Pamanyad saup kareng manibala]]''' - '''[[Wikipedia:List of administrators|Kumpletung listaan da reng talapanibala (administrator)]]''' - '''[[Wikipedia:Requests for adminship|Pakisabing maging talapanibala]]'''</center>
+
+"E dapat maging maragul a pisasabyan iti," nga nang [[:en:Jimmy Wales]].
+
+Kanitang bayu ya pamu ing Wikipedia, magsilbi la ngang talapanibala deng 
+eganaganang gagamit, at king teorya, makanyan pa murin dapat. Malyari yang kimut 
+anting talapanibala ing balang gagamit, basta e na sasabyang anti ya kanita nung 
+e naman tutu, agyang e mipagkalubanan karagdagang katungkulan king pamanibala. 
+Mas maragul ing tsansang imunikala dong talapanibala deng kayanib king komunidad 
+deng gagamit a aktibu, at mas malagwa ra lang gawang ganap a talapanibala nung 
+ila ing mimunikala. 
+
+Deng talapanibala ing asahan ning komunidad a ganap kareng karaniwan a obrang 
+pamanyamasan (housekeeping) a mangaylangang karagdagang upaya, a pagkalub da 
+kareng talapanibala. Kayabe kaniti ing pamagbante kareng 
+[[:en:Wikipedia:Articles for deletion|Articles for deletion debates]],  
+pamanupad king kaburyan ning komunidad nung papanatilyan la o idayu deting 
+artikulu, pamagbante kareng artikulung bayu o miyalilan bang ilako ing alatang 
+pamanyira o “vandalism,” ampo ing pamakibat kareng pakisabi da reng gagamit a 
+mangaylangan king upaya ning talapanibala.   
+
+== Nung makanyan, tungkul ya nukarin iti? ==
+
+Atin yang mapilan a feature o gamit ing wiki software a limitadu la reng makalub 
+(restricted). Kareting limitadung gamit a reti, deng makatuki ing malyari rang 
+luban deng talapanibala. (Kaylangan deng basan deng bayung talapanibala ing 
+[[:en:Wikipedia:Administrator's how-to guide]].)
+
+=== Deng bulung a makakambil o protektadu ===
+
+*I-edit ya ing [[Main Page]], ampo reng aliwang 
+[[:en:Wikipedia:protected page|protected pages]]. Para king impormasyun ampong 
+dalerayan (guidelines), lon me ing [[:en:Wikipedia:Editing the main page]]. 
+Malyari kang munye munikala kareng dapat alilan king [[Talk:Main Page]]. Sadya-
+sadya, daka’la reng manyira king main page; metung yang pamikasundung e sa 
+milyari ing pamagkambil o pamagprotekta kaniti ba yang e ra panyiran deng alang 
+agawa ing kekatamung pamanatu kareng bisita.  
+
+* Dinan la at idayu pamangambil o proteksyun deng bulung. Poprotektan la mu deng 
+bulung kareng malagad a pamikatagun. Atyu king ing impormasyun ampong dalerayan.
+
+===Ing pamamura ampo ing pamaglako pangabura===
+
+* Ilako la reng bulung ampo ing karelang kasalesayan (history). Para king 
+impormasyun ampong dalerayan, lon ya ing [[:en:Wikipedia:deletion policy]] ampo 
+(lalu na iti) ing [[:en:Wikipedia:Deletion guidelines for administrators]]. Bang 
+magmunikala nung sanung bulung ing dapat buran ('''kaybat''' mong abasa deng 
+bulung tungkul kareng patakaran ampong dalerayan!), lon me ing 
+. Neng kayi, metung yang teknikal a 
+pisasabyan ing pamanura, nung nu ya kaylangang idayu ing metung a redirection 
+page, ba yang malyaring alilan lagyu ing metung a artikulu, o metung a bulung a 
+mepitna ya ing kayang kasalesayan at kaylangan yang buran iti, at piyaben-abayan 
+la retang pitna-pitnang dake na niti. Neng kayi naman, kaylangan la mung linisan 
+deng junk edit kareng bulung a alang taganang laman, o maglakong sulat o aliwang 
+mipaskil a ibat king aliwang karinan (site) at lalabag king 
+[[Wikipedia:Copyright|copyright]] o katulirang kumopya.  
+
+
+* Lon la at isubli deng bulung ampo ing karelang kasalesayan. Lon ya ing 
+para kareng dalerayan. Nung buri meng salangsangan 
+ing metung a atul a ilako ya ing metung a bulung, lon me ing 
+. 
+
+* Permanenti lang ilako reng larawan. E ne malyaring bawian ing pamanaliling 
+iti: kabud mebura ne, e ne malyaring isubli. Para king impormasyun ampong 
+dalerayan, lon ya ing . Nung bisa kang 
+magmunikala kareng larawang dapat buran (kaybat mong abasa deng patakaran), lom 
+me ing . Nung buri mu ne mang salangsangan 
+ing atul a idayu ya ing metung a larawan, siguradwan mung atin ka pang kopya 
+ning larawan (nung ali, ala nang paralan a isubli ya), lon me ing 
+. Alang sangkan nung bakit e kaylangang 
+mabawi ing pamamura kareng larawan; mikatagun mung anti ya kaniti ing software 
+king salukyan.
+
+===Ing pamanyubli===
+
+*Dapat lang tambing deng bulung. Malyari neng 
+isubli ning ninumang gagamit (maka log-in ya man o ali) king sadyang bersyon ing 
+metung a bulung. Atin lang mas malagwa at automatic a paralan deng talapanibala 
+ba reng asubli ing pamanyira o vandalism da reng e kilalang menalili. Nung lon 
+mo reng inambag ning metung a gagamit, maki link a anti kaniti, 
+[<u style="color:blue">rollback</u>] &ndash; a lalto king lele da reng edit a 
+atu king babu ning edit history. Nung i-click me ing suglung, misubli ya ing 
+bulung ketang tawling edit a e na gewa ning gagamit a ita, a maki 
+da reng ''(edit nang X a misubli 
+ketang tawli nang bersyong Y)'', at tatakan no reti anting e maulagang 
+pamanalili o minor change. 
+*E me gagamitan ing one-click rollback o pamanyubling tunggal click kareng edit 
+a e kabud namu pamanyira; gamitan me sana ing manual rollback a maki makayagpang 
+a edit summary.
+
+===Pamipalyari kareng atul ning Lupung ning Pamamilatan===
+
+Atin lang upaya reng talapanibalang papalyari la reng atul ning 
+o Arbitration 
+Committee.
+
+Lon ya ing .
+
+=== Pamanyalikut king pamanyira o vandalism karetang bayung miyalilan ===
+
+* Malyari rong isalikut deng talapanibala deng pamanyira ketang 
+[[Special:Recentchanges|Recent changes]]. Bang marapat iti, idagdag ya ing 
+<tt>&bot=1</tt> ketang wakas ning URL a ginamit ba lang lon deng ambag na ning 
+ginamit. Alimbawa, 
+<nowiki>http://en.wikipedia.org/w/index.php?title=Special:Contributions&target=Example&bot=1</nowiki>. Nung ma-click la reng rollback link ketang listaan da 
+reng ambag, pareu lang misalikut king default Recentchanges display detang 
+misubling artikulu (revert) ampo itang orihinal a edit a babalik mu (nung 
+gamitan me itang marker a sadyang mibili ba lang e maglapo king recentchanges 
+deng mangaragul a bot edit, anya maki makasulat a "bot"). Ing buri nang sabyan 
+niti, misalikut la king recent changes, liban nung i-click me ing suglung a  
+"bots" ba yang ibili ing <tt>hidebots=0</tt>. E la misalikut deng edit king 
+listaan da reng ambag, kasalesayan da reng bulung, ampong watchlist. Manatili la 
+king database deng edit, at e la milako reti, oneng e no maglapo king 
+Recentchanges. Míbili ya ing feature a iti ba yang e kabud namu makapangulu ing 
+metung a flood vandal agyang ditak mu ing kayang depatan. '''E''' ya dapat 
+gamitan iti ba yang isubli ing metung a pamanaliling e mu kapad, nun e karen ya 
+mung simpling pamanyira, lalu na itang tsarakal a flood vandalism.        
+
+=== Pamanyabat ampong pamaglako pangasabat ===
+
+* Sabatan la reng IP address, IP range, ampong user account, king limitadung 
+panaun, o king panaun a alang taning.
+
+* Ilako la pangasabat deng IP address, IP range, ampong user account.
+
+* Basan me ing para king karagdagang 
+impormasyun nung kapilan kaylangan ing pamanyabat, at nung kapilan ali. Lon me 
+ing para kareng username ampong address a salukuyang 
+makasabat
+
+=== Ing disenyu ampo reng amanu ning interface ===
+
+* Manibat kanitang 6 Diciembre 2003, malyari da neng alilan deng talapanibala 
+ing ''sulat'' o text ning interface nung i-edit la reng bulung king 
+[[em:Wikipedia:MediaWiki namespace|MediaWiki namespace]]. Kayabe ya kaniti ing 
+sulat ketang babo da reng bulung, anti ing "Special:Whatlinkshere" ampo itang 
+bulung a akit ning metung a gagamit a mesabat nung subakan nang mag-edit king 
+metung a bulung ([[MediaWiki:Blockedtext]]).
+
+* Manibat kanitang 3 ya ing Junio, 2004, malyari da neng i-edit deng 
+talapanibala ing ''style'' ning interface nung alilan de ing king monobook stylesheet king [[MediaWiki:Monobook.css]].
+
+== Nung makananung maging talapanibala ==
+
+Nung bisa kang mika upayang sysop, idagdag me ing kekang lagyu king  
+[[Wikipedia:Requests for adminship]] agpang kareng dalerayan a mababanggit 
+karin, at mipagbotu la reng kalupa mung mag-edit bang mabalu nung karapatdapat 
+kang maging talapanibala. 
+
+Rerekomenda rang sumulat ka pamu para king Wikipedia bayu ka makisabing dinan da 
+kang ranggung talapanibala, uling kaylangan da ka pamung akilala deng aliwang 
+gagamit bayu la mikasundung ibye ra keka ing katungkulan a ita. 
+Tandanan mu muring atin yang sariling patakaran ing [[wikipedia:international 
+Wikipedia|Wikipedia ning balang amanu]], a malyaring aliwang bagya.
+
+
+''Mimingat ka sana!''
+Nung dininan da kang upaya, pakisabi ming pakaingatan mu ing pamangamit kareng 
+katulirang deti, lalu na itang kagiwan a maglako kareng bulung ampo ing karelang 
+kasalesayan, maglakong larawan (a permanenti!), ampo itang pamanyabat kareng IP 
+address. Malyari mong panigaralan deng upayang mipagkalub keka king 
+[[Wikipedia:Administrators' how-to guide]]. Kaylangan mo muring lon deng bulung 
+a makasuglung king [[Wikipedia:Administrators' reading list|Administrators' 
+reading list]] bayu mo gagamitan deng kekang upaya anting talapanibala.
+
+==Deng lugal nung nu la maragul asaup deng talapanibala==
+Lalung maragul ing asaup da maki upaya bilang talapanibala kareng mapilan a dake 
+ning Wikipedia.
+
+*[[Wikipedia:Administrators' noticeboard/Incidents|Deng insidenting mangaylan 
+king pamamilatan da reng talapanibala]]
+*[[Wikipedia:Administrators' noticeboard/3RR|Deng pamaglabag king 3RR]]
+*[[Wikipedia:Administrator intervention against vandalism|Pamamilatan laban king 
+bandalismu o pamanyira]]
+*[[Wikipedia:Copyright problems/Advice for admins|Deng prublema king copyright]]
+*[[:Category:Candidates for speedy deletion|Deng candidate speedy deletion 
+pages]]
+*Abalu ra murin deng talapanibalang agamit do reng karelang upaya para king 
+[[Wikipedia:RC patrol|RC patrolling]].
+
+==Deng aliwang uri da reng upaya==
+Liban kareng talapanibala (administrator), ating aliwang uri da reng gagamit a 
+makalista keti, a makasamasan manibat kareng mas ditak angga kareng mas dakal a 
+upaya. Atilu king pilatan da reng gagamit a maka sig-in ampo reng bureaucrat.
+
+===Deng gagamit a maka sign-in===
+
+Malyari rang gawan deng gagamit a maki karaniwan a upaya, kayabe no reng 
+bisitang e mig “sign in,” deng keraklan kareng bage, lalu na itang pekamaulaga: 
+ing pamag-edit kareng artikulu at pamanyaup king [[Wikipedia:Wikipedia 
+maintenance|pamagmantini king Wikipedia]].
+
+Nanupata, den mung gagamit a mig sign up ing malyaring gawang bayung bulung, 
+[[wikipedia:image use policy|mag-upload kareng file]], manalis/mangalo kareng 
+bulung, gawang sariling artikulu o user page, o 
+[[wikipedia:how to rename (move) a page|manalili king pamagat da reng bulung]].
+Lon me ing [[Special:Userlogin]] ba kang makapag-log in para king sarili mu.
+
+=== Deng burukrata ===
+
+Atin lang upayang gawan dong sysop deng gagamit a maki ranggung 
+"[[Wikipedia:Bureaucrats|burukrata]]" o bureaucrat. Ing gagawa kareng burukrata 
+ila pin deng aliwang burukrata kareng proyektu nung ating anti kareti, o deng 
+steward, karetang alang proyektu. Makalista la reng pamag sysop king 
+[[Special:Log/rights]] [[Wikipedia:Bureaucrat log]].   Makabili no man deng 
+pamag sysop da reng steward king [[Meta:Special:Log/rights]]. Nanupata, itang 
+lokal dang ranggu antimong burukrata ing gagamitan da reng mapilan a steward a 
+aktibung gagamit a sysop king English Wikipedia, anya anti ya mong king teorya 
+mu ing pamiyaliwang iti.  
+
+=== Deng talaingat (steward) ===
+
+Malyari dang alilan deng user a maki ranggung "[[m:stewards|steward]]" ing upaya 
+ning ninumang gagamit king sanumang proyektung Wikipedia. Kayabe kaniti ing 
+pamamye at pamagbawi king upayang sysop, ampo ing pamagmarka kareng gagamit 
+antimong “bot”. Makalista la reng karelang dapat king   
+[[m:Special:Log/rights|Special:Log/rights on meta]]. Malyaring pasaup karela 
+king [[m:requests for permissions]]. Karaniwan, e la gawang obrang malyari rang 
+daptan deng lokal a burukrata.
+
+=== Deng developer ===
+
+Ing "developer" ing matas dili kareng upayang teknikal (ing tutu, metung yang 
+grupu da reng balitang iti, oneng e re makaing apansinan deng gagamit ing 
+pamiyaliwa da reti, liban ketang pekamababa). Ila pin deti reng diretsung 
+makapanalili king ampong database. Keraklan, e ro 
+gagampanan deti reng obra da reng talapanibala, liban kareng  
+check ampo ing pamag reattribute kareng 
+edit.
+Malyaring makiugnayan karela kapamilatan ning 
+[[Wikipedia:Mailing lists#Overview|wikitech-l mailing list]].  Lon me ing 
+[[m:Developer]] para king listaan da reng developer at karagdagang impormasyun.
+
+==Ing pamanabusu da reng talapanibala==
+
+Malyari lang ilako deng talapanibala nung iyabusu do reng karelang upaya. King 
+salukuyan, malyari lang ilako deti king pakisabi nang 
+[[User:Jimbo Wales|Jimbo Wales]] o kapamilatan ning atul ning  
+[[Wikipedia:Arbitration Committee|Lupung ning Pamamilatan]]. Atyu murin karela 
+ing pamanatul nung kaylangang mamye mas mayan a parusa kareng talapanibalang 
+babye prublema, kayabe na ing pamamawas king karelang upaya o pamamili karela 
+king [[Wikipedia:Administrative probation|administrative probation]]. Atyu 
+kareng [[m:steward|steward]] ing kagiwan a teknikal ba yang ilako ing ranggu 
+anting talapanibala.    
+
+== Ing pamakibat kareng reklamu ==
+
+Nung king palage mu, e ustu ing gewa na keka ning metung a talapanibala, 
+kaylangan mung ipabalu ing kekang panamdaman ketang talapanibalang ita. Subukan 
+yung mikasundu king paralan a masalese at magalang. Nanupata, nung e ra alutas 
+iti deng adwang panig a makasangkut, malyari kang kimut agpang king  
+[[Wikipedia:Dispute resolution]]. Ating mapilan a aliwang kaparalanan a 
+mimunikala para king 
+[[Wikipedia:Requests for de-adminship|removal of sysop status]], oneng ala pang 
+[[Wikipedia:consensus|pamikasundu]] tungkul kaniti.
+
+[[Category:Wikipedia functionaries|Administrators]]
+[[Category:Wikipedia administration| ]]
+[[Category:Wikipedia administrators| ]]
+
+<!-- interwiki -->
+
+[[af:Wikipedia:Administrateur]]
+[[ak:Wikipedia:Administrators]]
+[[als:Wikipedia:Ammanne]]
+[[am:Wikipedia:መጋቢዎች]]
+[[an:Wikipedia:Almenistradors]]
+[[ang:Wikipedia:Bewitend]]
+[[ar:ويكيبيديا:إداريون]]
+[[arc:Wikipedia:Administrators]]
+[[arz:ويكيبيديا:اداريين/سيسوبات]]
+[[as:ৱিকিপেডিয়া:প্ৰশাসনবৃন্দ]]
+[[ast:Uiquipedia:Alministradores]]
+[[av:Википедия:Администраторал]]
+[[ay:Wikipedia:Bibliotecarios]]
+[[az:Vikipediya:İdarəçilər]]
+[[ba:Wikipedia:Хәкимдәр]]
+[[bar:Wikipedia:Administratoren]]
+[[bat-smg:Vikipedėjė:Admėnėstravims]]
+[[be-x-old:Вікіпэдыя:Адміністрацыя]]
+[[bg:Уикипедия:Администратори]]
+[[bm:Wikipedia:Administrateurs]]
+[[bn:উইকিপেডিয়া:প্রশাসকবৃন্দ]]
+[[bo:Wikipedia:Administrators]]
+[[bpy:উইকিপিডিয়া:Administrators]]
+[[br:Wikipedia:Merourien]]
+[[bs:Wikipedia:Administratori]]
+[[bug:Wikipedia:ᨄᨂᨉᨙᨑᨙᨂ]]
+[[ca:Viquipèdia:Administradors]]
+[[cbk-zam:Wikipedia:Administrators]]
+[[cdo:Wikipedia:Hèng-céng Ìng-uòng]]
+[[ce:Википедийа:Администраторш]]
+[[ceb:Wikipedia:Tigdumala]]
+[[chr:Wikipedia:Administrators]]
+[[crh:Vikipediya:Administratorlar]]
+[[cs:Wikipedie:Správci]]
+[[cv:Википеди:Администраторсем]]
+[[cy:Wicipedia:Gweinyddwyr]]
+[[da:Wikipedia:Administratorer]]
+[[de:Wikipedia:Administratoren]]
+[[diq:Wikipedia:İdarekari]]
+[[dsb:Wikipedija:Administratory]]
+[[dv:ވިކިޕީޑިޔާ: އެޑްމިނިސްޓްރޭޓަރ]]
+[[ee:Wikipedia:Administrators]]
+[[el:Βικιπαίδεια:Διαχειριστές]]
+[[eml:Wikipedia:Amministratori]]
+[[en:Wikipedia:Administrators]]
+[[eo:Vikipedio:Administrantoj]]
+[[es:Wikipedia:Bibliotecarios]]
+[[et:Vikipeedia:Administraatorid]]
+[[eu:Wikipedia:Administratzaileak]]
+[[fa:ویکی‌پدیا:مدیران]]
+[[ff:Wikipedia:Administrateurs/anglais]]
+[[fi:Wikipedia:Ylläpitäjät]]
+[[fiu-vro:Wikipedia:Administrators]]
+[[fj:Wikipedia:Administrators]]
+[[fo:Wikipedia:Umboðsstjóri]]
+[[fr:Wikipédia:Administrateur]]
+[[frp:Vouiquipèdia:Administrator]]
+[[fur:Vichipedie:Aministradôrs]]
+[[fy:Wikipedy:Behearders]]
+[[ga:Vicipéid:Riarthóirí]]
+[[gd:Wikipedia:Administrators]]
+[[gl:Wikipedia:Administradores]]
+[[gu:વિકિપીડિયા:પ્રબંધક]]
+[[gv:Wikipedia:Reireyderyn]]
+[[ha:Wikipedia:Administrators]]
+[[hak:Wikipedia:Kón-lî-yèn]]
+[[haw:Wikipedia:Nā kahu]]
+[[he:ויקיפדיה:מפעיל מערכת]]
+[[hi:विकिपीडिया:प्रबन्धक]]
+[[hr:Wikipedija:Administratori]]
+[[hsb:Wikipedija:Administratorojo]]
+[[hu:Wikipédia:Adminisztrátorok]]
+[[hy:Վիքիփեդիա:Ադմինիստրատոր]]
+[[ia:Wikipedia:Administratores]]
+[[id:Wikipedia:Pengurus]]
+[[ie:Wikipedia:Administrators]]
+[[ig:Wikipedia:Administrators]]
+[[ik:Wikipedia:Administrators]]
+[[ilo:Wikipedia:Dagiti Administrador]]
+[[io:Wikipedio:Administranti]]
+[[is:Wikipedia:Möppudýr]]
+[[it:Wikipedia:Amministratori]]
+[[iu:ᐅᐃᑭᐱᑎᐊoikipitia:ᑐᑭᓕᐅᖅᐹinuluriji]]
+[[ja:Wikipedia:管理者]]
+[[jv:Wikipedia:Pangurus]]
+[[ka:ვიკიპედია:ადმინისტრატორები]]
+[[kaa:Wikipedia:Administratorlar]]
+[[kg:Wikipedia:Administrators]]
+[[kk:Уикипедия:Әкімшілер]]
+[[kl:Wikipedia:Administrators]]
+[[kn:ವಿಕಿಪೀಡಿಯ:ನಿರ್ವಾಹಕರು]]
+[[ko:위키백과:관리자]]
+[[ks:Wikipedia:Administrators]]
+[[ksh:Wikipedia:Wiki-Köbes]]
+[[ku:Wîkîpediya:Admînistrator]]
+[[kw:Wikipedia:Menysteryon]]
+[[ky:Wikipedia:Administrators]]
+[[la:Vicipaedia:Magistratus]]
+[[lad:Wikipedia:Administradores]]
+[[lb:Wikipedia:Administrateuren]]
+[[lg:Wikipedia:Administrators]]
+[[li:Wikipedia:Systeemwèrkers]]
+[[lij:Wikipedia:Administrators]]
+[[lmo:Wikipedia:Aministraduur]]
+[[ln:Wikipedia:Moyángeli]]
+[[lo:ວິກິພີເດຍ:ຜູ້ບໍລິຫານ]]
+[[lt:Vikipedija:Administratoriai]]
+[[lv:Vikipēdija:Administrācija]]
+[[map-bms:Wikipedia:Pengurus]]
+[[mg:Wikipedia:Mpandrindra]]
+[[mi:Wikipedia:Kaiwhakahaere]]
+[[mk:Википедија:Administrators]]
+[[ml:വിക്കിപീഡിയ:കാര്യനിര്‍വാഹകര്‍]]
+[[mn:Wikipedia:Администраторууд]]
+[[mr:विकिपीडिया:प्रचालक]]
+[[ms:Wikipedia:Penyelia]]
+[[mt:Wikipedija:Amministraturi]]
+[[my:Wikipedia:Administrators]]
+[[myv:Википедиясь:Администраторт]]
+[[mzn:Wikipedia:Serareman]]
+[[na:Wikipedia:Administrators]]
+[[nah:Huiquipedia:Tētlamahmacanih]]
+[[nap:Wikipedia:Ammenistratòre]]
+[[nds:Wikipedia:Administraters]]
+[[nds-nl:Wikipedie:Beheerder]]
+[[ng:Wikipedia:Administrators]]
+[[nl:Wikipedia:Moderator]]
+[[nn:Wikipedia:Administratorar]]
+[[no:Wikipedia:Administratorer]]
+[[nrm:Wikipedia:Administrators]]
+[[ny:Wikipedia:Administrators]]
+[[oc:Wikipèdia:Administrator]]
+[[or:Wikipedia:Administrators]]
+[[os:Википеди:Админтæ]]
+[[pa:ਵਿਕਿਪੀਡਿਆ:ਪ੍ਰਸ਼ਾਸਕ]]
+[[pag:Wikipedia:Administrators]]
+[[pdc:Wikipedia:Administratoren]]
+[[pih:Wikipedia:Administrators]]
+[[pl:Wikipedia:Administratorzy]]
+[[ps:Wikipedia:Administrators]]
+[[pt:Wikipedia:Administradores]]
+[[qu:Wikipidiya:Kamachiq]]
+[[rmy:Vikipidiya:Administratorurya]]
+[[ro:Wikipedia:Administratori]]
+[[roa-tara:Wikipedia:Amministratore]]
+[[ru:Википедия:Администраторы]]
+[[sa:Wikipedia:प्रबंधक]]
+[[sah:Бикипиидийэ:Дьаһабыллар]]
+[[sc:Wikipedia:Aministradori]]
+[[scn:Wikipedia:Amministraturi]]
+[[sco:Wikipedia:Administrators]]
+[[sd:Wikipedia:Administrators]]
+[[se:Wikipedia:Hálddašeaddjit]]
+[[sg:Wikipedia:Administrators]]
+[[sh:Wikipedia:Administratori]]
+[[si:Wikipedia:Administrators]]
+[[simple:Wikipedia:Administrators]]
+[[sk:Wikipédia:Správcovia]]
+[[sl:Wikipedija:Administratorji]]
+[[sm:Wikipedia:Administrators]]
+[[sq:Wikipedia:Administruesit]]
+[[sr:Википедија:Администратори]]
+[[ss:Wikipedia:Administrators]]
+[[stq:Wikipedia:Administratore]]
+[[su:Wikipedia:Kuncén]]
+[[sv:Wikipedia:Administratörer]]
+[[sw:Wikipedia:Wakabidhi]]
+[[szl:Wikipedyjo:Admińistratoři]]
+[[ta:விக்கிப்பீடியா:நிர்வாகிகள்]]
+[[te:వికీపీడియా:నిర్వాహకులు]]
+[[tet:Wikipedia:Administradór sira]]
+[[tg:Википедиа:Администраторҳо]]
+[[th:วิกิพีเดีย:ผู้ดูแลระบบ]]
+[[tk:Wikipediýa:Ýolbaşçylyk saýlawy]]
+[[tl:Wikipedia:Tagapangasiwa]]
+[[to:Wikipedia:Administrators]]
+[[tr:Vikipedi:Hizmetliler]]
+[[ts:Wikipedia:Administrators]]
+[[tt:Wikipedia:İdäräçelär]]
+[[tum:Wikipedia:Administrators]]
+[[tw:Wikipedia:Administrators]]
+[[udm:Wikipedia:Администраторъёс]]
+[[ug:Wikipedia:Administrators]]
+[[uk:Вікіпедія:Адміністратори]]
+[[uz:Vikipediya:Administratorlar]]
+[[ve:Wikipedia:Administrators]]
+[[vec:Wikipedia:Aministradori]]
+[[vi:Wikipedia:Bảo quản viên]]
+[[vls:Wikipedia:Sysop]]
+[[vo:Vükiped:Guvans]]
+[[wa:Wikipedia:Manaedjeus]]
+[[war:Wikipedia:Administrators]]
+[[wo:Wikipedia:Yorkat]]
+[[wuu:Wikipedia:管理员]]
+[[yi:װיקיפּעדיע:אדמיניסטראטורן]]
+[[yo:Wikipedia:Àwọn alámùójútó]]
+[[zh:Wikipedia:管理员]]
+[[zh-min-nan:Wikipedia:Hêng-chèng jîn-oân]]
+[[zh-yue:Wikipedia:管理員]]
+[[zu:Wikipedia:Administrators]]
