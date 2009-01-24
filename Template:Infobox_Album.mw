@@ -1,0 +1,96 @@
+<includeonly>{| class="infobox" style="width: 20em;"
+|-
+| style="background: {{Template:Infobox Album/color|{{{Type|}}}}}; text-align: center;" colspan="3" | '''''{{{Name}}}'''''
+|-
+| colspan="3" style="text-align: center;" | {{#if: {{{Cover|}}}
+<!-- -->| [[Image:{{{Cover}}}|{{min|200|{{{Cover size|}}}}}px|{{{Name}}} cover]]
+<!-- -->| [[Image:Nocover.png|200px|No cover available]]
+}}
+{{#if: {{{Caption|}}} |
+<!-- -->{{!-}}
+<!-- -->{{!}} colspan="3" style="text-align: center; font-size: smaller;" {{!}} {{{Caption}}}
+}}
+|-
+| style="background: {{Template:Infobox Album/color|{{{Type|}}}}}; text-align: center;" colspan="3" | '''{{Template:Infobox Album/link|{{{Type}}}}} {{#if:{{{Longtype|}}}| {{{Longtype}}}}} {{#if:{{{Artist|}}}|{{{conjunction|ni}}} {{{Artist}}}}}'''
+|-
+{{#if: {{{Released|}}} |
+<!-- -->{{!}} '''Maka-luwal'''
+<!-- -->{{!}} colspan="2" {{!}} {{{Released}}}
+<!-- -->{{!-}}
+}}
+{{#if: {{{Recorded|}}} |
+<!-- -->{{!}} '''Maka-plaka'''
+<!-- -->{{!}} colspan="2" {{!}} {{{Recorded}}}
+<!-- -->{{!-}}
+}}
+{{#if: {{{Genre|}}} |
+<!-- -->{{!}} '''[[:en:Music genre|Genre]]'''
+<!-- -->{{!}} colspan="2" {{!}} {{{Genre}}}
+<!-- -->{{!-}}
+}}
+{{#if: {{{Length|}}} |
+<!-- -->{{!}} '''Haba'''
+<!-- -->{{!}} colspan="2" {{!}} {{{Length}}}
+<!-- -->{{!-}}
+}}
+{{#if: {{{Language|}}} |
+<!-- -->{{!}} '''Amanu'''
+<!-- -->{{!}} colspan="2" {{!}} {{{Language}}}
+<!-- -->{{!-}}
+}}
+{{#if: {{{Label|}}} |
+<!-- -->{{!}} '''Leybel'''
+<!-- -->{{!}} colspan="2" {{!}} {{{Label}}}
+<!-- -->{{!-}}
+}}
+{{#if: {{{Producer|}}} |
+<!-- -->{{!}} '''Prodyuser'''
+<!-- -->{{!}} colspan="2" {{!}} {{{Producer}}}
+<!-- -->{{!-}}
+}}
+{{#if: {{{Compiled by|}}} |
+<!-- -->{{!}} '''Akumpila ning/nang'''
+<!-- -->{{!}} colspan="2" {{!}} {{{Compiled by}}}
+<!-- -->{{!-}}
+}}
+{{#if: {{{Reviews|}}} |
+<!-- -->! style="background: {{Template:Infobox Album/color|{{{Type|}}}}};" colspan="3" {{!}} Deng propesyonal a rebyu
+<!-- -->{{!-}}
+<!-- -->{{!}} colspan="3" {{!}}
+<!-- -->{{{Reviews}}}
+<!-- -->{{!-}}
+}}
+{{#if: {{{Last album|}}}{{{Next album|}}} |
+<!-- -->! style="background: {{Template:Infobox Album/color|{{{Type|}}}}};" colspan="3" {{!}} {{#if:{{{Chronology|}}} | {{{Chronology}}} | chronology&nbsp;{{{conjuction|ni}}}&nbsp;{{{Artist}}}}}
+<!-- -->{{!-}} style="text-align: center; font-size: 0.8em;"
+<!-- -->{{!}}style="width: 33%;" valign="top"{{!}}{{{Last album|}}}
+<!-- -->{{!}}style="width: 33%;" valign="middle"{{!}}{{{This album|}}}
+<!-- -->{{!}}style="width: 33%;" valign="top"{{!}}{{{Next album|}}}
+}}
+{{#if:{{{extra cover1|}}}|
+<!-- -->{{!-}}
+<!-- -->! style="background: {{Template:Infobox Album/color|{{{Type|}}}}};" colspan="3" {{!}} {{{extra cover1 upper|Alternate Cover}}}
+<!-- -->{{!-}}
+<!-- -->{{!}} colspan="3" style="text-align: center;" {{!}} [[Image:{{{extra cover1}}}|200px|{{{extra cover1 lower|{{{extra cover1 upper|Alternate Cover}}}}}}]]
+<!-- -->{{#if:{{{extra cover1 lower|}}}|
+<!--   -->{{!-}} style="text-align: center; font-size: smaller;"
+<!--   -->{{!}} colspan="3" style="text-align: center;" {{!}} {{{extra cover1 lower}}}
+<!-- -->}}
+}}<!-- End extra cover1-->
+{{#if:{{{extra cover2|}}}|
+<!-- -->{{#if:{{{extra cover2 upper|}}}|
+<!--   -->{{!-}}
+<!--   -->! style="background: {{Template:Infobox Album/color|{{{Type|}}}}};" colspan="3" {{!}} {{{extra cover2 upper}}}
+<!-- -->}}
+<!-- -->{{!-}} 
+<!-- -->{{!}} colspan="3" style="text-align: center;" {{!}} [[Image:{{{extra cover2}}}|200px|{{{extra cover2 lower|{{{extra cover2 upper|Alternate Cover}}}}}}]]
+<!-- -->{{#if:{{{extra cover2 lower|}}}|
+<!--   -->{{!-}} style="text-align: center; font-size: smaller;"
+<!--   -->{{!}} colspan="3" style="text-align: center;" {{!}} {{{extra cover2 lower}}}
+<!-- -->}}
+}}<!-- End extra cover2-->
+{{{Misc|}}}
+|}{{#ifeq:{{Template:Infobox Album/color|{{{Type|}}}|Test}}|Test|}}</includeonly><noinclude>{{/doc}}
+
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
+</noinclude>
