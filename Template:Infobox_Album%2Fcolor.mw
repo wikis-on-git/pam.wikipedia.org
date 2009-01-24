@@ -1,0 +1,107 @@
+<includeonly>{{#switch: {{lc:{{{1|}}}}}
+  |ep|[[ep]]=lightsalmon
+  |studio album|[[studio album]]|[[album]]|album|studio=lightsteelblue
+  |double album|[[double album]]= lightsteelblue
+  |live album|[[live album]]|live=burlywood
+  |greatest hits|[[greatest hits]]|greatest=darkseagreen
+  |box set|[[box set]]|box=darkseagreen
+  |compilation album|[[compilation album]]|compilation=darkseagreen
+  |remix album|[[remix album]]|remix=darkseagreen
+  |cover album|[[cover album]]|cover=thistle
+  |tribute album|[[tribute album]]|tribute=thistle
+  |movie soundtrack|[[soundtrack]]|[[soundtrack album]]|soundtrack=gainsboro
+  |television theme|television|theme=gainsboro
+  |film score|[[film score]]|film=gainsboro
+  |single|[[single]]|singles|[[singles]]=khaki
+  |{{#if:{{{2|}}}|{{{2}}}|peachpuff}}
+}}</includeonly><noinclude>
+==Important==
+When modifying this template, don't forget to update [[Template:Infobox Album/link]]. Thanks.
+
+== Usage ==
+This template is an auxiliary one and should be only used by the {{tl|Infobox Album}} template. Based on the type of album this template receives, it returns the color that will be used.
+
+=== Quick reference table ===
+{| style="background:transparent;"
+!Types!!Color!!Codes
+|-
+!bgcolor="{{Infobox Album/color|ep}}" |EPs||{{Infobox Album/color|ep}}||ep
+|-
+!bgcolor="{{Infobox Album/color|studio}}" |Original studio albums||{{Infobox Album/color|studio}}||studio
+|-
+!bgcolor="{{Infobox Album/color|live}}" |Live albums and live EPs||{{Infobox Album/color|live}}||live
+|-
+!bgcolor="{{Infobox Album/color|greatest}}"|Greatest hits||{{Infobox Album/color|greatest}}||greatest
+|-
+!bgcolor="{{Infobox Album/color|remix}}"|Remixes||{{Infobox Album/color|remix}}||remix
+|-
+!bgcolor="{{Infobox Album/color|box}}"|Box sets||{{Infobox Album/color|box}}||box
+|-
+!bgcolor="{{Infobox Album/color|compilation}}"|Other Compilations||{{Infobox Album/color|compilation}}||compilation
+|-
+!bgcolor="{{Infobox Album/color|cover}}"|Cover albums||{{Infobox Album/color|cover}}||cover
+|-
+!bgcolor="{{Infobox Album/color|tribute}}" |Tribute albums||{{Infobox Album/color|tribute}}||tribute
+|-
+!bgcolor="{{Infobox Album/color|soundtrack}}"|Soundtracks ||{{Infobox Album/color|soundtrack}}||soundtrack
+|-
+!bgcolor="{{Infobox Album/color|television}}"|Television themes||{{Infobox Album/color|television}}||television
+|-
+!bgcolor="{{Infobox Album/color|film}}"|Film Scores||{{Infobox Album/color|film}}||film
+|-
+!bgcolor="{{Infobox Album/color|unknown}}"|Unknown type||{{Infobox Album/color|unknown}}||N/A
+|}
+=== Valid arguments ===
+* EP
+* Studio album
+* Live album
+* Greatest hits
+* Box set
+* Compilation album
+* Remix album
+* Cover
+* Tribute album
+* Soundtrack
+* Television theme
+* Film score
+
+== Unit test ==
+If at any time the ''Expected'' and ''Obtained'' columns do not match, this template can be considered broken. This table makes the template automatically check itself. If a {{y}} mark is seen, it means that self test worked fine. if there is a {{n}} mark, it means the test failed. Whenever you make a modification to the template, please save the page, hit CTRL+F5, and check if all the self tests have passed. If you add a new type to the template, remember to add the type using this format:
+
+<code>
+<pre>
+| <nowiki>{{Template:Infobox Album color|typename}}</nowiki>
+| typecolor
+| {{Template:Infobox Album color|typename}}
+| {{#ifeq:{{Template:Infobox Album color|typename}}|typecolor|{{y}}|{{n}}}}
+</pre>
+</code>
+
+Replace ''typename'' with the new type name (in example, ''Epic soundtrack''), and ''typecolor'' with the color assigned to the type (in example, ''brown''). See [[Wikipedia:Colours]] and [[Wikipedia:Infobox colours]] for additional information.
+
+'''Note''': Sometimes the test may pass while previewing the page, but once saved the test would fail, no matter how many times the cache is cleared. In this case, please click [{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|action=purge}} this link] to purge the cache. If that doesn't solve the problem, please post a note in the Talk page of the template and an editor will review the changes.
+{|class="wikitable"
+|-
+! Template usage
+! Expected
+! Obtained
+! Test
+{{Infobox Album/color/unit test|ep|lightsalmon}}
+{{Infobox Album/color/unit test|[[EP]]|lightsalmon}}
+{{Infobox Album/color/unit test|Studio album|lightsteelblue}}
+{{Infobox Album/color/unit test|Live album|burlywood}}
+{{Infobox Album/color/unit test|Greatest hits|darkseagreen}}
+{{Infobox Album/color/unit test|Box set|darkseagreen}}
+{{Infobox Album/color/unit test|Compilation album|darkseagreen}}
+{{Infobox Album/color/unit test|Remix album|darkseagreen}}
+{{Infobox Album/color/unit test|Cover album|thistle}}
+{{Infobox Album/color/unit test|Tribute album|thistle}}
+{{Infobox Album/color/unit test|Soundtrack|gainsboro}}
+{{Infobox Album/color/unit test|Television theme|gainsboro}}
+{{Infobox Album/color/unit test|Film score|gainsboro}}
+{{Infobox Album/color/unit test|testing|peachpuff}}
+{{Infobox Album/color/unit test||peachpuff}}
+|}
+
+[[Category:Template implementation details|{{PAGENAME}}]]
+</noinclude>
