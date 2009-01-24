@@ -1,0 +1,316 @@
+{{#switch:{{lc:{{{1|}}}}}
+  |ep|[[ep]]=[[Extended play|EP]]
+  |studio album|[[studio album]]|[[album]]|album|original studio album|studio=[[Studio album]]
+  |double album|[[double album]]=[[Double album]]
+  |live album|[[live album]]|live=[[Live album]]
+  |greatest hits|[[greatest hits]]|greatest=[[Greatest hits]]
+  |box set|[[box set]]|box|[[boxed set]]=[[Boxed set|Box set]]
+  |compilation album|compilation|[[compilation album]]=[[Compilation album]]
+  |remix album|remix|[[remix]]|[[remix album]]=[[Remix album]]
+  |cover album|cover|[[cover album]]|[[cover version]]=[[Cover version|Cover album]]
+  |tribute album|tribute|[[tribute album]]=[[Tribute album]]
+  |soundtrack|movie soundtrack|[[soundtrack]]|[[soundtrack album]]=[[Soundtrack]]
+  |television|television theme=[[Soundtrack|Television theme]]
+  |film|film score|[[film score]]=[[Film score]]
+  |{{{1}}}
+}}<noinclude>
+==Usage==
+This template is an auxiliar one and should be only used by the {{tl|Infobox Album}} template. Based on the type of album this template receives, it returns the wikified version of the text.
+
+===Valid arguments===
+* EP
+* Studio album
+* Live album
+* Greatest hits
+* Box set
+* Compilation album
+* Remix album
+* Cover album
+* Tribute album
+* Soundtrack
+* Television theme
+* Film score
+
+==Unit test==
+If at any time the ''Expected'' and ''Obtained'' columns do not match, this template can be considered broken. This table makes the template automatically check itself. If a {{y}} mark is seen, it means that self test worked fine. if there is a {{n}} mark, it means the test failed. Whenever you make a modification to the template, please save the page, hit CTRL+F5, and check if all the self tests have passed. If you add a new type to the template, remember to add the type using this format:
+
+<code>
+<pre>
+| <nowiki>{{Template:Infobox Album link|typename}}</nowiki>
+| typereplace
+| {{Template:Infobox Album link|typename}}
+| {{#ifeq:{{Template:Infobox Album link|typename}}|typereplace|{{y}}|{{n}}}}
+</pre>
+</code>
+
+Replace ''typename'' with the new type name (in example, ''Epic soundtrack''), and ''typereplace'' with the text that will appear as album type (in example, ''<nowiki>[[Soundtrack|Epic soundtrack]]</nowiki>'').
+
+'''Note''': Sometimes the test may pass while previewing the page, but once saved the test would fail, no matter how many times the cache is cleared. In this case, please click {{purge|this link}} to purge the cache. If that doesn't solve the problem, please post a note in the Talk page of the template and an editor will review the changes.
+
+{|class="wikitable"
+|-
+! Template usage
+! Expected
+! Obtained
+! Test
+|-
+!colspan="4" | Extended play
+|-
+| <nowiki>{{Template:Infobox Album link|EP}}</nowiki>
+| [[Extended play|EP]]
+| {{Template:Infobox Album link|EP}}
+| {{#ifeq:{{Template:Infobox Album link|EP}}|[[Extended play|EP]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|Extended play}}</nowiki>
+| [[Extended play|EP]]
+| {{Template:Infobox Album link|Extended play}}
+| {{#ifeq:{{Template:Infobox Album link|Extended play}}|[[Extended play|EP]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|[[EP]]}}</nowiki>
+| [[Extended play|EP]]
+| {{Template:Infobox Album link|[[EP]]}}
+| {{#ifeq:{{Template:Infobox Album link|[[EP]]}}|[[Extended play|EP]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|[[Extended play]]}}</nowiki>
+| [[Extended play|EP]]
+| {{Template:Infobox Album link|[[Extended play]]}}
+| {{#ifeq:{{Template:Infobox Album link|[[Extended play]]}}|[[Extended play|EP]]|{{y}}|{{n}}}}
+|-
+!colspan="4" | Studio album
+|-
+| <nowiki>{{Template:Infobox Album link|Studio album}}</nowiki>
+| [[Studio album]]
+| {{Template:Infobox Album link|Studio album}}
+| {{#ifeq:{{Template:Infobox Album link|Studio album}}|[[Studio album]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|[[Studio album]]}}</nowiki>
+| [[Studio album]]
+| {{Template:Infobox Album link|[[Studio album]]}}
+| {{#ifeq:{{Template:Infobox Album link|[[Studio album]]}}|[[Studio album]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|[[Album]]}}</nowiki>
+| [[Studio album]]
+| {{Template:Infobox Album link|[[Album]]}}
+| {{#ifeq:{{Template:Infobox Album link|[[Album]]}}|[[Studio album]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|Album}}</nowiki>
+| [[Studio album]]
+| {{Template:Infobox Album link|Album}}
+| {{#ifeq:{{Template:Infobox Album link|Album}}|[[Studio album]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|Original studio album}}</nowiki>
+| [[Studio album]]
+| {{Template:Infobox Album link|Original studio album}}
+| {{#ifeq:{{Template:Infobox Album link|Original studio album}}|[[Studio album]]|{{y}}|{{n}}}}
+|-
+|-
+| <nowiki>{{Template:Infobox Album link|Studio}}</nowiki>
+| [[Studio album]]
+| {{Template:Infobox Album link|Studio}}
+| {{#ifeq:{{Template:Infobox Album link|Studio}}|[[Studio album]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|LP}}</nowiki>
+| [[Studio album]]
+| {{Template:Infobox Album link|LP}}
+| {{#ifeq:{{Template:Infobox Album link|LP}}|[[Studio album]]|{{y}}|{{n}}}}
+|-
+!colspan="4" | Live album
+|-
+| <nowiki>{{Template:Infobox Album link|Live album}}</nowiki>
+| [[Live album]]
+| {{Template:Infobox Album link|Live album}}
+| {{#ifeq:{{Template:Infobox Album link|Live album}}|[[Live album]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|[[Live album]]}}</nowiki>
+| [[Live album]]
+| {{Template:Infobox Album link|[[Live album]]}}
+| {{#ifeq:{{Template:Infobox Album link|[[Live album]]}}|[[Live album]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|Live}}</nowiki>
+| [[Live album]]
+| {{Template:Infobox Album link|Live}}
+| {{#ifeq:{{Template:Infobox Album link|Live}}|[[Live album]]|{{y}}|{{n}}}}
+|-
+!colspan="4" | Greatest hits
+|-
+| <nowiki>{{Template:Infobox Album link|Greatest hits}}</nowiki>
+| [[Greatest hits]]
+| {{Template:Infobox Album link|Greatest hits}}
+| {{#ifeq:{{Template:Infobox Album link|Greatest hits}}|[[Greatest hits]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|[[Greatest hits]]}}</nowiki>
+| [[Greatest hits]]
+| {{Template:Infobox Album link|[[Greatest hits]]}}
+| {{#ifeq:{{Template:Infobox Album link|[[Greatest hits]]}}|[[Greatest hits]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|Greatest}}</nowiki>
+| [[Greatest hits]]
+| {{Template:Infobox Album link|Greatest}}
+| {{#ifeq:{{Template:Infobox Album link|Greatest}}|[[Greatest hits]]|{{y}}|{{n}}}}
+|-
+!colspan="4" | Box set
+|-
+| <nowiki>{{Template:Infobox Album link|Box set}}</nowiki>
+| [[Boxed set|Box set]]
+| {{Template:Infobox Album link|Box set}}
+| {{#ifeq:{{Template:Infobox Album link|Box set}}|[[Boxed set|Box set]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|[[Box set]]}}</nowiki>
+| [[Boxed set|Box set]]
+| {{Template:Infobox Album link|[[Box set]]}}
+| {{#ifeq:{{Template:Infobox Album link|[[Box set]]}}|[[Boxed set|Box set]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|Box}}</nowiki>
+| [[Boxed set|Box set]]
+| {{Template:Infobox Album link|Box}}
+| {{#ifeq:{{Template:Infobox Album link|Box}}|[[Boxed set|Box set]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|[[Boxed set]]}}</nowiki>
+| [[Boxed set|Box set]]
+| {{Template:Infobox Album link|[[Boxed set]]}}
+| {{#ifeq:{{Template:Infobox Album link|[[Boxed set]]}}|[[Boxed set|Box set]]|{{y}}|{{n}}}}
+|-
+!colspan="4" | Compilation album
+|-
+| <nowiki>{{Template:Infobox Album link|Compilation album}}</nowiki>
+| [[Compilation album]]
+| {{Template:Infobox Album link|Compilation album}}
+| {{#ifeq:{{Template:Infobox Album link|Compilation album}}|[[Compilation album]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|Compilation}}</nowiki>
+| [[Compilation album]]
+| {{Template:Infobox Album link|Compilation}}
+| {{#ifeq:{{Template:Infobox Album link|Compilation}}|[[Compilation album]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|[[Compilation album]]}}</nowiki>
+| [[Compilation album]]
+| {{Template:Infobox Album link|[[Compilation album]]}}
+| {{#ifeq:{{Template:Infobox Album link|[[Compilation album]]}}|[[Compilation album]]|{{y}}|{{n}}}}
+|-
+!colspan="4" | Remix album
+|-
+| <nowiki>{{Template:Infobox Album link|Remix album}}</nowiki>
+| [[Remix album]]
+| {{Template:Infobox Album link|Remix album}}
+| {{#ifeq:{{Template:Infobox Album link|Remix album}}|[[Remix album]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|Remix}}</nowiki>
+| [[Remix album]]
+| {{Template:Infobox Album link|Remix}}
+| {{#ifeq:{{Template:Infobox Album link|Remix}}|[[Remix album]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|[[Remix]]}}</nowiki>
+| [[Remix album]]
+| {{Template:Infobox Album link|[[Remix]]}}
+| {{#ifeq:{{Template:Infobox Album link|[[Remix]]}}|[[Remix album]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|[[Remix album]]}}</nowiki>
+| [[Remix album]]
+| {{Template:Infobox Album link|[[Remix album]]}}
+| {{#ifeq:{{Template:Infobox Album link|[[Remix album]]}}|[[Remix album]]|{{y}}|{{n}}}}
+|-
+!colspan="4" | Cover album
+|-
+| <nowiki>{{Template:Infobox Album link|Cover album}}</nowiki>
+| [[Cover version|Cover album]]
+| {{Template:Infobox Album link|Cover album}}
+| {{#ifeq:{{Template:Infobox Album link|Cover album}}|[[Cover version|Cover album]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|Cover}}</nowiki>
+| [[Cover version|Cover album]]
+| {{Template:Infobox Album link|Cover}}
+| {{#ifeq:{{Template:Infobox Album link|Cover}}|[[Cover version|Cover album]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|[[Cover album]]}}</nowiki>
+| [[Cover version|Cover album]]
+| {{Template:Infobox Album link|[[Cover album]]}}
+| {{#ifeq:{{Template:Infobox Album link|[[Cover album]]}}|[[Cover version|Cover album]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|[[Cover version]]}}</nowiki>
+| [[Cover version|Cover album]]
+| {{Template:Infobox Album link|[[Cover version]]}}
+| {{#ifeq:{{Template:Infobox Album link|[[Cover version]]}}|[[Cover version|Cover album]]|{{y}}|{{n}}}}
+|-
+!colspan="4" | Tribute album
+|-
+| <nowiki>{{Template:Infobox Album link|Tribute album}}</nowiki>
+| [[Tribute album]]
+| {{Template:Infobox Album link|Tribute album}}
+| {{#ifeq:{{Template:Infobox Album link|Tribute album}}|[[Tribute album]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|Tribute}}</nowiki>
+| [[Tribute album]]
+| {{Template:Infobox Album link|Tribute}}
+| {{#ifeq:{{Template:Infobox Album link|Tribute}}|[[Tribute album]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|[[Tribute album]]}}</nowiki>
+| [[Tribute album]]
+| {{Template:Infobox Album link|[[Tribute album]]}}
+| {{#ifeq:{{Template:Infobox Album link|[[Tribute album]]}}|[[Tribute album]]|{{y}}|{{n}}}}
+|-
+!colspan="4" | Soundtrack
+|-
+| <nowiki>{{Template:Infobox Album link|Soundtrack}}</nowiki>
+| [[Soundtrack]]
+| {{Template:Infobox Album link|Soundtrack}}
+| {{#ifeq:{{Template:Infobox Album link|Soundtrack}}|[[Soundtrack]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|Movie soundtrack}}</nowiki>
+| [[Soundtrack]]
+| {{Template:Infobox Album link|Movie soundtrack}}
+| {{#ifeq:{{Template:Infobox Album link|Movie soundtrack}}|[[Soundtrack]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|[[Soundtrack]]}}</nowiki>
+| [[Soundtrack]]
+| {{Template:Infobox Album link|[[Soundtrack]]}}
+| {{#ifeq:{{Template:Infobox Album link|[[Soundtrack]]}}|[[Soundtrack]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|[[Soundtrack album]]}}</nowiki>
+| [[Soundtrack]]
+| {{Template:Infobox Album link|[[Soundtrack album]]}}
+| {{#ifeq:{{Template:Infobox Album link|[[Soundtrack album]]}}|[[Soundtrack]]|{{y}}|{{n}}}}
+|-
+!colspan="4" | Television theme
+|-
+| <nowiki>{{Template:Infobox Album link|Television theme}}</nowiki>
+| [[Soundtrack|Television theme]]
+| {{Template:Infobox Album link|Television theme}}
+| {{#ifeq:{{Template:Infobox Album link|Television theme}}|[[Soundtrack|Television theme]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|Television}}</nowiki>
+| [[Soundtrack|Television theme]]
+| {{Template:Infobox Album link|Television}}
+| {{#ifeq:{{Template:Infobox Album link|Television}}|[[Soundtrack|Television theme]]|{{y}}|{{n}}}}
+|-
+!colspan="4" | Film score
+|-
+| <nowiki>{{Template:Infobox Album link|Film score}}</nowiki>
+| [[Film score]]
+| {{Template:Infobox Album link|Film score}}
+| {{#ifeq:{{Template:Infobox Album link|Film score}}|[[Film score]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|Film}}</nowiki>
+| [[Film score]]
+| {{Template:Infobox Album link|Film}}
+| {{#ifeq:{{Template:Infobox Album link|Film}}|[[Film score]]|{{y}}|{{n}}}}
+|-
+| <nowiki>{{Template:Infobox Album link|[[Film score]]}}</nowiki>
+| [[Film score]]
+| {{Template:Infobox Album link|[[Film score]]}}
+| {{#ifeq:{{Template:Infobox Album link|[[Film score]]}}|[[Film score]]|{{y}}|{{n}}}}
+|-
+!colspan="4" | Other cases
+|-
+| <nowiki>{{Template:Infobox Album link|}}</nowiki>
+|
+| {{Template:Infobox Album link|}}
+| {{#ifeq:{{Template:Infobox Album link|}}||{{y}}|{{n}}}}
+|-
+|| <nowiki>{{Template:Infobox Album link|xyz|}}</nowiki>
+|xyz
+| {{Template:Infobox Album link|xyz}}
+| {{#ifeq:{{Template:Infobox Album link|xyz}}|xyz|{{y}}|{{n}}}}
+|}
+
+[[Category:Template implementation details|{{PAGENAME}}]]
+</noinclude>
