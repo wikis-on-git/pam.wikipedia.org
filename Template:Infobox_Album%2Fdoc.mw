@@ -1,0 +1,296 @@
+{{documentation subpage|[[Template:Infobox Album]]|[[Template:Infobox Album/doc]]}}
+{{Infobox Album <!-- See Wikipedia:WikiProject_Albums -->
+| Name        = Dirt
+| Type        = studio
+| Artist      = [[Alice in Chains]]
+| Cover       = Example.png <!-- Real album cover removed for copyright reasons. Leave this field blank if you don't have an album cover. -->
+| Released    = {{Start date|1992|09|29}}
+| Recorded    = March–May 1992 at One on One and Eldorado in [[Los Angeles, California]]
+| Genre       = [[Heavy metal music|Heavy metal]], [[Grunge music|grunge]]
+| Length      = 57:35
+| Label       = [[Columbia Records|Columbia]]
+| Producer    = [[Alice in Chains]], [[Dave Jerden]]
+| Reviews     = 
+*[[All Music Guide]] {{Rating-5|4.5}} [http://www.allmusic.com/cg/amg.dll?p=amg&sql=10:z3fe4j870waq link]
+*''[[Alternative Press (music magazine)|Alternative Press]]'' (favorable)  March 1993 (p. 40)
+*{{Review-Christgau|B|name=Alice+in+Chains}}
+*''[[Q (magazine)|Q]]'' {{Rating-5|4}}  February 2002 (p. 120)
+| Last album  = ''[[Sap (album)|Sap]]''<br />(1992)
+| This album  = '''''Dirt'''''<br />(1992)
+| Next album  = ''[[Jar of Flies]]''<br />(1994)
+}}
+
+The standard [[Wikipedia:Manual of Style (infoboxes)|infobox]] for album articles is the '''{{tl|Infobox Album}}''' template. The box to the right is an example. You can click on "edit this page" and copy-and-paste the markup to a different article, replacing its information with info on the album you choose to write about.
+
+The infobox code should be placed at the top of the article.
+
+===Code===
+Most articles should only need the following fields (for the full list of fields see [[#Advanced usage|advanced usage]]). Do not remove fields from this list when the value is unknown; in that case the values should be left blank.  Please note that the field names are case-sensitive.
+
+<pre style="overflow:auto">
+{{Infobox Album <!-- See Wikipedia:WikiProject_Albums -->
+| Name        = 
+| Type        = 
+| Artist      = 
+| Cover       = 
+| Released    = 
+| Recorded    = 
+| Genre       = 
+| Length      = 
+| Label       = 
+| Producer    = 
+| Reviews     = 
+| Last album  = 
+| This album  = 
+| Next album  = 
+}}
+</pre>
+
+===Details===
+Try to fill in as many of the details as you can. If some details are unknown, leave the section blank or fill it with <code>{{nowrap|???}}</code> to make it obvious to other editors that the info is needed. Wikilink wherever appropriate, but make sure you check your links and [[Wikipedia:Disambiguation|disambiguate]] accordingly.
+
+====Name====
+The album's title should be specified using text (not a logo), which will be automatically italicized.
+
+===={{Anchors|Colors|Type and color}} Type====
+The '''Type''' field refers to the general type of album. Enter a code from the following chart. The type will appear with the appropriate color and wikilink. If the type is unknown, leave the field blank.
+
+{{Infobox Album/doc/type}}
+
+===={{Anchor|Album cover}} Cover====
+An image of the official front cover of the original version of the album (or a reissue, if no original cover can be found) should be included at '''Cover'''. Album cover artwork may be scanned, or downloaded from another site such as [http://www.allmusic.com All Music Guide] or [http://www.amazon.com/ Amazon.com]. Note that whether you scan one yourself or copy it from another site, when uploading an image, you must tag it properly and follow [[WP:FU|fair use]] guidelines. If you cannot find a cover image, just leave this field blank.
+
+* [[Special:Upload|Upload]] a copy of the album cover (under [[fair use]]). The image should ideally be 200px wide as this is the default display size. However, it should be under 300px wide to satisfy the fair use criteria.
+* On the [[Help:Image page|image description page]], use the {{tl|Non-free album cover}} [[Wikipedia:Image copyright tags|image copyright tag]]. Selecting "Album or single cover" from the pulldown list on the image upload page will accomplish this.
+* Add detailed [[Wikipedia:Non-free use rationale guideline|fair use rationale]] for each use of the image. You can also use the {{tl|Album cover article rationale}} template (see the [[Template:album cover article rationale#Usage|usage guide]] for an explanation on how to use it) or the {{tl|Album cover fur}} template.
+* Fill the template's Cover field with the name of your file (the full image syntax is not required here – just the file name with the extension).
+* remove the request-photo or request-image template from the talk page of the article.
+
+====Released====
+Only the <em>earliest</em> known date that the album was released should be specified, using a ''single'' occurrence of {{tl|Start date}}, for example <code>{{nowrap|<nowiki>{{Start date|2007|7|31}}</nowiki>}}</code> (or <code>{{nowrap|<nowiki>{{Start date|2007|7}}</nowiki>}}</code> or <code>{{nowrap|<nowiki>{{Start date|2007}}</nowiki>}}</code> if the exact date isn't known). Later release dates can be mentioned in a [[WP:ALBUM#Release history|Release history]] section.
+
+====Recorded====
+Details on where and when the album was recorded should be included.
+
+====Genre====
+The one or more [[music genre]]s that the album reflects, [[delimiter|delimited]] by commas, should be listed here. Genres should be linked ([[Wikipedia:Piped link|piped linked]] where needed), for example, "Rock, pop" should link to [[rock music]] and [[pop music]] respectively. Note that most genres aren't proper nouns, and shouldn't be capitalized, but the first word in the list should be.
+
+====Length====
+The length of the album should be specified in minutes and seconds, even if it is longer than one hour, for example 74:00. It may be helpful to include a source in a comment, such as <code>{{nowrap|<nowiki><!--CD liner notes--></nowiki>}}</code>.
+
+====Label====
+Only the [[record label]] that the album was originally released on should be specified.  Where significantly different versions have been released (featuring alternate track listings) e.g. in the U.S. vs UK, the later release date and/or record label should be mentioned <em>in the article</em>, for example in a [[WP:ALBUM#Release history|Release history]] section. Drop words like "Records" from the end of the label's name (e.g. use <code>{{nowrap|<nowiki>[[Universal Records|Universal]]</nowiki>}}</code> rather than <code>{{nowrap|<nowiki>[[Universal Records]]</nowiki>}}</code>).
+
+====Producer====
+The name of the producer should be linked to the corresponding article. If there is more than one producer, the names should be delimited by commas.
+
+===Professional reviews===
+Professional reviews may include only reviews written by professional music journalists or DJs, or found within any online or print publication having a (paid or volunteer) editorial and writing staff (which excludes personal blogs). The standard for inclusion always is that the review meet Wikipedia's guideline for reliable sources and that the source be independent of the artist, record company, etc. A list of some sources of professional reviews is available at [[WP:ALBUM#Review sites]]. Due to their proliferation and dubious value, lists (e.g. ''Rolling Stone's 100 Greatest Punk Rock Albums of the Early 1980s'') may not be included.
+
+The reviews should be listed alphabetically in the '''Reviews''' field. Start each one on a new line, beginning with an asterisk (*). The first bit of info should be the name of the source (most commonly a magazine like ''Rolling Stone''—note that magazines are italicized).
+
+The second bit should be the rating given in the review (e.g. 4/5). The rating should use the same format as in the review, to accurately portray the score of the review. For star ratings you should use the [[Template:Rating|star rating template]], for example, entering <code><nowiki>{{Rating|4.5|5}}</nowiki></code>, will render: {{Rating|4.5|5}}. For reviews by [[Robert Christgau]] you should use the [[Template:Review-Christgau|Christgau review template]], for example, entering <code><nowiki>{{Review-Christgau|dud|album=10000}}</nowiki></code>, will render: {{Review-Christgau|dud|album=10000}}. Numerical ratings, letter grades and other non-symbol ratings should be shown using plain text in parentheses, like (3.5/10), (B) or (90%). If no rating is given in the review you should use the word (favorable) or (unfavorable) to describe the review, possibly allowing for (ambivalent), (mixed), (extremely favorable) and more, but keep it short and simple. If you cannot summarize the review, just leave this second bit blank.
+
+The third bit is preferably a link to the actual review on an official page; it may also be a summary of the review located elsewhere (if the original publisher doesn't include it online). The link should display as the year that the review was published. If you cannot find the year of publication, the word ''link'' will suffice. If there are no online sources, you may include no link at all, but must then cite the information properly. The citation should include the full date of publication and preferably the page number.
+
+Include no more than ten reviews. When choosing which reviews to include, consider the notability of the review source and keeping a [[WP:NPOV|neutral point of view]]. For older albums, try to include not just contemporary but also some more recent reviews.
+
+===Chronology===
+The chronology section should link to the previous album on the left (using the '''Last album''' field) and the next album on the right (using the '''Next album''' field). The current album should be in the middle (using the '''This album''' field). Only studio albums, usually excluding live albums, compilations, singles and EPs should be included in the chronology.
+
+The current album should always be in [[WP:MOSBOLD#Boldface|boldface]]. All album titles should be italicized. The year of release of the albums should be listed in parentheses, separated from the album title by <code><nowiki><br /></nowiki></code> or <code><nowiki><br></nowiki></code>. Wikipedia's [[Wikipedia:Manual of Style (dates and numbers)#Date formatting|date style guidelines]] recommend that years should not be linked within the chronology section. Cover images should not be included in the chronology, as that would not be [[Wikipedia:Non-free content|fair use]]. For first albums the left box should be left blank. For latest albums the right box should be left blank. At least one of the two fields, previous or next, must have a value filled in, for the chronology to display.
+
+No more than one album should be included in any of the three slots in the chronology. Additional chronologies may be used if necessary (see [[#Template:Extra chronology 2|below]]). Albums released on the same day should be listed separately, ordered using the standard ordering of those albums, or alphabetically if no such standard exists.
+
+==={{#ifeq:{{FULLPAGENAME}}|Wikipedia:WikiProject Albums|{{Anchors|Longtype|Cover size|Caption|Language|Director|Compiler|Chronology|Misc|Template:Extra chronology|Template:Extra chronology 2}}{{Anchors|Template:Extra album cover|Template:Extra album cover 2|Template:Singles}}}} Advanced usage===
+{{#ifeq:{{FULLPAGENAME}}|Wikipedia:WikiProject Albums|
+{{for|more advanced usage|Template:Infobox Album#Advanced usage}}
+|
+{{Infobox Album <!-- See Wikipedia:WikiProject_Albums -->
+| Name        = Together
+| Type        = cover
+| Artist      = [[Diana Ross & the Supremes]] and [[The Temptations]]
+| Cover       = Example.png <!-- Album cover removed for copyright reasons. Leave this field blank if you don't have an album cover. -->
+| Released    = {{Start date|1969|09|23}}
+| Recorded    = 1969
+| Genre       = [[Pop music|Pop]], [[soul music|soul]]
+| Length      = 
+| Label       = [[Motown Records|Motown]]
+| Producer    = [[Frank Wilson (musician)|Frank Wilson]], [[Smokey Robinson]], [[Al Clevland]], [[Terry Johnson]], [[Tom Baird]], [[Henry Cosby]], [[Deke Richards]]
+| Reviews     = 
+*[[All Music Guide]] {{Rating-5|2}} [http://www.allmusic.com/cg/amg.dll?p=amg&sql=10:onotk6jx9krf link] 
+| Chronology  = [[The Supremes]]
+| Last album  = ''[[Let the Sunshine In (Supremes album)|Let the {{nowrap|Sunshine In}}]]''<br>(1969)
+| This album  = '''''Together'''''<br>(1969)
+| Next album  = ''[[Cream of the Crop]]''<br>(1969)
+| Misc        = {{Extra chronology 2
+  | Artist      = [[The Temptations]]
+  | Type        = cover
+  | Last album  = ''[[Puzzle People]]''<br>(1969)
+  | This album  = '''''Together'''''<br>(1969)
+  | Next album  = ''[[G.I.T. on Broadway|On Broadway]]''<br>(1969)</small>
+  }}
+  {{Extra album cover 2
+  | Upper caption  = Alternate cover
+  | Type           = cover
+  | Cover          = Example.png <!-- Album cover removed for copyright reasons. Leave this field blank if you don't have an album cover. -->
+  | Lower caption  = The original American LP for ''Together'' has a cover which folds out to reveal a full illustration of The Supremes and The Temptations. The full artwork was also used for some international versions of the album without requiring the cover to be unfolded.
+  }}
+  {{Singles
+  | Name           = Together
+  | Type           = cover
+  | Single 1       = [[The Weight]]
+  | Single 1 date  = 
+  | Single 2       = Why (Must We Fall in Love)
+  | Single 2 date  = 
+  }}
+}}
+
+In special situations, additional fields may be applicable. Unused fields may be either left blank, or deleted.
+
+<div style="border: 1px dashed #2F6FAB; margin: 0px 0px 1em 0px; padding: 0.8em 1em 0.8em 1em; background: #F9F9F9; line-height: 2.1ex; font-family: monospace; color: #000; overflow: auto; white-space: auto;"><span style="color:#999"><nowiki>
+{{Infobox Album <!-- See Wikipedia:WikiProject_Albums --></nowiki><br><nowiki>
+| Name       &nbsp; &nbsp; &nbsp; &nbsp;=&nbsp;</nowiki><br><nowiki>
+| Type       &nbsp; &nbsp; &nbsp; &nbsp;=&nbsp;</nowiki></span><br><nowiki>
+| Longtype   &nbsp; &nbsp;=&nbsp;</nowiki><br><span style="color:#999"><nowiki>
+| Artist     &nbsp; &nbsp; &nbsp;=&nbsp;</nowiki><br><nowiki>
+| Cover      &nbsp; &nbsp; &nbsp; =&nbsp;</nowiki></span><br><nowiki>
+| Cover size &nbsp;=&nbsp;</nowiki><br><nowiki>
+| Caption    &nbsp; &nbsp; =&nbsp;</nowiki><br><span style="color:#999"><nowiki>
+| Released   &nbsp; &nbsp;=&nbsp;</nowiki><br><nowiki>
+| Recorded   &nbsp; &nbsp;=&nbsp;</nowiki><br><nowiki>
+| Genre      &nbsp; &nbsp; &nbsp; =&nbsp;</nowiki><br><nowiki>
+| Length     &nbsp; &nbsp; &nbsp;=&nbsp;</nowiki></span><br><nowiki>
+| Language   &nbsp; &nbsp;=&nbsp;</nowiki><br><span style="color:#999"><nowiki>
+| Label      &nbsp; &nbsp; &nbsp; =&nbsp;</nowiki></span><br><nowiki>
+| Director   &nbsp; &nbsp;=&nbsp;</nowiki><br><span style="color:#999"><nowiki>
+| Producer   &nbsp; &nbsp;=&nbsp;</nowiki><br><nowiki>
+| Reviews    &nbsp; &nbsp; =&nbsp;</nowiki></span><br><nowiki>
+| Compiler   &nbsp; &nbsp;=&nbsp;</nowiki><br><nowiki>
+| Chronology &nbsp;=&nbsp;</nowiki><br><span style="color:#999"><nowiki>
+| Last album &nbsp;=&nbsp;</nowiki><br><nowiki>
+| This album &nbsp;=&nbsp;</nowiki><br><nowiki>
+| Next album &nbsp;=&nbsp;</nowiki></span><br><nowiki>
+| Misc       &nbsp; &nbsp; &nbsp; &nbsp;=&nbsp;</nowiki><br><span style="color:#999"><nowiki>
+}}
+</nowiki></span></div>
+
+====Longtype====
+This field can be used if you wish to include information such as the title of the film that an album is the soundtrack to, or the name of the artist that a tribute album is in honor of. The text in this field appears between the type and the word "by".
+
+====Cover size====
+This field should be used if the image being used is less than 200px (and you cannot locate a larger image).  Fill in this field with the width of the image, using only a numeric value (i.e. "150", not "150px"). If set to "0", this hides the cover image, whether one is specified in "Cover" or the default cover image is used.
+
+====Caption====
+If the album has been issued with different front covers, which version the image refers to should be noted here.
+
+====Language====
+This field should identify what [[language]] or languages are used in the [[lyrics]] of the album (assuming the music contains [[vocals]]). Do not forget to [[Wikipedia:Disambiguation|disambiguate]] and [[Wikipedia:Piped link|pipe link]] when necessary. For example, if an album's lyrics are in English and French, you would use <code><nowiki>[[English language|English]], [[French language|French]]</nowiki></code>.
+
+====Director====
+This field is only applicable to [[music video|video album]]s. The name of the director should be linked to the corresponding article. If there is more than one director, the names should be delimited by commas.
+
+====Compiler====
+This field is only applicable to [[compilation album]]s of any kind where the person or entity responsible for selecting the album's track listing is known.
+
+====Chronology====
+This field can be used when the album belongs to an overall series that is not adequately described by the artist's name alone; in these situations, the text entered in this field replaces the artist name that would normally be displayed preceding "chronology". Examples include series of compilation albums compiled by different people, and series of soundtracks (which are often "various artists" collections).
+
+====Misc====
+A number of templates exist that can be inserted in the '''Misc''' field, including {{tl|Extra album cover 2}}, {{tl|Extra chronology 2}}, {{tl|Singles}} and {{tl|Audiosample}}. If you use any of these templates, don't forget to add a second set of closing brackets for the nested template.
+
+====={{Anchor|Template:Extra chronology}} Template:Extra chronology 2=====
+Additional chronologies are generally useful for [[split album]]s, collaborative albums, and series of albums.
+
+<pre style="overflow:auto">
+{{Infobox Album <!-- See Wikipedia:WikiProject_Albums -->
+...
+| Misc        = {{Extra chronology 2
+  | Artist      = 
+  | Type        = 
+  | Last album  = 
+  | This album  = 
+  | Next album  = 
+  }}
+}}
+</pre>
+
+The '''Artist''' field should be the artist that this additional chronology reflects, for example one of the artists on a split album. The '''Type''' field should contain the same type as the rest of the infobox. The format of the other fields is the same as the standard chronology (see [[#Chronology|above]]).
+
+====={{Anchor|Template:Extra album cover}} Template:Extra album cover 2=====
+If the album has been released with different album covers, they can be added to the infobox using this template.
+
+<pre style="overflow:auto">
+{{Infobox Album <!-- See Wikipedia:WikiProject_Albums -->
+...
+| Misc        = {{Extra album cover 2
+  | Upper caption  = 
+  | Type           = 
+  | Cover          = 
+  | Lower caption  = 
+  }}
+}}
+</pre>
+
+The '''Upper caption''' field allows an optional header to be inserted and '''Lower caption''' allows for an optional explanatory label. For alternate covers the upper caption should be "Alternate cover" and the lower caption should mention where that cover was used (int'l release, re-release, censored original, etc.). As with the <nowiki>{{Extra chronology 2}}</nowiki> template, the '''Type''' field should contain the same type as the rest of the infobox.
+
+=====Template:Singles=====
+The {{tl|Singles}} template may be used as a miscellaneous addition to the infobox providing concise information about the album's single releases in sequence of their release (with the date provided also).
+
+You may list up to twelve (12) singles per album.  This infobox should be placed in the "Misc" field as shown below, using the field cases also shown below.  Any unused fields may be left out. Further usage information can be found on the [[Template:Singles|template page]].
+
+<pre style="overflow:auto">
+{{Infobox Album <!-- See Wikipedia:WikiProject_Albums -->
+...
+| Misc        = {{Singles
+  | Name           = 
+  | Type           = 
+  | Single 1       = 
+  | Single 1 date  = 
+  | Single 2       = 
+  | Single 2 date  = 
+  | Single 3       = 
+  | Single 3 date  = 
+  | Single 4       = 
+  | Single 4 date  = 
+  }}
+}}
+</pre>
+
+;Name : The name of the album.
+;Type : The album type (as specified [[#Type and color|above]] in the section "Type").
+;Single <var>#</var> : The name of the single.  Should be wikilinked to the single's article, if applicable.
+;Single <var>#</var> date : The date of single release.  Should be entered in [[WP:DATE|wikidate]] format.  If the full date is unknown, just use "Month Year" or "Year".
+
+Note that all fields are already properly formatted, so italics or quotation marks need not be entered in fields.
+
+===Microformat===
+{{UF-hcal}}}}<includeonly>{{#ifeq:{{FULLPAGENAME}}|Template:Infobox Album|
+<!-- This parser function code makes sure the categories and interwikis are only for the template, since this doc page is used elsewhere -->
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+[[Category:Music infobox templates|Album]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[be-x-old:Шаблён:Музычны альбом]]
+[[da:Skabelon:Album]]
+[[de:Vorlage:Infobox Musikalbum]]
+[[el:Πρότυπο:Infobox Album]]
+[[en:Template:Infobox Album]]
+[[es:Plantilla:Álbum]]
+[[eo:Ŝablono:Muzikalbumo]]
+[[fr:Modèle:Infobox Album]]
+[[ko:Template:음반 정보]]
+[[it:Template:Album]]
+[[mk:Шаблон:Инфокутија Албум]]
+[[ms:TEmplat:Infobox Album]]
+[[nl:Sjabloon:Muziekalbumtabel]]
+[[ja:Template:Infobox Album]]
+[[no:Mal:Infoboks musikkalbum]]
+[[pl:Szablon:Album infobox]]
+[[pt:Predefinição:Info álbum]]
+[[sr:Шаблон:Албуми]]
+[[fi:Malline:Musiikkialbumi]]
+[[tr:Şablon:Müzik albümü]]
+[[zh:Template:Infobox Album]]
+}}</includeonly>
