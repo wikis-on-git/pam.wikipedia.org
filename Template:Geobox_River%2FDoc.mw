@@ -1,0 +1,202 @@
+{| class="wikitable" style="font-size: 90%; text-align: left;"
+|- style="color: #efefef;"
+! style="background-color: #7f7f7f;" | field 
+! style="background-color: #7f7f7f;" | explanation
+! style="background-color: #7f7f7f;" | additional fields
+|-
+! colspan="3" style="background: #cfcfcf" | Name section
+|-
+|'''name'''
+| name of the river
+|
+|-
+|'''native_name'''
+| native name of the river if different from the English one, it is printed in brackets on the same line as '''name'''
+|
+|-
+|'''other_name, other_name1 …'''
+| other names of the river, it can be used for rivers with various names along their run
+|
+|-
+! colspan="3" style="background: #cfcfcf" | Image
+|-
+|'''image'''
+| a photograph of the river
+|
+|-
+|'''image_size'''
+| photograph size in pixels (set to 256 if left blank)
+| 
+|-
+|'''image_caption'''
+| photograph caption
+|
+|-
+! colspan="3" style="background: #cfcfcf" | Etymology
+|-
+|'''etymology'''
+| etymology (origin) of the river name, do not enter lengthy prose, examples:
+* ''terre bonne'', French for good earth
+* ''Penn'', [[William Penn]] and ''sylvania'', Latin for woods
+* [[Thomas Jefferson]], when named for a person, add ''etymology_type = Named for''  
+* [[Red River]], when named for a place, add ''etymology_type = Named for''
+| '''_type (''Name origin''), _label, _note'''
+|-
+! colspan="3" style="background: #cfcfcf" | Country etc.
+|-
+|'''country, country1 …'''
+| country in/through which the river runs
+|
+|-
+|'''state, state1 …'''
+| state in/through which the river runs, to be used when the river belongs in one country only, and more info might be helpful, e.g. in the USA, Brazil
+|
+|-
+|'''region, region1 …'''
+| region in/through which the river runs, to be used when the river belongs in one country only, and more info might be helpful
+|
+|-
+|'''district, district1 …'''
+| district in/through which the river runs, to be used when the river belongs in one country only, and more info might be helpful
+|
+|-
+|'''city, city1 …'''
+| major city/seat in/through which the river runs
+|
+|-
+|'''landmark, landmark1 …'''
+| landmarks on the river (lakes, waterfalls …)
+|
+|- 
+|'''country_type<br/>state_type<br/>region_type<br/>district_type<br/>city_type<br/>landmark_type'''   
+| Text to be displayed instead of the default category name, e.g. it can be ''region_type = County'' for the USA, or ''city_type = Villages''. These can contain wikilinks too, e.g. ''state_type = <nowiki>[[States of Germany|Bundesland]]</nowiki>''. 
+|
+|-
+! colspan="3" style="background: #cfcfcf" | Geography
+|-
+|'''length(_imperial)'''
+| length of the river in kilometers (miles)
+|'''length_note'''
+|-
+|'''watershed(_imperial)'''
+| watershed (discharge basin) area in square kilometers (miles)
+|'''watershed_note'''
+|-
+|'''discharge_location'''
+| location where the following figures come from, typically mouth
+|'''discharge_location_note'''
+|-
+|'''discharge(_imperial)'''
+| average discharge in m³/s (ft³/s)
+|'''discharge_average_note'''
+|-
+|'''discharge_max(_imperial)'''
+| maximum discharge in m³/s (ft³/s)
+|'''discharge_max_note'''
+|-
+|'''discharge_min(_imperial)'''
+| minimum discharge in m³/s (ft³/s)
+|'''discharge_min_note'''
+|-
+|'''discharge1_location …'''
+| additional location where average discharge is provided
+| '''dicharge1_location_note …'''
+|-
+|'''discharge1(_imperial) …'''
+| additional location average discharge in m³/s (ft³/s)
+|'''discharge1_average_note …'''
+|-
+! colspan="3" style="background: #cfcfcf" | Source
+|-
+|'''source_name, source1_name'''
+| source name, no need to set it if the river doesn't change names
+|'''source_name_note, source1_name_note'''
+|-
+|'''source_location, source1_location *'''
+| source location, should be the name of the mountain range or a text description, etc.
+|'''source_location_note, source1_location_note'''
+|-
+|'''source_lat_d …, source1_lat_d … **'''
+| source latitude and longitude in degrees, minutes, seconds and hemispheres (use N or S and W or E)
+|'''source_coordinates_note, source1_coordinates_note'''
+|-
+|'''source_elevation(_imperial), source1_elevation(_imperial)'''
+| source elevation in meters (feet)
+|'''source_elevation_note''', '''source1_elevation_note'''
+|-
+|'''source_length(_imperial), source1_length(_imperial)'''
+| source length in kilometers (miles), until it becomes the main river
+|'''source_length_note, source1_length_note'''
+|-
+|'''source_confluence_location *'''
+| location of the two sources' confluence
+|'''source_confluence_location_note'''
+|-
+|'''source_confluence_lat_d **'''
+| sources' confluence latitude and longitude in degrees, minutes, seconds and hemispheres (use N or S and W or E)
+|'''source_confluence_coordinates_note'''
+|-
+|'''source_confluence_elevation(_imperial)'''
+| sources' confluence elevation in meters (feet)
+|'''source_confluence_elevation_note'''
+|-
+! colspan="3" style="background: #cfcfcf" | Mouth
+|-
+|'''mouth_name'''
+| mouth name, if any (can be Mekong Delta etc.), or the name of the river or sea into which this one flows
+|'''mouth_name_note'''
+|-
+|'''mouth_location *'''
+| mouth location
+|'''mouth_location_note'''
+|-
+|'''mouth_lat_d **'''
+| sources latitude and longitude in degrees, minutes, seconds and hemispheres (use N or S and W or E), for a note use '''mouth_coordinates_note'''
+|'''mouth_coordinates_note'''
+|-
+|'''mouth_elevation(_imperial)'''
+| mouth elevation in meters (feet)
+|'''mouth_elevation_note'''
+|-
+! colspan="3" style="background: #cfcfcf" | Tributaries
+|-
+|'''tributary_left, tributary_left1 …'''
+| major left tributary or tributaries, from the perspective of looking downstream and starting with tributaries closest to the source
+|
+|-
+|'''tributary_right, tributary_right1 …'''
+| major right tributary or tributaries, from the perspective of looking downstream and starting with tributaries closest to the source
+|
+|-
+! colspan="3" style="background: #cfcfcf" | Free fields
+|-
+|'''free_name, free1_name …'''
+| free field name
+|'''free_name_note, fre1e_value_note …'''
+|-
+|'''free_value, free1_value …'''
+| free field value
+|'''free_value_note, free1_value_note …'''
+|-
+! colspan="3" style="background: #cfcfcf" | Map section
+|-
+|'''mapm map1'''
+| map showing river, its basin, tributaries etc.
+|
+|-
+|'''map_size, map1_size'''
+| map size in pixels (set to 256 if left blank)
+|
+|-
+|'''map_caption, map1_caption'''
+| map caption
+|
+|-
+|'''map_first'''
+| whether the map should be displayed on top, instead of the photograph on top
+|
+|-
+| colspan="3" style="background: #cfcfcf" | * All locations can have additional fields: '''field_district, field_district1 …, field_region, field_region1 …, field_state, field_state1 …, field_country, field_country1 …'''
+|-
+| colspan="3" style="background: #cfcfcf" | ** Coordinates are defined as '''field_lat_d, field_lat_m, field_lat_s, field_lat_NS, field_long_d, field_long_m, field_long_s, field_long_EW'''
+|}
