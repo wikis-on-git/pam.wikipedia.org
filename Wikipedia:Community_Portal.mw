@@ -137,3 +137,9 @@ Your request for a bot flag fro [[User:Synthebot|Synthebot]] is approved.[[User:
 *'''[[Special:Contributions/DirlBot|Contributions]]'''
 
 Thank you! — [[User:Chesnok|Chesnok]] 12:39, 29 Nobiembri 2008 (UTC)
+
+==Translatewiki.net update==
+* [http://translatewiki.net Translatewiki.net] formerly known as Betawiki is where the Internationalisation and Localisation of MediaWiki is concentrated. Over 300 languages are supported, issues with MediaWiki programs are dealt with. We need all the help we can get to ensure that we can maintain this service in the face of an increasing workload. 
+
+*Currently 73.78% of the MediaWiki messages and 3.30% of the messages of the extensions used by the Wikimedia Foundation projects have been localised. Please help us help your language by localising and proof reading at [[betawiki:Special:LanguageStats/{{CONTENTLANGUAGE}}|translatewiki.net]]. This is the [http://translatewiki.net/w/i.php?title=Special:RecentChanges&translations=only&trailer=/{{CONTENTLANGUAGE}} recent localisation activity] for your language. Thanks, [[User:GerardM|GerardM]] 11:26, 15 Febreru 2009 (UTC)
+*PS Please help us complete [http://translatewiki.net/w/i.php?title=Special%3ATranslate&task=untranslated&group=core-mostused&language={{CONTENTLANGUAGE}}&limit=100 the most wanted messages]..
