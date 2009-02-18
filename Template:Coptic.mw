@@ -1,0 +1,18 @@
+<span lang="cop-Copt" xml:lang="cop-Copt" style="font-size:110%;font-family:'New Athena Unicode', 'MPH 2B Damase', 'Arial Coptic', 'Quivira', 'Analecta';">{{{1}}}</span><noinclude>
+
+Template is intended to force [[Coptic alphabet]] fonts if installed.
+*[http://socrates.berkeley.edu/~pinax/greekkeys/NAUdownload.html New Athena Unicode]
+*[http://moheb.de/unicode_coptic_fonts.html MPH 2B Damase]
+*[http://moheb.de/unicode_coptic_fonts.html Arial Coptic]
+*[http://moheb.de/unicode_coptic_fonts.html Quivira]
+*[http://moheb.de/unicode_coptic_fonts.html Analecta] (lacks glyphs)
+
+*{{Coptic|ⲙⲉⲧⲣⲉⲙⲛⲭⲏⲙⲓ}}
+
+==See also==
+*{{tl|script}}
+
+[[Category:Multilingual support templates]]
+
+[[ja:Template:Coptic]]
+</noinclude>
