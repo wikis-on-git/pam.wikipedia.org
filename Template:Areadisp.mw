@@ -1,0 +1,14 @@
+<includeonly>{{#if:{{among|{{{6|}}}|[[United States]]|[[United Kingdom]]|[[United States of America]]|United States of America|United States}}{{among|{{{6|}}}|United Kingdom|[[United States|United States of America]]|[[Image:Flag of the United States.svg|20px]] [[United States]]|{{flag|United Kingdom}}|{{flag|United States}}|{{USA}}|{{UK}}}}{{among|{{{1}}}|Imperial|English|UK|US|U.S.|US Customary}}{{among|{{{1}}}|U.S. Customary|Standard|imperial|english}}|{{mi2km2|{{{2|}}}|{{{3|}}}||1|{{{5|}}}|{{{4|}}}}}|{{mi2km2|{{{2|}}}|{{{3|}}}|switch|1|{{{5|}}}|{{{4|}}}}}}}</includeonly><noinclude>{{pp-template|small=yes}}This '''subtemplate of {{tl|Infobox Settlement}}''' displays area values for a line in the main Infobox. It is transcluded thus:
+
+::<nowiki>{{areadisp|unit_pref|AREAsqmi|AREAkm2|area_magnitude|LINK|subdivision_name}}</nowiki>
+
+where ''AREAsqmi'' and ''AREAkm2'' are the area values to be displayed (one may be blank for automatic conversion if the other is numeric), ''LINK'' is set if the units are to be wikilinked, and the other parameters are taken from [[Template:Infobox Settlement]].
+
+Whether the metric or imperial value is displayed first depends on the value of ''subdivision_name'' (usually the country name) and ''unit_pref'' (which can be set to '''Imperial''' to force imperial-first display). The default for non-US non-UK countries is metric first.
+
+Example: <nowiki>{{areadisp|Imperial|42| | |lk|Canada}}</nowiki> produces
+{{areadisp|Imperial|42| | |lk|Canada}}
+
+[[Category:Geography infobox subtemplates]]
+
+</noinclude>
