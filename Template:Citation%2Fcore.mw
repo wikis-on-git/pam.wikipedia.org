@@ -1,0 +1,604 @@
+<cite style="font-style:normal" class="{{{Citation class|}}}"
+{{
+  #if:{{{Ref|}}}
+  |{{#ifeq:{{{Ref|}}}|none||id="{{anchorencode:{{{Ref|}}}}}"}}
+  |{{#if:{{{Surname1|}}}{{{EditorSurname1|}}}
+    |id="CITEREF{{anchorencode:{{#if:{{{Surname1|}}}
+      |{{{Surname1}}}{{{Surname2|}}}{{{Surname3|}}}{{{Surname4|}}}
+      |{{{EditorSurname1|}}}{{{EditorSurname2|}}}{{{EditorSurname3|}}}{{{EditorSurname4|}}}
+    }}{{{Year|{{{Date|}}}}}}}}"
+  }}
+}}>{{
+<!--============  Author or editor and date  ============-->
+  #if:{{{Surname1|}}}
+  |{{
+     #if: {{{Authorlink1|}}}
+     |[[{{{Authorlink1}}} |{{{Surname1}}}{{
+        #if: {{{Given1|}}}
+        |, {{{Given1}}}
+      }}]]
+     |{{{Surname1}}}{{
+        #if: {{{Given1|}}}
+        |, {{{Given1}}}
+      }}
+   }}{{
+     #if: {{{Surname2|}}}
+     |{{
+        #if: {{{Surname3|}}}
+        |<nowiki>; </nowiki>
+        |{{#if:{{{amp|}}}|&#32;&amp;&#32;|<nowiki>; </nowiki>}}
+      }}{{
+        #if: {{{Authorlink2|}}}
+        |[[{{{Authorlink2}}} |{{{Surname2}}}{{
+           #if: {{{Given2|}}}
+           |, {{{Given2}}}
+         }}]]
+        |{{{Surname2}}}{{
+           #if: {{{Given2|}}}
+           |, {{{Given2}}}
+         }}
+      }}{{
+        #if: {{{Surname3|}}}
+        |{{
+           #if: {{{Surname4|}}}
+           |<nowiki>; </nowiki>
+           |{{#if:{{{amp|}}}|&#32;&amp;&#32;|<nowiki>; </nowiki>}}
+         }}{{
+           #if: {{{Authorlink3|}}}
+           |[[{{{Authorlink3}}} |{{{Surname3}}}{{
+              #if: {{{Given3|}}}
+              |, {{{Given3}}}
+            }}]]
+           |{{{Surname3}}}{{
+              #if: {{{Given3|}}}
+              |, {{{Given3}}}
+            }}
+         }}{{
+           #if:{{{Surname4|}}}
+           |{{
+              #if: {{{Surname5|}}}
+              |<nowiki>; </nowiki>
+              |{{#if:{{{amp|}}}|&#32;&amp;&#32;|<nowiki>; </nowiki>}}
+            }}{{
+              #if: {{{Authorlink4|}}}
+              |[[{{{Authorlink4}}} |{{{Surname4}}}{{
+                 #if: {{{Given4|}}}
+                 |, {{{Given4}}}
+               }}]]
+              |{{{Surname4}}}{{
+                 #if: {{{Given4|}}}
+                 |, {{{Given4}}}
+               }}
+            }}{{
+              #if:{{{Surname5|}}}
+              |{{
+                 #if: {{{Surname6|}}}
+                 |<nowiki>; </nowiki>
+                 |{{#if:{{{amp|}}}|&#32;&amp;&#32;|<nowiki>; </nowiki>}}
+               }}{{
+                 #if: {{{Authorlink5|}}}
+                 |[[{{{Authorlink5}}} |{{{Surname5}}}{{
+                    #if: {{{Given5|}}}
+                    |, {{{Given5}}}
+                  }}]]
+                 |{{{Surname5}}}{{
+                    #if: {{{Given5|}}}
+                    |, {{{Given5}}}
+                  }}
+               }}{{
+                 #if:{{{Surname6|}}}
+                 |{{
+                    #if: {{{Surname7|}}}
+                    |<nowiki>; </nowiki>
+                    |{{#if:{{{amp|}}}|&#32;&amp;&#32;|<nowiki>; </nowiki>}}
+                  }}{{
+                    #if: {{{Authorlink6|}}}
+                    |[[{{{Authorlink6}}} |{{{Surname6}}}{{
+                       #if: {{{Given6|}}}
+                       |, {{{Given6}}}
+                     }}]]
+                    |{{{Surname6}}}{{
+                       #if: {{{Given6|}}}
+                       |, {{{Given6}}}
+                     }}
+                  }}{{
+                    #if:{{{Surname7|}}}
+                    |{{
+                       #if: {{{Surname8|}}}
+                       |<nowiki>; </nowiki>
+                       |{{#if:{{{amp|}}}|&#32;&amp;&#32;|<nowiki>; </nowiki>}}
+                     }}{{
+                       #if: {{{Authorlink7|}}}
+                       |[[{{{Authorlink7}}} |{{{Surname7}}}{{
+                          #if: {{{Given7|}}}
+                          |, {{{Given7}}}
+                        }}]]
+                       |{{{Surname7}}}{{
+                          #if: {{{Given7|}}}
+                          |, {{{Given7}}}
+                        }}
+                     }}{{
+                       #if:{{{Surname8|}}}
+                       |{{
+                          #if: {{{Surname9|}}}
+                          |<nowiki>; </nowiki>
+                          |{{#if:{{{amp|}}}|&#32;&amp;&#32;|<nowiki>; </nowiki>}}
+                        }}{{
+                          #if: {{{Authorlink8|}}}
+                          |[[{{{Authorlink8}}} |{{{Surname8}}}{{
+                             #if: {{{Given8|}}}
+                             |, {{{Given8}}}
+                           }}]]
+                          |{{{Surname8}}}{{
+                             #if: {{{Given8|}}}
+                             |, {{{Given8}}}
+                           }}
+                        }}{{
+                          #if:{{{Surname9|}}}
+                          |<nowiki>; </nowiki>&#32;''et al''.
+                        }}
+                     }}
+                  }}
+               }}
+            }}
+         }}
+      }}
+   }}{{
+     #if: {{{Date|}}}
+     |&#32;({{{Date}}}){{
+       #if:{{{YearNote|}}}
+     |&#32;[{{{YearNote}}}]
+     }}
+   }}
+  |{{<!-- ============== No author display editors first == -->
+     #if: {{{EditorSurname1|}}}
+     |{{
+        #if: {{{Editorlink1|}}}
+        |[[{{{Editorlink1}}} |{{{EditorSurname1}}}{{
+           #if: {{{EditorGiven1|}}}
+           |, {{{EditorGiven1}}}
+         }}]]
+        |{{{EditorSurname1}}}{{
+           #if: {{{EditorGiven1|}}}
+           |, {{{EditorGiven1}}}
+         }}
+      }}{{
+        #if: {{{EditorSurname2|}}}
+        |<nowiki>; </nowiki>{{
+           #if: {{{Editorlink2|}}}
+           |[[{{{Editorlink2}}} |{{{EditorSurname2}}}{{
+              #if: {{{EditorGiven2|}}}
+              |, {{{EditorGiven2}}}
+            }}]]
+           |{{{EditorSurname2}}}{{
+              #if: {{{EditorGiven2|}}}
+              |, {{{EditorGiven2}}}
+            }}
+         }}{{
+           #if: {{{EditorSurname3|}}}
+           |<nowiki>; </nowiki> {{
+              #if: {{{Editorlink3|}}}
+              |[[{{{Editorlink3}}} |{{{EditorSurname3}}}{{
+                 #if: {{{EditorGiven3|}}}
+                 |, {{{EditorGiven3}}}
+               }}]]
+              |{{{EditorSurname3}}}{{
+                 #if: {{{EditorGiven3|}}}
+                 |, {{{EditorGiven3}}}
+               }}
+            }}{{
+              #if:{{{EditorSurname4|}}}
+              |&#32;et al.
+            }}
+         }}
+       }}, ed{{#if:{{{EditorSurname2|}}}|s}}{{#ifeq:{{{Sep|,}}}|.||.}}{{
+        #if: {{{Date|}}}
+        |&#32;({{{Date}}})
+      }}
+   }}
+}}{{
+<!--============  Title of included work  ============-->
+  #if: {{{IncludedWorkTitle|}}}
+  |{{
+     #if:{{{Surname1|}}}{{{EditorSurname1|}}} 
+     |{{{Sep|,}}}&#32; 
+   }}{{Link
+     | 1={{
+           #if: {{{IncludedWorkURL|}}}
+           |{{{IncludedWorkURL}}}
+           |{{
+              #if: {{{URL|}}}
+              |{{{URL}}}
+<!-- Only link URL if to a free full text - as at PubMedCentral (PMC)-->
+              |{{
+                 #if: {{{PMC|}}}
+                 |http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pmcentrez&artid={{{PMC}}}
+               }}
+            }} 
+         }}
+     | 2={{
+           #if: {{{Periodical|}}}
+           |''{{{IncludedWorkTitle}}}''
+           |"{{{IncludedWorkTitle}}}"
+         }}
+   }}
+}}{{
+<!--============  Place (if different than PublicationPlace) ============-->
+  #if: {{{Place|}}}
+  |{{
+     #ifeq: {{{Place|}}} | {{{PublicationPlace|}}}
+     |
+     |{{
+        #if: {{{Surname1|}}}{{{EditorSurname1|}}}{{{IncludedWorkTitle|}}}{{{Periodical|}}}
+        |{{{Sep|,}}} written at {{{Place}}}
+      }}
+   }}
+}}{{
+<!--============  Editor of compilation  ============-->
+  #if: {{{EditorSurname1|}}}
+  |{{
+     #if: {{{Surname1|}}}
+     |{{{Sep|,}}} {{
+        #if: {{{IncludedWorkTitle|}}}
+        |in&#32;
+      }}{{
+        #if: {{{Editorlink1|}}}
+        |[[{{{Editorlink1}}} |{{{EditorSurname1}}}{{
+           #if: {{{EditorGiven1|}}}
+           |, {{{EditorGiven1}}}
+         }}]]
+        |{{{EditorSurname1}}}{{
+           #if: {{{EditorGiven1|}}}
+           |, {{{EditorGiven1}}}
+         }}}}{{
+        #if: {{{EditorSurname2|}}}
+        |<nowiki>; </nowiki>{{
+           #if: {{{Editorlink2|}}}
+           |[[{{{Editorlink2}}}|{{{EditorSurname2}}}{{
+              #if: {{{EditorGiven2|}}}
+              |, {{{EditorGiven2}}}
+            }}]]
+           |{{{EditorSurname2}}}{{
+              #if: {{{EditorGiven2|}}}
+              |, {{{EditorGiven2}}}
+            }}
+         }}{{
+           #if: {{{EditorSurname3|}}}
+           |<nowiki>; </nowiki>{{
+              #if: {{{Editorlink3|}}}
+              |[[{{{Editorlink3}}}|{{{EditorSurname3}}}{{
+                 #if: {{{EditorGiven3|}}}
+                 |, {{{EditorGiven3}}}
+               }}]]
+              |{{{EditorSurname3}}}{{
+                 #if: {{{EditorGiven3|}}}
+                 |, {{{EditorGiven3}}}
+               }}
+            }}{{
+              #if:{{{EditorSurname4|}}}
+              |&#32;et al.
+            }}
+         }}
+      }}{{
+        #if: {{{IncludedWorkTitle|}}}
+        |
+        |{{{Sep|,}}} ed{{#if:{{{EditorSurname2|}}}|s}}{{#ifeq:{{{Sep|,}}}|.||.}}
+      }}
+   }}
+}}{{
+  <!--============  Periodicals  ============-->
+  #if: {{{Periodical|}}}
+  |{{
+     #if: {{{Surname1|}}}{{{EditorSurname1|}}}
+     |{{{Sep|,}}}&#32;}}{{
+     #if: {{{Title|}}}
+     |"{{Link
+        | 1={{
+              #if: {{{IncludedWorkTitle|}}}
+              |{{
+                 #if: {{{IncludedWorkURL|}}}
+                 |{{
+                    #if: {{{URL|}}}
+                    |{{{URL}}}
+                    |{{ 
+                       #if: {{{PMC|}}} 
+                       |  http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pmcentrez&artid={{{PMC}}}
+                     }} 
+                  }}
+               }}
+              |{{
+                 #if: {{{URL|}}}
+                 |{{{URL}}}
+                 | {{ 
+                       #if: {{{PMC|}}} 
+                       |  http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pmcentrez&artid={{{PMC}}}
+                    }} 
+                  
+               }}
+            }}
+        | 2={{{Title}}}
+      }}"}}
+}}{{
+ #if:{{{language|}}} 
+   | &#32;(in {{{language}}})
+ }}{{#if:{{{format|}}}
+   |&#32;({{{format}}})
+ }}{{
+   #if: {{{Periodical|}}}|{{
+       #if:{{{IncludedWorkTitle|}}}{{{Title|}}}|{{{Sep|,}}}&#32;}}''{{{Periodical}}}''{{
+     #if: {{{Series|}}}
+     |{{{Sep|,}}} {{{Series}}}
+   }}{{
+     #if: {{{PublicationPlace|}}}
+     |{{
+        #if: {{{Publisher|}}}
+        |&#32;({{{PublicationPlace}}}<nowiki>: </nowiki>{{{Publisher}}})
+        |&#32;({{{PublicationPlace}}})
+      }}
+     |{{
+        #if: {{{Publisher|}}}
+        |&#32;({{{Publisher}}})
+      }}
+   }}{{
+     #if: {{{Volume|}}}
+     |&#32;'''{{{Volume}}}'''{{
+        #if: {{{Issue|}}}
+        |&#32;({{{Issue}}})
+      }}
+     |{{
+        #if: {{{Issue|}}}
+        |&#32;({{{Issue}}})
+      }}
+   }}{{
+     #if: {{{At|}}}
+     |<nowiki>: </nowiki> {{{At}}}
+   }}
+  |{{
+     <!--============ Anything else with a title, including books ============-->
+     #if: {{{Title|}}}
+     |{{
+        #if: {{{Surname1|}}}{{{EditorSurname1|}}}{{{IncludedWorkTitle|}}}{{{Periodical|}}}
+        |{{{Sep|,}}}&#32;
+      }}''{{Link
+        | 1={{
+              #if: {{{IncludedWorkTitle|}}}
+              |{{
+                 #if: {{{IncludedWorkURL|}}}
+                 |{{
+                    #if: {{{URL|}}}
+                    |{{{URL}}}
+                    |{{ 
+                       #if: {{{PMC|}}} 
+                       |  http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pmcentrez&artid={{{PMC}}}
+                     }} 
+                  }}
+               }}
+              |{{
+                 #if: {{{URL|}}}
+                 |{{{URL}}}
+                 |{{ 
+                    #if: {{{PMC|}}} 
+                    |  http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pmcentrez&artid={{{PMC}}}       
+                  }}
+               }}
+            }}
+        | 2={{{Title}}}
+      }}''}}{{
+        #if: {{{Series|}}}
+        |{{{Sep|,}}} {{{Series}}}
+      }}{{
+        #if: {{{Volume|}}}
+        |{{{Sep|,}}} '''{{{Volume}}}'''
+      }}{{
+        #if: {{{Other|}}} 
+        |{{{Sep|,}}} {{{Other|}}}
+      }}{{
+        #if: {{{Edition|}}}
+        |&#32;({{{Edition}}} ed.)
+      }}{{
+        #if: {{{PublicationPlace|}}}
+        |{{{Sep|,}}} {{{PublicationPlace}}}
+      }}{{
+        #if: {{{Publisher|}}}
+        |{{
+           #if: {{{PublicationPlace|}}}
+           |<nowiki>:</nowiki>
+           |{{{Sep|,}}}
+         }} {{{Publisher}}}
+      }}
+   }}{{
+<!--============ Date (if no author/editor) ============-->
+  #if: {{{Surname1|}}}{{{EditorSurname1|}}}
+  |
+  |{{
+     #if: {{{Date|}}}
+     |{{{Sep|,}}} {{{Date}}}
+   }}
+}}{{
+<!--============ Publication date ============-->
+  #if: {{{PublicationDate|}}}
+  |{{
+     #ifeq: {{{PublicationDate|}}} | {{{Date|}}}
+     |
+     |{{
+        #if: {{{EditorSurname1|}}}
+        |{{
+           #if: {{{Surname1|}}}
+           |{{{Sep|,}}} {{{PublicationDate}}}
+           |&#32;(published {{{PublicationDate}}})
+         }}
+        |{{
+           #if: {{{Periodical|}}}
+           |{{{Sep|,}}} {{{PublicationDate}}}
+           |&#32;(published {{{PublicationDate}}})
+         }}
+      }}
+   }}
+}}{{
+<!--============ Page within included work ============-->
+  #if: {{{Periodical|}}}
+  |
+  |{{
+     #if: {{{At|}}}
+     |{{{Sep|,}}} {{{At}}}
+   }}
+}}{{
+<!--===============DOI================-->
+#if:{{{DOI|}}} 
+  |{{{Sep|,}}} [[Digital object identifier|doi]]:{{#if: {{{DoiBroken|}}} 
+     | {{#tag:nowiki|{{{DOI}}}}} (inactive {{{DoiBroken|}}}) {{#ifeq: {{NAMESPACE}} | {{ns:0}} | [[Category:Pages with DOIs broken since {{#time: Y | {{{DoiBroken|}}} }}]] }}
+     | <span class="neverexpand">[http://dx.doi.org/{{urlencode:{{{DOI}}}}} {{#tag:nowiki|{{{DOI}}}}}]</span>
+    }}
+}}{{
+<!--============ Misc. Identifier ============-->
+  #if: {{{ID|}}}
+  |{{{Sep|,}}} {{{ID}}}
+}}{{
+<!--============ ISBN ============-->
+  #if: {{{ISBN|}}}
+  |{{{Sep|,}}} ISBN {{{ISBN}}}
+}}{{
+<!--============ ISSN ============-->
+  #if: {{{ISSN|}}}
+  |{{{Sep|,}}} [[International Standard Serial Number|ISSN]] [http://worldcat.org/issn/{{{ISSN}}} {{{ISSN}}}]
+}}{{
+<!--============ OCLC ============-->
+  #if: {{{OCLC|}}}
+  |{{{Sep|,}}} [[OCLC]] [http://worldcat.org/oclc/{{urlencode:{{{OCLC}}}}} {{{OCLC}}}]
+}}{{
+<!--============ PMID ============--> 
+  #if: {{{PMID|}}} 
+  |{{{Sep|,}}} PMID {{{PMID}}} 
+}}{{ 
+<!--============ PMC ============--> 
+  #if: {{{PMC|}}} 
+  |{{#if: {{{URL|}}}
+     |{{{Sep|,}}} [[PubMed Central|PMC]]: [http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pmcentrez&artid={{{PMC}}} {{{PMC}}}]
+   }}
+}}{{ 
+<!--============ BIBCODE ============--> 
+  #if: {{{Bibcode|}}} 
+  |{{{Sep|,}}} [[Bibcode]]:&nbsp;[http://adsabs.harvard.edu/abs/{{{Bibcode}}} {{{Bibcode}}}]
+}}{{
+<!--============ Archive data, etc ===========-->
+  #if: {{{Archive|}}}
+  |{{{Sep|,}}} {{{Archive}}}
+  |{{
+    #if:{{{OriginalURL|}}}
+    |{{{Sep|,}}} {{#ifeq:{{{Sep}}}|.|A|a}}rchived from {{#if:{{{OriginalURL|}}}|{{link|{{{OriginalURL}}}|the original}}|the original <span class="error">(unspecified URL)</span>[[Category:Articles with broken citations]]}}{{
+      #if:{{{ArchiveDate|}}}
+      |&#32;on {{{ArchiveDate}}}
+      |. <span class="error">You must specify the date the archive was made using the {{para|archivedate}} parameter</span>{{#if: {{NAMESPACE}}|| [[Category:Articles with broken citations]]}} 
+      }}
+    |{{#if:{{{ArchiveDate|}}}|{{{Sep|,}}} {{#ifeq:{{{Sep}}}|.|A|a}}rchived on {{{ArchiveDate}}}; <span class="error">no {{para|archiveurl}} specified</span> [[Category:Articles with broken citations]]}}
+   }}
+}}{{ 
+<!--============ URL and AccessDate ============-->
+  #if: {{{URL|{{{IncludedWorkURL|}}}}}}
+  |{{
+     #if: {{{Title|}}}{{{IncludedWorkTitle|}}}
+     |<span class="printonly">{{{Sep|,}}} {{
+                                      #if: {{{IncludedWorkURL|}}}
+                                      |{{{IncludedWorkURL}}}
+                                      |{{{URL}}}
+                                    }}</span>
+     |{{{Sep|,}}} {{
+              #if: {{{IncludedWorkURL|}}}
+              |{{{IncludedWorkURL}}}
+              |{{{URL}}}
+            }}
+   }}{{
+     #if: {{{AccessDate|}}}
+     | <span class="reference-accessdate">{{#ifeq:{{{Sep|,}}}|,|,&#32;r|.&#32;R}}etrieved on {{{AccessDate}}}</span>
+     }}
+}}{{#if:{{{laysummary|}}} 
+  |{{{Sep|,}}} [{{{laysummary}}} Lay summary]{{#if: {{{laysource|}}}|&nbsp;&ndash;&nbsp;''{{{laysource}}}''}}
+}}{{#if:{{{laydate|}}}
+  | &#32;({{{laydate}}})
+}}{{#if:{{{quote|}}}
+  |{{{Sep|,}}} &#32;"{{{quote}}}"
+}}{{{PS|}}}</cite><!--
+
+=== This is a COinS tag (http://ocoins.info), which allows automated tools to parse the citation information: ===
+
+--><span
+    class="Z3988"
+    title="ctx_ver=Z39.88-2004&rft_val_fmt={{urlencode:info:ofi/fmt:kev:mtx:}}{{
+      #if: {{{Periodical|}}}
+      |journal&rft.genre=article&rft.atitle={{urlencode:{{{Title|}}}}}&rft.jtitle={{urlencode:{{{Periodical|}}}}}
+      |book{{
+         #if: {{{IncludedWorkTitle|}}}
+         |&rft.genre=bookitem&rft.btitle={{urlencode:{{{IncludedWorkTitle|}}}}}&rft.atitle={{urlencode:{{{Title|}}}}}
+         |&rft.genre=book&rft.btitle={{urlencode:{{{Title|}}}}}
+       }}
+    }}{{
+     #if: {{{Surname1|}}} |&rft.aulast={{urlencode:{{{Surname1}}}}}{{
+       #if: {{{Given1|}}} |&rft.aufirst={{urlencode:{{{Given1}}}}}
+     }}
+   }}{{
+     #if: {{{Surname1|}}} |&rft.au={{urlencode:{{{Surname1}}}}}{{
+       #if: {{{Given1|}}} |{{urlencode:, {{{Given1}}}}}
+     }}
+   }}{{
+     #if: {{{Surname2|}}} |&rft.au={{urlencode:{{{Surname2}}}}}{{
+       #if: {{{Given2|}}} |{{urlencode:, {{{Given2}}}}}
+     }}
+   }}{{
+     #if: {{{Surname3|}}} |&rft.au={{urlencode:{{{Surname3}}}}}{{
+       #if: {{{Given3|}}} |{{urlencode:, {{{Given3}}}}}
+     }}
+   }}{{
+     #if: {{{Surname4|}}} |&rft.au={{urlencode:{{{Surname4}}}}}{{
+       #if: {{{Given4|}}} |{{urlencode:, {{{Given4}}}}}
+     }}
+   }}{{
+     #if: {{{Surname5|}}} |&rft.au={{urlencode:{{{Surname5}}}}}{{
+       #if: {{{Given5|}}} |{{urlencode:, {{{Given5}}}}}
+     }}
+   }}{{
+     #if: {{{Surname6|}}} |&rft.au={{urlencode:{{{Surname6}}}}}{{
+       #if: {{{Given6|}}} |{{urlencode:, {{{Given6}}}}}
+     }}
+   }}{{
+     #if: {{{Surname7|}}} |&rft.au={{urlencode:{{{Surname7}}}}}{{
+       #if: {{{Given7|}}} |{{urlencode:, {{{Given7}}}}}
+     }}
+   }}{{
+     #if: {{{Surname8|}}} |&rft.au={{urlencode:{{{Surname8}}}}}{{
+       #if: {{{Given8|}}} |{{urlencode:, {{{Given8}}}}}
+     }}
+   }}{{
+     #if: {{{Surname9|}}} |&rft.au={{urlencode:{{{Surname9}}}}}{{
+       #if: {{{Given9|}}} |{{urlencode:, {{{Given9}}}}}
+     }}
+    }}{{
+      #if: {{{Date|}}} |&rft.date={{urlencode:{{{Date}}}}}
+    }}{{
+      #if: {{{Series|}}} |&rft.series={{urlencode:{{{Series}}}}} 
+    }}{{
+      #if: {{{Volume|}}} |&rft.volume={{urlencode:{{{Volume}}}}}
+    }}{{
+      #if: {{{Issue|}}} |&rft.issue={{urlencode:{{{Issue}}}}}
+    }}{{
+      #if: {{{At|}}} |&rft.pages={{urlencode:{{{At}}}}}
+    }}{{
+      #if: {{{Edition|}}} |&rft.edition={{urlencode:{{{Edition}}}}}
+    }}{{
+      #if: {{{PublicationPlace|}}} |&rft.place={{urlencode:{{{PublicationPlace}}}}}
+    }}{{
+      #if: {{{Publisher|}}} |&rft.pub={{urlencode:{{{Publisher}}}}}
+    }}{{
+      #if: {{{DOI|}}} |&rft_id=info:doi/{{urlencode:{{{DOI}}}}}
+    }}{{
+      #if: {{{PMID|}}} |&rft_id=info:pmid/{{urlencode:{{{PMID}}}}}
+    }}{{
+      #if: {{{Bibcode|}}} |&rft_id=info:bibcode/{{urlencode:{{{Bibcode}}}}}
+    }}{{
+      #if: {{{OCLC|}}} |&rft_id=info:oclcnum/{{urlencode:{{{OCLC}}}}}
+    }}{{
+      #if: {{{ISBN|}}} |&rft.isbn={{urlencode:{{{ISBN}}}}}
+    }}{{
+      #if: {{{ISSN|}}} |&rft.issn={{urlencode:{{{ISSN}}}}}
+    }}{{
+      #if: {{{URL|{{{IncludedWorkURL|}}}}}} |&rft_id={{urlencode:{{{URL|{{{IncludedWorkURL|}}}}}}}}
+    }}&rfr_id=info:sid/en.wikipedia.org:{{FULLPAGENAMEE}}"><span style="display: none;">&nbsp;</span></span><noinclude>{{documentation}}</noinclude>
