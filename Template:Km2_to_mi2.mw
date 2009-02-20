@@ -1,0 +1,33 @@
+<noinclude>;Usage:
+:<nowiki>{{km2 to mi2 | num | abbr | spell | precision | wiki}}</nowiki>
+
+;Examples:
+:''[[WP:MOSNUM#Units of measurement|Manual of Style]] notation'': <nowiki>{{km2 to mi2|100}}</nowiki>&nbsp;&rarr; {{km2 to mi2|100}}
+:''Short notation'': <nowiki>{{km2 to mi2|258.99|abbr=yes}}</nowiki>&nbsp;&rarr; {{km2 to mi2|258.99|abbr=yes}}
+:''Full notation'': <nowiki>{{km2 to mi2|num=100|abbr=no|spell=Commonwealth|precision=2|wiki=yes}}</nowiki>&nbsp;&rarr; {{km2 to mi2|num=100|abbr=no|spell=Commonwealth|precision=2|wiki=yes}}
+
+''Italicized'' parameters are optional:
+*'''num''' is a required parameter, which specifies the number of square kilometers to be converted to square miles.  Please do not format this parameter; i.e., use 1234 instead of 1,234.
+*'''''abbr''''' can take values of either ''mos'', ''yes'', or ''no''.  ''Mos'' will show the names of the units as specified in the [[WP:MOSNUM#Units of measurement|Manual of Style for dates and numbers]] (square kilometers, sq&nbsp;mi); ''yes'' will show the abbreviated names of the units (km², sq&nbsp;mi); and ''no'' will show the full names of the units (square kilometers, square miles).  The default value is ''mos''.
+*'''''spell''''' can take values of ''American'' or ''Commonwealth'' and is only meaningful when ''abbr'' is set to ''no''.  ''American'' will use "kilometers", and ''Commonwealth''&mdash;"kilometres".  The default value is ''American''.
+*'''''precision''''' is the number of decimal digits in the converted value.  The default value is&nbsp;1.
+*'''''wiki''''' specifies whether the names of the units should be wikified or not and can take values of either ''yes'' or ''no''. The default value is ''no''.
+
+Capitalization of the parameters is unimportant.</noinclude><includeonly>{{FORMATNUM:{{#if:{{{num|}}}|{{{num}}}|{{{1}}}}}}}&nbsp;{{#ifexpr:({{#ifeq:{{LC:{{{abbr|mos}}}}}|mos|1|0}} OR {{#ifeq:{{LC:{{{abbr|mos}}}}}|no|1|0}})|{{#ifeq:{{LC:{{{spell|american}}}}}|american|{{#ifeq:{{LC:{{{wiki|no}}}}}|yes|[[square kilometre|square kilometers]]|square kilometers}}|{{#ifeq:{{LC:{{{wiki|no}}}}}|yes|[[square kilometre]]s|square kilometres}}}}|{{#ifeq:{{LC:{{{wiki|no}}}}}|yes|[[square kilometre|km²]]|km²}}}} ({{FORMATNUM:{{#expr:{{#if:{{{num|}}}|{{{num}}}|{{{1}}}}}/2.589988110336 round {{{precision|1}}}}}}}&nbsp;{{#ifeq:{{LC:{{{abbr|mos}}}}}|no|{{#ifeq:{{LC:{{{wiki|no}}}}}|yes|[[square mile]]s|square miles}}|{{#ifeq:{{LC:{{{wiki|no}}}}}|yes|[[square mile|sq&nbsp;mi]]|sq&nbsp;mi}}}})</includeonly><noinclude>{{pp-template}}
+==See also==
+;This set of templates contains many useful convert a given number and display both in [[WP:MOS]] format :in a family of consistently named templates:
+* {{tl|ft to m}}, {{tl|m to ft}}, {{tl|ft2 to m2}}, {{tl|m2 to ft2}}, {{tl|ft3 to m3}}, {{tl|m3 to ft3}}<BR />as well as:
+* {{tl|mi to km}}
+
+* {{tl|mi2 to km2}}
+
+* {{tl|mi3 to km3}}
+
+* {{tl|km to mi}}
+
+* {{tl|km2 to mi2}}
+
+* {{tl|km3 to mi3}}
+
+[[Category:Conversion templates|{{PAGENAME}}]]
+</noinclude>
