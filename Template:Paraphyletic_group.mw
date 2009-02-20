@@ -1,0 +1,233 @@
+<includeonly>{| class="infobox biota" style="text-align:center; padding:2.5px; width:200px;"
+|- style="text-align:center;"
+! style="background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|''[[Incertae sedis]]''}}}}}}}}}}}}}}}}}}}};"|{{{name|{{Taxobox name|{{{genus}}}|{{{species}}}|{{{binomial}}}}}}}}{{#if: {{{fossil_range|}}}|<br /><small>Fossil range: {{{fossil_range}}}</small>}}
+|- style="text-align:center;" 
+| {{#if:{{{image|}}}|[[image:{{{image}}}|{{{image_width|frameless}}}|{{{image_caption|}}}]]<br /><small><div style="text-align:center">{{{image_caption|}}}</div></small>}}
+{{#if:{{{image2|}}}|[[image:{{{image2}}}|{{{image2_width|frameless}}}|{{{image2_caption|}}}]]<br /><small><div style="text-align:center">{{{image2_caption|}}}</div></small>}}
+|- style="text-align:center;"
+! style="background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|''[[Incertae sedis]]''}}}}}}}}}}}}}}}}}}}};" | [[Biological classification|Scientific classification]]
+|- style="text-align:center;"
+|
+{| style="margin:0 auto; text-align:left; background:transparent;" cellpadding="2"
+|-valign="top"
+{{#if:{{{superdomain|}}}|
+{{!}} Superdomain:
+{{!}} <span class="superdomain">{{{superdomain}}}</span><br /><small>{{{superdomain_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{domain|}}}|
+{{!}} Domain:
+{{!}} <span class="domain">{{{domain}}}</span><br /><small>{{{domain_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{unranked_regnum|}}}|
+{{!}}  (unranked)
+{{!}} {{{unranked_regnum}}}<br /><small>{{{unranked_regnum_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{superregnum|}}}|
+{{!}}  Superkingdom:
+{{!}} {{{superregnum}}}<br /><small>{{{superregnum_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{regnum|}}}|
+{{!}}  Kingdom:
+{{!}} <span class="kingdom">{{{regnum}}}</span><br /><small>{{{regnum_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{subregnum|}}}|
+{{!}}  Subkingdom:
+{{!}} <span class="subkingdom">{{{subregnum}}}</span><br /><small>{{{subregnum_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{unranked_phylum|}}}|
+{{!}}  (unranked)
+{{!}} {{{unranked_phylum}}}<br /><small>{{{unranked_phylum_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{superdivisio|}}}|
+{{!}}  Superdivision:
+{{!}} {{{superdivisio}}}<br /><small>{{{superdivisio_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{superphylum|}}}|
+{{!}}  Superphylum:
+{{!}} <span class="superphylum">{{{superphylum}}}</span><br /><small>{{{superphylum_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{divisio|}}}|
+{{!}}  Division:
+{{!}} {{{divisio}}}<br /><small>{{{divisio_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{phylum|}}}|
+{{!}}  Phylum:
+{{!}} <span class="phylum">{{{phylum}}}</span><br /><small>{{{phylum_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{subdivisio|}}}|
+{{!}}  Subdivision:
+{{!}} {{{subdivisio}}}<br /><small>{{{subdivisio_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{subphylum|}}}|
+{{!}}  Subphylum:
+{{!}} <span class="subphylum">{{{subphylum}}}</span><br /><small>{{{subphylum_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{infraphylum|}}}|
+{{!}}  Infraphylum:
+{{!}} {{{infraphylum}}}<br /><small>{{{infraphylum_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{microphylum|}}}|
+{{!}}  Microphylum:
+{{!}} {{{microphylum}}}<br /><small>{{{microphylum_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{nanophylum|}}}|
+{{!}}  Nanophylum:
+{{!}} {{{nanophylum}}}<br /><small>{{{nanophylum_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{unranked_classis|}}}|
+{{!}}  (unranked)
+{{!}} {{{unranked_classis}}}<br /><small>{{{unranked_classis_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{superclassis|}}}|
+{{!}}  Superclass:
+{{!}} {{{superclassis}}}<br /><small>{{{superclassis_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{classis|}}}|
+{{!}}  Class:
+{{!}} <span class="taxoclass">{{{classis}}}</span><br /><small>{{{classis_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{subclassis|}}}|
+{{!}}  Subclass:
+{{!}} <span class="subclass">{{{subclassis}}}</span><br /><small>{{{subclassis_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{infraclassis|}}}|
+{{!}}  Infraclass:
+{{!}} <span class="infraclass">{{{infraclassis}}}</span><br /><small>{{{infraclassis_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{unranked_ordo|}}}|
+{{!}}  (unranked)
+{{!}} {{{unranked_ordo}}}<br /><small>{{{unranked_ordo_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{magnordo|}}}|
+{{!}}  Magnorder:
+{{!}} {{{magnordo}}}<br /><small>{{{magnordo_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{superordo|}}}|
+{{!}}  Superorder:
+{{!}} <span class="superorder">{{{superordo}}}</span><br /><small>{{{superordo_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{ordo|}}}|
+{{!}}  Order:
+{{!}} <span class="order">{{{ordo}}}</span><br /><small>{{{ordo_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{subordo|}}}|
+{{!}}  Suborder:
+{{!}} <span class="suborder">{{{subordo}}}</span><br /><small>{{{subordo_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{infraordo|}}}|
+{{!}}  Infraorder:
+{{!}} <span class="infraorder">{{{infraordo}}}</span><br /><small>{{{infraordo_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{parvordo|}}}|
+{{!}}  Parvorder:
+{{!}} <span class="parvorder">{{{parvordo}}}</span><br /><small>{{{parvordo_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{zoodivisio|}}}|
+{{!}}  Division:
+{{!}} {{{zoodivisio}}}<br /><small>{{{zoodivisio_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{zoosectio|}}}|
+{{!}}  Section:
+{{!}} {{{zoosectio}}}<br /><small>{{{zoosectio_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{zoosubsectio|}}}|
+{{!}}  Subsection:
+{{!}} {{{zoosubsectio}}}<br /><small>{{{zoosubsectio_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{unranked_familia|}}}|
+{{!}}  (unranked)
+{{!}} {{{unranked_familia}}}<br /><small>{{{unranked_familia_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{superfamilia|}}}|
+{{!}}  Superfamily:
+{{!}} <span class="superfamily">{{{superfamilia}}}</span><br /><small>{{{superfamilia_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{familia|}}}|
+{{!}}  Family:
+{{!}} <span class="family">{{{familia}}}</span><br /><small>{{{familia_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{subfamilia|}}}|
+{{!}}  Subfamily:
+{{!}} <span class="subfamily">{{{subfamilia}}}</span><br /><small>{{{subfamilia_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{supertribus|}}}|
+{{!}}  Supertribe:
+{{!}} {{{supertribus}}}<br /><small>{{{supertribus_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{tribus|}}}|
+{{!}}  Tribe:
+{{!}} {{{tribus}}}<br /><small>{{{tribus_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{subtribus|}}}|
+{{!}}  Subtribe:
+{{!}} {{{subtribus}}}<br /><small>{{{subtribus_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{alliance|}}}|
+{{!}}  Alliance:
+{{!}} {{{alliance}}}<br /><small>{{{alliance_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{unranked_genus|}}}|
+{{!}}  (unranked)
+{{!}} {{{unranked_genus}}}<br /><small>{{{unranked_genus_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{genus|}}}|
+{{!}}  Genus:
+{{!}} <span class="genus">{{{genus}}}</span><br /><small>{{{genus_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{genus2|}}}|
+{{!}}  Genus:
+{{!}} {{{genus2}}}<br /><small>{{{genus2_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{subgenus|}}}|
+{{!}}  Subgenus:
+{{!}} {{{subgenus}}}<br /><small>{{{subgenus_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{sectio|}}}|
+{{!}}  Section:
+{{!}} {{{sectio}}}<br /><small>{{{sectio_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{series|}}}|
+{{!}}  Series:
+{{!}} {{{series}}}<br /><small>{{{series_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{subseries|}}}|
+{{!}}  Subseries:
+{{!}} <span style="white-space:nowrap;">{{{subseries}}}</span><br /><small>{{{subseries_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{species_group|}}}|
+{{!}}  Species group:
+{{!}} {{{species_group}}}<br /><small>{{{species_group_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{species_subgroup|}}}|
+{{!}}  Species subgroup:
+{{!}} {{{species_subgroup}}}<br /><small>{{{species_subgroup_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{species_complex|}}}|
+{{!}}  Species complex:
+{{!}} {{{species_complex}}}<br /><small>{{{species_complex_authority|}}}</small>}}
+|-valign="top"
+{{#if:{{{species|}}}|
+{{!}}  Species:
+{{!}} <span style="white-space:nowrap;">{{{species}}}</span><br /><small>{{{species_authority|}}}</small>}}
+|}
+|- style="background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|''[[Incertae sedis]]''}}}}}}}}}}}}}}}}}}}};"
+{{#if:{{{included|{{{includes|}}}}}}|
+! Included groups
+{{!}}-
+{{!}} style="padding:0 .5em; text-align:left;" {{!}}
+{{{included|{{{includes}}}}}} }}
+|- style="background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|''[[Incertae sedis]]''}}}}}}}}}}}}}}}}}}}};"
+{{#if:{{{excluded|{{{excludes|}}}}}}|
+! Excluded {{#if:{{{included|{{{includes|}}}}}}|groups|groups}}
+{{!}}-
+{{!}} style="padding:0 .5em; text-align:left;" {{!}}
+{{{excluded|{{{excludes}}}}}} }}
+|-style="text-align:center; background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|''[[Incertae sedis]]''}}}}}}}}}}}}}}}}}}}};"
+{{#if:{{{synonyms|}}}|
+! [[Synonym (taxonomy)|Synonyms]]
+{{!}}-
+{{!}} style="padding:0 .5em; text-align:left;" {{!}}
+{{{synonyms|}}} }}
+|}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
