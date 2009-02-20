@@ -1,0 +1,19 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+=== Usage ===
+This template is modelled on [[Template:taxobox]], and uses the parameters listed there.
+
+It can be used for either paraphyletic or polyphyletic groups.
+
+The taxa parameters like regnum, classis, etc are for a taxon which includes all of the organisms in the paraphyletic group (for example [[chordata]] or [[tetrapoda]] in an article for [[reptile]]).  The classification can be omitted if there is no useful way to specify it (for example if some [[cyanobacteria]] are considered to be [[seaweed]]s the only relevant classification on the [[seaweed]] page would be [[Life]]).
+
+It also uses the parameters <code>includes</code> and <code>excludes</code>, intended to list taxa that are or are not included in the group - use either or both according to taste.
+
+
+=== See also ===
+
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+
+</includeonly>
