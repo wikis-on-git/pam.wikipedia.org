@@ -1,0 +1,3 @@
+<includeonly>{{#if:{{{3|}}}|{{formatnum:{{#if:{{{2|}}}|{{{2}}}|{{#expr:{{{1|}}}*0.3048 round {{#if: {{{4|}}}|{{{4}}}|0}}}}}}}}&nbsp;{{#if:{{{5|}}}|[[metre|m]]|m}} ({{formatnum:{{#if:{{{1|}}}|{{{1}}}|{{#expr:{{{2|}}} / 0.3048 round {{#if: {{{4|}}}|{{{4}}}|0}}}}}}}}&nbsp;{{#if:{{{5|}}}|[[foot (unit of length)|ft]]|ft}})|{{formatnum:{{#if:{{{1|}}}|{{{1}}}|{{#expr:{{{2|}}} / 0.3048 round {{#if: {{{4|}}}|{{{4}}}|0}}}}}}}}&nbsp;{{#if:{{{5|}}}|[[foot (unit of length)|ft]]|ft}} ({{formatnum:{{#if:{{{2|}}}|{{{2}}}|{{#expr:{{{1|}}}*0.3048 round {{#if: {{{4|}}}|{{{4}}}|0}}}}}}}}&nbsp;{{#if:{{{5|}}}|[[metre|m]]|m}})}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
