@@ -1,0 +1,15 @@
+<includeonly>{{#if:{{among|{{{7|}}}|[[United States]]|[[United Kingdom]]|[[United States of America]]|United States of America|United States}}{{among|{{{7|}}}|United Kingdom|[[United States|United States of America]]|[[Image:Flag of the United States.svg|20px]] [[United States]]|{{USA}}|{{flag|United States}}|{{flag|United Kingdom}}|{{UK}}}}{{among|{{{1}}}|Imperial|English|UK|US|U.S.|US Customary}}{{among|{{{1}}}|U.S. Customary|Standard|imperial|english}}|{{permi2km2|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}}}|{{permi2km2|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|switch}}}}</includeonly><noinclude>{{pp-template|small=yes}}This '''subtemplate of {{tl|Infobox Settlement}}''' displays a metric/imperial pair of population density values for a line in the main infobox. It is transcluded thus:
+
+::<nowiki>{{densdisp|unit_pref|DENSsqmi|DENSkm2|POP|AREAsqmi|AREAkm2|subdivision_name}}</nowiki>
+
+where ''DENSsqmi'' and ''DENSkm2'' are the density values to be displayed (one may be blank for automatic conversion if the other is numeric; or they may be set to '''auto''' for automatic calculation if ''POP'' and the corresponding ''AREA...'' parameter are present). Other parameters are taken from [[Template:Infobox Settlement]].
+
+Whether the metric or imperial value is displayed first depends on the value of ''subdivision_name'' (usually the country name) and ''unit_pref'' (which can be set to '''Imperial''' to force imperial-first display). The default for non-US non-UK countries is metric first.
+
+Rounding is always to one decimal place; the units are not wikilinked (compare [[Template:Areadisp]]).
+
+Example: <nowiki>{{densdisp|Imperial|auto| |8400|42||Canada}}</nowiki> produces: {{densdisp|Imperial|auto| |8400|42||Canada}}
+
+[[Category:Geography infobox subtemplates]]
+
+</noinclude>
