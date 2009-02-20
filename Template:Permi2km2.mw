@@ -1,0 +1,18 @@
+<includeonly>
+{{#if:{{{6|}}}|{{formatnum:{{#if:{{{2|}}}|{{#ifeq:{{{2}}}|auto|{{#expr:{{{3|}}} / {{{5|}}} round 1}}|{{{2}}}}}|{{#expr:{{#ifeq:{{{1}}}|auto|{{#expr:{{{3|}}} / {{{4|}}} round 9 }}|{{{1|}}}}} / 2.589988110336 round 1}}}}}}/km<sup>2</sup>&nbsp;({{formatnum:{{#if:{{{1|}}}|{{#ifeq:{{{1}}}|auto|{{#expr:{{{3|}}} / {{{4|}}} round 1}}|{{{1}}}}}|{{#expr:2.589988110336 * {{#ifeq:{{{2}}}|auto|{{#expr:{{{3|}}} / {{{5|}}} round 9}}|{{{2|}}}}} round 1}}}}}}/sq&nbsp;mi)|{{formatnum:{{#if:{{{1|}}}|{{#ifeq:{{{1}}}|auto|{{#expr:{{{3|}}} / {{{4|}}} round 1}}|{{{1}}}}}|{{#expr:2.589988110336 * {{#ifeq:{{{2}}}|auto|{{#expr:{{{3|}}} / {{{5|}}} round 9}}|{{{2|}}}}} round 1}}}}}}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{2|}}}|{{#ifeq:{{{2}}}|auto|{{#expr:{{{3|}}} / {{{5|}}} round 1}}|{{{2}}}}}|{{#expr:{{#ifeq:{{{1}}}|auto|{{#expr:{{{3|}}} / {{{4|}}} round 9 }}|{{{1|}}}}} / 2.589988110336 round 1}}}}}}/km<sup>2</sup>)}}</includeonly><noinclude>{{pp-template|small=yes}}
+
+==Usage==
+'''This is a subtemplate of {{tl|Infobox Settlement}}.'''
+
+Usage: <nowiki>{{Permi2km2|permi2|perkm2|pop|mi2|km2|switch}}</nowiki>
+
+Ordinarily produces density output: ''permi2''/sq mi (''perkm2''/km2). The rounding factor is always 1 (one place after the decimal point).
+
+If one of ''permi2'' and ''perkm2'' is omitted, it will be calculated by conversion of the other (which must be numerical or an error will be displayed). But setting one to '''auto''' means it will be calculated automatically from the population (''pop'') and area (''mi2'', ''km2'') parameters.
+
+Setting ''switch'' to any non-empty value causes the metric value to be displayed first.
+
+==See also==
+{{tl|Convert}} (for use within articles)
+[[Category:Conversion templates|Permi2km2]]
+</noinclude>
