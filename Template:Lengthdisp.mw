@@ -1,0 +1,6 @@
+<includeonly>{{#if:{{among|{{{5|}}}|[[United States]]|[[United Kingdom]]|[[United States of America]]|United States of America|United States}}{{among|{{{5|}}}|United Kingdom|[[United States|United States of America]]|[[Image:Flag of the United States.svg|20px]] [[United States]]|{{flag|United Kingdom}}|{{flag|United States}}|{{USA}}|{{UK}}}}{{among|{{{1}}}|Imperial|English|UK|US|U.S.|US Customary}}{{among|{{{1}}}|U.S. Customary|Standard|imperial|english}}|{{ftm|{{{2|}}}|{{{3|}}}||0|{{{4|}}}}}|{{ftm|{{{2|}}}|{{{3|}}}|switch|0|{{{4|}}}}}}}</includeonly><noinclude>
+
+{{pp-template|small=yes}}
+{{Documentation}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
+</noinclude>
