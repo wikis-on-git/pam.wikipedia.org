@@ -1,0 +1,7 @@
+{{#if:{{{1|}}}|{{#if:{{{2|}}}|1|}}|}}<noinclude>{{pp-template|small=yes}}''Usage:'' <nowiki>{{both|string1|string2}}</nowiki>
+
+Produces '''1''' (equivalent to a true condition) if both ''string1'' and ''string2'' are non-empty; otherwise produces the empty string (false condition).
+
+See also: [[Template:Allof]]
+
+[[Category:Boolean, register, and condition testing templates]]</noinclude>
