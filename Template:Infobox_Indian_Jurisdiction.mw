@@ -18,7 +18,7 @@
 |}}
 |- <!-- ###### Nickname ###### -->
 {{#if: {{{nickname|}}}|
-{{!}} colspan="2" align="center" style="background-color: {{IIJ/P|PT|{{{type|}}}}};" {{!}} <small>'''Nickname:''' ''<span class="nickname">{{{nickname|}}}</span></small>|}}''
+{{!}} colspan="2" align="center" style="background-color: {{IIJ/P|PT|{{{type|}}}}};" {{!}} <small>'''Palayo:''' ''<span class="nickname">{{{nickname|}}}</span></small>|}}''
 |- <!-- ###### IUCN category ###### -->
 {{#if: {{{iucn_category|}}} |
 {{!}} colspan="2" align="center" {{Infobox protected area/IUCN {{{iucn_category|}}} }} }}
