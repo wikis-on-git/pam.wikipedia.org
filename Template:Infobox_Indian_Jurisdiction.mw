@@ -129,7 +129,7 @@
 }}
 |- <!-- ###### Distances ###### -->
 {{#if: {{{distance_1|}}}|
-<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 {{!}} '''Distance(s)'''<!--
+<!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 {{!}} '''Dáyu'''<!--
 -->{{#if: {{{distance_1|}}}|<br> • From {{AutoLink|{{{destination_1|}}}}}|}}<!--
 -->{{#if: {{{distance_2|}}}|<br> • From {{AutoLink|{{{destination_2|}}}}}|}}<!--
 -->{{#if: {{{distance_3|}}}|<br> • From {{AutoLink|{{{destination_3|}}}}}|}}
@@ -145,7 +145,7 @@
 |}}
 |-
 {{#if: {{{hq|}}}|
-<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[List of Indian districts|Headquarters]]'''
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[List of Indian districts|Pun tanggapan (Headquarters)]]'''
 <!-- -->{{!}} {{!}} {{AutoLink|{{{hq|}}}}}
 }}
 |-
@@ -175,7 +175,7 @@
 }}
 |-
 {{#if: {{{district|}}} |<!-- Districts (names) -->
-<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Districts of India|Distritu)]]'''
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''[[Districts of India|Distritu]]'''
 <!-- -->{{!}} {{!}} {{#ifexist:{{{district}}} district|[[{{{district}}} district{{!}}{{{district}}}]]|{{AutoLink|{{{district}}}}}}}
 }}
 |-
