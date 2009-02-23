@@ -1,0 +1,4 @@
+{{ambox
+| type = style
+| text = '''The external links in this article may not follow Wikipedia's [[Wikipedia:What Wikipedia is not#Wikipedia is not a mirror or a repository of links, images, or media files|content policies]] or [[Wikipedia:External links|guidelines]].'''<br /><small>Please [{{fullurl:{{FULLPAGENAME}}|action=edit}} improve this article] by removing excessive or inappropriate external links. {{#if:{{{date|}}}|''({{{date}}})''}}</small><includeonly>{{{category|[[Category:Wikipedia external links cleanup]]}}}</includeonly>
+}}<noinclude>{{documentation}}{{pp-semi-protected|small=yes}}</noinclude>
