@@ -1,0 +1,4 @@
+<includeonly><div style="-moz-column-count:{{{1|{{{cols|2}}}}}}; -webkit-column-count:{{{1|{{{cols|2}}}}}}; column-count:{{{1|{{{cols|2}}}}}}; {{#ifeq:{{lc:{{{small|}}}}}|yes|font-size:80%;}}"></includeonly><noinclude>
+{{pp-template|small=yes}}
+{{Documentation}}
+</noinclude>
