@@ -1,0 +1,18 @@
+{{Navbox
+|name  = Internet access
+|title = Internet access methods
+|liststyle = line-height:1.5em;
+
+|group1 = Wired
+|list1  = [[Integrated Services Digital Network|ISDN]]{{·}} [[Digital subscriber line|DSL]]{{·}} [[Cable internet|Cable]]{{·}} [[Fiber to the x|Fiber optic]]{{·}} [[Power line communication|Power-line]]
+
+|group2 = Wireless
+|list2  = [[Wi-Fi]]{{·}} [[Bluetooth]]{{·}} [[iBurst]]{{·}} [[DECT]]{{·}} [[WiBro]]/[[WiMAX]]{{·}} [[UMTS-TDD]]{{·}} [[High Speed Packet Access|HSPA]]{{·}} [[Evolution-Data Optimized|EV-DO]]{{·}} [[Satellite Internet access|Satellite]]{{·}} [[3GPP Long Term Evolution|LTE]]{{·}}[[Wireless USB]]
+}}<noinclude>
+
+[[Category:Computing templates|{{PAGENAME}}]]
+
+[[fr:Modèle:Accès internet]]
+[[id:Templat:Akses internet]]
+[[ru:Шаблон:Способы выхода в Интернет]]
+</noinclude>
