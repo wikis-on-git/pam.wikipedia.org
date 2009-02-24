@@ -1,0 +1,4 @@
+{{ ambox
+| type  = style
+| text  = This {{{1|article}}}'s '''citation style may be unclear'''. The references used may be clearer with a different or consistent style of [[Wikipedia:Citing sources|citation]], [[Wikipedia:Footnote|footnoting]], or [[Wikipedia:External links|external linking]]. {{#if:{{{date|}}}|<small>''({{{date}}})''</small>}}
+}}<includeonly>{{{category|[[Category:Wikipedia references cleanup]]}}}</includeonly><noinclude>{{documentation}}</noinclude>
