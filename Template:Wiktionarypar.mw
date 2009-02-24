@@ -1,0 +1,21 @@
+<div class="infobox sisterproject">
+<div style="float: left;">[[Image:Wiktionary-logo-en.svg|50px|none|Wiktionary|]]</div>
+<div style="margin-left: 60px;">Look up '''''[[wiktionary:{{{1}}}|{{{1}}}]]'''{{#if:{{{2|}}}|, '''[[wiktionary:{{{2}}}|{{{2}}}]]'''}}{{#if:{{{3|}}}|, '''[[wiktionary:{{{3}}}|{{{3}}}]]'''}}{{#if:{{{4|}}}|, '''[[wiktionary:{{{4}}}|{{{4}}}]]'''}}{{#if:{{{5|}}}|, '''[[wiktionary:{{{5}}}|{{{5}}}]]'''}}'' in [[Wiktionary]], the free dictionary.</div>
+</div><noinclude>
+----
+This [[Wikipedia:Template|template]] is a [[Wikipedia:Avoid self-references|self-reference]] and so is part of the Wikipedia project rather than the encyclopaedic content.
+
+Usage: <code>{&#123;Wiktionarypar|1st|2nd|...|5th&#125;}</code> (one up to five parameters)
+
+See also:
+* {{Lt|wiktionary}}
+* {{Lt|wiktionarypar}}
+* {{Lt|wiktionaryleft}}
+* {{Lt|wiktionarycat}}
+
+[[Category:Interwiki link templates|{{PAGENAME}}]]
+
+[[ja:Template:Wiktionarypar]]
+[[sl:predloga:wikislovar]]
+
+</noinclude>
