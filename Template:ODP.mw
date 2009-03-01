@@ -1,0 +1,4 @@
+{{#switch: {{{3|}}}
+|#default=[http://www.dmoz.org/{{{1}}}/ {{{2|{{PAGENAME}}}}}] at the [[Open Directory Project]]
+|user=[http://www.dmoz.org/profiles/{{{1}}}.html {{{2|{{PAGENAME}}}}}] at the [[Open Directory Project]]
+}}<noinclude>{{pp-template}}{{Documentation}}</noinclude>
