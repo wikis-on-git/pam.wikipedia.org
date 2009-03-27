@@ -13,18 +13,18 @@
 |-
 !style="text-align:right; padding-right:0.75em;"| Pun tanggapan
 | {{#if:{{{location_city|}}}|[[{{{location_city}}}]] }}{{#if:{{{location_country|}}}    |, [[{{{location_country}}}]] }} {{#if:{{{location|}}}|{{{location}}}}}
-{{#if:{{{key_people|}}}          | <tr><th style="text-align:right; padding-right:0.75em;">Key&nbsp;people</th><td>{{{key_people}}}</td></tr>}}<!--
+{{#if:{{{key_people|}}}          | <tr><th style="text-align:right; padding-right:0.75em;">Pekamaulagang&nbsp;tau</th><td>{{{key_people}}}</td></tr>}}<!--
 -->{{#if:{{{area_served|}}}      | <tr><th style="text-align:right; padding-right:0.75em;">Area&nbsp;served</th><td>{{{area_served}}}</td></tr>}}<!--
 -->{{#if:{{{industry|}}}         | <tr><th style="text-align:right; padding-right:0.75em;">[[Industria]]</th><td>{{{industry}}}</td></tr>}}<!--
 -->{{#if:{{{products|}}}         | <tr><th style="text-align:right; padding-right:0.75em;">[[Product (business)|Productu]]</th><td>{{{products}}}</td></tr>}}<!--
 -->{{#if:{{{revenue|}}}          | <tr><th style="text-align:right; padding-right:0.75em;">[[Panakitan]]</th><td>{{{revenue}}}</td></tr>}}<!--
 -->{{#if:{{{operating_income|}}} | <tr><th style="text-align:right; padding-right:0.75em;">[[Earnings before interest and taxes|Operating income]]</th><td>{{{operating_income}}}</td></tr>}}<!--
 -->{{#if:{{{net_income|}}}       | <tr><th style="text-align:right; padding-right:0.75em;">[[Net income]]</th><td>{{{net_income}}}</td></tr>}}<!--
--->{{#if:{{{num_employees|}}}    | <tr><th style="text-align:right; padding-right:0.75em;">[[Employment|Empleyadu]]s</th><td>{{{num_employees}}}</td></tr>}}<!--
+-->{{#if:{{{num_employees|}}}    | <tr><th style="text-align:right; padding-right:0.75em;">[[Employment|Empleadu]]s</th><td>{{{num_employees}}}</td></tr>}}<!--
 -->{{#if:{{{parent|}}}           | <tr><th style="text-align:right; padding-right:0.75em;">[[Holding company|Pengari]]</th><td>{{{parent}}}</td></tr>}}<!--
 -->{{#if:{{{divisions|}}}           | <tr><th style="text-align:right; padding-right:0.75em;">Divisions</th><td>{{{divisions}}}</td></tr>}}<!--
 -->{{#if:{{{subsid|}}}           | <tr><th style="text-align:right; padding-right:0.75em;">[[Subsidiary|Subsidiaries]]</th><td>{{{subsid}}}</td></tr>}}<!--
--->{{#if:{{{owner|}}}            | <tr><th style="text-align:right; padding-right:0.75em;">[[MIkibandi]]</th><td>{{{owner}}}</td></tr>}}<!--
+-->{{#if:{{{owner|}}}            | <tr><th style="text-align:right; padding-right:0.75em;">[[Mikibandi]]</th><td>{{{owner}}}</td></tr>}}<!--
 -->{{#if:{{{company_slogan|}}}   | <tr><th style="text-align:right; padding-right:0.75em;">[[Slogan]]</th><td>{{{company_slogan}}}</td></tr>}}<!--
 -->{{#if:{{{homepage|}}}         | <tr><th style="text-align:right; padding-right:0.75em;">[[Website]]</th><td>{{{homepage}}}</td></tr>}}<!--
 -->{{#if:{{{dissolved|}}}         | <tr><th style="text-align:right; padding-right:0.75em;">Dissolved</th><td>{{{dissolved}}}</td></tr>}}<!--
