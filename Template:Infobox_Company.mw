@@ -13,7 +13,7 @@
 |-
 !style="text-align:right; padding-right:0.75em;"| Pun tanggapan
 | {{#if:{{{location_city|}}}|[[{{{location_city}}}]] }}{{#if:{{{location_country|}}}    |, [[{{{location_country}}}]] }} {{#if:{{{location|}}}|{{{location}}}}}
-{{#if:{{{key_people|}}}          | <tr><th style="text-align:right; padding-right:0.75em;">Pekamaulagang&nbsp;tau</th><td>{{{key_people}}}</td></tr>}}<!--
+{{#if:{{{key_people|}}}          | <tr><th style="text-align:right; padding-right:0.75em;">Manimunang&nbsp;tau</th><td>{{{key_people}}}</td></tr>}}<!--
 -->{{#if:{{{area_served|}}}      | <tr><th style="text-align:right; padding-right:0.75em;">Area&nbsp;served</th><td>{{{area_served}}}</td></tr>}}<!--
 -->{{#if:{{{industry|}}}         | <tr><th style="text-align:right; padding-right:0.75em;">[[Industria]]</th><td>{{{industry}}}</td></tr>}}<!--
 -->{{#if:{{{products|}}}         | <tr><th style="text-align:right; padding-right:0.75em;">[[Product (business)|Productu]]</th><td>{{{products}}}</td></tr>}}<!--
