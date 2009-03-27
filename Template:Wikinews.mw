@@ -1,0 +1,8 @@
+{{sister
+|project=wikinews
+|text=[[Wikinews]] has related news:
+'''''[[Wikinews:{{{1|Special:Search/{{PAGENAME}}}}}|{{{2|{{{1|{{PAGENAME}}}}}}}}]]'''''
+}}<noinclude>
+{{documentation}}
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
+</noinclude>
