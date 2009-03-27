@@ -3,15 +3,15 @@
 {{#if:{{{company_logo|}}}|<tr><td colspan="2" style="text-align:center; padding:16px 0 16px 0;">{{{company_logo}}}</td></tr>}}<!--
 -->
 |-
-!style="text-align:right; padding-right:0.75em;"| [[:Category:Types of companies|Type]]
+!style="text-align:right; padding-right:0.75em;"| [[:Category:Types of companies|Uri]]
 | {{{company_type}}}
 {{#if:{{{genre|}}}               | <tr><th style="text-align:right; padding-right:0.75em;">[[Genre]]</th><td>{{{genre}}}</td></tr>}}
 |-
-!style="text-align:right; padding-right:0.75em;"| Mitatag
+!style="text-align:right; padding-right:0.75em;"| Mitátag
 | {{{foundation}}}
 {{#if:{{{founder|}}}             | <tr><th style="text-align:right; padding-right:0.75em;">[[Mangalakal|Menatag]]</th><td>{{{founder}}}</td></tr>}}
 |-
-!style="text-align:right; padding-right:0.75em;"| Headquarters
+!style="text-align:right; padding-right:0.75em;"| Pun tanggapan
 | {{#if:{{{location_city|}}}|[[{{{location_city}}}]] }}{{#if:{{{location_country|}}}    |, [[{{{location_country}}}]] }} {{#if:{{{location|}}}|{{{location}}}}}
 {{#if:{{{key_people|}}}          | <tr><th style="text-align:right; padding-right:0.75em;">Key&nbsp;people</th><td>{{{key_people}}}</td></tr>}}<!--
 -->{{#if:{{{area_served|}}}      | <tr><th style="text-align:right; padding-right:0.75em;">Area&nbsp;served</th><td>{{{area_served}}}</td></tr>}}<!--
