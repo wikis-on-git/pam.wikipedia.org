@@ -1,0 +1,177 @@
+{{Documentation subpage}}
+{{TOCRight}}
+{{warning|<big>'''Before making any changes to the template'''</big>, please first try and compare your changes in the test template: [[Template:Infobox Climate chart/sandbox]]. Thank you.}}
+
+
+==Purpose==
+Used to create climate charts, with average monthly minimum and maximum temperatures.  More information on the interpretation of the chart can be found [[Template:Climate chart/info|here]].
+
+===Units===
+In articles where SI units (°C, mm) are preferred, input the data in those units.  This is the default state - no further parameters are needed.  In articles where imperial units (°F, inches) are preferred, input data in those units and specify the parameter units=imperial (see below). ''This parameter must be used so that the units are labeled correctly and so the conversion is done properly.''
+
+==Usage==
+;argument <tt>1</tt>
+:Appears in the heading
+;arguments <tt>2</tt>-<tt>37</tt>
+:The data. Think of it as 12 rows, one for each month, with 3 columns for minimum temperature, maximum temperature and precipitation.
+;<tt>float</tt>
+:<tt>''left''</tt>, <tt>''right''</tt> or <tt>''none''</tt>. 
+;<tt>clear</tt>
+:<tt>''left''</tt>, <tt>''right''</tt>, <tt>''both''</tt> or <tt>''none''</tt>. 
+;<tt>source</tt>
+:Supply the source of your data
+
+==Examples==
+
+===Float: right===
+{{climate chart|[[Amsterdam]]
+|1|5|63
+|0|6|43
+|2|9|59
+|4|12|41
+|8|17|48
+|10|20|68
+|13|21|66
+|12|22|61
+|10|18|82
+|7|14|85
+|4|9|89
+|2|7|75
+|float=right
+|clear=both
+}}
+<pre><nowiki>
+{{climate chart|[[Amsterdam]]
+|1|5|62
+|0|6|43
+|2|9|59
+|4|12|41
+|8|17|48
+|10|20|68
+|13|21|66
+|12|22|61
+|10|18|82
+|7|14|85
+|4|9|89
+|2|7|75
+|float=right
+|clear=both
+}}</nowiki></pre>
+{{clear}}
+
+===Float: left===
+{{climate chart|[[Buenos Aires]]
+|17|29|79
+|17|28|71
+|16|26|109
+|12|22|89
+|8|18|76
+|5|14|61
+|6|14|56
+|6|16|61
+|8|18|79
+|10|21|86
+|13|24|84
+|16|28|99
+|float=left
+|source=[http://www.bbc.co.uk/weather/ BBC Weather]
+}}
+<pre><nowiki>
+{{climate chart|[[Buenos Aires]]
+|17|29|79
+|17|28|71
+|16|26|109
+|12|22|89
+|8|18|76
+|5|14|61
+|6|14|56
+|6|16|61
+|8|18|79
+|10|21|86
+|13|24|84
+|16|28|99
+|float=left
+|source=[http://www.bbc.co.uk/weather/ BBC Weather]
+}}</nowiki></pre>
+{{clear}}
+
+===Non-float===
+{{climate chart|[[Coober Pedy]]
+|20.7|36.4|17.4
+|20.8|35.7|22.8
+|18.2|32.8|12.9
+|14|27.6|6.5
+|10.1|23.3|13.1
+|7.2|18.8|14.4
+|6.3|18.7|7.8
+|7.4|20.7|9.2
+|10.1|24.5|8.4
+|13.6|28.9|14.9
+|16.6|32.1|11.6
+|19.1|34.6|17.5
+}}
+<pre><nowiki>
+{{climate chart|[[Coober Pedy]]
+|20.7|36.4|17.4
+|20.8|35.7|22.8
+|18.2|32.8|12.9
+|14|27.6|6.5
+|10.1|23.3|13.1
+|7.2|18.8|14.4
+|6.3|18.7|7.8
+|7.4|20.7|9.2
+|10.1|24.5|8.4
+|13.6|28.9|14.9
+|16.6|32.1|11.6
+|19.1|34.6|17.5
+}}
+<pre><nowiki>
+
+===Imperial units===
+{{climate chart|[[Anchorage]]
+|9|22|.68
+|12|26|.74
+|18|34|.65
+|29|44|.52
+|39|55|.7
+|47|62|1.06
+|52|65|1.7
+|49|63|2.93
+|41|55|2.87
+|28|40|2.09
+|16|28|1.09
+|11|24|1.05
+|float=right
+|clear=both
+|units=imperial
+}}
+<pre><nowiki>
+{{climate chart|[[Anchorage]]
+|9|22|.68
+|12|26|.74
+|18|34|.65
+|29|44|.52
+|39|55|.7
+|47|62|1.06
+|52|65|1.7
+|49|63|2.93
+|41|55|2.87
+|28|40|2.09
+|16|28|1.09
+|11|24|1.05
+|float=right
+|clear=both
+|units=imperial
+}}</nowiki></pre>
+
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Weather templates|{{PAGENAME}}]]
+
+[[fa:الگو:نمودار آب و هوا]]
+[[ja:Template:Climate chart]]
+[[pt:Predefinição:Grafo Clima]]
+[[tr:Şablon:İklim diyagramı]]
+[[ru:Шаблон:Климатограмма]]
+[[zh:Template:Climate chart]]
+</includeonly>
