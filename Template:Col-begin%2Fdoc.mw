@@ -1,0 +1,152 @@
+<!--<includeonly>{{template doc page transcluded}}</includeonly>-->
+<noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+This [[Wikipedia:Template|template]] is a [[Wikipedia:Avoid self-references|self-reference]] and so is part of the Wikipedia project rather than the encyclopedic content.
+
+The <nowiki>{{col-begin}}</nowiki> and <nowiki>{{col-end}}</nowiki> codes let you make columns of text in your wikipedia article. You can vary the widths and numbers of columns by using various additional codes. See below for examples!
+
+==Usage==
+A border of 2px (1px width on each side) corresponds to a 5%. Therefore, with a 2px border — for example, as in [[Wikipedia:Tutorial (Wrap-up and more info)]] — the width needs to be 95% for the table to fit within the screen. Since it's possible that some tables might not have a border, correction on the individual page could be made after substitution. Another way to create a two column table is like this:
+
+{|
+|
+<pre>
+{{col-begin|width=95%}}
+|-
+| 
+Left column
+|
+Right column
+|}
+</pre>
+|}
+
+{{col-begin}}
+
+{{col-1-of-4}}
+
+ {{tl|Col-begin}}
+ {{tl|Col-2}}
+ Column 1 here
+ {{tl|Col-2}}
+ Column 2 here
+ {{tl|Col-end}}
+
+{{col-2-of-4}}
+
+ {{tl|Col-begin}}
+ {{tl|Col-3}}
+ Column 1 here
+ {{tl|Col-3}}
+ Column 2 here
+ {{tl|Col-3}}
+ Column 3 here
+ {{tl|Col-end}}
+
+{{col-3-of-4}}
+
+ {{tl|Col-begin}}
+ {{tl|Col-4}}
+ Column 1 here
+ {{tl|Col-4}}
+ Column 2 here
+ {{tl|Col-4}}
+ Column 3 here
+ {{tl|Col-4}}
+ Column 4 here
+ {{tl|Col-end}}
+
+{{col-4-of-4}}
+
+ and so on, up to {{tl|Col-7}}
+
+{{col-end}}
+
+{{col-begin}}
+
+{{col-1-of-4}}
+
+ &#123;{[[Template:Col-begin|Col-begin]]|class=references-small}}
+ {{tl|Col-break}}
+ Column 1 here
+ {{tl|Col-break}}
+ Column 2 here
+ {{tl|Col-break}}
+ Column 3 here
+ {{tl|Col-break}}
+ Column 4 here
+ {{tl|Col-break}}
+ Column 5 here
+ {{tl|Col-break}}
+ Column 6 here
+ {{tl|Col-end}}
+
+{{col-2-of-4}}
+
+ {{tl|Top}}
+ Column 1 here
+ {{tl|Mid}}
+ Column 2 here
+ {{tl|Bottom}}
+
+{{col-3-of-4}}
+
+ &#123;{[[Template:Columns-start|Columns-start]]|num=3}}
+ Column 1 here
+ {{tl|Column}}
+ Column 2 here
+ {{tl|Column}}
+ Column 3 here
+ {{tl|Columns-end}}
+
+{{col-4-of-4}}
+
+ {{tl|Multicol}}
+ Column 1 here
+ {{tl|Multicol-break}}
+ Column 2 here
+ {{tl|Multicol-break}}
+ Column 3 here
+ {{tl|Multicol-break}}
+ Column 4 here
+ {{tl|Multicol-end}}
+
+{{col-end}}
+==Examples==
+See [[Template:Col-break/examples|Col-break/examples]]
+
+==See also==
+* {{tl|Col-begin}} ({{tl|Col-start}}), {{tl|Col-begin-small}} {{lts/|Col-begin}}
+** {{tl|Col-2}} <small>({{tl|Col-1-of-2}}, {{tl|Col-2-of-2}})</small>
+** {{tl|Col-3}} <small>({{tl|Col-1-of-3}}, {{tl|Col-2-of-3}}, {{tl|Col-3-of-3}})</small>
+** {{tl|Col-4}} <small>({{tl|Col-1-of-4}}, {{tl|Col-2-of-4}}, {{tl|Col-3-of-4}}, {{tl|Col-4-of-4}})</small>
+** {{tl|Col-5}} <small>({{tl|Col-1-of-5}}, {{tl|Col-2-of-5}}, {{tl|Col-3-of-5}}, {{tl|Col-4-of-5}}, {{tl|Col-5-of-5}})</small>
+** {{tl|Col-6}} <small>({{tl|Col-1-of-6}}, {{tl|Col-2-of-6}}, {{tl|Col-3-of-6}}, {{tl|Col-4-of-6}}, {{tl|Col-5-of-6}}, {{tl|Col-6-of-6}})</small>
+** {{tl|Col-7}}
+** {{tl|Col-break}}
+* {{tl|Col-end}} ({{tl|End}})
+* {{tl|Top}}, {{tl|Mid}}, {{tl|Bottom}}
+* {{tl|Columns-start}}, {{tl|Column}}, {{tl|Columns-end}} {{lts/|Columns-start}}
+* {{tl|Multicol}}, {{tl|Multicol-break}}, {{tl|Multicol-end}} {{lts/|Multicol}}
+* {{tl|Div col}}, {{tl|Div col end}} {{lts/|Div col}}
+
+==External links==
+* [http://www.htmlcodetutorial.com/_MULTICOL.html MULTICOL HTML tag]
+* [http://developer.mozilla.org/en/docs/CSS3_Columns CSS3 Columns], -moz-column-count
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Table and column templates|{{SUBJECTPAGENAME}}]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[el:Πρότυπο:Col-2]]
+[[eo:Ŝablono:Kol-komenco]]
+[[ja:Template:Col-begin]]
+[[ka:თარგი:Col-begin]]
+[[ko:틀:Col-begin]]
+[[is:Snið:Dál-byrja]]
+[[no:Mal:Col-begin]]
+[[nn:Mal:Kol-start]]
+[[pt:Predefinição:Col-begin]]
+[[zh:Template:Col-begin]]
+</includeonly>
