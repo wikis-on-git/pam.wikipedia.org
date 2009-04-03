@@ -1,0 +1,17 @@
+<includeonly>{{#ifeq: {{FULLPAGENAME}} | Template:Potd/{{{3|}}}-{{{4|}}}-{{{5|}}} ({{{2|}}}) | This is the {{Language|{{{2|}}}|en}} translation of the [[Commons:Picture of the day|Picture of the day]] description page from {{ISOdate|{{{3|}}}-{{{4|}}}-{{{5|}}}}}. The text is:
+
+<div style="border: 1px solid grey; padding: 0.2em 1em;">{{{1|}}}</div>
+
+[[Category:Potd templates ({{{2|}}})| {{{3|}}}{{{4|}}}{{{5|}}}]]
+[[Category:Potd templates {{{3|}}}-{{{4|}}}| {{{5|}}} ({{{2|}}})]]
+| {{{1|}}} }}<!-- Should also add something for filename templates --></includeonly><noinclude>
+
+== Usage ==
+This template is used to tag daily localized potd templates.
+<PRE>
+{{Potd page|<description>|<language>|<year>|<month>|<day>}}
+</PRE>
+For example: <nowiki>{{Potd description|some description|</nowiki>{{int:lang}}<nowiki>|</nowiki>{{CURRENTYEAR}}<nowiki>|</nowiki>{{CURRENTMONTH}}<nowiki>|</nowiki>{{CURRENTDAY2}}<nowiki>}}</nowiki>
+
+[[Category:Potd templates| Description]]
+</noinclude>
