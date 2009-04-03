@@ -1,0 +1,41 @@
+<includeonly>{{template doc page transcluded}}</includeonly>
+<noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+<includeonly>{{esoteric}}</includeonly>
+==Usage==
+This template creates a comma-separated list of pages formatted as links.  The last two pages in the list are separated by "and" instead of a comma.  From 1–20 pages may be included in the list.
+
+By default, the namespace of the page including this template is used for each of the links.  An optional "'''nspace'''" parameter can be specified to provide a different namespace to use for the links.
+
+Two other optional parameters are supported to provide formatting of the page links.  If specified, the "'''delim'''" parameter is included before and after each page name.  Optionally, the "'''edelim'''" parameter can specify the delimiter used at the end of the page name&mdash;in this case the "'''delim'''" tag is still used for the beginning of the page name.
+
+This template is mostly useful from within other templates that accept a variable number of page names as arguments.  For example, the page arguments <tt><nowiki>{{{1}}}</nowiki></tt>–<tt><nowiki>{{{10}}}</nowiki></tt> can be passed to this template using <tt><nowiki>{{pagelist|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|{{{9|}}}|{{{10|}}}}}</nowiki></tt>.  Any parameters not specified to the original template will be passed as empty parameters and not listed by the pagelist template.
+
+===Examples===
+{| class="wikitable"
+! Type this !! To get this
+|-
+| <tt><nowiki>{{pagelist|X1|X2|X3|X4|X5}}</nowiki></tt>
+| {{pagelist|X1|X2|X3|X4|X5}}
+|-
+| <tt><nowiki>{{pagelist|nspace=Template|X1|X2|X3|X4|X5}}</nowiki></tt>
+| {{pagelist|nspace=Template|X1|X2|X3|X4|X5}}
+|-
+| <tt><nowiki>{{pagelist|nspace=Template|delim=''|X1|X2|X3|X4|X5}}</nowiki></tt>
+| {{pagelist|nspace=Template|delim=''|X1|X2|X3|X4|X5}}
+|-
+| <tt><nowiki>{{pagelist|nspace=Template|delim="''|edelim=''"|X1|X2|X3|X4|X5}}</nowiki></tt>
+| {{pagelist|nspace=Template|delim="''|edelim=''"|X1|X2|X3|X4|X5}}
+|}
+
+
+<includeonly>
+<!--Categories-->
+[[Category:Wikipedia formatting and function templates|{{PAGENAME}}]]
+[[Category:Internal link templates|{{PAGENAME}}]]
+
+<!--Other languages-->
+[[it:Template:Lista pagine]]
+[[vi:Tiêu bản:Pagelist]]
+[[zh:Template:Pagelist]]
+</includeonly>
