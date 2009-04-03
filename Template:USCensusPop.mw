@@ -4,58 +4,57 @@
 |- style="font-size:95%"
 ! style="text-align:center; border-bottom:1px solid black" | Census || style="text-align:center; border-bottom:1px solid black" | Pop. || style="text-align:center; border-bottom:1px solid black" | || style="text-align:center; border-bottom:1px solid black" | %±
 {{#if:{{{1790|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1790|1790]]'''</td><td style="padding-left:8px">{{formatnum: {{{1790}}} }}</td><td>{{{1790n|}}}</td><td style="padding-left:8px"><center>—</center></td></tr>
+<tr><td style="text-align:center">'''[[1790 United States Census|1790]]'''</td><td style="padding-left:8px">{{formatnum: {{{1790}}} }}</td><td>{{{1790n|}}}</td><td style="padding-left:8px"><center>—</center></td></tr>
 }}{{#if:{{{1800|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1800|1800]]'''</td><td style="padding-left:8px">{{formatnum: {{{1800}}} }}</td><td>{{{1800n|}}}</td><td style="padding-left:8px">{{#if: {{{1790|}}} | {{Val|{{Decimals| (100 * {{{1800}}}/{{{1790}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[1800 United States Census|1800]]'''</td><td style="padding-left:8px">{{formatnum: {{{1800}}} }}</td><td>{{{1800n|}}}</td><td style="padding-left:8px">{{#if: {{{1790|}}} | {{Val|{{Decimals| (100 * {{{1800}}}/{{{1790}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{1810|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1810|1810]]'''</td><td style="padding-left:8px">{{formatnum: {{{1810}}} }}</td><td>{{{1810n|}}}</td><td style="padding-left:8px">{{#if: {{{1800|}}} | {{Val|{{Decimals| (100 * {{{1810}}}/{{{1800}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[1810 United States Census|1810]]'''</td><td style="padding-left:8px">{{formatnum: {{{1810}}} }}</td><td>{{{1810n|}}}</td><td style="padding-left:8px">{{#if: {{{1800|}}} | {{Val|{{Decimals| (100 * {{{1810}}}/{{{1800}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{1820|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1820|1820]]'''</td><td style="padding-left:8px">{{formatnum: {{{1820}}} }}</td><td>{{{1820n|}}}</td><td style="padding-left:8px">{{#if: {{{1810|}}} | {{Val|{{Decimals| (100 * {{{1820}}}/{{{1810}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[1820 United States Census|1820]]'''</td><td style="padding-left:8px">{{formatnum: {{{1820}}} }}</td><td>{{{1820n|}}}</td><td style="padding-left:8px">{{#if: {{{1810|}}} | {{Val|{{Decimals| (100 * {{{1820}}}/{{{1810}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{1830|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1830|1830]]'''</td><td style="padding-left:8px">{{formatnum: {{{1830}}} }}</td><td>{{{1830n|}}}</td><td style="padding-left:8px">{{#if: {{{1820|}}} | {{Val|{{Decimals| (100 * {{{1830}}}/{{{1820}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[1830 United States Census|1830]]'''</td><td style="padding-left:8px">{{formatnum: {{{1830}}} }}</td><td>{{{1830n|}}}</td><td style="padding-left:8px">{{#if: {{{1820|}}} | {{Val|{{Decimals| (100 * {{{1830}}}/{{{1820}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{1840|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1840|1840]]'''</td><td style="padding-left:8px">{{formatnum: {{{1840}}} }}</td><td>{{{1840n|}}}</td><td style="padding-left:8px">{{#if: {{{1830|}}} | {{Val|{{Decimals| (100 * {{{1840}}}/{{{1830}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[1840 United States Census|1840]]'''</td><td style="padding-left:8px">{{formatnum: {{{1840}}} }}</td><td>{{{1840n|}}}</td><td style="padding-left:8px">{{#if: {{{1830|}}} | {{Val|{{Decimals| (100 * {{{1840}}}/{{{1830}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{1850|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1850|1850]]'''</td><td style="padding-left:8px">{{formatnum: {{{1850}}} }}</td><td>{{{1850n|}}}</td><td style="padding-left:8px">{{#if: {{{1840|}}} | {{Val|{{Decimals| (100 * {{{1850}}}/{{{1840}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[1850 United States Census|1850]]'''</td><td style="padding-left:8px">{{formatnum: {{{1850}}} }}</td><td>{{{1850n|}}}</td><td style="padding-left:8px">{{#if: {{{1840|}}} | {{Val|{{Decimals| (100 * {{{1850}}}/{{{1840}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{1860|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1860|1860]]'''</td><td style="padding-left:8px">{{formatnum: {{{1860}}} }}</td><td>{{{1860n|}}}</td><td style="padding-left:8px">{{#if: {{{1850|}}} | {{Val|{{Decimals| (100 * {{{1860}}}/{{{1850}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[1860 United States Census|1860]]'''</td><td style="padding-left:8px">{{formatnum: {{{1860}}} }}</td><td>{{{1860n|}}}</td><td style="padding-left:8px">{{#if: {{{1850|}}} | {{Val|{{Decimals| (100 * {{{1860}}}/{{{1850}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{1870|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1870|1870]]'''</td><td style="padding-left:8px">{{formatnum: {{{1870}}} }}</td><td>{{{1870n|}}}</td><td style="padding-left:8px">{{#if: {{{1860|}}} | {{Val|{{Decimals| (100 * {{{1870}}}/{{{1860}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[1870 United States Census|1870]]'''</td><td style="padding-left:8px">{{formatnum: {{{1870}}} }}</td><td>{{{1870n|}}}</td><td style="padding-left:8px">{{#if: {{{1860|}}} | {{Val|{{Decimals| (100 * {{{1870}}}/{{{1860}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{1880|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1880|1880]]'''</td><td style="padding-left:8px">{{formatnum: {{{1880}}} }}</td><td>{{{1880n|}}}</td><td style="padding-left:8px">{{#if: {{{1870|}}} | {{Val|{{Decimals| (100 * {{{1880}}}/{{{1870}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[1880 United States Census|1880]]'''</td><td style="padding-left:8px">{{formatnum: {{{1880}}} }}</td><td>{{{1880n|}}}</td><td style="padding-left:8px">{{#if: {{{1870|}}} | {{Val|{{Decimals| (100 * {{{1880}}}/{{{1870}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{1890|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1890|1890]]'''</td><td style="padding-left:8px">{{formatnum: {{{1890}}} }}</td><td>{{{1890n|}}}</td><td style="padding-left:8px">{{#if: {{{1880|}}} | {{Val|{{Decimals| (100 * {{{1890}}}/{{{1880}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[1890 United States Census|1890]]'''</td><td style="padding-left:8px">{{formatnum: {{{1890}}} }}</td><td>{{{1890n|}}}</td><td style="padding-left:8px">{{#if: {{{1880|}}} | {{Val|{{Decimals| (100 * {{{1890}}}/{{{1880}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{1900|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1900|1900]]'''</td><td style="padding-left:8px">{{formatnum: {{{1900}}} }}</td><td>{{{1900n|}}}</td><td style="padding-left:8px">{{#if: {{{1890|}}} | {{Val|{{Decimals| (100 * {{{1900}}}/{{{1890}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[1900 United States Census|1900]]'''</td><td style="padding-left:8px">{{formatnum: {{{1900}}} }}</td><td>{{{1900n|}}}</td><td style="padding-left:8px">{{#if: {{{1890|}}} | {{Val|{{Decimals| (100 * {{{1900}}}/{{{1890}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{1910|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1910|1910]]'''</td><td style="padding-left:8px">{{formatnum: {{{1910}}} }}</td><td>{{{1910n|}}}</td><td style="padding-left:8px">{{#if: {{{1900|}}} | {{Val|{{Decimals| (100 * {{{1910}}}/{{{1900}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[1910 United States Census|1910]]'''</td><td style="padding-left:8px">{{formatnum: {{{1910}}} }}</td><td>{{{1910n|}}}</td><td style="padding-left:8px">{{#if: {{{1900|}}} | {{Val|{{Decimals| (100 * {{{1910}}}/{{{1900}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{1920|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1920|1920]]'''</td><td style="padding-left:8px">{{formatnum: {{{1920}}} }}</td><td>{{{1920n|}}}</td><td style="padding-left:8px">{{#if: {{{1910|}}} | {{Val|{{Decimals| (100 * {{{1920}}}/{{{1910}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[1920 United States Census|1920]]'''</td><td style="padding-left:8px">{{formatnum: {{{1920}}} }}</td><td>{{{1920n|}}}</td><td style="padding-left:8px">{{#if: {{{1910|}}} | {{Val|{{Decimals| (100 * {{{1920}}}/{{{1910}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{1930|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1930|1930]]'''</td><td style="padding-left:8px">{{formatnum: {{{1930}}} }}</td><td>{{{1930n|}}}</td><td style="padding-left:8px">{{#if: {{{1920|}}} | {{Val|{{Decimals| (100 * {{{1930}}}/{{{1920}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[1930 United States Census|1930]]'''</td><td style="padding-left:8px">{{formatnum: {{{1930}}} }}</td><td>{{{1930n|}}}</td><td style="padding-left:8px">{{#if: {{{1920|}}} | {{Val|{{Decimals| (100 * {{{1930}}}/{{{1920}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{1940|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1940|1940]]'''</td><td style="padding-left:8px">{{formatnum: {{{1940}}} }}</td><td>{{{1940n|}}}</td><td style="padding-left:8px">{{#if: {{{1930|}}} | {{Val|{{Decimals| (100 * {{{1940}}}/{{{1930}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[1940 United States Census|1940]]'''</td><td style="padding-left:8px">{{formatnum: {{{1940}}} }}</td><td>{{{1940n|}}}</td><td style="padding-left:8px">{{#if: {{{1930|}}} | {{Val|{{Decimals| (100 * {{{1940}}}/{{{1930}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{1950|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1950|1950]]'''</td><td style="padding-left:8px">{{formatnum: {{{1950}}} }}</td><td>{{{1950n|}}}</td><td style="padding-left:8px">{{#if: {{{1940|}}} | {{Val|{{Decimals| (100 * {{{1950}}}/{{{1940}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[1950 United States Census|1950]]'''</td><td style="padding-left:8px">{{formatnum: {{{1950}}} }}</td><td>{{{1950n|}}}</td><td style="padding-left:8px">{{#if: {{{1940|}}} | {{Val|{{Decimals| (100 * {{{1950}}}/{{{1940}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{1960|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1960|1960]]'''</td><td style="padding-left:8px">{{formatnum: {{{1960}}} }}</td><td>{{{1960n|}}}</td><td style="padding-left:8px">{{#if: {{{1950|}}} | {{Val|{{Decimals| (100 * {{{1960}}}/{{{1950}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[1960 United States Census|1960]]'''</td><td style="padding-left:8px">{{formatnum: {{{1960}}} }}</td><td>{{{1960n|}}}</td><td style="padding-left:8px">{{#if: {{{1950|}}} | {{Val|{{Decimals| (100 * {{{1960}}}/{{{1950}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{1970|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1970|1970]]'''</td><td style="padding-left:8px">{{formatnum: {{{1970}}} }}</td><td>{{{1970n|}}}</td><td style="padding-left:8px">{{#if: {{{1960|}}} | {{Val|{{Decimals| (100 * {{{1970}}}/{{{1960}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[1970 United States Census|1970]]'''</td><td style="padding-left:8px">{{formatnum: {{{1970}}} }}</td><td>{{{1970n|}}}</td><td style="padding-left:8px">{{#if: {{{1960|}}} | {{Val|{{Decimals| (100 * {{{1970}}}/{{{1960}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{1980|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1980|1980]]'''</td><td style="padding-left:8px">{{formatnum: {{{1980}}} }}</td><td>{{{1980n|}}}</td><td style="padding-left:8px">{{#if: {{{1970|}}} | {{Val|{{Decimals| (100 * {{{1980}}}/{{{1970}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[1980 United States Census|1980]]'''</td><td style="padding-left:8px">{{formatnum: {{{1980}}} }}</td><td>{{{1980n|}}}</td><td style="padding-left:8px">{{#if: {{{1970|}}} | {{Val|{{Decimals| (100 * {{{1980}}}/{{{1970}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{1990|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 1990|1990]]'''</td><td style="padding-left:8px">{{formatnum: {{{1990}}} }}</td><td>{{{1990n|}}}</td><td style="padding-left:8px">{{#if: {{{1980|}}} | {{Val|{{Decimals| (100 * {{{1990}}}/{{{1980}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[1990 United States Census|1990]]'''</td><td style="padding-left:8px">{{formatnum: {{{1990}}} }}</td><td>{{{1990n|}}}</td><td style="padding-left:8px">{{#if: {{{1980|}}} | {{Val|{{Decimals| (100 * {{{1990}}}/{{{1980}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{2000|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 2000|2000]]'''</td><td style="padding-left:8px">{{formatnum: {{{2000}}} }}</td><td>{{{2000n|}}}</td><td style="padding-left:8px">{{#if: {{{1990|}}} | {{Val|{{Decimals| (100 * {{{2000}}}/{{{1990}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[2000 United States Census|2000]]'''</td><td style="padding-left:8px">{{formatnum: {{{2000}}} }}</td><td>{{{2000n|}}}</td><td style="padding-left:8px">{{#if: {{{1990|}}} | {{Val|{{Decimals| (100 * {{{2000}}}/{{{1990}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{2010|}}} |
-<tr><td style="text-align:center">'''[[United States Census, 2010|2010]]'''</td><td style="padding-left:8px">{{formatnum: {{{2010}}} }}</td><td>{{{2010n|}}}</td><td style="padding-left:8px">{{#if: {{{2000|}}} | {{Val|{{Decimals| (100 * {{{2010}}}/{{{2000}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
+<tr><td style="text-align:center">'''[[2010 United States Census|2010]]'''</td><td style="padding-left:8px">{{formatnum: {{{2010}}} }}</td><td>{{{2010n|}}}</td><td style="padding-left:8px">{{#if: {{{2000|}}} | {{Val|{{Decimals| (100 * {{{2010}}}/{{{2000}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{estimate|}}} |
 <tr><td style="text-align-center">'''Est. {{{estyear}}}'''</td><td style="padding-left:8px">{{formatnum: {{{estimate}}} }}</td><td>{{{estref|}}}</td><td style="padding-left:8px">{{#if: {{{2000|}}} | {{Val|{{Decimals| (100 * {{{estimate}}}/{{{2000}}} - 100) | 1}}}}% |}}</td></tr>
 }}{{#if:{{{footnote|}}} |
 <tr><td colspan=4 style="border-top:1px solid black; font-size:85%; text-align:left">{{{footnote}}}</td></tr>
 }}
-|}
-<noinclude>
+|}<noinclude>
 {{Merge-multiple-to|Histpop|HistoricalPopulations|target=Historical populations|discuss=Template talk:Historical populations#Merger proposal|date=June 2008}}
 
 '''Template:USCensusPop''' is used as an information box on pages, showing each census year with a population, and a percent gain/loss comparison. See [[Alabama#Demographics|Alabama]] as an example of how this template is rendered.
