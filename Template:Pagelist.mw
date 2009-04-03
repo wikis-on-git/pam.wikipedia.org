@@ -1,0 +1,24 @@
+<includeonly>{{{delim|}}}[[:{{{nspace|{{NAMESPACE}}}}}:{{{1}}}|{{{1}}}]]{{{edelim|{{{delim|}}}}}}<!--
+-->{{#if:{{{2|}}}|{{#if:{{{3|}}}|,|<nowiki> </nowiki>and}} {{{delim|}}}[[:{{{nspace|{{NAMESPACE}}}}}:{{{2}}}|{{{2}}}]]{{{edelim|{{{delim|}}}}}}<!--
+-->{{#if:{{{3|}}}|{{#if:{{{4|}}}|,|<nowiki> </nowiki>and}} {{{delim|}}}[[:{{{nspace|{{NAMESPACE}}}}}:{{{3}}}|{{{3}}}]]{{{edelim|{{{delim|}}}}}}<!--
+-->{{#if:{{{4|}}}|{{#if:{{{5|}}}|,|<nowiki> </nowiki>and}} {{{delim|}}}[[:{{{nspace|{{NAMESPACE}}}}}:{{{4}}}|{{{4}}}]]{{{edelim|{{{delim|}}}}}}<!--
+-->{{#if:{{{5|}}}|{{#if:{{{6|}}}|,|<nowiki> </nowiki>and}} {{{delim|}}}[[:{{{nspace|{{NAMESPACE}}}}}:{{{5}}}|{{{5}}}]]{{{edelim|{{{delim|}}}}}}<!--
+-->{{#if:{{{6|}}}|{{#if:{{{7|}}}|,|<nowiki> </nowiki>and}} {{{delim|}}}[[:{{{nspace|{{NAMESPACE}}}}}:{{{6}}}|{{{6}}}]]{{{edelim|{{{delim|}}}}}}<!--
+-->{{#if:{{{7|}}}|{{#if:{{{8|}}}|,|<nowiki> </nowiki>and}} {{{delim|}}}[[:{{{nspace|{{NAMESPACE}}}}}:{{{7}}}|{{{7}}}]]{{{edelim|{{{delim|}}}}}}<!--
+-->{{#if:{{{8|}}}|{{#if:{{{9|}}}|,|<nowiki> </nowiki>and}} {{{delim|}}}[[:{{{nspace|{{NAMESPACE}}}}}:{{{8}}}|{{{8}}}]]{{{edelim|{{{delim|}}}}}}<!--
+-->{{#if:{{{9|}}}|{{#if:{{{10|}}}|,|<nowiki> </nowiki>and}} {{{delim|}}}[[:{{{nspace|{{NAMESPACE}}}}}:{{{9}}}|{{{9}}}]]{{{edelim|{{{delim|}}}}}}<!--
+-->{{#if:{{{10|}}}|{{#if:{{{11|}}}|,|<nowiki> </nowiki>and}} {{{delim|}}}[[:{{{nspace|{{NAMESPACE}}}}}:{{{10}}}|{{{10}}}]]{{{edelim|{{{delim|}}}}}}<!--
+-->{{#if:{{{11|}}}|{{#if:{{{12|}}}|,|<nowiki> </nowiki>and}} {{{delim|}}}[[:{{{nspace|{{NAMESPACE}}}}}:{{{11}}}|{{{11}}}]]{{{edelim|{{{delim|}}}}}}<!--
+-->{{#if:{{{12|}}}|{{#if:{{{13|}}}|,|<nowiki> </nowiki>and}} {{{delim|}}}[[:{{{nspace|{{NAMESPACE}}}}}:{{{12}}}|{{{12}}}]]{{{edelim|{{{delim|}}}}}}<!--
+-->{{#if:{{{13|}}}|{{#if:{{{14|}}}|,|<nowiki> </nowiki>and}} {{{delim|}}}[[:{{{nspace|{{NAMESPACE}}}}}:{{{13}}}|{{{13}}}]]{{{edelim|{{{delim|}}}}}}<!--
+-->{{#if:{{{14|}}}|{{#if:{{{15|}}}|,|<nowiki> </nowiki>and}} {{{delim|}}}[[:{{{nspace|{{NAMESPACE}}}}}:{{{14}}}|{{{14}}}]]{{{edelim|{{{delim|}}}}}}<!--
+-->{{#if:{{{15|}}}|{{#if:{{{16|}}}|,|<nowiki> </nowiki>and}} {{{delim|}}}[[:{{{nspace|{{NAMESPACE}}}}}:{{{15}}}|{{{15}}}]]{{{edelim|{{{delim|}}}}}}<!--
+-->{{#if:{{{16|}}}|{{#if:{{{17|}}}|,|<nowiki> </nowiki>and}} {{{delim|}}}[[:{{{nspace|{{NAMESPACE}}}}}:{{{16}}}|{{{16}}}]]{{{edelim|{{{delim|}}}}}}<!--
+-->{{#if:{{{17|}}}|{{#if:{{{18|}}}|,|<nowiki> </nowiki>and}} {{{delim|}}}[[:{{{nspace|{{NAMESPACE}}}}}:{{{17}}}|{{{17}}}]]{{{edelim|{{{delim|}}}}}}<!--
+-->{{#if:{{{18|}}}|{{#if:{{{19|}}}|,|<nowiki> </nowiki>and}} {{{delim|}}}[[:{{{nspace|{{NAMESPACE}}}}}:{{{18}}}|{{{18}}}]]{{{edelim|{{{delim|}}}}}}<!--
+-->{{#if:{{{19|}}}|{{#if:{{{20|}}}|,|<nowiki> </nowiki>and}} {{{delim|}}}[[:{{{nspace|{{NAMESPACE}}}}}:{{{19}}}|{{{19}}}]]{{{edelim|{{{delim|}}}}}}<!--
+-->{{#if:{{{20|}}}|<nowiki> </nowiki>and {{{delim|}}}[[:{{{nspace|{{NAMESPACE}}}}}:{{{20}}}|{{{20}}}]]{{{edelim|{{{delim|}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}<!--
+--></includeonly><noinclude>
+{{documentation}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
+</noinclude>
