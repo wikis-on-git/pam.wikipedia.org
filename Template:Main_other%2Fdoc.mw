@@ -1,0 +1,89 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+This is the {{tl|main other}} meta-template.
+
+This template helps other templates detect if they are on a main space (article) page or some "other" type of page.
+
+=== Basic usage ===
+
+This template usually takes two parameters, like this:
+
+<pre>
+{{main other | Article text | Other pages text }}
+</pre>
+
+If the template is on a main space (article) page, it will return this:
+
+:{{main other | demospace=main | Article text | Other pages text }}
+
+If the template is on any other page, it will return this:
+
+:{{main other | Article text | Other pages text }}
+
+A typical usage case could be to make it so that a template only adds a category when on an article. Thus not adding other pages that just show the template. Like this:
+
+<pre>
+{{main other | [[Category:Some article maintenance category]] }}
+</pre>
+
+Or to warn that a template should not be used on other pages:
+
+<pre>
+{{main other | | This template should only be used in articles. }}
+</pre>
+
+Note that in the first case above the "other" parameter was not used, and in the second example the "main" parameter was left empty.
+
+=== Demospace ===
+
+For testing and demonstration purposes this template can take a parameter named '''demospace'''. 
+
+* If it has the value '''main''' it returns the article text.
+* It if has the value '''other''' or any other value such as the name of some other namespace it returns the other pages text.
+* If the parameter is empty or undefined, the actual page type determines the result.
+
+Like this:
+
+<pre>
+{{main other 
+| Article text 
+| Other pages text 
+| demospace = main
+}}
+</pre>
+
+No matter on what kind of page the code above is used it will return this:
+
+:{{main other 
+| Article text 
+| Other pages text 
+| demospace = main
+}}
+
+You can make it so your template also understands the '''demospace''' parameter. That means you can demonstrate the different appearances of your template in the documentation for your template. Then do like this:
+
+<pre>
+{{main other 
+| Article text 
+| Other pages text 
+| demospace = {{{demospace|}}}
+}}
+</pre>
+
+=== Technical details ===
+
+This template detects article "Talk:" pages as type '''other'''.
+
+This template works like {{tl|main talk other}}, for more examples and technical details see full documentation there.
+
+=== See also ===
+
+{{namespace detect see also}}
+
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Wikipedia metatemplates]]
+
+[[mk:Шаблон:Main other]]
+</includeonly>
