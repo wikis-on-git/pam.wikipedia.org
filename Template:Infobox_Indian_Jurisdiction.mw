@@ -198,8 +198,8 @@
 -->{{#if: {{{population_urban|}}}        |<br> • [[Urbanization|Urban]]|}}<!--
 -->{{#if: {{{sex_ratio|}}}             |<br> • [[Human sex ratio|Sex ratio]]|}}<!--
 -->{{#if: {{{literacy|}}}         |<br> • [[Literacy rate]]|}}<!--
--->{{#if: {{{literacy_male|}}}    |<br>   • Male|}}<!--
--->{{#if: {{{literacy_female|}}}  |<br>   • Female|}}
+-->{{#if: {{{literacy_male|}}}    |<br>   • Lalaki|}}<!--
+-->{{#if: {{{literacy_female|}}}  |<br>   • Babai|}}
 <!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" {{!}}<!--
 -->{{#if: {{{population_total|}}}     |{{formatnum: {{{population_total}}}}}|}}<!--
 -->{{#if: {{{population_total_cite|}}}|<small>{{{population_total_cite|}}}</small>|}}<!--
