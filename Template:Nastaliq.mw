@@ -1,0 +1,27 @@
+<span lang="{{#if: {{{2|}}}|{{{1}}}|und-Arab}}" xml:lang="{{#if: {{{2|}}}|{{{1}}}|und-Arab}}" title="Nasta'liq" style="font-size:125%;font-family:'IranNastaliq', 'Nafees Nastaleeq', 'Nafees Nastaleeq v1.01', 'Pak Nastaleeq', 'PDMS_Jauhar';">{{{2|{{{1}}}}}}</span><noinclude>
+
+template intended to force [[Nasta'liq script]] fonts if installed:
+*Nafees Nastaleeq[http://www.crulp.org/software/localization/Fonts/nafeesNastaleeq.html]
+*Pak Nastaleeq[http://www.nlauit.gov.pk/comments%20font.htm]
+*PDMS_Jauhar[http://pakdata.com/pdms/embed/PDMS_Jauhar.eot]
+
+----
+*{{Nastaliq|نستعلیق}}
+*{{Nastaliq|fa|فارسی}}
+*{{Nastaliq|ps|پشتو‎}}
+*{{Nastaliq|ur|اردو}}
+
+compare {{tl|lang}}:
+*{{lang|ar|عربي}}
+*{{lang|fa|فارسی}}
+*{{lang|ps|پښتو‎}}
+*{{lang|ur|اردو}}
+
+==See also==
+*{{tl|script}}
+
+
+[[Category:Multilingual support templates]]
+
+[[tl:Suleras:Nastaliq]]
+</noinclude>
