@@ -117,8 +117,8 @@
 <!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 {{!}} '''[[Climate of India|Klima]]'''<!--
 -->{{#if: {{{precip|}}}       |<br> • [[Precipitation (meteorology)|Precipitation]]|}}<!--
 -->{{#if: {{{temp_annual|}}}{{{temp_winter|}}}{{{temp_summer|}}}|<br>'''[[Temperature]]'''|}}<!--
--->{{#if: {{{temp_summer|}}}  |<br> • Summer|}}<!--
--->{{#if: {{{temp_winter|}}}  |<br> • Winter|}}
+-->{{#if: {{{temp_summer|}}}  |<br> • Kaleldo|}}<!--
+-->{{#if: {{{temp_winter|}}}  |<br> • Karimlan|}}
 <!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" {{!}}<!--
 -->{{#if: {{{climate|}}}      |[[Climatic regions of India|{{{climate|}}}]] <small>([[Köppen climate classification|Köppen]])</small>|}}<!--
 -->{{#if: {{{precip|}}}       |<br> • {{mm to in|{{{precip|}}}|precision=1|abbr=yes}}|}}<!--
@@ -155,7 +155,7 @@
 }}
 |-
 {{#if: {{{largest_metro|}}}|
-<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''Largest metro'''
+<!-- -->{{!}} bgcolor=#F4F4F4 {{!}} '''Pekamaragul a metro'''
 <!-- -->{{!}} {{!}} {{AutoLink|{{{largest_metro|}}}}}
 }}
 |-
