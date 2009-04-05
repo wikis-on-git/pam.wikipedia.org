@@ -116,7 +116,7 @@
 {{#if: {{{precip|}}}{{{temp_winter|}}}{{{temp_summer|}}}|
 <!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" bgcolor=#F4F4F4 {{!}} '''[[Climate of India|Klima]]'''<!--
 -->{{#if: {{{precip|}}}       |<br> • [[Precipitation (meteorology)|Precipitation]]|}}<!--
--->{{#if: {{{temp_annual|}}}{{{temp_winter|}}}{{{temp_summer|}}}|<br>'''[[Temperature]]'''|}}<!--
+-->{{#if: {{{temp_annual|}}}{{{temp_winter|}}}{{{temp_summer|}}}|<br>'''[[Temperatura]]'''|}}<!--
 -->{{#if: {{{temp_summer|}}}  |<br> • Kaleldo|}}<!--
 -->{{#if: {{{temp_winter|}}}  |<br> • Karimlan|}}
 <!-- -->{{!}} style="border-top: 2px dotted #DCDCDC;" {{!}}<!--
