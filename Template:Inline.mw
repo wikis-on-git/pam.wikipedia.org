@@ -1,0 +1,5 @@
+{{ambox
+| type  = style
+| image = [[Image:Text document with red question mark.svg|50x40px]]
+| text  = This {{{1|article}}} includes a [[{{SITENAME}}:Citing sources|list of references]] or [[Wikipedia:External links|external links]], but '''its sources remain unclear because it lacks [[Wikipedia:Citing sources#Inline citations|inline citations]].''' Please [[{{SITENAME}}:WikiProject Fact and Reference Check|improve]] this article by introducing more precise citations [[Wikipedia:When to cite|where appropriate]]. {{#if:{{{date|}}}|<small>''({{{date}}})''</small>}}
+}}<includeonly>{{{category|[[Category:Articles lacking in-text citations {{#if:{{{date|}}}|from {{{date}}}}}|{{PAGENAME}}]]}}}</includeonly><noinclude>{{template doc}}<!--Categories and interwikis go in the /doc page.--></noinclude>
