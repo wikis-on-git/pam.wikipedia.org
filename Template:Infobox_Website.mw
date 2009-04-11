@@ -1,0 +1,33 @@
+{{Infobox
+| title   = {{{websitename|{{{name|<includeonly>{{PAGENAME}}</includeonly> }}} }}}
+| above   = {{{websitelogo|{{{logo|}}} }}}
+| image   = {{#if:{{{collapsible|}}}|{{hidden begin|title=Screenshot|titlestyle=text-align:center}}}}{{{screenshot|}}}
+| caption = {{{caption|}}}{{#if:{{{collapsible|}}}|{{hidden end}}}}
+| label1  = [[Uniform Resource Locator|URL]]
+| data1   = {{{url|}}}
+| label2  = [[Slogan]]
+| data2   = {{{slogan|}}}
+| label3  = Commercial?
+| data3   = {{{commercial|}}}
+| label4  = Type of site
+| data4   = {{{type|}}}
+| label5  = Registration
+| data5   = {{{reg|{{{registration|}}} }}}
+| label6  = Available [[natural language|language]](s)
+| data6   = {{{language|}}}
+| label7  = Owner
+| data7   = {{{owner|}}}
+| label8  = Created by
+| data8   = {{{author|}}}
+| label9 = Launched
+| data9  = {{{date_of_launch|{{{launch date|}}} }}}
+| label10  = [[Alexa Internet|Alexa]] rank
+| data10   = {{{alexa|}}}
+| label11 = Revenue
+| data11  = {{{rev|{{{revenue|}}}}}}
+| label12 = Current status
+| data12  = {{{current_status|{{{current status|}}} }}}
+}}<noinclude>
+{{pp-template|small=yes}}
+{{documentation}}
+</noinclude>
