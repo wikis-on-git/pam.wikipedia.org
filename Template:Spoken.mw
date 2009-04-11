@@ -1,0 +1,22 @@
+[[Image:sound-icon.svg|16px|Spoken content icon]]<noinclude>
+__NOTOC__
+{{mergeinto|Audio}}
+== Purpose ==
+
+This template adds a loudspeaker icon to indicate audio.  Clicking the icon ''does not'' download the audio file.
+
+== Usage ==
+
+: <code><nowiki>{{spoken}}</nowiki></code>
+
+gives this:
+: {{spoken}}
+
+== See also ==
+
+* {{tl|Audio}}, a template meant for inline sounds with a link, like pronunciations (with clickable loudspeaker).
+** {{tl|Audio-nohelp}}, a variant of this template with no help link.
+* {{tl|Listen}}, which sets an audio clip off from the main text.
+
+[[Category:Audio templates]]
+</noinclude>
