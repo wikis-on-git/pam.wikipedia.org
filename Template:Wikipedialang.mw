@@ -1,7 +1,7 @@
 <!--Note: This section will be regularly modified to keep it approximately the same size as template:WikipediaSister -->
 <div id="lang">
 
-{{#switch:{{FULLPAGENAME}}|Special:Statistics=|This Wikipedia is written in [[English language|English]]. Started in 2001, it currently contains [[Special:Statistics|{{NUMBEROFARTICLES}}]] articles.&#32;}}[[m:List of Wikipedias|Many other Wikipedias]] are available; some of the largest are listed below.
+{{#switch:{{FULLPAGENAME}}|Special:Statistics=|Ining Wikipedia makasulat ya king [[Kapampangan (amanu)|Kapampangan]]. Melalang ya kanitang 2005, at king salukuyan, atin yang [[Special:Statistics|{{NUMBEROFARTICLES}}]] articulu.&#32;}}[[m:List of Wikipedias|Dakal la pa deng aliwang Wikipedia]]; deng pekamaragul ila reng makatuki.
 <div id="lang-4">
 *Maigit 300,000ng articulu: [[:de:|<span title="German (de:)">Deutsch</span>]] '''•''' [[:es:|<span title="Spanish (es:)">Español</span>]] '''•''' [[:fr:|<span title="French (fr:)">Français</span>]] '''•''' [[:it:|<span title="Italian (it:)">Italiano</span>]] '''•''' [[:nl:|<span title="Dutch (nl:)">Nederlands</span>]] '''•''' {{lang|ja|[[:ja:|<span title="Japanese (ja:)">日本語</span>]]}} '''•''' [[:pl:|<span title="Polish (pl:)">Polski</span>]] '''•''' [[:pt:|<span title="Portuguese (pt:)">Português</span>]] '''•''' [[:ru:|<span title="Russian (ru:)">Русский</span>]] '''•''' [[:sv:|<span title="Swedish (sv:)">Svenska</span>]]</div>
 
