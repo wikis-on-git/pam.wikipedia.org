@@ -1,0 +1,45 @@
+Wikipedia is hosted by the [[Wikimedia Foundation]], a non-profit organization that also hosts a range of other [[Wikimedia:Our projects|projects]]:
+
+{| class="layout plainlinks" cellpadding="4" style="width:100%; margin:auto; text-align:left; background:transparent;"
+| style="text-align:center;" | <imagemap>File:Commons-logo-31px.png|31px
+default [[commons:|Commons]]
+desc none</imagemap>
+| style="width:33%;" | '''[http://commons.wikimedia.org/ Commons]'''<br />Free media repository
+| style="text-align:center;" | <imagemap>File:Wikinews-logo-51px.png|51px
+default [[n:|Wikinews]]
+desc none</imagemap>
+| style="width:33%;" | '''[http://en.wikinews.org/ Wikinews]'''<br />Free-content news
+| style="text-align:center;" | <imagemap>File:Wiktionary-logo-51px.png|51px
+default [[wikt:|Wiktionary]]
+desc none</imagemap>
+| style="width:33%;" | '''[http://en.wiktionary.org/ Wiktionary]'''<br />Dictionary and thesaurus
+|-
+| style="text-align:center;" | <imagemap>File:Wikiquote-logo-51px.png|51px
+default [[q:|Wikiquote]]
+desc none</imagemap>
+| '''[http://en.wikiquote.org/ Wikiquote]'''<br />Collection of quotations
+| style="text-align:center;" | <imagemap>File:Wikibooks-logo-35px.png|35px
+default [[b:|Wikibooks]]
+desc none</imagemap>
+| '''[http://en.wikibooks.org/ Wikibooks]'''<br />Free textbooks and manuals
+| style="text-align:center;" | <imagemap>File:Wikisource-logo-35px.png|35px
+default [[s:|Wikisource]]
+desc none</imagemap>
+| '''[http://en.wikisource.org/ Wikisource]'''<br />Free-content library
+|-
+| style="text-align:center;" | <imagemap>File:Wikispecies-logo-35px.png|35px
+default [[wikispecies:|Wikispecies]]
+desc none</imagemap>
+| '''[http://species.wikimedia.org/ Wikispecies]'''<br />Directory of species
+| style="text-align:center;" | <imagemap>File:Wikiversity-logo-41px.png|41px
+default [[v:|Wikiversity]]
+desc none</imagemap>
+| '''[http://en.wikiversity.org/ Wikiversity]'''<br />Free learning materials and activities
+| style="text-align:center;" | <imagemap>File:Meta-logo-35px.png|35px
+default [[m:|Meta-Wiki]]
+desc none</imagemap>
+| '''[http://meta.wikimedia.org/ Meta-Wiki]'''<br />Wikimedia project coordination
+|}<noinclude>
+{{pp-template|small=yes}}
+{{documentation}}
+</noinclude>
