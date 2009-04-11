@@ -1,0 +1,10 @@
+<includeonly>{{#ifeq:{{PROTECTIONLEVEL:move}}|sysop|{{#switch: {{NAMESPACE}}
+ | {{ns:User}}
+ | {{ns:User talk}} = [[Category:Wikipedia move-protected user and user talk pages|{{PAGENAME}}]]
+ | {{ns:Wikipedia}}
+ | {{ns:Help}}      = [[Category:Wikipedia move-protected project pages|{{PAGENAME}}]]
+ | {{ns:Portal}}    = [[Category:Wikipedia move-protected portals|{{PAGENAME}}]]
+ | {{TALKSPACE}}    = {{talk other|[[Category:Wikipedia move-protected talk pages|{{PAGENAME}}]]}}
+ | #default         = [[Category:Wikipedia indefinitely move-protected pages|{{PAGENAME}}]]
+}}|[[Category:Wikipedia pages with incorrect protection templates|{{PAGENAME}}]]}}</includeonly><noinclude>
+{{Documentation}}</noinclude>
