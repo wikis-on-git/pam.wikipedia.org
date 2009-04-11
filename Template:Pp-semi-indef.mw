@@ -1,0 +1,19 @@
+<includeonly>{{pp-meta
+|type=semi
+|small=yes
+|demolevel={{{demolevel|undefined}}}
+|disallowlevel=sysop
+|icon-reason=indefinitely in response to an ongoing high risk of vandalism
+|categories={{{categories|{{#switch: {{NAMESPACE}}
+ | {{ns:2}}
+ | {{ns:3}} = [[Category:Wikipedia semi-protected user and user talk pages|{{PAGENAME}}]]
+ | {{ns:6}} = [[Category:Semi-protected images|{{PAGENAME}}]]
+ | {{ns:4}}
+ | {{ns:12}} = [[Category:Semi-protected project pages|{{PAGENAME}}]]
+ | {{ns:100}} = [[Category:Semi-protected portals|{{PAGENAME}}]]
+ | {{ns:10}} = [[Category:Wikipedia semi-protected templates|{{PAGENAME}}]]
+ | #default = {{talk other|[[Category:Semi-protected talk pages]]|[[Category:Wikipedia indefinitely semi-protected pages|{{PAGENAME}}]]}}}}}}}}}</includeonly><noinclude>
+{{Pp-semi-indef|demospace=main|demolevel=autoconfirmed|categories=no}}
+{{pp-template|small=no<!--avoid hiding template-->}}
+{{Documentation}}
+</noinclude>
