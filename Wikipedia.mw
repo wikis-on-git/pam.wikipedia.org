@@ -1,181 +1,330 @@
-{{delete|empty --[[User:Thogo|Thogo]] 20:30, 5 Febreru 2009 (UTC)}}
+{{otheruses4|the encyclopedia|different, but similar terms related to Wikipedia|Wikipedia (terminology)}}
+{{selfref|For Wikipedia's non-encyclopedic visitor introduction, see [[Wikipedia:About]].}}
+{{pp-semi-indef}}
+{{pp-move-indef}}
+{{infobox Website
+| name = Wikipedia
+| logo = [[File:Wikipedia-logo-en-big.png|100px]]
+| screenshot = [[File:Www.wikipedia.org screenshot.png|border|300px|Wikipedia's multilingual portal shows the project's different language editions.]]
+| caption = Screenshot of Wikipedia's multilingual portal.
+| url = [http://www.wikipedia.org/ www.wikipedia.org]
+| type of organization = [[Nonprofit]]
+| location = [[Miami]], [[Florida]]
+| type = [[Internet encyclopedia project|Online encyclopedia]]
+| language = 236 active editions (253 in total)<ref name="ListOfWikipedias" />
+| registration = Optional
+| owner = [[Wikimedia Foundation]]
+| author = [[Jimmy Wales]], [[Larry Sanger]]<!-- Please, please, [discuss] on talk page before rewriting history. This has been in this article for years. --><ref name=Sidener>{{cite news|url=http://www.signonsandiego.com/uniontrib/20041206/news_mz1b6encyclo.html|author=Jonathan Sidener|title=Everyone's Encyclopedia|work=[[The San Diego Union-Tribune]]|accessdate=2006-10-15}}</ref>
+| launch date = {{birth date|mf=yes|2001|1|15}}
+| commercial = No
+| alexa = #7<ref name="AlexaStats" />
+| current status = perpetual work-in-progress<ref>{{cite web |url=http://en.wikipedia.org/wiki/Wikipedia:Wikipedia_is_a_work_in_progress |title=Wikipedia:Wikipedia is a work in progress |publisher=Wikipedia |accessdate=2008-07-03}}</ref>
+| slogan = The free encyclopedia that anyone can edit.
+}}
+Ing '''Wikipedia''' ([[Wikipedia (terminology)#Pronunciation|pronunciation]] {{spoken}}) metung yang [[Free content|libring o timawang]],<ref>Ating bersion, antimo ing English language version, a maki laman a e libri.</ref> [[multilingualism|dakal a amanung]] proyectung [[enciclopedia]]ng susuportan ning [[non-profit organization|alang tubung]] [[Wikimedia Foundation]]. Ing kayang lagiu [[pikudta]] ya ibat kareng katayang ''[[wiki]]'' (metung a tecnologia king pamaglalang da reng karinan king Aptas o website, ibat king katayang [[:en:Hawaiian language|Hawayanung]] ''wiki'', a mangabaldugang 'malagua') ampo ing ''encyclopedia''. Misulat la reng labing aduang miliung articulu ning Wikipedia (2.8 miliun king [[English Wikipedia]]) kapamilatan ning[[:en:collaboration|pamisaup-saup]] da reng [[volunteer]] ibat king mabilug a yatu, at alus deng egana-gana nang articulu, maliari nong i-edit ning ninumang makalub king karinan (''website'') a Wikipedia.<ref>Kareng mapilang dake ning yatu, mesabat (o mika panaun a mesabat) ing pamaglub king Wikipedia.</ref> 
+
+Agpang kareng [[:en:Criticism of Wikipedia|criticu ning Wikipedia]], atin ya iting [[:en:systemic bias|sistematicung pamangabiran]] (''systematic bias'') ampong e para-pareu patakaran,<ref name="SangerElitism" /> at paturanan da ing kayang pamag-pabor king [[:en:consensus:pamikakasundu]] imbes na [[:en:credential|credential]]s king prosesu ning pamaniuri kareng articulu.<ref name="AcademiaAndWikipedia">{{cite web|author=Danah Boyd|url=http://many.corante.com/archives/2005/01/04/academia_and_wikipedia.php|title=Academia and Wikipedia|work=Many 2 Many: A Group [[Blog|Weblog]] on Social Software|publisher=Corante |date=2005-01-04|accessdate=2008-12-18|quote=[Ing talasulat, i Danah Boyd, pakilala ne ing kayang sarili] antimong expertu kareng social media[,] ... a manigaral para king doctoradu king School of Information ning [[University of California, Berkeley]][,] ampong  fellow king [[Harvard University]] [[Berkman Center for Internet & Society]] [king [[Harvard Law School]].]}}</ref>
+
+Kinilala neng Jonathan Dee, ning ''[[The New York Times]]'',<ref name=Dee>{{cite news | url = http://www.nytimes.com/2007/07/01/magazine/01WIKIPEDIA-t.html | title = All the News That's Fit to Print Out|author=Jonathan Dee|publisher = The New York Times Magazine|date=2007-07-01|accessdate=2007-12-01}}</ref> ampo i Andrew Lih, king ''5th International Symposium on Online Journalism'',<ref name=Lih>{{cite journal|author=Andrew Lih|title=Wikipedia as Participatory Journalism: Reliable Sources? Metrics for Evaluating Collaborative Media as a News Resource|journal=5th International Symposium on Online Journalism|location=[[University of Texas at Austin]]|date=2004-04-16|url=http://jmsc.hku.hk/faculty/alih/publications/utaustin-2004-wikipedia-rc2.pdf|format=PDF|accessdate=2007-10-13}}</ref> ing ulaga ning Wikipedia e mu anting pangkabilugan a dalerayan (''encyclopedic reference'') nun e antimong pikuanan balitang maralas mibabayu.
+
+Aniang kinilala ne ning ''[[Time (magazine)|Time]]'' magazine [[:en:You (Time Person of the Year)|i ''You'' o "Ika"]] antimong [[:en:Time Person of the Year|Person of the Year]] for 2006, antimong pamangilala king pabilis nang pabilis a pamagtagumpe ning pamisaup-saup ampong pami-ugnayan da reng miliun-miliung talagamit king mabilug a yatu, binanggit ne Wikipedia antimong metung kareng atlung alimbawa da reng serbisiung [[Web 2.0]], kayabe ya ing [[YouTube]] ampong [[MySpace]].<ref name=Time2006>{{cite news| date=2006-12-13| url= http://www.time.com/time/magazine/article/0,9171,1569514,00.html |title= Time's Person of the Year: You |work=TIME |publisher=Time, Inc |accessdate=2008-12-26}}</ref>
+
+==Lon la murin deti==
+{{portal|Internet|Crystal Clear app browser.png}}
+*[[:en:List of online encyclopedias]]
+*[[:en:List of wikis]]
+*[[:en:Open content]]
+*[[:en:USA Congressional staff edits to Wikipedia]]
+*[[:en:User-generated content]]
+*[[:en:Wikipedia Review]]
+*[[:en:Wikipedia Watch]]
+*[[:en:Wikitruth]]
+
+==Notes==
+{{Reflist|2}}
+
+==Dalerayan==
+;Academic studies
+{{see also|Academic studies about Wikipedia}}
+*{{cite journal|first=Finn|last=Nielsen|url=http://www.firstmonday.org/issues/issue12_8/nielsen/index.html|title=Scientific Citations in Wikipedia|journal=[[First Monday]]|volume=12 |issue=8|month=August|year=2007|accessdate=2008-02-22}}
+*{{cite journal|last=Pfeil|first=Ulrike|co-authors=Panayiotis Zaphiris and Chee Siang Ang|year=2006|title=Cultural Differences in Collaborative Authoring of Wikipedia|journal=Journal of Computer-Mediated Communication|volume=12|issue=1|url=http://jcmc.indiana.edu./vol12/issue1/pfeil.html |accessdate=2008-12-26|doi=10.1111/j.1083-6101.2006.00316.x|page=88|pages=88}}
+*Priedhorsky, Reid, Jilin Chen, Shyong (Tony) K. Lam, Katherine Panciera, Loren Terveen, and John Riedl. [http://portal.acm.org/citation.cfm?doid=1316624.1316663 "Creating, Destroying, and Restoring Value in Wikipedia"]. Proc. GROUP 2007, doi: 1316624.131663.
+* {{cite web|author=Reagle, Joseph M., Jr.|title=Do As I Do: Leadership in the Wikipedia|url=http://reagle.org./joseph/2005/ethno/leadership.html|work=Wikipedia Drafts|year=2005|accessdate=2008-12-26}}
+*{{cite journal |url=http://www.firstmonday.org/issues/issue12_4/wilkinson/index.html |title=Assessing the Value of Cooperation in Wikipedia |first=Dennis M.|last=Wilkinson |co-author=Bernardo A. Huberman |journal=First Monday|volume=12|issue=4|month=April|year=2007| accessdate=2008-02-22}}
+
+;Books
+*{{cite book|author=[[user:phoebe|Ayers, Phoebe]], [[user:Charles Matthews|Charles Matthews]], and [[user:Tlogmer|Ben Yates]]|title=How Wikipedia Works: And How You Can Be a Part of It |publisher=No Starch Press |location=San Francisco |month=September |year=2008 |isbn=978-1-59327-176-3 |accessdate=2008-12-26}}
+*{{cite book |last=Broughton |first=John |authorlink=User:John Broughton |title=[[Wikipedia - The Missing Manual]] |publisher=O'Reilly Media |location= |month= |year=2008 |isbn=0-596-51516-2 |accessdate=2008-12-26}} (See book rev. by Baker, as listed below.)
+*{{cite book | last = Broughton | first = John | title = Wikipedia Reader's Guide | publisher = Pogue Press | location = Sebastopol | year = 2008 | isbn = 059652174X }}
+*{{cite book | last = Lih | first = Andrew | title = Wikipedia Revolution, the | publisher = Hyperion | location = New York | year = 2009 | isbn = 1401303714 }}
+
+;Book reviews and other articles
+* [[L. Gordon Crovitz|Crovitz, L. Gordon]]. [http://online.wsj.com/article/SB123897399273491031.html "Wikipedia's Old-Fashioned Revolution: The online encyclopedia is fast becoming the best."] (Originally published in [[Wall Street Journal|''Wall Street Journal'' online]] - April 6, 2009, 8:34 A.M. ET)
+*[[Nicholson Baker|Baker, Nicholson]]. [http://www.nybooks.com/articles/21131 "The Charms of Wikipedia"]. ''[[The New York Review of Books]]'', March 20, 2008. Accessed December 17, 2008. (Book rev. of ''The Missing Manual'', by John Broughton, as listed above.)
+*[[Roy Rosenzweig|Rosenzweig, Roy]]. [http://chnm.gmu.edu/resources/essays/d/42 Can History be Open Source? Wikipedia and the Future of the Past]. (Originally published in ''[[Journal of American History]]'' 93.1 (June 2006): 117-46.)
+
+;Learning resources
+*[[v:wikipedia#Learning resources|Wikiversity list of learning resources]]. (Includes related courses, [[Web conferencing|Web-based seminars]], slides, lecture notes, text books, quizzes, glossaries, etc.)
+
+;Media debate
+* {{cite news
+| url = http://www.delta-sky.com/sections/index.php/lifestyle/wikipedia_vs_encyclopedia/
+| title = Thought Leader: Wikipedia vs. Encyclopedia
+| work = Delta-Sky, The Official Inflight Magazine of [[Delta Air Lines]]
+| date = December 2008
+| accessdate=2009-01-14
+| quote = (Earlier this year, [Andrew] [[Andrew Keen|Keen]] and [Jimmy] [[Jimmy Wales|Wales]] appeared at Inforum, a division of the [[Commonwealth Club of California]], which is the largest and oldest public forum in the [[United States]]. Following is a portion of their discussion, moderated by [[National Public Radio]]'s [[David Ewing Duncan]].)
+}}
+
+;Other media coverage
+*{{cite news |url=http://www.nytimes.com/2007/07/01/magazine/01WIKIPEDIA-t.html?_r=1&ref=magazine&oref=slogin |title=All the News That's Fit to Print Out|first=Jonathan |last=Dee|work=The New York Times Magazine |publisher=The New York Times Company |date=2007-07-01|accessdate=2008-02-22}}
+*{{cite news|last name=Balke|first name=Jeff|url=http://blogs.chron.com/brokenrecord/2008/03/for_music_fans_wikipedia_myspa.html|title=For Music Fans: Wikipedia; MySpace|work=[[Houston Chronicle]] ([[Blog]])|date=March 2008|accessdate=2008-12-17}}
+*{{cite news|first=Sarah|last=Freeman|url=http://www.yorkshirepost.co.uk/highlights?articleid=3115718 |title=Can We Really Trust Wikipedia?|date=2007-08-16|work=[[Yorkshire Post]]|publisher=yorkshirepost.co.uk|accessdate=2008-09-20}}
+*{{cite news|first=Jim |last=Giles|title=Wikipedia 2.0 - Now with Added Trust |url=http://www.newscientist.com/article/mg19526226.200|date=2007-09-20|work=[[New Scientist]] |accessdate=2008-01-14}}
+*{{cite news|first=Mike |last=Miliard|title=Wikipedia Rules |url=http://thephoenix.com/Boston/Life/52864-Wikipedia-rules/|publisher=[[The Phoenix (newspaper)|The Phoenix]]|date=2007-12-02|accessdate=2008-02-22}}
+*{{cite news|first=Marshall|last=Poe|authorlink=Marshall Poe|url=http://www.theatlantic.com/doc/200609/wikipedia|title=The Hive|work=[[The Atlantic|The Atlantic Monthly]]|date=September 2006|accessdate=2008-03-22}}
+*{{cite news|first=Chris|last=Taylor|url=http://www.time.com/time/magazine/article/0,9171,1066904-1,00.html|title=It's a Wiki, Wiki World|date=2005-05-29|work=[[Time (magazine)|Time]]|publisher=Time, Inc|accessdate=2008-02-22}}
+*{{cite news|url=http://www.economist.com/science/tq/displaystory.cfm?story_id=11484062 |title=Technological Quarterly: Brain Scan: The Free-knowledge Fundamentalist|work=[[The Economist]]|Web]] and [[Magazine|Print]]|date=2008-06-05|accessdate=2008-06-05|quote=Jimmy Wales changed the world with Wikipedia, the hugely popular online encyclopedia that anyone can edit. What will he do next? [leader].}}
+*{{cite news|url=http://www.metrobostonnews.com/us/article/2009/01/28/03/4644-72/index.xml|title=Hoaxers force Wiki to weigh pre-checks Wikipedia|work=[[Metro International|Metro]] Boston edition|date=2009-01-28}}
+*[http://www.independent.co.uk/life-style/gadgets-and-tech/features/is-wikipedia-cracking-up-1543527.html Is Wikipedia Cracking Up?, The Independent, February 3, 2009]
+*[http://technology.timesonline.co.uk/tol/news/tech_and_web/the_web/article5682896.ece The Wiki-snobs Are Taking Over, The Sunday Times, timesonline.co.uk, February 8, 2009]
+
+==Suglung palual==
+{{meta|List of Wikipedias}}
+{{Spoken Wikipedia|Wikipedia.ogg|2005-06-25}}
+*[http://www.wikipedia.org/ Wikipedia] – multilingual portal (contains links to all language editions of the project)
+*[http://mobile.wikipedia.org Version for mobile phones] – 15 languages
+*[http://en.wikipedia.org/wiki/Wikipedia:Press_coverage Press coverage of Wikipedia]
+*[http://www.stanford.edu/class/ee380/Abstracts/020116.html Wikipedia and why it matters] – Larry Sanger's talk in 2002 at [[Stanford University]] about Wikipedia ([http://stanford-online.stanford.edu/courses/ee380/020116-ee380-100.asx video archive] and [[meta:Wikipedia and why it matters|transcript of the talk]])
+*[http://www.dmoz.org/Computers/Open_Source/Open_Content/Encyclopedias/Wikipedia/ Wikipedia] at the [[Open Directory Project]]
+*[http://www.cbc.ca/news/background/tech/wikipedia.html CBC News: I, editor]
+*[http://www.wikihow.com/Contribute-to-Wikipedia Help Edit Wikipedia] – [[wikiHow]] article
+*[http://www.neowin.net/news/main/07/11/02/class-assignment-write-an-original-wikipedia-article Class assignment: Write an original Wikipedia article]
+*[irc://irc.freenode.net/Wikipedia #Wikipedia] on [[freenode]]
+*{{youtube|id=cqOHbihYbhE|title="Intelligence in Wikipedia" Google TechTalk}}, describing an intelligence project utilizing Wikipedia, and how Wikipedia articles could be auto-generated from web content
+*[http://www.ted.com/index.php/talks/jimmy_wales_on_the_birth_of_wikipedia.html Video of TED Talk by Jimmy Wales on the birth of Wikipedia]
+* [http://www.econtalk.org/archives/2009/03/wales_on_wikipe.html Audio of interview with Jimmy Wales about Wikipedia in general] on the [[EconTalk]] podcast
+*{{YouTube|cqODfmEW198}}, Jimmy Wales talks about the importance of supporting Wikipedia (2008).
+
+{{Wikipedia}}
+{{Wikimedia Foundation}}
+{{Wikipedias}}
+
+[[Category:Wikipedia| ]]
+[[Category:Advertising-free websites]]
+[[Category:Collaborative projects]]
+[[Category:Free encyclopedias]]
+[[Category:General encyclopedias]]
+[[Category:Internet properties established in 2001]]
+[[Category:Multilingual websites]]
+[[Category:Online encyclopedias]]
+[[Category:Open content projects]]
+[[Category:Social information processing]]
+[[Category:Virtual communities]]
+[[Category:Web 2.0]]
+[[Category:Wikimedia projects]]
+[[Category:Wikis]]
+
+{{Link FA|ceb}}
 [[af:Wikipedia]]
+[[ak:Wikipedia]]
 [[als:Wikipedia]]
 [[am:ውክፔዲያ]]
-[[an:Biquipedia]]
-[[ang:Wicipǣdia]]
+[[ang:Ƿicipǣdia]]
 [[ar:ويكيبيديا]]
+[[an:Biquipedia]]
 [[arc:ܘܝܟܝܦܕܝܐ]]
+[[roa-rup:Wikipedia]]
+[[frp:Vouiquipèdia]]
 [[ast:Uiquipedia]]
+[[gn:Vikipetã]]
 [[ay:Wikipidiya]]
 [[az:Vikipediya]]
-[[ba:Википедия]]
-[[bar:Wikipedia]]
-[[bat-smg:Vikipedėjė]]
-[[be:Вікіпедыя]]
-[[be-x-old:Вікіпэдыя]]
-[[bg:Уикипедия]]
 [[bm:Wikipedia]]
 [[bn:উইকিপিডিয়া]]
-[[bpy:উইকিপিডিয়া]]
-[[br:Wikipedia]]
+[[zh-min-nan:Wikipedia]]
+[[map-bms:Wikipedia]]
+[[ba:Википедия]]
+[[be:Вікіпедыя]]
+[[be-x-old:Вікіпэдыя]]
+[[bi:Wikipedia]]
+[[bar:Wikipedia]]
 [[bs:Wikipedia]]
-[[bug:Wikipedia]]
+[[br:Wikipedia]]
+[[bg:Уикипедия]]
 [[ca:Viquipèdia]]
-[[cdo:Wikipedia]]
-[[ceb:Wikipedya]]
-[[chr:ᏫᎩᏇᏗᏯ]]
-[[chy:Wikipedia]]
-[[co:Wikipedia]]
-[[crh:Vikipediya]]
-[[cs:Wikipedie]]
-[[csb:Wikipedijô]]
-[[cu:Википедї]]
 [[cv:Википеди]]
+[[ceb:Wikipedya]]
+[[cs:Wikipedie]]
+[[ch:Wikipedia]]
+[[co:Wikipedia]]
 [[cy:Wicipedia]]
 [[da:Wikipedia]]
 [[de:Wikipedia]]
-[[diq:Wikipediya]]
+[[nv:Wikiibíídiiya]]
+[[dsb:Wikipedija]]
+[[et:Vikipeedia]]
 [[el:Βικιπαίδεια]]
 [[en:Wikipedia]]
-[[eo:Vikipedio]]
+[[myv:Википедиясь]]
 [[es:Wikipedia]]
-[[et:Vikipeedia]]
+[[eo:Vikipedio]]
+[[ext:Wikipédia]]
 [[eu:Wikipedia]]
 [[fa:ویکی‌پدیا]]
-[[ff:Wikipeediya]]
-[[fi:Wikipedia]]
-[[fiu-vro:Vikipeediä]]
 [[fo:Wikipedia]]
 [[fr:Wikipédia]]
-[[frp:Vouiquipèdia]]
+[[fy:Wikipedia]]
+[[ff:Wikipeediya]]
 [[fur:Vichipedie]]
-[[fy:Wikipedy]]
 [[ga:Vicipéid]]
+[[gv:Wikipedia]]
 [[gd:Bhicipèidia]]
 [[gl:Wikipedia]]
-[[gn:Vikipetã]]
+[[gan:維基百科]]
 [[gu:વિકિપીડિયા]]
-[[gv:Wikipedia]]
 [[hak:Wikipedia]]
-[[he:ויקיפדיה]]
-[[hi:विकिपीडिया]]
-[[hr:Wikipedija]]
-[[hsb:Wikipedija]]
-[[ht:Wikipedya]]
-[[hu:Wikipédia]]
+[[ko:위키백과]]
+[[haw:Wikipikia]]
 [[hy:Վիքիփեդիա]]
-[[ia:Wikipedia]]
-[[id:Wikipedia]]
-[[ig:Wikipedia]]
-[[ik:Wikipedia]]
-[[ilo:Wikipedia]]
+[[hi:विकिपीडिया]]
+[[hsb:Wikipedija]]
+[[hr:Wikipedija]]
 [[io:Wikipedio]]
+[[ig:Wikipedia]]
+[[ilo:Wikipedia]]
+[[bpy:উইকিপিডিয়া]]
+[[id:Wikipedia]]
+[[ia:Wikipedia]]
+[[iu:ᐅᐃᑭᐱᑎᐊ/uikipitia]]
+[[ik:Wikipedia]]
+[[os:Википеди]]
 [[is:Wikipedia]]
 [[it:Wikipedia]]
-[[iu:ᐅᐃᑭᐱᑎᐊ/uikipitia]]
-[[ja:ウィキペディア]]
-[[jbo:uikipedias]]
+[[he:ויקיפדיה]]
 [[jv:Wikipedia]]
-[[ka:ვიკიპედია]]
-[[kab:Wikipedia]]
-[[kk:Уикипедия]]
 [[kl:Wikipedia]]
 [[kn:ವಿಕಿಪೀಡಿಯ]]
-[[ko:위키백과]]
-[[ksh:Wikkipedija]]
-[[ku:Wikipedia]]
+[[ka:ვიკიპედია]]
+[[ks:विकिपीडिया]]
+[[csb:Wikipedijô]]
+[[kk:Уикипедия]]
 [[kw:Wikipedya]]
-[[la:Wikipedia]]
+[[sw:Wikipedia]]
+[[ht:Wikipedya]]
+[[ku:Wikipedia]]
 [[lad:ויקיפידיה]]
-[[lb:Wikipedia]]
 [[lbe:Википедия]]
-[[li:Wikipedia]]
-[[lij:Wikipedia]]
-[[lmo:Wikipedia]]
-[[ln:Wikipedia]]
 [[lo:ວິກິພີເດຍ]]
-[[lt:Vikipedija]]
+[[la:Wikipedia]]
 [[lv:Vikipēdija]]
-[[map-bms:Wikipedia]]
-[[mg:Wikipedia]]
-[[mi:Wikipedia]]
+[[lb:Wikipedia]]
+[[lt:Vikipedija]]
+[[lij:Wikipedia]]
+[[li:Wikipedia]]
+[[ln:Wikipedia]]
+[[jbo:uikipedias]]
+[[lmo:Wikipedia]]
+[[hu:Wikipédia]]
 [[mk:Википедија]]
+[[mg:Wikipedia]]
 [[ml:വിക്കിപീഡിയ]]
-[[mn:Википедиа]]
-[[mr:विकिपीडिया]]
-[[ms:Wikipedia]]
 [[mt:Wikipedija]]
+[[mi:Wikipedia]]
+[[mr:विकिपीडिया]]
+[[arz:ويكيبيديا]]
 [[mzn:ویکیپدیا]]
-[[na:Wikipedia]]
+[[ms:Wikipedia]]
+[[cdo:Wikipedia]]
+[[mdf:Википедие]]
+[[mn:Википедиа]]
+[[my:ဝီကီပိဒိယ]]
 [[nah:Huiquipedia]]
-[[nap:Wikipedia]]
-[[nds:Wikipedia]]
+[[na:Wikipedia]]
+[[nl:Wikipedia]]
 [[nds-nl:Wikipedia]]
 [[ne:विकिपीडिया]]
-[[ng:Wikipedia]]
-[[nl:Wikipedia]]
-[[nn:Wikipedia]]
+[[ja:ウィキペディア]]
+[[nap:Wikipedia]]
 [[no:Wikipedia]]
+[[nn:Wikipedia]]
 [[nrm:Viqùipédie]]
-[[nv:Wikiibíídiiya]]
+[[nov:Wikipedie]]
 [[oc:Wikipèdia]]
-[[os:Википеди]]
+[[ng:Wikipedia]]
+[[uz:Vikipediya]]
 [[pa:ਵਿਕਿਪੀਡਿਆ]]
 [[pag:Wikipedia]]
 [[pap:Wikipedia]]
-[[pl:Wikipedia]]
+[[km:វិគីភីឌា]]
 [[pms:Wikipedia]]
-[[ps:پروژه:په هکله]]
+[[tpi:Wikipedia]]
+[[nds:Wikipedia]]
+[[pl:Wikipedia]]
+[[pnt:Βικιπαίδεια]]
 [[pt:Wikipédia]]
-[[qu:Wikipidiya]]
-[[rm:Wikipedia]]
-[[rmy:Vikipidiya]]
+[[kaa:Wikipedia]]
+[[crh:Vikipediya]]
+[[ksh:Wikkipedija]]
 [[ro:Wikipedia]]
-[[roa-rup:Wikipedia]]
-[[roa-tara:Uicchipèdie]]
+[[rmy:Vikipidiya]]
+[[rm:Vichipedia]]
+[[qu:Wikipidiya]]
 [[ru:Википедия]]
-[[sc:Wikipedia]]
-[[scn:Wikipedia]]
-[[sco:Wikipaedia]]
-[[sd:وڪيپيڊيا]]
+[[sah:Бикипиидийэ]]
 [[se:Wikipediija]]
-[[sh:Wikipedia]]
+[[sa:विकिपीडियः]]
+[[sc:Wikipedia]]
+[[sco:Wikipaedia]]
+[[stq:Wikipedia]]
+[[tn:Wikipedia]]
+[[sq:Wikipedia]]
+[[scn:Wikipedia]]
 [[si:විකිපීඩියා]]
 [[simple:Wikipedia]]
+[[sd:وڪيپيڊيا]]
 [[sk:Wikipédia]]
+[[cu:Википє́дїꙗ]]
 [[sl:Wikipedija]]
+[[szl:Wikipedyjo]]
 [[so:Wikipedia]]
-[[sq:Wikipedia]]
 [[sr:Википедија]]
+[[sh:Wikipedia]]
 [[su:Wikipédia]]
+[[fi:Wikipedia]]
 [[sv:Wikipedia]]
-[[sw:Wikipedia]]
+[[tl:Wikipedia]]
 [[ta:விக்கிப்பீடியா]]
+[[kab:Wikipedia]]
+[[roa-tara:Uicchipèdie]]
+[[tt:Википедиә]]
 [[te:వికీపీడియా]]
 [[tet:Wikipédia]]
-[[tg:Википедиа]]
 [[th:วิกิพีเดีย]]
-[[tk:Wikipediýa]]
-[[tl:Wikipedia]]
-[[tpi:Wikipedia]]
+[[tg:Википедиа]]
+[[chr:ᏫᎩᏇᏗᏯ]]
 [[tr:Vikipedi]]
-[[tt:Wikipedia]]
+[[tk:Wikipediýa]]
+[[tw:Wikipedia]]
 [[udm:Википедия]]
-[[ug:Wikipédiye]]
+[[bug:Wikipedia]]
 [[uk:Вікіпедія]]
-[[uz:Vikipediya]]
+[[ur:ویکیپیڈیا]]
+[[ug:Wikipédiye]]
 [[vec:Wikipedia]]
 [[vi:Wikipedia]]
-[[vls:Wikipedia]]
+[[fiu-vro:Vikipeediä]]
 [[wa:Wikipedia]]
+[[zh-classical:維基大典]]
+[[vls:Wikipedia]]
 [[war:Wikipedia]]
 [[wo:Wikipedia]]
 [[wuu:维基百科]]
+[[ts:Wikipediya]]
 [[yi:‫װיקיפעדיע]]
 [[yo:Wikipedia]]
-[[zea:Wikipedia]]
-[[zh:维基百科]]
-[[zh-classical:維基大典]]
-[[zh-min-nan:Wikipedia]]
 [[zh-yue:維基百科]]
+[[diq:Wikipediya]]
+[[zea:Wikipedia]]
+[[bat-smg:Vikipedėjė]]
+[[zh:维基百科]]
