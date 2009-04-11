@@ -1,0 +1,38 @@
+<!--Note: This section will be regularly modified to keep it approximately the same size as template:WikipediaSister -->
+<div id="lang">
+
+{{#switch:{{FULLPAGENAME}}|Special:Statistics=|This Wikipedia is written in [[English language|English]]. Started in 2001, it currently contains [[Special:Statistics|{{NUMBEROFARTICLES}}]] articles.&#32;}}[[m:List of Wikipedias|Many other Wikipedias]] are available; some of the largest are listed below.
+<div id="lang-4">
+*Magit 300,000ng articulu: [[:de:|<span title="German (de:)">Deutsch</span>]] '''•''' [[:es:|<span title="Spanish (es:)">Español</span>]] '''•''' [[:fr:|<span title="French (fr:)">Français</span>]] '''•''' [[:it:|<span title="Italian (it:)">Italiano</span>]] '''•''' [[:nl:|<span title="Dutch (nl:)">Nederlands</span>]] '''•''' {{lang|ja|[[:ja:|<span title="Japanese (ja:)">日本語</span>]]}} '''•''' [[:pl:|<span title="Polish (pl:)">Polski</span>]] '''•''' [[:pt:|<span title="Portuguese (pt:)">Português</span>]] '''•''' [[:ru:|<span title="Russian (ru:)">Русский</span>]] '''•''' [[:sv:|<span title="Swedish (sv:)">Svenska</span>]]</div>
+
+<div id="lang-3">
+*Maigit 100,000ng articulu: [[:id:|<span title="Indonesian (id:)">Bahasa&nbsp;Indonesia</span>]] '''•''' [[:ca:|<span title="Catalan (ca:)">Català</span>]] '''•''' [[:cs:|<span title="Czech (cs:)">Čeština</span>]] '''•''' [[:da:|<span title="Danish (da:)">Dansk</span>]] '''•''' [[:eo:|<span title="Esperanto (eo:)">Esperanto</span>]] '''•''' [[:hu:|<span title="Hungarian (hu:)">Magyar</span>]] '''•''' [[:no:|<span title="Norwegian, bokmål standard (no:)">Norsk (bokmål)</span>]] '''•''' [[:ro:|<span title="Romanian (ro:)">Română</span>]] '''•''' [[:sk:|<span title="Slovak (sk:)">Slovenčina</span>]] '''•''' [[:fi:|<span title="Finnish (fi:)">Suomi</span>]] '''•''' [[:tr:|<span title="Turkish (tr:)">Türkçe</span>]] '''•''' [[:uk:|<span title="Ukrainian (uk:)">Українська</span>]] '''•''' {{lang|zh|[[:zh:|<span title="Chinese (zh:)">中文</span>]]}}</div>
+
+<div id="lang-2">
+*Maigit 50,000ng articulu: [[:ar:|<span title="Arabic (ar:)">العربية</span>]] '''•''' [[:bg:|<span title="Bulgarian (bg:)">Български</span>]] '''•''' [[:et:|<span title="Estonian (et:)">Eesti</span>]] '''•''' [[:simple:|<span title="Simple English (simple:)">English (simple)</span>]] '''•''' [[:he:|<span title="Hebrew (he:)">עברית</span>]] '''•''' [[:fa:|<span title="Persian (fa:)">فارسی</span>]] '''•''' [[:hr:|<span title="Croatian (hr:)">Hrvatski</span>]] '''•''' [[:ko:|<span title="Korean (ko:)">한국어</span>]] '''•''' [[:lt:|<span title="Lithuanian (lt:)">Lietuvių</span>]] '''•''' [[:sl:|<span title="Slovene (sl:)">Slovenščina</span>]] '''•''' [[:sr:|<span title="Serbian (sr:)">Српски / Srpski</span>]] '''•''' [[:vi:|<span title="Vietnamese (vi:)">Tiếng Việt</span>]]</div>
+
+<div id="lang-1" >
+*Maigit 20,000ng articulu: [[:ms:|<span title="Malay (ms:)">Bahasa Melayu</span>]] '''•''' [[:bpy:|<span title="Bishnupriya Manipuri (bpy:)">ইমার ঠার/বিষ্ণুপ্রিয়া মণিপুরী</span>]] '''•''' [[:br:|<span title="Breton (br:)">Brezhoneg</span>]] '''•''' [[:bs:|<span title="Bosnian (bs:)">Bosanski</span>]] '''•''' [[:cy:|<span title="Welsh (cy:)">Cymraeg</span>]] '''•''' [[:el:|<span title="Greek (el:)">Ελληνικά</span>]] '''•''' [[:eu:|<span title="Basque (eu:)">Euskara</span>]] '''•''' [[:gl:|<span title="Galician (gl:)">Galego</span>]] '''•''' [[:hi:|<span title="Hindi (hi:)">हिन्दी</span>]] '''•''' [[:is:|<span title="Icelandic (is:)">Íslenska</span>]] '''•''' [[:ka:|<span title="Georgian (ka:)">ქართული</span>]] '''•''' [[:la:|<span title="Latin (la:)">Latina</span>]] '''•''' [[:lv:|<span title="Latvian (lv:)">Latviešu</span>]] '''•''' [[:lb:|<span title="Luxembourgish (lb:)">Lëtzebuergesch</span>]] '''•''' [[:mk:|<span title="Macedonian (mk:)">Македонски</span>]] '''•''' [[:mr:|<span title="Marathi (mr:)">मराठी</span>]] '''•''' [[:nn:|<span title="Norwegian, nynorsk standard (nn:)">Norsk (nynorsk)</span>]] '''•''' [[:sq:|<span title="Albanian (sq:)">Shqip</span>]] '''•''' [[:tl:|<span title="Tagalog (tl:)">Tagalog</span>]] '''•''' [[:th:|<span title="Thai (th:)">ไทย</span>]]</div>
+<p id="lang-coord" style="text-align:center">
+</div>
+{{#ifeq:{{FULLPAGENAME}}|Template:Wikipedialang|
+----
+Note: Neng magdagdag aliwang amanu, pakibayu me ing [[Template:MainPageInterwikis]].
+
+[[ar:قالب:لغات ويكيبيديا]]
+[[ca:Plantilla:Contingut Altres llengües]]
+[[en: Template:Wikipedialang]]
+[[es:Plantilla:Portada:Idiomas]]
+[[ia:Patrono:Altere linguas]]
+[[kab:Talγa:Wikipedialang]]
+[[lbe:Template:Wikipedialang]]
+[[lo:Template:Wikipedialang]]
+[[ru:Шаблон:Wikipedialang]]
+[[sg:Template:WikipediaLang]]
+[[simple:Main Page/Other languages]]
+[[tg:Шаблон:Википедиа ба забонҳои дигар]]
+[[th:แม่แบบ:วิกิพีเดียในภาษาอื่น]]
+[[vi:Tiêu bản:Ngôn ngữ Wikipedia]]
+[[xal:Зура:Wikipedialang]]
+[[yo:Template:WikipediaLang]]
+|}}
