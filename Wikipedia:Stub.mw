@@ -1,0 +1,220 @@
+{{Wikipedia:WikiProject Stub sorting/Proposals/header}}
+{{subcat guideline|style guideline|Stub|WP:STUB|WP:PSA}}
+{{nutshell|Ing metung a articulung masiadung makuyad a ala yang abieng impormasiun nun e itang pekasimpli kailangan yang tatakan a '''stub''' kapamilatan ning '''stub template''' ibat king listaan [[WP:WSS/ST|keni]] king wakas ning articulu. Agiang ninu makapag-edit king metung a articulung stub, o maglako king stub template king metung a articulung e na stub. | Deng bayung stub template ampong kategoria kailangang lang iyapag bayu la lalangan king [[Wikipedia: WikiProject Stub sorting/Proposals]].}}
+{{WSS}}
+  
+Ing kapakayan ning articulung iti, ing mamie pangkabilugan a giya king pamangamit kareng stub. Ing mumunang dake, ing ''[[#Basic information|Basic information]]'', atin yang impormasiun a maka-recomenda kareng keraklan a talagamit. Ing kaduang dake, ''[[#Creating stub types|Creating stub types]]'' atin yang mas complicadung impormasiun.
+
+==Pekamumunang impormasiun==
+Ing stub metung yang articulung maki ditak mung pamangamanung (''sentence'') masiadung makuyad para munie cumpletu o pang-enciclopdiang impormasiun, pero e ne man sobrang kuyad a ala neng abieng impormasiun a maki silbi. Keraklan, e ro tuturing a stub deng articulung makaba, agiang kulang lang [[Wikipedia:Glossary#W|wikification]] o [[copy editing]]. Kareng articulung deti, [[Wikipedia:Cleanup resources|cleanup template]] ya ing keraklan a bibili lipat ning stub template. Kailangang tandanang nung ing malating articulu ditak la reng mibili nang pikuanan, o nung e ya interesanti o alaga ing kayang paksa, maliari yang [[Wikipedia:deletion|buran]] o [[Wikipedia:Merge|iyabe]] king aliwang articulung makaugne.  
+
+Lipat ning maliari yang ituring a articulu ing metung a "kabaldugan" o "definition", [[Wikipedia:Wikipedia is not a dictionary|E ya diccionariu ing Wikipedia]]. Nung ditak mu ing impormasiun a maliaring idagdag, kailangan yang iyalis king kapatad nang proyectu ning Wikipedia, ing [[Wiktionary]]. Ing pekamasanting a paralan ning pamagpakit kng pamiyaliwa ning diccionariu ampong enciclopedia ya pin ing [[use–mention distinction]]: Ing articulu king diccionariu, ''tungkul'' ya o ''dikil'' (''about'') [[wikt:Wiktionary:Criteria for inclusion|king kataya o terminu]]; ing an articulu king enciclopedia ''tungkul ya king paksang [[denotation|tutunggen]]'' na nitang kataya o terminu.  
+
+=== Ing uliran a stub article ===
+''Lon ya murin ing: [[Wikipedia:Guide to writing better articles]].''
+Maliari yang maglalang stub article ing ninumang talasulat a makarehistru.
+{{article creation}}
+
+Neng susulat kang stub, tandanan mung kailangan kailangan ustu ing impormasiun a aragdagan da reng aliwang talapatuntun o editor iti. Ing susi ya pin ing pamamieng ustung ''context'' o contextu — deng articulung ala o kulang kaniti, keraklan [[Wikipedia:Criteria for speedy deletion|malagua lang mabubura]]. Ing mumunang pamanialugsug maliari yang manibat kareng libru o katiwa-tiwalang karinan king Aptas (''website''). Maliari ka muring manambag beluan ibat kareng aliwang pikuanan, pero kailangang manialugsug pamu bayu iti, bang siguradung ustu la reng kekang sasabian, at [[Wikipedia:neutral point of view|e la mangabiran deti]] (''unbiased''). Gamitan mo reng sarili mung kataya: [[plagiarism]] ing derechung pamangopia kareng aliwang pikuanan, at neng kai, lalabag iti king [[Wikipedia:Copyrights|copyright]] (katuliran king pamangopia).    
+
+Magumpisa ka kapamilatan ning pamamie kabaldugan o pamaglarawan king kekang paksa. Lisian mo reng [[:en:fallacies of definition|e ustung paniwala king pamamie kabaldugan]]. Kailangan, malino ka ampong aindtindian da neng susulat. Sabian mu, alimbawa, nung nu ya sinikat ing metung a tau, nung nukarin ya ing metung a lugal, nung nu ya makikilala iti, o deng simpling detalle ning metung a miliari, at nung kapilan iti miliari.   
+
+Kaibat, dagdagan me iting simpling pamamie kabaldugan. Ibie mu ing pamiugne-ugne da reng katayang makabaldugan a kataya, ba rang aintindian deng talagamit a e makibalu king paksa. Lisian mu ing e kailangan a pamituglung-tuglung da reng kataya; kesa kaniti, isipan mu nung sanung kataya ing mangailangang karagdagang pamipalino, ba neng aintindian ning karaniwan a mamasa ing articulu. Katataulian, metung a maulagang takbang: ibili mo reng [[WP:RS|pikuanan]] king impormasiung binili mu king stub; lon me ing [[WP:CS|citing sources]] para king impormasiun nung makananung gawan iti king Wikipedia.    
+
+Kabud alalang me ampong a-save ing kekang articulu, asamasan de murin iti deng aliwang talasulat.
+
+=== Nung makananu yang tatakan a stub ing metung a articulu === 
+Kaibat mung mekasulat makuyad a articulu, o menakit stub a alang tatak, kailangan mung mangibiling ''stub template''. Mamili ka kareng template a makalista king '''[[Wikipedia:WikiProject Stub sorting/Stub types]]'''.
+
+Agpang king akasanayan, bibili ya iti king wakas ning articulu, kaibat ning dakeng ''Suglung palual''  o ''External links'', sanumang template king pamaglibut (''navigation templates''), ampong tatak a pang-categoria (''category tags''), ania ing stub category ing keraklan pekatauli. Keraklan, masanting maglakuan aduang blankung gulis king pilatan ning mumunang stub template ampo ing sanumang mumuna kaniti. Anti kareng aliwang template, daragdag la reng stub template kapamilatan ning pamamili king lagiu ning template king sulat (''text'') king pilatan da reng aduang paris da reng ''curly bracket'' (alimbawa, <nowiki>{{tree-stub}}</nowiki>). Deng stub template, [[Wikipedia:Transclusion|transcluded]] (makasingit) la, at e la ''not'' [[Wikipedia:Template substitution|panalili]]. 
+
+Adua la dake deng stub template: metung a makuyad a mensahing mamanggit king paksa ning stub at makisabi kareng talasulat a mandagdag kaniti, ampong metung a suglung a pang-categoria (''category link''), a mangibili king articulu king metung a ''stub category'' kayabe la reng aliwang stub tungkul king pareung paksa. Maliari yang mayakit ing pamagpalagiu kareng stub template, keraklan ''topic-stub''; ampo ing listaan da reting template [[Wikipedia:WikiProject Stub sorting/Stub types|keti]]. E mo kailangang abalu ngan deng template — agiang ing pamandagdag mung {{tl|stub}},  makasaup ne (lon me [[Wikipedia:When to use the generic stub tag|ining essay]] para king karagdagang impormasiun). Nung lalu yang ustu pangatatak ing metung a articulu, mas ditak ing obra da reng manayus kaibat, at lalung magamitan iti kareng talasulat a manintun articulung dagdagan. 
+
+Nung sasaklo ya kareng mapilang categoria ing metung a articulu, maliaring gumamit maigit king metung a template, pero mas masanting nung detang pekamaragul kaugnayan king paksa ing pilinan. Keraklan, masanting nung angga la mung atlu, o ing dakal dili, apat, ing gamitan. 
+
+Deng actividad a maki kaugnayan kareng stub piaben-abayan la king [[Wikipedia:WikiProject Stub sorting]] ([[Wikipedia:shortcut|shortcut]] [[WP:WSS]]). Kailangan iting proyectu ing maging pekamaulagang dalerayan (''main reference'') kareng sub, at keti babie munikala kareng bayung uri da reng stub ba lang pisabian deti bayu la lalangan.
+
+=== Pamaglako king kabiliang stub === 
+Kabud miragdagan ne at meragul ing metung a stub, maliari neng ilako ning sanumang talasulat o talapatuntun (''editor'') ing kayang stub template. E kailangang maniad paintulut o saup kareng [[Wikipedia:administrators|talapanibala]].
+
+Dakal kareng articulung maki tatak a stub ing miragdagan na at linagpus na kesa king tuturing dang dagul da reng stub. Nung masiadu neng maragul ing metung a articulu ba yang ituring a stub, pero kailangan ya pang dagdagan, alilan me ing stub template king metung a {{tl|expand}} template (e maliaring pareu yang maki stub template ampong expand template ing metung a articulu).
+
+[[Wikipedia:Be bold|Kailangan kang masikan lub]] king pamaglako kareng stub tag a e na dapat makabili.
+
+=== Pamanintun kareng stub ===
+* [[:Category: Stub categories]] ''ing manimunang listaan da reng stub category ampo reng articulung kayabe kareti'' 
+* [[:Category: Stubs]] ''e re didinan ulaga, pero makatanggap ya pang mapilang articulu pamisan-misam'' 
+<!--* [[User:Triddle/stubsensor]] ''metung a script a manintun mangakabang articulung maki makatuglung a stub tag, at gagamitan king pamag-organisa kareng pana-panaun a [[User:Triddle/cleanup|proyectung pamaglinis]]'' (balamu e activu)-->
+* [[Wikipedia: Most wanted stubs]] 
+* [[Special:Shortpages]]
+* Kapamilatan ning pamanuldung ''stub threshold'' o ''angganan da reng stub'' keng [[Special:Preferences|Preferences]] king pekamaragul a bilang da reng byte ba yang mibili ing bulung king uring "stub" para king pamanatak.
+
+== Pamaglalang kareng bayung uri da reng stub == 
+'''Pakibili  kareng munikala kareng bayung uri da reng stub king [[Wikipedia: WikiProject Stub sorting/Proposals| WikiProject Stub sorting/Proposals]] ba lang pisabian deti bayu la lalangan.'''
+
+Keraklan, ing ''stub type'' bibilugan ne ning metung a ''stub template'' ampong dedicated ''stub category'',  dapot deng [[Wikipedia:Glossary#Upmerge|"upmerged" templates]] lalalangan la murin neng kai, a lulub kareng mas maleparan o maragul saklong categoria da reng stub.
+
+Nung atin kang aturung grupu da reng articulung stub a e maliaring ilub king matung a uri da reng stub, o nung daragul ya ing metung a stub category a makalalang na, maliari kang magmunikalang maglalang metung a bayung uring stub ba yang pisabian iti king [[Wikipedia:WikiProject Stub sorting/Proposals]]. 
+
+
+===Alimbawa===
+
+Ing metung a alimbawa ning stub template ya pin ing {{tlx|Writer-stub}}, a magpalto king:
+
+<div class="boilerplate metadata" id="stub"><table cellpadding="0" cellspacing="0" style="background-color: transparent"><tr ><td >[[Image:Quill and ink.svg|30px| ]]</td><td>''&nbsp;This article about a [[writer]], [[poet]] or [[playwright]] is a [[Wikipedia:Stub#Ideal_stub_article|stub]].  You can help Wikipedia by [{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|action=edit}} expanding it]''.</td></tr></table></div>
+
+Ing stub category a [[:Category:Writer stubs]], lilista no reng articulung ating {{tlx|Writer-stub}} template.
+
+
+===Dalerayan===
+
+Ating mapilang dalerayan a magagamit bang pakibaluan nung magamitan ya ing metung a bayung uri ning stub (stub type). Kayabe la reng makatuki:
+
+# Atin nang stub type para kaniting paksa? (Lon me ing [[Wikipedia:WikiProject Stub sorting/Stub types]].)
+# Malino ing angganan ning bayung uri ning stub? (Deng stub category kasangkapan do reng talasulat king pamandagdag kareng articulu. Nung masanting ing pamilarawan at pamamie angganan kareng stub, mas malagua lang ayusan deti.)
+
+Nung isipan mung makagiu no keka dening dalerayan o giya, masikan ing payu o usk kekang imunikala (''propose'') me ing uring stub king [[Wikipedia:WikiProject Stub sorting/Proposals|stub type proposals page]]. Uli na niti, mika pamikatagun a pidibatian la reng bageng tungkul king uri ning stub a e na aisip ning migmunikala, at mika lugal la reng tututul nung e tutupad kareng dalerayan ing pamamitna. Nung alang tututul kilub ning limang aldo, maliari meng lalagan ing bayung uri ning stub.
+
+=== Bayung stub template === 
+Kabud pisabian ing pamaglalang ning metung a uri ning stub king [[Wikipedia: WikiProject Stub sorting/Proposals]] at mikasundu na kaniti, maliaring maglalang temlate. Kailangan yang tuki ing lagiu na niti kareng [[Wikipedia:WikiProject Stub sorting/Naming guidelines|pamikasundu king pamagpalagiu kareng uri da reng stub]], 
+
+Kailangan lang makasuglung king metung a uri o categoriang stub deng eganaganang stub template. Maliari yang particular ing categoria king paksa ning template, o maliari yang i-"upmerge" ing template king metung o maigit pang categoriang e makaing particular o makitid – alimbawa, ing metung a template para king amlat ning Andorra (''Andorran history''), maliari ang isuglung king categoriang tungkul king amlat ning Europa, ampo king pangkabilugan a categoriang tungkul king Andorra. Maralas, masanting ya iti nung mimunikala ya ing metung a uri ning stub para king pamangamit king paintungulan (''future use''), pero e pa lalagpus king angganan king salukuyan, o nung nukarin ing metung a uri ning stub a atiu na atin yang limitadung bilang da reng pamipitna, nung nu ating subtype o mas malating uring marakal-dakal, kabang deng aliwa, ali la.
+
+Keraklan, e ra rerecomenda ing pamamiling malating larawan king stub template (ing "stub icon") uling makabayat ya kareng server ning Wikipedia, oneng maliari yang gamitan basta atiu king [[:en:public domain|pangmaldang pamangamit]] (''public domain'') o atin yang libring licensia. - e la dapat gagamitan a template deng larawan a [[:en:fair use]]. Kailangan, malati la reng stub icon, nung maliari e la lalagpus king 40px king dagul. 
+
+Ating standard code para kareng stub template king {{tl|metastub}}:
+:<code><nowiki>{{subst:metastub | article=article related to [[foo]] | id=foo-stub | category=Foo}}</nowiki></code><br>
+a babie kaniti: <div class="notice metadata plainlinks" id="stub" style="clear:both;">''This article related to [[foo]] is a [[Wikipedia:Stub|stub]]. You can help Wikipedia by [{{fullurl:{{FULLPAGENAME}}|action=edit}} expanding it].''</div>
+At nung bage ya ing larawan, gumamit kang {{tl|metapicstub}}:
+:<code><nowiki>{{subst:MetaPicstub|article=article about [[foo]]| id=stub | category=Foo| image=foo.svg | size=40 | alt=Foo}}</nowiki></code><br>
+a babie kaniti:
+<table class="notice metadata plainlinks" id="stub" style="background: transparent;"><tr><td>[[Image:foo.svg|40px|]]</td><td>''This article about [[foo]] is a [[Wikipedia:Stub|stub]].  You can [[Wikipedia:Stub#Ideal stub article|help]] Wikipedia by [{{fullurl:{{FULLPAGENAME}}|action=edit}} expanding it].''</td ></tr ></table >
+'''''Be sure to {{tl|subst}} the template code when creating the template!'''''
+
+===Bayung stub category===
+Kailangan ya muring apikasundu na king prosesu ning pamagmunikala ing lagiu ning stub category. Tuki ya murin iti karing [[WP:WSS/NG|naming guidelines]].
+
+Ing sulat ning stub category kailangan atin yang kamasalan o pamamie kabaldugan (''definition'') ning uri da reng stub a makayabe, ampong tanda nung sanung template ing gamitan king pamandagdag stub kaniti. Kailangan ya muring ibili king categoria ing {{tl|WPSS-cat}} template bang pakit a melalang ya kaibat ning debati king [[Wikipedia: WikiProject Stub sorting/Proposals]]. Kalangan ya muring idagdag ing bayung stub category king listaan a [[Wikipedia:WikiProject Stub sorting/Stub types]]
+
+Kailangan ustu ing pamandagdag ning bayung stub category karetang aliwang categoria. E la dumitak king atlu deng categoriang sukat makayabe:
+*Ing analogous permanent category ("permcat")
+*E kukulang king metung a mas matas a uring ("parent") stub category
+*[[:Category:Stub categories]]
+
+Alimbawa, deng [[:Category:France stubs]], dapat atiu la king katumbas a permcat ([[:Category: France]]), parent stub category ([[:Category:Europe stubs]]), ampong [[:Category:Stub categories]].
+
+Ing pamaglalang kareng stub category maliari yang gawang automatic ing dake na king makatuking paralan:
+
+<code><nowiki>{{Stub Category|article=[[A]]|newstub=B|category=C}}</nowiki></code>
+:<code>A</code>: Ipalub ya ing pamilarawan ning categoria keni.
+:<code>B</code>: Ipalub ya ing lagiu ning bayung stub template keni.
+:<code>C</code>: Ipalub ya ing lagiu ning bageng parent non-stub category.
+
+King alimbawa king babo, anti ya kaniti ing formatting:
+
+<code><nowiki>{{Stub Category|article=[[France]]|newstub=France-stub|category=France}}</nowiki></code>
+a magpalual kaniti:
+{{cmbox
+| type = notice
+| image = [[Image:Puzzle stub cropped.png|40px]]
+| text = This category is for [[Wikipedia:Stub|stub articles]] relating to [[France]]. You can help by expanding them.
+
+{{#if:France-stub|<br/>To add an article to this category, use {{tl2|France-stub}} instead of {{tl2|stub}}.|}}
+}}
+
+Ining syntax tambing neng daragdag ing bayung categoria king [[:Category:Stub categories]], dapot kailangan lang idagdag tunggal tunggal deng parent stub category ampong {{tl|WPSS-cat}} 
+
+'''''Nung atin ka pang duda o comentu tungkul king sanu mang dake ning prosesu, e ka mikakunung sabia la reti king [[Wikipedia talk:WikiProject Stub sorting]].'''''
+
+== Uri da reng stub, WikiProject, ampong Assessment templates ==
+Nung magumpisa ya ing metung a [[Wikipedia:WikiProjects|WikiProject]], ing metung kareng mumunang gawan da reng talalalang ing pagpasian nung kailangang maglalang particular a uri ning stub para kaniti. Keraklan, alang taganang prublema, uling maralas lang mamayun deng paksa da reng WikiProject kareng paksa da reng particular a uri da reng stub. Neng kai, alang particular a uri da reng stub, at kailangang magmunikalang bayung uri.
+
+Neng kai, ating WikiProject a manintun uri ning stub a e mamayun king karaniwan a pamamitna da reng stub, at maliari itang panibatan ning e pamikasundu pilatan ning proyectung ita ampo ing pamanayus ning WikiProject Stub, o - mas maulaga - pilatan ning metung a uri ning stub ampong metung o maigit pa. Agiang atin nang makalalang a uri ning stub, maliaring mika pamisalungat, uling ing kamasalan o kabaldugan ning metung a paksa a megamit king pamanayus kareng stub, e pareu ketang gagamitan ning particular a WikiProject. Kailangang tandanang kareng casung anti kaniti, samantalang manintun yang solusiun kareng kayang kapakayan ing metung a WikiProject, ing  WikiProject Stub sorting pagnasan nang gawang sistemang malino ampong pante-pante, a maliliari karen ''ngang'' talasulat. Kailangan yang mibage king pamangailangan da reng ''anggang''  WikiProject, at pati na kareng karaniwan a talasulat a e kayabe king sanumang WikiProject.
+
+Deng [[Wikipedia:Assessment|Assessment templates]] metung lang paralan ba yang lisian ing prublemang iti, at keraklan magamitan lang kasangkapan para kareng WikiProject. tin lang mapilang bentahi deng assessment template kareng stub type para kareng WikiProject. Bibili la reng template kareng article talk page, nung nu e la masiadung controbersial (maralas, panibatan ning pamipate-pate kareng edit ing pamamili da reng stub template kareng controbersial a articulu). Paintulutan da reti ing pamaniuri da reng articulu king metung a saklo ning paksa (''topic area''), at pamaglista lalam ning proyectu, e mu antimong stub article. Paintulutan da iti ing pamanantia king obrang kailangan king metung a articulu. Paintulutan da la murin deng workgroup a subgroup o mas malating grupu da reng WikiProject a mika sarili dang template a mas bage kareng karelang obra.
+
+== Lon la murin deti ==
+{{Meta}}
+* [[Wikipedia:Stub Makers]]
+* [[Wikipedia:Substub]]
+* [[Help:Section]] for information on {{tl|Sectstub}}, a related template type used to mark sections of articles
+* [[Wikipedia:WikiProject Stub sorting/Stub types|List of stub templates]] (or the easier-to-load list of subpages [[Wikipedia:WikiProject Stub sorting/List of stubs|here]])
+* [[Wikipedia:WikiProject Lists]]
+* [[Wikipedia:Requested articles]]
+* [[Wikipedia:Most wanted articles]]
+* [[User:Grutness/Croughton-London rule of stubs|Croughton-London rule]] (essay on when a page is or is not a stub)
+* [[Wikipedia:When to use the generic stub tag]]
+* [[:de:Wikipedia:Lückenhaft|Wikipedia:Lückenhaft]] {{de icon}}
+
+[[Category:WikiProject Stub sorting|Stub]] 
+[[Category:Wikipedia how-to|Stub]]
+
+[[af:Wikipedia:Saadjie]]
+[[als:Wikipedia:Stub]]
+[[ar:ويكيبيديا:بذرة]]
+[[az:Vikipediya:Qaralama məqalələr]]
+[[zh-min-nan:Wikipedia:Phí]]
+[[be:Вікіпедыя:Накід]]
+[[be-x-old:Вікіпэдыя:Накід]]
+[[bg:Уикипедия:Мъниче]]
+[[ca:Viquipèdia:Esborrany]]
+[[ceb:Wikipedia:Saha]]
+[[cs:Wikipedie:Pahýl]]
+[[da:Hjælp:Artikeludvidelse]]
+[[de:Wikipedia:Artikel#Umfang]]
+[[nv:Wikiibíídiiya:Tsehégod]]
+[[dsb:Wikipedija:Zarodk]]
+[[el:Βικιπαίδεια:Άρθρα προς επέκταση]]
+[[en:Wikipedia:Stub]]
+[[es:Wikipedia:Esbozo]]
+[[eo:Vikipedio:Trovi aŭ kreskigi ĝermojn]]
+[[eu:Wikipedia:Zirriborro]]
+[[fa:ویکی‌پدیا:مقالهٔ خرد]]
+[[fo:Wikipedia:Stubbi]]
+[[fr:Wikipédia:Ébauche]]
+[[ga:Vicipéid:Síol]]
+[[ko:위키백과:토막글]]
+[[haw:Wikipedia:‘Ōmuku]]
+[[hsb:Wikipedija:Zarodk]]
+[[hr:Wikipedija:Mrva]]
+[[id:Wikipedia:Tulisan rintisan]]
+[[ia:Wikipedia:Pecietta]]
+[[os:Википеди:Къæртт]]
+[[is:Wikipedia:Stubbur]]
+[[it:Aiuto:Abbozzo]]
+[[he:ויקיפדיה:קצרמר]]
+[[jv:Wikipedia:Rintisan]]
+[[kw:Wikipedia:Stokk]]
+[[ku:Wîkîpediya:Şitl]]
+[[lbe:Википедия:Кьурхь]]
+[[la:Vicipaedia:Stipulae]]
+[[lt:Vikipedija:Nebaigtas straipsnis]]
+[[mk:Википедија:Што е никулец?]]
+[[ms:Wikipedia:Rencana tunas sempurna]]
+[[nl:Help:Beginnetje]]
+[[ja:Wikipedia:スタブ]]
+[[ce:Википедийа:Дендалаз таптарaш]]
+[[no:Wikipedia:Stubb]]
+[[nds:Wikipedia:Stubben]]
+[[pl:Wikipedia:Zalążek artykułu]]
+[[pt:Wikipedia:Esboço]]
+[[ro:Wikipedia:Găseşte şi repară un ciot]]
+[[ru:Википедия:Заготовка статьи]]
+[[sq:Wikipedia:Gjej ose rregullo një cung]]
+[[scn:Wikipedia:Stub]]
+[[simple:Wikipedia:Stub]]
+[[sk:Wikipédia:Výhonok]]
+[[sl:Wikipedija:Škrbina]]
+[[szl:Wikipedyjo:Kůnski artikli]]
+[[sr:Википедија:Клица]]
+[[fi:Wikipedia:Tynkä]]
+[[sv:Wikipedia:Stubbar]]
+[[tl:Wikipedia:Usbong]]
+[[th:วิกิพีเดีย:โครง]]
+[[tr:Vikipedi:Taslak madde]]
+[[uk:Вікіпедія:Стаття-заготовка]]
+[[vi:Wikipedia:Bài sơ khai]]
+[[wa:Wikipedia:Djermons]]
+[[yi:װיקיפּעדיע:שטומף]]
+[[zh-yue:Wikipedia:楔位文章]]
+[[zh:Wikipedia:小作品]]
