@@ -1,0 +1,7 @@
+{{ombox
+|type = notice
+|image = [[Image:Blue check.svg|30px]]
+|text = '''This {{#ifeq:{{{1}}}|naming convention|[[Wikipedia:Policies and guidelines|guideline]]|page}} documents an English Wikipedia [[:Category:Wikipedia {{{1}}}s|{{{1}}}]].''' It is a generally accepted standard that editors should attempt to follow, though it is best treated with [[Wikipedia:Use common sense|common sense]] and the [[Wikipedia:Ignore all rules|occasional exception]]. Any substantive edit to this page should reflect [[Wikipedia:Consensus|consensus]]. When in doubt, discuss first on the [[{{TALKPAGENAME}}|talk page]].
+|imageright = {{#if:{{{3<includeonly>|</includeonly>}}} | {{Ombox/Shortcut|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}} }} }}
+}}<includeonly>{{#ifeq:{{NAMESPACE}}|{{ns:4}}|{{{category|[[Category:Wikipedia {{lc:{{{1}}}}}s|{{{2|{{PAGENAME}}}}}]]}}}}}</includeonly><noinclude>{{pp-semi-template|small=yes}}
+{{documentation}}<!-- Add categories and interwikis to the /doc subpage, not here! --></noinclude>
