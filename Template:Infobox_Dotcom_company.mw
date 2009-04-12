@@ -5,24 +5,24 @@
 | imageclass = logo
 | image      = {{{company_logo|}}}
 
-| label1     = [[:Category:Types of companies|Type]]
+| label1     = [[:Category:Types of companies|Uri]]
 | class1     = note
 | data1      = {{{company_type|}}}
 
 | label2     = [[Genre]]
 | class2     = note
 | data2      = {{{genre|}}}
-| label3     = Founded
+| label3     = Mitátag
 | class3     = note
 | data3      = {{{foundation|}}}
-| label4     = [[Entrepreneur|Founder]]
+| label4     = [[Entrepreneur|Talatátag]]
 | class4     = note
 | data4      = {{{founder|}}}
-| label5     = Dissolved
+| label5     = Misara
 | class5     = note
 | data5      = {{{dissolved|}}}
 
-| label6     = Headquarters
+| label6     = Pun tanggapan
 | class6     = adr
 | data6      = {{#if:{{{location_city|}}}|<span class="locality">{{{location_city}}}</span>}}{{#if:{{{location_country|}}}|, <span class="country-name">{{{location_country}}}</span>}}{{{location|}}}
 
@@ -32,22 +32,22 @@
 | label7     = Place&nbsp;of&nbsp;incorporation
 | class7     = note
 | data7      = {{{incorporated|}}}
-| label8     = Area&nbsp;served
+| label8     = Lugal a&nbsp;pagsilbian
 | class8     = note
 | data8      = {{{area_served|}}}
-| label9     = Key&nbsp;people
+| label9     = Pekamatas a&nbsp;tau
 | class9     = note
 | data9      = {{{key_people|}}}
 | label10    = [[Industry]]
 | class10    = note
 | data10     = {{{industry|}}}
-| label11    = [[Product (business)|Products]]
+| label11    = [[Product (business)|Productu]]
 | class11    = note
 | data11     = {{{products|}}}
-| label12    = [[Service (economics)|Services]]
+| label12    = [[Service (economics)|Serbisiu]]
 | class12    = note
 | data12     = {{{services|}}}
-| label13    = [[Revenue]]
+| label13    = [[:en:Revenue|Panakitan]]
 | class13    = note
 | data13     = {{{revenue|}}}
 | label14    = [[Earnings before interest and taxes|Operating income]]
@@ -56,13 +56,13 @@
 | label15    = {{#ifeq:{{{intl|}}}|yes|[[Net income|Profit]]|[[Net income]]}}
 | class15    = note
 | data15     = {{{net_income|}}}
-| label16    = [[Owner]]
+| label16    = [[Makibandi]]
 | class16    = note
 | data16     = {{{owner|}}}
-| label17    = [[Employment|Employee]]s
+| label17    = [[Employment|Empleadu]]
 | class17    = note
 | data17     = {{{num_employees|}}}
-| label18    = [[Holding company|Parent]]
+| label18    = [[Holding company|Pengari]]
 | class18    = note
 | data18     = {{{parent|}}}
 | label19    = [[Division (business)|Divisions]]
@@ -83,13 +83,13 @@
 | label24    = [[Alexa Internet|Alexa]] rank
 | class24    = note
 | data24     = {{{alexa|}}}
-| label25    = Type of site
+| label25    = Uri ning karinan
 | class25    = note
 | data25     = {{{website_type|}}}
 | label26    = [[Online advertising|Advertising]]
 | class26    = note
 | data26     = {{{advertising|}}}
-| label27    = Registration
+| label27    = Pamag-rehistru
 | class27    = note
 | data27     = {{{registration|}}}
 | label28    = [[Human language|Available in]]
@@ -98,7 +98,7 @@
 | label29    = Launched
 | class29    = note
 | data29     = {{{launch_date|}}}
-| label30    = Current status
+| label30    = Kabilian ngeni
 | class30    = note
 | data30     = {{{current_status|}}}
 
