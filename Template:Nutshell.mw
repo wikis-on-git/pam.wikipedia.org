@@ -1,0 +1,15 @@
+{{mbox
+| image = [[Image:Nutshell.png|30px]]
+| text = '''{{{title|This page}}} in a nutshell:''' {{#if:{{{2|}}}
+  | * {{{1}}} 
+* {{{2}}} {{#if:{{{3|}}}   <!--Can't have leading spaces-->
+    | * {{{3}}}
+    }}
+  | {{{1}}}
+  }}
+}}<noinclude>
+
+{{pp-template}}
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
