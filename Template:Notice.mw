@@ -1,0 +1,15 @@
+{{mbox
+| demospace = {{{demospace|}}}
+| image = {{#if:{{{image|}}}| [[Image:{{{image}}}|40px|Notice]] }}
+| text = 
+  {{#if:{{{header|}}}
+  | <div style="text-align:center;">'''{{{header}}}'''</div> 
+  }}{{{1}}}
+| small = {{{small|}}}
+| smallimage = {{#if:{{{image|}}}| [[Image:{{{image}}}|30px|Notice]] }}
+}}<noinclude>
+
+{{pp-template|small=yes}}
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
