@@ -1,0 +1,2 @@
+{{#ifeq:{{{bullet|}}}|none | |
+* }}[[Image:commons-logo.svg|12px|Wikimedia Commons logo]] Media related to [[Commons:Category:{{{1|{{PAGENAME}}}}}|{{{2|{{{1|{{PAGENAME}}}}}}}}]] at [[Wikimedia Commons]]<noinclude>{{Documentation}}</noinclude>
