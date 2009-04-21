@@ -1,0 +1,7 @@
+{{Sister
+|project = commons
+|text = Ing [[Wikimedia Commons]] atin yang mediang maki kaugnayan king:
+<div style="margin-left: 10px;">'''''[[Commons:{{{1|Special:Search/{{PAGENAME}}}}}|{{{2|{{{1|{{PAGENAME}}}}}}}}]]''''' ([[Commons:Category:{{{2|{{PAGENAME}}}}}|category]])</div>
+}}<noinclude>
+{{Documentation}}
+</noinclude>
