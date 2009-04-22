@@ -1,0 +1,14 @@
+<div style="right:10px; display:none;" class="metadata topicon" id="bot"><imagemap>
+Image:Crystal Clear action run.png|16x16px|Wikipedia Bots
+default [[Wikipedia:Bots]]
+desc none
+</imagemap></div>
+{| class="ombox ombox-notice nowraplinks" style="text-align:center;"
+|- <!-- Subject pages -->
+| class="mbox-text" | [[Wikipedia:Bots|'''Overview of bots''']] {{·}} [[Wikipedia:Creating a bot|How to create a bot]]{{·}} [[Wikipedia:Bot Approvals Group|Bot Approvals Group]]{{·}} [[Wikipedia:Bot policy|Bot policy]]{{·}} [[Wikipedia:Bots/Status|Bot status page]]{{·}} [[Template:BAG Tools|BAG tools]]
+| rowspan="2" class="mbox-imageright" | [[Image:Crystal Clear action run.png|35px]]
+|- <!-- Discussion pages -->
+| class="mbox-text" | [[Wikipedia:Bot requests|Requests for work to be done by a bot]]{{·}} [[Wikipedia:Bot owners' noticeboard|Bot owners' noticeboard]]{{·}} [[Wikipedia:Bots/Requests for approval|Requests for bot approval]]
+|}<noinclude>
+[[Category:Wikipedia bot-related templates| ]]
+</noinclude>
