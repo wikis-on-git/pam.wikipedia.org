@@ -128,3 +128,8 @@ Thanks. [[User:Luckas Blade|Luckas Blade]] 22:05, 14 Nobiembri 2008 (UTC)
 *'''Software:''' pywikipediabot framework via SVN
 *'''Already has bot flag on:''' [http://toolserver.org/~purodha/sample/dbswithuser.php?usr=Ptbotgourou&uselang=en +/- 95 wikis] + global bot
 --[[User:Gdgourou|Gdgourou]] 08:43, 14 Eneru 2009 (UTC)
+
+==Bot policy==
+Hello. To facilitate [[m:steward|steward]] granting of bot access, I suggest implementing the [[m:Bot policy|standard bot policy]] on this wiki. In particular, this policy allows stewards to automatically flag known interlanguage linking bots (if this page says that is acceptable), which form the vast majority of such requests. The policy also enables [[m:Bot policy#Global_bots|global bots]] on this wiki (if this page says that is acceptable), which are trusted bots that will be given bot access on every wiki that allows global bots.
+
+This policy makes bot access requesting much easier for local users, operators, and stewards. To implement it we only need to create a redirect to this page from [[Project:Bot policy]], and add a line at the top noting that it is used here. Please read the text at [[m:Bot policy]] before commenting. If you object, please say so; I hope to implement in one week if there is no objection, since it is particularly written to streamline bot requests on wikis with little or no community interested in bot access requests. [[User:Carsrac|Carsrac]] 08:38, 25 Abril 2009 (UTC)
