@@ -1,0 +1,10 @@
+{{#switch:{{{1}}}
+|name = Vietnam
+|top=24.427145
+|bottom=8.276727
+|left=101.8872
+|right=115.422363
+|image=Map-of-Vietnam-Provinces.svg
+}}<noinclude>
+{{Location map/Info}}
+</noinclude>
