@@ -27,7 +27,7 @@
 |data10= {{{genre|}}}
 |label11= [[Talabulalag]]
 |data11= {{{publisher}}}
-|label12= Publication date
+|label12= Petsa ning pangabulalag
 |data12= {{{pub_date|{{{release_date|}}}}}}
 |label13= Published in<br/>English
 |data13= {{{english_pub_date|{{{english_release_date|}}}}}}
@@ -41,9 +41,9 @@
 |data17= {{{isbn|}}}
 |label18= [[OCLC]]
 |data18= {{#if:{{{oclc|}}}| [http://worldcat.org/oclc/{{urlencode:{{{oclc}}}}} {{{oclc}}}] }}
-|label19= Preceded by
+|label19= Minuna
 |data19= {{#if:{{{preceded_by|}}}|''{{{preceded_by}}}''}}
-|label20= Followed by
+|label20= Katuki
 |data20= {{#if:{{{followed_by|}}}|''{{{followed_by|}}}''}}
 }}<noinclude>
 {{pp-template|small=yes}}
