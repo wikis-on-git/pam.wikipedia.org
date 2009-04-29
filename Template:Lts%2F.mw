@@ -1,0 +1,12 @@
+<span class="plainlinksneverexpand"><small>[{{fullurl:Special:Whatlinkshere/Template:{{{1|Lts/}}}|limit=500}} links]&#160;[[:Template talk:{{{1|Lts/}}}|talk]]&#160;[{{fullurl:Template:{{{1|Lts/}}}|action=edit}} edit]</small></span><noinclude>
+----
+;Template Lts:meaning 'List Template Short' &mdash; displays (short list of) links for template as shown above, {{I}}'''Lts''' is like ''''{{Tlx|Lt}}'''', but without some of its problems on some browsers.
+{{Interwikitmp-grp|V=4|SYS=yes|!{{PAGENAME}}}}
+This [[Wikipedia:Template|Template]] is a [[Wikipedia:Avoid self-references|self-reference]] and so is part of the Wikipedia project rather than the encyclopaedic content.
+[[Category:Internal link templates|{{PAGENAME}}]]
+
+;Similar/See also: '''{{Tlx|Lcs}}''' &mdash; links analysis tool for category discussions. 
+
+[[ja:Template:Lts/]]
+[[no:Mal:Lts/]]
+</noinclude>
