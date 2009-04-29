@@ -1,0 +1,106 @@
+<includeonly><!--p/o Template:Left60 if subst'd (begins) -->
+{{#if:{{{end|}}}{{{E|}}}{{{END|}}}|</div> |
+<div style="{{{2|}}}; width:{{{width|{{{1|60}}}%}}}; {{#if:{{{B|}}}|border: 1px solid black;|{{{border|}}};}}<!---
+-----
+---->{{#if:{{{P|}}}{{{B|}}}{{{padding|}}}<!--
+    -->|padding:<!--
+        -->{{#if:{{{P|}}}<!--
+          -->|{{{P}}}<!--
+          -->|{{#if:{{{B|}}}<!--
+             -->|<!-- else default for Q&D  "B" -->2ex;<!--
+             -->|{{{padding|}}}<!--
+           -->}}<!--
+        -->}}<!--
+  -->}}; {{#if:{{{BG|}}}{{{bgcolor|}}}|background:{{{BG}}}{{{bgcolor|}}}}};<!---
+-----
+---->{{#if:{{{M|}}}|margin:{{{M}}}|{{{margin|}}}}}; {{#if:{{{A|}}}|align:{{{A}}}|{{{align|}}}}};<!---
+-----
+---->  {{#if:{{{V|}}}|valign={{{V}}};}} {{{ALTCMND|}}}; {{{3|}}}">}}<!--p/o Template:Left60 ---></includeonly>
+<noinclude><!---
+-----
+{{{1|}}}</div> --- This form doesn't handle multiple templates well as the language templates {s.a.: 'en', 'de', 'fr', etcetera.} on the commons. So switching to open div format 1 March 2007 
+-----
+---->
+{{interwikitmp-grp|V=3|wdy=|wqt=|wbk=}}<!---
+-----
+----><b>Note:</b> This templates active code is hidden and only evinces when included.<!---
+-----
+---->
+==Usage==
+:<b>This is primarily a quick boilerplate for '&lt;div style=width:66%;&gt;:But has some useful wrinkles</b>: <br />
+# First, 66% was chosen with deliberate intent. Many standard templates are 250px and sit right, and this allows this template to bound the left side of a page which allows wide templates to be placed beside those right hugging narrow fixed width templates with room to spare on several page zoom selections. This value is based on experience with Microsoft IE6, which behaves badly on graphics at times.  66 will seem to leave a lot of waste space on some browsers, but zoom in, and the behavior maintains consistency until the page is blown up obnoxiously large on most browsers. That's a good thing, and the problem this was designed to solve.<br /><br />
+# <nowiki> {{{1}}} </nowiki> will override '66' and allow a different percentage width.<br /><br />
+# Named parameter <nowiki> {{{ALTCMND}}} or numbered parameters {{{2}}} and {{{3}}}</nowiki>   (none have precedence) allow other HTML and Css command sytax to be added including borders, padding, other margin commands, colors, fonts, etcetera.<br /><br />
+# After coercing the enclosed following page materials, the template effect needs canceled by expression of {{Tlx|Left60|<nowiki>end=1 (or yes, or anything but a blank space</nowiki>)}} or '''&lt;/div>'''.<br /><br />
+# Quick and dirty convenience parameters: ''('1' signifies any non-whitespace character.)''
+
+{| style="border:2px blue solid; margin:3em 0 3em 0;padding: 1em; background:#99e9e7; font:strong; size:4; color:DarkBlue;"
+!What it is 
+!Quick and dirty
+!Quick and dirty effect
+!Alternative parameter (and examples)
+|-bgcolor="azure"
+| align data
+|  A=left/right/center
+| colwidth="270px"| align:{{{A}}};
+| colwidth="230px"| '''or '''"align=align:left/right/center"<br>(specify all of it as quoted)
+|-
+| border command
+| B=1 
+|gives a 1px black '''border''' 
+| '''or''' "border=border 3px blue grooved"<br>(specify all of it as quoted)
+|- bgcolor="azure"
+| background
+| BG=''unquoted color''
+| both switch and value, becomes background:"{{{BG}}}"
+| bgcolor=background:#f9f9e7
+|-
+| margins
+| M=1
+| margin:{{{M}}};
+| '''or''' "margin=margin: 1em 2em 3em 4em"<br>(specify all of it as quoted)
+|- bgcolor="azure"
+| padding
+| P=1
+| padding: {{{P}}};
+| '''or''' "padding=padding: ''values''"<br>(specify all of it as quoted)
+|-
+| vertical alignment
+| V=1
+| valign={{{V}}}
+| ''use any other free parameter
+|- bgcolor="azure"
+| E/end/END=1
+|colspan="3" | asserts &lt;/div> to terminate the block started by another of the same template. (Far less likely to get deleted by accident or ignorance by another editor!)
+|-
+|colspan="3"| parameters <nowiki>{{{2|}}}, {{{3|}}}, and {{{ALTCMD|}}}</nowiki> are all "free" parameters which can be used to specify any legal HTML command within the style quotes, including fonts, line-heights, font size, etc.
+|- bgcolor="azure"
+|colspan=3|<br><hr>
+|}
+
+
+;Code look:
+<pre>
+
+<!--p/o Template:Left60 if subst'd (begins) -->
+{{#if:{{{end|}}}{{{E|}}}{{{END|}}}|</div> |
+<div style="{{{2|}}}; width:{{{width|{{{1|60}}}%}}}; {{#if:{{{B|}}}|border: 1px solid black;|{{{border|}}};}}<!---
+-----
+---->{{#if:{{{P|}}}|padding:{{{P}}}|{{{padding|}}}}}; {{#if:{{{BG|}}}|background:{{{BG}}}|{{{bgcolor|}}}}};<!---
+-----
+---->{{#if:{{{M|}}}|margin:{{{M}}}|{{{margin|}}}}}; {{#if:{{{A|}}}|align:{{{A}}}|{{{align|}}}}};<!---
+-----
+---->  {{#if:{{{V|}}}|valign={{{V}}};}} {{{ALTCMND|}}}; {{{3|}}}">}}<!--p/o Template:Left60 ---></includeonly>
+
+</pre>
+Use to <s>nest around another template</s> precede OTHER templates... any or all of which insist on sitting to the right margin or over reaching into the right, when you need to place such side by side, or limit text towards the right side of the page. 
+
+Also used to '''[[Wikt:coerce|coerce]]'''  full width templates to being lesser space hogs allowing a different ''graphics option'' of a good kind, making room form interwiki navigation templates, images, etcetera, including the forcing of self centering templates (Many, but examples of {succession} or {succession box} used on category pages) to the left side.
+
+This should also allow text to wrap around or within the redefined area.
+
+[[Category:Utility templates used in categories |{{PAGENAME}} ]]
+[[Category:Wikipedia formatting and function templates|{{PAGENAME}}]]
+[[Category:typing-aid templates |{{PAGENAME}}]]<!--- Keep for compatibility with en.wp ---->
+
+</noinclude>
