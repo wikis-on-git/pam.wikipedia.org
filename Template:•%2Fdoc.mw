@@ -1,0 +1,88 @@
+<includeonly>{{template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+__NOTOC__
+This is the '''bullet''' template; it looks like this: "&nbsp;&bull; "... also known as {{Tl|bull}} for those of us who know searching for graphics dots is slow and painful. (Letters, however, are easy to find on ALL KEYBOARDS) 
+
+It works similarly to the html markup sequence "<code>'''&amp;nbsp;&amp;bull;'''&nbsp;</code>". That is, a [[non-breaking space]], a bullet and a normal space.
+
+{{tl|bull}} and {{tl|bullet}} redirect here and can be used as alternative names for this template.
+
+This template is used when you want a bigger bullet than a [[Template:·|bold middot]] "'''&middot;'''", but something smaller than a [[Template:Ndash|ndash]] "&ndash;" or [[Template:Mdash|mdash]] "&mdash;". For instance for dotted lists that have a font-size 80% or less of normal font-size, since then bold middot "'''&middot;'''" becomes too small.
+
+=== Normal usage ===
+
+The recommended usage is to use ''no'' space before the template and one space after the template, like this:
+ <nowiki>[[Salt]]{{&bull;}} [[Pepper]]</nowiki>
+
+It will render one space on each side of the bullet, like this:
+:[[Salt]] &bull; [[Pepper]]
+
+If it line breaks then the line break will come ''after'' the bullet, not before, like this:
+:[[Salt]] &bull; 
+:[[Pepper]]
+
+For long dotted lists each list item can be put on its own line, with no spaces between each item and the template. Like this:
+ <pre><nowiki>
+ [[Salt]]{{&bull;}}
+ [[Pepper]]{{&bull;}}
+ [[Curry]]{{&bull;}}
+ [[Saffron]]</nowiki></pre>
+
+(It doesn't matter if there are no or some spaces at the end of the lines, after the templates.)
+
+As before it will render one space on each side of the bullets, like this:
+:[[Salt]] &bull; [[Pepper]] &bull; [[Curry]] &bull; [[Saffron]]
+
+And if it line breaks then the line break will come ''after'' one of the bullets, not before, like this:
+:[[Salt]] &bull; [[Pepper]] &bull; 
+:[[Curry]] &bull; [[Saffron]]
+
+=== Incorrect usage ===
+
+If the template is used slightly wrong it will in some cases still behave well. For instance if there are no or several spaces after the template. Like these examples:
+
+ <nowiki>[[Salt]]{{&bull;}}[[Pepper]]</nowiki>
+ <nowiki>[[Salt]]{{&bull;}}   [[Pepper]]</nowiki>
+
+Both of them will render exactly as before, with just one space on each side of the bullet, like this:
+:[[Salt]] &bull; [[Pepper]]
+
+And it will still only line break ''after'' the bullet, like this:
+:[[Salt]] &bull; 
+:[[Pepper]]
+
+But putting one or more spaces before the template will cause problems, like these examples:
+ <nowiki>[[Salt]] {{&bull;}}[[Pepper]]</nowiki>
+ <nowiki>[[Salt]]   {{&bull;}}[[Pepper]]</nowiki>
+ <nowiki>[[Salt]] {{&bull;}} [[Pepper]]</nowiki>
+ <nowiki>[[Salt]]   {{&bull;}}   [[Pepper]]</nowiki>
+
+Then it will render with ''two'' spaces before the bullet, and one after, like this:
+:[[Salt]] &nbsp;&bull; [[Pepper]]
+
+And if it line breaks it might break ''before'' the bullet, like this:
+:[[Salt]] 
+:&nbsp;&bull; [[Pepper]]
+
+=== Technical details ===
+
+The space before the bullet is a [[non-breaking space]]. That means it will not line break and will not collapse together with normal spaces that come before the template.
+
+The space after the bullet is a normal space. That means it wraps (allows line breaks) and it will collapse together with normal spaces that come after the template to form one single space.
+
+Under some circumstances dotted link lists misbehave. They might get unexpected line wraps or they might expand outside the box they are enclosed in. The how-to guide [[Wikipedia:Line break handling]] explains when that happens and how to fix it.
+
+{{bullseealso
+}}<includeonly
+>
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Typing-aid templates|&bull;{{PAGENAME}}]]
+[[Category:Wikipedia formatting and function templates|&bull;{{PAGENAME}}]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[bg:Шаблон:Bullet]]
+[[fr:Modèle:•]]
+[[ja:Template:•]]
+[[lt:Šavlonas:•]]
+[[pt:Predefinição:•]]
+</includeonly>
