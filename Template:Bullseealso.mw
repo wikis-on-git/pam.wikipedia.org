@@ -1,0 +1,165 @@
+<noinclude>{{usage div}}
+
+;This template is common cross-links for the various formatting typing aids incorporating bullets ("&bull;") in their output streams.
+{{2}}</div></noinclude>
+
+=== See also ===
+There are several other templates with similar stream formatting purposes and such (or related) functionality:
+{{Top|bgcolor="#EEFFCC"}}
+* {{tl2|·}} – Bold middot ["'''&amp;middot;'''"] ('''&middot;'''){{!:
+
+}} is mostly used for dotted lists.
+* {{tl2|•}} – {{tl2|••}} / {{tl2|bull}} – {{tl2|bull2}}{{!:
+
+}} are used for bullet separated lists.
+* {{tl2|-•}} - {{tl2|-bull}}{{!:
+
+}} Creates a line break, bullet and non-breaking space. Equivalent to the HTML markup: <code><nowiki><br/>&amp;bull;&amp;nbsp;</nowiki></code>.
+
+* {{tl2|ndash}} – Ndash "&ndash;" is a short dash.
+* {{tl2|mdash}} – Mdash "&mdash;" is a long dash. 
+{{mid|bgcolor="#EEFFCC"}}
+* {{tl2|\}} – For the occasional slash "/" in lists.* {{tl|••}}/{{tl|bull2}}/{{tl|bullet2}} – The same kind of bullet but it "sticks" before a list item, instead of after a list item. It's useful in navigation lists so the links are prefixed by an attached bullet when wrapping occurs, instead of creating lines with hanging bullets at the lines ends, and the next lines beginning sans a lead bullet.
+* {{Tl2|ibull}} && Wrap control templates follow next below.
+:{{Ibull|7}}(More details and templates in {{here|See also details}} section below.)
+{{bottom}}
+{{usage div}}
+
+* {{Tl|ibull}} combines the subsidiary subordinate indentation of {{tl|indent}} template (the {{Tl|I}} short form) and the {{Tl|Bull}} template.  The effect of {{tl|Ibull}} is shown below by example in the usage lines beginning with:{{2
+
+}}<code><nowiki> {{ibull|2}} {{tl|nowraplinks}} – Prevents ...</nowiki> '''and also''' <nowiki>{{ibull}} {{tl|nowrap begin}} – Prevents wraps in both text...</nowiki> </code>{{2
+
+}}When making dotted lists you might need to handle proper word wrapping (line breaking):{{ibull|2}} {{tl|nowraplinks}} – Prevents wraps inside links and only allows wraps between the links and in normal text, very useful for link lists and easy to use.{{
+
+ibull}} {{tl|nowrap begin}} – Prevents wraps in both text and links. For the really tricky wrapping cases when you need full control, for instance in very complex link lists.
+</div>
+* See also, [[Wikipedia:Line break handling]] – The how-to guide detailing how to handle line wrapping on Wikipedia.
+
+ </div
+>
+=== See also details ===
+*{{tl2|•}} &ndash;creates the the html markup sequence <tt>'''[<code>"&amp;nbsp<nowiki>;</nowiki>&amp;bull<nowiki>; "</nowiki></code>]'''</tt> (Note the plain 'regular' space and the non-break spaces on the flanks of both sides.){{ibull}}(aka {{tl|bull}})
+{{Left60|85}}
+*{{tl2|••}}{{ndash}}This {{tl2|••}}/{{tl2|bull2}} template is similar to <nowiki>{{•}}</nowiki> but reverses the order of <b>"&amp;nbsp<nowiki>;</nowiki>"</b> with the'' corresponding 'regular space' ''on either side of the bullet (•), so ''wraps at any given lines end with list data'' a bit differently.{{ibull}}(aka {{tl|bull2}})</div
+>
+*{{tl2|-}} &ndash;Use '''{{tlx|-}}''' after any floating elements and before elements you do not wish to float together with the first set. {{ibull}}(aka: <tt>'''["&lt;br clear="all" /&gt;"]''')
+*{{tl2|bullist}} &ndash; builds a bullet separated list, similar to a [[Comma separated list]], but with delimiters as bullet characters flanked by spaces&mdash; one non-breaking space and one normal regular (soft) space.
+*{{tl2|ibull}} &ndash; an adaptation of {{Tl2|I}}+{{Tl2|bull}}: Gives upto twelve monospace cast spaces followed by a bullet and space. {{Ibull|7}}Default effect is seen above in the lines incorporating "(aka: ..." phrasing, and this line which incorporates a non-default space prefixed stream.
+
+
+
+=== Dot size reference list ===
+
+{| border="1" style="text-align:center; background:transparent; width:auto; valign:top; "
+|-
+|<!-- 1-- Left pane --->width="32%" max-width="32%" valign="top" |
+{| style="text-align:left; background: #f9f989; border:1px solid; padding: .25em; valign:top; "
+!Out<br>put
+!HTML effect name
+!How-to <br>(Code to impliment)
+|- 1
+| style="width: 2.2em;" align="center" | <small>&middot;</small> <br> {{void}}
+| align="left"  bgcolor="white" | <br> &lt;small> middot <br> {{void}} &nbsp;
+| <nowiki><small>&amp;middot;</small></nowiki>
+|- 2
+| style="width: 2.2em;" align="center"   | &middot;
+| align="left"   bgcolor="white" | <br/> middot <br> {{void}}&nbsp;
+| <nowiki>'''&amp;middot;'''</nowiki> <br> {{void}}
+|- 3
+| style="width: 2.2em;" align="center"  | <small>'''&middot;'''</small> 
+| align="left"   bgcolor="white" | <br> &lt;small> bold middot <br> {{void}}
+| <nowiki><small>'''&amp;middot;'''</small> </nowiki> <br> {{void}}
+|}
+
+|<!-- 2nd L to R -- middle panes --> width="32%" max-width="32%" valign="top" |
+{|style="text-align:left; background: #f9f989; border:1px solid; padding: .25em; valign:top; "
+|- valign="bottom"
+!Out<br>put
+!HTML effect name
+!How-to <br>(Code to impliment)
+
+|- 4
+| style="width: 2.2em;" align="center"   | '''&middot;'''
+| align="left"  style="width:10em;"  bgcolor="white"| bold middot 
+| <nowiki>'''&amp;middot;'''</nowiki> '''or'''<br/> <nowiki><b> &amp;middot; </b></nowiki>
+
+|- 5
+| style="width: 2.2em;" align="center"   | <small>&bull;</small>       
+| align="left" bgcolor="white"| <br> {{void}}&nbsp;<br/> {{i}}&lt;small> bullet<br> {{void}}&nbsp;
+| <nowiki><small>&amp;bull;</small></nowiki> '''or'''<br/> <nowiki><small> {{bull}} </small></nowiki>
+
+|- 6
+| style="width: 2.2em;" align="center"   | &bull;
+| align="left"  bgcolor="white"| bullet
+| <nowiki>&amp;bull;</nowiki> '''or'''<br/><nowiki>{{bull}}</nowiki>
+
+|}
+|<!-- right pane ---> width="32%" max-width="32%" valign="top" |
+{|  style="text-align:left; background: #f9f989; border:1px solid; padding: .25em; valign:top; "
+
+!Out<br>put
+!HTML effect name
+!How-to <br>(Code to impliment)
+|-
+
+| style="width: 2.2em;" align="center"  | '''&bull;'''
+| align="left"  bgcolor="white"| bold bullet
+| <nowiki>  '''&amp;bull;''' </nowiki> '''or'''<br/>  <nowiki>'''{{bull}}''' or <b>{{bull}}</b> etc.</nowiki>
+
+|- 8
+| style="width: 2.2em;" align="center"  | &ndash;
+| align="left"  bgcolor="white"|<br> {{void}}&nbsp; ndash<br> {{void}}&nbsp;
+| <nowiki> &amp;ndash; </nowiki> <br> {{void}}
+
+|- 9
+| style="width: 2.2em;" align="center"   rowspan="3"| &mdash;
+| align="left"  bgcolor="white"|<br> {{void}}&nbsp; mdash<br> {{void}}&nbsp;
+| <nowiki> &amp;mdash; </nowiki>  <br> {{void}}
+|}
+|}<!-- End of L to R table 
+
+--->
+{{32FC| This is bypassed ORIGINAL LIST TABLE... which showed no How-to
+{| style="text-align:center; background:transparent;"
+| style="width:1.7em; align:right; " | <small>&middot;</small>
+| align="left" | &lt;small> middot
+|- 2
+| &middot;
+| align="left" | middot
+|- 3
+| <small>'''&middot;'''</small> 
+| align="left" | &lt;small> bold middot
+|- 4
+| '''&middot;'''
+| align="left" | bold middot
+|- 5
+| <small>&bull;</small>       
+| align="left" | &lt;small> bullet
+|- 6
+| &bull;
+| align="left" | bullet
+|- 7
+| '''&bull;'''
+| align="left" | bold bullet
+|- 8
+| &ndash;
+| align="left" | ndash
+|- 9
+| &mdash;
+| align="left" | mdash
+|}
+----
+|32FC ends}}
+
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+</includeonly
+
+><!-- both included and local (self) declarations for the whole family -- this will thus affect calling templates that incorporate this doc helper page, grouping all these templates the same way and places.
+ --->
+[[Category:Typing-aid templates|&bull;{{PAGENAME}}]]
+[[Category:Wikipedia formatting and function templates|&bull;{{PAGENAME}}]]
+
+<noinclude>
+[[Category:Template documentation|&bull;{{PAGENAME}}]]
+</noinclude>
