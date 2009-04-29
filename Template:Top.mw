@@ -1,0 +1,12 @@
+<noinclude>{{pp-template}}</noinclude><includeonly><!-- Template:Top begins --->
+{| border={{{border|0}}}  width={{{width|100%}}} class="multicol"
+|-
+|bgcolor={{{bgColor|{{{bgcolor|<!--"#FFFFE0"-->transparent}}}}}} valign=top width={{{width2|48%}}}|
+{|<!-- 
+Template:Top ends
+--></includeonly><!--
+--><noinclude><!--
+{{bottom}} -- This line is incompatible with includeonly block, so bypassed here.
+-->
+{{Documentation, template}}
+</noinclude>
