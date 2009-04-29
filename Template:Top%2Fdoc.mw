@@ -1,0 +1,108 @@
+<includeonly>This is "common" template doc page pattern usage notes from in {{lts|Top/doc}}
+</includeonly><noinclude>{{Template doc page viewed directly}}<div style="width:100%;border:1px solid silver;padding-left:.5ex;padding-right:.5ex; background:#DFFFE0; ">
+</noinclude>
+
+: ''Note: For archival templates, such as {{tl|Discussion top}}, see [[:Category:Archival templates]]''
+
+;Note--hidden content above works only when included as is wikitable head end.
+
+:This template is a '''First of three''' needed column templates when desiring to '''display two formatted columns side by side'''. 
+:It was adapted from a {{wpd|Wiktionary}} template set with the same names. 
+
+*'''It must be used with {{Tl2|Mid}} {{32FC|or {{Tl2|Top2}} }}and {{Tl2|Bottom}} to form a complete table of two columns.'''
+
+The additional parameter (either) '''bgcolor''' or '''bgColor''' can be defined to change the default color of the template display, from the default "Transparent" color. Such an override must be applied to both {{tl|Top}} and {{32FC|either {{Tl2|Top2}} or |32FC ends}}{{tl2|mid}} as well... or one gets columns of two different colors. 
+
+;Default parameters:
+:'''''Note on the relationship''' between the two width parameters '''"width" and "width2"''':'' a width of 1% always occupies a center (empty) column, so <br
+/><center>'''width (outer) ''must be set to satisfy'' the relation:<tt><code> width >= (2 * width2 + 1%) </code> </tt>'''</center>
+<pre>
+border=0 (none) width=100% (overall width) width2=48% (see below, each column's width)
+|-
+|bgcolor= was once "#FFFFE0" (a [[web color|light yellow]]), now "transparent", 
+          so takes on the page background color, whatever that may be.
+</pre>
+<pre>
+Default perameters may be overridden by expressing the matching named parameter.
+{| border={{{border|0}}}  width={{{width|100%}}}
+|-
+|bgcolor={{bgColor|{{{bgcolor|"#FFFFE0"}}}}}} valign=top width={{{width2|48%}}}|
+... data within table
+...
+Parameters are:
+bgColor or bgcolor affecting bgcolor
+border             affecting border style, including color, width, etc.
+width              affecting overall width, within which the inner column width is applied.
+width2             setting the inner column width, should also apply same value to {{Mid}}.
+</pre>
+
+<pre>
+
+Use Example shown below:
+{{Top}}
+*The first list of items, usually bulleted links
+*2...
+*3...
+{{Mid}} <!-- Mid must be placed in the wrap point of the table... 
+        half or so above, half or so below. Contrast with {{Top2}} below.
+*The second list of items, usually bulleted links
+*2...
+*3...
+{{Bottom}}
+</pre>
+;Appearance of above example:
+{{Top}}
+*The first list of items, usually bulleted links
+*2...
+*3...
+{{Mid}}
+*The second list of items, usually bulleted links
+*2...
+*3...
+{{Bottom}}{{32FC| Top2 depreciated, as mozilla extension is not widely available on other browsers
+<hr>
+;Using {{tl2|Top2}} instead of {{Tl2|Mid}}
+<pre>
+Use Example shown below:
+{{Top}}
+{{Top2}}
+*The first list of items, usually bulleted links
+*2...
+*3...
+*4...
+*5...
+* ...
+*nn-3...
+*nn-2th...
+*nn-1th ...
+*nnth item, no searching needed for midpoint
+{{Bottom|2}} <!-- Use a parameter 
+             or manually insert a </div> BEFORE the {{Bottom}} call -->
+</pre>
+{{Top}}
+{{Top2}}
+*The first list of items, usually bulleted links
+*2...
+*3...
+*4...
+*5...
+* ...
+*nn-3...
+*nn-2th...
+*nn-1th ...
+*nnth item, no searching needed for midpoint</div>
+{{Bottom|2}} <!-- Use a parameter 
+             or manually insert a </div> BEFORE the {{Bottom}} call -->
+end 32FC|}}
+__NOTOC__
+<span style="float:right; font-size:80%;"><hr>The following usage is transcluded from {{lts|Col-begin/doc}}</span>
+{{Col-begin/doc}}<noinclude>
+</div></noinclude><includeonly>
+
+<!-- PLEASE ADD CATEGORIES BELOW THIS LINE, THANKS. -->
+
+
+<!-- PLEASE ADD INTERWIKIS BELOW THIS LINE, THANKS. -->
+
+
+</includeonly>
