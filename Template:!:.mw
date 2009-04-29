@@ -1,0 +1,14 @@
+<nowiki>:</nowiki><noinclude>{{usage div}}{{documentation}}
+This template, like some other {{c|Wikipedia formatting and function templates|formatting templates}} is a workaround for wikimarkup behaviors. 
+
+* In this case, it allows a [[colon]] to terminate a minor title-line begun with a [[semi-colon]].
+
+* It just provides the string: <p><pre> <nowiki><</nowiki>nowiki>:<nowiki><</nowiki>/nowiki> </pre></p>
+<!--{{pp-template|small=yes}}
+{{Lts|!!}}
+-->
+{{2}}</div>
+[[Category:Wikipedia formatting and function templates|{{PAGENAME}}]]<!-- and formerly the simple easy name... [[Category:Formatting templates|{{PAGENAME}}]]
+--->
+[[Category:Typing-aid templates|{{PAGENAME}}]]
+</noinclude>
