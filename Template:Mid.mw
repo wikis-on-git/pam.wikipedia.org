@@ -1,0 +1,6 @@
+<includeonly>|}<!-- Template:Mid or [[Template:Middle]] -->
+| width=1% class="multicol-gutter" |
+|bgcolor={{{bgColor|{{{bgcolor|<!--"#FFFFE0"-->transparent}}}}}} valign=top width={{{width2|48%}}}|
+{|</includeonly><noinclude>
+{{documentation|Template:top/doc}}
+</noinclude><!-- Template:Mid ends --->
