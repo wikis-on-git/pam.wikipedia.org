@@ -1,0 +1,101 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+__NOTOC__
+This is the {{tl2|tl2}} template.
+
+{{tl2|tl2}} is similar to {{tl|tl}}. '''Tl''' stands for '''T'''emplate '''l'''ink. {{tl2|tl2}} is a [[w:Macro (computer science)|macro]] [[m:Help:template|template]] used to display a template name as a link surrounded by braces, thus showing how the template name would be used in code. Its primary use is in instruction and documentation.
+
+{{tl2|tl2}} differs from {{tl|tl}} in that it displays with a wider text style, like {{tlx|tlx}}, and also takes the named parameters 'SISTER=xx' and 'LANG=ll', so that it may also be used to ''list and link to templates on other English and non-English language sister projects''.
+
+=== Related template ===
+ 
+{{tlx|tlx}} displays with the same enhanced presentation, and also expands several 'placeholder' parameters to generate a sample template call.
+
+=== Usage ===
+
+<pre>
+ {{Tl|template name to display}}
+and
+ {{Tl2|template name to display}} -- local link, just like Tl.
+ or
+ {{Tl2|SISTER=V:|template name to display}} -- displays a template on Wikiversity
+ or
+ {{Tl2|LANG=fr.|SISTER=wikisource|template name to display}} -- displays a template 
+                       on the French Wikisource sister project.
+</pre>
+
+=== Example ===
+
+{| class="wikitable"
+! Code
+! Result
+|-
+| <code><nowiki>{{Tl|x0}}</nowiki></code>
+| {{[[Template:X0|x0]]}}
+|-
+| <code><nowiki>{{Tl2|x1}}</nowiki></code>
+| <tt><nowiki>{{</nowiki>[[{{{LANG|}}}{{{SISTER|}}}{{ns:Template}}:x1|x1]]<nowiki>}}</nowiki></tt>
+|-
+| <code><nowiki>{{Tl2|SISTER=M:|3x}}</nowiki></code>
+| <tt><nowiki>{{</nowiki>[[{{{LANG|}}}M:{{ns:Template}}:3x|3x]]<nowiki>}}</nowiki></tt>
+|-
+| <code><nowiki>{{Tl2|SISTER=wikibooks|LANG=de:|WP}}</nowiki></code>
+| <tt><nowiki>{{</nowiki>[http://de.wikibooks.org/wiki/Vorlage:WP WP]<nowiki>}}</nowiki></tt><!---
+----- This is currently a fraudulent output result... the template code needs modified to work
+----- per this plan, then this /doc file fixed up to match whatever the correct syntax actually is.
+----- ALMOST work: 
+[[:de:wikibooks:{{ns:template}}:WP |WP]]
+[[de:wikibooks:{{ns:template}}:WP |WP]]
+---->
+|}
+
+=== See also ===
+
+* {{tiw|tl}}&nbsp; &nbsp;&mdash; links and edit history of the Tl template.
+* {{tiw|tl2}} &nbsp;&mdash; links and edit history of the Tl2 template.
+* {{tiw|tlp}} &nbsp;&mdash; Template link, with single parameter.
+* {{tiw|tlx}} &nbsp;&mdash; Template link, up to three parameters.
+* {{tiw|tlsp}} &mdash; Template link, ditto subst'ed.
+* {{tiw|lts}} &nbsp;&mdash; see Lts discussion for more variants.
+* {{tiw|tlu}} - like {{tlx|tl}} / {{tlx|tlp}} for any namespace.
+* {{tiw|tn}} - Same as tl, but shows the braces as part of the link.
+* {{Lcs|Internal link templates}}
+* {{tiw|evd}} - Show live example
+
+
+<includeonly>
+<!-- ADD CATEGORIES AND INTERWIKIS BELOW THIS LINE -->
+[[Category:Typing-aid templates|{{PAGENAME}}]]
+[[Category:Internal link templates|{{PAGENAME}}]]
+[[Category:Interwiki link templates|{{PAGENAME}}]]
+
+[[az:Şablon:ŞK2]]
+[[bg:Шаблон:Ш2]]
+[[ca:Plantilla:Tl2]]
+[[cs:Šablona:Šablona2]]
+[[eo:Ŝablono:Ŝ2]]
+[[es:Plantilla:Tl2]]
+[[fa:الگو:الگوی]]
+[[fi:Malline:Malline2]]
+[[fr:Modèle:M2]]
+[[he:תבנית:תב]]
+[[ia:Patrono:Tl2]]
+[[ja:Template:Tl2]]
+[[ka:თარგი:Tl2]]
+[[ko:틀:Tl2]]
+[[kw:Template:Viz2]]
+[[mk:Шаблон:Tl2]]
+[[my:Template:Tl]]
+[[or:Template:Tl2]]
+[[pih:Template:Tl2]]
+[[pl:Szablon:S2]]
+[[pt:Predefinição:Link para predefinição2]]
+[[ru:Шаблон:Tl2]]
+[[sl:Predloga:Tl2]]
+[[sv:Mall:Mall2]]
+[[th:แม่แบบ:Tl2]]
+[[uk:Шаблон:Tl2]]
+[[vi:Tiêu bản:Tl2]]
+[[zh:Template:Tl2]]
+[[zh-yue:Template:Tl2]]
+</includeonly>
