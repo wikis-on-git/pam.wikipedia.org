@@ -1,0 +1,15 @@
+<includeonly><br /><br /></includeonly><noinclude>
+<!-- {{interwikitmp-grp|V=3|cat=typing-aid templates|wdy=|wqt=|wsr=|wnw}} -->
+
+;This template performs what once known as a double-space, actually a double {{wd|line feed }} (2x {{wpd|newline}}s) but without the overhead 'code' of the {{tl|I2}}. This is much easier to subst, in particular.{{2}}Like <nowiki>{{I2}}</nowiki> and other members of the [[template:indent family usage|indent family]] of templates it has some beneficial inheritance attributes within wikimarkup. 
+
+<pre>
+Actual code content:
+<br /><br />
+</pre>
+[[Category:Typing-aid templates|I2]]
+;This is a substable formating utility that duplicates the modified line wrapping behavior of {{tl|I2}}, but without the ability to indent. 
+
+It is thus far less costly of template pre-expansion and post expansion memory limits, making it more suitable for formatting in articles wherein a lot of templates are used pushing such limits.
+{{indent family usage}}
+</noinclude>
