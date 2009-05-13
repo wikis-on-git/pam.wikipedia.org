@@ -38,13 +38,13 @@
 }}
 
 {{#if:{{{penname<includeonly>|</includeonly>}}}{{{pseudonym<includeonly>|</includeonly>}}}|
-! [[Pen name]]
+! [[Talipanpan lagiu]]
 {{!}} {{{penname<includeonly>|</includeonly>{{{pseudonym|}}}}}}
 {{!}}-
 }}
 
 {{#if:{{{occupation<includeonly>|</includeonly>}}}|
-! [[Obra|Obra]]
+! [[Occupation|Obra]]
 {{!}} {{{occupation<includeonly>|</includeonly>}}}
 {{!}}-
 }}
@@ -92,19 +92,19 @@
 }}
 
 {{#if:{{{subject<includeonly>|</includeonly>}}}|
-! Subjects
+! Paksa
 {{!}} {{{subject<includeonly>|</includeonly>}}}
 {{!}}-
 }}
 
 {{#if:{{{movement<includeonly>|</includeonly>}}}|
-! [[Literary movement]]
+! [[Kilusan pangliteratura]]
 {{!}} {{{movement<includeonly>|</includeonly>}}}
 {{!}}-
 }}
 
 {{#if:{{{notableworks<includeonly>|</includeonly>}}}|
-! Notable {{nowrap|work(s)}}
+! Bantug {{nowrap|obra)}}
 {{!}} {{{notableworks<includeonly>|</includeonly>}}}
 {{!}}-
 }}
@@ -116,7 +116,7 @@
 }}
 
 {{#if:{{{spouse<includeonly>|</includeonly>}}}|
-! {{nowrap|Spouse(s)}}
+! {{nowrap|Asawa}}
 {{!}} {{{spouse<includeonly>|</includeonly>}}}
 {{!}}-
 }}
