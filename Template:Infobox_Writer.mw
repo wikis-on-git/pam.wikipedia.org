@@ -1,0 +1,190 @@
+{| class="infobox vcard vevent" style="width:{{{box_width|22em}}}; font-size:90%; text-align:left;"
+! colspan="2" style="text-align:center; font-size:larger;" class="fn summary" | {{{name|{{PAGENAME}}}}}
+{{!}}-
+
+{{#if:{{{image<includeonly>|</includeonly>}}}|
+{{!}} colspan="2" style="text-align:center;" {{image class|{{{image}}}}} {{!}} [[Image:{{{image}}}|{{#if:{{{imagesize|}}}|{{{imagesize}}}|200px}}|{{{alt|}}}]]<br /><small>{{{caption<includeonly>|</includeonly>}}}</small>
+{{!}}-
+}}
+
+<!-- {{#if:{{{pseudonym<includeonly>|</includeonly>}}}|
+! [[Pseudonym]]
+{{!}} class="nickname" {{!}} {{{pseudonym<includeonly>|</includeonly>}}}
+{{!}}-
+}} -->
+
+{{#if:{{{birthname<includeonly>|</includeonly>}}}  {{{birthdate<includeonly>|</includeonly>}}} {{{birthplace<includeonly>|</includeonly>}}}|
+! Mibait
+{{!}} {{#if:{{{birthname<includeonly>|</includeonly>}}}
+|{{{birthname}}}<br />}} {{#switch: {{lc:{{{birthdate<includeonly>|</includeonly>}}}}}
+| ?|??|???|????|19?|19??|18??|17??|unknown|u=date of birth unknown
+| {{{birthdate<includeonly>|</includeonly>}}}
+}}<br />{{{birthplace<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+
+{{#switch: {{lc:{{{deathdate<includeonly>|</includeonly>}}}}}
+|Kematayan=
+|
+{{#if:{{{deathdate<includeonly>|</includeonly>}}}{{{deathplace<includeonly>|</includeonly>}}}| 
+! Kematayn
+{{!}} {{#if:{{{deathdate<includeonly>|</includeonly>}}} |
+{{#switch: {{lc:{{{deathdate<includeonly>|</includeonly>}}}}}
+| ?|??|???|????|19?|19??|18??|17??|unknown|u=date of death unknown
+| {{{deathdate<includeonly>|</includeonly>}}}
+}}<br />{{{deathplace<includeonly>|</includeonly>}}}
+}}}}
+{{!}}-
+}}
+
+{{#if:{{{penname<includeonly>|</includeonly>}}}{{{pseudonym<includeonly>|</includeonly>}}}|
+! [[Pen name]]
+{{!}} {{{penname<includeonly>|</includeonly>{{{pseudonym|}}}}}}
+{{!}}-
+}}
+
+{{#if:{{{occupation<includeonly>|</includeonly>}}}|
+! [[Obra|Obra]]
+{{!}} {{{occupation<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+
+{{#if:{{{nationality<includeonly>|</includeonly>}}}|
+! [[Bangsa]]
+{{!}} {{{nationality<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+
+{{#if:{{{ethnicity<includeonly>|</includeonly>}}}|
+! [[Katutubu]]
+{{!}} {{{ethnicity<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+
+{{#if:{{{citizenship<includeonly>|</includeonly>}}}|
+! Citizenship
+{{!}} {{{citizenship<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+
+{{#if:{{{education<includeonly>|</includeonly>}}}|
+! Educasiun
+{{!}} {{{education<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+
+{{#if:{{{alma_mater<includeonly>|</includeonly>}}}|
+! Alma&nbsp;mater
+{{!}} {{{alma_mater<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+
+{{#if:{{{period<includeonly>|</includeonly>}}}|
+! Writing period
+{{!}} {{{period<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+
+{{#if:{{{genre<includeonly>|</includeonly>}}}|
+! [[Literary genre|Genres]]
+{{!}} {{{genre<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+
+{{#if:{{{subject<includeonly>|</includeonly>}}}|
+! Subjects
+{{!}} {{{subject<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+
+{{#if:{{{movement<includeonly>|</includeonly>}}}|
+! [[Literary movement]]
+{{!}} {{{movement<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+
+{{#if:{{{notableworks<includeonly>|</includeonly>}}}|
+! Notable {{nowrap|work(s)}}
+{{!}} {{{notableworks<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+
+{{#if:{{{awards<includeonly>|</includeonly>}}}|
+! Kapansinpansin {{nowrap|award(s)}}
+{{!}} {{{awards<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+
+{{#if:{{{spouse<includeonly>|</includeonly>}}}|
+! {{nowrap|Spouse(s)}}
+{{!}} {{{spouse<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+
+{{#if:{{{partner<includeonly>|</includeonly>}}}|
+! [[Domestic partnership|Domestic {{nowrap|partner(s)}}]]
+{{!}} {{{partner<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+
+{{#if:{{{children<includeonly>|</includeonly>}}}|
+! Anak
+{{!}} {{{children<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+
+{{#if:{{{relatives<includeonly>|</includeonly>{{{relations|}}}}}}|
+! {{nowrap|Relative(s)}}
+{{!}} {{{relatives<includeonly>|</includeonly>{{{relations|}}}}}}
+{{!}}-
+}}
+
+{{#if:{{{influences<includeonly>|</includeonly>}}}|
+! colspan="2" style="border-top: 1px solid #C0C0C0;"{{!}} 
+{{!}}-
+}}
+
+{{#if:{{{influences<includeonly>|</includeonly>}}}|
+{{!}} colspan="2" {{!}} {{Collapsible list|title=Influences|frame_style=border:none; padding: 0;|title_style=background:transparent; text-align:left;|list_style=text-align:left;display:none;|1={{#if:{{{influences<includeonly>|</includeonly>}}}|:::{{{influences}}}}}}}
+{{!}}-
+}}
+
+{{#if:{{{influenced<includeonly>|</includeonly>}}}|
+! colspan="2" style="border-top: 1px solid #C0C0C0;"{{!}} 
+{{!}}-
+}}
+
+{{#if:{{{influenced<includeonly>|</includeonly>}}}|
+{{!}} colspan="2" {{!}} {{Collapsible list|title=Influenced|frame_style=border:none; padding: 0;|title_style=background:transparent; text-align:left;|list_style=text-align:left;display:none;|1={{#if:{{{influenced<includeonly>|</includeonly>}}}|:::{{{influenced}}}}}}}
+{{!}}-
+}}
+
+{{#if:{{{signature<includeonly>|</includeonly>}}}|
+! colspan="2" style="border-top: 1px solid #C0C0C0;"{{!}} 
+{{!}}-
+}}
+
+{{#if:{{{signature<includeonly>|</includeonly>}}}|
+! Pirma
+{{!}} [[Image:{{{signature}}}|128px]]
+{{!}}-
+}}
+
+{{#if:{{{website<includeonly>|</includeonly>}}}|
+! colspan="2" style="border-top: 1px solid #C0C0C0;" {{!}} 
+{{!}}-
+}} 
+
+{{#if:{{{website<includeonly>|</includeonly>}}}|
+{{!}} colspan="2" style="text-align:center;" {{!}} [{{{website}}} Official website]
+{{!}}-
+}}
+
+{{#switch: {{lc:{{{portaldisp|}}}}} |yes|y=! colspan="2" style="text-align:center;border-top: 1px solid #C0C0C0;" {{!}} [[Image:Portal.svg|20px]] [[Portal:Literature|Literature portal]]
+{{!}}-
+}} 
+
+|}<noinclude>
+{{pp-template|small=yes}}
+{{documentation}}
+</noinclude>
