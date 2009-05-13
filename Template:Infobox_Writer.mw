@@ -27,7 +27,7 @@
 |Kematayan=
 |
 {{#if:{{{deathdate<includeonly>|</includeonly>}}}{{{deathplace<includeonly>|</includeonly>}}}| 
-! Kematayn
+! Kematayan
 {{!}} {{#if:{{{deathdate<includeonly>|</includeonly>}}} |
 {{#switch: {{lc:{{{deathdate<includeonly>|</includeonly>}}}}}
 | ?|??|???|????|19?|19??|18??|17??|unknown|u=date of death unknown
