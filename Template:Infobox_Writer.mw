@@ -80,7 +80,7 @@
 }}
 
 {{#if:{{{period<includeonly>|</includeonly>}}}|
-! Writing period
+!  Pamanyulat panaun
 {{!}} {{{period<includeonly>|</includeonly>}}}
 {{!}}-
 }}
