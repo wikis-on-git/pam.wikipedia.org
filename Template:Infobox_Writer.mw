@@ -111,18 +111,18 @@
 
 {{#if:{{{awards<includeonly>|</includeonly>}}}|
 ! Kapansinpansin {{nowrap|award(s)}}
-{{!}} {{{galal<includeonly>|</includeonly>}}}
+{{!}} {{{awards<includeonly>|</includeonly>}}}
 {{!}}-
 }}
 
 {{#if:{{{spouse<includeonly>|</includeonly>}}}|
 ! {{nowrap|Spouse(s)}}
-{{!}} {{{asawa<includeonly>|</includeonly>}}}
+{{!}} {{{spouse<includeonly>|</includeonly>}}}
 {{!}}-
 }}
 
 {{#if:{{{partner<includeonly>|</includeonly>}}}|
-! [[Kayabe bale|Domestic {{nowrap|partnes(s)}}]]
+! [[Domestic partnership|Domestic {{nowrap|partner(s)}}]]
 {{!}} {{{partner<includeonly>|</includeonly>}}}
 {{!}}-
 }}
@@ -134,8 +134,8 @@
 }}
 
 {{#if:{{{relatives<includeonly>|</includeonly>{{{relations|}}}}}}|
-! {{nowrap|relatives}}
-{{!}} {{{kamaganak<includeonly>|</includeonly>{{{relations|}}}}}}
+! {{nowrap|Relative(s)}}
+{{!}} {{{relatives<includeonly>|</includeonly>{{{relations|}}}}}}
 {{!}}-
 }}
 
