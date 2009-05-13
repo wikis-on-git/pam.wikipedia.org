@@ -122,7 +122,7 @@
 }}
 
 {{#if:{{{partner<includeonly>|</includeonly>}}}|
-! [[Domestic partnership|Domestic {{nowrap|partner(s)}}]]
+! [[Domestic partnership|Kayabe {{nowrap|bale}}]]
 {{!}} {{{partner<includeonly>|</includeonly>}}}
 {{!}}-
 }}
@@ -134,7 +134,7 @@
 }}
 
 {{#if:{{{relatives<includeonly>|</includeonly>{{{relations|}}}}}}|
-! {{nowrap|Relative(s)}}
+! {{nowrap|Kamaganak}}
 {{!}} {{{relatives<includeonly>|</includeonly>{{{relations|}}}}}}
 {{!}}-
 }}
