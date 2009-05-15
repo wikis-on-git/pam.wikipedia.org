@@ -116,69 +116,6 @@ Thanks. [[User:Luckas Blade|Luckas Blade]] 22:05, 14 Nobiembri 2008 (UTC)
 
 : Not done; a local bot flag is no longer needed. This is a [[m:bot policy|global bot]], and this wiki recently enabled global bots. —<small>[[m:User:Pathoschild|Pathoschild]] 18:39:39, 15 Mayu 2009 (UTC)</small>
 
-===[[User:Byrialbot]]===
-Hello! I ask for permission to run my interwiki bot [[User:Byrialbot|Byrialbot]] here at the Kapampangan Wikipedia, and to get a bot flag for it.
-* Bot account: [[User:Byrialbot]] ([[Special:Contributions/Byrialbot|contributions]])
-* Botmaster: [[User:Byrial]]
-* Botmaster's home project: [[:da:User:Byrial]]
-* List of botflags on other wikipedias: als:, ar:, bat-smg:, be:, bn:, bs:, bpy:, ca:, ceb:, cs:, da:, de:, el:, en:, eo:, es:, et:, fo:, fr:, fy:, gl:, he:, hu:, id:, io:, is:, it:, ka:, ksh:, lb:, li:, lt:, lv:, mk:, ml:, mr:, ms:, nds:, nds-nl:, nl:, nn:, no:, pms:, pt:, ro:, ru:, sco:, simple:, sk:, sl:, sr:, sv:, ta:, tl:, th:, uk:, vo:, zh-min-nan:
-* Purpose: Interwiki
-* Technical details: Interwiki using Pywikipediabot (constantly updated  with CVS) starting from da:, nn:, no: and sv:. It mostly runs manually assisted and I try to solve found interwiki conflicts when I can.
-It will soon begin to do test edits. Thank you!
-[[User:Byrial|Byrial]] 16:58, 29 Juniu 2007 (UTC)
-
-: You have my approval. [[User:Val2397|Val2397]] 16:36, 30 Juniu 2007 (UTC)
-:: Thank you. The bot now has got a botflag. [[User:Byrial|Byrial]] 18:35, 9 Juliu 2007 (UTC)
-
-===[[User:BotMultichill|BotMultichill]]===
-Hi, i request a bot bit for [[User:BotMultichill|BotMultichill]].
-* Botmaster : [[User:Multichill|Multichill]]
-* Bot's name : [[User:BotMultichill|BotMultichill]]
-* List of botflags on others wikipedias: about 60 atm (see [[meta:User:Multichill]] for the current list)
-* Purpose: Interwiki (pywikipedia)
-* Technical details : [[User:BotMultichill|BotMultichill]] is an interwiki bot starting at the [[:nl:Gebruiker:BotMultichill|Dutch wikipedia]]. The bot uses the pywikipedia framework and runs day and night in autonomous mode. Sometimes the bot will run in manual assisted mode to solve interwiki conflicts.
-[[User:Multichill|Multichill]] 11:33, 3 Juliu 2007 (UTC)
-
-: You have my approval.[[User:Val2397|Val2397]] 18:07, 4 Juliu 2007 (UTC)
-
-===[[User:PipepBot|PipepBot]]===
-Hello! I ask for permission to run my interwiki bot [[User:PipepBot|PipepBot]] here, and to get a bot flag for it.
-* Operator: [[:it:User:Pipep]]
-* Purpose: Interwiki
-* Software: Pywikipedia
-* Have bot flag at: als, am, an, ar, az, bat-smg, be-x-old, bn, bs, ca, ceb, cs, cv, da, en, eo, et, fo, fur, fy, ga, hr, id, is, ka, ksh, la, lb, li, lv, mk, ml, nap, nds, nds-nl, nn, no, pms, roa-tara, scn, simple, sl, sr, sv, th, uk, vec, zea
-* Details: Interwiki using Pywikipediabot. It mostly runs manually assisted. May run automatically in some cases.
-Thank you!
---[[:it:User:Pipep]] 14:23, 11 Agostu 2007 (UTC)
-
-: You have my approval.[[User:Val2397|Val2397]] 18:20, 11 Agostu 2007 (UTC)
-:: PipepBot has now bot flag. Thank you! [[:it:User:Pipep]] 17:58, 5 September 2007 (UTC)
-
-===[[User:AlleborgoBot|AlleborgoBot]]===
-Hi, AlleborgoBot is an interwiki bot run by [[:it:Utente:Alleborgo|Alleborgo]] starting at the italian wikipedia. The bot uses the pywikipedia framework daily updated to the last SVN version. The Bot runs in autonomous, but sometimes, it will run in manual assisted mode to solve interwiki conflicts. Already has a bot flag in ar, an, az, bar, bg, br, bpy, bs, ca, ceb, cs, da, de, el, en, eo, es, eu, fa, fi, fr, frp, gl, he, hr, ht, hu, hy, id, is, it, ja, jv, ka, ksh, ku, lb, li, lmo, ln, lt, mk, mi, ml, ms, nap, nds, nds-nl, nl, nn, no, pl, pt, ro, roa-tara, ru, sco, sh, sk, simple, sl, sq, sr, su, sv, ta, th, tr, tt, uk, ur, vec, vi, vo, zh, zh-yue. On it wiki has done more than 65000 edit. Now I'm requesting the flag here, thanks  --[[User:AlleborgoBot|AlleborgoBot]] 14:07, 13 October 2007 (UTC)
-
-===[[User:Purbo T|Purbo T]]===
-Hi, I'd like to request a bot flag for [[:User:Purbo T|Purbo T]] <small>([[:Special:Contributions/Purbo T|contributions]])</small>
-*'''Operator:''' [[:User:Purodha|Purodha]] = [[:ksh:Medmaacher:Purodha]]
-*'''Function:''' interwiki link maintenance
-*'''Operation:'''  manually-assisted, occasionally in automatic or autonomous mode, starting mostly from the [[:ksh:|Wikipedia of Ripuarian languages]]
-*'''Software:''' [[:meta:pywikipedia|pywikipediabot]] framework updated daily from [http://svn.wikimedia.org/svnroot/pywikipedia/trunk/pywikipedia/ svn]
-*'''Already has bot flag on:''' <span class="plainlinks"> [{{fullurl:aa:Special:Userlist|limit=1&username=Purbo_T}} aa], [{{fullurl:am:Special:Userlist|limit=1&username=Purbo_T}} am], [{{fullurl:ar:Special:Userlist|limit=1&username=Purbo_T}} ar], [{{fullurl:be-x-old:Special:Userlist|limit=1&username=Purbo_T}} be-x-old], [{{fullurl:bn:Special:Userlist|limit=1&username=Purbo_T}} bn], [{{fullurl:bo:Special:Userlist|limit=1&username=Purbo_T}} bo], [{{fullurl:bug:Special:Userlist|limit=1&username=Purbo_T}} bug], [{{fullurl:bxr:Special:Userlist|limit=1&username=Purbo_T}} bxr], [{{fullurl:cbk-zam:Special:Userlist|limit=1&username=Purbo_T}} cbk-zam], [{{fullurl:cdo:Special:Userlist|limit=1&username=Purbo_T}} cdo], [{{fullurl:chy:Special:Userlist|limit=1&username=Purbo_T}} chy], [{{fullurl:co:Special:Userlist|limit=1&username=Purbo_T}} co], [{{fullurl:crh:Special:Userlist|limit=1&username=Purbo_T}} crh], [{{fullurl:da:Special:Userlist|limit=1&username=Purbo_T}} da], [{{fullurl:de:Special:Userlist|limit=1&username=Purbo_T}} de], [{{fullurl:dsb:Special:Userlist|limit=1&username=Purbo_T}} dsb], [{{fullurl:dz:Special:Userlist|limit=1&username=Purbo_T}} dz], [{{fullurl:ee:Special:Userlist|limit=1&username=Purbo_T}} ee], [{{fullurl:eo:Special:Userlist|limit=1&username=Purbo_T}} eo], [{{fullurl:fa:Special:Userlist|limit=1&username=Purbo_T}} fa], [{{fullurl:ff:Special:Userlist|limit=1&username=Purbo_T}} ff], [{{fullurl:fi:Special:Userlist|limit=1&username=Purbo_T}} fi], [{{fullurl:fj:Special:Userlist|limit=1&username=Purbo_T}} fj], [{{fullurl:fr:Special:Userlist|limit=1&username=Purbo_T}} fr], [{{fullurl:gv:Special:Userlist|limit=1&username=Purbo_T}} gv], [{{fullurl:ha:Special:Userlist|limit=1&username=Purbo_T}} ha], [{{fullurl:hr:Special:Userlist|limit=1&username=Purbo_T}} hr], [{{fullurl:hsb:Special:Userlist|limit=1&username=Purbo_T}} hsb], [{{fullurl:ht:Special:Userlist|limit=1&username=Purbo_T}} ht], [{{fullurl:ig:Special:Userlist|limit=1&username=Purbo_T}} ig], [{{fullurl:is:Special:Userlist|limit=1&username=Purbo_T}} is], [{{fullurl:ja:Special:Userlist|limit=1&username=Purbo_T}} ja], [{{fullurl:kn:Special:Userlist|limit=1&username=Purbo_T}} kn], [{{fullurl:job:Special:Userlist|limit=1&username=Purbo_T}} jbo], [{{fullurl:ki:Special:Userlist|limit=1&username=Purbo_T}} ki], [{{fullurl:ksh:Special:Userlist|limit=1&username=Purbo_T}} ksh], [{{fullurl:ku:Special:Userlist|limit=1&username=Purbo_T}} ku], [{{fullurl:kv:Special:Userlist|limit=1&username=Purbo_T}} kv], [{{fullurl:lbe:Special:Userlist|limit=1&username=Purbo_T}} lbe], [{{fullurl:lg:Special:Userlist|limit=1&username=Purbo_T}} lg], [{{fullurl:li:Special:Userlist|limit=1&username=Purbo_T}} li], [{{fullurl:lmo:Special:Userlist|limit=1&username=Purbo_T}} lmo], [{{fullurl:lo:Special:Userlist|limit=1&username=Purbo_T}} lo],[{{fullurl:lt:Special:Userlist|limit=1&username=Purbo_T}} lt], [{{fullurl:mh:Special:Userlist|limit=1&username=Purbo_T}} mh],  [{{fullurl:ml:Special:Userlist|limit=1&username=Purbo_T}} ml], [{{fullurl:mr:Special:Userlist|limit=1&username=Purbo_T}} mr], [{{fullurl:nds:Special:Userlist|limit=1&username=Purbo_T}} nds], [{{fullurl:ne:Special:Userlist|limit=1&username=Purbo_T}} ne], [{{fullurl:new:Special:Userlist|limit=1&username=Purbo_T}} new], [{{fullurl:ng:Special:Userlist|limit=1&username=Purbo_T}} ng], [{{fullurl:nl:Special:Userlist|limit=1&username=Purbo_T}} nl], [{{fullurl:nn:Special:Userlist|limit=1&username=Purbo_T}} nn], [{{fullurl:nov:Special:Userlist|limit=1&username=Purbo_T}} nov], [{{fullurl:om:Special:Userlist|limit=1&username=Purbo_T}} om], [{{fullurl:ny:Special:Userlist|limit=1&username=Purbo_T}} ny], [{{fullurl:or:Special:Userlist|limit=1&username=Purbo_T}} or], [{{fullurl:os:Special:Userlist|limit=1&username=Purbo_T}} os], [{{fullurl:pa:Special:Userlist|limit=1&username=Purbo_T}} pa], [{{fullurl:pms:Special:Userlist|limit=1&username=Purbo_T}} pms], [{{fullurl:rn:Special:Userlist|limit=1&username=Purbo_T}} rn], [{{fullurl:sg:Special:Userlist|limit=1&username=Purbo_T}} sg], [{{fullurl:scn:Special:Userlist|limit=1&username=Purbo_T}} scn], [{{fullurl:simple:Special:Userlist|limit=1&username=Purbo_T}} simple], [{{fullurl:sn:Special:Userlist|limit=1&username=Purbo_T}} sn], [{{fullurl:stq:Special:Userlist|limit=1&username=Purbo_T}} stq], [{{fullurl:sv:Special:Userlist|limit=1&username=Purbo_T}} sv], [{{fullurl:tg:Special:Userlist|limit=1&username=Purbo_T}} tg],  [{{fullurl:ti:Special:Userlist|limit=1&username=Purbo_T}} ti], [{{fullurl:to:Special:Userlist|limit=1&username=Purbo_T}} to], [{{fullurl:ts:Special:Userlist|limit=1&username=Purbo_T}} ts], [{{fullurl:tum:Special:Userlist|limit=1&username=Purbo_T}} tum], [{{fullurl:tw:Special:Userlist|limit=1&username=Purbo_T}} tw], [{{fullurl:ty:Special:Userlist|limit=1&username=Purbo_T}} ty], [{{fullurl:vec:Special:Userlist|limit=1&username=Purbo_T}} vec], [{{fullurl:vi:Special:Userlist|limit=1&username=Purbo_T}} vi], [{{fullurl:vls:Special:Userlist|limit=1&username=Purbo_T}} vls], [{{fullurl:vo:Special:Userlist|limit=1&username=Purbo_T}} vo],  [{{fullurl:yi:Special:Userlist|limit=1&username=Purbo_T}} yi], [{{fullurl:za:Special:Userlist|limit=1&username=Purbo_T}} za], [{{fullurl:zea:Special:Userlist|limit=1&username=Purbo_T}} zea], [{{fullurl:zh-classical:Special:Userlist|limit=1&username=Purbo_T}} zh-classical], </span> more pending.
-* Generally, there is [http://tools.wikimedia.de/~purodha/sample/dbswithuser.php?usr=Purbo_T cumulated&nbsp;data] on the bot (sorry, due to current technical problems at the [[:m:toolserver|toolserver]], the data is partially not up to date, and may be inaccessible for short periods of time)
-Thank you! --[[User:Purodha|Purodha Blissenbach]] 12:30, 15 February 2008 (UTC)
-
-===[[User:Idioma-bot|Idioma-bot]]===
-Hi, I request a bot flag for [[User:Idioma-bot|Idioma-bot]]
-*'''Operator''': [[:lt:User:Hugo.arg]]
-*'''Automatic or Manually Assisted''': Automatic and manually
-*'''Programming Language(s)''': Pywikipedia framework daily updated to the last SVN version
-*'''Function Summary''': interwiki
-*'''Already has a bot flag in''': more than 100 wikipedias (en, es, et, fr, de, lt, pl, ru, ja, zh, lv, pt, hr, sr...)
-[[:lt:User:Hugo.arg]]14:28, 18 March 2008 (UTC)
-
-: Hi Hugo, you are approved to become a bot.  Welcome! [[User:Val2397|Val2397]] 00:04, 19 March 2008 (UTC)
-:: Bot status has now been effected. - [[Special:Contributions/194.237.142.6|194.237.142.6]] 10:41, 27 March 2008 (UTC)
-
 ===[[User:CarsracBot|CarsracBot]]===
 Hi, I request a bot flag for [[User:CarsracBot|CarsracBot]]
 *'''Operator''': [[:lt:User:Carsrac]]
