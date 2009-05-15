@@ -86,6 +86,8 @@ Hi, I request a bot bit for [[User:SieBot|SieBot]].
 * Technical details : [[User:SieBot|SieBot]] is an interwiki bot starting at any Wikipedia. The bot uses the pywikipedia framework and runs day and night in autonomous mode. Sometimes the bot will run in manual assisted mode to solve interwiki conflicts. It has made over 5 million edits since it started.
 [[User:Siebrand|Siebrand]] 22:35, 26 Juniu 2008 (UTC)
 
+: Not done; a local bot flag is no longer needed. This is a [[m:bot policy|global bot]], and this wiki recently enabled global bots. —<small>[[m:User:Pathoschild|Pathoschild]] 18:30:14, 15 Mayu 2009 (UTC)</small>
+
 ===[[User:WikiDreamer Bot|WikiDreamer Bot]]===
 *'''Operator:''' [[:fr:User:WikiDreamer|WikiDreamer]]
 *'''Purpose:''' Interwiki links: It adds/modifies/deletes interwiki links from French Wikipedia
