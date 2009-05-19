@@ -1,5 +1,5 @@
 <includeonly>{{#ifeq: {{FULLPAGENAME}} | Template:Potd/{{{2|}}}-{{{3|}}}-{{{4|}}} | [[File:{{{1|}}}|300px|thumb]]
-[[:File:{{{1|}}}]] is the [[Commons:Picture of the day|Picture of the day]] from {{ISOdate|{{{2|}}}-{{{3|}}}-{{{4|}}}|en}}. 
+[[:File:{{{1|}}}]]iya ing [[Commons:Picture of the day|Larawan ning aldong iti]] manibat {{ISOdate|{{{2|}}}-{{{3|}}}-{{{4|}}}|en}}. 
 
 Descriptions:
 <div style="border: 1px solid #999; margin-right: 330px;">{{Special:PrefixIndex/Template:Potd/{{{2|}}}-{{{3|}}}-{{{4|}}}_(}}</div>
