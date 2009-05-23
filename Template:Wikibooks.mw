@@ -2,7 +2,7 @@
 |project=wikibooks
 |text={{#if: {{{2|}}}
   |Ing [[Wikibooks|Wikibook]] ''[[Wikibooks:{{{1}}}|{{{1}}}]]''
-  |[[Wikibooks]]}} atin yang {{#if: {{{2|}}}
+  |Ing [[Wikibooks]]}} atin yang {{#if: {{{2|}}}
   | bulung
   | {{#if: {{{1|}}}
     | libru
