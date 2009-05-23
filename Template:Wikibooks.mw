@@ -2,16 +2,16 @@ div class="infobox sisterproject">
 <div style="float: left;">[[Image:Wikibooks-logo-en.svg|50px|none|Wikibooks]]</div>
 <div style="margin-left: 60px;">[[Wikibooks]] {{
   #if: {{{2|}}}
-  | [[Wikibooks:{{{1}}}|{{{1}}}]]
-}} has {{
+  | [[Ing Wikibooks:{{{1}}}|{{{1}}}]]
+}} atin yang {{
   #if: {{{2|}}}
-  | a page
+  | bulung
   | {{
     #if: {{{1|}}}
-    | a book
-    | more
+    | libru
+    | karagdagan
   }}
-}} on the topic of
+}} king paksang 
 <div style="margin-left:10px;">''{{
   #if: {{{3|}}}
   | [[wikibooks:{{{1}}}/{{{2}}}|{{{3}}}]]
@@ -27,7 +27,7 @@ div class="infobox sisterproject">
 }}''</div>
 </div>
 </div><noinclude>
-Ining [[Wikipedia:Template|padrun]] a ini atin ayng[[Wikipedia:Avoid self-references|sariling-dalerayan]] at dake ne ning proyektu ning Wikipedia imbes na ing laman na encyclopaedic ya. Malyari yang magamit para mirinan yang kasususg  kareng aklat keng [[Wikibooks]] a keraklan magagmit la at aburi no ning mamasa.
+Ining [[Wikipedia:Template|padrun]] a ini atin yang[[Wikipedia:Avoid self-references|sariling-dalerayan]] at dake ne ning proyektu ning Wikipedia imbes na ing laman na encyclopaedic ya. Malyari yang magamit para mirinan yang kasususg  kareng aklat keng [[Wikibooks]] a keraklan magagamit la at aburi no ning mamasa.
 
 {{/Manual}}
 
