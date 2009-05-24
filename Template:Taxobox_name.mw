@@ -1,0 +1,13 @@
+<includeonly>{{#switch:'''''{{PAGENAME}}'''''
+|{{{1}}}|'''{{{1}}}'''|{{{2}}}|'''{{{2}}}'''|{{{3}}}|'''{{{3}}}'''={{taxobox title}}
+|{{
+	#ifeq:{{str_find|{{PAGENAME}}| (genus)}}|-1|{{
+		#ifeq:{{str_find|{{PAGENAME}}| (alga)}}|-1|
+			{{PAGENAME}}
+		|{{taxobox title|{{str_crop|{{PAGENAME}}|7}}|(alga)}}}}
+	|{{taxobox title|{{str_crop|{{PAGENAME}}|8}}|(genus)}}
+ }}
+}}</includeonly><noinclude>
+{{pp-template|small=yes}}
+{{template doc}}
+</noinclude>
