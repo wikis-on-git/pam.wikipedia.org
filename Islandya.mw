@@ -13,8 +13,8 @@
 |latd=64 |latm=08 |latNS=N |longd=21 |longm=56 |longEW=W
 |largest_city = [[Reykjavík]]
 |government_type = <small>Constitutional republic</small>
-|leader_titles = [[List of Presidents of Iceland|President]]<br>[[List of Prime Ministers of Iceland|Prime Minister]]
-|leader_names =[[Ólafur Ragnar Grímsson]]<br>[[Halldór Ásgrímsson]]
+|leader_titles = [[List of Presidents of Iceland|President]]<br />[[List of Prime Ministers of Iceland|Prime Minister]]
+|leader_names =[[Ólafur Ragnar Grímsson]]<br />[[Halldór Ásgrímsson]]
 |area_rank = 107th
 |area_magnitude = 1 E11
 |area=103,000
@@ -34,8 +34,8 @@
 |GDP_PPP_per_capita = $35,586
 |GDP_PPP_per_capita_rank = 5th
 |sovereignty_type = [[Independence]] 
-|established_events = Sovereignty<br>Republic
-|established_dates = From [[Denmark]]<br>[[1 December]] [[1918]]<br>[[17 June]] [[1944]]
+|established_events = Sovereignty<br />Republic
+|established_dates = From [[Denmark]]<br />[[1 December]] [[1918]]<br />[[17 June]] [[1944]]
 |
 |HDI = 0.956 
 |HDI_rank = 2nd
@@ -61,6 +61,12 @@ Ing '''Iceland''', keng opisyal aaus ing '''Republika ning Iceland, keng amanung
 {{EFTA}}
 {{NATO}}
 {{Europe}}
+{{Link FA|el}}
+
+<!-- interwiki -->
+
+{{Link FA|af}}
+{{Link FA|vi}}
 
 [[Category:Former Danish colonies]]
 [[Category:Former Norwegian colonies]]
@@ -69,13 +75,6 @@ Ing '''Iceland''', keng opisyal aaus ing '''Republika ning Iceland, keng amanung
 [[Category:North Atlantic Islands]]
 [[Category:Island nations]]
 [[Category:Seafaring nations]]
-
-{{Link FA|el}}
-
-<!-- interwiki -->
-
-{{Link FA|af}}
-{{Link FA|vi}}
 
 [[af:Ysland]]
 [[als:Island]]
@@ -207,6 +206,7 @@ Ing '''Iceland''', keng opisyal aaus ing '''Republika ning Iceland, keng amanung
 [[sl:Islandija]]
 [[sq:Islanda]]
 [[sr:Исланд]]
+[[stq:Ieslound]]
 [[sv:Island]]
 [[sw:Iceland]]
 [[szl:Islandyjo]]
