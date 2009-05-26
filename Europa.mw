@@ -4,7 +4,7 @@
 <div style="border: 1px solid #ccd2d9; background: #f0f6fa; text-align: left; padding: 0.5em 1em; text-align: center;"><!-- start of slate grey box -->
 <big>'''Europe'''</big>
 <div align=center>
-[[Image:LocationEurope.png|200px|World map showing the location of Europe.]]
+[[File:LocationEurope.png|200px|World map showing the location of Europe.]]
 </div>
 {| style="background: transparent; text-align: left; table-layout: auto; border-collapse: collapse; padding: 0; font-size: 100%;" cellspacing="0" cellpadding="0"
 ! style="1px #ccd2d9; padding: 0.4em 1em 0.4em 0; vertical-align: top; text-align: left;" | Area
@@ -408,15 +408,15 @@ Ustan, ding 27 [[European Union member state]] makasmut lang tagana antimo keng 
 | align="right" | 
 |}
 
-==Economy==
-[[Image:Europe gdp map-1-.png|thumb|European nations by [[GDP]] 
+== Economy ==
+[[File:Europe gdp map-1-.png|thumb|European nations by [[GDP]] 
 
 == Dalerayan ==
 {{reflist|2}}
 * [[National Geographic]] (2005). ''National Geographic Visual History of the World''. Washington, D.C.: National Geographic Society. ISBN 0-7922-3695-5.
 </div>
 
-==Suglung Palual==
+== Suglung Palual ==
 {{sisterlinks|Europe}}
 
 * [[wikitravel:Europe|
@@ -431,11 +431,10 @@ travel guide]] from [[Wikitravel]]
 {{Countries of Europe}}
 {{Continents of the world}}
 {{Regions of the world}}
+{{Link FA|lmo}}
 
 [[Category:Continents]]
 [[Category:Europe]]
-
-{{Link FA|lmo}}
 
 [[ab:Европа]]
 [[af:Europa]]
