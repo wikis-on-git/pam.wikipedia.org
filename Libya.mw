@@ -7,7 +7,7 @@ image_coat = Coat_of_arms_of_Libya.svg |
 image_map = LocationLibya.png |
 national_anthem = [[Allahu Akbar (anthem)|''{{lang|ar-Latn|Allahu Akbar}}'']]{{spaces|2}}<small>([[Arabic language|Arabic]])</small><br/>"God is Great" |
 official_languages = [[Arabic (amanu)|Arabic]] |
-capital = [[Image:Tripoli, Libya city seal.png|28px]]&nbsp;[[Tripoli]] |latd=32 |latm=54 |latNS=N |longd=13 |longm=11 |longEW=E|
+capital = [[File:Tripoli, Libya city seal.png|28px]]&nbsp;[[Tripoli]] |latd=32 |latm=54 |latNS=N |longd=13 |longm=11 |longEW=E|
 largest_city = capital |
 government_type= [[Jamahiriya]]|
 leader_title1 = [[Heads of Government of Libya|Prime Minister]] | 
@@ -49,14 +49,13 @@ calling_code = 269 |
 footnotes =
 }}
 {{Africa}}
+{{Link FA|af}}
 
 [[Category:African Union member states]]
 [[Category:Arab League]]
 [[Category:Comoros| ]]
 [[Category:Comoros archipelago]]
 [[Category:Island nations]]
-
-{{Link FA|af}}
 
 [[af:Libië]]
 [[als:Libyen]]
@@ -137,6 +136,7 @@ footnotes =
 [[lv:Lībija]]
 [[mk:Либија]]
 [[ml:ലിബിയ]]
+[[mn:Ливи]]
 [[mr:लिबिया]]
 [[ms:Libya]]
 [[nah:Libia]]
