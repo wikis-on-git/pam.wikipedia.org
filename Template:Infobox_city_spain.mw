@@ -1,0 +1,100 @@
+{| class="infobox vcard" style="width: 20em;" style="font-size: 85%"
+|-
+| colspan="2" align="center" | <big><big class="fn org">'''{{{official_name|{{{native_name}}}}}}'''</big></big>
+{{#if: {{{image_skyline<includeonly>|</includeonly>}}} |
+<tr><td align="center" colspan="2">[[Image:{{{image_skyline}}}|{{{image_skyline_size|250px}}}]]</td></tr>
+}}{{#if: {{{image_skyline_caption<includeonly>|</includeonly>}}} |
+<tr><td align="center" colspan="2"><small>{{{image_skyline_caption}}}</small></td></tr>
+}}
+|-
+| align="center" colspan="2" |
+{| border=0 cellpadding=2  cellspacing=0 style="background-color:transparent;text-align:center;"
+| width="130px" align="center" |{{#if: {{{image_flag|}}} |
+[[Image:{{{image_flag}}}|border|{{#if:{{{image_flag_size}}}|{{{image_flag_size}}}|100px}}|Flag of {{{spanish_name}}}]]}}
+| align=center width="130px" |{{#if: {{{image_coat_of_arms|}}} |
+[[Image:{{{image_coat_of_arms}}}|{{{image_coat_of_arms_size|100px}}}|Coat of arms of {{{native_name}}}]]}}
+|-
+|align=center width="130px" style="line-height:14px;" | {{#if:{{{image_flag<includeonly>|</includeonly>}}}|<small>Flag</small>}} 
+| align=center width="130px" style="line-height:14px;" |{{#if:{{{image_coat_of_arms<includeonly>|</includeonly>}}}| <small>Sagkal ning Armas</small>}}
+|}
+{{#if: {{{city_motto<includeonly>|</includeonly>}}} |
+<tr><td align="center" colspan="2">''{{{city_motto}}}'' {{#if:{{{city_motto_means<includeonly>|</includeonly>}}}|<br />("''{{{city_motto_means}}}''")}}</td></tr>
+}}
+|- bgcolor="#dcdcdc"
+! colspan="2" align=center | Location
+{{#if: {{{image_city_map<includeonly>|</includeonly>}}} |
+<tr><td align="center" colspan="2" style="background-color:transparent;">[[Image:{{{image_city_map}}}|{{{image_city_map_size|250px}}}]] {{#if:{{{image_city_map_caption<includeonly>|</includeonly>}}}|<br /><small>{{{image_city_map_caption}}}</small>}}</td></tr>
+}}
+|-
+| align="center" colspan="2" style="line-height:14px;"|<small>'''Coordinates''' : {{{lat_long}}}</small><br /><small> '''[[Time zone]]''' : {{{time_zone<includeonly>|[[Central European Time|CET]] ([[Greenwich Mean Time|GMT]] +1)</includeonly>}}}</small> {{#if: {{{time_zone_summer<includeonly>|</includeonly>}}} |
+<br /><small> - summer : {{{time_zone_summer}}}</small>
+}}
+|- bgcolor="#dcdcdc"
+! colspan="2" align=center | General information
+|-
+| '''Katutubung lagiu''' || {{{native_name}}} ([[{{{native_language}}} language|{{{native_language}}}]])
+|- class="note"
+| '''[[Spanish language|Kastilang lagiu]]''' || {{{spanish_name}}}
+{{#if: {{{nickname<includeonly>|</includeonly>}}} |
+<tr><td>'''Nickname'''</td><td>''{{{nickname}}}''</td></tr>
+}}{{
+#if: {{{demonym<includeonly>|</includeonly>}}} |
+<tr><td>'''[[Demonym]]'''</td><td>{{{demonym}}}</td></tr>
+}}{{
+#if: {{{founded<includeonly>|</includeonly>}}} |
+<tr><td>'''Mitatag'''</td><td>{{{founded}}}</td></tr>
+}}{{
+#if: {{{postal_code<includeonly>|</includeonly>}}} |
+<tr><td>'''[[Postal code]]'''</td><td>{{{postal_code}}}</td></tr>
+}}{{
+#if: {{{area_code<includeonly>|</includeonly>}}} |
+<tr><td>'''[[Area code]]'''</td><td>[[+34]] (Spain) + {{{area_code}}} ({{{province}}})</td></tr>
+}}{{
+#if: {{{website<includeonly>|</includeonly>}}} |
+<tr><td>'''[[Website]]'''</td><td>{{{website}}}</td></tr>
+}}
+|- bgcolor="#dcdcdc"
+! colspan="2" align=center | [[Administration (government)|Administration]]
+|-
+|'''[[Bangsa]]''' || <span class="label">[[Spain]]</span>
+|-
+|'''[[Autonomous Community]]''' || [[{{{community_link}}}|{{{community}}}]]
+|-
+|'''[[Provinces of Spain|Lalawigan]]''' || [[{{{province_link}}}|{{{province}}}]]
+{{#if: {{{comarca<includeonly>|</includeonly>}}} |
+<tr><td>'''[[Comarca]]'''</td><td>[[{{{comarca_link}}}|{{{comarca}}}]]</td></tr>
+}}{{
+#if: {{{divisions<includeonly>|</includeonly>}}} |
+<tr><td>'''Administratibung Pangadake'''</td><td valign="top">{{{divisions}}}</td></tr>
+}}{{
+#if: {{{neighborhoods<includeonly>|</includeonly>}}} |
+<tr><td>'''Neighborhoods'''</td><td valign="top">{{{neighborhoods}}}</td></tr>
+}}{{
+#if: {{{mayor<includeonly>|</includeonly>}}} |
+<tr><td>'''[[Mayor]]'''</td><td style="line-height:14px;">{{#ifexist:{{{mayor}}}|[[{{{mayor}}}]]|{{{mayor}}}}} ([[{{{political_party_link}}}|{{{political_party}}}]])</td></tr>
+}}
+|- bgcolor="#dcdcdc"
+! colspan="2" align=center | Geography
+|-
+| '''[[Area|Gabun lualas]]'''|| {{{area}}} km²
+|-
+| '''[[Katas]]''' || {{{altitude}}} m [[AMSL]]
+|- bgcolor="#dcdcdc"
+! colspan="2" align=center | Population
+|-
+| '''[[Populasiun]]'''||style="line-height:14px;"|{{{population}}} <small>({{{date-population}}})</small> 
+{{#if: {{{population-ranking<includeonly>|</includeonly>}}} |
+<tr><td>- rank in Spain:</td><td>{{{population-ranking}}}</td></tr>
+}}
+|-
+| '''[[Pangasiksik]]''' ||  {{{density}}} hab./km² <small>({{{date-density}}})</small>
+|}<noinclude>
+
+{{Template doc}}
+
+{{esoteric}}
+
+[[Category:European city infobox templates|Spain]]
+[[Category:Spain subdivision templates]]
+[[es:Plantilla:Infobox ciudad España]]
+</noinclude>
