@@ -5,7 +5,7 @@ common_name=Cuba|
 image_flag=Flag of Cuba.svg|
 image_coat=|
 image_map=LocationCuba.png|
-national_motto= [[Spanish language|Spanish]]: ''Patria y Libertad'' <br>([[English language|English]]: "Homeland and Freedom")|
+national_motto= [[Spanish language|Spanish]]: ''Patria y Libertad'' <br />([[English language|English]]: "Homeland and Freedom")|
 national_anthem=[[La Bayamesa]] (The Bayamo Song)|
 official_languages=[[Spanish language|Spanish]]|
 capital=[[Havana]]|
@@ -37,9 +37,9 @@ HDI = 0.817|
 HDI_rank = 52nd|
 HDI_category = <font color="#009900">high</font>|
 sovereignty_type=[[Independence]]|
-established_events=&nbsp;• Declared from Spain [http://www.danay.net/family/bio/bio-carlos_manuel_cespedes-sp.html]<br>&nbsp;• Cuban Republic declared<br>&nbsp;• Date recognised in Cuba|
-established_dates=[[Ten Years' War]]<br>[[October 10]] [[1868]]<br>[[May 20]] [[1902]]<br>[[January 1]], [[1959]]|
-currency=[[Cuban peso|Peso]] (<code>[[ISO 4217|CUP]]</code>)<!-- kludge to deal with fact that template expects only one currency per country --><br>[[Cuban convertible peso|Convertible peso]] <sup>1</sup>|
+established_events=&nbsp;• Declared from Spain [http://www.danay.net/family/bio/bio-carlos_manuel_cespedes-sp.html]<br />&nbsp;• Cuban Republic declared<br />&nbsp;• Date recognised in Cuba|
+established_dates=[[Ten Years' War]]<br />[[October 10]] [[1868]]<br />[[May 20]] [[1902]]<br />[[January 1]], [[1959]]|
+currency=[[Cuban peso|Peso]] (<code>[[ISO 4217|CUP]]</code>)<!-- kludge to deal with fact that template expects only one currency per country --><br />[[Cuban convertible peso|Convertible peso]] <sup>1</sup>|
 currency_code=CUC|
 time_zone=[[North American Eastern Standard Time Zone|EST]]|
 utc_offset=-5|
@@ -53,6 +53,7 @@ footnotes=<sup>1</sup> 1993–2004, the [[United States dollar|U.S. dollar]] was
 {{West Indies}}
 
 {{Pangulung America}}
+{{Bangsang geo-stub}}
 
 [[Category:Caribbean countries]]
 [[Category:Caribbean islands]]
@@ -67,8 +68,6 @@ footnotes=<sup>1</sup> 1993–2004, the [[United States dollar|U.S. dollar]] was
 [[Category:Political repression]]
 [[Category:Republics]]
 [[Category:Spanish speaking countries]]
-
-{{Bangsang geo-stub}}
 
 [[af:Kuba]]
 [[an:Cuba]]
@@ -130,6 +129,7 @@ footnotes=<sup>1</sup> 1993–2004, the [[United States dollar|U.S. dollar]] was
 [[it:Cuba]]
 [[iu:ᖂᐹ/quupaa]]
 [[ja:キューバ]]
+[[jbo:kubas]]
 [[jv:Kuba]]
 [[ka:კუბა]]
 [[kab:Kuba]]
