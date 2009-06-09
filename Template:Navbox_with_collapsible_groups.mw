@@ -1,0 +1,188 @@
+{{Navbox
+|name = {{{name|<noinclude>Navbox with collapsible sections</noinclude>}}}
+|navbar = {{{navbar|}}}
+|state = {{{state<noinclude>|uncollapsed</noinclude>}}}
+|border = {{{border|{{{1|}}}}}}
+
+|title = {{{title<includeonly>|</includeonly>}}}
+|above = {{{above|}}}
+|below = {{{below|}}}
+|image = {{{image|}}}
+|imageleft = {{{imageleft|}}}
+
+|style = {{{style|}}}{{{bodystyle|}}}
+|basestyle = {{{basestyle|}}}
+|titlestyle = {{{titlestyle|}}}
+|abovestyle = {{{abovestyle|}}}
+|belowstyle = {{{belowstyle|}}}
+|imagestyle = {{{imagestyle|}}}
+|imageleftstyle = {{{imageleftstyle|}}}
+
+|list1 =
+{{#if:{{{group1<includeonly>|</includeonly>}}}{{{sect1|}}}
+ | {{Navbox|child
+    |state = {{#ifeq:{{{selected}}}|{{{abbr1}}} |uncollapsed |{{{state1|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group1style|}}}
+    |liststyle  = {{{liststyle|}}}{{{list1style|}}}
+    |title = {{{group1<includeonly>|</includeonly>}}}{{{sect1|}}}
+    |list1 = {{{list1<includeonly>|</includeonly>}}}
+    |image = {{{image1|}}}
+    |imageleft = {{{imageleft1|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list1|}}}
+}}
+
+|list2 =
+{{#if:{{{group2<includeonly>|</includeonly>}}}{{{sect2|}}}
+ | {{Navbox|child
+    |state = {{#ifeq:{{{selected}}}|{{{abbr2}}} |uncollapsed |{{{state2|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group2style|}}}
+    |liststyle  = {{{liststyle|}}}{{{list2style|}}}
+    |title = {{{group2<includeonly>|</includeonly>}}}{{{sect2|}}}
+    |list1 = {{{list2<includeonly>|</includeonly>}}}
+    |image = {{{image2|}}}
+    |imageleft = {{{imageleft2|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list2|}}}
+}}
+
+|list3 =
+{{#if:{{{group3<includeonly>|</includeonly>}}}{{{sect3|}}}
+ | {{Navbox|child
+    |state = {{#ifeq:{{{selected}}}|{{{abbr3}}} |uncollapsed |{{{state3|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group3style|}}}
+    |liststyle  = {{{liststyle|}}}{{{list3style|}}}
+    |title = {{{group3<includeonly>|</includeonly>}}}{{{sect3|}}}
+    |list1 = {{{list3<includeonly>|</includeonly>}}}
+    |image = {{{image3|}}}
+    |imageleft = {{{imageleft3|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list3|}}}
+}}
+
+|list4 =
+{{#if:{{{group4<includeonly>|</includeonly>}}}{{{sect4|}}}
+ | {{Navbox|child
+    |state = {{#ifeq:{{{selected}}}|{{{abbr4}}} |uncollapsed |{{{state4|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group4style|}}}
+    |liststyle  = {{{liststyle|}}}{{{list4style|}}}
+    |title = {{{group4<includeonly>|</includeonly>}}}{{{sect4|}}}
+    |list1 = {{{list4<includeonly>|</includeonly>}}}
+    |image = {{{image4|}}}
+    |imageleft = {{{imageleft4|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list4|}}}
+}}
+
+|list5 =
+{{#if:{{{group5|}}}{{{sect5|}}}
+ | {{Navbox|child
+    |state = {{#ifeq:{{{selected}}}|{{{abbr5}}} |uncollapsed |{{{state5|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group5style|}}}
+    |liststyle  = {{{liststyle|}}}{{{list5style|}}}
+    |title = {{{group5<includeonly>|</includeonly>}}}{{{sect5|}}}
+    |list1 = {{{list5<includeonly>|</includeonly>}}}
+    |image = {{{image5|}}}
+    |imageleft = {{{imageleft5|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list5|}}}
+}}
+
+|list6 =
+{{#if:{{{group6|}}}{{{sect6|}}}
+ | {{Navbox|child
+    |state = {{#ifeq:{{{selected}}}|{{{abbr6}}} |uncollapsed |{{{state6|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group6style|}}}
+    |liststyle  = {{{liststyle|}}}{{{list6style|}}}
+    |title = {{{group6<includeonly>|</includeonly>}}}{{{sect6|}}}
+    |list1 = {{{list6<includeonly>|</includeonly>}}}
+    |image = {{{image6|}}}
+    |imageleft = {{{imageleft6|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list6|}}}
+}}
+
+|list7 =
+{{#if:{{{group7|}}}{{{sect7|}}}
+ | {{Navbox|child
+    |state = {{#ifeq:{{{selected}}}|{{{abbr7}}} |uncollapsed |{{{state7|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group7style|}}}
+    |liststyle  = {{{liststyle|}}}{{{list7style|}}}
+    |title = {{{group7<includeonly>|</includeonly>}}}{{{sect7|}}}
+    |list1 = {{{list7<includeonly>|</includeonly>}}}
+    |image = {{{image7|}}}
+    |imageleft = {{{imageleft7|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list7|}}}
+}}
+
+|list8 =
+{{#if:{{{group8|}}}{{{sect8|}}}
+ | {{Navbox|child
+    |state = {{#ifeq:{{{selected}}}|{{{abbr8}}} |uncollapsed |{{{state8|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group8style|}}}
+    |liststyle  = {{{liststyle|}}}{{{list8style|}}}
+    |title = {{{group8<includeonly>|</includeonly>}}}{{{sect8|}}}
+    |list1 = {{{list8<includeonly>|</includeonly>}}}
+    |image = {{{image8|}}}
+    |imageleft = {{{imageleft8|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list8|}}}
+}}
+
+|list9 =
+{{#if:{{{group9|}}}{{{sect9|}}}
+ | {{Navbox|child
+    |state = {{#ifeq:{{{selected}}}|{{{abbr9}}} |uncollapsed |{{{state9|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group9style|}}}
+    |liststyle  = {{{liststyle|}}}{{{list9style|}}}
+    |title = {{{group9<includeonly>|</includeonly>}}}{{{sect9|}}}
+    |list1 = {{{list9<includeonly>|</includeonly>}}}
+    |image = {{{image9|}}}
+    |imageleft = {{{imageleft9|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list9|}}}
+}}
+
+|list10 =
+{{#if:{{{group10|}}}{{{sect10|}}}
+ | {{Navbox|child
+    |state = {{#ifeq:{{{selected}}}|{{{abbr10}}} |uncollapsed |{{{state10|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group10style|}}}
+    |liststyle  = {{{liststyle|}}}{{{list1style|}}}
+    |title = {{{group10<includeonly>|</includeonly>}}}{{{sect10|}}}
+    |list1 = {{{list10<includeonly>|</includeonly>}}}
+    |image = {{{image10|}}}
+    |imageleft = {{{imageleft10|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list10|}}}
+}}
+
+|list11 =
+{{#if:{{{group11|}}}{{{sect11|}}}
+ | {{Navbox|child
+    |state = {{#ifeq:{{{selected}}}|{{{abbr11}}} |uncollapsed |{{{state11|collapsed}}}}}
+    |titlestyle = {{{basestyle|}}};{{{groupstyle|}}}{{{secttitlestyle|}}}{{{group11style|}}}
+    |liststyle  = {{{liststyle|}}}{{{list1style|}}}
+    |title = {{{group11<includeonly>|</includeonly>}}}{{{sect11|}}}
+    |list1 = {{{list11<includeonly>|</includeonly>}}}
+    |image = {{{image11|}}}
+    |imageleft = {{{imageleft11|}}}
+    |{{#if:{{{listpadding|}}} |listpadding |void}} = {{{listpadding|}}}
+   }}
+ | {{{list11|}}}
+
+}}
+}}<noinclude>
+{{documentation}}
+</noinclude>
