@@ -38,8 +38,8 @@ HDI = 0.814 |
 HDI_rank = 53rd |
 HDI_category = <font color="#009900">high</font> |
 sovereignty_type = [[Mexican War of Independence|Independence]] |
-established_events = &nbsp;• Declared<br>&nbsp;• Recognized |
-established_dates = From [[Spain]]<br>[[September 16]], [[1810]]<br>[[September 27]], [[1821]] |
+established_events = &nbsp;• Declared<br />&nbsp;• Recognized |
+established_dates = From [[Spain]]<br />[[September 16]], [[1810]]<br />[[September 27]], [[1821]] |
 currency = [[Mexican peso|Peso]] |
 currency_code = MXN |
 time_zone =  |
@@ -55,13 +55,12 @@ Ing  '''Piabeng Mexican States'''<ref>The alternative translation '''Mexican Uni
 
 {{States of Mexico}}
 {{Pangulung  America}}
-
-[[Category:Mexico| A]]
-[[Category:Spanish speaking countries]]
-
 {{Bangsang geo-stub}}
 
 {{Link FA|es}}
+
+[[Category:Mexico| A]]
+[[Category:Spanish speaking countries]]
 
 [[af:Meksiko]]
 [[als:Mexiko]]
@@ -108,6 +107,7 @@ Ing  '''Piabeng Mexican States'''<ref>The alternative translation '''Mexican Uni
 [[fo:Meksiko]]
 [[fr:Mexique]]
 [[frp:Mexique]]
+[[fur:Messic]]
 [[fy:Meksiko]]
 [[ga:Meicsiceo]]
 [[gan:墨西哥]]
