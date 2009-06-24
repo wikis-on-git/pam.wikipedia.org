@@ -14,10 +14,10 @@
 <tr>
 <td valign="middle" > [[Image:Padlock.svg|45px| ]]</td>
 <td>
-'''This {{#switch:{{NAMESPACE}}
-  |{{ns:image}}=image, used in one or more [[Wikipedia:High-risk templates|high-risk templates]] or the interface,
-  |#default=[[Wikipedia:High-risk templates|high-risk template]]
-}} has been [[Wikipedia:This page is protected|protected]] from editing to prevent [[Wikipedia:vandalism|vandalism]].''' <span class="plainlinks">([{{fullurl:Special:Log|type=protect&page={{FULLPAGENAMEE}}}} protection log]).</span> {{howtoedit}}
+'''Ining {{#switch:{{NAMESPACE}}
+  |{{ns:image}}=larawan, a magagamit king metung o maigit pang [[Wikipedia:High-risk templates|maselan a template]] o interface,
+  |#default=[[Wikipedia:High-risk templates|maselan a template]]
+}} me- [[Wikipedia:This page is protected|protecta]] ya king pamag-edit bang a marapat ing [[Wikipedia:vandalism|pamanyira o ''vandalism'']].''' <span class="plainlinks">([{{fullurl:Special:Log|type=protect&page={{FULLPAGENAMEE}}}} protection log]).</span> {{howtoedit}}
 {{#switch:{{NAMESPACE}}|{{ns:image}}=:<small>Note: This image should '''not''' be moved to commons</small>}}
 </td>
 </tr>
@@ -28,7 +28,7 @@
 * Use {{tlx|{{lc:{{PAGENAME}}}}}} for the normal template
 * Use {{tlx|{{lc:{{PAGENAME}}}}|small&#61;yes}} for just an icon at the top
 
-This template is not to be used as a bluff. '''''Only use it on FULLY PROTECTED pages.''''' Please note that only [[Wikipedia:Administrators|administrators]] can protect pages.
+E dapat gagawang biru-biru ining template. '''''Gamitan ya mu kareng LAGANAS A PROTEKTADUNG (FULLY PROTECTED) bulung.''''' Pakitandanan yung den mung [[Wikipedia:Administrators|talapanibala]] ing maka-protekta/makakambil kareng bulung.
 
 {{protection templates}}
 
