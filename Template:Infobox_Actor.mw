@@ -16,7 +16,7 @@
 |data2    = {{#if:{{{death_date|{{{deathdate|}}}}}}|{{{death_date|{{{deathdate|}}}}}}<br />}}{{{death_place|{{{deathplace|}}}}}}
 
 |class3 = palayo
-|label3   = Other {{nowrap|name(s)}}
+|label3   = Aliwang {{nowrap|lagiu}}
 |data3    ={{{alias|{{{othername|}}}}}}
 
 |label4   = Obra
