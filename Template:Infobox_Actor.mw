@@ -1,0 +1,40 @@
+{{Infobox
+|bodyclass    = infobox vcard vevent
+|bodystyle    = font-size:90%; text-align:left;
+|above        = <includeonly>{{{name|{{PAGENAME}}}}}</includeonly>
+|aboveclass   = fn summary
+|abovestyle   = font-size:110%; background:{{#if:{{{death_date|{{{deathdate|}}}}}}|silver|khaki}};
+|image        = {{#if:{{{image|}}}|[[File:{{{image|}}}|{{#if:{{{image_size|{{{imagesize|}}}}}}|{{{image_size|{{{imagesize|}}}}}}|220px}}]]}}
+|caption      = {{{image_caption|{{{caption|}}}}}}
+|captionstyle = font-size:95%;
+|labelstyle   = text-align:left;
+
+|label1   = Kebaitan
+|data1    = {{#if:{{{birthname|}}}|{{{birthname|}}}<br />}}{{#if:{{{birth_date|{{{birthdate|}}}}}}|{{{birth_date|{{{birthdate}}}}}}<br />}}{{{location|{{{birth_place|{{{birthplace|}}}}}}}}}
+
+|label2   = Kematian
+|data2    = {{#if:{{{death_date|{{{deathdate|}}}}}}|{{{death_date|{{{deathdate|}}}}}}<br />}}{{{death_place|{{{deathplace|}}}}}}
+
+|class3 = palayo
+|label3   = Other {{nowrap|name(s)}}
+|data3    ={{{alias|{{{othername|}}}}}}
+
+|label4   = Kapanintunan
+|data4    = {{{occupation|}}}
+
+|label5   = Banua nung kapilan ya activu
+|data5    = {{{yearsactive|}}}
+
+|label6   = {{nowrap|Asawa}}
+|data6    = {{{spouse|}}}
+
+|label7   = Katubale (Domestic partner) {{nowrap|partner(s)}}
+|data7    = {{{domesticpartner|}}}
+
+|data8    = {{#if:{{{website|{{{homepage|{{{URL|}}}}}}}}}|'''[{{{website|{{{homepage|{{{URL|}}}}}}}}} Official website]'''}}
+
+}}<noinclude>
+{{#ifeq:{{SUBPAGENAME}}|sandbox|{{Template sandbox notice}}}}
+{{#ifeq:{{FULLPAGENAME}}|Template:Infobox Actor|{{pp-template|small=yes}}}}
+{{documentation}}
+</noinclude>
