@@ -1,4 +1,4 @@
-{{#ifeq:{{NAMESPACE}}|{{TALKSPACE}}|Nung atin kang buring alilan, Maliari kang|Sana pisabian yu la deng pamagbayu king [[{{TALKPAGENAME}}|talk page]] o }} [[Wikipedia:Requests for page protection|makisabing ilako ing proteksiun]]. {{#ifeq:{{NAMESPACE}}|{{TALKSPACE}}||Maliari kang gumamit  {{tlx|editprotected}} king [[{{TALKPAGENAME}}|talk page]] makisabi king talapanibala a mag-edit para keka.}}<noinclude>
+{{#ifeq:{{NAMESPACE}}|{{TALKSPACE}}|Nung atin kang buring alilan, Maliari kang|Sana pisabian yu la deng pamagbayu king [[{{TALKPAGENAME}}|talk page]] o }} [[Wikipedia:Requests for page protection|makisabing ilako ing proteksiun]]. {{#ifeq:{{NAMESPACE}}|{{TALKSPACE}}||Maliari kang gumamit  {{tlx|editprotected}} king [[{{TALKPAGENAME}}|talk page]] o makisabi king talapanibala a mag-edit para keka.}}<noinclude>
 {{hprotected}}
 
 [[Category:Templates using ParserFunctions|{{PAGENAME}}]]
