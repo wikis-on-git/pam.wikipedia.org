@@ -1,0 +1,87 @@
+<table <!--
+-=================================================================
+- Template:Infobox Chinese emperor -  generate right-side infobox
+-=================================================================
+-                            (see NOTES at bottom)
+-------------------
+ -->cellpadding=3px cellspacing=0px bgcolor=#f7f8ff <!--
+ -->style="float:right; border:2px solid; margin:5px">{{
+#if:{{{image|}}}|
+    <tr><td colspan=2 align=center style="border-top:2px solid">{{{image}}}</td></tr>|}}
+<tr><td style="background:#ccf; border-bottom:2px solid" colspan=2 align=center>'''{{{name}}}'''</td></tr>
+<tr><td align=right style="border-top:1px solid">[[Chinese family name|Nunu lagiu]] (姓):</td>
+    <td style="border-top:1px solid">{{{ances-name}}}</td></tr>
+{{#if:{{{clan-name|}}}|
+    <tr><td align=right style="border-top:1px solid">[[Chinese family name|Sapni lagiu]] (氏):</td>
+        <td style="border-top:1px solid">{{{clan-name}}}</td></tr>|}}
+<tr><td align=right style="border-top:1px solid">[[Chinese given name|Binie lagiu]] (名): </td><td style="border-top:1px solid">{{{given-name}}}</td></tr>{{
+#if:{{{courtesy-name|}}}|
+    <tr><td align=right style="border-top:1px solid">[[Galang lagiu]] (字):</td>
+        <td style="border-top:1px solid">{{{courtesy-name}}}</td></tr>|}}
+<tr><td colspan=2 align=center style="border-top:3px solid">{{{title1}}}</td></tr>
+<tr><td align=right style="border-top:1px solid">Dates of reign:</td>
+    <td style="border-top:1px solid">{{{reign1}}}</td></tr>{{
+#if:{{{off-title1|}}}|
+    <tr><td align=right style="border-top:1px solid">[[Title#Official titles|Opisyal pamansag]]:</td>
+    <td style="border-top:1px solid">{{{off-title1}}}</td></tr>|}}{{
+#if:{{{title2|}}}|
+   <tr><td colspan=2 align=center style="border-top:3px solid">{{{title2}}}</td></tr>
+   <tr><td align=right style="border-top:1px solid">Petsa ning pamanungkulan:</td>
+       <td style="border-top:1px solid">{{{reign2}}}</td></tr>
+   <tr><td align=right style="border-top:1px solid">Opisyal pamansag:</td>
+       <td style="border-top:1px solid">{{{off-title2}}}</td></tr>|}}{{
+#if:{{{temple-name|}}}|
+    <tr><td align=right style="border-top:3px solid">[[Temple name]]:</td>
+    <td style="border-top:3px solid">{{{temple-name}}}</td></tr>|}}{{
+#if:{{{post-name|}}}|
+    <tr><td align=right style="border-top:1px solid">[[Posthumous name]]:</td>
+    <td style="border-top:1px solid">{{{post-name}}}</td></tr>|}}{{
+#if:{{{short-post-name|}}}|
+    <tr><td align=right style="border-top:1px solid">[[Posthumous name]]<br/>(short):</td>
+    <td style="border-top:1px solid">{{{short-post-name}}}</td></tr>|}}{{
+#if:{{{full-post-name|}}}|
+    <tr><td align=right style="border-top:1px solid">[[Posthumous name]]<br/>(full):</td>
+    <td style="border-top:1px solid">{{{full-post-name}}}</td></tr>|}}
+<tr><td colspan=2 align=center style="border-top:3px solid"><small>''Dates are in the [[proleptic Julian calendar]]''</td></tr>{{
+#if:{{{notes|}}}|<tr><td colspan=2 align=center>——— <br><small>{{{notes}}}</small></td></tr>|}}
+</table><noinclude>
+Usage:
+<pre>{{Infobox Chinese emperor
+|image = 
+|name = 
+|ances-name = 
+|clan-name = 
+|given-name = 
+|courtesy-name =
+|title1 = 
+|reign1 = 
+|off-title1 = 
+|title2 = 
+|reign2 = 
+|off-title2 = 
+|temple-name = 
+|post-name = 
+|short-post-name =
+|full-post-name =
+|notes = 
+}}</pre>
+
+{{esoteric}}
+<!-- ---------------------------------------------------------
+-NOTES:
+-   Format of if-expressions: {{#if:{{{___|}}}|___|}}
+-                             {{#ifeq:{{{x|}}}|0|then-zero|else}}
+-
+-   To indent an if-expression, leave double-braces "{{" at
+-   the end of the prior line, or else a blank-line might
+-   get generated when "{{" begins the next line.
+-
+--------------------------------------------------------------
+-HISTORY:
+-27Apr09 Cut top blank-lines by leaving "{{" on prior lines.
+-27Apr09 Added NOTES comments to explain template coding.
+-27Apr09 Added HISTORY comments to log major changes.
+-->
+[[de:Vorlage:Infobox Kaiser von China]]
+[[zh:Template:Emperorcn box]]
+</noinclude>
