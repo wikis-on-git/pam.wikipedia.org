@@ -19,7 +19,7 @@
     <tr><td align=right style="border-top:1px solid">[[Galang lagiu]] (字):</td>
         <td style="border-top:1px solid">{{{courtesy-name}}}</td></tr>|}}
 <tr><td colspan=2 align=center style="border-top:3px solid">{{{title1}}}</td></tr>
-<tr><td align=right style="border-top:1px solid">Dates of reign:</td>
+<tr><td align=right style="border-top:1px solid">Petsa ning pamanungkulan:</td>
     <td style="border-top:1px solid">{{{reign1}}}</td></tr>{{
 #if:{{{off-title1|}}}|
     <tr><td align=right style="border-top:1px solid">[[Title#Official titles|Opisyal pamansag]]:</td>
