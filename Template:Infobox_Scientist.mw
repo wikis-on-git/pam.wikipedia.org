@@ -18,7 +18,7 @@
 }}{{#if:{{{alma_mater|}}}|
   <tr><th>Alma Mater</th><td>{{{alma_mater}}}</td></tr>
 }}{{#if:{{{doctoral_advisor|}}}|
-  <tr><th>Talausuc Academia</th><td>{{{doctoral_advisor}}}</td></tr>
+  <tr><th>Talausuk Academia</th><td>{{{doctoral_advisor}}}</td></tr>
 }}{{#if:{{{doctoral_students|}}}|
   <tr><th>Bantug a Magaral</th><td>{{{doctoral_students}}}</td></tr>
 }}{{#if:{{{known_for|}}}|
