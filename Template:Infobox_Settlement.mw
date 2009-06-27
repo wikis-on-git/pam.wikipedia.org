@@ -380,7 +380,7 @@
 }}<!-- ***** Population ***** -->
 {{#if:{{{population_total|}}}{{{population_urban|}}}{{{population_metro|}}}{{{population_blank1|}}}{{{population_blank2|}}}|
 	<tr class="mergedtoprow">
-		<td {{#ifeq:{{{total_type}}}|&nbsp;||colspan="2"}}>'''Populasyun''' {{#if:{{{population_as_of|}}}|({{{population_as_of}}})}}{{#if:{{{population_footnotes|}}}|{{{population_footnotes}}}}}</td>
+		<td {{#ifeq:{{{total_type}}}|&nbsp;||colspan="2"}}>'''Populasiun''' {{#if:{{{population_as_of|}}}|({{{population_as_of}}})}}{{#if:{{{population_footnotes|}}}|{{{population_footnotes}}}}}</td>
 	{{#ifeq:{{{total_type}}}|&nbsp;||</tr>}}
 {{#if:{{{population_total|}}}|
 	{{#ifeq:{{{total_type}}}|&nbsp;||<tr class="mergedrow">
