@@ -1,0 +1,262 @@
+<noinclude>
+:''This template is used in conjunction with {{tl|Infobox Officeholder}}.''
+{{pp-template|small=yes}}
+</noinclude><includeonly>
+<includeonly>
+<!----------Birth/Death---------->
+{{!}}-
+{{!}}colspan="2"{{!}}<hr/>
+{{!}}-
+{{#if:{{{birth{{#if:{{{birthdate|}}}||_}}date|}}}|
+! Born
+{{!}} {{{birth{{#if:{{{birthdate|}}}||_}}date}}}<br />{{{birth{{#if:{{{birthplace|}}}||_}}place|}}}
+{{!}}-
+}}
+{{#if:{{{death{{#if:{{{deathdate|}}}||_}}date|}}}|
+! Died
+{{!}} {{{death{{#if:{{{deathdate|}}}||_}}date}}}<br />{{{death{{#if:{{{deathplace|}}}||_}}place|}}}
+{{!}}-
+}}
+{{#if:{{{date of birth|}}}|
+! Born
+{{!}} {{{date of birth}}}<br />{{{place of birth|}}}
+{{!}}-
+}}
+{{#if:{{{date of death|}}}|
+! Died
+{{!}} {{{date of death}}}<br />{{{place of death|}}}
+{{!}}-
+}}
+{{#if:{{{restingplace|}}}|
+! Resting&nbsp;place
+{{!}} {{{restingplace}}}<br />{{#if:{{{restingplacecoordinates|}}}|{{{restingplacecoordinates}}}}}
+{{!}}-
+}}
+{{#if:{{{birthname|}}}|
+! Birth&nbsp;name
+{{!}} {{{birthname}}}
+{{!}}-
+}}
+{{#if:{{{nationality|}}}|
+! Nationality
+{{!}} {{{nationality}}}
+{{!}}-
+}}
+<!----------Party---------->
+{{#if:{{{party|}}}|
+! Political&nbsp;party
+{{!}} {{#switch:{{{party}}}
+| [[United States Democratic Party|Democrat]]
+| [[Democratic Party (United States)|Democratic]]
+| [[Democratic Party (United States)|Democrat]] = [[Democratic Party (United States)|Democratic]]
+| [[Republican Party (United States)|Republican]]
+| [[United States Republican Party]]
+| [[United States Republican Party|Republican]]
+| [[Republican Party (United States)|Republican Party]] = [[Republican Party (United States)|Republican]]
+| [[Conservative Party (UK)|Conservative Party]]
+| [[Conservative Party (UK)|Conservative]] = [[Conservative Party (UK)|Conservative]]
+| [[Labour Party (UK)|Labour Party]]
+| [[Labour Party (UK)|Labour]] = [[Labour Party (UK)|Labour]]
+| [[Conservative Party of Canada|Conservative Party]]
+| [[Conservative Party of Canada|Conservative]] = [[Conservative Party of Canada|Conservative]]
+| [[Liberal Party of Canada|Liberal Party]]
+| [[Liberal Party of Canada|Liberal]] = [[Liberal Party of Canada|Liberal]]
+| KMT
+| Kuomintang
+| [[KMT]]
+| [[Kuomintang|KMT]]
+| [[Kuomintang]]
+| Kuomintang (KMT)
+| [[Kuomintang]] (KMT)
+| {{KMT}} (KMT)
+| {{KMT}} = [[Kuomintang]]
+| DPP
+| [[Democratic Progressive Party|DPP]]
+| [[Democratic Progressive Party]]
+| {{DPP}} = [[Democratic Progressive Party]]
+| #default = {{{party}}} }}
+{{!}}-
+}}
+<!----------Other Political Party Affiliations---------->
+{{#if:{{{otherparty|}}}|
+! Other&nbsp;political<br>affiliations
+{{!}}{{{otherparty}}}
+{{!}}-
+}}
+<!----------Spouse, etc.---------->
+{{#if:{{{spouse|}}}|
+! Spouse
+{{!}} {{{spouse}}}
+{{!}}-
+}}
+{{#if:{{{partner|}}}|
+! Domestic&nbsp;partner
+{{!}} {{{partner}}}
+{{!}}-
+}}
+{{#if:{{{relations|}}}|
+! Relations
+{{!}} {{{relations}}}
+{{!}}-
+}}
+{{#if:{{{children|}}}|
+! Children
+{{!}} {{{children}}}
+{{!}}-
+}}
+{{#if:{{{residence|}}}|
+! Residence
+{{!}} {{{residence}}}
+{{!}}-
+}}
+{{#if:{{{alma_mater|}}}|
+! [[Alma mater|Alma&nbsp;mater]]
+{{!}} {{{alma_mater}}}
+{{!}}-
+}}
+{{#if:{{{occupation|}}}|
+! Occupation
+{{!}} {{{occupation}}}
+{{!}}-
+}}
+{{#if:{{{profession|}}}|
+! Profession
+{{!}} {{{profession}}}
+{{!}}-
+}}
+{{#if:{{{cabinet|}}}|
+! Cabinet
+{{!}} {{{cabinet}}}
+{{!}}-
+}}
+{{#if:{{{committees|}}}|
+! Committees
+{{!}} {{{committees}}}
+{{!}}-
+}}
+{{#if:{{{portfolio|}}}|
+! Portfolio
+{{!}} {{{portfolio}}}
+{{!}}-
+}}
+{{#if:{{{religion|}}}|
+! Religion
+{{!}} {{{religion}}}
+{{!}}-
+}}
+{{#if:{{{data1|}}}|
+! {{{blank1}}}
+{{!}} {{{data1}}}
+{{!}}-
+}}
+{{#if:{{{data2|}}}|
+! {{{blank2}}}
+{{!}} {{{data2}}}
+{{!}}-
+}}
+{{#if:{{{data3|}}}|
+! {{{blank3}}}
+{{!}} {{{data3}}}
+{{!}}-
+}}
+{{#if:{{{data4|}}}|
+! {{{blank4}}}
+{{!}} {{{data4}}}
+{{!}}-
+}}
+{{#if:{{{data5|}}}|
+! {{{blank5}}}
+{{!}} {{{data5}}}
+{{!}}-
+}}
+{{#if:{{{signature|}}}|
+! Signature
+{{!}} [[Image:{{{signature}}}|128px|{{PAGENAME}}'s signature]]
+{{!}}-
+}}
+{{#if:{{{website|}}}|
+! Website
+{{!}} {{{website}}}
+{{!}}-
+}}
+<!----------Military service---------->
+{{#if:{{{allegiance|}}}{{{branch|}}}{{{serviceyears|}}}{{{rank|}}}{{{unit|}}}{{{commands|}}}{{{battles|}}}{{{awards|}}}{{{military_blank1|}}}|
+{{!}} colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} '''Military service'''
+{{!}}-
+}}
+{{#if:{{{nickname|}}}|
+! Nickname(s)
+{{!}} {{{nickname|}}}
+{{!}}-
+}}
+{{#if:{{{allegiance|}}}|
+! Allegiance
+{{!}} {{{allegiance|}}}
+{{!}}-
+}}
+{{#if:{{{branch|}}}|
+! Service/branch
+{{!}} {{{branch|}}}
+{{!}}-
+}}
+{{#if:{{{serviceyears|}}}|
+! Years&nbsp;of service
+{{!}} {{{serviceyears|}}}
+{{!}}-
+}}
+{{#if:{{{rank|}}}|
+! Rank
+{{!}} {{{rank|}}}
+{{!}}-
+}}
+{{#if:{{{unit|}}}|
+! Unit
+{{!}} {{{unit|}}}
+{{!}}-
+}}
+{{#if:{{{commands|}}}|
+! Commands
+{{!}} {{{commands|}}}
+{{!}}-
+}}
+{{#if:{{{battles|}}}|
+! Battles/wars
+{{!}} {{{battles|}}}
+{{!}}-
+}}
+{{#if:{{{awards|}}}|
+! Awards
+{{!}} {{{awards|}}}
+{{!}}-
+}}
+{{#if:{{{military_data1|}}}|
+! {{{military_blank1}}}
+{{!}} {{{military_data1}}}
+{{!}}-
+}}
+{{#if:{{{military_data2|}}}|
+! {{{military_blank2}}}
+{{!}} {{{military_data2}}}
+{{!}}-
+}}
+{{#if:{{{military_data3|}}}|
+! {{{military_blank3}}}
+{{!}} {{{military_data3}}}
+{{!}}-
+}}
+{{#if:{{{military_data4|}}}|
+! {{{military_blank4}}}
+{{!}} {{{military_data4}}}
+{{!}}-
+}}
+{{#if:{{{military_data5|}}}|
+! {{{military_blank5}}}
+{{!}} {{{military_data5}}}
+{{!}}-
+}}
+{{#if:{{{footnotes|}}}|
+{{!}}colspan="2" style="border-top:1px solid; font-size:90%;"{{!}} {{{footnotes}}}
+{{!}}-
+}}
+{{#if:{{{date|}}}|
+{{!}}colspan="2" style="border-top:1px solid right; font-size:90%;"{{!}}As of [[{{{date}}}]]{{#if:{{{year|}}} |, [[{{{year}}}]]}}}}{{#if:{{{source|}}}|<br />Source: [{{{source}}}]}}</includeonly>
