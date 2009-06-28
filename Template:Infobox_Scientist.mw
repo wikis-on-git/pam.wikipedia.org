@@ -26,7 +26,7 @@
 }}{{#if:{{{prizes|}}}|
   <tr><th>Notable Prizes</th><td>{{{prizes}}}</td></tr>
 }}{{#if:{{{religion|}}}|
-  <tr><th>Kaslpantayanan</th><td>{{{religion}}}</td></tr>
+  <tr><th>Kasalpantayanan</th><td>{{{religion}}}</td></tr>
 }}{{#if:{{{footnotes|}}}|
   <tr><td colspan="2"><small>{{{footnotes}}}</small></td></tr>
 }}
@@ -44,12 +44,12 @@
 | aldo kematyan = (Insert date of death: month, day, year)
 | lugal kematyan = (Insert place of death: town, city, country)
 | tuknanagan = (Insert countries where scientist has lived. If some are minor, select key countries)
-| nationality = (Insert nationality of scientist)
+| bangsa = (Insert nationality of scientist)
 | marangle = (State if they are a physicist, chemist, biologist, mathematician, engineer....)
 | work_institution = (Insert key companies and/or universities where they are/were employed)
 | alma_mater = (Insert universities where they obtained their degrees)
 | talausuk a doctoral= (Insert doctoral advisor. If no PhD, can put in equivalent accepted mentors. Then use footnote to explain.)
-| magarala doctoral = (If any, insert their key doctoral or notable students. Does not have to be exhaustive.)
+| magaral a doctoral = (If any, insert their key doctoral or notable students. Does not have to be exhaustive.)
 | bantug   = (Insert key topics/areas of science that made them famous)
 | galal = (Insert most notable prizes and medals.)
 | kasalpantayanan = (Insert religious belief system/affiliation. The consensus is to use this field sparingly.)
