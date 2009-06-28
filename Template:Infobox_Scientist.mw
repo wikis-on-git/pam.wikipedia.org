@@ -27,6 +27,12 @@
   <tr><th>Notable Prizes</th><td>{{{prizes}}}</td></tr>
 }}{{#if:{{{religion|}}}|
   <tr><th>Kasalpantayanan</th><td>{{{religion}}}</td></tr>
+}}{{#if:{{{natinality|}}}|
+  <tr><th>Bangsa</th><td>{{{prizes}}}</td></tr>
+}}{{#if:{{{occupation|}}}|
+  <tr><th>Obra</th><td>{{{prizes}}}</td></tr>
+}}{{#if:{{{cause of death|}}}|
+  <tr><th>Sangkan ning Pangamate</th><td>{{{prizes}}}</td></tr>
 }}{{#if:{{{footnotes|}}}|
   <tr><td colspan="2"><small>{{{footnotes}}}</small></td></tr>
 }}
