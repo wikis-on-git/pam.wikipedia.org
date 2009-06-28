@@ -28,15 +28,15 @@
 }}{{#if:{{{religion|}}}|
   <tr><th>Kasalpantayanan</th><td>{{{religion}}}</td></tr>
 }}{{#if:{{{nationality|}}}|
-  <tr><th>Bangsa</th><td>{{{prizes}}}</td></tr>
+  <tr><th>Bangsa</th><td>{{{nationality}}}</td></tr>
 }}{{#if:{{{occupation|}}}|
-  <tr><th>Obra</th><td>{{{prizes}}}</td></tr>
+  <tr><th>Obra</th><td>{{{occupation}}}</td></tr>
 }}{{#if:{{{death_cause|}}}|
-  <tr><th>Sangkan ning Pangamate</th><td>{{{prizes}}}</td></tr>
+  <tr><th>Sangkan ning Pangamate</th><td>{{{death_cause}}}</td></tr>
 }}{{#if:{{{footnotes|}}}|
   <tr><td colspan="2"><small>{{{footnotes}}}</small></td></tr>
 }}{{#if:{{{spouse|}}}|
-  <tr><th>Asawa</th><td>{{{prizes}}}</td></tr>
+  <tr><th>Asawa</th><td>{{{spouse}}}</td></tr>
 }}
 |}<noinclude>
 
