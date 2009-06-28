@@ -1,0 +1,20 @@
+{{Documentation subpage}}
+{{esoteric}}
+'''Function''': Helper function for {{tl|start-date}} and {{tl|end-date}}.  This template is of interest to template writers only.  This template emits a dtstart or dtend date sequence as decribed by the hcalendar spec at [http://microformats.org/wiki/hcalendar the microformats community site].
+
+'''Overview/Vision''' The main reason for existence of this template is to expose dates associated with events or people to the internet.  The standards are called [[Microformats]], and the next major release of browsers such as internet explorer and Firefox are said to allow use of this information.  For example, with address or coordinate data, map icons will activate on the toolbar so that the user may see a satellite image of a place discussed in an article.  Historical data might be used by a sort of google earth history- where the user can navigate not just in space, but in time.  Human readable encoding of dates will make such data ubiquitous in Wikipedia, establishing it the central repository and preeminent source of semantic information on the web.
+==== Obscure code ====
+*Function #titleparts is used as a string array, so that I can pass multiple parameters from a single logic point in the front end template.  Normally, this would required redundantly copying the same logic if the information were passed in multiple template parameters.  
+*dates in up-date is in an odd range.  This is done because years below 2500 can be interpreted as time by the #time function, and because dates <100 are misinterpreted.  This allows a range of 6999BC to 6999AD.  We could get an extra 1000 by adding 2500 instead of 3000, but it is easier on debugging if 3000 is used.  This template keeps them in a high range for safety and subtract 3000 just before outputting.  BC is indicated in ISO8601 with a negative sign preceding the year (see {{cite book|url=http://isotc.iso.org/livelink/livelink/fetch/2000/2122/138351/138352/customview.html?func=ll&objId=138352&objAction=browse&sort=name Technical Committee ISO/TC 154 |page=page 27/ pdf page 33|chapter=Annex B.1.1 |title=ISO8601-2004 |author=[[International Organization for Standardization]]|format=pdf}}). Note that as of 2009-Feb, Operator misreports this as a positive number.  
+*precision is implemented using #time's formatting.  
+*the +1 day, + 1 year stuff is for time ranges.  According to spec, the time end point must be just outside the range.  So that if the event goes from monday to wednesday, the dtend date would be thursday.  You add the unit that corresponds to the given precision.
+
+==== Validating/ debugging ====
+See Firefox's free [https://addons.mozilla.org/en-US/firefox/addon/4106 Operator] toolbar.  Check options for debug mode.  There is a nice dialog to see the emitted html and the microformats that are recognized.  
+==== Splarka gets another cookie ====
+*Human readable dates are due not to any clever coding in this template.  The real work is done by the amazing PHP function [http://uk3.php.net/manual/en/function.strtotime.php strtotime()].  Splarka I think is the dude who exposed it in the #time [[mw:Help:Extension:ParserFunctions|ParserFunction]]. 
+
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS BELOW THIS LINE PLEASE -->
+
+</includeonly>
