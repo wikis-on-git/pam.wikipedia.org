@@ -10,7 +10,7 @@
 }}{{#if:{{{residence|}}}|
   <tr><th>Tuknangan</th><td>{{{residence}}}</td></tr>
 }}{{#if:{{{nationality|}}}|
-  <tr><th>Nationality</th><td>{{{nationality}}}</td></tr>
+  <tr><th>Bangsa</th><td>{{{nationality}}}</td></tr>
 }}{{#if:{{{field|}}}|
   <tr><th>Marangle</th><td>{{{field}}}</td></tr>
 }}{{#if:{{{work_institution|}}}|
