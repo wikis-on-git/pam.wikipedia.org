@@ -1,0 +1,8 @@
+<!--{{Current}} start -->{{ambox
+| type  = notice
+| image = [[Image:Globe current.svg|46px]]
+| text  = '''Ining {{#if:{{{1|}}}|{{{1}}}|articulu}} tungkul ya king bageng [[Portal:Current events|kasalungsungan a {{#if:{{{2|}}}|{{{2}}}|maliliari}}]].''' Mapaliaring malaguang magbayu ing impormasiun kabang milalabas ing panaun.
+}}{{DMCA|Current events|from|{{{date|}}}}}<!--{{Current}} end --><noinclude>
+{{pp-template|small=yes}}
+{{documentation}}
+</noinclude>
