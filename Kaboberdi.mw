@@ -65,74 +65,74 @@
   </tr>
   <tr>
     <td>Eneru</td>
-    <td width="108"><div align="center">75&deg;F</div></td>
-    <td width="108" class="style1"><div align="center">24&deg;C </div></td>
+    <td width="108"><div align="center">75°F</div></td>
+    <td width="108" class="style1"><div align="center">24°C </div></td>
     <td><div align="center">5.3mm</div></td>
   </tr>
   <tr>
     <td>Pebreru</td>
-    <td><div align="center">75&deg;F</div></td>
-    <td class="style1"><div align="center">24&deg;C</div></td>
+    <td><div align="center">75°F</div></td>
+    <td class="style1"><div align="center">24°C</div></td>
     <td><div align="center">3.8mm</div></td>
   </tr>
   <tr>
     <td>Marsu</td>
-    <td><div align="center">77&deg;F</div></td>
-    <td class="style1"><div align="center">25&deg;C</div></td>
+    <td><div align="center">77°F</div></td>
+    <td class="style1"><div align="center">25°C</div></td>
     <td><div align="center">1.3mm</div></td>
   </tr>
   <tr>
     <td>Abril</td>
-    <td><div align="center">77&deg;F</div></td>
-    <td class="style1"><div align="center">25&deg;C</div></td>
+    <td><div align="center">77°F</div></td>
+    <td class="style1"><div align="center">25°C</div></td>
     <td><div align="center">0.0mm</div></td>
   </tr>
   <tr>
     <td>Mayu</td>
-    <td><div align="center">78&deg;F</div></td>
-    <td class="style1"><div align="center">25&deg;C</div></td>
+    <td><div align="center">78°F</div></td>
+    <td class="style1"><div align="center">25°C</div></td>
     <td><div align="center">0.0mm</div></td>
   </tr>
   <tr>
     <td>Juniu</td>
-    <td><div align="center">79&deg;F</div></td>
-    <td class="style1"><div align="center">26&deg;C</div></td>
+    <td><div align="center">79°F</div></td>
+    <td class="style1"><div align="center">26°C</div></td>
     <td><div align="center">0.0mm</div></td>
   </tr>
   <tr>
     <td>Juliu</td>
-    <td><div align="center">81&deg;F</div></td>
-    <td class="style1"><div align="center">27&deg;C</div></td>
+    <td><div align="center">81°F</div></td>
+    <td class="style1"><div align="center">27°C</div></td>
     <td><div align="center">0.8mm</div></td>
   </tr>
   <tr>
     <td>Agostu</td>
-    <td><div align="center">84&deg;F</div></td>
-    <td class="style1"><div align="center">29&deg;C</div></td>
+    <td><div align="center">84°F</div></td>
+    <td class="style1"><div align="center">29°C</div></td>
     <td><div align="center">14.1mm</div></td>
   </tr>
   <tr>
     <td>Septiembri</td>
-    <td><div align="center">85&deg;F</div></td>
-    <td class="style1"><div align="center">29&deg;C</div></td>
+    <td><div align="center">85°F</div></td>
+    <td class="style1"><div align="center">29°C</div></td>
     <td><div align="center">33.6mm</div></td>
   </tr>
   <tr>
     <td>Octubri</td>
-    <td><div align="center">83&deg;F</div></td>
-    <td class="style1"><div align="center">29&deg;C</div></td>
+    <td><div align="center">83°F</div></td>
+    <td class="style1"><div align="center">29°C</div></td>
     <td><div align="center">6.5mm</div></td>
   </tr>
   <tr>
     <td>Nobiembri</td>
-    <td><div align="center">81&deg;F</div></td>
-    <td class="style1"><div align="center">27&deg;C</div></td>
+    <td><div align="center">81°F</div></td>
+    <td class="style1"><div align="center">27°C</div></td>
     <td><div align="center">2.5mm</div></td>
   </tr>
   <tr>
     <td>Desiembri</td>
-    <td><div align="center">77&deg;F</div></td>
-    <td class="style1"><div align="center">25&deg;C</div></td>
+    <td><div align="center">77°F</div></td>
+    <td class="style1"><div align="center">25°C</div></td>
     <td><div align="center">1.6mm</div></td>
   </tr>
 </table>
@@ -272,6 +272,7 @@
 [[vec:Capo Verde]]
 [[vi:Cabo Verde]]
 [[vo:Kabovärduäns]]
+[[war:Cabo Verde]]
 [[yo:Kepu Fẹrdẹ]]
 [[zh:佛得角]]
 [[zh-min-nan:Chheⁿ-kak Kiōng-hô-kok]]
