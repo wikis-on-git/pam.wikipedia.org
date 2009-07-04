@@ -1,6 +1,6 @@
 {{Infobox pope|
 English name=Pius XII|
-image=[[Image:Piusxiib.jpg|200px]]|
+image=[[File:Piusxiib.jpg|200px]]|
 birth_name=Eugenio Maria Giuseppe Giovanni Pacelli|
 term_start=[[Marsu 2]] [[1939]]|
 term_end=[[Octubri 9]] [[1958]]|
@@ -18,13 +18,13 @@ other=Pius
 {{succession box one to two |
 before=[[Pietro Cardinal Gasparri]]|
 title1=[[Cardinal Secretary of State]] |
-years1=1930&ndash;1939 |
+years1=1930–1939 |
 title2=[[Camerlengo]] |
-years2=1935&ndash;1939 |
+years2=1935–1939 |
 after1=[[Luigi Cardinal Maglione]] |
 after2=[[Lorenzo Cardinal Lauri]]
 }}
-{{succession box | before=[[Papa Pius XI|Pius XI]] | title=[[list of popes|Papa]] | years=1939&ndash;1958| after=[[Papa Juan XXIII|Juan XXIII]]}}
+{{succession box | before=[[Papa Pius XI|Pius XI]] | title=[[list of popes|Papa]] | years=1939–1958| after=[[Papa Juan XXIII|Juan XXIII]]}}
 {{end box}}
 {{Popes}}
 
@@ -39,7 +39,6 @@ after2=[[Lorenzo Cardinal Lauri]]
 |DATE OF DEATH=Octubri 9, 1958
 |PLACE OF DEATH=Castel Gandolfo, Italy
 }}
-
 
 [[Category:Papa]]
 [[Category:1876 kebaitan|Pius XII, Papa]]
@@ -69,6 +68,7 @@ after2=[[Lorenzo Cardinal Lauri]]
 [[es:Pío XII]]
 [[et:Pius XII]]
 [[eu:Pio XII.a]]
+[[fa:پیوس دوازدهم]]
 [[fi:Pius XII]]
 [[fr:Pie XII]]
 [[ga:Pápa Pius XII]]
