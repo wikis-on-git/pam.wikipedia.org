@@ -24,7 +24,7 @@
 }}{{#if:{{{known_for|}}}|
   <tr><th>Bantug</th><td>{{{known_for}}}</td></tr>
 }}{{#if:{{{prizes|}}}|
-  <tr><th>Notable Prizes</th><td>{{{prizes}}}</td></tr>
+  <tr><th>Bantug a galal</th><td>{{{prizes}}}</td></tr>
 }}{{#if:{{{religion|}}}|
   <tr><th>Kasalpantayanan</th><td>{{{religion}}}</td></tr>
 }}{{#if:{{{nationality|}}}|
