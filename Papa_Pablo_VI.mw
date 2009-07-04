@@ -1,7 +1,7 @@
 {{Infobox pope|
 English name=Paul VI|
-image=[[Image:Paul sextus.jpg|200px]] |
-birth_name=Giovanni Battista<br>Enrico Antonio<br>Maria Montini|
+image=[[File:Paul sextus.jpg|200px]] |
+birth_name=Giovanni Battista<br />Enrico Antonio<br />Maria Montini|
 term_start=[[Juniu 21]], [[1963]]|
 term_end=[[Agostu 6]], [[1978]]|
 predecessor=[[Papa Juan XXIII|Juan XXIII]]|
@@ -16,13 +16,14 @@ other=Pablo}}
 
 <center>
 {{start box}}
-{{succession box | before=[[Alfredo Ildefonso Cardinal Schuster]]| title=[[Arsobispu ning Milan]] |years=1953 &ndash; 1963 | after=[[Giovanni Cardinal Colombo]]}}
-{{succession box | before=[[Papa Juan XXIII|Juan XXIII]] | title=[[Papa]] | years=[[Juniu 21]] [[1963]] &ndash; [[Agostu 6 ]] [[1978]] | after=[[Papa Juan Pablo I|Juan Pablo I]] }}
+{{succession box | before=[[Alfredo Ildefonso Cardinal Schuster]]| title=[[Arsobispu ning Milan]] |years=1953 – 1963 | after=[[Giovanni Cardinal Colombo]]}}
+{{succession box | before=[[Papa Juan XXIII|Juan XXIII]] | title=[[Papa]] | years=[[Juniu 21]] [[1963]] – [[Agostu 6]]  [[1978]] | after=[[Papa Juan Pablo I|Juan Pablo I]] }}
 {{end box}}
 </center>
 {{Popes}}
 
 {{commons|Category:Paulus VI}}
+
 [[Category:Papa]]
 [[Category:1897 kebaitan|Paul 6]]
 [[Category:1978 kematyan|Paul 6]]
@@ -47,6 +48,7 @@ other=Pablo}}
 [[es:Pablo VI]]
 [[et:Paulus VI]]
 [[eu:Paulo VI.a]]
+[[fa:پل ششم]]
 [[fi:Paavali VI]]
 [[fr:Paul VI]]
 [[ga:Pápa Pól VI]]
