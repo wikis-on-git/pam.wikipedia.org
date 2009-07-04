@@ -1,0 +1,23 @@
+{| class="messagebox" style="background-color:#e0f0f9; text-align:center; direction:{{Dir|{{{lang}}}}};"
+| style="width:60px" | [[File:Information_icon.svg|40px|link=]]
+|{{lang|{{{lang|}}}
+| colspan="2" |
+|This category contains [[Commons:Picture of the day|picture of the day]] descriptions.
+<!-- 
+
+It's a by date category
+
+-->{{#if:{{{year|}}}|{{#if:{{{month|}}}|[[Category:Potd templates by date| {{{year|}}}{{{month|}}}]]}}}}<!--
+
+It's a by language category
+
+-->{{#if:{{{lang|}}}|[[Category:Potd templates by language|{{ucfirst:{{{lang}}}}}]]<!--
+   -->[[Category:{{#ifexist:Template:Translated tag/local category-{{lc:{{{lang}}}}}|{{translated tag/local category-{{lc:{{{lang}}}}}|potd}}|Commons templates-{{lc:{{{lang}}}}}}}]]}}<!--
+
+Add language category
+
+-->{{#if:{{{month|}}}{{{lang|}}}|{{CatAZ}}}}
+|}</div><noinclude>
+
+[[Category:Category header templates|{{PAGENAME}}]]
+</noinclude>
