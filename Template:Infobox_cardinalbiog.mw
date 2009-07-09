@@ -1,0 +1,59 @@
+{| class = "infobox vcard vevent" style="width:315px; text-align:left;"
+|+ style="font-size: 125%;" class = "fn summary"| '''{{{name}}}'''
+| style="background: #efefef; text-align:center;" colspan="2" | {{{image}}}
+|-
+! style="background:#FF6666; text-align:center;" colspan="2" | Puestu king Pisamban
+|-
+! Sakup (''See'') 
+| {{{See}}}
+|- style="vertical-align: middle;"
+! Titulu 
+| {{{Title}}}
+|- style="vertical-align: middle;"
+! Panaun a atiu king puestu 
+| {{{Period}}}
+|- style="vertical-align: middle;"
+{{#if: {{{Predecessor|}}}
+! Elilan 
+{{!}} {{{Predecessor}}}}}
+|- style="vertical-align: middle;"
+{{#if: {{{Successor|}}} |
+! Kayalili 
+{{!}} {{{Successor|}}}}}
+|-
+{{#if: {{{Reason for exit|}}} |
+! Sangkan ning pamaglako king puestu 
+{{!}} {{{Reason|}}}}}
+|- style="vertical-align: middle;"
+{{#if: {{{post|}}}|
+! Minunang puestu
+{{!}} {{{post}}}
+}}
+|- style="vertical-align: middle;"
+! Mibulalag a cardinal 
+| {{{cardinal}}}
+|-
+{{#if: {{{Rank|}}} |
+! Ranggu
+{{!}} {{{Rank}}}}}
+|-
+! style="background: #FF6666; text-align:center;" colspan="2" | Personal
+|-
+! Kebaitan 
+| {{{date of birth}}}
+|- style="vertical-align: middle;"
+! Lugal a beitan 
+| {{{place of birth}}}
+|-
+{{#if: {{{date of death|}}} |
+! Kematian 
+{{!}} {{{date of death|}}}}}
+|-
+{{#if: {{{place of death|}}} |
+! Lugal a kematian 
+{{!}} {{{place of death}}}}}
+|}<noinclude>
+
+{{template doc}}
+<!-- Please add categories and interwikis to the /doc subpage, not here. -->
+</noinclude>
