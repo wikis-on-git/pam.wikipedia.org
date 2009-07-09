@@ -2,7 +2,7 @@
 |+colspan="2" style="text-align: center; font-size: larger;"| '''{{{infoboxtitle}}}'''
 {{ #if: {{{sealfile<includeonly>|</includeonly>}}} |
 {{!}}-
-{{!}} colspan="2" style="text-align: center;" {{!}} [[Image:{{{sealfile}}}]]
+{{!}} colspan="2" style="text-align: center;" {{!}} {{{sealfile}}}
 }}
 |-
 | colspan="2" style="text-align: center; background: #e0e0e0;;"| '''Karinan'''
