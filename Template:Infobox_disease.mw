@@ -1,0 +1,62 @@
+{| class="infobox" cellspacing=5 style="width: 22em; font-size: 88%; text-align:left"
+| colspan=2 style="text-align: center; background-color: {{{Background|lightgrey}}}; font-size: 125%" | '''{{{Name|{{PAGENAME}} }}}'''
+|-
+| colspan=2 style="text-align: center" | ''Classification and external resources''
+|-
+{{#if: {{{Image<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center" {{!}} [[File:{{{Image}}}|{{{Width|190}}}px|alt={{{Alt|}}}]]
+{{!}}-
+}}
+{{#if: {{{Caption<includeonly>|</includeonly>}}}|
+{{!}} colspan="2" style="text-align:center" {{!}} <small>{{{Caption}}}</small>
+{{!}}-
+}}
+{{#if: {{{ICD10<includeonly>|</includeonly>}}}|
+! [[ICD]]-[[List of ICD-10 codes|10]]
+{{!}} {{{ICD10}}}
+{{!}}-
+}}
+{{#if: {{{ICD9<includeonly>|</includeonly>}}}|
+! [[ICD]]-[[List of ICD-9 codes|9]]
+{{!}} {{{ICD9}}}
+{{!}}-
+}}
+{{#if: {{{ICDO<includeonly>|</includeonly>}}}|
+! [[International Classification of Diseases for Oncology|ICD-O:]]
+{{!}} {{{ICDO}}}
+{{!}}-
+}}
+{{#if: {{{OMIM<includeonly>|</includeonly>}}}{{{OMIM_mult|}}}|
+! [[OMIM]]
+{{!}} [http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id={{{OMIM}}} {{{OMIM}}}] {{{OMIM_mult|}}}
+{{!}}-
+}}
+{{#if: {{{DiseasesDB<includeonly>|</includeonly>}}}|
+! [[Diseases Database|DiseasesDB]]
+{{!}} [http://www.diseasesdatabase.com/ddb{{{DiseasesDB}}}.htm {{{DiseasesDB}}}] {{{DiseasesDB_mult|}}}
+{{!}}-
+}}
+{{#if: {{{MedlinePlus<includeonly>|</includeonly>}}}|
+! [[MedlinePlus]]
+{{!}} [http://www.nlm.nih.gov/medlineplus/ency/article/{{{MedlinePlus}}}.htm {{{MedlinePlus}}}]  {{{MedlinePlus_mult|}}}
+{{!}}-
+}}
+{{#if: {{{eMedicineSubj<includeonly>|</includeonly>}}}|
+! [[eMedicine]]
+{{!}} {{#ifeq: {{{eMedicineSubj|}}}| search | [http://search.medscape.com/emedicine-search?queryText={{{eMedicineTopic}}} topic list] | {{#ifeq: {{{eMedicineSubj|}}}|article|[http://emedicine.medscape.com/article/{{{eMedicineTopic}}}-overview|[http://www.emedicine.com/{{{eMedicineSubj}}}/topic{{{eMedicineTopic}}}.htm}} {{{eMedicineSubj}}}/{{{eMedicineTopic}}}]&nbsp;}} {{{eMedicine_mult|}}}
+{{!}}-
+}}
+{{#if: {{{MeshID<includeonly>|</includeonly>}}}|
+! '''[[Medical Subject Headings|MeSH]]'''
+{{!}} [http://www.nlm.nih.gov/cgi/mesh/{{{MeshYear|2009}}}/MB_cgi?field=uid&term={{{MeshID|}}} {{{MeshID}}}]
+{{!}}-
+}}
+{{#if: {{{MeshName<includeonly>|</includeonly>}}}|
+{{!}} '''[[Medical Subject Headings|MeSH]]'''
+{{!}} colspan=2 {{!}} ''[http://www.nlm.nih.gov/cgi/mesh/{{{MeshYear|2008}}}/MB_cgi?mode=&term={{{MeshName}}}&field=entry#Tree{{{MeshNumber}}} {{{MeshNumber}}}]''
+{{!}}-
+}}
+|}<noinclude>
+{{doc}}
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
+</noinclude>
