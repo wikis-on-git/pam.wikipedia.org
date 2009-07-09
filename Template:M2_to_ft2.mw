@@ -1,0 +1,22 @@
+<noinclude>;Usage:
+:<nowiki>{{m2 to ft2 | num | abbr | spell | precision | wiki}}</nowiki>
+
+;Examples
+:''[[WP:MOSNUM#Units of measurement|Manual of Style]] notation'': <nowiki>{{m2 to ft2|1000}}</nowiki>&nbsp;&rarr; {{m2 to ft2|1000}}
+:''Short notation'': <nowiki>{{m2 to ft2|1000|abbr=yes}}</nowiki>&nbsp;&rarr; {{m2 to ft2|1000|abbr=yes}}
+:''Full notation'': <nowiki>{{m2 to ft2|num=1000|abbr=no|spell=Commonwealth|precision=2|wiki=yes}}</nowiki>&nbsp;&rarr; {{m2 to ft2|num=1000|abbr=no|spell=Commonwealth|precision=2|wiki=yes}}
+
+''Italicized'' parameters are optional:
+*'''num''' is a required parameter, which specifies the number of square meters to be converted to square feet.  Please do not format this parameter; i.e., use 1234 instead of 1,234.
+*'''''abbr''''' can take values of either ''mos'', ''yes'', or ''no''.  ''Mos'' will show the names of the units as specified in the [[WP:MOSNUM#Units of measurement|Manual of Style for dates and numbers]] (square meters, sq&nbsp;ft); ''yes'' will show the abbreviated names of the units (m², sq&nbsp;ft); and ''no'' will show the full names of the units (square meters, square feet).  The default value is ''mos''.
+*'''''spell''''' can take values of ''American'' or ''Commonwealth'' and is only meaningful when ''abbr'' is set to ''no''.  ''American'' will use "meters", and ''Commonwealth''&mdash;"metres".  The default value is ''American''.
+*'''''precision''''' is the number of decimal digits in the converted value.  The default value is&nbsp;1.
+*'''''wiki''''' specifies whether the names of the units should be wikified or not and can take values of either ''yes'' or ''no''. The default value is ''no''.
+
+Capitalization of the parameters is unimportant.</noinclude><includeonly>{{FORMATNUM:{{#if:{{{num|}}}|{{{num}}}|{{{1}}}}}}}&nbsp;{{#ifexpr:({{#ifeq:{{LC:{{{abbr|mos}}}}}|mos|1|0}} OR {{#ifeq:{{LC:{{{abbr|mos}}}}}|no|1|0}})|{{#ifeq:{{LC:{{{spell|american}}}}}|american|{{#ifeq:{{LC:{{{wiki|no}}}}}|yes|[[square metre|square meters]]|square meters}}|{{#ifeq:{{LC:{{{wiki|no}}}}}|yes|[[square metre]]s|square metres}}}}|{{#ifeq:{{LC:{{{wiki|no}}}}}|yes|[[square metre|m²]]|m²}}}} ({{FORMATNUM:{{#expr:{{#if:{{{num|}}}|{{{num}}}|{{{1}}}}}/.09290304 round {{{precision|1}}}}}}}&nbsp;{{#ifeq:{{LC:{{{abbr|mos}}}}}|no|{{#ifeq:{{LC:{{{wiki|no}}}}}|yes|[[square foot|square feet]]|square feet}}|{{#ifeq:{{LC:{{{wiki|no}}}}}|yes|[[square foot|sq&nbsp;ft]]|sq&nbsp;ft}}}})</includeonly><noinclude>
+==See also==
+*{{tl|ft2 to m2}}
+*{{tl|Convert}}
+
+[[Category:Conversion templates|{{PAGENAME}}]]
+</noinclude>
