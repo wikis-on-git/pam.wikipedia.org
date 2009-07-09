@@ -13,7 +13,7 @@
 |-
 ! colspan=2 style="background-color: #efefef; text-align:center" | Administration
 |- <!-- ***** Country ***** --> class="mergedtoprow"
-! [[List of countries|Country]]
+! [[List of countries|Bangsa]]
 {{!}} {{flagcountry|Lebanon}}
 {{!}}-
 |- <!-- ***** Governorate ***** --> class="mergedrow"
@@ -24,7 +24,7 @@
 }}
 |-  class="adr" <!-- ***** District ***** --> class="mergedbottomrow"
 {{#if:{{{district|}}}|
-! [[Districts of Lebanon|District]]
+! [[Districts of Lebanon|Distritu]]
 {{!}} <span class="region">[[{{{district}}}]]</span>
 {{!}}-
 }} <!-- ***** Government ***** -->
