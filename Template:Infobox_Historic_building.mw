@@ -1,0 +1,129 @@
+{{infobox
+| bodyclass  = vcard
+| titleclass = fn org
+| title      = {{{building_name|<includeonly>{{{name|{{PAGENAME}}}}}</includeonly>}}}
+| header1    = {{#if:{{{native_building_name|}}}|<small>{{{native_building_name|}}}</small>}}
+| image      = {{#if:{{{image|}}}|[[image:{{{image}}}|border|250px]]}}
+| caption    = {{{caption|}}}
+| header2    = {{#if: {{{map_type|}}}|<center>{{Location map|{{{map_type}}}|lat={{{latitude}}}|long={{{longitude}}}|width={{{map_size|220}}}|float=center|border=none|caption={{{map_caption|Makalto kilub ning {{{map_type}}}}}}}}</center>}}
+
+| header3    = {{#if:{{{former_names|}}}{{{alternate_names|}}}{{{building_type|}}}{{{architectural_style|}}}{{{style|}}}{{{structural_system|}}}{{{location|}}}{{{location_town|}}}{{{location_country|}}}{{{client|}}}{{{owner|}}}{{{current_tenants|}}}{{{landlord|}}}{{{coordinates|}}}{{{latitude|}}}{{{altitude|}}}|Building}}
+
+| label4     = Sadiang lagiu
+| data4      = {{{former_names|}}}
+| label5     = Aliwang lagiu
+| data5      = {{{alternate_names|}}}
+| label6     = Uri
+| data6      = {{{building_type|}}}
+| class7     = note
+| label7     = Estilo ning Arquiitectura 
+| data7      = {{{architectural_style|}}}{{{style|}}}
+| label8     = Sistema ning pangabalangkas
+| data8      = {{{structural_system|}}}
+| class9     = label
+| label9     = Lugal
+| data9      = {{{location|}}}
+| label10     = Balen
+| data10      = {{{location_town|}}}
+| label11    = Bangsa
+| data11     = {{{location_country|}}}
+| label12    = Address
+| data12     = {{{address|}}}
+| label13    = Clienti
+| data13     = {{{client|}}}
+| label14    = Makibandi
+| data14     = {{{owner|}}}
+| label15     = Kasalungsungan a manupa
+| data15      = {{{current_tenants|}}}
+| label16     = Makibandi
+| data16      = {{{landlord|}}}
+| label17    = [[Geographic coordinate system|Coordinates]]
+| data17     = {{{coordinates|}}}{{#if:{{{latitude|}}}|{{coord|{{{latitude|}}}|N|{{{longitude|}}}|E|type:landmark{{#if:{{{location_country|}}}|_region:{{CountryAbbr|{{{location_country}}}|}}|}}|display=inline,title}}}}
+| label18    =  Katas ning gabun a katatalakaran  
+| data18     = {{{altitude|}}}
+
+| header19   = {{#if:{{{start_date|}}}{{{construction_start_date|}}}{{{completion_date|}}}{{{demolition_date|}}}{{{date_demolished|}}}{{{size|}}}{{{height|}}}{{{diameter|}}}{{{other_dimensions|}}}{{{floor_count|}}}{{{floor_area|}}}{{{main_contractor|}}}{{{cost|}}}|Construction}}
+
+| label20    = Inumpisan
+| data20     = {{{start_date|}}}{{{construction_start_date|}}}
+| class21    = note
+| label21    = Meyari
+| data21     = {{{completion_date|}}}
+| label22    = Inaugurated
+| data22     = {{{inauguration_date|}}}
+| label23    = Misamasan
+| data23     = {{{renovation_date|}}}
+| class24    = note
+| label24    = Lesakan
+| data24     = {{{demolition_date|}}}{{{date_demolished|}}}
+| label25    = Mesira
+| data25     = {{{destruction_date|}}}
+| class26    = note
+| label26    = Dagul
+| data26     = {{{size|}}}
+| label27    = Tas
+| data27     = {{{height|}}}
+| label28    = Diameter
+| data28     = {{{diameter|}}}
+| label29    = Aliwang sukad
+| data29     = {{{other_dimensions|}}}
+| label30    = Floor count
+| data30     = {{{floor_count|}}}
+| label31    = Lapad ning lande
+| data31     = {{{floor_area|}}}
+| label32    = Manimunang contratista
+| data32     = {{{main_contractor|}}}
+| label33    = Alaga
+| data33     = {{{cost|}}}
+| label34    = Alaga ning pamaniamasan
+| data34     = {{{ren_cost|}}}
+
+| header35   = {{#if:{{{architect|}}}{{{architecture_firm|}}}{{{engineer|}}}{{{structural_engineer|}}}{{{services_engineer|}}}{{{civil_engineer|}}}{{{other_designers|}}}{{{quantity_surveyor|}}}{{{awards|}}}|Design team}}
+
+| class36    = note
+| label36    = Arquitectu
+| data36     = {{{architect|}}}
+| label37    = Architecture Firm
+| data37     = {{{architecture_firm|}}}
+| label38    = Ingenieru
+| data38     = {{{engineer|}}}
+| label39    = Structural engineer
+| data39     = {{{structural_engineer|}}}
+| label40    = Services engineer
+| data40     = {{{services_engineer|}}}
+| label41    = Civil engineer
+| data41     = {{{civil_engineer|}}}
+| label42    = Other designers
+| data42     = {{{other_designers|}}}
+| label43    = Quantity surveyor
+| data43     = {{{quantity_surveyor|}}}
+| class44    = note
+| label44    = Galal 
+| data44     = {{{awards|}}}
+
+| header45   = {{#if:{{{ren_architect|}}}{{{ren_firm|}}}{{{ren_engineer|}}}{{{ren_str_engineer|}}}{{{ren_serv_engineer|}}}{{{ren_civ_engineer|}}}{{{ren_oth_designers|}}}{{{ren_qty_surveyor|}}}{{{ren_awards|}}}|Renovating team}}
+
+| class46    = note
+| label46    = Arquitectu
+| data46     = {{{ren_architect|}}}
+| label47    = Cumpaniang meniamasan
+| data47     = {{{ren_firm|}}}
+| label48    = Ingenieru
+| data48     = {{{ren_engineer|}}}
+| label49    = Structural engineer
+| data49     = {{{ren_str_engineer|}}}
+| label50    = Services engineer
+| data50     = {{{ren_serv_engineer|}}}
+| label51    = Civil engineer
+| data51     = {{{ren_civ_engineer|}}}
+| label52    = Aliwang migdiseniu
+| data52     = {{{ren_oth_designers|}}}
+| label53    = Quantity surveyor
+| data53     = {{{ren_qty_surveyor|}}}
+| class54    = note
+| label54    = Galal
+| data54     = {{{ren_awards|}}}
+
+| header55   = {{#if:{{{references|}}}|References}}
+| data56     = {{{references|}}}
+}}<noinclude>{{documentation}}</noinclude>
