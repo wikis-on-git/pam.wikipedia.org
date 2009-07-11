@@ -13,6 +13,9 @@
 | '''[[Mayor]]'''
 | valign="middle" align="center" | {{{mayor}}} {{{mayor}}}
 |- bgcolor="#FFFFFF"
+| '''[[Kaba ning pamanyuyu]]'''
+| valign="middle" align="center" | {{{term}}} {{{term}}}
+|- bgcolor="#FFFFFF"
 | valign="middle"| '''[[Coordinate geophysical]]''' || align="center" | {{#if:{{{lat_long|}}}|{{{lat_long}}}|{{{longitude}}}, {{{latitude}}}}
 |- bgcolor="#FFFFFF"
 | valign="middle"| '''Lualas¹''' || align="center" | {{{area_km2}}} km²
@@ -21,6 +24,9 @@
 |- bgcolor="#FFFFFF"
 | '''Populasiun²''' <small>({{{population}}})</small>
 | align="center" | {{{population}}}
+|- bgcolor="#FFFFFF"
+| '''Populasiun-petsa²''' <small>({{{date-population}}})</small>
+| align="center" | {{{date-population}}}
 |- bgcolor="#FFFFFF"
 | '''Pangasiksik populasiun''' || align="center" | {{{density_km2}}} tau/km&sup2;
 |- bgcolor="#FFFFFF"
