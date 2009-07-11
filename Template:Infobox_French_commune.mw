@@ -17,6 +17,8 @@
 |- bgcolor="#FFFFFF"
 | valign="middle"| '''Lualas¹''' || align="center" | {{{area_km2}}} km²
 |- bgcolor="#FFFFFF"
+| valign="middle"| '''Hectaria¹''' || align="center" | {{{hectares}}} km²
+|- bgcolor="#FFFFFF"
 | '''Populasiun²''' <small>({{{population}}})</small>
 | align="center" | {{{population}}}
 |- bgcolor="#FFFFFF"
