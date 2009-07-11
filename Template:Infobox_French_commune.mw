@@ -6,6 +6,10 @@
 |- bgcolor="#FFFFFF"
 | valign="middle"| '''[[Departamentu  (France)|Departamentu]]''' || align="center" | {{{department}}}
 |- bgcolor="#FFFFFF"
+| valign="middle"| '''[[Arrondissement (France)|Arrondissement]]''' || align="center" | {{{arrondissement}}}
+|- bgcolor="#FFFFFF"
+| valign="middle"| '''[[Canton|Canton]]''' || align="center" | {{{canton}}}
+|- bgcolor="#FFFFFF"
 | '''[[Mayor]]'''
 | valign="middle" align="center" | {{{mayor}}} {{{mayor}}}
 |- bgcolor="#FFFFFF"
