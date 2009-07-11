@@ -1,0 +1,19 @@
+<!--{{Expand French}} begin-->{{Expand language
+|langcode=fr
+|google=yes
+|otherarticle={{{1|{{PAGENAME}}}}} <!--keep this as it is -->
+|date={{{date|}}}
+|fa={{{fa|}}}
+|topic={{#switch: {{{topic}}}
+ | bio = Biography
+ | geo = Geography
+ | gov = Government and politics
+ | culture = Culture
+ | hist = History
+ | sci = Science
+ | tech = Technology
+ | sport = Sports
+ | transport = Transportation
+ | struct = Building and structure
+}}
+}}<!--{{Expand French}} end-->
