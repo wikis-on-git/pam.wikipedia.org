@@ -22,10 +22,10 @@
 |- bgcolor="#FFFFFF"
 | valign="middle"| '''Hectaria¹''' || align="center" | {{{hectares}}} km²
 |- bgcolor="#FFFFFF"
-| '''Populasiun²''' <small>({{{population}}})</small>
-| align="center" | {{{population}}}
+| '''Populasiun²''' 
+| align="center" | {{{date-population}}}
 |- bgcolor="#FFFFFF"
-| '''Populasiun-petsa²''' <small>({{{date-population}}})</small>
+| '''Populasiun-petsa²''' 
 | align="center" | {{{date-population}}}
 |- bgcolor="#FFFFFF"
 | '''Pangasiksik populasiun''' || align="center" | {{{density_km2}}} tau/km&sup2;
