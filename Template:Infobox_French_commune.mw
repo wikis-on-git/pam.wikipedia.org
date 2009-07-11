@@ -13,8 +13,8 @@
 |-
 {{#if: {{{image_flag|<noinclude>-</noinclude>}}} |
 <!--These 50% widths are problem - the cells are in the same columns as the headers/data for the rest of the table... maybe make this a sub-table?-->
-{{!}}width="50%" align="center" style="border-top:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;"{{!}}<table style="border:1px solid #eeeeee;"><tr><td>[[Image:{{{image_flag<noinclude>|Placeholder.png</noinclude>}}}|{{{image_flag_size<noinclude>|120px</noinclude>}}}|Flag of {{{common_name}}}]]</td></tr></table>
-{{!}}width="50%" align="center" style="border-top:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;"{{!}}[[Image:{{{image_coat_of_arms<noinclude>|Placeholder.png</noinclude>}}}|{{{image_coat_of_arms_size<noinclude>|120px</noinclude>}}}|Coat of arms of {{{common_name}}}]]
+{{!}}width="50%" align="center" style="border-top:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;"{{!}}<table style="border:1px solid #eeeeee;"><tr><td>[[Image:{{{image_flag<noinclude>|Placeholder.png</noinclude>}}}|{{{image_flag_size<noinclude>|120px</noinclude>}}}|Bandera ning {{{common_name}}}]]</td></tr></table>
+{{!}}width="50%" align="center" style="border-top:solid 1px #ccd2d9; vertical-align:middle;background-color:#ffffff;"{{!}}[[Image:{{{image_coat_of_arms<noinclude>|Placeholder.png</noinclude>}}}|{{{image_coat_of_arms_size<noinclude>|120px</noinclude>}}}|Sagkal armas ning {{{common_name}}}]]
 {{!-}}
 {{!}}align="center" width="50%" style="line-height:14px;background-color:#ffffff;"{{!}}<small>{{{flag_legend}}}</small>
 {{!}}align="center" width="50%" style="line-height:14px;background-color:#ffffff;"{{!}}<small>{{{Coat_of_arms_legend}}}</small>
@@ -35,7 +35,7 @@ Motto: {{{city_motto}}}
 }}
 |-
 <!----- Map, Location ----->
-| colspan="2"  style="background-color:#ccccff" align="center" | '''Location'''
+| colspan="2"  style="background-color:#ccccff" align="center" | '''Karinan'''
 |-
 {{#if: {{{map|<noinclude>-</noinclude>}}} |
 {{!}} colspan="2" valign="top" align="center" {{!}} [[Image:{{{map}}}|270px]]
@@ -65,7 +65,7 @@ Motto: {{{city_motto}}}
 }}
 |-
 {{#if: {{{time zone|<noinclude>-</noinclude>}}} |
-{{!}}[[Time Zone]]
+{{!}}[[Oras Zona]]
 {{!}} {{{time zone}}}
 }}
 |-
@@ -79,14 +79,14 @@ Motto: {{{city_motto}}}
 <!----- Administration ----->
 !colspan="2" style="background-color:#ccccff"|Administration
 |-
-|[[List of countries|Country]]||<span class="adr"><span class="country-name">[[France]]</span></span>
+|[[List of countries|Bangsa]]||<span class="adr"><span class="country-name">[[France]]</span></span>
 <noinclude>
 |-
 | colspan=2 style=font-weight:bold | (
 </noinclude>
 |-
 {{#if: {{{region|{{{région|<noinclude>-</noinclude>}}}}}} |
-{{!}}[[Regions of France|Region]]
+{{!}}[[Regions of France|Labuad]]
 {{!}} {{#ifexist: {{{region|{{{région|<noinclude>-</noinclude>}}}}}} (region)
     |[[{{{region|{{{région|<noinclude>-</noinclude>}}}}}} (region)|{{{region|{{{région|<noinclude>-</noinclude>}}}}}}]]
     |{{#ifexist: {{{region|{{{région|<noinclude>-</noinclude>}}}}}}
@@ -102,7 +102,7 @@ Motto: {{{city_motto}}}
 {{!}}[[Subdivisions of France#Overseas|''Sui generis'' collectivity]]
 {{!}} [[New Caledonia]]{{#if:{{{capital|}}}|<br/>{{{capital}}} }}
 {{!-}}
-{{!}}[[Subdivisions of New Caledonia|Province]]
+{{!}}[[Subdivisions of New Caledonia|Lalawigan]]
 {{!}} {{{province}}}<noinclude><small>(for New Caledonia)</small></noinclude>
 }}
 <noinclude>
@@ -120,7 +120,7 @@ Motto: {{{city_motto}}}
 </noinclude>
 |-
 {{#if: {{{administrative subdivision|<noinclude>-</noinclude>}}} |
-{{!}}[[French Polynesia#Administrative divisions|Administrative subdivision]]
+{{!}}[[French Polynesia#Administrative divisions|Administratibung pangadake]]
 {{!}} {{{administrative subdivision}}}
 }}
 <noinclude>
@@ -129,12 +129,12 @@ Motto: {{{city_motto}}}
 </noinclude>
 |-
 {{#if: {{{commune centre|<noinclude>-</noinclude>}}} |
-{{!}}Commune centre
+{{!}}Commune kalibudtaran
 {{!}} {{{commune centre}}}
 }}
 |-
 {{#if: {{{department|{{{département|{{{departement|<noinclude>{{{department}}}</noinclude>}}}}}}}}} |
-{{!}}[[Departments of France|Department]]
+{{!}}[[Departments of France|Departamentu]]
 {{!}} {{#ifexist: {{{department|{{{département|{{{departement|<noinclude>{{{department}}}</noinclude>}}}}}}}}} (department)
     |[[{{{department|{{{département|{{{departement|<noinclude>{{{department}}}</noinclude>}}}}}}}}} (department)|{{{department|{{{département|{{{departement|<noinclude>{{{department}}}</noinclude>}}}}}}}}}]]
     |{{#ifexist: {{{department|{{{département|{{{departement|<noinclude>{{{department}}}</noinclude>}}}}}}}}}
@@ -176,25 +176,25 @@ Motto: {{{city_motto}}}
 }}
 |-
 {{#if: {{{deputie|<noinclude>-</noinclude>}}} |
-{{!}} [[Deputies of the 12th French National Assembly|Deputy]]
+{{!}} [[Deputies of the 12th French National Assembly|Deputadu]]
 {{!}} {{{deputie}}}
 }}
 |-
 !colspan="2" style="background-color:#ccccff"|{{#if:{{{UU-area|}}}|City&nbsp;}}Statistics
 |-
 {{#if: {{{elevation_min_m|{{{alt mini|<noinclude>-</noinclude>}}}}}} |
-{{!}}[[Elevation]]{{#if: {{{elevation footnotes|}}}|&nbsp;{{{elevation footnotes}}}}}
-{{!}} {{convert|{{formatnum:{{{alt mini|{{{elevation_min_m}}}}}}|R}}|–|{{formatnum:{{{alt maxi|{{{elevation_max_m}}}}}}|R}}|m|ft|abbr=on}}{{#if:{{{elevation_m|{{{alt moy|}}}}}}|<br/>(avg. {{convert|{{formatnum:{{{alt moy|{{{elevation_m}}}}}}|R}}|m|ft|abbr=on|disp=s}})}} |{{#if: {{{elevation_m|{{{alt moy|<noinclude>-</noinclude>}}}}}}|{{!}}[[Elevation]]
+{{!}}[[katas]]{{#if: {{{elevation footnotes|}}}|&nbsp;{{{elevation footnotes}}}}}
+{{!}} {{convert|{{formatnum:{{{alt mini|{{{elevation_min_m}}}}}}|R}}|–|{{formatnum:{{{alt maxi|{{{elevation_max_m}}}}}}|R}}|m|ft|abbr=on}}{{#if:{{{elevation_m|{{{alt moy|}}}}}}|<br/>(avg. {{convert|{{formatnum:{{{alt moy|{{{elevation_m}}}}}}|R}}|m|ft|abbr=on|disp=s}})}} |{{#if: {{{elevation_m|{{{alt moy|<noinclude>-</noinclude>}}}}}}|{{!}}[[Katas]]
 {{!}} {{convert|{{formatnum:{{{alt moy|{{{elevation_m}}}}}}|R}}|m|ft|abbr=on}}&nbsp;avg. }}
 }}
 |-
 {{#if: {{{area_km2|{{{area|{{{km²|<noinclude>{{{area_km2}}}</noinclude>}}}}}}}}} |
-{{!}}Land area<sup>{{#if:{{{overseas collectivity|}}}||<small>1</small>}}</sup>{{#if: {{{area footnotes|}}}|&nbsp;{{{area footnotes}}}}}
+{{!}}Lualas ning gabun<sup>{{#if:{{{overseas collectivity|}}}||<small>1</small>}}</sup>{{#if: {{{area footnotes|}}}|&nbsp;{{{area footnotes}}}}}
 {{!}} {{convert|{{formatnum:{{{area_km2|{{{area|{{{km²|<noinclude>{{{area_km2}}}</noinclude>}}}}}}}}}|R}}|km2|sqmi|abbr=on}}
 }}
 |-
 {{#if: {{{population|{{{sans|<noinclude>{{{population}}}</noinclude>}}}}}} |
-{{!}}[[Demographics of France|Population]]<sup>{{#if:{{{area_km2|{{{area|{{{km²|<noinclude>-</noinclude>}}}}}}}}}|{{#if:{{{overseas collectivity|}}}|<small>1</small>|<small>2</small>}}|<small>1</small>}}</sup>
+{{!}}[[Demographics of France|Populasiun]]<sup>{{#if:{{{area_km2|{{{area|{{{km²|<noinclude>-</noinclude>}}}}}}}}}|{{#if:{{{overseas collectivity|}}}|<small>1</small>|<small>2</small>}}|<small>1</small>}}</sup>
 {{!}} {{#iferror:{{#expr:{{formatnum:{{{population|{{{sans}}}}}}|R}}+2}}|{{{population|{{{sans|<noinclude>{{{population}}}</noinclude>}}}}}} [[Category:France articles requiring maintenance|Population error]]|{{formatnum:{{formatnum:{{{population|{{{sans|<noinclude>{{{population}}}</noinclude>}}}}}}|R}}}}}}&nbsp;&nbsp;{{#if:{{{date-population|{{{date-sans|<noinclude>{{{date-population}}}</noinclude>}}}}}}
 |<small>({{{date-population|{{{date-sans|<noinclude>{{{date-population}}}</noinclude>}}}}}})</small>}}
 {{!-}}
@@ -210,7 +210,7 @@ Motto: {{{city_motto}}}
 {{!}} {{convert|{{formatnum:{{{density_km2|{{{density|{{{dens|<noinclude>{{{density_km2}}}</noinclude>}}}}}}}}}|R}}|PD/km2|PD/sqmi|abbr=on}} {{#if:{{{date-density|{{{date-dens|<noinclude>{{{date-density}}}</noinclude>}}}}}}|
 <small>({{{date-density|{{{date-dens|<noinclude>{{{date-density}}}</noinclude>}}}}}})</small>}}
 }} |
-{{!}}&nbsp;-&nbsp;[[Population density|Density]]{{#if: {{{density footnotes|}}}|&nbsp;{{{density footnotes}}}}}
+{{!}}&nbsp;-&nbsp;[[Population density|Pangasiksik]]{{#if: {{{density footnotes|}}}|&nbsp;{{{density footnotes}}}}}
 {{!}} {{convert|{{#expr:{{formatnum:{{{population|{{{sans}}}}}}|R}}/{{{area_km2|{{{area|{{{km²}}}}}}}}} round 0}}|PD/km2|PD/sqmi|abbr=on}} }} }}
 
 {{!-}}
@@ -226,13 +226,13 @@ Motto: {{{city_motto}}}
 {{!}}[[unité urbaine|Urban Area]] {{#if: {{{urban_area footnotes|}}}|&nbsp;{{{urban_area footnotes}}}}}
 {{!}}{{convert|{{formatnum:{{{UU-area|{{{urban_area_km2}}}}}}|R}}|km2|sqmi|abbr=on}} {{#if:{{{UU-area-date|{{{urban_area_date|}}}}}}|<small>({{{UU-area-date|{{{urban_area_date|}}}}}})</small>}}
 {{!-}}
-{{!}}&nbsp;-&nbsp;Population
+{{!}}&nbsp;-&nbsp;Populasiun
 {{!}}{{{UU-pop|{{{urban_pop}}}}}} {{#if:{{{UU-pop-date|{{{urban_pop_date|}}}}}}|<small>({{{UU-pop-date|{{{urban_pop_date|}}}}}})</small>}}
 {{!-}}
 {{!}}[[aire urbaine|Metro Area]] {{#if: {{{AU-area footnotes|{{{metro_area footnotes|}}}}}}|&nbsp;{{{AU-area footnotes|{{{metro_area footnotes|}}}}}}}}
 {{!}}{{convert|{{formatnum:{{{AU-area|{{{metro_area_km2}}}}}}|R}}|km2|sqmi|abbr=on}} {{#if:{{{AU-area-date|{{{metro_area_date|}}}}}}|<small>({{{AU-area-date|{{{metro_area_date|}}}}}})</small>}}
 {{!-}}
-{{!}}&nbsp;-&nbsp;Population
+{{!}}&nbsp;-&nbsp;Populasiun
 {{!}}{{{AU-pop|{{{metro_area_pop|}}}}}} {{#if:{{{AU-pop-date|{{{metro_area_pop_date|}}}}}}|<small>({{{AU-pop-date|{{{metro_area_pop_date|}}}}}})</small>}}
 }}
 |-
