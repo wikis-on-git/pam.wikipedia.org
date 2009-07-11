@@ -11,12 +11,12 @@
 |- bgcolor="#FFFFFF"
 | valign="middle"| '''[[Coordinate geophysical]]''' || align="center" | {{#if:{{{lat_long|}}}|{{{lat_long}}}|{{{longitude}}}, {{{latitude}}}}
 |- bgcolor="#FFFFFF"
-| valign="middle"| '''Lualas¹''' || align="center" | {{{area}}} km²
+| valign="middle"| '''Lualas¹''' || align="center" | {{{area_km2}}} km²
 |- bgcolor="#FFFFFF"
 | '''Populasiun²''' <small>({{{population}}})</small>
 | align="center" | {{{population}}}
 |- bgcolor="#FFFFFF"
-| '''Pangasiksik populasiun''' || align="center" | {{{density}}} tau/km&sup2;
+| '''Pangasiksik populasiun''' || align="center" | {{{density_km2}}} tau/km&sup2;
 |- bgcolor="#FFFFFF"
 | '''[[INSEE|I<small>NSEE</small>]]''' || align="center" | {{{insee}}}
 |- bgcolor="#FFFFFF"
