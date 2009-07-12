@@ -1,0 +1,681 @@
+{| class="infobox geography vcard" style="width:23em; text-align:left;"
+		<td colspan="2" align="center" style="width:100%; font-size: 1.25em; white-space: nowrap;">'''<span class="fn org">{{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}</span>{{#if:{{{native_name|}}}|<br><span class="nickname"{{#if:{{{native_name_lang|}}}| lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span>}}{{#if:{{{other_name|}}}|<br><span class="nickname">{{{other_name}}}</span>}}</td>
+	</tr>
+|-
+{{#if:{{both|{{{name|}}}|{{{settlement_type|}}}}}|
+<tr <!-- ***** category ***** --> class="mergedtoprow">
+		<td colspan="2" style="text-align:center;background:#cddeff;">&mdash;&nbsp;&nbsp;'''{{{settlement_type|}}}'''&nbsp;&nbsp;&mdash; </td>
+	</tr>
+}}{{#if:{{both|{{{name|}}}|{{{official_name|}}}}}|
+<tr class="mergedtoprow">
+<td colspan="2" style="text-align:center;">'''{{{official_name}}}'''</td>
+         </tr>
+}}{{#if:{{{translit_lang1|}}}|
+<tr <!-- ***** Transliteration language 1 ***** --> class="mergedtoprow">
+		<td colspan="2" style="text-align:center;">'''{{{translit_lang1|}}}&nbsp;transcription(s)''' </td>
+	</tr>
+{{#if:{{{translit_lang1_type|}}}|
+	<tr class="{{#if:{{{translit_lang1_type1|}}}|mergedrow|mergedbottomrow}}">
+		<th>&nbsp;-&nbsp;{{{translit_lang1_type|}}}</th>
+		<td>{{{translit_lang1_info}}}</td>
+	</tr>
+}}{{#if:{{{translit_lang1_type1|}}}|
+	<tr class="{{#if:{{{translit_lang1_type2|}}}|mergedrow|mergedbottomrow}}">
+		<th>&nbsp;-&nbsp;{{{translit_lang1_type1|}}}</th>
+		<td>{{{translit_lang1_info1}}}</td>
+	</tr>
+}}{{#if:{{{translit_lang1_type2|}}}|
+	<tr class="{{#if:{{{translit_lang1_type3|}}}|mergedrow|mergedbottomrow}}">
+		<th>&nbsp;-&nbsp;{{{translit_lang1_type2|}}}</th>
+		<td>{{{translit_lang1_info2}}}</td>
+	</tr>
+{{#if:{{{translit_lang1_type3|}}}|
+	<tr class="{{#if:{{{translit_lang1_type4|}}}|mergedrow|mergedbottomrow}}">
+		<th>&nbsp;-&nbsp;{{{translit_lang1_type3|}}}</th>
+		<td>{{{translit_lang1_info3}}}</td>
+	</tr>
+{{#if:{{{translit_lang1_type4|}}}|
+	<tr class="{{#if:{{{translit_lang1_type5|}}}|mergedrow|mergedbottomrow}}">
+		<th>&nbsp;-&nbsp;{{{translit_lang1_type4|}}}</th>
+		<td>{{{translit_lang1_info4}}}</td>
+	</tr>
+{{#if:{{{translit_lang1_type5|}}}|
+	<tr class="{{#if:{{{translit_lang1_type6|}}}|mergedrow|mergedbottomrow}}">
+		<th>&nbsp;-&nbsp;{{{translit_lang1_type5|}}}</th>
+		<td>{{{translit_lang1_info5}}}</td>
+	</tr>
+{{#if:{{{translit_lang1_type6|}}}|
+	<tr class="mergedbottomrow">
+		<th>&nbsp;-&nbsp;{{{translit_lang1_type6|}}}</th>
+		<td>{{{translit_lang1_info6}}}</td>
+	</tr>
+}} }} }} }} }} }}
+{{#if:{{{translit_lang2|}}}|
+<tr <!-- ***** Transliteration language 2***** --> class="mergedtoprow">
+		<td colspan="2" style="text-align:center;">'''{{{translit_lang2|}}}&nbsp;transcription(s)''' </td>
+	</tr>
+{{#if:{{{translit_lang2_type|}}}|
+	<tr class="{{#if:{{{translit_lang2_type1|}}}|mergedrow|mergedbottomrow}}">
+		<th>&nbsp;-&nbsp;{{{translit_lang2_type|}}}</th>
+		<td>{{{translit_lang2_info}}}</td>
+	</tr>
+}}{{#if:{{{translit_lang2_type1|}}}|
+	<tr class="{{#if:{{{translit_lang2_type2|}}}|mergedrow|mergedbottomrow}}">
+		<th>&nbsp;-&nbsp;{{{translit_lang2_type1|}}}</th>
+		<td>{{{translit_lang2_info1}}}</td>
+	</tr>
+}}{{#if:{{{translit_lang2_type2|}}}|
+	<tr class="{{#if:{{{translit_lang2_type3|}}}|mergedrow|mergedbottomrow}}">
+		<th>&nbsp;-&nbsp;{{{translit_lang2_type2|}}}</th>
+		<td>{{{translit_lang2_info2}}}</td>
+	</tr>
+{{#if:{{{translit_lang2_type3|}}}|
+	<tr class="{{#if:{{{translit_lang2_type4|}}}|mergedrow|mergedbottomrow}}">
+		<th>&nbsp;-&nbsp;{{{translit_lang2_type3|}}}</th>
+		<td>{{{translit_lang2_info3}}}</td>
+	</tr>
+{{#if:{{{translit_lang2_type4|}}}|
+	<tr class="{{#if:{{{translit_lang2_type5|}}}|mergedrow|mergedbottomrow}}">
+		<th>&nbsp;-&nbsp;{{{translit_lang2_type4|}}}</th>
+		<td>{{{translit_lang2_info4}}}</td>
+	</tr>
+{{#if:{{{translit_lang2_type5|}}}|
+	<tr class="{{#if:{{{translit_lang2_type6|}}}|mergedrow|mergedbottomrow}}">
+		<th>&nbsp;-&nbsp;{{{translit_lang2_type5|}}}</th>
+		<td>{{{translit_lang2_info5}}}</td>
+	</tr>
+{{#if:{{{translit_lang2_type6|}}}|
+	<tr class="mergedbottomrow">
+		<th>&nbsp;-&nbsp;{{{translit_lang2_type6|}}}</th>
+		<td>{{{translit_lang2_info6}}}</td>
+	</tr>
+}} }} }} }} }} }}
+<!-- ***** Skyline Image ***** -->
+{{#if:{{{image_skyline|}}}|
+	<tr>
+		<td colspan="2" style="text-align: center; padding: 0.7em 0.8em 0.7em 0.8em;;">
+			[[Image:{{{image_skyline|}}}|{{#if:{{{imagesize|}}}|{{{imagesize}}}|250px}}|none|{{{image_caption|Skyline of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}}}}]]{{#if:{{{image_caption|}}}|<small>{{{image_caption|}}}</small>}}
+		</td>
+	</tr>
+}}<!-- ***** Flag, Seal, Shield and Coat of arms ***** -->
+{{#if:{{{image_flag|}}}{{{image_seal|}}}{{{image_shield|}}}{{{image_blank_emblem| }}}| 
+	<tr class="mergedtoprow">
+		<td class="maptable" colspan="2" align="center" style="padding: 0.4em 0 0.4em 0;">
+			<table style="width: 100%; background: none;" align="center">
+{{#ifeq:{{#expr:{{#if:{{{image_flag|}}}|1|0}}+{{#if:{{{image_seal|}}}|1|0}}+{{#if:{{{image_shield|}}}|1|0}}+{{#if:{{{image_blank_emblem| }}}|1|0}}}}|2|
+             <tr> <td style="vertical-align: middle;" align="center"> {{#if:{{{image_flag|}}}|[[Image:{{{image_flag|}}}|{{#if:{{{flag_size|}}}|{{{flag_size}}}|100px}}|border|Flag of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{flag_link|}}}|[[{{{flag_link}}}|Flag]]|{{#ifexist:Flag of {{PAGENAME}}|[[Flag of {{PAGENAME}}|Flag]]|{{#ifexist:Flag of {{{official_name}}}|[[Flag of {{{official_name}}}|Flag]]|Flag}}}}}}'''</small> |{{#if:{{{image_seal|}}}|[[Image:{{{image_seal|}}}|{{#if:{{{seal_size|}}}|{{{seal_size}}}|100px}}|Official seal of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{seal_link|}}}|[[{{{seal_link}}}|Seal]]|{{#ifexist:Seal of {{PAGENAME}}|[[Seal of {{PAGENAME}}|Seal]]|{{#ifexist:Seal of {{{official_name}}}|[[Seal of {{{official_name}}}|Seal]]|Seal}}}}}}'''</small> |{{#if:{{{image_shield|}}}|[[Image:{{{image_shield|}}}|{{#if:{{{shield_size|}}}|{{{shield_size}}}|100px}}|Coat of arms of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{shield_link|}}}|[[{{{shield_link}}}|Coat of arms]]|{{#ifexist:Coat of arms of {{PAGENAME}}|[[Coat of arms of {{PAGENAME}}|Coat of arms]]|{{#ifexist:Coat of arms of {{{official_name}}}|[[Coat of arms of {{{official_name}}}|Coat of arms]]|Coat of arms}}}}}}'''</small>|{{#if:{{{image_blank_emblem| }}}|[[Image:{{{image_blank_emblem| }}}|{{#if:{{{blank_emblem_size| }}}|{{{blank_emblem_size| }}}|100px}}|Official logo of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{blank_emblem_link| }}}|[[{{{blank_emblem_link| }}}|{{{blank_emblem_type|Logo}}}]]|{{#ifexist:Logo of {{PAGENAME}}|[[Logo of {{PAGENAME}}|Logo]]|{{#ifexist:Logo of {{{official_name}}}|[[Logo of {{{official_name}}}|Logo]]|{{#if:{{{blank_emblem_type|}}}|{{{blank_emblem_type}}}|Logo}}}}}}}}'''</small>}}}}}}}}</td>
+            <td style="vertical-align: middle;" align="center"> {{#if:{{{image_blank_emblem| }}}|[[Image:{{{image_blank_emblem| }}}|{{#if:{{{blank_emblem_size| }}}|{{{blank_emblem_size| }}}|100px}}|Official logo of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{blank_emblem_link| }}}|[[{{{blank_emblem_link| }}}|{{{blank_emblem_type|Logo}}}]]|{{#ifexist:Logo of {{PAGENAME}}|[[Logo of {{PAGENAME}}|Logo]]|{{#ifexist:Logo of {{{official_name}}}|[[Logo of {{{official_name}}}|Logo]]|{{#if:{{{blank_emblem_type|}}}|{{{blank_emblem_type}}}|Logo}}}}}}}}'''</small> |{{#if:{{{image_shield|}}}|[[Image:{{{image_shield|}}}|{{#if:{{{shield_size|}}}|{{{shield_size}}}|100px}}|Coat of arms of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{shield_link|}}}|[[{{{shield_link}}}|Coat of arms]]|{{#ifexist:Coat of arms of {{PAGENAME}}|[[Coat of arms of {{PAGENAME}}|Coat of arms]]|{{#ifexist:Coat of arms of {{{official_name}}}|[[Coat of arms of {{{official_name}}}|Coat of arms]]|Coat of arms}}}}}}'''</small> |{{#if:{{{image_seal|}}}|[[Image:{{{image_seal|}}}|{{#if:{{{seal_size|}}}|{{{seal_size}}}|100px}}|Official seal of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{seal_link|}}}|[[{{{seal_link}}}|Seal]]|{{#ifexist:Seal of {{PAGENAME}}|[[Seal of {{PAGENAME}}|Seal]]|{{#ifexist:Seal of {{{official_name}}}|[[Seal of {{{official_name}}}|Seal]]|Seal}}}}}}'''</small> |{{#if:{{{image_flag|}}}|[[Image:{{{image_flag|}}}|{{#if:{{{flag_size|}}}|{{{flag_size}}}|100px}}|border|Flag of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{flag_link|}}}|[[{{{flag_link}}}|Flag]]|{{#ifexist:Flag of {{PAGENAME}}|[[Flag of {{PAGENAME}}|Flag]]|{{#ifexist:Flag of {{{official_name}}}|[[Flag of {{{official_name}}}|Flag]]|Flag}}}}}}'''</small>}}}}}}}}</td>
+|{{#if:{{{image_flag|}}}{{{image_seal|}}}|
+				<tr>{{#if:{{{image_flag|}}}|
+					<td style="vertical-align: middle;" align="center" {{#if:{{{image_seal|}}}|width="50%"|colspan="2"}}> [[Image:{{{image_flag|}}}|{{#if:{{{flag_size|}}}|{{{flag_size}}}|100px}}|border|Flag of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{flag_link|}}}|[[{{{flag_link}}}|Flag]]|{{#ifexist:Flag of {{PAGENAME}}|[[Flag of {{PAGENAME}}|Flag]]|{{#ifexist:Flag of {{{official_name}}}|[[Flag of {{{official_name}}}|Flag]]|Flag}}}}}}'''</small></td>}}{{#if:{{{image_seal|}}}|
+					<td style="vertical-align: middle;" align="center" {{#if:{{{image_flag|}}}|width="50%"|colspan="2"}}> [[Image:{{{image_seal|}}}|{{#if:{{{seal_size|}}}|{{{seal_size}}}|100px}}|Official seal of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{seal_link|}}}|[[{{{seal_link}}}|Seal]]|{{#ifexist:Seal of {{PAGENAME}}|[[Seal of {{PAGENAME}}|Seal]]|{{#ifexist:Seal of {{{official_name}}}|[[Seal of {{{official_name}}}|Seal]]|Seal}}}}}}'''</small></td>}}
+				</tr>
+}}{{#if:{{{image_shield|}}}{{{image_blank_emblem| }}}|
+				<tr>{{#if:{{{image_shield|}}}|
+					<td style="vertical-align: middle;" align="center" {{#if:{{{image_blank_emblem| }}}|width="50%"|colspan="2"}}> [[Image:{{{image_shield|}}}|{{#if:{{{shield_size|}}}|{{{shield_size}}}|100px}}|Coat of arms of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{shield_link|}}}|[[{{{shield_link}}}|Coat of arms]]|{{#ifexist:Coat of arms of {{PAGENAME}}|[[Coat of arms of {{PAGENAME}}|Coat of arms]]|{{#ifexist:Coat of arms of {{{official_name}}}|[[Coat of arms of {{{official_name}}}|Coat of arms]]|Coat of arms}}}}}}'''</small></td>}}{{#if:{{{image_blank_emblem| }}}|
+					<td style="vertical-align: middle;" align="center" {{#if:{{{image_shield|}}}|width="50%"|colspan="2"}}> [[Image:{{{image_blank_emblem| }}}|{{#if:{{{blank_emblem_size| }}}|{{{blank_emblem_size| }}}|100px}}|Official logo of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{blank_emblem_link| }}}|[[{{{blank_emblem_link| }}}|{{{blank_emblem_type|Logo}}}]]|{{#ifexist:Logo of {{PAGENAME}}|[[Logo of {{PAGENAME}}|Logo]]|{{#ifexist:Logo of {{{official_name}}}|[[Logo of {{{official_name}}}|Logo]]|{{#if:{{{blank_emblem_type|}}}|{{{blank_emblem_type}}}|Logo}}}}}}}}'''</small></td>}}
+				</tr>
+}}}}
+			</table>
+		</td>
+	</tr>
+}}<!-- ***** Nickname ***** -->
+{{#if:{{{nickname|}}}|
+	<tr class="mergedrow">
+		<td colspan="2" align="center">[[Nickname]](s): <span class="nickname">{{{nickname|}}}</span></td>
+	</tr>
+}}<!-- ***** Motto ***** -->
+{{#if:{{{motto|}}}|
+	<tr class="mergedrow">
+		<td colspan="2" align="center">[[Motto]]: {{{motto|}}}</td>
+	</tr>
+}}<!-- ***** Map ***** -->
+{{#if:{{{image_map|}}}|
+	<tr class="mergedrow">
+		<td colspan="2" style="text-align: center;">[[Image:{{{image_map|}}}|{{#if:{{{mapsize|}}}|{{{mapsize}}}|250px}}|none|{{{map_caption|Location of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}}}}]]{{#if:{{{map_caption|}}}|<small>{{{map_caption|}}}</small>}}
+		</td>
+	</tr>
+{{#if:{{{image_map1|}}}|
+	<tr class="mergedrow">
+		<td colspan="2" style="text-align: center;">[[Image:{{{image_map1|}}}|{{#if:{{{mapsize1|}}}|{{{mapsize1}}}|250px}}|none|{{{map_caption1|Location of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}}}}]]{{#if:{{{map_caption1|}}}|<small>{{{map_caption1|}}}</small>}}
+		</td>
+	</tr>
+}}}}<!--*****Dot Map***** -->
+{{#if:{{{image_dot_map|}}}|
+	<tr class="mergedrow">
+		<td colspan="2" align="center">{{superimpose
+ |base          = {{{image_dot_map|}}}
+ |base_width    = {{#if:{{{dot_mapsize|}}}|{{{dot_mapsize|}}}|180px}}
+ |base_caption  = {{#if:{{{official_name|}}}|{{{official_name|}}}|{{{name}}}}}
+ |float         = Red pog.svg 
+ |float_width   = 9px
+ |float_caption = {{{dot_map_caption|}}}
+ |x             = {{{dot_x|}}}
+ |y             = {{{dot_y|}}}
+}}{{#if:{{{dot_map_caption|}}}|<small>{{{dot_map_caption|}}}</small>}}
+		</td>
+	</tr>
+}}<!-- ***** Pushpin Map ***** -->
+{{#if:{{{pushpin_map|}}}|
+	<tr class="mergedrow">
+		<td colspan="2" align="center">
+{{Location map|{{{pushpin_map|}}}
+|label = {{#ifeq: {{lc: {{{pushpin_label_position|}}} }} | none | | {{#if:{{{name|}}}|{{{name}}}|{{{official_name|}}}}} }}
+|lat = {{#if:{{{latm|}}}{{{latNS|}}}| |{{{latd|}}} }}   
+|long = {{#if:{{{longm|}}}{{{longEW|}}}| |{{{longd|}}} }} 
+|lat_deg={{#if:{{{latm|}}}{{{latNS|}}}|{{{latd|}}}| }}   
+|lat_min={{#if:{{{latm|}}}{{{latNS|}}}|{{{latm|}}}| }}
+|lat_sec={{#if:{{{lats|}}}{{{latNS|}}}|{{{lats|}}}| }}
+|lat_dir={{#if:{{{latNS|}}}|{{{latNS|}}}| }}
+|lon_deg={{#if:{{{longm|}}}{{{longEW|}}}|{{{longd|}}}| }} 
+|lon_min={{#if:{{{longm|}}}{{{longEW|}}}|{{{longm|}}}| }} 
+|lon_sec={{#if:{{{longs|}}}{{{longEW|}}}|{{{longs|}}}| }}  
+|lon_dir={{#if:{{{longEW|}}}|{{{longEW|}}}| }} 
+|marksize   =6
+|float = none
+|caption =
+|border = none
+|position = {{#if:{{{pushpin_label_position|}}} | {{{pushpin_label_position|}}} | right }}
+|width = {{#if:{{{pushpin_mapsize|}}}|{{{pushpin_mapsize|}}} | 250 }}
+}}{{#if:{{{pushpin_map_caption|}}}|<small>{{{pushpin_map_caption|}}}</small>|{{#if:{{{map_caption|}}}|<small>{{{map_caption|}}}</small> }} }}
+		</td>
+	</tr>
+}}
+{{#if:{{{pushpin_map1|}}}|
+	<tr class="mergedrow">
+		<td colspan="2" align="center">
+{{Location map|{{{pushpin_map1|}}}
+|label = {{#ifeq: {{lc: {{{pushpin_label_position1|}}} }} | none | | {{#if:{{{name|}}}|{{{name}}}|{{{official_name|}}}}} }}
+|lat = {{#if:{{{latm|}}}{{{latNS|}}}| |{{{latd|}}} }}   
+|long = {{#if:{{{longm|}}}{{{longEW|}}}| |{{{longd|}}} }} 
+|lat_deg={{#if:{{{latm|}}}{{{latNS|}}}|{{{latd|}}}| }}   
+|lat_min={{#if:{{{latm|}}}{{{latNS|}}}|{{{latm|}}}| }}
+|lat_sec={{#if:{{{lats|}}}{{{latNS|}}}|{{{lats|}}}| }}
+|lat_dir={{#if:{{{latNS|}}}|{{{latNS|}}}| }}
+|lon_deg={{#if:{{{longm|}}}{{{longEW|}}}|{{{longd|}}}| }} 
+|lon_min={{#if:{{{longm|}}}{{{longEW|}}}|{{{longm|}}}| }} 
+|lon_sec={{#if:{{{longs|}}}{{{longEW|}}}|{{{longs|}}}| }}  
+|lon_dir={{#if:{{{longEW|}}}|{{{longEW|}}}| }} 
+|marksize   =6
+|float = none
+|caption =
+|border = none
+|position = {{#if:{{{pushpin_label_position1|}}} | {{{pushpin_label_position1|}}} | right }}
+|width = {{#if:{{{pushpin_mapsize1|}}}|{{{pushpin_mapsize1|}}} | 250 }}
+}}{{#if:{{{pushpin_map_caption1|}}}|<small>{{{pushpin_map_caption1|}}}</small>|{{#if:{{{map_caption|}}}|<small>{{{map_caption|}}}</small> }} }}
+		</td>
+	</tr>
+}}<!-- ***** Coordinates ***** -->
+{{#if:{{{latd|}}}|
+      <tr class="mergedbottomrow">
+        <td colspan="2" style="text-align: center; font-size: smaller; padding-bottom: 0.7em;">Coordinates{{#if:{{{coor_pinpoint|{{{coor_type|}}}}}}|&#32;({{{coor_pinpoint|{{{coor_type|}}}}}})|}}: {{Geobox coor|{{{latd|}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{{longd|}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|{{{coordinates_type|type:city{{#if:{{{population_total}}}|{{#iferror:{{#expr:{{{population_total}}}+1}}||({{{population_total}}})}}|}}_region:{{CountryAbbr|{{{subdivision_name|}}}|{{{subdivision_name1|}}}}}}}}|{{#if:{{{coordinates_display|}}}|title|μ}}={{{coordinates_display|}}}}}</td>
+      </tr>
+}}<!-- ***** Subdivisions ***** -->
+{{#if:{{{subdivision_type|}}}|
+	<tr class="mergedtoprow">
+		<th>{{{subdivision_type}}}
+        <td>{{{subdivision_name}}}
+	</tr>
+}}{{#if:{{{subdivision_type1|}}}|
+	<tr class="mergedrow">
+		<th>{{{subdivision_type1}}}
+        <td>{{{subdivision_name1}}}
+	</tr>
+}}{{#if:{{{subdivision_type2|}}}|
+	<tr class="mergedrow">
+		<th>{{{subdivision_type2}}}
+		<td>{{{subdivision_name2}}}
+	</tr>
+}}{{#if:{{{subdivision_type3|}}}|
+	<tr class="mergedrow">
+		<th>{{{subdivision_type3}}}
+		<td>{{{subdivision_name3}}}
+	</tr>
+}}{{#if:{{{subdivision_type4|}}}|
+	<tr class="mergedrow">
+		<th>{{{subdivision_type4}}}
+		<td>{{{subdivision_name4}}}
+	</tr>
+}}
+{{#if:{{{subdivision_type5|}}}|
+	<tr class="mergedrow">
+		<th>{{{subdivision_type5}}}
+		<td>{{{subdivision_name5}}}
+	</tr>
+}}{{#if:{{{subdivision_type6|}}}|
+	<tr class="mergedrow">
+		<th>{{{subdivision_type6}}}
+		<td>{{{subdivision_name6}}}
+	</tr>
+}}<!--***** Established *****-->
+{{#if:{{{established_title|}}}|
+	<tr class="mergedrow">
+		<th>{{{established_title}}}</th>
+		<td>{{{established_date}}}</td>
+	</tr>
+}}{{#if:{{{established_title1|}}}|
+	<tr class="mergedrow">
+		<th>{{{established_title1}}}</th>
+		<td>{{{established_date1}}}</td>
+	</tr>
+}}{{#if:{{{established_title2|}}}|
+	<tr class="mergedrow">
+		<th>{{{established_title2}}}</th>
+		<td>{{{established_date2}}}</td>
+	</tr>
+}}{{#if:{{{established_title3|}}}|
+	<tr class="mergedrow">
+		<th>{{{established_title3}}}</th>
+		<td>{{{established_date3}}}</td>
+	</tr>
+}}{{#if:{{{extinct_title|}}}|
+	<tr class="mergedrow">
+		<th>{{{extinct_title}}}</th>
+		<td>{{{extinct_date}}}</td>
+	</tr>
+}}{{#if:{{{founder|}}}|
+	<tr class="mergedrow">
+		<th>Founder</th>
+		<td>{{{founder}}}</td>
+	</tr>
+}}{{#if:{{{named_for|}}}|
+	<tr class="mergedrow">
+		<th>[[Namesake|Named for]]</th>
+		<td>{{{named_for}}}</td>
+	</tr>
+}}<!-- *** Seat of government and subdivisions within the settlement **** -->{{#if:{{{seat|}}}|
+     <tr class="mergedtoprow">
+      <th>{{#if:{{{seat_type|}}}|{{{seat_type}}}|Seat}}</th>
+        <td>{{{seat}}}</td>
+      </tr> 
+}}{{#if:{{{parts|}}}{{{p1|}}}|
+      <tr class={{#if:{{{seat|}}}|"mergedrow"|"mergedtoprow"}}>
+       <th>{{#if:{{{parts_type|}}}|{{{parts_type}}}|Boroughs}}</th>      <td>{{#ifeq:{{{parts_style|}}}|para|<b>{{{parts|}}}{{#if:{{both|{{{parts|}}}|{{{p1|}}}}}|&#58;&nbsp;|}}</b>{{#if:{{{p1|}}}|{{{p1}}}{{#if:{{{p2|}}}|, {{{p2}}}{{#if:{{{p3|}}}|, {{{p3}}}{{#if:{{{p4|}}}|, {{{p4}}}{{#if:{{{p5|}}}|, {{{p5}}}{{#if:{{{p6|}}}|, {{{p6}}}{{#if:{{{p7|}}}|, {{{p7}}}{{#if:{{{p8|}}}|, {{{p8}}}{{#if:{{{p9|}}}|, {{{p9}}}{{#if:{{{p10|}}}|, {{{p10}}}{{#if:{{{p11|}}}|, {{{p11}}}{{#if:{{{p12|}}}|, {{{p12}}}{{#if:{{{p13|}}}|, {{{p13}}}{{#if:{{{p14|}}}|, {{{p14}}}{{#if:{{{p15|}}}|, {{{p15}}}{{#if:{{{p16|}}}|, {{{p16}}}{{#if:{{{p17|}}}|, {{{p17}}}{{#if:{{{p18|}}}|, {{{p18}}}{{#if:{{{p19|}}}|, {{{p19}}}{{#if:{{{p20|}}}|, {{{p20}}}{{#if:{{{p21|}}}|, {{{p21}}}{{#if:{{{p22|}}}|, {{{p22}}}{{#if:{{{p23|}}}|, {{{p23}}}{{#if:{{{p24|}}}|, {{{p24}}}{{#if:{{{p25|}}}|, {{{p25}}}{{#if:{{{p26|}}}|, {{{p26}}}{{#if:{{{p27|}}}|, {{{p27}}}{{#if:{{{p28|}}}|, {{{p28}}}{{#if:{{{p29|}}}|, {{{p29}}}{{#if:{{{p30|}}}|, {{{p30}}}{{#if:{{{p31|}}}|, {{{p31}}}{{#if:{{{p32|}}}|, {{{p32}}}{{#if:{{{p33|}}}|, {{{p33}}}{{#if:{{{p34|}}}|, {{{p34}}}{{#if:{{{p35|}}}|, {{{p35}}}{{#if:{{{p36|}}}|, {{{p36}}}{{#if:{{{p37|}}}|, {{{p37}}}{{#if:{{{p38|}}}|, {{{p38}}}{{#if:{{{p39|}}}|, {{{p39}}}{{#if:{{{p40|}}}|, {{{p40}}}{{#if:{{{p41|}}}|, {{{p41}}}{{#if:{{{p42|}}}|, {{{p42}}}{{#if:{{{p43|}}}|, {{{p43}}}{{#if:{{{p44|}}}|, {{{p44}}}{{#if:{{{p45|}}}|, {{{p45}}}{{#if:{{{p46|}}}|, {{{p46}}}{{#if:{{{p47|}}}|, {{{p47}}}{{#if:{{{p48|}}}|, {{{p48}}}{{#if:{{{p49|}}}|, {{{p49}}}{{#if:{{{p50|}}}|, {{{p50}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}|{{#if:{{{p1|}}}|{{Collapsible list|title={{{parts|}}}|frame_style=border:none;padding:0;|list_style=text-align:left;display:{{#if:{{#ifeq:{{{parts_style|}}}|coll|1|}}{{both|{{isnot|{{{parts_style|}}}|list}}|{{{p6|}}}}}|none|on}}|1={{{p1|}}}|2={{{p2|}}}|3={{{p3|}}}|4={{{p4|}}}|5={{{p5|}}}|6={{{p6|}}}|7={{{p7|}}}|8={{{p8|}}}|9={{{p9|}}}|10={{{p10|}}}|11={{{p11|}}}|12={{{p12|}}}|13={{{p13|}}}|14={{{p14|}}}|15={{{p15|}}}|16={{{p16|}}}|17={{{p17|}}}|18={{{p18|}}}|19={{{p19|}}}|20={{{p20|}}}|21={{{p21|}}}|22={{{p22|}}}|23={{{p23|}}}|24={{{p24|}}}|25={{{p25|}}}|26={{{p26|}}}|27={{{p27|}}}|28={{{p28|}}}|29={{{p29|}}}|30={{{p30|}}}|31={{{p31|}}}|32={{{p32|}}}|33={{{p33|}}}|34={{{p34|}}}|35={{{p35|}}}|36={{{p36|}}}|37={{{p37|}}}|38={{{p38|}}}|39={{{p39|}}}|40={{{p40|}}}|41={{{p41|}}}|42={{{p42|}}}|43={{{p43|}}}|44={{{p44|}}}|45={{{p45|}}}|46={{{p46|}}}|47={{{p47|}}}|48={{{p48|}}}|49={{{p49|}}}|50={{{p50|}}}}}|{{{parts}}}}}}}</td>
+        </tr>
+}}<!-- ***** Government type and Leader ***** -->
+{{#if:{{{government_type|}}}{{{leader_title|}}}|
+	<tr <!-- ***** Government ***** --> class="mergedtoprow">
+		<td colspan="2">'''Government''' {{#if:{{{government_footnotes|}}}|{{{government_footnotes}}}}}</td>
+	</tr>
+{{#if:{{{government_type|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;Type</th>
+		<td>{{{government_type}}}</td>
+	</tr>
+}}{{#if:{{{leader_title|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{leader_title}}}
+		<td>{{#ifexist: {{{leader_name}}}|[[{{{leader_name}}}]]|{{{leader_name}}}}} {{#if:{{{leader_party|}}}|({{Polparty|{{{subdivision_name}}}|{{{leader_party}}}}})}}</td>
+	</tr>
+}}{{#if:{{{leader_title1|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{leader_title1}}}
+		<td>{{#ifexist: {{{leader_name1}}}|[[{{{leader_name1}}}]]|{{{leader_name1}}}}} </td>
+	</tr>
+{{#if:{{{leader_title2|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{leader_title2}}}
+		<td>{{#ifexist: {{{leader_name2}}}|[[{{{leader_name2}}}]]|{{{leader_name2}}}}} </td>
+	</tr>
+{{#if:{{{leader_title3|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{leader_title3}}}
+		<td>{{#ifexist: {{{leader_name3}}}|[[{{{leader_name3}}}]]|{{{leader_name3}}}}} </td>
+	</tr>
+{{#if:{{{leader_title4|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{leader_title4}}}
+		<td>{{#ifexist: {{{leader_name4}}}|[[{{{leader_name4}}}]]|{{{leader_name4}}}}} </td>
+	</tr>
+}} }} }} }} }}<!-- ***** Geographical characteristics ***** -->
+{{#if:{{{area_total_km2|}}}{{{area_total_sq_mi|}}}{{{area_total_dunam|}}}{{{area_land_km2|}}}{{{area_land_sq_mi|}}}{{{area_water_km2|}}}{{{area_water_sq_mi|}}}{{{area_urban_km2|}}}{{{area_urban_sq_mi|}}}{{{area_metro_km2|}}}{{{area_blank1_km2|}}}{{{area_metro_sq_mi|}}}{{{area_blank1_sq_mi|}}}|
+	<tr <!-- ***** Area ***** --> class="mergedtoprow">
+		<td colspan="2">'''[[Area]]''' {{#if:{{{area_footnotes|}}}|{{{area_footnotes}}}}}</td>
+	</tr>
+{{#if:{{{area_total_km2|}}}{{{area_total_sq_mi|}}}{{{area_total_dunam|}}}|
+	<tr class="mergedrow">
+		<th> &nbsp;-&nbsp;{{#if:{{{total_type|}}}|{{{total_type}}}|{{#if:{{{area_metro_km2|}}}{{{area_metro_sq_mi|}}}{{{area_urban_km2|}}}{{{area_urban_sq_mi|}}}{{{population_metro|}}}{{{population_urban|}}}|{{#if:{{{settlement_type|}}}|{{{settlement_type}}}|City}}|Total}}}}
+		</th>
+		<td>{{#if:{{both|{{among|unit_pref|dunam|Dunam}}|{{{area_total_dunam|}}}}}|{{formatnum:{{{area_total_dunam|}}}&nbsp;[[Dunam|dunams]] ({{#if:{{{area_total_km2|}}}|{{{area_total_km2|}}}&nbsp;[[Square kilometre|km<sup>2</sup>]]|{{#expr: {{{area_total_dunam|}}} *0.001 round 1}}&nbsp;[[Square kilometre|km<sup>2</sup>]]}}&nbsp;'''/'''&nbsp;{{#if: {{{area_total_sq_mi|}}}|{{{area_total_sq_mi|}}}&nbsp;[[square mile|sq&nbsp;mi]]|{{#expr: {{{area_total_dunam|}}} *0.000386102 round 1}}&nbsp;[[square mile|sq&nbsp;mi]]}})}}|{{areadisp|{{{unit_pref|}}}|{{{area_total_sq_mi|}}}|{{{area_total_km2|}}}|{{{area_magnitude|}}}||{{{subdivision_name|}}}}}}}</td>
+	</tr>
+}}{{#if:{{{area_land_km2|}}}{{{area_land_sq_mi|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;Land</th>
+		<td>{{areadisp|{{{unit_pref|}}}|{{{area_land_sq_mi|}}}|{{{area_land_km2|}}}|||{{{subdivision_name|}}}}}</td>
+	</tr>
+}}{{#if:{{{area_water_km2|}}}{{{area_water_sq_mi|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- Water</th>
+		<td>{{areadisp|{{{unit_pref|}}}|{{{area_water_sq_mi|}}}|{{{area_water_km2|}}}|||{{{subdivision_name|}}}}} {{#if:{{{area_water_percent|}}}| &nbsp;{{{area_water_percent}}}%}} }}</td>
+	</tr>
+}}{{#if:{{{area_urban_km2|}}}{{{area_urban_sq_mi|}}}|
+        <tr class="mergedrow">
+		<th>&nbsp;- Urban</th>
+		<td>{{areadisp|{{{unit_pref|}}}|{{{area_urban_sq_mi|}}}|{{{area_urban_km2|}}}|||{{{subdivision_name|}}}}}</td>
+	</tr>
+}}{{#if:{{{area_metro_km2|}}}{{{area_metro_sq_mi|}}}|
+        <tr class="mergedrow">
+		<th>&nbsp;- Metro</th>
+		<td>{{areadisp|{{{unit_pref|}}}|{{{area_metro_sq_mi|}}}|{{{area_metro_km2|}}}|||{{{subdivision_name|}}}}}</td>
+	</tr>
+}}{{#if:{{{area_blank1_km2|}}}{{{area_blank1_sq_mi|}}}{{{area_blank1_title|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- {{{area_blank1_title}}}</th>
+		<td>{{areadisp|{{{unit_pref|}}}|{{{area_blank1_sq_mi|}}}|{{{area_blank1_km2|}}}|||{{{subdivision_name|}}}}}</td>
+	</tr>
+}}{{#if:{{{area_blank2_km2|}}}{{{area_blank2_sq_mi|}}}{{{area_blank2_title|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- {{{area_blank2_title}}}</th>
+		<td>{{areadisp|{{{unit_pref|}}}|{{{area_blank2_sq_mi|}}}|{{{area_blank2_km2|}}}|||{{{subdivision_name|}}}}}</td>
+           </tr>
+}}<!-- ***** Elevation ***** -->
+{{#if:{{{elevation_m|}}}{{{elevation_ft|}}}|
+	<tr class="mergedtoprow">
+		<td>'''[[Elevation]]''' {{#if:{{{elevation_footnotes|}}}|{{{elevation_footnotes}}}}}</td>
+		<td>{{lengthdisp|{{{unit_pref|}}}|{{{elevation_ft|}}}|{{{elevation_m|}}}||{{{subdivision_name|}}}}}</td>
+	</tr>
+}}{{#if:{{{elevation_max_m|}}}{{{elevation_max_ft|}}}|
+	<tr class="mergedtoprow">
+		<th>Highest&nbsp;[[elevation]] {{#if:{{{elevation_max_footnotes|}}}|{{{elevation_max_footnotes}}}}}</th>
+		<td>{{lengthdisp|{{{unit_pref|}}}|{{{elevation_max_ft|}}}|{{{elevation_max_m|}}}||{{{subdivision_name|}}}}}</td>
+	</tr>
+}}{{#if:{{{elevation_min_m|}}}{{{elevation_min_ft|}}}|
+	<tr class="mergedbottomrow">
+		<th>Lowest&nbsp;elevation {{#if:{{{elevation_min_footnotes|}}}|{{{elevation_min_footnotes}}}}}</th>
+		<td>{{lengthdisp|{{{unit_pref|}}}|{{{elevation_min_ft|}}}|{{{elevation_min_m|}}}||{{{subdivision_name|}}}}}</td>
+	</tr>
+}}<!-- ***** Population ***** -->
+{{#if:{{{population_total|}}}{{{population_urban|}}}{{{population_metro|}}}{{{population_blank1|}}}{{{population_blank2|}}}{{{population_est|}}}|
+	<tr class="mergedtoprow">
+		<td {{#ifeq:{{{total_type}}}|&nbsp;||colspan="2"}}>'''Population''' {{#if:{{{population_as_of|}}}|({{{population_as_of}}})}}{{#if:{{{population_footnotes|}}}|{{{population_footnotes}}}}}</td>
+	{{#ifeq:{{{total_type}}}|&nbsp;||</tr>}}
+{{#if:{{{population_total|}}}|
+	{{#ifeq:{{{total_type}}}|&nbsp;||<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{#if:{{{total_type|}}}|{{{total_type}}}|{{#if:{{{population_metro|}}}{{{population_urban|}}}{{{area_metro_km2|}}}{{{area_metro_sq_mi|}}}{{{area_urban_km2|}}}{{{area_urban_sq_mi|}}}|{{#if:{{{settlement_type|}}}|{{{settlement_type}}}|City}}|Total}}}}</th>}}
+		<td>{{formatnum:{{{population_total}}}}}</td>
+	</tr>
+}}{{#if:{{{population_density_sq_mi|}}}{{{population_density_km2|}}}|
+        <tr class="mergedrow">
+		<th>&nbsp;-&nbsp;[[Population density|Density]]</th>
+		<td>{{densdisp|{{{unit_pref|}}}|{{{population_density_sq_mi|}}}|{{{population_density_km2|}}}|{{{population_total|}}}|{{{area_total_sq_mi|}}}|{{{area_total_km2|}}}|{{{subdivision_name|}}}}}</td>
+	</tr>
+}}{{#if:{{{population_est|}}}| 
+	<tr class="mergedrow">
+		<th>&nbsp;- Estimate&nbsp;({{{pop_est_as_of}}})</th>
+		<td>{{formatnum:{{{population_est}}}}}</td>
+	</tr>
+}}{{#if:{{{population_urban|}}}| 
+	<tr class="mergedrow">
+		<th>&nbsp;- [[Urban area|Urban]]</th>
+		<td>{{formatnum:{{{population_urban}}}}}</td>
+	</tr>
+}}{{#if:{{{population_density_urban_sq_mi|}}}{{{population_density_urban_km2|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- Urban Density
+		<td>{{densdisp|{{{unit_pref|}}}|{{{population_density_urban_sq_mi|}}}|{{{population_density_urban_km2|}}}|{{{population_urban|}}}|{{{area_urban_sq_mi|}}}|{{{area_urban_km2|}}}|{{{subdivision_name|}}}}}</td>
+	</tr>
+}}{{#if:{{{population_metro|}}}| 
+	<tr class="mergedrow">
+		<th>&nbsp;- [[Metropolitan area|Metro]]</th>
+		<td>{{formatnum:{{{population_metro}}}}}</td>
+	</tr>
+}}{{#if:{{{population_density_metro_sq_mi|}}}{{{population_density_metro_km2|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- Metro Density</th>
+		<td>{{densdisp|{{{unit_pref|}}}|{{{population_density_metro_sq_mi|}}}|{{{population_density_metro_km2|}}}|{{{population_metro|}}}|{{{area_metro_sq_mi|}}}|{{{area_metro_km2|}}}|{{{subdivision_name|}}}}}</td>
+	</tr>
+}}{{#if:{{{population_blank1|}}}| 
+	<tr class="mergedrow">
+		<th>&nbsp;- {{{population_blank1_title|}}}</th>
+		<td>{{formatnum:{{{population_blank1}}}}}</td>
+	</tr>
+}}{{#if:{{{population_density_blank1_km2|}}}{{{population_density_blank1_sq_mi|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- {{{population_blank1_title|}}} Density</th>
+		<td>{{densdisp|{{{unit_pref|}}}|{{{population_density_blank1_sq_mi|}}}|{{{population_density_blank1_km2|}}}|{{{population_blank1|}}}|{{{area_blank1_sq_mi|}}}|{{{area_blank1_km2|}}}|{{{subdivision_name|}}}}}</td>
+	</tr>
+}}{{#if:{{{population_blank2|}}}| 
+	<tr class="mergedrow">
+		<th>&nbsp;- {{{population_blank2_title|}}}</th>
+		<td>{{formatnum:{{{population_blank2}}}}}</td>
+	</tr>
+}}{{#if:{{{population_density_blank2_km2|}}}{{{population_density_blank2_sq_mi|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- {{{population_blank2_title|}}} Density</th>
+		<td>{{densdisp|{{{unit_pref|}}}|{{{population_density_blank2_sq_mi|}}}|{{{population_density_blank2_km2|}}}|{{{population_blank2|}}}|{{{area_blank2_sq_mi|}}}|{{{area_blank2_km2|}}}|{{{subdivision_name|}}}}}</td>
+	</tr>
+}}{{#if:{{{population_note|}}}|
+	<tr class="mergedrow">
+		<td>&nbsp;</td>
+		<td><small>{{{population_note}}}</small></td>
+	</tr>
+}}{{#if:{{{demographics_type1|}}}|
+	<tr <!-- ***** Demographics 1***** --> class="mergedrow">
+		<td colspan="2">'''{{{demographics_type1}}}''' {{#if:{{{demographics1_footnotes|}}}|{{{demographics1_footnotes}}}}}</td>
+	</tr>
+{{#if:{{{demographics1_title1|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{demographics1_title1}}}
+		<td>{{{demographics1_info1}}} </td>
+	</tr>
+}}{{#if:{{{demographics1_title2|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{demographics1_title2}}}
+		<td>{{{demographics1_info2}}} </td>
+	</tr>
+}}{{#if:{{{demographics1_title3|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{demographics1_title3}}}
+		<td>{{{demographics1_info3}}} </td>
+	</tr>
+}}{{#if:{{{demographics1_title4|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{demographics1_title4}}}
+		<td>{{{demographics1_info4}}} </td>
+	</tr>
+}}{{#if:{{{demographics1_title5|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{demographics1_title5}}}
+		<td>{{{demographics1_info5}}} </td>
+	</tr>
+}}{{#if:{{{demographics_type2|}}}|
+	<tr <!-- ***** Demographics 2***** --> class="mergedrow">
+		<td colspan="2">'''{{{demographics_type2}}}''' {{#if:{{{demographics2_footnotes|}}}|{{{demographics2_footnotes}}}}}</td>
+	</tr>
+{{#if:{{{demographics2_title1|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{demographics2_title1}}}
+		<td>{{{demographics2_info1}}} </td>
+	</tr>
+}}{{#if:{{{demographics2_title2|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{demographics2_title2}}}
+		<td>{{{demographics2_info2}}} </td>
+	</tr>
+}}{{#if:{{{demographics2_title3|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{demographics2_title3}}}
+		<td>{{{demographics2_info3}}} </td>
+	</tr>
+}}{{#if:{{{demographics2_title4|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{demographics2_title4}}}
+		<td>{{{demographics2_info4}}} </td>
+	</tr>
+}}{{#if:{{{demographics2_title5|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{demographics2_title5}}}
+		<td>{{{demographics2_info5}}} </td>
+	</tr>
+}} }}}}}}<!-- ***** Time Zones ***** -->
+{{#if:{{{timezone1|{{{timezone|}}}}}}|
+	<tr class="mergedtoprow">
+		<th>{{#if:{{{timezone2|}}}|[[Time zone]]s|[[Time zone]]}}</th>
+		<td>{{{timezone1|{{{timezone}}}}}} ([[UTC{{{utc_offset1|{{{utc_offset}}}}}}]]){{#if:{{{timezone2|}}}|</tr>
+<tr class="mergedrow">
+<th>&nbsp;</th>
+<td>{{{timezone2}}} ([[UTC{{{utc_offset2}}}]])</td>}}
+	</tr>
+{{#if:{{{timezone1_DST|{{{timezone_DST|}}}}}}|
+	<tr class="mergedrow">
+		<th style="white-space: nowrap;">&nbsp;-&nbsp;Summer&nbsp;([[Daylight saving time|DST]])</th>
+		<td>{{{timezone1_DST|{{{timezone_DST|}}}}}} ([[UTC{{{utc_offset1_DST|{{{utc_offset_DST|}}}}}}]])</td>{{#if:{{{timezone2_DST|}}}|</tr>
+<tr class="mergedbottomrow">
+<th>&nbsp;</th>
+<td>{{{timezone2_DST}}} ([[UTC{{{utc_offset2_DST}}}]])</td>}}
+	</tr>
+}} }}<!-- ***** Postal Code(s) ***** -->
+{{#if:{{{postal_code_type|}}}|
+	<tr class="mergedtoprow">
+                <th>{{{postal_code_type}}}</th>
+                <td>{{{postal_code}}}
+	</tr>
+{{#if:{{{postal2_code_type|}}}|
+	<tr class="mergedbottomrow">
+                <th>{{{postal2_code_type}}}</th>
+                <td class="adr"><span class="postal-code">{{{postal2_code}}}</span></td>
+	</tr>
+}} }}<!-- ***** Area Code(s) ***** -->
+{{#if:{{{area_code|}}}|
+	<tr class="mergedrow">
+		<th>{{#if:{{{area_code_type|}}}|{{{area_code_type}}}|[[Telephone numbering plan|Area code(s)]]}}</th>
+		<td>{{{area_code}}}</td>
+	</tr>
+}}<!---------------Twin Cities--------------->
+{{#if:{{{twin1|}}}|
+	<tr class="mergedtoprow">
+		<td colspan="2">'''[[List of twin towns and sister cities|Twin Cities]]'''</td>
+	</tr>
+}}{{#if:{{{twin1|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{twin1}}}
+		<td>{{{twin1_country}}}
+	</tr>
+}}{{#if:{{{twin2|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{twin2}}}
+		<td>{{{twin2_country}}}
+	</tr>
+}}{{#if:{{{twin3|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{twin3}}}
+		<td>{{{twin3_country}}}
+	</tr>
+}}{{#if:{{{twin4|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{twin4}}}
+		<td>{{{twin4_country}}}
+	</tr>
+}}{{#if:{{{twin5|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{twin5}}}
+		<td>{{{twin5_country}}}
+	</tr>
+}}{{#if:{{{twin6|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{twin6}}}
+		<td>{{{twin6_country}}}
+	</tr>
+}}{{#if:{{{twin7|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{twin7}}}
+		<td>{{{twin7_country}}}
+	</tr>
+
+}}{{#if:{{{twin8|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{twin8}}}
+		<td>{{{twin8_country}}}
+	</tr>
+}}{{#if:{{{twin9|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{twin9}}}
+		<td>{{{twin9_country}}}
+	</tr>
+}}<!--*****Blank Fields (two sections)*****-->
+{{#if:{{{blank_name_sec1|{{{blank_name|}}}}}}|
+	<tr class="mergedtoprow">
+		<th>{{{blank_name_sec1|{{{blank_name}}}}}}</th>
+		<td>{{{blank_info_sec1|{{{blank_info}}}}}}</td>
+	</tr>
+{{#if:{{{blank1_name_sec1|{{{blank1_name|}}}}}}|
+	<tr class="mergedrow">
+		<th>{{{blank1_name_sec1|{{{blank1_name}}}}}}</th>
+		<td>{{{blank1_info_sec1|{{{blank1_info}}}}}}</td>
+	</tr>
+{{#if:{{{blank2_name_sec1|{{{blank2_name|}}}}}}|
+	<tr class="mergedrow">
+		<th>{{{blank2_name_sec1|{{{blank2_name}}}}}}</th>
+		<td>{{{blank2_info_sec1|{{{blank2_info}}}}}}</td>
+	</tr>
+{{#if:{{{blank3_name_sec1|{{{blank3_name|}}}}}}|
+	<tr class="mergedrow">
+		<th>{{{blank3_name_sec1|{{{blank3_name}}}}}}</th>
+		<td>{{{blank3_info_sec1|{{{blank3_info}}}}}}</td>
+	</tr>
+{{#if:{{{blank4_name_sec1|{{{blank4_name|}}}}}}|
+	<tr class="mergedrow">
+		<th>{{{blank4_name_sec1|{{{blank4_name}}}}}}</th>
+		<td>{{{blank4_info_sec1|{{{blank4_info}}}}}}</td>
+	</tr>
+{{#if:{{{blank5_name_sec1|{{{blank5_name|}}}}}}|
+	<tr class="mergedrow">
+		<th>{{{blank5_name_sec1|{{{blank5_name}}}}}}</th>
+		<td>{{{blank5_info_sec1|{{{blank5_info}}}}}}</td>
+	</tr>
+{{#if:{{{blank6_name_sec1|{{{blank6_name|}}}}}}|
+	<tr class="mergedrow">
+		<th>{{{blank6_name_sec1|{{{blank6_name}}}}}}</th>
+		<td>{{{blank6_info_sec1|{{{blank6_info}}}}}}</td>
+	</tr>
+}}}}}}}}}}}}}}{{#if:{{{blank_name_sec2|}}}|
+	<tr class="mergedtoprow">
+		<th>{{{blank_name_sec2|}}}</th>
+		<td>{{{blank_info_sec2|}}}</td>
+	</tr>
+{{#if:{{{blank1_name_sec2|}}}|
+	<tr class="mergedrow">
+		<th>{{{blank1_name_sec2|}}}</th>
+		<td>{{{blank1_info_sec2|}}}</td>
+	</tr>
+{{#if:{{{blank2_name_sec2|}}}|
+	<tr class="mergedrow">
+		<th>{{{blank2_name_sec2|}}}</th>
+		<td>{{{blank2_info_sec2|}}}</td>
+	</tr>
+{{#if:{{{blank3_name_sec2|}}}|
+	<tr class="mergedrow">
+		<th>{{{blank3_name_sec2|}}}</th>
+		<td>{{{blank3_info_sec2|}}}</td>
+	</tr>
+{{#if:{{{blank4_name_sec2|}}}|
+	<tr class="mergedrow">
+		<th>{{{blank4_name_sec2|}}}</th>
+		<td>{{{blank4_info_sec2|}}}</td>
+	</tr>
+{{#if:{{{blank5_name_sec2|}}}|
+	<tr class="mergedrow">
+		<th>{{{blank5_name_sec2|}}}</th>
+		<td>{{{blank5_info_sec2|}}}</td>
+	</tr>
+{{#if:{{{blank6_name_sec2|}}}|
+	<tr class="mergedrow">
+		<th>{{{blank6_name_sec2|}}}</th>
+		<td>{{{blank6_info_sec2|}}}</td>
+	</tr>
+}}}}}}}}}}}}}}<!-- ***** Footnotes ***** -->
+{{#if:{{{footnotes|}}}|
+	<tr class="mergedtoprow">
+		<td colspan="2" align="left"><small>{{{footnotes}}}</small></td>
+	</tr>
+}}<!-- ***** Website ***** -->
+{{#if:{{{website|}}}|
+	<tr class="mergedtoprow">
+		<th>Website</th>
+		<td>{{{website}}}</td>
+	</tr>
+}}
+|}<!--For deprecated parameter names--><includeonly>{{#if:{{{coor_type|}}}{{{city_logo|}}}{{{area_total|}}}{{{area_land|}}}{{{area_water|}}}{{{TotalArea_sq_mi|}}}{{{LandArea_sq_mi|}}} {{{WaterArea_sq_mi|}}}{{{area_urban|}}}{{{UrbanArea_sq_mi|}}}{{{area_metro|}}}{{{MetroArea_sq_mi|}}} {{{elevation|}}}{{{population_density|}}}{{{population_density_mi2|}}} {{{population_density_metro_mi2|}}} {{{population_density_urban_mi2|}}}|[[Category:Settlement articles requiring maintenance]]}}{{#ifeq:{{NAMESPACE}}||{{#ifeq:{{{subdivision_name}}}|United States|{{#if:{{{latd|}}}|[[Category:Infobox Settlement US maintenance]]|[[Category:Infobox US maintenance ]]}}|}}{{#ifeq:{{{subdivision_name}}}|[[United States]]|{{#if:{{{latd|}}}|[[Category:Infobox Settlement US maintenance]]|[[Category:Infobox US maintenance ]]}}|}}}}</includeonly><noinclude>
+{{pp-template|small=yes}}
+{{documentation}}
+</noinclude>
