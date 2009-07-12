@@ -1,0 +1,92 @@
+{{Infobox
+|bodyclass  = width:23em; font-size:90%;
+|title      = '''{{{network_name|{{{name<includeonly>|</includeonly>}}}}}}'''
+|titlestyle = font-size:120%;
+|image      = {{{logo<includeonly>|</includeonly>}}}{{{network_logo|}}}{{{image|}}}
+|imagestyle = padding:1.0em;
+|labelstyle = background:transparent; padding-right:2.0em; line-height:1.1em;
+|datastyle  = line-height:1.2em; vertical-align:middle;
+
+|label1  = Type
+|data1   = {{{network_type|{{{type<includeonly>|</includeonly>}}}}}}
+|label2  = Branding
+|data2   = {{{branding<includeonly>|</includeonly>}}}
+|label3  = Country
+|data3   = {{{country<includeonly>|</includeonly>}}}
+|label4  = First air&nbsp;date
+|data4   = {{{airdate<includeonly>|</includeonly>}}}
+|label5  = Availability
+|data5   = {{{available<includeonly>|</includeonly>}}}
+|label6  = Founded
+|data6   = {{#if:{{{founded<includeonly>|</includeonly>}}}{{{foundation|}}}
+             | {{{foundation|{{{founded}}}}}}<br/> }}
+           {{#if:{{{founder<includeonly>|</includeonly>}}} |by {{{founder}}} }}
+|label7  = Motto
+|data7   = {{{motto<includeonly>|</includeonly>}}}
+|label8  = [[Advertising slogan|Slogan]]
+|data8   = {{{slogan<includeonly>|</includeonly>}}}
+|label9  = [[Market share]]
+|data9   = {{{market_share<includeonly>|</includeonly>}}}
+|label10 = [[Financial endowment|Endowment]]
+|data10  = {{{endowment<includeonly>|</includeonly>}}}
+|label11 = [[Revenue]]
+|data11  = {{{revenue<includeonly>|</includeonly>}}}
+|label12 = [[Net income]]
+|data12  = {{{net_income<includeonly>|</includeonly>}}}
+|label13 = Licence area
+|data13  = {{{license_area|{{{licence_area<includeonly>|</includeonly>}}}}}}
+|label14 = Broadcast area
+|data14  = {{{broadcast_area<includeonly>|</includeonly>}}}
+|label15 = Area
+|data15  = {{{area<includeonly>|</includeonly>}}}
+|label16 = [[Effective radiated power|ERP]]
+|data16  = {{{erp<includeonly>|</includeonly>}}}
+|label17 = Owner
+|data17  = {{{owner<includeonly>|</includeonly>}}}
+|label18 = Key people
+|data18  = {{{key_people<includeonly>|</includeonly>}}}
+|label19 = Launch&nbsp;date
+|data19  = {{{launch_date<includeonly>|</includeonly>}}}
+|label20 = Dissolved
+|data20  = {{{closure_date|{{{dissolved<includeonly>|</includeonly>}}}}}}
+|label21 = Former&nbsp;names
+|data21  = {{{past_names|{{{former_names<includeonly>|</includeonly>}}}}}}
+|label22 = [[Digital terrestrial television|Digital channel]]
+|data22  = {{{digital<includeonly>|</includeonly>}}}
+|label23 = [[Analog television|Analog]]/[[PSIP|Virtual]] channel
+|data23  = {{{analog<includeonly>|</includeonly>}}}
+|label24 = [[Analog television|Analogue channel]]
+|data24  = {{{analogue<includeonly>|</includeonly>}}}
+|label25 = {{{servicename1<includeonly>|</includeonly>}}}
+|data25  = {{{service1<includeonly>|</includeonly>}}}
+|label26 = {{{servicename2<includeonly>|</includeonly>}}}
+|data26  = {{{service2<includeonly>|</includeonly>}}}
+|label27 = {{{servicename3<includeonly>|</includeonly>}}}
+|data27  = {{{service3<includeonly>|</includeonly>}}}
+|label28 = {{{servicename4<includeonly>|</includeonly>}}}
+|data28  = {{{service4<includeonly>|</includeonly>}}}
+|label29 = [[Call sign|Callsign]]s
+|data29  = {{{callsign|{{{callsigns<includeonly>|</includeonly>}}}}}}
+|label30 = Callsign meaning
+|data31  = {{{callsign_meaning<includeonly>|</includeonly>}}}
+|label31 = Former callsigns
+|data31  = {{{former_callsigns<includeonly>|</includeonly>}}}
+|label32 = [[Affiliate|Affiliation]]
+|data32  = {{{affiliations|{{{affiliation<includeonly>|</includeonly>}}}}}}
+|label33 = [[Affiliate]]s
+|data33  = {{{affiliates<includeonly>|</includeonly>}}}
+|label34 = Group
+|data34  = {{{groups<includeonly>|</includeonly>}}}
+|label35 = Former [[Affiliate|affiliation]]s
+|data35  = {{{former_affiliations<includeonly>|</includeonly>}}}
+|data36  = {{#if:{{{website<includeonly>|</includeonly>}}}
+             | '''Website'''<br/>{{{website}}} }}
+|data37  = {{#if:{{{footnotes<includeonly>|</includeonly>}}}
+             | <div style="text-align:left;">'''Notes'''<br/>{{{footnotes}}}</div> }}
+|label38 = [[Language]]
+|data38  = {{{language<includeonly>|</includeonly>}}}
+}}<noinclude>
+{{end infobox page}}
+
+<!---Please add metadata to the <includeonly> section at the bottom of the /doc subpage--->
+</noinclude>
