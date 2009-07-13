@@ -245,7 +245,7 @@
 		<th>{{{subdivision_type6}}}
 		<th>{{{subdivision_name6}}}
 	</tr>
-}}<!--***** Established *****-->
+}}<!--***** Mitátag *****-->
 {{#if:{{{established_title|}}}|
 	<tr class="mergedrow">
 		<th>{{{established_title}}}</th>
@@ -273,7 +273,7 @@
 	</tr>
 }}{{#if:{{{named_for|}}}|
 	<tr class="mergedrow">
-		<th>Mipalgiu keng</th>
+		<th>Mipalagiu keng</th>
 		<td>{{{named_for}}}</td>
 	</tr>
 }}<!-- *** Seat of government and subdivisions within the settlement **** -->{{#if:{{{seat|}}}|
@@ -285,9 +285,9 @@
       <tr class={{#if:{{{seat|}}}|"mergedrow"|"mergedtoprow"}}>
        <th>{{#if:{{{parts_type|}}}|{{{parts_type}}}|Boroughs}}</th>      <td>{{#ifeq:{{{parts_style|}}}|para|<b>{{{parts|}}}{{#if:{{both|{{{parts|}}}|{{{p1|}}}}}|&#58;&nbsp;|}}</b>{{#if:{{{p1|}}}|{{{p1}}}{{#if:{{{p2|}}}|, {{{p2}}}{{#if:{{{p3|}}}|, {{{p3}}}{{#if:{{{p4|}}}|, {{{p4}}}{{#if:{{{p5|}}}|, {{{p5}}}{{#if:{{{p6|}}}|, {{{p6}}}{{#if:{{{p7|}}}|, {{{p7}}}{{#if:{{{p8|}}}|, {{{p8}}}{{#if:{{{p9|}}}|, {{{p9}}}{{#if:{{{p10|}}}|, {{{p10}}}{{#if:{{{p11|}}}|, {{{p11}}}{{#if:{{{p12|}}}|, {{{p12}}}{{#if:{{{p13|}}}|, {{{p13}}}{{#if:{{{p14|}}}|, {{{p14}}}{{#if:{{{p15|}}}|, {{{p15}}}{{#if:{{{p16|}}}|, {{{p16}}}{{#if:{{{p17|}}}|, {{{p17}}}{{#if:{{{p18|}}}|, {{{p18}}}{{#if:{{{p19|}}}|, {{{p19}}}{{#if:{{{p20|}}}|, {{{p20}}}{{#if:{{{p21|}}}|, {{{p21}}}{{#if:{{{p22|}}}|, {{{p22}}}{{#if:{{{p23|}}}|, {{{p23}}}{{#if:{{{p24|}}}|, {{{p24}}}{{#if:{{{p25|}}}|, {{{p25}}}{{#if:{{{p26|}}}|, {{{p26}}}{{#if:{{{p27|}}}|, {{{p27}}}{{#if:{{{p28|}}}|, {{{p28}}}{{#if:{{{p29|}}}|, {{{p29}}}{{#if:{{{p30|}}}|, {{{p30}}}{{#if:{{{p31|}}}|, {{{p31}}}{{#if:{{{p32|}}}|, {{{p32}}}{{#if:{{{p33|}}}|, {{{p33}}}{{#if:{{{p34|}}}|, {{{p34}}}{{#if:{{{p35|}}}|, {{{p35}}}{{#if:{{{p36|}}}|, {{{p36}}}{{#if:{{{p37|}}}|, {{{p37}}}{{#if:{{{p38|}}}|, {{{p38}}}{{#if:{{{p39|}}}|, {{{p39}}}{{#if:{{{p40|}}}|, {{{p40}}}{{#if:{{{p41|}}}|, {{{p41}}}{{#if:{{{p42|}}}|, {{{p42}}}{{#if:{{{p43|}}}|, {{{p43}}}{{#if:{{{p44|}}}|, {{{p44}}}{{#if:{{{p45|}}}|, {{{p45}}}{{#if:{{{p46|}}}|, {{{p46}}}{{#if:{{{p47|}}}|, {{{p47}}}{{#if:{{{p48|}}}|, {{{p48}}}{{#if:{{{p49|}}}|, {{{p49}}}{{#if:{{{p50|}}}|, {{{p50}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}|{{#if:{{{p1|}}}|{{Collapsible list|title={{{parts|}}}|frame_style=border:none;padding:0;|list_style=text-align:left;display:{{#if:{{#ifeq:{{{parts_style|}}}|coll|1|}}{{both|{{isnot|{{{parts_style|}}}|list}}|{{{p6|}}}}}|none|on}}|1={{{p1|}}}|2={{{p2|}}}|3={{{p3|}}}|4={{{p4|}}}|5={{{p5|}}}|6={{{p6|}}}|7={{{p7|}}}|8={{{p8|}}}|9={{{p9|}}}|10={{{p10|}}}|11={{{p11|}}}|12={{{p12|}}}|13={{{p13|}}}|14={{{p14|}}}|15={{{p15|}}}|16={{{p16|}}}|17={{{p17|}}}|18={{{p18|}}}|19={{{p19|}}}|20={{{p20|}}}|21={{{p21|}}}|22={{{p22|}}}|23={{{p23|}}}|24={{{p24|}}}|25={{{p25|}}}|26={{{p26|}}}|27={{{p27|}}}|28={{{p28|}}}|29={{{p29|}}}|30={{{p30|}}}|31={{{p31|}}}|32={{{p32|}}}|33={{{p33|}}}|34={{{p34|}}}|35={{{p35|}}}|36={{{p36|}}}|37={{{p37|}}}|38={{{p38|}}}|39={{{p39|}}}|40={{{p40|}}}|41={{{p41|}}}|42={{{p42|}}}|43={{{p43|}}}|44={{{p44|}}}|45={{{p45|}}}|46={{{p46|}}}|47={{{p47|}}}|48={{{p48|}}}|49={{{p49|}}}|50={{{p50|}}}}}|{{{parts}}}}}}}</td>
         </tr>
-}}<!-- ***** Government type and Leader ***** -->
+}}<!-- ***** Uri ning Kapamahalan ampong Pekapun ***** -->
 {{#if:{{{government_type|}}}{{{leader_title|}}}|
-	<tr <!-- ***** Government ***** --> class="mergedtoprow">
+	<tr <!-- ***** Kapamahalan ***** --> class="mergedtoprow">
 		<td colspan="2">'''Gubyernu''' {{#if:{{{government_footnotes|}}}|{{{government_footnotes}}}}}</td>
 	</tr>
 {{#if:{{{government_type|}}}|
@@ -361,7 +361,7 @@
 		<th>&nbsp;- {{{area_blank2_title}}}</th>
 		<td>{{areadisp|{{{unit_pref|}}}|{{{area_blank2_sq_mi|}}}|{{{area_blank2_km2|}}}|||{{{subdivision_name|}}}}}</td>
            </tr>
-}}<!-- ***** Elevation ***** -->
+}}<!-- ***** Kátas ***** -->
 {{#if:{{{elevation_m|}}}{{{elevation_ft|}}}|
 	<tr class="mergedtoprow">
 		<td>'''[[Katas]]''' {{#if:{{{elevation_footnotes|}}}|{{{elevation_footnotes}}}}}</td>
@@ -377,7 +377,7 @@
 		<th>Pekamababang&nbsp;katas</th>
 		<td>{{lengthdisp|{{{unit_pref|}}}|{{{elevation_min_ft|}}}|{{{elevation_min_m|}}}||{{{subdivision_name|}}}}}</td>
 	</tr>
-}}<!-- ***** Population ***** -->
+}}<!-- ***** Populasiun ***** -->
 {{#if:{{{population_total|}}}{{{population_urban|}}}{{{population_metro|}}}{{{population_blank1|}}}{{{population_blank2|}}}|
 	<tr class="mergedtoprow">
 		<td {{#ifeq:{{{total_type}}}|&nbsp;||colspan="2"}}>'''Populasiun''' {{#if:{{{population_as_of|}}}|({{{population_as_of}}})}}{{#if:{{{population_footnotes|}}}|{{{population_footnotes}}}}}</td>
