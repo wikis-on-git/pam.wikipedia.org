@@ -1,0 +1,66 @@
+<noinclude>[[Category:Demographics|*5col]]
+The first version of this template was created in french [http://fr.wikipedia.org/wiki/Mod%C3%A8le:Demography_5col fr:Modèle:Demography 5col].
+
+The '''internationalisation of this template''' is to ease the transfert of demographic datas between language versions (just a drag and drop).
+
+The project is to present the '''demographic evolution of a spot''' (city, shire,..) in a table of 5 columns.
+
+== Use ==
+Use the template as follows with the size (instead of 510px), the years and datas of your own :
+ <nowiki>{{</nowiki>Demography 5col|510px|<nowiki>[[1968]]|[[1975]]|[[1982]]|[[1990]]|[[1999]]</nowiki>
+ |3,363|3,457|3,898|3,663|3,454<nowiki>}}</nowiki>
+
+{{Demography declinaisons}}
+
+<--check for other language there
+
+[[en:Template:Demography 5col]]
+[[ar:قالب:Demography 5col]]
+[[bg:Шаблон:Demography 5col]]
+[[ca:Plantilla:Demography 5col]]
+[[cs:Šablona:Demography 5col]]
+[[da:Skabelon:Demography 5col]]
+[[de:Vorlage:Demography 5col]]
+[[et:Mall:Demography 5col]]
+[[es:Plantilla:Demography 5col]]
+[[eo:Ŝablono:Demography 5col]]
+[[fr:Modèle:Demography 5col]]
+[[gl:Modelo:Demography 5col]]
+[[ko:틀:Demography 5col]]
+[[hr:Predložak:Demography 5col]]
+[[io:Shablono:Demography 5col]]
+[[id:Templat:Demography 5col]]
+[[it:Template:Demography 5col]]
+[[he:תבנית:Demography 5col]]
+[[lt:Šablonas:Demography 5col]]
+[[hu:Sablon:Demography 5col]]
+[[ms:Templat:Demography 5col]]
+[[ja:Template:Demography 5col]]
+[[no:Mal:Demography 5col]]
+[[nn:Mal:Demography 5col]]
+[[pt:Predefinição:Demography 5col]]
+[[ro:Format:Demography 5col]]
+[[ru:Шаблон:Demography 5col]]
+[[sk:Šablóna:Demography 5col]]
+[[sr:Шаблон:Demography 5col]]
+[[fi:Malline:Demography 5col]]
+[[sv:Mall:Demography 5col]]
+[[tr:Şablon:Demography 5col]]
+[[uk:Шаблон:Demography 5col]]
+[[zh:Template:Demography 5col]]
+</noinclude>
+{| class="wikitable" style="width:{{{1}}}; text-align:center"
+|+ [[Demography|Demographic]] evolution of {{FULLPAGENAME}} between {{{2}}} and {{{6}}}
+|-
+! {{{2}}}
+! {{{3}}}
+! {{{4}}}
+! {{{5}}}
+! {{{6}}}
+|-
+| {{{7}}}
+| {{{8}}}
+| {{{9}}}
+| {{{10}}}
+| {{{11}}}
+|}
