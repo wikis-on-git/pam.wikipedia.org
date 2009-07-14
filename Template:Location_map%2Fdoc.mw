@@ -1,0 +1,391 @@
+{{template doc page}}
+<!-- DOCUMENTATION -->
+Creates a location map as a [[m:Help:composite images|composite image]] of an existing map in [[equirectangular projection]] with a marker and an optional label superimposed onto it.  Note:
+:* Using "caption=xxx" frames the map (empty "caption=" leaves map unframed);
+:* The marker/label is not checked for valid latitude/longitude & could land anywhere on the article page, even beyond the bottom;
+:* To suppress the marker, set marksize=1 pixel wide.
+:* For map "width=250" omit "px" or will stretch across page.
+:* To place multiple markers/labels, refer below to: ''[[#See also|See also]]''.
+:* To map along converging longitudes, refer to: ''[[Template:Location_map_skew]]''.
+
+==Usage==
+ <nowiki>{{</nowiki>Location map
+ |''location''
+ |label      = ''label text''
+ |label_size = map font size, per cent
+ |alt        = [[WP:ALT|Alt text]] for image (defaults to generic description)
+ |position   = left ''or'' right ''or'' top ''or'' bottom ''or'' none – 
+                position of the label relative to the mark, defaults to ''right''
+ |background = ''color'', background color for the label, defaults to none 
+ |lon_dir=W    longitude: W=west, E=east (default)
+ |lat_dir=S    latitude: S=south, N=north (default)
+ |lat_deg    = ''latitude'' degrees
+ |lat_min    = ''latitude'' minutes
+ |lat_sec    = ''latitude'' seconds
+ |lon_deg    = ''longitude'' degrees
+ |lon_min    = ''longitude'' minutes
+ |lon_sec    = ''longitude'' seconds
+ |lat        = ''latitude'' (decimal format; enter negative numbers for southern latitude)
+ |long       = ''longitude'' (decimal format; enter negative numbers for western longitude)
+ |mark       = ''marker image file name'', a red dot by default
+ |marksize   = ''marker size'', default=8
+ |border     = ''border color'' or ''none''
+ |caption    = ''map caption''; for no caption enter "caption="; if the parameter is omitted then the caption will be "Marker text (location map name)"
+ |float      = left ''or'' right ''or'' center ''or'' none
+ |width      = ''map width'' (omit "px" or will stretch across page)
+ |AlternativeMap = Alternative map file name (changes background map, border coordinates are determined based on the map name); this is only recommended for use in templates <nowiki>}}</nowiki>
+
+Parameter ''location'' refers to {Template:Location map ''location''} containing the name and coordinates of a map.
+
+== Available maps ==
+
+List of templates Template:Location map location (without "Template:" prefix here):
+{{Special:Prefixindex/Template:Location_map_}}
+
+NOTE:  For more of this list, go to:
+[[Special:PrefixIndex/Template:Location_map_]]
+and select "Next page" in the Upper-Right corner.
+
+See also [[:Category:Location map templates]] (currently very incomplete, but useful for some subcategories).
+
+== Creating new maps ==
+
+#Find an appropriate blank map in [[equirectangular projection]].
+#Create a template named Template:Location map ''location'' (copy the content of any other map template into it and enter appropriate values).
+
+== Examples ==
+
+=== Map with the default caption (degrees/minutes) ===
+
+{| width=100%
+| width=60% valign=top | '''Pag (Croatia)'''
+ <nowiki>{{Location map
+ |Croatia | label=Pag
+ |mark=<!--dot-->Green pog.svg
+ |lat_deg=44|lat_min=26
+ |lon_deg=15|lon_min=3
+ |position=right
+ |width=300
+ |float=right
+}}</nowiki>
+| align="center" |
+{{Location map|Croatia|label=Pag
+ |mark=<!--dot-->Green pog.svg
+ |lat_deg=44|lat_min=26|lon_deg=15|lon_min=3|position=right
+ |width=300|float=right}}
+|}
+
+=== Map with the default caption (coordinates decimal) ===
+
+{| width=100%
+| width=60% valign=top | '''Pag (Croatia)'''
+ <nowiki>{{Location map | Croatia
+ |label=Pag
+ |lat= <!--decimal form--> 44.44
+ |long=15.05
+ |position=right
+ |width= <!--smaller--> 200
+ |float=right
+}}</nowiki>
+| width="280" align="center" | {{Location map | Croatia |label=Pag|lat=44.44|long=15.05
+|position=right|width=200|float=right}}
+|}
+
+
+=== Map with the default caption and alt text ===
+
+{| width=100%
+| width=60% valign=top | '''Pag (Croatia)'''
+ <nowiki>{{Location map
+ |Croatia | label=Pag
+ |alt = Pag lies off the West coast of Croatia, in the Adriatic Sea
+ |mark=<!--dot-->Green pog.svg
+ |lat_deg=44|lat_min=26
+ |lon_deg=15|lon_min=3
+ |position=right
+ |width=300
+ |float=right
+}}</nowiki>
+| align="center" |
+{{Location map|Croatia|label=Pag|alt=Pag lies off the West coast of Croatia, in the Adriatic Sea
+ |mark=<!--dot-->Green pog.svg
+ |lat_deg=44|lat_min=26|lon_deg=15|lon_min=3|position=right
+ |width=300|float=right}}
+|}
+
+
+=== Marker/Label outside of Map ===
+
+{| width=100%
+| width=60% valign=top | '''Pag (Croatia)'''
+ <nowiki>{{Location map | Croatia
+ |label=Pag
+ |lat=44.44
+ |long=<!--outside map-->11.05
+ |position=right
+ |width=200
+ |float=right
+}}</nowiki>
+| width="280" align="center" | {{Location map |Croatia |label=Pag|lat=44.44|long=11.05
+|position=right|width=200|float=right}}
+|}
+
+=== Map with a custom caption and text background ===
+
+{| width=100%
+| width=60% valign=top | '''Imotski'''
+ <nowiki>{{Location map
+ |Croatia
+ |label=Imotski
+ |lat=43.44
+ |long=17.21
+ |position=right
+ |width=300
+ |float=right
+ |background=#FFFFDD
+ |caption=Imotski on the map of Croatia
+ }}</nowiki>
+| width="300" align="center" | {{Location map|Croatia|label=Imotski|lat=43.44|long=17.21|position=right|width=300|float=right|background=#FFFFDD|caption=Imotski on the map of Croatia}}
+|}
+
+=== Map with enlarged marker and label ===
+
+{| width=100%
+| width=60% valign=top | '''Pag (Croatia)'''
+ <nowiki>{{Location map
+ |Croatia
+ |label=Pag
+ |label_size=200
+ |lat=44.44
+ |long=15.05
+ |marksize=14
+ |position=right
+ |width=300
+ |float=right
+ |background=#FFFFDD
+ |caption=Pag Island on the map of Croatia
+ }}</nowiki>
+| width="300" align="center" | {{Location map|Croatia|label=Pag|label_size=200|lat=44.44|long=15.05|marksize=14|position=right|width=300|float=right|background=#FFFFDD|caption=Pag Island on the map of Croatia}}
+|}
+
+=== Map with no caption ===
+
+{| width=100%
+| width=60% valign=top | '''Brčko (Bosnia and Herzegovina)'''
+ <nowiki>{{Location map
+ |Bosnia
+ |label=Brčko
+ |position=left
+ |width=150
+ |lat=44.87
+ |long=18.81
+ |float=right
+ |caption=
+ }}</nowiki>
+| width="250" | {{Location map|Bosnia|label=Brčko|position=left|width=150|lat=44.87|long=18.81|float=right|caption=}}
+|}
+
+=== Western Hemisphere ===
+
+{| width=100%
+| width=60% valign=top | '''Lockerbie (Scotland)'''
+ <nowiki>{{Location map
+ |Scotland
+ |label=Lockerbie  | marksize=9
+ |mark=Blue_pog.svg
+ |lat_dir=N | lat_deg=55 | lat_min=07
+            | lat_sec=16
+ |lon_dir=W | lon_deg=03 | lon_min=21
+            | lon_sec=19
+ |position=right
+ |width=170
+ |float=right
+ |caption=Lockerbie in Scotland
+}}</nowiki>
+| width="200" align="center" | {{Location map|Scotland
+|label=Lockerbie | marksize=9 |mark=Blue_pog.svg
+|lat_dir=N|lat_deg =55|lat_min =7|lat_sec=16
+|lon_dir =W|lon_deg=3|lon_min=21|lon_sec=19
+|position=right|width=170|float=right|caption=Lockerbie in Scotland}}
+|}
+
+=== Country that crosses 180° meridian ===
+
+{| width=100%
+| width=60% valign=top | '''Uelen (Russia)'''
+ <nowiki>{{Location map
+ |Russia
+ |label=Uelen  | marksize=7
+ |mark=Locator Dot.gif
+ |lat_deg=66|lat_min=09
+ |lon_deg=169|lon_min=48|lon_dir=W
+ |position=left
+ |width=500
+ |float=left
+ |background=yellow
+}}</nowiki>
+|-
+| align="center" |
+{{Location map | Russia 
+|label=Uelen | marksize=7 | mark=Locator_Dot.gif
+|lat_deg=66|lat_min=09|lon_deg=169|lon_min=48|lon_dir=W
+|position=left|width=500|float=left|background=yellow}}
+|}
+
+== All Parameters ==
+<table class="wikitable">
+ <th>Parameter</th>
+ <th>Default</th>
+ <th>Description</th>
+ <tr>
+  <th>{1}</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>AlternativeMap=</th>
+  <td>Location map {1}|image</td>
+  <td><nowiki>[[</nowiki>image: {}]]</td>
+ </tr>
+ <tr>
+  <th>background=</th>
+  <td>&nbsp;</td>
+  <td>background-color: {};</td>
+ </tr>
+ <tr>
+  <th>border=</th>
+  <td>#CCCCCC</td>
+  <td>border: {};</td>
+ </tr>
+ <tr>
+  <th>caption=</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>float=</th>
+  <td>&nbsp;</td>
+  <td>float: {}; clear: {};</td>
+ </tr>
+ <tr>
+  <th>label=</th>
+  <td>{PAGENAME}</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>lat=</th>
+  <td>0</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>lat_deg=</th>
+  <td>0</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>lat_dir=</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>lat_min=</th>
+  <td>0</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>lat_sec=</th>
+  <td>0</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>long=</th>
+  <td>0</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>lon_deg=</th>
+  <td>0</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>lon_dir=</th>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>lon_min=</th>
+  <td>0</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>lon_sec=</th>
+  <td>0</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>mark=</th>
+  <td>Red pog.svg</td>
+  <td><nowiki>[[</nowiki>Image: {}]]</td>
+ </tr>
+ <tr>
+  <th>marksize=</th>
+  <td>8</td>
+  <td><nowiki>[[</nowiki>Image: {}px]]<br/>font-size: {}px;</td>
+ </tr>
+ <tr>
+  <th>position=</th>
+  <td>right</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>width=</th>
+  <td>240</td>
+  <td>image: {}px<br/>width: ({}+2)px;</td>
+ </tr>
+</table>
+
+== See also ==
+* [[Template:Location map many]] - placing multiple markers/labels.
+* [[Template:Location map+]] - placing long list of markers/labels.
+* [[Template:Location map skew]] - mapping along converging longitudes (non-equirectangular).
+* [[commons:Category:Map pointer]]
+
+<includeonly>
+{{DEFAULTSORT:{{PAGENAME}}}}
+[[Category:Graphic templates]]
+[[Category:Mapping templates]]
+
+[[af:Sjabloon:Liggingkaart]]
+[[ar:قالب:خارطة مواقع]]
+[[be-x-old:Шаблён:Лякалізацыйная мапа]]
+[[bg:Шаблон:Карта позиция]]
+[[bs:Šablon:Lokacijska karta]]
+[[da:Skabelon:Kortpositioner]]
+[[de:Vorlage:Positionskarte]]
+[[dsb:Pśedłoga:LocMap]]
+[[en:Template:Location map/doc]]
+[[et:Mall:Asendikaart]]
+[[eo:Ŝablono:Situo sur mapo]]
+[[es:Plantilla:Location map]]
+[[simple:Template:Location map]]
+[[fa:الگو:روی نقشه]]
+[[fr:Modèle:Carte avec géolocalisation]]
+[[hsb:Předłoha:LocMap]]
+[[hr:Predložak:Lokacijska karta]]
+[[it:Template:Mappa di localizzazione/man]]
+[[ja:Template:Location map]]
+[[ka:თარგი:პოზრუკა]]
+[[nl:Sjabloon:Positiekaart]]
+[[no:Mal:Kartposisjon]]
+[[os:Шаблон:ПозКартæ]]
+[[pl:Szablon:Mapa lokalizacyjna]]
+[[pt:Predefinição:Mapa de localização]]
+[[ru:Шаблон:ПозКарта]]
+[[sq:Stampa:Harta e pozicionit]]
+[[sl:Predloga:Lokacijska karta]]
+[[fi:Malline:Location map]]
+[[sv:Mall:Kartposition]]
+[[tg:Шаблон:Ҷо рӯи харита]]
+[[uk:Шаблон:Карта розташування]]
+[[zh:Template:Location map]]
+</includeonly>
