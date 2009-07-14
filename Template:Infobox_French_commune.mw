@@ -3,6 +3,35 @@
 ! valign="middle" colspan="2" style="padding:2px;"| <div style="float: right; padding: 0.2em">[[France]] [[Image:Flag of France.svg|20px|Bandera ning France]]</div>'''Commune keng  {{{name}}}'''
 |- bgcolor="#FFFFFF"
 ! valign="middle" colspan="2" style="padding:2px;"| <div style="float: right; padding: 0.2em"> </div>'''  {{{image}}}'''
+<!----- Map, Location ----->
+| colspan="2"  style="background-color:#ccccff" align="center" | '''Location'''
+|-
+{{#if: {{{map|<noinclude>-</noinclude>}}} |
+{{!}} colspan="2" valign="top" align="center" {{!}} [[Image:{{{map}}}|270px]]
+| 
+{{#if: {{{adjustable_map|<noinclude>-</noinclude>}}} |
+{{!}} colspan="2" valign="top" align="center" {{!}} [[Image:{{{adjustable_map}}}|{{{map_size}}}]]
+| 
+{{#if: {{{image_map|<noinclude>-</noinclude>}}} |
+{{!}} cellpadding="0" style="border-top:solid 1px #ccd2d9; border-bottom:solid 1px #ccd2d9; padding: 0; margin:0;background: #ffffff; text-align: center;" colspan="2"{{!}}{{French town map|
+  image_map   = {{{image_map|}}} |
+  x           = {{{x|_unknown}}} |
+  y           = {{{y|}}} | 
+  common_name = {{{common_name|}}} }}
+| 
+{{#if: {{{latitude|<noinclude>-</noinclude>}}} | {{#iferror:{{#expr:{{{latitude|-2}}}+2}}|[[Category:France articles requiring maintenance|Badlatitude]] |
+{{!}} cellpadding="0" style="border-top:solid 1px #ccd2d9; border-bottom:solid 1px #ccd2d9; padding: 0; margin:0;background: #ffffff; text-align: center;" colspan="2"{{!}} {{Location map|France
+      |lat= {{{latitude|50}}}
+      |long= {{{longitude|-2}}}
+      |mark= Red pog.svg
+      |marksize   = 6
+      |label ={{#if:{{{map_dot_label|}}}|{{{map_dot_label}}}|{{PAGENAME}}}}
+      |float=center | width=270 | border=none | caption=}}
+}} | [[Category:France articles requiring maintenance|Nomap]]}} }} }} }}
+|-
+{{#if: {{{mapcaption|<noinclude>-</noinclude>}}} |
+{{!}} colspan="2" align="center" {{!}} <small>{{{mapcaption}}}</small>
+}}
 |- bgcolor="#FFFFFF"
 | valign="middle"| '''[[Labuad  (France)|Labuad]]''' || align="center" | {{{region}}}
 |- bgcolor="#FFFFFF"
