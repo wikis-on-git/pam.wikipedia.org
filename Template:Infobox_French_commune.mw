@@ -2,7 +2,7 @@
 |-
 ! valign="middle" colspan="2" style="padding:2px;"| <div style="float: right; padding: 0.2em">[[France]] [[Image:Flag of France.svg|20px|Bandera ning France]]</div>'''Commune keng  {{{name}}}'''
 |- bgcolor="#FFFFFF"
-| valign="middle"| '''Larawan''' || align="center" | {{{image}}}
+! valign="middle" colspan="2" style="padding:2px;"| <div style="float: right; padding: 0.2em"> </div>'''  {{{image}}}'''
 |- bgcolor="#FFFFFF"
 | valign="middle"| '''[[Labuad  (France)|Labuad]]''' || align="center" | {{{region}}}
 |- bgcolor="#FFFFFF"
