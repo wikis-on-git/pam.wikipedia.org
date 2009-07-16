@@ -1,0 +1,134 @@
+{{Expand French|date=December 2008}}
+
+{{Infobox French commune
+|name=Blonville-sur-Mer [[Image:blonvillewiki.jpg|250px]]<br><small>Blonville: Country & beach </small>
+|region=[[Basse-Normandie]]
+|department=[[Calvados]]
+|arrondissement=Lisieux
+|canton=Trouville-sur-Mer
+|insee=14079
+|postal_code=14910
+|mayor=Jean-Pierre Millet
+|term=2008-2014
+|intercomm=Cœur Côte Fleurie
+|longitude=0.03138
+|latitude=49.33916
+|elevation_m=101
+|elevation_min_m=2|elevation_max_m=112
+|hectares=680
+|area_km2=6.8
+|population=1652
+|date-population=2006
+|density_km2=197|date-density=1999}}
+
+
+
+Ing '''Blonville-sur-Mer''' metung yang [[Communes of the Calvados department|commune]] ning [[Calvados]] ''[[département in France|département]]'', king [[Basse-Normandie]] ''[[région in France|labuad]]'' king pangulungalbugan [[France]].
+
+
+==Populasiun==
+{{Population|
+1793= 114 |
+1800= 332 |
+1806= 311 |
+1821= 343 |
+1886= 360 |
+1901= 357 |
+1939= 603 |
+1946= 645 |
+1962= 729 |
+1968= 727 |
+1975= 758 |
+1982= 889 |
+1990= 1 062|
+1999= 1 341|
+2008= 1 652|
+
+source=EHESS<ref>{{Cassini-Ehess|url= http://cassini.ehess.fr/cassini/fr/html/fiche.php?select_resultat=4556 |titre= Notice communale - Blonville-sur-Mer |datecons= 13 avril 2009 }}</ref> et INSEE<ref>[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=14079&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Blonville-sur-Mer sur le site de l'Insee]</ref>}}
+
+<center>'''Histogramme''' <br /><small>(Élaboration graphique par Wikipédia)</small><br />
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.7)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.7,0.9,0.7)
+
+ImageSize  = width:780 height:300
+PlotArea   = left:50 bottom:30 top:30 right:50
+DateFormat = x.y
+Period =from:0 till:1800
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:200 start:0
+ScaleMinor = gridcolor:lightgrey increment:50 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1793 text:1793
+  bar:1800 text:1800
+  bar:1806 text:1806
+  bar:1821 text:1821
+  bar:1886 text:1886
+  bar:1901 text:1901
+  bar:1939 text:1936
+  bar:1946 text:1946
+  bar:1962 text:1962
+  bar:1968 text:1968
+  bar:1975 text:1975
+  bar:1982 text:1982
+  bar:1990 text:1990
+  bar:1999 text:1999
+  bar:2008 text:2008
+
+PlotData=
+ color:barra width:15 align:left  
+ bar:1793 from:0 till: 114
+ bar:1800 from:0 till: 332
+ bar:1806 from:0 till: 311
+ bar:1821 from:0 till: 343
+ bar:1886 from:0 till: 360
+ bar:1901 from:0 till: 357
+ bar:1939 from:0 till: 603
+ bar:1946 from:0 till: 645
+ bar:1962 from:0 till: 729
+ bar:1968 from:0 till: 727
+ bar:1975 from:0 till: 758
+ bar:1982 from:0 till: 889
+ bar:1990 from:0 till: 1062
+ bar:1999 from:0 till: 1341
+ bar:2008 from:0 till: 1652
+</timeline></center>
+
+
+
+==Lawen ya rin==
+*[[Ding Commune ning Calvados a departamentu]]
+
+==Dalerayan==
+{{Reflist}}
+
+{{Calvados communes}}
+
+[[Category:Ding Commune ning Calvados]]
+
+
+
+
+
+
+{{Calvados-geo-stub}}
+
+[[ceb:Blonville-sur-Mer]]
+[[en:Blonville-sur-Mer]]
+[[es:Blonville-sur-Mer]]
+[[fr:Blonville-sur-Mer]]
+[[it:Blonville-sur-Mer]]
+[[nl:Blonville-sur-Mer]]
+[[pl:Blonville-sur-Mer]]
+[[pt:Blonville-sur-Mer]]
+[[ru:Блонвиль-сюр-Мер]]
+[[simple:Blonville-sur-Mer]]
+[[sr:Blonville-sur-Mer]]
+[[vi:Blonville-sur-Mer]]
+[[vo:Blonville-sur-Mer]]
