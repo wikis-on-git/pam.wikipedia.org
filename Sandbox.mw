@@ -1,111 +1,91 @@
-<noinclude>{{start infobox page}}</noinclude><!--
--->{{Infobox
-|right; margin:
-
-|bodyclass  = biography vcard
-|bodystyle  = width:{{#if:{{{box_width|}}} |{{{box_width}}} |22em}}; font-size:95%; text-align:right;
-|above      = '''{{{name|{{PAGENAME}}}}}'''
-|aboveclass = fn
-|abovestyle = text-align:center; font-size:125%;
-|image      = {{#if:{{{image<includeonly>|</includeonly>}}}
-                | [[Image:{{{image}}}|<!--
-                    -->{{#if:{{{image_size|{{{imagesize|}}}}}}
-                         |{{{image_size|{{{imagesize}}}}}} |225px}}<!--
-               -->]]<!--
-           -->}}
-|imageclass = {{image class|{{{image}}}}}
-|imagestyle = padding:4pt; line-height:1.25em; text-align:center; font-size:8pt;
-|caption    = <div style="padding-top:2pt;">{{{caption<includeonly>|</includeonly>}}}</div>
-|labelstyle = padding:0.2em 1.0em 0.2em 0.2em; background:transparent; line-height:1.2em; text-align:left; font-size:90%;
-|datastyle  = padding:0.2em; line-height:1.3em; vertical-align:middle; font-size:90%;
-
-|label1  = {{#if:{{{birth_name<includeonly>|</includeonly>}}}<!--
-              -->{{{birth_date|}}}{{{birth_place|}}}
-             | Mibait }}
-|data1   = {{#if:{{{birth_name|}}} |{{{birth_name}}}<br/> }}<!--
-        -->{{#if:{{{birth_date<includeonly>|</includeonly>}}} |{{{birth_date}}}<br/> }}<!--
-        -->{{{birth_place<includeonly>|</includeonly>}}}
-
-|label2  = {{#if:{{{death_date<includeonly>|</includeonly>}}}{{{death_place|}}} |Kematian }}
-|data2   = {{#if:{{{death_date<includeonly>|</includeonly>}}} |{{{death_date}}}<br/> }}<!--
-        -->{{{death_place<includeonly>|</includeonly>}}}
-|label3  = Sangkan&nbsp;ning pangamate
-|data3   = {{{death_cause<includeonly>|</includeonly>}}}
-|label4  = Kutkutan&nbsp;lugal
-|class4  = label
-|data4   = {{{resting_place<includeonly>|</includeonly>}}}<!--
-           -->{{#if:{{{resting_place_coordinates|}}}
-                | <br/>{{{resting_place_coordinates}}} }}
-|label5  = tuknangan
-|class5  = label
-|data5   = {{{residence<includeonly>|</includeonly>}}}
-|label6  = Bangsa
-|data6   = {{{nationality<includeonly>|</includeonly>}}}
-|label7  = Aliwang&nbsp;lagiu
-|class7  = palayo
-|data7   = {{{other_names<includeonly>|</includeonly>}}}
-|label8  = Pegaralan
-|data8   = {{{education<includeonly>|</includeonly>}}}
-|label9  = Alma&nbsp;mater
-|data9   = {{{alma_mater<includeonly>|</includeonly>}}}
-|label10 = Obra
-|data10  = {{{occupation<includeonly>|</includeonly>}}}
-|label11 = Papaobra
-|data11  = {{{employer<includeonly>|</includeonly>}}}
-|label12 = Balen&nbsp;
-|data12  = {{{home_town<includeonly>|</includeonly>}}}
-|label13 = Pamansag
-|data13  = {{{title<includeonly>|</includeonly>}}}
-|label14 = Tatanggapan a bayad
-|data14  = {{{salary<includeonly>|</includeonly>}}}
-|label15 = Net&nbsp;worth
-|data15  = {{{networth<includeonly>|</includeonly>}}}
-|label16 = Katas
-|data16  = {{{height<includeonly>|</includeonly>}}}
-|label17 = Timbang
-|data17  = {{{weight<includeonly>|</includeonly>}}}
-|label18 = Bantug&nbsp;keng
-|data18  = {{{known|{{{known_for<includeonly>|</includeonly>}}}}}}
-|label19 = Kaba ning pamanyuyu
-|data19  = {{{term<includeonly>|</includeonly>}}}
-|label20 = Elilan
-|data20  = {{{predecessor<includeonly>|</includeonly>}}}
-|label21 = Menalili
-|data21  = {{{successor<includeonly>|</includeonly>}}}
-|label22 = Partidu&nbsp;politcal
-|data22  = {{{party<includeonly>|</includeonly>}}}
-|label23 = Board member&nbsp;of
-|data23  = {{{boards<includeonly>|</includeonly>}}}
-|label24 = Kapanualan
-|data24  = {{{religion<includeonly>|</includeonly>}}}
-|label25 = Asawa
-|data25  = {{{spouse<includeonly>|</includeonly>}}}
-|label26 = Kakuyug
-|data26  = {{{partner<includeonly>|</includeonly>}}}
-|label27 = anak
-|data27  = {{{children<includeonly>|</includeonly>}}}
-|label28 = Pengari
-|data28  = {{{parents<includeonly>|</includeonly>}}}
-|label29 = Kamaganak
-|data29  = {{{relations|{{{relatives<includeonly>|</includeonly>}}}}}}
-
-|data30  = {{#if:{{{signature<includeonly>|</includeonly>}}}
-             | '''Signature'''<br/>[[Image:{{{signature}}}|128px]] }}
-|data31  = {{#if:{{{website<includeonly>|</includeonly>}}}
-             | '''Website'''<br/>{{{website}}} }}
-|data32  = {{#if:{{{footnotes<includeonly>|</includeonly>}}}
-             | <div style="text-align:left;"><!--
-               --><div style="border-top:1px solid;">'''Notes'''</div><!--
-               --><div style="line-height:1.2em;">{{{footnotes}}}</div><!--
-            --></div><!--
-        -->}}
-}}<noinclude>
-{{end infobox page}}
-
-{{pp-semi-template|small=yes}}
-{{#ifeq:{{SUBPAGENAME}}|sandbox |{{Template sandbox notice}} }}
-
-<!---Please add metadata to the <includeonly> section at the bottom of the /doc subpage--->
-</noinclude>
-
-[[en:Template:Infobox Person]]
+{|{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
+'''{{{name|{{PAGENAME}}}}}'''
+|-
+{{#if:{{{icon|}}}|
+{{!}} colspan="2" style="text-align: center;" {{!}} {{{icon}}}
+{{!}}-
+}}
+{{#if:{{{logo|}}}
+{{!}} colspan="2" style="text-align: center;" {{!}} {{{logo}}}
+{{!}}-
+}}
+{{#if:{{{screenshot|}}}|
+{{!}} colspan="2" style="text-align: center; border: 0px solid #aaaaaa;" {{!}} {{{screenshot}}}{{#if:{{{caption|}}}|<br /><span style="font-size: 83%;">{{{caption}}}</span>|}}
+{{!}}-
+}}
+{{#if:{{{extension|}}}|
+! [[filename extension|File extension]]
+{{!}} <code>{{{extension|None}}}</code>
+{{!}}-
+}}
+{{#if:{{{mime|}}}|
+! [[MIME]] type
+{{!}} <code>{{{mime}}}</code>
+{{!}}-
+}}
+{{#if:{{{type code|{{{typecode|}}}}}}|
+! [[Type code]]
+{{!}} {{{type code|{{{typecode}}}}}}
+{{!}}-
+}}
+{{#if:{{{uniform type|}}}|
+! [[Uniform Type Identifier]]
+{{!}} {{{uniform type}}}
+{{!}}-
+}}
+{{#if:{{{magic|}}}|
+! [[Magic number (programming)|Magic number]]
+{{!}} {{{magic}}}
+{{!}}-
+}}
+{{#if:{{{owner|}}}|
+! Developed by
+{{!}} {{{owner}}}
+{{!}}-
+}}
+{{#if:{{{released|}}}|
+! Initial release
+{{!}} {{{released|}}}
+{{!}}-
+}}
+{{#if:{{{latest release version|{{{latest_release_version|}}}}}}|
+! [[Software release life cycle|Latest release]]
+{{!}} {{{latest release version|{{{latest_release_version|}}}}}} {{#if:{{{latest release date|{{{latest_release_date|}}}}}}| / {{{latest release date|{{{latest_release_date|}}}}}}}}
+{{!}}-
+}}
+{{#if:{{{type|{{{genre|}}}}}}|
+! Type of format
+{{!}} {{{type|{{{genre|}}}}}}
+{{!}}-
+}}
+{{#if:{{{container for|{{{containerfor|}}}}}}|
+! Container for
+{{!}} {{{container for|{{{containerfor}}}}}}
+{{!}}-
+}}
+{{#if:{{{contained by|{{{containedby|}}}}}}|
+! Contained by
+{{!}} {{{contained by|{{{containedby}}}}}}
+{{!}}-
+}}
+{{#if:{{{extended from|{{{extendedfrom|}}}}}}|
+! Extended from
+{{!}} {{{extended from|{{{extendedfrom}}}}}}
+{{!}}-
+}}
+{{#if:{{{extended to|{{{extendedto|}}}}}}|
+! Extended to
+{{!}} {{{extended to|{{{extendedto}}}}}}
+{{!}}-
+}}
+{{#if:{{{standard|}}}
+! [[International standard|Standard(s)]]
+{{!}} {{{standard}}}
+{{!}}-
+}}
+{{#if:{{{url|}}}|
+! [[Website]]
+{{!}} {{{url|}}}
+{{!}}-
+}}
+|}<noinclude>{{Documentation}}</noinclude>
