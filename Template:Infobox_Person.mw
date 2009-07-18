@@ -1,6 +1,6 @@
 <noinclude>{{start infobox page}}</noinclude><!--
 -->{{Infobox
-|right; margin:
+|left; margin:
 
 |bodyclass  = biography vcard
 |bodystyle  = width:{{#if:{{{box_width|}}} |{{{box_width}}} |22em}}; font-size:95%; text-align:left;
@@ -66,7 +66,7 @@
 |data17  = {{{weight<includeonly>|</includeonly>}}}
 |label18 = Bantug&nbsp;keng
 |data18  = {{{known|{{{known_for<includeonly>|</includeonly>}}}}}}
-|label19 = Kab ning pamanyuyu
+|label19 = Kaba ning pamanyuyu
 |data19  = {{{term<includeonly>|</includeonly>}}}
 |label20 = Elilan
 |data20  = {{{predecessor<includeonly>|</includeonly>}}}
