@@ -1,9 +1,9 @@
-<!-- Infobox Country -->{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right"
-|+ style="margin-left: inherit; font-size: medium;"
+<noinclude>{{start infobox page}}</noinclude><!--
+-->{{Infobox
 |right; margin:
 
 |bodyclass  = biography vcard
-|bodystyle  = width:{{#if:{{{box_width|}}} |{{{box_width}}} |22em}}; font-size:95%; text-align:left;
+|bodystyle  = width:{{#if:{{{box_width|}}} |{{{box_width}}} |22em}}; font-size:95%; text-align:right;
 |above      = '''{{{name|{{PAGENAME}}}}}'''
 |aboveclass = fn
 |abovestyle = text-align:center; font-size:125%;
