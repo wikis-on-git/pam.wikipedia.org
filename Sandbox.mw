@@ -1,4 +1,5 @@
-{|{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
+{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
+{| class="infobox" width="280px" cellspacing="0" cellpadding="2" style="font-size: 90%;"
 '''{{{name|{{PAGENAME}}}}}'''
 |-
 {{#if:{{{icon|}}}|
