@@ -1,8 +1,9 @@
 <noinclude>{{start infobox page}}</noinclude><!--
--->
-{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
-{| class="infobox" width="280px" cellspacing="0" cellpadding="2" style="font-size: 90%;"
-|bodystyle  = width:{{#if:{{{box_width|}}} |{{{box_width}}} |22em}}; font-size:95%; text-align:left;
+-->{{Infobox
+|right; margin:
+
+|bodyclass  = biography vcard
+|bodystyle  = width:{{#if:{{{box_width|}}} |{{{box_width}}} |22em}}; font-size:95%; text-align:right;
 |above      = '''{{{name|{{PAGENAME}}}}}'''
 |aboveclass = fn
 |abovestyle = text-align:center; font-size:125%;
