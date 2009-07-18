@@ -1,4 +1,5 @@
-{Sant Joan Despí'''{{{title|{{PAGENAME}}}}}'''</big></big></font>
+{Sant Joan Despí'''| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right"
+|+ style="margin-left: inherit; font-size: medium;" | {{{title|{{PAGENAME}}}}}'''</big></big></font>
 {{#if: {{{image_skyline<includeonly>|</includeonly>}}} |
 <tr><td align="center" colspan="2">[[Image:{{{image_skyline}}}|{{{image_skyline_size|250px}}}]]</td></tr>
 }}{{#if: {{{image_skyline_caption<includeonly>|</includeonly>}}} |
