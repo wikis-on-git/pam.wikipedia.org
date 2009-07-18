@@ -1,6 +1,4 @@
-{| class="infobox vcard" style="width: 20em;" style="font-size: 85%"
-|- 
-| colspan="2" align="center" |<font color="#0066aa"><big><big class="fn org">'''{{{title|{{PAGENAME}}}}}'''</big></big></font>
+{Sant Joan Despí'''{{{title|{{PAGENAME}}}}}'''</big></big></font>
 {{#if: {{{image_skyline<includeonly>|</includeonly>}}} |
 <tr><td align="center" colspan="2">[[Image:{{{image_skyline}}}|{{{image_skyline_size|250px}}}]]</td></tr>
 }}{{#if: {{{image_skyline_caption<includeonly>|</includeonly>}}} |
