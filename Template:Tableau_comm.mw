@@ -166,12 +166,12 @@
 {{!}}-
 }}
 {{#if: {{{km²|<noinclude>-</noinclude>}}} |
-{{!}}Land area{{#if:{{{overseas collectivity|}}}|&nbsp;|¹}}
+{{!}}Luals ning Gabun{{#if:{{{overseas collectivity|}}}|&nbsp;|¹}}
 {{!}} {{{km²}}} km²
 {{!}}-
 }}
 {{#if: {{{area|<noinclude>-</noinclude>}}} |
-{{!}}Land area{{#if:{{{overseas collectivity|}}}|&nbsp;|¹}}
+{{!}}Lualas ning gabun{{#if:{{{overseas collectivity|}}}|&nbsp;|¹}}
 {{!}} {{{area}}} km²
 {{!}}-
 }}
@@ -186,7 +186,7 @@
 {{!}}-
 }}
 {{#if: {{{population|<noinclude>-</noinclude>}}} |
-{{!}}[[Demographics of France|Populasyun]]{{#if:{{{overseas collectivity|}}}|¹|²}}
+{{!}}[[Demographics of France|Populasiun]]{{#if:{{{overseas collectivity|}}}|¹|²}}
 {{!}} {{{population-ranking}}}
 {{!}}-
 {{!}}&nbsp;-&nbsp;{{{date-population}}}
@@ -209,13 +209,13 @@
 {{!}}[[unité urbaine|Urban lapad/dagul]] 
 {{!}}{{{UU-area}}}&nbsp;km² {{#if:{{{UU-area-date|}}}|<small>({{{UU-area-date}}})</small>}}
 {{!}}-
-{{!}}&nbsp;-&nbsp;Population
+{{!}}&nbsp;-&nbsp;Populasiun
 {{!}}{{{UU-pop}}} {{#if:{{{UU-pop-date|}}}|<small>({{{UU-pop-date}}})</small>}}
 {{!}}-
 {{!}}[[unité urbaine|Metro lapad/dagul]] 
 {{!}}{{{AU-area}}}&nbsp;km² {{#if:{{{AU-area-date|}}}|<small>({{{AU-area-date}}})</small>}}
 {{!}}-
-{{!}}&nbsp;-&nbsp;Populasyun
+{{!}}&nbsp;-&nbsp;Populasiun
 {{!}}{{{AU-pop}}} {{#if:{{{AU-pop-date|}}}|<small>({{{AU-pop-date}}})</small>}}
 {{!}}-
 }}
