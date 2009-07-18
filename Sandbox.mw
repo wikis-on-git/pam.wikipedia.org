@@ -1,29 +1,111 @@
-<noinclude>{{protected template}}
-</noinclude>{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right" | '''{{{name}}}'''
-{{#if:{{{image<includeonly>|</includeonly>}}}|<tr><td colspan="2" style="text-align: center;">[[Image:{{{image}}}|{{{imagesize|220px}}}| ]]<br /><small>{{{caption|}}}</small></td></tr>}}
-|-
-! style="text-align: right;" | Kebaitan:
-| {{{birth_date}}}<br />{{{birth_place|}}}
-{{#if:{{{death_date<includeonly>|</includeonly>}}}|<tr><th style="text-align: right;">Kematyan:</th><td>{{{death_date}}}<br />{{{death_place|}}}</td></tr>}}
-|-
-! style="text-align: right;" | Obra:
-| {{{occupation}}}
-{{#if:{{{salary<includeonly>|</includeonly>}}}|<tr><th style="text-align: right;">Sueldu:</th><td>{{{salary}}}</td></tr>}}<!--
--->{{#if:{{{networth<includeonly>|</includeonly>}}}|<tr><th style="text-align: right;">Net worth:</th><td>{{{networth}}}</td></tr>}}<!--
--->{{#if:{{{spouse<includeonly>|</includeonly>}}}|<tr><th style="text-align: right;">Asawa:</th><td>{{{spouse}}}</td></tr>}}<!--
--->{{#if:{{{children<includeonly>|</includeonly>}}}|<tr><th style="text-align: right;">Anak:</th><td>{{{children}}}</td></tr>}}<!--
--->{{#if:{{{website<includeonly>|</includeonly>}}}|<tr><th style="text-align: right;">Website:</th><td>{{{website}}}</td></tr>}}<!--
--->{{#if:{{{footnotes<includeonly>|</includeonly>}}}|<tr><td colspan="2" style="font-size: smaller; font-style: italic; border-top: 1px solid;">{{{footnotes}}}</td></tr>}}
-|}<noinclude>
+<!-- Infobox Country -->{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right"
+|+ style="margin-left: inherit; font-size: medium;"
+|right; margin:
 
-This infobox template was designed for use in [[celebrity]] articles. Celebrities include those who are considered notable in any field, such as business leaders and entertainment professionals. Only the name, date of birth and occupation are required fields.  All others will not populate if left blank.
+|bodyclass  = biography vcard
+|bodystyle  = width:{{#if:{{{box_width|}}} |{{{box_width}}} |22em}}; font-size:95%; text-align:left;
+|above      = '''{{{name|{{PAGENAME}}}}}'''
+|aboveclass = fn
+|abovestyle = text-align:center; font-size:125%;
+|image      = {{#if:{{{image<includeonly>|</includeonly>}}}
+                | [[Image:{{{image}}}|<!--
+                    -->{{#if:{{{image_size|{{{imagesize|}}}}}}
+                         |{{{image_size|{{{imagesize}}}}}} |225px}}<!--
+               -->]]<!--
+           -->}}
+|imageclass = {{image class|{{{image}}}}}
+|imagestyle = padding:4pt; line-height:1.25em; text-align:center; font-size:8pt;
+|caption    = <div style="padding-top:2pt;">{{{caption<includeonly>|</includeonly>}}}</div>
+|labelstyle = padding:0.2em 1.0em 0.2em 0.2em; background:transparent; line-height:1.2em; text-align:left; font-size:90%;
+|datastyle  = padding:0.2em; line-height:1.3em; vertical-align:middle; font-size:90%;
 
-See the [[Template talk:Infobox Celebrity|talk page]] for blank template and help.
+|label1  = {{#if:{{{birth_name<includeonly>|</includeonly>}}}<!--
+              -->{{{birth_date|}}}{{{birth_place|}}}
+             | Mibait }}
+|data1   = {{#if:{{{birth_name|}}} |{{{birth_name}}}<br/> }}<!--
+        -->{{#if:{{{birth_date<includeonly>|</includeonly>}}} |{{{birth_date}}}<br/> }}<!--
+        -->{{{birth_place<includeonly>|</includeonly>}}}
 
-[[Category:People infobox templates|Celebrity]]
-[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
-[[es:Plantilla:Infobox personalidades]]
-[[ro:Format:Infobox Celebrity]]
-[[zh:Template:Infobox Celebrity]]
+|label2  = {{#if:{{{death_date<includeonly>|</includeonly>}}}{{{death_place|}}} |Kematian }}
+|data2   = {{#if:{{{death_date<includeonly>|</includeonly>}}} |{{{death_date}}}<br/> }}<!--
+        -->{{{death_place<includeonly>|</includeonly>}}}
+|label3  = Sangkan&nbsp;ning pangamate
+|data3   = {{{death_cause<includeonly>|</includeonly>}}}
+|label4  = Kutkutan&nbsp;lugal
+|class4  = label
+|data4   = {{{resting_place<includeonly>|</includeonly>}}}<!--
+           -->{{#if:{{{resting_place_coordinates|}}}
+                | <br/>{{{resting_place_coordinates}}} }}
+|label5  = tuknangan
+|class5  = label
+|data5   = {{{residence<includeonly>|</includeonly>}}}
+|label6  = Bangsa
+|data6   = {{{nationality<includeonly>|</includeonly>}}}
+|label7  = Aliwang&nbsp;lagiu
+|class7  = palayo
+|data7   = {{{other_names<includeonly>|</includeonly>}}}
+|label8  = Pegaralan
+|data8   = {{{education<includeonly>|</includeonly>}}}
+|label9  = Alma&nbsp;mater
+|data9   = {{{alma_mater<includeonly>|</includeonly>}}}
+|label10 = Obra
+|data10  = {{{occupation<includeonly>|</includeonly>}}}
+|label11 = Papaobra
+|data11  = {{{employer<includeonly>|</includeonly>}}}
+|label12 = Balen&nbsp;
+|data12  = {{{home_town<includeonly>|</includeonly>}}}
+|label13 = Pamansag
+|data13  = {{{title<includeonly>|</includeonly>}}}
+|label14 = Tatanggapan a bayad
+|data14  = {{{salary<includeonly>|</includeonly>}}}
+|label15 = Net&nbsp;worth
+|data15  = {{{networth<includeonly>|</includeonly>}}}
+|label16 = Katas
+|data16  = {{{height<includeonly>|</includeonly>}}}
+|label17 = Timbang
+|data17  = {{{weight<includeonly>|</includeonly>}}}
+|label18 = Bantug&nbsp;keng
+|data18  = {{{known|{{{known_for<includeonly>|</includeonly>}}}}}}
+|label19 = Kaba ning pamanyuyu
+|data19  = {{{term<includeonly>|</includeonly>}}}
+|label20 = Elilan
+|data20  = {{{predecessor<includeonly>|</includeonly>}}}
+|label21 = Menalili
+|data21  = {{{successor<includeonly>|</includeonly>}}}
+|label22 = Partidu&nbsp;politcal
+|data22  = {{{party<includeonly>|</includeonly>}}}
+|label23 = Board member&nbsp;of
+|data23  = {{{boards<includeonly>|</includeonly>}}}
+|label24 = Kapanualan
+|data24  = {{{religion<includeonly>|</includeonly>}}}
+|label25 = Asawa
+|data25  = {{{spouse<includeonly>|</includeonly>}}}
+|label26 = Kakuyug
+|data26  = {{{partner<includeonly>|</includeonly>}}}
+|label27 = anak
+|data27  = {{{children<includeonly>|</includeonly>}}}
+|label28 = Pengari
+|data28  = {{{parents<includeonly>|</includeonly>}}}
+|label29 = Kamaganak
+|data29  = {{{relations|{{{relatives<includeonly>|</includeonly>}}}}}}
 
+|data30  = {{#if:{{{signature<includeonly>|</includeonly>}}}
+             | '''Signature'''<br/>[[Image:{{{signature}}}|128px]] }}
+|data31  = {{#if:{{{website<includeonly>|</includeonly>}}}
+             | '''Website'''<br/>{{{website}}} }}
+|data32  = {{#if:{{{footnotes<includeonly>|</includeonly>}}}
+             | <div style="text-align:left;"><!--
+               --><div style="border-top:1px solid;">'''Notes'''</div><!--
+               --><div style="line-height:1.2em;">{{{footnotes}}}</div><!--
+            --></div><!--
+        -->}}
+}}<noinclude>
+{{end infobox page}}
+
+{{pp-semi-template|small=yes}}
+{{#ifeq:{{SUBPAGENAME}}|sandbox |{{Template sandbox notice}} }}
+
+<!---Please add metadata to the <includeonly> section at the bottom of the /doc subpage--->
 </noinclude>
+
+[[en:Template:Infobox Person]]
