@@ -1,7 +1,5 @@
 <!-- Infobox template for Communes in France and Collectivité d'outre-mer of France-->
-{| class="infobox" width="280px" cellspacing="0" cellpadding="2" style="font-size: 90%;"
-{{#if: {{{name|<noinclude>-</noinclude>}}} |
-{{!}} align="center" colspan="2" {{!}} '''{{{name}}}'''
+{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right" | '''{{{name}}}'''
 {{!}}-
 }}
 {{#if: {{{nomcommune|<noinclude>-</noinclude>}}} |
