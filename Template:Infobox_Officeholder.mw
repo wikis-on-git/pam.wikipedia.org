@@ -1,8 +1,6 @@
 <noinclude>{{hprotected}}</noinclude>
-{| class="infobox" style="width:23em; font-size:90%; text-align:left; padding-left:0.5em; padding-right:0.5em;"
-|-
-<!----------Lagyu---------->
-|colspan="2" style="text-align: center; font-size:140%;"| '''{{{name|{{PAGENAME}}}}}'''
+{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right"
+|+ style="margin-left: inherit; font-size: medium;" | '''{{{name|{{PAGENAME}}}}}'''
 |-
 
 <!----------Larawan---------->
