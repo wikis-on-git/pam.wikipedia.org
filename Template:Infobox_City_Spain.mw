@@ -44,7 +44,7 @@
 <tr><td>'''Mitatag'''</td><td>{{{founded}}}</td></tr>
 }}{{
 #if: {{{postal_code<includeonly>|</includeonly>}}} |
-<tr><td>'''[[Kaoreu Codiku]]'''</td><td>{{{postal_code}}}</td></tr>
+<tr><td>'''[[Koreu Codiku]]'''</td><td>{{{postal_code}}}</td></tr>
 }}{{
 #if: {{{area_code<includeonly>|</includeonly>}}} |
 <tr><td>'''[[Karinan codiku]]'''</td><td>[[+34]] (Spain) + {{{area_code}}} ({{{province}}})</td></tr>
