@@ -1,5 +1,5 @@
-{| class="infobox vcard vevent" style="width:{{{box_width|22em}}}; font-size:90%; text-align:left;"
-! colspan="2" style="text-align:center; font-size:larger;" class="fn summary" | {{{name|{{PAGENAME}}}}}
+{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right"
+|+ style="margin-left: inherit; font-size: medium;" | {{{name|{{PAGENAME}}}}}
 {{!}}-
 
 {{#if:{{{image<includeonly>|</includeonly>}}}|
