@@ -20,7 +20,7 @@
 <tr><td align="center" colspan="2">''{{{city_motto}}}'' {{#if:{{{city_motto_means<includeonly>|</includeonly>}}}|<br />("''{{{city_motto_means}}}''")}}</td></tr>
 }}
 |- bgcolor="#dcdcdc"
-! colspan="2" align=center | Location
+! colspan="2" align=center | Karinan
 {{#if: {{{image_city_map<includeonly>|</includeonly>}}} |
 <tr><td align="center" colspan="2" style="background-color:transparent;">[[Image:{{{image_city_map}}}|{{{image_city_map_size|250px}}}]] {{#if:{{{image_city_map_caption<includeonly>|</includeonly>}}}|<br /><small>{{{image_city_map_caption}}}</small>}}</td></tr>
 }}
