@@ -1,9 +1,9 @@
-{| class="infobox vcard vevent" style="width:{{{box_width|22em}}}; font-size:90%; text-align:left;"
-! colspan="2" style="text-align:center; font-size:larger;" class="fn summary" | {{{name|{{PAGENAME}}}}}
+{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right"
+|+ style="margin-left: inherit; font-size: medium;" | {{{name|{{PAGENAME}}}}}
 {{!}}-
 
 {{#if:{{{image<includeonly>|</includeonly>}}}|
-{{!}} colspan="2" style="text-align:center;" {{image class|{{{image}}}}} {{!}} [[Image:{{{image}}}|{{#if:{{{imagesize|}}}|{{{imagesize}}}|200px}}|alt={{{alt|}}}]]<br /><small>{{{caption<includeonly>|</includeonly>}}}</small>
+{{!}} colspan="2" style="text-align:center;" {{image class|{{{image}}}}} {{!}} [[Image:{{{image}}}|{{#if:{{{imagesize|}}}|{{{imagesize}}}|200px}}|{{{alt|}}}]]<br /><small>{{{caption<includeonly>|</includeonly>}}}</small>
 {{!}}-
 }}
 
@@ -14,7 +14,7 @@
 }} -->
 
 {{#if:{{{birthname<includeonly>|</includeonly>}}}  {{{birthdate<includeonly>|</includeonly>}}} {{{birthplace<includeonly>|</includeonly>}}}|
-! Born
+! Mibait
 {{!}} {{#if:{{{birthname<includeonly>|</includeonly>}}}
 |{{{birthname}}}<br />}} {{#switch: {{lc:{{{birthdate<includeonly>|</includeonly>}}}}}
 | ?|??|???|????|19?|19??|18??|17??|unknown|u=date of birth unknown
@@ -24,10 +24,10 @@
 }}
 
 {{#switch: {{lc:{{{deathdate<includeonly>|</includeonly>}}}}}
-|died=
+|Kematayan=
 |
 {{#if:{{{deathdate<includeonly>|</includeonly>}}}{{{deathplace<includeonly>|</includeonly>}}}| 
-! Died
+! Kematayan
 {{!}} {{#if:{{{deathdate<includeonly>|</includeonly>}}} |
 {{#switch: {{lc:{{{deathdate<includeonly>|</includeonly>}}}}}
 | ?|??|???|????|19?|19??|18??|17??|unknown|u=date of death unknown
@@ -38,25 +38,25 @@
 }}
 
 {{#if:{{{penname<includeonly>|</includeonly>}}}{{{pseudonym<includeonly>|</includeonly>}}}|
-! [[Pen name]]
+! [[Talipanpan lagiu]]
 {{!}} {{{penname<includeonly>|</includeonly>{{{pseudonym|}}}}}}
 {{!}}-
 }}
 
 {{#if:{{{occupation<includeonly>|</includeonly>}}}|
-! [[Employment|Occupation]]
+! [[Occupation|Obra]]
 {{!}} {{{occupation<includeonly>|</includeonly>}}}
 {{!}}-
 }}
 
 {{#if:{{{nationality<includeonly>|</includeonly>}}}|
-! [[Nationality]]
+! [[Bangsa]]
 {{!}} {{{nationality<includeonly>|</includeonly>}}}
 {{!}}-
 }}
 
 {{#if:{{{ethnicity<includeonly>|</includeonly>}}}|
-! [[Ethnicity]]
+! [[Katutubu]]
 {{!}} {{{ethnicity<includeonly>|</includeonly>}}}
 {{!}}-
 }}
@@ -68,7 +68,7 @@
 }}
 
 {{#if:{{{education<includeonly>|</includeonly>}}}|
-! Education
+! Educasiun
 {{!}} {{{education<includeonly>|</includeonly>}}}
 {{!}}-
 }}
@@ -80,7 +80,7 @@
 }}
 
 {{#if:{{{period<includeonly>|</includeonly>}}}|
-! Writing period
+!  Pamanyulat panaun
 {{!}} {{{period<includeonly>|</includeonly>}}}
 {{!}}-
 }}
@@ -92,49 +92,49 @@
 }}
 
 {{#if:{{{subject<includeonly>|</includeonly>}}}|
-! Subjects
+! Paksa
 {{!}} {{{subject<includeonly>|</includeonly>}}}
 {{!}}-
 }}
 
 {{#if:{{{movement<includeonly>|</includeonly>}}}|
-! [[Literary movement]]
+! [[Kilusan pangliteratura]]
 {{!}} {{{movement<includeonly>|</includeonly>}}}
 {{!}}-
 }}
 
 {{#if:{{{notableworks<includeonly>|</includeonly>}}}|
-! Notable {{nowrap|work(s)}}
+! Bantug {{nowrap|obra}}
 {{!}} {{{notableworks<includeonly>|</includeonly>}}}
 {{!}}-
 }}
 
 {{#if:{{{awards<includeonly>|</includeonly>}}}|
-! Notable {{nowrap|award(s)}}
+! Kapansinpansin {{nowrap|award(s)}}
 {{!}} {{{awards<includeonly>|</includeonly>}}}
 {{!}}-
 }}
 
 {{#if:{{{spouse<includeonly>|</includeonly>}}}|
-! {{nowrap|Spouse(s)}}
+! {{nowrap|Asawa}}
 {{!}} {{{spouse<includeonly>|</includeonly>}}}
 {{!}}-
 }}
 
 {{#if:{{{partner<includeonly>|</includeonly>}}}|
-! [[Domestic partnership|Domestic {{nowrap|partner(s)}}]]
+! [[Domestic partnership|Kayabe {{nowrap|bale}}]]
 {{!}} {{{partner<includeonly>|</includeonly>}}}
 {{!}}-
 }}
 
 {{#if:{{{children<includeonly>|</includeonly>}}}|
-! Children
+! Anak
 {{!}} {{{children<includeonly>|</includeonly>}}}
 {{!}}-
 }}
 
 {{#if:{{{relatives<includeonly>|</includeonly>{{{relations|}}}}}}|
-! {{nowrap|Relative(s)}}
+! {{nowrap|Kamaganak}}
 {{!}} {{{relatives<includeonly>|</includeonly>{{{relations|}}}}}}
 {{!}}-
 }}
@@ -145,7 +145,7 @@
 }}
 
 {{#if:{{{influences<includeonly>|</includeonly>}}}|
-{{!}} colspan="2" {{!}} {{Collapsible list|title=Influences|frame_style=border:none; padding: 0;|title_style=background:transparent; text-align:left;|list_style=text-align:left;|1={{#if:{{{influences<includeonly>|</includeonly>}}}|:::{{{influences}}}}}}}
+{{!}} colspan="2" {{!}} {{Collapsible list|title=Influences|frame_style=border:none; padding: 0;|title_style=background:transparent; text-align:left;|list_style=text-align:left;display:none;|1={{#if:{{{influences<includeonly>|</includeonly>}}}|:::{{{influences}}}}}}}
 {{!}}-
 }}
 
@@ -155,7 +155,7 @@
 }}
 
 {{#if:{{{influenced<includeonly>|</includeonly>}}}|
-{{!}} colspan="2" {{!}} {{Collapsible list|title=Influenced|frame_style=border:none; padding: 0;|title_style=background:transparent; text-align:left;|list_style=text-align:left;|1={{#if:{{{influenced<includeonly>|</includeonly>}}}|:::{{{influenced}}}}}}}
+{{!}} colspan="2" {{!}} {{Collapsible list|title=Influenced|frame_style=border:none; padding: 0;|title_style=background:transparent; text-align:left;|list_style=text-align:left;display:none;|1={{#if:{{{influenced<includeonly>|</includeonly>}}}|:::{{{influenced}}}}}}}
 {{!}}-
 }}
 
@@ -165,7 +165,7 @@
 }}
 
 {{#if:{{{signature<includeonly>|</includeonly>}}}|
-! Signature
+! Pirma
 {{!}} [[Image:{{{signature}}}|128px]]
 {{!}}-
 }}
