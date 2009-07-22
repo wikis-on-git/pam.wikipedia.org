@@ -1,7 +1,5 @@
-{| class="infobox bordered" style="width:20em; font-size:90%; text-align:left;" cellpadding="3"
-
-<!-----Name----->
-|+ style="font-size:140%;"| '''{{{name}}}'''
+{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right"
+|+ style="margin-left: inherit; font-size: medium;"| '''{{{name}}}'''
 
 <!----Image----->
 |colspan="2" style="text-align:center"| {{#if:{{{image|}}} |<!--then:--> [[Image:{{{image}}}|200px|{{PAGENAME}}]]<br/>{{{caption|}}} }}
@@ -20,7 +18,7 @@
 }}
 
 <!-----Nationality----->
-!style="width:7em;"         | &nbsp;Nationalidad
+!style="width:7em;"         | &nbsp;Bangsa
 |style="padding-left:0.5em;"| {{{nationality}}}
 |-
 
@@ -36,17 +34,17 @@
 
 <!-----Occupation----->
 {{#if:{{{occupation|}}} |<!--then:-->
-!style="vertical-align:middle;"{{!}} &nbsp;Occupation<sup><small>1</small></sup>
+!style="vertical-align:middle;"{{!}} &nbsp;Obra/Kapanintunan<sup><small>1</small></sup>
 {{!}}style="vertical-align:middle; padding-left:0.5em;"{{!}} {{{occupation}}}
 {{!-}}
 }}
 {{#if:{{{current_occupation|}}} |<!--then:-->
-! &nbsp;Current occupation
+! &nbsp;Kaslungsungan a obra
 {{!}}style="vertical-align:middle; padding-left:0.5em;"{{!}} {{{current_occupation}}}
 {{!-}}
 }}
 {{#if:{{{previous_occupation|}}} |<!--then:-->
-! &nbsp;Previous occupation
+! &nbsp;Dating obra
 {{!}}style="vertical-align:middle; padding-left:0.5em;"{{!}} {{{previous_occupation}}}
 {{!-}}
 }}
@@ -58,7 +56,7 @@
 {{!-}}
 }}
 {{#if:{{{time|}}} |<!--then:-->
-! &nbsp;Space&nbsp;time
+! &nbsp;Space&nbsp;Oras
 {{!}}style="padding-left:0.5em;"{{!}} {{{time}}}
 {{!-}}
 }}
