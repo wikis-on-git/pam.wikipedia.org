@@ -1,0 +1,38 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Germany
+| flag alias = Flag of Germany.svg
+| flag alias-empire = Flag of the German Empire.svg
+| flag alias-bund = War ensign of the German Empire Navy 1848-1852.svg
+| flag alias-Weimar = Flag of Germany (2-3).svg
+| flag alias-Nazi = Flag of Germany 1933.svg
+| flag alias-allied = Flag of Germany (1946-1949).svg
+| border-allied =
+| flag alias-EUA = Flag of Germany-1960-Olympics.svg
+| flag alias-naval = Naval Ensign of Germany.svg
+| border-naval =
+| link alias-naval = German Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = empire
+| var2 = bund
+| var3 = Weimar
+| var4 = Nazi
+| var5 = allied
+| var6 = EUA
+| redir1 = DEU
+| redir2 = GER
+| related1 = German Empire
+| related2 = Weimar Republic
+| related3 = Nazi Germany
+| related4 = West Germany
+| related5 = East Germany
+</noinclude>
+}}<noinclude>
+[[af:Sjabloon:Landdata Duitsland]]
+[[ml:ഫലകം:Country data Germany]]
+[[uz:Shablon:Country data Germany]]
+[[sl:Predloga:Podatki države Nemčija]]
+</noinclude>
