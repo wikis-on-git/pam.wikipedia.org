@@ -56,7 +56,7 @@
 {{!-}}
 }}
 {{#if:{{{time|}}} |<!--then:-->
-! &nbsp;Space&nbsp;Oras
+! &nbsp;Alapaap&nbsp;Oras
 {{!}}style="padding-left:0.5em;"{{!}} {{{time}}}
 {{!-}}
 }}
