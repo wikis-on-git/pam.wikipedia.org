@@ -103,7 +103,7 @@
 		<td class="maptable" colspan="2" align="center" style="padding: 0.4em 0 0.4em 0;">
 			<table style="width: 100%; background: none;" align="center">
 {{#ifeq:{{#expr:{{#if:{{{image_flag|}}}|1|0}}+{{#if:{{{image_seal|}}}|1|0}}+{{#if:{{{image_shield|}}}|1|0}}+{{#if:{{{image_blank_emblem| }}}|1|0}}}}|2|
-             <tr> <td style="vertical-align: middle;" align="center"> {{#if:{{{image_flag|}}}|[[Image:{{{image_flag|}}}|{{#if:{{{flag_size|}}}|{{{flag_size}}}|100px}}|border|Flag of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{flag_link|}}}|[[{{{flag_link}}}|Flag]]|{{#ifexist:Flag of {{PAGENAME}}|[[Flag of {{PAGENAME}}|Flag]]|{{#ifexist:Flag of {{{official_name}}}|[[Flag of {{{official_name}}}|Flag]]|Flag}}}}}}'''</small> |{{#if:{{{image_seal|}}}|[[Image:{{{image_seal|}}}|{{#if:{{{seal_size|}}}|{{{seal_size}}}|100px}}|Official seal of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{seal_link|}}}|[[{{{seal_link}}}|Seal]]|{{#ifexist:Seal of {{PAGENAME}}|[[Seal of {{PAGENAME}}|Seal]]|{{#ifexist:Seal of {{{official_name}}}|[[Seal of {{{official_name}}}|Seal]]|Seal}}}}}}'''</small> |{{#if:{{{image_shield|}}}|[[Image:{{{image_shield|}}}|{{#if:{{{shield_size|}}}|{{{shield_size}}}|100px}}|Coat of arms of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{shield_link|}}}|[[{{{shield_link}}}|Coat of arms]]|{{#ifexist:Coat of arms of {{PAGENAME}}|[[Coat of arms of {{PAGENAME}}|Coat of arms]]|{{#ifexist:Coat of arms of {{{official_name}}}|[[Coat of arms of {{{official_name}}}|Coat of arms]]|Coat of arms}}}}}}'''</small>|{{#if:{{{image_blank_emblem| }}}|[[Image:{{{image_blank_emblem| }}}|{{#if:{{{blank_emblem_size| }}}|{{{blank_emblem_size| }}}|100px}}|Official logo of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{blank_emblem_link| }}}|[[{{{blank_emblem_link| }}}|{{{blank_emblem_type|Logo}}}]]|{{#ifexist:Logo of {{PAGENAME}}|[[Logo of {{PAGENAME}}|Logo]]|{{#ifexist:Logo of {{{official_name}}}|[[Logo of {{{official_name}}}|Logo]]|{{#if:{{{blank_emblem_type|}}}|{{{blank_emblem_type}}}|Logo}}}}}}}}'''</small>}}}}}}}}</td>
+             <tr> <td style="vertical-align: middle;" align="center"> {{#if:{{{image_flag|}}}|[[Image:{{{image_flag|}}}|{{#if:{{{flag_size|}}}|{{{flag_size}}}|100px}}|border|Bandeera ning {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{flag_link|}}}|[[{{{flag_link}}}|Bandera]]|{{#ifexist:Flag of {{PAGENAME}}|[[Bandera ning{{PAGENAME}}|Bandera]]|{{#ifexist:Flag of {{{official_name}}}|[[Flag of {{{official_name}}}|Flag]]|Flag}}}}}}'''</small> |{{#if:{{{image_seal|}}}|[[Image:{{{image_seal|}}}|{{#if:{{{seal_size|}}}|{{{seal_size}}}|100px}}|Official seal of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{seal_link|}}}|[[{{{seal_link}}}|Seal]]|{{#ifexist:Seal of {{PAGENAME}}|[[Seal of {{PAGENAME}}|Seal]]|{{#ifexist:Seal of {{{official_name}}}|[[Seal of {{{official_name}}}|Seal]]|Seal}}}}}}'''</small> |{{#if:{{{image_shield|}}}|[[Image:{{{image_shield|}}}|{{#if:{{{shield_size|}}}|{{{shield_size}}}|100px}}|Coat of arms of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{shield_link|}}}|[[{{{shield_link}}}|Coat of arms]]|{{#ifexist:Coat of arms of {{PAGENAME}}|[[Coat of arms of {{PAGENAME}}|Coat of arms]]|{{#ifexist:Coat of arms of {{{official_name}}}|[[Coat of arms of {{{official_name}}}|Coat of arms]]|Coat of arms}}}}}}'''</small>|{{#if:{{{image_blank_emblem| }}}|[[Image:{{{image_blank_emblem| }}}|{{#if:{{{blank_emblem_size| }}}|{{{blank_emblem_size| }}}|100px}}|Official logo of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{blank_emblem_link| }}}|[[{{{blank_emblem_link| }}}|{{{blank_emblem_type|Logo}}}]]|{{#ifexist:Logo of {{PAGENAME}}|[[Logo of {{PAGENAME}}|Logo]]|{{#ifexist:Logo of {{{official_name}}}|[[Logo of {{{official_name}}}|Logo]]|{{#if:{{{blank_emblem_type|}}}|{{{blank_emblem_type}}}|Logo}}}}}}}}'''</small>}}}}}}}}</td>
             <td style="vertical-align: middle;" align="center"> {{#if:{{{image_blank_emblem| }}}|[[Image:{{{image_blank_emblem| }}}|{{#if:{{{blank_emblem_size| }}}|{{{blank_emblem_size| }}}|100px}}|Official logo of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{blank_emblem_link| }}}|[[{{{blank_emblem_link| }}}|{{{blank_emblem_type|Logo}}}]]|{{#ifexist:Logo of {{PAGENAME}}|[[Logo of {{PAGENAME}}|Logo]]|{{#ifexist:Logo of {{{official_name}}}|[[Logo of {{{official_name}}}|Logo]]|{{#if:{{{blank_emblem_type|}}}|{{{blank_emblem_type}}}|Logo}}}}}}}}'''</small> |{{#if:{{{image_shield|}}}|[[Image:{{{image_shield|}}}|{{#if:{{{shield_size|}}}|{{{shield_size}}}|100px}}|Coat of arms of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{shield_link|}}}|[[{{{shield_link}}}|Coat of arms]]|{{#ifexist:Coat of arms of {{PAGENAME}}|[[Coat of arms of {{PAGENAME}}|Coat of arms]]|{{#ifexist:Coat of arms of {{{official_name}}}|[[Coat of arms of {{{official_name}}}|Coat of arms]]|Coat of arms}}}}}}'''</small> |{{#if:{{{image_seal|}}}|[[Image:{{{image_seal|}}}|{{#if:{{{seal_size|}}}|{{{seal_size}}}|100px}}|Official seal of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{seal_link|}}}|[[{{{seal_link}}}|Seal]]|{{#ifexist:Seal of {{PAGENAME}}|[[Seal of {{PAGENAME}}|Seal]]|{{#ifexist:Seal of {{{official_name}}}|[[Seal of {{{official_name}}}|Seal]]|Seal}}}}}}'''</small> |{{#if:{{{image_flag|}}}|[[Image:{{{image_flag|}}}|{{#if:{{{flag_size|}}}|{{{flag_size}}}|100px}}|border|Flag of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}]]<br><small>'''{{#if:{{{flag_link|}}}|[[{{{flag_link}}}|Flag]]|{{#ifexist:Flag of {{PAGENAME}}|[[Flag of {{PAGENAME}}|Flag]]|{{#ifexist:Flag of {{{official_name}}}|[[Flag of {{{official_name}}}|Flag]]|Flag}}}}}}'''</small>}}}}}}}}</td>
 |{{#if:{{{image_flag|}}}{{{image_seal|}}}|
 				<tr>{{#if:{{{image_flag|}}}|
@@ -122,7 +122,7 @@
 }}<!-- ***** Nickname ***** -->
 {{#if:{{{nickname|}}}|
 	<tr class="mergedrow">
-		<td colspan="2" align="center">[[Nickname]](s): <span class="nickname">{{{nickname|}}}</span></td>
+		<td colspan="2" align="center">[[Palayo]]: <span class="nickname">{{{nickname|}}}</span></td>
 	</tr>
 }}<!-- ***** Motto ***** -->
 {{#if:{{{motto|}}}|
@@ -137,7 +137,7 @@
 	</tr>
 {{#if:{{{image_map1|}}}|
 	<tr class="mergedrow">
-		<td colspan="2" style="text-align: center;">[[Image:{{{image_map1|}}}|{{#if:{{{mapsize1|}}}|{{{mapsize1}}}|250px}}|none|{{{map_caption1|Location of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}}}}]]{{#if:{{{map_caption1|}}}|<small>{{{map_caption1|}}}</small>}}
+		<td colspan="2" style="text-align: center;">[[Image:{{{image_map1|}}}|{{#if:{{{mapsize1|}}}|{{{mapsize1}}}|250px}}|none|{{{map_caption1|Karinan ning {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}}}}]]{{#if:{{{map_caption1|}}}|<small>{{{map_caption1|}}}</small>}}
 		</td>
 	</tr>
 }}}}<!--*****Dot Map***** -->
@@ -275,7 +275,7 @@
 	</tr>
 }}{{#if:{{{founder|}}}|
 	<tr class="mergedrow">
-		<th>Founder</th>
+		<th>Migtatag</th>
 		<td>{{{founder}}}</td>
 	</tr>
 }}{{#if:{{{named_for|}}}|
@@ -336,11 +336,11 @@
 	<tr class="mergedrow">
 		<th> &nbsp;-&nbsp;{{#if:{{{total_type|}}}|{{{total_type}}}|{{#if:{{{area_metro_km2|}}}{{{area_metro_sq_mi|}}}{{{area_urban_km2|}}}{{{area_urban_sq_mi|}}}{{{population_metro|}}}{{{population_urban|}}}|{{#if:{{{settlement_type|}}}|{{{settlement_type}}}|City}}|Total}}}}
 		</th>
-		<td>{{#if:{{both|{{among|unit_pref|dunam|Dunam}}|{{{area_total_dunam|}}}}}|{{formatnum:{{{area_total_dunam|}}}&nbsp;[[Dunam|dunams]] ({{#if:{{{area_total_km2|}}}|{{{area_total_km2|}}}&nbsp;[[Square kilometre|km<sup>2</sup>]]|{{#expr: {{{area_total_dunam|}}} *0.001 round 1}}&nbsp;[[Square kilometre|km<sup>2</sup>]]}}&nbsp;'''/'''&nbsp;{{#if: {{{area_total_sq_mi|}}}|{{{area_total_sq_mi|}}}&nbsp;[[square mile|sq&nbsp;mi]]|{{#expr: {{{area_total_dunam|}}} *0.000386102 round 1}}&nbsp;[[square mile|sq&nbsp;mi]]}})}}|{{areadisp|{{{unit_pref|}}}|{{{area_total_sq_mi|}}}|{{{area_total_km2|}}}|{{{area_magnitude|}}}||{{{subdivision_name|}}}}}}}</td>
+		<td>{{#if:{{both|{{among|unit_pref|dunam|Dunam}}|{{{area_total_dunam|}}}}}|{{formatnum:{{{area_total_dunam|}}}&nbsp;[[Dunam|dunams]] ({{#if:{{{area_total_km2|}}}|{{{area_total_km2|}}}&nbsp;[[Kilometru kudradu|km<sup>2</sup>]]|{{#expr: {{{area_total_dunam|}}} *0.001 round 1}}&nbsp;[[Kilometru kudradu|km<sup>2</sup>]]}}&nbsp;'''/'''&nbsp;{{#if: {{{area_total_sq_mi|}}}|{{{area_total_sq_mi|}}}&nbsp;[[square mile|sq&nbsp;mi]]|{{#expr: {{{area_total_dunam|}}} *0.000386102 round 1}}&nbsp;[[square mile|sq&nbsp;mi]]}})}}|{{areadisp|{{{unit_pref|}}}|{{{area_total_sq_mi|}}}|{{{area_total_km2|}}}|{{{area_magnitude|}}}||{{{subdivision_name|}}}}}}}</td>
 	</tr>
 }}{{#if:{{{area_land_km2|}}}{{{area_land_sq_mi|}}}|
 	<tr class="mergedrow">
-		<th>&nbsp;-&nbsp;Land</th>
+		<th>&nbsp;-&nbsp;Gabun</th>
 		<td>{{areadisp|{{{unit_pref|}}}|{{{area_land_sq_mi|}}}|{{{area_land_km2|}}}|||{{{subdivision_name|}}}}}</td>
 	</tr>
 }}{{#if:{{{area_water_km2|}}}{{{area_water_sq_mi|}}}|
@@ -376,7 +376,7 @@
 	</tr>
 }}{{#if:{{{elevation_max_m|}}}{{{elevation_max_ft|}}}|
 	<tr class="mergedtoprow">
-		<th>Highest&nbsp;[[elevation]] {{#if:{{{elevation_max_footnotes|}}}|{{{elevation_max_footnotes}}}}}</th>
+		<th>Pekamatas&nbsp;[[kabilian (katas)]] {{#if:{{{elevation_max_footnotes|}}}|{{{elevation_max_footnotes}}}}}</th>
 		<td>{{lengthdisp|{{{unit_pref|}}}|{{{elevation_max_ft|}}}|{{{elevation_max_m|}}}||{{{subdivision_name|}}}}}</td>
 	</tr>
 }}{{#if:{{{elevation_min_m|}}}{{{elevation_min_ft|}}}|
@@ -387,7 +387,7 @@
 }}<!-- ***** Population ***** -->
 {{#if:{{{population_total|}}}{{{population_urban|}}}{{{population_metro|}}}{{{population_blank1|}}}{{{population_blank2|}}}{{{population_est|}}}|
 	<tr class="mergedtoprow">
-		<td {{#ifeq:{{{total_type}}}|&nbsp;||colspan="2"}}>'''Population''' {{#if:{{{population_as_of|}}}|({{{population_as_of}}})}}{{#if:{{{population_footnotes|}}}|{{{population_footnotes}}}}}</td>
+		<td {{#ifeq:{{{total_type}}}|&nbsp;||colspan="2"}}>'''Populasiun''' {{#if:{{{population_as_of|}}}|({{{population_as_of}}})}}{{#if:{{{population_footnotes|}}}|{{{population_footnotes}}}}}</td>
 	{{#ifeq:{{{total_type}}}|&nbsp;||</tr>}}
 {{#if:{{{population_total|}}}|
 	{{#ifeq:{{{total_type}}}|&nbsp;||<tr class="mergedrow">
@@ -396,12 +396,12 @@
 	</tr>
 }}{{#if:{{{population_density_sq_mi|}}}{{{population_density_km2|}}}|
         <tr class="mergedrow">
-		<th>&nbsp;-&nbsp;[[Population density|Density]]</th>
+		<th>&nbsp;-&nbsp;[[Population density|Populasiun Pangasiksik]]</th>
 		<td>{{densdisp|{{{unit_pref|}}}|{{{population_density_sq_mi|}}}|{{{population_density_km2|}}}|{{{population_total|}}}|{{{area_total_sq_mi|}}}|{{{area_total_km2|}}}|{{{subdivision_name|}}}}}</td>
 	</tr>
 }}{{#if:{{{population_est|}}}| 
 	<tr class="mergedrow">
-		<th>&nbsp;- Estimate&nbsp;({{{pop_est_as_of}}})</th>
+		<th>&nbsp;- Tantia&nbsp;({{{pop_est_as_of}}})</th>
 		<td>{{formatnum:{{{population_est}}}}}</td>
 	</tr>
 }}{{#if:{{{population_urban|}}}| 
@@ -544,7 +544,7 @@
 }}<!---------------Twin Cities--------------->
 {{#if:{{{twin1|}}}|
 	<tr class="mergedtoprow">
-		<td colspan="2">'''[[List of twin towns and sister cities|Twin Cities]]'''</td>
+		<td colspan="2">'''[[List of twin towns and sister cities|Kambal lakanbalen]]'''</td>
 	</tr>
 }}{{#if:{{{twin1|}}}|
 	<tr class="mergedrow">
