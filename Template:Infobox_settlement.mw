@@ -330,7 +330,7 @@
 }} }} }} }} }}<!-- ***** Geographical characteristics ***** -->
 {{#if:{{{area_total_km2|}}}{{{area_total_sq_mi|}}}{{{area_total_dunam|}}}{{{area_land_km2|}}}{{{area_land_sq_mi|}}}{{{area_water_km2|}}}{{{area_water_sq_mi|}}}{{{area_urban_km2|}}}{{{area_urban_sq_mi|}}}{{{area_metro_km2|}}}{{{area_blank1_km2|}}}{{{area_metro_sq_mi|}}}{{{area_blank1_sq_mi|}}}|
 	<tr <!-- ***** Area ***** --> class="mergedtoprow">
-		<td colspan="2">'''[[Area]]''' {{#if:{{{area_footnotes|}}}|{{{area_footnotes}}}}}</td>
+		<td colspan="2">'''[[Lualas]]''' {{#if:{{{area_footnotes|}}}|{{{area_footnotes}}}}}</td>
 	</tr>
 {{#if:{{{area_total_km2|}}}{{{area_total_sq_mi|}}}{{{area_total_dunam|}}}|
 	<tr class="mergedrow">
