@@ -12,7 +12,7 @@
 | align=center width="130px" bgcolor="#eeeeee"|{{#if:{{{image_coat_of_arms|}}}|[[Image:{{{image_coat_of_arms}}}|{{{image_coat_of_arms_size}}}|Coat of arms of {{{spanish_name}}}]] | [[Image:Sin escudo.svg|110px|No coat of arms]]}}
 |-
 |align=center width="130px" style="line-height:14px;" bgcolor="#eeeeee"| {{#if:{{{image_flag|}}}|<small>Flag</small>}} 
-| align=center width="130px" style="line-height:14px;" bgcolor="#eeeeee"|{{#if:{{{image_coat_of_arms|}}}| <small>Coat of Arms</small>}}
+| align=center width="130px" style="line-height:14px;" bgcolor="#eeeeee"|{{#if:{{{image_coat_of_arms|}}}| <small>Sagkal ning armas</small>}}
 |}
 {{#if:{{{city_motto|}}}|<tr><td align="center" colspan="2">''{{{city_motto}}}'' {{#if:{{{city_motto_means|}}}|<br />("''{{{city_motto_means}}}''")}} </td></tr>}}
 |- bgcolor="#dcdcdc"
@@ -56,7 +56,7 @@
 |-
 | '''[[Katas]]''' || {{{altitude}}} m [[AMSL]]
 |- bgcolor="#dcdcdc"
-! colspan="2" align=center | Population
+! colspan="2" align=center | Populasiun
 |-
 | '''[[Populasyun]]'''||style="line-height:14px;"|{{{population}}} <small>({{{date-population}}})</small> 
 {{#if:{{{population-ranking|}}}| <tr><td>- rank in Spain:</td><td>{{{population-ranking}}}</td></tr>}}
