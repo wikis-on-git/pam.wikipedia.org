@@ -28,18 +28,18 @@
 |- bgcolor="#dcdcdc"
 ! colspan="2" align=center | General information
 |-
-| '''Katutubung Lagyu''' || {{{native_name}}} ([[{{{native_language}}} language|{{{native_language}}}]])
+| '''Katutubung Lagiu''' || {{{native_name}}} ([[{{{native_language}}} language|{{{native_language}}}]])
 |-
-| '''[[Spanish language|Spanish a lagyu]]''' || {{{spanish_name}}}
+| '''[[Spanish language|Spanish a lagiu]]''' || {{{spanish_name}}}
 {{#if:{{{nickname|}}}|<tr><td>'''Palayo'''</td><td>''{{{nickname}}}''</td></tr>}}<!--
 //-->{{#if:{{{founded|}}}|<tr><td>'''Mitatag'''</td><td>{{{founded}}}</td></tr>}}<!--
 //-->{{#if:{{{postal_code|}}}|<tr><td>'''[[Postal kodiku]]'''</td><td>{{{postal_code}}}</td></tr>}}<!--
 //-->{{#if:{{{area_code|}}}|<tr><td>'''[[Karinan Kodiku]]'''</td><td>34 (Spain) + {{{area_code}}} ({{{province}}})</td></tr>}}<!--
 //-->{{#if:{{{website|}}}|<tr><td>'''[[Website]]'''</td><td>[{{{website}}} {{{website}}}]</td></tr>}}
 |- bgcolor="#dcdcdc"
-! colspan="2" align=center | [[Administration (government)|Administrasyun]]
+! colspan="2" align=center | [[Administration (government)|Administrasiun]]
 |-
-|'''[[Bangsa]]''' || [[Espanya]]
+|'''[[Bangsa]]''' || [[Espania]]
 |-
 |'''[[Makasariling Communidad]]''' || [[{{{community_link}}}|{{{community}}}]]
 |-
