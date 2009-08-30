@@ -295,11 +295,11 @@
 }}<!-- ***** Government type and Leader ***** -->
 {{#if:{{{government_type|}}}{{{leader_title|}}}|
 	<tr <!-- ***** Government ***** --> class="mergedtoprow">
-		<td colspan="2">'''Government''' {{#if:{{{government_footnotes|}}}|{{{government_footnotes}}}}}</td>
+		<td colspan="2">'''Gubiernu''' {{#if:{{{government_footnotes|}}}|{{{government_footnotes}}}}}</td>
 	</tr>
 {{#if:{{{government_type|}}}|
 	<tr class="mergedrow">
-		<th>&nbsp;-&nbsp;Type</th>
+		<th>&nbsp;-&nbsp;Pinduan</th>
 		<td>{{{government_type}}}</td>
 	</tr>
 }}{{#if:{{{leader_title|}}}|
@@ -345,7 +345,7 @@
 	</tr>
 }}{{#if:{{{area_water_km2|}}}{{{area_water_sq_mi|}}}|
 	<tr class="mergedrow">
-		<th>&nbsp;- Water</th>
+		<th>&nbsp;- Danum</th>
 		<td>{{areadisp|{{{unit_pref|}}}|{{{area_water_sq_mi|}}}|{{{area_water_km2|}}}|||{{{subdivision_name|}}}}} {{#if:{{{area_water_percent|}}}| &nbsp;{{{area_water_percent}}}%}} }}</td>
 	</tr>
 }}{{#if:{{{area_urban_km2|}}}{{{area_urban_sq_mi|}}}|
@@ -371,7 +371,7 @@
 }}<!-- ***** Elevation ***** -->
 {{#if:{{{elevation_m|}}}{{{elevation_ft|}}}|
 	<tr class="mergedtoprow">
-		<td>'''[[Elevation]]''' {{#if:{{{elevation_footnotes|}}}|{{{elevation_footnotes}}}}}</td>
+		<td>'''[[Katas/kabilian]]''' {{#if:{{{elevation_footnotes|}}}|{{{elevation_footnotes}}}}}</td>
 		<td>{{lengthdisp|{{{unit_pref|}}}|{{{elevation_ft|}}}|{{{elevation_m|}}}||{{{subdivision_name|}}}}}</td>
 	</tr>
 }}{{#if:{{{elevation_max_m|}}}{{{elevation_max_ft|}}}|
@@ -406,12 +406,12 @@
 	</tr>
 }}{{#if:{{{population_urban|}}}| 
 	<tr class="mergedrow">
-		<th>&nbsp;- [[Urban area|Urban]]</th>
+		<th>&nbsp;- [[Urban area|Kabalenan]]</th>
 		<td>{{formatnum:{{{population_urban}}}}}</td>
 	</tr>
 }}{{#if:{{{population_density_urban_sq_mi|}}}{{{population_density_urban_km2|}}}|
 	<tr class="mergedrow">
-		<th>&nbsp;- Urban Density
+		<th>&nbsp;- Kabalenan Pangasiksik
 		<td>{{densdisp|{{{unit_pref|}}}|{{{population_density_urban_sq_mi|}}}|{{{population_density_urban_km2|}}}|{{{population_urban|}}}|{{{area_urban_sq_mi|}}}|{{{area_urban_km2|}}}|{{{subdivision_name|}}}}}</td>
 	</tr>
 }}{{#if:{{{population_metro|}}}| 
