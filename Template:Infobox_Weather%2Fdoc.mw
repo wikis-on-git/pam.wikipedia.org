@@ -1,0 +1,522 @@
+{{documentation subpage}}
+<!---PLEASE ADD METADATA TO THE <includeonly> SECTION AT THE BOTTOM OF THIS PAGE--->
+For questions/examples, see the [[Template talk:Infobox_Weather|talk]] page. For shorter forms, see below: [[#Concise forms|Concise forms]].
+
+You can enter data in metric units or imperial units or both. '''Important''': remove all unused fields.
+
+'''IF USING MULTIPLE TABLES''': Please verify that the template does not overlay, or get overlaid by, other templates used in the article. Please test your changes with several skins and several browsers, and several browser window sizes. If necessary use {{tl|-}} to fix any overlapping problems.
+
+== Imperial-only empty syntax ==
+(will convert and display metric values automatically)
+<pre><!--Infobox begins-->{{Infobox Weather <!-- Important: remove all unused fields-->
+|collapsed=<!--Any entry in this line will make the template initially collapsed. Leave blank or remove line for uncollapsed.--> 
+|metric_first= <!--Any entry in this line will display metric first. Leave blank or remove line for imperial.-->
+|single_line= <!--Any entry in this line will display metric and imperial units on same line. Leave blank or remove line for separate lines--> 
+|location = 
+|Jan_Hi_°F =       |Jan_REC_Hi_°F =     <!--REC temps are optional; use sparsely-->  
+|Feb_Hi_°F =       |Feb_REC_Hi_°F =    
+|Mar_Hi_°F =       |Mar_REC_Hi_°F =    
+|Apr_Hi_°F =       |Apr_REC_Hi_°F =    
+|May_Hi_°F =       |May_REC_Hi_°F =    
+|Jun_Hi_°F =       |Jun_REC_Hi_°F =    
+|Jul_Hi_°F =       |Jul_REC_Hi_°F =    
+|Aug_Hi_°F =       |Aug_REC_Hi_°F =    
+|Sep_Hi_°F =       |Sep_REC_Hi_°F =    
+|Oct_Hi_°F =       |Oct_REC_Hi_°F =    
+|Nov_Hi_°F =       |Nov_REC_Hi_°F =    
+|Dec_Hi_°F =       |Dec_REC_Hi_°F =    
+|Year_Hi_°F =      |Year_REC_Hi_°F =   
+
+|Jan_Lo_°F =       |Jan_REC_Lo_°F =    
+|Feb_Lo_°F =       |Feb_REC_Lo_°F =    
+|Mar_Lo_°F =       |Mar_REC_Lo_°F =    
+|Apr_Lo_°F =       |Apr_REC_Lo_°F =    
+|May_Lo_°F =       |May_REC_Lo_°F =    
+|Jun_Lo_°F =       |Jun_REC_Lo_°F =    
+|Jul_Lo_°F =       |Jul_REC_Lo_°F =    
+|Aug_Lo_°F =       |Aug_REC_Lo_°F =    
+|Sep_Lo_°F =       |Sep_REC_Lo_°F =    
+|Oct_Lo_°F =       |Oct_REC_Lo_°F =    
+|Nov_Lo_°F =       |Nov_REC_Lo_°F =    
+|Dec_Lo_°F =       |Dec_REC_Lo_°F =    
+|Year_Lo_°F =      |Year_REC_Lo_°F =   
+
+<!--Optional: Mean daily temperature -->
+|Jan_MEAN_°F =
+|Feb_MEAN_°F =
+|Mar_MEAN_°F =
+|Apr_MEAN_°F =
+|May_MEAN_°F =
+|Jun_MEAN_°F =
+|Jul_MEAN_°F =
+|Aug_MEAN_°F =
+|Sep_MEAN_°F =
+|Oct_MEAN_°F =
+|Nov_MEAN_°F =
+|Dec_MEAN_°F =
+|Year_MEAN_°F =
+
+<!-- Optional: This is total Precipitation.  Rain & Snow fields can be used instead if Precip is NOT filled in -->
+|Jan_Precip_inch = 
+|Feb_Precip_inch = 
+|Mar_Precip_inch = 
+|Apr_Precip_inch = 
+|May_Precip_inch =
+|Jun_Precip_inch =
+|Jul_Precip_inch =
+|Aug_Precip_inch =
+|Sep_Precip_inch =
+|Oct_Precip_inch =
+|Nov_Precip_inch =
+|Dec_Precip_inch =
+|Year_Precip_inch =
+
+<!-- Optional:  Rain and Snow can be used if Precip IS NOT filled in -->
+|Jan_Rain_inch =       | Jan_Snow_inch =
+|Feb_Rain_inch =       |Feb_Snow_inch =
+|Mar_Rain_inch =       |Mar_Snow_inch =
+|Apr_Rain_inch =       |Apr_Snow_inch = 
+|May_Rain_inch =       |May_Snow_inch =
+|Jun_Rain_inch =       |Jun_Snow_inch =
+|Jul_Rain_inch =       |Jul_Snow_inch =
+|Aug_Rain_inch =       |Aug_Snow_inch =
+|Sep_Rain_inch =       |Sep_Snow_inch =
+|Oct_Rain_inch =       |Oct_Snow_inch =
+|Nov_Rain_inch =       |Nov_Snow_inch =
+|Dec_Rain_inch =       |Dec_Snow_inch =
+|Year_Rain_inch =      |Year_Snow_inch =
+
+<!-- Optional:  Average monthly Sunshine hours -->
+|Jan_Sun= 
+|Feb_Sun=
+|Mar_Sun=
+|Apr_Sun=
+|May_Sun=
+|Jun_Sun=
+|Jul_Sun=
+|Aug_Sun=
+|Sep_Sun=
+|Oct_Sun=
+|Nov_Sun=
+|Dec_Sun=
+|Year_Sun=
+
+<!-- Optional:  Average daily % Humidity -->
+|Jan_Hum= 
+|Feb_Hum=
+|Mar_Hum=
+|Apr_Hum=
+|May_Hum=
+|Jun_Hum=
+|Jul_Hum=
+|Aug_Hum=
+|Sep_Hum=
+|Oct_Hum=
+|Nov_Hum=
+|Dec_Hum=
+|Year_Hum=
+
+<!-- Optional:  Average number of rainy, snowy and precipitation days -->
+|Jan_Rain_days =    |Jan_Snow_days =    |Jan_Precip_days = 
+|Feb_Rain_days =    |Feb_Snow_days =    |Feb_Precip_days = 
+|Mar_Rain_days =    |Mar_Snow_days =    |Mar_Precip_days = 
+|Apr_Rain_days =    |Apr_Snow_days =    |Apr_Precip_days = 
+|May_Rain_days =    |May_Snow_days =    |May_Precip_days = 
+|Jun_Rain_days =    |Jun_Snow_days =    |Jun_Precip_days = 
+|Jul_Rain_days =    |Jul_Snow_days =    |Jul_Precip_days = 
+|Aug_Rain_days =    |Aug_Snow_days =    |Aug_Precip_days = 
+|Sep_Rain_days =    |Sep_Snow_days =    |Sep_Precip_days = 
+|Oct_Rain_days =    |Oct_Snow_days =    |Oct_Precip_days = 
+|Nov_Rain_days =    |Nov_Snow_days =    |Nov_Precip_days = 
+|Dec_Rain_days =    |Dec_Snow_days =    |Dec_Precip_days =
+
+<!-- Optional: Average number of rainy, snowy and precipitation days for Year. If not present, will be filled by a sum of data above. -->
+|Year_Rain_days =   |Year_Snow_days =   |Year_Precip_days = 
+
+|source = <ref name= >{{cite web
+| url = | title = | accessdate =  
+| publisher = | language = }}</ref>
+|accessdate = 
+<!--For a second source-->
+|source2 = <ref name= >{{cite web
+| url = | title = | accessdate =  
+| publisher = | language = }}</ref>
+|accessdate2 = 
+}}<!--Infobox ends--></pre>
+
+== Metric-only empty syntax ==
+(will covert and display imperial values automatically)
+<pre><!--Infobox begins-->{{Infobox Weather <!-- Important: remove all unused fields-->
+|collapsed=<!--Any entry in this line will make the template initially collapsed. Leave blank or remove line for uncollapsed.--> 
+|metric_first= <!--Any entry in this line will display metric first. Leave blank or remove line for imperial.-->
+|single_line= <!--Any entry in this line will display metric and imperial units on same line. Leave blank or remove line for separate lines--> 
+|location = 
+|Jan_Hi_°C =       |Jan_REC_Hi_°C =     <!--REC temps are optional; use sparely-->  
+|Feb_Hi_°C =       |Feb_REC_Hi_°C =    
+|Mar_Hi_°C =       |Mar_REC_Hi_°C =    
+|Apr_Hi_°C =       |Apr_REC_Hi_°C =    
+|May_Hi_°C =       |May_REC_Hi_°C =    
+|Jun_Hi_°C =       |Jun_REC_Hi_°C =    
+|Jul_Hi_°C =       |Jul_REC_Hi_°C =    
+|Aug_Hi_°C =       |Aug_REC_Hi_°C =    
+|Sep_Hi_°C =       |Sep_REC_Hi_°C =    
+|Oct_Hi_°C =       |Oct_REC_Hi_°C =    
+|Nov_Hi_°C =       |Nov_REC_Hi_°C =    
+|Dec_Hi_°C =       |Dec_REC_Hi_°C =    
+|Year_Hi_°C =      |Year_REC_Hi_°C =   
+
+|Jan_Lo_°C =       |Jan_REC_Lo_°C =    
+|Feb_Lo_°C =       |Feb_REC_Lo_°C =    
+|Mar_Lo_°C =       |Mar_REC_Lo_°C =    
+|Apr_Lo_°C =       |Apr_REC_Lo_°C =    
+|May_Lo_°C =       |May_REC_Lo_°C =    
+|Jun_Lo_°C =       |Jun_REC_Lo_°C =    
+|Jul_Lo_°C =       |Jul_REC_Lo_°C =    
+|Aug_Lo_°C =       |Aug_REC_Lo_°C =    
+|Sep_Lo_°C =       |Sep_REC_Lo_°C =    
+|Oct_Lo_°C =       |Oct_REC_Lo_°C =    
+|Nov_Lo_°C =       |Nov_REC_Lo_°C =    
+|Dec_Lo_°C =       |Dec_REC_Lo_°C =    
+|Year_Lo_°C =      |Year_REC_Lo_°C =   
+
+<!--Optional: Mean daily temperature -->
+|Jan_MEAN_°C =
+|Feb_MEAN_°C =
+|Mar_MEAN_°C =
+|Apr_MEAN_°C =
+|May_MEAN_°C =
+|Jun_MEAN_°C =
+|Jul_MEAN_°C =
+|Aug_MEAN_°C =
+|Sep_MEAN_°C =
+|Oct_MEAN_°C =
+|Nov_MEAN_°C =
+|Dec_MEAN_°C =
+|Year_MEAN_°C =
+
+<!--**** use mm or cm but NOT both! ****-->
+<!-- Optional: This is total Precipitation.  Rain & Snow fields can be used instead if Precip is NOT filled in -->
+|Jan_Precip_cm =       |Jan_Precip_mm =  
+|Feb_Precip_cm =       |Feb_Precip_mm = 
+|Mar_Precip_cm =       |Mar_Precip_mm = 
+|Apr_Precip_cm =       |Apr_Precip_mm = 
+|May_Precip_cm =       |May_Precip_mm = 
+|Jun_Precip_cm =       |Jun_Precip_mm = 
+|Jul_Precip_cm =       |Jul_Precip_mm = 
+|Aug_Precip_cm =       |Aug_Precip_mm = 
+|Sep_Precip_cm =       |Sep_Precip_mm = 
+|Oct_Precip_cm =       |Oct_Precip_mm = 
+|Nov_Precip_cm =       |Nov_Precip_mm = 
+|Dec_Precip_cm =       |Dec_Precip_mm = 
+|Year_Precip_cm =      |Year_Precip_mm = 
+
+<!-- Optional:  Rain and Snow can be used if Precip IS NOT filled in -->
+<!--**** use mm or cm but NOT both! ****-->
+|Jan_Rain_cm =       | Jan_Snow_cm =
+|Feb_Rain_cm =       |Feb_Snow_cm =
+|Mar_Rain_cm =       |Mar_Snow_cm =
+|Apr_Rain_cm =       |Apr_Snow_cm = 
+|May_Rain_cm =       |May_Snow_cm =
+|Jun_Rain_cm =       |Jun_Snow_cm =
+|Jul_Rain_cm =       |Jul_Snow_cm =
+|Aug_Rain_cm =       |Aug_Snow_cm =
+|Sep_Rain_cm =       |Sep_Snow_cm =
+|Oct_Rain_cm =       |Oct_Snow_cm =
+|Nov_Rain_cm =       |Nov_Snow_cm =
+|Dec_Rain_cm =       |Dec_Snow_cm =
+|Year_Rain_cm =      |Year_Snow_cm =
+
+|Jan_Rain_mm =       | Jan_Snow_mm =
+|Feb_Rain_mm =       |Feb_Snow_mm =
+|Mar_Rain_mm =       |Mar_Snow_mm =
+|Apr_Rain_mm =       |Apr_Snow_mm = 
+|May_Rain_mm =       |May_Snow_mm =
+|Jun_Rain_mm =       |Jun_Snow_mm =
+|Jul_Rain_mm =       |Jul_Snow_mm =
+|Aug_Rain_mm =       |Aug_Snow_mm =
+|Sep_Rain_mm =       |Sep_Snow_mm =
+|Oct_Rain_mm =       |Oct_Snow_mm =
+|Nov_Rain_mm =       |Nov_Snow_mm =
+|Dec_Rain_mm =       |Dec_Snow_mm =
+|Year_Rain_mm =      |Year_Snow_mm =
+
+<!-- Optional:  Average monthly Sunshine hours -->
+|Jan_Sun= 
+|Feb_Sun=
+|Mar_Sun=
+|Apr_Sun=
+|May_Sun=
+|Jun_Sun=
+|Jul_Sun=
+|Aug_Sun=
+|Sep_Sun=
+|Oct_Sun=
+|Nov_Sun=
+|Dec_Sun=
+|Year_Sun=
+
+<!-- Optional:  Average daily % Humidity -->
+|Jan_Hum= 
+|Feb_Hum=
+|Mar_Hum=
+|Apr_Hum=
+|May_Hum=
+|Jun_Hum=
+|Jul_Hum=
+|Aug_Hum=
+|Sep_Hum=
+|Oct_Hum=
+|Nov_Hum=
+|Dec_Hum=
+|Year_Hum=
+
+<!-- Optional:  Average number of rainy, snowy and precipitation days -->
+|Jan_Rain_days =    |Jan_Snow_days =    |Jan_Precip_days = 
+|Feb_Rain_days =    |Feb_Snow_days =    |Feb_Precip_days = 
+|Mar_Rain_days =    |Mar_Snow_days =    |Mar_Precip_days = 
+|Apr_Rain_days =    |Apr_Snow_days =    |Apr_Precip_days = 
+|May_Rain_days =    |May_Snow_days =    |May_Precip_days = 
+|Jun_Rain_days =    |Jun_Snow_days =    |Jun_Precip_days = 
+|Jul_Rain_days =    |Jul_Snow_days =    |Jul_Precip_days = 
+|Aug_Rain_days =    |Aug_Snow_days =    |Aug_Precip_days = 
+|Sep_Rain_days =    |Sep_Snow_days =    |Sep_Precip_days = 
+|Oct_Rain_days =    |Oct_Snow_days =    |Oct_Precip_days = 
+|Nov_Rain_days =    |Nov_Snow_days =    |Nov_Precip_days = 
+|Dec_Rain_days =    |Dec_Snow_days =    |Dec_Precip_days = 
+
+<!-- Optional: Average number of rainy, snowy and precipitation days for Year. If not present, will be filled by a sum of data above. -->
+|Year_Rain_days =   |Year_Snow_days =   |Year_Precip_days =
+
+|source = <ref name= >{{cite web
+| url = | title = | accessdate =  
+| publisher = | language = }}</ref>
+|accessdate = 
+<!--For a second source-->
+|source2 = <ref name= >{{cite web
+| url = | title = | accessdate =  
+| publisher = | language = }}</ref>
+|accessdate2 = 
+}}<!--Infobox ends--></pre>
+
+== Imperial and metric empty syntax ==
+{{nowrap|(when one parameter of one system is filled in then the corresponding parameter of the other system must be filled in)}}
+<pre><!--Infobox begins-->{{Infobox Weather <!-- Important: remove all unused fields-->
+|collapsed=<!--Any entry in this line will make the template initially collapsed. Leave blank or remove line for uncollapsed.--> 
+|metric_first= <!--Any entry in this line will display metric first. Leave blank or remove line for imperial.-->
+|single_line= <!--Any entry in this line will display metric and imperial units on same line. Leave blank or remove line for separate lines--> 
+|location = 
+|Jan_Hi_°F =      |Jan_Hi_°C =   |Jan_REC_Hi_°F =    |Jan_REC_Hi_°C = <!--REC temps are optional; use sparely-->  
+|Feb_Hi_°F =      |Feb_Hi_°C =   |Feb_REC_Hi_°F =    |Feb_REC_Hi_°C =
+|Mar_Hi_°F =      |Mar_Hi_°C =   |Mar_REC_Hi_°F =    |Mar_REC_Hi_°C = 
+|Apr_Hi_°F =      |Apr_Hi_°C =   |Apr_REC_Hi_°F =    |Apr_REC_Hi_°C = 
+|May_Hi_°F =      |May_Hi_°C =   |May_REC_Hi_°F =    |May_REC_Hi_°C =
+|Jun_Hi_°F =      |Jun_Hi_°C =   |Jun_REC_Hi_°F =    |Jun_REC_Hi_°C =
+|Jul_Hi_°F =      |Jul_Hi_°C =   |Jul_REC_Hi_°F =    |Jul_REC_Hi_°C =
+|Aug_Hi_°F =      |Aug_Hi_°C =   |Aug_REC_Hi_°F =    |Aug_REC_Hi_°C =
+|Sep_Hi_°F =      |Sep_Hi_°C =   |Sep_REC_Hi_°F =    |Sep_REC_Hi_°C =
+|Oct_Hi_°F =      |Oct_Hi_°C =   |Oct_REC_Hi_°F =    |Oct_REC_Hi_°C =
+|Nov_Hi_°F =      |Nov_Hi_°C =   |Nov_REC_Hi_°F =    |Nov_REC_Hi_°C =
+|Dec_Hi_°F =      |Dec_Hi_°C =   |Dec_REC_Hi_°F =    |Dec_REC_Hi_°C =
+|Year_Hi_°F =     |Year_Hi_°C =  |Year_REC_Hi_°F =   |Year_REC_Hi_°C =
+
+|Jan_Lo_°F =      |Jan_Lo_°C =   |Jan_REC_Lo_°F =    |Jan_REC_Lo_°C =
+|Feb_Lo_°F =      |Feb_Lo_°C =   |Feb_REC_Lo_°F =    |Feb_REC_Lo_°C =
+|Mar_Lo_°F =      |Mar_Lo_°C =   |Mar_REC_Lo_°F =    |Mar_REC_Lo_°C =
+|Apr_Lo_°F =      |Apr_Lo_°C =   |Apr_REC_Lo_°F =    |Apr_REC_Lo_°C =
+|May_Lo_°F =      |May_Lo_°C =   |May_REC_Lo_°F =    |May_REC_Lo_°C = 
+|Jun_Lo_°F =      |Jun_Lo_°C =   |Jun_REC_Lo_°F =    |Jun_REC_Lo_°C =
+|Jul_Lo_°F =      |Jul_Lo_°C =   |Jul_REC_Lo_°F =    |Jul_REC_Lo_°C =
+|Aug_Lo_°F =      |Aug_Lo_°C =   |Aug_REC_Lo_°F =    |Aug_REC_Lo_°C =
+|Sep_Lo_°F =      |Sep_Lo_°C =   |Sep_REC_Lo_°F =    |Sep_REC_Lo_°C =
+|Oct_Lo_°F =      |Oct_Lo_°C =   |Oct_REC_Lo_°F =    |Oct_REC_Lo_°C =
+|Nov_Lo_°F =      |Nov_Lo_°C =   |Nov_REC_Lo_°F =    |Nov_REC_Lo_°C =
+|Dec_Lo_°F =      |Dec_Lo_°C =   |Dec_REC_Lo_°F =    |Dec_REC_Lo_°C =
+|Year_Lo_°F =     |Year_Lo_°C =  |Year_REC_Lo_°F =   |Year_REC_Lo_°C =
+
+<!--Optional: Mean daily temperature -->
+|Jan_MEAN_°F =
+|Feb_MEAN_°F =
+|Mar_MEAN_°F =
+|Apr_MEAN_°F =
+|May_MEAN_°F =
+|Jun_MEAN_°F =
+|Jul_MEAN_°F =
+|Aug_MEAN_°F =
+|Sep_MEAN_°F =
+|Oct_MEAN_°F =
+|Nov_MEAN_°F =
+|Dec_MEAN_°F =
+|Year_MEAN_°F =
+
+|Jan_MEAN_°C =
+|Feb_MEAN_°C =
+|Mar_MEAN_°C =
+|Apr_MEAN_°C =
+|May_MEAN_°C =
+|Jun_MEAN_°C =
+|Jul_MEAN_°C =
+|Aug_MEAN_°C =
+|Sep_MEAN_°C =
+|Oct_MEAN_°C =
+|Nov_MEAN_°C =
+|Dec_MEAN_°C =
+|Year_MEAN_°C =
+
+<!--Optional:-->
+|Jan_Precip_inch = 
+|Feb_Precip_inch = 
+|Mar_Precip_inch = 
+|Apr_Precip_inch = 
+|May_Precip_inch =
+|Jun_Precip_inch =
+|Jul_Precip_inch =
+|Aug_Precip_inch =
+|Sep_Precip_inch =
+|Oct_Precip_inch =
+|Nov_Precip_inch =
+|Dec_Precip_inch =
+|Year_Precip_inch =
+
+<!--**** use mm or cm but not both! ****--><!--Optional:-->
+|Jan_Precip_cm =       |Jan_Precip_mm =  
+|Feb_Precip_cm =       |Feb_Precip_mm = 
+|Mar_Precip_cm =       |Mar_Precip_mm = 
+|Apr_Precip_cm =       |Apr_Precip_mm = 
+|May_Precip_cm =       |May_Precip_mm = 
+|Jun_Precip_cm =       |Jun_Precip_mm = 
+|Jul_Precip_cm =       |Jul_Precip_mm = 
+|Aug_Precip_cm =       |Aug_Precip_mm = 
+|Sep_Precip_cm =       |Sep_Precip_mm = 
+|Oct_Precip_cm =       |Oct_Precip_mm = 
+|Nov_Precip_cm =       |Nov_Precip_mm = 
+|Dec_Precip_cm =       |Dec_Precip_mm = 
+|Year_Precip_cm =      |Year_Precip_mm = 
+
+<!-- Optional:  Rain and Snow can be used if Precip IS NOT filled in -->
+|Jan_Rain_inch =       | Jan_Snow_inch =
+|Feb_Rain_inch =       |Feb_Snow_inch =
+|Mar_Rain_inch =       |Mar_Snow_inch =
+|Apr_Rain_inch =       |Apr_Snow_inch = 
+|May_Rain_inch =       |May_Snow_inch =
+|Jun_Rain_inch =       |Jun_Snow_inch =
+|Jul_Rain_inch =       |Jul_Snow_inch =
+|Aug_Rain_inch =       |Aug_Snow_inch =
+|Sep_Rain_inch =       |Sep_Snow_inch =
+|Oct_Rain_inch =       |Oct_Snow_inch =
+|Nov_Rain_inch =       |Nov_Snow_inch =
+|Dec_Rain_inch =       |Dec_Snow_inch =
+|Year_Rain_inch =      |Year_Snow_inch =
+
+<!-- Optional:  Rain and Snow can be used if Precip IS NOT filled in -->
+<!--**** use mm or cm but NOT both! ****-->
+|Jan_Rain_cm =       | Jan_Snow_cm =
+|Feb_Rain_cm =       |Feb_Snow_cm =
+|Mar_Rain_cm =       |Mar_Snow_cm =
+|Apr_Rain_cm =       |Apr_Snow_cm = 
+|May_Rain_cm =       |May_Snow_cm =
+|Jun_Rain_cm =       |Jun_Snow_cm =
+|Jul_Rain_cm =       |Jul_Snow_cm =
+|Aug_Rain_cm =       |Aug_Snow_cm =
+|Sep_Rain_cm =       |Sep_Snow_cm =
+|Oct_Rain_cm =       |Oct_Snow_cm =
+|Nov_Rain_cm =       |Nov_Snow_cm =
+|Dec_Rain_cm =       |Dec_Snow_cm =
+|Year_Rain_cm =      |Year_Snow_cm =
+
+|Jan_Rain_mm =       | Jan_Snow_mm =
+|Feb_Rain_mm =       |Feb_Snow_mm =
+|Mar_Rain_mm =       |Mar_Snow_mm =
+|Apr_Rain_mm =       |Apr_Snow_mm = 
+|May_Rain_mm =       |May_Snow_mm =
+|Jun_Rain_mm =       |Jun_Snow_mm =
+|Jul_Rain_mm =       |Jul_Snow_mm =
+|Aug_Rain_mm =       |Aug_Snow_mm =
+|Sep_Rain_mm =       |Sep_Snow_mm =
+|Oct_Rain_mm =       |Oct_Snow_mm =
+|Nov_Rain_mm =       |Nov_Snow_mm =
+|Dec_Rain_mm =       |Dec_Snow_mm =
+|Year_Rain_mm =      |Year_Snow_mm =
+
+<!-- Optional:  Average monthly Sunshine hours -->
+|Jan_Sun= 
+|Feb_Sun=
+|Mar_Sun=
+|Apr_Sun=
+|May_Sun=
+|Jun_Sun=
+|Jul_Sun=
+|Aug_Sun=
+|Sep_Sun=
+|Oct_Sun=
+|Nov_Sun=
+|Dec_Sun=
+|Year_Sun=
+
+<!-- Optional:  Average daily % Humidity -->
+|Jan_Hum= 
+|Feb_Hum=
+|Mar_Hum=
+|Apr_Hum=
+|May_Hum=
+|Jun_Hum=
+|Jul_Hum=
+|Aug_Hum=
+|Sep_Hum=
+|Oct_Hum=
+|Nov_Hum=
+|Dec_Hum=
+|Year_Hum=
+
+<!-- Optional:  Average number of rainy, snowy and precipitation days -->
+|Jan_Rain_days =    |Jan_Snow_days =    |Jan_Precip_days = 
+|Feb_Rain_days =    |Feb_Snow_days =    |Feb_Precip_days = 
+|Mar_Rain_days =    |Mar_Snow_days =    |Mar_Precip_days = 
+|Apr_Rain_days =    |Apr_Snow_days =    |Apr_Precip_days = 
+|May_Rain_days =    |May_Snow_days =    |May_Precip_days = 
+|Jun_Rain_days =    |Jun_Snow_days =    |Jun_Precip_days = 
+|Jul_Rain_days =    |Jul_Snow_days =    |Jul_Precip_days = 
+|Aug_Rain_days =    |Aug_Snow_days =    |Aug_Precip_days = 
+|Sep_Rain_days =    |Sep_Snow_days =    |Sep_Precip_days = 
+|Oct_Rain_days =    |Oct_Snow_days =    |Oct_Precip_days = 
+|Nov_Rain_days =    |Nov_Snow_days =    |Nov_Precip_days = 
+|Dec_Rain_days =    |Dec_Snow_days =    |Dec_Precip_days = 
+
+<!-- Optional: Average number of rainy, snowy and precipitation days for Year. If not present, will be filled by a sum of data above. -->
+|Year_Rain_days =   |Year_Snow_days =   |Year_Precip_days =
+
+|source = <ref name= >{{cite web
+| url = | title = | accessdate =  
+| publisher = | language = }}</ref>
+|accessdate = 
+<!--For a second source-->
+|source2 = <ref name= >{{cite web
+| url = | title = | accessdate =  
+| publisher = | language = }}</ref>
+|accessdate2 = 
+}}<!--Infobox ends--></pre>
+
+== Concise forms ==
+There are shorter templates that invoke &#123;{Infobox Weather}} with 36 condensed parameters:
+:* {{tl|Infobox Weather/concise_C}} - for coding [[Celsius]] data 8x times shorter.
+:* {{tl|Infobox Weather/concise_F}} - for coding [[Fahrenheit]] data 8x times shorter.
+
+== Similar templates ==
+*[[Template:Climate chart]], which displays climate information in a graphical chart format
+
+<includeonly>
+[[Category:Weather infobox templates| ]]
+[[ar:قالب:حالة الطقس]]
+[[cs:Šablona:Počasí]]
+[[da:Skabelon:Infoboks vejr]]
+[[de:Vorlage:Klimatabelle]]
+[[es:Plantilla:Clima]]
+[[fr:Modèle:Relevé météo]]
+[[ia:Patrono:Infobox Weather]]
+[[he:תבנית:מזג אוויר]]
+[[ja:Template:Infobox Weather]]
+[[pt:Predefinição:Infobox Clima]]
+[[ru:Шаблон:Климат города]]
+[[sv:Mall:Klimattabell]]
+[[uk:Шаблон:Клімат міста]]
+[[zh:Template:Infobox Weather]]
+</includeonly>
