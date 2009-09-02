@@ -1,8 +1,8 @@
 {{ {{{1<noinclude>|country showdata</noinclude>}}}
 | alias           = Japan
 | shortname alias = Japan
-| flag alias      = Flag of Japan (bordered).svg
-| flag alias-alt  = Flag of Japan - variant.svg
+| flag alias      = Flag of Japan.svg
+| flag alias-alt  = Merchant flag of Japan (1870).svg
 | countryname = {{{countryname|Japan<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
 | size = {{{size|}}}
 | name = {{{name|}}}
