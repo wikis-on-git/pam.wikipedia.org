@@ -1,0 +1,56 @@
+<includeonly><table class="infobox vcard" style="width:22em; font-size:95%; margin-bottom:1.5em;">
+<tr><th style="background: lightgreen;" colspan="2" class="fn"> {{{Name}}}</th></tr>
+{{#if:{{{image|}}}|<tr><td style="text-align: center;">[[Image:{{{image}}}|200px]]
+  |<tr style="text-align: center;"><td colspan="2">{{#if:{{{Image|}}}|{{{Image}}}|}}{{#if: {{{Caption|}}}| <br /><div style="font-size: 90%">{{{Caption}}}</div>}}</td></tr>
+}}{{
+#if:{{{Born|}}}
+  |<tr><td style="width:41%;">'''Mibait'''</td><td>{{{Born}}}{{#if:{{{Birthplace|}}}
+  |,<br />{{{Birthplace}}}}}</td></tr>
+}}{{
+#if:{{{Died|}}}
+  |<tr><td style="width:41%;">'''Kematyan'''</td><td>{{{Died}}}{{#if:{{{Deathplace|}}}
+  |,<br />{{{Deathplace}}}}}</td></tr>
+}}{{
+#if:{{{Nationality|}}}
+  |<tr><td style="width:41%;">'''Bangsa'''</td><td>{{{Nationality}}}</td></tr>
+}}{{
+#if:{{{Nickname|}}}
+  |<tr><td style="width:41%;">'''[[List_of_snooker_player_nicknames|Nickname]]'''</td><td class="palayo">{{{Nickname}}}</td></tr>
+}}{{
+#if:{{{Professional|}}}
+  |<tr><td style="width:41%;">'''Professional'''</td><td>{{{Professional}}}</td></tr>
+}}{{
+#if:{{{High ranking|}}}
+  |<tr><td style="width:41%;">'''Pekamatas [[Snooker world rankings|rangku]]'''</td><td>{{{High ranking}}}</td></tr>
+}}{{
+#if:{{{Current rank|}}}
+  |<tr><td style="width:41%;">'''[[Snooker_world_rankings_2009/2010|2009/10 ranking]]'''</td><td>{{{Current rank}}}</td></tr>
+}}{{
+#if:{{{Prize money|}}}
+  |<tr><td style="width:41%;">'''Panyambut Carera'''</td><td>{{{Prize money}}}</td></tr>
+}}{{
+#if:{{{High break|}}}
+  |<tr class="note"><td style="width:41%;">'''Highest break'''</td><td>{{{High break}}}</td></tr>
+}}{{
+#if:{{{Best finish|}}}
+  |<tr><td style="width:41%;">'''Best ranking finish'''</td><td>{{{Best finish}}}</td></tr>
+}}{{
+#if:{{{Ranking wins|}}}{{{Minor wins|}}}{{{Major wins|}}}{{{Other wins|}}}{{{World champ|}}}
+  |<tr><th style="background: lightgreen;" colspan="2">Tournament wins</th></tr>
+}}{{
+#if:{{{Ranking wins|}}}
+  |<tr><td style="width:41%;">'''[[List of snooker players by number of ranking titles|Ranking]]'''</td><td>{{{Ranking wins}}}</td></tr>
+}}{{
+#if:{{{Minor wins|}}}
+  |<tr><td style="width:41%;">'''Bularit'''</td><td>{{{Minor wins}}}</td></tr>
+}}{{
+#if:{{{Major wins|}}}
+  |<tr><td style="width:41%;">'''Pun'''</td><td>{{{Major wins}}}</td></tr>
+}}{{
+#if:{{{Other wins|}}}
+  |<tr><td style="width:41%;">'''Alang rangku'''</td><td>{{{Other wins}}}</td></tr>
+}}{{
+#if:{{{World champ|}}}
+  |<tr><td style="width:41%;">'''[[World Snooker Championship|World Champion]]'''</td><td>{{{World champ}}}</td></tr>
+}}
+</table></includeonly><noinclude>{{documentation}}</noinclude>
