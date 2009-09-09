@@ -1,10 +1,10 @@
 {{#switch:{{{1}}}
 | name   = Georgia (bangsa)
-| top    = 43.5
-| bottom = 41.0
-| left   = 39.9
-| right  = 46.8
-| image  = Georgia blank.png 
+| top = 43.7
+| bottom = 40.9
+| left = 39.8
+| right = 46.9
+| image = Georgia location map.svg
 
 }}<noinclude>{{Location map/Info}}
 
