@@ -217,7 +217,7 @@
 }}{{#if:{{{subdivision_type1|}}}|
 	<tr class="mergedrow">
 		<th>{{{subdivision_type1}}}
-                <th class="adr"><span class="region">{{{subdivision_name1}}}</span>
+                <th class="adr"><span class="labuad">{{{subdivision_name1}}}</span>
 	</tr>
 }}{{#if:{{{subdivision_type2|}}}|
 	<tr class="mergedrow">
@@ -292,7 +292,7 @@
 	</tr>
 {{#if:{{{government_type|}}}|
 	<tr class="mergedrow">
-		<th>&nbsp;-&nbsp;Type</th>
+		<th>&nbsp;-&nbsp;Pinduan</th>
 		<td>{{{government_type}}}</td>
 	</tr>
 }}{{#if:{{{leader_title|}}}|
