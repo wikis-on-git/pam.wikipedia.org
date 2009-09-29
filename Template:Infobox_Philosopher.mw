@@ -20,16 +20,16 @@
 ! style="text-align: right;" |Pipagaralan/tradition:
 |{{{school_tradition}}}
 {{#if:{{{main_interests|}}}|
-<tr><th style="text-align: right;">Main interests:</th>
+<tr><th style="text-align: right;">Pun a kaburian/abalu:</th>
 <td>{{{main_interests}}}</td></tr>
 }}{{#if:{{{notable_ideas|}}}|
 <tr><th style="text-align: right;">Bantug a aisip:</th>
 <td>{{{notable_ideas}}}</td></tr>
 }}{{#if:{{{influences|}}}|
-<tr><th style="text-align: right;">Inpluwensiya:</th>
+<tr><th style="text-align: right;">Ayasag:</th>
 <td>{{{influences}}}</td></tr>
 }}{{#if:{{{influenced|}}}|
-<tr><th style="text-align: right;">Influenced:</th>
+<tr><th style="text-align: right;">Ayasag:</th>
 <td>{{{influenced}}}</td></tr>
 }}
 |}<noinclude>
