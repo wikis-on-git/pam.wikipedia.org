@@ -1,4 +1,10 @@
-|- style="text-align: center;"
-| width="30%" |Elilan ne i:<br />'''{{{before}}}'''
-| width="40%" style="text-align: center;" |'''{{{title}}}'''<br />{{{years}}}
-| width="30%" |Elilan neng:<br />'''{{{after}}}'''
+<includeonly>|- style="text-align: center;"
+{{s-bef|rows={{{rows|1}}}|Mumuna={{{before}}}}}
+{{s-ttl|rows={{{rows|1}}}|Pamansag={{{title}}}|years={{{years}}}|alongside = {{{alongside|}}} |with={{{with|}}}
+  |with2={{{with2|}}} |with3={{{with3|}}} |with4={{{with4|}}} |with5={{{with5|}}} |with6={{{with6|}}} |with7={{{with7|}}}
+  |with8={{{with8|}}} |with8={{{with8|}}} |with9={{{with9|}}} |with10={{{with10|}}} |with11={{{with11|}}}
+  |with12={{{with12|}}}  |with13={{{with13|}}} |with14={{{with14|}}} |with15={{{with15|}}}}}
+{{s-aft|rows={{{rows|1}}}|Katuki={{{after}}}}}</includeonly><noinclude>
+{{Pp-template|small=yes}}
+{{documentation}}
+</noinclude>
