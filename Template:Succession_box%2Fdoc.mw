@@ -1,0 +1,76 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+This template creates a standard line for succession boxes.
+
+Mostly deprecated, the ''succession box'' template ought to be used only for the simplest succession lines. These are single succession lines showing nothing more than a succession of three people holding exactly the same title. For succession lines sharing cells with other lines, for new or expired titles, for incumbencies or vacancies, for titular rulers or pretenders, for titles which change their name before or after the subject, and for lines requiring other additional information, the specialised templates of the ''s-start'' series should be used instead of this one.
+
+=== Usage ===
+<pre style="overflow:auto;">
+{{s-start}}
+{{succession box
+| before = 
+| title  = 
+| years  = 
+| after  = 
+}}
+{{end}}
+</pre>
+
+A succession box may start with a single {{tld|s-start}} and end with one {{tld|end}}. Alternatively, the old versions may be used, namely {{tld|start box}} as the initial template and {{tld|end box}} as the finishing one; the two formats are compatible with each other.
+
+Within each succession box, one or more lines may be created. One {{tld|succession box}} is used for each line, and parameters are used to insert data into the template: "before" for the predecessor of the subject, "title" for the subject's title, "years" for the time period during which they held the title, and "after" for the name of their successor.
+
+== Example ==
+From the [[Winston Churchill]] article:
+
+<pre style="overflow:auto;">
+
+{{s-start}}
+{{succession box
+| before = [[Clement Attlee]]
+| title  = [[Prime Minister of the United Kingdom]]
+| years  = 26 October 1951 – 7 April 1955
+| after  = [[Anthony Eden|Sir Anthony Eden]]
+}}
+{{succession box
+| before = [[Emanuel Shinwell]]
+| title  = [[Minister of Defence (UK)|Minister of Defence]]
+| years  = 1951 – 1952
+| after  = [[Harold Alexander, 1st Earl Alexander of Tunis|The Earl Alexander of Tunis]]
+}}
+{{end}}
+
+</pre>
+
+{{s-start}}
+{{succession box
+| before = [[Clement Attlee]]
+| title  = [[Prime Minister of the United Kingdom]]
+| years  = 26 October 1951 – 7 April 1955
+| after  = [[Anthony Eden|Sir Anthony Eden]]
+}}
+{{succession box
+| before = [[Emanuel Shinwell]]
+| title  = [[Minister of Defence (UK)|Minister of Defence]]
+| years  = 1951 – 1952
+| after  = [[Harold Alexander, 1st Earl Alexander of Tunis|The Earl Alexander of Tunis]]
+}}
+{{end}}
+
+== See also ==
+
+* Documentation for creating more complex succession boxes can be found at [[Template:S-start]].
+* A quick overview of the various templates and parameters of the ''s-start'' series can be found at the [[Wikipedia:WikiProject Succession Box Standardization/Cheatsheet|Cheatsheet]].
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Succession templates|{{PAGENAME}}]]
+
+[[ar:قالب:Succession box]]
+[[ru:Шаблон:Succession box]]
+[[es:Plantilla:Succession box]]
+[[id:Templat:Succession box]]
+[[ja:Template:Succession box]]
+[[sv:Mall:Succession box]]
+[[zh:Template:Succession box]]
+</includeonly>
