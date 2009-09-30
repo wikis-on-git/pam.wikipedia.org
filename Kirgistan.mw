@@ -1,19 +1,19 @@
 {{Infobox Country |
-native_name              = Кыргыз Республикасы<br>''Kyrgyz Respublikasy''<br>Кыргызская республика<br>''Kyrgyzskaya respublika'' |
+native_name              = Кыргыз Республикасы<br />''Kyrgyz Respublikasy''<br />Кыргызская республика<br />''Kyrgyzskaya respublika'' |
 conventional_long_name   = Kyrgyz Republic |
 common_name              = Kyrgyzstan |
 image_flag               = Flag of Kyrgyzstan.svg |
 image_coat               = Kyrgystan coa.gif |
 national_motto           = ''none'' |
 image_map                = LocationKyrgyzstan.png |
-national_anthem          = [[National Anthem of the Kyrgyz Republic|National Anthem of the <br> Kyrgyz Republic]] |
+national_anthem          = [[National Anthem of the Kyrgyz Republic|National Anthem of the <br /> Kyrgyz Republic]] |
 official_languages       = [[Kyrgyz language|Kyrgyz]], [[Russian language|Russian]] |
 capital                  = [[Bishkek]] |
 latd=42 |latm=52 |latNS=N |longd=74 |longm=36 |longEW=E |
 government_type          = [[Republic]] |
-leader_titles            = [[President of Kyrgyzstan|President]]<br> 
+leader_titles            = [[President of Kyrgyzstan|President]]<br /> 
 [[Prime Minister of Kyrgyzstan|Prime Minister]] |
-leader_names             = [[Kurmanbek Bakiyev]]<br> [[Feliks Kulov]] |
+leader_names             = [[Kurmanbek Bakiyev]]<br /> [[Feliks Kulov]] |
 largest_city             = [[Bishkek]] |
 area                     = 198,500 |
 areami²               =    76,621 <!-- Do not remove per [[WP:MOSNUM]] -->|
@@ -38,9 +38,9 @@ HDI = 0.702 |
 HDI_rank = 109th |
 HDI_category = <font color="#FFCC00">medium</font> |
 sovereignty_type         = [[History of the Soviet Union (1985-1991)|Independence]] |
-established_events       = &nbsp;- Declared<br> &nbsp;- Recognized<br> &nbsp;- Formerly |
-established_dates        = From the [[Soviet Union]]<br> [[31 August]] [[1991]]<br> 
-December 1991 <br> [[Kyrgyz SSR]] <br> |
+established_events       = &nbsp;- Declared<br /> &nbsp;- Recognized<br /> &nbsp;- Formerly |
+established_dates        = From the [[Soviet Union]]<br /> [[31 August]] [[1991]]<br /> 
+December 1991 <br /> [[Kyrgyz SSR]] <br /> |
 currency                 = [[Kyrgyzstani Som|Som]] |
 currency_code            = KGS |
 time_zone                = [[Kyrgyzstan Time|KGT]] |
@@ -190,6 +190,7 @@ Ing '''Kyrgyzstan''' ([[Kyrgyz language|Kyrgyz]]: Кыргызстан; [[Russia
 [[ru:Киргизия]]
 [[sa:किरगिस्थान]]
 [[sah:Кыргызстан]]
+[[scn:Kirghizistan]]
 [[sd:ڪِرگزِستانُ]]
 [[se:Kirgisistan]]
 [[sh:Kirgistan]]
