@@ -1,4 +1,3 @@
-
 ==Betawiki: better support for your language in MediaWiki==
 Dear community. I am writing to you to promote a special wiki called [[betawiki:|Betawiki]]. This wiki facilitates the localisation (l10n) of the MediaWiki interface. You may have changed many messages here to use your language in the interface, but if you would log in to for example the Japanese language Wiktionary, you would not be able to use the interface as well translated as here. In fact, of 1,736 messages in the core of MediaWiki, 12.32% of the messages have been translated. Betawiki also supports the translation of messages for 126 extensions, with 2,174 messages. Many of them are used in WMF projects and they are vital for understanding the wiki. Currently 6.53% of the WMF extension messages have been translated. Translators for over 90 languages contribute their work to MediaWiki this way every month.
 
@@ -28,3 +27,35 @@ Hello. To facilitate [[m:steward|steward]] granting of bot access, I suggest imp
 
 This policy makes bot access requesting much easier for local users, operators, and stewards. To implement it we only need to create a redirect to this page from [[Project:Bot policy]], and add a line at the top noting that it is used here. Please read the text at [[m:Bot policy]] before commenting. If you object, please say so; I hope to implement in one week if there is no objection, since it is particularly written to streamline bot requests on wikis with little or no community interested in bot access requests. [[User:Carsrac|Carsrac]] 08:33, 25 Abril 2009 (UTC)
 : Please make the comments on the [[Project:Bot policy]] page. I will move any botrequest from this page to the correct page. [[User:Carsrac|Carsrac]] 08:45, 25 Abril 2009 (UTC)
+
+==The LocalisationUpdate extension has gone live==
+
+The LocalisationUpdate extension is now enabled for all Wikimedia projects. From now on new localisations that become available in SVN will become available to your project within 24 hours. Your localisations get into SVN from [http://translatewiki.net translatewiki.net] typically within a day and at worst in two days. This is a huge improvement from the old practice where the localisations became available with new software. This could take weeks, even months.
+
+The localisations done by our community at translatewiki.net are committed to SVN typically every day. When the system messages in English are the same as the local messages, they will now be inserted in a file and are available for use in all our projects in a timely manner
+
+===What this means for you===
+Local messages have an impact on the performance of our system. It is best when messages are as much as possible part of the system messages. In order to remove unnecessary duplication, all the messages that have a local localisation and are '''exactly''' the same as the system message will be removed.  What we ask you to do is to compare and proof read the messages in translatewiki.net and the local messages. You can then either remove local messages when the translatewiki.net message is to be preferred or, you can update the message at translatewiki.net. 
+
+Messages that are specific to your project will have to stay as they are. You do want to check if the format and the variables of the message are still the same.
+
+===Why localise at translatewiki.net===
+When you localise at translatewiki.net, your messages will be used in all Wikimedia projects and eventually in all MediaWiki based projects. This is how we provide the standard support for your language. When messages change, at translatewiki.net you will be prompted to revisit your translations. Localising is more efficient because we have innovated the process to make you more efficient; there is text explaining about messages and we have applied AJAX technology to reduce the number of clicks you have to make.
+
+==Translatewiki.net update==
+*Currently 66.94% of the MediaWiki messages and 1.85% of the messages of the extensions used by the Wikimedia Foundation projects have been localised. Please help us help your language by localising and proof reading at [[betawiki:Special:LanguageStats/{{CONTENTLANGUAGE}}|translatewiki.net]]. This is the [http://translatewiki.net/w/i.php?title=Special:RecentChanges&translations=only&trailer=/{{CONTENTLANGUAGE}} recent localisation activity] for your language. Thanks, [[User:GerardM|GerardM]] 13:50, 30 Setiembri 2009 (UTC)
+*PS Please help us complete [http://translatewiki.net/w/i.php?title=Special%3ATranslate&task=untranslated&group=core-mostused&language={{CONTENTLANGUAGE}}&limit=100 the most wanted messages]..
+
+==How can we improve the usability for your language==
+We expect that with the implementation of LocalisationUpdate the usability of MediaWiki for your language will improve. We are now ready to look at other aspects of usability for your language as well.  There are two questions we would like you to answer:
+Are there issues with the new functionality of the Usability Initiative
+Does MediaWiki support your language properly
+
+The best way to answer the first question is to visit the translatewiki.net. Change the language to your language, select the “vector” skin and add the advanced tool bar in in the preferences and check out the new functionality. And make some changes in your user page. When there is a need to improve on the localisation, please make the [http://translatewiki.net/w/i.php?title=Special:Translate&group=ext-ui-0-all necessary changes]s . It should update your localisation straight away. 
+We would like you to report each issue individually at http://meta.wikimedia.org/wiki/Usability_issues.
+
+When there are problems with the support of MediaWiki for your language, we really want to know about this. It is best to report each issue separately. In this way there will be no large mass of issues to resolve but we can address each issue on its own. Consider issues with the display of characters, the presentation of your script, the position of the side bar, the combination of text with other languages, scripts. It is best to try this in an environment like the prototype wiki as it provides you with a clean, basic and up to date environment. The prototype wiki is available for five languages but you can select any of them, change the preferences to your language and test out MediaWiki for your language.
+
+We would like you to report each issue individually at http://meta.wikimedia.org/wiki/Language_issues. The issues you raise will all be assessed. It is important to keep each issue separate, because this will make it easier to understand the issues and find solutions.
+
+PS This text has been approved by Naoko, Brion and Siebrand. Thanks, [[User:GerardM|GerardM]] 13:50, 30 Setiembri 2009 (UTC)
