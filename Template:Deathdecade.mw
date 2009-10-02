@@ -6,12 +6,12 @@
 | [[:Category:{{#expr:{{{1}}}+1}}00s deaths|>>]]
 |}
 
-People who died in the '''[[{{{1}}}{{#ifeq:{{{2}}} | 0 | {{{2}}}0–{{{1}}}{{{2}}}9{{!}}{{{1}}}}}{{{2}}}0s]]'''.<br>
-''See also:'' [[:Category:{{{1}}}{{{2}}}0s births]]. 
+Ding taung mete inyang '''[[{{{1}}}{{#ifeq:{{{2}}} | 0 | {{{2}}}0–{{{1}}}{{{2}}}9{{!}}{{{1}}}}}{{{2}}}0s]]'''.<br>
+''See also:'' [[:Category:{{{1}}}{{{2}}}0s kebaitan]]. 
 
-[[Category:{{{1}}}{{{2}}}0s|Deaths]]
-[[Category:{{{3}}}-century deaths|#{{PAGENAME}}]]<noinclude>
-[[Category:People and person templates|{{PAGENAME}}]]
+[[Category:{{{1}}}{{{2}}}0s|Kematyan]]
+[[Category:{{{3}}}-dilanuang kematyan|#{{PAGENAME}}]]<noinclude>
+[[Category:Tau ampong taung plantilla|{{PAGENAME}}]]
 [[Category:Time, date and calendar templates|{{PAGENAME}}]]
 
 [[mk:Шаблон:Deathdecade]]
