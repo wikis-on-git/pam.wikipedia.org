@@ -1,0 +1,4 @@
+<includeonly><div style="text-align:left; position:relative;"><div style="position:absolute; top:{{{top|0}}}; right:{{{right|0}}}; bottom:{{{bottom|}}}; left:{{{left|}}};{{#if: {{{width|}}} | width:{{{width}}}; |}}">{{{1|''Error: Parameter missing (Template:Float)''}}}</div></div></includeonly><noinclude>
+{{Pp-template|small=yes}}
+{{documentation}}
+</noinclude>
