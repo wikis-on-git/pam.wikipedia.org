@@ -1,0 +1,18 @@
+{| class="toc plainlinks" style="float: right;"
+|-
+| [[:Category:{{#expr:{{{1}}}-1}}90s deaths|<<]]
+| [[:Category:{{{3}}}-century deaths|{{{3}}}-century deaths]]: 
+| [[:Category:{{{1}}}00s deaths|{{{1}}}00s]]–[[:Category:{{{1}}}10s deaths|{{{1}}}10s]]–[[:Category:{{{1}}}20s deaths|{{{1}}}20s]]–[[:Category:{{{1}}}30s deaths|{{{1}}}30s]]–[[:Category:{{{1}}}40s deaths|{{{1}}}40s]]–[[:Category:{{{1}}}50s deaths|{{{1}}}50s]]–[[:Category:{{{1}}}60s deaths|{{{1}}}60s]]–[[:Category:{{{1}}}70s deaths|{{{1}}}70s]]–[[:Category:{{{1}}}80s deaths|{{{1}}}80s]]–[[:Category:{{{1}}}90s deaths|{{{1}}}90s]]
+| [[:Category:{{#expr:{{{1}}}+1}}00s deaths|>>]]
+|}
+
+People who died in the '''[[{{{1}}}{{#ifeq:{{{2}}} | 0 | {{{2}}}0–{{{1}}}{{{2}}}9{{!}}{{{1}}}}}{{{2}}}0s]]'''.<br>
+''See also:'' [[:Category:{{{1}}}{{{2}}}0s births]]. 
+
+[[Category:{{{1}}}{{{2}}}0s|Deaths]]
+[[Category:{{{3}}}-century deaths|#{{PAGENAME}}]]<noinclude>
+[[Category:People and person templates|{{PAGENAME}}]]
+[[Category:Time, date and calendar templates|{{PAGENAME}}]]
+
+[[mk:Шаблон:Deathdecade]]
+</noinclude>
