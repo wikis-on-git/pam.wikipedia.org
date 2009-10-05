@@ -1,0 +1,37 @@
+{{#ifeq:{{FULLPAGENAME}} | Template:Potd/{{{3}}}-{{padleft:{{{4}}}|2|0}}-{{padleft:{{{5}}}|2|0}} ({{{2}}})
+|[[File:{{Potd/{{{3}}}-{{padleft:{{{4}}}|2|0}}-{{padleft:{{{5}}}|2|0}}}}|300px|thumb|{{lang|{{{2|}}}|{{{1}}}}}]]
+{{LangSwitch
+|de=Dies ist die Übersetzung auf {{ucfirst:{{language/de|{{{2}}}}}}} der Beschreibung des [[Commons:Bild des Tages|Bild des Tages]] vom {{ISOdate|{{{3}}}-{{padleft:{{{4}}}|2|0}}-{{padleft:{{{5}}}|2|0}}|de}}:
+|en=This is the {{language/en|{{{2}}}}} translation of the [[COM:POTD|Picture of the day]] description page from {{ISOdate|{{{3}}}-{{padleft:{{{4}}}|2|0}}-{{padleft:{{{5}}}|2|0}}|en}}.
+|nds=Dit is de Översetten op {{language/nds|{{{2}}}}} von den Text för dat [[COM:POTD|utwählt Bild vun hüüt]] för den {{ISOdate|{{{3}}}-{{padleft:{{{4}}}|2|0}}-{{padleft:{{{5}}}|2|0}}|nds}}.
+}}
+
+<div style="border:1px solid grey; padding:.2em 1em; margin-right:330px; direction: {{Dir|{{{2}}}}}">{{#if:{{{1|}}}
+ |{{lang|{{{2|}}}|{{{1}}}}}
+ |<span class="error">{{LangSwitch
+  |de=Die Beschreibung fehlt! Markiere die Seite mit <nowiki>{{speedydelete}}</nowiki>, falls sie  fehlerhaft erstellt wurde.
+  |en=Description missing! Tag this page with <nowiki>{{speedydelete}}</nowiki> if it was created by mistake.
+ }}</span>[[Category:Potd templates missing descriptions]]
+}}</div>
+
+{{LangSwitch
+|de=Beschreibungen in anderen Sprachen:
+|en=Descriptions in other languages:
+|nds=Text in annere Spraken:
+}}
+<div style="border:1px solid #999; margin-right:330px;">{{Special:PrefixIndex/Template:Potd/{{{3}}}-{{padleft:{{{4}}}|2|0}}-{{padleft:{{{5}}}|2|0}}_(}}</div>
+
+[[Category:Potd templates ({{{2}}})| {{{3}}}{{padleft:{{{4}}}|2|0}}{{padleft:{{{5}}}|2}}]]
+[[Category:Potd templates {{{3}}}-{{padleft:{{{4}}}|2|0}}| {{padleft:{{{5}}}|2}} ({{{2}}})]]
+|{{{1|}}}
+}}<noinclude>
+
+== Usage ==
+This template is used to tag daily localized potd templates.
+<pre>
+{{potd page|<description>|<language>|<year>|<month>|<day>}}
+</pre>
+For example: {{Tlf|potd description|some description|{{int:lang}}|{{CURRENTYEAR}}|{{CURRENTMONTH}}|{{CURRENTDAY2}}}}
+
+[[Category:Potd templates| {{PAGENAME}}]]
+</noinclude>
