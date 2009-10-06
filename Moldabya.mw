@@ -5,20 +5,20 @@ native_name = ''Republica Moldova'' |
 conventional_long_name = Republic of Moldova |
 common_name = Moldova |
 national_motto = none |
-national_anthem = ''[[Limba noastră]]''<br>("Our Language") |
+national_anthem = ''[[Limba noastră]]''<br />("Our Language") |
 <!--The national anthem of Moldova source: http://moldrpcv.tripod.com/id26.html -->
 image_flag = Moldova_flag_large.gif |
 image_coat = Moldova_gerb_large.gif |
 image_map = LocationMoldova.png |
 capital = [[Chişinău]] |latd=47|latm=0|latNS=N|longd=28|longm=55|longEW=E|
 largest_city = [[Chişinău]] |
-official_languages = [[Moldovan language|Moldovan]]{{rf|[ 1 ]|language}}<br>([[Romanian Language|Romanian]]) | 
+official_languages = [[Moldovan language|Moldovan]]{{rf|[ 1 ]|language}}<br />([[Romanian Language|Romanian]]) | 
 government_type = [[Parliamentary system|Parliamentary Republic]] |
-leader_titles = • [[President of Moldova|President]] <br> • [[Prime Minister of Moldova|Prime Minister]] |
-leader_names = [[Vladimir Voronin]] <br>[[Vasile Tarlev]] |
+leader_titles = • [[President of Moldova|President]] <br /> • [[Prime Minister of Moldova|Prime Minister]] |
+leader_names = [[Vladimir Voronin]] <br />[[Vasile Tarlev]] |
 sovereignty_type = [[Collapse of the Soviet Union|Independence]] |
-established_events = &bull; Date |
-established_dates = From the [[Soviet Union]]<br>[[August 27]], [[1991]] |
+established_events = • Date |
+established_dates = From the [[Soviet Union]]<br />[[August 27]], [[1991]] |
 area = 33,843 |
 areami²=13,067  <!-- Do not remove per [[WP:MOSNUM]] -->|
 area_rank = 135th |
@@ -50,7 +50,7 @@ utc_offset_DST = +3 |
 cctld = [[.md]] |
 calling_code = 373 |
 <!-- do not edit the official language section, see the discussion page first -->|
-footnotes ={{ent|1|language}} <small>[[Gagauz language|Gagauz]] and [[Russian language|Russian]] are also official in the [[Gagauzia|Gagauz Autonomous Region]])</small><br><small>[[Moldovan language|Moldavan]] is commonly considered another name for [[Romanian language|Romanian]]</small><br>{{ent|2|area}} <small>excluding [[Transnistria]]</small>
+footnotes ={{ent|1|language}} <small>[[Gagauz language|Gagauz]] and [[Russian language|Russian]] are also official in the [[Gagauzia|Gagauz Autonomous Region]])</small><br /><small>[[Moldovan language|Moldavan]] is commonly considered another name for [[Romanian language|Romanian]]</small><br />{{ent|2|area}} <small>excluding [[Transnistria]]</small>
 <!-- do not edit the official language section, see the discussion page first -->|
 }}
 
@@ -117,6 +117,7 @@ Ing Moldova metung yang [[parliamentary democracy]]. Ing [[pamuntuk state]] ning
 [[ga:An Mholdóiv]]
 [[gd:Moldàibhia]]
 [[gl:Moldova]]
+[[gu:મોલ્દોવા]]
 [[gv:Moldova]]
 [[haw:Molodowa]]
 [[he:מולדובה]]
