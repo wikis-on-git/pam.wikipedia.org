@@ -19,7 +19,7 @@
 {{Elementbox_vaporpressure_katpa | 1646 | 1814 | 2021 | 2281 | 2620 | 3078 | comment= }}
 {{Elementbox_section_atomicprop | color1=#ffc0c0 | color2=black }}
 {{Elementbox_crystalstruct | cubic face centered }}
-{{Elementbox_oxistates | &minus;1, 1, 2, '''3''', 4, 5, 6, 7<br />([[amphoteric]] oxide) }}
+{{Elementbox_oxistates | −1, 1, 2, '''3''', 4, 5, 6, 7<br />([[amphoteric]] oxide) }}
 {{Elementbox_electroneg_pauling | 2.54 }}
 {{Elementbox_ionizationenergies2 | 890.1 | 1980 }}
 {{Elementbox_atomicradius_pm | [[1 E-10 m|135]] }}
@@ -57,7 +57,7 @@
  | dm=[[beta emission|β<sup>-</sup>]] | de=0.453 | pn=199 | ps=[[mercury (element)|Hg]] }}
 {{Elementbox_isotopes_end}}
 {{Elementbox_footer | color1=#ffc0c0 | color2=black     }}
-==Lawen ya rin==
+== Lawen ya rin ==
 * [[Carat (purity)]]
 * [[Colloidal gold]]
 * [[White gold]]
@@ -69,15 +69,15 @@
 * [[Digital gold currency]]
 * [[Hallmark]]
 * [[Altay Mountains]]
-*[[Commodity fetishism]]
+* [[Commodity fetishism]]
 
-==Suglung Palwal==
+== Suglung Palwal ==
 {{Commons|Gold}}
 {{wiktionary|gold}}
-*[http://www.webelements.com/webelements/elements/text/Au/index.html WebElements.com &ndash; Gold] (also used as a reference)
-*[http://www.lateralscience.co.uk/gold/auriferous.html ''Getting Gold'' 1898 book]
-*[http://www.epa.gov/epaoswer/other/mining/techdocs/gold.pdf Technical Document on Extraction and Mining of Gold]
-*[http://www.earthworksaction.org/ Impacts of Gold Mining: Earthworksaction]
+* [http://www.webelements.com/webelements/elements/text/Au/index.html WebElements.com – Gold] (also used as a reference)
+* [http://www.lateralscience.co.uk/gold/auriferous.html ''Getting Gold'' 1898 book]
+* [http://www.epa.gov/epaoswer/other/mining/techdocs/gold.pdf Technical Document on Extraction and Mining of Gold]
+* [http://www.earthworksaction.org/ Impacts of Gold Mining: Earthworksaction]
 {{Jewellery Materials}}
 
 [[Category:Elementu chemical]]
@@ -209,6 +209,7 @@
 [[war:Bulawan]]
 [[wuu:金]]
 [[yi:גאלד]]
+[[yo:Wúrà]]
 [[za:Gim]]
 [[zh:金]]
 [[zh-classical:金]]
