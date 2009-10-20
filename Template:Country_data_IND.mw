@@ -1,0 +1,28 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = India
+| flag alias = Flag of India.svg
+| flag alias-British = British Raj Red Ensign.svg
+| flag alias-1931 = 1931 Flag of India.svg
+| flag alias-army = Flag of Indian Army.png
+| link alias-army = Indian Army
+| flag alias-naval = Naval Ensign of India.svg
+| flag alias-naval-1879 = Flag of Imperial India.svg
+| flag alias-naval-1928 = Naval Ensign of the United Kingdom.svg
+| link alias-naval = Indian Navy
+| flag alias-air force = Ensign of the Indian Air Force.svg
+| link alias-air force = Indian Air Force
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = British
+| var2 = 1931
+| var3 = naval-1879
+| var4 = naval-1928
+| redir1 = IND
+</noinclude>
+}}<noinclude>
+[[af:Sjabloon:Landdata Indië]]
+[[sl:Predloga:Podatki države Indija]]
+</noinclude>
