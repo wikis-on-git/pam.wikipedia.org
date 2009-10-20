@@ -1,0 +1,32 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = People's Republic of China
+| shortname alias = China
+| flag alias = Flag of the People's Republic of China.svg
+| flag alias-military = People's Liberation Army Flag of the People's Republic of China.svg
+| flag alias-army = Ground Force Flag of the People's Republic of China.svg
+| link alias-army = People's Liberation Army Ground Force
+| flag alias-naval = Naval Ensign of the People's Republic of China.svg
+| link alias-naval = People's Liberation Army Navy
+| flag alias-air force = Air Force Flag of the People's Republic of China.svg
+| link alias-air force = People's Liberation Army Air Force
+| name alias-football = China PR
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| templatename = China
+| var1 = military
+| redir1 = CHN
+| redir2 = People's Republic of China
+| redir3 = China, People's Republic of
+| redir4 = China (People's Republic of)
+| redir5 = PRC
+| related1 = Qing Dynasty
+| related2 = Republic of China
+</noinclude>
+}}<noinclude>
+[[af:Sjabloon:Landdata Sjina]]
+[[sl:Predloga:Podatki države Kitajska]]
+</noinclude>
