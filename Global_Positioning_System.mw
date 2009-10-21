@@ -1,19 +1,19 @@
 {| style="float:right;"
-|[[Image:GPS Satellite NASA art-iif.jpg|center|thumb|Ing panimanman ning metung a talagulis (''artist's conception'') keng GPS satellite a dudurut king yatu]]
+|[[File:GPS Satellite NASA art-iif.jpg|center|thumb|Ing panimanman ning metung a talagulis (''artist's conception'') keng GPS satellite a dudurut king yatu]]
 |-
-|[[Image:NAVSTAR GPS logo shield-official.jpg|left|90px]][[Image:50th Space Wing.png|right|90px]]
+|[[File:NAVSTAR GPS logo shield-official.jpg|left|90px]][[File:50th Space Wing.png|right|90px]]
 |-
-|[[Image:Magellan GPS Blazer12.jpg|center|thumb|Metung a civilian GPS receiver ("[[GPS navigation device]]") a magagamit king dayatmalat.]]
+|[[File:Magellan GPS Blazer12.jpg|center|thumb|Metung a civilian GPS receiver ("[[GPS navigation device]]") a magagamit king dayatmalat.]]
 |-
-|[[Image:KyotoTaxiRide.jpg|center|thumb|Ing [[Automotive navigation system|automotive navigation system]] king metung a taxi.]]
+|[[File:KyotoTaxiRide.jpg|center|thumb|Ing [[automotive navigation system]] king metung a taxi.]]
 |-
-|[[Image:GPS on smartphone cycling.JPG|thumb|right|Magagamit no kareng dakal a cellphone deng GPS receiver.]]
+|[[File:GPS on smartphone cycling.JPG|thumb|right|Magagamit no kareng dakal a cellphone deng GPS receiver.]]
 |}
 Ing '''Global Positioning System (GPS)''' metung yang [[:en:global navigation satellite system|sistema ning pamaglayag a pangyatung gagamit satellite (global navigation satellite system)]] (GNSS) a ayalkus ning [[United States Department of Defense]], at panibalan ning [[United States Air Force]] [[50th Space Wing]]. Ya kabud ganap a gaganang [[GNSS]] king yatu, maliari yang gamitang timawa ampong alang bayad, at maras, magsilbi ya kareng sibilian king pamaglayag. Gagamit yang [[Satellite constellation|constellation]] da reng pilatan ning 24 ampng [[satellite]] a [[Medium Earth Orbit]] a magparalang eksaktung senias a [[microwave]], a sasaup kareng [[GPS navigation device|GPS receiver]] a mangarcula king salukuyan dang [[:en:geographic location|pusisiun o kabilian]], ing oras, ampo ing karelang bilis o salusu (''velocity''). Ing opisial nang lagiu, '''NAVSTAR GPS'''. Lipat ning e ya acronym ing NAVSTAR,<ref>{{cite web |url=http://www.aero.org/publications/crosslink/summer2002/01.html |title=Charting a Course Toward Global Navigation |publisher=The Aerospace Corporation |author= Steven R. Strom|accessdate=2008-06-27 }}</ref> melalang la reng mapilan a [[:en:backronym]] para kaniti.<ref>[http://www.abbreviations.com/NAVSTAR What does NAVSTAR stand for?<!-- Bot generated title -->]</ref>
 
 Manibat aniang ganap deng pepagana aniang 1993, meging maleparan ing pamangamit ning GPS antimong [[radio navigation|saup king pamaglayag]] king mabilug a yatu, ampong metung a maulagang kasangkapan king [[:en:cartography|pamangawang mapa]], pamaniukad gabun, negosiu, gamit a pang-siensia, ampong ''hobby'' antimong [[:en:geocaching]]. Bukud kaniti, magsilbi ya ing saktung [[:en:time transfer|time reference]] kareng dakal a pigagamitan, alimbawa ing sientipicung pamanigaral kareng [[ayun]]. Metung ya muring maulagang pamangailangan king [[:en:synchronization|pamiagnan-agnan]] da reng ''cellular network'', anti ing [[Qualcomm]] [[CDMA2000|CDMA]] ''air interface'' a gagamitan da reng dakal a ''wireless carriers'' kareng miayaliwang bangsa.{{cn|date=November 2008}}  
 
-==Lon la murin deti==
+== Lon la murin deti ==
 {{nautical portal}}
 <div style="-moz-column-count:2; column-count:2;">
 *[[:en:Assisted GPS]] (A-GPS)
@@ -70,7 +70,7 @@ Manibat aniang ganap deng pepagana aniang 1993, meging maleparan ing pamangamit 
 <!--
 └────────────────────────────────────────────────────────┘-->
 <div class="references-2column">
-===Suglung a pang-kapamahalan===
+=== Suglung a pang-kapamahalan ===
 * [http://www.gps.gov/ GPS.gov] — General public education website created by the U.S. Government
 * [http://pnt.gov/ National Space-Based PNT Executive Committee]—Established in 2004 to oversee management of GPS and GPS augmentations at a national level.
 * [http://www.navcen.uscg.gov/gps/default.htm USCG Navigation Center]—Status of the GPS constellation, government policy, and links to other references.  Also includes satellite [[almanac]] data.
@@ -82,7 +82,7 @@ Manibat aniang ganap deng pepagana aniang 1993, meging maleparan ing pamangamit 
 * [http://www.afit.edu/cse/cases.cfm?case=17&a=detail Global Positioning System Systems Engineering Case Study (A detailed history of GPS development)]
 * Federal Aviation Administration's [http://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/faq/gps/ GPS FAQ]
 
-===Suglung ning pamipakilala/pamanuru===
+=== Suglung ning pamipakilala/pamanuru ===
 * {{HSW|38-how-gps-works-video|How GPS Works}}
 * GPS Academy [http://www.garmin.com/gpsacademy/ Garmin interactive video web site explaing what exactly GPS is and what it can do for  you].
 * Integraph's Geomedia [http://www.geomedia.com.ua/ GIS education, GPS dictionary]
@@ -95,7 +95,7 @@ Manibat aniang ganap deng pepagana aniang 1993, meging maleparan ing pamangamit 
 * HowStuffWorks [http://www.howstuffworks.com/gps.htm Simplified explanation of GPS] and [http://videos.howstuffworks.com/howstuffworks/38-how-gps-works-video.htm video about how GPS works].
 * Trimble's [http://www.trimble.com/gps/ Online GPS Tutorial] Tutorial designed to introduce you to the principles behind GPS
 
-===Suglung kareng paksang tecnical, pangkasalesayan, ampong paniaup===
+=== Suglung kareng paksang tecnical, pangkasalesayan, ampong paniaup ===
 * [http://whereis.crosscity.com/ The WhereAmI Project] — The WhereAmI Project. Personal Location Tracking and Publishing Service.
 * [http://pnt.gov/public/docs/2008-SPSPS.pdf GPS SPS Performance Standard] — The official Standard Positioning Service specification (2008 version).
 * [http://gps.afspc.af.mil/gpsoc/documents/GPS_Signal_Spec.pdf GPS SPS Performance Standard] — The official Standard Positioning Service specification (2001 version).
@@ -183,6 +183,7 @@ Manibat aniang ganap deng pepagana aniang 1993, meging maleparan ing pamangamit 
 [[it:Global Positioning System]]
 [[ja:グローバル・ポジショニング・システム]]
 [[jv:Sistem Posisi Global]]
+[[ka:გლობალური ადგილმდებარეობის განმსაზღვრელი სისტემა]]
 [[kn:ಜಿಪಿಎಸ್]]
 [[ko:GPS]]
 [[la:GPS (Systema localizationis globale)]]
