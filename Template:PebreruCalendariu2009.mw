@@ -1,0 +1,39 @@
+{{Calendar/Sun1stMonthStart{{#time:D|{{{year|{{CURRENTYEAR}}}}}0201}}
+|float={{{float|none}}}
+|titlestyle=background-color:{{{color|#ccccff}}};
+|weekstyle=background-color:{{{color2|#ccccff}}};
+|cur_month=[[{{{1a|{{{1|}}}}}}Pebreru {{{3|{{{year|{{CURRENTYEAR}}}}}}}}|{{{2|}}} Pebreru {{{3|{{{year|{{CURRENTYEAR}}}}}}}}]]
+|prev_month=[[{{{1a|{{{1|}}}}}}January {{{3|{{{year|{{CURRENTYEAR}}}}}}}}|<<]]
+|next_month=[[{{{1a|{{{1|}}}}}}March {{{3|{{{year|{{CURRENTYEAR}}}}}}}}|>>]]
+|01=[[{{{1|}}}Pebreru 1{{{4|}}}|1]]
+|02=[[{{{1|}}}Pebreru 2{{{4|}}}|2]]
+|03=[[{{{1|}}}Pebreru 3{{{4|}}}|3]]
+|04=[[{{{1|}}}Pebreru 4{{{4|}}}|4]]
+|05=[[{{{1|}}}Pebreru 5{{{4|}}}|5]]
+|06=[[{{{1|}}}Pebreru 6{{{4|}}}|6]]
+|07=[[{{{1|}}}Pebreru 7{{{4|}}}|7]]
+|08=[[{{{1|}}}Pebreru 8{{{4|}}}|8]]
+|09=[[{{{1|}}}Pebreru 9{{{4|}}}|9]]
+|10=[[{{{1|}}}Pebreru 10{{{4|}}}|10]]
+|11=[[{{{1|}}}Pebreru 11{{{4|}}}|11]]
+|12=[[{{{1|}}}Pebreru 12{{{4|}}}|12]]
+|13=[[{{{1|}}}Pebreru 13{{{4|}}}|13]]
+|14=[[{{{1|}}}Pebreru 14{{{4|}}}|14]]
+|15=[[{{{1|}}}Pebreru 15{{{4|}}}|15]]
+|16=[[{{{1|}}}Pebreru 16{{{4|}}}|16]]
+|17=[[{{{1|}}}Pebreru 17{{{4|}}}|17]]
+|18=[[{{{1|}}}Pebreru 18{{{4|}}}|18]]
+|19=[[{{{1|}}}Pebreru 19{{{4|}}}|19]]
+|20=[[{{{1|}}}Pebreru 20{{{4|}}}|20]]
+|21=[[{{{1|}}}Pebreru 21{{{4|}}}|21]]
+|22=[[{{{1|}}}Pebreru 22{{{4|}}}|22]]
+|23=[[{{{1|}}}Pebreru 23{{{4|}}}|23]]
+|24=[[{{{1|}}}Pebreru 24{{{4|}}}|24]]
+|25=[[{{{1|}}}Pebreru 25{{{4|}}}|25]]
+|26=[[{{{1|}}}Pebreru 26{{{4|}}}|26]]
+|27=[[{{{1|}}}Pebreru 27{{{4|}}}|27]]
+|28=[[{{{1|}}}Pebreru 28{{{4|}}}|28]]
+|29={{#ifexpr:{{#time:t|{{{year|{{CURRENTYEAR}}}}}0201}} >= 29|[[{{{1|}}}Pebreru 29{{{4|}}}|29]]}}<!-- May not exist -->
+|EndNote={{{EndNote|'''[[{{{year|{{CURRENTYEAR}}}}}|{{#time:xrY}}]]'''}}}
+}}
+<noinclude>{{Documentation}}</noinclude>
