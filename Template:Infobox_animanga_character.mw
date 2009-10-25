@@ -40,7 +40,7 @@
 |data7    = {{ #if: {{{oaux3<includeonly>|</includeonly>}}} | <nowiki></nowiki>
 {{{oaux3}}} }}
 
-|header8  = {{ #if: {{{nickname<includeonly>|</includeonly>}}} {{{alias|}}} {{{age|}}} {{{gender|}}} {{{species|}}} {{{born|}}} {{{death|}}} {{{nationality|}}} {{{class|}}} {{{occupation|}}} {{{title|}}} {{{relatives|}}} {{{paux1|}}} {{{paux2|}}} {{{paux3|}}} {{{paux4|}}} {{{paux5|}}} | Profile }}
+|header8  = {{ #if: {{{nickname<includeonly>|</includeonly>}}} {{{alias|}}} {{{age|}}} {{{gender|}}} {{{species|}}} {{{born|}}} {{{death|}}} {{{nationality|}}} {{{class|}}} {{{occupation|}}} {{{title|}}} {{{relatives|}}} {{{paux1|}}} {{{paux2|}}} {{{paux3|}}} {{{paux4|}}} {{{paux5|}}} | Aske }}
 
 |label9   = Palayo
 |data9    = {{{nickname<includeonly>|</includeonly>}}}
