@@ -1,0 +1,147 @@
+{{Infobox
+|bodystyle    = border-spacing: 2px 5px;
+
+|above        = {{ifempty|{{{name<includeonly>|</includeonly>}}}|{{PAGENAME}}}}
+|abovestyle   = background: {{ifempty|{{{color|}}}|#DEDEE2}}; color: {{ifempty|{{{color text|}}}|#000}};
+
+|subheader    = {{ #if: {{{series<includeonly>|</includeonly>}}} | <i>{{{series}}}</i> character }}
+
+|image        = {{{image<includeonly>|</includeonly>}}}
+|caption      = {{{caption<includeonly>|</includeonly>}}}
+|captionstyle = font-size: smaller;
+
+|headerstyle  = background: {{ifempty|{{{color|}}}|#DEDEE2}}; color: {{ifempty|{{{color text|}}}|#000}};
+
+|label1   = Minunang linto
+|data1    = {{ #if: {{{first<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{first}}} }}
+
+|label2   = Tauling linto
+|data2    = {{ #if: {{{last<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{last}}} }}
+
+|label3   = Lelangan neng
+|data3    = {{ #if: {{{creator<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{creator}}} }}
+
+|label4   = Siuala neng
+|data4    = {{ #if: {{{voiced by<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{voiced by}}} }}
+
+|label5   = {{{oaux1 name}}}
+|data5    = {{ #if: {{{oaux1<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{oaux1}}} }}
+
+|label6   = {{{oaux2 name}}}
+|data6    = {{ #if: {{{oaux2<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{oaux2}}} }}
+
+|label7   = {{{oaux3 name}}}
+|data7    = {{ #if: {{{oaux3<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{oaux3}}} }}
+
+|header8  = {{ #if: {{{nickname<includeonly>|</includeonly>}}} {{{alias|}}} {{{age|}}} {{{gender|}}} {{{species|}}} {{{born|}}} {{{death|}}} {{{nationality|}}} {{{class|}}} {{{occupation|}}} {{{title|}}} {{{relatives|}}} {{{paux1|}}} {{{paux2|}}} {{{paux3|}}} {{{paux4|}}} {{{paux5|}}} | Profile }}
+
+|label9   = Palayo
+|data9    = {{{nickname<includeonly>|</includeonly>}}}
+
+|label10  = Alias
+|data10   = {{{alias<includeonly>|</includeonly>}}}
+
+|label11  = Edad
+|data11   = {{{age<includeonly>|</includeonly>}}}
+
+|label12  = Gender
+|data12   = {{{gender<includeonly>|</includeonly>}}}
+
+|label13  = Uri
+|data13   = {{{species<includeonly>|</includeonly>}}}
+
+|label14  = Kebaitan
+|data14   = {{{born<includeonly>|</includeonly>}}}
+
+|label15  = Kematian
+|data15   = {{{death<includeonly>|</includeonly>}}}
+
+|label16  = Bangsa
+|data16   = {{{nationality<includeonly>|</includeonly>}}}
+
+|label17  = Class
+|data17   = {{{class<includeonly>|</includeonly>}}}
+
+|label18  = Obra
+|data18   = {{{occupation<includeonly>|</includeonly>}}}
+
+|label19  = Pamagat
+|data19   = {{{title<includeonly>|</includeonly>}}}
+
+|label20  = Kamaganak a makikilala
+|data20   = {{{relatives<includeonly>|</includeonly>}}}
+
+|label21  = {{{paux1 name}}}
+|data21   = {{ #if: {{{paux1<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{paux1}}} }}
+
+|label22  = {{{paux2 name}}}
+|data22   = {{ #if: {{{paux2<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{paux2}}} }}
+
+|label23  = {{{paux3 name}}}
+|data23   = {{ #if: {{{paux3<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{paux3}}} }}
+
+|label24  = {{{paux4 name}}}
+|data24   = {{ #if: {{{paux4<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{paux4}}} }}
+
+|label25  = {{{paux5 name}}}
+|data25   = {{ #if: {{{paux5<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{paux5}}} }}
+
+|header26 = {{ #if: {{{aux1<includeonly>|</includeonly>}}} {{{aux2|}}} {{{aux3|}}} {{{aux4|}}} {{{aux5|}}} | {{ #ifeq: {{lc:{{{divider<noinclude>|yes</noinclude>}}}}} | yes | Information | {{{divider|}}} }} }}
+
+|label27  = {{{aux1 name}}}
+|data27   = {{ #if: {{{aux1<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{aux1}}} }}
+
+|label28  = {{{aux2 name}}}
+|data28   = {{ #if: {{{aux2<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{aux2}}} }}
+
+|label29  = {{{aux3 name}}}
+|data29   = {{ #if: {{{aux3<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{aux3}}} }}
+
+|label30  = {{{aux4 name}}}
+|data30   = {{ #if: {{{aux4<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{aux4}}} }}
+
+|label31  = {{{aux5 name}}}
+|data31   = {{ #if: {{{aux5<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{aux5}}} }}
+}}<includeonly>{{
+  #ifeq: {{NAMESPACE}} | {{NS:0}} | <!-- no cats in userspace --><!--
+
+bad parameter name check - these usually come from people getting lazy when copying the example code
+-->{{ifparadef|{{{oaux name|¬}}}|[[Category:Infobox animanga character maintenance]]|}}<!--
+-->{{ifparadef|{{{oaux|¬}}}|[[Category:Infobox animanga character maintenance]]|}}<!--
+-->{{ifparadef|{{{paux name|¬}}}|[[Category:Infobox animanga character maintenance]]|}}<!--
+-->{{ifparadef|{{{paux|¬}}}|[[Category:Infobox animanga character maintenance]]|}}<!--
+-->{{ifparadef|{{{aux name|¬}}}|[[Category:Infobox animanga character maintenance]]|}}<!--
+-->{{ifparadef|{{{aux|¬}}}|[[Category:Infobox animanga character maintenance]]|}}<!--
+-->{{ifparadef|{{{oaux* name|¬}}}|[[Category:Infobox animanga character maintenance]]|}}<!--
+-->{{ifparadef|{{{oaux*|¬}}}|[[Category:Infobox animanga character maintenance]]|}}<!--
+-->{{ifparadef|{{{paux* name|¬}}}|[[Category:Infobox animanga character maintenance]]|}}<!--
+-->{{ifparadef|{{{paux*|¬}}}|[[Category:Infobox animanga character maintenance]]|}}<!--
+-->{{ifparadef|{{{aux* name|¬}}}|[[Category:Infobox animanga character maintenance]]|}}<!--
+-->{{ifparadef|{{{aux*|¬}}}|[[Category:Infobox animanga character maintenance]]|}}<!--
+-->{{ifparadef|{{{oaux[1-3] name|¬}}}|[[Category:Infobox animanga character maintenance]]|}}<!--
+-->{{ifparadef|{{{oaux[1-3]|¬}}}|[[Category:Infobox animanga character maintenance]]|}}<!--
+-->{{ifparadef|{{{paux[1-5] name|¬}}}|[[Category:Infobox animanga character maintenance]]|}}<!--
+-->{{ifparadef|{{{paux[1-5]|¬}}}|[[Category:Infobox animanga character maintenance]]|}}<!--
+-->{{ifparadef|{{{aux[1-5] name|¬}}}|[[Category:Infobox animanga character maintenance]]|}}<!--
+-->{{ifparadef|{{{aux[1-5]|¬}}}|[[Category:Infobox animanga character maintenance]]|}}
+}}</includeonly><noinclude>
+{{Documentation}}
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
+</noinclude>
