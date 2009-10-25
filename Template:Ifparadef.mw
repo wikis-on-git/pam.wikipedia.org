@@ -1,0 +1,21 @@
+{{
+  #if: {{{1|}}}
+  | {{
+    #ifeq: {{{1}}} | ¬
+    | {{{3|Not defined}}}
+    | {{
+      #if: {{{4|}}}
+      | {{{2|Defined, not empty}}}
+      | {{{2|Defined}}}
+    }}
+  }}
+  | {{
+    #if: {{{4|}}}
+    | {{{4}}}
+    | {{{2|Defined}}}
+  }}
+}}<noinclude>
+{{Intricate template}}
+{{Documentation}}
+
+</noinclude>
