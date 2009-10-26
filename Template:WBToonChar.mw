@@ -10,17 +10,17 @@
 {{!}}-
 }}
 {{#if: {{{first appearance|}}} |
-! [[First appearance]]
+! [[Mumunang linto]]
 {{!}} {{{first appearance}}}
 {{!}}-
 }}
 {{#if: {{{created by|}}} |
-! [[Animators|Created by]]
+! [[Animators|Lelangan neng]]
 {{!}} {{{created by}}}
 {{!}}-
 }}
 {{#if: {{{voiced by|}}} |
-! [[Voice acting|Voiced by]]
+! [[Voice acting|Siwala neng]]
 {{!}} {{{voiced by}}}
 {{!}}-
 }}
