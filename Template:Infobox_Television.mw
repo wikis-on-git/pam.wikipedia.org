@@ -1,0 +1,106 @@
+{{ infobox
+| bodyclass   = vevent
+| abovestyle  = background-color:{{{bgcolour|{{Television colour|{{{show_name}}}}}}}}; color: {{{color text|{{{colour text|#000}}}}}}; font-style: italic;
+| aboveclass  = summary
+| above       = {{{show_name|<includeonly>{{PAGENAME}}</includeonly>}}}
+| image       = {{{image|}}}
+| caption     = {{{caption|}}}
+| headerstyle = background-color:{{{bgcolour|{{Television colour|{{{show_name}}}}}}}}; color: {{{color text|{{{colour text|#000}}}}}}
+
+| label1      = Balu re murin king lagiung
+| data1       = {{{show_name_2|}}}
+| label2      = Uri/Genre
+| data2       = {{{genre|}}}
+| label3      = Format
+| data3       = {{{format|}}}
+| label4      = Lelangan neng
+| data4       = {{{creator|}}}
+| label5      = Inalkus neng
+| data5       = {{{developer|}}}
+| label6      = Sinulat neng
+| data6       = {{{writer|}}}
+| label7      = Directed by
+| data7       = {{{director|}}}
+| label8      = Creative director(s)
+| data8       = {{{creative_director|}}}
+| label9      = Inampang neng
+| data9       = {{{presenter|}}}
+| label10     = Bida/Manimunang tauan
+| class10     = description
+| data10      = {{{starring|}}}
+| label11     = Judges
+| data11      = {{{judges|}}}
+| label12     = Siwala da ri
+| data12      = {{{voices|}}}
+| label13     = Istoria neng
+| data13      = {{{narrated|}}}
+| label14     = Theme music composer
+| data14      = {{{theme_music_composer|}}}
+| label15     = Pamuklat a tigtigan
+| data15      = {{{opentheme|}}}
+| label16     = Paniarang tigtigan
+| data16      = {{{endtheme|}}}
+| label17     = Compositor
+| data17      = {{{composer|}}}
+| label18     = Bangsang penibatan
+| data18      = {{{country|}}}
+| label19     = Amanu
+| data19      = {{{language|}}}
+| label20     =  No. of seasons
+| data20      = {{{num_seasons|}}}
+| label21     = No. of series
+| data21      = {{{num_series|}}}
+| label22     = No. of episodes
+| data22      = {{{num_episodes|}}} {{#if: {{{list_episodes|}}} | ([[{{{list_episodes}}}|List of episodes]])}}
+
+| header23    =  {{#ifeq: {{#expr: {{#if:{{{producer|}}}|1|0}} or {{#if:{{{executive_producer|}}}|1|0}} or {{#if:{{{location|}}}|1|0}} or {{#if:{{{camera|}}}|1|0}} or {{#if:{{{runtime|}}}|1|0}} }} | 1 |Production }}
+
+| label24     = Executive producer(s)
+| data24      = {{{executive_producer|}}}
+| label25     = Producer(s)
+| data25      = {{{producer|}}}
+| label26     = Talapatuntun/Editor
+| data26      = {{{editor|}}}
+| label27     = Lugal
+| data27      = {{{location|}}}
+| label28     = Cinematography
+| data28      = {{{cinematography|}}}
+| label29     = Camera setup
+| data29      = {{{camera|}}}
+
+| label30     = Kaba
+| data30      = {{{runtime|}}}
+| label31     = Production company(s)
+| data31      = {{{company|}}}
+| label32     = Distributor
+| data32      = {{{distributor|}}}
+
+| header33    = {{#if:{{{channel|}}}{{{network|}}}{{{picture_format|}}}{{{audio_format|}}}{{{first_run|}}}{{{first_aired|}}}{{{last_aired|}}}{{{status|}}}|Broadcast}}
+
+| label34     = Orihinal a channel
+| data34      = {{#ifeq: {{#expr: {{#if:{{{channel|}}}|1|0}} or {{#if:{{{network|}}}|1|0}} }} | 1 | {{#if: {{{network|}}} | {{{network}}} | {{{channel}}} }} }}
+| label35     = Picture format
+| data35      = {{{picture_format|}}}
+| label36     = Audio format
+| data36      = {{{audio_format|}}}
+| label37     = Minuna yang mipalage king
+| data37      = {{{first_run|}}}
+| label38     = {{#if: {{{last_aired|}}}|Original run|Original airing}}
+| data38      = {{{first_aired|}}} {{#if: {{{last_aired|}}}| – {{{last_aired|}}}|}}
+| label39     = Kabilian
+| data39      = {{{status|}}}
+
+| header40    = {{#ifeq: {{#expr: {{#if:{{{preceded_by|}}}|1|0}} or {{#if:{{{followed_by|}}}|1|0}} or {{#if:{{{related|}}}|1|0}} }} | 1 | Pamituki-tuki }}
+
+| label41     = Tikian ne ing
+| data41      = {{{preceded_by|}}}
+| label42     = Katuki ne ing
+| data42      = {{{followed_by|}}}
+| label43     = Makaugneng palage
+| data43      = {{{related|}}}
+
+| header44    = {{#ifeq: {{#expr: {{#if:{{{website|}}}|1|0}} or {{#if:{{{production_website|}}}|1|0}} }} | 1 | External links }}
+
+| data45      = {{#if: {{{website|}}} |[{{{website}}} Official website] }}
+| data46      = {{#if: {{{production_website|}}} | [{{{production_website}}} Production website] }}
+}}{{#if: {{{imdb_id|}}} | <includeonly>[[Category:Television articles with an IMDb link in the infobox]]</includeonly> }}{{#if: {{{tv_com_id|}}} | <includeonly>[[Category:Television articles with a TV.com link in the infobox]]</includeonly> }}{{#ifexpr: {{#if:{{{bgcolour|}}}|1|0}} or {{#if:{{{bgcolor|}}}|1|0}} or {{#if:{{{color text|}}}|1|0}} or {{#if:{{{colour text|}}}|1|0}} | <includeonly>[[Category:Television articles that use colour in the infobox]]</includeonly>}}<noinclude>{{documentation}}<!-- category and language links go on /doc, not here --></noinclude>
