@@ -17,7 +17,7 @@
 {{Elementbox_vaporpressure_katpa | 807 | 876 | 1011 | 1219 | 1491 | 1858 | comment= }}
 {{Elementbox_section_atomicprop | color1=#cccc99 | color2=black }}
 {{Elementbox_crystalstruct | rhombohedral }}
-{{Elementbox_oxistates | &minus;3, '''3''', 5 }}
+{{Elementbox_oxistates | −3, '''3''', 5 }}
 {{Elementbox_electroneg_pauling | 2.05 }}
 {{Elementbox_ionizationenergies4 | 834 | 1594.9 | 2440 }}
 {{Elementbox_atomicradius_pm | [[1 E-10 m|145]] }}
@@ -44,13 +44,13 @@
 {{Elementbox_isotopes_end}}
 {{Elementbox_footer | color1=#cccc99 | color2=black }}
 
-[[Image:Antimony massive.jpg|200px|left|thumb|Katutubung maragul a antimony kambe ning [[redox|oxidation]] a productu]]
+[[File:Antimony massive.jpg|200px|left|thumb|Katutubung maragul a antimony kambe ning [[redox|oxidation]] a productu]]
 
-==Kasusug Kilwal==
+== Kasusug Kilwal ==
 {{Commons|Antimony}}
 {{wiktionary|antimony}}
 * [http://www.npi.gov.au/database/substance-info/profiles/10.html National Pollutant Inventory - Antimony and compounds]
-*[http://www.webelements.com/webelements/elements/text/Sb/index.html WebElements.com &ndash; Antimony]
+*[http://www.webelements.com/webelements/elements/text/Sb/index.html WebElements.com – Antimony]
 * [http://www.indexmundi.com/en/commodities/minerals/antimony/antimony_table09.html World Mine Production of Antimony, by Country]
 [[Category:Chemical elements]]
 [[Category:Metalloids]]
@@ -84,6 +84,7 @@
 [[ga:Antamón]]
 [[gl:Antimonio]]
 [[gv:Antimoan]]
+[[hak:Thi (銻)]]
 [[he:אנטימון]]
 [[hi:एन्टिमोनी]]
 [[hr:Antimon]]
