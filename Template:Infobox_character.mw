@@ -1,0 +1,163 @@
+{{Infobox
+|bodystyle    = border-spacing: 2px 5px;
+
+|above        = {{ifempty|{{{name<includeonly>|</includeonly>}}}|{{PAGENAME}}}}
+|abovestyle   = background: {{ifempty|{{{color|{{{colour|}}}}}}|#DEDEE2}}; color: {{ifempty|{{{color text|{{{colour text|}}}}}}|#000}};
+
+|subheader    = {{ #if: {{{series<includeonly>|</includeonly>}}} | <i>{{{series}}}</i> character }}
+
+|image        = {{{image<includeonly>|</includeonly>}}}
+|caption      = {{{caption<includeonly>|</includeonly>}}}
+|captionstyle = font-size: smaller;
+
+|headerstyle  = background: {{ifempty|{{{color|{{{colour|}}}}}}|#DEDEE2}}; color: {{ifempty|{{{color text|{{{colour text|}}}}}}|#000}};
+|labelstyle   = {{{lbl-style|}}}
+|datastyle    = {{{data-style|}}}
+
+|label1   = Minunang linto{{{sep|}}}
+|data1    = {{ #if: {{{first<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{first}}} }}
+
+|label2   = Tauling linto{{{sep|}}}
+|data2    = {{ #if: {{{last<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{last}}} }}
+
+|label3   = Sangkan{{{sep|}}}
+|data3    = {{ #if: {{{cause<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{cause}}} }}
+
+|label4   = Lelangan neng{{{sep|}}}
+|data4    = {{ #if: {{{creator<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{creator}}} }}
+
+|label5   = Legen neng{{{sep|}}}
+|data5    = {{ #if: {{{portrayer<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{portrayer}}} }}
+
+|label6   = Bilang da reng episode{{{sep|}}}
+|data6    = {{{episode<includeonly>|</includeonly>}}}
+
+|label7   = {{{lbl1}}}{{{sep|}}}
+|data7    = {{ #if: {{{data1<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{data1}}} }}
+
+|label8   = {{{lbl2}}}{{{sep|}}}
+|data8    = {{ #if: {{{data2<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{data2}}} }}
+
+|label9   = {{{lbl3}}}{{{sep|}}}
+|data9    = {{ #if: {{{data3<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{data3}}} }}
+
+|label10  = {{{lbl4}}}{{{sep|}}}
+|data10   = {{ #if: {{{data4<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{data4}}} }}
+
+|label11  = {{{lbl5}}}{{{sep|}}}
+|data11   = {{ #if: {{{data5<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{data5}}} }}
+
+|header12 = {{ #if: {{{noinfo|}}} || {{ #if: {{{nickname<includeonly>|</includeonly>}}} {{{alias|}}} {{{species|}}} {{{gender|}}} {{{age|}}} {{{born|}}} {{{death|}}} {{{specialty|}}} {{{occupation|}}} {{{title|}}} {{{callsign|}}} {{{family|}}} {{{spouse|}}} {{{significantother|}}} {{{children|}}} {{{relatives|}}} {{{residence|}}} {{{religion|}}} {{{nationality|}}} {{{data21|}}} {{{data22|}}} {{{data23|}}} {{{data24|}}} {{{data25|}}} | {{ifempty|{{{info-hdr|}}}|Information}} }} }}
+
+|label13  = Palayo{{{sep|}}}
+|data13   = {{{nickname<includeonly>|</includeonly>}}}
+
+|label14  = Alias{{{sep|}}}
+|data14   = {{{alias<includeonly>|</includeonly>}}}
+
+|label15  = Uri{{{sep|}}}
+|data15   = {{{species<includeonly>|</includeonly>}}}
+
+|label16  = Gender{{{sep|}}}
+|data16   = {{{gender<includeonly>|</includeonly>}}}
+
+|label17  = Edad{{{sep|}}}
+|data17   = {{{age<includeonly>|</includeonly>}}}
+
+|label18  = Kebaitan{{{sep|}}}
+|data18   = {{{born<includeonly>|</includeonly>}}}
+
+|label19  = Kematian{{{sep|}}}
+|data19   = {{{death<includeonly>|</includeonly>}}}
+
+|label20  = Specialty{{{sep|}}}
+|data20   = {{{specialty<includeonly>|</includeonly>}}}
+
+|label21  = Obra{{{sep|}}}
+|data21   = {{{occupation<includeonly>|</includeonly>}}}
+
+|label22  = Pamagat{{{sep|}}}
+|data22   = {{{title<includeonly>|</includeonly>}}}
+
+|label23  = Call sign{{{sep|}}}
+|data23   = {{{callsign<includeonly>|</includeonly>}}}
+
+|label24  = Familia{{{sep|}}}
+|data24   = {{{family<includeonly>|</includeonly>}}}
+
+|label25  = Asawa{{{sep|}}}
+|data25   = {{{spouse<includeonly>|</includeonly>}}}
+
+|label26  = [[Significant other]](s){{{sep|}}}
+|data26   = {{{significantother<includeonly>|</includeonly>}}}
+
+|label27  = Anak{{{sep|}}}
+|data27   = {{{children<includeonly>|</includeonly>}}}
+
+|label28  = Kamaganak{{{sep|}}}
+|data28   = {{{relatives<includeonly>|</includeonly>}}}
+
+|label29  = Tuknangan{{{sep|}}}
+|data29   = {{{residence<includeonly>|</includeonly>}}}
+
+|label30  = Relihiun{{{sep|}}}
+|data30   = {{{religion<includeonly>|</includeonly>}}}
+
+|label31  = Bangsa{{{sep|}}}
+|data31   = {{{nationality<includeonly>|</includeonly>}}}
+
+|label32  = {{{lbl21}}}{{{sep|}}}
+|data32   = {{ #if: {{{data21<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{data21}}} }}
+
+|label33  = {{{lbl22}}}{{{sep|}}}
+|data33   = {{ #if: {{{data22<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{data22}}} }}
+
+|label34  = {{{lbl23}}}{{{sep|}}}
+|data34   = {{ #if: {{{data23<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{data23}}} }}
+
+|label35  = {{{lbl24}}}{{{sep|}}}
+|data35   = {{ #if: {{{data24<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{data24}}} }}
+
+|label36  = {{{lbl25}}}{{{sep|}}}
+|data36   = {{ #if: {{{data25<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{data25}}} }}
+
+|header37 = {{ #if: {{{data31<includeonly>|</includeonly>}}} {{{data32|}}} {{{data33|}}} {{{data34|}}} {{{data35|}}} | {{{extra-hdr<includeonly>|</includeonly>}}} }}
+
+|label38  = {{{lbl31}}}{{{sep|}}}
+|data38   = {{ #if: {{{data31<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{data31}}} }}
+
+|label39  = {{{lbl32}}}{{{sep|}}}
+|data39   = {{ #if: {{{data32<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{data32}}} }}
+
+|label40  = {{{lbl33}}}{{{sep|}}}
+|data40   = {{ #if: {{{data33<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{data33}}} }}
+
+|label41  = {{{lbl34}}}{{{sep|}}}
+|data41   = {{ #if: {{{data34<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{data34}}} }}
+
+|label42  = {{{lbl35}}}{{{sep|}}}
+|data42   = {{ #if: {{{data35<includeonly>|</includeonly>}}} | <nowiki></nowiki>
+{{{data35}}} }}
+}}<noinclude>
+{{Documentation}}
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
+</noinclude>
