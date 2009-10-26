@@ -1,0 +1,40 @@
+{| class="infobox" style="width:22em; text-align:left; font-size:90%;"
+! colspan="2" style="background:#B0E0E6; text-align:center; font-size:125%;" | {{{name}}}
+|-
+{{#if: {{{image|}}} |
+{{!}} colspan="2" style="text-align:center;" {{!}} {{{image}}}
+{{!}}-
+}}
+{{#if: {{{image caption|}}} |
+{{!}} colspan="2" style="text-align:center;" {{!}}  {{{image caption}}}
+{{!}}-
+}}
+{{#if: {{{first appearance|}}} |
+! [[First appearance]]
+{{!}} {{{first appearance}}}
+{{!}}-
+}}
+{{#if: {{{created by|}}} |
+! [[Animators|Created by]]
+{{!}} {{{created by}}}
+{{!}}-
+}}
+{{#if: {{{voiced by|}}} |
+! [[Voice acting|Voiced by]]
+{{!}} {{{voiced by}}}
+{{!}}-
+}}
+|}<noinclude>
+==Usage==
+<pre>
+{{WBToonChar
+| name              =
+| image             =
+| image caption     =
+| first appearance  =
+| created by        =
+| voiced by         =
+}}
+</pre>
+{{Category:Warner Bros. cartoon characters}}
+</noinclude>
