@@ -1,0 +1,12 @@
+{{Navbox
+|navbar = plain
+|title = {{{title|Links to related articles}}}
+|list1 = {{{list1|{{{list|}}}}}}
+|state={{{state|collapsed}}}
+|titlestyle = {{{titlestyle|}}}
+|liststyle = padding:0px;font-size:111%;
+|listpadding = 0px;
+}}<noinclude>
+{{pp-template|small=yes}}
+{{documentation}}
+</noinclude>
