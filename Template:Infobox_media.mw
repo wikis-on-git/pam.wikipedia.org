@@ -1,0 +1,33 @@
+{{ infobox
+| title   = {{{title|<includeonly>{{{name|{{{subject_name|{{PAGENAME}} }}} }}}</includeonly>}}}
+| above   = {{{logo|}}}
+| image   = {{{image|}}}
+| caption = {{{caption|}}}
+
+| label3  = Media type
+| data3   = {{{type|}}}
+| label4  = [[Content format|Encoding]]
+| data4   = {{{encoding|}}}
+| label5  = Capacity
+| data5   = {{{capacity|}}}
+| label6  = Block size
+| data6   = {{{blocksize|}}}
+| label7  = Read mechanism
+| data7   = {{{read|}}}
+| label8  = Write mechanism
+| data8   = {{{write|}}}
+| label9  = [[International standard|Standard]]
+| data9   = {{{standard|}}}
+| label10  = Developed by
+| data10   = {{{owner|}}}
+| label11 = Dimensions
+| data11  = {{{dimensions|}}}
+| label12 = Weight
+| data12  = {{{weight|}}}
+| label13 = Usage
+| data13  = {{{use|}}}
+| label14 = Extended from
+| data14  = {{{extended from|}}}
+| label15 = Extended to
+| data15  = {{{extended to|}}}
+}}<noinclude>{{documentation}}<!---Please add metadata to the <includeonly> section at the bottom of the /doc subpage---></noinclude>
