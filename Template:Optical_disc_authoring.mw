@@ -1,0 +1,54 @@
+{{ infobox
+| title     = [[Optical discs]]
+| datastyle = text-align: left
+| data1     = <span>
+* [[Optical disc]]
+* [[Optical disc drive]]
+* [[Optical disc authoring]]
+* [[Optical disc authoring software|Authoring software]]
+* [[Optical disc recording technologies|Recording technologies]]
+** [[Optical disc recording modes|Recording modes]]
+** [[Packet writing]]
+</span>
+| header2 = Optical media types
+| data3   = <span>
+* [[Blu-ray Disc]] (BD): [[Blu-ray Disc recordable|BD-R, BD-RE]]
+* [[DVD]]: [[DVD-R]], [[DVD+R]], [[DVD-R DL]], [[DVD+R DL]], [[DVD-RW]], [[DVD+RW]], [[DVD-RW DL]], [[DVD+RW DL]], [[DVD-RW2]], [[DVD-RAM]], [[DVD-D]], [[High-Definition Versatile Disc|HVD]]
+* [[Compact Disc]] (CD): [[Red Book (audio CD standard)|Red Book]], [[CD-ROM]], [[CD-R]], [[CD-RW]], [[5.1 Music Disc]], [[Super Audio CD|SACD]], [[PhotoCD]], [[CD Video]] (CDV), [[Video CD]] (VCD), [[SVCD]], [[CD+G]], [[CD-Text]], [[CD-ROM XA]], [[CD-i]]
+* [[Universal Media Disc]] (UMD)
+* [[Enhanced Versatile Disc]] (EVD)
+* [[Forward Versatile Disc]] (FVD)
+* [[Holographic Versatile Disc]] (HVD)
+* [[China Blue High-definition Disc]] (CBHD)
+* [[HD DVD]]: [[HD DVD-R]], [[HD DVD-RW]], [[HD DVD-RAM]] 
+* [[High-Definition Versatile Disc]] (HDVD) 
+* High definition [[Versatile Multilayer Disc]] (HD VMD)
+* [[VCDHD]]
+* [[GD-ROM]]
+* [[MiniDisc]] (MD) ([[Hi-MD]])
+* [[Laserdisc]] (LD) 
+* [[Video Single Disc]] (VSD)
+* [[Ultra Density Optical]] (UDO)
+* [[Stacked Volumetric Optical Disk]] (SVOD)
+* [[5D DVD|Five dimensional discs]] (5D DVD)
+* [[Nintendo optical disc]] (NOD)
+</span>
+| header5 = Standards
+| data6   = <span>
+* [[Rainbow Books]]
+* File systems
+** [[ISO 9660]]
+*** [[Joliet (file system)|Joliet]]
+*** [[Rock Ridge]] / SUSP
+*** [[El Torito (CD-ROM standard)|El Torito]]
+*** [[Apple ISO 9660 Extensions]]
+** [[Universal Disk Format]] (UDF)
+*** [[Mount Rainier (packet writing)|Mount Rainier]]
+</span>
+| header7 = Further reading
+| data8   = <span>
+* [[History of optical storage media]]
+* [[High definition optical disc format war]]
+</span>
+| below   = {{navbar|Optical disc authoring}}
+}}<includeonly>[[Category:Optical disc authoring]]</includeonly><noinclude>{{documentation}}</noinclude>
