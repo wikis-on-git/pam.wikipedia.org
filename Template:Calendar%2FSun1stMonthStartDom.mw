@@ -4,13 +4,13 @@
 |colspan="5" style="text-align: center;"| '''{{{cur_month|Month}}}'''
 |{{{next_month|>>}}}
 |- style="border: none; {{{weekstyle|background-color: #ccccff;}}}"
-|width="14%"| Dom
-|width="14%"| Lun
-|width="14%"| Mar
-|width="14%"| Mie
-|width="14%"| Hue
-|width="14%"| Bie
-|width="14%"| Sab
+|width="14%"| Do
+|width="14%"| Lu
+|width="14%"| Ma
+|width="14%"| Mi
+|width="14%"| Hu
+|width="14%"| Bi
+|width="14%"| Sa
 |-
 |-
 |{{{01}}}||{{{02}}}||{{{03}}}||{{{04}}}||{{{05}}}||{{{06}}}||{{{07}}}
