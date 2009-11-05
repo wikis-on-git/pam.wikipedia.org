@@ -1007,7 +1007,7 @@
 | party = {{{party|}}}
 | prior_term12 = {{{prior_term12|}}}
 }}
-{{Infobox officeholder/Oficina|13|
+{{Infobox officeholder/Office|13|
 | 1blankname13 = {{{1blankname13|}}}
 | 1namedata13 = {{{1namedata13|}}}
 | 2blankname13 = {{{2blankname13|}}}
@@ -1077,7 +1077,7 @@
 | party = {{{party|}}}
 | prior_term13 = {{{prior_term13|}}}
 }}
-{{Infobox officeholder/Oficina|14|
+{{Infobox officeholder/Office|14|
 | 1blankname14 = {{{1blankname14|}}}
 | 1namedata14 = {{{1namedata14|}}}
 | 2blankname14 = {{{2blankname14|}}}
@@ -1148,7 +1148,7 @@
 | prior_term14 = {{{prior_term14|}}}
 }}}}
 <!----------Personal data---------->
-{{Infobox officeholder/Informaciun a personal
+{{Infobox officeholder/Personal data
 | birth{{#if:{{{birthdate|}}}||_}}date = {{{birth{{#if:{{{birthdate|}}}||_}}date|}}}
 | birth{{#if:{{{birthplace|}}}||_}}place = {{{birth{{#if:{{{birthplace|}}}||_}}place|}}}
 | death{{#if:{{{deathdate|}}}||_}}date = {{{death{{#if:{{{deathdate|}}}||_}}date|}}}
