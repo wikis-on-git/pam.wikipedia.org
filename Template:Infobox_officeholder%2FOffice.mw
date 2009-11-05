@@ -290,7 +290,7 @@
 {{!}}-
 }}
 {{#if:{{{incumbent{{{1}}}|}}}|
-! Incumbent
+! Makalukluk
 {{!}} {{{incumbent{{{1}}}}}}
 {{!}}-
 }}
@@ -310,8 +310,8 @@
 }}
 {{#switch:{{{{{#if:{{{successor{{{1}}}|}}}|successor|succeeded}}{{{1}}}|}}}
 | Incumbent
-| '''Makalukluk'''
-| ''Makalukluk''
+| '''Incumbent'''
+| ''Incumbent''
 | [[Incumbent]]
 | incumbent
 | '''incumbent'''
