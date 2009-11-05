@@ -3,32 +3,32 @@
 {{!}}colspan="2"{{!}}<hr/>
 {{!}}-
 {{#if:{{{birth{{#if:{{{birthdate|}}}||_}}date|}}}|
-! Born
+! Mibait
 {{!}} {{{birth{{#if:{{{birthdate|}}}||_}}date}}}<br />{{{birth{{#if:{{{birthplace|}}}||_}}place|}}}
 {{!}}-
 }}
 {{#if:{{{death{{#if:{{{deathdate|}}}||_}}date|}}}|
-! Died
+! Mete
 {{!}} {{{death{{#if:{{{deathdate|}}}||_}}date}}}<br />{{{death{{#if:{{{deathplace|}}}||_}}place|}}}
 {{!}}-
 }}
 {{#if:{{{date of birth|}}}|
-! Born
+! Mibait
 {{!}} {{{date of birth}}}<br />{{{place of birth|}}}
 {{!}}-
 }}
 {{#if:{{{date of death|}}}|
-! Died
+! Mete
 {{!}} {{{date of death}}}<br />{{{place of death|}}}
 {{!}}-
 }}
 {{#if:{{{restingplace|}}}|
-! Resting&nbsp;place
+! Libingan&nbsp;
 {{!}} {{{restingplace}}}<br />{{#if:{{{restingplacecoordinates|}}}|{{{restingplacecoordinates}}}}}
 {{!}}-
 }}
 {{#if:{{{birthname|}}}|
-! Birth&nbsp;name
+! Lagiu&nbsp;kabait
 {{!}} {{{birthname}}}
 {{!}}-
 }}
@@ -38,18 +38,18 @@
 {{!}}-
 }}
 {{#if:{{{nationality|}}}|
-! Nationality
+! Bangsa
 {{!}} {{{nationality}}}
 {{!}}-
 }}
 {{#if:{{{ethnicity|}}}|
-! Ethnicity
+! Lahi
 {{!}} {{{ethnicity}}}
 {{!}}-
 }}
 <!----------Party---------->
 {{#if:{{{party|}}}|
-! Political&nbsp;party
+! Partido&nbsp;political
 {{!}} {{#switch:{{{party}}}
 | [[United States Democratic Party|Democrat]]
 | [[Democratic Party (United States)|Democratic]]
@@ -90,7 +90,7 @@
 }}
 <!----------Spouse, etc.---------->
 {{#if:{{{spouse|}}}|
-! Spouse(s)
+! Asawa
 {{!}} {{{spouse}}}
 {{!}}-
 }}
@@ -105,22 +105,22 @@
 {{!}}-
 }}
 {{#if:{{{children|}}}|
-! Children
+! Ának
 {{!}} {{{children}}}
 {{!}}-
 }}
 {{#if:{{{residence|}}}|
-! Residence
+! Tuknangan
 {{!}} {{{residence}}}
 {{!}}-
 }}
 {{#if:{{{alma_mater|}}}|
-! [[Alma mater|Alma&nbsp;mater]]
+! [[Alma mater|Pipagaralan&nbsp;]]
 {{!}} {{{alma_mater}}}
 {{!}}-
 }}
 {{#if:{{{occupation|}}}|
-! Occupation
+! Obra
 {{!}} {{{occupation}}}
 {{!}}-
 }}
@@ -135,7 +135,7 @@
 {{!}}-
 }}
 {{#if:{{{committees|}}}|
-! Committees
+! Comite
 {{!}} {{{committees}}}
 {{!}}-
 }}
@@ -145,7 +145,7 @@
 {{!}}-
 }}
 {{#if:{{{religion|}}}|
-! Religion
+! Relihion
 {{!}} {{{religion}}}
 {{!}}-
 }}
@@ -175,7 +175,7 @@
 {{!}}-
 }}
 {{#if:{{{signature|}}}|
-! Signature
+! Firma
 {{!}} [[Image:{{{signature}}}|128px|alt={{{signature_alt|}}}|{{PAGENAME}}'s signature]]
 {{!}}-
 }}
@@ -190,7 +190,7 @@
 {{!}}-
 }}
 {{#if:{{{nickname|}}}|
-! Nickname(s)
+! Palayo
 {{!}} {{{nickname}}}
 {{!}}-
 }}
