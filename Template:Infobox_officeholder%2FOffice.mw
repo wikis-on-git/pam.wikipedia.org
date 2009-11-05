@@ -144,7 +144,7 @@
 {{#if:{{{term{{#if:{{{termend{{{1}}}|}}}||_}}end{{{1}}}|}}}
 |<!--then nothing else; term has ended-->
 |<!--else term is ongoing:-->
-{{!}}colspan="2" style="text-align:center;"{{!}}'''Assumed&nbsp;office&nbsp;'''<br />{{{term{{#if:{{{termstart{{{1}}}|}}}||_}}start{{{1}}}}}}{{#if:{{{alongside{{{1}}}|}}}{{{co-leader{{{1}}}|}}}|<br />{{#if:{{{alongside{{{1}}}|}}}|Serving|Co&ndash;leader}}&nbsp;with&nbsp;{{#if:{{{alongside{{{1}}}|}}}|{{{alongside{{{1}}}}}}|{{{co-leader{{{1}}}}}}}}}}
+{{!}}colspan="2" style="text-align:center;"{{!}}'''Migumpisang&nbsp;manungkulan&nbsp;'''<br />{{{term{{#if:{{{termstart{{{1}}}|}}}||_}}start{{{1}}}}}}{{#if:{{{alongside{{{1}}}|}}}{{{co-leader{{{1}}}|}}}|<br />{{#if:{{{alongside{{{1}}}|}}}|Serving|Co&ndash;leader}}&nbsp;with&nbsp;{{#if:{{{alongside{{{1}}}|}}}|{{{alongside{{{1}}}}}}|{{{co-leader{{{1}}}}}}}}}}
 {{!}}-
 }}
 }}
@@ -182,7 +182,7 @@
 {{!}}-
 }}
 {{#if:{{{firstminister{{{1}}}|}}}|
-! First&nbsp;Minister
+! Mumunang&nbsp;Ministru
 {{!}} {{{firstminister{{{1}}}}}}
 {{!}}-
 }}
@@ -295,16 +295,16 @@
 {{!}}-
 }}
 {{#if:{{{succeeding{{{1}}}|}}}|
-! Succeeding
+! Elilan ne i
 {{!}} {{{succeeding{{{1}}}}}}
 {{!}}-
 |{{#if:{{{preceding{{{1}}}|}}}|
-! Preceding
+! Elilan neng
 {{!}} {{{preceding{{{1}}}}}}
 {{!}}-
 }}
 {{#if:{{{{{#if:{{{predecessor{{{1}}}|}}}|predecessor|preceded}}{{{1}}}|}}} |
-! Preceded&nbsp;by
+! Elilan&nbsp;ne i
 {{!}} {{{{{#if:{{{predecessor{{{1}}}|}}}|predecessor|preceded}}{{{1}}}|}}}
 {{!}}-
 }}
@@ -318,7 +318,7 @@
 | ''incumbent''
 | [[incumbent]] =
 |{{#if:{{{{{#if:{{{successor{{{1}}}|}}}|successor|succeeded}}{{{1}}}|}}} |
-! Succeeded&nbsp;by
+! Elilan&nbsp;neng
 {{!}} {{{{{#if:{{{successor{{{1}}}|}}}|successor|succeeded}}{{{1}}}|}}} }}
 {{!}}-
 }}}}
