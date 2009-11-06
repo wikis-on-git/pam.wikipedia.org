@@ -95,12 +95,12 @@
 {{!}}-
 }}
 {{#if:{{{partner|}}}|
-! Domestic&nbsp;partner
+! Kapareha&nbsp;
 {{!}} {{{partner}}}
 {{!}}-
 }}
 {{#if:{{{relations|}}}|
-! Relations
+! Kamaganak
 {{!}} {{{relations}}}
 {{!}}-
 }}
@@ -125,12 +125,12 @@
 {{!}}-
 }}
 {{#if:{{{profession|}}}|
-! Profession
+! Profesion
 {{!}} {{{profession}}}
 {{!}}-
 }}
 {{#if:{{{cabinet|}}}|
-! Cabinet
+! Gabinete
 {{!}} {{{cabinet}}}
 {{!}}-
 }}
@@ -180,13 +180,13 @@
 {{!}}-
 }}
 {{#if:{{{website|}}}|
-! Website
+! Karinan king Aptas (''Website'')
 {{!}} {{{website}}}
 {{!}}-
 }}
 <!----------Military service---------->
 {{#if:{{{allegiance|}}}{{{branch|}}}{{{serviceyears|}}}{{{rank|}}}{{{unit|}}}{{{commands|}}}{{{battles|}}}{{{awards|}}}{{{military_blank1|}}}|
-{{!}} colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} '''Military service'''
+{{!}} colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} '''Pamagsilbi king militar'''
 {{!}}-
 }}
 {{#if:{{{nickname|}}}|
@@ -200,17 +200,17 @@
 {{!}}-
 }}
 {{#if:{{{branch|}}}|
-! Service/branch
+! Sangang pagsilbian
 {{!}} {{{branch}}}
 {{!}}-
 }}
 {{#if:{{{serviceyears|}}}|
-! Years&nbsp;of service
+! Banua&nbsp;ning servicio
 {{!}} {{{serviceyears}}}
 {{!}}-
 }}
 {{#if:{{{rank|}}}|
-! Rank
+! Rango
 {{!}} {{{rank}}}
 {{!}}-
 }}
@@ -220,17 +220,17 @@
 {{!}}-
 }}
 {{#if:{{{commands|}}}|
-! Commands
+! Tatalnan
 {{!}} {{{commands}}}
 {{!}}-
 }}
 {{#if:{{{battles|}}}|
-! Battles/wars
+! Gera
 {{!}} {{{battles}}}
 {{!}}-
 }}
 {{#if:{{{awards|}}}|
-! Awards
+! Galal
 {{!}} {{{awards}}}
 {{!}}-
 }}
