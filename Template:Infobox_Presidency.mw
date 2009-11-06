@@ -1,0 +1,61 @@
+<noinclude>{{start infobox page}}
+</noinclude>{{Infobox
+|style        = width:{{{width|17.5em}}};
+|above        = {{{name|{{{post}}} of {{{body}}}<br/> {{{nativename<includeonly>|</includeonly>}}}}}}
+|abovestyle   = line-height:1.2em; font-size:135%;
+|image        = {{#if:{{{insignia<includeonly>|</includeonly>}}}
+                 | [[Image:{{{insignia}}}|{{{insigniasize|100px}}}]]
+                }}
+|imagestyle   = padding-bottom:0.4em; border-bottom:solid 1px #ccd2d9;
+|caption      = {{{insigniacaption<includeonly>|</includeonly>}}}
+|captionstyle = padding-top:0.2em;
+|labelstyle   = padding:0 0.5em 0 0; background:transparent; line-height:1.1em;
+|datastyle    = padding:0; line-height:1.2em; vertical-align:middle;
+
+
+|data1  = {{#if:{{{incumbent<includeonly>|</includeonly>}}}
+           | <div style="padding-bottom:0.4em; <!--
+                      -->border-bottom:solid 1px #ccd2d9; line-height:1.4em;"><!--
+              -->{{#if:{{{image<includeonly>|</includeonly>}}}
+                  | <div style="padding-bottom:0.4em;"><!--
+                     -->[[File:{{{image}}}|center|border|{{{imagesize|120px}}}|alt={{{alt|}}}]]</div>
+                 }}<!--
+              -->'''Incumbent<br/>{{{incumbent}}}'''<!--
+              -->{{#if:{{{incumbentsince<includeonly>|</includeonly>}}}
+                  | <br/><small>since&nbsp;{{{incumbentsince}}}</small>
+                 }}<!--
+          --></div><!--
+       -->}}
+
+
+|label2 = [[Style (manner of address)|Style]]
+|data2  = {{{style<includeonly>|</includeonly>}}}
+|label3 = [[Official residence|Residence]]
+|data3  = {{{residence<includeonly>|</includeonly>}}}
+|label4 = Appointer
+|data4  = {{{appointer<includeonly>|</includeonly>}}}<!--
+       -->{{#if:{{{appointerpost<includeonly>|</includeonly>}}}
+           | <div style="padding-top:0.2em; font-size:80%;">as {{{appointerpost}}}</div>
+          }}
+|label5 = [[Term of office|Term length]]
+|data5  = {{{termlength<includeonly>|</includeonly>}}}
+|label6 = Inaugural holder
+|data6  = {{{inaugural<includeonly>|</includeonly>}}}
+|label7 = Formation
+|data7  = {{{formation}}}
+|label8 = [[Order of succession|Succession]]
+|data8  = {{{succession<includeonly>|</includeonly>}}}
+|label9 = Deputy
+|data9  =  {{{deputy<includeonly>|</includeonly>}}}
+|label10 = Salary
+|data10  = {{{salary<includeonly>|</includeonly>}}}
+|label11 = Website
+|data11  = {{{website<includeonly>|</includeonly>}}}
+}}<noinclude>
+{{end infobox page}}
+
+<!---Please add metadata (categories, interwikis) to the <includeonly>
+     section at the bottom of [[Template:Infobox Political post/doc]],
+     not here - thanks!--->
+</noinclude><noinclude>
+</noinclude>
