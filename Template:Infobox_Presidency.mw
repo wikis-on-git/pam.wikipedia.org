@@ -30,26 +30,26 @@
 
 |label2 = [[Style (manner of address)|Style]]
 |data2  = {{{style<includeonly>|</includeonly>}}}
-|label3 = [[Official residence|Residence]]
+|label3 = [[Official residence|Tuknangan]]
 |data3  = {{{residence<includeonly>|</includeonly>}}}
 |label4 = Appointer
 |data4  = {{{appointer<includeonly>|</includeonly>}}}<!--
        -->{{#if:{{{appointerpost<includeonly>|</includeonly>}}}
            | <div style="padding-top:0.2em; font-size:80%;">as {{{appointerpost}}}</div>
           }}
-|label5 = [[Term of office|Term length]]
+|label5 = [[Term of office|Kaba ning terminu]]
 |data5  = {{{termlength<includeonly>|</includeonly>}}}
 |label6 = Inaugural holder
 |data6  = {{{inaugural<includeonly>|</includeonly>}}}
 |label7 = Formation
 |data7  = {{{formation}}}
-|label8 = [[Order of succession|Succession]]
+|label8 = [[Order of succession|Pamanalili]]
 |data8  = {{{succession<includeonly>|</includeonly>}}}
-|label9 = Deputy
+|label9 = Kadua
 |data9  =  {{{deputy<includeonly>|</includeonly>}}}
-|label10 = Salary
+|label10 = Sueldu
 |data10  = {{{salary<includeonly>|</includeonly>}}}
-|label11 = Website
+|label11 = Karinan king Aptas (''Website'')
 |data11  = {{{website<includeonly>|</includeonly>}}}
 }}<noinclude>
 {{end infobox page}}
