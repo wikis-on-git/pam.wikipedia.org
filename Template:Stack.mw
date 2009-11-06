@@ -1,0 +1,4 @@
+{| style="{{#ifeq:{{{float|}}}|left|float:left;|float: right;}} background: transparent; margin: 0; padding: 0;"
+|-
+| {{{1|}}}
+|}<noinclude>{{doc}}</noinclude>
