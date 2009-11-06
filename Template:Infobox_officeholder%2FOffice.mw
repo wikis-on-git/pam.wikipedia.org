@@ -138,7 +138,7 @@
 {{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''In&nbsp;office'''<br />{{{term{{#if:{{{termstart{{{1}}}|}}}||_}}start{{{1}}}}}}&nbsp;&ndash;&nbsp;{{{term{{#if:{{{termend{{{1}}}|}}}||_}}end{{{1}}}}}}{{#if:{{{alongside{{{1}}}|}}}{{{co-leader{{{1}}}|}}}|<br />{{#if:{{{alongside{{{1}}}|}}}|Serving|Co&ndash;leading}}&nbsp;with&nbsp;{{#if:{{{alongside{{{1}}}|}}}|{{{alongside{{{1}}}}}}|{{{co-leader{{{1}}}}}}}}}}
 {{!}}-
 |<!--else:--> <!--term is ongoing-->
-{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Incumbent]]'''
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Makalukluk]]'''
 {{!}}-
 }}
 {{#if:{{{term{{#if:{{{termend{{{1}}}|}}}||_}}end{{{1}}}|}}}
