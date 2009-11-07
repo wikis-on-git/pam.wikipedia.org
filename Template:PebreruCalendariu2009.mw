@@ -3,8 +3,8 @@
 |titlestyle=background-color:{{{color|#ccccff}}};
 |weekstyle=background-color:{{{color2|#ccccff}}};
 |cur_month=[[{{{1a|{{{1|}}}}}}Pebreru {{{3|{{{year|{{CURRENTYEAR}}}}}}}}|{{{2|}}} Pebreru {{{3|{{{year|{{CURRENTYEAR}}}}}}}}]]
-|prev_month=[[{{{1a|{{{1|}}}}}}January {{{3|{{{year|{{CURRENTYEAR}}}}}}}}|<<]]
-|next_month=[[{{{1a|{{{1|}}}}}}March {{{3|{{{year|{{CURRENTYEAR}}}}}}}}|>>]]
+|prev_month=[[{{{1a|{{{1|}}}}}}Eneru {{{3|{{{year|{{CURRENTYEAR}}}}}}}}|<<]]
+|next_month=[[{{{1a|{{{1|}}}}}}Marsu {{{3|{{{year|{{CURRENTYEAR}}}}}}}}|>>]]
 |01=[[{{{1|}}}Pebreru 1{{{4|}}}|1]]
 |02=[[{{{1|}}}Pebreru 2{{{4|}}}|2]]
 |03=[[{{{1|}}}Pebreru 3{{{4|}}}|3]]
