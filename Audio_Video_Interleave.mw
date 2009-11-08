@@ -1,7 +1,7 @@
 {{Refimprove|date=December 2007}}{{redirect|AVI|other uses of Avi and AVI|Avi}}
 {{Infobox file format
 | name = Audio Video Interleave
-| icon = [[Image:AVI Ext icon.png|64px|AVI Extension Icon]]
+| icon = [[File:AVI Ext icon.png|64px|AVI Extension Icon]]
 | extension = <tt>.avi</tt>
 | mime = video/avi<br />video/msvideo<br />video/x-msvideo
 | type code = 'Vfw '
@@ -17,16 +17,16 @@
 
 Ing '''Audio Video Interleave''', a mas kilala ketang kayang [[acronym]] a '''AVI''', metung yang [[multimedia]] [[container format (digital)|container format]] a pepakilala ning [[Microsoft]] kanitang Noviembri [[1992]] kayabe ning kayang teknolohiyang [[Video for Windows]]. Maliari lang maglaman audio ampong video data deng simpan (file) a AVI king metung a simpanan (file container) a magpaintulut king miyayagnan a audio-with-video playback. Kawangis ning DVD video format, susuporta la reng AVI file king multiple streaming a audio ampong video, pero e la masiadung magagamit deng gamit a reti. Gagamit la murin deng simpan a AVI kareng file format extension a inalkus (developed) ning grupung [[Matrox]] [[OpenDML]] kanitang Febreru [[1996]]. Susuportan no ning Microsoft deng simpan a reti, a maki (e opisial) a aus a "AVI 2.0".   
 
-==Lon la murin deti==
-*[[Comparison of container formats]]
-*[[Video editing software]]
+== Lon la murin deti ==
+* [[Comparison of container formats]]
+* [[Video editing software]]
 
-==Dalerayan==
+== Dalerayan ==
 <!--See http://en.wikipedia.org/wiki/Wikipedia:Footnotes
 for an explanation of how to generate footnotes using the <ref(erences/)> tags-->
 {{reflist}}
 
-==Suglung palual==
+== Suglung palual ==
 * [http://www.alexander-noe.com/video/amg/en_myths.html Myths about AVI]
 * [http://www.divxland.org  DivXLand.org] Software, guides and support for AVI container format
 * [http://www.jmcgowan.com/avi.html John P. McGowan's AVI Overview]
@@ -44,7 +44,7 @@ for an explanation of how to generate footnotes using the <ref(erences/)> tags--
 
 [[ar:تداخل الصوت والفيديو]]
 [[bs:AVI]]
-[[ca:AVI]]
+[[ca:Audio Video Interleave]]
 [[cs:Audio Video Interleave]]
 [[da:AVI]]
 [[de:Audio Video Interleave]]
