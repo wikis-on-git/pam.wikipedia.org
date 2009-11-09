@@ -1,0 +1,32 @@
+{{sister
+|project=wikiversity
+|text=Wikiversity has learning materials about '''''[[v:{{{1|Special:Search/{{PAGENAME}}}}}|{{{1|{{PAGENAME}}}}}]]'''''
+}}<noinclude>
+This [[Wikipedia:Template|template]] is a [[Wikipedia:Avoid self-references|self-reference]] and so is part of the [[Wikimedia Foundation|Wikimedia project]] rather than the encyclopedic content.
+
+This template should only appear in the External links section of a Wikipedia article.
+
+==Usage==
+# '''<nowiki>{{wikiversity}}</nowiki>''' - defaults to the page name
+# '''<nowiki>{{wikiversity|subject}}</nowiki>''' - uses the word "subject" in this example
+
+==Location==
+This template should normally be placed at the top of the ''External links'' section at the end of an article, if the article has a section for [[WP:EL|external links]].  If no such section exists, then please place it at the top of the last section in the article. 
+
+On [[WP:DAB|disambiguation pages]], this template should be listed above other text, but below any cleanup templates, images, infoboxes or navboxes.<!-- Per WP:ACCESS, cleanup templates, images, infoboxes, and navboxes are always first. -->
+
+== See also ==
+* [[Wikipedia:Wikimedia sister projects#Wikiversity]]
+* [[Wikipedia:Interwikimedia links]]
+* [[Help:Interwiki linking]]
+* [[Help:Contents/Links]]
+
+[[Category:Interwiki link templates|{{PAGENAME}}]]
+[[Category:Wikiversity templates|{{PAGENAME}}]]
+
+[[es:Plantilla:Wikiversidad]]
+[[fr:Modèle:Wikiversity]]
+[[ja:Template:Wikiversity]]
+[[pt:Predefinição:Wikiversity]]
+[[simple:Template:Wikiversity]]
+</noinclude>
