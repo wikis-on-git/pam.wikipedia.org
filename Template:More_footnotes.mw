@@ -1,8 +1,8 @@
 <!--{{More footnotes}} begin-->{{#ifeq:{{NAMESPACE}}|{{<includeonly>subst:</includeonly>NAMESPACE}}|<includeonly>[[Category:Pages with incorrectly substituted templates|{{PAGENAME}}]]</includeonly>|}}{{Ambox
 | type  = style
 | image = [[Image:Text document with red question mark.svg|50x40px]]
-| text  = This {{{1|article}}} includes a [[{{SITENAME}}:Citing sources|list of references]] or [[Wikipedia:External links|external links]], but '''its sources remain unclear because it has insufficient  [[Wikipedia:Citing_sources#Adding the citation|inline citations]]'''. Please help to [[{{SITENAME}}:WikiProject Fact and Reference Check|improve]] this article by introducing more precise citations [[Wikipedia:When to cite|where appropriate]]. {{#if:{{{date|}}}|<small>''({{{date}}})''</small>}}
-}}<includeonly>{{DMCA|Articles lacking in-text citations|from|{{{date|}}}|All articles lacking in-text citations}}</includeonly><!--{{More footnotes}} end--><noinclude>
+| text  = Ining {{{1|articulu}}} atin yang [[{{SITENAME}}:Citing sources|listaan da reng dalerayan]] o [[Wikipedia:External links|suglung palual]], oneng '''e la malino deng kayang pikuanan uling kulang la reng kayang [[Wikipedia:Citing_sources#Adding the citation|inline citation]]'''. Sana makasaup kang [[{{SITENAME}}:WikiProject Fact and Reference Check|samasan]] ya ining articulu kapamilatan ning pamandagdag mas exactung citation [[Wikipedia:When to cite|nung nu la dapat deti]]. {{#if:{{{date|}}}|<small>''({{{date}}})''</small>}}
+}}<includeonly>{{DMCA|Deng articulung kulang in-text citation|manibat|{{{date|}}}|Deng anggang articulung kulang in-text citation}}</includeonly><!--{{More footnotes}} end--><noinclude>
 
 {{Documentation}}
 
