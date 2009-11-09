@@ -1,0 +1,272 @@
+{{Redirect5|Computer technology|the company|Computer Technology Limited|other uses|Computer (disambiguation)}}
+{{pp-semi-indef}}{{pp-move-indef}}
+{{Very long|date=June 2009}}
+[[File:Columbia Supercomputer - NASA Advanced Supercomputing Facility.jpg|240px|thumb|The [[Columbia (supercomputer)|Columbia Supercomputer]], located at the [[NASA Ames Research Center]].]]
+
+Ing '''computer''' metung yang maquinang manibala o mag-prosesu king informacion o data agpang king grupu da reng [[:en:Source code|utus]] o instruction.
+
+Lipat ning atin nang computer a mechanical o gawa kareng kikimut a dake king keraklan king kasalesayan ning tau, meyalkus la reng minunang computer a electronico aniang kalibudtan ning kaduang pulung (20th) dilanua  o siglu (1940–1945). Kasindagul de reti ing maragul a cuartu, at ing gagamitan dang curienti, katumbas ning pilan dalang modernung personal computer ([[Personal computer|PCs]]).<ref>Aniang 1946, tatantiang dang manga 174&nbsp;kW ing gagamitan ning [[ENIAC]]. Nung icumpara tamu, manga 30&nbsp;W ing gagamitan ning modernung computer a [[laptop]], o anam a libung ukdu o besis a mas ditak. 
+
+Makapag-procesu yang biliun biliun dapat o operation balang segundu ing modernung "commodity" microprocessor (aniang 2007), at misna la ka-complicadu ampong magamitan deti kesa kareng minunang daraptan dang operation deng minunang computer. 
+{{cite web
+|url=http://www.intel.com/cd/channel/reseller/asmo-na/eng/products/mobile/processors/core2duo_m/feature/index.htm
+|title=Intel® Core™2 Duo Mobile Processor: Features
+|publisher=Intel Corporation
+|accessdate=2009-06-20}}</ref> Mipagiu la king relo deng simpling computer, at maliari nong  paganan ning [[:en:Button cell|bateria ning relo]]. Anti nong sagisag o ''icon'' ning [[:en:Information Age|Panaun ning Informacion]] deng miyayaliwang uri da reng [[Personal computer|personal computer]], at ilang isipan da reng tau neng isipan de ing "computers". Nanupata, deng [[:en:embedded system|embedded computer]] kareng miyayaliwang gamit, manibat kareng [[:en:Digital audio player|MP3 player]] angga kareng [[:en:fighter aircraft|eruplanung pang-gera]], ampo kareng [[pialungan]] angga kareng [[:en:industrial robot|robot a pang-fabrica]], ilang dakal dili.    
+
+Magamitan la ampong dakal agagawa deng computer uling king kagiwan dang manyalikut ampong papaliari kareng listaan o tala da reng utus o ''instruction'', a ausan dang [[:en:Computer program|program]], at ini ing pamiyaliwa da kareng [[calculator]]. Metung yang pamipahayag o pamaniabi king amanu ning matematica ning kagiwan a iti ing [[Church–Turing thesis]]: ing balang computer a maki mituldung kagiwan, agpang king patakaran a iti, agiu nang daptan ing obrang maliari nang gawan ning aliwang computer. Uli na niti, deng computer, manibat king [[:en:mobile phone|cellphone]] angga king [[supercomputer]], agiu rong daptan deng pareu-pareung obrang pang-computer o pang-cuenta, nung mirinan lang ustung panaun ampong ustung lugal a pirinan informacion.     
+
+==Lon la murin==
+{{wikiversity|Introduction to Computers}}
+{{portal|Information technology|Computer-aj aj ashton 01.svg}}
+* [[:en:Computability theory (computer science)]]
+* [[:en:Computer generated holography]]
+* [[:en:Computer security]] and [[Computer insecurity]]
+* [[:en:Electronic waste]]
+* [[:en:List of computer term etymologies]]
+* [[:en:List of fictional computers]]
+* [[:en:Living computers theory]]
+* [[:en:Pulse computer]]
+* ''[[:en:The Secret Guide to Computers]]'' (book)
+* [[:en:Platform virtualization]]
+
+==Notes==
+{{reflist|colwidth=30em}}
+
+==Dalerayan==
+{{refbegin}}
+* {{note label|kempf1961|Kempf 1961|a}} {{cite paper
+ | author = Kempf, Karl
+ | title = Historical Monograph: Electronic Computers Within the Ordnance Corps
+ | publisher = [[Aberdeen Proving Ground]] ([[United States Army]])
+ | url = http://ed-thelen.org/comp-hist/U-S-Ord-61.html
+ | date = 1961
+}}
+* {{note label|phillips2000|Phillips 2000|a}} {{cite web
+ | last = Phillips
+ | first = Tony
+ | publisher = American Mathematical Society
+ | year = 2000
+ | title = The Antikythera Mechanism I
+ | url = http://www.math.sunysb.edu/~tony/whatsnew/column/antikytheraI-0400/kyth1.html
+ | accessdate = 2006-04-05
+}}
+* {{note label|shannon1940|Shannon 1940|a}} {{cite paper
+ | author = Shannon, Claude Elwood
+ | title = A symbolic analysis of relay and switching circuits
+ | publisher = Massachusetts Institute of Technology
+ | url = http://hdl.handle.net/1721.1/11173
+ | date = 1940
+}}
+* {{note label|digital1972|Digital Equipment Corporation 1972|a}} {{cite book
+ | author = [[Digital Equipment Corporation]]
+ | publisher = Digital Equipment Corporation
+ | location = [[Maynard, Massachusetts|Maynard, MA]]
+ | title = PDP-11/40 Processor Handbook
+ | url = http://bitsavers.vt100.net/dec/www.computer.museum.uq.edu.au_mirror/D-09-30_PDP11-40_Processor_Handbook.pdf
+ | format = PDF
+ | year = 1972
+}}
+* {{note label|verma1988|Verma 1988|a}} {{cite paper
+ | author = Verma, G.; Mielke, N.
+ | title = Reliability performance of ETOX based flash memories
+ | publisher = IEEE International Reliability Physics Symposium
+ | date = 1988
+}}
+* {{note label|top5002006|TOP500 2006|a}} {{cite web
+ | url = http://www.top500.org/lists/2006/11/overtime/Architectures
+ | title = Architectures Share Over Time
+ | accessdate=2006-11-27
+ | last = Meuer
+ | first = Hans
+ | authorlink = Hans Meuer
+ | coauthors = Strohmaier, Erich; Simon, Horst; [[Jack Dongarra|Dongarra, Jack]]
+ | date = [[2006-11-13]]
+ | publisher = [[TOP500]]
+}}
+* {{citation |last=Lavington |first=Simon |title=A History of Manchester Computers |year=1998 |edition=2 |publisher=The British Computer Society |location=Swindon |isbn=0902505018}}
+* {{cite book
+ | last = Stokes
+ | first = Jon
+ | title = Inside the Machine: An Illustrated Introduction to Microprocessors and Computer Architecture
+ | year = 2007
+ | publisher = No Starch Press
+ | location = San Francisco
+ | isbn = 978-1-59327-104-6
+}}
+{{refend}}
+
+==Suglung palual==
+{{sisterlinks|commons=Category:Computers|q=Computers|v=Introduction to Computers|wikt=computer}}
+* [http://search.wikia.com/wiki/Mini:Computer Computer mini-article]
+
+<!--===========================({{NoMoreLinks}})===============================-->
+<!--| DO NOT ADD MORE LINKS TO THIS ARTICLE. WIKIPEDIA IS NOT A COLLECTION OF |-->
+<!--| LINKS. If you think that your link might be useful, do not add it here, |-->
+<!--| but put it on this article's discussion page first or submit your link |-->
+<!--| to the appropriate category at the Open Directory Project (www.dmoz.org)|-->
+<!--| and link back to that category using the {{dmoz}} template. |-->
+<!--| |-->
+<!--| Links that have not been verified WILL BE DELETED. |-->
+<!--| See [[Wikipedia:External links]] and [[Wikipedia:Spam]] for details |-->
+<!--===========================({{NoMoreLinks}})===============================-->
+
+[[Category:Computing| ]]
+[[Category:American inventions]]
+[[Category:Hungarian inventions]]
+
+{{Link FA|vi}}
+{{Link FA|he}}
+
+[[ace:Komputer]]
+[[af:Rekenaar]]
+[[am:ኮምፒዩተር]]
+[[ang:Spærcletelle]]
+[[ar:حاسوب]]
+[[an:Ordinador]]
+[[ast:Computadora]]
+[[az:Kompüter]]
+[[bn:কম্পিউটার]]
+[[zh-min-nan:Tiān-náu]]
+[[ba:Компьютер]]
+[[be:Камп'ютэр]]
+[[be-x-old:Кампутар]]
+[[bar:Rechna]]
+[[bo:གློག་ཀླད།]]
+[[bs:Računar]]
+[[br:Urzhiataer]]
+[[bg:Компютър]]
+[[ca:Ordinador]]
+[[cv:Компьютер]]
+[[ceb:Kompyuter]]
+[[cs:Počítač]]
+[[cy:Cyfrifiadur]]
+[[da:Computer]]
+[[de:Computer]]
+[[nv:Béésh bee akʼeʼelchíhí tʼáá bí nitsékeesígíí]]
+[[et:Arvuti]]
+[[el:Ηλεκτρονικός υπολογιστής]]
+[[eml:Zarvlån]]
+[[en:Computer]]
+[[es:Computadora]]
+[[eo:Komputilo]]
+[[eu:Ordenagailu]]
+[[fa:رایانه]]
+[[fo:Telda]]
+[[fr:Ordinateur]]
+[[fy:Kompjûter]]
+[[fur:Ordenadôr]]
+[[ga:Ríomhaire]]
+[[gv:Co-earrooder]]
+[[gd:Coimpiutaireachd]]
+[[gl:Ordenador]]
+[[gu:કમ્પ્યૂટર]]
+[[got:𐍅𐌹𐍄𐌹𐍂𐌰𐌷𐌽𐌾𐌰𐌽𐌳𐍃]]
+[[hak:Thien-nó]]
+[[ko:컴퓨터]]
+[[ha:Na'ura]]
+[[hy:Համակարգիչ]]
+[[hi:अभिकलित्र]]
+[[hr:Računalo]]
+[[io:Ordinatro]]
+[[ig:Komputa]]
+[[bpy:কম্পিউটার]]
+[[id:Komputer]]
+[[ia:Computator]]
+[[iu:ᖃᕋᓴᐅᔭᖅ/qarasaujaq]]
+[[xh:Ikhompyutha]]
+[[zu:Ikhompyutha]]
+[[is:Tölva]]
+[[it:Computer]]
+[[he:מחשב]]
+[[jv:Komputer]]
+[[kn:ಗಣಕಯಂತ್ರ]]
+[[ka:კომპიუტერი]]
+[[kk:Компьютер]]
+[[kw:Comptyor]]
+[[sw:Tarakilishi]]
+[[kg:Ludinatelo]]
+[[ku:Komputer]]
+[[lad:Komputer]]
+[[lo:ຄອມພິວເຕີ]]
+[[la:Computatrum]]
+[[lv:Dators]]
+[[lb:Computer]]
+[[lt:Kompiuteris]]
+[[li:Computer]]
+[[ln:Esálela]]
+[[jbo:skami]]
+[[lmo:Cumpiüter]]
+[[hu:Számítógép]]
+[[mk:Компјутер]]
+[[mg:Mpikajy]]
+[[ml:കമ്പ്യൂട്ടര്‍]]
+[[mt:Kompjuter]]
+[[mr:संगणक विज्ञान]]
+[[arz:كومبيوتر]]
+[[mzn:کامپیوتر]]
+[[ms:Komputer]]
+[[mwl:Cumputador]]
+[[mn:Компьютер]]
+[[my:ကွန်ပျူတာ]]
+[[nah:Chīuhpōhualhuaztli]]
+[[nl:Computer]]
+[[nds-nl:Komputer]]
+[[ne:कम्प्युटर]]
+[[new:कम्प्युटर]]
+[[ja:コンピュータ]]
+[[nap:Computer]]
+[[no:Datamaskin]]
+[[nn:Datamaskin]]
+[[oc:Ordinator]]
+[[mhr:Компучыр]]
+[[uz:Kompyuter]]
+[[pa:ਕੰਪਿਊਟਰ]]
+[[pnb:کمپیوٹر]]
+[[ps:سولګر]]
+[[nds:Reekner]]
+[[pl:Komputer]]
+[[pt:Computador]]
+[[ro:Computer]]
+[[qu:Antañiqiq]]
+[[ru:Компьютер]]
+[[sah:Көмпүүтэр]]
+[[sc:Computer]]
+[[sco:Computer]]
+[[stq:Computer]]
+[[sq:Kompjuteri]]
+[[scn:Computer]]
+[[si:පරිගණකය]]
+[[simple:Computer]]
+[[sk:Počítač]]
+[[cu:Съмѣтатєл҄ь]]
+[[sl:Računalnik]]
+[[so:Kumbuyuutar]]
+[[sr:Рачунар]]
+[[sh:Kompjuter]]
+[[fi:Tietokone]]
+[[sv:Dator]]
+[[tl:Kompyuter]]
+[[ta:கணினி]]
+[[tt:Санак]]
+[[te:కంప్యూటరు]]
+[[th:คอมพิวเตอร์]]
+[[tg:Компутар]]
+[[tr:Bilgisayar]]
+[[tk:Kompýuter]]
+[[bug:Komputer]]
+[[uk:Комп'ютер]]
+[[ur:شمارِندہ]]
+[[za:Dennauj]]
+[[vec:Computer]]
+[[vi:Máy tính]]
+[[wa:Copiutrece]]
+[[vls:Computer]]
+[[war:Kompyuter]]
+[[wo:Nosukaay]]
+[[wuu:计算机]]
+[[yi:קאמפיוטער]]
+[[zh-yue:電腦]]
+[[diq:Komputer]]
+[[bat-smg:Kuompioteris]]
+[[zh:電子計算機]]
