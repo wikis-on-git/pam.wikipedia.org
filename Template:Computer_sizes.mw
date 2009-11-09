@@ -1,0 +1,37 @@
+{{Navbox
+|name  = Computer sizes
+|title = [[List of computer size categories|Ing dagul da reng computer]]
+|image = [[Image:Cray 2 Arts et Metiers dsc03940.jpg|60px|Cray-2]]<div style= "padding-top:0.5em;"></div>
+|groupstyle = padding:0.35em 1.0em; line-height:1.1em; <!--reduces wide gap between wrapped groupname lines-->
+
+|group1 = Mas maragul
+|list1style = padding:0.25em 0; line-height:1.4em; <!--otherwise lists can appear to form continuous whole-->
+|list1  = {{nowrap begin}} [[Supercomputer|Super]]{{·w}} [[Minisupercomputer|Minisuper]]{{·w}} [[Mainframe computer|Mainframe]]{{·w}} [[Minicomputer|Mini]]{{·w}} [[Superminicomputer|Supermini]]{{·w}} [[Server computer|Server]]{{nowrap end}}
+
+|group2 = [[Microcomputer|Micro]]
+|list2style = padding:0.25em 0; line-height:1.4em; <!--as above-->
+|list2  = {{nowrap begin}} [[Personal computer|Personal]] ([[Workstation]]{{·w}} [[Desktop computer|Desktop]]{{·w}} [[Home computer|Home]]){{·w}} [[Small form factor|SFF]] ([[Nettop]]){{nowrap end}}{{·w}} [[Plug computer|Plug]]{{·w}} [[Portable computer|Portable]]
+
+|group3 = [[Mobile computing|Mobile]]
+|list3  =
+ {{Navbox subgroups
+  |groupstyle = font-weight:normal;
+  |liststyle  = padding:0.15em 0; line-height:1.4em; <!--as above-->
+  |list1  = {{nowrap begin}} [[Desktop replacement computer]]{{·w}} [[Laptop]]{{·w}} [[Subnotebook]] ([[Netbook]]{{·w}} [[Smartbook]]){{·w}} [[Tablet PC|Tablet]] ([[Ultra-Mobile PC]]){{·w}} [[Portable data terminal|Portable]]{{\w}} [[Mobile data terminal]]{{·w}} [[Electronic organizer]]{{·w}} [[List of e-book readers|E-book reader]]{{·w}} [[Pocket computer]]{{·w}} [[Handheld game console]]{{·w}} [[Wearable computer]] {{nowrap end}}
+  |group2 = {{nowrap begin}} [[Personal digital assistant|PDA]]s{{\}}[[Information appliance|IA]]s {{nowrap end}}
+  |list2  = {{nowrap begin}} [[Handheld PC]]{{·w}} [[Pocket PC]]{{·w}} [[Smartphone]]{{·w}} [[Portable media player|PMP]]s{{·w}} [[Digital audio player|DAP]]s {{nowrap end}}
+  |group3 = [[Calculator]]s
+  |list3  = {{nowrap begin}} [[Scientific calculator|Scientific]]{{·w}} [[Programmable calculator|Programmable]]{{·w}} [[Graphing calculator|Graphing]]<!--{{·w}} --> {{nowrap end}}
+ }}
+
+|group4 = Aliwa
+|list4style = padding:0.25em 0; line-height:1.4em; <!--as above-->
+|list4  = {{nowrap begin}} [[Single-board computer]]{{·w}} [[Wireless sensor network]]{{·w}} [[Microcontroller]]{{·w}} [[Smartdust]]{{·w}} [[Nanocomputer]] {{nowrap end}}
+}}<noinclude>
+
+{{seealso|Template:Computer form factors}}
+
+[[Category:Computing templates|Sizes]]
+
+[[ru:Шаблон:Размеры компьютера]]
+</noinclude>
