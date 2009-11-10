@@ -22,12 +22,12 @@
 {{!}} [[{{{governorate}}}]]
 {{!}}-
 }}
-|-  class="adr" <!-- ***** District ***** --> class="mergedbottomrow"
+|-  class="adr" <!-- ***** Distritu ***** --> class="mergedbottomrow"
 {{#if:{{{district|}}}|
 ! [[Districts of Lebanon|Distritu]]
 {{!}} <span class="region">[[{{{district}}}]]</span>
 {{!}}-
-}} <!-- ***** Government ***** -->
+}} <!-- ***** Kapamahalan ***** -->
 {{#if:{{{leader_title|}}}|
 {{!}}- class="mergedtoprow" style="font-size:95%"
 ! {{{leader_title}}}
@@ -46,7 +46,7 @@
 {{!}} {{{leader_name3}}}
 }} }} }} }}
 {{#if:{{{mapx|}}}{{{area_total_km2|}}}{{{lat_deg|}}}{{{elevation_m|}}}{{{elevation_m_lo|}}}|
-{{!}}- <!-- ***** Geography***** -->
+{{!}}- <!-- ***** Geografia***** -->
 ! colspan=2 style="background-color: #efefef; text-align:center" {{!}} Geography
 {{#if:{{{mapx|}}}|
 {{!}}- align="center" class="mergedtoprow"
