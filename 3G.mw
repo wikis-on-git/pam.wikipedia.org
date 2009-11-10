@@ -1,0 +1,74 @@
+Ing '''International Mobile Telecommunications-2000 (IMT-2000)''', mas balu ra keng aus a  '''3G''' o '''ikatlung Generasiun''', meutng yang famila a iley o batayan (standards) para kareng [[mobile telecommunications]] a lalarawan ning [[International Telecommunication Union]],<ref>Clint Smith, Daniel Collins. "3G Wireless Networks", page 136. 2000.</ref> nung nu kayabe la reng [[GSM]] [[EDGE]], [[UMTS]], ampong [[CDMA2000]] at makanyan mu rin deng  [[DECT]] ampong [[WiMAX]]. Ding kayang susuyuan kayabe la reng wide-area wireless a siuala [[telepanu]], [[aud pangvideo]], ampong alangkuryenting data, lat(eganagana)  king maski nokarin a likas (mobile environment).  Nung kumpara keng [[2G]] ampong [[2.5G]] a suyu, Ing 3G papabustan na ing agnanagnan a pamanyalita ampong suyu keng data ampong mas matas a pulayi keng data (anggang 14.0 [[Megabit|Mbit]]/s keng downlink ampong 5.8 Mbit/s keng uplink kambe ning [[HSPA+]]).  Inya, deng gagamit keng 3G networks, dirinan no reng network operators mas maleparan a gamit ampong mas matas a suyu kabang akakua ra ing mas dakal a capacidad kapamilatan ning masmasanting a [[spectral efficiency]].
+
+Ing [[International Telecommunication Union]] (ITU) pemamasala na na ing pangatlung generasiun (3G) da ring apidaladalang telepanung iley (mobile telephony standards) – IMT-2000 – ing apabilis ing pamanadagul, irakal ing bandwidth, ampong sopan la reng masa dakal a mialiwang klasing gamitin (applications). Alimbawa, ing GSM (ing kasalungsungan pekabantug  a cellular phone standard) malyari yang magdalang emu siuala, dapot ita mu rin circuit-switched data a atin download a pulayi a 14.4 kbps. Dapot para a supportan ing mobile multimedia applications, ing 3G dapat yang magdalang packet-switched data masmasanting a spectral efficiency, king mas dakal bandwidths.{{Dubious|Packet switched necessary?|date=July 2009}}
+
+[[Image:Nokia6650_unlocked.jpg|thumb|right|Ing [[Nokia 6650]], ing mumunang UMTS handset]]
+
+
+
+==Pamanalkus papuntang 4G==
+Both [[3GPP]] and [[3GPP2]] are currently working on further extensions to 3G standards, named [[3GPP Long Term Evolution|Long Term Evolution]] and [[Ultra Mobile Broadband]], respectively. Being based on an [[Next Generation Network|all-IP network infrastructure]] and using advanced wireless technologies such as [[MIMO]], these specifications already display features characteristic for [[IMT-Advanced]] (4G), the successor of 3G. However, falling short of the bandwidth requirements for 4G (which is 1 Gbit/s for stationary and 100 Mbit/s for mobile operation), these standards are classified as [[3.9G]] or [[Pre-4G]].
+
+3GPP plans to meet the 4G goals with [[LTE Advanced]], whereas Qualcomm has halted development of UMB in favour of the LTE family.<ref name="qualcomm">[http://www.reuters.com/article/marketsNews/idUSN1335969420081113?rpc=401& Qualcomm halts UMB project], Reuters, November 13th, 2008</ref>
+
+
+
+==Lawen ya rin==
+{{Commons category|3G}}
+* [[3GP]]
+* [[4G]]
+* [[DigRF V3]]
+* [[IP Multimedia Subsystem]]
+* [[Spectral efficiency]]
+* [[WiBro]]
+* [[Wireless modem]]
+* [[WiMAX]]
+
+==Dalerayan==
+
+{{reflist}}
+
+==Suglung Palual==
+* [http://www.imt-2000.org/ ITU home page for IMT-2000]
+* [http://www.itu.int/osg/spu/imt-2000/technology.html About Mobile Technology and IMT-2000] A paper by ITU describing the various 3G standards in the IMT-2000 family
+
+
+{{Mobile telecommunications standards}}
+{{Wireless systems}}
+
+[[ar:3 جي]]
+[[be-x-old:3G]]
+[[bs:3G]]
+[[ca:3G]]
+[[cs:3G]]
+[[da:3G]]
+[[en:3G]]
+[[et:3G]]
+[[es:Telefonía móvil 3G]]
+[[fa:تلفن همراه ۳جی]]
+[[fr:3G]]
+[[ko:3세대 이동통신]]
+[[hr:3G]]
+[[id:3G]]
+[[it:3G (telefonia)]]
+[[he:דור 3]]
+[[lt:3G]]
+[[ms:3G (Generasi Ketiga)]]
+[[nl:3G]]
+[[ja:第3世代移動通信システム]]
+[[no:3G]]
+[[pl:Telefonia komórkowa trzeciej generacji]]
+[[pt:3G]]
+[[ro:3G]]
+[[ru:3G]]
+[[sah:3G]]
+[[sk:3G]]
+[[su:3G]]
+[[fi:3G]]
+[[sv:3G]]
+[[tl:3G]]
+[[th:มาตรฐานโทรศัพท์มือถือยุคที่ 3]]
+[[tr:3G]]
+[[uk:3G]]
+[[vi:3G]]
+[[zh:3G]]
