@@ -1,0 +1,53 @@
+{| class="infobox vcard" style="width: 25em; font-size: 80%;"
+|+ style="margin-left: inherit; font-size: medium;" |'''<span class="fn">{{{fullname}}}</span>'''
+|- style="text-align: center;" 
+{{#if:{{{Image<includeonly>|</includeonly>}}}|
+{{!}} colspan="2" {{!}} <noinclude><span style="float:left;">&dagger;</span></noinclude>[[Image:{{{Image}}}|{{{ImageWidth|110}}}px|center|]]
+}}
+|- 
+|-
+! style="width:90px; text-align:left;" | Alias
+| class="nickname" | {{{alias}}}
+|-
+| Jersey No.
+| {{{jersey}}}
+|-
+| Papil
+| class="role" | {{{position}}}
+|-
+| Current Team
+| class="org" | {{{team}}}
+|-
+! colspan="2" style="background: #999; color: #fff;" | '''Personal Info'''
+|-
+| Bangsa
+| {{flagcountry|{{{nationality}}}}}
+|-
+| Kebaitan
+| {{{birthdate}}}<br>{{{birthplace}}}
+|-
+| Kátas
+| {{{height_ft}}} ft. {{{height_in}}} in.
+|-
+| Bayat
+| {{{weight_lbs}}} lbs.
+|-
+| Colegio
+| {{{college}}}
+|-
+! colspan="2" style="background: #999; color: #fff;" | '''Career Highlights'''
+|-
+| Draft
+| {{{draftyear}}}&nbsp;{{{draftrank}}}<br>by {{{motherteam}}}
+|-
+| Carerang Pro
+| {{{career_start}}} &ndash; {{{career_end|'''present'''}}}
+|-
+| Memialung ya murin para king
+| {{{former_teams}}}
+|-
+| Galal a Tinggap
+| {{{awards}}}
+|-
+|}
+<noinclude>{{documentation}}</noinclude>
