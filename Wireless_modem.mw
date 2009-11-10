@@ -1,0 +1,104 @@
+{{Refimprove|date=September 2007}}
+{{Citations missing|date=September 2007}}
+[[File:Option GT 3G+ UMTS card.jpg|thumb|[[T-Mobile]] [[Universal Mobile Telecommunications System]] [[PC Card]] modem]]
+Ing '''wireless modem''' alang kurienting modem, metung yang [[modem]] a makataid keng metung a network a imbes na keng systema da reng telepanu. Ustung makataid ka keng alang kurienting modem, makataid ka mismu keng alangkurienting ISP (Internet Service Provider) at kaibat maliari kang makalub keng Internet.
+
+==Pinduan da reng mialiwang gamit==
+[[Image:IBurst-Kyocera-desktop-modem01.jpg|thumb|A [[Kyocera]] [[iBurst]] desktop alangkurienting modem mamie [[Ethernet]] interface]]
+* [[Mobile phone]]s, [[smartphones]], ampong [[PDA]]s maliari lang magamit bilang data modem para maalkus ya bilang alangkurienting piluban a para pisuglungan deng [[personal computer]] keng [[Internet]] (o kaya proprietary [[Computer networking|network]]). Keng gamit a iti, ing apidaladalang telepanu, iya ing mamie  pasbul ([[Gateway (telecommunications)|gateway]]) pilatan nig cellular service provider's data network technology ampo ing Point-to-Point Protocol (PPP) a salitang [[PC]]s. Kadalasan eganaganang modelu kareng mobile phone susopan de ing [[Hayes command set]], metung a iley (standard) method ning controlling modems. Keng  PC, ing telepanu lulto yang balamu pangkilual a modem ustubg makataid ya kapamilatan ning serial cable, [[USB]], [[IrDA]] infrared o [[Bluetooth]] alangkurienti.
+
+* Wireless FireWire, USB and Serial modems are also used in the [[Wi-Fi]] and [[WiMAX]] standards, operating at microwave frequencies, to give a laptop, [[Personal digital assistants|PDA]] or desktop computer an access point to a network. The modems may be as large as a regular cable modem to as small as a [[WiFi dongle]]/USB-stick. If combined with [[Voice over IP|VoIP]] technology, these computing devices can achieve telephone-like capability to make and receive telephone calls.
+* [[PCMCIA]], [[ExpressCard]] and [[Compact Flash]] modems are also used. These card-modems can also have GPS included.<ref>[http://www.sonyericsson.com/cws/products/pccards/overview/ec400g?cc=be&lc=en Wireless Modem with GPS example; the Ericsson EC400g]</ref>
+
+== History ==
+While some [[analogue electronics|analogue]] mobile phones provided a standard [[RJ11, RJ14, RJ25|RJ11]] telephone socket into which a normal landline modem could be plugged, this only provided slow [[dial-up]] connections, usually 2.4 kilobit per second (kbit/s) or less. The next generation of phones, known as 2G (for 'second generation'), were digital, and offered faster dial-up speeds of 9.6kbit/s or 14.4kbit/s without the need for a separate modem. A further evolution called HSCSD used multiple GSM channels (two or three in each direction) to support up to 43.2kbit/s. All of these technologies still required their users to have a dial-up [[Internet service provider|ISP]] to connect to and provide the Internet access - it was not provided by the mobile phone network itself.
+
+The release of [[2.5G]] phones with support for [[Packet (information technology)|packet]] data changed this. The 2.5G networks break both digital voice and data into small chunks, and mix both onto the network simultaneously in a process called [[packet switching]]. This allows the phone to have a voice connection and a data connection at the same time, rather than a single channel that has to be used for one or the other. The network can link the data connection into a company network, but for most users the connection is to the Internet. This allows web browsing on the phone, but a PC can also tap in to this service if it connects to the phone. The PC needs to send a special telephone number to the phone to get access to the packet data connection. From the PC's viewpoint, the connection still looks like a normal PPP dial-up link, but it is all terminating on the phone, which then handles the exchange of data with the network. Speeds on 2.5G networks are usually in the 30–50kbit/s range.
+
+[[3G]] networks have taken this approach to a higher level, using different underlying technology but the same principles. They routinely provide speeds over 300kbit/s. Due to the now increased internet speed, internet connection sharing via [[Wireless LAN|WLAN]] has become a workable reality. A particularly popular project has been the Stomp Box, which is a router which shares GPRS internet access via WiFi.<ref>[http://www.stompboxnetworks.com/intro.html The StompBox project]</ref>
+
+A further evolution is the [[3.5G]] technology [[HSDPA]], which has the capacity to provide speeds of multiple [[Megabits per second]].
+
+WiMax has now also been announced, which will allow internet connection sharing over [[WAN]]s (being region-wide, as opposed to local with WiFi), effectively perhaps eliminating the need of wireless modems. This, of course, only in areas where WiMax is to be introduced (eg cities).
+
+== Service Providers ==
+[[Image:2008TICA Press Conference TransAVA T88 TV Phone.jpg|thumb|right|A [[mobile phone]] can be used as a wireless modem]]
+There are competing [[common carrier]]s [[broadcasting]] signal in most nations of the earth.
+Some of these [[Cellular network]]s and the carrier's service plans are:
+
+=== North America ===
+* [[Canada]] providers
+** [[List of Canadian mobile phone companies]]
+* [[United States]] providers
+** [[T-mobile]]
+** [[AT&T Mobility]]
+** [[Verizon Wireless]]
+** [[Sprint Nextel Corporation]]
+** [[Alltel]]
+** [[Cricket Communications]]
+* [[Mexico]] providers
+** [[Telcel]]
+** [[Iusacell]]
+
+
+
+== Device Manufacturers ==
+[[File:3G With USB cable.jpg|thumb|[[Huawei]] [[CDMA2000]] [[Evolution-Data Optimized]] USB wireless modem]]
+* [[Danger Hiptop|Danger]]
+* [[Freewave Technologies]]
+* [[High Tech Computer Corporation|HTC (includes Qtek and Dopod)]]
+* [[Hp_ipaq#HP_iPAQ_h6300_series|Hewlett Packard (HP)]]
+* [[Huawei]]
+* [[LG Electronics]]
+* [[Motorola Mobile Devices|Motorola]]
+* [[Nokia]]
+* [[Novatel Wireless]]
+* [[Onda Communication]]
+* [[Option N.V.]]
+* [[Panasonic]]
+* [[Research In Motion|RIM (BlackBerry)]]
+* [[Samsung Electronics|Samsung]]
+* [[Sierra Wireless]]
+* [[Sony Ericsson]]
+* [[Telit]]
+* [[Qualcomm]]
+
+== Technologies ==
+* [[GPRS]] (2.5G)
+* [[CDPD]]
+* [[CDMA2000]]
+* [[Enhanced Data Rates for GSM Evolution|EDGE]]
+* [[UMTS]] (3G)
+* [[GPRS Core Network]]
+* [[IP Multimedia Subsystem]]
+* [[HSDPA]] (3.5G)
+* [[iBurst]] (pre-4G)
+* [[HiperMAN]] (pre-4G)
+* [[WiMAX]] (pre-4G)
+* [[WiBro]] (pre-4G)
+* [[GAN (UMA)]] (pre-4G)
+
+==Account hacking==
+In order to obtain completely free internet access anywhere in range of GPRS transmitters (of certain providers), some people{{Who|date=March 2009}} have found several hacks.
+
+For example there has been a known hack with an [[Airtel]] prepaid card.<ref>[http://www.theanand.com/blog/index.php/just-ripples/airtel-hack-free-gprs/ Airtel hack]</ref> Also, some companies such as BSNL and Vodafone have flaws in their servers, allowing to use their GPRS network for free.<ref>[http://www.techtalkz.com/tips-n-tricks/5037-bsnl-free-gprs-internet-hack.html BSNL hack]</ref><ref>[http://www.hungry-hackers.com/2008/09/vodafone-gprs-hacked.html Vodafone free GPRS hack]</ref> Also, a special tactic involving the [[ping]]ing of the servers of GPRS providers also allows the obtaining of an IP address which can then be used to use their network.<ref>[http://gsmhosting.com/vbb/archive/index.php/t-271667.html Pinging of WISP's]</ref>
+
+== Lawen ya rin ==
+{{commonscat|Wireless modems}}
+* [[Smartphones]]
+* [[Cellular router]]
+* [[EVDO]]
+* [[Access Point Name]] (APN)
+* [[Terminal node controller]]
+* [http://www.huaweie220.com Huawei E220 7.2 Mbps Highspeed USB-Modem]
+
+==Dalerayan==
+{{reflist}}
+
+[[Category:Wireless networking|Modem]]
+[[Category:Mobile Internet|Modem]]
+[[Category:Modems]]
+
+
+[[en:Wireless modem]]
+[[ru:Беспроводной модем]]
