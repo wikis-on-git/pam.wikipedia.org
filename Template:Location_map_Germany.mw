@@ -1,0 +1,9 @@
+{{#switch:{{{1}}}
+|name=Germany
+|top=55.1
+|bottom=47.2
+|left=5.5
+|right=15.5
+|image=Deutschland.svg
+}}<noinclude>{{pp-template|small=yes}} {{Location map/Info}}
+{{Documentation}}</noinclude>
