@@ -1,0 +1,59 @@
+<!-- You are encouraged to familiarise yourself with its setup and parser functions before editing the template. If your edit causes unexpected problems, please undo it quickly, as this template may appear on a large number of pages.
+Remember that you can conduct experiments, and should test all improvements, in either the local /sandbox, preview or your user space before changing anything here. 
+-->{{Navbox
+|name   = Mobile telecommunications standards
+|title  = [[Mobile telecommunications]] [[standards]]
+|group1 = [[3GPP]] Family
+|list1  = 
+  {{Navbox subgroup
+   |group1 = [[GSM]] ([[2G]])
+   |list1  = [[General Packet Radio Service|GPRS]]{{•}} [[Enhanced Data Rates for GSM Evolution|EDGE]] (EGPRS){{•}} [[Enhanced Data Rates for GSM Evolution#EDGE Evolution|EDGE Evolution]]{{•}} [[Circuit Switched Data|CSD]]{{•}} [[High-Speed Circuit-Switched Data|HSCSD]]
+   |group2 = [[Universal Mobile Telecommunications System|UMTS]]/[[Freedom of Mobile Multimedia Access|FOMA]] ([[3G]])
+   |list2  = [[High Speed Packet Access|HSPA]]{{•}} [[High-Speed Downlink Packet Access|HSDPA]]{{•}} [[High-Speed Uplink Packet Access|HSUPA]]{{•}} [[Evolved HSPA|HSPA+]]{{•}} [[W-CDMA|UMTS-FDD]]{{•}} [[TD-CDMA|UTRA-TDD HCR]]{{•}} [[TD-SCDMA|UTRA-TDD LCR]]{{•}} [[Super charged network|Super-Charged]]
+   |group3 = [[3GPP Long Term Evolution|3GPP Rel. 8]] ([[4G|Pre-4G]])
+   |list3  = [[E-UTRA]]
+   |group4 = [[LTE Advanced]] ([[4G]])
+   |list4  = &nbsp;
+  }}
+|group2 = [[3rd Generation Partnership Project 2|3GPP2]] Family
+|list2  =
+   {{Navbox subgroup
+   |group1 = [[IS-95|cdmaOne]] ([[2G]])
+   |list1  = &nbsp;
+   |group2 = [[CDMA2000]] ([[3G]])
+   |list2  = [[Evolution-Data Optimized|EV-DO]]{{•}} [[Ultra Mobile Broadband|UMB]]
+   |group3 = [[3GPP Long Term Evolution|3GPP Rel. 8]] ([[4G|Pre-4G]])
+  }}
+|group3 = [[Advanced Mobile Phone System|AMPS]] Family
+|list3  = 
+   {{Navbox subgroup
+   |group1 = [[Advanced Mobile Phone System|AMPS]] ([[1G]])
+   |list1  = [[Total Access Communication System|TACS/ETACS]]
+   |group2 = [[Digital AMPS|D-AMPS]] ([[2G]])
+   |list2  = &nbsp;
+  }}
+|group4 = Other Technologies
+|list4  =
+   {{Navbox subgroup
+   |group1 = [[Mobile radio telephone|Pre-Cellular]] ([[0G]])
+   |list1  = [[Push to talk|PTT]]{{•}} [[Mobile Telephone System|MTS]]{{•}} [[Improved Mobile Telephone Service|IMTS]]{{•}} [[Advanced Mobile Telephone System|AMTS]]{{•}} [[OLT (mobile network)|OLT]]{{•}} [[MTD (mobile network)|MTD]]{{•}} [[Autotel|Autotel/PALM]]{{•}} [[Autoradiopuhelin|ARP]]
+   |group2 = [[1G]]
+   |list2  = [[Nordic Mobile Telephone|NMT]]{{•}} [[Hicap]]{{•}} [[Cellular digital packet data|CDPD]]{{•}} [[Mobitex]]{{•}} [[DataTAC]]
+   |group3 = [[2G]]
+   |list3  = [[Integrated Digital Enhanced Network|iDEN]]{{•}} [[Personal Digital Cellular|PDC]]{{•}} [[Circuit Switched Data|CSD]]{{•}} [[Personal Handy-phone System|PHS]]{{•}} [[WiDEN]]
+   |group4 = [[4G|Pre-4G]]
+   |list4  = [[iBurst]]{{•}} [[HiperMAN]]{{•}} [[WiMAX]]{{•}} [[WiBro]]{{•}} [[Generic Access Network|GAN]] (UMA)
+  }}
+|group5 = [[Cellular frequencies|Frequency Bands]]
+|list5  = [[Cellular frequencies|Cellular]]{{•}} [[GSM frequency bands|GSM]]{{•}} [[UMTS frequency bands|UMTS]]{{•}} [[Personal Communications Service|PCS]]{{•}} [[Specialized Mobile Radio|SMR]]
+
+[[Category:Mobile telecommunications standards]]
+}}<noinclude>
+[[Category:Telecommunications templates|{{PAGENAME}}]]
+
+[[it:Template:Standard Telefonia Mobile]]
+[[ru:Шаблон:Стандарты мобильной телефонии]]
+[[uk:Шаблон:Стандарти мобільної телефонії]]
+[[vi:Tiêu bản:Chuẩn điện thoại di động]]
+[[zh:Template:Mobile telecommunications standards]]
+</noinclude>
