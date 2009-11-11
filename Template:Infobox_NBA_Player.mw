@@ -28,18 +28,18 @@
 {{!}}-
 }}
 {{#if:{{{nationality|}}}|
-! Nationality
+! Bangsa
 {{!}} {{{nationality|}}}{{#if:{{{nationality_2|}}}| / {{{nationality_2}}} }}
 {{!}}-
 }}
-! Listed height
+! Makalistang kátas
 {{!}} {{#if:{{{height_ft|}}}{{{height_in|}}}|{{convert|{{{height_ft|0}}}|ft|{{{height_in|0}}}|in|m|2|abbr=on}}|{{{height}}} }}{{{height_footnote|}}}
 |-
-! Listed weight
+! Makalistang bayat
 {{!}} {{#if:{{{weight_lbs|{{{weight_lb|}}}}}}|{{convert|{{{weight_lbs|{{{weight_lb|0}}}}}}|lb|kg|0|abbr=on}}|{{{weight}}} }}{{{weight_footnote|}}}
 |-
 {{#if:{{{league|}}}|
-! League
+! Liga
 {{!}} {{{league}}}
 {{!}}-
 }}
@@ -54,7 +54,7 @@
 {{!}}-
 }}
 {{#if:{{{college|}}}|
-! College
+! Colegio
 {{!}} {{{college}}}
 {{!}}-
 }}
@@ -79,7 +79,7 @@
 {{!}}-
 }}
 {{#if:{{{awards|}}}|
-! Awards
+! Galal
 {{!}} {{{awards}}}
 {{!}}-
 }}
