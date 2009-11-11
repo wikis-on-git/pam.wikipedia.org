@@ -1,0 +1,101 @@
+{| class="infobox vcard" style="width: 25em; text-align: left; font-size: 88%"
+|+ style="font-size: 125%" class="fn" | '''{{{name|{{PAGENAME}} }}}'''
+{{#if:{{{image<includeonly>|</includeonly>}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} [[File:{{{image}}}|{{{width|200}}}px]]
+{{!}}-
+{{#if:{{{caption<includeonly>|</includeonly>}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} {{{caption}}}
+{{!}}-
+}}
+}}
+{{#if:{{{team<includeonly>|</includeonly>}}}|
+{{!}} colspan=2 style="text-align: center; background-color: #{{NBA color|{{{team}}}|1}}"{{!}} <span style="color: #{{NBA color|{{{team}}}|2}}" class="note">'''[[{{{team_link|{{{team}}}}}}|<span style="color: #{{NBA color|{{{team}}}|2}}">{{{team}}}</span>]] {{#if:{{{number<includeonly>|</includeonly>}}}|&nbsp;– No. {{{number|--}}}'''}}</span>
+{{!}}-
+}}
+|- style="text-align: center"
+{{#if:{{{position<includeonly>|</includeonly>}}}|
+{{!}} ! colspan=2 {{!}} '''{{{position}}}'''
+}}
+|-
+{{#if:{{{birth_date<includeonly>|</includeonly>}}}{{{birth_place<includeonly>|</includeonly>}}}|
+! Born
+{{!}} {{{birth_date<includeonly>|</includeonly>}}}{{#if:{{{birth_date<includeonly>|</includeonly>}}}|{{#if:{{{birth_place<includeonly>|</includeonly>}}}|<br />}} }}{{{birth_place<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+{{#if:{{{death_date<includeonly>|</includeonly>}}}{{{death_place<includeonly>|</includeonly>}}}|
+! Died
+{{!}} {{{death_date<includeonly>|</includeonly>}}}{{#if:{{{death_date<includeonly>|</includeonly>}}}|{{#if:{{{death_place<includeonly>|</includeonly>}}}|<br />}} }}{{{death_place<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+{{#if:{{{nationality|}}}|
+! Nationality
+{{!}} {{{nationality|}}}{{#if:{{{nationality_2|}}}| / {{{nationality_2}}} }}
+{{!}}-
+}}
+! Listed height
+{{!}} {{#if:{{{height_ft|}}}{{{height_in|}}}|{{convert|{{{height_ft|0}}}|ft|{{{height_in|0}}}|in|m|2|abbr=on}}|{{{height}}} }}{{{height_footnote|}}}
+|-
+! Listed weight
+{{!}} {{#if:{{{weight_lbs|{{{weight_lb|}}}}}}|{{convert|{{{weight_lbs|{{{weight_lb|0}}}}}}|lb|kg|0|abbr=on}}|{{{weight}}} }}{{{weight_footnote|}}}
+|-
+{{#if:{{{league|}}}|
+! League
+{{!}} {{{league}}}
+{{!}}-
+}}
+{{#if:{{{salary|}}}|
+! Salary
+{{!}} class="num" {{!}} ${{{salary}}}
+{{!}}-
+}}
+{{#if:{{{highschool|}}}|
+! High school
+{{!}} {{{highschool}}}
+{{!}}-
+}}
+{{#if:{{{college|}}}|
+! College
+{{!}} {{{college}}}
+{{!}}-
+}}
+{{#if:{{{pro_club|}}}|
+! Pre-draft club
+{{!}} {{{pro_club}}}
+{{!}}-
+}}
+{{#if:{{{draft|}}}|
+! Draft
+{{!}} {{{draft}}}{{#if:{{{draft_year|}}}|, [[{{{draft_year}}} {{{draft_league|NBA Draft}}}|{{{draft_year}}}]] {{#if:{{{draft_team|}}}| <br/>{{{draft_team}}} }} }}
+{{!}}-
+}}
+{{#if:{{{career_start|}}}{{{draft_year|}}}|
+! Pro career
+{{!}} {{{career_start|{{{draft_year|&#123;&#123;&#123;career_start&#125;&#125;&#125;}}} }}}–{{#if:{{{career_end|}}}|{{{career_end}}}|''present''}}
+{{!}}-
+}}
+{{#if:{{{former_teams|}}}|
+! Former teams
+{{!}} {{{former_teams}}}
+{{!}}-
+}}
+{{#if:{{{awards|}}}|
+! Awards
+{{!}} {{{awards}}}
+{{!}}-
+}}
+{{#if:{{{halloffame|}}}|
+! Hall of Fame
+{{!}} {{{halloffame}}}
+{{!}}-
+}}
+{{#if:{{{agents|}}}|
+! [[Sports agent|Agent(s)]]
+{{!}} {{{agents}}}
+{{!}}-
+}}
+{{#if:{{#switch: {{{league}}} |NBA |[[NBA]] |[[National Basketball Association{{!}}NBA]]=1 | }} |
+! Profile
+{{!}} {{NBA-profile-infobox|{{{profile|{{PAGENAMEE}}}}}}}
+{{!}}-
+}}
+|}<noinclude>{{documentation}}<!-- place category and language links on the /doc page, not here --></noinclude>
