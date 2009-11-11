@@ -1,0 +1,48 @@
+<!-- You are encouraged to familiarise yourself with its setup and parser functions before editing the template. If your edit causes unexpected problems, please undo it quickly, as this template may appear on a large number of pages.
+Remember that you can conduct experiments, and should test all improvements, in either the local /sandbox, preview or your user space before changing anything here. 
+-->{{Navbox
+|name       = Wireless systems
+|navbar     =
+|state      = 
+|titlestyle = 
+|title      = Wireless system generations
+|image      = 
+|bodystyle  = 
+|groupstyle = 
+|liststyle  = 
+|oddstyle   = 
+|evenstyle  = 
+
+|abovestyle = 
+|above = 
+
+|group1 = [[1G]]
+|list1  = [[Nordic Mobile Telephone|NMT]]{{·}} [[Advanced Mobile Phone System|AMPS]]{{·}} [[Hicap]]{{·}} [[Cellular digital packet data|CDPD]]{{·}} [[Mobitex]]{{·}} [[DataTAC]]{{·}} [[Total Access Communication System|TACS]]{{·}}[[ETACS]]
+
+|group2 = [[2G]] 
+|list2  = [[GSM]]{{·}} [[Integrated Digital Enhanced Network|iDEN]]{{·}} [[Digital AMPS|D-AMPS]]{{·}} [[IS-95]]{{·}} [[Personal Digital Cellular|PDC]]{{·}} [[Circuit Switched Data|CSD]]{{·}} [[Personal Handy-phone System|PHS]]{{·}} [[General Packet Radio Service|GPRS]]{{·}} [[High-Speed Circuit-Switched Data|HSCSD]]{{·}} [[WiDEN]] 
+
+|group3 = [[Enhanced Data Rates for GSM Evolution|2.75G]]
+|list3  = [[Enhanced Data Rates for GSM Evolution|EDGE]]/EGPRS{{·}}[[CDMA2000]] (1xRTT)
+
+|group4 = [[3G]]
+|list4 = [[Universal Mobile Telecommunications System|UMTS]] ([[W-CDMA]]){{·}} [[CDMA2000]] ([[1xEV-DO]]/IS-856){{·}}[[Freedom of Mobile Multimedia Access|FOMA]]{{·}} [[TD-SCDMA]]{{·}} [[Generic Access Network|GAN]]/UMA
+
+|group5 = [[4G|3.5G]]
+|list5  = [[Universal Mobile Telecommunications System|UMTS]] ([[High-Speed Downlink Packet Access|HSDPA]]){{·}} [[Universal Mobile Telecommunications System|UMTS]] ([[High-Speed Uplink Packet Access|HSUPA]]){{·}} [[CDMA2000]] ([[Evolution-Data Optimized|EV-DO]] Rev.A)
+
+|group6 = [[High-Speed Uplink Packet Access|3.75G]]
+|list6  = [[Universal Mobile Telecommunications System|UMTS]] ([[Evolved HSPA|HSPA+]]){{·}} [[CDMA2000]] ([[Evolution-Data Optimized|EV-DO]] Rev.B/3xRTT)
+
+|group7 = [[4G]]
+|list7  = [[WiMAX]]{{·}}[[Orthogonal frequency-division multiplexing|Flash-OFDM]]{{·}} [[3GPP Long Term Evolution|3GPP LTE]]
+
+|group8 = Related articles
+|list8  = [[Comparison of mobile phone standards|Comparison of mobile telecommunications standards]]{{·}} [[List of mobile phone standards|List of mobile telecommunications standards]]
+
+|belowstyle = 
+|below = 
+}}<noinclude>
+
+[[Category:Mobile telecommunications standards]]
+[[id:Templat:Sistem Nirkabel]]</noinclude>
