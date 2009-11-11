@@ -13,7 +13,7 @@
 -->{{#if:{{{beatified_date|}}}|<tr><td>'''[[Beatification|Beatified]]'''</td>
 <td>{{{beatified_date|}}}{{#if:{{{beatified_place|}}}|, {{{beatified_place|}}}}}
 {{#if:{{{beatified_by|}}}|by {{{beatified_by|}}}}}</td></tr>}}<!--
--->{{#if:{{{canonized_date|}}}|<tr><td>'''[[Canonization|Canonized]]'''</td>
+-->{{#if:{{{canonized_date|}}}|<tr><td>'''[[Canonization|Meging santu]]'''</td>
 <td>{{{canonized_date|}}}{{#if:{{{canonized_place|}}}|, {{{canonized_place|}}}}}
 {{#if:{{{canonized_by|}}}|by {{{canonized_by|}}}}}</td></tr>}}<!--
 -->{{#if:{{{major_shrine|}}}|<tr><td>'''Major [[shrine]]'''</td>
