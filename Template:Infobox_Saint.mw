@@ -6,14 +6,14 @@
 |'''Kebaitan'''
 | {{{birth_date}}}{{#if:{{{birth_place|}}}|&nbsp;in {{{birth_place|}}}}}
 |-
-|'''Kematyan'''
+|'''Kematian'''
 | {{{death_date}}}{{#if:{{{death_place|}}}|&nbsp;in {{{death_place|}}}}}<!--
 -->{{#if:{{{venerated_in|}}}|<tr><td>'''Venerated in'''</td>
 <td>{{{venerated_in|}}}</td></tr>}}<!--
--->{{#if:{{{beatified_date|}}}|<tr><td>'''[[Beatification|Beatified]]'''</td>
+-->{{#if:{{{beatified_date|}}}|<tr><td>'''[[Beatification|Meging beato]]'''</td>
 <td>{{{beatified_date|}}}{{#if:{{{beatified_place|}}}|, {{{beatified_place|}}}}}
 {{#if:{{{beatified_by|}}}|by {{{beatified_by|}}}}}</td></tr>}}<!--
--->{{#if:{{{canonized_date|}}}|<tr><td>'''[[Canonization|Meging santu]]'''</td>
+-->{{#if:{{{canonized_date|}}}|<tr><td>'''[[Canonization|Meging santo]]'''</td>
 <td>{{{canonized_date|}}}{{#if:{{{canonized_place|}}}|, {{{canonized_place|}}}}}
 {{#if:{{{canonized_by|}}}|by {{{canonized_by|}}}}}</td></tr>}}<!--
 -->{{#if:{{{major_shrine|}}}|<tr><td>'''Major [[shrine]]'''</td>
