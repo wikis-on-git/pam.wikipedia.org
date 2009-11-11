@@ -18,12 +18,12 @@
 }}
 |-
 {{#if:{{{birth_date<includeonly>|</includeonly>}}}{{{birth_place<includeonly>|</includeonly>}}}|
-! Born
+! Kebaitan
 {{!}} {{{birth_date<includeonly>|</includeonly>}}}{{#if:{{{birth_date<includeonly>|</includeonly>}}}|{{#if:{{{birth_place<includeonly>|</includeonly>}}}|<br />}} }}{{{birth_place<includeonly>|</includeonly>}}}
 {{!}}-
 }}
 {{#if:{{{death_date<includeonly>|</includeonly>}}}{{{death_place<includeonly>|</includeonly>}}}|
-! Died
+! Kematian
 {{!}} {{{death_date<includeonly>|</includeonly>}}}{{#if:{{{death_date<includeonly>|</includeonly>}}}|{{#if:{{{death_place<includeonly>|</includeonly>}}}|<br />}} }}{{{death_place<includeonly>|</includeonly>}}}
 {{!}}-
 }}
