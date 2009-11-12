@@ -57,21 +57,21 @@
     #ifexpr: 0{{{Wappengröße|}}} < 1 or 0{{{Wappengröße|}}} > 80
       | 80<!--max is "120x110px"-->
       | {{{Wappengröße}}}<!--see Note CEN2--><!--see Note BUG3-->
-    }}x110px|none|Sagkal armas ning {{{Name|{{{name|{{PAGENAME}}}}}}}}]]
+    }}x110px|none|Coat of arms of {{{Name|{{{name|{{PAGENAME}}}}}}}}]]
   }}<!--endswitch lc-->
   |<!--else-->
 }}<!--endif Wappen-->{{
-#ifexist:Sagkal armas ning {{PAGENAME}}
+#ifexist:Coat of arms of {{PAGENAME}}
   |<br/>[[Coat of arms of {{PAGENAME}}|Details]]
 }}<!--endifexist-->
 |- class="mergedrow"
 | colspan="2" align="center" style="vertical-align: top; padding: 0.2em;" | {{
 #if: {{{Karte|{{{image_map|}}}}}}
-  |<!--link map-->[[Image:{{{Karte|{{{image_map|}}}}}}|170x220px|Mapa ning Aleman, Karinan ning {{{Name|{{{name|{{PAGENAME}}}}}}}} makapasala]]
+  |<!--link map-->[[Image:{{{Karte|{{{image_map|}}}}}}|170x220px|Map of Germany, Position of {{{Name|{{{name|{{PAGENAME}}}}}}}} highlighted]]
   |<!--else-blank-map-->{{
   #if: {{{lat_deg|}}}
-    | {{Location map|Aleman
-      |label= {{{name|{{PAGENAME}}}}} | karinan=  | background= 
+    | {{Location map|Germany
+      |label= {{{name|{{PAGENAME}}}}} | position=  | background= 
       |lat= {{#expr: {{{lat_deg|0}}} + ({{{lat_min|0}}} / 60)}}
       |long= {{#expr: {{{lon_deg|0}}} + ({{{lon_min|0}}} / 60)}}
       |mark= Red_pog.svg      
@@ -83,10 +83,10 @@
   }}<!--endif lat_deg-->
 }}<!--endif Karte-->
 |-
-| colspan="2" align=center style="background:#D8E2EF;" | '''Administrasiun'''
+| colspan="2" align=center style="background:#D8E2EF;" | '''Administration'''
 |- class="mergedtoprow"
-! [[List of countries|Bangsa]]
-| [[Aleman]]
+! [[List of countries|Country]]
+| [[Germany]]
 |- class="mergedrow"
 | '''[[States of Germany|State]]''' || {{#if:{{{Bundesland|{{{state|<noinclude>x</noinclude>}}}}}}|{{
 #switch:"{{{Bundesland|{{{state|<noinclude>x</noinclude>}}}}}}"
@@ -134,7 +134,7 @@
   }}<!--endifexist--> }}<!--endswitch Regierungsbezirk-->
 }}<!--endif Regierungsbezirk-->
 |- class="mergedrow"
-{{#switch: {{{state|{{{Bundesland|<noinclude>x</noinclude>}}}}}}|Hamburg|[[Hamburg]]|Bremen|[[Bremen]]|Berlin|[[Berlin]] = <!-- no districts --> | {{!}} '''[[Districts of Germany|Distritu]]''' {{!!}} {{#switch:{{{Art|{{{type|}}}}}} 
+{{#switch: {{{state|{{{Bundesland|<noinclude>x</noinclude>}}}}}}|Hamburg|[[Hamburg]]|Bremen|[[Bremen]]|Berlin|[[Berlin]] = <!-- no districts --> | {{!}} '''[[Districts of Germany|District]]''' {{!!}} {{#switch:{{{Art|{{{type|}}}}}} 
   | [[Kreisfreie Stadt|Stadt]]
     |Kreisfreie Stadt=[[Urban districts of Germany|Urban district]] 
   | #default = {{
@@ -142,7 +142,7 @@
     |<!--then--> {{
     #switch:{{ucfirst:{{{Landkreis|{{{Kreis|{{{district|}}}}}}}}} }}
      | Kreisfreie Stadt | [[Kreisfreie Stadt{{!}}Stadt]]
-       |Urban  | Kabalenan distritu
+       |Urban  | Urban district
        |Stadtkreis=[[Urban districts of Germany{{!}}Urban district]]
      | #default = {{
      #ifexist:{{{Landkreis|{{{Kreis|{{{district|}}}}}}}}} (district)
@@ -268,7 +268,7 @@
   -- & skips converting to feet. Use elevationmax for range.-->
   }}<!--endif elevationmax-->
   |<!--else-->{{#ifeq: {{{Höhe|{{{elevation|<noinclude>x</noinclude>}}}}}}|x
-   |{{!}}'''[[Katas]]'''{{!!}}X&ndash;Xmax '''m''' (y&ndash;ymax ''ft'')<!--
+   |{{!}}'''[[Elevation]]'''{{!!}}X&ndash;Xmax '''m''' (y&ndash;ymax ''ft'')<!--
       --><br/> &nbsp; X is {{{Höhe ''or'' &nbsp;elevation}}}<br/
       > &nbsp; Xmax <small
       >optional <nowiki>{{{elevationmax}}}</nowiki></small>
@@ -276,7 +276,7 @@
 }}<!--endif Höhe/elevation-->
 |- class="mergedrow" 
 {{#if: {{{Einwohner|{{{population|}}}}}}
-  |{{!}} '''[[Populasiun]]'''{{#if: {{{pop_ref|}}}|<sup>&nbsp;</sup>}}
+  |{{!}} '''[[Population]]'''{{#if: {{{pop_ref|}}}|<sup>&nbsp;</sup>}}
 {{!!}} {{formatnum:{{{Einwohner|{{{population}}}}}}}} &nbsp;{{
 #if: {{{Stand|{{{population_as_of|}}}}}} | {{#switch: {{#time:n|{{{Stand|{{{population_as_of}}}}}}}}
 	| 1|2|3|4|5|6|7|8|9|10|11|12 = <small>''({{#time:j F Y|{{{Stand|{{{population_as_of}}}}}}}})''</small>
@@ -286,7 +286,7 @@
 |- {{#if: {{{pop_urban|{{{pop_metro|{{{year|<noinclude>x</noinclude>}}}}}}}}}|
   class="mergedrow"|class="mergedbottomrow"}}
 {{#if: {{{Fläche|{{{area|<noinclude>x</noinclude>}}}}}} | {{#if: {{{Einwohner|{{{population|<noinclude>x</noinclude>}}}}}} |
-{{!}} &nbsp;- '''[[Population density|Populasiun Pangasiksik]]''' {{!!}} {{formatnum:{{#expr: {{{Einwohner|{{{population|0}}}}}} / {{{Fläche|{{{area|1}}}}}} round 0}}}} /km<sup>2</sup>&nbsp;({{formatnum:{{#expr: {{{Einwohner|{{{population|0}}}}}} * 2.589988110336 div {{{Fläche|{{{area|1}}}}}} round 0}}}}&nbsp;/sq&nbsp;mi)
+{{!}} &nbsp;- '''[[Population density|Density]]''' {{!!}} {{formatnum:{{#expr: {{{Einwohner|{{{population|0}}}}}} / {{{Fläche|{{{area|1}}}}}} round 0}}}} /km<sup>2</sup>&nbsp;({{formatnum:{{#expr: {{{Einwohner|{{{population|0}}}}}} * 2.589988110336 div {{{Fläche|{{{area|1}}}}}} round 0}}}}&nbsp;/sq&nbsp;mi)
 }}}}
 |- class="mergedrow"
 {{#if: {{{pop_urban|<noinclude>x</noinclude>}}} |
