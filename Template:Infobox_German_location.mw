@@ -5,7 +5,7 @@
 --   See bottom "NOTES" (such as "Note X1" for defaulting "x").
 --
 --> | class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right"
-|+ style="margin-left: inherit; font-size: medium;" | '''{{{name}}}'''
+|+ style="margin-left: inherit; font-size: medium;" 
 | '''{{<!-- --see Note X1-->
  #if:{{{German_name|{{{name_local|<noinclude>x</noinclude>}}}}}}
    |{{#ifeq:{{{German_name|{{{name_local|<noinclude>x</noinclude>}}} }}}|x<!--see Note X1-->
