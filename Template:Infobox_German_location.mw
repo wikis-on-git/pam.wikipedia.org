@@ -187,7 +187,7 @@
 }}
 |- {{#if: {{{borough|}}}{{{Gliederung|{{{divisions|<noinclude>x</noinclude>}}}}}}{{{Bürgermeister|{{{mayor|}}}}}} | class="mergedrow" | class="mergedbottomrow" }}
 {{#if: {{{City|}}}{{{Town|}}}{{{Municipality|}}} |
-{{!}} {{#if: {{{City|}}} | '''[[City#Germany|Lakanbalen]]''' | {{#if: {{{Town|}}} | '''[[City#Germany|Town]]''' | '''[[Municipality]''' }} }} {{!!}} {{#if:{{{City|}}}|{{#ifexist:{{{City}}}|[[{{{City}}}]]|{{{City}}}}}|<!-- 
+{{!}} {{#if: {{{City|}}} | '''[[City#Germany|Lakanbalen]]''' | {{#if: {{{Town|}}} | '''[[City#Germany|Town]]''' | '''[[Municipality]]''' }} }} {{!!}} {{#if:{{{City|}}}|{{#ifexist:{{{City}}}|[[{{{City}}}]]|{{{City}}}}}|<!-- 
 -->{{#if:{{{Town|}}}|{{#ifexist:{{{Town}}}|[[{{{Town}}}]]|{{{Town}}}}}|<!-- 
 -->{{#ifexist:{{{Municipality}}}|[[{{{Municipality}}}]]|{{{Municipality}}}}}}}}} 
 }}
