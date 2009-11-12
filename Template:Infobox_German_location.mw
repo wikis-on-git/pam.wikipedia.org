@@ -1,0 +1,483 @@
+{| <!-- Template for German towns
+--
+--   Template allows German or English-name alias parameters
+--   and translates some state/leader names to English.
+--   See bottom "NOTES" (such as "Note X1" for defaulting "x").
+--
+--> class="infobox geography vcard" style="width:23em; text-align:left;"
+|-
+| colspan="2" align=center style="background: #D8E2EF; width:100%; font-size: 1.25em; line-height: 1.2;"| '''{{<!-- --see Note X1-->
+ #if:{{{German_name|{{{name_local|<noinclude>x</noinclude>}}}}}}
+   |{{#ifeq:{{{German_name|{{{name_local|<noinclude>x</noinclude>}}} }}}|x<!--see Note X1-->
+     |<!--then--> ''{{{German_name or name_local}}}'' <br/>
+     |<!--else--> ''{{{German_name|{{{name_local}}}}}}'' <br/>
+   }}<!--endifeq--  --see Note AKA2-->
+ }}<!--endif-->{{
+ #if:{{{Name|{{{name|<noinclude>x</noinclude>}}}}}}
+   |{{#ifeq:{{{Name|{{{name|<noinclude>x</noinclude>}}} }}}|x
+     |<!--then--><span class="fn org">{{{Name or name}}}</span>
+     |<!--else--><span class="fn org">{{{Name|{{{name}}}}}}</span>
+   }}<!--endifeq Name-->
+   |<!--else--><span class="fn org">{{PAGENAME}}</span>}}'''
+ <!--}}-NOT-endif Name-->
+|-
+{{#if: {{{City|}}}{{{Town|}}}{{{Municipality|}}}|
+{{!}} colspan="2" align=center style="width:100%; font-size: 1.10em;"{{!}} {{{Art|{{{type|Suburb}}}}}} of <!-- 
+-->{{#if:{{{City|}}}|{{#ifexist:{{{City}}}|[[{{{City}}}]]|{{{City}}}}}|<!-- 
+-->{{#if:{{{Town|}}}|{{#ifexist:{{{Town}}}|[[{{{Town}}}]]|{{{Town}}}}}|<!-- 
+-->{{#ifexist:{{{Municipality}}}|[[{{{Municipality}}}]]|{{{Municipality}}}}}}}}}
+}}
+|- 
+{{#if:{{{image_photo|{{{repres_image|<noinclude>x</noinclude>}}}}}}
+  |{{!}} colspan="2" style="text-align: center; padding: 0;" {{!}} {{  <!--see Note FOTO2-->
+  #ifeq:{{{image_photo|{{{repres_image|<noinclude>x</noinclude>}}}}}}|x
+    |{{Location_map | Germany | AlternativeMap=Dummy flag.png
+|     label=<nowiki>{{{image_photo}}} of {{{imagesize}}} (268px)
+      </nowiki><br/><br/><br><br><nowiki>{{{infoboxwidth}}} (270px)
+      </nowiki> | lat=52.3 | long=11.7 | marksize=1 | caption=
+|     float=center | width=270 }}
+    |<!--else-top-image-->[[Image:{{{image_photo|{{{repres_image|Dummy flag.png}}} }}}|{{  <!--see Note SIZ3-->
+    #if:{{{imagesize|}}}|{{{imagesize}}}|<!--else-->268x240px }}|{{
+    #if:{{{imagesize|}}}|{{{imagesize}}}px<!--also put "size+px"-->
+      |<!--else-->none<!--placeholder to avoid 2 vertical-bars-->
+    }}<!--endif2-->|none|{{{image_caption|}}}]]
+  }}<!--endifeq image_photo-->{{
+  #if:{{{image_caption|<noinclude>x</noinclude>}}}
+    |<small>{{{image_caption}}}</small>
+  }}<!--endif image_caption-->
+}}<!--endif image_photo-->
+|- 
+| colspan="2" align="center" style="vertical-align: middle; padding: 0.2em;" | {{
+#if: {{{Wappen|{{{image_coa|}}}}}}   <!--see Note COA4-->
+  |<!--then--> {{#switch: {{lc:{{{Wappen|{{{image_coa}}}}}}}}
+  | none | kein | führt kein wappen.png
+  | führt kein wappen.svg | führt_kein_wappen.png
+  | führt_kein_wappen.svg =
+  | #default = [[Image:{{{Wappen|{{{image_coa}}}}}}|{{
+    #ifexpr: 0{{{Wappengröße|}}} < 1 or 0{{{Wappengröße|}}} > 80
+      | 80<!--max is "120x110px"-->
+      | {{{Wappengröße}}}<!--see Note CEN2--><!--see Note BUG3-->
+    }}x110px|none|Sagkal armas ning {{{Name|{{{name|{{PAGENAME}}}}}}}}]]
+  }}<!--endswitch lc-->
+  |<!--else-->
+}}<!--endif Wappen-->{{
+#ifexist:Sagkal armas ning {{PAGENAME}}
+  |<br/>[[Coat of arms of {{PAGENAME}}|Details]]
+}}<!--endifexist-->
+|- class="mergedrow"
+| colspan="2" align="center" style="vertical-align: top; padding: 0.2em;" | {{
+#if: {{{Karte|{{{image_map|}}}}}}
+  |<!--link map-->[[Image:{{{Karte|{{{image_map|}}}}}}|170x220px|Mapa ning Aleman, Karinan ning {{{Name|{{{name|{{PAGENAME}}}}}}}} makapasala]]
+  |<!--else-blank-map-->{{
+  #if: {{{lat_deg|}}}
+    | {{Location map|Aleman
+      |label= {{{name|{{PAGENAME}}}}} | karinan=  | background= 
+      |lat= {{#expr: {{{lat_deg|0}}} + ({{{lat_min|0}}} / 60)}}
+      |long= {{#expr: {{{lon_deg|0}}} + ({{{lon_min|0}}} / 60)}}
+      |mark= Red_pog.svg      
+      |marksize   = 6
+      |caption= |float=center | width=170 | border=none}}
+    |<!--else no latitude-->[[Image:Unknown location in Germany.png|170px|Coordinates missing!]] {{
+      #ifeq:{{NAMESPACE}}|
+      |[[Category:Germany articles requiring maintenance|C]]}}
+  }}<!--endif lat_deg-->
+}}<!--endif Karte-->
+|-
+| colspan="2" align=center style="background:#D8E2EF;" | '''Administrasiun'''
+|- class="mergedtoprow"
+! [[List of countries|Bangsa]]
+| [[Aleman]]
+|- class="mergedrow"
+| '''[[States of Germany|State]]''' || {{#if:{{{Bundesland|{{{state|<noinclude>x</noinclude>}}}}}}|{{
+#switch:"{{{Bundesland|{{{state|<noinclude>x</noinclude>}}}}}}"
+  | "Bayern" | "Bavaria" | "[[Bavaria]]" = [[Bavaria]]
+  | "Baden-Wuerttemberg" | "[[Baden-Württemberg]]"
+    | "Baden-Württemberg"= [[Baden-Württemberg]]
+  | "Berlin" | "[[Berlin]]" = [[Berlin]]
+  | "Brandenburg" | "[[Brandenburg]]" = [[Brandenburg]]
+  | "Bremen" = [[Bremen (state)|Bremen]]
+  | "Hamburg" = [[Hamburg]]
+  | "Hessen" | "Hesse" | "[[Hesse]]" = [[Hesse]]
+  | "Mecklenburg-Western Pomerania" |"MVP"
+    |"Mecklenburg-Vorpommern" | "[[Mecklenburg-Vorpommern]]" = [[Mecklenburg-Vorpommern]]
+  | "Niedersachsen" | "Lower Saxony" | "[[Lower Saxony]]" = [[Lower Saxony]]
+  | "Nordrhein-Westfalen"  | "NRW" | "North Rhine-Westphalia"
+    | "North Rhine-Westfalia" | "[[North Rhine-Westphalia]]" = [[North Rhine-Westphalia]]
+  | "Rheinland-Pfalz" | "Rhineland-Palatinate"
+    | "[[Rhineland-Palatinate]]" = [[Rhineland-Palatinate]]
+  | "Saarland"| "[[Saarland]]" = [[Saarland]]
+  | "Sachsen" | "Saxony" | "[[Saxony]]" = [[Saxony]]
+  | "Sachsen-Anhalt" | "Saxony-Anhalt" | "[[Saxony-Anhalt]]" = [[Saxony-Anhalt]]
+  | "Schleswig-Holstein" | "[[Schleswig-Holstein]]" = [[Schleswig-Holstein]]
+  | "Thüringen" | "Thueringen" | "Thuringia" | "[[Thuringia]]" = [[Thuringia]]
+  | "x"=<nowiki>{{{Bundesland or state}}}</nowiki>
+  | #default = ''Invalid state: "{{{Bundesland|{{{state|}}}}}}"'' {{#ifeq:{{NAMESPACE}}||[[Category:Germany articles requiring maintenance|X]]}}
+}}|''Enter Bundesland'' {{#ifeq:{{NAMESPACE}}||[[Category:Germany articles requiring maintenance|X]]}}}}
+|- class="mergedrow"
+{{#if: {{{Regierungsbezirk|{{{regbzk|{{{region|<noinclude>x</noinclude>}}}}}}}}}
+|<!--then-->{{!}} '''[[Regierungsbezirk|Admin. region]]''' {{!!}} <!-- wikilink existing region name, otherwise plain text --> {{
+#switch:{{{Regierungsbezirk|{{{regbzk|{{{region|<noinclude>x</noinclude>}}}}}}}}}
+  | Köln = [[Cologne (region)|Cologne]]
+  | Mittelfranken = [[Middle Franconia]]
+  | Niederbayern = [[Lower Bavaria]]
+  | Oberbayern = [[Upper Bavaria]]
+  | Oberfranken = [[Upper Franconia]]
+  | Schwaben = [[Swabia (administrative region)|Swabia]]
+  | Unterfranken = [[Lower Franconia]]
+  | x = <nowiki>{{{Regierungsbezirk or region or regbzk}}}</nowiki>
+  | #default = {{#ifexist: {{{Regierungsbezirk|{{{regbzk|{{{region}}}}}}}}} (region)
+    | [[{{{Regierungsbezirk|{{{regbzk|{{{region}}}}}}}}} (region)|{{{Regierungsbezirk|{{{regbzk|{{{region}}}}}}}}}]]
+    | {{#ifexist: {{{Regierungsbezirk|{{{regbzk|{{{region}}}}}}}}}
+      | [[{{{Regierungsbezirk|{{{regbzk|{{{region}}}}}}}}}]]
+      |<!--else-->{{{Regierungsbezirk|{{{regbzk|{{{region}}}}}}}}}
+    }}<!--endifexist-->
+  }}<!--endifexist--> }}<!--endswitch Regierungsbezirk-->
+}}<!--endif Regierungsbezirk-->
+|- class="mergedrow"
+{{#switch: {{{state|{{{Bundesland|<noinclude>x</noinclude>}}}}}}|Hamburg|[[Hamburg]]|Bremen|[[Bremen]]|Berlin|[[Berlin]] = <!-- no districts --> | {{!}} '''[[Districts of Germany|Distritu]]''' {{!!}} {{#switch:{{{Art|{{{type|}}}}}} 
+  | [[Kreisfreie Stadt|Stadt]]
+    |Kreisfreie Stadt=[[Urban districts of Germany|Urban district]] 
+  | #default = {{
+  #if: {{{Landkreis|{{{Kreis|{{{district|}}}}}}}}}
+    |<!--then--> {{
+    #switch:{{ucfirst:{{{Landkreis|{{{Kreis|{{{district|}}}}}}}}} }}
+     | Kreisfreie Stadt | [[Kreisfreie Stadt{{!}}Stadt]]
+       |Urban  | Kabalenan distritu
+       |Stadtkreis=[[Urban districts of Germany{{!}}Urban district]]
+     | #default = {{
+     #ifexist:{{{Landkreis|{{{Kreis|{{{district|}}}}}}}}} (district)
+       |<!--wlink ending in "(district)"--> [[{{{Landkreis|{{{Kreis|{{{district|}}}}}}}}} (district)|{{{Landkreis|{{{Kreis|{{{district|}}}}}}}}}]]
+       |<!--else--> {{#ifexist:{{{Landkreis|{{{Kreis|{{{district|}}}}}}}}} 
+       |<!--wlink not ending in "(district)"--> [[{{{Landkreis|{{{Kreis|{{{district|}}}}}}}}} |{{{Landkreis|{{{Kreis|{{{district|}}}}}}}}}]]
+       |<!--else--> {{{Landkreis|{{{Kreis|{{{district|}}} }}} }}}
+     }} }}<!--endifexist-Landkreis-->
+    }}<!--endswitch-->
+    |<!--else--> <nowiki>{{{Kreis or district}}}</nowiki>
+<!--
+    -------------------------------------- Categorization -->{{
+    #ifeq:{{NAMESPACE}}|
+      |[[Category:Germany articles requiring maintenance|X]]}}
+  }}<!--endif-Landkreis-->
+ }}<!--endswitch-->
+}}<!--endswitch-->
+<!-- ------------------------ Gliederung/divisions-->
+|- {{#if: {{{Gliederung|{{{divisions|<noinclude>x</noinclude>}}}}}}{{{Bürgermeister|{{{mayor|}}}}}} | class="mergedrow" | class="mergedbottomrow" }}
+{{#if: {{{Amt|<noinclude>x</noinclude>}}} |
+{{!}} '''[[Amt (country subdivision)|Municipal assoc.]]''' {{!!}} {{#ifexist:{{{Amt}}} (Amt) | [[{{{Amt}}} (Amt)|{{{Amt}}}]] | {{#ifexist:{{{Amt}}} | [[{{{Amt}}}]] | {{{Amt}}} }} }}
+}}
+|- {{#if: {{{Gliederung|{{{divisions|<noinclude>x</noinclude>}}}}}}{{{Bürgermeister|{{{mayor|}}}}}} | class="mergedrow" | class="mergedbottomrow" }}
+{{#if: {{{Gemeindeverwaltungsverband|<noinclude>x</noinclude>}}} |
+{{!}} '''[[Gemeindeverwaltungsverband|Municipal assoc.]]''' {{!!}} {{#ifexist: {{{Gemeindeverwaltungsverband}}} (Gemeindeverwaltungsverband) | [[{{{Gemeindeverwaltungsverband}}} (Gemeindeverwaltungsverband)|{{{Gemeindeverwaltungsverband}}}]] | {{#ifexist: {{{Gemeindeverwaltungsverband}}} | [[{{{Gemeindeverwaltungsverband}}}]] | <small>{{{Gemeindeverwaltungsverband}}}</small>&nbsp;&nbsp;&nbsp; }} }}
+}}
+|- {{#if: {{{Gliederung|{{{divisions|<noinclude>x</noinclude>}}}}}}{{{Bürgermeister|{{{mayor|}}}}}} | class="mergedrow" | class="mergedbottomrow" }}
+{{#if: {{{Samtgemeinde|<noinclude>x</noinclude>}}} |
+{{!}} '''[[Samtgemeinde|Municipal assoc.]]''' {{!!}} {{#ifexist: {{{Samtgemeinde}}} (Samtgemeinde) | [[{{{Samtgemeinde}}} (Samtgemeinde)|{{{Samtgemeinde}}}]] | {{#ifexist: {{{Samtgemeinde}}} | [[{{{Samtgemeinde}}}]]|{{{Samtgemeinde}}}}} }}
+}}
+|- {{#if: {{{Gliederung|{{{divisions|<noinclude>x</noinclude>}}}}}}{{{Bürgermeister|{{{mayor|}}}}}} | class="mergedrow" | class="mergedbottomrow" }}
+{{#if: {{{Verbandsgemeinde|<noinclude>x</noinclude>}}} |
+{{!}} '''[[Verbandsgemeinde|Municipal assoc.]]''' {{!!}} {{#ifexist: {{{Verbandsgemeinde}}} (Verbandsgemeinde) | [[{{{Verbandsgemeinde}}} (Verbandsgemeinde)|{{{Verbandsgemeinde}}}]] | {{#ifexist: {{{Verbandsgemeinde}}} | [[{{{Verbandsgemeinde}}}]] | {{{Verbandsgemeinde}}} }} }}
+}}
+|- {{#if: {{{Gliederung|{{{divisions|<noinclude>x</noinclude>}}}}}}{{{Bürgermeister|{{{mayor|}}}}}} | class="mergedrow" | class="mergedbottomrow" }}
+{{#if: {{{Verwaltungsgemeinschaft|<noinclude>x</noinclude>}}} |
+{{!}} '''[[Verwaltungsgemeinschaft|Municipal assoc.]]''' {{!!}} {{#ifexist: {{{Verwaltungsgemeinschaft}}} (Verwaltungsgemeinschaft) | [[{{{Verwaltungsgemeinschaft}}} (Verwaltungsgemeinschaft) |{{{Verwaltungsgemeinschaft}}}]] | {{#ifexist: {{{Verwaltungsgemeinschaft}}} | [[{{{Verwaltungsgemeinschaft}}}]] | {{{Verwaltungsgemeinschaft}}} }} }}
+}}
+|- {{#if: {{{Gliederung|{{{divisions|<noinclude>x</noinclude>}}}}}}{{{Bürgermeister|{{{mayor|}}}}}} | class="mergedrow" | class="mergedbottomrow" }}
+{{#if: {{{Verwaltungsverband|<noinclude>x</noinclude>}}} |
+{{!}} '''[[Verwaltungsverband|Municipal assoc.]]''' {{!!}} {{#ifexist: {{{Verwaltungsverband}}} (Verwaltungsverband) | [[{{{Verwaltungsverband}}} (Verwaltungsverband)|{{{Verwaltungsverband}}}]] | {{#ifexist: {{{Verwaltungsverband}}} | [[{{{Verwaltungsverband}}}]] | {{{Verwaltungsverband}}} }} }}
+}}
+|- {{#if: {{{borough|}}}{{{Gliederung|{{{divisions|<noinclude>x</noinclude>}}}}}}{{{Bürgermeister|{{{mayor|}}}}}} | class="mergedrow" | class="mergedbottomrow" }}
+{{#if: {{{City|}}}{{{Town|}}}{{{Municipality|}}} |
+{{!}} {{#if: {{{City|}}} | '''[[City#Germany|City]]''' | {{#if: {{{Town|}}} | '''[[City#Germany|Town]]''' | '''[[Municipality]]''' }} }} {{!!}} {{#if:{{{City|}}}|{{#ifexist:{{{City}}}|[[{{{City}}}]]|{{{City}}}}}|<!-- 
+-->{{#if:{{{Town|}}}|{{#ifexist:{{{Town}}}|[[{{{Town}}}]]|{{{Town}}}}}|<!-- 
+-->{{#ifexist:{{{Municipality}}}|[[{{{Municipality}}}]]|{{{Municipality}}}}}}}}} 
+}}
+|- {{#if: {{{Gliederung|{{{divisions|<noinclude>x</noinclude>}}}}}}{{{Bürgermeister|{{{mayor|}}}}}} | class="mergedrow" | class="mergedbottomrow" }}
+{{#if: {{{borough|}}} |
+{{!}} '''[[Borough]]''' {{!!}} {{#ifexist:{{{borough|}}}|[[{{{borough}}}]]|{{{borough}}}}} 
+}}
+|- {{#if: {{{Bürgermeister|{{{mayor|<noinclude>x</noinclude>}}}}}} | class="mergedrow" | class="mergedbottomrow" }}
+{{#if: {{{Gliederung|{{{divisions|<noinclude>x</noinclude>}}}}}} |
+{{!}} {{#switch: {{{Art|{{{type|}}}}}}
+	| Markt | Ortsgemeinde | Gemeinde | Municipality | municipality = '''Municipal subdivisions'''
+	| Amt | Gemeindeverwaltungsverband | Samtgemeinde | Verbandsgemeinde | Verwaltungsgemeinschaft | Verwaltungsverband = '''Composition'''
+        | Stadt | Kreisfreie Stadt | [[Kreisfreie Stadt|Stadt]] | City | city = {{#ifexpr:{{{Einwohner|{{{population|0}}}}}} > 100000 | '''City subdivisions''' | '''Town subdivisions'''}}
+        | Town | town = '''Town subdivisions'''
+	| #default = '''{{ucfirst:{{{Art|{{{type|Local}}}}}}}} subdivisions'''
+}} {{!!}} {{{Gliederung|{{{divisions}}} }}}
+}}
+|-  {{#if:{{{ruling_party1|<noinclude>x</noinclude>}}}|class="mergedrow"|class="mergedbottomrow"}}
+{{#if: {{{Bürgermeister|{{{mayor|<noinclude>x</noinclude>}}}}}} |
+{{!}} '''{{#switch: "{{{Bürgermeistertitel}}}"
+  | "Mayor" | "Bürgermeister" | "[[Bürgermeister]]"
+  | "Bürgermeisterin" | "[[Bürgermeisterin]]"
+  |"Ortsbürgermeister"|"Ortsbürgermeisterin" = [[Burgomaster|Mayor]]
+  | "Lord Mayor" | "Oberbürgermeister" | "[[Oberbürgermeister]]"
+  | "Oberbürgermeisterin" | "[[Oberbürgermeisterin]]"=[[Lord Mayor]]
+  | "Ortsvorsteher" | "[[Ortsvorsteher]]" = Local representative
+  | "Ortsvorsteherin" | "[[Ortsvorsteherin]]" = Local representative
+  | "Samtgemeindebürgermeister" = [[Bürgermeister|Samtgemeinde-<br />bürgermeister]]
+  | "Samtgemeindebürgermeisterin" = [[Bürgermeister|Samtgemeinde-<br />bürgermeisterin]]
+  | #default = {{#ifexist: {{{Bürgermeistertitel}}} | [[{{{Bürgermeistertitel}}}]] | {{#if: {{{Bürgermeistertitel|}}} | {{{Bürgermeistertitel}}} | [[Burgomaster|Mayor]] }} }}
+}}''' {{!!}}{{
+  #ifeq:{{{Bürgermeister|{{{mayor|<noinclude>x</noinclude>}}}}}}|x 
+     |<!--then-say-text-->{{{Bürgermeister or mayor}}} 
+     |<!--else-show-name-->{{{Bürgermeister|{{{mayor|}}} }}} 
+  }}<!--endifeq-->{{
+  #if: {{{Partei |{{{party|<noinclude>x</noinclude>}}}}}}
+    |{{#ifeq: {{{Partei|{{{party|<noinclude>x</noinclude>}}}}}}|x
+       |<!--then-say-text-->( {{{Partei or party}}}&nbsp;)
+       |&nbsp;({{Polparty|Germany|{{{Partei|{{{party}}}}}} }})
+    }}<!--endifeq--> 
+  }}<!--endif Partei-->
+}}
+|- {{#if:{{{ruling_party1|<noinclude>x</noinclude>}}}|class="mergedbottomrow"}}
+{{#if:{{{ruling_party1|<noinclude>x</noinclude>}}}
+| {{!}} {{#if:{{{ruling_party2|}}} | '''[[List of political parties in Germany|Governing parties]]''' | '''[[List of political parties in Germany|Governing party]]'''}} {{!!}} {{Polparty|Germany|{{{ruling_party1}}}}} {{#if:{{{ruling_party2|}}} |/&nbsp;{{Polparty|Germany|{{{ruling_party2}}}}} }} {{#if:{{{ruling_party3|}}} |/&nbsp;{{Polparty|Germany|{{{ruling_party3}}}}} }}
+}}
+|- 
+{{#if: {{{Fläche|{{{area|<noinclude>x</noinclude>}}}}}}{{{Einwohner|{{{population|}}}}}}{{{Höhe|{{{elevation|}}}}}}{{{year|}}}
+| {{!}} colspan="2" align=center style="background:#D8E2EF;" {{!}} '''Basic statistics'''
+}}
+|- {{#if: {{{area_metro|<noinclude>x</noinclude>}}}{{{Höhe|{{{elevation|<noinclude>x</noinclude>}}}}}} | class="mergedtoprow"}}
+{{#if: {{{Fläche|{{{area|}}}}}}
+  |{{!}} '''[[Area]]''' {{!!}} {{convert|{{{Fläche|{{{area|0}}}}}}|km2|abbr=on}}
+  |<!--else-->{{#ifeq: {{{Fläche|{{{area|<noinclude>x</noinclude>}}}}}}|x
+    |{{!}} '''[[Area]]''' {{!!}}{{{Fläche ''or'' &nbsp;area}}} km<sup>2</sup> (0 sq mi)
+  }}
+}}<!--endif Fläche/area-->
+|- {{#if: {{{Höhe|{{{elevation|<noinclude>x</noinclude>}}}}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if: {{{area_metro|<noinclude>x</noinclude>}}} |
+{{!}} &nbsp;- '''[[Metropolitan area|Metro]]''' {{!!}} {{formatnum:{{#expr:0{{{area_metro|}}} round 0}}}}&nbsp;[[km<sup>2</sup>]]&nbsp;({{formatnum:{{#expr:0{{{area_metro|}}} div 2.589988110336 round 0}}}}&nbsp;[[Square mile|sq&nbsp;mi]])
+}}
+|- {{#if: {{{Fläche|{{{area|<noinclude>x</noinclude>}}}}}}{{{Höhe|{{{elevation|<noinclude>x</noinclude>}}}}}}| class="mergedrow" }}
+<!-------------------------------- Handle elevation/elevationmax-->
+{{#if: {{{Höhe|{{{elevation|}}}}}}
+  |<!--put Elevation part-->{{!}}'''[[Elevation]]''' {{!!}} {{
+    formatnum:{{{Höhe|{{{elevation}}}}}} }}{{
+  #if: {{{elevationmax|}}}
+    |<!--then "-" max-->&ndash;{{formatnum:{{{elevationmax}}}}} m &nbsp;({{
+        formatnum:{{#expr: 0{{{Höhe|{{{elevation|}}}}}}*3.281 round 0}}}}&ndash;{{
+        formatnum:{{#expr: 0{{{elevationmax|}}} * 3.281 round 0}}}}&nbsp;ft)
+    |<!--else-1-elevation-->&nbsp;m {{
+     #ifexpr: 0{{{Höhe|{{{elevation|}}}}}} <0 |<!--then ignore-->
+       |<!--else-calc-feet--> &nbsp;({{
+        #expr:0{{{Höhe|{{{elevation|}}}}}}*3.281 round 0}}&nbsp;ft)
+     }}<!-- endifexpr 0+Hohe -- Checking for negative to bypass
+  -- ranges of elevation (as used in many articles). When a minus is
+  -- used ("9-18"), code subtracts the values, gets result below 0
+  -- & skips converting to feet. Use elevationmax for range.-->
+  }}<!--endif elevationmax-->
+  |<!--else-->{{#ifeq: {{{Höhe|{{{elevation|<noinclude>x</noinclude>}}}}}}|x
+   |{{!}}'''[[Katas]]'''{{!!}}X&ndash;Xmax '''m''' (y&ndash;ymax ''ft'')<!--
+      --><br/> &nbsp; X is {{{Höhe ''or'' &nbsp;elevation}}}<br/
+      > &nbsp; Xmax <small
+      >optional <nowiki>{{{elevationmax}}}</nowiki></small>
+  }}<!--endifeq-->
+}}<!--endif Höhe/elevation-->
+|- class="mergedrow" 
+{{#if: {{{Einwohner|{{{population|}}}}}}
+  |{{!}} '''[[Populasiun]]'''{{#if: {{{pop_ref|}}}|<sup>&nbsp;</sup>}}
+{{!!}} {{formatnum:{{{Einwohner|{{{population}}}}}}}} &nbsp;{{
+#if: {{{Stand|{{{population_as_of|}}}}}} | {{#switch: {{#time:n|{{{Stand|{{{population_as_of}}}}}}}}
+	| 1|2|3|4|5|6|7|8|9|10|11|12 = <small>''({{#time:j F Y|{{{Stand|{{{population_as_of}}}}}}}})''</small>
+	| #default = {{#time:Y|{{{Stand|{{{population_as_of}}}}}}}}}}}}{{#if: {{{pop_ref|}}}|{{{pop_ref|}}}}}{{#if: {{{pop_source|}}}|[[Category:Germany articles requiring maintenance|I]]}}
+  |{{!}} '''[[Population]]''' {{!!}} {{{Einwohner ''or'' &nbsp;population}}}
+ }}<!--endif Einwohner/population-->
+|- {{#if: {{{pop_urban|{{{pop_metro|{{{year|<noinclude>x</noinclude>}}}}}}}}}|
+  class="mergedrow"|class="mergedbottomrow"}}
+{{#if: {{{Fläche|{{{area|<noinclude>x</noinclude>}}}}}} | {{#if: {{{Einwohner|{{{population|<noinclude>x</noinclude>}}}}}} |
+{{!}} &nbsp;- '''[[Population density|Populasiun Pangasiksik]]''' {{!!}} {{formatnum:{{#expr: {{{Einwohner|{{{population|0}}}}}} / {{{Fläche|{{{area|1}}}}}} round 0}}}} /km<sup>2</sup>&nbsp;({{formatnum:{{#expr: {{{Einwohner|{{{population|0}}}}}} * 2.589988110336 div {{{Fläche|{{{area|1}}}}}} round 0}}}}&nbsp;/sq&nbsp;mi)
+}}}}
+|- class="mergedrow"
+{{#if: {{{pop_urban|<noinclude>x</noinclude>}}} |
+{{!}} &nbsp;- '''[[Urban area{{!}}Urban]]''' {{!!}} {{formatnum:{{{pop_urban}}}}}
+}}
+|- class="mergedrow"
+{{#if: {{{pop_metro|<noinclude>x</noinclude>}}} |
+{{!}} &nbsp;- '''[[Metropolitan area|Metro]]''' {{!!}} {{formatnum:{{{pop_metro}}}}}&nbsp;{{#if: {{{pop_metro_date|}}} | {{#switch: {{#time:n|{{{pop_metro_date}}}}}
+	| 1|2|3|4|5|6|7|8|9|10|11|12 = <small>''({{#time:m/Y|{{{pop_metro_date}}}}})''</small>
+	| #default = <div {{Highlight2}}>'''Please give "pop_metro_date" in YYYY-MM-DD [[Calendar date|format]] , e.&nbsp;g. 2005-12-31'''</div>}}}}
+}}
+|- class="mergedbottomrow" | 
+{{#if: {{{year|<noinclude>x</noinclude>}}} |
+{{!}} '''Founded''' {{!!}} {{#ifexist:{{{year}}}|{{#ifeq:{{#expr:{{{year}}}<100}}|1|[[{{{year}}}|{{{year}}} AD]]|[[{{{year}}}]]}}|{{{year}}}}}
+}}
+|-
+{{#if: {{{PLZ|{{{postal_code|<noinclude>x</noinclude>}}}}}}{{{Vorwahl|{{{area_code|}}}}}}{{{Kfz|{{{licence|{{{license|}}}}}}}}}{{{Website|{{{website|}}}}}} | {{!}} colspan="2" align=center style="background:#D8E2EF;" {{!}} '''Other information'''
+}}
+|- class="mergedtoprow" | 
+| '''[[Time zone]]''' <!-- (standard/[[Daylight saving time|DST]]} -->
+| [[Central European Time|CET]]/[[Central European Summer Time|CEST]] ([[UTC+1]]/[[UTC+2|+2]])
+|- class="mergedrow" | 
+{{#if: {{{Kfz|{{{licence|{{{license|<noinclude>x</noinclude>}}}}}}}}}
+  |{{!}} '''[[German car number plates|Licence plate]]''' {{!!}} {{
+  #if: {{{Kfz|{{{licence|{{{license|}}} }}} }}}
+    |<!--then show value-->{{{Kfz|{{{licence|{{{license|}}} }}} }}}
+    |<!--else state-->{{{Kfz ''or'' licence ''or'' &nbsp;license}}}
+  }}<!--endif Kfz-->
+}}<!--endif Kfz/x-->
+|- class="mergedrow" | 
+{{#if: {{{PLZ|{{{postal_code|<noinclude>x</noinclude>}}}}}}
+    |{{!}} '''[[List of postal codes in Germany|Postal code]]{{
+    #ifeq: {{#expr:{{{PLZ|{{{postal_code}}}}}} }}
+      | {{{PLZ|{{{postal_code}}}}}} | | s }}''' {{!!}} {{
+    #if: {{{PLZ|{{{postal_code|}}}}}}
+      |<!--then show value-->{{{PLZ|{{{postal_code}}}}}}
+      |<!--else say-->{{{PLZ ''or'' &nbsp;postal_code}}}
+    }}<!--endif PLZ-->
+  }}<!--endif PLZ/x-->
+|- class="mergedrow" | 
+{{#if: {{{Vorwahl|{{{area_code|<noinclude>x</noinclude>}}}}}} |
+{{!}} '''[[Area codes in Germany|Area code]]{{#ifeq: {{#expr:{{{ Vorwahl|{{{area_code}}} }}}}} | {{{Vorwahl|{{{area_code}}}}}} | | s }}''' {{!!}} {{#if: {{{Vorwahl|{{{area_code|}}}}}}|{{{Vorwahl|{{{area_code|}}}}}}|{{{Vorwahl ''or'' &nbsp;area_code}}} }}
+}}
+|- class="mergedbottomrow" |<!--start text on next line-->
+{{#if: {{{Website|{{{website|<noinclude>xWeb</noinclude>}}}}}}
+  |{{!}} '''[[Website]]''' {{!!}} {{
+  #if: {{{Website|{{{website|}}}}}}
+    |<!--then-show-->{{{Website|{{{website|}}} }}}
+    |<!--else-say--> {{{Website ''or'' &nbsp;website}}}
+  }}<!--endif Website/website-->
+}}<!--endif Website/x - --
+----------------------------------------- Check bottom map -->
+{{#if: {{{Lageplan|{{{image_plan|<noinclude>x</noinclude>}}}}}}|
+{{!}}-
+! colspan="2" align="center" style="background:#D8E2EF;" {{!}} {{#if: {{{Lageplanbeschreibung|{{{plantext|<noinclude>x</noinclude>}}}}}} | {{{Lageplanbeschreibung|{{{plantext|<nowiki>{{{Lageplanbeschreibung or plantext}}}</nowiki>}}}}}} | Location of {{
+#switch: {{ucfirst:{{{Art|{{{type|}}}}}}}}
+	| <!-- blank --> = 
+	| Gemeinde | Flecken | Markt | municipality = 
+	| Amt | Gemeindeverwaltungsverband | Verwaltungsverband = {{#if: {{{Name|{{{name|}}}}}} | the {{{Art|{{{type|}}}}}} | of }}
+	| Samtgemeinde | Verbandsgemeinde | Verwaltungsgemeinschaft = {{#if: {{{Name|{{{name|}}}}}} | the {{{Art|{{{type|}}}}}} | of }}
+        | Stadt | Town = the town of
+        | Großstadt | City = the city of
+        | Kreisfreie Stadt | Stadtteil | Stadtsbezirk | Suburb | Ward | Borough = 
+	| #default = {{#if: {{{Art|{{{type|}}}}}} | the {{lc:{{{Art|{{{type}}}}}}}} of}}
+}} {{{Name|{{{name|{{PAGENAME}}}}}}}} {{#if: {{{City|{{{Town|}}}}}} | within {{{City|{{{Town|}}}}}} | {{#if: {{{Kreis|{{{Landkreis|{{{district|}}}}}}}}} | within {{#switch: {{ucfirst:{{{Landkreis|{{{Kreis|{{{district|}}}}}}}}} }}
+	| Kreisfreie Stadt | [[Kreisfreie Stadt|Stadt]] | Urban | Urban district = {{#switch:"{{{Bundesland|{{{state|}}}}}}"
+           | "Bayern" = Bavaria
+   	   | "Baden-Wuerttemberg" = Baden-Württemberg
+           | "Bremen" = Bremen
+	   | "Hessen" = Hesse
+	   | "Mecklenburg-Vorpommern" = Mecklenburg-Western Pomerania
+	   | "Niedersachsen" = Lower Saxony
+	   | "Nordrhein-Westfalen"  | "NRW" = North Rhine-Westphalia
+	   | "Rheinland-Pfalz" = Rhineland-Palatinate
+	   | "Sachsen" = Saxony
+	   | "Sachsen-Anhalt" = Saxony-Anhalt
+	   | "Thüringen" = Thuringia
+           | #default ={{{Bundesland|{{{state}}}}}}
+        }}
+	| #default = {{{Kreis|{{{Landkreis|{{{district|}}}}}}}}} district
+}} }} }} }} <!--
+------------------------------------------------- Bottom map -->
+{{!}}-
+{{!}} colspan="2" align="center" {{!}}{{
+  #ifeq:{{{image_plan|{{{Lageplan|<noinclude>x</noinclude>}}}}}}|x
+    |{{Location_map | Germany | AlternativeMap=Dummy flag.png
+|     label=<nowiki>{{{image_plan}}} of {{{plansize}}} (265px)
+      </nowiki> | lat=51.9 | long=11.7 | marksize=1 | caption=
+|     float=center | width=270 }}
+NOTE: Omit " Image: " from any image names.
+    |<!--else-close-image-->[[Image:{{{image_plan|{{{Lageplan|Dummy flag.png}}} }}}|{{
+  #if:{{{plansize|}}}|{{{plansize}}}|<!--else-->265x265px }}|{{
+  #if:{{{plansize|}}}|{{{plansize}}}px<!--also put "size+px"-->
+    |<!--else-->none<!--placeholder to avoid double vertical-bars-->
+  }}<!--endif2-->|none|{{
+  #if: {{{Lageplanbeschreibung|}}}
+    | {{{Lageplanbeschreibung}}} |<!--else-->Map}}]]
+  }}<!--endifeq image_plan=x -->
+}}
+<!-- ----------------------------------- Generate "Coord" function
+-->{{#if: {{{lat_deg|<noinclude>x</noinclude>}}} | {{Coord|{{{lat_deg|}}}|{{{lat_min|00}}}|{{{lat_sec|0}}}|N|{{{lon_deg|}}}|{{{lon_min|00}}}|{{{lon_sec|0}}}|E |display=title |type:{{
+#switch: {{{Art|{{{type|}}}}}}
+  | Amt | Gemeindeverwaltungsverband | Samtgemeinde
+    | Verbandsgemeinde | Verwaltungsgemeinschaft
+    | Verwaltungsverband = adm2nd
+  | #default = city{{#if: {{{Einwohner|{{{population|}}}}}} | ({{#expr:{{{Einwohner|{{{population}}} }}} round 0}}) }}
+}}_region:DE{{
+#switch: {{{Bundesland|{{{state}}}}}}
+  | <!-- empty -->
+  | Bayern | Bavaria | [[Bavaria]] = -BY
+  | Baden-Wuerttemberg | Baden-Württemberg | [[Baden-Württemberg]] = -BW
+  | Berlin | [[Berlin]] = -BE
+  | Brandenburg | [[Brandenburg]] = -BB
+  | Bremen | [[Bremen]] = -HB
+  | Hamburg | [[Hamburg]] = -HH
+  | Hessen | Hesse | [[Hesse]] = -HE
+  | Mecklenburg-Vorpommern | Mecklenburg-Western Pomerania  | Mecklenburg-Vorpommern 
+     | [[Mecklenburg-Western Pomerania]] = -MV
+  | Niedersachsen | Lower Saxony | [[Lower Saxony]] = -NI
+  | Nordrhein-Westfalen | NRW | North Rhine-Westphalia | [[North Rhine-Westphalia]] = -NW
+  | Rheinland-Pfalz | Rhineland-Palatinate | [[Rhineland-Palatinate]] = -RP
+  | Saarland | [[Saarland]] = -SL
+  | Sachsen | Saxony | [[Saxony]] = -SN
+  | Sachsen-Anhalt | Saxony-Anhalt | [[Saxony-Anhalt]] = -ST
+  | Schleswig-Holstein | [[Schleswig-Holstein]] = -SH
+  | Thüringen | Thuringia | [[Thuringia]] = -TH
+}} }} }}
+|}<!--end infobox table--><!--
+--   Any non-Category text generated below this point might
+--   force article's left-side text below the infobox table. --
+--
+------------------------------------- Assignment to categories
+-->{{#if:{{{_noautocat|<noinclude>x</noinclude>}}}||<!--
+ (TYPE) in (STATE) -->{{#if:{{{City|}}}{{{Town|}}}{{{Municipality|}}}|<!-- [[Category:Germany articles requiring maintenance|T]] -->|{{#switch: {{ucfirst:{{{Art|{{{type|}}}}}}}}
+  | <!-- Filter for subdivisions for which no town etc. is given --> Ortsteil | Stadtteil | Suburb | Borough | Quarter | Bezirk | Stadtbezirk = [[Category:Germany articles requiring maintenance|Art]]
+  | #default = {{#if:{{{Bundesland|{{{state|}}}}}}|[[Category:{{
+  #switch: {{ucfirst:{{{Art|{{{type|}}}}}}}}
+	| Ortsgemeinde | Gemeinde | Markt | Municipality
+          | municipality = Municipalities
+	| Amt = Ämter
+        | Gemeindeverwaltungsverband = Gemeindeverwaltungsverbände
+        | Samtgemeinde =  Samtgemeinden
+        | Verbandsgemeinde = Verbandsgemeinde
+        | Verwaltungsgemeinschaft = Verwaltungsgemeinschaften
+        | Verwaltungsverband = Verwaltungsverbände
+        | Stadt | Kreisfreie Stadt | [[Kreisfreie Stadt|Stadt]] | City | city | Town | town = {{#ifexpr:{{{Einwohner|{{{population|0}}}}}} > 100000 | Cities | Towns}}
+        | Village | Dorf = Villages
+	| #default = Municipalities
+}} in {{#switch: {{{Bundesland|{{{state|}}}}}}
+	| Bayern | Bavaria | [[Bavaria]] = Bavaria 
+	| Baden-Wuerttemberg | Baden-Württemberg | [[Baden-Württemberg]] = Baden-Württemberg
+	| Berlin | [[Berlin]] = Berlin
+	| Brandenburg | [[Brandenburg]] = Brandenburg
+	| Bremen | [[Bremen]] = Bremen
+	| Hamburg | [[Hamburg]] = Hamburg
+	| Hessen | Hesse | [[Hesse]] = Hesse
+	| Mecklenburg-Vorpommern | Mecklenburg-Western Pomerania | [[Mecklenburg-Vorpommern]]
+           | [[Mecklenburg-Western Pomerania]] = Mecklenburg-Vorpommern
+	| Niedersachsen | Lower Saxony | [[Lower Saxony]] = Lower Saxony
+	| Nordrhein-Westfalen | NRW | North Rhine-Westphalia | [[North Rhine-Westphalia]] = North Rhine-Westphalia
+	| Rheinland-Pfalz | Rhineland-Palatinate | [[Rhineland-Palatinate]] = Rhineland-Palatinate
+	| Saarland | [[Saarland]] = Saarland
+	| Sachsen | Saxony | [[Saxony]] = Saxony
+	| Sachsen-Anhalt | Saxony-Anhalt | [[Saxony-Anhalt]] = Saxony-Anhalt
+	| Schleswig-Holstein | [[Schleswig-Holstein]] = Schleswig-Holstein
+	| Thüringen | Thuringia | [[Thuringia]] = Thuringia
+}}]]}}}}}}<!-- 
+Establisment date -->{{#ifexist:{{{year}}}|{{#ifexist:Category:{{{year}}} establishments|{{{category|[[Category:{{{year}}} establishments]]}}} | {{{category|[[Category:{{{year}}} establishments]]}}}}}}}}}<!-- 
+Assign to maintenance category if decimal point is used in population as a thousands divider -->{{#ifeq: {{#expr: {{#expr: {{{Einwohner|{{{population|0}}}}}} round 0 }} = {{{Einwohner|{{{population|0}}}}}}}}| 0 | [[Category:Germany articles requiring maintenance|D]] }}<!--
+--><noinclude>{{pp-template}}
+{{Documentation}}
+<!--
+--
+--NOTES: (alpha order)
+--
+-- Note AKA2: Parameter aliases "{{{Einwohner|{{{population}}}}}}"
+--        are nested defaults, using 2nd name if 1st omitted, but
+--        if blank ("Einwohner="), 2nd name "population" is ignored.
+-- Note BUG3: In September 2007, the MediaWiki software was still
+--            infantile beta technology with numerous simple bugs.
+-- Note CEN2: Even in column align="center" image must be centered,
+--            but <nowiki>"[[Image: |center|...]]"</nowiki> has bug
+--            chopping bottom line of image & "&nbsp" won't indent.
+-- Note COA4: Coat-of-Arms image_coa widens infobox table seeking
+--            size 120x110px (almost unpredictable infobox width).
+-- Note FOTO2: The blank template displays top image_photo using
+--             Template:Location_map to show parameters on image.
+-- Note SIZ3: Image sizes allow optional "px" by putting both sizes
+--            as "250px|250pxpx" where the "pxpx" form is ignored.
+-- Note X1: For the blank template, some parameters are defaulted
+--          as value "x" indicating to show parameter names.
+--
+-- [ These comment lines process at 5000 lines < 1 second. ] -->
+</noinclude>
