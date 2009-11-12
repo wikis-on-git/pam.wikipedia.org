@@ -1,0 +1,148 @@
+<includeonly>{{template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+===Infobox for German cities, towns and municipalities ===
+New infobox that combines features of [[:de:Vorlage:Infobox Ort in Deutschland]] and [[Template:Infobox settlement]], plus a few extra things.
+
+==Syntax - German parameters ==
+Also see English parameters in next section, or see:
+<span style="background:yellow">'''[[Template:Infobox German location/Instructions|instructions for full syntax]]'''</span>
+
+List of basic German-name parameters (skip any unneeded fields):
+
+ <nowiki>{{Infobox German location
+|Name             = 
+|German_name      = 
+|Art              = 
+|image_photo      = 
+|imagesize        = 
+|image_caption    = 
+|Wappen           = 
+|Wappengröße      = 
+|lat_deg =  | lat_min =  | lat_sec =
+|lon_deg =  | lon_min =  | lon_sec =
+|Karte            =
+|Lageplan         =
+|Lageplanbeschreibung =
+|Bundesland       = 
+|Regierungsbezirk = 
+|Landkreis        =  |Kreis =
+|Amt = |Gemeindeverwaltungsverband = |Samtgemeinde = 
+|Verbandsgemeinde =  |Verwaltungsgemeinschaft = |Verwaltungsverband = 
+|Höhe             = elevation
+|elevationmax     = "X-Xmax m (y-ymax ft)" Xmax is optional elevationmax
+|Fläche           = 
+|area_metro       = 
+|Einwohner        = 
+|pop_metro        = 
+|Stand            = 
+|pop_ref          = 
+|PLZ              = 
+|PLZ-alt          = 
+|Vorwahl          = 
+|Kfz              = 
+|Gemeindeschlüssel= 
+|NUTS             = 
+|LOCODE           = 
+|Gliederung       = 
+|Website          = 
+|Bürgermeister    = 
+|Bürgermeistertitel = 
+|Partei           = 
+|ruling_party1    = |ruling_party2  =  |ruling_party3 = 
+|year             = 
+|_noautocat       = 
+}}</nowiki>
+
+==Syntax - English parameters ==
+<span style="background:yellow">'''[[Template:Infobox German location/Instructions|Click here to see instructions for full syntax information]]'''</span>
+
+List of English-name alias parameters (skip any unneeded fields):
+
+ <nowiki>{{Infobox German location
+|name         = (or 'Name') English name of the place
+|name_local   = (or 'German_name') German name
+|image_photo  = image file for top image (omit "Image:")
+|imagesize    = width of image_photo (default 268px)
+|image_caption = phrase shown beneath top image
+|image_coa    = (or 'Wappen') image file of town seal
+|Wappengröße  = 
+|lat_deg =  | lat_min =  | lat_sec = latitude degrees/minutes/sec
+|lon_deg =  | lon_min =  | lon_sec = longitude degrees/minutes/sec
+|Karte        =
+|image_plan   = (or 'Lageplan') image file of bottom closeup map
+|plantext     = (or 'Lageplanbeschreibung') heading above bottom map
+|state        = (or 'Bundesland') optional state name (can translate)
+|region       = (or 'Regierungsbezirk') optional region name
+|district     = (or 'Landkreis' or 'Kreis') name of district
+|borough      = 'Stadtkreis' or 'Bezirk', borough if subdivision
+|Amt = |Gemeindeverwaltungsverband = |Samtgemeinde = 
+|Verbandsgemeinde =  |Verwaltungsgemeinschaft = |Verwaltungsverband = 
+|type         = type of subdivision, e.g. borough or quarter (locality)
+|City         = city, if subdivision
+|Town         = town, if subdivision
+|elevation    = (or 'Höhe') meters above sea-level (converts to ft)
+|elevationmax = "X-Xmax m (y-ymax ft)" Xmax is optional elevationmax
+|area         = (or 'Fläche') area of location in square km
+|area_metro   = area of metro part in square km
+|population   = (or 'Einwohner') count without commas (as: 9250)
+|pop_metro    = population of metro part (without commas)
+|population_as_of = (or 'Stand') date for population count
+|pop_ref      = population reference note
+|postal_code  = (or 'PLZ') postal or ZIP codes
+|PLZ-alt      = (not displayed)
+|area_code    = (or 'Vorwahl') telephone area code
+|licence      = (or 'Kfz' or 'license') licence plate code
+|Gemeindeschlüssel= 
+|NUTS         = (not displayed)
+|LOCODE       = (not displayed)
+|divisions    = (or 'Gliederung') divisions, such as "5 burroughs"
+|mayor        = (or 'Bürgermeister') name of leader
+|Bürgermeistertitel = official title of leader
+|party        = (or 'Partei') political party of leader
+|ruling_party1= |ruling_party2  =  |ruling_party3 = 
+|year         = year founded
+|website      = (or 'Website') URL of location website
+|_noautocat   = 
+}}</nowiki>
+
+==Important features==
+Since [[:de:Vorlage:Infobox Gemeinde in Deutschland]] is being introduced to many German locations in the German Wikipedia, the variable fields here use the same names to make it easier for editors to import infobox information from the German Wikipedia to the English one. <br>For many fields, German values can be given (i.e. without translation to English) and will be displayed in English. 
+*''eg. By entering "Bundesland = Bayern", the infobox will display "State: Bavaria"''
+
+The variables with English names relate to features that do not exist in ''Infobox Ort in Deutschland''.
+
+Major new features, compared to [[Template:Infobox Town DE]]:
+*No longer need a location map for each entry. By entering the geographical co-ordinates, a map is automatically displayed.
+*Population density automatically calculated upon entry of population and area
+*Area, population density and elevation automatically displayed in both metric and imperial units
+*Auto-categorisation of entries, depending on values entered
+*Optional 2nd map (''Lageplan'') at bottom, to display location in more detail.
+
+Major new features, compared to [[:de:Vorlage:Infobox Ort in Deutschland]]:
+*Can give year of city foundation: places article in "Category: xxxx establishments"
+*Can display representative photo of location (a feature of Infobox Town DE, which, for some reason, was never used) (eg. see: ''[[Cologne]]'')
+*In addition to displaying the political party of the mayor/lord mayor/etc., it is also possible to display the ruling parties. Currently, a coalition of up to 3 parties is supported - if more are needed, please report it on the template talk page)  (eg. see: ''[[Braunschweig]]'').
+
+==Microformat==
+{{UF-hcard-geo}}
+
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:European city infobox templates|German location]]
+[[Category:Templates with coordinates fields|Infobox German location]]
+[[Category:Germany subdivision infobox templates|4]]
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[ca:Plantilla:Infotaula de municipi d'Alemanya]]
+[[de:Vorlage:Infobox Ort in Deutschland]]
+[[el:Πρότυπο:Πόλη (Γερμανία)]]
+[[es:Plantilla:Infobox ciudad de Alemania]]
+[[fr:Modèle:Infobox Commune d'Allemagne]]
+[[mk:Шаблон:Град во Германија]]
+[[nl:Sjabloon:Infobox Duitse plaats plus]]
+[[pt:Predefinição:Alemanha/cidades]]
+[[ru:Шаблон:Город Германии]]
+[[sl:Predloga:Infopolje Mesto DE]]
+[[sv:Mall:Ortsfakta Tyskland]]
+[[zh:Template:Infobox DE City]]
+</includeonly>
