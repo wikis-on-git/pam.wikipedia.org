@@ -5,7 +5,7 @@
 --   See bottom "NOTES" (such as "Note X1" for defaulting "x").
 --
 --> | class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right"
-<!-- --see Note X1-->
+| '''{{<!-- --see Note X1-->
 |+ style="margin-left: inherit; font-size: medium;"
  #if:{{{German_name|{{{name_local|<noinclude>x</noinclude>}}}}}}
    |{{#ifeq:{{{German_name|{{{name_local|<noinclude>x</noinclude>}}} }}}|x<!--see Note X1-->
@@ -19,7 +19,7 @@
      |<!--else--><span class="fn org">{{{Name|{{{name}}}}}}</span>
    }}<!--endifeq Name-->
    |<!--else--><span class="fn org">{{PAGENAME}}</span>}}'''
- <!---NOT-endif Name-->
+ <!--}}-NOT-endif Name-->
 |-
 {{#if: {{{City|}}}{{{Town|}}}{{{Municipality|}}}|
 {{!}} colspan="2" align=center style="width:100%; font-size: 1.10em;"{{!}} {{{Art|{{{type|Suburb}}}}}} of <!-- 
