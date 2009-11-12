@@ -1,0 +1,15 @@
+<font color="red"><b>Unknown format in {{tl|Coord}}. Parameters:
+:1={{{1|}}}
+:2={{{2|}}}
+:3={{{3|}}}
+:4={{{4|}}}
+:5={{{5|}}}
+:6={{{6|}}}
+:7={{{7|}}}
+:8={{{8|}}}
+:9={{{9|}}}</b></font>
+{{#ifeq:{{NAMESPACE}}|{{NS:0}}|[[Category:Coord template needing repair|?{{PAGENAME}}]]}}
+<noinclude>
+{{template doc|Template:Coord/sub doc}}
+[[Category:Coord template]]
+</noinclude>
