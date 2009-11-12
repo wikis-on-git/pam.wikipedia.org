@@ -1,0 +1,1 @@
+<font color="red"><b> {{{msg}}} in {{tl|Coord}}</b></font><includeonly>{{#ifeq:{{NAMESPACE}}|{{NS:0}}|[[Category:Coord template needing repair|{{{sort_ch}}}{{PAGENAME}}]]}}</includeonly><noinclude>[[Category:Coord template]]</noinclude>
