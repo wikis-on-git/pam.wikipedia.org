@@ -1,12 +1,32 @@
-The following templates:
-:{{lt|Coord/input/dec}}
-:{{lt|Coord/input/d}}
-:{{lt|Coord/input/dm}}
-:{{lt|Coord/input/dms}}
-:{{lt|Coord/input/ERROR}}
-
-:{{lt|Coord/display/inline}}
-:{{lt|Coord/display/title}}
-:{{lt|Coord/display/inline,title}}
-
-are "subroutines" of {{tl|Coord}}.  Separating them this way allows &#123;{Coord}&#125; to include only one of them instead of all of them, drastically reducing the pre-expand size.  They shouldn't be used directly.
+The following templates are "subroutines" of {{tl|Coord}}.  Separating them out drastically reduces the pre-expand size of {{tl|Coord}}.  They shouldn't be invoked directly.
+{|
+! name
+! function
+|-
+| {{tl|Coord/input/dec}}
+| converts coordinates from input in degrees format <nowiki>{{coord|12|-12}}</nowiki>
+|-
+| {{tl|Coord/input/d}}
+| converts coordinates from input in degrees format <nowiki>{{coord|12|N|12|W}}</nowiki>
+|-
+| {{tl|Coord/input/dm}}
+| converts coordinates from input in degrees/minutes format <nowiki>{{coord|12|12|N|12|12|W}}</nowiki>
+|-
+| {{tl|Coord/input/dms}}
+| converts coordinates from input in degrees/minutes/seconds format <nowiki>{{coord|12|12|12|N|12|12|12|W}}</nowiki>
+|-
+| {{tl|Coord/input/ERROR}}
+| generates error message if the inputs do not match any of the above formats
+|-
+| {{tl|Coord/input/error2}}
+| generates error message for range checks and such
+|-
+| {{tl|Coord/display/inline}}
+| creates output to display coordinates inline
+|-
+| {{tl|Coord/display/title}}
+| creates output to display above the article (generally to the right of the article's title)
+|-
+| {{tl|Coord/display/inline,title}}
+| creates output to display coordinates inline and above the article
+|}
