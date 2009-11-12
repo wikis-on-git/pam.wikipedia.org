@@ -83,10 +83,10 @@
   }}<!--endif lat_deg-->
 }}<!--endif Karte-->
 |-
-| colspan="2" align=center style="background:#D8E2EF;" | '''Administration'''
+| colspan="2" align=center style="background:#D8E2EF;" | '''Administrasiun'''
 |- class="mergedtoprow"
-! [[List of countries|Country]]
-| [[Germany]]
+! [[List of countries|Bangsa]]
+| [[Aleman]]
 |- class="mergedrow"
 | '''[[States of Germany|State]]''' || {{#if:{{{Bundesland|{{{state|<noinclude>x</noinclude>}}}}}}|{{
 #switch:"{{{Bundesland|{{{state|<noinclude>x</noinclude>}}}}}}"
@@ -134,7 +134,7 @@
   }}<!--endifexist--> }}<!--endswitch Regierungsbezirk-->
 }}<!--endif Regierungsbezirk-->
 |- class="mergedrow"
-{{#switch: {{{state|{{{Bundesland|<noinclude>x</noinclude>}}}}}}|Hamburg|[[Hamburg]]|Bremen|[[Bremen]]|Berlin|[[Berlin]] = <!-- no districts --> | {{!}} '''[[Districts of Germany|District]]''' {{!!}} {{#switch:{{{Art|{{{type|}}}}}} 
+{{#switch: {{{state|{{{Bundesland|<noinclude>x</noinclude>}}}}}}|Hamburg|[[Hamburg]]|Bremen|[[Bremen]]|Berlin|[[Berlin]] = <!-- no districts --> | {{!}} '''[[Districts of Germany|Distritu]]''' {{!!}} {{#switch:{{{Art|{{{type|}}}}}} 
   | [[Kreisfreie Stadt|Stadt]]
     |Kreisfreie Stadt=[[Urban districts of Germany|Urban district]] 
   | #default = {{
@@ -163,7 +163,7 @@
 <!-- ------------------------ Gliederung/divisions-->
 |- {{#if: {{{Gliederung|{{{divisions|<noinclude>x</noinclude>}}}}}}{{{Bürgermeister|{{{mayor|}}}}}} | class="mergedrow" | class="mergedbottomrow" }}
 {{#if: {{{Amt|<noinclude>x</noinclude>}}} |
-{{!}} '''[[Amt (country subdivision)|Municipal assoc.]]''' {{!!}} {{#ifexist:{{{Amt}}} (Amt) | [[{{{Amt}}} (Amt)|{{{Amt}}}]] | {{#ifexist:{{{Amt}}} | [[{{{Amt}}}]] | {{{Amt}}} }} }}
+{{!}} '''[[Amt (country subdivision)|Municipiu kaanib]]''' {{!!}} {{#ifexist:{{{Amt}}} (Amt) | [[{{{Amt}}} (Amt)|{{{Amt}}}]] | {{#ifexist:{{{Amt}}} | [[{{{Amt}}}]] | {{{Amt}}} }} }}
 }}
 |- {{#if: {{{Gliederung|{{{divisions|<noinclude>x</noinclude>}}}}}}{{{Bürgermeister|{{{mayor|}}}}}} | class="mergedrow" | class="mergedbottomrow" }}
 {{#if: {{{Gemeindeverwaltungsverband|<noinclude>x</noinclude>}}} |
@@ -187,7 +187,7 @@
 }}
 |- {{#if: {{{borough|}}}{{{Gliederung|{{{divisions|<noinclude>x</noinclude>}}}}}}{{{Bürgermeister|{{{mayor|}}}}}} | class="mergedrow" | class="mergedbottomrow" }}
 {{#if: {{{City|}}}{{{Town|}}}{{{Municipality|}}} |
-{{!}} {{#if: {{{City|}}} | '''[[City#Germany|City]]''' | {{#if: {{{Town|}}} | '''[[City#Germany|Town]]''' | '''[[Municipality]]''' }} }} {{!!}} {{#if:{{{City|}}}|{{#ifexist:{{{City}}}|[[{{{City}}}]]|{{{City}}}}}|<!-- 
+{{!}} {{#if: {{{City|}}} | '''[[City#Germany|Lakanbalen]]''' | {{#if: {{{Town|}}} | '''[[City#Germany|Town]]''' | '''[[Municipality]''' }} }} {{!!}} {{#if:{{{City|}}}|{{#ifexist:{{{City}}}|[[{{{City}}}]]|{{{City}}}}}|<!-- 
 -->{{#if:{{{Town|}}}|{{#ifexist:{{{Town}}}|[[{{{Town}}}]]|{{{Town}}}}}|<!-- 
 -->{{#ifexist:{{{Municipality}}}|[[{{{Municipality}}}]]|{{{Municipality}}}}}}}}} 
 }}
@@ -201,7 +201,7 @@
 	| Markt | Ortsgemeinde | Gemeinde | Municipality | municipality = '''Municipal subdivisions'''
 	| Amt | Gemeindeverwaltungsverband | Samtgemeinde | Verbandsgemeinde | Verwaltungsgemeinschaft | Verwaltungsverband = '''Composition'''
         | Stadt | Kreisfreie Stadt | [[Kreisfreie Stadt|Stadt]] | City | city = {{#ifexpr:{{{Einwohner|{{{population|0}}}}}} > 100000 | '''City subdivisions''' | '''Town subdivisions'''}}
-        | Town | town = '''Town subdivisions'''
+        | Town | town = '''Balen pangadake'''
 	| #default = '''{{ucfirst:{{{Art|{{{type|Local}}}}}}}} subdivisions'''
 }} {{!!}} {{{Gliederung|{{{divisions}}} }}}
 }}
@@ -240,9 +240,9 @@
 }}
 |- {{#if: {{{area_metro|<noinclude>x</noinclude>}}}{{{Höhe|{{{elevation|<noinclude>x</noinclude>}}}}}} | class="mergedtoprow"}}
 {{#if: {{{Fläche|{{{area|}}}}}}
-  |{{!}} '''[[Area]]''' {{!!}} {{convert|{{{Fläche|{{{area|0}}}}}}|km2|abbr=on}}
+  |{{!}} '''[[Lualas]]''' {{!!}} {{convert|{{{Fläche|{{{area|0}}}}}}|km2|abbr=on}}
   |<!--else-->{{#ifeq: {{{Fläche|{{{area|<noinclude>x</noinclude>}}}}}}|x
-    |{{!}} '''[[Area]]''' {{!!}}{{{Fläche ''or'' &nbsp;area}}} km<sup>2</sup> (0 sq mi)
+    |{{!}} '''[[Lualas]]''' {{!!}}{{{Fläche ''or'' &nbsp;area}}} km<sup>2</sup> (0 sq mi)
   }}
 }}<!--endif Fläche/area-->
 |- {{#if: {{{Höhe|{{{elevation|<noinclude>x</noinclude>}}}}}} | class="mergedrow" | class="mergedbottomrow"}}
@@ -252,7 +252,7 @@
 |- {{#if: {{{Fläche|{{{area|<noinclude>x</noinclude>}}}}}}{{{Höhe|{{{elevation|<noinclude>x</noinclude>}}}}}}| class="mergedrow" }}
 <!-------------------------------- Handle elevation/elevationmax-->
 {{#if: {{{Höhe|{{{elevation|}}}}}}
-  |<!--put Elevation part-->{{!}}'''[[Elevation]]''' {{!!}} {{
+  |<!--put Elevation part-->{{!}}'''[[Katas]]''' {{!!}} {{
     formatnum:{{{Höhe|{{{elevation}}}}}} }}{{
   #if: {{{elevationmax|}}}
     |<!--then "-" max-->&ndash;{{formatnum:{{{elevationmax}}}}} m &nbsp;({{
