@@ -1,0 +1,18 @@
+{{Infobox political party
+| country       = {{{country<includeonly>|</includeonly>}}}
+| colorcode     = {{{colorcode<includeonly>|</includeonly>}}}
+| party_name    = {{{party_name<includeonly>|</includeonly>}}}
+| native_name   = {{{native_name<includeonly>|</includeonly>}}}
+| party_logo    = {{{party_logo<includeonly>|</includeonly>}}}
+| leader        = {{{leader<includeonly>|</includeonly>}}}
+| chairman      = {{{chairman<includeonly>|</includeonly>}}}
+| spokesperson  = {{{spokesperson<includeonly>|</includeonly>}}}
+| foundation    = {{{foundation<includeonly>|</includeonly>}}}
+| religion      = {{{religion<includeonly>|</includeonly>}}}
+| ideology      = {{{ideology<includeonly>|</includeonly>}}}
+| blank1_title  = Nationality
+| blank1        = {{{nationality<includeonly>|</includeonly>}}}
+| website       = {{{website<includeonly>|</includeonly>}}}
+}}<noinclude>
+[[Category:Political party infobox templates|Social]]
+</noinclude>
