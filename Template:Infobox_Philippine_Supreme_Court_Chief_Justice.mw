@@ -1,0 +1,31 @@
+{{Infobox Officeholder
+| name                = {{{name|{{PAGENAME}}}}}
+| image               = {{{image name|}}}
+| imagesize           = {{{imagesize|}}}
+| caption             = {{{caption|}}}
+
+| order               = {{{order|}}}
+| office              = {{#if:{{{order|}}} | Chief Justice of the Philippines{{!}}Chief Justice of the Supreme Court of the Philippines | [[Chief Justice of the Philippines|Pamuntuk ding Majistrado ning Kakataskatasan a Ukuman ning Filipinas]] }}
+| term_start          = {{{term start|}}}
+| term_end            = {{{term end|}}}
+| appointer           = {{{nominator|}}}
+| predecessor         = {{{predecessor|}}}
+| successor           = {{{successor|}}}
+
+| office2             = {{#if:{{{term start2|}}} | [[Majistrado ning Kakataskatasan a Ukuman ning Filipinas]] }}
+| term_start2         = {{{term start2|}}}
+| term_end2           = {{{term end2|}}}
+| appointer2          = {{{nominator2|}}}
+| predecessor2        = {{{predecessor2|}}}
+| successor2          = {{{successor2|}}}
+
+| birth_date          = {{{date of birth|}}}
+| birth_place         = {{{place of birth|}}}
+| death_date          = {{{date of death|}}}
+| death_place         = {{{place of death|}}}
+| spouse              = {{{spouse|}}}
+| profession          = {{{profession|}}}
+| religion            = {{{religion|}}}
+| signature           = {{{signature|}}}
+| footnotes           = {{{footnotes|}}}
+}}
