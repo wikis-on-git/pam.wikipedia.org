@@ -1,0 +1,15 @@
+<includeonly>{{pp-meta
+|type=semi
+|disallowlevel=sysop
+|demospace={{{demospace|}}}
+|demolevel={{{demolevel|undefined}}}
+|small={{{small|}}}
+|expiry={{{expiry|}}}
+|reason=&#32;to prevent [[Wikipedia:Biographies of living persons|Biographies of living persons]] violations
+|icon-reason=to prevent libelous additions
+|categories={{{categories|{{#ifexist:{{{expiry|}}}|[[Category:Wikipedia temporarily semi-protected biographies of living people|{{PAGENAME}}]]|[[Category:Wikipedia indefinitely semi-protected biographies of living people|{{PAGENAME}}]]}}}}}
+}}</includeonly><noinclude>
+{{pp-semi-blp|categories=no|demospace=main|demolevel=autoconfirmed}}{{pp-template}}
+
+{{Documentation}}
+</noinclude>
