@@ -5,7 +5,7 @@
 | caption             = {{{caption|}}}
 
 | order               = {{{order|}}}
-| office              = {{#if:{{{order|}}} | Chief Justice of the Philippines{{!}}Chief Justice of the Supreme Court of the Philippines | [[Chief Justice of the Philippines|Pamuntuk ding Majistrado ning Kakataskatasan a Ukuman ning Filipinas]] }}
+| office              = {{#if:{{{order|}}} | Chief Justice of the Philippines{{!}}Pamuntuk ding Majistrado ning Kakataskatasan a Ukuman ning Filipinas | [[Chief Justice of the Philippines|Pamuntuk ding Majistrado ning Kakataskatasan a Ukuman ning Filipinas]] }}
 | term_start          = {{{term start|}}}
 | term_end            = {{{term end|}}}
 | appointer           = {{{nominator|}}}
