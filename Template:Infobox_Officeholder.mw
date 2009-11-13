@@ -13,7 +13,7 @@
 {{!}}colspan="2" style="text-align:center;"{{!}} [[Image:{{{smallimage}}}|{{PAGENAME}}]]<br/><small>{{{caption|}}}</small>
 {{!-}}
 }}
-<!----------Opisina---------->
+<!----------Oficina---------->
 {{#if:{{{order|}}} |<!--then:--> 
 {{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr><div style="background:lavender; font-weight:bold">{{{order}}}</div>
 {{!-}}
@@ -225,16 +225,16 @@
 {{#if:{{{term_start4|}}} |<!--then:--> 
 {{#if:{{{term_end4|}}}
 |<!--then:--> <!--term has start and end-->
-{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''In&nbsp;office'''<br>{{{term_start4}}}&nbsp;&ndash;&nbsp;{{{term_end4}}}
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''Makalukluk&nbsp;'''<br>{{{term_start4}}}&nbsp;&ndash;&nbsp;{{{term_end4}}}
 {{!-}}
 |<!--else:--> <!--term is ongoing-->
-{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Incumbent]]'''
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Makalukluk]]'''
 {{!-}}
 }}
 {{#if:{{{term_end4|}}}
 |<!--then:--> <!--(nothing; term has ended)-->
 |<!--else:--> 
-{{!}}colspan="2" style="text-align:center;"{{!}} '''Assumed&nbsp;office'''<br>{{{term_start4}}}
+{{!}}colspan="2" style="text-align:center;"{{!}} '''Linukluk&nbsp;'''<br>{{{term_start4}}}
 {{!-}}
 }}
 }}
