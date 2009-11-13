@@ -285,7 +285,7 @@
 |- {{#if: {{{pop_urban|{{{pop_metro|{{{year|<noinclude>x</noinclude>}}}}}}}}}|
   class="mergedrow"|class="mergedbottomrow"}}
 {{#if: {{{Fläche|{{{area|<noinclude>x</noinclude>}}}}}} | {{#if: {{{Einwohner|{{{population|<noinclude>x</noinclude>}}}}}} |
-{{!}} &nbsp;- '''[[Population density|Popuasiun Pangasiksik]]''' {{!!}} {{formatnum:{{#expr: {{{Einwohner|{{{population|0}}}}}} / {{{Fläche|{{{area|1}}}}}} round 0}}}} /km<sup>2</sup>&nbsp;({{formatnum:{{#expr: {{{Einwohner|{{{population|0}}}}}} * 2.589988110336 div {{{Fläche|{{{area|1}}}}}} round 0}}}}&nbsp;/sq&nbsp;mi)
+{{!}} &nbsp;- '''[[Population density|Populasiun Pangasiksik]]''' {{!!}} {{formatnum:{{#expr: {{{Einwohner|{{{population|0}}}}}} / {{{Fläche|{{{area|1}}}}}} round 0}}}} /km<sup>2</sup>&nbsp;({{formatnum:{{#expr: {{{Einwohner|{{{population|0}}}}}} * 2.589988110336 div {{{Fläche|{{{area|1}}}}}} round 0}}}}&nbsp;/sq&nbsp;mi)
 }}}}
 |- class="mergedrow"
 {{#if: {{{pop_urban|<noinclude>x</noinclude>}}} |
@@ -305,7 +305,7 @@
 {{#if: {{{PLZ|{{{postal_code|<noinclude>x</noinclude>}}}}}}{{{Vorwahl|{{{area_code|}}}}}}{{{Kfz|{{{licence|{{{license|}}}}}}}}}{{{Website|{{{website|}}}}}} | {{!}} colspan="2" align=center style="background:#D8E2EF;" {{!}} '''Other information'''
 }}
 |- class="mergedtoprow" | 
-| '''[[Time zone]]''' <!-- (standard/[[Daylight saving time|DST]]} -->
+| '''[[Oras zona]]''' <!-- (standard/[[Daylight saving time|DST]]} -->
 | [[Central European Time|CET]]/[[Central European Summer Time|CEST]] ([[UTC+1]]/[[UTC+2|+2]])
 |- class="mergedrow" | 
 {{#if: {{{Kfz|{{{licence|{{{license|<noinclude>x</noinclude>}}}}}}}}}
