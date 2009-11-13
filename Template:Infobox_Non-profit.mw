@@ -1,0 +1,57 @@
+{{Infobox
+| bodyclass  = vcard
+
+| titleclass = fn org
+| title    = {{{name|{{{organization_name|{{{Non-profit_name|{{PAGENAME}}}}}}}}}}}
+| image    = {{{image|{{{organization_logo|{{{Non-profit_logo|}}}}}}}}}
+| caption  = {{{caption|}}}
+
+| label1   = Talatátag
+| data1    = {{{founder|}}}
+| label2   = Uri
+| data2    = {{{type|{{{organization_type|{{{Non-profit_type|}}}}}}}}}
+| label3   = Mitátag
+| data3    = {{{formation|{{{founded|{{{founded_date|}}}}}}}}}
+| class4   = label
+| label4   = Pun tanggapan
+| data4    = {{{location|}}}
+| label5   = Penibatan
+| data5    = {{{origins|}}}
+| label6   = Empleadu
+| data6    = {{{key_people|}}}
+| label7   = Lugal a se-serviciu-an
+| data7    = {{{area_served|}}}
+| label8   = [[Product (business)|Productu]]
+| data8    = {{{products|}}}
+| label9  = Serviciu
+| data9   = {{{services|}}}
+| label10  = Tututukan
+| data10   = {{{focus|}}}
+| label11 = Damla (''Mission'')
+| data11   = {{{mission|}}}
+| label12   = Paralan
+| data12   = {{{fields|{{{method|}}}}}}<!-- Not sure if "fields" is the same that "method" -->
+| label13  = Panakitan
+| data13   = {{{revenue|}}}
+| label14  = Endowment
+| data14   = {{{endowment|}}}
+| label15  = Volunteers
+| data15   = {{{num_volunteers|}}}
+| label16  = Empleadu
+| data16   = {{{num_employees|}}}
+| label17  = Kayanib
+| data17   = {{{num_members|}}}
+| label18  = Cumpaniang tatalnan
+| data18   = {{{subsid|}}}
+| label19  = Makibandi
+| data19   = {{{owner|}}}
+| class20  = note
+| label20  = Kasebian (''Motto'')
+| data20   = {{{motto|{{{organization_motto|{{{Non-profit_slogan|}}}}}}}}}
+| label21  = Karinan king Aptas (''Website'')
+| data21   = {{{homepage|}}}
+| label22  = Mewala
+| data22   = {{{extinction|{{{dissolved|}}}}}}
+
+| below  = {{{footnotes|}}}
+}}<noinclude>{{documentation}}</noinclude>
