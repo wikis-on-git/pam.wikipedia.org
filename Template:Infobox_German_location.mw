@@ -201,7 +201,7 @@
 	| Amt | Gemeindeverwaltungsverband | Samtgemeinde | Verbandsgemeinde | Verwaltungsgemeinschaft | Verwaltungsverband = '''Composition'''
         | Stadt | Kreisfreie Stadt | [[Kreisfreie Stadt|Stadt]] | City | city = {{#ifexpr:{{{Einwohner|{{{population|0}}}}}} > 100000 | '''City subdivisions''' | '''Town subdivisions'''}}
         | Town | town = '''Balen pangadake'''
-	| #default = '''{{ucfirst:{{{Art|{{{type|Local}}}}}}}} subdivisions'''
+	| #default = '''{{ucfirst:{{{Art|{{{type|Local}}}}}}}} pangadake'''
 }} {{!!}} {{{Gliederung|{{{divisions}}} }}}
 }}
 |-  {{#if:{{{ruling_party1|<noinclude>x</noinclude>}}}|class="mergedrow"|class="mergedbottomrow"}}
@@ -267,7 +267,7 @@
   -- & skips converting to feet. Use elevationmax for range.-->
   }}<!--endif elevationmax-->
   |<!--else-->{{#ifeq: {{{Höhe|{{{elevation|<noinclude>x</noinclude>}}}}}}|x
-   |{{!}}'''[[Elevation]]'''{{!!}}X&ndash;Xmax '''m''' (y&ndash;ymax ''ft'')<!--
+   |{{!}}'''[[Katas]]'''{{!!}}X&ndash;Xmax '''m''' (y&ndash;ymax ''ft'')<!--
       --><br/> &nbsp; X is {{{Höhe ''or'' &nbsp;elevation}}}<br/
       > &nbsp; Xmax <small
       >optional <nowiki>{{{elevationmax}}}</nowiki></small>
@@ -275,17 +275,17 @@
 }}<!--endif Höhe/elevation-->
 |- class="mergedrow" 
 {{#if: {{{Einwohner|{{{population|}}}}}}
-  |{{!}} '''[[Population]]'''{{#if: {{{pop_ref|}}}|<sup>&nbsp;</sup>}}
+  |{{!}} '''[[Populasiun]]'''{{#if: {{{pop_ref|}}}|<sup>&nbsp;</sup>}}
 {{!!}} {{formatnum:{{{Einwohner|{{{population}}}}}}}} &nbsp;{{
 #if: {{{Stand|{{{population_as_of|}}}}}} | {{#switch: {{#time:n|{{{Stand|{{{population_as_of}}}}}}}}
 	| 1|2|3|4|5|6|7|8|9|10|11|12 = <small>''({{#time:j F Y|{{{Stand|{{{population_as_of}}}}}}}})''</small>
 	| #default = {{#time:Y|{{{Stand|{{{population_as_of}}}}}}}}}}}}{{#if: {{{pop_ref|}}}|{{{pop_ref|}}}}}{{#if: {{{pop_source|}}}|[[Category:Germany articles requiring maintenance|I]]}}
-  |{{!}} '''[[Population]]''' {{!!}} {{{Einwohner ''or'' &nbsp;population}}}
+  |{{!}} '''[[Populasiun]]''' {{!!}} {{{Einwohner ''or'' &nbsp;population}}}
  }}<!--endif Einwohner/population-->
 |- {{#if: {{{pop_urban|{{{pop_metro|{{{year|<noinclude>x</noinclude>}}}}}}}}}|
   class="mergedrow"|class="mergedbottomrow"}}
 {{#if: {{{Fläche|{{{area|<noinclude>x</noinclude>}}}}}} | {{#if: {{{Einwohner|{{{population|<noinclude>x</noinclude>}}}}}} |
-{{!}} &nbsp;- '''[[Population density|Density]]''' {{!!}} {{formatnum:{{#expr: {{{Einwohner|{{{population|0}}}}}} / {{{Fläche|{{{area|1}}}}}} round 0}}}} /km<sup>2</sup>&nbsp;({{formatnum:{{#expr: {{{Einwohner|{{{population|0}}}}}} * 2.589988110336 div {{{Fläche|{{{area|1}}}}}} round 0}}}}&nbsp;/sq&nbsp;mi)
+{{!}} &nbsp;- '''[[Population density|Popuasiun Pangasiksik]]''' {{!!}} {{formatnum:{{#expr: {{{Einwohner|{{{population|0}}}}}} / {{{Fläche|{{{area|1}}}}}} round 0}}}} /km<sup>2</sup>&nbsp;({{formatnum:{{#expr: {{{Einwohner|{{{population|0}}}}}} * 2.589988110336 div {{{Fläche|{{{area|1}}}}}} round 0}}}}&nbsp;/sq&nbsp;mi)
 }}}}
 |- class="mergedrow"
 {{#if: {{{pop_urban|<noinclude>x</noinclude>}}} |
@@ -299,7 +299,7 @@
 }}
 |- class="mergedbottomrow" | 
 {{#if: {{{year|<noinclude>x</noinclude>}}} |
-{{!}} '''Founded''' {{!!}} {{#ifexist:{{{year}}}|{{#ifeq:{{#expr:{{{year}}}<100}}|1|[[{{{year}}}|{{{year}}} AD]]|[[{{{year}}}]]}}|{{{year}}}}}
+{{!}} '''Mitatag''' {{!!}} {{#ifexist:{{{year}}}|{{#ifeq:{{#expr:{{{year}}}<100}}|1|[[{{{year}}}|{{{year}}} AD]]|[[{{{year}}}]]}}|{{{year}}}}}
 }}
 |-
 {{#if: {{{PLZ|{{{postal_code|<noinclude>x</noinclude>}}}}}}{{{Vorwahl|{{{area_code|}}}}}}{{{Kfz|{{{licence|{{{license|}}}}}}}}}{{{Website|{{{website|}}}}}} | {{!}} colspan="2" align=center style="background:#D8E2EF;" {{!}} '''Other information'''
