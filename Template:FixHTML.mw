@@ -1,0 +1,30 @@
+<includeonly>{{#switch:{{lc:{{{1|}}}}}
+|beg|begin|top=<!--
+ -->{{{!}}style="background:transparent; float:{{{float|{{#if:{{{left|}}}|left|right}}}}}; <!--
+ -->margin:{{#if:{{{left|}}}<!--
+ === -->|{{{margin|0 1em 0.5em 0}}}<!--
+ === -->|{{{margin|0 0 0.5em 1em}}} <!--
+ -->}}; <!-- Endif:Right/Left
+ -->{{#if:{{{padding|}}} <!--
+ === -->|{{{padding}}}<!--
+ === -->|{{#if:{{{PL|}}}|padding:.25em 0 .25em .75em}}<!--
+ -->}}; "
+{{!}}<!--This line confines right floating elements in a table, the newline here is necessary after this comment -->
+
+|mid|middle=<!--
+ -->{{!}}-
+
+{{!}}<!-- this trailing newline needed.
+ ---      This line separates elements into the next table cell down
+ -->
+|end|bot|bottom=<!--
+ -->{{!}}}
+
+<!-- above newline needed
+
+This line terminates the table cell
+ -->
+|#default=<strong class="error">Parameter not given Error... Template {{tl2|FixBunching}} needs its first parameter as beg[in], mid[dle], or end.</strong>
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
