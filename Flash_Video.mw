@@ -1,6 +1,6 @@
 {{Infobox file format
 | name = Flash Video
-| icon = [[Image:FlashVideo.png|64px|Official FLV icon from Adobe Systems]]
+| icon = [[File:FlashVideo.png|64px|Official FLV icon from Adobe Systems]]
 | extension = .flv, .f4v, .f4p, .f4a, .f4b
 | mime = video/x-flv, video/mp4, video/x-m4v, audio/mp4a-latm, video/3gpp, video/quicktime, audio/mp4
 | type code =
@@ -33,7 +33,6 @@ Ing '''FLV player''' metung yang uri ning [[media player]] a gagamitan ba yang p
 [[en:Flash Video]]
 [[es:Flash Video]]
 [[fr:Flash Video]]
-[[hu:FLV fájlok]]
 [[it:Flash Video]]
 [[ja:Flash Video]]
 [[ko:플래시 비디오]]
