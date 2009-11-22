@@ -11,7 +11,7 @@
 | data1      = {{{author<includeonly>|</includeonly>}}}
 | label2     = [[Software developer|Minalkus (Developer)]]
 | data2      = {{{developer<includeonly>|</includeonly>}}}
-| label3     = Minunang pamagpalual
+| label3     = Mumunang pamagpalual
 | data3      = {{{released<includeonly>|</includeonly>}}}
 | label4     = [[Software release life cycle|{{#if:{{{discontinued|}}}|Discontinued|Ganap a pamagpalual (Stable release)}}]]
 | data4      = {{#if:{{{latest release version|{{{latest_release_version<includeonly>|</includeonly>}}}}}}
