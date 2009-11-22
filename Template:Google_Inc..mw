@@ -1,0 +1,167 @@
+{{navbox<!--
+-- Template:Google Inc. - Navbox/navpage for Google articles
+--
+--   This code has parameters: corporate=yes or products=yes,
+--   rejecting invalid spellings. The standalone navpage mode
+--   shows more links than navbox mode (see NOTES below).
+-->
+| name   = Google Inc.
+| title  = [[Google|Google Inc.]]
+
+| state  = {{
+  #ifexpr: {{#ifeq: {{{products|yes}}}|no|1|0}} and {{#ifeq: {{{corporate|yes}}}|no|1|0}}|{{{state|plain}}}|{{{state|collapsed}}}
+  }}<!--endif corporate and products-->
+
+| above  = {{ <!--See NOTE C2-->
+         #ifeq:{{{corporate|yes}}}|no|<!--skip-->|<!--else-put
+--above--> {{nowrap begin}}'''Chairman/CEO''': [[Eric E. Schmidt]]{{·w}} '''Director/Technology President/Co-Founder''': [[Sergey Brin]]{{·w}} '''Director/Products President/Co-Founder''': [[Larry Page]]<br>'''Other Directors''': [[John Doerr]]{{·}} [[John L. Hennessy]]{{·w}} [[Arthur D. Levinson]]{{·w}} [[Ann Mather]]{{·w}} [[Paul Otellini]]{{·w}} [[Ram Shriram]]{{·}} [[Shirley M. Tilghman]]{{·w}} '''Senior Advisor''': [[Al Gore]]{{nowrap end}}
+  }}<!--endif corporate-->
+
+| group1 = {{
+         #ifeq:{{{corporate|yes}}}|no||<!--else-put-->Advertising
+}}<!--endif corporate-->
+| list1  = {{
+         #ifeq:{{{corporate|yes}}}|no|<!--skip-->|<!--else-put
+--list1--> [[Ad Manager]]{{·}} [[Adscape]]{{·}} [[AdSense]]{{·}} [[Google Advertising Professional|Advertising Professionals]]{{·}} [[AdWords]]{{·}} [[Google Analytics|Analytics]]{{·}} [[Google Checkout|Checkout]]{{·}} [[DoubleClick]]
+  }}<!--endif corporate-->
+
+| group2 = {{ <!--See NOTE P2-->
+         #ifeq:{{{products|yes}}}|no||<!--else-put-->Communication
+         }}<!--endif products-->
+| list2  = {{
+         #ifeq:{{{products|yes}}}|no|<!--skip-->|<!--else-put
+--list2--> [[Google Alerts|Alerts]]{{·}} [[Google Calendar|Calendar]]{{·}} [[Google Friend Connect|Friend Connect]]{{·}} [[Gmail]]<small>&nbsp;([[History of Gmail|history]]{{·}} [[Gmail interface|interface]])</small>{{·}} [[Google Groups|Groups]]{{·}} [[Google Talk|Gtalk]]{{·}} [[Google Latitude|Latitude]]{{·}} [[Orkut]]{{·}} [[Google Questions and Answers|Q & A]]{{·}} [[Google Reader|Reader]]{{·}} [[Google Translate|Translate]]{{·}} [[Google Voice|Voice]]{{·}} [[Google Wave|Wave]]
+  }}<!--endif products-->
+
+| group3 = {{
+         #ifeq:{{{products|yes}}}|no||<!--else-put-->Software
+         }}<!--endif products-->
+| list3  = {{
+         #ifeq:{{{products|yes}}}|no|<!--skip-->|<!--else-put
+--list3--> [[Google Chrome|Chrome]]{{·}} [[Google Chrome OS|Chrome OS]]{{·}} [[Google Desktop|Desktop]]{{·}} [[Google Earth|Earth]]{{·}} [[Google Desktop#Gadgets & plug-ins|Gadgets]]{{·}} [[Gmail Mobile]]{{·}} [[Google Pack|Pack]]{{·}} [[Picasa]]{{·}} [[Google PowerMeter|PowerMeter]]{{·}} [[SketchUp]]{{·}} [[Google Talk|Talk]]{{·}} [[Google Toolbar|Toolbar]]{{·}} [[Google Pack#Google Updater|Updater]]{{·}} [[Urchin (software)|Urchin]]
+  }}<!--endif products-->
+
+| group4 = {{
+         #ifeq:{{{products|yes}}}|no||<!--else-put-->[[Google platform|Platforms]]
+         }}<!--endif products-->
+| list4  = {{
+         #ifeq:{{{products|yes}}}|no|<!--skip-->|<!--else-put
+--list4--> [[Google Account|Account]]{{·}} [[Android (mobile device platform)|Android]]{{·}} [[Google App Engine|App Engine]]{{·}} [[Google Apps|Apps]]{{·}} [[Google Base|Base]]{{·}} [[BigTable]]{{·}} [[Caja (programming language)|Caja]]{{·}} [[Google Co-op|Co-op]]{{·}} [[Gears (software)|Gears]]{{·}} [[Google File System|GFS]]{{·}} [[Google Health|Health]]{{·}}  [[Google Native Client|Native Client]]{{·}} [[OpenSocial]]{{·}} [[Google Wave Federation Protocol|Wave]]
+  }}<!--endif products-->
+
+| group5 = {{
+         #ifeq:{{{products|yes}}}|no||<!--else-put-->Development tools
+         }}<!--endif products-->
+| list5  = {{
+         #ifeq:{{{products|yes}}}|no|<!--skip-->|<!--else-put
+--list5--> [[Google AJAX APIs|AJAX APIs]]{{·}} [[Google Closure Tools|Closure Tools]]{{·}} [[Google Code|Code]]{{·}} [[Google Gadgets API|Gadgets API]]{{·}} [[GData]]{{·}} [[Googlebot]]{{·}} [[Google Guice|Guice]]{{·}} [[Google Web Server|GWS]]{{·}} <noinclude>[[Google Highly Open Participation Contest|Highly Open Participation Contest]]{{·}} </noinclude>[[Google Image Labeler|Image Labeler]]{{·}} [[Keyhole Markup Language|KML]]{{·}} [[MapReduce]]{{·}} <noinclude>[[Mediabot]]{{·}} </noinclude>[[Google Pinyin|Pinyin]]{{·}} [[SketchUp Ruby]]{{·}} [[Sitemaps]]<noinclude><small>&nbsp;([[Sitemap index|index]])</small></noinclude>{{·}} [[Google Summer of Code|Summer of Code]]{{·}} [[Google TechTalks|TechTalks]]{{·}} [[Google Web Toolkit|Web Toolkit]]{{·}} [[Google Website Optimizer|Website Optimizer]]
+  }}<!--endif products-->
+
+| group6 = {{
+         #ifeq:{{{products|yes}}}|no||<!--else-put-->Publishing
+         }}<!--endif products-->
+| list6  = {{
+         #ifeq:{{{products|yes}}}|no|<!--skip-->|<!--else-put
+--list6--> [[Blogger (service)|Blogger]]{{·}} [[Google Bookmarks|Bookmarks]]{{·}} [[Google Docs|Docs]]{{·}} [[FeedBurner]]{{·}} [[iGoogle]]{{·}} [[Jaiku]]{{·}} [[Knol]]{{·}} [[Google Map Maker|Map Maker]]{{·}} [[Panoramio]]{{·}} [[Picasa#Picasa Web Albums|Picasa Web Albums]]{{·}} [[Google Sites|Sites (JotSpot)]]{{·}} [[YouTube]]
+  }}<!--endif products-->
+
+| group7 = {{ <!--See NOTE C2-->
+         #ifexpr: {{#ifeq: {{{products|yes}}}|no|1|0}} and {{#ifeq: {{{corporate|yes}}}|no|1|0}}||<!--else-put-->Search ([[PageRank]])
+         }}<!--endif products and corporate-->
+| list7  = {{
+         #ifexpr: {{#ifeq: {{{products|yes}}}|no|1|0}} and {{#ifeq: {{{corporate|yes}}}|no|1|0}}|<!--skip-->|<!--else-put
+--list7--> [[Google Search Appliance|Appliance]]{{·}} [[Google Audio Indexing|Audio]]{{·}} [[Google Book Search|Books]]<small>&nbsp;([[Google Books Library Project|Library Project]])</small>{{·}} [[Google Code Search|Code]]{{·}} [[Google Desktop|Desktop]]{{·}} [[Google Fast Flip|Fast Flip]]{{·}} [[Google Finance|Finance]]{{·}} [[GOOG-411]]{{·}} [[Google Image Search|Images]]{{·}} [[Google Maps|Maps]]<small>&nbsp;(<noinclude>[[Google Mars|Mars]]{{·}} [[Google Moon|Moon]]{{·}} [[Google Ocean|Ocean]]{{·}} [[Google Sky|Sky]]{{·}} </noinclude>[[Google Street View|Street View]])</small>{{·}} [[Google News|News]]{{·}} [[Google Patents|Patents]]{{·}} [[Google Product Search|Products]]{{·}} [[Google Scholar|Scholar]]{{·}} [[Google SearchWiki|SearchWiki]]{{·}} [[Google Groups|Usenet]]{{·}} [[Google Video|Video]]{{·}} [[Google search|Web Search]]{{·}} Analysis: [[Google Insights for Search|Insights for Search]]{{·}} [[Google Trends|Trends]]{{·}}  [[Google guidelines|Webmaster guidelines]]
+  }}<!--endif products and corporate-->
+
+| group8 = {{ <!--See NOTE P2-->
+         #ifeq:{{{products|yes}}}|no||<!--else-put-->[[List of Google products#Previous products|Discontinued]]
+         }}<!--endif products-->
+| list8  = {{
+         #ifeq:{{{products|yes}}}|no|<!--skip-->|<!--else-put
+--list8--> [[Google Answers|Answers]]{{·}} [[Google Browser Sync|Browser Sync]]{{·}} [[AdWords#Click-to-Call|Click-to-Call]]{{·}} [[Dodgeball (service)|Dodgeball]]{{·}} [[Joga Bonito]]{{·}} [[Google Lively|Lively]]{{·}} [[Google Mashup Editor|Mashup Editor]]{{·}} [[Google Notebook|Notebook]]{{·}} [[Google Page Creator|Page Creator]]{{·}} [[Google Video Marketplace|Video Marketplace]]{{·}} [[Google Web Accelerator|Web Accelerator]]
+  }}<!--endif products-->
+
+| group9 = {{ <!--See NOTE C2-->
+         #ifeq:{{{corporate|yes}}}|no||<!--else-put-->[[:Category:Google|See also]]
+         }}<!--endif corporate-->
+| list9  = {{
+         #ifeq:{{{corporate|yes}}}|no|<!--skip-->|<!--else-put
+--list9--> [[List of acquisitions by Google|Acquisitions]]{{·}} [[Google bomb|Bomb]]{{·}} [[Censorship by Google|Censorship]]{{·}} <noinclude>[[Google Current|Current]]{{·}} </noinclude>[[Criticism of Google|Criticism]]{{·}} <noinclude>[[Google Earth Outreach|Earth Outreach]]{{·}} </noinclude>[[Google.org#Google Foundation|Foundation]]{{·}} [[Google China]]{{·}} [[Google.org]]{{·}} [[Googleplex]]{{·}} [[History of Google|History]]{{·}} [[Google's hoaxes|Hoaxes]]{{·}} [[Google search#"I'm Feeling Lucky"|I'm Feeling Lucky]]{{·}} [[Google I/O|I/O]]{{·}} [[Google Labs|Labs]]{{·}} [[Google logo|Logo]]{{·}} [[Google Lunar X Prize|Lunar X Prize]]{{·}} [[List of Google products|Products]]{{·}} [[Google Ventures]]{{·}} [[Google WiFi|WiFi]]{{·}} [[Google Zeitgeist|Zeitgeist]]
+  }}<!--endif corporate-->
+
+| below  = {{
+         #ifeq:{{{corporate|yes}}}|no|<!--skip-->|<!--else-put
+--below--> {{nowrap begin}}'''Annual revenue''': [[United States dollar|US$]]21.80 [[1000000000 (number)|billion]] ([[fiscal year|FY]] 2008, {{increase}}31% from 2007){{·w}} '''[[:Category:Google employees|Employees]]''': 19,786 full-time (Jun. 30, 2009){{·w}} '''[[History of Google#Financing and initial public offering|Stock symbol]]''': ({{nasdaq2|GOOG}}, {{lse2|GGEA}}){{·w}} '''Motto''': [[Don't be evil]]{{·w}} '''[[Google.com|Website]]''': [http://www.google.com/ www.google.com]{{nowrap end}}
+  }}<!--endif corporate-->
+}}<!--end Navbox--><includeonly><!--
+-=============================== Check Invalid parameters
+-- checks spellings: Corporate/coporate/corprate/corperate
+-- checks: Products/product/produce/produces/porducts/prod
+--
+-->{{#ifeq:{{{Corporate|}}}||<!--then-ignore-->|<!--
+--else report error--><br>In {{tl|Googe Inc.}} - Invalid parameter "'''C'''orporate", try corporate=no (lowercase).}}<!--endifeq
+-->{{#ifeq:{{{coporate|}}}||<!--then-ignore-->|<!--
+--else report error--><br>In {{tl|Googe Inc.}} - Invalid parameter "'''co'''porate", try corporate=no.}}<!--endifeq
+-->{{#ifeq:{{{corprate|}}}||<!--then-ignore-->|<!--
+--else report error--><br>In {{tl|Googe Inc.}} - Invalid parameter "cor'''pr'''ate", try corporate=no.}}<!--endifeq
+-->{{#ifeq:{{{corperate|}}}||<!--then-ignore-->|<!--
+--else report error--><br>In {{tl|Googe Inc.}} - Invalid parameter "corp'''er'''ate", try corporate=no.}}<!--endifeq
+--
+-->{{#ifeq:{{{Products|}}}||<!--then-ignore-->|<!--
+--else report error--><br>In {{tl|Googe Inc.}} - Invalid parameter "''P''roducts", try products=no (lowercase)}}<!--endifeq
+-->{{#ifeq:{{{product|}}}||<!--then-ignore-->|<!--
+--else report error--><br>In {{tl|Googe Inc.}} - Invalid parameter "produc'''t'''" singular; try products=no (plural).}}<!--endifeq
+-->{{#ifeq:{{{produce|}}}||<!--then-ignore-->|<!--
+--else report error--><br>In {{tl|Googe Inc.}} - Invalid parameter "produc'''e'''", try products=no (plural).}}<!--endifeq
+--
+-->{{#ifeq:{{{produces|}}}||<!--then-ignore-->|<!--
+--else report error--><br>In {{tl|Googe Inc.}} - Invalid parameter "produc'''es'''", try products=no (plural).}}<!--endifeq
+-->{{#ifeq:{{{porducts|}}}||<!--then-ignore-->|<!--
+--else report error--><br>In {{tl|Googe Inc.}} - Invalid parameter "p'''or'''ducts", try products=no.}}<!--endifeq
+-->{{#ifeq:{{{prod|}}}||<!--then-ignore-->|<!--
+--else report error--><br>In {{tl|Googe Inc.}} - Invalid parameter "prod", try products=no (full-word).}}<!--endifeq
+--
+-->{{#ifeq:{{{all|}}}||<!--then-ignore-->|<!--
+--else report error--><br>In {{tl|Googe Inc.}} - Invalid parameter "all", try coporate=yes or products=yes.}}<!--endifeq
+-->{{#ifeq:{{{none|}}}||<!--then-ignore-->|<!--
+--else report error--><br>In {{tl|Googe Inc.}} - Invalid parameter "none", try coporate=no or products=no.}}<!--endifeq
+--
+--></includeonly><noinclude>{{Documentation, template|Template:Google Inc./doc}}<!--
+--       -------------------------------------------------
+--NOTES:
+--
+-- NOTE C2: Parameter "corporate=yes" shows info for the CEO,
+--          stock/etc. plus groups "Advertising", "Search", and "See also".
+--
+-- NOTE P2: Parameter "products=yes" shows product info, which
+--          includes most of the group/list sections, but not
+--          the group/list for "Advertising" or "See also".
+--
+-- NOTE T2: When transcluded, title-bar shows "[full navpage]"
+--          to click-link the full menu, as a standalone page.
+--          To align title with other (stacked) navboxes, then
+--          leading-blanks are added if "[full navpage]" seen.
+--
+-- NOTE V9: Coded for MediaWiki language 1.11.1 (Jan.2008);
+--          wiki-format now omits HTML comments on web xfer.
+--
+--HISTORY:
+-- 18Feb08 Added parameters: corporate=yes, products=yes.
+-- 18Feb08 Spot invalid keywords: coporate/corprate/produce/etc
+-- 18Feb08 Linked doc subpage "See: Template:Google_Inc./doc".
+-- 18Feb08 Added NOTES comments (skipped on wiki-page display).
+-- 13Nov08 Restored parameters, with clearer if-expressions.
+-- 13Nov08 Restored doc as "See: Template:Google Inc./doc".
+-- 13Nov08 Shortened NOTES here for narrow 800x600 screens.
+-- 03Dec08 Made default to corporate=yes from corporate=no.
+-- 04Dec08 Removed "Hide/Show" link when fully collapsed.
+-- 02Feb09 Fixed 4Dec bug "style=..." when corporate=no.
+-- 02Feb09 Shortened HTML comments here for narrow windows.
+-- 21Mar09 Added "Search" section to corporate parameter.
+-- 22Mar09 Removed unreferenced notes and simplified 4Dec code.
+-- 16Jun09 Put subsection "Analysis" for "Insights*" & "Trends"
+--
+-- [These comment lines are omitted before Internet transfer.]
+--
+--End Template:Google Inc.-->
+</noinclude>
