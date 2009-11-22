@@ -9,7 +9,7 @@
 
 | label1     = [[Software design|Orihinal a sínúlat]]
 | data1      = {{{author<includeonly>|</includeonly>}}}
-| label2     = [[Software developer|Developer(s)]]
+| label2     = [[Software developer|Minlalkus (Developer(s))]]
 | data2      = {{{developer<includeonly>|</includeonly>}}}
 | label3     = Minunang mipalual
 | data3      = {{{released<includeonly>|</includeonly>}}}
@@ -49,7 +49,7 @@
 | data10     = {{{language<includeonly>|</includeonly>}}}
 | label11    = Development status
 | data11     = {{{status<includeonly>|</includeonly>}}}
-| label12    = [[List of software categories|Type]]
+| label12    = [[List of software categories|Uri]]
 | data12     = {{{genre<includeonly>|</includeonly>}}}
 | label13    = [[Software license|Licencia]]
 | data13     = {{{license<includeonly>|</includeonly>}}}
