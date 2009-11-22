@@ -1,0 +1,126 @@
+{{Infobox Website
+| name           = Google Maps
+| logo           = [[File:Google maps logo.png]] 
+| screenshot     = [[Image:Google Maps directions.png|250px|]]
+| caption        = Screenshot of Google Maps showing a route from [[San Francisco]] to [[Los Angeles]] on [[Interstate 5]].
+| url            = [http://maps.google.com maps.google.com]
+| commercial     = 
+| type           = [[Web mapping]]
+| language       = [[Coverage details of Google Maps|Multilingual]]
+| registration   = No
+| owner          = [[Google]]
+| author         = [[Google]]
+| launch date    = 
+| current status = Active
+| revenue        = 
+}}
+Ing '''Google Maps''' (a aniang purmeru maki lagiung '''Google Local''') metung yang simpling [[web mapping]]  ''service application'' ampong tecnologiang ibat king [[Google]], a libri (para king pamangamit a e pang-negocio), a papalakad kareng dakal a serbiciong makabasi kareng mapa, kayabe ne ing ''website'' o  karinan king Aptas a Google Maps, [[#Google Ride Finder|Google Ride Finder]], Google Transit,<ref> {{cite web |url=http://www.techpluto.com/google-transit-benefits/|title=Google Transit: A Great Asset to ‘Google Maps’}}</ref> ampong mapang makakutkut (''embedded'') kareng ''third-party website'' kapamilatan ning Google Maps [[Application programming interface|API]].<ref>{{cite web |url=http://code.google.com/apis/maps/|title=What is the Google Maps API?}}</ref> Miyayampang yang mapa da reng dalan, metung a [[route planner]] para king pamaglakbeng lalakad, maka-cochi, o makasaken a pampublico, ampong ''urban business locator'' para kareng [[Coverage details of Google Maps|dakal a bangsa]] king mabilug a yatu. Agpang king metung king kayang talapaglalang, i ([[Lars Rasmussen (Software Developer)|Lars Rasmussen]]), ing Google Maps metung yang "paralan ning pamag-organisa ning informacion king yatu agpang king geografia".<ref>[http://www.abc.net.au/tv/fora/stories/2009/07/10/2620279.htm ABC Fora- Lars Rasmussen on Inventing Google Maps<!-- Bot generated title -->]</ref>
+
+
+Uling gagamit yang [[Mercator projection]] ing Google Maps, e no apakit deng lugal a malapit kareng polo o ''pole''. Metung yang productung kawangis na ing [[Google Earth]], metung a program a magsarili (''stand-alone program'') para king [[Microsoft Windows]], [[Mac OS X]], [[Linux]], [[SymbianOS]], ampong [[iPhone OS]] a mas dakal ampang a magpalto king mabilug a yatu, kayabe na ing labuad o lugal da reng polo.
+
+==Lon la murin==
+*[[:en:Argleton]], a non-existant town which appears on Google Maps
+*[[:en:Bing Maps]]
+*[[:en:Comparison of web map services]]
+*[[lmx]] filetype 
+*[[:en:Mashup (web application hybrid)|Mashup]]
+*[[:en:Placeopedia]]
+*[[:en:PlaceSpotting]]
+*[[:en:Sailwx|Ship location mapping service]]
+*[[:en:WikiMapia]], a [[Mashup (web application hybrid)|mashup]] combining Google Maps and a [[wiki]] aimed at "describing the whole planet earth"
+
+===Serbiciong kawangis===
+*[[Bing Maps]] – Microsoft's mapping service with road maps and aerial/satellite imagery
+**[[TerraServer-USA]] – public domain (older than five years) satellite imagery via [[Microsoft]] servers
+**[[Bing Maps for Enterprise]] - formerly [[Microsoft Virtual Earth]]
+*[[deCarta]] - [[Drill down|Drill Down Server]] - web services platform offers [[AJAX]], [[Flash]], [[iPhone]] [[API]]s for mapping, geocoding, routing and reverse geocoding services.
+*[[Géoportail]] – a French rival offering detailed aerial photographs of [[French territories]]
+*[[MapQuest]]
+*[[Multimap.com]]
+*[[OpenStreetMap]] – a royalty free, editable map of the world
+*[[Ovi (Nokia)|Ovi Maps]] – a service offered by Nokia that allows synchronizing with user's mobile phones
+*[[Pictometry]] – a birdseye imagery provider which can be integrated into all mapping programs
+*[[Seat Pagine Gialle]] – an Italian competitor offering detailed satellite pictures of Italian territories and navigable street level panoramas of Rome (similar to Street View)
+*[[Terralink International]]
+*[[ViaMichelin]]
+*[[Yahoo! Maps]]
+
+==Dalerayan==
+{{reflist|2}}
+
+==Suglung palual==
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - -
+ ATTENTION!
+ DO NOT ADD LINKS WITHOUT DISCUSSION ON THE TALK PAGE.
+ THEY WILL BE REMOVED. 
+ See [http://en.wikipedia.org/wiki/Wikipedia:External links]
+ - - - - - - - - - - - - - - - - - - - - - - - - - -->
+*[http://maps.google.com Google Maps]
+**[http://google.com/gmm Mobile phone version]
+**[http://google.com/sky Google Sky]
+**[http://moon.google.com/ Google Moon]
+**[http://www.google.com/mars/ Google Mars]
+*[http://sites.google.com/site/gmapsdevelopment/ Google Maps Development]
+
+{{Google Inc.}}
+{{Earth}}
+
+[[Category:Web 2.0]]
+[[Category:Google services|Maps]]
+[[Category:Keyhole Markup Language]]
+[[Category:Web mapping]]
+[[Category:Web Map Services]]<!-- Does Google Maps really use WMS? -->
+[[Category:Route planning software]]
+[[Category:Websites which use Wikipedia]]
+[[Category:Google Maps]]
+[[Category:Android software]]
+[[Category:IPhone OS software|Maps]]
+[[Category:Pocket PC software]]
+[[Category:Windows Mobile Standard software]]
+[[Category:Internet properties established in 2005]]
+
+[[af:Google Maps]]
+[[ar:خرائط جوجل]]
+[[bg:Google Карти]]
+[[ca:Google Maps]]
+[[cs:Mapy Google]]
+[[da:Google Maps]]
+[[de:Google Maps]]
+[[en:Google Maps]]
+[[es:Google Maps]]
+[[eo:Google Maps]]
+[[eu:Google Maps]]
+[[fa:گوگل نقشه‌ها]]
+[[fr:Google Maps]]
+[[ko:구글 지도]]
+[[hr:Google Maps]]
+[[id:Google Maps]]
+[[it:Google Maps]]
+[[he:Google Maps]]
+[[ka:Google Maps]]
+[[la:Google Maps]]
+[[lt:Google Maps]]
+[[hu:Google Maps]]
+[[nl:Google Maps]]
+[[ja:Google マップ]]
+[[no:Google Maps]]
+[[nn:Google Maps]]
+[[uz:Google Maps]]
+[[pl:Google Maps]]
+[[pt:Google Maps]]
+[[ru:Google Maps]]
+[[simple:Google Maps]]
+[[sk:Google Maps]]
+[[sl:Google Maps]]
+[[sr:Google Maps]]
+[[sh:Google Maps]]
+[[fi:Google Maps]]
+[[sv:Google Maps]]
+[[ta:கூகிள் மேப்ஸ்]]
+[[th:กูเกิล แมปส์]]
+[[tr:Google Haritalar]]
+[[vi:Google Maps]]
+[[wuu:Google地图]]
+[[yi:גוגל מאפע]]
+[[zh:Google地图]]
