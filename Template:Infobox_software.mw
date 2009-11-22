@@ -7,7 +7,7 @@
 | image      = {{#if:{{{collapsible|}}}|{{hidden begin|title=Screenshot|titlestyle=text-align:center}}}}{{{screenshot|}}}
 | caption    = {{{caption|}}}{{#if:{{{collapsible|}}}|{{hidden end}}}}
 
-| label1     = [[Software design|Orihinal a sinulat]]
+| label1     = [[Software design|Orihinal a sínúlat]]
 | data1      = {{{author<includeonly>|</includeonly>}}}
 | label2     = [[Software developer|Developer(s)]]
 | data2      = {{{developer<includeonly>|</includeonly>}}}
