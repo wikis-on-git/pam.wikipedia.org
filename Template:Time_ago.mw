@@ -1,0 +1,22 @@
+{{#switch:
+  {{#expr: <!--WHAT 'ORDER OF MAGNITUDE' IS THE OFFSET?-->
+   {{#ifexpr: floor( abs( {{#time:U}} - {{#time:U| {{{1|}}} }} ) / 120      ) | 1 | 0 }}+
+   {{#ifexpr: floor( abs( {{#time:U}} - {{#time:U| {{{1|}}} }} ) / 7200     ) | 1 | 0 }}+
+   {{#ifexpr: floor( abs( {{#time:U}} - {{#time:U| {{{1|}}} }} ) / 172800   ) | 1 | 0 }}+
+   {{#ifexpr: floor( abs( {{#time:U}} - {{#time:U| {{{1|}}} }} ) / 5356800  ) | 1 | 0 }}+
+   {{#ifexpr: floor( abs( {{#time:U}} - {{#time:U| {{{1|}}} }} ) / 63115200 ) | 1 | 0 }}
+  }}
+ | 0 = {{#expr: floor( abs( {{#time:U}} - {{#time:U| {{{1|}}} }} ) / 1        ) }} seconds
+ | 1 = {{#expr: floor( abs( {{#time:U}} - {{#time:U| {{{1|}}} }} ) / 60       ) }} minutes
+ | 2 = {{#expr: floor( abs( {{#time:U}} - {{#time:U| {{{1|}}} }} ) / 3600     ) }} hours
+ | 3 = {{#expr: floor( abs( {{#time:U}} - {{#time:U| {{{1|}}} }} ) / 86400    ) }} days
+ | 4 = {{#expr: floor( abs( {{#time:U}} - {{#time:U| {{{1|}}} }} ) / 2678400  ) }} months
+ | 5 = {{#expr: floor( abs( {{#time:U}} - {{#time:U| {{{1|}}} }} ) / 31557600 ) }} years
+
+}}{{#ifexpr: {{#time:U}} - {{#time:U| {{{1|}}} }} >= 0
+ | &#32;ago
+ | ' time
+}}<noinclude>
+{{pp-template}}
+{{documentation}}
+</noinclude>
