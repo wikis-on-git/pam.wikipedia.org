@@ -1,0 +1,4 @@
+<includeonly>{{#if:{{{1|{{{year|}}}}}}|<span class="bday">{{{1|{{{year|{{CURRENTYEAR}}}}}}}}-{{{2|{{{month|{{CURRENTMONTH}}}}}}}}-{{padleft:{{{3|{{{day|{{CURRENTDAY}}}}}}}}|1|0}}</span><span class="noprint">; {{time ago|{{{1|{{{year|{{CURRENTYEAR}}}}}}}}-{{{2|{{{month|{{CURRENTMONTH}}}}}}}}-{{{3|{{{day|{{CURRENTDAY}}}}}}}} }}</span>}}</includeonly><noinclude>
+{{Pp-template|small=yes}}
+{{documentation}}
+</noinclude>
