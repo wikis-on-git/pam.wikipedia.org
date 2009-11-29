@@ -24,7 +24,7 @@
 
 |label2  = {{#if:{{{birth_name<includeonly>|</includeonly>}}}<!--
               -->{{{birth_date|}}}{{{birth_place|}}}
-             | Born }}
+             | Mibait }}
 |data2   = {{#if:{{{birth_name<includeonly>|</includeonly>}}} |{{{birth_name}}}<br/>}}<!--
         -->{{#if:{{{birth_date<includeonly>|</includeonly>}}} |{{{birth_date}}}<br/>}}<!--
         -->{{{birth_place<includeonly>|</includeonly>}}}
