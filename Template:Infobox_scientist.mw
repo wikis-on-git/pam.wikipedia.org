@@ -31,7 +31,7 @@
 
 |label3  = {{#if:{{{death_date<includeonly>|</includeonly>}}}<!--
               -->{{{death_place|}}}{{{death_cause|}}}
-             | Died }}
+             | Kematyan }}
 |data3   = {{#if:{{{death_date<includeonly>|</includeonly>}}}  |{{{death_date}}}<br/>}}<!--
         -->{{#if:{{{death_place<includeonly>|</includeonly>}}} |{{{death_place}}}<br/>}}<!--
         -->{{{death_cause<includeonly>|</includeonly>}}}
@@ -57,7 +57,7 @@
 |data11  = {{{doctoral_advisor<includeonly>|</includeonly>}}}
 
 |label12 = {{#if:{{{doctoral_advisor<includeonly>|</includeonly>}}}
-             | Other academic&nbsp;advisors
+             | Aliwang academiang&nbsp;talausuk
              | Academic advisors }}
 |data12  = {{{academic_advisors<includeonly>|</includeonly>}}}
 
@@ -65,8 +65,8 @@
 |data13  = {{{doctoral_students<includeonly>|</includeonly>}}}
 
 |label14 = {{#if:{{{doctoral_students<includeonly>|</includeonly>}}}
-             | Other notable&nbsp;students
-             | Notable students }}
+             | Aliwang kapnsinpansin&nbsp;estudianti
+             | Kapansinpansin estudianti }}
 |data14  = {{{notable_students<includeonly>|</includeonly>}}}
 
 |label15 = Bantug&nbsp;keng
