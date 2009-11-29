@@ -96,7 +96,7 @@
 -->{{#if:{{{author_abbreviation_zoo|{{{author_abbrev_zoo|}}}}}}
      | [[Category:Zoologists with author abbreviations<!--
          -->|{{{author_abbreviation_zoo|{{{author_abbrev_zoo}}}}}}]]<!--
--->}}<!--
+-->}<!--
 --><noinclude>
 {{end infobox page}}
 
