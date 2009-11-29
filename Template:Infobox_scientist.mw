@@ -1,7 +1,8 @@
 <noinclude>{{start infobox page}}</noinclude><!--
--->{{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right"
-|+ style="margin-left: inherit; font-size: medium;"
-
+-->{{Infobox
+|bodyclass  = vcard
+|bodystyle  = width:{{{box_width|26em}}}; text-align:left; font-size:85%;
+|aboveclass = fn
 |above      = '''{{{name<includeonly>|{{PAGENAME}}</includeonly>}}}'''
 |abovestyle = background:transparent; text-align:center; font-size:125%
 |data1      = {{{honorific_suffix|{{{honorific_suffix<includeonly>|</includeonly>}}}}}}
