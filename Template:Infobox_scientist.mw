@@ -36,24 +36,24 @@
         -->{{#if:{{{death_place<includeonly>|</includeonly>}}} |{{{death_place}}}<br/>}}<!--
         -->{{{death_cause<includeonly>|</includeonly>}}}
 
-|label4  = Residence
+|label4  = Menuknangan
 |data4   = {{{residence<includeonly>|</includeonly>}}}
 |label5  = Citizenship
 |data5   = {{{citizenship<includeonly>|</includeonly>}}}
-|label6  = Nationality
+|label6  = Bangsa
 |data6   = {{{nationality<includeonly>|</includeonly>}}}
-|label7  = Ethnicity
+|label7  = Katutubu
 |data7   = {{{ethnicity<includeonly>|</includeonly>}}}
-|label8  = Fields
+|label8  = Taldawa
 |data8   = {{{field|{{{fields<includeonly>|</includeonly>}}}}}}
 
-|label9  = Institutions
+|label9  = Institusiun
 |data9   = {{{workplaces<includeonly>|</includeonly>}}}<!--
         -->{{{work_institutions|}}}{{{work_institution|}}}
 
 |label10  = [[Alma mater]]
 |data10   = {{{alma_mater<includeonly>|</includeonly>}}}
-|label11 = [[Doctorate|Doctoral]] advisor
+|label11 = [[Doctorate|Doctoral]] talausuk
 |data11  = {{{doctoral_advisor<includeonly>|</includeonly>}}}
 
 |label12 = {{#if:{{{doctoral_advisor<includeonly>|</includeonly>}}}
@@ -61,7 +61,7 @@
              | Academic advisors }}
 |data12  = {{{academic_advisors<includeonly>|</includeonly>}}}
 
-|label13 = Doctoral students
+|label13 = Doctoral estudianti
 |data13  = {{{doctoral_students<includeonly>|</includeonly>}}}
 
 |label14 = {{#if:{{{doctoral_students<includeonly>|</includeonly>}}}
@@ -69,23 +69,23 @@
              | Notable students }}
 |data14  = {{{notable_students<includeonly>|</includeonly>}}}
 
-|label15 = Known&nbsp;for
+|label15 = Bantug&nbsp;keng
 |data15  = {{{known_for<includeonly>|</includeonly>}}}
-|label16 = Influences
+|label16 = Impluwensia
 |data16  = {{{influences<includeonly>|</includeonly>}}}
-|label17 = Influenced
+|label17 = Menimpluwensia
 |data17  = {{{influenced<includeonly>|</includeonly>}}}
-|label18 = Notable awards
+|label18 = Bantug a galal
 |data18  = {{{awards<includeonly>|</includeonly>}}}{{{prizes|}}}
 |label19 = [[Author citation (botany)|Author abbreviation (botany)]]
 |data19  = {{{author_abbreviation_bot|{{{author_abbrev_bot<includeonly>|</includeonly>}}}}}}
 |label20 = [[Author citation (zoology)|Author abbreviation (zoology)]]
 |data20  = {{{author_abbreviation_zoo|{{{author_abbrev_zoo<includeonly>|</includeonly>}}}}}}
-|label21 = Religious stance
+|label21 = Kasalpantayanan kabilian
 |data21  = {{{religion<includeonly>|</includeonly>}}}
 
 |data22  = {{#if:{{{signature<includeonly>|</includeonly>}}}
-             | '''Signature'''<br/><!--
+             | '''Pirma'''<br/><!--
                -->[[Image:{{{signature}}}|128px<noinclude><br/></noinclude><!--
                  -->|{{{name<includeonly>|{{PAGENAME}}</includeonly>}}}'s signature]] }}
 
