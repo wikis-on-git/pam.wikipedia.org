@@ -1,0 +1,9 @@
+<div style="float: left; margin-left: 5px;">[[Image:Sound-icon.svg|45px|none|alt=|link=|Spoken Wikipedia]]</div>
+<div style="font-size: xx-small; line-height: 1.6em; margin-left: 60px;">This audio file was created from a revision dated {{{1}}}, and does not reflect subsequent edits to the {{#if:{{NAMESPACE}}|page|article}}. ([[Wikipedia:Media help|Audio help]])</div>
+<div style="text-align: center; clear: both">'''[[{{SITENAME}}:Spoken articles|More spoken {{#if:{{NAMESPACE}}|page|article}}s]]'''</div>
+[[Category:Spoken articles]]
+</div>
+<div style="right:30px; display:none;" class="metadata topicon" id="spoken-icon">[[File:Sound-icon.svg|15px|link={{#if:{{{2|}}}|File:{{{2}}}|Wikipedia:WikiProject Spoken Wikipedia}}|This is a spoken version of the {{#if:{{NAMESPACE}}|page|article}}. Click here to listen.]]</div><noinclude>
+{{pp-template}}
+{{documentation}}
+</noinclude>
