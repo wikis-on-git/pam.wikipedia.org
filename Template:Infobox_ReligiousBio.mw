@@ -85,7 +85,7 @@
 {{!}}-
 }}
 {{#if:{{{resting place|}}}{{{resting place coordinates|}}}|
-! Resting place
+! Libingan
 {{!}} {{#if:{{{resting place|}}}|{{{resting place}}}<br />}}{{{resting place coordinates|}}}
 {{!}}-
 }}
@@ -104,7 +104,7 @@
 {{!}}-
 }}
 {{#if:{{{period|{{{Period|}}}}}}|
-! Period in office
+! Paanaun king Puesto
 {{!}} {{{period|{{{Period}}}}}}
 {{!}}-
 }}
