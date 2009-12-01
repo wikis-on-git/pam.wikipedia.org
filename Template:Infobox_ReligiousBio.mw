@@ -1,0 +1,191 @@
+{| class="infobox vcard" style="text-align: left; width: 22em; font-size: 88%; line-height: 1.5em" 
+|+ style="font-size: 125%; font-weight: bold" |<span class="fn">{{{name|<includeonly>{{PAGENAME}}</includeonly>}}}</span>{{#if:{{{native name|}}}|<br /><span class="nickname" {{#if:{{{native name lang|}}}| lang="{{{native name lang}}}" xml:lang="{{{native name lang}}}"}}>{{{native name}}}</span>}}
+|-
+{{#if:{{{image|}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} {{{image}}}
+{{!}}-
+}}
+{{#if:{{{caption|}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} {{{caption}}}
+{{!}}-
+}}
+{{#if:{{{sanskrit|}}}|
+! In Devanagari
+{{!}} {{{sanskrit}}}
+{{!}}-
+}}
+{{#if:{{{religion|}}}|
+! Religion
+{{!}} class="category" {{!}} {{{religion}}}
+{{!}}-
+}}
+{{#if:{{{school|}}}|
+! Pipagaralan
+{{!}} <span class="category">{{{school}}}</span>
+{{!}}-
+}}
+{{#if:{{{lineage|}}}|
+! Pipumpunan
+{{!}} {{{lineage}}}
+{{!}}-
+}}
+{{#if:{{{sect|}}}|
+! Secta
+{{!}} <span class="category">{{{sect}}}</span><br />{{{subsect|}}}
+{{!}}-
+}}
+{{#if:{{{temple|}}}|
+! Templo
+{{!}} {{{temple}}}
+{{!}}-
+}}
+{{#if:{{{alias|{{{other name|}}}}}}|
+! Aliwang lagiu
+{{!}} <span class="nickname">{{{alias|{{{other name}}}}}}</span>
+{{!}}-
+}}
+{{#if:{{{dharma name|}}}|
+! [[Dharma name]](s)
+{{!}} <span class="nickname">{{{dharma name}}}</span>
+{{!}}-
+}}
+{{#if:{{{monastic name|}}}|
+! Monastic name
+{{!}} <span class="nickname">{{{monastic name}}}</span>
+{{!}}-
+}}
+{{#if:{{{pen name|}}}|
+! Talipampan
+{{!}} <span class="nickname">{{{pen name}}}</span>
+{{!}}-
+}}
+{{#if:{{{posthumous name|}}}|
+! Posthumous name
+{{!}} <span class="nickname">{{{posthumous name}}}</span>
+{{!}}-
+}}
+
+{{#if:{{{birth name|}}}{{{date of birth|}}}{{{place of birth|}}}{{{date of death|}}}{{{place of death|}}}{{{nationality|}}}|
+! style="text-align: center; background-color: {{{background|#BC50A5}}}; color:{{{color|white}}}" colspan="2" {{!}} Personal
+{{!}}-
+}}
+{{#if:{{{nationality|}}}|
+! Nationality
+{{!}} <span class="nickname">{{{nationality}}}</span>
+{{!}}-
+}}
+{{#if:{{{birth name|}}}{{{date of birth|}}}{{{place of birth|}}}|
+! Mibait
+{{!}} {{#if:{{{birth name|}}}|{{{birth name}}}<br />}}{{#if:{{{date of birth|}}}|{{{date of birth}}}<br />}}{{{place of birth|}}}
+{{!}}-
+}}
+{{#if:{{{date of death|}}}{{{place of death|}}}|
+! Mete
+{{!}} {{#if:{{{date of death|}}}|{{{date of death}}}<br />}}{{{place of death|}}}
+{{!}}-
+}}
+{{#if:{{{resting place|}}}{{{resting place coordinates|}}}|
+! Resting place
+{{!}} {{#if:{{{resting place|}}}|{{{resting place}}}<br />}}{{{resting place coordinates|}}}
+{{!}}-
+}}
+{{#if:{{{location|}}}{{{title|{{{Title|}}}}}}{{{period|{{{Period|}}}}}}{{{consecration|}}}{{{predecessor|{{{Predecessor|}}}}}}{{{successor|{{{Katuki|}}}}}}{{{reason|{{{Reason|}}}}}}{{{rank|{{{Rank|}}}}}}|
+! colspan=2 style="text-align: center; background-color:{{{background|#BC50A5}}}; color:{{{color|white}}}" {{!}} Senior posting
+{{!}}-
+}}
+{{#if:{{{location|}}}|
+! Makabasi king
+{{!}} class="label" {{!}} {{{location}}}
+{{!}}-
+}}
+{{#if:{{{title|{{{Title|}}}}}}|
+! Titulo
+{{!}} class="role" {{!}} {{{title|{{{Title}}}}}}
+{{!}}-
+}}
+{{#if:{{{period|{{{Period|}}}}}}|
+! Period in office
+{{!}} {{{period|{{{Period}}}}}}
+{{!}}-
+}}
+{{#if:{{{consecration|}}}|
+! Pamitagulaling (Consecration)
+{{!}} {{{consecration}}}
+{{!}}-
+}}
+{{#if:{{{predecessor|{{{Elilan|}}}}}}|
+! Elilan
+{{!}} {{{predecessor|{{{Elilan}}}}}}
+{{!}}-
+}}
+{{#if:{{{successor|{{{Katuki|}}}}}}|
+! Katuki
+{{!}} {{{successor|{{{Katuki}}}}}}
+{{!}}-
+}}
+{{#if:{{{reason|{{{Reason|}}}}}}|
+! Sangkan ning pamaglako
+{{!}} {{{reason|{{{Sangkan|}}}}}}
+{{!}}-
+}}
+{{#if:{{{rank|{{{Rango|}}}}}}|
+! Rank
+{{!}} {{{rank|{{{Rango}}}}}}
+{{!}}-
+}}
+{{#if:{{{teacher|}}}{{{students|}}}{{{works|}}}{{{ordination|}}}{{{initiation|}}}{{{previous_post|}}}{{{present_post|}}}{{{post|}}}{{{website|}}}|
+! colspan=2 style="text-align: center; background-color:{{{background|#BC50A5}}}; color:{{{color|white}}}" {{!}} Religious career
+{{!}}-
+}}
+{{#if:{{{teacher|}}}|
+! Talaturu
+{{!}} {{{teacher}}}
+{{!}}-
+}}
+{{#if:{{{reincarnation of|}}}|
+! [[Reincarnation]]
+{{!}} {{{reincarnation of}}}
+{{!}}-
+}}
+{{#if:{{{students|}}}|
+! Magaral
+{{!}} {{{students}}}
+{{!}}-
+}}
+{{#if:{{{works|}}}|
+! Obra
+{{!}} {{{works}}}
+{{!}}-
+}}
+{{#if:{{{ordination|}}}|
+! Ordination
+{{!}} {{{ordination}}}
+{{!}}-
+}}
+{{#if:{{{initiation|}}}|
+! Initiation
+{{!}} {{{initiation}}}
+{{!}}-
+}}
+{{#if:{{{previous_post|}}}|
+! Sadiang puestu
+{{!}} {{{previous_post}}}
+{{!}}-
+}}
+{{#if:{{{present_post|}}}|
+! Salukuyan a puestu
+{{!}} {{{present_post}}}
+{{!}}-
+}}
+{{#if:{{{post|}}}|
+! Puestu
+{{!}} {{{post}}}
+{{!}}-
+}}
+{{#if:{{{website|}}}|
+! Website
+{{!}} {{{website}}}
+{{!}}-
+}}
+|}<noinclude>{{doc}}<!-- place category and language links on the /doc page, not here -->
+</noinclude>
