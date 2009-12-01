@@ -129,7 +129,7 @@
 {{!}}-
 }}
 {{#if:{{{rank|{{{Rango|}}}}}}|
-! Rank
+! Rango
 {{!}} {{{rank|{{{Rango}}}}}}
 {{!}}-
 }}
@@ -158,7 +158,7 @@
 {{!}}-
 }}
 {{#if:{{{ordination|}}}|
-! Ordination
+! Ordinacion
 {{!}} {{{ordination}}}
 {{!}}-
 }}
@@ -168,22 +168,22 @@
 {{!}}-
 }}
 {{#if:{{{previous_post|}}}|
-! Sadiang puestu
+! Sadiang katungkulan
 {{!}} {{{previous_post}}}
 {{!}}-
 }}
 {{#if:{{{present_post|}}}|
-! Salukuyan a puestu
+! Salukuyan a katungkulan
 {{!}} {{{present_post}}}
 {{!}}-
 }}
 {{#if:{{{post|}}}|
-! Puestu
+! Katungkulan
 {{!}} {{{post}}}
 {{!}}-
 }}
 {{#if:{{{website|}}}|
-! Website
+! Karinan king Aptas (''Website'')
 {{!}} {{{website}}}
 {{!}}-
 }}
