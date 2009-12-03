@@ -1,12 +1,12 @@
 {{Infobox software
 | name                   = Google Earth
-| logo                   = [[Image:Google Earth.svg|64px]]
-| screenshot             = [[Image:GoogleEarth-Ubuntu Linux.png|300px]]
+| logo                   = [[File:Google Earth.svg|64px]]
+| screenshot             = [[File:GoogleEarth-Ubuntu Linux.png|300px]]
 | caption                = Screenshot ning Google Earth 5.0
 | collapsible            = 
 | author                 = [[Keyhole, Inc.]]
 | developer              = [[Google]]
-| released               = Junio 28, 2005 (antimong Google Earth) <br/> circa 2001 (antimong EarthViewer 3D)
+| released               = Junio 28, 2005 (antimong Google Earth) <br /> circa 2001 (antimong EarthViewer 3D)
 | latest release version = 5.1.3533.1731
 | latest release date    = {{release date and age|2009|11|18}}
 | latest preview version = Ala
@@ -20,11 +20,11 @@
 | website                = http://earth.google.com/
 }}
 <!-- Image with unknown copyright status removed: [[image:Google Earth.JPG|right|thumb|Google Earth initializing screenshot]] -->
-Ing '''Google Earth''' metung yang [[virtual globe]], [[mapa]] ampong [[geografia|geografico]]ng information program a aniang mumuna ausan dang EarthViewer 3D, at lelangan ning [[Keyhole, Inc]], metung a cumpaniang asali ning [[Google]] kanitang 2004. Gagawa yang mapa ning Yatu kapamilatan ning [[:en:superimposition|pamitumpak-tumpak]] da reng larawan a mekua king [[:en:satellite imagery|satellite imagery]], [[:en:aerial photography|pamagletratu manibat kareng eruplanu]] ampong [[geographic information system|GIS]] [[computer graphics|3D]] globe. Mibulalag ya kareng atlung miayaliwang licencia: ing Google Earth, metung a libreng bersion a limitadu agagawa; ing Google Earth Plus (e misundu)<ref> {{cite web |url=http://www.gearthblog.com/blog/archives/2008/12/google_earth_plus_discontinued.html|title=Google Earth Plus Discontinued}}</ref><ref> {{cite web |url=http://www.techpluto.com/google-earth-live/|title=Google Discontinues "Google Earth Plus"}}</ref>, a maki karagdagan a yampang; ampo ing Google Earth Pro ($400 balang banua), a para king gamit a pang-negociu (''for commercial use'').<ref name="Google Earth Product Family">{{cite web |url=http://earth.google.com/products.html| title= Google Earth Product Family| accessdate = 2007-08-05}}</ref>
+Ing '''Google Earth''' metung yang [[virtual globe]], [[mapa]] ampong [[geografia|geograficong]] information program a aniang mumuna ausan dang EarthViewer 3D, at lelangan ning [[Keyhole, Inc]], metung a cumpaniang asali ning [[Google]] kanitang 2004. Gagawa yang mapa ning Yatu kapamilatan ning [[:en:superimposition|pamitumpak-tumpak]] da reng larawan a mekua king [[:en:satellite imagery|satellite imagery]], [[:en:aerial photography|pamagletratu manibat kareng eruplanu]] ampong [[geographic information system|GIS]] [[computer graphics|3D]] globe. Mibulalag ya kareng atlung miayaliwang licencia: ing Google Earth, metung a libreng bersion a limitadu agagawa; ing Google Earth Plus (e misundu)<ref> {{cite web |url=http://www.gearthblog.com/blog/archives/2008/12/google_earth_plus_discontinued.html|title=Google Earth Plus Discontinued}}</ref><ref> {{cite web |url=http://www.techpluto.com/google-earth-live/|title=Google Discontinues "Google Earth Plus"}}</ref>, a maki karagdagan a yampang; ampo ing Google Earth Pro ($400 balang banua), a para king gamit a pang-negociu (''for commercial use'').<ref name="Google Earth Product Family">{{cite web |url=http://earth.google.com/products.html| title= Google Earth Product Family| accessdate = 2007-08-05}}</ref>
 
 Mibulalag yang pasibayu ing productu antimong Google Earth kanitang 2005, at king salukuyan, maliari yang gamitan kareng [[personal computer]] a gagamit king [[Windows 2000]] patás, [[Mac OS X]] 10.3.9 ampong patás, [[Linux Kernel]]: 2.4 o mas bayu (pepalual da aniang Junio 12, 2006), ampong [[FreeBSD]]. Ing Google Earth magagamit ya mu naman antimong [[browser]] [[plugin]] a mipalual kanitang Mayo 28, 2008<ref> {{cite web |url=http://google-latlong.blogspot.com/2008/05/google-earth-meet-browser.html|title=Google Earth, meet the browser}}</ref>. Mibili ya mu naman king [[iPhone OS]] aniang Octubre 27, 2008, antimong libring kuldas (''free download'') ibat king [[App Store]]. Bukud king pamagpalual king metung a mibayung client a basi king Keyhole, digdag no murin ning Google deng larawan ibat king karelang database king Yatu ketang karelang mapping software a makabasi king Aptas (''web based''). Mika makatapulung pamandagdag king pamanalto king media kareng [[:en:virtual globes|virtual globe]] pilatan ning 2005 and 2006 uli ning pamaglual ning Google Earth king malda aniang Junio 2005,<ref name="Media Coverage of Geospatial Platforms">{{cite web |url=http://www.geospatialweb.com/figure-4| title=Media Coverage of Geospatial Platforms| accessdate = 2007-08-05}}</ref> at iti, pepasikan ning interes da reng tau kareng tecnologiang [[geospatial]] ampo ing karelang gamit o aplicacion.
 
-===Gallery===
+=== Gallery ===
 * [[Ancient Rome]]: Launched by Google on November 12, 2008
 * [[Discovery Networks]]: ''Shows geographical information from the [[Discovery Channel]].''
 * [[European Space Agency]]: ''Shows many [[satellite images]] taken of Earth.''
@@ -110,6 +110,7 @@ Mibulalag yang pasibayu ing productu antimong Google Earth kanitang 2005, at kin
 [[sk:Google Earth]]
 [[sq:Google Earth]]
 [[sv:Google Earth]]
+[[sw:Google Earth]]
 [[ta:கூகிள் எர்த்]]
 [[te:గూగుల్ ఎర్త్]]
 [[tg:Google Earth]]
