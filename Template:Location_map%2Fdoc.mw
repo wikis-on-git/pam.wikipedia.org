@@ -216,7 +216,7 @@ See also [[:Category:Location map templates]] (currently very incomplete, but us
  <nowiki>{{Location map
  |Russia
  |label=Uelen  | marksize=7
- |mark=Locator Dot.gif
+ |mark=Locator_Dot.png
  |lat_deg=66|lat_min=09
  |lon_deg=169|lon_min=48|lon_dir=W
  |position=left
@@ -227,7 +227,7 @@ See also [[:Category:Location map templates]] (currently very incomplete, but us
 |-
 | align="center" |
 {{Location map | Russia 
-|label=Uelen | marksize=7 | mark=Locator_Dot.gif
+|label=Uelen | marksize=7 | mark=Locator_Dot.png
 |lat_deg=66|lat_min=09|lon_deg=169|lon_min=48|lon_dir=W
 |position=left|width=500|float=left|background=yellow}}
 |}
