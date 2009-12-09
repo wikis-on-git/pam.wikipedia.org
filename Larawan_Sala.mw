@@ -1,3 +1,66 @@
 Ing Sala ning Larawan o keng amanung English '''Image resolution''' sasabian ne ing butiltil a laman a tatalnan ning  [[larawan]]. Ing kataya magagamit yang parepareu kareng [[digital a larawan]], film a  larawan, ampong aliwa pang larawan. Ustung matas ya ing resolusiun (kalamnan ning larawan) ing buri nang sabian mas dakal ing detalia keng larawan. 
 
-Ing resolusion ning larawan maliari yang sukdan keng dakala a paralan.  Basically, resolution quantifies how close lines can be to each other and still be [[Visual perception|visibly]] ''resolved''.  Deng Resolusiun a units maliari lang mitaid kareng  physical a sukad. (alimabwa sulis balang mm, gulis balang pulgada) o kaya ing pangkabilugan a sukad ning litratu (gulis balang katas ning litratu, kebaluan mu rin bilang gulis mu, o kaya gulis TV). Dakal pa, deng gulis paris  ila keraklan deng magagamit imbes kabud na gulis.thermore, line pairs are often used instead of lines.  A line pair is a pair of adjacent dark and light lines, while lines counts both dark lines and light lines.  A resolution of 10 lines per millimeter means 5 dark lines alternating with 5 light lines, or 5 line pairs per millimeter.  [[Photographic lens]] and [[film resolution]] are most often quoted in line pairs per millimeter.
+Ing resolusion ning larawan maliari yang sukdan keng dakala a paralan.  Basically, resolution quantifies how close lines can be to each other and still be [[Visual perception|visibly]] ''resolved''.  Deng Resolusiun a units maliari lang mitaid kareng  physical a sukad. (alimabwa sulis balang mm, gulis balang pulgada) o kaya ing pangkabilugan a sukad ning litratu (gulis balang katas ning litratu, kebaluan mu rin bilang gulis mu, o kaya gulis TV). Dakal pa, deng gulis paris  ila keraklan deng magagamit imbes kabud na gulis.thermore, line pairs are often used instead of lines.  Ing paris a gulis metung yang paris a milelelng masala ampong madalumdum a gulis, kaba naman ing masala ampong madalumdum a gulis mabibilang lang pareu. Ing resolusiun a 10 gulis ing mangabaldugan yang 10 gulis balang  millimetru, mangabaldugan a 5 madalumdum a gulis at liliwas la reng 5 masalang gulis, o kaya 5 gulis a paris  balang millimetru.  Deng [[Photographic lens]] ampng [[film resolution]] keraklan mayayaus lang paris balang millimetru.
+
+[[Image:Resolution illustration.png]]
+
+[[Image:1951 USAF Resolution Test Target.JPG|thumb|right|250px|250px|The [[1951 USAF resolution test chart|1951 USAF resolution test target]]
+
+<Gallery>
+Image:Bayer matrix.svg|[[digital camera]] (Bayer [[color filter array]])
+Image:Lcd_display_dead_pixel.jpg|[[Liquid crystal display|LCD]] (Triangular [[pixel geometry]])
+Image:Shadow_mask_closeup_cursor.jpg|[[Cathode ray tube|CRT]] (shadow mask)
+</Gallery>
+
+
+==Resolution in various media==
+
+* 350×240 (260 lines): [[Video CD]]
+* 330×480 (250 lines): [[Umatic]], [[Betamax]], [[VHS]], [[Video8]]
+* 400×480 (300 lines): Super Betamax, Betacam (pro)
+* 440×480 (330 lines): analog broadcast
+* 560×480 (420 lines): [[LaserDisc]], [[Super VHS]], [[Hi8]]
+* 670×480 (500 lines): Enhanced Definition Betamax
+* Digital:
+** 720×480 (520 lines): [[D-VHS]], [[DVD]], [[miniDV]], [[Digital8]], Digital Betacam (pro)
+** 720×480 (400 lines): Widescreen DVD (anamorphic)
+** 1280×720 (720 lines): D-VHS, [[HD DVD]], [[Blu-ray]], HDV (miniDV)
+** 1440×1080 (810 lines): HDV (miniDV)
+** 1920×1080 (1080 lines): D-VHS, HD DVD, Blu-ray, HDCAM SR (pro)
+** 10,000×7000 (7000 lines): [[IMAX]], [[IMAX HD]], [[OMNIMAX]]
+* Film:
+** [[35 mm film]] is scanned for release on DVD at 1080 or 2000 lines as of 2005.
+** 35&nbsp;mm [[original camera negative]] motion picture film can resolve up to 6,000 lines.
+** 35&nbsp;mm projection positive motion picture film has about 2,000 lines which results from the analog printing from the camera negative of an interpositive, and possibly an internegative, then a projection positive.
+** Sequences from newer films are scanned at 2,000, 4,000 or even 8,000 columns (line measured the other directions), called [[Digital cinema|2K, 4K and 8K]], for quality visual-effects editing on computers.
+
+
+== See also ==
+
+* [[Dots per inch]]
+* [[Pixel density]]
+* [[Display resolution]]
+
+==External links==
+*[http://fred.dsimprove.be/__offSite/pixel/ Pixel & Resolution Tables]; practical tables, and theory for beginner's education about resolution issues in digital imaging, photo and printing.
+*[http://www.luminous-landscape.com/tutorials/understanding-series/res-demyst.shtml Luminous Landscape's Res-Demyst]; on why pixel count is not always a good proxy for resolution
+*[http://luminous-landscape.com/tutorials/resolution.shtml Do Sensors “Outresolve” Lenses?]; on lens and sensor resolution interaction.
+
+[[Category:Computer graphics]]
+[[Category:Image processing]]
+
+[[ar:دقة تفاصيل صورة]]
+[[bs:Računarska rezolucija]]
+[[de:Bildauflösung]]
+[[en:Image resolution]]
+[[es:Resolución de imágenes]]
+[[fa:وضوح تصویری]]
+[[fr:Résolution numérique]]
+[[id:Resolusi gambar]]
+[[it:Risoluzione]]
+[[nl:Beeldresolutie]]
+[[ja:解像度]]
+[[pt:Resolução de imagem]]
+[[ru:Разрешение (компьютерная графика)]]
+[[fi:Resoluutio]]
+[[zh:分辨率]]
