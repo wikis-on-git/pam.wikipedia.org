@@ -1,0 +1,53 @@
+[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value={{{ID}}} {{ #ifeq: {{{taxon|+}}}|{{{taxon|-}}}| {{{taxon}}} (TSN {{{ID}}})| TSN {{{ID}}}}}]{{ #ifeq: {{{showITIS|yes}}}|yes|.|{{ #ifeq: {{{date|+}}}|{{{date|-}}}|.<nowiki> </nowiki>|}}}}{{ #ifeq: {{{showITIS|yes}}}|yes|<nowiki> </nowiki>[[Integrated Taxonomic Information System]].|}}{{ #ifeq: {{{date|+}}}|{{{date|-}}}|<nowiki> </nowiki>Retrieved on {{{date}}} {{{year}}}.|}}<noinclude>
+
+==Purpose and description==
+This template creates a link to the [[Integrated Taxonomic Information System]] (ITIS), a database containing scientific names of biological [[taxon|taxa]] and a history of their classification. 
+
+==Use and example==
+To use the template, you first need to search ITIS to find the taxon's ID number.
+The example wiki text
+:<nowiki>{{ITIS|ID=506801|taxon=''Camellia sinensis''|year=2006|date=16 February}}</nowiki>
+creates
+:{{ITIS|ID=506801|taxon=''Camellia sinensis''|year=2006|date=16 February}}
+
+You can also use this as a TSN reference only by leaving out the taxon name; you may choose this format when you're using this template on second reference or when the taxon is clear from context. For example:
+
+:<nowiki>{{ITIS|ID=506801}}</nowiki>
+creates
+:{{ITIS|ID=506801}}
+
+Finally, to hide the interwiki link to [[Integrated Taxonomic Information System]], you can add the optional parameter '''showITIS''' with a value of "no":
+
+:<nowiki>{{ITIS|ID=506801|showITIS=no}}</nowiki>
+creates
+:{{ITIS|ID=506801|showITIS=no}}
+
+This may be useful in cases where the ITIS link is given inline, for example:
+
+: The seeds of ''Camellia sinensis'' ({{ITIS|ID=506801|showITIS=no}}) can be pressed...
+
+'''Note''': The citation style always adds a period after the last term unless neither the date nor the ITIS link are displayed.
+
+==Parameters==
+*'''ID''': The Taxonomic Serial Number (TSN) of the [[taxon]] in [[Integrated Taxonomic Information System|ITIS]].
+*'''taxon''' (optional): The taxon's name. (Should be included, but in some cases, the taxon's name will be implicit from context.)
+*'''date''', '''year''' (optional): The date the report was retrieved from [[Integrated Taxonomic Information System|ITIS]].
+*'''showITIS''' (optional, defaults to "yes"): A flag to determine whether or not the interwiki link to the [[Integrated Taxonomic Information System]] page will be shown.
+
+==See also==
+* [[:wikispecies:Template:ITIS]]
+* [[:commons:Template:ITIS]]
+
+[[Category:Biology external link templates|{{PAGENAME}}]]
+
+[[ar:قالب:ITIS]]
+[[bg:Шаблон:Itis]]
+[[da:Skabelon:ITIS]]
+[[en:Template:ITIS
+[[fr:Modèle:ITIS]]
+[[ka:თარგი:ITIS]]
+[[nl:Sjabloon:ITIS]]
+[[ja:Template:ITIS]]
+[[vi:Tiêu bản:ITIS]]
+[[zh:Template:ITIS]]
+</noinclude>
