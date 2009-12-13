@@ -1,0 +1,16 @@
+[http://www.fishbase.org/Summary/SpeciesSummary.cfm?genusname={{{genus}}}&speciesname={{{species}}} "{{{genus}}} {{{species}}}"]. ''[[FishBase]]''. Ed. Ranier Froese and Daniel Pauly. {{{month}}} {{{year}}} version. N.p.: FishBase, {{{year}}}.<noinclude>
+
+==See also==
+* [[:wikispecies:Template:FishBase species]]
+* [[:commons:Template:FishBase species]]
+
+[[Category:Biology source templates|{{PAGENAME}}]]
+[[Category:Biology external link templates|{{PAGENAME}}]]
+
+[[ca:Plantilla:FishBase species]]
+[[fr:Modèle:FishBase espèce]]
+[[ja:Template:FishBase species]]
+[[pt:Predefinição:FishBase espécie]]
+[[sl:Predloga:FishBase species]]
+[[fi:Malline:FishBase]]
+</noinclude>
