@@ -1,0 +1,21 @@
+[http://worldcat.org/identities/{{{1|{{{id}}}}}} Works by or about {{{2|{{{name|{{PAGENAME}}}}}}}}] in libraries ([[WorldCat]] catalog)<noinclude>
+
+Add the template to the "external links" section of the article to create a link to the [[Worldcat]] page associated with the article's title.
+To use this template, first do a [http://worldcat.org/identities/ worldcat identities lookup]. Enter the person's name (e.g, Samuel Phillips.) This will often lead to a list of possible matches. Select the correct link (e.g., "Phillips, Samuel 1752-1802") and click on it. This will lead to the correct page on worldcat. The id is the string after the last slash in the URL, e.g., lccn-n85-221132. Now, fill in your template as follows:
+:: <nowiki>{{worldcat id|id=lccn-n85-221132}}</nowiki>
+:or
+:: <nowiki>{{worldcat id|id=lccn-n85-221132|name=Samuel Philips, LL.D}}</nowiki>
+: to display a name other than the article name
+
+If "Works by or about" does not make sense, then use a different worldcat template:
+::<nowiki> {{worldcat subject|name =Foo|id=lccn-n85-221132}} yields </nowiki>
+:: Works about Foo in libraries (Worldcat catalog)
+::<nowiki> {{worldcat|description="The world's libraries have a strange definition of foo. Neverheless, you can research foo"|name =Foo|id=lccn-n85-221132}} yields </nowiki>
+::  The world's libraries have a strange definition of foo. Neverheless, you can research foo in libraries. (Worldcat catalog)
+
+==See also==
+* {{tl|cite linked authority file}}, a template for citing date and other information obtained from Library of Congress Authorities records, via WorldCat Identities database
+
+
+[[Category:External link templates|Worldcat ID]]
+</noinclude>
