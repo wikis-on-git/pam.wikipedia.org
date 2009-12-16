@@ -50,46 +50,11 @@
 }}{{#if:{{{2010|}}} |
 <tr><td style="text-align:center">'''[[2010 United States Census|2010]]'''</td><td style="padding-left:8px">{{formatnum: {{{2010}}} }}</td><td>{{{2010n|}}}</td><td style="padding-left:8px">{{#if: {{{2000|}}} | {{Val|{{Decimals| (100 * {{{2010}}}/{{{2000}}} - 100) | 1}}}}% | <center>—</center> }}</td></tr>
 }}{{#if:{{{estimate|}}} |
-<tr><td style="text-align-center">'''Est. {{{estyear}}}'''</td><td style="padding-left:8px">{{formatnum: {{{estimate}}} }}</td><td>{{{estref|}}}</td><td style="padding-left:8px">{{#if: {{{2000|}}} | {{Val|{{Decimals| (100 * {{{estimate}}}/{{{2000}}} - 100) | 1}}}}% |}}</td></tr>
+<tr><td style="text-align:center">'''Est. {{{estyear}}}'''</td><td style="padding-left:8px">{{formatnum: {{{estimate}}} }}</td><td>{{{estref|}}}</td><td style="padding-left:8px">{{#if: {{{2000|}}} | {{Val|{{Decimals| (100 * {{{estimate}}}/{{{2000}}} - 100) | 1}}}}% |}}</td></tr>
 }}{{#if:{{{footnote|}}} |
 <tr><td colspan=4 style="border-top:1px solid black; font-size:85%; text-align:left">{{{footnote}}}</td></tr>
 }}
 |}<noinclude>
-{{Merge-multiple-to|Histpop|HistoricalPopulations|target=Historical populations|discuss=Template talk:Historical populations#Merger proposal|date=June 2008}}
-
-'''Template:USCensusPop''' is used as an information box on pages, showing each census year with a population, and a percent gain/loss comparison. See [[Alabama#Demographics|Alabama]] as an example of how this template is rendered.
-
-<pre>
-{{USCensusPop
-| title= 
-| 1790= 
-| 1800=	
-| 1810=	
-| 1820=	
-| 1830=	
-| 1840=	
-| 1850=	
-| 1860=	
-| 1870=	
-| 1880=	
-| 1890=	
-| 1900=	
-| 1910=	
-| 1920=	
-| 1930=	
-| 1940=	
-| 1950=	
-| 1960=	
-| 1970=	
-| 1980=	
-| 1990=	
-| 2000=	
-| estimate=
-| estyear=
-| estref=
-| footnote=
-}}</pre>
-[[tr:Şablon:USCensusPop]]
-[[zh:Template:USCensusPop]]
-{{pp-template|small=yes}}
+{{documentation}}
+{{pp-template}}
 </noinclude>
