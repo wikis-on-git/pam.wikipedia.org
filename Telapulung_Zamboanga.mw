@@ -1,5 +1,5 @@
 {{Infobox Philippine region |
-   name           = Labuad IX <br>ZAMBOANGA PENINSULA |
+   name           = Labuad IX <br />ZAMBOANGA PENINSULA |
    map_file       = Ph_locator_region 9.png |
    center         = [[Pagadian Lakanbalen]], [[Zamboanga del Sur]] |
    population     = 2,831,412 |
@@ -13,27 +13,27 @@
    languages      =  [[Chavacano Amanu|Chavacano]], [[Cebuano Amanu|Cebuano]], [[Subanon Amanu|Subanon]], aliwa |
  }}
 
-==Politika Pangadake==
+== Politika Pangadake ==
 
 {| class="wikitable"
 |- bgcolor=#cccccc
-! colspan=2 | [[Ding Lalawigan ning Filipinas|Lalawigan]]/[[Cities of the Philippines|Lakanbalen]] !! Tungku !! Populasyun<br>([[2000]]) !! Dagul/Lapad<br>([[square kilometre|km²]]) !! Pop. pangsiksik<br />(per km²)
+! colspan=2 | [[Ding Lalawigan ning Filipinas|Lalawigan]]/[[Cities of the Philippines|Lakanbalen]] !! Tungku !! Populasyun<br />([[2000]]) !! Dagul/Lapad<br />([[square kilometre|km²]]) !! Pop. pangsiksik<br />(per km²)
 |-
-|[[Image:Ph_seal_zamboanga_del_norte.png|20px]]
+|[[File:Ph_seal_zamboanga_del_norte.png|20px]]
 |[[Zamboanga del Norte]]
 |[[Dipolog Lakanbalen]]
 |823,130 
 |6,618.0
 |124.4
 |-
-|[[Image:Ph_seal_zamboanga_del_sur.png|20px]]
+|[[File:Ph_seal_zamboanga_del_sur.png|20px]]
 |[[Zamboanga del Sur]]
 |[[Pagadian Lakanbalen]]
 |836,217
 |3,480.7
 |240.2
 |-
-|[[Image:Ph_seal_zamboanga_sibugay.png|20px]]
+|[[File:Ph_seal_zamboanga_sibugay.png|20px]]
 |[[Zamboanga Sibugay]]
 |[[Ipil, Zamboanga Sibugay|Ipil]]
 |497,239  
@@ -47,9 +47,9 @@
 ! style="background: gray" |
 ! style="background: gray" |
 |-
-|[[Image:Zambocityseal.JPG|20px]]
+|[[File:Zambocityseal.JPG|20px]]
 |[[Zamboanga Lakanbalen]]
-|&mdash;
+|—
 |601,794     
 |1,483.4 
 |405.7
@@ -61,9 +61,9 @@
 ! style="background: gray" |
 ! style="background: gray" |
 |-
-|[[Image:Ph_seal_basilan_isabela city.jpg|20px]]
+|[[File:Ph_seal_basilan_isabela city.jpg|20px]]
 |[[Isabela Lakanbalen]]'''¹'''
-|&mdash;
+|—
 |73,032     
 |140.7
 |519.1
@@ -77,8 +77,9 @@
 
 [[bcl:Peninsula kan Zamboanga]]
 [[cbk-zam:Peninsula de Zamboanga]]
-[[de:Zamboanga Peninsula]]
-[[en:Zamboanga Peninsula (Administrative Region)]]
+[[ceb:Zamboanga]]
+[[de:Zamboanga-Halbinsel]]
+[[en:Zamboanga Peninsula]]
 [[es:Península de Zamboanga]]
 [[ilo:Peninsula ti Zamboanga]]
 [[it:Penisola di Zamboanga]]
