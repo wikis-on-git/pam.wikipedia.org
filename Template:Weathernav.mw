@@ -1,0 +1,42 @@
+{{Sidebar with collapsible lists
+|name        = Weathernav
+|style       = width:16.0em;
+|cellpadding = 0
+|pretitle    = Part of the [[Nature]] series
+|pretitlestyle =
+|title       = [[Weather]]
+|titlestyle  = padding:0 0.2em 0.4em; font-size:150%; line-height:1.5em;
+|image       = [[File:Weather-storm.svg]]
+|imagestyle  = padding:0 0 1.0em;
+|listtitlestyle = border-bottom: 1px solid #cee0f2; background:none; text-align: left;
+
+|list1name  = Panaun
+|list1title = [[Panaun]]
+|list1titlestyle = background:lightblue;
+|list1 = <font color="#9C9C9C">'''Temperate'''</font><br />[[Winter]]<br />[[Spring (season)|Spring]]<br />[[Summer]]<br />[[Autumn]]<br /><font color="#9C9C9C">'''Tropical'''</font><br />[[wet season]]<br />[[dry season]]
+
+|list2name  = Biga
+|list2title = [[Biga]]
+|list2titlestyle = background:lightblue;
+|list2 = '''Pangkabilugan'''<br />[[Makatakap a biga]]<br />[[Cloud physics]]<br />'''Uri da reng biga'''<br /><font color="#9C9C9C">'''High-clouds (Family A)'''</font><br />[[Cirrocumulus]]<br />[[Bigang cirrus]]<br />[[Cirrostratus]]<br /><font color="#9C9C9C">'''Middle-clouds (Family B)'''</font><br />[[Altostratus]]<br />[[Altocumulus]]<br /><font color="#9C9C9C">'''Low-clouds(Family C)'''</font><br />[[Cumulus cloud]]<br />[[Bigang stratocumulus]]<br />[[Bigang nimbostratus]]<br />[[Bigang stratus]]
+
+|list3name  = Uran o yelu
+|list3title = [[Precipitation (meteorology)|Precipitation]]
+|list3titlestyle = background:lightblue;
+|list3 = [[Rain]]<br/>[[Drizzle]]<br/>[[Snow]]<br/>[[Freezing rain]]<br/>[[Ice pellets]]<br/>[[Hail]]<br/>[[Graupel]]
+
+|list4name = Maliliari (Phenomena)
+|list4title = [[Grabing panaun]]
+|list4titlestyle = background:lightblue;
+|list4 = [[Duldul]]<br/>[[Kildap]]<br/>[[Supercell]]<br/>[[Downburst]]<br/>[[Alisus]]<br/>[[Waterspout]]<br/>[[Bagiu]]
+
+|list5name  = Aliwang maliliari (Other phenomena)
+|list5title = [[:en:List of meteorological phenomena|Aliwang maliliari]]
+|list5 = 
+
+|below = [[File:Weather-showers-scattered.svg|20 px]][[Portal:Weather|Weather portal]]<br />[[File:Gnome-emblem-web.svg|20 px]][[Portal:Environment|Environment]]
+
+}}<noinclude>
+[[Category:Meteorology templates]]
+[[Category:Exclude in print]]
+</noinclude>
