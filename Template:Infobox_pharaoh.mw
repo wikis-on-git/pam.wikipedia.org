@@ -1,0 +1,115 @@
+{| class="infobox" style="float:right;margin:0 0 1em 1em;font-size:90%;clear:right;width: 23em" cellspacing="5"
+!colspan="5" style="background: #decd87; text-align: center; font-size: larger;" | '''{{{Name}}}'''
+|-
+{{#if: {{{Alt|<noinclude>-</noinclude>}}} |
+!colspan="5" style="text-align: center; font-size: smaller;" {{!}} '''{{{Alt}}}'''
+}}
+|-
+{{#if: {{{Image|<noinclude>-</noinclude>}}} | 
+{{!}} colspan="5" style="text-align: center;" {{!}} <span class="photo">[[Image:{{{Image}}}|{{{ImageSize|150}}}px|{{{Caption|}}}]]</span>
+{{!}}-
+}}
+{{#if: {{{Caption|<noinclude>-</noinclude>}}} |
+{{!}} colspan="5" style="text-align: center;" {{!}} ''{{{Caption}}}''
+{{!}}-
+}}
+|-
+<!-------------------Dates ruled/Dynasty/Predecessor/Successor------------------------>
+!colspan="5" style="background: #decd87; text-align: center;" {{!}} '''{{{Role|[[Pharaoh]] of [[ancient Egypt|Egypt]]}}}'''
+|-
+{{#if: {{{Reign|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top; text-align: right;" {{!}} '''[[Egyptian chronology|Menungkulan]]'''
+{{!}} colspan="3" style="text-align: left;" {{!}} {{{Reign}}},&nbsp; {{#if: {{{Dynasty|<noinclude>-</noinclude>}}} |{{{Dynasty}}}}}
+{{!}}-
+}}
+|-
+{{#if: {{{Coregency|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top; text-align: right;" {{!}} '''[[Coregency]]'''
+{{!}} colspan="3" style="text-align: left;" {{!}} {{{Coregency}}}
+{{!}}-
+}}
+|-
+{{#if: {{{Predecessor|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top; text-align: right;" {{!}} '''Mumunang Menungkulan'''
+{{!}} colspan="3" style="text-align: left;" {{!}} {{{Predecessor}}}
+}}
+|-
+{{#if: {{{Successor|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top; text-align: right;" {{!}} '''Menaliling Menungkulan'''
+{{!}} colspan="3" style="text-align: left;" {{!}} {{{Successor}}}
+}}
+|-
+<!--------------------Royal Titulary------------------------>
+!colspan="5" {{!}} 
+{{hidden| headercss = background: #decd87;| header ='''[[Ancient Egyptian royal titulary|Suging pamansag]]'''| content =
+ {{#if: {{{Notes|<noinclude>-</noinclude>}}}|<center>''{{{Notes}}}''</center>}}
+ {{#if: {{{Prenomen|<noinclude>-</noinclude>}}}|<center>'''[[Ancient Egyptian royal titulary#Throne name (praenomen)|Prenomen]]''':&nbsp;{{{Prenomen}}}</center>}}
+ {{#if: {{{PrenomenHiero|<noinclude>-</noinclude>}}} |<center>{{Infobox pharaoh/Prenomen|Prenomen={{{PrenomenHiero}}}|}} </center>}}
+ {{#if: {{{Nomen|<noinclude>-</noinclude>}}} |<center>'''[[Ancient Egyptian royal titulary|Nomen]]''':&nbsp;{{{Nomen}}}</center>}}
+ {{#if: {{{NomenHiero|<noinclude>-</noinclude>}}} |<center>{{Infobox pharaoh/Nomen|Nomen={{{NomenHiero}}}|}} </center>}}
+ {{#if: {{{Horus|<noinclude>-</noinclude>}}} |<center>'''[[Ancient Egyptian royal titulary#Horus name|Horus name]]''':&nbsp;{{{Horus}}}</center>}}
+ {{#if: {{{HorusHiero|<noinclude>-</noinclude>}}} |<center>{{Infobox pharaoh/Serekh|Horus={{{HorusHiero}}}||prefix={{{HorusPrefix|<hiero>G5</hiero>}}} }} </center>}}
+ {{#if: {{{Nebty|<noinclude>-</noinclude>}}} |<center>'''[[Ancient Egyptian royal titulary#Nebty ("two ladies") name|Nebty name]]''':&nbsp;{{{Nebty}}}</center>}}
+ {{#if: {{{NebtyHiero|<noinclude>-</noinclude>}}} |<center>{{Infobox pharaoh/Nebty|Nebty={{{NebtyHiero}}}}} </center>}}
+ {{#if: {{{Golden|<noinclude>-</noinclude>}}} |<center>'''[[Ancient Egyptian royal titulary#Horus of Gold|Golden Horus]]''':&nbsp;{{{Golden}}}</center>}}
+ {{#if: {{{GoldenHiero|<noinclude>-</noinclude>}}} |<center>{{Infobox pharaoh/Golden|Golden={{{GoldenHiero}}}|}} </center>}}
+----}}<!--/hidden-->
+|-
+<!--!colspan="5" style="border-top: 1px solid #ddd; text-align: center;" {{!}}-->
+|-
+<!------------------Personal Data----------------------->
+{{#if: {{{Spouse|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top; text-align: right;" {{!}} '''Asawa'''
+{{!}} colspan="5" style="text-align: left;" {{!}} {{{Spouse}}}
+{{!}}-
+}}
+|-
+{{#if: {{{Children|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top; text-align: right;" {{!}} '''Anak'''
+{{!}} colspan="3" style="text-align: left;" {{!}} {{{Children}}}
+{{!}}-
+}}
+|-
+<!-- this is left for backwards compatibility -->
+{{#if: {{{Issue|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top; text-align: right;" {{!}} '''Anak'''
+{{!}} colspan="3" style="text-align: left;" {{!}} {{{Issue}}}
+{{!}}-
+}}
+|-
+{{#if: {{{Father|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top; text-align: right;" {{!}} '''Tatang'''
+{{!}} colspan="3" style="text-align: left;" {{!}} {{{Father}}}
+{{!}}-
+}}
+|-
+{{#if: {{{Mother|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top; text-align: right;" {{!}} '''Ima'''
+{{!}} colspan="3" style="text-align: left;" {{!}} {{{Mother}}}
+{{!}}-
+}}
+|-
+{{#if: {{{Born|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top; text-align: right;" {{!}} '''Mibait'''
+{{!}} colspan="3" style="text-align: left;" {{!}} {{{Born}}}
+{{!}}-
+}}
+|-
+{{#if: {{{Died|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top; text-align: right;" {{!}} '''Mete'''
+{{!}} colspan="3" style="text-align: left;" {{!}} {{{Died}}}
+{{!}}-
+}}
+|-
+{{#if: {{{Burial|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top; text-align: right;" {{!}} '''Kitkut'''
+{{!}} colspan="3" style="text-align: left;" {{!}} {{{Burial}}}
+{{!}}-
+}}
+|-
+{{#if: {{{Monuments|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top; text-align: right;" {{!}} '''Monumentu'''
+{{!}} colspan="3" style="text-align: left;" {{!}} {{{Monuments}}}
+{{!}}-
+}}
+|}<noinclude>{{documentation}}</noinclude>
