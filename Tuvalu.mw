@@ -5,10 +5,10 @@
 |image_flag               = Flag of Tuvalu.svg 
 |image_coat               =
 |image_map                = LocationTuvalu.png 
-|national_motto           = {{lang|tvl|''Tuvalu mo te Atua''}}<br/><small>([[Tuvaluan language|Tuvaluan]] for "Tuvalu for the Almighty") </small> 
-|national_anthem          = {{lang|tvl|''[[Tuvalu mo te Atua]]''}}<br/><small>([[Tuvaluan language|Tuvaluan]] for "Tuvalu for the Almighty") </small> <br />[[Royal anthem]]: ''[[God Save the Queen]]''
+|national_motto           = {{lang|tvl|''Tuvalu mo te Atua''}}<br /><small>([[Tuvaluan language|Tuvaluan]] for "Tuvalu for the Almighty") </small> 
+|national_anthem          = {{lang|tvl|''[[Tuvalu mo te Atua]]''}}<br /><small>([[Tuvaluan language|Tuvaluan]] for "Tuvalu for the Almighty") </small> <br />[[Royal anthem]]: ''[[God Save the Queen]]''
 |official_languages       = [[Tuvaluan language|Tuvaluan]], [[English language|English]]
-|capital                  = <br/>[[Vaiaku]]<small> (village; Gov.)</small>,<br/>[[Fongafale]]   <small> (islet)</small>, [[Funafuti]]<small> (atoll)</small>
+|capital                  = <br />[[Vaiaku]]<small> (village; Gov.)</small>,<br />[[Fongafale]]   <small> (islet)</small>, [[Funafuti]]<small> (atoll)</small>
 |latd=8 |latm= 31|latNS=S |longd=179 |longm=13 |longEW=E
 |largest_city             = 
 |government_type          = [[Constitutional monarchy]] 
@@ -43,7 +43,7 @@ leader_name1              = [[Elizabeth II of the United Kingdom|Elizabeth II]]
 |HDI_rank                 = n/a
 |HDI_year                 = 2003 
 |HDI_category             = <font color=gray>unranked</font> 
-|currency                 = [[Tuvaluan dollar]]<br/>[[Australian dollar]]
+|currency                 = [[Tuvaluan dollar]]<br />[[Australian dollar]]
 |currency_code            = AUD 
 |country_code             = 
 |time_zone                = 
@@ -70,8 +70,6 @@ leader_name1              = [[Elizabeth II of the United Kingdom|Elizabeth II]]
 
 <!--Categories-->
 <!--Interwiki-->
-{{Link FA|fi}}
-
 <!--Other languages-->
 
 [[Category:Tuvalu| ]]
@@ -82,6 +80,8 @@ leader_name1              = [[Elizabeth II of the United Kingdom|Elizabeth II]]
 [[Category:Constitutional monarchies]]
 [[Category:Microstates]]
 [[Category:Island countries]]
+
+{{Link FA|fi}}
 
 [[ace:Tuvalu]]
 [[af:Tuvalu]]
@@ -171,6 +171,7 @@ leader_name1              = [[Elizabeth II of the United Kingdom|Elizabeth II]]
 [[ro:Tuvalu]]
 [[ru:Тувалу]]
 [[sa:टुवालु]]
+[[sah:Тувалу]]
 [[scn:Tuvalu]]
 [[sco:Tuvalu]]
 [[se:Tuvalu]]
