@@ -1,0 +1,47 @@
+{{#ifeq: {{{1|}}} | | |
+{{#if: {{#iferror: {{#expr: {{{1}}} }} | | {{#ifeq: {{{1}}} | {{#expr: {{{1}}} }} |1|}} }}
+| {{date|{{{1}}}||| {{{2|}}} |form= {{{form|}}} }}
+| {{#iferror: {{#time: | {{{1}}} }}{{#time: | a{{{1}}} }}
+| {{#iferror: {{#expr: {{{1}}} }}
+| {{{1}}}
+| {{#ifexpr: ({{{1}}} <= 998) and ({{{1}}} >= -11)
+| {{#iferror: {{#time: Y | {{padleft:{{{1}}}|7|0}} }}
+| {{{1}}}
+| {{#ifexpr: ({{#time: Y | {{padleft:{{{1}}}|7|0}} }} >= 1958) and ({{{1}}} <= 98)
+| {{#ifeq: {{{1}}} | {{#expr: {{#time: y | {{padleft:{{{1}}}|7|0}} }} }}-{{#time: m | {{padleft:{{{1}}}|7|0}} }} | {{date|{{#expr: {{#time: y | {{padleft:{{{1}}}|7|0}} }} }}|{{#time: m | {{padleft:{{{1}}}|7|0}} }}|| {{{2|}}} |form= {{{form|}}} }} | {{{1}}} }}
+| {{#ifeq: {{{1}}} | {{#expr: {{#time: Y | {{padleft:{{{1}}}|7|0}} }} }}-{{#time: m | {{padleft:{{{1}}}|7|0}} }} | {{date|{{#expr: {{#time: Y | {{padleft:{{{1}}}|7|0}} }} }}|{{#time: m | {{padleft:{{{1}}}|7|0}} }}|| {{{2|}}} |form= {{{form|}}} }} | {{{1}}} }}
+}}
+}}
+| {{{1}}}
+}}
+}}
+| {{#ifeq: {{padleft:{{{1}}}|8|#}} | #{{{1}}} | {{date| {{#expr: {{#time: Y | {{{1}}}-01 }} }} | {{#ifeq: {{uc: {{{f|}}} }} | Y | |{{#time: n | {{{1}}}-01 }}}} || {{{2|}}} |form= {{{form|}}} }} | {{#switch: {{{1}}}
+|{{#expr: {{#time:Y| {{{1}}} }} - 1900 }}-{{#time:m-d H:i:sZ| {{{1}}} }}
+|{{#expr: {{#time:Y| {{{1}}} }} - 1900 }}-{{#time:m-d H:i:s| {{{1}}} }}={{date| {{#expr: {{#time:Y| {{{1}}} }} - 1900 }} | {{#ifeq: {{uc: {{{f|}}} }} | Y | |{{#time: n | {{{1}}} }}}} | {{#ifeq: {{uc: {{{f|}}} }} | Y | | {{#time: j | {{{1}}} }} }} | {{{2|}}} |form= {{{form|}}} }}{{#ifeq: {{uc: {{{f|}}} }} | Y | | {{date-time separator|{{{2|}}}}}{{Time|{{#time: H | {{{1}}} }}|{{#time: i | {{{1}}} }}|{{#time: s | {{{1}}} }}|Z|lang= {{{2|}}} }} }}
+|{{#expr: {{#time:Y| {{{1}}} }} - 1900 }}-{{#time:m-d H:i| {{{1}}} }}={{date| {{#expr: {{#time:Y| {{{1}}} }} - 1900 }} | {{#ifeq: {{uc: {{{f|}}} }} | Y | |{{#time: n | {{{1}}} }}}} | {{#ifeq: {{uc: {{{f|}}} }} | Y | | {{#time: j | {{{1}}} }} }} | {{{2|}}} |form= {{{form|}}} }}{{#ifeq: {{uc: {{{f|}}} }} | Y | | {{date-time separator|{{{2|}}}}}{{Time|{{#time: H | {{{1}}} }}|{{#time: i | {{{1}}} }}||Z|lang= {{{2|}}} }} }}
+|{{#expr: {{#time:Y| {{{1}}} }} - 1900 }}-{{#time:m-d| {{{1}}} }}={{date| {{#expr: {{#time:Y| {{{1}}} }} - 1900 }} | {{#ifeq: {{uc: {{{f|}}} }} | Y | |{{#time: n | {{{1}}} }}}} | {{#ifeq: {{uc: {{{f|}}} }} | Y | | {{#time: j | {{{1}}} }} }} | {{{2|}}} |form= {{{form|}}} }}
+|{{#expr: {{#time:Y| {{{1}}} }} - 1900 }}-{{#time:m| {{{1}}} }}={{date| {{#expr: {{#time:Y| {{{1}}} }} - 1900 }} | {{#ifeq: {{uc: {{{f|}}} }} | Y | |{{#time: n | {{{1}}} }}}} || {{{2|}}} |form= {{{form|}}} }}
+|{{#expr: {{#time:Y| {{{1}}} }} - 1900 }}={{date| {{#expr: {{#time:Y| {{{1}}} }} - 1900 }} ||| {{{2|}}} |form= {{{form|}}} }}
+|{{#expr: {{#time:Y| {{{1}}} }} - 2000 }}-{{#time:m-d H:i:sZ| {{{1}}} }}
+|{{#expr: {{#time:Y| {{{1}}} }} - 2000 }}-{{#time:m-d H:i:s| {{{1}}} }}={{#ifexpr: {{#expr: {{#time:Y| {{{1}}} }} - 2000 }} < 32 | {{date| {{#expr: {{#time:Y| {{{1}}} }} - 2000 }} | {{#ifeq: {{uc: {{{f|}}} }} | Y | |{{#time: n | {{{1}}} }}}} | {{#ifeq: {{uc: {{{f|}}} }} | Y | | {{#time: j | {{{1}}} }} }} | {{{2|}}} |form= {{{form|}}} }}{{#ifeq: {{uc: {{{f|}}} }} | Y | | {{date-time separator|{{{2|}}}}}{{Time|{{#time: H | {{{1}}} }}|{{#time: i | {{{1}}} }}|{{#time: s | {{{1}}} }}|Z|lang= {{{2|}}} }} }} }}
+|{{#expr: {{#time:Y| {{{1}}} }} - 2000 }}-{{#time:m-d H:i| {{{1}}} }}={{#ifexpr: {{#expr: {{#time:Y| {{{1}}} }} - 2000 }} < 32 | {{date| {{#expr: {{#time:Y| {{{1}}} }} - 2000 }} | {{#ifeq: {{uc: {{{f|}}} }} | Y | |{{#time: n | {{{1}}} }}}} | {{#ifeq: {{uc: {{{f|}}} }} | Y | | {{#time: j | {{{1}}} }} }} | {{{2|}}} |form= {{{form|}}} }}{{#ifeq: {{uc: {{{f|}}} }} | Y | | {{date-time separator|{{{2|}}}}}{{Time|{{#time: H | {{{1}}} }}|{{#time: i | {{{1}}} }}||Z|lang= {{{2|}}} }} }} }}
+|{{#expr: {{#time:Y| {{{1}}} }} - 2000 }}-{{#time:m-d| {{{1}}} }}={{#ifexpr: {{#expr: {{#time:Y| {{{1}}} }} - 2000 }} < 32 | {{date| {{#expr: {{#time:Y| {{{1}}} }} - 2000 }} | {{#ifeq: {{uc: {{{f|}}} }} | Y | |{{#time: n | {{{1}}} }}}} | {{#ifeq: {{uc: {{{f|}}} }} | Y | | {{#time: j | {{{1}}} }} }} | {{{2|}}} |form= {{{form|}}} }} }}
+|{{#expr: {{#time:Y| {{{1}}} }} - 2000 }}-{{#time:m| {{{1}}} }}={{#ifexpr: {{#expr: {{#time:Y| {{{1}}} }} - 2000 }} < 32 | {{date| {{#expr: {{#time:Y| {{{1}}} }} - 2000 }} | {{#ifeq: {{uc: {{{f|}}} }} | Y | |{{#time: n | {{{1}}} }}}} || {{{2|}}} |form= {{{form|}}} }} }}
+|{{#expr: {{#time:Y| {{{1}}} }} - 2000 }}={{#ifexpr: {{#expr: {{#time:Y| {{{1}}} }} - 2000 }} < 32 | {{{1}}} | {{date| {{#expr: {{#time:Y| {{{1}}} }} - 2000 }} ||| {{{2|}}} |form= {{{form|}}} }} }}
+|{{#time:Y-m-d H:i:sZ| {{{1}}} }}
+|{{#time:Y-m-d H:i:s| {{{1}}} }}={{date| {{#time: Y | {{{1}}} }} | {{#ifeq: {{uc: {{{f|}}} }} | Y | |{{#time: n | {{{1}}} }}}} | {{#ifeq: {{uc: {{{f|}}} }} | Y | | {{#time: j | {{{1}}} }} }} | {{{2|}}} |form= {{{form|}}} }}{{#ifeq: {{uc: {{{f|}}} }} | Y | | {{date-time separator|{{{2|}}}}}{{Time|{{#time: H | {{{1}}} }}|{{#time: i | {{{1}}} }}|{{#time: s | {{{1}}} }}|Z|lang= {{{2|}}} }} }}
+|{{#time:Y-m-d H:i| {{{1}}} }}={{date| {{#time: Y | {{{1}}} }} | {{#ifeq: {{uc: {{{f|}}} }} | Y | |{{#time: n | {{{1}}} }}}} | {{#ifeq: {{uc: {{{f|}}} }} | Y | | {{#time: j | {{{1}}} }} }} | {{{2|}}} |form= {{{form|}}} }}{{#ifeq: {{uc: {{{f|}}} }} | Y | | {{date-time separator|{{{2|}}}}}{{Time|{{#time: H | {{{1}}} }}|{{#time: i | {{{1}}} }}||Z|lang= {{{2|}}} }} }}
+|{{#time:Y-m-d| {{{1}}} }}={{date| {{#time: Y | {{{1}}} }} | {{#ifeq: {{uc: {{{f|}}} }} | Y | |{{#time: n | {{{1}}} }}}} | {{#ifeq: {{uc: {{{f|}}} }} | Y | | {{#time: j | {{{1}}} }} }} | {{{2|}}} |form= {{{form|}}} }}
+|{{#time:Y-m| {{{1}}} }}={{date| {{#time: Y | {{{1}}} }} | {{#ifeq: {{uc: {{{f|}}} }} | Y | |{{#time: n | {{{1}}} }}}} || {{{2|}}} |form= {{{form|}}} }}
+|{{#time:Y| {{{1}}} }}={{date| {{#time: Y | {{{1}}} }} ||| {{{2|}}} |form= {{{form|}}} }}
+|#default= {{{1}}}
+}}
+}}
+}}
+}}
+}}<noinclude>
+{{documentation}}
+
+[[Category:Time, date and calendar templates|{{PAGENAME}}]]
+[[Category:User interface language dependent templates|{{PAGENAME}}]]
+</noinclude>
