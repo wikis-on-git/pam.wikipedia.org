@@ -1,0 +1,53 @@
+{{#switch: {{ucfirst:{{{1|}}}}}
+|{{ns:0}}=<!-- Empty, return nothing at all -->
+|01
+|1
+|Jan
+|January={{{{#if:{{{2|}}}|MediaWiki|int}}:January{{#if: {{{form|}}} | -{{{form|}}} }}{{#if: {{{2|}}} | /{{{2|}}} }}}}
+|02
+|2
+|Feb
+|February={{{{#if:{{{2|}}}|MediaWiki|int}}:February{{#if: {{{form|}}} | -{{{form|}}} }}{{#if: {{{2|}}} | /{{{2|}}} }}}}
+|03
+|3
+|Mar
+|March={{{{#if:{{{2|}}}|MediaWiki|int}}:March{{#if: {{{form|}}} | -{{{form|}}} }}{{#if: {{{2|}}} | /{{{2|}}} }}}}
+|04
+|4
+|Apr
+|April={{{{#if:{{{2|}}}|MediaWiki|int}}:April{{#if: {{{form|}}} | -{{{form|}}} }}{{#if: {{{2|}}} | /{{{2|}}} }}}}
+|05
+|5
+|May={{{{#if:{{{2|}}}|MediaWiki|int}}:May{{#if: {{{form|}}} | -{{{form|}}} |_long}}{{#if: {{{2|}}} | /{{{2|}}} }}}}
+|06
+|6
+|Jun
+|June={{{{#if:{{{2|}}}|MediaWiki|int}}:June{{#if: {{{form|}}} | -{{{form|}}} }}{{#if: {{{2|}}} | /{{{2|}}} }}}}
+|07
+|7
+|Jul
+|July={{{{#if:{{{2|}}}|MediaWiki|int}}:July{{#if: {{{form|}}} | -{{{form|}}} }}{{#if: {{{2|}}} | /{{{2|}}} }}}}
+|08
+|8
+|Aug
+|August={{{{#if:{{{2|}}}|MediaWiki|int}}:August{{#if: {{{form|}}} | -{{{form|}}} }}{{#if: {{{2|}}} | /{{{2|}}} }}}}
+|09
+|9
+|Sep
+|September={{{{#if:{{{2|}}}|MediaWiki|int}}:September{{#if: {{{form|}}} | -{{{form|}}} }}{{#if: {{{2|}}} | /{{{2|}}} }}}}
+|10
+|Oct
+|October={{{{#if:{{{2|}}}|MediaWiki|int}}:October{{#if: {{{form|}}} | -{{{form|}}} }}{{#if: {{{2|}}} | /{{{2|}}} }}}}
+|11
+|Nov
+|November={{{{#if:{{{2|}}}|MediaWiki|int}}:November{{#if: {{{form|}}} | -{{{form|}}} }}{{#if: {{{2|}}} | /{{{2|}}} }}}}
+|12
+|Dec
+|December={{{{#if:{{{2|}}}|MediaWiki|int}}:December{{#if: {{{form|}}} | -{{{form|}}} }}{{#if: {{{2|}}} | /{{{2|}}} }}}}
+|{{{{#if:{{{2|}}}|MediaWiki|int}}:exif-unknowndate{{#if: {{{2|}}} | /{{{2|}}} }}}}
+}}<noinclude>
+{{documentation}}
+
+[[Category:User interface language dependent templates|{{PAGENAME}}]]
+[[Category:Time, date and calendar templates|{{PAGENAME}}]]
+</noinclude>
