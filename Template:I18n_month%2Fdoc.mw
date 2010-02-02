@@ -1,0 +1,25 @@
+{{TemplateBox
+|1=1
+|1d=number (''1-12'') of the month
+|1stat=required
+|2=2
+|2d=language code (only needs to be provided if the language shall be fixed and independant from the user's preferences)
+|2def=value of <nowiki>{{int:Lang}}</nowiki>
+|3=form
+|3d=allows to specify differing syntactic forms to apply to the date (e.g. in some Polish phrases the month must appear in [[w:Genitive case|genitive form]] instead of nominative, so you have to set <tt>form</tt> to ''gen'')
+|name=I18n month
+|desc=This templates allows to render the name of a month (specified through a number between ''1'' and ''12'') in the user's preferred language.
+|namespace=template
+|usergroup=all
+|placement=indirectly called in templates, e.g. in {{tl|Date}}
+|usage-notes=
+|type=localization
+|example=
+|i18n-method=
+|i18n-desc=
+|seealso=
+|setscats=
+|lines=one
+|shorthand=
+|relieson=
+}}
