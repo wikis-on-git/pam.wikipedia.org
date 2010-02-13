@@ -24,7 +24,7 @@
  |{{
   #if:{{{signers|}}}{{#ifeq:{{Infobox Language/family-color|{{{familycolor|}}}}}|silver|1}}
   |Signed
-  |Spoken}}&nbsp;in}}:
+  |Magagamit}}&nbsp;king}}:
 | colspan="{{
  #if:{{{date|}}}
  |1
@@ -44,7 +44,7 @@
 |-
 | style="padding-left: 0.5em;" |{{
  #if:{{{extinct|}}}
- |[[Extinct language|Language extinction]]
+ |[[Extinct language|Pangamate ning amanu]]
  |Total&nbsp;{{
   #if:{{{signers|}}}{{#ifeq:{{Infobox Language/family-color|{{{familycolor|}}}}}|silver|1}}
   |signers
