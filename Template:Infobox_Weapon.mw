@@ -1,0 +1,371 @@
+<includeonly>{| {{WPMILHIST Infobox style|main_box}}
+|- class="hproduct"
+<!--------------------------Name, image, type, origin------------------------>
+! class="fn" colspan="2" {{WPMILHIST Infobox style|header_bar}} | {{{name|{{PAGENAME}}}}}
+|-
+{{#if:{{{image|}}} |
+{{!}} colspan="2" {{WPMILHIST Infobox style|image_box}} {{!}} {{{image|}}}<br/>{{{caption|}}}
+}}
+|-
+{{#if:{{{type|}}} |
+! style="padding-right: 1em;" {{!}} Type
+{{!}} {{{type|}}}
+}}
+|-
+{{#if:{{{origin|}}} |
+! style="padding-right: 1em;" {{!}} Place&nbsp;of&nbsp;origin
+{{!}} {{{origin|}}}
+}}
+|-
+<!------------------------------Service history------------------------------>
+{{#if:{{{service|}}}{{{used_by|}}}{{{wars|}}} |
+! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Service history
+}}
+|-
+{{#if:{{{service|}}} |
+! style="padding-right: 1em;" {{!}} In&nbsp;service
+{{!}} {{{service|}}}
+}}
+|-
+{{#if:{{{used_by|}}} |
+! style="padding-right: 1em;" {{!}} Used&nbsp;by
+{{!}} {{{used_by|}}}
+}}
+|-
+{{#if:{{{wars|}}} |
+! style="padding-right: 1em;" {{!}} Wars
+{{!}} {{{wars|}}}
+}}
+|-
+<!----------------------------Production history----------------------------->
+{{#if:{{{designer|}}}{{{design_date|}}}{{{manufacturer|}}}{{{production_date|}}}{{{number|}}}{{{variants|}}} |
+! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Production history
+}}
+|-
+{{#if:{{{designer|}}} |
+! style="padding-right: 1em;" {{!}} Designer
+{{!}} {{{designer|}}}
+}}
+|-
+{{#if:{{{design_date|}}} |
+! style="padding-right: 1em;" {{!}} Designed
+{{!}} {{{design_date|}}}
+}}
+|-
+{{#if:{{{manufacturer|}}} |
+! style="padding-right: 1em;" {{!}} Manufacturer
+{{!}} {{{manufacturer|}}}
+}}
+|-
+{{#if:{{{unit_cost|}}} |
+! style="padding-right: 1em;" {{!}} Unit&nbsp;cost
+{{!}} {{{unit_cost|}}}
+}}
+|-
+{{#if:{{{production_date|}}} |
+! style="padding-right: 1em;" {{!}} Produced
+{{!}} {{{production_date|}}}
+}}
+|-
+{{#if:{{{number|}}} |
+! style="padding-right: 1em;" {{!}} Number&nbsp;built
+{{!}} {{{number|}}}
+}}
+|-
+{{#if:{{{variants|}}} |
+! style="padding-right: 1em;" {{!}} Variants
+{{!}} {{{variants|}}}
+}}
+|-
+<!------------------------------Specifications------------------------------->
+{{#if:{{{weight|}}}{{{length|}}}{{{part_length|}}}{{{width|}}}{{{height|}}}{{{diameter|}}}{{{boost|}}}{{{steering|}}}{{{transport|}}}{{{wingspan|}}}{{{crew|}}}{{{cartridge|}}}{{{cartridge_weight|}}}{{{caliber|}}}{{{action|}}}{{{rate|}}}{{{velocity|}}}{{{range|}}}{{{max_range|}}}{{{feed|}}}{{{sights|}}}{{{breech|}}}{{{recoil|}}}{{{carriage|}}}{{{elevation|}}}{{{traverse|}}}{{{blade_type|}}}{{{hilt_type|}}}{{{sheath_type|}}}{{{head_type|}}}{{{haft_type|}}}{{{armour|}}}{{{engine|}}}{{{engine_power|}}}{{{primary_armament|}}}{{{secondary_armament|}}}{{{suspension|}}}{{{pw_ratio|}}}{{{speed|}}}{{{vehicle_range|}}}{{{guidance|}}}{{{ceiling|}}}{{{altitude|}}}{{{depth|}}}{{{launch_platform|}}}{{{accuracy|}}}{{{propellant|}}}{{{filling|}}}{{{filling_weight|}}}{{{detonation|}}}{{{yield|}}}|
+! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Specifications {{#if:{{{spec_label|}}}|({{{spec_label}}})}}
+}}
+|-
+{{#if:{{{weight|}}} |
+! style="padding-right: 1em;" {{!}} Weight
+{{!}} {{{weight|}}}
+}}
+|-
+{{#if:{{{length|}}} |
+! style="padding-right: 1em;" {{!}} Length
+{{!}} {{{length|}}}
+}}
+|-
+{{#if:{{{part_length|}}} |
+! style="padding-right: 1em;" {{!}} {{#if:{{{is_ranged|}}}{{{is_artillery|}}}|[[Gun barrel|Barrel]]|{{#if:{{{is_bladed|}}}|Blade}}}}&nbsp;length
+{{!}} {{{part_length|}}}
+}}
+|-
+{{#if:{{{width|}}} |
+! style="padding-right: 1em;" {{!}} Width
+{{!}} {{{width|}}}
+}}
+|-
+{{#if:{{{height|}}} |
+! style="padding-right: 1em;" {{!}} Height
+{{!}} {{{height|}}}
+}}
+|-
+{{#if:{{{diameter|}}} |
+! style="padding-right: 1em;" {{!}} Diameter
+{{!}} {{{diameter|}}}
+}}
+|-
+{{#if:{{{crew|}}} |
+! style="padding-right: 1em;" {{!}} Crew
+{{!}} {{{crew|}}}
+}}
+|-
+{{#if:{{{weight|}}}{{{length|}}}{{{part_length|}}}{{{width|}}}{{{height|}}}{{{diameter|}}}{{{crew|}}}|
+{{#if:{{{cartridge|}}}{{{cartridge_weight|}}}{{{caliber|}}}{{{barrels|}}}{{{action|}}}{{{rate|}}}{{{velocity|}}}{{{range|}}}{{{max_range|}}}{{{feed|}}}{{{sights|}}}{{{breech|}}}{{{recoil|}}}{{{carriage|}}}{{{elevation|}}}{{{traverse|}}}{{{blade_type|}}}{{{hilt_type|}}}{{{sheath_type|}}}{{{head_type|}}}{{{haft_type|}}}{{{filling|}}}{{{filling_weight|}}}{{{detonation|}}}{{{yield|}}}|
+{{!}} colspan="2" {{!}} <hr/>
+}}}}
+|-
+{{#if:{{{is_ranged|}}}{{{is_artillery|}}} | {{#if:{{{cartridge|}}} |
+! style="padding-right: 1em;" {{!}} {{#if:{{{is_artillery|}}} | [[Shell (projectile)|Shell]]|[[Cartridge (firearms)|Cartridge]]}}
+{{!}} {{{cartridge|}}}
+}}}}
+|-
+{{#if:{{{is_ranged|}}}{{{is_artillery|}}} | {{#if:{{{cartridge_weight|}}} |
+! style="padding-right: 1em;" {{!}} {{#if:{{{is_artillery|}}} | [[Shell (projectile)|Shell]]|[[Cartridge (firearms)|Cartridge]]}} weight
+{{!}} {{{cartridge_weight|}}}
+}}}}
+|-
+{{#if:{{{is_ranged|}}}{{{is_artillery|}}} | {{#if:{{{caliber|}}} |
+! style="padding-right: 1em;" {{!}} {{#if:{{{is_UK|}}} | [[Caliber|Calibre]] | [[Caliber]]}}
+{{!}} {{{caliber|}}}
+}}}}
+|-
+{{#if:{{{is_ranged|}}}{{{is_artillery|}}} | {{#if:{{{barrels|}}} |
+! style="padding-right: 1em;" {{!}} Barrels
+{{!}} {{{barrels|}}}
+}}}}
+|-
+{{#if:{{{is_ranged|}}} | {{#if:{{{action|}}} |
+! style="padding-right: 1em;" {{!}} [[Firearm action|Action]]
+{{!}} {{{action|}}}
+}}}}
+|-
+{{#if:{{{is_artillery|}}} | {{#if:{{{breech|}}} |
+! style="padding-right: 1em;" {{!}} [[Breech-loading weapon|Breech]]
+{{!}} {{{breech|}}}
+}}}}
+|-
+{{#if:{{{is_artillery|}}} | {{#if:{{{recoil|}}} |
+! style="padding-right: 1em;" {{!}} [[Recoil]]
+{{!}} {{{recoil|}}}
+}}}}
+|-
+{{#if:{{{is_artillery|}}} | {{#if:{{{carriage|}}} |
+! style="padding-right: 1em;" {{!}} Carriage
+{{!}} {{{carriage|}}}
+}}}}
+|-
+{{#if:{{{is_artillery|}}} | {{#if:{{{elevation|}}} |
+! style="padding-right: 1em;" {{!}} [[Elevation (ballistics)|Elevation]]
+{{!}} {{{elevation|}}}
+}}}}
+|-
+{{#if:{{{is_artillery|}}} | {{#if:{{{traverse|}}} |
+! style="padding-right: 1em;" {{!}} Traverse
+{{!}} {{{traverse|}}}
+}}}}
+|-
+{{#if:{{{is_ranged|}}}{{{is_artillery|}}} | {{#if:{{{rate|}}} |
+! style="padding-right: 1em;" {{!}} [[Rate of fire|Rate&nbsp;of&nbsp;fire]]
+{{!}} {{{rate|}}}
+}}}}
+|-
+{{#if:{{{is_ranged|}}}{{{is_artillery|}}} | {{#if:{{{velocity|}}} |
+! style="padding-right: 1em;" {{!}} [[Muzzle velocity|Muzzle&nbsp;velocity]]
+{{!}} {{{velocity|}}}
+}}}}
+|-
+{{#if:{{{is_ranged|}}} {{{is_explosive|}}}{{{is_artillery|}}} | {{#if:{{{range|}}} |
+! style="padding-right: 1em;" {{!}} Effective&nbsp;range
+{{!}} {{{range|}}}
+}}}}
+|-
+{{#if:{{{is_ranged|}}}{{{is_explosive|}}}{{{is_artillery|}}} | {{#if:{{{max_range|}}}|
+! style="padding-right: 1em;" {{!}} Maximum&nbsp;range
+{{!}} {{{max_range|}}}
+}}}}
+|-
+{{#if:{{{is_ranged|}}} | {{#if:{{{feed|}}} |
+! style="padding-right: 1em;" {{!}} Feed&nbsp;system
+{{!}} {{{feed|}}}
+}}}}
+|-
+{{#if:{{{is_ranged|}}}{{{is_artillery|}}} | {{#if:{{{sights|}}} |
+! style="padding-right: 1em;" {{!}} Sights
+{{!}} {{{sights|}}}
+}}}}
+|-
+{{#if:{{{is_bladed|}}} | {{#if:{{{blade_type|}}} |
+! style="padding-right: 1em;" {{!}} [[Blade]]&nbsp;type
+{{!}} {{{blade_type|}}}
+}}}}
+|-
+{{#if:{{{is_bladed|}}} | {{#if:{{{hilt_type|}}} |
+! style="padding-right: 1em;" {{!}} [[Hilt]]&nbsp;type
+{{!}} {{{hilt_type|}}}
+}}}}
+|-
+{{#if:{{{is_bladed|}}} | {{#if:{{{sheath_type|}}} |
+! style="padding-right: 1em;" {{!}} [[Scabbard]]/[[sheath]]
+{{!}} {{{sheath_type|}}}
+}}}}
+|-
+{{#if:{{{is_bladed|}}} | {{#if:{{{head_type|}}} |
+! style="padding-right: 1em;" {{!}} Head&nbsp;type
+{{!}} {{{head_type|}}}
+}}}}
+|-
+{{#if:{{{is_bladed|}}} | {{#if:{{{haft_type|}}} |
+! style="padding-right: 1em;" {{!}} [[wikt:haft|Haft]]&nbsp;type
+{{!}} {{{haft_type|}}}
+}}}}
+|-
+{{#if:{{{is_explosive|}}}{{{is_missile|}}} | {{#if:{{{filling|}}} |
+! style="padding-right: 1em;" {{!}} {{#if:{{{is_missile|}}}|Warhead|Filling}}
+{{!}} {{{filling|}}}
+}}}}
+|-
+{{#if:{{{is_explosive|}}}{{{is_missile|}}} | {{#if:{{{filling_weight|}}} |
+! style="padding-right: 1em;" {{!}} {{#if:{{{is_missile|}}}|Warhead|Filling}}&nbsp;weight
+{{!}} {{{filling_weight|}}}
+}}}}
+|-
+{{#if:{{{is_explosive|}}}{{{is_missile|}}} | {{#if:{{{detonation|}}} |
+! style="padding-right: 1em; line-height: 11pt;" {{!}} Detonation<br/>mechanism
+{{!}} {{{detonation|}}}
+}}}}
+|-
+{{#if:{{{is_explosive|}}}{{{is_missile|}}} | {{#if:{{{yield|}}} |
+! style="padding-right: 1em;" {{!}} Blast&nbsp;yield
+{{!}} {{{yield|}}}
+}}}}
+|-
+{{#if:{{{is_vehicle|}}}{{{is_missile|}}} | {{#if:{{{armour|}}}{{{wingspan|}}}{{{boost|}}}{{{steering|}}}{{{transport|}}}{{{engine|}}}{{{engine_power|}}}{{{transmission|}}}{{{payload_capacity|}}}{{{fuel_capacity|}}}{{{clearance|}}}{{{primary_armament|}}}{{{secondary_armament|}}}{{{suspension|}}}{{{pw_ratio|}}}{{{speed|}}}{{{vehicle_range|}}}{{{guidance|}}}{{{ceiling|}}}{{{altitude|}}}{{{launch_platform|}}}{{{accuracy|}}}{{{propellant|}}}|
+{{!}} colspan="2" {{!}} <hr/> 	 
+}}}}
+|-
+{{#if:{{{is_vehicle|}}} | {{#if:{{{armour|}}} |
+! style="padding-right: 1em;" {{!}} [[Vehicle armour|{{#if:{{{is_UK|}}}|Armour|Armor}}]]
+{{!}} {{{armour|}}}
+}}}}
+|-
+{{#if:{{{is_vehicle|}}} | {{#if:{{{primary_armament|}}} |
+! style="padding-right: 1em; line-height: 11pt;" {{!}} Primary<br/>armament
+{{!}} {{{primary_armament|}}}
+}}}}
+|-
+{{#if:{{{is_vehicle|}}} | {{#if:{{{secondary_armament|}}} |
+! style="padding-right: 1em; line-height: 11pt;" {{!}} Secondary<br/>armament
+{{!}} {{{secondary_armament|}}}
+}}}}
+|-
+{{#if:{{{is_vehicle|}}}{{{is_missile|}}} | {{#if:{{{engine|}}}{{{engine_power|}}} |
+! style="padding-right: 1em;" {{!}} Engine
+{{!}} {{{engine|}}}<br/>{{{engine_power|}}}
+}}}}
+|-
+{{#if:{{{is_vehicle|}}} | {{#if:{{{pw_ratio|}}} |
+! style="padding-right: 1em;" {{!}} Power/weight
+{{!}} {{{pw_ratio|}}}
+}}}}
+|-
+{{#if:{{{is_vehicle|}}} | {{#if:{{{payload_capacity|}}} |
+! style="padding-right: 1em;" {{!}} Payload&nbsp;capacity
+{{!}} {{{payload_capacity|}}}
+}}}}
+|-
+{{#if:{{{is_vehicle|}}} | {{#if:{{{transmission|}}} |
+! style="padding-right: 1em;" {{!}} Transmission
+{{!}} {{{transmission|}}}
+}}}}
+|-
+{{#if:{{{is_vehicle|}}} | {{#if:{{{suspension|}}} |
+! style="padding-right: 1em;" {{!}} Suspension
+{{!}} {{{suspension|}}}
+}}}}
+|-
+{{#if:{{{is_vehicle|}}} | {{#if:{{{clearance|}}} |
+! style="padding-right: 1em;" {{!}} Ground&nbsp;clearance
+{{!}} {{{clearance|}}}
+}}}}
+|-
+{{#if:{{{is_missile|}}} | {{#if:{{{wingspan|}}} |
+! style="padding-right: 1em;" {{!}} Wingspan
+{{!}} {{{wingspan|}}}
+}}}}
+|-
+{{#if:{{{is_missile|}}} | {{#if:{{{propellant|}}} |
+! style="padding-right: 1em;" {{!}} Propellant
+{{!}} {{{propellant|}}}
+}}}}
+|-
+{{#if:{{{is_vehicle|}}} | {{#if:{{{fuel_capacity|}}} |
+! style="padding-right: 1em;" {{!}} Fuel&nbsp;capacity
+{{!}} {{{fuel_capacity|}}}
+}}}}
+|-
+{{#if:{{{is_vehicle|}}}{{{is_missile|}}} | {{#if:{{{vehicle_range|}}} |
+! style="padding-right: 1em; line-height: 11pt;" {{!}} Operational<br/>range
+{{!}} {{{vehicle_range|}}}
+}}}}
+|-
+{{#if:{{{is_missile|}}} | {{#if:{{{ceiling|}}} |
+! style="padding-right: 1em;" {{!}} Flight ceiling
+{{!}} {{{ceiling|}}}
+}}}}
+|-
+{{#if:{{{is_missile|}}} | {{#if:{{{altitude|}}} |
+! style="padding-right: 1em;" {{!}} Flight altitude
+{{!}} {{{altitude|}}}
+}}}}
+|-
+{{#if:{{{is_missile|}}} | {{#if:{{{boost|}}} |
+! style="padding-right: 1em;" {{!}} Boost time
+{{!}} {{{boost|}}}
+}}}}
+|-
+{{#if:{{{is_missile|}}} | {{#if:{{{depth|}}} |
+! style="padding-right: 1em;" {{!}} Maximum depth
+{{!}} {{{depth|}}}
+}}}}
+|-
+{{#if:{{{is_vehicle|}}}{{{is_missile|}}} | {{#if:{{{speed|}}} |
+! style="padding-right: 1em;" {{!}} Speed
+{{!}} {{{speed|}}}
+}}}}
+|-
+{{#if:{{{is_vehicle|}}}{{{is_missile|}}} | {{#if:{{{guidance|}}} |
+! style="padding-right: 1em; line-height: 11pt;" {{!}} Guidance<br/>system
+{{!}} {{{guidance|}}}
+}}}}
+|-
+{{#if:{{{is_vehicle|}}}{{{is_missile|}}} | {{#if:{{{steering|}}} |
+! style="padding-right: 1em; line-height: 11pt;" {{!}} Steering<br/>system
+{{!}} {{{steering|}}}
+}}}}
+|-
+{{#if:{{{is_missile|}}} | {{#if:{{{accuracy|}}} |
+! style="padding-right: 1em;" {{!}} Accuracy
+{{!}} {{{accuracy|}}}
+}}}}
+|-
+{{#if:{{{is_missile|}}} | {{#if:{{{launch_platform|}}} |
+! style="padding-right: 1em;" {{!}} Launch<br/>platform
+{{!}} {{{launch_platform|}}}
+}}}}
+|-
+{{#if:{{{is_missile|}}} | {{#if:{{{transport|}}} |
+! style="padding-right: 1em;" {{!}} Transport
+{{!}} {{{transport|}}}
+}}}}
+|}</includeonly><noinclude>
+{{Pp-template|small=yes}}
+{{Documentation, template}}
+</noinclude>
