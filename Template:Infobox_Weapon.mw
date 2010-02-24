@@ -8,12 +8,12 @@
 }}
 |-
 {{#if:{{{type|}}} |
-! style="padding-right: 1em;" {{!}} Type
+! style="padding-right: 1em;" {{!}} Uri
 {{!}} {{{type|}}}
 }}
 |-
 {{#if:{{{origin|}}} |
-! style="padding-right: 1em;" {{!}} Place&nbsp;of&nbsp;origin
+! style="padding-right: 1em;" {{!}} Karinan&nbsp;ning&nbsp;penibatan
 {{!}} {{{origin|}}}
 }}
 |-
@@ -23,23 +23,23 @@
 }}
 |-
 {{#if:{{{service|}}} |
-! style="padding-right: 1em;" {{!}} In&nbsp;service
+! style="padding-right: 1em;" {{!}} Atiu&nbsp;pamanyuyu
 {{!}} {{{service|}}}
 }}
 |-
 {{#if:{{{used_by|}}} |
-! style="padding-right: 1em;" {{!}} Used&nbsp;by
+! style="padding-right: 1em;" {{!}} Deng&nbsp;gagamit
 {{!}} {{{used_by|}}}
 }}
 |-
 {{#if:{{{wars|}}} |
-! style="padding-right: 1em;" {{!}} Wars
+! style="padding-right: 1em;" {{!}} Guerra
 {{!}} {{{wars|}}}
 }}
 |-
 <!----------------------------Production history----------------------------->
 {{#if:{{{designer|}}}{{{design_date|}}}{{{manufacturer|}}}{{{production_date|}}}{{{number|}}}{{{variants|}}} |
-! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Production history
+! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Amlat ning pamanggawa
 }}
 |-
 {{#if:{{{designer|}}} |
@@ -53,7 +53,7 @@
 }}
 |-
 {{#if:{{{manufacturer|}}} |
-! style="padding-right: 1em;" {{!}} Manufacturer
+! style="padding-right: 1em;" {{!}} Pabrika
 {{!}} {{{manufacturer|}}}
 }}
 |-
@@ -63,12 +63,12 @@
 }}
 |-
 {{#if:{{{production_date|}}} |
-! style="padding-right: 1em;" {{!}} Produced
+! style="padding-right: 1em;" {{!}} Megawa
 {{!}} {{{production_date|}}}
 }}
 |-
 {{#if:{{{number|}}} |
-! style="padding-right: 1em;" {{!}} Number&nbsp;built
+! style="padding-right: 1em;" {{!}} Bilang&nbsp;megawa
 {{!}} {{{number|}}}
 }}
 |-
@@ -83,12 +83,12 @@
 }}
 |-
 {{#if:{{{weight|}}} |
-! style="padding-right: 1em;" {{!}} Weight
+! style="padding-right: 1em;" {{!}} Bayat
 {{!}} {{{weight|}}}
 }}
 |-
 {{#if:{{{length|}}} |
-! style="padding-right: 1em;" {{!}} Length
+! style="padding-right: 1em;" {{!}} Kaba
 {{!}} {{{length|}}}
 }}
 |-
@@ -98,17 +98,17 @@
 }}
 |-
 {{#if:{{{width|}}} |
-! style="padding-right: 1em;" {{!}} Width
+! style="padding-right: 1em;" {{!}} Lapad
 {{!}} {{{width|}}}
 }}
 |-
 {{#if:{{{height|}}} |
-! style="padding-right: 1em;" {{!}} Height
+! style="padding-right: 1em;" {{!}} Katas
 {{!}} {{{height|}}}
 }}
 |-
 {{#if:{{{diameter|}}} |
-! style="padding-right: 1em;" {{!}} Diameter
+! style="padding-right: 1em;" {{!}} Lapad ning bilug
 {{!}} {{{diameter|}}}
 }}
 |-
@@ -178,17 +178,17 @@
 }}}}
 |-
 {{#if:{{{is_ranged|}}}{{{is_artillery|}}} | {{#if:{{{velocity|}}} |
-! style="padding-right: 1em;" {{!}} [[Muzzle velocity|Muzzle&nbsp;velocity]]
+! style="padding-right: 1em;" {{!}} [[Muzzle velocity|Muzzle&nbsp;bilis]]
 {{!}} {{{velocity|}}}
 }}}}
 |-
 {{#if:{{{is_ranged|}}} {{{is_explosive|}}}{{{is_artillery|}}} | {{#if:{{{range|}}} |
-! style="padding-right: 1em;" {{!}} Effective&nbsp;range
+! style="padding-right: 1em;" {{!}} Bisa&nbsp;ning laut
 {{!}} {{{range|}}}
 }}}}
 |-
 {{#if:{{{is_ranged|}}}{{{is_explosive|}}}{{{is_artillery|}}} | {{#if:{{{max_range|}}}|
-! style="padding-right: 1em;" {{!}} Maximum&nbsp;range
+! style="padding-right: 1em;" {{!}} Peka&nbsp;laut
 {{!}} {{{max_range|}}}
 }}}}
 |-
@@ -218,12 +218,12 @@
 }}}}
 |-
 {{#if:{{{is_bladed|}}} | {{#if:{{{head_type|}}} |
-! style="padding-right: 1em;" {{!}} Head&nbsp;type
+! style="padding-right: 1em;" {{!}} Buntuk&nbsp;uri
 {{!}} {{{head_type|}}}
 }}}}
 |-
 {{#if:{{{is_bladed|}}} | {{#if:{{{haft_type|}}} |
-! style="padding-right: 1em;" {{!}} [[wikt:haft|Haft]]&nbsp;type
+! style="padding-right: 1em;" {{!}} [[wikt:haft|Haft]]&nbsp;uri
 {{!}} {{{haft_type|}}}
 }}}}
 |-
@@ -243,7 +243,7 @@
 }}}}
 |-
 {{#if:{{{is_explosive|}}}{{{is_missile|}}} | {{#if:{{{yield|}}} |
-! style="padding-right: 1em;" {{!}} Blast&nbsp;yield
+! style="padding-right: 1em;" {{!}} Akbung&nbsp;yield
 {{!}} {{{yield|}}}
 }}}}
 |-
@@ -267,17 +267,17 @@
 }}}}
 |-
 {{#if:{{{is_vehicle|}}}{{{is_missile|}}} | {{#if:{{{engine|}}}{{{engine_power|}}} |
-! style="padding-right: 1em;" {{!}} Engine
+! style="padding-right: 1em;" {{!}} Makina
 {{!}} {{{engine|}}}<br/>{{{engine_power|}}}
 }}}}
 |-
 {{#if:{{{is_vehicle|}}} | {{#if:{{{pw_ratio|}}} |
-! style="padding-right: 1em;" {{!}} Power/weight
+! style="padding-right: 1em;" {{!}} Sikan/bayan
 {{!}} {{{pw_ratio|}}}
 }}}}
 |-
 {{#if:{{{is_vehicle|}}} | {{#if:{{{payload_capacity|}}} |
-! style="padding-right: 1em;" {{!}} Payload&nbsp;capacity
+! style="padding-right: 1em;" {{!}} Payload&nbsp;capacidad
 {{!}} {{{payload_capacity|}}}
 }}}}
 |-
@@ -292,12 +292,12 @@
 }}}}
 |-
 {{#if:{{{is_vehicle|}}} | {{#if:{{{clearance|}}} |
-! style="padding-right: 1em;" {{!}} Ground&nbsp;clearance
+! style="padding-right: 1em;" {{!}} Siwang&nbsp;gabun
 {{!}} {{{clearance|}}}
 }}}}
 |-
 {{#if:{{{is_missile|}}} | {{#if:{{{wingspan|}}} |
-! style="padding-right: 1em;" {{!}} Wingspan
+! style="padding-right: 1em;" {{!}} Baguis lapad
 {{!}} {{{wingspan|}}}
 }}}}
 |-
@@ -307,7 +307,7 @@
 }}}}
 |-
 {{#if:{{{is_vehicle|}}} | {{#if:{{{fuel_capacity|}}} |
-! style="padding-right: 1em;" {{!}} Fuel&nbsp;capacity
+! style="padding-right: 1em;" {{!}} Gas&nbsp;capacidad
 {{!}} {{{fuel_capacity|}}}
 }}}}
 |-
@@ -317,12 +317,12 @@
 }}}}
 |-
 {{#if:{{{is_missile|}}} | {{#if:{{{ceiling|}}} |
-! style="padding-right: 1em;" {{!}} Flight ceiling
+! style="padding-right: 1em;" {{!}} Pekamatas a sulapo
 {{!}} {{{ceiling|}}}
 }}}}
 |-
 {{#if:{{{is_missile|}}} | {{#if:{{{altitude|}}} |
-! style="padding-right: 1em;" {{!}} Flight altitude
+! style="padding-right: 1em;" {{!}} Sulapo katas
 {{!}} {{{altitude|}}}
 }}}}
 |-
@@ -337,7 +337,7 @@
 }}}}
 |-
 {{#if:{{{is_vehicle|}}}{{{is_missile|}}} | {{#if:{{{speed|}}} |
-! style="padding-right: 1em;" {{!}} Speed
+! style="padding-right: 1em;" {{!}} Bilis
 {{!}} {{{speed|}}}
 }}}}
 |-
