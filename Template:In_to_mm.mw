@@ -1,0 +1,21 @@
+<noinclude>;Usage:
+:<nowiki>{{in to mm | num | abbr | spell | precision | wiki}}</nowiki>
+
+;Examples
+:''[[WP:MOSNUM#Units of measurement|Manual of Style]] notation'': <nowiki>{{in to mm|35}}</nowiki>&nbsp;&rarr; {{in to mm|35}}
+:''Short notation'': <nowiki>{{in to mm|35|abbr=yes}}</nowiki>&nbsp;&rarr; {{in to mm|35|abbr=yes}}
+:''Full notation'': <nowiki>{{in to mm|num=35|abbr=no|spell=Commonwealth|precision=2|wiki=yes}}</nowiki>&nbsp;&rarr; {{in to mm|num=35|abbr=no|spell=Commonwealth|precision=2|wiki=yes}}
+
+''Italicized'' parameters are optional:
+*'''num''' is a required parameter, which specifies the number of inches to be converted to millimeters.  Please do not format this parameter; i.e., use 1234 instead of 1,234.
+*'''''abbr''''' can take values of either ''mos'', ''yes'', or ''no''.  ''Mos'' will show the names of the units as specified in the [[WP:MOSNUM#Units of measurement|Manual of Style for dates and numbers]] (inches, mm); ''yes'' will show the abbreviated names of the units (in, mm); and ''no'' will show the full names of the units (inches, millimeters).  The default value is ''mos''.
+*'''''spell''''' can take values of ''American'' or ''Commonwealth'' and is only meaningful when ''abbr'' is set to ''no''.  ''American'' will use "millimeters", and ''Commonwealth''&mdash;"millimetres".  The default value is ''American''.
+*'''''precision''''' is the number of decimal digits in the converted value.  The default value is&nbsp;1.
+*'''''wiki''''' specifies whether the names of the units should be wikified or not and can take values of either ''yes'' or ''no''. The default value is ''no''.
+
+Capitalization of the parameters is unimportant.</noinclude><includeonly>{{FORMATNUM:{{#if:{{{num|}}}|{{{num}}}|{{{1}}}}}}}&nbsp;{{#ifexpr:({{#ifeq:{{LC:{{{abbr|mos}}}}}|mos|1|0}} OR {{#ifeq:{{LC:{{{abbr|mos}}}}}|no|1|0}})|{{#ifeq:{{LC:{{{wiki|no}}}}}|yes|[[inch]]es|inches}}|{{#ifeq:{{LC:{{{wiki|no}}}}}|yes|[[inch|in]]|in}}}} ({{FORMATNUM:{{#expr:{{#if:{{{num|}}}|{{{num}}}|{{{1}}}}}*25.4 round {{{precision|1}}}}}}}&nbsp;{{#ifeq:{{LC:{{{abbr|mos}}}}}|no|{{#ifeq:{{LC:{{{spell|american}}}}}|commonwealth|{{#ifeq:{{LC:{{{wiki|no}}}}}|no|millimetres|[[millimetre]]s}}|{{#ifeq:{{LC:{{{wiki|no}}}}}|no|millimeters|[[millimetre|millimeters]]}}}}|{{#ifeq:{{LC:{{{wiki|no}}}}}|no|mm|[[millimetre|mm]]}}}})</includeonly><noinclude>
+==See also==
+*{{tl|mm to in}}
+
+[[Category:Conversion templates|{{PAGENAME}}]]
+</noinclude>
