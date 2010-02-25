@@ -1,0 +1,10 @@
+{{convert/{{#ifeq:{{{4}}}|oz|and/oz|{{{d}}}}}|{{{1}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|s={{{s|}}}|r={{{r}}}|d={{{d}}}
+|u=lb
+|n=pound
+|t=pound (mass)
+|o=kg
+|b=0.45359237 
+|j=-0.343334259-{{{j|0}}}}}<noinclude>
+{{pp-template|small=yes}}
+[[Category:Subtemplates of Template Convert]]
+</noinclude>
