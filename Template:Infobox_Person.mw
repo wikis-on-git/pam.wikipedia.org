@@ -106,6 +106,6 @@
 {{#ifeq:{{SUBPAGENAME}}|sandbox |{{Template sandbox notice}} }}
 
 <!---Please add metadata to the <includeonly> section at the bottom of the /doc subpage--->
-</noinclude>
 
 [[en:Template:Infobox Person]]
+</noinclude>
