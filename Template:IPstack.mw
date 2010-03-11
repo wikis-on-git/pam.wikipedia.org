@@ -1,0 +1,24 @@
+{{ infobox
+| bodystyle = width:20em; font-size:90%;
+| above = Ing [[Internet Protocol Suite]]
+| abovestyle = background-color: #adb;
+| headerstyle = background-color: #cfc;
+
+| header1     = [[Application Layer]]
+ <!-- PLEASE ONLY INCLUDE WIDESPREAD PROTOCOLS WHICH ARE ACTUALLY USED TODAY, AND WHICH ARE OFFICIAL STANDARDS -->
+| data2       = [[Border Gateway Protocol|BGP]]{{,}} [[Dynamic Host Configuration Protocol|DHCP]]{{,}} [[Domain Name System|DNS]]{{,}} [[File Transfer Protocol|FTP]]{{,}} [[GPRS Tunnelling Protocol|GTP]]{{,}} [[Hypertext Transfer Protocol|HTTP]]{{,}} [[Internet Message Access Protocol|IMAP]]{{,}} [[Internet Relay Chat|IRC]]{{,}} [[Media Gateway Control Protocol (Megaco)|Megaco]]{{,}} [[Media Gateway Control Protocol (MGCP)|MGCP]]{{,}} [[Network News Transfer Protocol|NNTP]]{{,}} [[Network Time Protocol|NTP]]{{,}} [[Post Office Protocol|POP]]{{,}} [[Routing Information Protocol|RIP]]{{,}} [[Remote procedure call|RPC]]{{,}} [[Real-time Transport Protocol|RTP]]{{,}} [[Real Time Streaming Protocol|RTSP]]{{,}} [[Session Description Protocol|SDP]]{{,}} [[Session Initiation Protocol|SIP]]{{,}} [[Simple Mail Transfer Protocol|SMTP]]{{,}} [[Simple Network Management Protocol|SNMP]]{{,}} [[SOAP]]{{,}} [[Secure Shell|SSH]]{{,}} [[Telnet]]{{,}} [[Transport Layer Security|TLS/SSL]]{{,}} [[Extensible Messaging and Presence Protocol|XMPP]]{{·}}
+[[:Category:Application layer protocols|(more)]]
+
+| header3     = [[Transport Layer]]
+| data4       = [[Transmission Control Protocol|TCP]]{{,}} [[User Datagram Protocol|UDP]]{{,}} [[Datagram Congestion Control Protocol|DCCP]]{{,}} [[Stream Control Transmission Protocol|SCTP]]{{,}} [[Resource reservation protocol|RSVP]]{{,}} [[Explicit Congestion Notification|ECN]]{{·}}
+[[:Category:Transport layer protocols|(more)]]
+
+| header5     = [[Internet Layer]]
+| data6       = [[Internet Protocol|IP]] ([[IPv4]], [[IPv6]]){{,}} [[Internet Control Message Protocol|ICMP]]{{,}} [[ICMPv6]]{{,}} [[Internet Group Management Protocol|IGMP]]{{,}} [[IPsec]]{{·}}
+[[:Category:Internet Layer protocols|(more)]]
+
+| header7     = [[Link Layer]]
+| data8       = [[Address Resolution Protocol|ARP/InARP]]{{,}} [[Neighbor Discovery Protocol|NDP]]{{,}} [[Open Shortest Path First|OSPF]]{{,}} [[Tunneling protocol|Tunnels]]&nbsp;([[Layer 2 Tunneling Protocol|L2TP]]){{,}} [[Point-to-Point Protocol|PPP]]{{,}} [[Media Access Control]]&nbsp;([[Ethernet]], [[DSL]], [[ISDN]], [[FDDI]]){{·}} [[:Category:Link protocols|(more)]]
+ <!-- PLEASE ONLY INCLUDE WIDESPREAD PROTOCOLS WHICH ARE ACTUALLY USED TODAY, AND WHICH ARE OFFICIAL STANDARDS  -->
+| below       = {{navbar|IPstack}}
+}}<noinclude>{{documentation}}<!-- PLACE CATEGORY AND INTERLANG LINKS ON /doc, NOT HERE --></noinclude>
