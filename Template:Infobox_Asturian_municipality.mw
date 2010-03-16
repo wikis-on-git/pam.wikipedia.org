@@ -9,7 +9,7 @@
 | <small>[[Coat of arms of {{{name|{{PAGENAME}}}}}|(In detail)]]</small>
 |}
 |- 
-| align="center" colspan="2" | [[Image:{{{map|falta.svg}}}|300px]]<br/>[[Principalidad ning Asturias]]
+| align="center" colspan="2" | [[Image:{{{map|Sin mapa.svg}}}|300px]]<br/>[[Principalidad ning Asturias]]
 |-
 | [[Demonym]]<br> {{#if:{{{demonym English|}}}|&nbsp;• [[English language|English]] <br>}} &nbsp;• [[Spanish language|Spanish]] <br> {{#if:{{{demonym Asturian|}}}|&nbsp;• [[Asturian language|Asturian]]<br>}} {{#if:{{{demonym Eonavian|}}}|&nbsp;• [[Eonavian]]}} 
 || <br> {{#if:{{{demonym English|}}}|{{{demonym English}}} <br>}} {{{demonym Spanish|}}} <br> {{#if:{{{demonym Asturian|}}}|{{{demonym Asturian}}}<br>}} {{#if:{{{demonym Eonavian|}}}|{{{demonym Eonavian}}}<br>}}
