@@ -1,6 +1,6 @@
 {{Infobox file format
 | name = JPEG
-| screenshot = [[Image:Phalaenopsis JPEG.png|border]]
+| screenshot = [[File:Phalaenopsis JPEG.png|border]]
 | caption =  
 Metung a letratu ning sampagang paragdag nang paragdag ing kayang lossy  compression ratio manibat kaili anggang wanan
 | extension = <tt>.jpg</tt>, <tt>.jpeg</tt>, <tt>.jpe</tt><br /><tt>.jif</tt>, <tt>.jfif</tt>, <tt>.jfi</tt> (containers)
@@ -21,59 +21,59 @@ Ing JPEG ing maralas diling magagamit a format para kareng larawan a gagamitan d
 
 Ing [[Internet media type|MIME media type]] para king JPEG, ''image/jpeg'' ya (''defined'' ya king RFC 1341).
 
-==Ing JPEG standard==
+== Ing JPEG standard ==
 Ing lagiung "JPEG" mangabaldugan yang [[Joint Photographic Experts Group]], ing lagiu ning komite o lupung a miglalang ketang standard. Mitátag ya iting grupu aniang [[1986]], at migpalual yang standard kanitang [[1992[[, at me-apruba ya o metanggap iti kanitang [[1994]] antimong '''ISO 10918-1'''. Aliwa ya ing JPEG king MPEG ([[Moving Picture Experts Group]]), a gagawang sistema ning pamag-compress para kareng alben o video.
 
 Tutulduan/lilinawan ne ning JPEG standard ing [[codec]], a mag-isplika nung makananu yang ko-compress o sisiksik ing metung a larawan king agus (stream) da reng [[byte]], at lalako nong pasibayu pangasiksik (decompress) deti ba lang isubli pangabalangkas king metung a larawan, ampo ing file format a magagamit king pamaglangkap o pamanyinup (contain) king agus a ita.  
 
-==Deng standard==
-*JPEG (lossy and lossless):                 ITU-T T.81, ISO/IEC IS 10918-1
-*JPEG (extensions):                         ITU-T T.84
-*[[JPEG-LS]] (lossless, improved):          ITU-T T.87, ISO/IEC IS 14495-1
-*[[JBIG]] (black and white pictures):       ITU-T T.82, ISO/IEC IS 11544-1
-*[[JPEG 2000]] (successor of JPEG/JPEG-LS): ITU-T T.800, ISO/IEC IS 15444-1
-*JPEG-2000 (extensions):                    ITU-T T.801
+== Deng standard ==
+* JPEG (lossy and lossless):                 ITU-T T.81, ISO/IEC IS 10918-1
+* JPEG (extensions):                         ITU-T T.84
+* [[JPEG-LS]] (lossless, improved):          ITU-T T.87, ISO/IEC IS 14495-1
+* [[JBIG]] (black and white pictures):       ITU-T T.82, ISO/IEC IS 11544-1
+* [[JPEG 2000]] (successor of JPEG/JPEG-LS): ITU-T T.800, ISO/IEC IS 15444-1
+* JPEG-2000 (extensions):                    ITU-T T.801
 
-==Lon la murin deti==
-*[[Image compression]]
-*[[Image file formats]]
-*[[Comparison of graphics file formats]]
-*[[Windows Picture and Fax Viewer]]
-*[[Exchangeable image file format]] (Exif)
-*[[JPEG File Interchange Format]] (JFIF)
-*[[Design rule for Camera File system]] (DCF)
-*[[JPEG 2000]]
-*[[Motion JPEG]]
-*[[Graphics editing program]]
-*[[Graphics Device Interface#GDI.2B vulnerability|GDI+ vulnerability section of GDI article]], exploitable bug in JPEG handling code of GDI+ library
-*[[Comparison of layout engines (graphics)]]
-*[[Generation loss]]
-*[[Progressive Graphics File|PGF]]
-*[[Portable Network Graphics|PNG]]
-*[[FELICS|Lossless Image Codec FELICS]]
-*[[C-Cube]] an early implementer of JPEG in chip form
-*[[Libjpeg]] of Independent JPEG Group
-*[[Deblocking filter (video)]], the similar deblocking methods could be applied to JPEG
-*[[Lenna]], the traditional standard image used to test image processing algorithms
+== Lon la murin deti ==
+* [[Image compression]]
+* [[Image file formats]]
+* [[Comparison of graphics file formats]]
+* [[Windows Picture and Fax Viewer]]
+* [[Exchangeable image file format]] (Exif)
+* [[JPEG File Interchange Format]] (JFIF)
+* [[Design rule for Camera File system]] (DCF)
+* [[JPEG 2000]]
+* [[Motion JPEG]]
+* [[Graphics editing program]]
+* [[Graphics Device Interface#GDI.2B vulnerability|GDI+ vulnerability section of GDI article]], exploitable bug in JPEG handling code of GDI+ library
+* [[Comparison of layout engines (graphics)]]
+* [[Generation loss]]
+* [[Progressive Graphics File|PGF]]
+* [[Portable Network Graphics|PNG]]
+* [[FELICS|Lossless Image Codec FELICS]]
+* [[C-Cube]] an early implementer of JPEG in chip form
+* [[Libjpeg]] of Independent JPEG Group
+* [[Deblocking filter (video)]], the similar deblocking methods could be applied to JPEG
+* [[Lenna]], the traditional standard image used to test image processing algorithms
 
-==Dalerayan==
+== Dalerayan ==
 {{reflist}}
 
-==Suglung palual==
-*[http://www.w3.org/Graphics/JPEG/itu-t81.pdf JPEG Standard (JPEG ISO/IEC 10918-1 ITU-T Recommendation T.81) as PDF] or [http://www.digicamsoft.com/itu/itu-t81-1.html HTML]
-*[http://www.jpeg.org/ Official Joint Photographic Experts Group site]
-*[http://www.faqs.org/faqs/jpeg-faq/ JPEG FAQ]
-*[http://www.wotsit.org/list.asp?page=3&fc=1&search=&al= Wotsit.org's entry] on the JPEG format
-*[http://www.w3.org/Graphics/JPEG/jfif3.pdf JFIF File Format as PDF] or [http://www.digicamsoft.com/jfif3/jfif3-1.html HTML]
-*[ftp://ftp.uu.net/graphics/jpeg/wallace.ps.gz The JPEG Still Picture Compression Standard, Summary by Gregory K. Wallace] ([[Gzip]]ped [[PostScript]] file)
-*[http://www.fho-emden.de/~hoffmann/jpeg131200.pdf JPEG Compression (Gernot Hoffman)]
-*Article about [http://netzreport.googlepages.com/hidden_data_in_jpeg_files.html hidden data in JPEG files]
-*More about [http://www.fieggen.com/software/jpgextra_techinfo.htm hidden extras], plus a program to remove them
-*[http://www.sprljan.com/nikola/matlab/dctlab.html DCTlab: Matlab GUI]
-*[http://www.cs.tut.fi/~foi/SA-DCT/#ref_software JPEG deringing and deblocking: Matlab software and Photoshop plug-in]
-*Jim M. Goldstein: [http://www.jmg-galleries.com/articles/raw_vs_jpeg_is_shooting_raw_right_for_me.html RAW vs JPEG: Is Shooting RAW Format For Me?]
-*David Austin: [http://www.ams.org/featurecolumn/archive/image-compression.html Image Compression: Seeing What's Not There]
-*Oskar Breuning: [http://www.jmg-galleries.com/articles/jpeg_compression.html JPEG Compression: Data Loss & Image Impact]
+== Suglung palual ==
+* [http://www.w3.org/Graphics/JPEG/itu-t81.pdf JPEG Standard (JPEG ISO/IEC 10918-1 ITU-T Recommendation T.81) as PDF] or [http://www.digicamsoft.com/itu/itu-t81-1.html HTML]
+* [http://www.jpeg.org/ Official Joint Photographic Experts Group site]
+* [http://www.faqs.org/faqs/jpeg-faq/ JPEG FAQ]
+* [http://www.wotsit.org/list.asp?page=3&fc=1&search=&al= Wotsit.org's entry] on the JPEG format
+* [http://www.w3.org/Graphics/JPEG/jfif3.pdf JFIF File Format as PDF] or [http://www.digicamsoft.com/jfif3/jfif3-1.html HTML]
+* [ftp://ftp.uu.net/graphics/jpeg/wallace.ps.gz The JPEG Still Picture Compression Standard, Summary by Gregory K. Wallace] ([[Gzip]]ped [[PostScript]] file)
+* [http://www.fho-emden.de/~hoffmann/jpeg131200.pdf JPEG Compression (Gernot Hoffman)]
+* Article about [http://netzreport.googlepages.com/hidden_data_in_jpeg_files.html hidden data in JPEG files]
+* More about [http://www.fieggen.com/software/jpgextra_techinfo.htm hidden extras], plus a program to remove them
+* [http://www.sprljan.com/nikola/matlab/dctlab.html DCTlab: Matlab GUI]
+* [http://www.cs.tut.fi/~foi/SA-DCT/#ref_software JPEG deringing and deblocking: Matlab software and Photoshop plug-in]
+* Jim M. Goldstein: [http://www.jmg-galleries.com/articles/raw_vs_jpeg_is_shooting_raw_right_for_me.html RAW vs JPEG: Is Shooting RAW Format For Me?]
+* David Austin: [http://www.ams.org/featurecolumn/archive/image-compression.html Image Compression: Seeing What's Not There]
+* Oskar Breuning: [http://www.jmg-galleries.com/articles/jpeg_compression.html JPEG Compression: Data Loss & Image Impact]
 * [http://www.intel.com/software/products/ipp Intel Integrated Performance Primitives]
 * [http://www.jpegtutor.co.uk JPEG Tutor], an interactive applet allowing you to investigate the effects of changing the quantisation matrix.
 * [http://www.geocities.com/apk257/JPEGDump.html JPEGdump], a command line program that dumps information about the markers in a JPEG file
@@ -109,6 +109,7 @@ Tutulduan/lilinawan ne ning JPEG standard ing [[codec]], a mag-isplika nung maka
 [[ka:JPEG]]
 [[ko:JPEG]]
 [[lt:JPEG]]
+[[lv:JPEG]]
 [[ml:ജെ.പി.ഇ.ജി.]]
 [[nl:Joint Photographic Experts Group]]
 [[no:JPEG]]
