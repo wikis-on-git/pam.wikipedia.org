@@ -47,7 +47,7 @@
 | bgcolor="#eeeeee" | {{#if:{{{CAS_number|}}} | <span class="reflink plainlinksneverexpand">[http://www.nlm.nih.gov/cgi/mesh/2006/MB_cgi?term={{{CAS_number}}}&rn=1 {{{CAS_number}}}]</span> | ? }}  {{#if:{{{CAS_supplemental|}}} | <br>{{{CAS_supplemental|}}} }} 
 |-
 | bgcolor="#ddeeff" | [[Anatomical Therapeutic Chemical Classification System|ATC code]]
-| bgcolor="#eeeeee" | {{#if:{{{ATC_prefix|}}} | [[ATC_code_{{{ATC_prefix}}}|{{{ATC_prefix}}}]]{{#if:{{{ATC_suffix|}}} | <span class="reflink plainlinksneverexpand">[http://www.whocc.no/atcddd/indexdatabase/index.php?query={{{ATC_prefix}}}{{{ATC_suffix}}} {{{ATC_suffix}}}]</span>  {{{ATC_supplemental|}}} }} | ? }}
+| bgcolor="#eeeeee" | {{#if:{{{ATC_prefix|}}} | [[ATC_code_{{{ATC_prefix}}}|{{{ATC_prefix}}}]]{{#if:{{{ATC_suffix|}}} | <span class="reflink plainlinksneverexpand">[http://www.whocc.no/atc_ddd_index/?code={{{ATC_prefix}}}{{{ATC_suffix}}} {{{ATC_suffix}}}]</span>  {{{ATC_supplemental|}}} }} | ? }}
 |-
 | bgcolor="#ddeeff" | [[PubChem]]
 | bgcolor="#eeeeee" | {{#if:{{{PubChem|}}} | <span class="reflink plainlinksneverexpand">[http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid={{{PubChem}}} {{{PubChem}}}]</span> | ? }}
