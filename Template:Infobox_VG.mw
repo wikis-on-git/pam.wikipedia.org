@@ -1,0 +1,43 @@
+{| class="{{#ifeq:{{{collapsible|}}}|yes|collapsible {{#if:{{{state|}}}|{{{state}}}|autocollapse}}}} infobox vevent" style="float:{{{align|right}}}; width:{{#if:{{{width|}}}|{{{width|}}}|264px}}; font-size:90%; text-align:left;" cellspacing="0" cellpadding="3"
+|-
+<includeonly>! colspan=2 style="font-size:110%; text-align:center;" class="summary" | ''{{#if:{{{title|}}}|{{{title}}}|{{PAGENAME}}}}''</includeonly>
+{{#ifeq:{{{show image|}}}|yes|<table style="width: 100%; font-size:90%; background:none;">|{{!}}-}}
+{{#if:{{{image|}}}|
+{{!}} colspan="2" style="text-align: center;" {{!}} {{{image|}}}<br />{{#if:{{{caption|}}}|{{{caption}}}}}
+}}
+{{#ifeq:{{{show image|}}}|yes|</table>}}
+{{Alternating rows table section
+|es=background:#f0f0f0;
+|{{#if:{{{developer|}}}|{{!}} '''[[Video game developer|Developer(s)]]''' {{!!}} {{{developer|}}} }}
+|{{#if:{{{publisher|}}}| {{!}} '''[[Video game publisher|Publisher(s)]]''' {{!!}} {{{publisher|}}} }}
+|{{#if:{{{distributor|}}}| {{!}} '''Distributor(s)''' {{!!}} {{{distributor|}}} }}
+|{{#if:{{{director|}}}| {{!}} '''[[Video game director|Director(s)]]''' {{!!}} {{{director|}}} }}
+|{{#if:{{{producer|}}}| {{!}} '''[[Video game producer|Producer(s)]]''' {{!!}} {{{producer|}}} }}
+|{{#if:{{{designer|}}}| {{!}} '''[[Game designer|Designer(s)]]''' {{!!}} {{{designer|}}} }}
+|{{#if:{{{programmer|}}}| {{!}} '''[[Game programmer|Programmer(s)]]''' {{!!}} {{{programmer|}}} }}
+|{{#if:{{{artist|}}}| {{!}} '''[[Game artist|Artist(s)]]''' {{!!}} {{{artist|}}} }}
+|{{#if:{{{writer|}}}| {{!}} '''Writer(s)''' {{!!}} {{{writer|}}} }}
+|{{#if:{{{composer|}}}| {{!}} '''[[Video game music|Composer(s)]]''' {{!!}} {{{composer|}}} }}
+|{{#if:{{{license|}}}| {{!}} '''[[Software license|License]]''' {{!!}} {{{license|}}} }}
+|{{#if:{{{series|}}}| {{!}} '''Series''' {{!!}} {{{series|}}} }}
+|{{#if:{{{engine|}}}| {{!}} '''[[Game engine|Engine]]''' {{!!}} {{{engine|}}} }}
+|{{#if:{{{picture format|{{{aspect ratio|}}}}}}| {{!}} '''[[Aspect ratio]]''' {{!!}} {{{picture format|{{{aspect ratio|}}}}}} }}
+|{{#if:{{{resolution|}}}| {{!}} '''[[Display resolution|Native resolution]]''' {{!!}} {{{resolution}}} }}
+|{{#if:{{{version|}}}| {{!}} '''Version''' {{!!}} {{{version|}}} }}
+|{{#if:{{{platform|{{{platforms|}}}}}}| {{!}} '''[[Computing platform|Platform(s)]]''' {{!!}} {{{platform|{{{platforms|}}}}}} }}
+|{{#if:{{{released|{{{release|}}}}}}| {{!}} {{nowrap|'''Release date(s)'''}} {{!!}} {{{released|{{{release}}}}}} }}
+|{{#if:{{{latest release version|}}}| {{!}} '''[[Software release life cycle|Latest release]]''' {{!!}} {{{latest release version|}}} {{#if: {{{latest release date|}}}| / {{{latest release date|}}} }} }}
+|{{#if:{{{latest preview version|}}}| {{!}} '''[[Software release life cycle|Preview release]]''' {{!!}} {{{latest preview version|}}} {{#if: {{{latest preview date|}}}| / {{{latest preview date|}}} }} }}
+|{{#if:{{{genre|}}}| {{!}} '''[[Video game genres|Genre(s)]]''' {{!!}} {{{genre|}}} }}
+|{{#if:{{{mode|{{{modes|}}}}}}|{{!}} '''Mode(s)''' {{!!}} {{{modes|}}} }}
+|{{#if:{{{ratings|}}}| {{!}} '''[[Video game content rating system|Rating(s)]]''' {{!!}} {{{ratings|}}} }}
+|{{#if:{{{media|}}}| {{!}} '''[[Digital media|Media]]''' {{!!}} {{{media|}}} }}
+|{{#if:{{{requirements|}}}| {{!}} '''System requirements''' {{!!}} {{{requirements|}}} }}
+|{{#if:{{{input|}}}| {{!}} '''Input methods''' {{!!}} {{{input|}}} }}
+|{{#if:{{{cabinet|}}}| {{!}} '''Cabinet''' {{!!}} {{{cabinet|}}} }}
+|{{#if:{{{arcade system|}}}| {{!}} '''[[Arcade system board|Arcade system]]''' {{!!}} {{{arcade system|}}} }}
+|{{#if:{{{cpu|}}}| {{!}} '''[[Central Processing Unit|CPU]]''' {{!!}} {{{cpu|}}} }}
+|{{#if:{{{sound|}}}| {{!}} '''Sound''' {{!!}} {{{sound|}}} }}
+|{{#if:{{{display|}}}| {{!}} '''Display''' {{!!}} {{{display|}}} }}
+}}
+|}<noinclude>{{doc}}<!-- Add cats and interwikis to the /doc subpage, not here! --></noinclude>
