@@ -1,0 +1,1 @@
+{{#if:{{{2|}}}|Atin yang informacion ing StrategyWiki [[StrategyWiki:{{{1|{{PAGENAME}}}}}/{{{2}}}|''{{{1|{{PAGENAME}}}}}'' {{{3|{{{2}}}}}}]]|[[StrategyWiki:{{{1|{{PAGENAME}}}}}|''{{{1|{{PAGENAME}}}}}'' guide]] king StrategyWiki}}<noinclude>{{documentation}}</noinclude>
