@@ -1,0 +1,1 @@
+{{#if:{{{1|}}}|<span style="white-space:nowrap;">{{{3|(}}}</span>{{#if:{{{2|}}}|{{{2}}}|{{{1}}}}}<span style="white-space:nowrap;">{{{4|)}}}</span>}}<noinclude>[[Category:WikiProject Japan templates]]</noinclude>
