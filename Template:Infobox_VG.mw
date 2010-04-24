@@ -8,16 +8,16 @@
 {{#ifeq:{{{show image|}}}|yes|</table>}}
 {{Alternating rows table section
 |es=background:#f0f0f0;
-|{{#if:{{{developer|}}}|{{!}} '''[[Video game developer|Developer(s)]]''' {{!!}} {{{developer|}}} }}
-|{{#if:{{{publisher|}}}| {{!}} '''[[Video game publisher|Publisher(s)]]''' {{!!}} {{{publisher|}}} }}
+|{{#if:{{{developer|}}}|{{!}} '''[[Video game developer|Mikudta]]''' {{!!}} {{{developer|}}} }}
+|{{#if:{{{publisher|}}}| {{!}} '''[[Video game publisher|Mibulalag]]''' {{!!}} {{{publisher|}}} }}
 |{{#if:{{{distributor|}}}| {{!}} '''Distributor(s)''' {{!!}} {{{distributor|}}} }}
 |{{#if:{{{director|}}}| {{!}} '''[[Video game director|Director(s)]]''' {{!!}} {{{director|}}} }}
 |{{#if:{{{producer|}}}| {{!}} '''[[Video game producer|Producer(s)]]''' {{!!}} {{{producer|}}} }}
-|{{#if:{{{designer|}}}| {{!}} '''[[Game designer|Designer(s)]]''' {{!!}} {{{designer|}}} }}
+|{{#if:{{{designer|}}}| {{!}} '''[[Game designer|Migdiseniu]]''' {{!!}} {{{designer|}}} }}
 |{{#if:{{{programmer|}}}| {{!}} '''[[Game programmer|Programmer(s)]]''' {{!!}} {{{programmer|}}} }}
 |{{#if:{{{artist|}}}| {{!}} '''[[Game artist|Artist(s)]]''' {{!!}} {{{artist|}}} }}
-|{{#if:{{{writer|}}}| {{!}} '''Writer(s)''' {{!!}} {{{writer|}}} }}
-|{{#if:{{{composer|}}}| {{!}} '''[[Video game music|Composer(s)]]''' {{!!}} {{{composer|}}} }}
+|{{#if:{{{writer|}}}| {{!}} '''Talasulat''' {{!!}} {{{writer|}}} }}
+|{{#if:{{{composer|}}}| {{!}} '''[[Video game music|Compositor]]''' {{!!}} {{{composer|}}} }}
 |{{#if:{{{license|}}}| {{!}} '''[[Software license|License]]''' {{!!}} {{{license|}}} }}
 |{{#if:{{{series|}}}| {{!}} '''Series''' {{!!}} {{{series|}}} }}
 |{{#if:{{{engine|}}}| {{!}} '''[[Game engine|Engine]]''' {{!!}} {{{engine|}}} }}
