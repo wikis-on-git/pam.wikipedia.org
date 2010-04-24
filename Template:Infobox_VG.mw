@@ -11,10 +11,10 @@
 |{{#if:{{{developer|}}}|{{!}} '''[[Video game developer|Mikudta]]''' {{!!}} {{{developer|}}} }}
 |{{#if:{{{publisher|}}}| {{!}} '''[[Video game publisher|Mibulalag]]''' {{!!}} {{{publisher|}}} }}
 |{{#if:{{{distributor|}}}| {{!}} '''Distributor(s)''' {{!!}} {{{distributor|}}} }}
-|{{#if:{{{director|}}}| {{!}} '''[[Video game director|Director(s)]]''' {{!!}} {{{director|}}} }}
-|{{#if:{{{producer|}}}| {{!}} '''[[Video game producer|Producer(s)]]''' {{!!}} {{{producer|}}} }}
+|{{#if:{{{director|}}}| {{!}} '''[[Video game director|Director]]''' {{!!}} {{{director|}}} }}
+|{{#if:{{{producer|}}}| {{!}} '''[[Video game producer|Producer]]''' {{!!}} {{{producer|}}} }}
 |{{#if:{{{designer|}}}| {{!}} '''[[Game designer|Migdiseniu]]''' {{!!}} {{{designer|}}} }}
-|{{#if:{{{programmer|}}}| {{!}} '''[[Game programmer|Programmer(s)]]''' {{!!}} {{{programmer|}}} }}
+|{{#if:{{{programmer|}}}| {{!}} '''[[Game programmer|Programmer]]''' {{!!}} {{{programmer|}}} }}
 |{{#if:{{{artist|}}}| {{!}} '''[[Game artist|Artist(s)]]''' {{!!}} {{{artist|}}} }}
 |{{#if:{{{writer|}}}| {{!}} '''Talasulat''' {{!!}} {{{writer|}}} }}
 |{{#if:{{{composer|}}}| {{!}} '''[[Video game music|Compositor]]''' {{!!}} {{{composer|}}} }}
@@ -24,8 +24,8 @@
 |{{#if:{{{picture format|{{{aspect ratio|}}}}}}| {{!}} '''[[Aspect ratio]]''' {{!!}} {{{picture format|{{{aspect ratio|}}}}}} }}
 |{{#if:{{{resolution|}}}| {{!}} '''[[Display resolution|Native resolution]]''' {{!!}} {{{resolution}}} }}
 |{{#if:{{{version|}}}| {{!}} '''Version''' {{!!}} {{{version|}}} }}
-|{{#if:{{{platform|{{{platforms|}}}}}}| {{!}} '''[[Computing platform|Platform(s)]]''' {{!!}} {{{platform|{{{platforms|}}}}}} }}
-|{{#if:{{{released|{{{release|}}}}}}| {{!}} {{nowrap|'''Release date(s)'''}} {{!!}} {{{released|{{{release}}}}}} }}
+|{{#if:{{{platform|{{{platforms|}}}}}}| {{!}} '''[[Computing platform|Platform]]''' {{!!}} {{{platform|{{{platforms|}}}}}} }}
+|{{#if:{{{released|{{{release|}}}}}}| {{!}} {{nowrap|'''Petsa ning pamaglual'''}} {{!!}} {{{released|{{{release}}}}}} }}
 |{{#if:{{{latest release version|}}}| {{!}} '''[[Software release life cycle|Latest release]]''' {{!!}} {{{latest release version|}}} {{#if: {{{latest release date|}}}| / {{{latest release date|}}} }} }}
 |{{#if:{{{latest preview version|}}}| {{!}} '''[[Software release life cycle|Preview release]]''' {{!!}} {{{latest preview version|}}} {{#if: {{{latest preview date|}}}| / {{{latest preview date|}}} }} }}
 |{{#if:{{{genre|}}}| {{!}} '''[[Video game genres|Genre(s)]]''' {{!!}} {{{genre|}}} }}
