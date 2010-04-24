@@ -1,0 +1,26 @@
+{{selfref|{{side box
+| position = {{{position|}}}
+| image    = [[Image:Office-book.svg|30px|alt=Wikipedia Books|link=Wikipedia:Books]]
+| text     = '''''[[Book:{{{1|{{PAGENAME}}}}}|Book:{{{2|{{{1|{{PAGENAME}}}}}}}}]]'''''<!--
+-->{{#if:{{{3|}}}
+    |<p>'''''[[Book:{{{3|{{PAGENAME}}}}}|Book:{{{4|{{{3|{{PAGENAME}}}}}}}}]]'''''
+    |
+   }}<!--
+-->{{#if:{{{5|}}}
+    |<p>'''''[[Book:{{{5|{{PAGENAME}}}}}|Book:{{{6|{{{5|{{PAGENAME}}}}}}}}]]'''''
+    |
+   }}<!--
+-->{{#if:{{{7|}}}
+    |<p>'''''[[Book:{{{7|{{PAGENAME}}}}}|Book:{{{8|{{{7|{{PAGENAME}}}}}}}}]]'''''
+    |
+   }}<!--
+-->{{#if:{{{9|}}}
+    |<p>'''''[[Book:{{{9|{{PAGENAME}}}}}|Book:{{{10|{{{9|{{PAGENAME}}}}}}}}]]'''''
+    |
+   }}
+| below    = <small>[[WP:Books|Books]] are collections of articles which can be downloaded or ordered in print.</small>
+}}|inline}}<noinclude>
+{{pp-template}}
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
