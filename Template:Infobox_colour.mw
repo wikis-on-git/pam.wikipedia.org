@@ -21,7 +21,7 @@
 {{!}} colspan="3" style="text-align: left;" {{!}} {{{symbolism}}}
 }}
 |-
-| colspan="3" style="height:25px; text-align: center;" | <span style="position:relative; float:right; font-size:70%;"><imagemap>Image:Information-silk.png|About these coordinates
+| colspan="3" style="height:25px; text-align: center;" | <span style="position:relative; float:right; font-size:70%;"><imagemap>Image:Information-silk.svg|About these coordinates
 rect 0 0 50 50 [[Wikipedia:WikiProject Color/Normalized Color Coordinates|About these coordinates]]
 desc none</imagemap></span>&mdash; {{ #ifeq:{{lc:{{{spelling}}}}}|colour|Colour|Color}} coordinates &mdash;
 |-
