@@ -1,7 +1,7 @@
 {{Infobox file format
 | name         = Portable Network Graphics
 | icon         = PNG
-| screenshot   = [[Image:PNG transparency demonstration 1.png]] <br /> [[Image:PNG transparency demonstration 2.png]]
+| screenshot   = [[File:PNG transparency demonstration 1.png]] <br /> [[File:PNG transparency demonstration 2.png]]
 | caption      = Metung a larawan a PNG a maki 8-bit transparency channel (babo). Makatumpak ya king diseniung checkered king gulut (lalam), a keraklang magagamit kayabe ning [[graphics software]] bang lunto ing kayang lino (transparency).
 | extension    = .png
 | mime         = image/png
@@ -18,7 +18,7 @@
 
 Ing '''Portable Network Graphics''' ('''PNG''') metung yang [[Raster graphics|bitmapped]] [[Graphics file format|image format]] a gagamit [[lossless data compression]]. Melalang ya iti ba yang samasan ampong alilan ing format a [[Graphics Interchange Format|GIF]], antimong image-format o ayus-larawan a e mangailangan lisensiang [[patent]]. Ing PNG agkas de antimong 
 P-N-G ampong ''ping''.<ref>[http://www.libpng.org/pub/png/#history History of PNG]</ref> Ing 
-PNG [[Acronym and initialism|initialism]] maliari yang ituring a optionally [[recursive acronym|recursive]], a e opisial  a mangabaldugang “PNG's Not GIF” (Ing PNG e ya GIF).<ref>[http://web-building.crispen.org/formats/png.html GIF, JPEG or PNG?]</ref>
+PNG [[Acronym and initialism|initialism]] maliari yang ituring a optionally [[recursive acronym|recursive]], a e opisial a mangabaldugang “PNG's Not GIF” (Ing PNG e ya GIF).<ref>[http://web-building.crispen.org/formats/png.html GIF, JPEG or PNG?]</ref>
 
 Susuportan no ning PNG deng palette-based a kuleng (palettes a 24-bit [[RGB color model|RGB]]), [[greyscale]] o larawan a RGB. Megawa ya ing PNG para king pamanalis kareng larawan king Internet at e king propesional a graphics, ania e no susuportan deng aliwang [[color space]] (antimo ing [[CMYK color model|CMYK]]).
 
@@ -46,7 +46,7 @@ Keraklan, gagamitan de reng simpan (file) a PNG ing file-extension a "<code>PNG<
 * [http://www.libpng.org/pub/png/ PNG Home Site]
 * [http://www.libpng.org/pub/png/libpng.html libpng Home Page]
 * [http://www.libpng.org/pub/png/pngapbr.html PNG-supporting browsers] – Overview of PNG status in different [[web browser]]s. First Windows IE support in 4.0b1; Netscape 4.04 [http://oregon.usgs.gov/png_images.html].
-* [http://www.libpng.org/pub/png/slashpng-1999.html ''The Story of PNG'' by  Greg Roelofs]
+* [http://www.libpng.org/pub/png/slashpng-1999.html ''The Story of PNG'' by Greg Roelofs]
 * [http://www.libpng.org/pub/png/book/ ''PNG: The Definitive Guide (Online Version)'' by Greg Roelofs]
 
 === W3C ===
@@ -121,4 +121,4 @@ Keraklan, gagamitan de reng simpan (file) a PNG ing file-extension a "<code>PNG<
 [[uk:PNG]]
 [[vi:PNG]]
 [[yo:Portable Network Graphics]]
-[[zh:Portable Network Graphics]]
+[[zh:PNG]]
