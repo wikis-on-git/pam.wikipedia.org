@@ -4,12 +4,12 @@
 |colspan="5" style="text-align: center;"| '''{{{cur_month|Month}}}'''
 |{{{next_month|>>}}}
 |- style="border: none; {{{weekstyle|background-color: #ccccff;}}}"
-|width="14%"| Su
-|width="14%"| Mo
-|width="14%"| Tu
-|width="14%"| We
-|width="14%"| Th
-|width="14%"| Fr
+|width="14%"| Do
+|width="14%"| Lu
+|width="14%"| Ma
+|width="14%"| Mi
+|width="14%"| Ju
+|width="14%"| Bi
 |width="14%"| Sa
 |-
 |-
