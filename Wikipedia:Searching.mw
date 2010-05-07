@@ -70,11 +70,6 @@ For reasons of efficiency and priority, very recent changes are not always immed
 ==Internal search engines (New)==
 Recently, new ''internal'' search engines were created. These search engines can search Wikipedia articles, meanwhile they are user-friendly and are integrated into Wikipedia for a good experience. They aren't as good as external search engines though.
 
-===WikEh?===
-WikEh? is a '''Wikipedian-friendly''' search engine that searches the articles you want fast. It also searches images that are on Wikipedia. Users can give it a try by clicking on the link below.
-
-* [[Wikipedia:WikEh?/Home/|Search Wikipedia with WikEh?]]
-
 ==External search engines==
 Various [[search engine]]s can provide domain-specific searches, which let you search Wikipedia specifically. Searches are based on the text as shown by the browser, so wiki markup is irrelevant. Depending on your browser, you may also be able to use [[Wikipedia:tools|tools]] that allow you to search Wikipedia using [[bookmarklet]]s.
 
