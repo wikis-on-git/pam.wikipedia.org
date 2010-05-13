@@ -1,0 +1,40 @@
+{{Calendar/Sun1stMonthStart{{#time:D|{{{year|{{CURRENTYEAR}}}}}1101}}
+|float={{{float|none}}}
+|titlestyle=background-color:{{{color|#ccccff}}};
+|weekstyle=background-color:{{{color2|#ccccff}}};
+|cur_month=[[{{{1a|{{{1|}}}}}}Nobiembri {{{3|{{{year|{{CURRENTYEAR}}}}}}}}|{{{2|}}} Nobiembri {{{3|{{{year|{{CURRENTYEAR}}}}}}}}]]
+|prev_month=[[{{{1a|{{{1|}}}}}}Octubri {{{3|{{{year|{{CURRENTYEAR}}}}}}}}|<<]]
+|next_month=[[{{{1a|{{{1|}}}}}}Desiembri {{{3|{{{year|{{CURRENTYEAR}}}}}}}}|>>]]
+|01=[[{{{1|}}}Nobiembri 1{{{4|}}}|1]]
+|02=[[{{{1|}}}Nobiembri 2{{{4|}}}|2]]
+|03=[[{{{1|}}}Nobiembri 3{{{4|}}}|3]]
+|04=[[{{{1|}}}Nobiembri 4{{{4|}}}|4]]
+|05=[[{{{1|}}}Nobiembri 5{{{4|}}}|5]]
+|06=[[{{{1|}}}Nobiembri 6{{{4|}}}|6]]
+|07=[[{{{1|}}}Nobiembri 7{{{4|}}}|7]]
+|08=[[{{{1|}}}Nobiembri 8{{{4|}}}|8]]
+|09=[[{{{1|}}}Nobiembri 9{{{4|}}}|9]]
+|10=[[{{{1|}}}Nobiembri 10{{{4|}}}|10]]
+|11=[[{{{1|}}}Nobiembri 11{{{4|}}}|11]]
+|12=[[{{{1|}}}Nobiembri 12{{{4|}}}|12]]
+|13=[[{{{1|}}}Nobiembri 13{{{4|}}}|13]]
+|14=[[{{{1|}}}Nobiembri 14{{{4|}}}|14]]
+|15=[[{{{1|}}}Nobiembri 15{{{4|}}}|15]]
+|16=[[{{{1|}}}Nobiembri 16{{{4|}}}|16]]
+|17=[[{{{1|}}}Nobiembri 17{{{4|}}}|17]]
+|18=[[{{{1|}}}Nobiembri 18{{{4|}}}|18]]
+|19=[[{{{1|}}}Nobiembri 19{{{4|}}}|19]]
+|20=[[{{{1|}}}Nobiembri 20{{{4|}}}|20]]
+|21=[[{{{1|}}}Nobiembri 21{{{4|}}}|21]]
+|22=[[{{{1|}}}Nobiembri 22{{{4|}}}|22]]
+|23=[[{{{1|}}}Nobiembri 23{{{4|}}}|23]]
+|24=[[{{{1|}}}Nobiembri 24{{{4|}}}|24]]
+|25=[[{{{1|}}}Nobiembri 25{{{4|}}}|25]]
+|26=[[{{{1|}}}Nobiembri 26{{{4|}}}|26]]
+|27=[[{{{1|}}}Nobiembri 27{{{4|}}}|27]]
+|28=[[{{{1|}}}Nobiembri 28{{{4|}}}|28]]
+|29=[[{{{1|}}}Nobiembri 29{{{4|}}}|29]]
+|30=[[{{{1|}}}Nobiembri 30{{{4|}}}|30]]
+|EndNote={{{EndNote|'''[[{{{year|{{CURRENTYEAR}}}}}|{{#time:xrY}}]]'''}}}
+}}
+<noinclude>{{Documentation}}</noinclude>
