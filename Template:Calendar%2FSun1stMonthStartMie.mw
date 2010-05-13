@@ -1,0 +1,32 @@
+{| class="toccolours" style="float:{{{float|none}}}; margin-left: 1em; text-align:center;" cellpadding=2 cellspacing=0
+|- style="{{{titlestyle|background-color: #ccccff;}}}"
+|{{{prev_month|<<}}}
+|colspan="5" style="text-align: center;"| '''{{{cur_month|Month}}}'''
+|{{{next_month|>>}}}
+|- style="border: none; {{{weekstyle|background-color: #ccccff;}}}"
+|width="14%"| Do
+|width="14%"| Lu
+|width="14%"| Ma
+|width="14%"| Mi
+|width="14%"| Hu
+|width="14%"| Bi
+|width="14%"| Sa
+|-
+|-
+|    ||    ||        ||{{{01}}}||{{{02}}}||{{{03}}}||{{{04}}}
+|-
+|{{{05}}}||{{{06}}}||{{{07}}}||{{{08}}}||{{{09}}}||{{{10}}}||{{{11}}}
+|-
+|{{{12}}}||{{{13}}}||{{{14}}}||{{{15}}}||{{{16}}}||{{{17}}}||{{{18}}}
+|-
+|{{{19}}}||{{{20}}}||{{{21}}}||{{{22}}}||{{{23}}}||{{{24}}}||{{{25}}}
+|-
+|{{{26}}}||{{{27}}}||{{{28}}}||{{{29|}}}||{{{30|}}}||{{{31|}}}||
+|- style="{{{titlestyle|background-color: #ccccff;}}}"
+{{#if:{{{EndNote|}}}|{{!}}colspan="7"{{!}}{{{EndNote}}} }}
+|- style="{{{titlestyle|background-color: #ccccff;}}}"
+{{#if:{{{year|}}}|{{!}}colspan="7"{{!}}<b>[[{{{year}}}]]</b>}}
+|}<noinclude>
+
+[[Category:Calendar templates|{{PAGENAME}}]]
+</noinclude>
