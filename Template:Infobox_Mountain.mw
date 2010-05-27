@@ -3,7 +3,7 @@
 ! bgcolor=#e7dcc3 colspan=2 | {{{Name}}}
 {{#if:{{{Photo|}}}|<tr><td style="border-top:1px solid #999966; text-align: center;" colspan=2>[[Image:{{{Photo}}}|300px]]<br />{{{Caption|}}}</td></tr>}}
 |- 
-| style="border-top: 1px solid #999966; border-right: 1px solid #999966; background: #e7dcc3; width: 85px" | [[Topographical summit|Katas Kabilyan]]
+| style="border-top: 1px solid #999966; border-right: 1px solid #999966; background: #e7dcc3; width: 85px" | [[Topographical summit|Katas Kabilian]]
 | style="border-top: 1px solid #999966; width: 220px" | {{{Elevation}}}
 |- 
 | style="border-top: 1px solid #999966; border-right: 1px solid #999966; background: #e7dcc3; width: 85px" | Karinan
