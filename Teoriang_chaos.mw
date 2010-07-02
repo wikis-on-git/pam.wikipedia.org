@@ -1,140 +1,140 @@
-[[Image:Lorenz attractor yb.svg|thumb|right|300px|Metung a grafica o diagrama ning [[Lorenz attractor]] para kareng alagang {{nowrap|''r'' {{=}} 28}}, {{nowrap|σ {{=}} 10}}, {{nowrap|''b'' {{=}} 8/3}}]]
+[[File:Lorenz attractor yb.svg|thumb|right|300px|Metung a grafica o diagrama ning [[Lorenz attractor]] para kareng alagang {{nowrap|''r'' {{=}} 28}}, {{nowrap|σ {{=}} 10}}, {{nowrap|''b'' {{=}} 8/3}}]]
 {{Otheruses|Chaos Theory (disambiguation)}}
 Ing '''Teoriang chaos''' o '''Chaos theory''' metung yang sanga ning matematica a manigaral king pangimut da reng mapilang [[dynamical system (definition)|dynamical system]] a mapaliaring misnang sensitivo kareng kabilian king umpisa o ''initial conditions''. Ining panga-sensitivo mipalaguan [[butterfly effect]]. Uli na niting panga-sensitivo, a lalto antimong daragul nang daragul a pamandagul ning pamagkamali (''exponential growth of error''), lalto yang balamu ''random'' (alang kapakayan o direccion) ing pangimut ning sistema. Ing buri nang sabian niti, deng mangalating pamialiwa king umpisa, magdala yang misnang dagul a pamialiwa panga-wakas, agiang king makuyad mung kapanaunan. Balamu ''random'' ing pangimut ning sistema, agiang [[:en:deterministic system (philosophy)|deterministic]] ya iti, at ganap lang bunga o madi-determina da reng kabilian da potang purmeru deng maliliari keng paintungulan, a alang bitasang elementung random a maki papil. Ining pangimut, ausan dang deterministic chaos, o king makuyad a salita, ''[[chaos]]''.  
 
 Maliari ya muring akit ing pangimut a chaotic o ''chaotic behavior'' kareng sistemang natural, alimbawa king panaun (''weather''). Maliari yang isplica iti king metung a pamaglarawan o analysis ning chaotic [[mathematical model]] a pekakatawan ning makanian a sistema. Sisiasatan ning [[:en:Quantum chaos|quantum chaos]] ing kaugnayan ning chaos ampong .  
 
-==Lon la murin==
+== Lon la murin ==
 {{multicol}}
 ;Examples of chaotic systems
-*[[Arnold's cat map]]
-*[[Bouncing Ball Simulation System]]
-*[[Chua's circuit]]
-*[[Double pendulum]]
-*[[Dynamical billiards]]
-*[[Economic bubble]]
-*[[Hénon map]]
-*[[Horseshoe map]]
-*[[Logistic map]]
-*[[Rössler attractor]]
-*[[Standard map]]
-*[[Swinging Atwood's machine]]
-*[[Tilt A Whirl]]
+* [[Arnold's cat map]]
+* [[Bouncing Ball Simulation System]]
+* [[Chua's circuit]]
+* [[Double pendulum]]
+* [[Dynamical billiards]]
+* [[Economic bubble]]
+* [[Hénon map]]
+* [[Horseshoe map]]
+* [[Logistic map]]
+* [[Rössler attractor]]
+* [[Standard map]]
+* [[Swinging Atwood's machine]]
+* [[Tilt A Whirl]]
 {{multicol-break}}
 ;Other related topics
-*[[Quantum chaos]]
-*[[Anosov diffeomorphism]]
-*[[Bifurcation theory]]
-*[[Butterfly effect]]
-*[[Chaos theory in organizational development]]
-*[[Complexity]]
-*[[Control of chaos]]
-*[[Edge of chaos]]
-*[[Fractal]]
-**[[Mandelbrot set]]
-**[[Julia set]]
-*[[Predictability]]
-*[[Santa Fe Institute]]
-*[[Synchronization of chaos]]
+* [[Quantum chaos]]
+* [[Anosov diffeomorphism]]
+* [[Bifurcation theory]]
+* [[Butterfly effect]]
+* [[Chaos theory in organizational development]]
+* [[Complexity]]
+* [[Control of chaos]]
+* [[Edge of chaos]]
+* [[Fractal]]
+** [[Mandelbrot set]]
+** [[Julia set]]
+* [[Predictability]]
+* [[Santa Fe Institute]]
+* [[Synchronization of chaos]]
 {{multicol-break}}
 ;People
-*[[Mitchell Feigenbaum]]
-*[[Martin Gutzwiller]]
-*[[Michael Berry]]
-*[[Brosl Hasslacher]]
-*[[Michel Hénon]]
-*[[Edward Lorenz]]
-*[[Aleksandr Lyapunov]]
-*[[Benoît Mandelbrot]]
-*[[Henri Poincaré]]
-*[[Otto Rössler]]
-*[[David Ruelle]]
-*[[Oleksandr Mikolaiovich Sharkovsky]]
-*[[Floris Takens]]
-*[[James A. Yorke]]
+* [[Mitchell Feigenbaum]]
+* [[Martin Gutzwiller]]
+* [[Michael Berry]]
+* [[Brosl Hasslacher]]
+* [[Michel Hénon]]
+* [[Edward Lorenz]]
+* [[Aleksandr Lyapunov]]
+* [[Benoît Mandelbrot]]
+* [[Henri Poincaré]]
+* [[Otto Rössler]]
+* [[David Ruelle]]
+* [[Oleksandr Mikolaiovich Sharkovsky]]
+* [[Floris Takens]]
+* [[James A. Yorke]]
 {{multicol-break}}
 {{portal|Systems science|Complex-adaptive-system.jpg}}
 {{portal|Mathematics|Nuvola_apps_edu_mathematics_blue-p.svg}}
 
 {{multicol-end}}
 
-==Dalerayan==
+== Dalerayan ==
 {{reflist|2}}
 
-==Kasulatang cientifico==
-===Articulo===
-*A.N. Sharkovskii,  "Co-existence of cycles of a continuous mapping of the line into itself", Ukrainian Math. J., 16:61–71 (1964)
-*[[Tien-Yien Li|Li, T. Y.]] and [[James A. Yorke|Yorke, J. A.]] "Period Three Implies Chaos." [[American Mathematical Monthly]] 82, 985–92, 1975.
-*Kolyada, S. F. "[http://www.springerlink.com/content/q00627510552020g/?p=93e1f3daf93549d1850365a8800afb30&pi=3 Li-Yorke sensitivity and other concepts of chaos]", Ukrainian Math. J. 56 (2004), 1242–1257.
+== Kasulatang cientifico ==
+=== Articulo ===
+* A.N. Sharkovskii,  "Co-existence of cycles of a continuous mapping of the line into itself", Ukrainian Math. J., 16:61–71 (1964)
+* [[Tien-Yien Li|Li, T. Y.]] and [[James A. Yorke|Yorke, J. A.]] "Period Three Implies Chaos." [[American Mathematical Monthly]] 82, 985–92, 1975.
+* Kolyada, S. F. "[http://www.springerlink.com/content/q00627510552020g/?p=93e1f3daf93549d1850365a8800afb30&pi=3 Li-Yorke sensitivity and other concepts of chaos]", Ukrainian Math. J. 56 (2004), 1242–1257.
 
-===Libru king escuela (''textbooks'')===
-*{{cite book| author=Alligood, K. T.| title=Chaos: an introduction to dynamical systems| publisher=Springer-Verlag New York, LLC| year=1997| isbn=0-387-94677-2}}
-*{{cite book| author=Baker, G. L.| title=Chaos, Scattering and Statistical Mechanics| publisher=Cambridge University Press| year=1996| isbn=0-521-39511-9}}
-*{{cite book| author=Badii, R.; Politi A.| title="Complexity: hierarchical structures and scaling in physics"| publisher=Cambridge University Press| year=1997| isbn=0521663857| url=http://www.cambridge.org/catalogue/catalogue.asp?isbn=0521663857}}
-*{{cite book| author=Devaney, Robert L.| title=An Introduction to Chaotic Dynamical Systems, 2nd ed,| publisher=Westview Press| year=2003| isbn=0-8133-4085-3}}
-*{{cite book| author=Gollub, J. P.; Baker, G. L.| title=Chaotic dynamics| publisher=Cambridge University Press| year=1996| isbn=0-521-47685-2}}
-*{{cite book| author=Gutzwiller, Martin| title=Chaos in Classical and Quantum Mechanics| publisher=Springer-Verlag New York, LLC| year=1990| isbn=0-387-97173-4}}
-*{{cite book| author=Hoover, William Graham| title=Time Reversibility, Computer Simulation, and Chaos| publisher=World Scientific| year=1999,2001| isbn=981-02-4073-2}}
-*{{cite book| author=Kiel, L. Douglas; Elliott, Euel W.| title=Chaos Theory in the Social Sciences| publisher=Perseus Publishing| year=1997| isbn=0-472-08472-0}}
-*{{cite book| author=Moon, Francis| title=Chaotic and Fractal Dynamics| publisher=Springer-Verlag New York, LLC| year=1990| isbn=0-471-54571-6}}
-*{{cite book| author=Ott, Edward| title=Chaos in Dynamical Systems| publisher=Cambridge University Press New, York| year=2002| isbn=0-521-01084-5}}
-*{{cite book| author=Strogatz, Steven| title=Nonlinear Dynamics and Chaos| publisher=Perseus Publishing| year=2000| isbn=0-7382-0453-6}}
-*{{cite book| author=Sprott, Julien Clinton| title=Chaos and Time-Series Analysis| publisher=Oxford University Press| year=2003| isbn=0-19-850840-9}}
-*{{cite book| author=Tél, Tamás; Gruiz, Márton| title=Chaotic dynamics: An introduction based on classical mechanics| publisher=Cambridge University Press| year=2006| isbn=0-521-83912-2}}
-*{{cite book| author=Tufillaro, Abbott, Reilly| title=An experimental approach to nonlinear dynamics and chaos| publisher=Addison-Wesley New York| year=1992| isbn=0-201-55441-0}}
-*{{cite book| author=Zaslavsky, George M.| title=Hamiltonian Chaos and Fractional Dynamics| publisher=Oxford University Press| year=2005| isbn=0-198-52604-0}}
+=== Libru king escuela (''textbooks'') ===
+* {{cite book| author=Alligood, K. T.| title=Chaos: an introduction to dynamical systems| publisher=Springer-Verlag New York, LLC| year=1997| isbn=0-387-94677-2}}
+* {{cite book| author=Baker, G. L.| title=Chaos, Scattering and Statistical Mechanics| publisher=Cambridge University Press| year=1996| isbn=0-521-39511-9}}
+* {{cite book| author=Badii, R.; Politi A.| title="Complexity: hierarchical structures and scaling in physics"| publisher=Cambridge University Press| year=1997| isbn=0521663857| url=http://www.cambridge.org/catalogue/catalogue.asp?isbn=0521663857}}
+* {{cite book| author=Devaney, Robert L.| title=An Introduction to Chaotic Dynamical Systems, 2nd ed,| publisher=Westview Press| year=2003| isbn=0-8133-4085-3}}
+* {{cite book| author=Gollub, J. P.; Baker, G. L.| title=Chaotic dynamics| publisher=Cambridge University Press| year=1996| isbn=0-521-47685-2}}
+* {{cite book| author=Gutzwiller, Martin| title=Chaos in Classical and Quantum Mechanics| publisher=Springer-Verlag New York, LLC| year=1990| isbn=0-387-97173-4}}
+* {{cite book| author=Hoover, William Graham| title=Time Reversibility, Computer Simulation, and Chaos| publisher=World Scientific| year=1999,2001| isbn=981-02-4073-2}}
+* {{cite book| author=Kiel, L. Douglas; Elliott, Euel W.| title=Chaos Theory in the Social Sciences| publisher=Perseus Publishing| year=1997| isbn=0-472-08472-0}}
+* {{cite book| author=Moon, Francis| title=Chaotic and Fractal Dynamics| publisher=Springer-Verlag New York, LLC| year=1990| isbn=0-471-54571-6}}
+* {{cite book| author=Ott, Edward| title=Chaos in Dynamical Systems| publisher=Cambridge University Press New, York| year=2002| isbn=0-521-01084-5}}
+* {{cite book| author=Strogatz, Steven| title=Nonlinear Dynamics and Chaos| publisher=Perseus Publishing| year=2000| isbn=0-7382-0453-6}}
+* {{cite book| author=Sprott, Julien Clinton| title=Chaos and Time-Series Analysis| publisher=Oxford University Press| year=2003| isbn=0-19-850840-9}}
+* {{cite book| author=Tél, Tamás; Gruiz, Márton| title=Chaotic dynamics: An introduction based on classical mechanics| publisher=Cambridge University Press| year=2006| isbn=0-521-83912-2}}
+* {{cite book| author=Tufillaro, Abbott, Reilly| title=An experimental approach to nonlinear dynamics and chaos| publisher=Addison-Wesley New York| year=1992| isbn=0-201-55441-0}}
+* {{cite book| author=Zaslavsky, George M.| title=Hamiltonian Chaos and Fractional Dynamics| publisher=Oxford University Press| year=2005| isbn=0-198-52604-0}}
 
-===Obrang semitechnical ampong popular===
-*Ralph H. Abraham and Yoshisuke Ueda (Ed.), ''The Chaos Avant-Garde: Memoirs of the Early Days of Chaos Theory'', World Scientific Publishing Company, 2001, 232 pp.
-*[[Michael Barnsley]], ''Fractals Everywhere'', Academic Press 1988, 394 pp.
-*Richard J Bird, ''Chaos and Life: Complexity and Order in Evolution and Thought'', Columbia University Press 2003, 352 pp.
-*[[John Briggs (author)|John Briggs]] and David Peat, ''Turbulent Mirror: : An Illustrated Guide to Chaos Theory and the Science of Wholeness'', Harper Perennial 1990, 224 pp.
-*[[John Briggs (author)|John Briggs]] and David Peat, ''Seven Life Lessons of Chaos: Spiritual Wisdom from the Science of Change'', Harper Perennial 2000, 224 pp.
-*Lawrence A. Cunningham, ''From Random Walks to Chaotic Crashes: The Linear Genealogy of the Efficient Capital Market Hypothesis,'' George Washington Law Review, Vol. 62, 1994, 546 pp.
-*Leon Glass and Michael C. Mackey, ''From Clocks to Chaos: The Rhythms of Life,'' Princeton University Press 1988, 272 pp.
-*[[James Gleick]], ''[[Chaos: Making a New Science]]'', New York: Penguin, 1988. 368 pp.
-*John Gribbin, ''Deep Simplicity'',
-*L Douglas Kiel, Euel W Elliott (ed.), ''Chaos Theory in the Social Sciences: Foundations and Applications'', University of Michigan Press, 1997, 360 pp.
-*Arvind Kumar, ''Chaos, Fractals and Self-Organisation; New Perspectives on Complexity in Nature '', National Book Trust, 2003.
-*Hans Lauwerier, ''Fractals'', Princeton University Press, 1991.
-*[[Edward Lorenz]], ''The Essence of Chaos'', University of Washington Press, 1996.
-*Chapter 5 of Alan Marshall (2002) The Unity of nature, Imperial College Press: London
-*[[Heinz-Otto Peitgen]] and [[Dietmar Saupe]] (Eds.), ''The Science of Fractal Images'', Springer 1988, 312 pp.
-*[[Clifford A. Pickover]], ''Computers, Pattern, Chaos, and Beauty: Graphics from an Unseen World '', St Martins Pr 1991.
-*[[Ilya Prigogine]] and Isabelle Stengers, ''Order Out of Chaos'', Bantam 1984.
-*[[Heinz-Otto Peitgen]] and P. H. Richter, ''The Beauty of Fractals : Images of Complex Dynamical Systems'', Springer 1986, 211 pp.
-*[[David Ruelle]], ''Chance and Chaos'', Princeton University Press 1993.
-*[[Ivars Peterson]], ''Newton's Clock: Chaos in the Solar System'', Freeman, 1993.
-*[[David Ruelle]], ''Chaotic Evolution and Strange Attractors'', Cambridge University Press, 1989.
-*Peter Smith, ''Explaining Chaos'', Cambridge University Press, 1998.
-*[[Ian Stewart (mathematician)|Ian Stewart]], ''Does God Play Dice?: The Mathematics of Chaos '', Blackwell Publishers, 1990.
-*[[Steven Strogatz]], ''Sync: The emerging science of spontaneous order'', Hyperion, 2003.
-*Yoshisuke Ueda, ''The Road To Chaos'', Aerial Pr, 1993.
-*M. Mitchell Waldrop, ''Complexity : The Emerging Science at the Edge of Order and Chaos'', Simon & Schuster, 1992.
+=== Obrang semitechnical ampong popular ===
+* Ralph H. Abraham and Yoshisuke Ueda (Ed.), ''The Chaos Avant-Garde: Memoirs of the Early Days of Chaos Theory'', World Scientific Publishing Company, 2001, 232 pp.
+* [[Michael Barnsley]], ''Fractals Everywhere'', Academic Press 1988, 394 pp.
+* Richard J Bird, ''Chaos and Life: Complexity and Order in Evolution and Thought'', Columbia University Press 2003, 352 pp.
+* [[John Briggs (author)|John Briggs]] and David Peat, ''Turbulent Mirror: : An Illustrated Guide to Chaos Theory and the Science of Wholeness'', Harper Perennial 1990, 224 pp.
+* [[John Briggs (author)|John Briggs]] and David Peat, ''Seven Life Lessons of Chaos: Spiritual Wisdom from the Science of Change'', Harper Perennial 2000, 224 pp.
+* Lawrence A. Cunningham, ''From Random Walks to Chaotic Crashes: The Linear Genealogy of the Efficient Capital Market Hypothesis,'' George Washington Law Review, Vol. 62, 1994, 546 pp.
+* Leon Glass and Michael C. Mackey, ''From Clocks to Chaos: The Rhythms of Life,'' Princeton University Press 1988, 272 pp.
+* [[James Gleick]], ''[[Chaos: Making a New Science]]'', New York: Penguin, 1988. 368 pp.
+* John Gribbin, ''Deep Simplicity'',
+* L Douglas Kiel, Euel W Elliott (ed.), ''Chaos Theory in the Social Sciences: Foundations and Applications'', University of Michigan Press, 1997, 360 pp.
+* Arvind Kumar, ''Chaos, Fractals and Self-Organisation; New Perspectives on Complexity in Nature '', National Book Trust, 2003.
+* Hans Lauwerier, ''Fractals'', Princeton University Press, 1991.
+* [[Edward Lorenz]], ''The Essence of Chaos'', University of Washington Press, 1996.
+* Chapter 5 of Alan Marshall (2002) The Unity of nature, Imperial College Press: London
+* [[Heinz-Otto Peitgen]] and [[Dietmar Saupe]] (Eds.), ''The Science of Fractal Images'', Springer 1988, 312 pp.
+* [[Clifford A. Pickover]], ''Computers, Pattern, Chaos, and Beauty: Graphics from an Unseen World '', St Martins Pr 1991.
+* [[Ilya Prigogine]] and Isabelle Stengers, ''Order Out of Chaos'', Bantam 1984.
+* [[Heinz-Otto Peitgen]] and P. H. Richter, ''The Beauty of Fractals : Images of Complex Dynamical Systems'', Springer 1986, 211 pp.
+* [[David Ruelle]], ''Chance and Chaos'', Princeton University Press 1993.
+* [[Ivars Peterson]], ''Newton's Clock: Chaos in the Solar System'', Freeman, 1993.
+* [[David Ruelle]], ''Chaotic Evolution and Strange Attractors'', Cambridge University Press, 1989.
+* Peter Smith, ''Explaining Chaos'', Cambridge University Press, 1998.
+* [[Ian Stewart (mathematician)|Ian Stewart]], ''Does God Play Dice?: The Mathematics of Chaos '', Blackwell Publishers, 1990.
+* [[Steven Strogatz]], ''Sync: The emerging science of spontaneous order'', Hyperion, 2003.
+* Yoshisuke Ueda, ''The Road To Chaos'', Aerial Pr, 1993.
+* M. Mitchell Waldrop, ''Complexity : The Emerging Science at the Edge of Order and Chaos'', Simon & Schuster, 1992.
 
-==Suglung palual==
+== Suglung palual ==
 {{Commonscat|Chaos theory}}
-*[http://lagrange.physics.drexel.edu Nonlinear Dynamics Research Group] with Animations in Flash
-*[http://www.chaos.umd.edu The Chaos group at the University of Maryland]
-*[http://hypertextbook.com/chaos/ The Chaos Hypertextbook]. An introductory primer on chaos and fractals.
-*[http://www.societyforchaostheory.org/ Society for Chaos Theory in Psychology & Life Sciences]
-*[http://physics.mercer.edu/pendulum/ Interactive live chaotic pendulum experiment], allows users to interact and sample data from a real working damped driven chaotic pendulum
-*[http://www.creatingtechnology.org/papers/chaos.htm Nonlinear dynamics: how science comprehends chaos], talk presented by Sunny Auyang, 1998.
-*[http://www.egwald.ca/nonlineardynamics/index.php Nonlinear Dynamics]. Models of bifurcation and chaos by Elmer G. Wiens
-*[http://www.around.com/chaos.html Gleick's ''Chaos'' (excerpt)]
-*[http://www.eng.ox.ac.uk/samp Systems Analysis, Modelling and Prediction Group] at the University of Oxford.
-*[http://www.mgix.com/snippets/?MackeyGlass A page about the Mackey-Glass equation].
+* [http://lagrange.physics.drexel.edu Nonlinear Dynamics Research Group] with Animations in Flash
+* [http://www.chaos.umd.edu The Chaos group at the University of Maryland]
+* [http://hypertextbook.com/chaos/ The Chaos Hypertextbook]. An introductory primer on chaos and fractals.
+* [http://www.societyforchaostheory.org/ Society for Chaos Theory in Psychology & Life Sciences]
+* [http://physics.mercer.edu/pendulum/ Interactive live chaotic pendulum experiment], allows users to interact and sample data from a real working damped driven chaotic pendulum
+* [http://www.creatingtechnology.org/papers/chaos.htm Nonlinear dynamics: how science comprehends chaos], talk presented by Sunny Auyang, 1998.
+* [http://www.egwald.ca/nonlineardynamics/index.php Nonlinear Dynamics]. Models of bifurcation and chaos by Elmer G. Wiens
+* [http://www.around.com/chaos.html Gleick's ''Chaos'' (excerpt)]
+* [http://www.eng.ox.ac.uk/samp Systems Analysis, Modelling and Prediction Group] at the University of Oxford.
+* [http://www.mgix.com/snippets/?MackeyGlass A page about the Mackey-Glass equation].
 
 {{Systems}}
 
 {{DEFAULTSORT:Chaos Theory}}
+<!-- interwiki -->
+
 [[Category:Chaos theory|*]]
 [[Category:Fundamental physics concepts]]
 [[Category:Non-linear systems]]
 [[Category:Systems]]
 [[Category:Ergodic theory]]
-
-<!-- interwiki -->
 
 [[ar:نظرية الشواش]]
 [[ba:Хаос теорияһы]]
@@ -147,7 +147,7 @@ Maliari ya muring akit ing pangimut a chaotic o ''chaotic behavior'' kareng sist
 [[el:Θεωρία του χάους]]
 [[en:Chaos theory]]
 [[eo:Teorio de kaoso]]
-[[es:Teoría del Caos]]
+[[es:Teoría del caos]]
 [[fa:نظریه آشوب]]
 [[fi:Kaaosteoria]]
 [[fr:Théorie du chaos]]
