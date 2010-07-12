@@ -21,7 +21,7 @@
 -->{{#if:{{{Grid_ref_Ireland|}}}|<tr><td style="border-top: 1px solid #999966; border-right: 1px solid #999966; background: #e7dcc3; width: 85px">[[Irish national grid reference system|OSI/OSNI grid reference]]</td><td style="border-top: 1px solid #999966; width: 220px">[http://getamap.ordnancesurvey.co.uk/getamap/frames.htm?mapAction=gaz&gazName=g&gazString={{{Grid_ref_Ireland|}}} {{{Grid_ref_Ireland}}}]</td></tr>}}<!--
 -->{{#if:{{{Listing|}}}|<tr><td style="border-top: 1px solid #999966; border-right: 1px solid #999966; background: #e7dcc3; width: 85px">[[Hill lists in the British Isles|Listing]]</td><td style="border-top: 1px solid #999966; width: 220px">{{{Listing|}}}</td></tr>}}<!--
 -->{{#if:{{{Translation|}}}|<tr><td style="border-top: 1px solid #999966; border-right: 1px solid #999966; background: #e7dcc3; width: 85px">Translation</td><td style="border-top: 1px solid #999966; width: 220px">''{{{Translation|}}}'' ({{{Language|}}})</td></tr>}}<!--
--->{{#if:{{{Pronunciation|}}}|<tr><td style="border-top: 1px solid #999966; border-right: 1px solid #999966; background: #e7dcc3; width: 85px">[[International Phonetic Alphabet|Agkas]]</td><td style="border-top: 1px solid #999966; width: 220px">{{IPA|[{{{Pronunciation}}}]}}</td></tr>}}
+-->{{#if:{{{Pronunciation|Pami-bigkas}}}|<tr><td style="border-top: 1px solid #999966; border-right: 1px solid #999966; background: #e7dcc3; width: 85px">[[International Phonetic Alphabet|Agkas]]</td><td style="border-top: 1px solid #999966; width: 220px">{{IPA|[{{{Pronunciation}}}]}}</td></tr>}}
 |}<noinclude>
 
 ==Usage==
@@ -32,19 +32,19 @@
 | Katas = 
 | Karinan = 
 | Range = 
-| Prominence = 
-| Coordinates = 
-| Topographic map = 
-| Type = 
-| Age = 
-| Last eruption = 
+| Prominensya = 
+| Deng koordina = 
+| Topograpikung mapa = 
+| Uri = 
+| Edad = 
+| Tawling Akbung = 
 | First ascent = 
-| Easiest route = 
+| Pekamalagwang ruta = 
 | Grid_ref_UK = 
 | Grid_ref_Ireland = 
-| Listing = 
-| Translation = 
-| Language = 
+| Lista = 
+| Salin = 
+| Amanu = 
 | Pronunciation = 
 }}</pre>
 [[Category:Templates using ParserFunctions|{{PAGENAME}}]]
