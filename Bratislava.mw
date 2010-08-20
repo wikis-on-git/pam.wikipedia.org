@@ -102,7 +102,7 @@ MIST--->ALBANIA
 |map1_locator    = Bratislava Region
 |map1_size       = 128
 |commons         = Bratislava
-|statistics      = [http://www.statistics.sk/mosmis/eng/prvav2.jsp?txtUroven&#61;410190&lstObec&#61;582000&Okruh&#61;sodb MOŠ/MIS]
+|statistics      = [http://www.statistics.sk/mosmis/eng/prvav2.jsp?txtUroven=410190&lstObec=582000&Okruh=sodb MOŠ/MIS]
 |website         = [http://www.bratislava.sk/en bratislava.sk]
 |footnotes =
 }}<!---
@@ -121,7 +121,7 @@ Ing'''Bratislava''' — king kayang amlat '''Pozsony''' ampong '''Pressburg''' (
 
 
 
-==Demographicu==
+== Demographicu ==
 {{main|Demographics of Bratislava}}
 {{seealso|List of personalities from Bratislava}}
 
@@ -165,16 +165,16 @@ Ing'''Bratislava''' — king kayang amlat '''Pozsony''' ampong '''Pressburg''' (
 |}
 
 
-==Gubyernu==
+== Gubyernu ==
 {{seealso|Boroughs and localities of Bratislava|International relations of Bratislava}}
-[[Image:Primate's Palace Bratislava.jpg|thumb|right|[[Primate's Palace]], ing luklukan na ning pamuntuk lakanbalen]]
-[[Image:Prezidentsky palac.jpg|left|thumb|[[Grassalkovich Palace]], luklukan  ning pamuntuk ning Slovakia]]
+[[File:Primate's Palace Bratislava.jpg|thumb|right|[[Primate's Palace]], ing luklukan na ning pamuntuk lakanbalen]]
+[[File:Prezidentsky palac.jpg|left|thumb|[[Grassalkovich Palace]], luklukan  ning pamuntuk ning Slovakia]]
 
 
 
 {| class="wikitable" border="1"  style="margin:0 auto; text-align:center;"
 |-
-| rowspan="8" | [[Image:Bratislava parts with states.png|130px]]
+| rowspan="8" | [[File:Bratislava parts with states.png|130px]]
 | colspan="5" | Bratislava's territorial divisions (districts and boroughs)
 |-
 | '''[[Bratislava I]]'''
@@ -222,7 +222,7 @@ Ing'''Bratislava''' — king kayang amlat '''Pozsony''' ampong '''Pressburg''' (
 
 
 
-==Kapatad lakanbalen==
+== Kapatad lakanbalen ==
 Ing Bratislava maka [[town twinning|kambal]] ya kareng:<ref name="Twin">{{cite web|url=http://www.bratislava-city.sk/bratislava-twin-towns|title=''Bratislava City - Twin Towns''|publisher=<small>[[copyright|©]] 2003-2008 Bratislava-City.sk|accessdate=2008-10-26}}</small></ref>
 {|style="width:100%"
 |-
@@ -251,12 +251,12 @@ Ing Bratislava maka [[town twinning|kambal]] ya kareng:<ref name="Twin">{{cite w
 
 <small>* Numbers in brackets list the year of twinning. The first agreement was signed with the city of [[Perugia]], [[Umbria]] in Italy on July 18, 1962.</small>
 
-==Notes==
+== Notes ==
 {{reflist|2}}
 
-==Dalerayan==
-*{{cite book |title=Dejiny Bratislavy (History of Bratislava)|year=1979 |publisher=[http://www.obzor.sk/ Obzor] |location=Bratislava, Slovakia |language=Slovak | edition = 2nd |last=Horváth, V., Lehotská, D., Pleva, J. (eds.) et al.}}
-*{{cite book
+== Dalerayan ==
+* {{cite book |title=Dejiny Bratislavy (History of Bratislava)|year=1979 |publisher=[http://www.obzor.sk/ Obzor] |location=Bratislava, Slovakia |language=Slovak | edition = 2nd |last=Horváth, V., Lehotská, D., Pleva, J. (eds.) et al.}}
+* {{cite book
  |last=Janota
  |first=Igor
  |title=Bratislavské rarity (Rarities of Bratislava)
@@ -267,7 +267,7 @@ Ing Bratislava maka [[town twinning|kambal]] ya kareng:<ref name="Twin">{{cite w
  |language=Slovak
  |isbn=80-89218-19-9
 }}
-*{{cite book
+* {{cite book
  |last=Kováč
  |first=Dušan
  |title=Bratislava 1939–1945 – Mier a vojna v meste (Bratislava 1939–1945 – Peace and war in the town)
@@ -277,7 +277,7 @@ Ing Bratislava maka [[town twinning|kambal]] ya kareng:<ref name="Twin">{{cite w
  |language=Slovak
  |isbn=80-89218-29-6
 }}
-*{{cite book
+* {{cite book
  |last=Kováč
  |first=Dušan et al.
  |title=Kronika Slovenska 1 (Chronicle of Slovakia 1)
@@ -289,7 +289,7 @@ Ing Bratislava maka [[town twinning|kambal]] ya kareng:<ref name="Twin">{{cite w
  |language=Slovak
  |isbn=80-71531-74-X
 }}
-*{{cite book
+* {{cite book
  |last=Kováč
  |first=Dušan et al.
  |title=Kronika Slovenska 2 (Chronicle of Slovakia 2)
@@ -301,7 +301,7 @@ Ing Bratislava maka [[town twinning|kambal]] ya kareng:<ref name="Twin">{{cite w
  |language=Slovak
  |isbn=80-88980-08-9
 }}
-*{{cite book
+* {{cite book
  |last=Lacika
  |first=Ján
  |title=Bratislava
@@ -313,7 +313,7 @@ Ing Bratislava maka [[town twinning|kambal]] ya kareng:<ref name="Twin">{{cite w
 
  |isbn=80-88975-16-6
 }}
-*{{cite book
+* {{cite book
  |last=Špiesz
  |first=Anton
  |title=Bratislava v stredoveku (Bratislava in the Middle Ages)
@@ -324,7 +324,7 @@ Ing Bratislava maka [[town twinning|kambal]] ya kareng:<ref name="Twin">{{cite w
  |language=Slovak
  |isbn=80-8046-145-7
 }}
-*{{cite book
+* {{cite book
  | last = Varga
  | first = Erzsébet
  | title = Pozsony
@@ -334,7 +334,7 @@ Ing Bratislava maka [[town twinning|kambal]] ya kareng:<ref name="Twin">{{cite w
  | location = Pozsony
  | language = Hungarian
  | isbn = 80-7089-245-5 }}
-*{{cite book
+* {{cite book
  | last = Jankovics
  | first = Marcell
  | title = Húsz esztendő Pozsonyban (Twenty years in Bratislava)
@@ -346,7 +346,7 @@ Ing Bratislava maka [[town twinning|kambal]] ya kareng:<ref name="Twin">{{cite w
  | isbn = 80-88837-34-0
 }}
 
-==Suglung Palual==
+== Suglung Palual ==
 {{portal|Slovakia|Flag of Slovakia.svg}}
 {{sisterlinks}}
 <!--========================({{No More Links}})============================
@@ -368,7 +368,7 @@ Ing Bratislava maka [[town twinning|kambal]] ya kareng:<ref name="Twin">{{cite w
 * [http://www.imhd.sk/ba/?lang=en Public urban transport in Bratislava]
 * [http://lamer.yw.sk/webkamery/svk-bratislava.php Webcam map]
 
-===Litratu===
+=== Litratu ===
 * [http://www.bratislava-photos.com Contemporary Bratislava Photography]
 * [http://www.ba.foxy.sk/ Albums with historical and new photos]
 ** {{Flickr-inline|Bratislava}}
@@ -430,6 +430,7 @@ Ing Bratislava maka [[town twinning|kambal]] ya kareng:<ref name="Twin">{{cite w
 [[fo:Bratislava]]
 [[fr:Bratislava]]
 [[frp:Bratislava]]
+[[frr:Bratislava]]
 [[fy:Bratislava]]
 [[ga:An Bhratasláiv]]
 [[gd:Bratislava]]
