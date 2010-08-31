@@ -1,0 +1,50 @@
+<!-- NAVIGATION BLOCK (1966 is used as a default so that it appears on this template page without errors) -->
+{| id="toc" class="toccolors"  border="1" cellpadding=4 style="border-collapse: collapse; margin: 1em; border-style:solid;border-width:1px;"
+| style="text-align: center;"|
+
+[[:Category:{{#expr:floor({{{1|1966}}}/100)*100 - 10}}s keng musika|← ]]
+[[:Category:{{#expr:floor({{{1|1966}}}/100)*100 + 00}}s keng musika|{{#expr:floor({{{1|1966}}}/100)*100 + 00}}s]]
+[[:Category:{{#expr:floor({{{1|1966}}}/100)*100 + 10}}s keng musika|{{#expr:floor({{{1|1966}}}/100)*100 + 10}}s]]
+[[:Category:{{#expr:floor({{{1|1966}}}/100)*100 + 20}}s keng musika|{{#expr:floor({{{1|1966}}}/100)*100 + 20}}s]]
+[[:Category:{{#expr:floor({{{1|1966}}}/100)*100 + 30}}s keng musika|{{#expr:floor({{{1|1966}}}/100)*100 + 30}}s]] 
+[[:Category:{{#expr:floor({{{1|1966}}}/100)*100 + 40}}s keng musika|{{#expr:floor({{{1|1966}}}/100)*100 + 40}}s]] 
+[[:Category:{{#expr:floor({{{1|1966}}}/100)*100 + 50}}s keng musika|{{#expr:floor({{{1|1966}}}/100)*100 + 50}}s]]
+[[:Category:{{#expr:floor({{{1|1966}}}/100)*100 + 60}}s keng musika|{{#expr:floor({{{1|1966}}}/100)*100 + 60}}s]] 
+[[:Category:{{#expr:floor({{{1|1966}}}/100)*100 + 70}}s keng musika|{{#expr:floor({{{1|1966}}}/100)*100 + 70}}s]]
+[[:Category:{{#expr:floor({{{1|1966}}}/100)*100 + 80}}s keng musika|{{#expr:floor({{{1|1966}}}/100)*100 + 80}}s]]
+[[:Category:{{#expr:floor({{{1|1966}}}/100)*100 + 90}}s keng musika|{{#expr:floor({{{1|1966}}}/100)*100 + 90}}s]]
+[[:Category:{{#expr:floor({{{1|1966}}}/100)*100 + 100}}s keng musika| →]]
+|}
+<!-- CATEGORIES -->
+<includeonly>
+[[Category:{{#expr:floor({{{1}}}/10)}}0s|Music]]
+[[Category:{{#switch:{{#expr:floor({{{1}}}/100)+1}}
+|11=11th
+|12=12th
+|13=13th
+|#default=
+{{#expr:floor({{{1}}}/100)+1}}{{#switch:{{#expr:(floor({{{1}}}/100)+1) mod 10}}
+|1=st
+|2=nd
+|3=rd
+|#default=th}}}} century in music| {{{1}}}]]
+</includeonly><noinclude>
+
+----
+
+{| style="background: transparent; float: left; border: none;"
+|+ '''Usage'''
+|<nowiki></nowiki>
+<pre>{{Decade in music (category)|1960}}
+</pre>
+
+(Note that this has no plural at the end)
+Also adds the category for the decade (e.g. [[:Category:1960s]])
+
+and the century in music (e.g. [[:Category:20th century in music]])
+
+''(Correct for all centuries A.D.)''
+
+<noinclude>[[Category:Works-by-year templates|{{PAGENAME}}]]
+
+|}</noinclude>
