@@ -1,7 +1,7 @@
-Ing '''Transmission Control Protocol''' ('''TCP''') metung ya kareng pekabusal a protocol o kaparalanan (''core protocols'') ning [[Internet Protocol Suite]]. Ing TCP metung ya kareng aduang orihinal a dake ning suite a ita (itang metung ya pin ing [[Internet Protocol]], or IP), ania ing mabilug a suite ausan deng ''TCP/IP''. Kabang ing IP ing tatalan kareng mababang dakeng pamiugnayan manibat king metung a computer paras king aliwa, kabang susulung ya king Aptas o Internet ing metung a mensahi, gagana king mas matas a dake ing TCP, at maki kaugnayan ya mu kareng aduang sistema king sepu (''end systems''), alimbawa metung a Web browser ampong metung a Web server. Particular, babie yang ayasahan ampong masaleseng pamagdala ning metung a agus da reng byte manibat king metung a program king metung a computer paras king aliwang program king aliwang computer. Bukud king Web, kayabe la kareng aliwa na pang gamit ning TCIP deng [[e-mail]] ampong [[file transfer]]. Kayabe kareng obra nang pamanibala (''management tasks'') ing pamag-control king dagul da reng segment, control ning agus (''flow control''), ampo ing bilis ning pamilibe ning data, ampong ''network traffic congestion''.  
+Ing '''Transmission Control Protocol''' ('''TCP''') metung ya kareng pekabusal a protocol o kaparalanan (''core protocols'') ning [[Internet Protocol Suite]]. Ing TCP metung ya kareng aduang orihinal a dake ning suite a ita (itang metung ya pin ing [[Internet Protocol]], or IP), ania ing mabilug a suite ausan deng ''TCP/IP''. Kabang ing IP ing tatalan kareng mababang dakeng pamiugnayan manibat king metung a computer paras king aliwa, kabang susulung ya king Aptas o Internet ing metung a mensahi, gagana king mas matas a dake ing TCP, at maki kaugnayan ya mu kareng aduang sistema king sepu (''end systems''), alimbawa metung a Web browser ampong metung a Web server. Particular, babie yang ayasahan ampong masaleseng pamagdala ning metung a agus da reng byte manibat king metung a program king metung a computer paras king aliwang program king aliwang computer. Bukud king Web, kayabe la kareng aliwa na pang gamit ning TCIP deng [[e-mail]] ampong [[file transfer]]. Kayabe kareng obra nang pamanibala (''management tasks'') ing pamag-control king dagul da reng segment, control ning agus (''flow control''), ampo ing bilis ning pamilibe ning data, ampong ''network traffic congestion''. 
 {{IPstack}} 
 
-==Lon la murin==
+== Lon la murin ==
 <div style="-moz-column-count:2; column-count:2;">
 * [[Connection-oriented protocol]]
 * [[T/TCP]] variant of TCP
@@ -28,16 +28,16 @@ Ing '''Transmission Control Protocol''' ('''TCP''') metung ya kareng pekabusal a
 * [[Sockstress]]
 </div>
 
-==Dalerayan==
+== Dalerayan ==
 {{Reflist|2}}
 
-==Karagdagang babasan==
+== Karagdagang babasan ==
 * [[W. Richard Stevens]]. TCP/IP Illustrated, Volume 1: The Protocols. ISBN 0-201-63346-9
 * [[W. Richard Stevens]] and [[Gary R. Wright]]. TCP/IP Illustrated, Volume 2: The Implementation. ISBN 0-201-63354-X
 * [[W. Richard Stevens]]. TCP/IP Illustrated, Volume 3: [[T/TCP|TCP for Transactions]], [[HTTP]], [[Network News Transfer Protocol|NNTP]], and the [[unix domain sockets|UNIX Domain]] Protocols. ISBN 0-201-63495-3
 
-==Suglung palwal==
-* [http://www.cbi.umn.edu/oh/display.phtml?id=119 Oral history interview with Robert E. Kahn], [[Charles Babbage Institute]], University of Minnesota, Minneapolis.  Focuses on Kahn's role in the development of computer networking from 1967 through the early 1980s. Beginning with his work at [[Bolt Beranek and Newman]] (BBN), Kahn discusses his involvement as the [[ARPANET]] proposal was being written, his decision to become active in its implementation, and his role in the public demonstration of the ARPANET. The interview continues into Kahn's involvement with networking when he moves to IPTO in 1972, where he was responsible for the administrative and technical evolution of the ARPANET, including programs in packet radio, the development of a new network protocol ('''TCP/IP'''), and the switch to TCP/IP to connect multiple networks.
+== Suglung palwal ==
+* [http://www.cbi.umn.edu/oh/display.phtml?id=119 Oral history interview with Robert E. Kahn], [[Charles Babbage Institute]], University of Minnesota, Minneapolis. Focuses on Kahn's role in the development of computer networking from 1967 through the early 1980s. Beginning with his work at [[Bolt Beranek and Newman]] (BBN), Kahn discusses his involvement as the [[ARPANET]] proposal was being written, his decision to become active in its implementation, and his role in the public demonstration of the ARPANET. The interview continues into Kahn's involvement with networking when he moves to IPTO in 1972, where he was responsible for the administrative and technical evolution of the ARPANET, including programs in packet radio, the development of a new network protocol ('''TCP/IP'''), and the switch to TCP/IP to connect multiple networks.
 * [http://www.iana.org/assignments/port-numbers IANA Port Assignments]
 * [http://condor.depaul.edu/~jkristof/technotes/tcp.html John Kristoff's Overview of TCP (Fundamental concepts behind TCP and how it is used to transport data between two endpoints)]
 * RFC 675 - Specification of Internet Transmission Control Program, December 1974 Version
@@ -52,11 +52,10 @@ Ing '''Transmission Control Protocol''' ('''TCP''') metung ya kareng pekabusal a
 * RFC 4614 - A Roadmap for TCP Specification Documents
 * [http://www.networksorcery.com/enp/protocol/tcp.htm TCP, Transmission Control Protocol]
 * [http://mathforum.org/library/drmath/view/54379.html Checksum example]
+<!-- interwiki -->
 
 [[Category:TCP/IP]]
 [[Category:Transport layer protocols]]
-
-<!-- interwiki -->
 
 [[ar:تي سي بي]]
 [[ast:Transmission Control Protocol]]
@@ -74,7 +73,7 @@ Ing '''Transmission Control Protocol''' ('''TCP''') metung ya kareng pekabusal a
 [[es:Transmission Control Protocol]]
 [[et:Edastusohje protokoll]]
 [[eu:Transmission Control Protocol]]
-[[fa:قرارداد کنترل انتقال]]
+[[fa:قرارداد هدایت انتقال]]
 [[fi:TCP]]
 [[fr:Transmission Control Protocol]]
 [[gl:Protocolo TCP]]
