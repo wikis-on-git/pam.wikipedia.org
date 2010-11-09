@@ -174,6 +174,18 @@ Thank you! — [[User:Chesnok|Chesnok]] 12:39, 29 Nobiembri 2008 (UTC)
 
 Thanks in advance - [[User:Foxie001|Foxie001]] 06:51, 6 Agostu 2009 (UTC)
 
+===[[User:MerlLinkBot|MerlLinkBot]]===
+*'''Operator:''' [[:w:de:User:Merlissimo]]
+*'''Function summary:''' 
+** main task: changes external links which are outdated and can be successfully replaced by a new one.
+** side job: interwikis, but only supervised on single sites (done by py)
+*'''Function details:'''
+*:The bot replaces urls that have to be changed. This can be only a domain change or a more complex page structure change on a website. Links are dectected with the help of the api (and not with regex) and '''''are only replaced if the webserver of the new url returns a 200-status-response''''' for that new resource. “Link text” is not changed. (own framework written in java - used by all of my bots)
+*'''Programming language:''' java (own framework)
+*'''Flag on:''' [[sulutil:MerlLinkBot|60+ wikimedia projects]]
+*'''[[Special:Contributions/MerlLinkBot|Contributions]]'''
+Could sb. please help me to localize the edit summary of my bot for pam? I have described the four possible edit summaries at [[User talk:MerlLinkBot]]. [[User:Merlissimo|Merlissimo]] 11:55, 9 Nobiembri 2010 (UTC)
+
 ==Betawiki: better support for your language in MediaWiki==
 Dear community. I am writing to you to promote a special wiki called [[betawiki:|Betawiki]]. This wiki facilitates the localisation (l10n) of the MediaWiki interface. You may have changed many messages here to use your language in the interface, but if you would log in to for example the Japanese language Wiktionary, you would not be able to use the interface as well translated as here. In fact, of 1,736 messages in the core of MediaWiki, 12.32% of the messages have been translated. Betawiki also supports the translation of messages for 126 extensions, with 2,174 messages. Many of them are used in WMF projects and they are vital for understanding the wiki. Currently 6.53% of the WMF extension messages have been translated. Translators for over 90 languages contribute their work to MediaWiki this way every month.
 
