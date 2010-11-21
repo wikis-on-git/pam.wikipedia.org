@@ -110,7 +110,7 @@
 }}
 
 {{#if:{{{awards<includeonly>|</includeonly>}}}|
-! Kapansinpansin {{nowrap|award(s)}}
+! Maulagang {{nowrap|galal}}
 {{!}} {{{awards<includeonly>|</includeonly>}}}
 {{!}}-
 }}
