@@ -8,7 +8,7 @@
 }}
 
 <!-- {{#if:{{{pseudonym<includeonly>|</includeonly>}}}|
-! [[Pseudonym]]
+! [[Talipampan]]
 {{!}} class="nickname" {{!}} {{{pseudonym<includeonly>|</includeonly>}}}
 {{!}}-
 }} -->
@@ -98,7 +98,7 @@
 }}
 
 {{#if:{{{movement<includeonly>|</includeonly>}}}|
-! [[Kilusan pangliteratura]]
+! [[Pangimut pangliteratura]]
 {{!}} {{{movement<includeonly>|</includeonly>}}}
 {{!}}-
 }}
