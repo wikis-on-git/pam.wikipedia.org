@@ -38,7 +38,7 @@
 }}
 
 {{#if:{{{penname<includeonly>|</includeonly>}}}{{{pseudonym<includeonly>|</includeonly>}}}|
-! [[Talipanpan lagiu]]
+! [[Talipanpan]]
 {{!}} {{{penname<includeonly>|</includeonly>{{{pseudonym|}}}}}}
 {{!}}-
 }}
@@ -56,7 +56,7 @@
 }}
 
 {{#if:{{{ethnicity<includeonly>|</includeonly>}}}|
-! [[Katutubu]]
+! [[Lahi]]
 {{!}} {{{ethnicity<includeonly>|</includeonly>}}}
 {{!}}-
 }}
@@ -80,7 +80,7 @@
 }}
 
 {{#if:{{{period<includeonly>|</includeonly>}}}|
-!  Pamanyulat panaun
+!  Panaun ning pamaniulat
 {{!}} {{{period<includeonly>|</includeonly>}}}
 {{!}}-
 }}
