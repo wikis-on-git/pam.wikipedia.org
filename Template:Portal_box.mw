@@ -1,0 +1,25 @@
+<div class="noprint {{#ifeq:{{{left|}}}|yes|tleft|tright}} portal" style="border:solid #aaa 1px;margin:{{#if:{{{margin|}}}|{{{margin|}}}|{{#ifeq:{{{left|}}}|yes|0.5em 0.5em 0.5em 0|0.5em 0 0.5em 0.5em}}}};">
+{| style="background:#f9f9f9; font-size:85%; line-height:110%; max-width:175px; "
+{{#if:{{{1|}}}|{{Portal/core|{{{1}}}|break={{{break|}}}}}}}
+{{#if:{{{2|}}}|{{Portal/core|{{{2}}}|break={{{break|}}}}}}}
+{{#if:{{{3|}}}|{{Portal/core|{{{3}}}|break={{{break|}}}}}}}
+{{#if:{{{4|}}}|{{Portal/core|{{{4}}}|break={{{break|}}}}}}}
+{{#if:{{{5|}}}|{{Portal/core|{{{5}}}|break={{{break|}}}}}}}
+{{#if:{{{6|}}}|{{Portal/core|{{{6}}}|break={{{break|}}}}}}}
+{{#if:{{{7|}}}|{{Portal/core|{{{7}}}|break={{{break|}}}}}}}
+{{#if:{{{8|}}}|{{Portal/core|{{{8}}}|break={{{break|}}}}}}}
+{{#if:{{{9|}}}|{{Portal/core|{{{9}}}|break={{{break|}}}}}}}
+{{#if:{{{10|}}}|{{Portal/core|{{{10}}}|break={{{break|}}}}}}}
+{{#if:{{{11|}}}|{{Portal/core|{{{11}}}|break={{{break|}}}}}}}
+{{#if:{{{12|}}}|{{Portal/core|{{{12}}}|break={{{break|}}}}}}}
+{{#if:{{{13|}}}|{{Portal/core|{{{13}}}|break={{{break|}}}}}}}
+{{#if:{{{14|}}}|{{Portal/core|{{{14}}}|break={{{break|}}}}}}}
+{{#if:{{{15|}}}|{{Portal/core|{{{15}}}|break={{{break|}}}}}}}
+{{#if:{{{16|}}}|{{Portal/core|{{{16}}}|break={{{break|}}}}}}}
+{{#if:{{{17|}}}|{{Portal/core|{{{17}}}|break={{{break|}}}}}}}
+{{#if:{{{18|}}}|{{Portal/core|{{{18}}}|break={{{break|}}}}}}}
+|}</div>{{#if:{{{name1|}}}{{{image1|}}}{{{link1|}}}{{{alt1|}}}{{{size1|}}}|[[category:portal box templates using obsolete parameters|1{{PAGENAME}}]]}}{{#if:{{{name2|}}}{{{image2|}}}{{{link2|}}}{{{alt2|}}}{{{size2|}}}|[[category:portal box templates using obsolete parameters|2{{PAGENAME}}]]}}{{#if:{{{name3|}}}{{{image3|}}}{{{link3|}}}{{{alt3|}}}{{{size3|}}}|[[category:portal box templates using obsolete parameters|3{{PAGENAME}}]]}}{{#if:{{{break|}}}|[[category:portal box templates using obsolete parameters|b{{PAGENAME}}]]}}{{#if:{{{left|}}}|[[category:portal box templates using obsolete parameters|l{{PAGENAME}}]]}}{{#if:{{{margin|}}}|[[category:portal box templates using obsolete parameters|m{{PAGENAME}}]]}}<noinclude>
+
+{{Documentation}}
+
+</noinclude>
