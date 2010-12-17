@@ -1,0 +1,42 @@
+{{Navbox
+| name   = Facebook navbox
+| title = [[Facebook|<font color="white">Facebook</font>]]
+| titlestyle = background:#3b5998; color:white  
+| groupstyle = background:#3b5998; color:white;
+
+| group1 = Overview
+| list1 = [[History of Facebook|History]]{{·}} [[Timeline of Facebook|Timeline]]{{·}} [[List of acquisitions by Facebook|Acquisitions]]{{·}} [[Criticism of Facebook|Criticism]]{{·}} [[Use of social network websites in investigations#Facebook|Use in investigations]]
+
+| group2 = Website
+| list2  = [[Facebook Beacon|Beacon]]{{·}} [[Facebook features|Features]]{{·}} [[Facebook Platform|Platform]]
+| group3 = People
+| list3  = 
+
+{{navbox subgroup
+| groupstyle = background:#3b5998; color:white;
+	
+| group1 = Founders
+| list1 = [[Mark Zuckerberg]] (24% [[Equity (finance)|equity]]){{·}} [[Chris Hughes (entrepreneur)|Chris Hughes]] (1%){{·}} [[Dustin Moskovitz]] (6%){{·}} [[Eduardo Saverin]] (5%)
+
+| group2 = Employees
+| list2 = {{navbox subgroup
+| groupstyle = background:#3b5998; color:white;
+	
+| group1 = Current
+| list1 = Mark Zuckerberg (CEO){{·}} [[Chris Cox (Facebook)|Chris Cox]] (VP of Product){{·}} [[Sheryl Sandberg]] (COO){{·}} [[Peter Thiel]] (director){{·}} [[Ted Ullyot]] (general counsel){{·}} [[Randi Zuckerberg]] (marketing){{·}} [[Andrei Alexandrescu]] (research scientist)
+| group2 = Former
+| list2 = [[Sean Parker]] (President){{·}}[[Gideon Yu]] (CFO){{·}} [[Adam D'Angelo]] (CTO){{·}} [[Charlie Cheever]] (programmer){{·}} [[Matt Cohler]] (product manager){{·}} [[Chris Kelly (entrepreneur)|Chris Kelly]] (privacy){{·}} [[Andrew McCollum]] (graphic artist)}}
+}}
+
+| group4 = Software
+| list4  = [[HipHop for PHP]]{{·}} [[Apache Cassandra]]{{·}} [[Apache Thrift]]{{·}} [[Scribe (log server)]]{{·}} [[Apache Hive]]{{·}} [[Facebook Query Language|FQL]]
+| group5 = Other
+| list5  = [[Activity stream]]{{·}} [[Facebook f8|f8 conference]]{{·}} [[Social graph]]{{·}} ''[[The Accidental Billionaires]]''{{·}} ''[[The Social Network]]''{{·}} [[Wirehog]]
+
+}}<noinclude>
+{{documentation}}
+{{DEFAULTSORT:Facebook navbox}}
+[[Category:Computer company templates]]
+[[Category:Websites templates]]
+[[Category:Facebook|*]]
+</noinclude>
