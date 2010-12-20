@@ -1,7 +1,7 @@
 {{Infobox Website
 | name           = Google Maps
 | logo           = [[File:Google maps logo.png]] 
-| screenshot     = [[Image:Google Maps directions.png|250px|]]
+| screenshot     = [[File:Google Maps directions.png|250px|]]
 | caption        = Screenshot ning Google Maps a magpalto king metung a ruta manibat king [[San Francisco]] papunta king [[Los Angeles]] king [[Interstate 5]].
 | url            = [http://maps.google.com maps.google.com]
 | commercial     = 
@@ -18,58 +18,60 @@ Ing '''Google Maps''' (a kanita maki lagiung '''Google Local''') metung yang sim
 
 Uling gagamit yang [[Mercator projection]] ing Google Maps, e no apakit deng lugal a malapit kareng polo o ''pole''. Metung yang productung kawangis na ing [[Google Earth]], metung a program a magsarili (''stand-alone program'') para king [[Microsoft Windows]], [[Mac OS X]], [[Linux]], [[SymbianOS]], ampong [[iPhone OS]] a mas dakal ampang a magpalto king mabilug a yatu, kayabe na ing labuad o lugal da reng polo.
 
-==Lon la murin==
-*[[:en:Argleton]], a non-existant town which appears on Google Maps
-*[[:en:Bing Maps]]
-*[[:en:Comparison of web map services]]
-*[[lmx]] filetype 
-*[[:en:Mashup (web application hybrid)|Mashup]]
-*[[:en:Placeopedia]]
-*[[:en:PlaceSpotting]]
-*[[:en:Sailwx|Ship location mapping service]]
-*[[:en:WikiMapia]], a [[Mashup (web application hybrid)|mashup]] combining Google Maps and a [[wiki]] aimed at "describing the whole planet earth"
+== Lon la murin ==
+* [[:en:Argleton]], a non-existant town which appears on Google Maps
+* [[:en:Bing Maps]]
+* [[:en:Comparison of web map services]]
+* [[lmx]] filetype 
+* [[:en:Mashup (web application hybrid)|Mashup]]
+* [[:en:Placeopedia]]
+* [[:en:PlaceSpotting]]
+* [[:en:Sailwx|Ship location mapping service]]
+* [[:en:WikiMapia]], a [[Mashup (web application hybrid)|mashup]] combining Google Maps and a [[wiki]] aimed at "describing the whole planet earth"
 
-===Serbiciong kawangis===
-*[[Bing Maps]] – Microsoft's mapping service with road maps and aerial/satellite imagery
-**[[TerraServer-USA]] – public domain (older than five years) satellite imagery via [[Microsoft]] servers
-**[[Bing Maps for Enterprise]] - formerly [[Microsoft Virtual Earth]]
-*[[deCarta]] - [[Drill down|Drill Down Server]] - web services platform offers [[AJAX]], [[Flash]], [[iPhone]] [[API]]s for mapping, geocoding, routing and reverse geocoding services.
-*[[Géoportail]] – a French rival offering detailed aerial photographs of [[French territories]]
-*[[MapQuest]]
-*[[Multimap.com]]
-*[[OpenStreetMap]] – a royalty free, editable map of the world
-*[[Ovi (Nokia)|Ovi Maps]] – a service offered by Nokia that allows synchronizing with user's mobile phones
-*[[Pictometry]] – a birdseye imagery provider which can be integrated into all mapping programs
-*[[Seat Pagine Gialle]] – an Italian competitor offering detailed satellite pictures of Italian territories and navigable street level panoramas of Rome (similar to Street View)
-*[[Terralink International]]
-*[[ViaMichelin]]
-*[[Yahoo! Maps]]
+=== Serbiciong kawangis ===
+* [[Bing Maps]] – Microsoft's mapping service with road maps and aerial/satellite imagery
+** [[TerraServer-USA]] – public domain (older than five years) satellite imagery via [[Microsoft]] servers
+** [[Bing Maps for Enterprise]] - formerly [[Microsoft Virtual Earth]]
+* [[deCarta]] - [[Drill down|Drill Down Server]] - web services platform offers [[AJAX]], [[Flash]], [[iPhone]] [[API]]s for mapping, geocoding, routing and reverse geocoding services.
+* [[Géoportail]] – a French rival offering detailed aerial photographs of [[French territories]]
+* [[MapQuest]]
+* [[Multimap.com]]
+* [[OpenStreetMap]] – a royalty free, editable map of the world
+* [[Ovi (Nokia)|Ovi Maps]] – a service offered by Nokia that allows synchronizing with user's mobile phones
+* [[Pictometry]] – a birdseye imagery provider which can be integrated into all mapping programs
+* [[Seat Pagine Gialle]] – an Italian competitor offering detailed satellite pictures of Italian territories and navigable street level panoramas of Rome (similar to Street View)
+* [[Terralink International]]
+* [[ViaMichelin]]
+* [[Yahoo! Maps]]
 
-==Dalerayan==
+== Dalerayan ==
 {{reflist|2}}
 
-==Suglung palual==
+== Suglung palual ==
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - -
  ATTENTION!
  DO NOT ADD LINKS WITHOUT DISCUSSION ON THE TALK PAGE.
  THEY WILL BE REMOVED. 
  See [http://en.wikipedia.org/wiki/Wikipedia:External links]
  - - - - - - - - - - - - - - - - - - - - - - - - - -->
-*[http://maps.google.com Google Maps]
-**[http://google.com/gmm Mobile phone version]
-**[http://google.com/sky Google Sky]
-**[http://moon.google.com/ Google Moon]
-**[http://www.google.com/mars/ Google Mars]
-*[http://sites.google.com/site/gmapsdevelopment/ Google Maps Development]
+* [http://maps.google.com Google Maps]
+** [http://google.com/gmm Mobile phone version]
+** [http://google.com/sky Google Sky]
+** [http://moon.google.com/ Google Moon]
+** [http://www.google.com/mars/ Google Mars]
+* [http://sites.google.com/site/gmapsdevelopment/ Google Maps Development]
 
 {{Google Inc.}}
 {{Earth}}
+
+<!-- Does Google Maps really use WMS? -->
 
 [[Category:Web 2.0]]
 [[Category:Google services|Maps]]
 [[Category:Keyhole Markup Language]]
 [[Category:Web mapping]]
-[[Category:Web Map Services]]<!-- Does Google Maps really use WMS? -->
+[[Category:Web Map Services]]
 [[Category:Route planning software]]
 [[Category:Websites which use Wikipedia]]
 [[Category:Google Maps]]
@@ -92,7 +94,7 @@ Uling gagamit yang [[Mercator projection]] ing Google Maps, e no apakit deng lug
 [[es:Google Maps]]
 [[et:Google Maps]]
 [[eu:Google Maps]]
-[[fa:نقشه های گوگل]]
+[[fa:گوگل مپس]]
 [[fi:Google Maps]]
 [[fr:Google Maps]]
 [[he:Google Maps]]
