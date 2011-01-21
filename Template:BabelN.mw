@@ -1,0 +1,43 @@
+<div class="prettytable userlang" style="float: {{{align|right}}}; clear:{{{align|right}}}; border: 1px solid #AAAAAA; margin: 1px;">
+{| cellspacing="0" style="width: 238px; background: white;"
+| style="width: 45px; height: 45px; background: #0D0; text-align: center; font-size: 14pt; color: black;" | '''{{{1}}}'''
+| style="font-size: 8pt; padding: 4pt; line-height: 1.25em; color: black;" | {{{2}}}
+|}</div><includeonly>{{#if:{{{3|}}}
+ | [[Categoría:Usuarios por idioma - {{{3}}}|{{PAGENAME}}]] [[Categoría:Usuarios por idioma - {{{3}}} intermedio|{{PAGENAME}}]] 
+}}</includeonly><noinclude>
+
+{{tl|babel0}} - {{tl|babel1}} - {{tl|babel2}} - {{tl|babel3}} - {{tl|babel4}} - {{tl|babel5}} - {{tl|babelN}}
+
+[[Categoría:Wikipedia:Plantillas Babel|{{PAGENAME}}]]
+
+[[als:Vorlage:Babel field M]]
+[[an:Plantilla:BabelN]]
+[[ast:Plantía:BabelN]]
+[[ba:Ҡалып:Babel field N]]
+[[br:Patrom:Babel field M]]
+[[ceb:Plantilya:User language-N]]
+[[da:Skabelon:Brugersprog]]
+[[de:Vorlage:Babel field M]]
+[[dsb:Pśedłoga:Babel ramik-M]]
+[[el:Πρότυπο:Βαβέλ-M]]
+[[eo:Ŝablono:Babel kadro D]]
+[[es:Plantilla:BabelN]]
+[[eu:Txantiloi:BabelN]]
+[[fo:Fyrimynd:Málkassi M]]
+[[fr:Modèle:Babel field M]]
+[[hr:Predložak:Babel field M]]
+[[hsb:Předłoha:Babel ramik-N]]
+[[ja:Template:User language]]
+[[kk:Үлгі:Babel field N]]
+[[ko:틀:User language]]
+[[lb:Schabloun:Babel field M]]
+[[lt:Šablonas:Langobox]]
+[[nl:Sjabloon:BabelM]]
+[[oc:Modèl:Babel field M]]
+[[stq:Foarloage:Benutser/Sproakboolke M]]
+[[szl:Szablon:Babel šachtelka-N]]
+[[tpi:Template:Babel bokis-N]]
+[[wa:Modele:User language]]
+[[zh:Template:User language-N]]
+[[zh-yue:Template:User language-N]]
+</noinclude>
