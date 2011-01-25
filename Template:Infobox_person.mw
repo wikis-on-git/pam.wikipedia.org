@@ -1,1 +1,46 @@
 
+| label47    = Children
+| data47     = {{{children|}}}
+
+| label48    = Parents
+| data48     = {{{parents|}}}
+
+| label49    = Relatives
+| data49     = {{{relations|{{{relatives|}}}}}}
+
+| label50    = Call-sign
+| data50     = {{{callsign|}}}
+
+| label51    = Awards
+| data51     = {{{awards|}}}
+
+| data52     = {{{misc|{{{module|}}}}}}
+| data53     = {{{misc2|{{{module2|}}}}}}
+| data54     = {{{misc3|{{{module3|}}}}}}
+| data55     = {{{misc4|{{{module4|}}}}}}
+| data56     = {{{misc5|{{{module5|}}}}}}
+| data57     = {{{misc6|{{{module6|}}}}}}
+
+| header58   = {{#if:{{{signature|}}}|Signature}}
+| data59     = {{#if:{{{signature|}}}|[[File:{{{signature}}}|{{px|{{{signature size|{{{signature_size|}}}}}}|frameless}}|alt={{{signature alt|{{{signature_alt|}}}}}}]]}}
+
+| header60   = {{#if:{{{website|{{{homepage|{{{URL|}}}}}}}}}|Website}}
+| data61     = {{{website|{{{homepage|{{{URL|}}}}}}}}}
+
+| below      = {{#if:{{{footnotes|}}}|'''Notes'''<div style="line-height:1.2em;">{{{footnotes}}}</div>}}
+| belowstyle = border-top:1px solid #aaaaaa; text-align:left
+
+}}<!--
+
+-->{{#ifeq:{{{birth date|¬}}}{{{birth place|¬}}}{{{death date|¬}}}{{{death place|¬}}}|¬¬¬¬||[[Category:Infobox person using deprecated parameters|1{{PAGENAME}}]]}}<!--
+-->{{#ifeq:{{{birthdate|¬}}}{{{birthplace|¬}}}{{{deathdate|¬}}}{{{deathplace|¬}}}|¬¬¬¬||[[Category:Infobox person using deprecated parameters|2{{PAGENAME}}]]}}<!--
+-->{{#ifeq:{{{date_of_birth|¬}}}{{{place_of_birth|¬}}}{{{date_of_death|¬}}}{{{place_of_death|¬}}}|¬¬¬¬||[[Category:Infobox person using deprecated parameters|3{{PAGENAME}}]]}}<!--
+-->{{#ifeq:{{{date of birth|¬}}}{{{place of birth|¬}}}{{{date of death|¬}}}{{{place of death|¬}}}|¬¬¬¬||[[Category:Infobox person using deprecated parameters|4{{PAGENAME}}]]}}<!--
+-->{{#ifeq:{{{dateofbirth|¬}}}{{{placeofbirth|¬}}}{{{dateofdeath|¬}}}{{{placeofdeath|¬}}}|¬¬¬¬||[[Category:Infobox person using deprecated parameters|5{{PAGENAME}}]]}}<!--
+-->{{#ifeq:{{{location|¬}}}|¬||[[Category:Infobox person using deprecated location parameter]]}}<!--
+-->{{#if:{{{1|}}}|{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Infobox person using numbered parameter]]}}}}<!--
+
+--><includeonly>{{ns0|{{#if:{{{signature|}}}|[[Category:Biography with signature]]}}[[Category:Articles with hCards]]}}</includeonly><noinclude>
+<!---Please add metadata to the <includeonly> section at the bottom of the /doc subpage--->
+{{documentation}} 
+</noinclude>
