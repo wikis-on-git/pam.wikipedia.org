@@ -1,3 +1,165 @@
+{{Infobox
+| bodyclass  = biography vcard
+| bodystyle  = {{#if:{{{box_width|}}}|width:{{{box_width}}};}}
+| above      = {{#if:{{{honorific prefix|{{{honorific_prefix|}}}}}}|<span class="honorific-prefix" style="font-size: small">{{{honorific prefix|{{{honorific_prefix|}}}}}}</span><br />}}<includeonly><span class="fn">{{{name|{{PAGENAME}}}}}</span></includeonly>{{#if:{{{honorific suffix|{{{honorific_suffix|}}}}}}|<br /><span class="honorific-suffix" style="font-size: small">{{{honorific suffix|{{{honorific_suffix|}}}}}}</span>}}
+| image      = {{#if:{{{image|}}}|[[File:{{{image}}}|{{px|{{{image size|{{{image_size|{{{imagesize|}}}}}}}}}|frameless}}|alt={{{alt|}}}]]}}
+| imageclass = {{image class names|{{{image}}}}}
+| caption    = {{{caption|{{{image_caption|}}}}}}
+
+| label1     = Born
+| data1      = {{br separated entries|{{#if:{{{birth name|{{{birth_name|{{{birthname|}}}}}}}}}|<span class="nickname">{{{birth name|{{{birth_name|{{{birthname|}}}}}}}}}</span>}}|{{{birth date|{{{birth_date|{{{birthdate|}}}}}}}}}|{{{birth place|{{{birth_place|{{{birthplace|{{{location|}}}}}}}}}}}}}}
+
+| label2     = Disappeared
+| data2      = {{br separated entries|{{{disappeared_date|}}}|{{{disappeared_place|}}} }}
+
+| label3     = Status
+| data3      = {{{disappeared_status|}}}
+
+| label4     = Died
+| data4      = {{br separated entries|{{{death date|{{{death_date|{{{deathdate|}}}}}}}}}|{{{death place|{{{death_place|{{{deathplace|}}}}}}}}}}}
+
+| label5     = Cause&nbsp;of death
+| data5      = {{{death cause|{{{death_cause|}}}}}}
+
+| label6     = Body discovered
+| data6      = {{{body discovered|{{{body_discovered|}}}}}}
+
+| label7     = Resting place
+| class7     = label
+| data7      = {{br separated entries|{{{resting place|{{{resting_place|{{{restingplace|}}}}}}}}}|{{{resting place coordinates|{{{resting_place_coordinates|{{{restingplacecoordinates|}}}}}}}}}}}
+
+| label8     = Monuments
+| data8      = {{{monuments|}}}
+
+| label9     = Residence
+| class9     = {{#if:{{{death date|{{{death_date|{{{deathdate|}}}}}}}}}{{{death place|{{{death_place|{{{deathplace|}}}}}}}}}||label}}
+| data9      = {{{residence|}}}
+
+| class10    = category
+| label10    = Nationality
+| data10     = {{{nationality|}}}
+
+| label11    = Other names
+| class11    = nickname
+| data11     = {{{other names|{{{other_names|{{{othername|{{{alias|}}}}}}}}}}}}
+
+| class12    = category
+| label12    = Ethnicity
+| data12     = {{{ethnicity|}}}
+
+| class13    = category
+| label13    = Citizenship
+| data13     = {{{citizenship|}}}
+
+| label14    = Education
+| data14     = {{{education|}}}
+
+| label15    = ''[[Alma mater]]''
+| data15     = {{{alma mater|{{{alma_mater|}}}}}}
+
+| label16    = Occupation
+| class16    = role
+| data16     = {{{occupation|}}}
+
+| label17    = Years active
+| data17     = {{{years active|{{{years_active|{{{yearsactive|}}}}}}}}}
+
+| label18    = Employer
+| data18     = {{{employer|}}}
+| class18    = org
+
+| label19    = Organization
+| data19     = {{{organization|{{{organizations|}}}}}}
+| class19    = org
+
+| label20    = Agent
+| data20     = {{{agent|}}}
+| class20    = agent
+
+| label21    = Known&nbsp;for
+| data21     = {{{known for|{{{known_for|{{{known|}}}}}}}}}
+
+| label22    = Notable works
+| data22     = {{{notable works|{{{notable_works|}}}}}}
+
+| label23    = Style
+| data23     = {{{style|}}}
+| class23    = category
+
+| label24    = Influenced&nbsp;by
+| data24     = {{{influences|}}}
+
+| label25    = Influenced
+| data25     = {{{influenced|}}}
+
+| label26    = Home town
+| data26     = {{{home town|{{{home_town|}}}}}}
+
+| label27    = Salary
+| data27     = {{{salary|}}}
+
+| label28    = Net worth
+| data28     = {{{net worth|{{{net_worth|{{{networth|}}}}}}}}}
+
+| label29    = Height
+| data29     = {{{height|}}}
+
+| label30    = Weight
+| data30     = {{{weight|}}}
+
+| label31    = Television programme(s)
+| data31     = {{{television|}}}
+
+| label32    = Title
+| data32     = {{{title|}}}
+| class32    = title
+
+| label33    = Term
+| data33     = {{{term|}}}
+
+| label34    = Predecessor
+| data34     = {{{predecessor|}}}
+
+| label35    = Successor
+| data35     = {{{successor|}}}
+
+| label36    = Political party
+| data36     = {{{party|}}}
+| class36    = org
+
+| label37    = Political movement
+| data37     = {{{movement|}}}
+| class37    = category
+
+| label38    = <span style="white-space:nowrap;">Opponent(s)</span>
+| data38     = {{{opponents|}}}
+
+| label39    = Board member&nbsp;of
+| data39     = {{{boards|}}}
+
+| label40    = Religion
+| data40     = {{{religion|}}}
+| class40    = category
+
+| label41    = Denomination
+| data41     = {{{denomination|}}}
+| class41    = category
+
+| label42    = Criminal charge
+| data42     = {{{criminal charge|{{{criminal_charge|}}}}}}
+
+| label43    = Criminal penalty
+| data43     = {{{criminal penalty|{{{criminal_penalty|}}}}}}
+
+| label44    = Criminal status
+| data44     = {{{criminal status|{{{criminal_status|}}}}}}
+| class44    = category
+
+| label45    = Spouse
+| data45     = {{{spouse|}}}
+
+| label46    = Partner
+| data46     = {{{partner|{{{domesticpartner|}}}}}}
 
 | label47    = Children
 | data47     = {{{children|}}}
