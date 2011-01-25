@@ -1,0 +1,25 @@
+<includeonly>{{Citation/core
+|Surname1={{#if:{{{people|}}}|{{{people}}}{{#if:{{{no-people-sep|}}}||{{#if:{{{date|}}}|.}}}}}}
+|Date={{{date|}}}
+|URL={{#if:{{{archiveurl|}}}|{{{archiveurl|}}}|{{{url|}}} }}
+|Title={{{title|}}}
+|format={{{format|}}}
+|Other={{#if:{{{medium|}}}|<nowiki>[</nowiki>{{{medium|}}}<nowiki>]</nowiki>}}
+|Publisher={{{publisher|}}}
+|PublicationPlace={{{location|}}}
+|AccessDate={{{accessdate|}}}
+|At={{#if:{{{time|}}}|Event occurs at {{{time}}}}}
+|ID={{{id|}}}
+|ISBN={{{isbn|}}}
+|language={{{language|}}}
+|OCLC={{{oclc|}}}
+|quote={{{quote|}}}
+|Sep = {{#ifeq:{{{separator}}}|;|&#059;|{{{separator|.}}} }} 
+|PS={{#if:{{{quote|}}}||{{{postscript|.}}}}}
+|Ref={{{ref|}}}
+|OriginalURL={{{url|}}}
+|ArchiveURL={{{archiveurl|}}}
+|ArchiveDate={{{archivedate|}}}
+}}{{#if:{{{date2|}}}{{{month2|}}}{{{year2|}}}{{{year|}}}{{{month|}}}{{{accessdaymonth|}}}{{{accessmonthday|}}}{{{accessday|}}}{{{accessmonth|}}}{{{accessyear|}}}{{{day|}}}{{{access-date|}}}{{{dateformat|}}}|[[Category:Pages containing cite templates with deprecated parameters|{{NAMESPACE}} {{PAGENAME}}]]}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
