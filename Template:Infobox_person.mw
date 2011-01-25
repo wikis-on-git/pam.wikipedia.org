@@ -6,128 +6,128 @@
 | imageclass = {{image class names|{{{image}}}}}
 | caption    = {{{caption|{{{image_caption|}}}}}}
 
-| label1     = Born
+| label1     = Mibait
 | data1      = {{br separated entries|{{#if:{{{birth name|{{{birth_name|{{{birthname|}}}}}}}}}|<span class="nickname">{{{birth name|{{{birth_name|{{{birthname|}}}}}}}}}</span>}}|{{{birth date|{{{birth_date|{{{birthdate|}}}}}}}}}|{{{birth place|{{{birth_place|{{{birthplace|{{{location|}}}}}}}}}}}}}}
 
-| label2     = Disappeared
+| label2     = Mewala
 | data2      = {{br separated entries|{{{disappeared_date|}}}|{{{disappeared_place|}}} }}
 
-| label3     = Status
+| label3     = Kabilian
 | data3      = {{{disappeared_status|}}}
 
-| label4     = Died
+| label4     = Mete
 | data4      = {{br separated entries|{{{death date|{{{death_date|{{{deathdate|}}}}}}}}}|{{{death place|{{{death_place|{{{deathplace|}}}}}}}}}}}
 
-| label5     = Cause&nbsp;of death
+| label5     = Sangkan&nbsp;ning pangamate
 | data5      = {{{death cause|{{{death_cause|}}}}}}
 
-| label6     = Body discovered
+| label6     = Atuklasan de katawan
 | data6      = {{{body discovered|{{{body_discovered|}}}}}}
 
-| label7     = Resting place
+| label7     = Libingan
 | class7     = label
 | data7      = {{br separated entries|{{{resting place|{{{resting_place|{{{restingplace|}}}}}}}}}|{{{resting place coordinates|{{{resting_place_coordinates|{{{restingplacecoordinates|}}}}}}}}}}}
 
-| label8     = Monuments
+| label8     = Monumentu
 | data8      = {{{monuments|}}}
 
-| label9     = Residence
+| label9     = Tuknangan
 | class9     = {{#if:{{{death date|{{{death_date|{{{deathdate|}}}}}}}}}{{{death place|{{{death_place|{{{deathplace|}}}}}}}}}||label}}
 | data9      = {{{residence|}}}
 
 | class10    = category
-| label10    = Nationality
+| label10    = Nasionalidad
 | data10     = {{{nationality|}}}
 
-| label11    = Other names
+| label11    = Aliwang lagiu
 | class11    = nickname
 | data11     = {{{other names|{{{other_names|{{{othername|{{{alias|}}}}}}}}}}}}
 
 | class12    = category
-| label12    = Ethnicity
+| label12    = Lahi
 | data12     = {{{ethnicity|}}}
 
 | class13    = category
 | label13    = Citizenship
 | data13     = {{{citizenship|}}}
 
-| label14    = Education
+| label14    = Pamagaral
 | data14     = {{{education|}}}
 
 | label15    = ''[[Alma mater]]''
 | data15     = {{{alma mater|{{{alma_mater|}}}}}}
 
-| label16    = Occupation
+| label16    = Kapanintunan/propesion
 | class16    = role
 | data16     = {{{occupation|}}}
 
-| label17    = Years active
+| label17    = Banuang aktibu
 | data17     = {{{years active|{{{years_active|{{{yearsactive|}}}}}}}}}
 
 | label18    = Employer
 | data18     = {{{employer|}}}
 | class18    = org
 
-| label19    = Organization
+| label19    = Aguman
 | data19     = {{{organization|{{{organizations|}}}}}}
 | class19    = org
 
-| label20    = Agent
+| label20    = Ahenti
 | data20     = {{{agent|}}}
 | class20    = agent
 
-| label21    = Known&nbsp;for
+| label21    = Kilala ya&nbsp;king
 | data21     = {{{known for|{{{known_for|{{{known|}}}}}}}}}
 
-| label22    = Notable works
+| label22    = Manimunang obra
 | data22     = {{{notable works|{{{notable_works|}}}}}}
 
-| label23    = Style
+| label23    = Estilo
 | data23     = {{{style|}}}
 | class23    = category
 
-| label24    = Influenced&nbsp;by
+| label24    = Meimpluensia yad&nbsp;kang/kari
 | data24     = {{{influences|}}}
 
-| label25    = Influenced
+| label25    = Inimpluensian ne i/no ri
 | data25     = {{{influenced|}}}
 
-| label26    = Home town
+| label26    = Hometown
 | data26     = {{{home town|{{{home_town|}}}}}}
 
-| label27    = Salary
+| label27    = Panakitan
 | data27     = {{{salary|}}}
 
 | label28    = Net worth
 | data28     = {{{net worth|{{{net_worth|{{{networth|}}}}}}}}}
 
-| label29    = Height
+| label29    = Kátas
 | data29     = {{{height|}}}
 
-| label30    = Weight
+| label30    = Timbang
 | data30     = {{{weight|}}}
 
-| label31    = Television programme(s)
+| label31    = Programa king telebision
 | data31     = {{{television|}}}
 
-| label32    = Title
+| label32    = Titulu
 | data32     = {{{title|}}}
 | class32    = title
 
-| label33    = Term
+| label33    = Terminu
 | data33     = {{{term|}}}
 
-| label34    = Predecessor
+| label34    = Elilan
 | data34     = {{{predecessor|}}}
 
-| label35    = Successor
+| label35    = Katuki
 | data35     = {{{successor|}}}
 
-| label36    = Political party
+| label36    = Partido politikal
 | data36     = {{{party|}}}
 | class36    = org
 
-| label37    = Political movement
+| label37    = Pangimut a pampulitika (Political movement)
 | data37     = {{{movement|}}}
 | class37    = category
 
@@ -137,43 +137,43 @@
 | label39    = Board member&nbsp;of
 | data39     = {{{boards|}}}
 
-| label40    = Religion
+| label40    = Relihiun
 | data40     = {{{religion|}}}
 | class40    = category
 
-| label41    = Denomination
+| label41    = Sekta
 | data41     = {{{denomination|}}}
 | class41    = category
 
 | label42    = Criminal charge
 | data42     = {{{criminal charge|{{{criminal_charge|}}}}}}
 
-| label43    = Criminal penalty
+| label43    = Parusa
 | data43     = {{{criminal penalty|{{{criminal_penalty|}}}}}}
 
 | label44    = Criminal status
 | data44     = {{{criminal status|{{{criminal_status|}}}}}}
 | class44    = category
 
-| label45    = Spouse
+| label45    = Asawa
 | data45     = {{{spouse|}}}
 
-| label46    = Partner
+| label46    = Kapareha
 | data46     = {{{partner|{{{domesticpartner|}}}}}}
 
-| label47    = Children
+| label47    = Ának
 | data47     = {{{children|}}}
 
-| label48    = Parents
+| label48    = Pengari
 | data48     = {{{parents|}}}
 
-| label49    = Relatives
+| label49    = Kamaganak
 | data49     = {{{relations|{{{relatives|}}}}}}
 
 | label50    = Call-sign
 | data50     = {{{callsign|}}}
 
-| label51    = Awards
+| label51    = Galal
 | data51     = {{{awards|}}}
 
 | data52     = {{{misc|{{{module|}}}}}}
