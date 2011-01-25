@@ -1,0 +1,5 @@
+<!--{{Current related}} begin-->{{#ifeq:{{NAMESPACE}}|{{<includeonly>subst:</includeonly>NAMESPACE}}|<includeonly>[[Category:Pages with incorrectly substituted templates|{{PAGENAME}}]]</includeonly>|}}{{Ambox
+| type  = notice
+| image = [[Image:Gnome globe current event.svg|50x40px]]
+| text  = Ining {{{1|artikulu}}} '''malyari ya miyapektuan kareng {{#if:{{{2|}}}|tutuking|}} [[Portal:Current events|kasalukuyan a maliliari]]{{#if:{{{2|}}}|<nowiki>:</nowiki> [[{{{2}}}]]|}}'''. Maliaring ing impormasiun kaniting {{{1|artikulu}}}malaguang mibayu kabang mararapat ing pangapaliari.
+}}{{DMCA|Current events|from|{{{date|}}}}}<!--{{Current related}} end--><noinclude>{{Documentation}}</noinclude>
