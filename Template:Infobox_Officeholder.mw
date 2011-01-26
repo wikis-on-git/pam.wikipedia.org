@@ -106,7 +106,7 @@
 {{#if:{{{term_end2|}}}
 |<!--then:--> <!--(nothing; term has ended)-->
 |<!--else:--> 
-{{!}}colspan="2" style="text-align:center;"{{!}} '''Assumed&nbsp;office'''<br>{{{term_start2}}}
+{{!}}colspan="2" style="text-align:center;"{{!}} '''Linukluk&nbsp;'''<br>{{{term_start2}}}
 {{!-}}
 }}
 <!----------Second Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
@@ -116,7 +116,7 @@
 {{!-}}
 }}
 {{#if:{{{viceprimeminister2|}}} |<!--then:--> 
-! Vice&nbsp;[[Prime Minister|PM]](s)&nbsp;&nbsp;
+! Kaduang&nbsp;[[Pun Ministru|PM]](s)&nbsp;&nbsp;
 {{!}} {{{viceprimeminister2}}}
 {{!-}}
 }}
@@ -161,16 +161,16 @@
 {{#if:{{{term_start3|}}} |<!--then:--> 
 {{#if:{{{term_end3|}}}
 |<!--then:--> <!--term has start and end-->
-{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''In&nbsp;office'''<br>{{{term_start3}}}&nbsp;&ndash;&nbsp;{{{term_end3}}}
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''Linukluk&nbsp;'''<br>{{{term_start3}}}&nbsp;&ndash;&nbsp;{{{term_end3}}}
 {{!-}}
 |<!--else:--> <!--term is ongoing-->
-{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Incumbent]]'''
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Makapuestu]]'''
 {{!-}}
 }}
 {{#if:{{{term_end3|}}}
 |<!--then:--> <!--(nothing; term has ended)-->
 |<!--else:--> 
-{{!}}colspan="2" style="text-align:center;"{{!}} '''Assumed&nbsp;office'''<br>{{{term_start3}}}
+{{!}}colspan="2" style="text-align:center;"{{!}} '''Linukluk&nbsp;'''<br>{{{term_start3}}}
 {{!-}}
 }}
 }}
@@ -181,7 +181,7 @@
 {{!-}}
 }}
 {{#if:{{{viceprimeminister3|}}} |<!--then:--> 
-! Vice&nbsp;[[Prime Minister|PM]](s)&nbsp;&nbsp;
+! Kaduang&nbsp;[[Pun Ministru|PM]](s)&nbsp;&nbsp;
 {{!}} {{{viceprimeminister3}}}
 {{!-}}
 }}
@@ -202,7 +202,7 @@
 {{!-}}
 }}
 {{#if:{{{primeminister3|}}} |<!--then:-->
-! Prime Minister
+! Pun Ministru
 {{!}} {{{primeminister3}}}
 {{!-}}
 }}
@@ -225,10 +225,10 @@
 {{#if:{{{term_start4|}}} |<!--then:--> 
 {{#if:{{{term_end4|}}}
 |<!--then:--> <!--term has start and end-->
-{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''Makalukluk&nbsp;'''<br>{{{term_start4}}}&nbsp;&ndash;&nbsp;{{{term_end4}}}
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''Linukluk&nbsp;'''<br>{{{term_start4}}}&nbsp;&ndash;&nbsp;{{{term_end4}}}
 {{!-}}
 |<!--else:--> <!--term is ongoing-->
-{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Makalukluk]]'''
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Makapuestu]]'''
 {{!-}}
 }}
 {{#if:{{{term_end4|}}}
@@ -245,7 +245,7 @@
 {{!-}}
 }}
 {{#if:{{{viceprimeminister4|}}} |<!--then:--> 
-! Vice&nbsp;[[Prime Minister|PM]](s)&nbsp;&nbsp;
+! Kaduang&nbsp;[[Prime Minister|PM]](s)&nbsp;&nbsp;
 {{!}} {{{viceprimeminister4}}}
 {{!-}}
 }}
@@ -289,7 +289,7 @@
 | {{{birth_date|}}}<br/>{{{birth_place|}}}
 |-
 {{#if:{{{death_date|}}} |<!--then:-->
-! Kematyan
+! Kematian
 {{!}} {{{death_date}}}<br/>{{{death_place|}}}
 {{!-}}
 }}
