@@ -17,7 +17,7 @@
 '''Ining {{#switch:{{NAMESPACE}}
   |{{ns:image}}=larawan, a magagamit king metung o maigit pang [[Wikipedia:High-risk templates|maselan a template]] o interface,
   |#default=[[Wikipedia:High-risk templates|maselan a template]]
-}} me-[[Wikipedia:This page is protected|protekta]] ya king pamag-edit bang milisia king [[Wikipedia:vandalism|pamanyira o ''vandalism'']].''' <span class="plainlinks">([{{fullurl:Special:Log|type=protect&page={{FULLPAGENAMEE}}}} protection log]).</span> {{howtoedit}}
+}} me-[[Wikipedia:This page is protected|protekta]] ya king pamag-edit ba yang milisia king [[Wikipedia:vandalism|pamanyira o ''vandalism'']].''' <span class="plainlinks">([{{fullurl:Special:Log|type=protect&page={{FULLPAGENAMEE}}}} protection log]).</span> {{howtoedit}}
 {{#switch:{{NAMESPACE}}|{{ns:image}}=:<small>Note: This image should '''not''' be moved to commons</small>}}
 </td>
 </tr>
