@@ -13,7 +13,7 @@
 {{!}}colspan="2" style="text-align:center;"{{!}} [[Image:{{{smallimage}}}|{{PAGENAME}}]]<br/><small>{{{caption|}}}</small>
 {{!-}}
 }}
-<!----------Oficina---------->
+<!----------Opisina---------->
 {{#if:{{{order|}}} |<!--then:--> 
 {{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr><div style="background:lavender; font-weight:bold">{{{order}}}</div>
 {{!-}}
@@ -25,13 +25,13 @@
 {{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''In&nbsp;office'''<br>{{{term_start}}}&nbsp;&ndash;&nbsp;{{{term_end}}}
 {{!-}}
 |<!--else:--> <!--term is ongoing-->
-{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Incumbent]]'''
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Makapuestu]]'''
 {{!-}}
 }}
 {{#if:{{{term_end|}}}
 |<!--then:--> <!--(nothing; term has ended)-->
 |<!--else:--> 
-{{!}}colspan="2" style="text-align:center;"{{!}} '''Assumed&nbsp;office&nbsp;'''<br>{{{term_start}}}
+{{!}}colspan="2" style="text-align:center;"{{!}} '''Linukluk&nbsp;office&nbsp;'''<br>{{{term_start}}}
 {{!-}}
 }}
 }}
