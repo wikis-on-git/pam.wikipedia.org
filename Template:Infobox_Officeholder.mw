@@ -22,7 +22,7 @@
 {{#if:{{{term_start|}}} |<!--then:--> 
 {{#if:{{{term_end|}}}
 |<!--then:--> <!--term has start and end-->
-{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''In&nbsp;office'''<br>{{{term_start}}}&nbsp;&ndash;&nbsp;{{{term_end}}}
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''Linukluk&nbsp;'''<br>{{{term_start}}}&nbsp;&ndash;&nbsp;{{{term_end}}}
 {{!-}}
 |<!--else:--> <!--term is ongoing-->
 {{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Makapuestu]]'''
@@ -31,7 +31,7 @@
 {{#if:{{{term_end|}}}
 |<!--then:--> <!--(nothing; term has ended)-->
 |<!--else:--> 
-{{!}}colspan="2" style="text-align:center;"{{!}} '''Linukluk&nbsp;office&nbsp;'''<br>{{{term_start}}}
+{{!}}colspan="2" style="text-align:center;"{{!}} '''Linukluk&nbsp;&nbsp;'''<br>{{{term_start}}}
 {{!-}}
 }}
 }}
@@ -56,14 +56,14 @@
 {{!}} {{{lieutenant}}}
 {{!-}}
 }}
-<!----------Pamuntuk, Primeru Ministru---------->
+<!----------Pamuntuk, Pun Ministru---------->
 {{#if:{{{president|}}} |<!--then:-->
 ! Pamuntuk
 {{!}} {{{president}}}
 {{!-}}
 }}
 {{#if:{{{primeminister|}}} |<!--then:-->
-! Primeru Ministru
+! Pun Ministru
 {{!}} {{{primeminister}}}
 {{!-}}
 }}
@@ -74,18 +74,18 @@
 {{!-}}
 }}
 {{#if:{{{successor|}}} |<!--then:--> 
-! Menalili&nbsp;kaya
+! Menalili&nbsp;kayá
 {{!}} {{{successor}}}
 {{!-}}
 }}
 <!----------Predecessor/Successor---------->
 {{#if:{{{predecessor1|}}} |<!--then:--> 
-! Minuna&nbsp;kaya
+! Minuna&nbsp;kayá
 {{!}} {{{predecessor1}}}
 {{!-}}
 }}
 {{#if:{{{successor1|}}} |<!--then:--> 
-! Menalili&nbsp;kaya
+! Menalili&nbsp;kayá
 {{!}} {{{successor1}}}
 {{!-}}
 }}
@@ -97,10 +97,10 @@
 {{#if:{{{term_start2|}}} |<!--then:--> 
 {{#if:{{{term_end2|}}}
 |<!--then:--> <!--term has start and end-->
-{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''In&nbsp;office'''<br>{{{term_start2}}}&nbsp;&ndash;&nbsp;{{{term_end2}}}
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''Linukluk&nbsp;'''<br>{{{term_start2}}}&nbsp;&ndash;&nbsp;{{{term_end2}}}
 {{!-}}
 |<!--else:--> <!--term is ongoing-->
-{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Incumbent]]'''
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Makapuestu]]'''
 {{!-}}
 }}
 {{#if:{{{term_end2|}}}
