@@ -1,0 +1,19 @@
+{{#switch:{{{1}}}
+|name=British Columbia
+|top = 60.3
+|bottom = 48.1
+|left = -139.3
+|right = -113.7
+|image = Canada British Columbia location map 2.svg
+}}<noinclude>
+{{Documentation, template}}
+[[de:Vorlage:Positionskarte Kanada British Columbia]]
+[[eo:Ŝablono:Situo sur mapo Kanado Brita Kolumbio]]
+[[fr:Modèle:Géolocalisation/Colombie-Britannique]]
+[[os:Шаблон:ПозКартæ Канадæ Бритайнаг Колумби]]
+[[he:תבנית:מפת מיקום/קולומביה הבריטית]]
+[[ka:თარგი:პოზრუკა კანადა ბრიტანეთის კოლუმბია]]
+[[nl:Sjabloon:Positiekaart British Columbia]]
+[[ru:Шаблон:ПозКарта Канада Британская Колумбия]]
+[[fi:Malline:Location map Canada British Columbia]]
+</noinclude>
