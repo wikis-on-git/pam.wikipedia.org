@@ -1,0 +1,20 @@
+{| class="navbox" style="width: 80%; font-size:95%; margin:0.5em auto"
+|+ {{{title|}}}
+| width="5%" style="text-align: center" rowspan=5|[[file:Compass rose pale-50x50.png|link=|alt=]]
+| style="width: 30%; text-align: center" | {{{Northwest|}}}
+| style="width: 30%; text-align: center" | {{{North|<br/>}}}
+| style="width: 30%; text-align: center" | {{{Northeast|}}}
+| width="5%" style="text-align: center; padding: 0" rowspan=5 |[[file:Compass rose pale-50x50.png|link=|alt=]]
+|- 
+| style="width: 30%; text-align: center" rowspan=3 | {{{West|}}}
+| style="width: 30%; text-align: center" | [[file:North.svg|North|link=|alt=]]
+| style="width: 30%; text-align: center" rowspan=3 | {{{East|}}}
+|-
+| style="width: 30%; text-align: center" nowrap="nowrap" | [[file:West.svg|West|link=|alt=]]&nbsp;&nbsp; '''{{{Centre|{{{Center|(enter city)}}}}}}'''<!-- ENGVAR --> &nbsp;&nbsp;&nbsp;[[file:East.svg|East|link=|alt=]]
+|-
+| style="width: 30%; text-align: center" | [[file:South.svg|South|link=|alt=]]
+|-
+| style="width: 30%; text-align: center" | {{{Southwest|}}}
+| style="width: 30%; text-align: center" | {{{South|<br/>}}}
+| style="width: 30%; text-align: center" | {{{Southeast|}}}
+|}<noinclude>{{documentation}}<!---PLEASE ADD METADATA TO THE <includeonly> SECTION AT THE BOTTOM OF THE /doc SUBPAGE--></noinclude>
