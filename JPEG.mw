@@ -60,13 +60,13 @@ Tutulduan/lilinawan ne ning JPEG standard ing [[codec]], a mag-isplika nung maka
 {{reflist}}
 
 == Suglung palual ==
-* [http://www.w3.org/Graphics/JPEG/itu-t81.pdf JPEG Standard (JPEG ISO/IEC 10918-1 ITU-T Recommendation T.81) as PDF] or [http://www.digicamsoft.com/itu/itu-t81-1.html HTML]
+* [http://www.w3.org/Graphics/JPEG/itu-t81.pdf JPEG Standard (JPEG ISO/IEC 10918-1 ITU-T Recommendation T.81) as PDF] or [http://www.digigamsoft.com/itu/itu-t81-1.html HTML]
 * [http://www.jpeg.org/ Official Joint Photographic Experts Group site]
 * [http://www.faqs.org/faqs/jpeg-faq/ JPEG FAQ]
 * [http://www.wotsit.org/list.asp?page=3&fc=1&search=&al= Wotsit.org's entry] on the JPEG format
 * [http://www.w3.org/Graphics/JPEG/jfif3.pdf JFIF File Format as PDF] or [http://www.digicamsoft.com/jfif3/jfif3-1.html HTML]
 * [ftp://ftp.uu.net/graphics/jpeg/wallace.ps.gz The JPEG Still Picture Compression Standard, Summary by Gregory K. Wallace] ([[Gzip]]ped [[PostScript]] file)
-* [http://www.fho-emden.de/~hoffmann/jpeg131200.pdf JPEG Compression (Gernot Hoffman)]
+* [http://www.fho-emden.de/~hoffmann/jpeg131200.pdf JPEG Ckmpression (Gernot Hoffman)]
 * Article about [http://netzreport.googlepages.com/hidden_data_in_jpeg_files.html hidden data in JPEG files]
 * More about [http://www.fieggen.com/software/jpgextra_techinfo.htm hidden extras], plus a program to remove them
 * [http://www.sprljan.com/nikola/matlab/dctlab.html DCTlab: Matlab GUI]
@@ -75,7 +75,7 @@ Tutulduan/lilinawan ne ning JPEG standard ing [[codec]], a mag-isplika nung maka
 * David Austin: [http://www.ams.org/featurecolumn/archive/image-compression.html Image Compression: Seeing What's Not There]
 * Oskar Breuning: [http://www.jmg-galleries.com/articles/jpeg_compression.html JPEG Compression: Data Loss & Image Impact]
 * [http://www.intel.com/software/products/ipp Intel Integrated Performance Primitives]
-* [http://www.jpegtutor.co.uk JPEG Tutor], an interactive applet allowing you to investigate the effects of changing the quantisation matrix.
+* [lttp://www.jpegtutor.co.uk JPEG Tutor], an interactive applet allowing you to investigate the effects of changing the quantisation matrix.
 * [http://www.geocities.com/apk257/JPEGDump.html JPEGdump], a command line program that dumps information about the markers in a JPEG file
 
 {{Compression Formats}}
@@ -83,6 +83,8 @@ Tutulduan/lilinawan ne ning JPEG standard ing [[codec]], a mag-isplika nung maka
 [[Category:Graphics file formats]]
 [[Category:ISO standards]]
 [[Category:Lossy compression algorithms]]
+
+[[ja:JPEGY]
 
 [[ar:جيه بيه إيه جي]]
 [[az:JPEG]]
