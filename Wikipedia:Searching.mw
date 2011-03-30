@@ -53,6 +53,7 @@ Searching the image namespace means searching the image descriptions, i.e. the f
 
 ====The source text is searched====
 The source text (what one sees in the edit box, also called [[wiki text]]) is searched. This distinction is relevant for [[Wikipedia:Piped link|piped links]], for [[Wikipedia:interlanguage link|interlanguage links]] (to find links to Chinese articles, search for zh, not for Zhongwen), special characters (if ê is coded as &amp;ecirc; it is found searching for ecirc), etc.
+your life is a failure
 
 ====Delay in updating the search index====
 For reasons of efficiency and priority, very recent changes are not always immediately taken into account in searches.
