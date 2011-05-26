@@ -1,4 +1,4 @@
-{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:150px; border-collapse: collapse; font-size: 95%; clear: right"
+{| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
 <td colspan="2" align="center" style="width:100%; font-size: 1.25em; white-space: nowrap;">'''<span class="fn org">{{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}</span>{{#if:{{{native_name|}}}|<br><span class="nickname">{{{native_name}}}</span>}}{{#if:{{{other_name|}}}|<br><span class="nickname">{{{other_name}}}</span>}}</td>
 	</tr>
 |-
