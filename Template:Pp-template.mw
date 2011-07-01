@@ -22,7 +22,7 @@
 </td>
 </tr>
 </table>
-}}<includeonly>[[Category:Protected templates|{{PAGENAME}}]]</includeonly><noinclude>
+}}<noinclude>
 
 ----
 * Use {{tlx|{{lc:{{PAGENAME}}}}}} for the normal template
