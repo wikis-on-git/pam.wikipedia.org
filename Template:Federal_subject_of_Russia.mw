@@ -20,7 +20,7 @@
 <!-----------------Map----------------->
 |colspan="2" align="center"| {{#if: {{{LocatorMap|}}} |<!--
        then: -->[[Image:{{{LocatorMap}}}|200px]] <br /><small>{{{LocatorMapLegend|}}}</small><!--
--->|<!--else:-->[[Image:Missing map.png|200px]]<!--
+-->|<!--else:-->[[Image:Missing map.svg|200px]]<!--
 ---end#if:-->}}<!--
 -----------------CoA/Flag-----------------
 -->{{#if:<!--A-->{{{CoatOfArms|}}}<!--
