@@ -1,0 +1,1200 @@
+<!--
+Hello, New User!
+Malaus Ka, Bayung User!
+  Nung buri mung subukan ing pamag-edit bulung,
+  pakigamit me ing "Sandbox" king kekang pamag-practice.
+  I-type me ing "WP:SB" king search box keng kayli at 
+  i-click me ing "Go."  O i-click me ing link
+  king umpisa ning artikulu.
+-->
+{{Style}}
+{{shortcut|[[WP:HEP]]}}
+
+:''Lon me murin ing [[Help:Editing]], [[Help:Starting a new page]], [[m:Help:Editing]]''
+Ing [[Wikipedia]] metung yang [[Wiki|WikiWiki]].  Ing buri nang sabyan niti, agyang 
+ninu malyaring mag-edit king sanumang [[Wikipedia:Protected page|e protektadung]] 
+[[Wikipedia:What is an article|artikulu]], at tambing lang lunto king bulung detang 
+miyalilan.
+
+Malagwa mu ing mag-edit king bulung a Wiki. I-click ya mu ing "'''Edit this page'''" tab
+king babo (o king edit link king wanan o king lalam) ning Wiki page. Idala na ka niti
+king bulung o text box nung nu makabili ing editable text ning page a ita. '''Nung bisa  
+kang mag-eksperimentu, sana gawan mu ita king [[Wikipedia:sandbox|sandbox]]''' at ali
+keni. Sumulat kang makuyad a [[Wikipedia:Edit summary|edit summary]] ketang
+malating espasyu king lalam ning edit-box. Malyari kang gumamit pepakuyad a salita
+(shorthand) ba mong isplikan detang digdag o inalilan mu basi king [[Wikipedia:Edit 
+summary legend|legend]]. Kayari mu, timid me itang [[Wikipedia:Show 
+preview|preview]], ba mung akit nung nanu la itsura detang inalilan mu.  Nung kuntentu 
+na ka, timid me itang "Save" at tambing lang lunto detang gewa mu. E mo pipirman 
+detang in-edit mu (tatandana'na ning software nung ninung ginawa balang miyayalilan ya 
+ing dokumentu).
+
+Malyari me muring i-click itang "'''Discussion'''" tab ba meng akit itang [[Wikipedia:Talk 
+page|talk page]], a maki komentu tungkul king bulung a sinulat da reng aliwang gagamit
+king Wiki. I-click me itang "'''+'''" tab bang magdagdag bayung dake (section), o i-edit ya 
+ing bulung antimong metung a article page. Neng mag-edit kang talk pages, pakipirma 
+me itang inalilan mu (lon me itang [[Wikipedia:Sign your posts on talk pages]].
+
+== Tips on editing Wikipedia articles ==
+
+Pane kang gumamit [[neutral point of view]], uling ing Wiki e ya lugal para king pamag-
+promote king sanumang pamalak o opinyun.
+
+[[Wikipedia:Cite your sources|Banggitan mo reng pikwanan mu]] ba rong akit deng aliwa 
+at adagdagan de ing gewa mu. Kulang lang reference deng keraklan kareng kasalukuyang 
+artikulu king Wikipedia, at ini ing mabayat diling puna  &ndash king Wikipedia; uli na 
+kanu niti, e me makaing apagtiwalan. Maragul ing asaup mu nung manyaliksik ka king 
+Internet at ampo kareng libru o magasin para keng artikulung gagawan mu. Kilalanan mu 
+lang ketang ustung paralan at pilitan mung gawang in-text citation para karetang 
+sasabyan mung dakal a e mamayun. E mu metung ing paralan ba yang gawan ini, oneng 
+mas masanting na ing atin kang gewa kesa ala. Malyari kang gumamit format a 
+akademiku anti ing (Example, 2004, pp 22-23), o antimong 
+superscript<sup>[[Wikipedia:WikiProject Fact and Reference 
+Check|1]]</sup> king footnote ketang wakas ning metung a artikulu.
+
+Kaybat mung ginawang bayung bulung, masanting nung
+*Kabud linto ne itang gewa mung bulung, gamitan me itang ''What links here'' ba mong 
+akit detang artikulung maka-link na kaniti, at asiguradung pareu la kabaldugan ketang 
+binye mu; 
+*Gamitan me itang Search button ba meng paintunan king Wikipedia itang kekang topic 
+title (ampo retang malyaring aliwang bagya o variants), bang maintun artikulung 
+babanggit kaniti, at bang gawang link manibat kareti nung kaylangan. 
+
+== Deng minor edits ==
+''See also [[Wikipedia:Minor edit]]''
+
+Malyari neng markan ning user a maka- [[Wikipedia:How to log in|log-in]] bilang 
+"minor" ing bulung a e-edit na. Ing buri nang sabyan ning minor edit detang semasan 
+a spelling, pamag-format, ampong bagyang pamilibe-libe lugal kareng amanu. Malyari
+lang "salikut" deng minor edit neng lalon ya ing [[Wikipedia:Recent Changes]].
+E masanting a dapát itang pamagmarkang "minor edit" nung dakal ka elilan, lalu na 
+nung ating mebawas ketang makasulat. Nung ating migkamaling migmarkang "minor"
+ketang kayang e-edit, kaylanga'neng i-edit pasibayu itang bulung, marka'neng 
+"major" (o kaya, siguradwa'nang e maka-check itang check-box para king "This is a 
+minor edit"), at isulat nang "major" ya itang elila'ne ketang "summary". 
+
+== Wiki markup ==
+
+Ing '''wiki markup''' ing syntax system a malyari mung gamitan king pamag-format king 
+Wikipedia page.
+
+Akit mu king kayling column ketang table king lalam nung nanu ing malyaring palto king 
+bulung. Keta namang wanan a column, akit mu nung makananu lang megawa reta.
+King makuyad a salita, ba mung apalto itang atsu king kayli, mag-type kang anti king 
+wanan a column. 
+
+Malyari meng pabureng makabusni king saparadung browser ing bulung a ini ba kang 
+ating kukunsultan. '''Nung bisa kang mag-practice a e ka makasira, malyari mung gawan 
+iti king  [[Wikipedia:Sandbox|Sandbox]]'''. Subukan meng buklat ing Sandbox king 
+aliwang awang (window) o tab kabang makabusni ya pa murin ing bulung a ini.
+
+----
+<!--
+:'''Malyari yang mabawas (deprecated) ing aliwa nang dake ning bulung a ini, pero 
+regular ang misubli.''' 
+:'''Pakidala la retang me-edit king [[meta:MediaWiki User's Guide: Editing 
+overview|Meta-Wikimedia version of this page]]'''
+
+-->
+=== Deng section, telatag, listaan, ampong gulis ===
+{| border="1" cellpadding="2" cellspacing="0"
+|-
+! Nung nanu ya itsura
+
+! Nung nanung tinayp mu
+|- valign="top"
+|
+Umpisan me ing [[Wikipedia:Manual of Style (headings)|sections]] anti ing makatuki:
+
+<!-Gulwa'ne ning makatuki ing table of contents
+     at e no masyadung magamit detang section edit links,
+     anya sana e me gagamitan.
+
+==Bayung section==
+===Subsection===
+====Sub-subsection====
+-->
+<!-Kaylangan, pareu la itsura deng makatuki, nung gumamit
+     HTML headings markup imbes na wiki heading.
+     Pero siran no reng section edit links, anya sana 
+     e me gagamitan..
+<h2>Bayung section</h2>
+<h3>Subsection</h3>
+<h4>Sub-subsection</h4>
+-->
+<!-Detang font mu ampong panga-bold ing alila'ning makatuki,
+     anya dapat malyari ya.  Nanupata, malyaring e masyadung
+     masanting itsura, lalu na nung e la standard detang
+     CSS stylesheets a magagamit.
+-->
+'''<font style="font-size:120%">Bayung section</font>'''
+
+'''<font style="font-size:110%">Subsection</font>'''
+
+'''<font style="font-size:100%">Sub-subsection</font>'''
+
+* Umpisan me king second level heading (<tt><nowiki>==</nowiki></tt>); e ka gagamit
+first level heading (=).
+* E ka lalaktong level (alimbawa, itang tukyan meng fourth-level ing second level).
+* Ating [[#Placement_of_the_Table_of_Contents_.28TOC.29|Table of Contents]] a 
+tambing midagdag king balang artikulung maki apat o mas dakal a section. 
+* Pakibili la king ustung pamituki-tuki deng subsection nung ini ing dapat.  Alimbawa  
+isulat la  king alphabetical order deng lagyu da reng bansa, imbes na ing relasyun da king 
+bilang da reng tau kareng bansa ning [[OECD]] o sanu mang alang basing pamituki-tuki.
+|
+<pre><nowiki>
+==Bayung section==
+
+===Subsection===
+
+====Sub-subsection====
+</nowiki></pre>
+|- valign="top"
+|
+Ing metung a [[newline]]
+keraklan ala yang epektu king itsura ning bulung.
+Malyari yang gamitan ba lang pikawa-kawani 
+deng sentence kilub ning telatag.
+Para kareng aliwang talapatuntun (editor), makasaup ini king pamag-edit
+at makasaup ya king ''diff'' 
+(a magagamit king kilub
+ba rong pakilupa king metung at metung deng bresyon ning bulung).
+
+Pero ita namang linyang alang laman,
+umpisa'ne ing metung a telatag.
+
+* Neng atyu king listaan, ''atin'' yang epektu king bulung ing newline 
+ ([[#lists|see below]]).
+|
+<pre><nowiki>
+Nung metung ya mu ing [[newline]]
+keraklan ala yang epektu king itsura ning bulung.
+Malyari lang gamitan deti ba lang pikawa-kawani
+deng sentence kilub ning telatag.
+Para kareng aliwang talapatuntun (editor), makasaup ini king pamag-edit
+at makasaup ya king ''diff'' 
+(a magagamit king kilub
+ba rong pakilupa king metung at metung deng bresyon ning bulung).
+
+Pero itang linyang alang laman
+magsilbi yang umpisa ning metung a telatag.
+</nowiki></pre>
+|- valign="top"
+|
+Malyari kang mamitnang linya<br/>
+a e ka magumpisang bayung telatag.
+
+* E me masyadung gagamitan ini.
+* Mikanlapit ya ing markup king pilatan daring linya, e me umpisan ing [[link]] o ''italics'' o '''bold''' king metung a linya at  
+aryan ketang tutuki.
+|
+<pre><nowiki>
+Malyari kang mamitnang linya<br/>
+a e magumpisang bayung telatag.
+</nowiki></pre>
+|- id="lists" valign="top"
+|
+* Malagwa mung gawang listaan:
+** Umpisan meng batwin (= [[asterisk]]) ing metung a linya.
+*** Kabang daraka'la reng batwan, lalu yang lalalam ing level.
+**** King metung a listaan, mayari ya ing
+list item king newline.
+
+* Umpisa'ne ning linyang alang sulat ing metung a bayung list.
+|
+<pre><nowiki>
+* Malagwa mung gawang listaan:
+** Umpisan meng batwin ing balang linya.
+*** Kabang daraka'la reng batwan, lalu yang lalalam ing level..
+**** King metung a listaan, mayari ya ing 
+list item king newline.
+
+* Umpisa'ne ning linyang alang sulat ing metung a bayung list.
+</nowiki></pre>
+|- valign="top"
+|
+# Masanting la murin deng listaan a maki nomiru
+## masalese panga-organize
+## malagwang tukyan
+### mas masagli
+|
+<pre><nowiki>
+# Masanting la murin deng listaan a maki nomiru
+## masalese panga-organize
+## malagwang tukyan
+### mas masagli
+</nowiki></pre>
+|- valign="top"
+|
+* Malyari ka muring gawang listaan a piyabe
+*# at pitumpak mong
+*#* anti kaniti
+|
+<pre><nowiki>
+* Malyari ka muring gawang listaan a piyabe
+*# at pitumpak mong
+*#* anti kaniti
+</nowiki></pre>
+|- valign="top" id="definition"
+|
+; Definition list : listaan da ring definition
+; item : ing definition ning bage
+; aliwa pang bage
+: itang definition na nitang aliwang bage
+
+* Metung a bage balang linya; malyari yang lunto ing newline bayu ing colon, pero mas masalese ya pangagawa (parse) 
+nung ating space bayu ing colon.
+|
+<pre><nowiki>
+; Definition list : listaan da reng definitions
+; item : ing definition ning bage
+; aliwa pang bage
+: ing definition na nitang aliwang bage
+</nowiki></pre>
+|- valign="top"
+|
+: Lungub (indent) ya ing linya o telatag nung mangibili kang colon.
+Nu namang mitimid kang newline, mika bayung telatag.
+
+* Magagamit ini karetang makalto king Wiki, oneng gagamitan ya rin kareng  
+[[Wikipedia:Talk page|Talk page]]s.
+|
+<pre><nowiki>
+: Lungub (indent) ya ing linya o telatag nung mangibili kang colon.
+Nu namang mitimid kang newline, mika bayung telatag.
+</nowiki></pre>
+|- valign=top
+|
+Nung kaylangan yang ikawani ing metung a grupu da reng amanu (block of text)
+<blockquote>
+ing '''blockquote''' command ing magpalub kareng misusumangid a margin nung kaylangan imbes na ita mung kayling 
+margin nung itang colon ing gamitan mu.  
+</blockquote> 
+Magamitan ya ini neng atin kang sisingut a grupung amanung sinabi ning 
+metung a tau o mekopya king libru ("blocks of quoted text").   
+|
+<pre><nowiki>
+<blockquote>
+ing '''blockquote''' command ing magpalub kareng misusumangid a margin nung kaylangan imbes na ita mung kayling 
+margin nung itang colon ing gamitan mu.  
+</blockquote>
+</nowiki></pre>
+|- valign=top
+|
+Nung magumpisa ya king space ing metung a linya, KAI
+ma-format ya nung makananu yang 
+me-type;
+Nnung e mamaliwa lapad itang font;
+e la mag-wrap deng linya  
+
+*Magamitan ya ini:
+** neng mag-paste kang preformatted text;
+** kareng algorithm descriptions;
+** king program source code;
+** king [[ASCII art]];
+** kareng chemical structures;
+* '''BABALA''': Nung pakalapad me, [[page widening|pwersan meng lumapad ing mabilug a bulung]] at mas masakit yang basan, lalu na kareng taung gagamit mas mababang resolution. E mo umpisan king 
+space deng karaniwang linya.
+|
+<pre><nowiki>
+Nung magumpisa ya king space ing metung a linya, KAI
+ma-format ya nung makananu yang 
+me-type;
+Nnung e mamaliwa lapad itang font;
+e la mag-wrap deng linya  
+</nowiki></pre>
+|- valign="top"
+|
+<center>Text a makasentru.</center>
+
+* Tandanan mung spelling yang Americanu ing "center."
+|
+<pre><nowiki>
+<center>Centered text.</center>
+</nowiki></pre>
+|- valign="top"
+|
+Ing [[horizontal dividing line]]:
+atsu king babo ini.
+----
+at atsu ne man king lalam ini.
+
+* Keraklan magagamit ya ini ba lang pikawani deng sinulad kareng Talk pages.
+|
+<pre><nowiki>
+A [[horizontal dividing line]]:
+atsu king babo ini
+----
+at atsu king lalam ini.
+</nowiki></pre>
+|}
+
+=== Deng link ampong URL ===
+{| border="1" cellpadding="2" cellspacing="0"
+|-
+! Nung nanu ya itsura
+! Nung nanu ing tinayp mu
+|- valign="top"
+|
+Ing London atin yang [[public transport]].
+
+* Metung a link king aliwang Wikipedia article.
+* King program, tambing yang misusulat a capital ing mumunang letra ning bulung a target, at detang space misusulat lang antimong underscore (parehu ing epektu ning pamanyulat underscore ampong pamanyulat space, oneng e masanting gagawan ita).  
+* Uli na niti ing link ken yang [[URL]]www.wikipedia.org/wiki/Public_transport, a yang artikulung Wikipedia a maki pamagat a "Public transport". Lon ya rin ing 
+[[Wikipedia:Canonicalization]].
+|
+<pre><nowiki>
+Ing London atin yang [[public transport]].
+</nowiki></pre>
+|- valign="top"
+|
+Ing San Francisco atin ya muring
+[[public transport|public transportation]].
+
+* Parehung ya ing target, aliwa ya ing lagyu.
+* Ini metung yang [[piped link]].
+* Kaylangan yang muna ing "piped" text, at itang text a lunto, kadwa ya.
+|
+<pre><nowiki>
+Ing San Francisco atin ya muring
+[[public transport|public transportation]].
+</nowiki></pre>
+|- valign="top"
+|
+Ing San Francisco atin ya muring
+[[public transport]]ation.
+
+Deng alimbawa ila pin deng [[bus]]es, [[taxi]]s,
+ampong [[streetcar]]s.
+
+* Makatuglung la king link deng wakas.
+* Anggang malyari, mas masanting a ini ing gamitan kesa ketang piped link.
+|
+<pre><nowiki>
+Ing San Francisco atin ya muring
+[[public transport]]ation.
+
+Deng alimbawa ila pin deng [[bus]]es, [[taxi]]s,
+ampong [[streetcar]]s.
+</nowiki></pre>
+|- valign="top"
+|
+Basan me ing [[Wikipedia:Manual of Style]].
+
+* Metung a link king aliwang [[Wikipedia:namespace|namespace]].
+|
+<pre><nowiki>
+Basan me ing [[Wikipedia:Manual of Style]].
+</nowiki></pre>
+|- id="link-to-section" valign="top"
+|
+Ing [[Economics#See also]] link ya
+king dake ning aliwang bulung.
+
+Ing [[#Links and URLs]] link ya
+to a section on the current page.
+
+Ing [[#example]] link ya king metung a
+anchor a megawang magagamit ya ing
+<div id="example">an id attribute</div>
+
+* Kaylangan yang maki kapareung pamagat ning metung a dake (section heading) king  bulung itang makasulat kaybat ning number sign (#). Kaylangang saktu ing pamipareu da - king pamisulat (spelling), case (nung maka-capital ya ing letrra) 
+ampong pamangulit (punctuation).  E la mapuputut deng link kareng bulung a  
+a e makagawa; tuturing da lang link king pekababo ning bulung.
+* Malyaring gawang identifier nung ituglung ya ing attribute <code>id="..."></code> king sanumang HTML element.
+|
+<pre><nowiki>
+Ing [[Economics#See also]] link ya
+king dake ning aliwang bulung.
+
+Ing [[#Links and URLs]] link ya
+to a section on the current page.
+
+Ing [[#example]] link ya king metung a
+anchor a megawang magagamit ya ing
+<div id="example">an id attribute</div>
+</nowiki></pre>
+|- valign="top"
+|
+Tambing lang misalikut deng makapalub kareng parenthesis:
+[[kingdom (biology)|kingdom]].
+
+Tambing yang misalikut ng namespace:
+[[Wikipedia:Village Pump|Village Pump]]. 
+
+O deng adwa:
+[[Wikipedia:Manual of Style (headings)|Manual of Style]]
+
+Pero ini e malyari:
+[[Wikipedia:Manual of Style#Links|]]
+
+* Ing server ing balang manyingit ketang makasulat kaybat ning pipe character (|) potang I-save me ing bulung. Potang tutuki meng busni ing edit box, akit  
+me itang kabiluga'ning a piped link (expanded piped link). Neng pi- 
+[[Wikipedia:Show preview|preview]] mo reng I-edit mu, e ma ngan akit itang eganaganang makasulat anggang e me tinimid pasibayu itang '''Save''' ampong '''Edit'''. Makanyan la naman deng link kareng dakeng atsu king parehung
+bulung ([[#link-to-section|see previous entry]]).
+|
+<pre><nowiki>
+Tambing lang misalikut deng makapalub kareng parenthesis:
+[[kingdom (biology)|kingdom]].
+Tambing yang misalikut ng namespace:
+[[Wikipedia:Village Pump|Village Pump]]. 
+
+O deng adwa:
+[[Wikipedia:Manual of Style (headings)|]]
+
+Pero ini e malyari:
+[[Wikipedia:Manual of Style#Links|]]
+</nowiki></pre>
+|- valign="top"
+|
+[[Ing panaun king London]] metung yang
+bulung a e pa megawa.
+
+* Malyari meng gawan nung i-click me itang link (pero e mu gagawan king link ini).
+* Ba kang gawang bayung bulung: 
+*# Gawa kang link papunta kaniti king aliwang bulung a miki relasyun kaya.
+*# I-save me ing page a ita.
+*# I-click me ing link a gewa mu. Mibusni ya itang bulung at malyari yang i-edit.
+* Para king karagdagang impormasyon, basan me ing [[Wikipedia:How to start a page|How to start a page]] at lon me ing Wikipedia's [[Wikipedia:Naming conventions|naming conventions]].
+* E ka sana gagawang artikulu a alang link manibat king metung mu mang aliwang artikulu.
+|
+<pre><nowiki>
+[[Ing panaun king London]] metung yang
+bulung a e pa megawa.
+</nowiki></pre>
+|- valign="top"
+|
+Ing [[Wikipedia:How to edit a page]] yapin ing bulung a ini.
+
+* Lalto lang antimong bold text deng [[Self link]] potang lon me ing artikulu.
+* E me gagamitan ing paralang ini nung buri meng gawang bold ing lagyu ning artikulu king mumunang telatag; basan me ing 
+[[Wikipedia:Manual of Style#Article titles|Manual of Style]].
+|
+<pre><nowiki>
+Ing [[Wikipedia:How to edit a page]] yapin ing bulung a ini.
+</nowiki></pre>
+|- valign="top"
+|
+Neng magdagdag kang komentu king metung a Talk page,
+kaylangan meng pirman kapamilata'ning pamandagdag
+atlung tilde ba meng idagdag ing kekang username:
+: [[User:Brockert|Ben Brockert]]
+o apat ba meng idagdag ing username mu ampong petsa/oras:
+: [[User:Brockert|Ben Brockert]] 00:18, Nov 19, 2004 (UTC)
+Nung lima lang tilde, ita mu kabud petsa/oras:
+: 00:18, Nov 19, 2004 (UTC)
+
+* Detang mumunang adwa ituglung daka ketang kekang 
+[[Wikipedia:user page|user page]].
+|
+<pre><nowiki>
+Neng magdagdag kang komentu king metung a Talk page,
+kaylangan meng pirman kapamilata'ning pamandagdag
+atlung tilde ba meng idagdag ing kekang username:
+: ~~~
+o apat ba meng idagdag ing username mu ampong petsa/oras:
+: ~~~~
+Nung lima lang tilde, ita mu kabud petsa/oras:
+: ~~~~~
+</nowiki></pre>
+|- valign="top"
+|
+* [[Wikipedia:Redirect|Redirect]] me ing metung a artikulu king aliwang artikulu
+kapamilata'ning directive anti itang atsu king wanan ning ''mumunang'' linya ning the artikulu (antimo itang bulung a maki pamagat a "[[USA]]").
+* Tandanan mu muring agyang malyaring mag-link king metung a dake, e posibling
+mag-redirect king metung a dake o section. Alimbawa, ing "<nowiki>#REDIRECT [[United States#History]]</nowiki>" I-redirect naka king bulung a [[United States]], pero e king sanumang partikular a dake na niti.  '''Ali ne''' magsilbi keng datang a panaun ing feature a ini, anya e no dapat gawan deng makanyan a redirect.
+|
+<pre><nowiki>
+#REDIRECT [[United States]]
+</nowiki></pre>
+|- valign="top"
+|
+* Ba kang mituglung ka king pareung paksa king aliwang amanu, gumamit kang link a maki format a: 
+<nowiki>[[language code:Title]]</nowiki>.
+* E maulaga nung nu mo ibili deng link a reni kabang mag-edit ka uling 
+king pareu la ring lugal mibili potang mag-save ka, pero masanting nung keta lang wakas ning edit box ibili
+* Pakilawe ya ing [[Wikipedia:Interlanguage links]] ampo ing [[Wikipedia:Complete list of 
+language wikis available|listaan da ring amanu ampong code]].
+|
+<pre><nowiki>
+[[fr:Wikipédia:Aide]]
+</nowiki></pre>
+|- valign="top"
+|
+Ing '''What links here''' ampo ing '''Related changes'''
+pages malyari lang mituglung anting:
+[[Special:Whatlinkshere/Wikipedia:How to edit a page]]
+ampong
+[[Special:Recentchangeslinked/Wikipedia:How to edit a page]]
+
+|
+<pre><nowiki>
+Ing '''What links here''' ampo ing '''Related changes'''
+pages malyari lang mituglung anting:
+[[Special:Whatlinkshere/Wikipedia:How to edit a page]]
+ampong
+</nowiki></pre>
+|- valign="top"
+|
+Malyari yang mituglung ing '''Contributions''' ning metung a user anting:
+[[Special:Contributions/UserName]]
+o
+[[Special:Contributions/192.0.2.0]]
+|
+<pre><nowiki>
+Malyari yang mituglung ing '''Contributions''' ning metung a user anting:
+[[Special:Contributions/UserName]]
+o
+[[Special:Contributions/192.0.2.0]]
+</nowiki></pre>
+|- valign="top"
+|
+* Ba yang mikana ing artikulu king metung a [[Wikipedia:Category]], mangibili kang link anti itang king dane wanan agyang nukarin king artikulu.  Kalupa re murin deng interlanguage links iti - maulaga agyang nu me ibili itang link kabang mag-edit ka, uling keta la ngang metung a lugal mibili potang i-save me ing bulung.  Pero mas masanting nung keta lang lalam ning edit box mibili.  
+|
+<pre><nowiki>
+[[Category:Character sets]]
+</nowiki></pre>
+|- valign="top"
+|
+* Nung bisa kang mag ''link'' king bulung ning [[Wikipedia:Category]] a e me bibili itang artikulu ketang kategoryang ita,  without putting the article into the category, gumamit kang colon (:) ketang umpisa ning link.
+|
+<pre><nowiki>
+[[:Category:Character sets]]
+</nowiki></pre>
+|- id="link-external" valign="top"
+|
+Ating atlung paralan bang mituglung kareng link a atsu king "kilwal" (ala king wiki)"
+Ating atlung paralan ba kang mituglung kareng karinan king kilwal ning wiki:
+# Kabud namu URL: http://www.nupedia.com/ (e masanting a dapát)
+# Link a yalang lagyu: [http://www.nupedia.com/] ('''pekamatsurang dapát''')
+# Link a maki lagyu: [http://www.nupedia.com Nupedia]
+
+:Lon ya ing [[MetaWikiPedia:Interwiki_map]] para king listaan da reng shortcut.
+
+* Gagamitan la reng square brackets o [] para king tuglung a palwal o external link. Pansinan mu ing pamangamit king ''space'' (imbes na pipe) ba yang ikawani ing URL karetang letra ning link anti king bersyon a amanwan o "named" version.
+* Ketang [[URL]], kaylangan kayabe la king makatuki deng eganaganang character o letra/sulat:<br/>'''A-Z a-z 0-9 . _ \ / ~ % - + &amp; 
+# ? ! = ( ) @ \x80-\xFF'''
+* Nung ating character king URL a e kayabe kareti, kaylangan yang isulat by a maki markang percent (%) a tutukya'ning [[hexadecimal|hex]] code na ning character, a mayayakit king listaan da ring [[ASCII#ASCII printable characters|ASCII printable characters]]. Alimbawa, itang 
+character o simbolong caret (^) misulat ya king URL anting '''%5E'''.
+* Ating class a malyaring gamitan ba yang idayu ing "arrow image" ketang tuglung o link a palwal . Magagamit ya king [[Template:Ref]] ba yang e lalapad ing URL potang mag-print. '''Agyang kapilan''' e dapat magagamit ketang mismung artikulu, liban mu king metung a sitwasyun: wikilinks 
+king Image markup. Oyni ing alimbawa ning markup:
+** Markup: <nowiki><span 
+class="plainlinksneverexpand">[http://www.sysinternals.com/ntw2k/freeware/winobj.sht
+ml WinObj]</span></nowiki>
+** Display: <span 
+class="plainlinksneverexpand">[http://www.sysinternals.com/ntw2k/freeware/winobj.sht
+ml WinObj]</span>
+* Lon ya ing [[Wikipedia:External links]] para king style o format.
+|
+<pre><nowiki>
+Ating atlung paralan ba kang mituglung kareng karinan king kilwal ning wiki:
+# Kabud namu URL: http://www.nupedia.com/ (e masanting a dapát)
+# Link a yalang lagyu: [http://www.nupedia.com/] ('''pekamatsurang dapát''')
+# Link a maki lagyu: [http://www.nupedia.com Nupedia]
+</nowiki></pre>
+|- valign="top"
+|
+Nung makananung mituglung kareng aliwang wiki:
+# [[Interwiki]] link: [[Wiktionary:Hello]]
+# Interwiki link a maki lagyu: [[Wiktionary:Hello|Hello]]
+# Interwiki link a alang prefix: [[Wiktionary:Hello|Hello]]
+
+* Dening eganaganang format idala ra ka king URL a http://en.wiktionary.org/wiki/Hello
+* Pansinan mung gagamitan de reng interwiki link ing ''internal'' link style.
+* Lon ya ing [[MetaWikiPedia:Interwiki_map]] para king listaan da reng shortcuts; nung ala yu king listaan ing karinan o site nung nu ka bisang mituglung, gumamit kang tuglung palwal o external link ([[#link-external|see above]]).
+* Pakilawe ya murin ing [[Wikipedia:How to link to Wikimedia projects]].
+
+Nung makananung mituglung king wiktionary ning aliwang amanu:
+# [[Wiktionary:fr:bonjour]]
+# [[Wiktionary:fr:bonjour|bonjour]]
+# [[Wiktionary:fr:bonjour|fr:bonjour]]
+
+* Deng eganaganang format a reni idala raka king URL http://fr.wiktionary.org/wiki/bonjour
+|
+<pre><nowiki>
+Nung makananung mituglung kareng aliwang wiki:
+# [[Interwiki]] link: [[Wiktionary:Hello]]
+# Interwiki link a maki lagyu: [[Wiktionary:Hello|Hello]]
+# Interwiki link a alang prefix: [[Wiktionary:Hello|Hello]]
+
+Nung makananung mituglung king wiktionary ning aliwang amanu:
+# [[Wiktionary:fr:bonjour]]
+# [[Wiktionary:fr:bonjour|bonjour]]
+# [[Wiktionary:fr:bonjour|fr:bonjour]]
+</nowiki></pre>
+|- valign="top"
+|
+ISBN 012345678X
+
+ISBN 0-12-345678-X
+
+* Mag-link ka kareng libru kapamilata'ning karelang  [[Wikipedia:ISBN|ISBN].  Masanting ya ini kesa king mitutuglung king partikular a online bookstore, uling malyaring kang mamiling magtindang libru.
+* E la mangaylangan karagdagang character o letra deng ISBN link, basta gamitan mo retang format a makabili keni. 
+|
+<pre><nowiki>
+ISBN 012345678X
+
+ISBN 0-12-345678-X
+</nowiki></pre>
+|- valign=top
+|
+Format para kareng petsa:
+# [[July 20]], [[1969]]
+# [[20 July]] [[1969]]
+# [[1969]]-[[07-20]]
+# [[1969-07-20]]
+
+* Ituglung mo reng petsa king metung kareng format a atsu babo, bang kanita deng eganagana malyari lang mamili king karelang pamituki-tuki o display order. 
+Nung [[Special:Userlogin|maka login ka]], malyari meng gamitan ing [[Special:Preferences]] ba meng alilan ing sarili mung
+date display setting.
+* Deng eganaganang petsa king babo lunto lang "[[20 July|20 July]] [[1969|1969]]" nung gawan meng "15 January 2001" ing kekang date display preference, pero lunto ne mang "[[20 July|July 20]], [[1969|1969]]" nung i-set me king "January 15, 2001", o "[[1969|1969]]-[[July 20|07-20]]" nung i-set me king
+"2001-01-15".
+|
+<pre><nowiki>
+Format para kareng petsa:
+# [[July 20]], [[1969]]
+# [[20 July]] [[1969]]
+# [[1969]]-[[07-20]]
+# [[1969-07-20]]
+
+</nowiki></pre>
+|- valign="top"
+|
+[[media:Sg_mrob.ogg|Sound]]
+
+*Bang mituglung kareng non-image upload anti kareng katni o sound, gumamit kang "media" link. Para kareng larawan, 
+[[#Images|see next section]].
+
+Makalista la reng mapilan a me-upload a sound king [[Wikipedia:Sound]].
+|
+<pre><nowiki>
+[[media:Sg_mrob.ogg|Sound]]
+</nowiki></pre>
+|}
+
+=== Larawan ===
+Deta mung larawan a maka-uploaded king Wikipedia ing malyaring gamitan. Bang mag-upload larawan, gamitan me ing 
+[[Special:Upload|upload page]]. Akit me ing larawan a me-upload king
+[[Special:Imagelist|image list]].
+
+{| border="1" cellpadding="2" cellspacing="0"
+|-
+! Nung nanu ya itsura
+! Nung nanu ing ta-type mu
+|- valign="top"
+|A picture: 
+[[Image:wiki.png]]
+|<pre>A picture: 
+<nowiki>[[Image:wiki.png]]</nowiki></pre>
+
+
+
+|- valign="top"
+|Maki text a panalili o alternative text:
+[[Image:wiki.png|jigsaw globe]]
+|<pre>With alternative text:
+<nowiki>[[Image:wiki.png|jigsaw globe]]</nowiki></pre>
+* Pakarekomenda ra ing pamangamit king alternative text, a magagamit neng atyu king babo ning larawan ing mouse, nung e maka-load ing larawan king text-only browser, o nung babasan yang masikan. Lon ya ing 
+[[Wikipedia:Alternate text for images|Alternate text for images]] para king pamamye lino king pamangamit kaniti.
+
+
+|- valign="top"
+|Galo ya papunta king wanan ning bulung a maki sulat:
+[[Image:wiki.png|frame|Wikipedia Encyclopedia]]<br clear=all>
+|<pre> Galo ya papunta king wanan ning bulung a maki sulat:
+<nowiki>[[Image:wiki.png|frame|Wikipedia Encyclopedia]]</nowiki></pre>
+* Tambing neng igalo papuntang wanan ning frame tag ing larawan.
+* Magagamit ya muring alternate text ing caption o sulat a tungkul king larawan.
+
+
+|- valign="top"
+|Gagalong papunta king wanan ning bulung a ''alang'' caption:
+[[Image:wiki.png|right|Wikipedia Encyclopedia]]
+|<pre>Gagalong papunta king wanan ning bulung a ''alang'' caption:
+<nowiki>[[Image:wiki.png|right|Wikipedia Encyclopedia]]</nowiki></pre>
+* Atyu ing help topic king [[En:Wikipedia:Extended image syntax|Extended image syntax]] , a babye aliwa pang pipamilinan.
+
+
+|- valign="top"
+|Linking directly to the description page of an image:
+[[:Image:wiki.png]]
+|<pre>Linking directly to the description page of an image:
+<nowiki>[[:Image:wiki.png]]</nowiki></pre>
+* Nung i-click me ing larawan a makalto king bulung (anti ing sanu man kareng atyu king babo) miras ka king description page
+
+|- valign="top"
+|Diretsung pamag-link king metung a larawan a e ya lalto ini:
+[[media:wiki.png|Larawan ning jigsaw globe logo]]
+|<pre>Diretsung pamag-link king metung a larawan a e ya lalto ini:
+<nowiki>[[media:wiki.png|Larawan ning jigsaw globe logo]]</nowiki></pre>
+* Bang mituglung kareng larawan a lunto la mung link deti at e la lulwal king bulung, gamitan ya ing "media" link.  
+
+
+|}
+
+Lon me ing [[Wikipedia:Image use policy|image use policy]] ning Wikipedia anting daklat o guideline kareng patakaran ning Wikipedia.
+
+Para king karagdagang saup king pamangamit kareng larawan, kayabe no reng aliwa o bayung gamit da reti, lon me ing paksa tungkul king  
+[[En:Wikipedia:Extended image syntax|Extended image syntax]].
+
+=== Pamanayus o pamag-format kareng character ===
+{| border="1" cellpadding="2" cellspacing="0"
+|- valign="top"
+! Nung nanu ya itsura
+! Nung nanu ing i-type mu
+|- id="emph" valign="top"
+|
+''Emphasize'', '''strongly''', '''''very strongly'''''.
+* Deni double, triple, at quintuple apostrophes (single-quote marks) la, at e la double-quote marks.
+|
+<pre><nowiki>
+''Emphasize'', '''strongly''', '''''very strongly'''''.
+</nowiki></pre>
+|- valign="top"
+|
+<math>\sin x + \ln y</math><br>
+sin''x'' + ln''y''
+<!-- no space between roman "sin" and italic "x" -->
+
+<math>\mathbf{x} = 0</math><br>
+'''x''' = 0
+
+Ing [[#emph|wiki markup]] ing kaylangang gamitan para king emphasis kareng karaniwang sulat, at e dapat magagamit ing <code>&lt;i&gt;</code> o <code>&lt;b&gt;</code>.  Makanyan pa man, deng formula king matematica marlas lang gagamit italics, at neng kai bold, king aliwang sangkan bukud king emphasis.  Ing [[Help:Formula|<code>&lt;math&gt;</code> markup]], ing kaylangang gamitan kareng komplikadung formula. Deta namang simpling formula malyari lang gumamit <code>&lt;math&gt;</code>; o <code>&lt;i&gt;</code> ampong 
+<code>&lt;b&gt;</code>; o <code><nowiki>''</nowiki></code> ampong 
+<code><nowiki>'''</nowiki></code>.  Agpang king [[Wikipedia:WikiProject 
+Mathematics#Italicization and bolding|WikiProject Mathematics]], mas masanting yang gamitan ing wiki markup kesa king HTML markup anti ing <code>&lt;i&gt;</code> ampo ing <code>&lt;b&gt;</code>.
+|
+<pre><nowiki>
+<math>\sin x + \ln y</math>
+sin''x'' + ln''y''
+
+<math>\mathbf{x} = 0</math>
+'''x''' = 0
+</nowiki></pre>
+|- valign="top"
+|
+Metung a typewriter font para king <tt>monospace text</tt>
+o para king computer code: <code>int main()</code>
+
+* Uling malyaring miyalilan ing kabaldugan (semantic reasons), mas masanting yang gamitan ing <code>&lt;code&gt;</code> nung malyari ya ini kesa king 
+<code>&lt;tt&gt;</code>.
+|
+<pre><nowiki>
+Metung a typewriter font para king <tt>monospace text</tt>
+o para king computer code: <code>int main()</code>
+</nowiki></pre>
+|- valign="top"
+|
+Malyari kang gumamit <small>small text</small> para kareng caption.
+|
+<pre><nowiki>
+Malyari kang gumamit <small>small text</small> para kareng caption.
+</nowiki></pre>
+|- valign="top"
+|
+Malyari kang mag- <s>strike out (markan itang buri mung ilako)</s>
+at u>underline (gulisan king lalam itang kasulatan a midagdag)</u>.
+
+Malyari mu muring markan itang <del>deleted material (sulat a midayu)</del> ampong <ins>inserted material (sulat a misingit)</ins> kapamilata'ning logical markup imbas na visual markup (itang makalto).
+
+* Neng mag-edit ka kareng karaniwang artikulong Wikipedia, alilan mu mû kabud    itang makasulat at e mo mamarkan king sanumang paralan.
+* Neng e-edit mu itang minuna mung sinulat kareng talk pages, neng kai makasaup nung markan mu itang sulat a mebawas o midagdag. 
+|
+<pre><nowiki>
+Malyari kang mag- <s>strike out (markan itang buri mung ilako)</s>
+at u>underline (gulisan king lalam itang kasulatan a midagdag)</u>.
+
+Malyari mu muring markan itang <del>deleted material (sulat a midayu)</del> ampong <ins>inserted material (sulat a misingit)</ins> kapamilata'ning logical markup imbas na visual markup (itang makalto).
+</nowiki></pre>
+|- valign="top"
+|
+'''Deng diacritical mark:'''
+<br/>
+À Á Â Ã Ä Å <br/>
+Æ Ç È É Ê Ë <br/>
+Ì Í
+Î Ï Ñ Ò <br/>
+Ó Ô Õ
+Ö Ø Ù <br/>
+Ú Û Ü ß
+à á <br/>
+â ã ä å æ
+ç <br/>
+è é ê ë ì í<br/>
+î ï ñ ò ó ô <br/>
+&oelig; õ
+ö ø ù ú <br/>
+û ü ÿ
+
+* Basan me ing [[meta:Help:Special characters|special characters]].
+|
+<br/>
+<pre><nowiki>
+&amp;Agrave; &amp;Aacute; &amp;Acirc; &amp;Atilde; &amp;Auml; &amp;Aring; 
+&amp;AElig; &amp;Ccedil; &amp;Egrave; &amp;Eacute; &amp;Ecirc; &amp;Euml; 
+&amp;Igrave; &amp;Iacute; &amp;Icirc; &amp;Iuml; &amp;Ntilde; &amp;Ograve; 
+&amp;Oacute; &amp;Ocirc; &amp;Otilde; &amp;Ouml; &amp;Oslash; &amp;Ugrave; 
+&amp;Uacute; &amp;Ucirc; &amp;Uuml; &amp;szlig; &amp;agrave; &amp;aacute; 
+&amp;acirc; &amp;atilde; &amp;auml; &amp;aring; &amp;aelig; &amp;ccedil; 
+&amp;egrave; &amp;eacute; &amp;ecirc; &amp;euml; &amp;igrave; &amp;iacute;
+&amp;icirc; &amp;iuml; &amp;ntilde; &amp;ograve; &amp;oacute; &amp;ocirc; 
+&amp;oelig; &amp;otilde; &amp;ouml; &amp;oslash; &amp;ugrave; &amp;uacute; 
+&amp;ucirc; &amp;uuml; &amp;yuml;
+</nowiki></pre>
+|- valign="top"
+|
+'''Punctuation:'''
+<br/>
+¿ ¡ § <br/>
+&dagger; &Dagger; &bull; &ndash; &mdash;<br/>
+&lsaquo; &rsaquo; « »<br/>
+&lsquo; &rsquo; &ldquo; &rdquo;
+|
+<br/>
+<pre><nowiki>
+&amp;iquest; &amp;iexcl; &amp;sect; &amp;para;
+&amp;dagger; &amp;Dagger; &amp;bull; &amp;ndash; &amp;mdash;
+&amp;lsaquo; &amp;rsaquo; &amp;laquo; &amp;raquo;
+&amp;lsquo; &amp;rsquo; &amp;ldquo; &amp;rdquo;
+</nowiki></pre>
+|- valign="top"
+|
+'''Deng commercial symbols:'''
+<br/>
+&trade; (c) (r) ¢ &euro; ¥<br/>
+£ ¤
+|
+<br/>
+<pre><nowiki>
+&amp;trade; &amp;copy; &amp;reg; &amp;cent; &amp;euro; &amp;yen; 
+&amp;pound; &amp;curren;
+</nowiki></pre>
+|- valign="top"
+|
+'''Subscripts:'''
+<br/>
+x<sub>1</sub> x<sub>2</sub> x<sub>3</sub> or
+<br/>
+x&#8320; x&#8321; x&#8322; x&#8323; x&#8324;
+<br/>
+x&#8325; x&#8326; x&#8327; x&#8328; x&#8329;
+
+'''Deng superscripts:'''
+<br/>
+x<sup>1</sup> x<sup>2</sup> x<sup>3</sup> or
+<br/>
+x&#8304; x&sup1; x&sup2; x&sup3; x&#8308;
+<br/>
+x&#8309; x&#8310; x&#8311; x&#8312; x&#8313;
+
+*E la magsilbing gamitang pangkabilugan (general use) detang tawling paralang pangawang subscript ampong superscript uling magdependi la reti king Unicode, at malyaring e balang computer atin kaniti. Pero karetang 1-2-3 superscript, mapalyaring ini ing mas masanting gamitan basta posibli iti (anti kareng sukad o units of measure) uling mas malagwa lang mag-format linya reng browser nung ini ing magagamit.
+
+&epsilon;<sub>0</sub> =
+8.85 &times; 10<sup>&minus;12</sup>
+C&sup2; / J m.
+
+1 [[hectare]] = [[1 E4 m&sup2;]]
+|
+<br/>
+<pre><nowiki>
+x<sub>1</sub> x<sub>2</sub> x<sub>3</sub> or
+<br/>
+x&amp;#8320; x&amp;#8321; x&amp;#8322; x&amp;#8323; x&amp;#8324;
+<br/>
+x&amp;#8325; x&amp;#8326; x&amp;#8327; x&amp;#8328; x&amp;#8329;
+</nowiki></pre>
+
+<pre><nowiki>
+x<sup>1</sup> x<sup>2</sup> x<sup>3</sup> or
+<br/>
+x&amp;#8304; x&amp;sup1; x&amp;sup2; x&amp;sup3; x&amp;#8308;
+<br/>
+x&amp;#8309; x&amp;#8310; x&amp;#8311; x&amp;#8312; x&amp;#8313;
+
+&amp;epsilon;<sub>0</sub> =
+8.85 &amp;times; 10<sup>&amp;minus;12</sup>
+C&amp;sup2; / J m.
+
+1 [[hectare]] = [[1 E4 m&amp;sup2;]]
+</nowiki></pre>
+|- valign="top"
+|
+'''Greek characters:'''
+<br/>
+&alpha; &beta; &gamma; &delta; &epsilon; &zeta;<br/>
+&eta; &theta; &iota; &kappa; &lambda; &mu; &nu;<br/>
+&xi; &omicron; &pi; &rho; &sigma; &sigmaf;<br/>
+&tau; &upsilon; &phi; &chi; &psi; &omega;<br/>
+&Gamma; &Delta; &Theta; &Lambda; &Xi; &Pi;<br/>
+&Sigma; &Phi; &Psi; &Omega;
+|
+<br/>
+<pre><nowiki>
+&amp;alpha; &amp;beta; &amp;gamma; &amp;delta; &amp;epsilon; &amp;zeta; 
+&amp;eta; &amp;theta; &amp;iota; &amp;kappa; &amp;lambda; &amp;mu; &amp;nu; 
+&amp;xi; &amp;omicron; &amp;pi; &amp;rho; &amp;sigma; &amp;sigmaf;
+&amp;tau; &amp;upsilon; &amp;phi; &amp;chi; &amp;psi; &amp;omega;
+&amp;Gamma; &amp;Delta; &amp;Theta; &amp;Lambda; &amp;Xi; &amp;Pi; 
+&amp;Sigma; &amp;Phi; &amp;Psi; &amp;Omega;
+</nowiki></pre>
+|- valign="top"
+|
+'''Deng mathematical character:'''
+<br/>
+&int; &sum; &prod; &radic; &minus; &plusmn; &infin;<br/>
+&asymp; &prop; &equiv; &ne; &le; &ge;<br/>
+&times; &middot; &divide; &part; &prime; &Prime;<br/>
+&nabla; &permil; &deg; &there4; &alefsym; &oslash;<br/>
+&isin; &notin; &cap; &cup; &sub; &sup; &sube; &supe;<br/>
+&not; &and; &or; &exist; &forall; &rArr; &hArr;<br/>
+&rarr; &harr;<br/>
+* Basan ya murin ing [[Wikipedia:WikiProject Mathematics|WikiProject Mathematics]].
+|
+<br/>
+<pre><nowiki>
+&amp;int; &amp;sum; &amp;prod; &amp;radic; &amp;minus; &amp;plusmn; 
+&amp;infin;
+&amp;asymp; &amp;prop; &amp;equiv; &amp;ne; &amp;le; &amp;ge;
+&amp;times; &amp;middot; &amp;divide; &amp;part; &amp;prime; &amp;Prime;
+&amp;nabla; &amp;permil; &amp;deg; &amp;there4; &amp;alefsym; &amp;oslash;
+&amp;isin; &amp;notin; &amp;cap; &amp;cup; &amp;sub; &amp;sup; &amp;sube; 
+&amp;supe;
+&amp;not; &amp;and; &amp;or; &amp;exist; &amp;forall; &amp;rArr; &amp;hArr;
+&amp;rarr; &amp;harr;
+</nowiki></pre>
+|- valign="top"
+|
+'''Pilatan o spacing kareng simpling formula king math:'''
+<br/>
+Malinong ing ''x''&sup2;&nbsp;&ge;&nbsp;0 tutu ya.
+*Bang mangibiling pilatan a e masisira ing formula kareng line break, gumamit kang non-breaking spaces o pilatan a e mamakli: <tt>&amp;nbsp;</tt>.
+|
+<br/>
+<pre><nowiki>
+Obviously, ''x''&amp;sup2;&amp;nbsp;&amp;ge;&amp;nbsp;0 is true.
+</nowiki></pre>
+|- valign="top"
+|
+'''Deng komplikadung formula:'''
+<br/>
+: <math>\sum_{n=0}^\infty \frac{x^n}{n!}</math>
+* Basan me ing [[Help:Formula]] a mag-isplika nung makananu yang gagamitan ing <tt>&lt;math></tt>.
+* Nung ya mung dili king linya ing metung a formula, keraklan masanting yang ipalub (indent).  Itang colon (:) ing gagamitan kaniting pamag-indent.
+|
+<br/>
+<pre><nowiki>
+: <math>\sum_{n=0}^\infty \frac{x^n}{n!}</math>
+</nowiki></pre>
+|- valign="top"
+|
+'''Pamamigil (suppressing) king interpretasyun ning markup:'''
+<br/>
+<nowiki>Link &rarr; (''to'') the [[Wikipedia FAQ]]</nowiki>
+* Gagamitan ya bang ipalto ing literal a data a mika espesyal a kabaldugan nung e mu gawan iti.
+* Lisyan (escape) ing eganaganang wiki markup, angga detang lupang HTML tags.
+* E no lisyan (does not escape) deng HTML character references.
+* Ba lang lisyan deng HTML character references anti ing <tt>&amp;rarr;</tt> gamitan me ing <tt>&amp;amp;rarr;</tt>
+|
+<br/>
+<pre><nowiki>
+&lt;nowiki>Link &amp;rarr; (''to'') 
+the [[Wikipedia FAQ]]&lt;/nowiki>
+</nowiki></pre>
+|- valign="top"
+|
+'''Commenting page source:'''
+<br/>
+''e makalto king viewing page''
+* Gagamitan ya ini bang maglakwan komentu para kareng tutuking editor.
+* Tandanan mung ding keraklan kareng komentu dapat kareta lang ustung [[Wikipedia:Talk page|Talk page]].
+|
+<br/>
+<pre><nowiki>
+&lt;!-- comment here -->
+</nowiki></pre>
+|}
+''(basan me murin ing: [[Chess symbols in Unicode]])''
+
+=== Kalamnan (Table of Contents) ===
+==== Pamangabit king Kalamnan [Table of Contents (TOC)] ====
+King kasulukuyang kabilyan (status) ning wiki markup language, lunto yang tambing ing TOC king arap ning mumunang pamagat (header) o kaybat ning pamipakilala (introductory section) ustung miras lang apat deng pamagat king metung a bulung. 
+Nung ibili me ing <nowiki>__TOC__</nowiki> king aliwang lugal, lunto ya karin ing TOC katuki na nita (imbes na bayu ing mumunang pamagat). Nung ibili mu ne man ing <nowiki>__NOTOC__</nowiki> king sanumang lugal, mawala ya ing TOC. Basan me murin ing
+[[Wikipedia:Section#Compact_TOC|compact TOC]] for alphabet and year headings.
+
+==== Ba lang e lunto king Kalamnan deng pamagat ====
+
+Nung ating kang e buring luntong subheading king Kalamnan, deni ing alilan mu.
+
+Alilan me ing  <nowiki> == Header 2 == king <h2> Header 2 </h2> </nowiki>
+
+Alilan me ing  <nowiki> === Header 3 === king <h3> Header 3 </h3> </nowiki>
+
+At aliwa pa.
+
+Alimbawa, pansinan mung ing makatuking pamagat parehu ya font kareng aliwang subheader ning seksyon a iti ("Deng Table"), pero e makalto king Kalamnan para king bulung a ini.
+
+<h4> Makasulat ya king format a h4 ing pamagat a ini, pero ALA yu king Kalamnan</h4>
+
+Malyari mung agawa ing pangasulat a anti kaniti nung gamitan mu ing code a makatuki.
+
+<code><nowiki><h4> This header has the h4 font, but is NOT in the Table of Contents 
+</h4></nowiki></code>
+
+Nung balang section ing pamag-edit mu, tandanan mung king sistemang iti, bibili ya ing sulat (text) king pilatan da reng tag ketang makatuking dake (section) at e ketang mumunang dake. Ba meng i-edit ining babasan mu, I-click me ing "Deng Table", aliwa itang atyu king babo.    
+
+=== Deng Table ===
+Adwa la reng paralan bang gawang table: 
+*king special Wiki-markup (lon me ing [[Help:Table]])
+*karetang karaniwang HTML element: &lt;table&gt;, &lt;tr&gt;, &lt;td&gt; or &lt;th&gt;.
+
+Para ketang kadwa, lon ya ing makatuki, a mag-isplika murin nung kapilan dapat gumamit table
+[[Wikipedia:How to 
+use tables]].
+
+===Deng Variable===
+
+''(Lon me murin ing [[Help:Variable]])''
+{|
+|-
+! Code
+! Effect
+|-
+| <nowiki>{{CURRENTMONTH}}</nowiki> || {{CURRENTMONTH}}
+|-
+| <nowiki>{{CURRENTMONTHNAME}}</nowiki>
+| {{CURRENTMONTHNAME}}
+|-
+| <nowiki>{{CURRENTMONTHNAMEGEN}}</nowiki>
+| {{CURRENTMONTHNAMEGEN}}
+|-
+| <nowiki>{{CURRENTDAY}}</nowiki> || {{CURRENTDAY}}
+|-
+| <nowiki>{{CURRENTDAYNAME}}</nowiki> || {{CURRENTDAYNAME}}
+|-
+| <nowiki>{{CURRENTYEAR}}</nowiki> || {{CURRENTYEAR}}
+|-
+| <nowiki>{{CURRENTTIME}}</nowiki> || {{CURRENTTIME}}
+|-
+| <nowiki>{{NUMBEROFARTICLES}}</nowiki>
+| {{NUMBEROFARTICLES}}
+|-
+| <nowiki>{{PAGENAME}}</nowiki> || {{PAGENAME}}
+|-
+| <nowiki>{{NAMESPACE}}</nowiki> || {{NAMESPACE}}
+|-
+| <nowiki>{{localurl:pagename}}</nowiki>
+| {{localurl:pagename}}
+|-
+| <nowiki>{{localurl:</nowiki>''Wikipedia:Sandbox''<nowiki>|action=edit}}</nowiki>
+| {{localurl:Wikipedia:Sandbox|action=edit}}
+|-
+| <nowiki>{{SERVER}}</nowiki> || {{SERVER}}
+|-
+| <nowiki>{{ns:1}}</nowiki> || {{ns:1}}
+|-
+| <nowiki>{{ns:2}}</nowiki> || {{ns:2}}
+|-
+| <nowiki>{{ns:3}}</nowiki> || {{ns:3}}
+|-
+| <nowiki>{{ns:4}}</nowiki> || {{ns:4}}
+|-
+| <nowiki>{{ns:5}}</nowiki> || {{ns:5}}
+|-
+| <nowiki>{{ns:6}}</nowiki> || {{ns:6}}
+|-
+| <nowiki>{{ns:7}}</nowiki> || {{ns:7}}
+|-
+| <nowiki>{{ns:8}}</nowiki> || {{ns:8}}
+|-
+| <nowiki>{{ns:9}}</nowiki> || {{ns:9}}
+|-
+| <nowiki>{{ns:10}}</nowiki> || {{ns:10}}
+|-
+| <nowiki>{{ns:11}}</nowiki> || {{ns:11}}
+|-
+| <nowiki>{{ns:12}}</nowiki> || {{ns:12}}
+|-
+| <nowiki>{{ns:13}}</nowiki> || {{ns:13}}
+|-
+| <nowiki>{{ns:14}}</nowiki> || {{ns:14}}
+|-
+| <nowiki>{{ns:15}}</nowiki> || {{ns:15}}
+|-
+| <nowiki>{{SITENAME}}</nowiki> || {{SITENAME}}
+|}
+
+'''NUMBEROFARTICLES''' ing bilang da reng bulung king main namespace a maki link at ali redirect. King makuyad a salita ing bilang da reng artikulu, stub ampong disambiguation pages.
+
+Ing '''CURRENTMONTHNAMEGEN''' atyu king genitive (possessive) grammatical form ning month name, anti ing magagamit kareng mapilan a amanu. Ing '''CURRENTMONTHNAME''' naman, atyu kingnominative (subject) form, itang magagamit king English.
+
+Karetang amanung malyaring manaliwa kabaldugan, magsilbi lang gamitan deng format a <nowiki>{{grammar:case|word}}</nowiki> ba yang ma-convert o miyalilan ing amanu manibat king nominative case papunta king aliwa pang case.  Alimbawa, ing  <nowiki>{{grammar:genitive|{{CURRENTMONTHNAME}}}}</nowiki> pareu ya kabaldugan king   <nowiki>{{CURRENTMONTHNAMEGEN}}</nowiki>.
+<!-- Is there a 
+reference for this, other than the source code (for example, 
+phase3/languages/Lnaguage*.php) ? -->
+
+===Deng Template===
+
+Atin yang suporta para kareng template ing [[Wikipedia:MediaWiki|MediaWiki]]  software a gagamita'ning Wikipedia. Ing buri nang sabyan niti, malyari lang isingit kareng artikulu deng standardized text chunks o standard a grupu da reng sulat (anti ing [[Wikipedia:Template messages|boilerplate]] text). Malyari meng saupan ing Wikipedia ba yang [[Wikipedia:Stub|expanding it]].''" potang ma-save ya ing bulung.
+Lon me ing [[Wikipedia:Template messages]] para king kumpletung listaan. Deng makatuki ila reng marlas magagamit:
+<nowiki>{{disambig}}</nowiki> para kareng disambiguation pages, <nowiki>{{spoiler}}</nowiki> para kareng spoiler warning, ampong <nowiki>{{sectstub}}</nowiki> a anting article stub pero para king metung a dake o section. 
+Dakala lang stub a partikular king metung a paksa (subject-specific stubs), anti reti: <nowiki> {{Geo-stub}}, {{Hist-stub}}, at {{Linux-
+stub}}</nowiki>. Oyni ing kumpletung listaan da reng stub: [[WP:WSS/ST]].
+
+===Ing pamanyalikut kareng edit link===
+
+Isingit ya ing '''<nowiki>__NOEDITSECTION__</nowiki>''' king dokumentu ba lang isalikut deng edit link a laltong katuki ning pamagat ning balang dake o section header.
+
+==Karagdagang impormasyun tungkul king pamag-edit kareng bulung ning wiki==
+
+Mapalyaring buri mu la ring panigaralan deni:
+
+* [[Help:Starting a new page|How to start a page]] 
+* Informal tips on [[Wikipedia:Contributing to Wikipedia|contributing to Wikipedia]]
+* Editing tasks in general at the [[Wikipedia:Editing FAQ]]
+* Why not to rename pages '''boldly''', at [[Wikipedia:How to rename (move) a page]]
+* Preferred layout of your article, at [[Wikipedia:Guide to Layout|Guide to Layout]] (see also [[Wikipedia:Boilerplate text]])
+* Style conventions in the [[Wikipedia:Manual of Style]]
+* An article with annotations pointing out common Wikipedia style and layout issues, at [[Wikipedia:Annotated article]]
+* General policies in [[Wikipedia:Policies and guidelines]]
+* [[Wikipedia:Naming conventions]] for how to name articles themselves
+* If you are making an article about something that belongs to a group of objects (a city, an astronomical object, a chinese character...) check if there is a [[Wikipedia:WikiProject|WikiProject]] on the group and try to follow its directions explicitly.
+*[[Help:Formula]]
+*[[m:Help:Editing|Mediawiki user's guide to editing]]
+*[[Wikipedia:MediaWiki]]
+* Finally, for a list of  articles about editing Wikipedia consult [[Wikipedia:Style and How-to Directory]].
+
+
+[[Category:Wikipedia how-to|How to edit a page]]
+
+<!-- Interlanguage links -->
+[[ang:Wikipedia:How to edit a page]]
+[[ar:&#1608;&#1610;&#1603;&#1610;&#1576;&#1610;&#1583;&#1610;&#1575;:&#1605;&#1587;&#1575;&#1593;&#1583;&#1577; &#1575;&#1604;&#1578;&#1581;&#1585;&#1610;&#1585;]][[bg:&#1059;&#1080;&#1082;&#1080;&#1087;&#1077;&#1076;&#1080;&#1103;:&#1050;&#1072;&#1082; &#1089;&#1077; &#1088;&#1077;&#1076;&#1072;&#1082;&#1090;&#1080;&#1088;&#1072;&#1090; &#1089;&#1090;&#1088;&#1072;&#1085;&#1080;&#1094;&#1080;]]
+[[ca:Viquipèdia:Com s'edita una pàgina]]
+[[cs:Wikipedie:Jak editovat stránku]]
+[[el:Wikipedia:&#928;&#974;&#962; &#957;&#945; &#949;&#960;&#949;&#958;&#949;&#961;&#947;&#945;&#963;&#964;&#949;&#943;&#964;&#949; &#956;&#953;&#945; &#963;&#949;&#955;&#943;&#948;&#945;]]
+[[es:Wikipedia:Cómo se edita una página]]
+[[fi:Wikipedia:Kuinka_sivuja_muokataan]]
+[[fr:Wikipédia:Syntaxe wikipédia]]
+[[ga:Vicipéid:Conas alt a chur in eagar]]
+[[he:&#1493;&#1497;&#1511;&#1497;&#1508;&#1491;&#1497;&#1492;:&#1488;&#1497;&#1498; &#1500;&#1506;&#1512;&#1493;&#1498; &#1491;&#1507;]]
+[[hi:&#2354;&#2375;&#2326; &#2325;&#2379; &#2325;&#2376;&#2360;&#2375; &#2348;&#2342;&#2354;&#2375;&#2306;]]
+[[hu:Wikipédia:Hogyan szerkessz egy lapot]]
+[[id:Wikipedia:Menyunting_sebuah_halaman]]
+[[it:Wikipedia:Guida_essenziale]]
+[[lt:Wikipedia:Kaip_Redaguoti_Puslap%C4%AF]]
+[[ja:Wikipedia:&#32232;&#38598;&#12398;&#20181;&#26041;]]
+[[no:Wikipedia:Hvordan man redigerer en side]]
+[[nl:Help:Uitleg]]
+[[nn:Hjelp:Redigering]]
+[[pt:Wikipedia:Como_editar_uma_p%C3%A1gina]]
+[[ro:Wikipedia:Cum s&#259; editezi o pagin&#259;]]
+[[simple:Wikipedia:How to edit]]
+[[sl:Wikipedija:Urejevanje slovenskih strani]]
+[[sr:%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%98%D0%B0:%D0%9A%D0%B0%D0%BA%D0%BE_%D1%81%D0%B5_%D0%BC%D0%B5%D1%9A%D0%B0_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B0]]
+[[sv:Wikipedia:Hur man redigerar en sida]]
+[[tr:Wikipedia:Sayfa_nas%C4%B1l_de%C4%9Fi%C5%9Ftirilir]]
+[[ur:%D8%B5%D9%81%D8%AD%DB%81_%DA%A9%D8%B3_%D8%B7%D8%B1%D8%AD_%D8%AA%D8%B1%D9%85%D9%8A%D9%85_%DA%A9%D8%B1%D9%8A%DA%BA]]
+[[vi:Help:S&#7917;a &#273;&#7893;i]]
+[[zh-min-nan:Help:Pian-chi&#781;p]]
+[[zh-cn:Wikipedia:%E5%A6%82%E4%BD%95%E7%BC%96%E8%BE%91%E9%A1%B5%E9%9D%A2]]
+[[zh-tw:Wikipedia:&#22914;&#20309;&#32232;&#36655;&#38913;&#38754;]]
