@@ -186,6 +186,18 @@ Thanks in advance - [[User:Foxie001|Foxie001]] 06:51, 6 Agostu 2009 (UTC)
 *'''[[Special:Contributions/MerlLinkBot|Contributions]]'''
 Could sb. please help me to localize the edit summary of my bot for pam? I have described the four possible edit summaries at [[User talk:MerlLinkBot]]. [[User:Merlissimo|Merlissimo]] 11:55, 9 Nobiembri 2010 (UTC)
 
+=== [[User:HiW-Bot|HiW-Bot]] ===
+* Operator                       : [[:de:Benutzer:Hedwig in Washington|Hedwig in Washington]]
+* Automatic or Manually Assisted : automatic
+* Programming Language(s)        : Python (pywikipedia), daily update
+* Function Summary               : Interwiki, Internationalization by removing chaos in Babel-Category so it can be used properly and easy. Double redirects will be added shortly
+* Already has a bot flag (Y/N)   : Yes: 26 Wikis so far, others pending. [http://toolserver.org/~vvv/sulutil.php?user=HiW-Bot see here]
+* Function Details               : just using the standard interwiki.py; parameters: -auto -all - log -catr 
+
+I humbly request bot status on this wiki in order to update Interwiki, and improve Internationalization by removing chaos in Babel so it can be used properly and easy by everyone.
+
+Thank you for consideration! --[[User:Hedwig in Washington|Hedwig in Washington]] 23:34, 8 Setiembri 2011 (UTC)
+
 == [[User:TjBot|TjBot]] ==
 I request a bot flag for [[User:TjBot|TjBot]]
 * '''Bot operator''': [[:id:user:Tjmoel]]
