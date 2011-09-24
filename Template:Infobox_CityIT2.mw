@@ -84,10 +84,6 @@ left:{{#expr:100*({{{mapy}}}-6.627159) / (18.519859-6.627159) round 1}}%; height
 |}<noinclude><!--Leave <noinclude> starting in the same line as the last line of the template code-->
 [[Category:City infobox templates|Italy]]
 
-[[de:Vorlage:Gemeinde it]]
-[[fr:Modèle:Commune italienne]]
-[[hu:Sablon:Olasz Város]]
-[[it:Template:Comune]]
 [[ro:Format:Infobox_orase_Italia]]
 [[tr:Şablon:Infobox CityIT]]
 </noinclude>
