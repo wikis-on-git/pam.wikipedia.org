@@ -1,0 +1,82 @@
+<noinclude>{{esoteric}}</noinclude>
+<div style="float: right; margin: 0 0 1em 1em; width: auto; text-align: center; font-size: 90%; line-height: 1.4em; clear: right;">
+
+<div style="border: 1px solid #ccd2d9; width: 225px; background: #f9f9f9; text-align: left; padding: 0.5em 1em 0.5em 1em; text-align: center;">
+
+{| style="background: transparent; text-align: left; table-layout: auto; border-collapse: collapse; padding: 0; font-size: 100%;" cellspacing="0" cellpadding="0" width="100%"
+|+ style="margin-left: inherit; font-size: 135%; padding-bottom: 0.5em; line-height: 1.1em;" | '''{{PAGENAME}} kareng aliuang calendariu'''
+|- valign="top"
+|style="padding: 0.4em 1em 0.4em 0;" |[[Gregorian calendar]]
+|style="padding: 0.4em 1em 0.4em 0;" |{{#if:{{{gregcal|}}}|[[{{{gregcal}}}|{{PAGENAME}}]]|{{PAGENAME}}}} <br /> ''{{Roman|{{PAGENAME}}}}''
+|- valign="top"
+|style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | [[Ab urbe condita]]
+|style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{ #expr: {{PAGENAME}}+753 }}
+|- valign="top"
+|style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | [[Armenian calendar]]
+|style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{ #ifeq: {{#expr: ({{PAGENAME}}-550) > 0}} | 1 | {{ #expr: {{PAGENAME}}-551 }} <br /> ''ԹՎ {{Armenian|{{ #expr: {{PAGENAME}}-551 }}}}'' | ''N/A''}}
+|- valign="top"
+|style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | [[Chinese calendar]]
+|style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{ #expr: {{PAGENAME}}+2696 }} &ndash; {{ #expr: {{PAGENAME}}+2697 }} <br /> ''[[Sexagenary cycle|{{ #switch:{{ #expr: ({{PAGENAME}}-1) mod 10 }} |0=庚|1=辛|2=壬|3=癸|4=甲|5=乙|6=丙|7=丁|8=戊|9=己}}{{ #switch:{{ #expr: ({{PAGENAME}}-1) mod 12 }} |0=申|1=酉|2=戌|3=亥|4=子|5=丑|6=寅|7=卯|8=辰|9=巳|10=午|11=未}} &ndash; {{ #switch:{{ #expr: {{PAGENAME}} mod 10 }} |0=庚|1=辛|2=壬|3=癸|4=甲|5=乙|6=丙|7=丁|8=戊|9=己}}{{ #switch:{{ #expr: {{PAGENAME}} mod 12 }} |0=申|1=酉|2=戌|3=亥|4=子|5=丑|6=寅|7=卯|8=辰|9=巳|10=午|11=未}}]]''
+|- valign="top"
+|style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | [[Ethiopian calendar]]
+|style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{ #expr: {{PAGENAME}}-8 }} &ndash; {{ #expr: {{PAGENAME}}-7 }}
+|- valign="top"
+|style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | [[Hebrew calendar]]
+|style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{ #expr: {{PAGENAME}}+3760 }} &ndash; {{ #expr: {{PAGENAME}}+3761 }}
+|- valign="top"
+|style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0 0;"| [[Hindu calendar]]s
+|style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0 0;"|
+|- valign="top"
+|style="padding: 0 1em 0 0;"|- ''[[Vikram Samvat]]''
+|style="padding: 0 1em 0 0;"|{{ #expr: {{PAGENAME}}+55 }} &ndash; {{ #expr: {{PAGENAME}}+56 }}
+|- valign="top"
+|style="padding: 0 1em 0 0;"|- ''[[Indian national calendar|Shaka Samvat]]''
+|style="padding: 0 1em 0 0;"|{{ #ifeq: {{#expr: ({{PAGENAME}}-76) > 0}} | 1 | {{ #expr: {{PAGENAME}}-78 }} &ndash; {{ #expr: {{PAGENAME}}-77 }}| ''N/A''}}
+|- valign="top"
+|style="padding: 0 1em 0.4em 0;"|- ''[[Kali Yuga]]''
+|style="padding: 0 1em 0.4em 0;"|{{ #expr: {{PAGENAME}}+3101 }} &ndash; {{ #expr: {{PAGENAME}}+3102 }}
+|- valign="top"
+|style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | [[Iranian calendar]]
+|style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{ #ifeq: {{#expr: ({{PAGENAME}}-621) > 0}} | 1 | {{ #expr: {{PAGENAME}}-622 }} &ndash; {{ #expr: {{PAGENAME}}-621 }} | {{ #expr: (-1)*({{PAGENAME}}-622)}} BP &ndash; {{ #expr: (-1)*({{PAGENAME}}-621)}} BP}}
+|- valign="top"
+|style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | [[Islamic calendar]]
+|style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{ #ifeq: {{#expr: ({{PAGENAME}}-621) > 0}} | 1 | {{ #expr: {{PAGENAME}}+(({{PAGENAME}}-622)/32)-622 round 0}} &ndash; {{ #expr: ({{PAGENAME}}+1)+(({{PAGENAME}}-621)/32)-622 round 0}} | {{#expr: (-1)* ({{PAGENAME}}+(({{PAGENAME}}-622)/32)-622 round 0)}} BH &ndash; {{#expr: (-1)* (({{PAGENAME}}+1)+(({{PAGENAME}}-621)/32)-622 round 0)}} BH }}
+|- valign="top"
+|style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;"| [[Japanese calendar]]
+|style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;"|{{ #ifeq: {{#expr: ({{PAGENAME}}-644) > 0}} | 1 | {{{japanese|''unknown''}}} | ''N/A''}}
+|- valign="top"
+{{#if: {{{footnotes|}}} |
+{{!}} colspan="2" style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" {{!}} <small>{{{footnotes|}}}</small> }}
+|}
+</div>
+</div><noinclude>
+[[ar:قالب:السنة في التقاويم الأخرى]]
+[[ba:Ҡалып:Башҡа йыл иҫәбенә күсеү]]
+[[bn:টেমপ্লেট:Year in other calendars]]
+[[ca:Plantilla:Calendaris del món]]
+[[de:Vorlage:Linkbox Andere Kalender]]
+[[dsb:Pśedłoga:Lěto w drugich kalendarjach]]
+[[el:Πρότυπο:Έτος σε άλλα ημερολόγια]]
+[[en:Template:Year in other calendars]]
+[[eo:Ŝablono:Jaro en la aliaj kalendaroj]]
+[[es:Plantilla:Calendarios del mundo]]
+[[fr:Modèle:Calendriers du monde]]
+[[he:תבנית:לוחות שנה שונים]]
+[[hsb:Předłoha:Lěto w druhich kalendrach]]
+[[ht:Modèl:Lane sa nan tout almanak yo]]
+[[it:Template:Anno in altri calendari]]
+[[ja:Template:Year in other calendars]]
+[[ko:틀:기년법]]
+[[ln:Modèle:Bamanaka elóko mosúsu]]
+[[lv:Veidne:Gads citos kalendāros]]
+[[no:Mal:Årstall i andre kalendere]]
+[[oc:Modèl:Calendièrs del mond]]
+[[ru:Шаблон:Год в других календарях]]
+[[stq:Foarloage:Kalänner]]
+[[su:Citakan:TaunDinaKalenderSejen]]
+[[th:แม่แบบ:ปีในปฏิทินอื่น]]
+[[tr:Şablon:Takvim yılları]]
+[[udm:Шаблон:Ар мукет календарьёсын]]
+[[uk:Шаблон:Рік в інших календарях]]
+[[zh:Template:Year in other calendars]]
+</noinclude>
