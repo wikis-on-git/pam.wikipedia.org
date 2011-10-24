@@ -338,9 +338,9 @@
     -->{{#if:{{{leader_title1|}}}{{{leader_name1|}}} |<!--then:
          -->{{#if:{{{name|}}}{{{membership|}}}
             |<!--then template being used for geopolitical organization:
-              --><tr><th colspan="3">Leaders</th></tr><!--
+              --><tr><th colspan="3">Pekapun</th></tr><!--
          -->|<!--else template being used for a country or territory:
-              --><tr><th colspan="3">Government</th></tr><!--
+              --><tr><th colspan="3">Kapamahalan</th></tr><!--
          -->}}<!--
     -->}}<!--
 -->}}<!--
