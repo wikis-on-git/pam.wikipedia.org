@@ -1,382 +1,931 @@
-{{Infobox Geopolitical organization
-|name                        = Unrepresented Nations and Peoples Organization (UNPO)
-|linking_name                = the Unrepresented Nations and Peoples Organization
-|image_flag                  = Flag of the Unrepresented Nations and Peoples Organisation.svg
-|symbol_type                 =
-|image_map                   =|200px
-|map_caption                 = Click on map to enlarge and see color legend
-|membership                  = 50{{smallsup|1}} population groups
-|admin_center_type           = Headquarters
-|admin_center                = [[The Hague]], [[Netherlands]]
-|leader_title1               = [[Secretary-General]]
-|leader_name1                = [[Marino Busdachin]]<br/><small>(since 2010)</small>
-|established                 = February 11, 1991
-|official_website            = http://www.unpo.org/
-|population_estimate         = 
-|population_estimate_rank    =
-|population_estimate_year    =
-|footnote1                   = Last updated in October 2010.
-}}
+<table class="infobox geography vcard" style="width: 22em; font-size: 88%"><!--
 
-Ing '''Unrepresented Nations and Peoples Organization''' ('''UNPO'''), a mitátag anyang 11 Febrero 1991, king [[The Hague]], metung yang internasyunal a aguman o organisasyon da reng aguman a pampulitika ampong kapamahalan a pekakatawan da reng mibubulalag king sarili rang (self-proclaimed) tubung balayan (indigenous peoples), minorya, ampong estado o teritoryong e makikilala o masasakup.  Ing aguman sasanayan no reng grupung ibulalag kareng karelang layun o parasan. Deng aliwang sadyang kayanib, anti ing [[Armenia]], [[East Timor]], [[Estonia]], [[Latvia]] ampong [[Georgia (country)|Georgia]], mika ganap na lang katimawan, at miyabe la kareng Misasanmetung a Bangsa ([[United Nations]]).<ref>Barbara Crossette, [http://query.nytimes.com/gst/fullpage.html?res=9C0CE1DB1238F93BA25751C1A962958260 Those Knocking, Unheeded, at U.N.'s Doors Find Champion], [[New York Times]], 18 December 1994.</ref><ref name="An Anthropology of NGOs">Tishkov, Valerie, [http://www.eurozine.com/articles/2005-06-01-tishkov-en.html An Anthropology of NGOs], ''Eurozine'', July 2008</ref> Despite the "UN" in its acronym, UNPO is an [[NGO]] and not an agency of the United Nations.
+================================================================
+                                Deng Lagyu
+================================================================
+-->{{#if:{{{conventional_long_name|}}}{{{native_name|}}}{{{name|}}} |<!--then:
+     --><tr class="adr">
+          <th colspan="3" align="center" class="mergedtoprow"
+              style="line-height:1.2em; padding:0.25em 0.33em 0.33em; font-size:1.25em;"><!--
+           -->{{#if:{{{conventional_long_name|}}} |<!--then:--><span class=" fn org country-name">{{{conventional_long_name|}}}</span> }}<!--
+           -->{{#if:{{{native_name|}}}{{{name|}}}
+              |<!--then:--><div style="padding-top:0.25em;"><!--
+                -->{{br separated entries|{{{native_name|}}}|{{#if:{{{name|}}}|<span class="fn org country-name">{{{name|}}}</span>}}}}</div><!--
+           -->}}<!--
+       --></th>
+        </tr><!--
+-->}}<!--
 
-== Deng kayanib ==
-Deng makatuki ila reng limampulung (50) kayanib a makalista king bulung a UNPO ''Nations & People'', deng aguman a pekakatawan da, ampo reng petsa anyang linub la king UNPO <ref>http://www.worldstatesmen.org/International_Organizations2.html#UNPO</ref> (deng orihinal a kayanib atin lang iro o asul a kagulutan (blue background):
+================================================================
+                 Flag / Coat-of-arms (or other symbol)
+================================================================
+-->{{#if:{{{image_flag|}}}
+   |<!--thenF:
+    -----------------------------------------------------------
+     Flag provided, so display it and coat-of-arms (or other symbol) if provided:
+    -----------------------------------------------------------
+    --><tr class="mergedtoprow">
+         <td class="maptable" colspan="3" align="center" style="padding:0.5em 0;"><!--
+           --------------------------------------------------
+               Subtable to format coat-of-arms (or symbol)
+               display. Align="center"s and "width:auto;"s
+               are for sake of Internet Explorer.
+           --------------------------------------------------
+        --><table align="center" style="width:100%; background:none;"><!--
+             -----------Image/s-----------
+          --><tr>
+               <td align="center"
+                   style="{{#if:{{{image_coat|}}}{{{image_symbol|}}}
+                          |<!--then:-->
+{{#if:{{{flag_width|}}}
+                         |<!--then:-->width:{{{flag_width}}};<!--
+                      -->|<!--else:-->width:58%;<!--(58% as flags usually wider than coats-of-arms/symbols. Also accommodates IE.)--><!--
+                      -->}}
+}} vertical-align:middle;"><!--
+             -->[[File:{{{image_flag}}}|125px|border|alt={{{alt_flag|}}}|Flag of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}}]]<!--end border:--><!--
+            --></td>
+               {{#if:{{{image_coat|}}}{{{image_symbol|}}}
+               |<!--then:--><td align="center" style="width:auto; vertical-align:middle;"><!--
+                -->[[File:{{{image_coat|{{{image_symbol|}}}}}} |{{{symbol_width|85px}}} |alt={{{alt_coat|{{{alt_symbol|}}}}}}|{{{symbol_type|Coat of arms}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}}]]<!--
+            --></td>
+               }}
+             </tr><!--
+             ----------Caption/s----------
+          --><tr>
+               {{#if:{{{common_name|}}}{{{linking_name|}}}{{{name|}}} |<!--then:
+                 --><td align="center"><small>{{#ifexist:Flag of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |<!--then:-->[[Flag of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |{{{flag_caption|Flag}}}]]}}</small></td>
+               }}
+               {{#if:{{{image_coat|}}}{{{image_symbol|}}} |<!--then:
+                 --><td align="center"><small>{{#ifexist:{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |<!--then:-->[[{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |{{{symbol_type|Coat of arms}}}]]}}</small></td>
+               }}
+             </tr><!--
+           ---------End subtable:---------
+        --></table>
+         </td>
+       </tr><!--
 
-<!-- NOTE: THIS IS ARTICLE IS COVERING AN ORGANIZATION WITH SPECIFIC MEMBERS, IT IS NOT A LIST FOR ANY GROUP LOOKING FOR INDEPENDENCE OR AUTONOMY -->
-{| class="sortable wikitable"
-|-
-! Member
-! Date Joined
-! Representing
-! Continent
-|-
-| [[Abkhazia]]
-| {{dts|format=dmy|1991|8|6}}
-| Abkhazia
-| Europe
-|- style="background:#cdf;"
-| [[National Committee to Defend Black Rights]]
-| {{dts|format=dmy|1991|2|11}}
-| [[Indigenous Australians|Aboriginals of Australia]]
-| Oceania & Australasia
-|-
-| [[Freedom Front Plus]]
-| {{dts|format=dmy|2008|5|15}}
-| [[Afrikaner]]
-| Africa
-|-
-| [[Politics of Khūzestān Province#Democratic Solidarity Party of Al-Ahwaz|Democratic Solidarity Party of Al-Ahwaz]]
-| {{dts|format=dmy|2003|11|14}}
-| [[Iranian Arabs|Ahwazi]]
-| Asia
-|-
-| [[Assyrian Universal Alliance]]
-| {{dts|format=dmy|1991|8|6}}
-| [[Assyrian people|Assyria]]
-| Asia
-|-
-| [[Balochistan National Party]]
-| {{dts|format=dmy|2008|3|1}}
-| [[Balochistan (Pakistan)|Balochistan]]
-| Asia
-|-
-| [[Community of Indigenous Peoples of Rwanda]]
-| {{dts|format=dmy|1993|1|17}}
-| [[Great Lakes Twa]]
-| Africa
-|-
-| [[Front for the Liberation of the Enclave of Cabinda]]/[[Forças Armadas de Cabinda]]
-| {{dts|format=dmy|1997|4|17}}
-| [[Republic of Cabinda|Cabinda]]
-| Africa
-|-
-| [[Chin National Front]]
-| {{dts|format=dmy|2001|7|15}}
-| [[Chin State|Chin]]
-| Asia
-|-
-| [[Free Bangala Rastra Movement]]
-| {{dts|format=dmy|2005|8|6}}
-| [[West Bengal|Bangala Rastra]]
-| Asia
-|-
-| [[International Circassian Association]]
-| {{dts|format=dmy|1994|4|16}}
-| [[Circassia]]
-| Europe
-|- style="background:#cdf;"
-| [[Cordillera Central (Luzon)#The Cordillera Peoples’ Alliance|Cordillera Peoples' Alliance]]
-| {{dts|format=dmy|1991|2|11}}
-| [[Cordillera Central (Luzon)|Cordillera]]
-| Asia
-|- style="background:#cdf;"
-| [[Mejlis of the Crimean Tatar People]]
-| {{dts|format=dmy|1991|2|11}}
-| [[Crimean Tatars]]
-| Europe
-|- style="background:#cdf;"
-| [[World Uyghur Congress]]
-| {{dts|format=dmy|1991|2|11}}
-| [[East Turkestan]]
-| Asia
-|-
-| Gilgit-Baltistan Democratic Alliance
-| {{dts|format=dmy|2008|9|20}}
-| [[Gilgit-Baltistan|Gilgit Baltistan]]
-| Asia
-|- style="background:#cdf;"
-| [[Omonoia (organization)|Democratic Union of the Greek Ethnic Minority in Albania]]
-| {{dts|format=dmy|1991|2|11}}
-| [[Greeks in Albania|Greek Minority in Albania]]
-| Europe
-|-
-| [[Hmong ChaoFa Federated State]]
-| {{dts|format=dmy|2007|2|2}}
-| [[Hmong people|Hmong]]
-| Asia
-|-
-| [[Democratic Alliance of Hungarians in Romania]]
-| {{dts|format=dmy|1994|7|30}}
-| [[Hungarians in Romania|Hungarian Minority in Romania]]
-| Europe
-|-
-| [[Inner Mongolian People's Party]]
-| {{dts|format=dmy|2007|2|2}}
-| [[Inner Mongolia]]
-| Asia
-|-
-| [[Kurdistan Democratic Party of Iran]]
-| {{dts|format=dmy|2007|2|2}}
-| [[Iranian Kurdistan]]
-| Asia
-|- style="background:#cdf;"
-| [[Kurdistan Democratic Party of Iraq|Kurdistan Democratic Party]] and by the [[Patriotic Union of Kurdistan]]
-| {{dts|format=dmy|1991|2|11}}
-| [[Iraqi Kurdistan]]
-| Asia
-|-
-| Dr. [[Muzaffer Arslan]]
-| {{dts|format=dmy|1991|8|6}}
-| [[Iraqi Turkmens|Iraqi Turkmen]]
-| Asia
-|-
-| [[Ka Lahui Hawaii]]
-| {{dts|format=dmy|1993|8|3}}
-| [[Hawaiian sovereignty movement#Ka Lahui|Kalahui Hawai'i]]
-| Oceania & Australasia
-|-
-| [[Karenni National Progressive Party]]
-| {{dts|format=dmy|1993|1|19}}
-| [[Kayah State|Karenni State]]
-| Asia
-|-
-| [[Khmers Kampuchea-Krom Federation]]
-| {{dts|format=dmy|2001|7|15}}
-| [[Khmer Krom]]
-| Asia
-|-
-| [[Democratic League of Kosovo|Democratic League of Kosova]]
-| {{dts|format=dmy|1991|8|6}}
-| [[Kosovo]]
-| Europe
-|-
-| [[Maasai Women for Education and Economic Development]], with the backing of the [[Mainyoito Pastoralist Integrated Development Organisation]] and the [[Kitengela Ilparakuo Land Owners Association]]
-| {{dts|format=dmy|2004|12|19}}
-| [[Maasai people|Maasai]]
-| Africa
-|-
-| [[Mapuche Inter-Regional Council]]
-| {{dts|format=dmy|1993|1|19}}
-| [[Mapuche]]
-| South America
-|-
-| [[Mon Unity League]]
-| {{dts|format=dmy|1996|2|3}}
-| [[Mon people|Mon]]
-| Asia
-|-
-| [[Moro Islamic Liberation Front]]
-| {{dts|format=dmy|2010|9|26}}
-| [[Moro people|Moro]]
-| Asia
-|-
-| [[Montagnard Foundation, Inc.]]
-| {{dts|format=dmy|2003|11|14}}
-| [[Degar|Montagnards]]
-| Asia
-|-
-| [[National Socialist Council of Nagaland]]
-| {{dts|format=dmy|1993|1|19}}
-| [[Nagaland|Nagalim]]
-| Asia
-|-
-| [[Ogaden National Liberation Front]]
-| {{dts|format=dmy|2010|2|6}}
-| [[Ogaden]]
-| Africa
-|-
-| [[Movement for the Survival of the Ogoni People]]
-| {{dts|format=dmy|1993|1|19}}
-| [[Ogoni people|Ogoni]]
-| Africa
-|-
-| [[Oromo Liberation Front]]
-| {{dts|format=dmy|2004|12|19}}
-| [[Oromo people|Oromo]]
-| Africa
-|-
-| [[Captains Council]]
-| {{dts|format=dmy|2007|2|2}}
-| [[Baster|Rehoboth Basters]]
-| Africa
-|-
-| [[Muslim National Council of Sanjak]]
-| {{dts|format=dmy|1993|1|17}}
-| [[Sandžak|Sanjak]] ''[[Bosniaks]]''
-| Europe
-|-
-| [[Stiftelsen Skånsk Framtid]] <!-- (represented by ''Stiftelsen Skånsk Framtid''[http://www.scania.org/index.html]) -->
-| {{dts|format=dmy|1993|1|19}}
-| [[Skåneland|Scania]]
-| Europe
-|-
-| [[World Sindhi Institute]]
-| {{dts|format=dmy|2002|1|19}}
-| [[Sindh]]
-| Asia
-|-
-| Government of Somaliland
-| {{dts|format=dmy|2004|12|19}}
-| [[Somaliland]]
-| Africa
-|-
-| Government in Exile of the Republic of South Moluccas
-| {{dts|format=dmy|1991|8|6}}
-| [[Republic of the South Moluccas]]
-| Asia
-|-
-| [[Southern Azerbaijan National Awakening Movement]]
-| {{dts|format=dmy|2007|2|2}}
-| [[Azerbaijan (Iran)|Southern Azerbaijan]]
-| Asia
-|-
-| [[Southern Cameroons National Council]]
-| {{dts|format=dmy|2004|12|19}}
-| [[Southern Cameroon Liberation Movement|Southern Cameroons]]
-| Africa
-|- style="background:#cdf;"
-| [[Taiwan Foundation for Democracy]]
-| {{dts|format=dmy|1991|2|11}}
-| [[Republic of China|Taiwan (Republic of China)]]
-| Asia
-|- style="background:#cdf;"
-| [[Government of Tibet in Exile]]
-| {{dts|format=dmy|1991|2|11}}
-| [[Tibet]]
-| Asia
-|-
-| [[Tsimshian Nation Gitlaxyuup-m and Smgigyet Society]]
-| {{dts|format=dmy|2007|2|2}}
-| [[Tsimshian]]
-| North America
-|-
-| [[Udmurt Council]] (Udmurt Kenesh)
-| {{dts|format=dmy|1993|1|17}}
-| [[Udmurtia|Udmurt]]
-| Europe
-|-
-| [[Dabalorivhuwa Patriotic Front]]
-| {{dts|format=dmy|2003|11|14}}
-| [[Venda people|Venda]]
-| Africa
-|-
-| [[Balochistan People's Party]]
-| {{dts|format=dmy|2005|6|26}}
-| [[Balochistan (Iran)|West Balochistan]]
-| Asia
-|-
-| [[Zanzibar Democratic Alternative]] , in cooperation with the [[Civic United Front]]
-| {{dts|format=dmy|1991|8|6}}
-| [[Zanzibar]]
-| Africa
-|}
+-->|<!--elseF:
+    ------------------------------------------------------------
+     Flag not provided, so display coat-of-arms or other symbol (if provided):
+    ------------------------------------------------------------
+    -->{{#if:{{{image_coat|}}}{{{image_symbol|}}}
+       |<!--thenS2:
+        --><tr class="mergedtoprow">
+             <td class="maptable" colspan="3" align="center" style="padding:0.5em 0;"><!--
+               -----------------------------------------------
+                 Subtable to format coat-of-arms (or symbol)
+                 display. Align="center"s and "width:auto;"s
+                 are for sake of Internet Explorer.
+               -----------------------------------------------
+            --><table align="center" style="width:100%; background:none;"><!--
+                 -----------Image-----------
+              --><tr>
+                   <td align="center"
+                       style="width:auto; vertical-align:middle;"><!--
+                       -->[[File:{{{image_coat|{{{image_symbol|}}}}}} |{{{symbol_width|100px}}} |alt={{{alt_coat|{{{alt_symbol|}}}}}}|{{{symbol_type|Coat of arms}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}}]]</td>
+                 </tr><!--
+                 ----------Caption----------
+              --><tr>
+                   <td align="center"><!--
+                    --><small>{{#ifexist:{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |<!--then:--> [[{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |{{{symbol_type|Coat of arms}}}]]}}</small><!--
+                --></td>
+                 </tr><!--
+                ---------End subtable:----------
+             --></table>
+             </td>
+           </tr><!--
+      -->}}<!--(endS2)
+-->}}<!--(endF)
 
-== Deng kayanib a mesuspendi ==
-*[[Dene|Buffalo River Dene Nation]]  -- {{dts|format=dmy|2004|12|19}} to {{dts|format=dmy|2009|10|9}}
-*[[National Council of the Union of Burma|Burma]] -- {{dts|format=dmy|2008|5|15}} to {{dts|format=dmy|2010|2|13}}
-*[[All-Buryat Association for the Development of Culture|Buryata]] -- {{dts|format=dmy|1996|2|3}} to {{dts|format=dmy|2010|2|13}}
-*[[File:Flag of Chechen Republic of Ichkeria.svg|22px]] [[Chechen Republic of Ichkeria]] -- {{dts|format=dmy|1991|8|6}} to {{dts|format=dmy|2010|9|10}}
-*[[Ingria|Inkeri]] -- {{dts|format=dmy|1993|1|17}} to {{dts|format=dmy|2009|10|9}}
-*[[Image:Flag of Komi.svg‎|22px|border]] [[Komi Republic|Komi]]  -- {{dts|format=dmy|1993|1|17}} to {{dts|format=dmy|2009|10|9}}
-*[[Image:Flag of Mari El.svg‎‎|22px|border]] [[Mari people|Mari]]  -- {{dts|format=dmy|1991|8|6}} to {{dts|format=dmy|2009|10|9}}
-*[[Nahua del Alto Balsas]]  -- {{dts|format=dmy|2004|12|19}} to {{dts|format=dmy|2008|9|20}}
-*[[Shan people|Shan]] --  {{dts|format=dmy|1997|4|17}} to  {{dts|format=dmy|2010|2|6}}
-*[[Tuva]] -- {{dts|format=dmy|1996|2|3}} to {{dts|format=dmy|2010|2|13}}
-*[[File:Flag of West Papua.svg|22px]] [[Western New Guinea|West Papua]] -- {{dts|format=dmy|1991|2|11}} to {{dts|format=dmy|2008|9|20}}
+================================================================
+                               Motto
+================================================================
+-->{{#if:{{{national_motto|}}}{{{motto|}}} |<!--then:
+     --><tr> <td colspan="3" style="line-height:1.2em; text-align:center;"><!--
+              -->'''Motto:&nbsp;'''{{{national_motto|}}}{{{motto|}}}</td>
+        </tr><!--
+-->}}<!--
 
-== Sadyang kayanib ==
-Ating aliwang kayanib ning UNPO a linwal uling kinilala no ning Misasanmetung a Bangsa   (United Nations), pamikasundu pang-otonomiya (autonomy agreements), o kareng aliwa pang sangkan.
+================================================================
+                              Anthem/s
+================================================================
+-->{{#if:{{{national_anthem|}}}{{{royal_anthem|}}}{{{anthem|}}} |<!--then:
+     --><tr>
+          <td class="anthem" colspan="3" style="line-height:1.2em; text-align:center;"><!--
+           -->{{#if:{{{national_anthem|}}}
+              |<!--then:-->'''Anthem:&nbsp;'''{{{national_anthem}}}<br/>
+              }}<!--
+           -->{{#if:{{{anthem|}}}
+              |<!--then:-->'''Anthem:&nbsp;'''{{{anthem}}}<br/>
+              }}<!--
+           -->{{#if:{{{royal_anthem|}}}
+              |<!--then:-->'''[[Royal anthem]]:&nbsp;'''{{{royal_anthem}}}
+              }}<!--
+       --></td>
+        </tr><!--
+-->}}<!--
 
-*Deng sadyang republika sosyalista ning [[Soviet Union]], kaybat ning pamikilala ning UN, linwal la kaybat ning karelang pangatimawa o independensya anyang 1991:
-** {{ARM}} mikyabe {{dts|format=dmy|1991|2|11}}, linwal {{dts|format=dmy|1992|3|2}}
-** {{EST}} mikyabe {{dts|format=dmy|1991|2|11}}, linwal {{dts|format=dmy|1991|8|17}}
-** {{GEO}} mikyabe {{dts|format=dmy|1991|2|11}}, linwal {{dts|format=dmy|1992|7|31}}
-** {{LAT}} mikyabe {{dts|format=dmy|1991|2|11}}, linwal {{dts|format=dmy|1991|8|17}}
-*Deng aliwang kinilala ning UN:
-** {{TLS}} mikyabe {{dts|format=dmy|1993|1|17}}, linwal {{dts|format=dmy|2002|9|27}}; sadyang kolonya ning [[Portugal]] a sinakup ning [[Indonesia]] anyang 1975 at timawa manibat anyang  2002
-** {{PLW}} mikyabe {{dts|format=dmy|1991|2|11}}, linwal {{dts|format=dmy|1994|12|15}}; sadyang dake ning [[Trust Territory of the Pacific Islands]] a panibalan ning Estados Unidos at timawa manibat anyang 1994
-*Linwal uling kareng aliwang sangkan:<ref>http://www.unpo.org/map.html</ref>
-**[[File:Flag of Aceh.svg|22px]] [[Free Aceh Movement|Aceh]] mikyabe {{dts|format=dmy|1991|8|6}}, e misundu ing pamiyanib {{dts|format=dmy|2008|3|1}}; mika pamikasundu king otonomiya king   [[Indonesia]] anyang 2005
-**[[File:Flag of Albania.svg|22px]] [[Albanians in the Republic of Macedonia|Albanian king Macedonia]] mikyabe {{dts|format=dmy|1994|4|16}}, mituknang ing pamiyanib {{dts|format=dmy|2008|3|1}}; linub king [[Ohrid Agreement|pamikasundu king lalung maleparan a katuliran]] king [[Republic of Macedonia|Macedonia]] anyang 2001
-**[[File:Flag of Bashkortostan.svg|22px]] [[Bashkortostan]] mikyabe {{dts|format=dmy|1996|2|3}}, linwal {{dts|format=dmy|1998|6|30}}
-**{{flagicon image|Flag of Bougainville.svg}} [[Autonomous Region of Bougainville|Bougainville]] mikyabe {{dts|format=dmy|1991|8|6}}, e misundu ing pamiyanib {{dts|format=dmy|2008|3|1}}; mekipagkasundu king otonomiya king [[Papua New Guinea]] anyang 2000
-**[[File:Flag of Chuvashia.svg|22px]] [[Chuvashia Republic|Chuvash]] mikyabe {{dts|format=dmy|1993|1|17}}, e misundu ing pamiyanib {{dts|format=dmy|2008|3|1}}
-**[[File:Flag of Gagauzia.svg|22px]] [[Gagauzia]] mikyabe {{dts|format=dmy|1994|4|16}}, e misundu ing pamiyanib {{dts|format=dmy|2007|12|1}}; reached autonomy agreement with [[Moldova]] in 1994
-**[[File:Flag of Ingushetia.svg|22px]] [[Ingushetia]] mikyabe {{dts|format=dmy|1994|7|30}}, e misundu ing pamiyanib {{dts|format=dmy|2008|3|1}}
-**[[File:Flag of the Kumukh people.png|22px]] [[Kumyks|Kumyk]] mikyabe {{dts|format=dmy|1997|4|17}}, e misundu ing pamiyanib {{dts|format=dmy|2008|3|1}}
-**[[File:Punjab flag.svg|22px]] [[Khalistan]] mikyabe {{dts|format=dmy|1993|1|24}}, e misundu ing pamiyanib {{dts|format=dmy|1993|8|4}}; suspension made permanent 22 January 1995
-**[[File:Pine Ridge Flag.svg|22px]] [[Lakota people|Lakotah Nation]] mikyabe {{dts|format=dmy|1994|7|30}}, e misundu ing pamiyanib {{dts|format=dmy|2007|12|1}}; kaybat ning pamibulalag o deklarasyon ning [[Republic of Lakotah]]
-**[[File:Flag of French Polynesia.svg|22px]] [[Tahiti|Maohi]] mikyabe {{dts|format=dmy|1994|7|30}}, e misundu ing pamiyanib {{dts|format=dmy|2007|12|1}}
-**{{flagicon image|Flag of British Columbia.svg}} [[Nuxalk Nation|Nuxalk]] mikyabe {{dts|format=dmy|1998|9|23}}, e misundu ing pamiyanib {{dts|format=dmy|2008|3|1}}
-**{{flagicon image|Rusyn flag.png}} [[Rusyns|Rusyn]] mikyabe {{dts|format=dmy|1998|9|23}}, e misundu ing pamiyanib {{dts|format=dmy|2007|12|1}}
-**{{flagicon image|Flag of Sakha.svg}} [[Sakha Republic|Sakha]] mikyabe {{dts|format=dmy|1993|8|3}}, linwal {{dts|format=dmy|1998|6|30}}
-**{{flagicon image|Flag of the Talysh-Mughan Republic.svg}} [[Talysh-Mughan Autonomous Republic|Talysh]] mikyabe {{dts|format=dmy|2005|6|26}}, e misundu ing pamiyanib{{dts|format=dmy|2008|3|1}}
-**{{flagicon image|Flag of Tatarstan.svg}} [[Tatarstan]] mikyabe {{dts|format=dmy|1991|2|11}}, e misundu ing pamiyanib {{dts|format=dmy|2008|3|1}}
+================================================================
+                           Other symbol/s
+================================================================
+-->{{#if:{{{other_symbol|}}}{{{text_symbol|}}} |<!--then:
+     --><tr>
+          <td colspan="3" style="line-height:1.2em; text-align:center;"><!--
+           -->{{#if:{{{other_symbol_type|}}}{{{text_symbol_type|}}} |<!--then:
+                -->'''{{{other_symbol_type|}}}{{{text_symbol_type|}}}'''<br/>}}<!--
+           -->{{{other_symbol|}}}{{{text_symbol|}}}</td>
+        </tr><!--
+-->}}<!--
 
-== Deng Secretary General ==
-*[[Michael van Walt van Praag]] 1991–1997
-*[[Tsering Jampa]] 1997–1998
-*[[Helen S. Corbett]] 1998–1999
-*[[Erkin Alptekin]] 1999–2003
-*[[Marino Busdachin]] 2003–2010<ref>[http://www.unpo.org/content/view/6190/62/ UNPO Presidency & Secretariat], UNPO web site.</ref>
-**[[Karl Habsburg-Lothringen]] – Since 19 January 2002, the Director General of the Organization<ref name=unponews132>{{cite web|title=UNPO Steering Committee appoints Karl von Habsburg as the organizations new Director-General|url=http://www.unpo.org/article/132|work=UNPO Website|accessdate=23 April 2011|author=UNPO|authorlink=UNPO|archiveurl=http://replay.web.archive.org/20100903011451/http://www.unpo.org/article/132|archivedate=2011-04-23}} This position is separate from the "Seccetary General" as the UNPO Website explains "This is a newly created senior position within the UNPO, aimed at further enhancing the fundamental rights of its Members world-wide."</ref>
-*[[Ngawang Choephel]] since 2010
+================================================================
+                                Maps
+================================================================
+-->{{#if:{{{image_map|}}} |<!--then:
+     --><tr>
+          <td colspan="3" style="text-align:center; padding:0.6em 0em;">[[File:{{{image_map}}} |{{{map_width|250px}}} |center |alt={{{alt_map|{{{map_caption|}}}}}}|{{{alt_map|{{{map_caption|Location of {{{common_name|{{{linking_name|{{PAGENAME}} }}} }}} }}} }}}]] <div style="position:relative; top:0.3em;"><small>{{{map_caption|}}}</small></div>
+          </td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{image_map2|}}} |<!--then:
+     --><tr class="mergedtoprow">
+          <td colspan="3" style="text-align:center; padding:0.6em 0em;"> [[File:{{{image_map2}}} |{{{map2_width|280px}}} |center |alt={{{alt_map2|{{{map_caption2|}}}}}}|{{{alt_map2|{{{map_caption2|Location of {{{common_name|{{{linking_name|{{PAGENAME}} }}} }}} }}} }}}]] <div style="position:relative; top:0.3em;"><small>{{{map_caption2|}}}</small></div>
+          </td>
+        </tr><!--
+-->}}<!--
 
-==Lon la murin==
-* [[Federal Union of European Nationalities]]
-* [[Micronations]]
-* [[United Nations list of Non-Self-Governing Territories]]
-* [[Universal Declaration of the Rights of Peoples]]
-* [[List of national liberation movements recognized by intergovernmental organizations]]
+================================================================
+       Capital/Admin center; Largest city/ies or settlement/s
+================================================================
+-->{{#if:{{{capital|}}}{{{admin_center|}}}{{{largest_city|}}}{{{largest_settlement|}}}
+   |<!--then1:
+    --><tr class="mergedtoprow"><!--
+       -----------Check if capital/admin center provided:-------
+       -->{{#if:{{{capital|}}}{{{admin_center|}}}
+          |<!--then2:
+           --><td colspan="2"><!--
+             -->{{#if:{{{admin_center_type|}}}{{{admin_center|}}}
+                |<!--then:-->'''{{{admin_center_type|Administrative&nbsp;center}}}'''<!--
+             -->|<!--else:-->{{#if:{{{capital_type|}}}
+                             |<!--then:-->'''{{{capital_type}}}'''<!--
+                          -->|<!--else:-->'''Capital'''<!--
+                          -->}}<!--
+             -->}}<!--
+       ---------------------------------------------------------
+          If capital provided, check whether largest_city or largest_settlement
+                 (if provided) equals "capital", capital or [[capital]];
+       ---------------------------------------------------------
+             -->{{#ifeq: {{#ifeq:{{{largest_city|}}}{{{largest_settlement|}}}
+                         |<!--equals3:-->capital
+                         |<!---then3:--->capital<!--
+                      -->|<!---else3:
+                          -->{{#switch:{{{capital}}}
+                             | [[{{{largest_city|}}}{{{largest_settlement|}}}]] = capital
+                             | {{{largest_city|}}}{{{largest_settlement|}}}     = capital
+                             | not capital
+                             }}<!--(end#switch)
+                      -->}}<!--(end3)-->
+                |<!--equals4:-->capital
+                |<!---then4:
+                 -----------------------------------------------
+                  capital is largest_city or largest_settlement:
+                 -----------------------------------------------
+                    --><br/>(and {{{largest_settlement_type|largest city}}})
+                       </td><!--
+                    --------Add capital:--------
+                    --><td>{{{capital}}}<!--
+                    --------Add capital's latitude and longitude (if provided):-------
+                    -->{{#if:{{{latd|}}}
+                       |<!--then:--><br/><small><span style="white-space:nowrap;"><!--
+                        -->{{coord|{{{latd}}}|{{{latm}}}|{{{latNS}}}|{{{longd}}}<!--
+                                  -->|{{{longm}}}|{{{longEW}}}|type:country<!--
+                        -->}}</span></small><!--
+                    -->}}
+                       </td><!--
+             -->|<!---else4:
+                 ------------------------------------------------
+                 capital isn't largest_city or largest_settlement:
+                 ------------------------------------------------
+                  --></td><!--
+                     --------Add capital/admin center:--------
+                  --><td>{{{capital|}}}{{{admin_center|}}}<!--
+                     --------Add capital/admin center's [lat/long]itude (if provided):-------
+                     -->{{#if:{{{latd|}}}
+                        |<!--then:--><br/><small><span style="white-space:nowrap;"><!--
+                         -->{{coord|{{{latd}}}|{{{latm}}}|{{{latNS}}}|{{{longd}}}<!--
+                                   -->|{{{longm}}}|{{{longEW}}}|type:country<!--
+                         -->}}</span></small><!--
+                    -->}}
+                     </td><!--
+                --------Add largest_city or largest_settlement (if provided):--------
+                -->{{#if:{{{largest_city|}}}{{{largest_settlement|}}} |<!--then5:
+                --></tr>
+                   <tr class="mergedbottomrow">
+                     <th colspan="2"><!--
+                      -->{{#if:{{{common_name|}}}
+                         |<!--then:-->
+                              Largest {{{largest_settlement_type|city}}}
+                         |<!--else:-->Largest {{{largest_settlement_type|city}}}<!--
+                      -->}}<!--
+                  --></th>
+                     <td>{{{largest_city|}}}{{{largest_settlement|}}}</td><!--
+                -->}}<!--(end5)
+             -->}}<!--(end4)
+      ---------------------------------------------------------
+        Capital not provided, so add largest_city or
+                          largest_settlement (if provided):
+      ---------------------------------------------------------
+          -->|<!--else2:
+              -->{{#if:{{{largest_city|}}}{{{largest_settlement|}}}
+                 |<!--then6:
+                  --><th colspan="2"><!--
+                      -->{{#if:{{{common_name|}}}
+                           |<!--then:-->
+                              (and {{{largest_settlement_type|largest city}}})
+                           |<!--else:-->Largest {{{largest_settlement_type|city}}}<!--
+                      -->}}<!--
+                  --></th>
+                     <td>{{{largest_city|}}}{{{largest_settlement|}}}</td>
+                 }}<!--(end6)
+          -->}}<!--(end2)
+       --></tr><!--
+-->}}<!--(end1)
 
-==Dalerayan==
-{{Reflist}}
+================================================================
+     Official or Recognised regional languages; Ethnic groups
+================================================================
+-->{{#if:{{{official_languages|}}} |<!--then:
+     --><tr>
+          <th colspan="2" style="vertical-align:middle; white-space:nowrap;">Official language(s)</th>
+          <td>{{{official_languages|}}}</td>
+        </tr><!--
+     -->{{#if:{{{national_languages|}}} |<!--then:
+          --><tr>
+               <td colspan="2">Recognised national&nbsp;languages</td>
+               <td style="vertical-align:middle;">{{{national_languages|}}}</td>
+             </tr><!--
+     -->}}<!--
+     -->{{#if:{{{regional_languages|}}} |<!--then:
+          --><tr class="mergedbottomrow">
+               <td colspan="2">Recognised regional&nbsp;languages</td>
+               <td style="vertical-align:middle;">{{{regional_languages|}}}</td>
+             </tr><!--
+     -->}}<!--
+-->}}<!--
 
-==External links==
-* [http://www.unpo.org/ UNPO Website]
-{{Indigenous rights footer}}
+-->{{#if:{{{languages|}}} |<!--then:
+     --><tr{{#ifeq:{{{languages2_sub|}}}|yes|{{#ifeq:{{{languages_sub|}}}|yes|<nowiki> </nowiki>class="mergedrow"|}}|{{#ifeq:{{{languages_sub|}}}|yes|<nowiki> </nowiki>class="mergedbottomrow"|}}}}>
+          <{{#ifeq:{{{languages_sub|}}}|yes|td|th}} colspan="2" style="vertical-align:middle; white-space:nowrap;">{{{languages_type}}}</{{#ifeq:{{{languages_sub|}}}|yes|td|th}}>
+          <td>{{{languages|}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{languages2|}}} |<!--then:
+     --><tr{{#ifeq:{{{languages2_sub|}}}|yes|<nowiki> </nowiki>class="mergedbottomrow"|}}>
+          <{{#ifeq:{{{languages2_sub|}}}|yes|td|th}} colspan="2" style="vertical-align:middle; white-space:nowrap;">{{{languages2_type}}}</{{#ifeq:{{{languages2_sub|}}}|yes|td|th}}>
+          <td>{{{languages2|}}}</td>
+        </tr><!--
+-->}}<!--
 
-{{DEFAULTSORT:Unrepresented Nations And Peoples Organization}}
-[[Category:International nongovernmental organizations]]
-[[Category:Disputed territories]]
-[[Category:Human rights organizations]]
+-->{{#if:{{{ethnic_groups|}}} |<!--then:
+     --><tr>
+          <td colspan="2">'''Ethnic groups'''&nbsp;<!--
+           -->{{#if:{{{ethnic_groups_year|}}} |<!--then:-->({{{ethnic_groups_year}}}) }}</td>
+          <td>{{{ethnic_groups}}}</td>
+        </tr><!--
+-->}}<!--
 
-[[ar:منظمة الأمم والشعوب غير الممثلة]]
-[[ca:UNPO]]
-[[cs:Organizace nezastoupených států a národů]]
-[[da:UNPO]]
-[[de:Unrepresented Nations and Peoples Organization]]
-[[en:Unrepresented Nations and Peoples Organization]]
-[[et:Esindamata Rahvaste Organisatsioon]]
-[[es:Organización de Naciones y Pueblos No Representados]]
-[[eu:Ordezkapenik Gabeko Nazio eta Herrien Erakundea]]
-[[fa:سازمان ملت‌ها و اقلیت‌های غیررسمی]]
-[[fr:Organisation des nations et des peuples non représentés]]
-[[gl:UNPO]]
-[[id:Organisasi Bangsa dan Rakyat yang Tidak Terwakili]]
-[[it:Organizzazione delle nazioni e dei popoli non rappresentati]]
-[[kw:Kowethyans Kenedhlow ha Poblow heb Kanasedhyans]]
-[[lt:Pasaulinė valstybingumo siekiančių tautų organizacija]]
-[[nl:UNPO]]
-[[ja:代表なき国家民族機構]]
-[[no:UNPO]]
-[[pl:Organizacja Narodów i Ludów Niereprezentowanych]]
-[[pt:Organização das Nações e Povos Não Representados]]
-[[ru:Организация наций и народов, не имеющих представительства]]
-[[so:Wadamada aan la aqoonsan iyo Dadkii Abaabulay]]
-[[fi:EVKY]]
-[[sv:Unrepresented Nations and Peoples Organisation]]
-[[tr:Temsil Edilmeyen Milletler ve Halklar Organizasyonu]]
-[[uk:Організація непредставлених націй та народів]]
-[[zh:非聯合國會員國家及民族組織]]
+================================================================
+                               Demonym
+================================================================
+-->{{#if:{{{demonym|}}} |<!--then:
+     --><tr>
+          <th colspan="2">[[Demonym]]</th>
+          <td>{{#ifexist:{{{demonym}}} people |<!--then:
+              -->[[{{{demonym}}} people|{{{demonym}}}]] |<!--else:
+              -->{{{demonym}}}<!--
+           -->}}
+          </td>
+        </tr><!--
+-->}}<!--
+================================================================
+     Organization type, Membership (geopolitical organization)
+================================================================
+-->{{#if:{{{org_type|}}} |<!--then:
+     --><tr> <td colspan="2">'''Type'''</td>
+             <td>{{{org_type}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{membership|}}} |<!--then:
+     --><tr> <td colspan="2" style="vertical-align:middle;"> '''{{{membership_type|Deng kayanib}}}'''</td>
+             <td>{{{membership}}}</td>
+        </tr><!--
+-->}}<!--
+
+================================================================
+     "Kapamahalan" (bangsa/teritoryu)
+            o "Deng pekapun" (aguman a geopolitical)
+================================================================
+-->{{#if:{{{government_type|}}} |<!--then:
+     --><tr>
+          <th colspan="2">{{#if:{{{politics_link|}}}|<!--then:
+              -->[[{{{politics_link}}}|Government]]|<!--else:
+              -->{{#ifexist:Politics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|<!--then:
+                  -->[[Politics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Government]]|<!--else:
+                  -->Government}}}}</th>
+          <td>{{{government_type|}}}</td>
+        </tr><!--
+-->|<!--nung alang no government_type a mibye, nung ating metung o maygit a pekapun a mibye,
+        gamitan ya ing "Pekapun" (aguman a geopolitical) o "Kapamahalan" (bangsa/teritoryu):
+    -->{{#if:{{{leader_title1|}}}{{{leader_name1|}}} |<!--then:
+         -->{{#if:{{{name|}}}{{{membership|}}}
+            |<!--then template being used for geopolitical organization:
+              --><tr><th colspan="3">Pekapun</th></tr><!--
+         -->|<!--else template being used for a country or territory:
+              --><tr><th colspan="3">Kapamahalan</th></tr><!--
+         -->}}<!--
+    -->}}<!--
+-->}}<!--
+
+================================================================
+                               Deng Pekapun
+================================================================
+-->{{#if:{{{leader_title1|}}} |<!--then:
+     --><tr class="{{#if:{{{leader_title2|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{leader_title1}}}</td>
+          <td>{{{leader_name1}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{leader_title2|}}} |<!--then:
+     --><tr class="{{#if:{{{leader_title3|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{leader_title2}}}</td>
+          <td>{{{leader_name2}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{leader_title3|}}} |<!--then:
+     --><tr class="{{#if:{{{leader_title4|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{leader_title3}}}</td>
+          <td>{{{leader_name3}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{leader_title4|}}} |<!--then:
+     --><tr class="{{#if:{{{leader_title5|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{leader_title4}}}</td>
+          <td>{{{leader_name4}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{leader_title5|}}} |<!--then:
+     --><tr class="mergedbottomrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{leader_title5}}}</td>
+          <td>{{{leader_name5}}}</td>
+        </tr><!--
+-->}}<!--
+
+================================================================
+                           Legislature
+================================================================
+-->{{#if:{{{legislature|}}} |<!--then:
+     --><tr>
+          <th colspan="2">Legislature</th>
+          <td>{{{legislature|}}}</td>
+      </tr><!--
+-->}}<!--
+-->{{#if:{{{upper_house|}}} |<!--then:
+     --> <tr class="mergedrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">[[Upper House]]</td>
+          <td>{{{upper_house}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{lower_house|}}} |<!--then:
+     --><tr class="mergedbottomrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">[[Lower House]]</td>
+          <td>{{{lower_house}}}</td>
+        </tr><!--
+-->}}<!--
+
+================================================================
+     Pangatimawa (bangsa/teritoryu)
+           or Pamitátag (aguman a geopolitical)
+================================================================
+-->{{#if:{{{established_event1|}}}{{{sovereignty_type|}}}{{{established|}}} |<!--then:
+     --><tr {{#if:{{{established_event1|}}} |<!--then:-->class="mergedtoprow"}}><!--
+         ----------Sovereignty----------
+         -->{{#if:{{{sovereignty_type|}}}
+            |<!--then:-->{{#if:{{{sovereignty_note|}}}
+                         |<!--then:--><th colspan="2">{{{sovereignty_type}}}</th>
+                                      <td>{{{sovereignty_note}}}&nbsp;</td><!--
+                      -->|<!--else:--><th colspan="3">{{{sovereignty_type}}}</th><!--
+                      -->}}<!--
+         ---------Pamitátag----------
+         -->|<!--else:-->{{#if:{{{established|}}}
+                         |<!--then:--><th colspan="2">Pamitátag</th>
+                                      <td>{{{established}}}</td><!--
+                      -->|<!--else:--><th colspan="3">Pamitátag</th><!--
+                      -->}}<!--
+         -->}}<!--
+     --></tr><!--
+-->}}<!--
+================================================================
+        Makabaldugan a milyari king bangsa/teritoryu
+                       o pamitátag ning aguman
+================================================================
+-->{{#if:{{{established_event1|}}} |<!--then:
+     --><tr class="{{#if:{{{established_event2|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event1}}}</td>
+          <td>{{{established_date1|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{established_event2|}}} |<!--then:
+     --><tr class="{{#if:{{{established_event3|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event2}}}</td>
+          <td>{{{established_date2|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{established_event3|}}} |<!--then:
+     --><tr class="{{#if:{{{established_event4|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event3}}}</td>
+          <td>{{{established_date3|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{established_event4|}}} |<!--then:
+     --><tr class="{{#if:{{{established_event5|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event4}}}</td>
+          <td>{{{established_date4|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{established_event5|}}} |<!--then:
+     --><tr class="{{#if:{{{established_event6|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event5}}}</td>
+          <td>{{{established_date5|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{established_event6|}}} |<!--then:
+     --><tr class="{{#if:{{{established_event7|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event6}}}</td>
+          <td>{{{established_date6|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{established_event7|}}} |<!--then:
+     --><tr class="{{#if:{{{established_event8|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event7}}}</td>
+          <td>{{{established_date7|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{established_event8|}}} |<!--then:
+     --><tr class="{{#if:{{{established_event9|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event8}}}</td>
+          <td>{{{established_date8|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{established_event9|}}} |<!--then:
+     --><tr class="{{#if:{{{established_event10|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event9}}}</td>
+          <td>{{{established_date9|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{established_event10|}}} |<!--then:
+     --><tr class="{{#if:{{{established_event11|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event10}}}</td>
+          <td>{{{established_date10|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{established_event11|}}} |<!--then:
+     --><tr class="{{#if:{{{established_event12|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event11}}}</td>
+          <td>{{{established_date11|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{established_event12|}}} |<!--then:
+     --><tr class="mergedbottomrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event12}}}</td>
+          <td>{{{established_date12|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
+
+================================================================
+     Area (area_label, area_km2, area_label2, area_data2,...)
+================================================================
+-->{{#if:{{{area_km2|}}} |<!--then:
+     --><tr class="mergedtoprow">
+          <th colspan="3">{{#if:{{{area_link|}}}|<!--then:
+              -->[[{{{area_link}}}|Area]]|<!--else:
+              -->{{#ifexist:Geography of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|<!--then:
+                  -->[[Geography of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Area]]|<!--else:
+                  -->Area}}}}</th>
+        </tr>
+        <tr class="mergedrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{area_label|Total}}}<!--
+--France-related footnote:-->{{#if:{{{FR_foot4|}}} |<!--then:-->{{{FR_foot4}}} }}</td>
+          <td>{{formatnum:{{{area_km2|}}}}}&nbsp;km<sup>2</sup>&nbsp;<!--
+              -->{{#if:{{{area_footnote|}}}|{{{area_footnote|}}} }}{{#if:{{{area_rank|}}} |<!--then:-->([[List of countries and outlying territories by total area|{{{area_rank}}}]]) }}<!--
+              --><br/>{{#if:{{{area_sq_mi|}}}|{{formatnum:{{{area_sq_mi|}}}}}|{{formatnum:{{#expr: {{{area_km2|}}} div 2.589988110336 round 0}}}}}}&nbsp;sq&nbsp;mi&nbsp;</td>
+        </tr><!--
+-->}}<!--
+   -------------------Percentage water--------------------
+-->{{#if:{{{percent_water|}}} |<!--then:
+     --><tr class="mergedrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">Water&nbsp;(%)</td>
+          <td>{{{percent_water|}}}</td>
+        </tr><!--
+-->}}<!--
+   -------------------Area 2 (customized)------------------
+-->{{#if:{{{area_label2|}}} |<!--then:
+     --><tr class="mergedrow">
+          <td>&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{area_label2|}}}</td>
+          <td>{{{area_data2|area_data2}}}</td>
+        </tr><!--
+-->}}<!--
+   -----------Areas of France-----------
+-->{{#if:{{{FR_metropole|}}} |<!--then:
+     --><tr class="mergedrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td colspan="2" style="padding-left:0em;">{{{FR_metropole}}}</td>
+        </tr>
+        <tr class="mergedrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;</td>
+          <td style="padding-left:1em;">-&nbsp;[[Institut Géographique National|IGN]]{{{FR_foot2|}}}</td>
+          <td>{{formatnum:{{{FR_IGN_area_km2|}}}}}&nbsp;km<sup>2</sup>&nbsp;([[List of countries and outlying territories by total area|{{{FR_IGN_area_rank|}}}]])<br/><!--
+              -->{{#if:{{{FR_IGN_area_sq_mi|}}}|{{formatnum:{{{FR_IGN_area_sq_mi|}}}}}|{{formatnum:{{#expr: {{{FR_IGN_area_km2|}}} div 2.589988110336 round 0}}}}}}&nbsp;sq&nbsp;mi</td>
+        </tr>
+        <tr class="mergedrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;</td>
+          <td style="padding-left:1em;">-&nbsp;[[Cadastre]]{{{FR_foot3|}}}</td>
+          <td>{{formatnum:{{{FR_cadastre_area_km2|}}}}}&nbsp;km<sup>2</sup>&nbsp;([[List of countries and outlying territories by total area|{{{FR_cadastre_area_rank|}}}]])<br/><!--
+              -->{{#if:{{{FR_cadastre_area_sq_mi|}}}|{{formatnum: {{{FR_cadastre_area_sq_mi|}}}}}|{{formatnum:{{#expr: {{{FR_cadastre_area_km2|}}} div 2.589988110336 round 0}}}}}} &nbsp;sq&nbsp;mi</td>
+        </tr><!--
+-->}}<!--
+
+================================================================
+                              Population
+================================================================
+-->{{#if:{{{population_estimate|}}}{{{population_census|}}}{{{FR_metropole_population|}}} |<!--then:
+     --><tr class="mergedtoprow">
+          <th colspan="3">{{#if:{{{population_link|}}}|<!--then:
+              -->[[{{{population_link}}}|Population]]|<!--else:
+              -->{{#ifexist:Demographics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|<!--then:
+                  -->[[Demographics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Population]]|<!--else:
+                  -->Population}}}}</th>
+        </tr><!--
+     ---------------Estimate---------------
+     -->{{#if:{{{population_estimate|}}} |<!--then:
+        --><tr class="mergedrow">
+             <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+             <td style="padding-left:0em;">{{{population_estimate_year|}}}&nbsp;estimate</td>
+             <td>{{{population_estimate|}}}&nbsp;<!--
+              -->{{#if:{{{population_estimate_rank|}}} |<!--then:-->([[List of countries by population|{{{population_estimate_rank}}}]]) }}</td>
+           </tr><!--
+     -->}}<!--
+     ----------------Census----------------
+     -->{{#if:{{{population_census|}}} |<!--then:
+          --><tr class="mergedrow">
+               <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+               <td style="padding-left:0em;">{{{population_census_year|}}}&nbsp;census</td>
+               <td>{{{population_census|}}}&nbsp;<!--
+                   -->{{#if:{{{population_census_rank|}}} |<!--then:-->([[List of countries by population|{{{population_census_rank}}}]]) }}</td>
+             </tr><!--
+     -->}}<!--
+-->}}<!--
+   -------(France)-------
+   -->{{#if:{{{FR_metropole_population|}}} |<!--then:
+        --><tr class="mergedrow">
+             <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;</td>
+             <td colspan="2" style="padding-left:0em;">({{{FR_total_population_estimate_year}}})</td>
+           </tr>
+           <tr class="mergedrow">
+             <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td> 
+             <td style="padding-left:0em;">Total{{{FR_foot}}}</td>
+             <td>{{{FR_total_population_estimate}}}&nbsp;([[List of countries by population in 2005|{{{FR_total_population_estimate_rank}}}]])</td>
+           </tr>
+           <tr class="mergedrow">
+             <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+             <td style="padding-left:0em;">{{{FR_metropole}}}</td>
+             <td>{{{FR_metropole_population}}}&nbsp;([[List of countries by population in 2005|{{{FR_metropole_population_estimate_rank}}}]])</td>
+           </tr><!--
+   -->}}<!--
+   ---------------Density----------------
+-->{{#if:{{{population_density_km2|}}} |<!--then:
+     --><tr class="mergedbottomrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">Density<!--
+--France-related footnote:-->{{#if:{{{FR_foot5|}}} |<!--then:-->{{{FR_foot5}}} }}</td>
+          <td>{{{population_density_km2|}}}/km<sup>2</sup>&nbsp;<!--
+              -->{{#if:{{{pop_den_footnote|}}}|{{{pop_den_footnote|}}}}}{{#if:{{{population_density_rank|}}} |<!--then:-->([[List of countries by population density|{{{population_density_rank}}}]]) }}<!--
+              --><br/>{{#if:{{{population_density_sq_mi|}}}|{{formatnum:{{{population_density_sq_mi|}}}  }}|{{formatnum:{{#expr: {{{population_density_km2|}}} * 2.589988110336 round 1}}}} }}/sq&nbsp;mi</td>
+        </tr><!--
+-->}}<!--
+
+================================================================
+                                  GDP
+================================================================
+   -----------------PPP-----------------
+-->{{#if:{{{GDP_PPP|}}} |<!--then:
+     --><tr class="mergedtoprow">
+          <td colspan="2">'''[[Gross domestic product|GDP]]'''&nbsp;([[Purchasing power parity|PPP]])</td>
+          <td>{{{GDP_PPP_year|}}}&nbsp;estimate</td>
+        </tr>
+        <tr class="mergedrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">Total</td>
+          <td>{{{GDP_PPP}}}&nbsp;<!--
+              -->{{#if:{{{GDP_PPP_rank|}}} |<!--then:-->([[List of countries by GDP (PPP)|{{{GDP_PPP_rank}}}]]) }}</td>
+        </tr><!--
+   -------(PPP per capita)-------
+   -->{{#if:{{{GDP_PPP_per_capita|}}} |<!--then:
+        --><tr class="mergedbottomrow">
+             <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+             <td style="padding-left:0em;">Per capita</td>
+             <td>{{{GDP_PPP_per_capita}}}&nbsp;<!--
+                 -->{{#if:{{{GDP_PPP_per_capita_rank|}}} |<!--then:-->([[List of countries by GDP (PPP) per capita|{{{GDP_PPP_per_capita_rank}}}]]) }}</td>
+           </tr><!--
+   -->}}<!--
+-->}}<!--
+   ---------------Nominal---------------
+-->{{#if:{{{GDP_nominal|}}} |<!--then:
+     --><tr class="mergedtoprow">
+          <td colspan="2">'''[[Gross domestic product|GDP]]''' (nominal)</td>
+          <td>{{{GDP_nominal_year|}}}&nbsp;estimate</td>
+        </tr>
+        <tr class="mergedrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">Total</td>
+          <td>{{{GDP_nominal}}}&nbsp;<!--
+              -->{{#if:{{{GDP_nominal_rank|}}} |<!--then:-->([[List of countries by GDP (nominal)|{{{GDP_nominal_rank}}}]]) }}</td>
+        </tr><!--
+   -------(Nominal per capita)-------
+   -->{{#if:{{{GDP_nominal_per_capita|}}} |<!--then:
+        --><tr class="mergedbottomrow">
+             <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+             <td style="padding-left:0em;">Per capita</td>
+             <td>{{{GDP_nominal_per_capita}}}&nbsp;<!--
+                 -->{{#if:{{{GDP_nominal_per_capita_rank|}}} |<!--then:-->([[List of countries by GDP (nominal) per capita|{{{GDP_nominal_per_capita_rank}}}]]) }}</td>
+           </tr><!--
+   -->}}<!--
+-->}}<!--
+
+================================================================
+                                 Gini
+================================================================
+-->{{#if:{{{Gini|}}} |<!--then:
+     --><tr>
+          <td colspan="2">'''[[Gini_coefficient|Gini]]'''&nbsp;{{#if:{{{Gini_year|}}} |<!--then:-->({{{Gini_year|}}}) }}</td>
+          <td>{{{Gini}}}&nbsp;<!--
+              -->{{#if:{{{Gini_category|}}} |<!--then:-->({{{Gini_category|}}})&nbsp;}}<!--
+              -->{{#if:{{{Gini_rank|}}}     |<!--then:-->([[List of countries by income equality|{{{Gini_rank}}}]]) }}</td>
+        </tr><!--
+-->}}<!--
+
+================================================================
+                                 HDI
+================================================================
+-->{{#if:{{{HDI|}}} |<!--then:
+     --><tr>
+          <td colspan="2">'''[[Human Development Index|HDI]]'''&nbsp;{{#if:{{{HDI_year|}}} |<!--then:-->({{{HDI_year|}}}) }}</td>
+          <td>{{{HDI}}}&nbsp;<!--
+              -->{{#if:{{{HDI_category|}}} |<!--then:-->({{{HDI_category|}}})&nbsp;}}<!--
+              -->{{#if:{{{HDI_rank|}}}     |<!--then:-->([[List of countries by Human Development Index|{{{HDI_rank}}}]]) }}</td>
+        </tr><!--
+-->}}<!--
+
+================================================================
+                              Currency
+================================================================
+-->{{#if:{{{currency|}}} |<!--then:
+     --><tr>
+          <th colspan="2" style="vertical-align:middle;">Currency</th>
+          <td>{{{currency}}} <!--
+              -->{{#if:{{{currency_code|}}}
+                 |<!--then:-->(<code>[[ISO 4217|{{{currency_code}}}]]</code>)}} </td>
+        </tr><!--
+-->}}<!--
+
+================================================================
+                              Time zone
+================================================================
+-->{{#if:{{{time_zone|}}}{{{utc_offset|}}} |<!--then:
+     --><tr {{#if:{{{utc_offset_DST|}}}{{{DST_note|}}} |<!--then:-->class="mergedtoprow"}}>
+          <th colspan="2">Time zone</th>
+          <td>{{{time_zone|}}} <!--
+              -->{{#if:{{{utc_offset|}}} |<!--then:-->{{nowrap|([[Coordinated Universal Time|UTC]]{{{utc_offset}}})<!--endnowrap:-->}}<!--endif:-->}}</td>
+        </tr><!--
+     -->{{#if:{{{time_zone_DST|}}}{{{utc_offset_DST|}}} |<!--then:
+          --><tr class="{{#if:{{{DST_note|}}} |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+               <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+               <td style="padding-left:0em;">Summer&nbsp;([[Daylight saving time|DST]])</td>
+               <td>{{{DST|{{{time_zone_DST|}}}}}}&nbsp;([[Coordinated Universal Time|UTC]]{{{utc_offset_DST}}})</td>
+             </tr><!--
+     -->}}<!--
+-->}}<!--
+-->{{#if:{{{DST_note|}}} |<!--then:
+     --><tr class="mergedbottomrow">
+          <td colspan="2"></td>
+          <td>{{{DST_note}}}</td>
+        </tr><!--
+-->}}<!--
+
+==========================================================================================
+                                         Antipodes
+==========================================================================================
+-->{{#if:{{{antipodes|}}} |<!--then:
+     --><tr>
+          <th colspan="2">[[Antipodes]]</th>
+          <td>{{{antipodes}}}</td>
+        </tr><!--
+-->}}<!--
+
+==========================================================================================
+                                         Date format
+==========================================================================================
+-->{{#if:{{{date_format|}}} |<!--then:
+     --><tr>
+          <th colspan="2">Date formats</th>
+          <td>{{{date_format}}}</td>
+        </tr><!--
+-->}}<!--
+
+==========================================================================================
+                                         Rule of the Road
+==========================================================================================
+-->{{#if:{{{drives_on|}}} |<!--then:
+     --><tr>
+          <th colspan="2">Drives on the</th>
+          <td>{{{drives_on}}}</td>
+        </tr><!--
+-->}}<!--
+
+================================================================
+                                ISO 3166 code 
+================================================================
+-->{{#switch:{{{iso3166code|}}} 
+  |omit=<!-- do nothing -->
+  |=<!-- if iso3166code is not supplied:-->{{#if:{{{common_name|}}}
+    |<!-- then: -->{{#ifexist:Template:ISO 3166 code {{{common_name|}}}
+      |<!-- then: --><tr class="mergedtoprow">
+      <th colspan="2">[[ISO 3166|ISO&nbsp;3166&nbsp;code]]</th>
+      <td>[[ISO 3166-2:{{ISO 3166 code {{{common_name|}}} }}|{{ISO 3166 code {{{common_name|}}} }}]]</td>
+      </tr>
+    }}<!--end ifexist -->
+  }}<!--end if common_name-->
+  |#default=<tr>
+  <th colspan="2">[[ISO 3166|ISO&nbsp;3166&nbsp;code]]</th>
+  <td>[[ISO 3166-2:{{uc:{{{iso3166code}}} }}|{{uc:{{{iso3166code}}} }}]]</td>
+  </tr>
+}}<!--
+
+================================================================
+                            Internet TLD
+================================================================
+-->{{#if:{{{cctld|}}} |<!--then:
+     --><tr>
+          <th colspan="2">[[Country code top-level domain|Internet TLD]]</th>
+          <td>{{{cctld}}}</td>
+        </tr><!--
+-->}}<!--
+================================================================
+                Official website (geopolitical organization)
+================================================================
+-->{{#if:{{{official_website|}}} |<!--then:
+     --><tr>
+          <td colspan="3" style="line-height:11pt; text-align:center;"><!--
+           -->'''Karinan-Aptas (Website)'''<br/>{{{official_website}}}</td>
+        </tr><!--
+-->}}<!--
+
+================================================================
+                            Calling code
+================================================================
+-->{{#if:{{{calling_code|}}} |<!--then:
+     --><tr>
+          <th colspan="2">{{#ifexist:Telephone numbers in {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}
+                              |[[Telephone numbers in {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Calling code]]|Calling code}}</th>
+          <td>{{{calling_code}}}</td>
+        </tr><!--
+-->}}<!--
+
+================================================================
+                           Patron saint
+================================================================
+-->{{#if:{{{patron_saint|{{{patron_saints|}}}}}} |<!--then:
+     --><tr>
+          <th colspan="2" >[[Patron saint]]{{#if:{{{patron_saints|}}}|s}}</th>
+          <td>{{{patron_saint|{{{patron_saints}}}}}}</td>
+        </tr><!--
+-->}}<!--
+
+<!--
+
+================================================================
+                            Bottom Map
+================================================================
+-->{{#if:{{{image_map3|}}} |<!--then:
+     --><tr class="mergedtoprow">
+          <td colspan="3" style="text-align:center; padding:0.6em 0em;"> [[File:{{{image_map3}}} |{{{map3_width|250px}}} |center |alt={{{alt_map3|}}}|Location of {{{common_name|{{{linking_name|{{PAGENAME}}}}}}}}]] <div style="position:relative; top:0.3em;"><small>{{{map_caption3|}}}</small></div>
+          </td>
+        </tr><!--
+-->}}<!--
+
+================================================================
+                             Footnotes
+================================================================
+    ----------Non-specific----------
+-->{{#if:{{{footnotes|}}} |<!--then:
+     --><tr>
+          <td colspan="3"><small>{{{footnotes}}}</small></td>
+        </tr><!--
+-->}}<!--
+   ------------Numbered------------
+-->{{#if:{{{footnote1|}}} |<!--then:
+     --><tr style="font-size:80%;">
+          <td align="right">{{lower|0.3em|<sup>1</sup>}}</td>
+          <td colspan="2" style="padding-left:0em;">{{{footnote1}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{footnote2|}}} |<!--then:
+     --><tr class="{{#if:{{{footnote3|}}} |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}" style="font-size:80%;">
+          <td align="right">{{lower|0.3em|<sup>2</sup>}}</td>
+          <td colspan="2" style="padding-left:0em;">{{{footnote2}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{footnote3|}}} |<!--then:
+     --><tr class="{{#if:{{{footnote4|}}} |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}" style="font-size:80%;">
+          <td align="right">{{lower|0.3em|<sup>3</sup>}}</td>
+          <td colspan="2" style="padding-left:0em;">{{{footnote3}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{footnote4|}}} |<!--then:
+     --><tr class="{{#if:{{{footnote5|}}} |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}" style="font-size:80%;">
+          <td align="right">{{lower|0.3em|<sup>4</sup>}}</td>
+          <td colspan="2" style="padding-left:0em;">{{{footnote4}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{footnote5|}}} |<!--then:
+     --><tr class="{{#if:{{{footnote6|}}} |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}" style="font-size:80%;">
+          <td align="right">{{lower|0.3em|<sup>5</sup>}}</td>
+          <td colspan="2" style="padding-left:0em;">{{{footnote5}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{footnote6|}}} |<!--then:
+     --><tr class="{{#if:{{{footnote7|}}} |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}" style="font-size:80%;">
+          <td align="right">{{lower|0.3em|<sup>6</sup>}}</td>
+          <td colspan="2" style="padding-left:0em;">{{{footnote6}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{footnote7|}}} |<!--then:
+     --><tr class="{{#if:{{{footnote8|}}} |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}" style="font-size:80%;">
+          <td align="right">{{lower|0.3em|<sup>7</sup>}}</td>
+          <td colspan="2" style="padding-left:0em;">{{{footnote7}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{footnote8|}}} |<!--then:
+     --><tr class="mergedbottomrow" style="font-size:80%;">
+          <td align="right">{{lower|0.3em|<sup>8</sup>}}</td>
+          <td colspan="2" style="padding-left:0em;">{{{footnote8}}}</td>
+        </tr><!--
+-->}}<!--
+
+================================================================
+                            Navbox
+================================================================
+-->{{#if:{{{navbar|}}} |<!--then:
+     --><tr class="mergedtoprow noprint">
+          <td colspan="3" style="text-align:center;">{{navbar|{{{navbar|}}}}}</td>
+        </tr><!--
+-->}}<!--
+
+--></table><noinclude>
+{{documentation}}
+</noinclude>
