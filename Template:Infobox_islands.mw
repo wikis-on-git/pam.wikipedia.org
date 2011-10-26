@@ -85,7 +85,7 @@
 | data13     = {{{highest mount|}}}
 
 <!-- end geography -->
-| header14   = {{#if: {{{Country heading|}}} | {{{Country heading}}} | <includeonly>Country</includeonly> }}
+| header14   = {{#if: {{{Country heading|}}} | {{{Country heading}}} | <includeonly>Bangsa</includeonly> }}
 
 | data15     = {{#if:{{{country|}}}|<div>'''{{{country}}}'''</div>}}
 
