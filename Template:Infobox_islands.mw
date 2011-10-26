@@ -8,7 +8,7 @@
     -->|{{#if:{{{native name|}}}<!--
       -->|<small>{{#if:{{{native name link|}}}<!--
         -->|[[{{{native name link}}}|Tubung lagyu]]<!--
-        -->|Native name<!--
+        -->|Tubung lagyu<!--
       -->}}: {{{native name}}}</small><!--
      -->}}<!--
   -->}}<!--
