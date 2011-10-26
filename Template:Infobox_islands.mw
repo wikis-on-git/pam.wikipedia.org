@@ -7,13 +7,13 @@
     -->|<small>{{{local name}}}</small><!--
     -->|{{#if:{{{native name|}}}<!--
       -->|<small>{{#if:{{{native name link|}}}<!--
-        -->|[[{{{native name link}}}|Native name]]<!--
+        -->|[[{{{native name link}}}|Tubung lagyu]]<!--
         -->|Native name<!--
       -->}}: {{{native name}}}</small><!--
      -->}}<!--
   -->}}<!--
   -->|{{#if:{{{nickname|{{{sobriquet|}}}}}}<!--
-    -->|<small>Nickname: {{{nickname|{{{sobriquet|}}}}}}</small><!--
+    -->|<small>Palayo: {{{nickname|{{{sobriquet|}}}}}}</small><!--
   -->}}<!--
 -->}}
 
@@ -26,32 +26,32 @@
 | headerstyle = background-color: #cef2e0
 | header1    = <includeonly>Geography</includeonly>
 
-| label2     = Location
+| label2     = Lokasyun
 | data2      = {{{location|}}}
 
 | label3     = Coordinates
 | data3      = {{{coordinates|}}}
 
-| label4     = Archipelago
+| label4     = Kapulwan
 | class4     = note
 | data4      = {{{archipelago|}}}
 
-| label5     = Total islands
+| label5     = Bilang da reng anggang pulu/isla
 | data5      = {{{total islands|}}}
 
-| label6     = Major islands
+| label6     = Manimunang/mangaragul a pulu/isla
 | data6      = {{{major islands|}}}
 
-| label7     = Area
+| label7     = Leparan
 | data7      = {{Infobox islands/area| km2 = {{{area km2|{{{area_km2|}}}}}} | sqmi = {{{area sqmi|{{{area_sqmi|}}}}}} | m2 = {{{area m2|{{{area_m2|}}}}}} | sqft = {{{area sqft|{{{area_sqft|}}}}}} }}{{convinfobox|{{{area ha|{{{area_ha|}}}}}}|ha|{{{area acre|{{{area_acre|}}}}}}|acre}}{{{area|}}}{{{area footnotes|}}}
 
 | label8     = [[List of islands by area|Area rank]]
 | data8      = {{{rank|}}}
 
-| label9     = Length
+| label9     = Kaba
 | data9      = {{Infobox islands/length | km = {{{length km|{{{length_km|}}}}}} | mi = {{{length mi|{{{length_mi|}}}}}} | m = {{{length m|{{{length_m|}}}}}} | ft = {{{length ft|{{{length_ft|}}}}}} }}{{{length|}}}{{{length footnotes|}}}
 
-| label10    = Width
+| label10    = Lapad
 | data10     = {{#if:{{both|{{{width min km|}}}|{{{width max km|}}}}}<!--
                   -->{{both|{{{width min mi|}}}|{{{width max mi|}}}}}<!--
                   -->{{both|{{{width min m|}}}|{{{width max m|}}}}}<!--
@@ -75,7 +75,7 @@
   -->|{{Infobox islands/length | km = {{{width km|{{{width_km|}}}}}} | mi = {{{width mi|{{{width_mi|}}}}}} | m = {{{width m|{{{width_m|}}}}}} | ft = {{{width ft|{{{width_ft|}}}}}} }}<!--
   -->}}{{{width|}}}{{{width footnotes|}}}
 
-| label11    = Coastline
+| label11    = Bebe/lele dagat
 | data11     = {{Infobox islands/length | km = {{{coastline km|{{{coastline_km|}}}}}} | mi = {{{coastline mi|{{{coastline_mi|}}}}}} | m = {{{coastline m|{{{coastline_m|}}}}}} | ft = {{{coastline ft|{{{coastline_ft|}}}}}} }}{{{coastline|}}}{{{coastline footnotes|}}}
 
 | label12    = Highest&nbsp;elevation
@@ -98,10 +98,10 @@
 | label18    = {{{country admin divisions title 2|}}}
 | data18     = {{{country admin divisions 2|}}}
 
-| label19    = Capital city
+| label19    = Buntukbalen
 | data19     = {{{country capital|}}}
 
-| label20    = Largest city
+| label20    = Pekamaragul a lakanbalen/syudad/ciudad
 | data20     = {{{country largest city|}}}{{#if: {{{country largest city population|}}}|&nbsp;(pop. {{{country largest city population}}})}}
 
 | label21    = {{{country leader title|}}}
@@ -112,10 +112,10 @@
 | label23    = {{{country 1 admin divisions title|}}}
 | data23     = {{{country 1 admin divisions|}}}
 
-| label24    = Capital city
+| label24    = Buntukbalen
 | data24     = {{{country 1 capital|}}}
 
-| label25    = Largest city
+| label25    = Pekamaragul a lakanbalen/syudad/ciudad
 | data25     = {{{country 1 largest city|}}}{{#if: {{{country 1 largest city population|}}}|&nbsp;({{{country 1 largest city population}}})}}
 
 | label26    = {{{country 1 leader title|}}}
@@ -198,12 +198,12 @@
 | label53    = Demonym
 | data53     = {{{demonym|}}}
 
-| label54    = Population
+| label54    = Populasyun
 | data54     = {{{population|}}} {{#if:{{{population as of|}}}|<small>(as of {{{population as of}}})</small>}}
 
-| label55    = Density
+| label55    = Kapal/sinsin
 | data55     = {{Infobox islands/density| km2 = {{{density km2|{{{density_km2|}}}}}}| sqmi = {{{density sqmi|{{{density_sqmi|}}}}}} }}{{{density|}}}{{{density footnotes|}}}
-| label56    = Ethnic groups
+| label56    = Lahi
 | data56     = {{{ethnic groups|}}}
 
 <!-- end demographics -->
