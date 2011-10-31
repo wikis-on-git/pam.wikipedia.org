@@ -1,5 +1,5 @@
 {{Infobox
-| bodystye   = float:right; width:300px; margin-left: 1em; margin-bottom: 1ex; background: #f9f9f9; border: 1px #aaaaaa solid; border-collapse: collapse; font-size: 95%;
+| bodystyle  = float:right; width:300px; margin-left: 1em; margin-bottom: 1ex; background: #f9f9f9; border: 1px #aaaaaa solid; border-collapse: collapse; font-size: 95%;
 | titleclass = fn org
 | title      = {{{name|<includeonly>{{PAGENAME}}</includeonly>}}}
 | above      = {{br separated entries<!--
