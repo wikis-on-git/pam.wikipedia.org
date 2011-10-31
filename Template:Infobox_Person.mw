@@ -1,9 +1,6 @@
-<noinclude>{{start infobox page}}</noinclude><!--
--->{{Infobox
-|left; margin:
-
+{{Infobox
 |bodyclass  = biography vcard
-|bodystye   = float:right; width:300px; margin-left: 1em; margin-bottom: 1ex; background: #f9f9f9; border: 1px #aaaaaa solid; border-collapse: collapse; font-size: 95%;
+|bodystyle  = float:right; width:300px; margin-left: 1em; margin-bottom: 1ex; background: #f9f9f9; border: 1px #aaaaaa solid; border-collapse: collapse; font-size: 95%;
 |above      = '''{{{name|{{PAGENAME}}}}}'''
 |aboveclass = fn
 |abovestyle = text-align:center; font-size:125%;
@@ -100,7 +97,6 @@
             --></div><!--
         -->}}
 }}<noinclude>
-{{end infobox page}}
 
 {{pp-semi-template|small=yes}}
 {{#ifeq:{{SUBPAGENAME}}|sandbox |{{Template sandbox notice}} }}
