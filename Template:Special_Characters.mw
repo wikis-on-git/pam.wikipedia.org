@@ -1,0 +1,10 @@
+{{Side box
+ | class = noprint selfref
+ | text = '''Ing {{#if:{{{section|}}}|{{{section}}}|{{#if:{{SUBJECTSPACE}}|page|artikulung}}}} iti atin yang {{{special|[[Help:Special characters|espesyal a titik]]}}}.''' Nung alang masaleseng [[{{{fix|Help:Special characters}}}|pamagsaling suporta]], malyari mu la yakit ding {{{error|[[mojibake|tandang pamangutang, kahon, o aliwa pang simbulu]]}}}{{#if:{{{characters|}}}|&#32;imbis a {{{characters}}}}}.
+ | image = {{#if:{{{image|}}}
+   | [[File:{{{image}}}|40x40px|link={{{link|}}}|alt={{{alt|}}}]] }}
+ | style = width: {{#if:{{{width|}}}|{{{width}}}|22em}};
+ | textstyle = vertical-align:middle; font-size:95%;
+}}<noinclude>
+{{documentation}}
+</noinclude>
