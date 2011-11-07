@@ -1,1 +1,5 @@
-[http://twitter.com/{{{1|{{{id}}}}}} {{{2|{{{name|{{PAGENAME}}}}}}}}] king [[Twitter]]<noinclude>{{documentation}}</noinclude>
+[https://twitter.com/{{{1|{{{id}}}}}} {{{2|{{{name|{{PAGENAME}}}}}}}}] king [[Twitter]]<noinclude>
+{{documentation}}
+[[en:Template:Twitter]]
+[[tl:Suleras:Twitter]]
+</noinclude>
