@@ -1,0 +1,56 @@
+<div class="NavFrame"><div class="NavHead" style="align:{{{1|center}}}; background-color:#ffd055">[[Image:Icons-flag-ph.png|14px|left]]&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;'''[[:tl:Mga wika sa Pilipinas|Deng Wikipedia kareng amanung Pilipino]]'''&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;[[Image:Icons-flag-ph.png|14px]]</div><div class="NavContent" style="display:{{{2|all}}}">
+{| align="center" cellpadding="3px" 
+ |-
+ |- align="center"
+ |
+<imagemap>
+Image:Ph locator region 5.png|55px|''Kabikolan''
+rect 0 0 481 570 [[:bcl:]]
+desc none
+</imagemap>
+ |
+<imagemap>
+Image:Ph locator region 9.png|55px|''Zamboanga''
+rect 0 0 300 440 [[:cbk-zam:]]
+desc none
+</imagemap>
+ |
+<imagemap>
+Image:Distribution-ceb.png|55px|''Sugbo''
+rect 0 0 2000 3120 [[:ceb:]]
+desc none
+</imagemap>
+ | 
+<imagemap>
+Image:Ilocanodistribution.jpg|55px|''Ilocos''
+rect 0 0 400 600 [[:ilo:]]
+desc none
+</imagemap>
+ | 
+<imagemap>
+Image:Tagalog_Nation.png|55px|''Katagalugan''
+rect 0 0 2000 3120 [[:tl:]]
+desc none
+</imagemap>
+ |
+<imagemap>
+Image:Ph locator map pangasinan.png|55px|''Pangasinan''
+rect 0 0 300 440 [[:pag:]]
+desc none
+</imagemap>
+ |
+<imagemap>
+Image:Ph locator map samar island.png|55px|''Samar''
+rect 0 0 300 440 [[:war:]]
+desc none
+</imagemap>
+ |- align="center"
+ | bgcolor="#ffdb60" | [[:bcl:|''Bikol'']]
+ | bgcolor="#ffe76b" | [[:cbk-zam:|''Chavacano'']]
+ | bgcolor="#fff276" | [[:ceb:|''Sugbuanon'']]
+ | bgcolor="#ffff81" | [[:ilo:|''Ilokano'']]
+ | bgcolor="#ffff8c" | [[:pam:|''Pampanga'']]
+ | bgcolor="#ffff97" | [[:pag:|''Pangasinan'']]
+ | bgcolor="#ffffa1" | [[:war:|''Winaray'']]
+ |}
+</div></div>
