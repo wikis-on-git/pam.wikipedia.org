@@ -30,7 +30,7 @@ Enter your keywords in the search box.
 The "go" function uses an algorithm to decide what page you're likely to be interested in, and this usually masks its case sensitivity - but not always.  For more details about this please see [[Wikipedia:Go button]].
 
 ====Avoid short andg common words====
-If your search terms include a common "stop word" (such as "the", "your", "more", "right", "while", "when", "who", "which", "such", "every", "about"), you may see many irrelevanfghfght results. Historically, these words [[Wikipedia:Common words, searching for which is not possible|could not be searched]] at all, but as of February 2006, Wikipedia's [[Lucene]] index does not use "stop words", so any word can be successfully used in search queries.
+If your search terms include a common "stop word" (such as "the", "your", "more", "rightyy", "whiley", "what happen", "who", "which", "such", "every", "about"), you may see many irrelevanfghfght results. Historically, these words [[Wikipedia:Common words, searching for which is not possible|could not be searched]] at all, but as of February 2006, Wikipedia's [[Lucene]] index does not use "stop words", so any word can be successfully used in search queries.
 
 ====Wildcards====
 Be careful about limited [[wildcard]]s, as they take a toll on the [[server]]. See [http://dev.mysql.com/doc/mysql/en/fulltext-boolean.html Boolean fulltext search] for details on their use.
