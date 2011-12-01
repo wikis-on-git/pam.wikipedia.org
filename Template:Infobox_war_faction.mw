@@ -1,0 +1,74 @@
+
+<includeonly>
+{| {{WPMILHIST Infobox style|main_box}}
+|- 
+! colspan="2" {{WPMILHIST Infobox style|header_bar}} | {{{name|{{PAGENAME}}}}}
+|- 
+| colspan="2" {{WPMILHIST Infobox style|header_bar}} | Kayabe king {{{war}}}
+|-
+{{#if:{{{image|}}} |
+{{!}} colspan="2" {{WPMILHIST Infobox style|image_box}} {{!}} {{{image|}}}<br/>{{{caption|}}}
+}}
+|-
+! style="padding-right: 1em;" | Aktibu
+| {{{active|}}}
+|-
+{{#if:{{{ideology|}}} |
+! style="padding-right: 1em;" {{!}} Ideolohiya
+{{!}} {{{ideology|}}}
+}}
+|-
+{{#if:{{{clans|}}} |
+! style="padding-right: 1em;" {{!}} Grupu
+{{!}} {{{clans|}}}
+}}
+|-
+! style="padding-right: 1em;" | Deng pekapun
+| {{{leaders|}}}
+|-
+{{#if:{{{headquarters|}}} |
+! style="padding-right: 1em;" {{!}} Headquarters
+{{!}} {{{headquarters|}}}
+}}
+|-
+{{#if:{{{area|}}} |
+! style="padding-right: 1em;" {{!}} Area&nbsp;of<br>operations
+{{!}} {{{area|}}}
+}}
+|-
+{{#if:{{{strength|}}} |
+! style="padding-right: 1em;" {{!}} Sikanan
+{{!}} {{{strength|}}}
+}}
+|-
+{{#if:{{{partof|}}} |
+! style="padding-right: 1em;" {{!}} Dake&nbsp;ning
+{{!}} {{{partof|}}}
+}}
+|-
+{{#if:{{{previous|}}} |
+! style="padding-right: 1em;" {{!}} Migumpisa&nbsp;antimong
+{{!}} {{{previous|}}}
+}}
+|-
+{{#if:{{{next|}}} |
+! style="padding-right: 1em;" {{!}} Meging
+{{!}} {{{next|}}}
+}}
+|-
+{{#if:{{{allies|}}} |
+! style="padding-right: 1em;" {{!}} Kakampi
+{{!}} {{{allies|}}}
+}}
+|-
+{{#if:{{{opponents|}}} |
+! style="padding-right: 1em;" {{!}} Kalaban
+{{!}} {{{opponents|}}}
+}}
+|-
+{{#if:{{{battles|}}} |
+! style="padding-right: 1em;" {{!}} Labanan/gera
+{{!}} {{{battles|}}}
+}}
+|}</includeonly><noinclude>
+{{template doc}}</noinclude>
