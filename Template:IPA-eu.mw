@@ -1,0 +1,10 @@
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Basque:&nbsp;|pron=pronounced&nbsp;|=|Basque pronunciation:&nbsp;}}</small><span title="Pronunciation in IPA" class="IPA">[[WP:IPA for Basque|[{{{1}}}]]]</span>{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude><noinclude>
+
+{{documentation|Template:usage of IPA templates}}
+
+<!-- PLEASE ADD CATEGORIES BELOW THIS LINE, THANKS. -->
+
+[[Category:IPA templates|{{PAGENAME}}]]
+
+<!-- PLEASE ADD INTERWIKIS BELOW THIS LINE, THANKS. -->
+</noinclude>
