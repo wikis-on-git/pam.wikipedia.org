@@ -23,7 +23,7 @@
 {{!}} {{{clans|}}}
 }}
 |-
-! style="padding-right: 1em;" | Deng pekapun
+! style="padding-right: 1em;" | Pekapun
 | {{{leaders|}}}
 |-
 {{#if:{{{headquarters|}}} |
@@ -32,7 +32,7 @@
 }}
 |-
 {{#if:{{{area|}}} |
-! style="padding-right: 1em;" {{!}} Area&nbsp;of<br>operations
+! style="padding-right: 1em;" {{!}} Lugal&nbsp;ning<br>pamipalakad
 {{!}} {{{area|}}}
 }}
 |-
