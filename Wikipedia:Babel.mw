@@ -116,8 +116,8 @@ Note that many [[list of sign languages|amanung senyas]] (sign languages) para-p
 ''Lon la rin deng [[WP:UBX|Templates for making babel style templates]].''
 Ating aliwang paralan bang mika resultang anti kanita kalupa ning standard Babel-X template king babo.
 
-#Makadagdag kang apusan malyaring magsarili o stand-alone language templates. Format: '''<nowiki>{{User xx-1}}{{User yy-1}}{{User zz-1}}</nowiki>'''.
-#Makaga Babel-N template. Format: '''<nowiki>{{Babel-N|1={{User xx-1}}{{User yy-1}}{{User zz-1}}}}</nowiki>'''.
+#Makadagdag kang apusan a malyaring magsarili o stand-alone language templates. Format: '''<nowiki>{{User xx-1}}{{User yy-1}}{{User zz-1}}</nowiki>'''.
+#Makagamit kang Babel-N template. Format: '''<nowiki>{{Babel-N|1={{User xx-1}}{{User yy-1}}{{User zz-1}}}}</nowiki>'''.
 #Makagamit kang apusan a pangbabo ampong panglalam o top and bottom templates  ba yang gawan ing kahun. Format: '''<nowiki>{{Userboxtop}}{{User xx-1}}{{User yy-1}}{{User zz-1}}{{Userboxbottom}}</nowiki>'''.
 
 {{WP:UBS}}
