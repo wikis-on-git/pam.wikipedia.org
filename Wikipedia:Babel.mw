@@ -107,18 +107,17 @@ Idagdag da ka deng apusan o template a reti king uri o category a makaugne king 
 
 Ba meng apaintun ing metung a taung magsalita king metung a amanu, lon me ing '''[[:Category:Wikipedians by language|Wikipedians by languages]]''', at tukyan mo reng suglung o link. Keraklan, ibat la king [[ISO 639]] deng code a tidwa ampong titlu letra, pero lon me ing [[meta:Complete list of language wikis available|listahan a ini]]. 
 
-Makasaup kang paragulan ya ing sistemang ini kapamilatan ning pamangawang apusan o template para king kekang amanu. Melalang na la deng uri o category para kareng keraklan kareng amanung ating Wikipedia a maki maygit dinalan a artikulu, kaylangan la mung dinan lagyu! Rerekomenda dang kopyan la reng bersion o Ingles o English o Frances o French neng dadagdagan ya ing sistem, uling e la kumpletu deng keraklan kareng amanung makasulat keti.
+Makásaup kang paragulan ya ing sistemang ini kapamilatan ning pamangawang apusan o template para king kekang amanu. Melalang na la deng uri o category para kareng keraklan kareng amanung ating Wikipedia a maki maygit dinalan a artikulu, kaylangan la mung dinan lagyu! Rerekomenda dang kopyan la reng bersion o Ingles o English o Frances o French neng dadagdagan ya ing sistem, uling e la kumpletu deng keraklan kareng amanung makasulat keti.
 
-Pakitandanan a deng 
-Note that many [[list of sign languages|amanung senyas]] (sign languages) para-pareu lang gagamit king apusan o template a maki language code a "sgn", liban mu kareng talagamit ning  [[:Category:User ase|American Sign Language]], kaylangang gumamit king   [[Wikipedia:Babel/List#ase|American Sign Language template]]. Deng aliwang amanung senyas makabili la king mismung apusan o template a <nowiki>{{User sgn}}</nowiki>. Ba yang gamitan ing panyukad (parameter) a ini, kaylangan na ning talagamit a gawang karagdagang takbang neng gamitan no reng <nowiki>{{Babel-#}}</nowiki> template, a milalarawan [[:Category:User sgn|keni]].
+Pakitandanan mung deng [[list of sign languages|amanung senyas]] (sign languages) para-pareu lang gagamit king apusan o template a maki language code a "sgn", liban mu kareng talagamit ning  [[:Category:User ase|American Sign Language]], kaylangang gumamit king   [[Wikipedia:Babel/List#ase|American Sign Language template]]. Deng aliwang amanung senyas makabili la king mismung apusan o template a <nowiki>{{User sgn}}</nowiki>. Ba yang gamitan ing panyukad (parameter) a ini, kaylangan na ning talagamit a gawang karagdagang takbang neng gamitan no reng <nowiki>{{Babel-#}}</nowiki> template, a milalarawan [[:Category:User sgn|keni]].
 
 ==Alternatibu==
 ''Lon la rin deng [[WP:UBX|Templates for making babel style templates]].''
 Ating aliwang paralan bang mika resultang anti kanita kalupa ning standard Babel-X template king babo.
 
-#Makadagdag kang apusan a malyaring magsarili o stand-alone language templates. Format: '''<nowiki>{{User xx-1}}{{User yy-1}}{{User zz-1}}</nowiki>'''.
-#Makagamit kang Babel-N template. Format: '''<nowiki>{{Babel-N|1={{User xx-1}}{{User yy-1}}{{User zz-1}}}}</nowiki>'''.
-#Makagamit kang apusan a pangbabo ampong panglalam o top and bottom templates  ba yang gawan ing kahun. Format: '''<nowiki>{{Userboxtop}}{{User xx-1}}{{User yy-1}}{{User zz-1}}{{Userboxbottom}}</nowiki>'''.
+#Makádagdag kang apusan a malyaring magsarili o stand-alone language templates. Format: '''<nowiki>{{User xx-1}}{{User yy-1}}{{User zz-1}}</nowiki>'''.
+#Makágamit kang Babel-N template. Format: '''<nowiki>{{Babel-N|1={{User xx-1}}{{User yy-1}}{{User zz-1}}}}</nowiki>'''.
+#Makágamit kang apusan a pangbabo ampong panglalam o top and bottom templates  ba yang gawan ing kahun. Format: '''<nowiki>{{Userboxtop}}{{User xx-1}}{{User yy-1}}{{User zz-1}}{{Userboxbottom}}</nowiki>'''.
 
 {{WP:UBS}}
 
