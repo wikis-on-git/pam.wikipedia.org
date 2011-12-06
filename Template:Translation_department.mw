@@ -1,0 +1,31 @@
+{| class="WSerieV" id="Wcinema" cellpadding="0" cellspacing="0" style="padding: 0.3em; float:right; clear:right; margin:5px 5px 1em 1em; border: 1px solid #999; border-right-width: 2px; border-bottom-width: 2px; background:#efefef; text-align:center"
+|
+|-
+|style="padding: 0.3em"| 
+|-
+|style="padding: 0.3em; font-variant: small-caps; font-size: 0.8em; background-color: #cccccc"| '''TRANSLATION DEPARTMENT''' 
+|-
+|style="padding: 0.3em; line-height: 1.5em; text-align:left"|
+*'''[[Wikipedia:Translation]]'''
+*[[Wikipedia:Babel|Babel: user templates]]
+*[[Wikipedia:Translators available|Translators]]
+*[[Wikipedia:Pages needing translation into English|Quick translation needed]]
+----
+|-
+|style="padding: 0.3em; font-variant: small-caps; font-size: 0.8em; background-color: #cccccc"| '''RELATED PROJECTS''' 
+|-
+|style="padding: 0.3em; line-height: 1.5em; text-align:left" |
+*[[Wikipedia:Featured articles in other languages|Featured articles in <br />other languages]]
+*[[meta:Translation of the week|Meta Translation of the Week]]
+*[[tools:~flacus/IWLC/|Interwiki link checker]]
+|-
+|}<noinclude>
+
+[[Category:Wikipedia translation templates|{{PAGENAME}}]]<!--may need focusing/reassignment within the "Category:Wikipedia..." hierarchy-->
+
+[[ar:قالب:قسم الترجمة]]
+[[cs:Šablona:Babylon]]
+[[dsb:Pśedłoga:Babelowa pomoc]]
+[[eo:Ŝablono:BabelHelpo]]
+[[hsb:Předłoha:Babel-hlej-tež]]
+</noinclude>
