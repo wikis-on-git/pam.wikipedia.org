@@ -9,4 +9,10 @@ It is primarily used by {{tl|template doc}} to automatically display the documen
 * ''Pagename'' refers to the name of the documentation page, which if specified, creates [view] and [edit] boxes to the right of the heading.
 
 <noinclude>[[zh:Template:內聯模板文件/doc]]</noinclude>
-<includeonly>[[zh:Template:內聯模板文件]]</includeonly>
+<includeonly>
+[[dv:ފަންވަތް:Template doc inline]]
+[[hy:Կաղապար:Template doc inline]]
+[[rm:Model:Template doc inline]]
+[[ta:வார்ப்புரு:Template doc inline]]
+[[tpi:Template:Template doc inline]]
+[[zh:Template:內聯模板文件]]</includeonly>
