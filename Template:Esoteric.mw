@@ -1,0 +1,26 @@
+{| summary="Warning box: The source code of this template employs complicated constructs" class="messagebox" style="clear: both"
+| style="align: center" | [[Image:Information_icon.svg|50px]]
+| style="width: 95%; padding: 0.4em" | This template employs some extremely complicated and esoteric features of template syntax.
+Please do not attempt to alter it unless you are certain that you understand the setup '''and''' are prepared to repair/revert any consequent collateral damage if the results are unexpected.  Any experiments should be conducted in the [[Template:Template sandbox|template sandbox]] or your user space.
+|}<includeonly>[[Category:Esoteric templates|{{PAGENAME}}]]</includeonly><noinclude>
+----
+{| summary="A second, <noinclude>, box, specifying that the code of the former box is itself simple: rather, the code of templates which it marks may be complicated" class="messagebox"
+|-
+| align="center" | [[Image:Information_icon.svg|50px]]
+| align="left" width="95%" | Actually, ''this'' template uses very simple syntax, but templates that link to the above message do use esoteric syntax.
+|}
+This template is for templates with esoteric syntax.
+
+[[Category:Template templates|{{PAGENAME}}]]
+
+
+[[cs:Šablona:Esoteric]]
+[[es:Plantilla:Esotérica]]
+[[eo:Ŝablono:Esotera]]
+[[mk:Езотерика]]
+[[ja:Template:複雑なテンプレート]]
+[[ka:თარგი:Esoteric]]
+[[ro:Format:Ezoteric]]
+[[sl:Predloga:Esoteric]]
+[[zh:Template:Esoteric]]
+</noinclude>
