@@ -1,0 +1,9 @@
+{{sister
+| position = {{{position|}}}
+| project  = wikisource
+| text     = 
+[[Wikisource]] has original text related to this article:
+<div style="margin-left: 10px;">'''{{#ifeq: {{{italics}}} | yes | '' | }}{{sec link auto|wikisource|{{{1|Special:Search/{{PAGENAME}}}}}|{{{2|{{{1|{{PAGENAME}}}}}}}}}}{{#ifeq: {{{italics}}} | yes | '' | }}'''</div>
+}}<noinclude>
+{{documentation}}
+</noinclude>
