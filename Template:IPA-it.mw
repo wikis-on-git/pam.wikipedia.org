@@ -1,0 +1,9 @@
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Italian:&nbsp;|pron=pronounced&nbsp;|=|Italian pronunciation:&nbsp;}}</small><span title="Pronunciation in IPA" class="IPA">[[WP:IPA for Italian|[{{{1}}}]]]</span>{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
+
+{{documentation|Template:usage of IPA templates}}
+
+<!-- PLEASE ADD CATEGORIES BELOW THIS LINE, THANKS. -->
+
+[[Category:IPA templates|{{PAGENAME}}]]
+
+<!-- PLEASE ADD INTERWIKIS BELOW THIS LINE, THANKS. -->
