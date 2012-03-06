@@ -1,6 +1,6 @@
 <!-- for NNth century categories -->
-<!-- for 20th century use like this: {{YearsInCentury|19|th|20|th|21|st}} -->
-<!-- for 19th century use like this: {{YearsInCentury|18|th|19|th|20|th}} -->
+<!-- for 20th century use like this: {{YearsInCentury|pang|19|pang|20|pang|21}} -->
+<!-- for 19th century use like this: {{YearsInCentury|pang|18|pang|19|pang|20}} -->
 {| class="toccolours" align=center
 | align=center | [[:category:{{{1}}}{{{2}}} century|<<]] - Banua king pang[[{{{3}}}{{{4}}} dilanua]] - [[:category:{{{5}}}{{{6}}} century|>>]]
 {{YearsInDecade|{{{1}}}0|{{{1}}}1}}
