@@ -13,7 +13,7 @@
 {{!}} colspan="2" {{WPMILHIST Infobox style|image_box}} {{!}} {{{image|}}}<br/>{{{caption|}}}
 }}
 |-
-! style="padding-right: 1em;" | Aktibut
+! style="padding-right: 1em;" | Aktibu
 | {{{active|}}}
 |-
 {{#if:{{{ideology|}}} |
