@@ -1,0 +1,25 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Libya
+| flag alias = Flag of Libya.svg
+| flag alias-1951 = Flag of Libya (1951).svg
+| flag alias-1969 = Flag of Libyan Arab Republic 1969.svg
+| flag alias-1972 = Flag of Libya (1972–1977).svg
+| flag alias-1977 = Flag of Libya (1977).svg
+| flag alias-naval = Naval Ensign of Libya.svg
+| link alias-naval = Libyan Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1951
+| var2 = 1969
+| var3 = 1972
+| var4 = 1977
+| redir1 = LBY
+| redir2 = LBA
+| related1 = Libyan Arab Jamahiriya
+</noinclude>
+}}<noinclude>
+[[sl:Predloga:Podatki države Libija]]
+</noinclude>
