@@ -3,7 +3,9 @@
 :''For a list sorted by airport name, see [[:Category:Ding Airports ning Filipinas]]''
 :''For a list sorted by ICAO code, see [[: Tala da ring airports ning ICAO code: R#RP - Philippines|Tala da ring airports ning ICAO code: RP]]''
 
-Four types of airports exist in the Philippines: international airports (which are divided into two subcategories: primary and secondary), major commercial domestic airports ("trunkline" airports), minor commercial domestic airports (secondary airports), and feeder airports.
+Four types of airports exist in the Philippines (according to CAAP classification): International airports, Class 1 principal airports, Class 2 principal airports, and Community airports.
+
+
 
 {| border=0 cellpadding=2 cellspacing=3
 |- valign=top align=left
@@ -16,9 +18,6 @@ Four types of airports exist in the Philippines: international airports (which a
 |- bgcolor=#dcdcdc
 | colspan=5 | '''International airports'''
 
-|-
-| colspan=5 | '''Primary international airports'''
-
 |- valign=top
 | [[Angeles Lakanbalen]]
 | [[Pampanga]]
@@ -27,35 +26,18 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Diosdado Macapagal International Airport]] (Clark International Airport)
 
 |- valign=top
-| [[Cebu Lakanbalen|Cebu]] / [[Lapu-Lapu Lakanbalen]]
-| [[Metro Cebu]]
-| RPVM
-| CEB
-| [[Mactan-Cebu International Airport]]
-
-|- valign=top
-| [[Manila]]
-| [[Metro Manila]]
-| RPLL
-| MNL
-| [[Ninoy Aquino International Airport]]
-
-|- valign=top
-| [[Subic Bay]]
-| [[Zambales]]
-| RPLB
-| SFS
-| [[Subic Bay International Airport]]
-
-|-
-| colspan=5 | '''Secondary international airports'''
-
-|- valign=top
 | [[Silay Lakanbalen|Silay]]
 | [[Negros Occidental]]
 | RPVB
 | BCD
 | [[Bacolod-Silay International Airport]]
+
+|- valign=top
+| [[Cebu Lakanbalen|Cebu]] / [[Lapu-Lapu Lakanbalen]]
+| [[Cebu]]
+| RPVM
+| CEB
+| [[Mactan-Cebu International Airport]]
 
 |- valign=top
 | [[Davao Lakanbalen|Davao]]
@@ -84,6 +66,28 @@ Four types of airports exist in the Philippines: international airports (which a
 | RPLI
 | LAO
 | [[Laoag International Airport]]
+
+|- valign=top
+| [[Manila]]
+| [[Metro Manila]]
+| RPLL
+| MNL
+| [[Ninoy Aquino International Airport]]
+
+|- valign=top
+| [[Puerto Princesa Lakanbalen|Puerto Princesa]]
+| [[Palawan]]
+| RPVP
+| PPS
+| [[Puerto Princesa Airport]]
+
+|- valign=top
+| [[Subic Bay]]
+| [[Zambales]]
+| RPLB
+| SFS
+| [[Subic Bay International Airport]]
+
 
 |- valign=top
 | [[Zamboanga Lakanbalen|Zamboanga]]
@@ -117,15 +121,14 @@ Four types of airports exist in the Philippines: international airports (which a
 |[[Panglao International Airport|Panglao (New Bohol) International Airport]] (under construction)
 
 |- bgcolor=#dcdcdc
-| colspan=5 | '''Major commercial domestic airports'''
-
+| colspan=5 | '''Principal-Class 1 airports'''
 
 |- valign=top
-| [[Baguio Lakanbalen|Baguio]]
-| [[Benguet]]
-| RPUB
-| BAG
-| [[Loakan Airport]]
+| [[Butuan Lakanbalen|Butuan]]
+| [[Agusan del Norte]]
+| RPME
+| BXU
+| [[Bancasi Airport]]
 
 |- valign=top
 | [[Cagayan de Oro]]
@@ -139,16 +142,21 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Maguindanao]]
 | RPMC
 | CBO
-| [[Awang Airport]]
+| [[Awang Airport|Awang (Cotabato) Airport)]]
 
 |- valign=top
-| [[Dumaguete Lakanbalen|Dumaguete]]
+| [[Dipolog Lakanbalen|Dipolog]]
+| [[Zamboanga del Norte]]
+| RPMG
+| DPL
+| [[Dipolog Airport]]
+
+|- valign=top
+| [[Dumaguete Lakanbalen|Dumaguete]], [[Sibulan, Negros Oriental|Sibulan]]
 | [[Negros Oriental]]
 | RPVD
 | DGT
-| [[Sibulan Airport]]
-
-
+| [[Sibulan Airport|Sibulan (Dumaguete) Airport]]
 
 |- valign=top
 | [[Legazpi Lakanbalen|Legazpi]]
@@ -158,11 +166,19 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Legazpi Airport]]
 
 |- valign=top
-| [[Puerto Princesa Lakanbalen|Puerto Princesa]]
-| [[Palawan]]
-| RPVP
-| PPS
-| [[Puerto Princesa Airport]]
+| [[Naga Lakanbalen|Naga]] / [[Pili, Camarines Sur|Pili]]
+| [[Camarines Sur]]
+| RPUN
+| WNP
+| [[Naga Airport]]
+
+|- valign=top
+| [[Pagadian Lakanbalen|Pagadian]]
+| [[Zamboanga del Sur]]
+| RPMP
+| PAG
+| [[Pagadian Airport]]
+
 
 |- valign=top
 | [[Roxas Lakanbalen]]
@@ -183,17 +199,32 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Leyte province|Leyte]]
 | RPVA
 | TAC
-| [[Daniel Z. Romualdez Airport]]
-
-|- bgcolor=#dcdcdc
-| colspan=5 | '''Minor commercial domestic airports'''
+| [[Daniel Z. Romualdez Airport|Daniel Z. Romualdez (Tacloban) Airport]]
 
 |- valign=top
-| [[Bagabag, Nueva Vizcaya|Bagabag]]
-| [[Nueva Vizcaya]]
-| RPUZ
-| BGN
-| [[Bagabag Airport]]
+| [[Tagbilaran Lakanbalen|Tagbilaran]]
+| [[Bohol]]
+| RPVT
+| TAG
+| [[Tagbilaran Airport]]
+
+|- valign=top
+| [[Tuguegarao Lakanbalen|Tuguegarao]]
+| [[Cagayan province|Cagayan]]
+| RPUT
+| TUG
+| [[Tuguegarao Airport]]
+
+|- bgcolor=#dcdcdc
+| colspan=5 | '''Principal-Class 2 airports'''
+
+|- valign=top
+| [[Baguio Lakanbalen|Baguio]]
+| [[Benguet]]
+| RPUB
+| BAG
+| [[Loakan Airport]]
+|
 
 |- valign=top
 | [[Basco, Batanes|Basco]]
@@ -203,32 +234,25 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Basco Airport]]
 
 |- valign=top
-| [[Bislig Lakanbalen|Bislig]]
-| [[Surigao del Sur]]
-| RPMF
-| BPH
-| [[Bislig Airport]]
+| [[Boracay]] / [[Malay, Aklan|Malay]]
+| [[Aklan Province|Aklan]]
+| RPVE
+| MPH
+| [[Godofredo P. Ramos Airport]] (Caticlan Airport)
+
+|- valign=top
+| [[Busuanga, Palawan|Busuanga]] / [[Coron, Palawan|Coron]]
+| [[Palawan]]
+| RPVV
+| USU
+| [[Coron-Busuanga Airport]] 
 
 |- valign=top
 | [[Bongao, Tawi-Tawi|Bongao]]
 | [[Tawi-Tawi]]
 | RPMN
 | SGS
-| [[Sanga-Sanga Airport]]
-
-|- valign=top
-| [[Butuan Lakanbalen|Butuan]]
-| [[Agusan del Norte]]
-| RPME
-| BXU
-| [[Bancasi Airport]]
-
-|- valign=top
-| [[Calapan Lakanbalen|Calapan]]
-| [[Oriental Mindoro]]
-| RPUK
-| CPP
-| [[Calapan Airport]]
+| [[Sanga-Sanga Airport|Sanga-Sanga (Bongao) Airport]]
 
 |- valign=top
 | [[Calbayog Lakanbalen|Calbayog]]
@@ -238,6 +262,13 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Calbayog Airport]]
 
 |- valign=top
+| [[Mambajao, Camiguin|Mambajao]]
+| [[Camiguin]]
+| RPMH
+| CGM
+| [[Camiguin Airport]]
+
+|- valign=top
 | [[Catarman, Northern Samar|Catarman]]
 | [[Northern Samar]]
 | RPVF
@@ -245,25 +276,11 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Catarman National Airport]]
 
 |- valign=top
-| [[Cauayan Lakanbalen|Cauayan]]
-| [[Isabela]]
-| RPUY
-| CYZ
-| [[Cauayan Airport]]
-
-|- valign=top
-| [[Daet, Camarines Norte|Daet]]
-| [[Camarines Norte]]
-| RPUD
-| DTE
-| [[Daet Airport]]
-
-|- valign=top
-| [[Dipolog Lakanbalen|Dipolog]]
-| [[Zamboanga del Norte]]
-| RPMG
-| DPL
-| [[Dipolog Airport]]
+| [[Cuyo, Palawan|Cuyo]]
+| [[Palawan]]
+| RPLO
+| CYU
+| [[Cuyo Airport]]
 
 |- valign=top
 | [[Gasan, Marinduque|Gasan]]
@@ -271,20 +288,6 @@ Four types of airports exist in the Philippines: international airports (which a
 | RPUW
 | MRQ
 | [[Marinduque Airport]]
-
-|- valign=top
-| [[Iligan Lakanbalen|Iligan]]
-| [[Lanao del Norte]]
-| RPMI
-| IGN
-| [[Maria Cristina Airport]]
-
-|- valign=top
-| [[Ipil, Zamboanga Sibugay|Ipil]]
-| [[Zamboanga Sibugay]]
-| RPMV
-| IPE
-| [[Ipil Airport]]
 
 |- valign=top
 | [[Jolo, Sulu|Jolo]]
@@ -301,46 +304,11 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Kalibo Airport]]
 
 |- valign=top
-| [[Lubang, Occidental Mindoro|Lubang]]
-| [[Occidental Mindoro]]
-| RPLU
-| LBX
-| [[Lubang Airport]]
-
-|- valign=top
-| [[Malabang, Lanao del Sur|Malabang]]
-| [[Lanao del Sur]]
-| RPMM
-| MLP
-| [[Malabang Airport]]
-
-|- valign=top
-| [[Mamburao, Occidental Mindoro|Mamburao]]
-| [[Occidental Mindoro]]
-| RPUM
-| MBO
-| [[Mamburao Airport]]
-
-|- valign=top
 | [[Masbate Lakanbalen|Masbate]]
 | [[Masbate]]
 | RPVJ
 | MBT
 | [[Masbate Airport]]
-
-|- valign=top
-| [[Mati, Davao Oriental|Mati]]
-| [[Davao Oriental]]
-| RPMQ
-| MXI
-| [[Imelda R. Marcos Airport]] (Mati National Airport)
-
-|- valign=top
-| [[Naga Lakanbalen|Naga]] / [[Pili, Camarines Sur|Pili]]
-| [[Camarines Sur]]
-| RPUN
-| WNP
-| [[Naga Airport]]
 
 |- valign=top
 | [[Ormoc Lakanbalen|Ormoc]]
@@ -350,53 +318,11 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Ormoc Airport]]
 
 |- valign=top
-| [[Ozamis Lakanbalen|Ozamis]]
-| [[Misamis Occidental]]
-| RPMO
-| OZC
-| [[Labo Airport]]
-
-|- valign=top
-| [[Pagadian Lakanbalen|Pagadian]]
-| [[Zamboanga del Sur]]
-| RPMP
-| PAG
-| [[Pagadian Airport]]
-
-|- valign=top
-| [[Plaridel, Bulacan|Plaridel]]
-| [[Bulacan]]
-| RPUX
-| 
-| [[Plaridel Airport]] (Bulacan Airport)
-
-|- valign=top
-| [[San Fernando Lakanbalen, La Union|San Fernando]]
-| [[La Union province|La Union]]
-| RPUS
-| SFE
-| [[San Fernando Airport]]
-
-|- valign=top
 | [[San Jose, Antique|San Jose]]
 | [[Antique province|Antique]]
 | RPVS
 | EUQ
 | [[Evelio Javier Airport]] (Antique Airport)
-
-|- valign=top
-| [[Sorsogon Lakanbalen]]
-| [[Sorsogon]]
-| RPXU
-| 
-| [[Sorsogon Airport]]
-
-|- valign=top
-| [[Surallah, South Cotabato|Surallah]]
-| [[South Cotabato]]
-| RPMA
-| AAV
-| [[Allah Valley Airport]]
 
 |- valign=top
 | [[Surigao Lakanbalen|Surigao]]
@@ -406,18 +332,18 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Surigao Airport]]
 
 |- valign=top
+| [[Siargao Island|Siargao]]
+| [[Surigao del Norte]]
+| RPNS
+| SIA
+| [[Siargao Airport]]
+
+|- valign=top
 | [[Tablas Island|Tablas]]
 | [[Romblon]]
 | RPVU
 | TBH
 | [[Tugdan Airport]]
-
-|- valign=top
-| [[Tagbilaran Lakanbalen|Tagbilaran]]
-| [[Bohol]]
-| RPVT
-| TAG
-| [[Tagbilaran Airport]]
 
 |- valign=top
 | [[Tandag, Surigao del Sur|Tandag]]
@@ -427,20 +353,6 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Tandag Airport]]
 
 |- valign=top
-| [[Tuguegarao Lakanbalen|Tuguegarao]]
-| [[Cagayan province|Cagayan]]
-| RPUT
-| TUG
-| [[Tuguegarao Airport]]
-
-|- valign=top
-| [[Vigan Lakanbalen|Vigan]]
-| [[Ilocos Sur]]
-| RPUQ
-| VGN
-| [[Mindoro Airport]]
-
-|- valign=top
 | [[Virac, Catanduanes|Virac]]
 | [[Catanduanes]]
 | RPUV
@@ -448,7 +360,7 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Virac Airport]]
 
 |- bgcolor=#dcdcdc
-| colspan=5 | '''Feeder airports'''
+| colspan=5 | '''Community airports'''
 
 |- valign=top
 | [[Alabat, Quezon|Alabat]]
@@ -456,6 +368,20 @@ Four types of airports exist in the Philippines: international airports (which a
 | RPXT
 | 
 | [[Alabat Airport]]
+
+|- valign=top
+| [[Surallah, South Cotabato|Surallah]]
+| [[South Cotabato]]
+| RPMA
+| AAV
+| [[Allah Valley Airport]]
+
+|- valign=top
+| [[Bagabag, Nueva Vizcaya|Bagabag]]
+| [[Nueva Vizcaya]]
+| RPUZ
+| BGN
+| [[Bagabag Airport]]
 
 |- valign=top
 | [[Baler, Aurora|Baler]]
@@ -472,11 +398,18 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Bantayan Airport]]
 
 |- valign=top
-| [[Boracay]] / [[Malay, Aklan|Malay]]
-| [[Aklan Province|Aklan]]
-| RPVE
-| MPH
-| [[Godofredo P. Ramos Airport]] (Caticlan Airport)
+| [[Naval, Biliran|Naval]]
+| [[Biliran]]
+| RPVQ
+| 
+| [[Biliran Airport]]
+
+|- valign=top
+| [[Bislig Lakanbalen|Bislig]]
+| [[Surigao del Sur]]
+| RPMF
+| BPH
+| [[Bislig Airport]]
 
 |- valign=top
 | [[Borongan, Eastern Samar|Borongan]]
@@ -493,18 +426,18 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Bulan Airport]]
 
 |- valign=top
-| [[Buenavista, Guimaras|Buenavista]]
-| [[Guimaras]]
-| 
-| 
-| [[Guimaras Airport]]
+| [[Mapun, Tawi-Tawi|Mapun]]
+| [[Tawi-Tawi]]
+| RPMU
+| CDY
+| [[Cagayan de Sulu Airport]]
 
 |- valign=top
-| [[Busuanga, Palawan|Busuanga]] / [[Coron, Palawan|Coron]]
-| [[Palawan]]
-| RPVV
-| USU
-| [[Busuanga Airport]] (Coron Airport)
+| [[Calapan Lakanbalen|Calapan]]
+| [[Oriental Mindoro]]
+| RPUK
+| CPP
+| [[Calapan Airport]]
 
 |- valign=top
 | [[Catbalogan, Samar|Catbalogan]]
@@ -514,11 +447,18 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Catbalogan Airport]]
 
 |- valign=top
-| [[Cuyo, Palawan|Cuyo]]
-| [[Palawan]]
-| RPLO
-| CYU
-| [[Cuyo Airport]]
+| [[Cauayan Lakanbalen|Cauayan]]
+| [[Isabela]]
+| RPUY
+| CYZ
+| [[Cauayan Airport]]
+
+|- valign=top
+| [[Daet, Camarines Norte|Daet]]
+| [[Camarines Norte]]
+| RPUD
+| DTE
+| [[Daet Airport]]
 
 |- valign=top
 | [[Guiuan, Eastern Samar|Guiuan]]
@@ -542,6 +482,13 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Iba Airport]]
 
 |- valign=top
+| [[Ipil, Zamboanga Sibugay|Ipil]]
+| [[Zamboanga Sibugay]]
+| RPMV
+| IPE
+| [[Ipil Airport]]
+
+|- valign=top
 | [[Itbayat, Batanes|Itbayat]]
 | [[Batanes]]
 | RPLT
@@ -556,6 +503,20 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Jomalig Airport]]
 
 |- valign=top
+| [[Ozamis Lakanbalen|Ozamis]]
+| [[Misamis Occidental]]
+| RPMO
+| OZC
+| [[Labo Airport]]
+
+|- valign=top
+| [[Liloy, Zamboanga del Norte|Liloy]]
+| [[Zamboanga del Norte]]
+| RPMX
+| 
+| [[Liloy Airport]]
+
+|- valign=top
 | [[Lingayen, Pangasinan|Lingayen]]
 | [[Pangasinan]]
 | RPUG
@@ -563,53 +524,46 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Lingayen Airport]]
 
 |- valign=top
-| [[Liloy, Zamboanga del Norte|Liloy]]
-| [[Zamboanga del Norte]]
-| RPMX
-| LLY
-| [[Liloy Airport]]
+| [[Lubang, Occidental Mindoro|Lubang]]
+| [[Occidental Mindoro]]
+| RPLU
+| LBX
+| [[Lubang Airport]]
 
 |- valign=top
-| [[Lucena Lakanbalen|Lucena]]
-| [[Quezon]]
-| RPUE
-| 
-| [[Lucena Airport]]
+| [[Malabang, Lanao del Sur|Malabang]]
+| [[Lanao del Sur]]
+| RPMM
+| MLP
+| [[Malabang Airport]]
 
 |- valign=top
-| [[Maasin Lakanbalen|Maasin]]
-| [[Southern Leyte]]
-| RPSM
-| 
-| [[Panan-awan Airport]]
+| [[Mamburao, Occidental Mindoro|Mamburao]]
+| [[Occidental Mindoro]]
+| RPUM
+| MBO
+| [[Mamburao Airport]]
 
 |- valign=top
-| [[Mambajao, Camiguin|Mambajao]]
-| [[Camiguin]]
-| RPMH
-| CGM
-| [[Camiguin Airport]]
+| [[Mati, Davao Oriental|Mati]]
+| [[Davao Oriental]]
+| RPMQ
+| MXI
+| [[Imelda R. Marcos Airport|Imelda R. Marcos (Mati National) Airport]]
 
 |- valign=top
-| [[Mansalay, Oriental Mindoro|Mansalay]]
-| [[Oriental Mindoro]]
-| RPLG
-| 
-| [[Wasig Airport]]
+| [[Baloi, Lanao del Norte|Baloi]]
+| [[Lanao del Norte]]
+| RPMI
+| IGN
+| [[Maria Cristina Airport]]
 
 |- valign=top
-| [[Mapun, Tawi-Tawi|Mapun]]
-| [[Tawi-Tawi]]
-| RPMU
-| CDY
-| [[Cagayan de Sulu Airport]]
-
-|- valign=top
-| [[Naval, Biliran|Naval]]
-| [[Biliran]]
-| RPVQ
-| 
-| [[Biliran Airport]]
+| [[Vigan Lakanbalen|Vigan]]
+| [[Ilocos Sur]]
+| RPUQ
+| VGN
+| [[Mindoro Airport]]
 
 |- valign=top
 | [[Palanan, Isabela|Palanan]]
@@ -619,11 +573,25 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Palanan Airport]]
 
 |- valign=top
+| [[Maasin Lakanbalen|Maasin]]
+| [[Southern Leyte]]
+| RPSM
+| 
+| [[Panan-awan Airport]]
+
+|- valign=top
 | [[Pinamalayan, Oriental Mindoro|Pinamalayan]]
 | [[Oriental Mindoro]]
 | RPLA
 | 
 | [[Pinamalayan Airport]]
+
+|- valign=top
+| [[Plaridel, Bulacan|Plaridel]]
+| [[Bulacan]]
+| RPUX
+| 
+| [[Plaridel Airport]] (Bulacan Airport)
 
 |- valign=top
 | [[Rosales, Pangasinan|Rosales]]
@@ -633,11 +601,11 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Rosales Airport]]
 
 |- valign=top
-| [[Siargao Island|Siargao]]
-| [[Surigao del Norte]]
-| RPNS
-| SIA
-| [[Siargao Airport]]
+| [[San Fernando Lakanbalen, La Union|San Fernando]]
+| [[La Union province|La Union]]
+| RPUS
+| SFE
+| [[San Fernando Airport]]
 
 |- valign=top
 | [[Siocon, Zamboanga del Norte|Siocon]]
@@ -654,6 +622,13 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[Siquijor Airport]]
 
 |- valign=top
+| [[Sorsogon Lakanbalen]]
+| [[Sorsogon]]
+| RPXU
+| 
+| [[Sorsogon Airport]]
+
+|- valign=top
 | [[Ubay, Bohol|Ubay]]
 | [[Bohol]]
 | RPBY
@@ -667,8 +642,16 @@ Four types of airports exist in the Philippines: international airports (which a
 | 
 | [[Wao Airport]]
 
+|- valign=top
+| [[Mansalay, Oriental Mindoro|Mansalay]]
+| [[Oriental Mindoro]]
+| RPLG
+| 
+| [[Wasig Airport]]
+
+
 |-  bgcolor=#dcdcdc
-| colspan=5 | '''Unclassified Domestic / Feeder Airports'''
+| colspan=5 | '''Unclassified Airports (Non-International)'''
 
 |- valign=top
 | [[Alaminos Lakanbalen|Alaminos]] 
@@ -692,11 +675,25 @@ Four types of airports exist in the Philippines: international airports (which a
 | [[El Nido Airport]]
 
 |- valign=top
+| [[Buenavista, Guimaras|Buenavista]]
+| [[Guimaras]]
+| 
+| 
+| [[Guimaras Airport]]
+
+|- valign=top
 | [[Kabankalan Lakanbalen|Kabankalan]] 
 | [[Negros Occidental]]
 | 
 | 
 | [[Kabankalan Lakanbalen Airport]] (Under Construction)
+
+|- valign=top
+| [[Lucena Lakanbalen|Lucena]]
+| [[Quezon]]
+| RPUE
+| 
+| [[Lucena Airport]]
 
 |- valign=top
 | [[San Carlos Lakanbalen, Negros Occidental|San Carlos]]
