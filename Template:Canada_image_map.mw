@@ -1,0 +1,53 @@
+<div class="center"><small>A clickable map of Canada exhibiting its ten provinces and three territories, and their capitals.</small></div>
+<imagemap>
+File:Political map of Canada.png|650px|center|A clickable map of Canada exhibiting its ten provinces and three territories, and their capitals.
+
+circle 140 795 20 [[Victoria, British Columbia|Victoria]]
+circle 147 471 20 [[Whitehorse, Yukon|Whitehorse]]
+circle 316 730 20 [[Edmonton]]
+circle 369 542 20 [[Yellowknife]]
+circle 430 834 20 [[Regina, Saskatchewan|Regina]]
+circle 537 860 20 [[Winnipeg]]
+circle 828 487 20 [[Iqaluit]]
+circle 836 970 20 [[Toronto]]
+circle 878 921 20 [[Ottawa]]
+circle 938 858 20 [[Quebec City|Quebec]]
+circle 1021 848 20 [[Fredericton]]
+circle 1071 815 20 [[Charlottetown]]
+circle 1077 853 20 [[Halifax Regional Municipality|Halifax]]
+circle 1191 700 20 [[St. John's, Newfoundland and Labrador|St. John's]]
+poly 243 469 243 493 288 493 288 514 416 514 416 493 373 489 373 472 372 470 [[Northwest Territories]]
+poly 462 668 480 679 382 817 362 801 [[Saskatchewan]]
+poly 920 522 1071 584 1136 622 1191 667 1179 683 1063 611 912 548 [[Newfoundland and Labrador]]
+poly 1031 899 974 899 974 921 915 922 915 946 1029 946 [[New Brunswick]]
+rect 69 795 133 813 [[Victoria, British Columbia|Victoria]]
+rect 131 405 223 436 [[Yukon]]
+rect 131 591 263 650 [[British Columbia]]
+rect 137 444 227 462 [[Whitehorse, Yukon|Whitehorse]]
+rect 264 677 367 705 [[Alberta]]
+rect 269 742 351 759 [[Edmonton]]
+rect 369 836 424 857 [[Regina, Saskatchewan|Regina]]
+rect 373 525 464 542 [[Yellowknife]]
+rect 457 480 610 511 [[Nunavut]]
+rect 481 832 557 852 [[Winnipeg]]
+rect 482 708 617 748 [[Manitoba]]
+rect 631 820 752 854 [[Ontario]]
+rect 770 465 823 485 [[Iqaluit]]
+rect 805 914 870 934 [[Ottawa]]
+rect 830 731 946 764 [[Quebec]]
+rect 848 968 910 987 [[Toronto]]
+rect 870 838 931 858 [[Quebec City]]
+rect 965 823 1052 839 [[Fredericton]]
+rect 1029 789 1140 806 [[Charlottetown]]
+rect 1068 881 1143 928 [[Nova Scotia]]
+rect 1083 856 1140 873 [[Halifax Regional Municipality|Halifax]]
+rect 1143 786 1221 846 [[Prince Edward Island]]
+rect 1171 706 1222 739 [[St. John's, Newfoundland and Labrador|St. John's]]
+
+desc bottom-left
+</imagemap>
+<noinclude>
+[[Category:Wikipedia geographic image maps|Canada]]
+[[fr:Modèle:Carte du Canada]]
+[[ms:Templat:Gambar peta Kanada]]
+</noinclude>
