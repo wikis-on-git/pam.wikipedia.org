@@ -1,0 +1,50 @@
+{{Navbox
+| titlestyle = background:#00B7EB;
+| groupstyle = background:#00B7EB;
+| belowstyle = background:#00B7EB;
+|name  = Cities of Kazakhstan
+|state = <includeonly>{{{state|collapsed}}}</includeonly>
+|title = {{flagicon|Kazakhstan|}} [[List of cities in Kazakhstan|Cities of Kazakhstan]]
+|listclass = hlist
+|image = [[Image:Coat_of_arms_of_Kazakhstan.svg|100px|Coat of arms of Kazakhstan]]
+|group1 = Capital
+|list1 =
+* [[Astana]]
+|group2 = Other cities
+|list2style = padding:0;<!--subgroups in use--> background:transparent;
+|list2  =
+* [[Aktau]]
+* [[Aktobe]]
+* [[Almaty]]
+* [[Arkalyk]]
+* [[Atyrau]]
+* [[Baikonur]]
+* [[Balqash]]  
+* [[Ekibastuz]]
+* [[Jezkazgan]] 
+* [[Kapchagay]]
+* [[Karagandy]]
+* [[Kentau]]
+* [[Kokshetau]]
+* [[Kostanay]]
+* [[Kyzylorda]]
+* [[Oral, Kazakhstan|Oral]]
+* [[Oskemen]]
+* [[Pavlodar]]
+* [[Petropavl]]
+* [[Ridder, Kazakhstan|Ridder]]
+* [[Saran, Kazakhstan|Saran]]
+* [[Satpayev (city)|Satpayev]]
+* [[Semey]]
+* [[Shymkent]]
+* [[Stepnogorsk]]
+* [[Taldykorgan]]
+* [[Taraz]]
+* [[Temirtau]]
+* [[Turkestan (city)|Turkestan]]
+* [[Zhanaozen]]
+}}<noinclude>
+<br/>{{collapsible option}}
+
+[[Category:Kazakhstan templates| ]]
+</noinclude>
