@@ -1,0 +1,86 @@
+{{#switch:{{{1}}}
+| name   = Kazakhstan
+| top    = 56
+| bottom = 40
+| left   = 46
+| right  = 88
+| image  = Kazakhstan location map.svg
+| image1 = Relief Map of Kazakhstan.png
+}}<noinclude><!--
+--
+-- The above switch-statement branches by text in parameter #1,
+-- returning the associated value after each equals sign ("=").
+-->
+{{Location map/Info}}
+
+== How to use an alternative map ==
+This template normally displays the map shown above as '''image''':
+*<tt>{{{{PAGENAME}}|image}}</tt>.
+The ''AlternativeMap'' parameter in [[Template:Location map]] can be used to display {{#if:{{{{PAGENAME}}|image2}}|one of the following images|the following image}}:
+*<tt>{{{{PAGENAME}}|image1}}</tt>
+{{#if:{{{{PAGENAME}}|image2}}|
+*<tt>{{{{PAGENAME}}|image2}}</tt>
+}}
+Further instructions and examples can be found at [[Template:Location map#Using Alternative Map]].
+
+[[Category:Location map by country templates|Kazakhstan]]
+[[Category:Kazakhstan templates]]
+
+[[kbd:Template:Location map Къазахъстэн]]
+[[ar:قالب:خريطة مواقع كازاخستان]]
+[[az:Şablon:Yer xəritəsi Qazaxıstan]]
+[[zh-min-nan:Template:Location map Kazakhstan]]
+[[be:Шаблон:На карце/Казахстан]]
+[[bg:Шаблон:ПК Казахстан]]
+[[cs:Šablona:LocMap Kazachstán]]
+[[de:Vorlage:Positionskarte Kasachstan]]
+[[dsb:Pśedłoga:LocMap Kazachstan]]
+[[es:Plantilla:Mapa de localización de Kazajistán]]
+[[eo:Ŝablono:Situo sur mapo Kazaĥio]]
+[[eu:Txantiloi:Kokapen mapa/KAZ]]
+[[fa:الگو:Location map Kazakhstan]]
+[[fr:Modèle:Géolocalisation/Kazakhstan]]
+[[gv:Clowan:Caslys-çheerey soiaghey ny Kassaghstaan]]
+[[ko:틀:위치 지도 카자흐스탄]]
+[[hy:Կաղապար:Տեղորոշման քարտեզ Ղազախստան]]
+[[hsb:Předłoha:LocMap Kazachstan]]
+[[hr:Predložak:Lokacijska karta Kazakstan]]
+[[id:Templat:Location map Kazakhstan]]
+[[os:Шаблон:ПозКартæ Хъазахстан]]
+[[it:Template:Mappa di localizzazione/KAZ]]
+[[he:תבנית:מפת מיקום/קזחסטן]]
+[[ka:თარგი:პოზრუკა ყაზახეთი]]
+[[kk:Үлгі:ПозКарта Қазақстан]]
+[[ku:Şablon:Nexşeya cihan Qazaxistan]]
+[[lv:Veidne:VietasKarte Kazahstāna]]
+[[lt:Šablonas:Location map Kazachija]]
+[[hu:Sablon:Pozíciós térkép Kazahsztán]]
+[[mk:Шаблон:ПозКарта Казахстан]]
+[[ml:ഫലകം:Location map Kazakhstan]]
+[[mr:साचा:Location map कझाकस्तान]]
+[[mn:Загвар:Location map Kazakhstan]]
+[[nl:Sjabloon:Positiekaart Kazachstan]]
+[[ja:Template:Location map Kazakhstan]]
+[[ce:Куцкеп:ПозКарта Казахстан]]
+[[no:Mal:Kartposisjon Kasakhstan]]
+[[pl:Szablon:Mapa lokalizacyjna/KAZ]]
+[[pt:Predefinição:Mapa de localização/Cazaquistão]]
+[[kaa:Shablon:Location map Kazakhstan]]
+[[crh:Şablon:Location map Qazahistan]]
+[[ro:Format:Harta de localizare Kazahstan]]
+[[ru:Шаблон:ПозКарта Казахстан]]
+[[sah:Халыып:Location map Kazakhstan]]
+[[sco:Template:Location map Kazakhstan]]
+[[simple:Template:Location map Kazakhstan]]
+[[szl:Szablon:Mapa lokalizacyjno/KAZ]]
+[[sr:Шаблон:Location map Kazakhstan]]
+[[fi:Malline:Location map Kazakhstan]]
+[[sv:Mall:Kartposition Kazakstan]]
+[[ta:வார்ப்புரு:Location map கசக்ஸ்தான்]]
+[[tt:Калып:ПозХарита Казакъстан]]
+[[tr:Şablon:Location map Kazakhstan]]
+[[uk:Шаблон:Карта розташування Казахстан]]
+[[vi:Bản mẫu:Bản đồ định vị Kazakhstan]]
+[[yo:Àdàkọ:Location map Kazakhstan]]
+[[zh:Template:Location map Kazakhstan]]
+</noinclude>
