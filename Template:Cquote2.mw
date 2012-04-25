@@ -1,0 +1,25 @@
+{| align="{{{align|center}}}" style="border-collapse:collapse; border-style:none; background-color:transparent;" class="cquote2"
+| width="20" valign="top" style="color:#B2B7F2;font-size:{{#switch:{{{size|{{{4|{{{quotewidth|{{{width|20px}}}}}}}}}}}}
+|10px=20px
+|30px=60px
+|40px=80px
+|50px=100px
+|60px=120px
+|#default=40px}};font-family:serif;font-weight:bold;text-align:left;padding:10px 10px;" | “
+| valign="top" style="padding:4px 10px;" | {{{quote|{{{1|{{{quotetext|<noinclude>Text of the quote</noinclude>}}}}}}}}}
+| width="20" valign="bottom" style="color:#B2B7F2;font-size:{{#switch:{{{size|{{{4|{{{quotewidth|{{{width|20px}}}}}}}}}}}}
+|10px=20px
+|30px=60px
+|40px=80px
+|50px=100px
+|60px=120px
+|#default=40px}};font-family:serif;font-weight:bold;text-align:right;padding:10px 10px;" | ”
+|-
+{{#if:{{{2|{{{personquoted|}}}}}}{{{3|{{{quotesource|}}}}}}|
+{{!}} &nbsp;
+{{!}} valign="top" {{!}}{{#if:{{{2|{{{personquoted|<noinclude>Origin</noinclude>}}}}}}|<div style="line-height:1em;text-align: right"><cite style="font-style:normal;">&mdash; {{{person|{{{2|{{{personquoted|}}}}}}}}}{{#if:{{{3|{{{quotesource|<noinclude>Source</noinclude>}}}}}}|, {{{3|{{{quotesource|}}}}}}}}</cite></div>}}}}
+|}<noinclude>
+
+{{documentation}}
+
+</noinclude>
