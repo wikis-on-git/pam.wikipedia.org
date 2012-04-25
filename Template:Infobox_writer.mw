@@ -104,7 +104,7 @@
 }}
 
 {{#if:{{{notableworks<includeonly>|</includeonly>}}}|
-! Bantug {{nowrap|obra}}
+! Bantug {{nowrap|a obra}}
 {{!}} {{{notableworks<includeonly>|</includeonly>}}}
 {{!}}-
 }}
