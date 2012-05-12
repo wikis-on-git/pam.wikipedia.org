@@ -16,7 +16,7 @@
 | label5     = Mituknang
 | data5      = {{{dissolved|}}}
 | label6     = {{#if:{{{American|}}}|Stadium|Ground}}
-| data6      = {{#if:{{{ground|}}}|{{{ground|}}}{{#if:{{{capacity|}}}|<br />(Capacity: {{{capacity|unknown}}})}}}}
+| data6      = {{#if:{{{ground|}}}|{{{ground|}}}{{#if:{{{capacity|}}}|<br />(Laman: {{{capacity|unknown}}})}}}}
 | label7     = {{{owntitle|Makibandi}}}
 | data7      = {{{owner|}}}
 | label8     = {{{chrtitle|Talapamuntuk}}}
