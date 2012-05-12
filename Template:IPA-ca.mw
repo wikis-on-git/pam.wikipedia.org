@@ -1,0 +1,2 @@
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Catalan:&nbsp;|langva=Valencian:&nbsp;|pron=pronounced:&nbsp;|va=Valencian pronunciation:&nbsp;|ec=Eastern Catalan:&nbsp;|wc=Western Catalan:&nbsp;|local=locally:&nbsp;|alt=&nbsp;or&nbsp;|=|Catalan pronunciation:&nbsp;}}</small>{{IPA|[[WP:IPA for Catalan|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
+<noinclude>{{documentation}}</noinclude>
