@@ -1,0 +1,83 @@
+{{Infobox
+| child          = {{lc:{{{embed}}}}}
+
+| bodyclass      = vcard
+| bodystyle      = {{WPMILHIST Infobox style|main_box_raw}}
+
+| title          = {{#ifeq:{{lc:{{{embed}}}}}|yes|Military career}}
+
+| abovestyle     = {{WPMILHIST Infobox style|header_color}} font-size: 100%
+
+| above          = {{#ifeq:{{lc:{{{embed}}}}}|yes||{{#if:{{{honorific prefix|{{{honorific_prefix|}}}}}}|<span class="honorific-prefix" style="font-size: small">{{{honorific prefix|{{{honorific_prefix|}}}}}}</span><br />}}<includeonly><span class="fn">{{{name|{{PAGENAME}}}}}</span></includeonly>{{#if:{{{honorific suffix|{{{honorific_suffix|}}}}}}|<br /><span class="honorific-suffix" style="font-size: small">{{{honorific suffix|{{{honorific_suffix|}}}}}}</span>}} }}
+
+| imagestyle     = border-bottom: {{WPMILHIST Infobox style|section_border}}; line-height: 1.5em
+| image          = {{#if:{{{image|}}}|{{#ifeq:{{Str left | {{{image|}}} | 1 }}|[|{{{image|}}}[[Category:Infobox military person image param needs updating]]|[[File:{{{image}}}|{{px|{{{image_size|}}}|frameless}}|alt={{{alt|}}}]]}}}}
+
+| captionstyle   = font-size: 90%
+| caption        = {{{caption|}}}
+
+| labelstyle     = padding-right: 1em
+
+| label1         = Lagyu king amanung siswan
+| data1          = {{#if:{{{native_name|}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span> }}
+
+| label2         = Lagyu pangabait
+| data2          = {{{birth_name|}}}
+| class2         = nickname
+
+| label3         = Palayo
+| data3          = {{{nickname|}}}
+| class3         = nickname
+
+| label4         = Mibait
+| data4          = {{br separated entries | {{{birth_date|}}} | {{{birth_place|}}} }}
+
+| label5         = Mete
+| data5          = {{br separated entries | {{{death_date|}}} | {{{death_place|}}} }}
+
+| label6         = {{#if:{{{placeofburial_label|}}}|{{{placeofburial_label}}}|Buried&nbsp;at}}
+| data6          = {{#if:{{{placeofburial|}}}{{{placeofburial_coordinates|}}}|<span class="label">{{{placeofburial|}}}</span> {{#if:{{{placeofburial_coordinates|}}}|({{{placeofburial_coordinates}}})}}}}
+
+| label7         = Bangsa
+| data7          = {{{allegiance|}}}
+
+| label8         = Sanga
+| data8          = {{{branch|}}}
+
+| label9         = Banwa&nbsp;king serbisyu
+| data9          = {{{serviceyears|}}}
+
+| label10         = Ranggu
+| data10          = {{{rank|}}}
+
+| label11        = [[Service number]]
+| data11         = {{{servicenumber|}}}
+
+| label12        = Unit
+| data12         = {{{unit|}}}
+
+| label13        = Commands held
+| data13         = {{{commands|}}}
+
+| label14        = {{#if:{{{battles_label|}}}|{{{battles_label|}}}|Battles/wars}}
+| data14         = {{{battles|}}}
+
+| label15        = Galal
+| data15         = {{{awards|}}}
+
+| label16        = Ugnayan
+| data16         = {{{relations|}}}
+
+| label17        = Other&nbsp;work
+| data17         = {{{laterwork|}}}
+
+| label18        = Pirma
+| data18         = {{#if:{{{signature|}}}|[[File:{{{signature}}}|100px|alt={{{signature alt|{{{signature_alt|}}}}}}]]}}
+
+| header70       = {{#if:{{{website|{{{homepage|{{{URL|}}}}}}}}}|Website}}
+| data71         = {{{website|{{{homepage|{{{URL|}}}}}}}}}
+
+}}{{#switch:{{ucfirst:{{{image|}}}}}
+|Replace this image male.svg
+|Replace this image female.svg=[[Category:Infobox person using placeholder image]]
+}}<noinclude>{{documentation}}</noinclude>
