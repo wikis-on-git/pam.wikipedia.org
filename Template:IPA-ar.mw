@@ -1,4 +1,4 @@
-<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Arabic:&nbsp;|pron=pronounced&nbsp;|=|Arabic pronunciation:&nbsp;}}</small>{{IPA|[[WP:IPA for Arabic|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Arabic:&nbsp;|pron=pronounced&nbsp;|=|Pangayagkas a Arabu:&nbsp;}}</small>{{IPA|[[WP:IPA for Arabic|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
 
 {{documentation|Template:usage of IPA templates}}
 
