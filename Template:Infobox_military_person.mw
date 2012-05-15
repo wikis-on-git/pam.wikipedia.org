@@ -38,7 +38,7 @@
 | label6         = {{#if:{{{placeofburial_label|}}}|{{{placeofburial_label}}}|Buried&nbsp;at}}
 | data6          = {{#if:{{{placeofburial|}}}{{{placeofburial_coordinates|}}}|<span class="label">{{{placeofburial|}}}</span> {{#if:{{{placeofburial_coordinates|}}}|({{{placeofburial_coordinates}}})}}}}
 
-| label7         = Bangsa
+| label7         = Tatalan king katapatan
 | data7          = {{{allegiance|}}}
 
 | label8         = Sanga
