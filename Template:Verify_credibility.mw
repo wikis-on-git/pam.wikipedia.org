@@ -3,7 +3,7 @@
 | name  = {{{name|Verify credibility}}}
 | link  = Wikipedia:Identifying reliable sources
 | title = The material in the vicinity of this tag may rely on an unreliable source
-| text  = e ayasahan a pikwanan{{#ifeq:{{{failed}}}|y||?}}
+| text  = e ayasahan a pikwánan{{#ifeq:{{{failed}}}|y||?}}
 | date  = {{{date|}}}
 | cat   = [[Category:All articles lacking reliable references]]
 | cat-date = Category:Articles lacking reliable references
