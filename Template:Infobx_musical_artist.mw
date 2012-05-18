@@ -17,31 +17,31 @@
 
 | header1     = {{#if:{{{Img|{{{image|}}}}}}|Background information}}
 
-| label2     = Native name
+| label2     = Lagyung natibu
 | data2      = {{#if:{{{native_name|}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span> }}
 
 | class3      = nickname
-| label3      = Birth name
+| label3      = Lagyu pangabait
 | data3       = {{{Birth_name|{{{birth_name|}}}}}}
 
 | class4      = nickname
-| label4      = Also known as
+| label4      = Kilala murin antimong
 | data4       = {{{Alias|{{{alias|}}}}}}
 
-| label5     = Born
+| label5     = Mibait
 | data5      = {{br separated entries|{{{Mibait|}}}|{{{birth_date|}}}|{{{birth_place|}}}}}
 
-| label6     = Origin
+| label6     = Penibatan
 | data6      = {{{Origin|{{{origin|}}}}}}
 
-| label7     = Died
+| label7     = Mete
 | data7      = {{br separated entries|{{{Mete|}}}|{{{death_date|}}}|{{{death_place|}}}}}
 
 | label8     = [[Music genre|Uri ning Musika]]
 | data8      = {{{Genre|{{{genre|}}}}}}
 
 | class9     = role
-| label9     = Kapanintuna
+| label9     = Kapanintunan
 | data9      = {{{Occupation|{{{occupation|}}}}}}
 
 | class10     = note
