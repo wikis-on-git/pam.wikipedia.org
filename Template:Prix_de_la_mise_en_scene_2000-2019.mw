@@ -1,0 +1,27 @@
+{{Navbox 
+| name      = Prix de la mise en scene 1980-1999
+| title     = {{#if:{{{list only|}}}||[[Cannes Film Festival|Festival de Cannes]] (Cannes Film Festival) [[Best Director Award (Cannes Film Festival)|Prix de la mise en scène]] (Best Director) 2000–2019}}
+| border    = {{#if:{{{list only|}}}|child}}
+| bodyclass = hlist
+| state     = {{{state<includeonly>|collapsed</includeonly>}}}
+
+| list1 = 
+* [[Edward Yang]] (2000)
+* [[Coen brothers|Joel Coen]]/[[David Lynch]] (2001)
+* [[Im Kwon-taek]]/[[Paul Thomas Anderson]] (2002)
+* [[Gus Van Sant]] (2003)
+* [[Tony Gatlif]] (2004)
+* [[Michael Haneke]] (2005)
+* [[Alejandro González Iñárritu]] (2006)
+* [[Julian Schnabel]] (2007)
+* [[Nuri Bilge Ceylan]] (2008)
+* [[Brillante Mendoza]] (2009)
+* [[Mathieu Amalric]] (2010)
+* [[Nicolas Winding Refn]] (2011)
+
+| below = {{#if:{{{list only|}}}||{{Prix de la mise en scene footer}}}}
+
+}}<noinclude>
+{{collapsible option}}
+[[Category:Film award templates]]
+</noinlcude>
