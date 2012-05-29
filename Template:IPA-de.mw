@@ -1,0 +1,12 @@
+<onlyinclude><small>{{#switch: {{{2}}}
+ |IPA=IPA:&#32;
+ |lang=German:&#32;
+ |pron=pronounced&#32;
+ |=
+ |German pronunciation:&#32;
+}}</small>{{IPA|[[WP:IPA for German|[{{{1}}}]]]}}{{#if:{{{3|}}}
+ |{{IPA audio link|{{{3}}} }}
+}}</onlyinclude><noinclude>
+
+{{Documentation}}
+</noinclude>
