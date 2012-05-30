@@ -1,0 +1,13 @@
+{{Infobox
+| image      = {{#if:{{{style|}}}|<div style="{{{style|}}}">}}<!--
+  -->{{#if:{{{image|}}}<!--
+  -->|{{{image|}}}<!--
+  -->|[[File:{{{name|Image PlaceHolder.png}}}{{#ifeq:{{{has border|no}}}|yes|{{!}}border}}|{{{size|200px}}}|alt={{{alt|Picture}}}]]<!--
+  -->}}{{#if:{{{style|}}}|</div>}}
+| data1      = {{#if:{{{caption|}}}<!--
+  -->|{{{caption|}}}<!--
+  -->|<noinclude>{{{caption}}}</noinclude><!--
+  -->}}
+}}<noinclude>
+{{documentation}}
+</noinclude>
