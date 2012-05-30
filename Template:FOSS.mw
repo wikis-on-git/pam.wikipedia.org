@@ -1,0 +1,168 @@
+{{navbox
+| name      = FOSS
+| title     = [[Free and open source software]]
+| bodyclass = hlist
+
+| group1 = General
+| list1  = 
+*[[Copyleft]] 
+*[[Free software]] 
+*[[The Free Software Definition|Free Software Definition]] 
+*[[Gratis versus libre]] 
+*[[List of free and open source software packages]] 
+*[[List of open source Android applications]] 
+*[[List of free software web applications]] 
+*[[List of free software project directories|List of project directories]]/[[Comparison of open source software hosting facilities|Comparison of hosting facilities]] 
+*[[List of formerly proprietary software]] 
+*[[Open-source software]]
+
+| group2 = [[Comparison of open source operating systems|Operating system families]]
+| list2  = 
+*[[AROS Research Operating System|AROS]] 
+*[[Berkeley Software Distribution|BSD]] 
+*[[Darwin (operating system)|Darwin]] 
+*[[eCos]] 
+*[[FreeDOS]] 
+*[[GNU]] 
+*[[Haiku (operating system)|Haiku]] 
+*[[Inferno (operating system)|Inferno]] 
+*[[Linux]] 
+*[[Mach (kernel)|Mach]] 
+*[[MINIX]] 
+*[[OpenSolaris]] 
+*[[Plan 9 from Bell Labs|Plan 9]] 
+*[[ReactOS]]
+
+| group3 = [[Open source software development|Development]]
+| list3  = 
+*[[Eclipse (software)|Eclipse]] 
+*[[FreeBASIC]] 
+*[[Free Pascal]] 
+*[[GNU Compiler Collection|GCC]] 
+*[[Gambas]] 
+*[[Java (programming language)|Java]] 
+*[[Low Level Virtual Machine|LLVM]] 
+*[[Lua (programming language)|Lua]] 
+*[[NetBeans]] 
+*[[Open64]] 
+*[[Perl]] 
+*[[PHP]] 
+*[[Python (programming language)|Python]] 
+*[[ROSE compiler framework|ROSE]] 
+*[[Ruby (programming language)|Ruby]] 
+*[[Tcl]]
+
+| group4 = [[History of free and open-source software|History]]
+| list4  = 
+*[[GNU#History|GNU]] 
+*[[History of Haiku (operating system)|Haiku]] 
+*[[History of Linux|Linux]] 
+*[[Mozilla]] 
+**[[History of Mozilla Application Suite|Application Suite]] 
+**[[History of Firefox|Firefox]] 
+**[[History of Mozilla Thunderbird|Thunderbird]]
+
+| group5 = Organizations
+| list5  = 
+*[[Apache Software Foundation]] 
+*[[Android Open Source Project]] 
+*[[Blender Foundation]] 
+*[[Eclipse Foundation]] 
+*[[FreeBSD Foundation]] 
+*[[freedesktop.org]] 
+*[[Free Software Foundation]]
+**[[Free Software Foundation Europe|Europe]] 
+**[[Free Software Foundation of India|India]] 
+**[[Free Software Foundation Latin America|Latin America]]
+*[[Free Software Movement of India|FSMI]] 
+*[[GNOME Foundation]] 
+*[[GNU Project]] 
+*[[Google Code]] 
+*[[KDE e.V.]] 
+*[[Linux Foundation]] 
+*[[Mozilla Foundation]] 
+*[[Open Source Geospatial Foundation]] 
+*[[Open Source Initiative]] 
+*[[Software Freedom Conservancy]] 
+*[[SourceForge]] 
+*[[Symbian Foundation]] 
+*[[The Document Foundation]] 
+*[[Xiph.Org Foundation]] 
+*[[XMPP Standards Foundation]] 
+*[[X.Org Foundation]]
+
+| group6 = [[Free software licence|Licences]]
+| list6  = 
+*[[Apache License|Apache]] 
+*[[Artistic License|Artistic]] 
+*[[Beerware]]
+*[[BSD licenses|BSD]] 
+*[[GNU General Public License|GNU GPL]] 
+*[[GNU Lesser General Public License|GNU LGPL]] 
+*[[ISC license|ISC]] 
+*[[MIT License|MIT]] 
+*[[Mozilla Public License|MPL]] 
+*[[Shared source#Open Source licenses|Ms-PL/RL]] 
+*[[zlib License|zlib]] 
+*[[Public domain]]/[[CC0#Public_domain_tools|CC0]] 
+*[[WTFPL]]
+*[[List of FSF approved software licenses|FSF approved licenses]]
+
+| group7 = Licence standards
+| list7  = 
+*[[Open Source Definition]] 
+*[[The Free Software Definition]] 
+*[[Debian Free Software Guidelines]] 
+*[[Definition of Free Cultural Works]]
+
+| group8 = Challenges
+| list8  = 
+*[[Binary blob]] 
+*[[Contributor License Agreement]] 
+*[[Digital rights management]] 
+*[[Graphics hardware and FOSS|Graphics hardware compatibility]] 
+*[[License proliferation]] 
+*[[Mozilla Corporation software rebranded by the Debian project|Mozilla software rebranding]] 
+*[[Proprietary software]] 
+*[[SCO-Linux controversies]] 
+*[[Open source software security|Security]] 
+*[[Software patents and free software|Software patents]] 
+*[[Hardware restrictions]] 
+*[[Trusted Computing]] 
+*[[Windows 8#Secure boot|Secure Boot]]  
+*[[Viral license]]
+
+| group9 = Other topics
+| list9  = 
+*[[Alternative terms for free software|Alternative terms]] 
+*[[Free software community|Community]] 
+*[[Linux distribution]] 
+*[[Fork (software development)|Forking]] 
+*[[Free software movement|Movement]] 
+*[[Microsoft Open Specification Promise]] 
+*''[[Revolution OS]]'' 
+*''[[The Cathedral and the Bazaar]]''
+*[[Comparison of open source and closed source|Comparison with closed source]]
+
+| below = 
+*'''{{Icon|Book}} [[Book:Free and Open Source Software]]'''
+*'''{{Icon|Category}} [[:Category:Free software]]'''
+*'''{{Icon|Portal}} [[Portal:Free software]]'''
+
+}}<noinclude>
+{{DEFAULTSORT:FOSS}}
+[[Category:Software templates]]
+[[Category:Computing navigational boxes]]
+
+[[ar:قالب:برمجيات حرة]]
+[[bn:টেমপ্লেট:FOSS]]
+[[el:Πρότυπο:ΕΛΛΑΚ]]
+[[fa:الگو:نرم‌افزار آزاد و متن‌باز]]
+[[ko:틀:자유-오픈 소스 소프트웨어]]
+[[ms:Templat:PBPT]]
+[[ja:Template:FOSS]]
+[[pt:Predefinição:Software Livre]]
+[[ru:Шаблон:FOSS]]
+[[uk:Шаблон:FOSS]]
+[[zh:Template:FOSS]]
+</noinclude>
