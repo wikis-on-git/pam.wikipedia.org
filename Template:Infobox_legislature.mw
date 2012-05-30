@@ -1,0 +1,119 @@
+{{infobox
+| bodyclass   = vcard
+| above       = <includeonly><span class="fn org">{{{name}}}</span> {{#if:{{{native_name|}}}|<br />''<span class="nickname"{{#if:{{{native_name_lang|}}}| lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span>''{{#if:{{{transcription_name|}}}|<br /><span class="nickname">{{{transcription_name}}}</span>}}}}</includeonly>
+| abovestyle  = background-color: {{{background_color|#efefef}}}; {{#if:{{{text_color|}}}|color: {{{text_color}}} }}
+
+| headerstyle = background-color: {{{background_color|#efefef}}}; {{#if:{{{text_color|}}}|color: {{{text_color}}} }}
+
+| data1       = {{{legislature|}}}
+
+| data2       = {{#if:{{{coa_pic|{{{coa-pic|}}}}}}|[[file:{{{coa_pic}}}|{{px|{{{coa_res|{{{coa-res|}}}}}}|frameless}}|upright|alt={{{coa_alt|{{{coa-alt|Coat of arms or logo}}}}}}]]}}
+
+| header3     = {{#if:{{{house_type|}}}{{{houses|}}}{{{term_limits|}}}{{{new_session|}}}|Type}}
+
+| label4      = Mitátag
+| data4       = {{{foundation|}}}
+| label5      = Uri
+| data5       = {{#if:{{{house_type|}}}|<span class="category">[[{{{house_type}}}]]</span>}} {{#if:{{{body|}}}|of [[{{{body}}}]]}}
+| label6      = Kapulungan
+| data6       = {{{houses|}}}
+| label7      = Angganan ning terminu
+| data7       = {{{term_limits|}}}
+| label8      = Migumpisa ing bayung sesyon
+| data8       = {{{new_session|}}}
+
+| header9     = {{#if:{{{leader1_type|}}}{{{leader1|}}}|Leadership}}
+
+| label10     = {{{leader1_type|}}}
+| data10      = {{#if:{{{leader1|}}}| {{{leader1|}}}{{#if:{{{party1|}}}|, {{{party1|}}}}} {{#if:{{{election1|}}}| <br>since {{{election1|}}}}}}}
+| label11     = {{{leader2_type|}}}
+| data11      = {{#if:{{{leader2|}}}| {{{leader2|}}}{{#if:{{{party2|}}}|, {{{party2|}}}}} {{#if:{{{election2|}}}| <br>since {{{election2|}}}}}}}
+| label12     = {{{leader3_type|}}}
+| data12      = {{#if:{{{leader3|}}}| {{{leader3|}}}{{#if:{{{party3|}}}|, {{{party3|}}}}} {{#if:{{{election3|}}}| <br>since {{{election3|}}}}}}}
+| label13     = {{{leader4_type|}}}
+| data13      = {{#if:{{{leader4|}}}| {{{leader4|}}}{{#if:{{{party4|}}}|, {{{party4|}}}}} {{#if:{{{election4|}}}| <br>since {{{election4|}}}}}}}
+| label14     = {{{leader5_type|}}}
+| data14      = {{#if:{{{leader5|}}}| {{{leader5|}}}{{#if:{{{party5|}}}|, {{{party5|}}}}} {{#if:{{{election5|}}}| <br>since {{{election5|}}}}}}}
+| label15     = {{{leader6_type|}}}
+| data15     = {{#if:{{{leader6|}}}| {{{leader6|}}}{{#if:{{{party6|}}}|, {{{party6|}}}}} {{#if:{{{election6|}}}| <br>since {{{election6|}}}}}}}
+
+| header16    = {{#if:{{{structure1|}}}{{{house1|}}}{{{committees1|}}}{{{joint_committees|}}}{{{term_length|}}}{{{authority|}}}{{{salary|}}}|Structure}}
+
+| label17     = Kayanib
+| data17      = {{{members|}}}
+| data18      = {{#if:{{{structure1|}}}|[[file:{{{structure1}}}|{{#if:{{{structure1_res|}}}|{{{structure1_res}}}|120px}}|alt={{{structure1_alt|{{{structure1}}}}}}]]}}
+| label19     = {{#if:{{{house1|}}}|{{{house1|}}} Political groups|Political groups}}
+| data19      = {{{political_groups1|}}}
+| data20      = {{#if:{{{structure2|}}}|[[file:{{{structure2}}}|{{#if:{{{structure2_res|}}}|{{{structure2_res}}}|120px}}|alt={{{structure2_alt|{{{structure2}}}}}}]]}}
+| label21     = {{#if:{{{house2}}}|{{{house2|}}} Political groups|Political groups}}
+| data21     = {{{political_groups2|}}}
+| label22     = {{#if:{{{house1}}}|{{{house1|}}} Committees|Committees}}
+| data22      = {{{committees1|}}}
+| label23     = {{#if:{{{house2}}}|{{{house2|}}} committees|Committees}}
+| data23      = {{{committees2|}}}
+| label24     = Joint committees
+| data24      = {{{joint_committees|}}}
+| label25     = Length of term
+| data25      = {{{term_length|}}}
+| label26     = Upaya
+| data26      = {{{authority|}}}
+| label27     = Sweldu
+| data27      = {{{salary|}}}
+
+| label28     = {{{seats1_title|}}}
+| data28      = {{{seats1|}}}
+| label29     = {{{seats2_title|}}}
+| data29      = {{{seats2|}}}
+| label30     = {{{seats3_title|}}}
+| data30      = {{{seats3|}}}
+| label31     = {{{seats4_title|}}}
+| data31      = {{{seats4|}}}
+| label32     = {{{seats5_title|}}}
+| data32      = {{{seats5|}}}
+| label33     = {{{seats6_title|}}}
+| data33      = {{{seats6|}}}
+| label34     = {{{seats7_title|}}}
+| data34      = {{{seats7|}}}
+
+| header35    = {{#if:{{{house1|}}}{{{last_election1|}}}{{{next_election1|}}}{{{redistricting|}}}|Elections}}
+| label36     = {{#if:{{{house1|}}}|{{{house1}}} [[Voting system]]|[[Voting system]]}}
+| data36      = {{{voting_system1|}}}
+| label37     = {{{house2|}}} [[Voting system]]
+| data37      = {{{voting_system2|}}}
+| label38     = {{#if:{{{house1|}}}|{{{house1}}} Last election|Last election}}
+| data38      = {{{last_election1|}}}
+| label39     = {{{house2|}}} Tawling alalan
+| data39      = {{{last_election2|}}}
+| label40     = Last general election
+| data40      = {{{last_election3|}}}
+| label41     = {{#if:{{{house1|}}}|{{{house1}}} Next election|Next election}}
+| data41      = {{{next_election1|}}}
+| label42     = {{{house2|}}} Next election
+| data42      = {{{next_election2|}}}
+| label43     = Next general election
+| data43      = {{{next_election3|}}}
+| label44     = Redistricting
+| data44      = {{{redistricting|}}}
+
+| header45    = {{#if:{{{motto|}}}|Motto}}
+| data46      = {{{motto|}}}
+
+| header47    = {{#if:{{{session_room|}}}{{{meeting_place|}}}|Meeting place}}
+
+| data48      = {{#if:{{{session_room|}}}|[[file:{{{session_room}}}|{{#if:{{{session_res|}}}|{{{session_res}}}|frameless}}|alt={{{session_alt|{{{session_room}}}}}}]]}}
+| data49      = {{{meeting_place|}}}
+| class49     = label
+
+| header50    = {{#if:{{{session_room2|}}}{{{meeting_place2|}}}|Meeting place}}
+
+| data51      = {{#if:{{{session_room2|}}}|[[file:{{{session_room2}}}|{{#if:{{{session_res2|}}}|{{{session_res2}}}|frameless}}|alt={{{session_alt2|{{{session_room2}}}}}}]]}}
+| data52      = {{{meeting_place2|}}}
+| class52     = label
+
+| header53    = {{#if:{{{website|}}}|Website}}
+| data54      = {{{website|}}}
+
+| header55    = {{#if:{{{footnotes|}}}|Footnotes}}
+| data56      = {{{footnotes|}}}
+
+}}<noinclude>{{documentation}}<!-- place category and language links on the /doc sub-page, not here --></noinclude>
