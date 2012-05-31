@@ -75,7 +75,7 @@
 | label34     = {{{seats7_title|}}}
 | data34      = {{{seats7|}}}
 
-| header35    = {{#if:{{{house1|}}}{{{last_election1|}}}{{{next_election1|}}}{{{redistricting|}}}|Elections}}
+| header35    = {{#if:{{{house1|}}}{{{last_election1|}}}{{{next_election1|}}}{{{redistricting|}}}|Alalan}}
 | label36     = {{#if:{{{house1|}}}|{{{house1}}} [[Voting system]]|[[Voting system]]}}
 | data36      = {{{voting_system1|}}}
 | label37     = {{{house2|}}} [[Voting system]]
@@ -88,7 +88,7 @@
 | data40      = {{{last_election3|}}}
 | label41     = {{#if:{{{house1|}}}|{{{house1}}} Next election|Next election}}
 | data41      = {{{next_election1|}}}
-| label42     = {{{house2|}}} Next election
+| label42     = {{{house2|}}} Tutuking alalan
 | data42      = {{{next_election2|}}}
 | label43     = Next general election
 | data43      = {{{next_election3|}}}
