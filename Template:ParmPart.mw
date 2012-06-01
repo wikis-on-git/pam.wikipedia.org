@@ -1,0 +1,20 @@
+<onlyinclude>{{#ifeq:/{{{2|}}}
+|{{#titleparts:/{{{2|}}}|1|{{#expr:1+{{{1|1}}}}}}}
+|
+|{{#titleparts:/{{{2|}}}|1|{{#expr:1+{{{1|1}}}}}}}
+}}</onlyinclude>
+<!-- {{Dokumentation}} --><noinclude>
+[[ar:قالب:ParmPart]]
+[[de:Vorlage:ParmPart]]
+[[dsb:Pśedłoga:ParmPart]]
+[[es:Plantilla:ParmPart]]
+[[eo:Ŝablono:ParmPart]]
+[[fa:الگو:ParmPart]]
+[[fr:Modèle:ParmPart]]
+[[hsb:Předłoha:ParmPart]]
+[[arz:قالب:ParmPart]]
+[[nl:Sjabloon:ParmPart]]
+[[ja:Template:ParmPart]]
+[[ru:Шаблон:ParmPart]]
+[[zh:Template:ParmPart]]
+</noinclude>
