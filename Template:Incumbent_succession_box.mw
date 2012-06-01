@@ -1,0 +1,9 @@
+<includeonly>|- style="text-align: center;"
+{{s-bef |rows={{{rows|1}}} |before={{{before}}} |before2={{{before2|}}} |before3={{{before3|}}} |before4={{{before4|}}} |before5={{{before5|}}} }}
+{{s-ttl|rows={{{rows|1}}}|title={{{title}}}|years={{{years}}}|alongside = {{{alongside|}}} |with={{{with|}}}
+  |with2={{{with2|}}} |with3={{{with3|}}} |with4={{{with4|}}} |with5={{{with5|}}} |with6={{{with6|}}} |with7={{{with7|}}}
+  |with8={{{with8|}}} |with8={{{with8|}}} |with9={{{with9|}}} |with10={{{with10|}}} |with11={{{with11|}}}
+  |with12={{{with12|}}}  |with13={{{with13|}}} |with14={{{with14|}}} |with15={{{with15|}}} |with16={{{with16|}}} |with17={{{with17|}}} |with18={{{with18|}}} |with19={{{with19|}}} |with20={{{with20|}}} |with21={{{with21|}}} |with22={{{with22|}}} |with23={{{with23|}}} |with24={{{with24|}}} |with25={{{with25|}}} }}
+{{s-aft |rows={{{rows|1}}} |after={{{after}}} |after2={{{after2|}}} |after3={{{after3|}}} |after4={{{after4|}}} |after5={{{after5|}}} }}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
