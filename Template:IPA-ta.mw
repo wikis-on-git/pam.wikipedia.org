@@ -1,0 +1,11 @@
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Tamil:&nbsp;|pron=pronounced&nbsp;|=|Tamil pronunciation:&nbsp;}}</small>{{IPA|[[WP:IPA for Tamil|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude><noinclude>
+
+{{documentation|Template:usage of IPA templates}}
+
+<!-- PLEASE ADD CATEGORIES BELOW THIS LINE, THANKS. -->
+
+[[Category:IPA templates|{{PAGENAME}}]]
+[[Category:Tamil language]]
+
+<!-- PLEASE ADD INTERWIKIS BELOW THIS LINE, THANKS. -->
+</noinclude>
