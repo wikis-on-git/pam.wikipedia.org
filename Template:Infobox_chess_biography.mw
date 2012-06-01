@@ -1,0 +1,32 @@
+{{Infobox
+| bodyclass    = vcard
+| above        = {{{name<includeonly>|{{PAGENAME}}</includeonly>}}}
+| aboveclass   = fn
+| image      = {{#if:{{{image|}}}|[[File:{{{image}}}|{{px|{{{image_size|}}}|frameless}}|alt={{{alt|}}}]]}}
+| imageclass = {{image class names|{{{image}}}}}
+| caption      = {{{caption|}}}
+
+| label1       = Kumpletung lagyu
+| data1        = {{{birth_name|{{{birthname|}}}}}}
+| label2       = Bangsa
+| class2       = adr
+| data2        = {{{country|}}}
+| label3       = Mibait
+| data3        = {{br separated entries|{{{birth_date|}}}|{{{birth_place|}}}}}
+| label4       = Mete
+| data4        = {{br separated entries|{{{death_date|}}}|{{{death_place|}}}}}
+| label5       = Titulu
+| class5       = note
+| data5        = {{{title|}}}
+| label6       = [[World Chess Championship|Kampeon ning Yatu king Chess]]
+| class6       = note
+| data6        = {{{worldchampion|}}}
+| label7       = [[Women's World Chess Championship|Women's World Champion]]
+| class7       = note
+| data7        = {{{womensworldchampion|}}}
+| label8       = [[Fédération Internationale des Échecs|FIDE]] [[Elo rating system|rating]]
+| data8        = {{#if:{{Elo rating|ID={{{FideID|}}}}}|[http://ratings.fide.com/card.phtml?event={{{FideID|}}} {{Elo rating|ID={{{FideID}}}}}] {{Elo rating|ID=timestamp}} {{{rating|}}}|{{{rating|}}}}}
+| label9       = [[Elo rating system|Peak rating]]
+| data9        = {{{peakrating|}}}
+}}<noinclude>
+{{documentation}}<!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS --></noinclude>
