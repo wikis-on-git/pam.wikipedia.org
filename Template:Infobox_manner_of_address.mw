@@ -1,0 +1,21 @@
+{{Infobox
+| bodyclass  = vcard
+| abovestyle = font-weight: normal; background-color: {{#if:{{{background|}}}|{{{background}}}|#DEDEDE}}; {{#if:{{{color|{{{colour|}}}}}}|color: {{{color|{{{colour}}}}}};}}
+| above      = <span style="font-size:80%">{{#if:{{{type|}}}|{{{type}}} styles|Styles}} of</span><br>'''<span class="fn">{{{royal name|{{{name}}}}}}</span>'''{{#if:{{{consort|}}}|<span style="font-size:80%"> as&nbsp;consort</span>}}
+| image      = {{{image|}}}
+
+| label1     = [[Style (manner of address)|Reference style]]
+| data1      = {{{dipstyle|{{{reference<includeonly>|</includeonly>}}}}}}
+| label2     = Spoken style
+| data2      = {{{offstyle|{{{spoken<includeonly>|</includeonly>}}}}}}
+| label3     = Religious style
+| data3      = {{{relstyle|{{{religious<includeonly>|</includeonly>}}}}}}
+| label4     = Posthumous style
+| data4      = {{{deathstyle|{{{posthumous<includeonly>|</includeonly>}}}}}}
+| label5     = Alternative style
+| data5      = {{{altstyle|{{{alternative<includeonly>|</includeonly>}}}}}}
+| label6     = Informal style
+| data6      = {{{informal<includeonly>|</includeonly>}}}
+| label7     = [[Titular see|See]]
+| data7      = {{{see<includeonly>|</includeonly>}}}
+}}<noinclude>{{documentation}}<!-- add categories and interwikis to Template:Infobox manner of address/doc --></noinclude>
