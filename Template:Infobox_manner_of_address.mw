@@ -4,17 +4,17 @@
 | above      = <span style="font-size:80%">{{#if:{{{type|}}}|{{{type}}} styles|Styles}} of</span><br>'''<span class="fn">{{{royal name|{{{name}}}}}}</span>'''{{#if:{{{consort|}}}|<span style="font-size:80%"> as&nbsp;consort</span>}}
 | image      = {{{image|}}}
 
-| label1     = [[Style (manner of address)|Reference style]]
+| label1     = [[Style (manner of address)|Istilo neng babanggitan ya]]
 | data1      = {{{dipstyle|{{{reference<includeonly>|</includeonly>}}}}}}
-| label2     = Spoken style
+| label2     = King pamagsalita
 | data2      = {{{offstyle|{{{spoken<includeonly>|</includeonly>}}}}}}
-| label3     = Religious style
+| label3     = Istilong relihyoso
 | data3      = {{{relstyle|{{{religious<includeonly>|</includeonly>}}}}}}
 | label4     = Posthumous style
 | data4      = {{{deathstyle|{{{posthumous<includeonly>|</includeonly>}}}}}}
-| label5     = Alternative style
+| label5     = Alternatibung istilio
 | data5      = {{{altstyle|{{{alternative<includeonly>|</includeonly>}}}}}}
-| label6     = Informal style
+| label6     = E pormal a istilio
 | data6      = {{{informal<includeonly>|</includeonly>}}}
 | label7     = [[Titular see|See]]
 | data7      = {{{see<includeonly>|</includeonly>}}}
