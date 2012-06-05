@@ -80,7 +80,7 @@
 | <tr><th> [[Magaral]]
 </th><td> {{{enrollment|}}}{{{students<includeonly>|</includeonly>}}}</td></tr>
 }}{{#if: {{{undergrad<includeonly>|</includeonly>}}}
-| <tr><th> [[Magaral king kolehiu]]
+| <tr><th> [[Magaral king kolehiyo]]
 </th><td> {{{undergrad}}}</td></tr>
 }}{{#if: {{{postgrad<includeonly>|</includeonly>}}}
 | <tr><th> [[Postgraduate education|Magaral a postgraduate]]
@@ -92,7 +92,7 @@
 | <tr><th> Aliwang magaral
 </th><td> {{{other}}}</td></tr>
 }}{{#if: {{{profess<includeonly>|</includeonly>}}}
-| <tr><th> [[Professional|Magaral a profesional]]
+| <tr><th> [[Professional|Magaral a propesyonal]]
 </th><td> {{{profess}}}</td></tr>
 }}{{#if: {{{alumni<includeonly>|</includeonly>}}}
 | <tr><th> [[Alumnus|Deng Miyari]]
@@ -145,7 +145,7 @@
 | <tr><th> [[Nobel Laureate|Menikuang Galal a Nobel]]
 </th><td> {{{nobel_laureates}}}</td></tr>
 }}{{#if: {{{website<includeonly>|</includeonly>}}}
-| <tr><th> [[Website]]
+| <tr><th> [[Website/Karinan-Aptas]]
 </th><td> {{{website}}}</td></tr>
 }}{{#if: {{{logo<includeonly>|</includeonly>}}}
 | <tr></th><td colspan="2" style="text-align: center;"> {{{logo}}}</td></tr>
