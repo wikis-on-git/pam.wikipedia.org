@@ -1,36 +1,68 @@
-{{Infobox University|
- name = Tarlac State University |
- image = [[image:TSU_1.jpg]] |
- established = [[1906]] |
- type = [[Public university|Publicu]] |
- president = Dr. Priscilla C. Viuya | 
- city = [[Tarlac Lakanbalen]] |
- country = [[Filipinas]] |
- postgrad_label = graduate |
- faculty = |
+
+{{Infobox University|Information
+
+| name           = Tarlac State University
+|| native_name   = ''Pambansang Universidad ning Tarlac''
+|| latin_name    = [[:la:Pambansang Pilipinas|Pambansang Pilipinas]]
+|| image         = [[Image:Tarlac State University Type Logo.png|260px]]
+|| established   = 1906
+|| type          = [[Public university|Public, State University]]
+|| president     = Dr. Priscilla C. Viuya, Ph.D.
+| city           = Romulo Boulevard, Tarlac Lakanbalen
+| country        = {{flagicon|Philippines}} Filipinas
+| postgrad_label = gradwado
+| free_label     = Imno
+| free           = ''TSU Hymn'' (T.S.U. Beloved Alma Mater)
+| |campus        = 1 a universidad kareng 3 campus
+| faculty        = 356
+| staff          = 179 empleadung administratibo<br>355 empleadu
+| students       = 12,562
+| head_label     = Chairperson & Presiding Officer <br>(Board of Regent)
+| head           = Hon. Nona S. Ricafort <br>Talapamuntuk, CHED
+| undergrad      = [[Bachelor's degree|Baccalaureate]]
+| postgrad       = MA.ED, MAN, MBA, MPA, MSIT
+| doctoral       = Ed.D, DPA
+| colors         = [[Image:Tarlac State University Color Logo.png|15px|border]]  [[Maroon]] ampong [[Dilo]]
+| nickname       = [[Image:CBA Tigers.png|30px]] CBA Green Tigers<br>[[Image:CCS Red Hawks2.png|30px]] CCS Red Hawks<br>
+                   [[Image:Beagle.png|30px]] LS Blue Eagles
+| affiliations   = Accrediting Agency of Chartered Colleges and Universities in the Philippines,<br>Asia-Pacific Qualifying Network,<br>Association of Universities of Asia and the Pacific,<br>Asia University Federation,<br>
+                   International Association of Universities<br>
+| website        = [http://www.tsu.edu.ph/ Tarlac State University Official Website]<br>[http://www.tsu-cc.net/ Tarlac State University Hong Kong Campus]<br>[http://www.tsu.edu.ph/intl/index.asp International Affairs]<br>[http://www.tsu.edu.ph/4iec/ International Conference Education]
+|footnotes       = 106th Anniversary Tarlac State University
+|logo            = [[File:106th Tarlac State University Anniversity.png|center|180px|106th Tarlac State University - Anniversity Foundation Day]][[File:Tarlac State University SVG.png|250px|The Logo Banner of Tarlac State University]]
 }}
 
-Mitátag ya kanitang 1906 ing '''Tarlac State University''' (TSU) (Universidad a Pang-estadu ning Tarlac), ing centru ning kabyasnan king pamagaral king lalawigan ning [[Tarlac]]. Atin yang cursung pang-graduadu kareng dakal a myayaliwang larangan bukud karetang vocational at myayaliwang cursung pang-colegiu king [[w:engineering]], [[w:physical science|physical]] ampong [[w:social sciences]], [[w:computer science]] ampong [[w:information technology]], [[negociu]] ampong [[w:accountancy]], [[w:physical education]], [[pamanuru]] (education), [[w:fine arts]] at [[arquitectura]], ampong [[w:nursing]].     
+Mitátag ya kanitang 1906 ing '''Tarlac State University''' (TSU), ing sentru ning kabyasnang akademiku king lalawigan ning [[Tarlac]] king [[Filipinas]]. Miyayampang yang kursung gradwadu kareng dakal a sanga ning belwan bukud kareng kursu o programang vocational, undergraduate degree ampong postgraduate programs king ''Engineering'', ''Chemistry'', ''Human Kinetics'' and ''Social Sciences'', ''Computer Studies'' ampong ''Information Technology'', ''Business and Accountancy'', ''Education'', ''Public Administration'', ''Architecture and Fine Arts'', ''Secondary'' ampong ''Nursing''. Bayu-bayu pamu, biklat ne ning TSU ing kayang programa king Bachelor of Laws ''(LL.B)'' kasaup ne ing [[Integrated Bar of the Philippines]] Tarlac Chapter. Bukud kaniti, atin yang medical degree program para kareng magaral a internasyonal king kayang Lucinda Campus.
 
-==Damla (Mission)==
-Masipit nang kapagnasan ning Tarlac State University (TSU) ing pamisaplala, pamangambul ampong pamanatili da reng cursung matas a uri ampong makabage king panaun king matas a pamagaral (higher education) para king pamamye upaya king malda at panyulung a professional.
+{{coord missing|Central Luzon}}
 
-==Talindo (Vision)==
-Pakikwanan ning Tarlac State University ing maging metung a masikan a institucion a magdala king kaparalanan paras king matas a pamagaral a mayap a uri ampong masalese, a mayayakit kareng taung bibilug king institucion at mayayari keti. 
+{{Navbox
+|name   = TSU
+|title  = <font style="color:yellow; font-family: Trajan Pro, Palatino Linotype; font-size:16pt">T<font style="color:yellow; font-family: Trajan Pro, Palatino Linotype; font-size:13pt">ARLAC</font> <font style="color:yellow; font-family: Trajan Pro, Palatino Linotype; font-size:16pt">S</font><font style="color:yellow; font-family: Trajan Pro, Palatino Linotype; font-size:13pt">TATE</font> <font style="color:yellow; font-family: Trajan Pro, Palatino Linotype; font-size:16pt">U</font><font style="color:yellow; font-family: Trajan Pro, Palatino Linotype; font-size:13pt">NIVERSITY</font>
+|state = {{{state|expanded}}}
+|image  = [[Image:Tsu status.jpg|135px|link=|Tarlac State University Status]] 
+|titlestyle = color: maroon; background-color: maroon; 
+|groupstyle = background: maroon;
+|oddstyle = background: white;
+|evenstyle = background: maroon;
+|belowstyle = background: maroon;
+|group1=[[Tarlac State University#Academics|<span style="color:yellow;">Academics</span>]]
+|list1=
+<font color="#000000">Business and Accountancy</font>{{·}} <font color="#000000">Arts and Social Sciences</font> {{·}} <font color="#000000">Computer Studies</font> {{·}} <font color="#000000">Engineering</font> {{·}} <font color="#000000">Education</font> {{·}} <font color="#000000">Nursing</font> {{·}} <font color="#000000">Education</font> {{·}} <font color="#000000">Technology</font> {{·}} <font color="#000000">Fine Arts</font> {{·}} <font color="#000000">Architecture</font> {{·}} <font color="#000000">Graduate Studies</font> {{·}} <font color="#000000">Laboratory School</font> {{·}} <font color="#000000">Human Kinetics</font>{{·}} <font color="#000000">Science</font>
+|group2=[[Tarlac State University#Athletics|<span style="color:yellow;">Athletics</span>]]
+|list2=[[NCC Philippines|<font color="yellow">NCC Philippines</font>]] {{·}} <font color="yellow">TSU CBA Green Tigers</font> {{·}} [[Tarlac State University - Laboratory School|<font color="yellow">TSU Laboratory School Blue Eagles</font>]] {{·}} <font color="yellow">SUC III Olympics</font> {{·}} <font color="yellow">TSU CCS Red Hawks</font> {{·}} <font color="yellow">TSU COEng Maroon Sharks</font> {{·}} <font color="yellow">TSU COED Yellow Dragons</font> {{·}} <font color="yellow">TSU CON Pink Falchons</font> {{·}} <font color="yellow">TSU Purple CPA Jaquar</font>
+|group3=[[Tarlac State University#Main Campus|<span style="color:yellow;">Campus</span></font>]]'''
+|list3= <font color="#000000">Alumni Center</font> {{·}} <font color="#000000">Medical Center</font> {{·}} <font color="#000000">Buildings</font> {{·}} <font color="#000000">Romulo Boulevard</font> {{·}} <font color="#000000">University Hostel</font> {{·}} <font color="#000000">Park Gardens</font> {{·}} <font color="#000000">NSTP Center</font> {{·}} <font color="#000000">Administrative Building</font> {{·}} <font color="#000000">Street</font> {{·}} <font color="#000000">Interfaith Chapel</font> {{·}} <font color="#000000">University Gymmansium</font> {{·}} <font color="#000000">Health Center</font>
+|group4=<span style="color:yellow;">Student life</span>
+|list4= <font color="yellow">TSU Singers</font> {{·}} <font color="yellow">Supreme Student Council</font> {{·}} <font color="yellow">Student Society of Information Technology Education</font> {{·}} <font color="yellow">The Work </font> {{·}} <font color="yellow">The Work Jr.</font>
+|below = <span style="font-size:95%;>{{icon|CAT}}&nbsp;'''<font color="yellow">Categories</font>'''</span>
+}}
 
-==Deng Campus==
-King salukuyan, atlu la reng mangaragul nang campus ning T.S.U.  Atilu ngan deti king [[Tarlac Lakanbalen]]:
+</center>
 
-* Tarlac State University Main Campus
-* Tarlac State University San Isidro Campus
-* Tarlac State University Lucinda Campus
-
-==Suglung a palwal==
-
-* [http://www.tsu.edu.ph/ Official website]
-
-[[Category:Nursing schools in the Philippines]]
 [[Category:State universities and colleges in the Philippines]]
+[[Category:State universities and colleges in Central Luzon]]
+[[Category:Tarlac]]
 
-[[en:Tarlac State University]]
+[[pam:Tarlac State University]]
 [[tl:Tarlac State University]]
