@@ -23,10 +23,10 @@
 | data4       = {{{venerated_in<includeonly>|</includeonly>}}}
 
 | label5      = [[Beatification|Meging beato]]
-| data5       = {{#if:{{{beatified_date<includeonly>|</includeonly>}}}|{{{beatified_date}}}{{#if:{{{beatified_place<includeonly>|</includeonly>}}}|, {{{beatified_place}}}}} {{#if:{{{beatified_by<includeonly>|</includeonly>}}}| neng {{{beatified_by}}}}}}}
+| data5       = {{#if:{{{beatified_date<includeonly>|</includeonly>}}}|{{{beatified_date}}}{{#if:{{{beatified_place<includeonly>|</includeonly>}}}|, {{{beatified_place}}}}} {{#if:{{{beatified_by<includeonly>|</includeonly>}}}| kapamilatan nang {{{beatified_by}}}}}}}
 
 | label6      = [[Canonization|Meging santo]]
-| data6       = {{#if:{{{canonized_date<includeonly>|</includeonly>}}}|{{{canonized_date}}}{{#if:{{{canonized_place<includeonly>|</includeonly>}}}|, {{{canonized_place}}}}} {{#if:{{{canonized_by<includeonly>|</includeonly>}}}| neng {{{canonized_by}}}}}}}
+| data6       = {{#if:{{{canonized_date<includeonly>|</includeonly>}}}|{{{canonized_date}}}{{#if:{{{canonized_place<includeonly>|</includeonly>}}}|, {{{canonized_place}}}}} {{#if:{{{canonized_by<includeonly>|</includeonly>}}}| kapamilatan nang {{{canonized_by}}}}}}}
 
 | label7      = Major [[shrine]]
 | data7       = {{{major_shrine<includeonly>|</includeonly>}}}
