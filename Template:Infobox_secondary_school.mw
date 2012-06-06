@@ -1,0 +1,139 @@
+{{ infobox
+| bodyclass  = vcard
+| aboveclass = fn org
+| above      = {{{name|<includeonly>{{PAGENAME}}</includeonly>}}}
+| subheader  = {{{native_name|}}}
+| image      = {{{image|}}}
+| caption    = {{#if:{{{image_name|}}}||{{{caption|}}}}}
+| image2     = {{#if:{{{image_name|}}}|[[File:{{{image_name}}}|{{px|{{{image_size|}}}|frameless}}|alt={{{image_alt|}}}]]}}
+| caption2   = {{{caption|}}}
+
+| image      = {{{logo|}}}
+
+| label1     = [[Motto]]
+| data1      = {{{motto|}}}
+| label2     = Mitátag
+| data2      = {{{established|}}}
+| label3     = Closed
+| data3      = {{{closed|}}}
+| label4     = [[Taxonomy of schools|Uri]]
+| data4      = {{{type|}}}
+| label5     = Status
+| data5      = {{{status|}}}
+| label6     = {{{category_label|Category}}}
+| data6      = {{{category|}}} 
+| label7     = {{{gender_label|[[Gender]]}}}
+| data7      = {{{gender|}}} 
+| label8     = Affiliation
+| data8      = {{{affiliation|}}}
+| label9     = Affiliations
+| data9      = {{{affiliations|}}}
+| label10    = Administrator
+| data10     = {{{administrator|}}}
+| label11    = Asst. to the Administrador
+| data11     = {{{asst admin|}}}
+| label12    = President
+| class12    = agent
+| data12     = {{{president|}}}
+| label13    = {{{chairman_label|Talapamuntuk}}}
+| class13    = agent
+| data13     = {{{chairman|}}}
+| label14    = [[Principal (school)|Principal]]
+| class14    = agent
+| data14     = {{{principal|}}}
+| label15    = Asst. Principal
+| class15    = agent
+| data15     = {{{asst principal|}}}
+| label16    = Campus Director
+| class16    = agent
+| data16     = {{{campus director|}}}
+| label17    = {{{headmaster label|Headmaster}}}
+| class17    = agent
+| data17     = {{{headmaster|}}}
+| label18    = {{{second master label|Second Master}}}
+| class18    = agent
+| data18     = {{{second master|}}}
+| label19    = {{{assistant headmaster label|Assistant Headmaster}}}
+| class19    = agent
+| data19     = {{{assistant headmaster|}}}
+| label20    = [[Dean (education)|Dekano]]
+| class20    = agent
+| data20     = {{{dean|}}}
+| label21    = [[Rector]]
+| class21    = agent
+| data21     = {{{rector|}}}
+| label22    = Talatátag
+| data22     = {{{founder|}}}
+| label23    = Chaplain
+| data23     = {{{chaplain|}}}
+| label24    = {{{head_label|Headmaster}}}
+| data24     = {{{head|}}}
+| label25    = Officer-in-Charge
+| data25     = {{{oic|}}}
+| label26    = Faculty
+| data26     = {{{faculty|}}}
+| label27    = Teaching staff
+| data27     = {{{teaching_staff|}}}
+| label28    = Students
+| data28     = {{{enrollment|{{{enrollment|{{{students|}}}}}}}}}
+| label29    = {{#if:{{{grades_label|}}}|{{{grades_label}}}|Grades}}
+| data29     = {{{grades|}}} 
+| label30    = Location
+| data30     = {{#if:{{{address|}}}{{{city|}}}{{{state|}}}{{{province|}}}{{{country|}}}|<span class="label">{{{address|}}}{{#if: {{{address|}}}|,<br />}}{{{city}}}, {{#if:{{{state|}}}|{{{state|}}},}} {{#if:{{{province|}}}|{{{province|}}},}} {{{country}}}</span>}}
+| label31    = [[Geographic coordinate system|Coordinates]]
+| data31     = {{{coordinates|}}}
+
+| data32     = {{#if:{{{latitude|}}}|<span style="font-size:111.11%">{{coord|{{{latitude}}}|{{{longitude}}}|region:GB_type:landmark|display=title}}</span>}}
+
+| label33    = District
+| data33     = {{{district|}}} 
+| label34    = {{{oversight_label|Oversight}}}
+| data34     = {{{oversight|}}} 
+| label35    = Accreditation
+| data35     = {{{accreditation|}}} 
+| label36    = [[Campus]]
+| data36     = {{{campus|}}} 
+| label37    = [[School colors|Kule]]
+| data37     = {{{colors|}}} 
+| label38    = [[School colors|Kule]]
+| data38     = {{{colours|}}} 
+| label39    = Athletics
+| data39     = {{{athletics|}}} 
+| label40    = Houses
+| data40     = {{{house|}}} 
+| label41    = Student Union/Association
+| data41     = {{{su|}}} 
+| label42    = [[Athletic nickname|Palayo]]
+| data42     = {{{nickname|}}} 
+| label43    = [[Mascot]]
+| data43     = {{{mascot|}}}
+| label44    = [[Emblem]]
+| data44     = {{{emblem|}}}
+| label45    = [[Sports rivalry|Karibal]]
+| data45     = {{{rival|}}} 
+| label46    = [[Yearbook]]
+| data46     = {{#if:{{{yearbook|}}}|''{{{yearbook}}}''}}
+| label47    = [[Student newspaper|Newspaper]]
+| data47     = {{#if:{{{newspaper|}}}|''{{{newspaper}}}''}}
+| label48    = {{{free_label_1}}}
+| data48     = {{{free_1|}}} 
+| label49    = {{{free_label_2}}}
+| data49     = {{{free_2|}}} 
+| label50    = {{{free_label_3}}}
+| data50     = {{{free_3|}}} 
+| label51    = {{{testname|[[Standardized test]]}}} Average
+| data51     = {{{testaverage|}}}
+| label52    = National ranking
+| data52     = {{{National_ranking|{{{national_ranking|}}}}}}
+| label53    = Website/Karinan-Aptas
+| data53     = {{{website|}}} 
+
+| data54     = {{#if:{{{footnotes|}}}|<hr /><div style="font-size:83%; line-height:150%; text-align: left">{{{footnotes}}}<div>}}
+
+| data55     = {{{picture|}}}{{#if:{{{image_caption|}}}|<br /><small>{{{image_caption}}}</small>}}
+
+| data56     = {{{picture2|}}}{{#if:{{{image_caption2|}}}|<br /><small>{{{image_caption2}}}</small>}}
+
+}}<noinclude>
+{{documentation}}
+</noinclude>
