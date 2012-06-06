@@ -1,0 +1,63 @@
+{{Infobox
+| bodyclass   = vcard
+
+| aboveclass  = fn
+| abovestyle  = background-color:gold;
+| above       = {{{name|{{PAGENAME}}}}}
+
+| imageclass  = {{Image class names|{{{image}}}}}
+| image       = {{#if:{{{image<includeonly>|</includeonly>}}}|[[File:{{{image}}}|{{px|{{{image_size|}}}|{{{imagesize|}}}|frameless}}|alt={{{alt|}}}]]}}
+| caption     = {{{caption<includeonly>|</includeonly>}}}
+
+| headerstyle = background-color:gold;
+
+| header1     = {{{titles<includeonly>|</includeonly>}}}
+
+| label2      = Mibait
+| data2       = {{br separated entries|{{{birth_date<includeonly>|</includeonly>}}}|{{{birth_place<includeonly>|</includeonly>}}}}}
+
+| label3      = Mete
+| data3       = {{br separated entries|{{{death_date<includeonly>|</includeonly>}}}|{{{death_place<includeonly>|</includeonly>}}}}}
+
+| label4      = Dirinan deng pangalang king
+| data4       = {{{venerated_in<includeonly>|</includeonly>}}}
+
+| label5      = [[Beatification|Meging beato]]
+| data5       = {{#if:{{{beatified_date<includeonly>|</includeonly>}}}|{{{beatified_date}}}{{#if:{{{beatified_place<includeonly>|</includeonly>}}}|, {{{beatified_place}}}}} {{#if:{{{beatified_by<includeonly>|</includeonly>}}}| by {{{beatified_by}}}}}}}
+
+| label6      = [[Canonization|Meging santo]]
+| data6       = {{#if:{{{canonized_date<includeonly>|</includeonly>}}}|{{{canonized_date}}}{{#if:{{{canonized_place<includeonly>|</includeonly>}}}|, {{{canonized_place}}}}} {{#if:{{{canonized_by<includeonly>|</includeonly>}}}| by {{{canonized_by}}}}}}}
+
+| label7      = Major [[shrine]]
+| data7       = {{{major_shrine<includeonly>|</includeonly>}}}
+
+| label8      = [[Calendar of saints|Fiesta]]
+| data8       = {{{feast_day<includeonly>|</includeonly>}}}
+
+| label9      = [[Saint symbology|Attributes]]
+| data9       = {{{attributes<includeonly>|</includeonly>}}}
+
+| label10     = [[Patron saint|Pamagpatron]]
+| data10      = {{{patronage<includeonly>|</includeonly>}}}
+
+| label11     = Kontrobersya
+| data11      = {{{issues<includeonly>|</includeonly>}}}
+
+| label12     = Catholic [[cultus|cult]] suppressed
+| data12      = {{{suppressed_date<includeonly>|</includeonly>}}}{{#if:{{{suppressed_by<includeonly>|</includeonly>}}}|&nbsp;by {{{suppressed_by}}}}}
+
+| label13     = Impluwensya
+| data13      = {{{influences<includeonly>|</includeonly>}}}
+
+| label14     = Mig-impluwensya
+| data14      = {{{influenced<includeonly>|</includeonly>}}}
+
+| label15     = Tradisyon/Genre
+| data15      = {{{tradition<includeonly>|</includeonly>}}}
+
+| label16     = Manimunang obra
+| data16      = {{{major_works<includeonly>|</includeonly>}}}
+
+}}<noinclude>
+{{documentation}}
+</noinclude>
