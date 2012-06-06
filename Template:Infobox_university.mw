@@ -13,7 +13,7 @@
 | data2      = {{{motto|}}}
 | label3     = Motto in English
 | data3      = {{{mottoeng|}}}
-| label4     = {{#if:{{{closed|}}}|Active|Established}}
+| label4     = {{#if:{{{closed|}}}|Active|Mitátag}}
 | data4      = {{#if:{{{established|}}}|{{{established}}}{{#if:{{{closed|}}}|–{{{closed}}}}}}}
 | label5     = Uri
 | data5      = {{{type|}}}
@@ -55,9 +55,9 @@
 | data23     = {{{director|}}}
 | label24    = {{{head_label}}}
 | data24     = {{#if:{{{head_label|}}}|{{{head|}}}}}
-| label25    = Academic staff
+| label25    = Empleadong akademiko
 | data25     = {{{academic_staff|}}}{{{faculty|}}}<!-- "faculty" for backwards compatibility -->
-| label26    = Admin. staff
+| label26    = Empleadong administratibo
 | data26     = {{{administrative_staff|}}}{{{staff|}}}<!-- "staff" for backwards compatibility -->
 | label27    = Magaral
 | data27     = {{{students|}}}
