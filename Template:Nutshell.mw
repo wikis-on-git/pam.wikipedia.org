@@ -1,6 +1,6 @@
 {{mbox
 | image = [[Image:Nutshell.png|30px]]
-| text = '''{{{title|This page}}} in a nutshell:''' {{#if:{{{2|}}}
+| text = '''{{{title|Ining bulung}}} king makuyad a salita:''' {{#if:{{{2|}}}
   | * {{{1}}} 
 * {{{2}}} {{#if:{{{3|}}}   <!--Can't have leading spaces-->
     | * {{{3}}}
