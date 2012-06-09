@@ -1,0 +1,7 @@
+{{ombox
+|type = notice
+|image = [[Image:Blue check.svg|30px]]
+|text = '''Ining {{#ifeq:{{{1}}}|naming convention|[[Wikipedia:Policies and guidelines|guideline]]|bulung}} papasala na iti metung yang Kapampangan Wikipedia [[:Category:Wikipedia {{{1}}}s|{{{1}}}]].''' Iti mabibilang yang tanggap kareng talasulat a subukan at panikuanan dang tuntunan, agiang iti ing [[Wikipedia:Use common sense|pangkaraniwan a sentido]] iyang dapat mas magamit ampo reng [[Wikipedia:Ignore all rules|liban a malagad]]. Nung marakal-dakal la reng pamanaliwa keng bulung a iti mas masanting nung [[Wikipedia:Consensus|apikasundu]] ra pa reng talasulat. Nung atin pamikakunu, pisabian ye pa keng  [[{{TALKPAGENAME}}|bulung [pamisabi-sabi]].
+|imageright = {{#if:{{{3<includeonly>|</includeonly>}}} | {{Ombox/Shortcut|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}} }} }}
+}}<includeonly>{{#ifeq:{{NAMESPACE}}|{{ns:4}}|{{{category|[[Category:Wikipedia {{lc:{{{1}}}}}s|{{{2|{{PAGENAME}}}}}]]}}}}}</includeonly><noinclude>{{pp-semi-template|small=yes}}
+{{documentation}}<!-- Add categories and interwikis to the /doc subpage, not here! --></noinclude>
