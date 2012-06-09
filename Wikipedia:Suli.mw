@@ -83,11 +83,11 @@ Keraklan, e ra rerecomenda ing pamamiling malating larawan king stub template (i
 
 Ating standard code para kareng stub template king {{tl|metastub}}:
 :<code><nowiki>{{subst:metastub | article=article related to [[foo]] | id=foo-stub | category=Foo}}</nowiki></code><br>
-a babie kaniti: <div class="notice metadata plainlinks" id="stub" style="clear:both;">''This article related to [[foo]] is a [[Wikipedia:Stub|stub]]. You can help Wikipedia by [{{fullurl:{{FULLPAGENAME}}|action=edit}} expanding it].''</div>
+a babie kaniti: <div class="notice metadata plainlinks" id="stub" style="clear:both;">''Ining artikulung makaugne king [[foo]] metung yang [[Wikipedia:Stub|suli]]. Makasaup ka king Wikipedia kapamilatan ning [{{fullurl:{{FULLPAGENAME}}|action=edit}} pamandagdag kaniti].''</div>
 At nung bage ya ing larawan, gumamit kang {{tl|metapicstub}}:
 :<code><nowiki>{{subst:MetaPicstub|article=article about [[foo]]| id=stub | category=Foo| image=foo.svg | size=40 | alt=Foo}}</nowiki></code><br>
 a babie kaniti:
-<table class="notice metadata plainlinks" id="stub" style="background: transparent;"><tr><td>[[Image:foo.svg|40px|]]</td><td>''This article about [[foo]] is a [[Wikipedia:Stub|stub]].  You can [[Wikipedia:Stub#Ideal stub article|help]] Wikipedia by [{{fullurl:{{FULLPAGENAME}}|action=edit}} expanding it].''</td ></tr ></table >
+<table class="notice metadata plainlinks" id="stub" style="background: transparent;"><tr><td>[[Image:foo.svg|40px|]]</td><td>''Ining artikulung tungkul king [[foo]] metung yang [[Wikipedia:Stub|suli]].  Maka[[Wikipedia:Stub#Ideal stub article|saup]] ka king Wikipedia kapamilatan ning [{{fullurl:{{FULLPAGENAME}}|action=edit}} pamandagdag kaniti].''</td ></tr ></table >
 '''''Be sure to {{tl|subst}} the template code when creating the template!'''''
 
 ===Bayung stub category===
