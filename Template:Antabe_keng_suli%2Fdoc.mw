@@ -1,0 +1,43 @@
+{{Documentation subpage}}
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+
+===Usage===
+:{{Tlx|{{PAGENAME}}|&lt;guideline category&gt;|&lt;category sort key&gt;|&lt;shortcut&gt;|&lt;shortcut&gt;|...}}
+
+=== New guidelines require approval ===
+If you're writing a new guideline, or substantially revising one, please remember to give the community significant time to consider your proposal.  See [[WP:PROPOSAL]] for the current best practice on advertising proposals.
+
+For a short introduction on how to go from a ''proposal'' to a Wikipedia ''style guideline'', see: [[:Category:Wikipedia proposals]] and [[WP:How to contribute to Wikipedia guidance|How to contribute to Wikipedia guidance]].
+
+===Parameters===
+:#&lt;guideline category&gt;: one of the following should be used:
+:#:* <tt>behavioral guideline</tt>
+:#:* <tt>content guideline</tt>
+:#:* <tt>deletion guideline</tt>
+:#:* <tt>editing guideline</tt>
+:#:* <tt>naming convention</tt>
+:#:* <tt>notability guideline</tt>
+:#:* <tt>style guideline</tt>
+:#&lt;category sort key&gt;: for e.g. ''notability'' or ''naming conventions'' guidelines, sort by what is in the parentical disambiguator, examples:
+:#*[[wikipedia:notability (websites)]]: &lt;category sort key&gt; = '''Websites'''
+:#*[[wikipedia:naming conventions (people)]]: &lt;category sort key&gt; = '''People'''
+:#&lt;shortcut&gt;: optional, [[Wikipedia:Shortcut|shortcut]] like for instance '''WP:SHORT'''
+:#&lt;shortcut&gt;: Optional second shortcut. Five shortcuts can be passed in total, each as a separate parameter.
+
+
+===See also===
+* For related [[:Category:Wikipedia header templates|Wikipedia header templates]] see [[Wikipedia:Template messages/Project namespace|Template messages/Project namespace]].
+* {{tl|Proposed}} to solicit comments from the wider community before declaring a page to be a guideline
+* {{tl2|rfc|policy}} and {{tl2|rfc|style}}, to solicit comments from the community about a proposed guideline, major changes to an existing guideline, or removing guideline status
+* {{tl|MoS-guideline}} for the few style guidelines that are actually part of the [[WP:MOS|Manual of Style]]
+
+ <includeonly>
+ <!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Policy and guidelines header templates|{{PAGENAME}}]]
+
+ <!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[ka:თარგი:სახელმძღვანელო*]]
+[[mk:Шаблон:Subcat guideline]]
+[[pt:Predefinição:Subcat recomendação]]
+
+ </includeonly>
