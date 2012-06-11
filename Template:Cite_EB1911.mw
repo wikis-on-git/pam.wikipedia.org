@@ -1,0 +1,85 @@
+{{hide in print|1=
+<!--
+sort out the icon to use
+-->{{#if: {{#if: {{{noicon|}}}|{{{noicon}}}|{{{no-icon|}}} }}|<!--eq to empty-->
+    |<!--then-->{{#ifeq: {{#if: {{{wstitle|}}}|{{{wstitle}}}|{{{wikisource|}}} }}|<!--eq to empty-->
+                 |<!--then-->{{#ifeq: {{{1|}}}|<!--eq to empty-->
+                              |<!--then-->[[File:PD-icon.svg|12px|alt=]]&nbsp;
+                              |<!--else-->[[File:Wikisource-logo.svg|12px|alt=]]&nbsp;
+                            }}
+                 |<!--else-->[[File:Wikisource-logo.svg|12px|alt=]]&nbsp;
+                }}
+   }}
+}}<!--no white space
+-->{{cite encyclopedia
+    |{{#if:{{{first|}}}  |first  |HIDE_PARAMETER}}={{{first|}}}
+    |{{#if:{{{first1|}}} |first1 |HIDE_PARAMETER}}={{{first1|}}}
+    |{{#if:{{{first2|}}} |first2 |HIDE_PARAMETER}}={{{first2|}}}
+
+    |{{#if:{{{last|}}}   |last   |HIDE_PARAMETER}}={{{last|}}}
+    |{{#if:{{{last1|}}}  |last1  |HIDE_PARAMETER}}={{{last1|}}}
+    |{{#if:{{{last2|}}}  |last2  |HIDE_PARAMETER}}={{{last2|}}}
+
+    |{{#if:{{{author |}}} |author  |HIDE_PARAMETER}}={{{author|}}}
+    |{{#if:{{{author1|}}} |author1 |HIDE_PARAMETER}}={{{author1|}}}
+    |{{#if:{{{author2|}}} |author2 |HIDE_PARAMETER}}={{{author2|}}}
+    |{{#if:{{{authors|}}} |authors |HIDE_PARAMETER}}={{{authors|}}}
+    |{{#if:{{{authorlink|}}} |authorlink |HIDE_PARAMETER}}={{{authorlink|}}}
+    |{{#if:{{{coauthors|}}}  |coauthors  |HIDE_PARAMETER}}={{{coauthors|}}}
+
+    | editor-first = {{#if: {{{short|}}}|<!-- eq to empty -->|Hugh}}
+    | editor-last = {{#if: {{{short|}}}|<!-- eq to empty -->|Chisholm}}
+    | encyclopedia = [[Encyclopædia Britannica Eleventh Edition|Encyclopædia Britannica]]
+    | title= {{#ifeq: {{#if: {{{wstitle|}}}|{{{wstitle}}}|{{{wikisource|}}} }}|<!--eq to empty-->
+             |<!-- then-->
+               {{#ifeq: {{#if: {{{title|}}}|{{{title}}}|{{{article|}}} }}|<!--eq to empty-->
+               |<!--then-->
+                 {{#ifeq: {{{1|}}}|<!--eq to empty-->
+                   |<!--then--><!--<sup>article name needed</sup>COMMENTED OUT FOR THE MOMENT-->
+                   |<!--else-->[[Wikisource:1911 Encyclopædia Britannica/{{{1}}}|{{{display|{{{1}}}<!-- display -->}}}]]
+                 }}<!--end 1-->
+              |<!--else-->{{{title|{{{article|}}} }}}
+              }}<!--end title-->
+            |<!--else-->[[Wikisource:1911 Encyclopædia Britannica/{{{wstitle|{{{wikisource}}}<!--wst-->}}}|{{{display|{{{wstitle|{{{wikisource}}}<!--wst-->}}}<!-- display -->}}}]]
+            }}<!--end wstitle-->
+    | url =  {{#if: {{{wstitle|}}}|{{{wstitle}}}|{{{wikisource|}}}|<!--eq to empty-->
+             |<!--then set--> {{{url|}}}
+             |<!--else leave unset-->
+            }}
+    | url = {{#if:{{{wstitle|{{{wikisource|}}}<!--wst-->}}}|<!--eq to empty-->
+             |<!--then set--> {{{url|}}}
+             |<!--else leave unset-->
+            }}
+    | accessdate = {{{accessdate|}}}
+    | edition = {{{edition|11th}}}
+    | year = {{{year|1911}}}
+    | publisher = {{#if: {{{short|}}}|<!-- eq to empty -->|Cambridge University Press}}
+    | volume = {{{volume|}}}
+    | page = {{{page|}}}
+    | pages = {{{pages|}}}
+    | ref = {{{ref|}}}
+   }}<!--legacy code to handle post script
+-->{{#ifeq: {{{2|}}}|
+    |<!--is set then-->
+    |&nbsp;{{{2|}}}
+   }}<noinclude>
+{{Documentation}}</noinclude><!--
+--><includeonly><!--
+-->{{#ifeq: {{NAMESPACEE}} |<!--is set-->
+     |<!--Sort out the parameters-->
+     {{#ifeq: {{#if: {{{wstitle|}}}|{{{wstitle}}}|{{{wikisource|}}} }}|<!--eq to empty-->
+     |<!-- then-->
+       {{#ifeq: {{#if: {{{title|}}}|{{{title}}}|{{{article|}}} }}|<!--eq to empty-->
+       |<!--then-->
+         {{#ifeq: {{{1|}}}|<!--eq to empty-->
+         |<!--then-->[[Category:Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with no article parameter]]
+         |<!--else-->[[Category:Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with an unnamed parameter]]
+         }}<!--end 1-->
+       |<!--else-->[[Category:Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica without Wikisource reference]]
+       }}<!--end title-->
+     |<!--else-->[[Category:Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference]]
+     }}<!--end of check wstitle-->
+     {{#if:{{{W1EC|}}}|[[Category:Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica that may need Attribution]]|<!--else do nothing-->}}
+   |<!--else not in NAMESPACE do nothing-->
+   }}<!--end NAMESPACE no white space
+--></includeonly><!--DO NOT PUT A BLANK LINE AFTER THIS COMMENT-->
