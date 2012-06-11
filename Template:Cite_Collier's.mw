@@ -1,0 +1,3 @@
+<includeonly>{{#if:{{{noicon|}}}||[[Image:wikisource-logo.svg|12px|link=]]&nbsp;}}{{#if:{{{vb|}}}|This article incorporates text from a publication now in the [[public domain]]:&nbsp;|}}{{cite encyclopaedia|author={{{author|}}}|encyclopedia=[[Collier's Encyclopedia|Collier's New Encyclopedia]]|title=[[s:Collier's New Encyclopedia ({{{year|1921}}})/{{{1}}}|{{{display|{{{1}}}}}}]]|year={{{year|1921}}}}}</includeonly><noinclude>
+{{template doc}}
+</noinclude>
