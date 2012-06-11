@@ -87,21 +87,21 @@ if no non-snow image, take snow image
 {{!}}- class="mergedrow"
 {{!}}   - '''Density'''{{!!}} {{#iferror: {{Swiss populations NC|{{{iso-code-region}}}|{{{municipality_code}}} }}|<!-- If error=true, Tests for former municipality under municipality_type -->{{#ifeq:{{{municipality_type}}}|former|<!-- If error=true and municipality_type=former, tests for population = N/A -->{{#ifeq: N/A | {{{population}}} | N/A |{{formatnum:{{#expr:{{{population|0}}}div{{{area|1}}} round 0}} }} /km<sup>2</sup> ({{formatnum:{{#expr:({{{population|0}}}*2.589988110336)div({{{area|1}}}) round 0}} }} /sq mi) }}|{{formatnum:{{#expr:{{{population|0}}}div{{{area|1}}} round 0}} }} /km<sup>2</sup> ({{formatnum:{{#expr:({{{population|0}}}*2.589988110336)div({{{area|1}}}) round 0}} }} /sq mi) }}|{{#ifeq:{{{municipality_type}}}|former|{{#ifeq: N/A | {{{population}}} | N/A | {{formatnum:{{#expr:{{{population|0}}}div{{{area|1}}} round 0}}}} /km<sup>2</sup> ({{formatnum:{{#expr:({{{population|0}}}*2.589988110336)div({{{area|1}}}) round 0}}}} /sq mi) }} | {{formatnum:{{#expr:{{Swiss populations NC|{{{iso-code-region}}}|{{{municipality_code}}} }}div{{{area|1}}} round 0}}}} /km<sup>2</sup> ({{formatnum:{{#expr:({{Swiss populations NC|{{{iso-code-region}}}|{{{municipality_code}}} }}*2.589988110336)div({{{area|1}}}) round 0}} }} /sq mi) }} }} }}
 |- {{#if:{{{elevation|{{{altitude|<noinclude>x</noinclude>}}}}}} | class="mergedrow" | class="mergedbottomrow"}}  
-{{!}} '''Area'''&nbsp;{{#if: {{{area_source|}}}|{{{area_source|}}}}} {{!!}}<!-- Tests for error messages from Swiss area template -->{{#iferror: {{Swiss area data|{{{municipality_code}}} }}|<!-- If error=true, use the area parameter --> {{convert|{{{area|0}}}|km2|abbr=on}} |<!-- If error=false, tests if municipality_type is former -->{{#ifeq:{{{municipality_type}}}|former| {{convert|{{{area|0}}}|km2|abbr=on}} |<!-- If error=false and municipality_type is not former, uses Swiss area template --> {{convert|{{Swiss area data|{{{municipality_code}}} }}|ha|km2|disp=output only|abbr=on}} ({{convert|{{Swiss area data|{{{municipality_code}}} }}|ha|sqmi|disp=output only|abbr=on}}){{Swiss area data||QUELLE}} }} }}
+{{!}} '''Liwalas'''&nbsp;{{#if: {{{area_source|}}}|{{{area_source|}}}}} {{!!}}<!-- Tests for error messages from Swiss area template -->{{#iferror: {{Swiss area data|{{{municipality_code}}} }}|<!-- If error=true, use the area parameter --> {{convert|{{{area|0}}}|km2|abbr=on}} |<!-- If error=false, tests if municipality_type is former -->{{#ifeq:{{{municipality_type}}}|former| {{convert|{{{area|0}}}|km2|abbr=on}} |<!-- If error=false and municipality_type is not former, uses Swiss area template --> {{convert|{{Swiss area data|{{{municipality_code}}} }}|ha|km2|disp=output only|abbr=on}} ({{convert|{{Swiss area data|{{{municipality_code}}} }}|ha|sqmi|disp=output only|abbr=on}}){{Swiss area data||QUELLE}} }} }}
 |- class="mergedrow"
 {{#if:{{{elevation|<noinclude>x</noinclude>}}}|
-{{!}}'''Elevation''' {{!!}} {{convert|{{{elevation|0}}}|m|ft|0|abbr=on}}{{#if: {{{elevation_description|}}}|<br>{{{elevation_description}}}|}}
+{{!}}'''Katas''' {{!!}} {{convert|{{{elevation|0}}}|m|ft|0|abbr=on}}{{#if: {{{elevation_description|}}}|<br>{{{elevation_description}}}|}}
 }}<!--
 Added to enable viewing older versions of articles:
 -->{{#if:{{{altitude|}}}|{{!}}'''Elevation'''{{!!}}{{convert|{{{altitude|0}}}|m|ft|0|abbr=on}} [[File:Kuckucksuhr.JPG|9px|?]]{{#if: {{{altitude_description|}}}|<br>{{{altitude_description}}}|}}
 }}
 |- class="mergedrow"
 {{#if:{{{highest_m|<noinclude>x</noinclude>}}}|
-{{!}} &nbsp; - Highest {{!!}} {{{highest_m|0}}} m - {{{highest|}}}
+{{!}} &nbsp; - Pekamatas {{!!}} {{{highest_m|0}}} m - {{{highest|}}}
 }}
 |- class="mergedrow"
 {{#if:{{{lowest_m|<noinclude>x</noinclude>}}}|
-{{!}} &nbsp; - Lowest {{!!}} {{{lowest_m|0}}} m - {{{lowest|}}}
+{{!}} &nbsp; - Pekamababa {{!!}} {{{lowest_m|0}}} m - {{{lowest|}}}
 }}
 |- class="mergedtoprow"
 | '''[[Postal codes in Switzerland and Liechtenstein|Postal code]]''' || {{{postal_code}}}
@@ -126,7 +126,7 @@ Added to enable viewing older versions of articles:
 {{#if:{{{twintowns|<noinclude>x</noinclude>}}}| {{!}} '''[[List of twin towns and sister cities in Switzerland|Twin town]]s''' {{!!}} {{{twintowns}}}
 }}
 |- class="mergedbottomrow"
-{{!}} '''Website''' {{!!}} {{#if:{{{website|<noinclude>x</noinclude>}}}| [http://{{{website}}} {{{website}}}] | [http://{{{subject_name}}}.ch <span style="text-transform:lowercase;">{{{subject_name}}}</span>.ch] }} <span style="font-size:90%">{{#switch:{{{iso-code-region}}}
+{{!}} '''Karinan-aptas/Website''' {{!!}} {{#if:{{{website|<noinclude>x</noinclude>}}}| [http://{{{website}}} {{{website}}}] | [http://{{{subject_name}}}.ch <span style="text-transform:lowercase;">{{{subject_name}}}</span>.ch] }} <span style="font-size:90%">{{#switch:{{{iso-code-region}}}
 |CH-LU=<br>[http://www.lustat.ch/gd_{{{municipality_code}}} Profile] {{de icon}}, 
 |CH-NE=<br>[http://www.ne.ch/neat/documents/statistiques/Fiches_4829/wportraits_Files/NE{{{municipality_code}}}.pdf Profile] {{fr icon}}, 
 |CH-TI=<br>[http://www.ti.ch/DFE/USTAT/DATI_COMUNI/0_pagine/default.asp?numero={{{municipality_code}}} Profile] {{it icon}}, 
