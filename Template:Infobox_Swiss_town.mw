@@ -110,7 +110,7 @@ Added to enable viewing older versions of articles:
 Added to enable viewing older versions of articles:
 -->{{#if:{{{municipal_code|<noinclude>x</noinclude>}}}| {{!}}'''[[Community Identification Number#Switzerland|SFOS number]]''' {{!!}} {{{municipal_code}}} [[File:Kuckucksuhr.JPG|9px|?]]}}
 |- class="mergedrow"
-{{#if:{{{mayor|<noinclude>x</noinclude>}}}| {{!}}'''{{#if:{{{list_of_mayors|}}}|[[{{{list_of_mayors}}}|Mayor (list)]]|[[Mayor]]}}''' {{!!}} {{{mayor}}}{{#if: {{{mayor_asof|}}}| <small> (as of {{{mayor_asof}}})</small>|}} {{#if: {{{mayor_party|<noinclude>x</noinclude>}}}| <small> {{polparty|Switzerland|{{{mayor_party}}}}}</small>|}}
+{{#if:{{{mayor|<noinclude>x</noinclude>}}}| {{!}}'''{{#if:{{{list_of_mayors|}}}|[[{{{list_of_mayors}}}|Mayor (list)]]|[[Punbalen]]}}''' {{!!}} {{{mayor}}}{{#if: {{{mayor_asof|}}}| <small> (as of {{{mayor_asof}}})</small>|}} {{#if: {{{mayor_party|<noinclude>x</noinclude>}}}| <small> {{polparty|Switzerland|{{{mayor_party}}}}}</small>|}}
 }}
 |- class="mergedrow"
 {{#if:{{{demonym|<noinclude>x</noinclude>}}}| {{!}} '''<span style="font-size:90%">[[Demonym]]</span>''' {{!!}} <span style="font-size:90%">{{{demonym}}}</span>
@@ -119,11 +119,11 @@ Added to enable viewing older versions of articles:
 {{#if:{{{places|<noinclude>x</noinclude>}}}| {{!}} '''Localities''' {{!!}} {{{places}}}
 }}
 |- {{#if:{{{twintowns|}}}|class="mergedrow"|class="mergedbottomrow"}}
-{{#if:{{{neighboring_municipalities|<noinclude>x</noinclude>}}}| {{!}} '''Surrounded&nbsp;by'''
+{{#if:{{{neighboring_municipalities|<noinclude>x</noinclude>}}}| {{!}} '''Padurutan;de reng'''
 {{!!}} {{{neighboring_municipalities}}}
 }}
 |- class="mergedrow"
-{{#if:{{{twintowns|<noinclude>x</noinclude>}}}| {{!}} '''[[List of twin towns and sister cities in Switzerland|Twin town]]s''' {{!!}} {{{twintowns}}}
+{{#if:{{{twintowns|<noinclude>x</noinclude>}}}| {{!}} '''[[List of twin towns and sister cities in Switzerland|Kakambal a balen]]''' {{!!}} {{{twintowns}}}
 }}
 |- class="mergedbottomrow"
 {{!}} '''Karinan-aptas/Website''' {{!!}} {{#if:{{{website|<noinclude>x</noinclude>}}}| [http://{{{website}}} {{{website}}}] | [http://{{{subject_name}}}.ch <span style="text-transform:lowercase;">{{{subject_name}}}</span>.ch] }} <span style="font-size:90%">{{#switch:{{{iso-code-region}}}
