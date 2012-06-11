@@ -1,0 +1,181 @@
+<includeonly>{| class="infobox vcard geography" cellpadding="2" cellspacing="0" style="width:265px;"
+|-
+! colspan="2" class="fn" style="text-align:center;" | {{{subject_name}}}
+|-
+|- class="mergedrow"
+
+{{#ifexpr:{{#time:n}}<4|
+{{#if:{{{snow_image|}}}|<!-- 
+  --> {{!}} colspan="2" style="text-align: center; padding: 0;" {{!}} [[File:{{{snow_image|Dummy flag.png}}}|{{  <!-- size parameters-->
+    #if:{{{snow_imagesize|}}}|{{{snow_imagesize}}}|<!--else-->265px }}|{{
+    #if:{{{snow_imagesize|}}}|{{{snow_imagesize}}}px<!--also put "size+px"-->
+      |<!--else-->none<!--placeholder to avoid 2 vertical-bars-->
+    }}<!--endif2-->|none|{{{subject_name}}} - {{{snow_imagecaption|}}}]]<!-- 
+  -->{{#if:{{{snow_imagecaption|}}}|<small>{{{snow_imagecaption}}}</small>|}}<!--if 
+no snow image, take other image-->|<!-- 
+ -->{{#if:{{{image_photo|}}}|
+  {{!}} colspan="2" style="text-align: center; padding: 0;" {{!}} [[File:{{{image_photo|Dummy flag.png}}}|{{  <!-- size parameters-->
+    #if:{{{imagesize|}}}|{{{imagesize}}}|<!--else-->265px }}|{{
+    #if:{{{imagesize|}}}|{{{imagesize}}}px<!--also put "size+px"-->
+      |<!--else-->none<!--placeholder to avoid 2 vertical-bars-->
+    }}<!--endif2-->|none|{{{subject_name}}} - {{{image_caption|}}}]]<!-- 
+  -->{{#if:{{{image_caption|}}} |<small>{{{image_caption}}}</small>
+  }}<!--endif image_caption-->
+}}
+}}
+ |<!--if not in month defined above, take std image -->
+{{#if:{{{image_photo|}}}|
+  {{!}} colspan="2" style="text-align: center; padding: 0;" {{!}} [[File:{{{image_photo|Dummy flag.png}}}|{{  <!-- size parameters-->
+    #if:{{{imagesize|}}}|{{{imagesize}}}|<!--else-->265px }}|{{
+    #if:{{{imagesize|}}}|{{{imagesize}}}px<!--also put "size+px"-->
+      |<!--else-->none<!--placeholder to avoid 2 vertical-bars-->
+    }}<!--endif2-->|none|{{{subject_name}}} - {{{image_caption|}}}]]<!-- 
+  -->{{#if:{{{image_caption|}}}|<small>{{{image_caption}}}</small>}}<!--endif image_caption-->
+|  <!-- 
+if no non-snow image, take snow image
+ -->{{#if:{{{snow_image|}}}|
+  {{!}} colspan="2" style="text-align: center; padding: 0;" {{!}} [[File:{{{snow_image|Dummy flag.png}}}|{{  <!-- size parameters-->
+    #if:{{{snow_imagesize|}}}|{{{snow_imagesize}}}|<!--else-->265px }}|{{
+    #if:{{{snow_imagesize|}}}|{{{snow_imagesize}}}px<!--also put "size+px"-->
+      |<!--else-->none<!--placeholder to avoid 2 vertical-bars-->
+    }}<!--endif2-->|none|{{{subject_name}}} - {{{snow_imagecaption|}}}]]<!-- 
+  -->{{#if:{{{snow_imagecaption|}}}|<small>{{{snow_imagecaption}}}</small>
+  }}<!--endif snow_imagecaption-->
+}}
+}}
+}}
+<!-- Geographical information / CoA section -->
+|-
+{{#if: {{{imagepath_coa|<noinclude>x</noinclude>}}}|
+<!-- If CoA image given: use three columns -->
+   {{!}} colspan="2" {{!}}
+   {{{!}} width=100% style="margin:0 auto; padding:0; background:none;"
+   {{!}}- class="mergedrow"
+   {{!}} '''Bangsa''' 
+   {{!}} [[Switzerland]]
+   {{!}} rowspan={{#if:{{{within_municipality|}}}|5|4}} style="border:0; vertical-align:middle; text-align:center" {{!}} {{#if: {{{imagepath_coa|<noinclude>x</noinclude>}}}| [[File:{{{imagepath_coa|Sin escudo.svg}}}|{{#if: {{{pixel_coa|}}}|{{{pixel_coa}}}|60px}}|Sagkal ning Armas ning {{{subject_name}}}]]}}<!--
+ --Link catcher for separate CoA articles--
+-->{{#ifexist:Coat of arms of {{{subject_name}}}|<br/>[[Coat of arms of {{{subject_name}}}|Details]]|{{#ifexist:Coat of arms of {{PAGENAME}}|<br/>[[Coat of arms of {{PAGENAME}}|Details]]}}}}
+   {{!}}- class="mergedrow"
+   {{!}}'''[[Cantons of Switzerland|Canton]]''' {{!!}} [[Canton of {{{canton|}}}|{{{canton}}}]]
+   {{!}}- class="mergedrow"
+   {{!}}'''[[Districts of Switzerland#Canton of {{{canton|}}}|District]]''' {{!!}} {{{district}}}
+   {{#if:{{{within_municipality|<noinclude>x</noinclude>}}}|
+   {{!}}- class="mergedrow"
+   {{!}}'''[[List of municipalities of Switzerland|Munisipalidad]]''' {{!!}} {{{within_municipality}}}}}
+   {{!}}- class="mergedrow" 
+   {{!}} colspan=2 style="text-align:center" {{!}}{{coord|{{{lat_d|{{{nd|0}}}}}}|{{{lat_m|{{{nm|0}}}}}}|N|{{{long_d|{{{ed|0}}}}}}|{{{long_m|{{{em|0}}}}}}|E|region:{{#if:{{{nd|}}}|CH|{{{iso-code-region}}}}}_type:city{{#iferror: {{Swiss populations NC|{{{iso-code-region}}}|{{{municipality_code}}} }}||({{#ifeq:{{{municipality_type}}}|former|{{{population}}}|{{Swiss populations NC|{{{iso-code-region}}}|{{{municipality_code}}} }} }}) }}|display=inline,title}}
+   {{!}}}
+| <!-- If no CoA image given: use standard two columns -->
+{{!}}- class="mergedtoprow"
+{{!}} '''Country''' {{!!}} [[Switzerland]]
+{{!}}- class="mergedrow"
+{{!}}'''[[Cantons of Switzerland|Canton]]''' {{!!}} [[Canton of {{{canton|}}}|{{{canton}}}]]
+{{!}}- class="mergedrow"
+{{!}}'''[[Districts of Switzerland#Canton of {{{canton|}}}|District]]''' {{!!}} {{{district}}}
+{{#if:{{{within_municipality|<noinclude>x</noinclude>}}}|
+{{!}}- class="mergedrow"
+{{!}}'''[[List of municipalities of Switzerland|Munisipalidad]]''' {{!!}} {{{within_municipality}}}}}
+{{!}}- class="mergedbottomrow"
+{{!}} style="vertical-align:middle;" {{!}} '''[[Geographical coordinates|Coordinates]]''' 
+{{!}} style="vertical-align:middle;" {{!}} {{coord|{{{lat_d|{{{nd|0}}}}}}|{{{lat_m|{{{nm|0}}}}}}|N|{{{long_d|{{{ed|0}}}}}}|{{{long_m|{{{em|0}}}}}}|E|region:{{#if:{{{nd|}}}|CH|{{{iso-code-region}}}}}_type:city{{#iferror: {{Swiss populations NC|{{{iso-code-region}}}|{{{municipality_code}}} }}||({{#ifeq:{{{municipality_type}}}|former|{{{population}}}|{{Swiss populations NC|{{{iso-code-region}}}|{{{municipality_code}}} }} }}) }}|display=inline,title}}
+}}
+|- class="mergedtoprow"
+{{#if:{{{population|<noinclude>x</noinclude>}}}| 
+{{!}} '''Population'''{{!!}} <!-- Tests for error messages from Swiss populations NC template -->{{#iferror: {{Swiss populations NC|{{{iso-code-region}}}|{{{municipality_code}}} }}|<!-- If error=true, Tests for former municipality under municipality_type -->{{#ifeq:{{{municipality_type}}}|former|<!-- If error=true and municipality_type=former, tests for population = N/A -->{{#ifeq: N/A | {{{population}}} | N/A |{{formatnum:{{#expr: 0{{{population}}} }} }} ({{{populationof}}}) }}|<!-- If error=true and municipality_type is not former -->{{formatnum:{{#expr: 0{{{population}}} }} }} ({{{populationof}}}) }}|<!-- If error=false, tests if municipality_type is former -->{{#ifeq:{{{municipality_type}}}|former|<!-- If error=false and municipality_type=former, tests for population = N/A -->{{#ifeq: N/A | {{{population}}} | N/A |{{formatnum:{{#expr: 0{{{population}}} }} }} ({{{populationof}}}) }}|<!-- If error=false and municipality_type is not former, uses Swiss populations NC template --> {{formatnum:{{#expr: 0{{Swiss populations NC|{{{iso-code-region}}}|{{{municipality_code}}} }} }} }} ({{#time: M Y | {{Swiss populations date|{{{iso-code-region}}}|TIMESTAMP}} }}){{Swiss populations ref|{{{iso-code-region}}} }} }} }} }}
+{{#if:{{{population|<noinclude>x</noinclude>}}}|
+{{!}}- class="mergedrow"
+{{!}}   - '''Density'''{{!!}} {{#iferror: {{Swiss populations NC|{{{iso-code-region}}}|{{{municipality_code}}} }}|<!-- If error=true, Tests for former municipality under municipality_type -->{{#ifeq:{{{municipality_type}}}|former|<!-- If error=true and municipality_type=former, tests for population = N/A -->{{#ifeq: N/A | {{{population}}} | N/A |{{formatnum:{{#expr:{{{population|0}}}div{{{area|1}}} round 0}} }} /km<sup>2</sup> ({{formatnum:{{#expr:({{{population|0}}}*2.589988110336)div({{{area|1}}}) round 0}} }} /sq mi) }}|{{formatnum:{{#expr:{{{population|0}}}div{{{area|1}}} round 0}} }} /km<sup>2</sup> ({{formatnum:{{#expr:({{{population|0}}}*2.589988110336)div({{{area|1}}}) round 0}} }} /sq mi) }}|{{#ifeq:{{{municipality_type}}}|former|{{#ifeq: N/A | {{{population}}} | N/A | {{formatnum:{{#expr:{{{population|0}}}div{{{area|1}}} round 0}}}} /km<sup>2</sup> ({{formatnum:{{#expr:({{{population|0}}}*2.589988110336)div({{{area|1}}}) round 0}}}} /sq mi) }} | {{formatnum:{{#expr:{{Swiss populations NC|{{{iso-code-region}}}|{{{municipality_code}}} }}div{{{area|1}}} round 0}}}} /km<sup>2</sup> ({{formatnum:{{#expr:({{Swiss populations NC|{{{iso-code-region}}}|{{{municipality_code}}} }}*2.589988110336)div({{{area|1}}}) round 0}} }} /sq mi) }} }} }}
+|- {{#if:{{{elevation|{{{altitude|<noinclude>x</noinclude>}}}}}} | class="mergedrow" | class="mergedbottomrow"}}  
+{{!}} '''Area'''&nbsp;{{#if: {{{area_source|}}}|{{{area_source|}}}}} {{!!}}<!-- Tests for error messages from Swiss area template -->{{#iferror: {{Swiss area data|{{{municipality_code}}} }}|<!-- If error=true, use the area parameter --> {{convert|{{{area|0}}}|km2|abbr=on}} |<!-- If error=false, tests if municipality_type is former -->{{#ifeq:{{{municipality_type}}}|former| {{convert|{{{area|0}}}|km2|abbr=on}} |<!-- If error=false and municipality_type is not former, uses Swiss area template --> {{convert|{{Swiss area data|{{{municipality_code}}} }}|ha|km2|disp=output only|abbr=on}} ({{convert|{{Swiss area data|{{{municipality_code}}} }}|ha|sqmi|disp=output only|abbr=on}}){{Swiss area data||QUELLE}} }} }}
+|- class="mergedrow"
+{{#if:{{{elevation|<noinclude>x</noinclude>}}}|
+{{!}}'''Elevation''' {{!!}} {{convert|{{{elevation|0}}}|m|ft|0|abbr=on}}{{#if: {{{elevation_description|}}}|<br>{{{elevation_description}}}|}}
+}}<!--
+Added to enable viewing older versions of articles:
+-->{{#if:{{{altitude|}}}|{{!}}'''Elevation'''{{!!}}{{convert|{{{altitude|0}}}|m|ft|0|abbr=on}} [[File:Kuckucksuhr.JPG|9px|?]]{{#if: {{{altitude_description|}}}|<br>{{{altitude_description}}}|}}
+}}
+|- class="mergedrow"
+{{#if:{{{highest_m|<noinclude>x</noinclude>}}}|
+{{!}} &nbsp; - Highest {{!!}} {{{highest_m|0}}} m - {{{highest|}}}
+}}
+|- class="mergedrow"
+{{#if:{{{lowest_m|<noinclude>x</noinclude>}}}|
+{{!}} &nbsp; - Lowest {{!!}} {{{lowest_m|0}}} m - {{{lowest|}}}
+}}
+|- class="mergedtoprow"
+| '''[[Postal codes in Switzerland and Liechtenstein|Postal code]]''' || {{{postal_code}}}
+|- class="mergedrow"
+{{#if:{{{municipality_code|}}}|{{!}}'''[[Community Identification Number#Switzerland|Bilang a SFOS]]''' {{!!}} {{{municipality_code}}}}}<!--
+Added to enable viewing older versions of articles:
+-->{{#if:{{{municipal_code|<noinclude>x</noinclude>}}}| {{!}}'''[[Community Identification Number#Switzerland|SFOS number]]''' {{!!}} {{{municipal_code}}} [[File:Kuckucksuhr.JPG|9px|?]]}}
+|- class="mergedrow"
+{{#if:{{{mayor|<noinclude>x</noinclude>}}}| {{!}}'''{{#if:{{{list_of_mayors|}}}|[[{{{list_of_mayors}}}|Mayor (list)]]|[[Mayor]]}}''' {{!!}} {{{mayor}}}{{#if: {{{mayor_asof|}}}| <small> (as of {{{mayor_asof}}})</small>|}} {{#if: {{{mayor_party|<noinclude>x</noinclude>}}}| <small> {{polparty|Switzerland|{{{mayor_party}}}}}</small>|}}
+}}
+|- class="mergedrow"
+{{#if:{{{demonym|<noinclude>x</noinclude>}}}| {{!}} '''<span style="font-size:90%">[[Demonym]]</span>''' {{!!}} <span style="font-size:90%">{{{demonym}}}</span>
+}}
+|- class="mergedrow"
+{{#if:{{{places|<noinclude>x</noinclude>}}}| {{!}} '''Localities''' {{!!}} {{{places}}}
+}}
+|- {{#if:{{{twintowns|}}}|class="mergedrow"|class="mergedbottomrow"}}
+{{#if:{{{neighboring_municipalities|<noinclude>x</noinclude>}}}| {{!}} '''Surrounded&nbsp;by'''
+{{!!}} {{{neighboring_municipalities}}}
+}}
+|- class="mergedrow"
+{{#if:{{{twintowns|<noinclude>x</noinclude>}}}| {{!}} '''[[List of twin towns and sister cities in Switzerland|Twin town]]s''' {{!!}} {{{twintowns}}}
+}}
+|- class="mergedbottomrow"
+{{!}} '''Website''' {{!!}} {{#if:{{{website|<noinclude>x</noinclude>}}}| [http://{{{website}}} {{{website}}}] | [http://{{{subject_name}}}.ch <span style="text-transform:lowercase;">{{{subject_name}}}</span>.ch] }} <span style="font-size:90%">{{#switch:{{{iso-code-region}}}
+|CH-LU=<br>[http://www.lustat.ch/gd_{{{municipality_code}}} Profile] {{de icon}}, 
+|CH-NE=<br>[http://www.ne.ch/neat/documents/statistiques/Fiches_4829/wportraits_Files/NE{{{municipality_code}}}.pdf Profile] {{fr icon}}, 
+|CH-TI=<br>[http://www.ti.ch/DFE/USTAT/DATI_COMUNI/0_pagine/default.asp?numero={{{municipality_code}}} Profile] {{it icon}}, 
+|CH-VD=<br>[http://www.ucv.ch/communal/Co_Ucv.asp?NumStr=09.20&NoOFS={{{municipality_code}}}&Lng=E Profile], 
+|CH-SH=<br>[http://www.statistik.sh.ch/index.php?id=10029&gem={{#switch:{{{subject_name}}}|Bargen=309|Beggingen=316|Beringen=310|Buch=319|Buchberg=311|Büttenhardt=304|Dörflingen=305|Gächlingen=300|Guntmadingen=301|Hallau=323|Hemishofen=320|Lohn=306|Löhningen=302|Merishausen=312|Neuhausen am Rheinfall=313|Neunkirch=303|Oberhallau=324|Ramsen=321|Rüdlingen=314|Schaffhausen=315|Schleitheim=317|Siblingen=318|Stein am Rhein=322|Stetten=307|Thayngen=308|Trasadingen=325|Wilchingen=326|309}} Profile] {{de icon}}, 
+|<br>}} [http://www.bfs.admin.ch/bfs/portal/en/index/regionen/02/key.html SFSO statistics]</span>
+|-
+!  colspan=2 align=center | {{Location map|Switzerland|float=left|width=265
+|label={{{subject_name}}}
+|lat={{#expr:{{{lat_d|0}}}+{{{lat_m|0}}}/60}}|long={{#expr:{{{long_d|0}}}+{{{long_m|0}}}/60}}|position={{#if:{{{position|<noinclude>x</noinclude>}}}|{{{position}}}}}|caption=}}
+|-
+!  colspan=2 align=center | {{#ifeq:{{{municipality_type}}}|former| {{hidden | header = Location of {{{subject_name}}}  | headercss=height:5px; | content = <br/>[[File:Karte Gemeinde {{{subject_name}}} {{#ifexist: Media:Karte Gemeinde {{{subject_name}}} 2013.png | 2013 | 
+{{#ifexist: Media:Karte Gemeinde {{{subject_name}}} 2012.png | 2012 | 
+ {{#ifexist: Media:Karte Gemeinde {{{subject_name}}} 2011.png | 2011 | 
+   {{#ifexist: Media:Karte Gemeinde {{{subject_name}}} 2010.png | 2010 | 
+    {{#ifexist: Media:Karte Gemeinde {{{subject_name}}} 2009.png |  2009 | 
+       {{#ifexist: Media:Karte Gemeinde {{{subject_name}}} 2008.png | 2008 | 
+          {{#ifexist: Media:Karte Gemeinde {{{subject_name}}} 2007.png | 2007 | 
+             {{#ifexist: Media:Karte Gemeinde {{{subject_name}}}.png |
+}} }} }} }} }} }} }} }}.png|250px]] }}
+| {{hidden | header = Location of {{{subject_name}}} | headercss=height:5px; | content = <br/>[[File:Karte Gemeinde {{SFOS2Municipality|{{{municipality_code}}}}} {{#ifexist: Media:Karte Gemeinde {{SFOS2Municipality|{{{municipality_code}}}}} 2013.png | 2013 | 
+{{#ifexist: Media:Karte Gemeinde {{SFOS2Municipality|{{{municipality_code}}}}} 2012.png | 2012 | 
+ {{#ifexist: Media:Karte Gemeinde {{SFOS2Municipality|{{{municipality_code}}}}} 2011.png | 2011 | 
+  {{#ifexist: Media:Karte Gemeinde {{SFOS2Municipality|{{{municipality_code}}}}} 2010.png | 2010 | 
+   {{#ifexist: Media:Karte Gemeinde {{SFOS2Municipality|{{{municipality_code}}}}} 2009.png |  2009 | 
+      {{#ifexist: Media:Karte Gemeinde {{SFOS2Municipality|{{{municipality_code}}}}} 2008.png |  2008 | 
+         {{#ifexist: Media:Karte Gemeinde {{SFOS2Municipality|{{{municipality_code}}}}} 2007.png |  2007 | 
+            {{{map|Karte Gemeinde {{SFOS2Municipality|{{{municipality_code}}}}} }}} }} }} }} }} }} }} }}.png{{!}}250px]] }} }}
+|}<!-- 
+Categories -->{{#if:{{NAMESPACE}}||{{#switch: {{{iso-code-region}}}
+ | CH-BE
+ | CH-FR
+ | CH-GE
+ | CH-GL
+ | CH-JU 
+ | CH-LU
+ | CH-NE
+ | CH-SZ
+ | CH-SO
+ | CH-SG
+ | CH-SH
+ | CH-UR
+ | CH-ZG
+ | CH-ZH = {{#ifeq:{{{municipality_type}}}|former|[[Category:Villages in the canton of {{{canton}}}]] [[Category:Former municipalities of the canton of {{{canton}}}]] | 
+{{#ifeq:{{{municipality_type}}}|village|[[Category:Villages in the canton of {{{canton}}}]]  |
+[[Category:Municipalities of the canton of {{{canton}}}]][[Category:Municipalities of Switzerland]]}}}}
+ | #default = {{#ifeq:{{{municipality_type}}}|former|[[Category:Villages in {{{canton}}}]] [[Category:Former municipalities of {{{canton}}}]] | 
+{{#ifeq:{{{municipality_type}}}|village|[[Category:Villages in {{{canton}}}]] }} [[Category:Municipalities of {{{canton}}}]][[Category:Municipalities of Switzerland]]}}
+}}
+}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
