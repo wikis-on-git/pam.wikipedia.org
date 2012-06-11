@@ -1,0 +1,5 @@
+{{#if: {{{author|}}}
+    |&#32;{{{author}}}:&#32;
+}}''{{{2|{{PAGENAME}}}}}'' {{#ifeq:{{{1}}}|0|in [http://www.e-lir.ch/e-LIR___Lexicon.{{{rm}}}.450.0.html <span title="{{{2|{{PAGENAME}}}}} in Romansh">Romansh</span>] in the online ''[[Lexicon Istoric Retic]]''|in {{#if: {{{rm|}}}|[http://www.e-lir.ch/e-LIR___Lexicon.{{{rm}}}.450.0.html <span title="{{{2|{{PAGENAME}}}}} in Romansh">Romansh</span>],}} [http://www.hls-dhs-dss.ch/textes/d/D{{{1}}}.php <span title="{{{2|{{PAGENAME}}}}} in German">German</span>], [http://www.hls-dhs-dss.ch/textes/f/F{{{1}}}.php <span title="{{{2|{{PAGENAME}}}}} in French">French</span>] and [http://www.hls-dhs-dss.ch/textes/i/I{{{1}}}.php <span title="{{{2|{{PAGENAME}}}}} in Italian">Italian</span>] in the online ''[[Historical Dictionary of Switzerland]]''}}{{#if: {{{date|}}}|,&#32;{{{date}}} }}.<noinclude>
+{{Documentation}}
+</noinclude>
