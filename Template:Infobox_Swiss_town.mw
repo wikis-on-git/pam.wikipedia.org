@@ -119,7 +119,7 @@ Added to enable viewing older versions of articles:
 {{#if:{{{places|<noinclude>x</noinclude>}}}| {{!}} '''Localities''' {{!!}} {{{places}}}
 }}
 |- {{#if:{{{twintowns|}}}|class="mergedrow"|class="mergedbottomrow"}}
-{{#if:{{{neighboring_municipalities|<noinclude>x</noinclude>}}}| {{!}} '''Padurutan;de reng'''
+{{#if:{{{neighboring_municipalities|<noinclude>x</noinclude>}}}| {{!}} '''Padurutan de reng'''
 {{!!}} {{{neighboring_municipalities}}}
 }}
 |- class="mergedrow"
