@@ -5,46 +5,46 @@
 | image        = {{#if:{{{image|}}}|[[File:{{{image}}}|{{px|{{{image_size|}}}|frameless}}|alt={{{alt|}}}]]}}
 | caption      = {{{caption|}}}
 
-| label1       = Full name
+| label1       = Kumpletung lagyu
 | data1        = {{{fullname|}}}
 | label2       = Country
 | data2        = {{{country_represented|{{{country represented|{{{country|}}}}}}}}}
-| label3       = Residence
+| label3       = Tuknangan
 | data3        = {{{residence|}}}
 | class3       = label
-| label4       = Born
+| label4       = Mibait
 | data4        = {{br separated entries|{{{birth_date|}}}|{{{birth_place|}}}}} 
-| label5       = Died
+| label5       = Mete
 | data5        = {{br separated entries|{{{death_date|}}}|{{{death_place|}}}}} 
-| label6       = Height
+| label6       = Katas
 | data6        = {{{height|}}}
-| label7       = Weight 
+| label7       = Bayat 
 | data7        = {{{weight|}}} 
-| label8       = College
+| label8       = Kolehiyo
 | data8        = {{{college|}}}
-| label9       = Turned pro
+| label9       = Meging propesyonal
 | data9        = {{{turnedpro|}}}
-| label10      = Retired
+| label10      = Migretiru
 | data10       = {{{retired|}}}
-| label11      = Plays
+| label11      = Pyalung
 | data11       = {{{plays|}}}
-| label12      = Career prize money
+| label12      = Penakitan king karera
 | data12       = {{{careerprizemoney|}}}
 | label13      = [[International Tennis Hall of Fame|Int. Tennis HOF]]
 | data13       = {{#if:{{{tennishofyear|}}}|{{{tennishofyear}}} {{#if:{{{tennishofid|}}}|''([http://www.tennisfame.com/hall-of-famers/{{{tennishofid}}} member page])''}}}}
-| label14      = Official web site
+| label14      = Opisyal a Karinan-Aptas/Official web site
 | data14       = {{{website|}}}
 
 | header15     = {{#if:{{{singlesrecord|}}}{{{singlestitles|}}}{{{highestsinglesranking|}}}{{{AustralianOpenresult|}}}{{{AustralianOpenjuniorresult|}}}{{{AustralianOpenseniorresult|}}}{{{FrenchOpenresult|}}}{{{FrenchOpenjuniorresult|}}}{{{FrenchOpenseniorresult|}}}{{{Wimbledonresult|}}}{{{Wimbledonjuniorresult|}}}{{{Wimbledonseniorresult|}}}{{{USOpenresult|}}}{{{USOpenjuniorresult|}}}{{{USOpenseniorresult|}}}{{{Othertournaments|}}}{{{MastersCupresult|}}}{{{WTAChampionshipsresult|}}}{{{Olympicsresult|}}}{{{WheelchairTennisMastersresult|}}}{{{Paralympicsresult|}}}|Singles}}
 | class15      = navbox-title
 
-| label16      = Career record
+| label16      = Record king karera
 | data16       = {{{singlesrecord|}}}
-| label17      = Career titles
+| label17      = Titulu king karera
 | data17       = {{{singlestitles|}}}
-| label18      = Highest ranking
+| label18      = Pekamatas a ranggu
 | data18       = {{{highestsinglesranking|}}}
-| label19      = Current ranking
+| label19      = Kasalukuyang ranggu
 | data19       = {{{currentsinglesranking|}}}
 
 | header20     = {{#if:{{{AustralianOpenresult|}}}{{{AustralianOpenjuniorresult|}}}{{{AustralianOpenseniorresult|}}}{{{FrenchOpenresult|}}}{{{FrenchOpenjuniorresult|}}}{{{FrenchOpenseniorresult|}}}{{{Wimbledonresult|}}}{{{Wimbledonjuniorresult|}}}{{{Wimbledonseniorresult|}}}{{{USOpenresult|}}}{{{USOpenjuniorresult|}}}{{{USOpenseniorresult|}}}|Grand Slam Singles results}}
@@ -90,13 +90,13 @@
 | header39     = {{#if:{{{doublesrecord|}}}{{{doublestitles|}}}{{{highestdoublesranking|}}}{{{grandslamsdoublesresults|}}}{{{AustralianOpenDoublesresult|}}}{{{AustralianOpenDoublesjuniorresult|}}}{{{AustralianOpenDoublesseniorresult|}}}{{{FrenchOpenDoublesresult|}}}{{{FrenchOpenDoublesjuniorresult|}}}{{{FrenchOpenDoublesseniorresult|}}}{{{WimbledonDoublesresult|}}}{{{WimbledonDoublesjuniorresult|}}}{{{WimbledonDoublesseniorresult|}}}{{{USOpenDoublesresult|}}}{{{USOpenDoublesjuniorresult|}}}{{{USOpenDoublesseniorresult|}}}{{{OthertournamentsDoubles|}}}{{{MastersCupDoublesresult|}}}{{{WTAChampionshipsDoublesresult|}}}{{{OlympicsDoublesresult|}}}{{{WheelchairTennisMastersDoublesresult|}}}{{{ParalympicsDoublesresult|}}}|Doubles}}
 | class39      = navbox-title
 
-| label40      = Career record
+| label40      = Record king karera
 | data40       = {{{doublesrecord|}}}
-| label41      = Career titles
+| label41      = Titulu king karera
 | data41       = {{{doublestitles|}}}
-| label42      = Highest ranking
+| label42      = Pekamatas a ranggu
 | data42       = {{{highestdoublesranking|}}}
-| label43      = Current ranking
+| label43      = Kasalukuyan a ranggu
 | data43       = {{{currentdoublesranking|}}}
 
 | header44     = {{#if:{{{AustralianOpenDoublesresult|}}}{{{AustralianOpenDoublesjuniorresult|}}}{{{AustralianOpenDoublesseniorresult|}}}{{{FrenchOpenDoublesresult|}}}{{{FrenchOpenDoublesjuniorresult|}}}{{{FrenchOpenDoublesseniorresult|}}}{{{WimbledonDoublesresult|}}}{{{WimbledonDoublesjuniorresult|}}}{{{WimbledonDoublesseniorresult|}}}{{{USOpenDoublesresult|}}}{{{USOpenDoublesjuniorresult|}}}{{{USOpenDoublesseniorresult|}}}|Grand Slam Doubles results}}
@@ -142,10 +142,10 @@
 | header63     = {{#if:{{{Mixed|}}}|Mixed Doubles}}
 | class63      = navbox-title
 
-| label64      = Career record
+| label64      = Record king karera
 | data64       = {{{mixedrecord|}}}
 | class64      = note
-| label65      = Career titles
+| label65      = Titulu king karera
 | data65       = {{{mixedtitles|}}}
 | class65      = note
 
