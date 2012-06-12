@@ -1,5 +1,5 @@
 <includeonly>|-
-! colspan="3" style="border-top: 5px solid #78FF78;" |{{#if:{{{1}}}||Sporting positions}}{{#switch:{{{1}}}
+! colspan="3" style="border-top: 5px solid #78FF78;" |{{#if:{{{1}}}||Kabilyan king pasiknangan}}{{#switch:{{{1}}}
  |#default={{#if:{{{1}}}|Sporting positions}}
  |gaa=[[Gaelic games]]
  |oly=[[Olympic Games]]
