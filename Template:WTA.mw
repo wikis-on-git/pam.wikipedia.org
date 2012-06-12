@@ -1,4 +1,4 @@
-[http://www.wtatennis.com/page/Player/Info/0,,12781~{{{1|{{{id}}}}}},00.html {{{2|{{{name|{{PAGENAME}}}}}}}}] at the [[Women's Tennis Association]]<noinclude>
+[http://www.wtatennis.com/page/Player/Info/0,,12781~{{{1|{{{id}}}}}},00.html {{{2|{{{name|{{PAGENAME}}}}}}}}] king [[Women's Tennis Association]]<noinclude>
 {{pp-template}}
 ==Usage==
 <nowiki>{{WTA|id=000000|name=yyy}}</nowiki> where 000000 is the code in the url of the site.
