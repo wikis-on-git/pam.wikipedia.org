@@ -1,0 +1,183 @@
+{{Infobox
+| bodyclass    = vcard
+| title        = {{{name|<includeonly>{{PAGENAME}}</includeonly>}}}
+| titleclass   = fn
+| image        = {{#if:{{{image|}}}|[[File:{{{image}}}|{{px|{{{image_size|}}}|frameless}}|alt={{{alt|}}}]]}}
+| caption      = {{{caption|}}}
+
+| label1       = Full name
+| data1        = {{{fullname|}}}
+| label2       = Country
+| data2        = {{{country_represented|{{{country represented|{{{country|}}}}}}}}}
+| label3       = Residence
+| data3        = {{{residence|}}}
+| class3       = label
+| label4       = Born
+| data4        = {{br separated entries|{{{birth_date|}}}|{{{birth_place|}}}}} 
+| label5       = Died
+| data5        = {{br separated entries|{{{death_date|}}}|{{{death_place|}}}}} 
+| label6       = Height
+| data6        = {{{height|}}}
+| label7       = Weight 
+| data7        = {{{weight|}}} 
+| label8       = College
+| data8        = {{{college|}}}
+| label9       = Turned pro
+| data9        = {{{turnedpro|}}}
+| label10      = Retired
+| data10       = {{{retired|}}}
+| label11      = Plays
+| data11       = {{{plays|}}}
+| label12      = Career prize money
+| data12       = {{{careerprizemoney|}}}
+| label13      = [[International Tennis Hall of Fame|Int. Tennis HOF]]
+| data13       = {{#if:{{{tennishofyear|}}}|{{{tennishofyear}}} {{#if:{{{tennishofid|}}}|''([http://www.tennisfame.com/hall-of-famers/{{{tennishofid}}} member page])''}}}}
+| label14      = Official web site
+| data14       = {{{website|}}}
+
+| header15     = {{#if:{{{singlesrecord|}}}{{{singlestitles|}}}{{{highestsinglesranking|}}}{{{AustralianOpenresult|}}}{{{AustralianOpenjuniorresult|}}}{{{AustralianOpenseniorresult|}}}{{{FrenchOpenresult|}}}{{{FrenchOpenjuniorresult|}}}{{{FrenchOpenseniorresult|}}}{{{Wimbledonresult|}}}{{{Wimbledonjuniorresult|}}}{{{Wimbledonseniorresult|}}}{{{USOpenresult|}}}{{{USOpenjuniorresult|}}}{{{USOpenseniorresult|}}}{{{Othertournaments|}}}{{{MastersCupresult|}}}{{{WTAChampionshipsresult|}}}{{{Olympicsresult|}}}{{{WheelchairTennisMastersresult|}}}{{{Paralympicsresult|}}}|Singles}}
+| class15      = navbox-title
+
+| label16      = Career record
+| data16       = {{{singlesrecord|}}}
+| label17      = Career titles
+| data17       = {{{singlestitles|}}}
+| label18      = Highest ranking
+| data18       = {{{highestsinglesranking|}}}
+| label19      = Current ranking
+| data19       = {{{currentsinglesranking|}}}
+
+| header20     = {{#if:{{{AustralianOpenresult|}}}{{{AustralianOpenjuniorresult|}}}{{{AustralianOpenseniorresult|}}}{{{FrenchOpenresult|}}}{{{FrenchOpenjuniorresult|}}}{{{FrenchOpenseniorresult|}}}{{{Wimbledonresult|}}}{{{Wimbledonjuniorresult|}}}{{{Wimbledonseniorresult|}}}{{{USOpenresult|}}}{{{USOpenjuniorresult|}}}{{{USOpenseniorresult|}}}|Grand Slam Singles results}}
+| class20      = navbox-title
+
+| label21      = [[Australian Open]]
+| data21       = {{{AustralianOpenresult|}}}
+| label22      = [[Australian Open]] Junior
+| data22       = {{{AustralianOpenjuniorresult|}}}
+| label23      = [[Australian Open]] Senior
+| data23       = {{{AustralianOpenseniorresult|}}}
+| label24      = [[French Open]]
+| data24       = {{{FrenchOpenresult|}}}
+| label25      = [[French Open]] Junior
+| data25       = {{{FrenchOpenjuniorresult|}}}
+| label26      = [[French Open]] Senior
+| data26       = {{{FrenchOpenseniorresult|}}}
+| label27      = [[Wimbledon Championships|Wimbledon]]
+| data27       = {{{Wimbledonresult|}}}
+| label28      = [[Wimbledon Championships|Wimbledon]] Junior
+| data28       = {{{Wimbledonjuniorresult|}}}
+| label29      = [[Wimbledon Championships|Wimbledon]] Senior
+| data29       = {{{Wimbledonseniorresult|}}}
+| label30      = [[US Open (tennis)|US Open]]
+| data30       = {{{USOpenresult|}}}
+| label31      = [[US Open (tennis)|US Open]] Junior
+| data31       = {{{USOpenjuniorresult|}}}
+| label32      = [[US Open (tennis)|US Open]] Senior
+| data32       = {{{USOpenseniorresult|}}}
+| data33       = {{#if:{{{Othertournaments|}}}|Other tournaments}}
+| class33      = note
+| label34      = [[ATP World Tour Finals|Tour Finals]]
+| data34       = {{{MastersCupresult|}}}
+| label35      = [[WTA Tour Championships|Championships]]
+| data35       = {{{WTAChampionshipsresult|}}}
+| label36      = [[Tennis at the Summer Olympics|Olympic Games]]
+| data36       = {{{Olympicsresult|}}}
+| label37      = [[Wheelchair Tennis Masters|Masters]]
+| data37       = {{{WheelchairTennisMastersresult|}}}
+| label38      = [[Wheelchair tennis at the Summer Paralympics|Paralympic Games]]
+| data38       = {{{Paralympicsresult|}}}
+
+| header39     = {{#if:{{{doublesrecord|}}}{{{doublestitles|}}}{{{highestdoublesranking|}}}{{{grandslamsdoublesresults|}}}{{{AustralianOpenDoublesresult|}}}{{{AustralianOpenDoublesjuniorresult|}}}{{{AustralianOpenDoublesseniorresult|}}}{{{FrenchOpenDoublesresult|}}}{{{FrenchOpenDoublesjuniorresult|}}}{{{FrenchOpenDoublesseniorresult|}}}{{{WimbledonDoublesresult|}}}{{{WimbledonDoublesjuniorresult|}}}{{{WimbledonDoublesseniorresult|}}}{{{USOpenDoublesresult|}}}{{{USOpenDoublesjuniorresult|}}}{{{USOpenDoublesseniorresult|}}}{{{OthertournamentsDoubles|}}}{{{MastersCupDoublesresult|}}}{{{WTAChampionshipsDoublesresult|}}}{{{OlympicsDoublesresult|}}}{{{WheelchairTennisMastersDoublesresult|}}}{{{ParalympicsDoublesresult|}}}|Doubles}}
+| class39      = navbox-title
+
+| label40      = Career record
+| data40       = {{{doublesrecord|}}}
+| label41      = Career titles
+| data41       = {{{doublestitles|}}}
+| label42      = Highest ranking
+| data42       = {{{highestdoublesranking|}}}
+| label43      = Current ranking
+| data43       = {{{currentdoublesranking|}}}
+
+| header44     = {{#if:{{{AustralianOpenDoublesresult|}}}{{{AustralianOpenDoublesjuniorresult|}}}{{{AustralianOpenDoublesseniorresult|}}}{{{FrenchOpenDoublesresult|}}}{{{FrenchOpenDoublesjuniorresult|}}}{{{FrenchOpenDoublesseniorresult|}}}{{{WimbledonDoublesresult|}}}{{{WimbledonDoublesjuniorresult|}}}{{{WimbledonDoublesseniorresult|}}}{{{USOpenDoublesresult|}}}{{{USOpenDoublesjuniorresult|}}}{{{USOpenDoublesseniorresult|}}}|Grand Slam Doubles results}}
+| class44      = navbox-title
+
+| label45      = [[Australian Open]]
+| data45       = {{{AustralianOpenDoublesresult|}}}
+| label46      = [[Australian Open]] Junior
+| data46       = {{{AustralianOpenDoublesjuniorresult|}}}
+| label47      = [[Australian Open]] Senior
+| data47       = {{{AustralianOpenDoublesseniorresult|}}}
+| label48      = [[French Open]]
+| data48       = {{{FrenchOpenDoublesresult|}}}
+| label49      = [[French Open]] Junior
+| data49       = {{{FrenchOpenDoublesjuniorresult|}}}
+| label50      = [[French Open]] Senior
+| data50       = {{{FrenchOpenDoublesseniorresult|}}}
+| label51      = [[Wimbledon Championships|Wimbledon]]
+| data51       = {{{WimbledonDoublesresult|}}}
+| label52      = [[Wimbledon Championships|Wimbledon]] Junior
+| data52       = {{{WimbledonDoublesjuniorresult|}}}
+| label53      = [[Wimbledon Championships|Wimbledon]] Senior
+| data53       = {{{WimbledonDoublesseniorresult|}}}
+| label54      = [[US Open (tennis)|US Open]]
+| data54       = {{{USOpenDoublesresult|}}}
+| label55      = [[US Open (tennis)|US Open]] Junior
+| data55       = {{{USOpenDoublesjuniorresult|}}}
+| label56      = [[US Open (tennis)|US Open]] Senior
+| data56       = {{{USOpenDoublesseniorresult|}}}
+| data57       = {{#if:{{{OthertournamentsDoubles|}}}|Other Doubles tournaments}}
+| class57      = note
+| label58      = [[ATP World Tour Finals|Tour Finals]]
+| data58       = {{{MastersCupDoublesresult|}}}
+| label59      = [[WTA Tour Championships|WTA Championships]]
+| data59       = {{{WTAChampionshipsDoublesresult|}}}
+| label60      = [[Tennis at the Summer Olympics|Olympic Games]]
+| data60       = {{{OlympicsDoublesresult|}}}
+| label61      = [[Wheelchair Tennis Masters|Masters Doubles]]
+| data61       = {{{WheelchairTennisMastersDoublesresult|}}}
+| label62      = [[Wheelchair tennis at the Summer Paralympics|Paralympic Games]]
+| data62       = {{{ParalympicsDoublesresult|}}}
+
+| header63     = {{#if:{{{Mixed|}}}|Mixed Doubles}}
+| class63      = navbox-title
+
+| label64      = Career record
+| data64       = {{{mixedrecord|}}}
+| class64      = note
+| label65      = Career titles
+| data65       = {{{mixedtitles|}}}
+| class65      = note
+
+| header66     = {{#if:{{{AustralianOpenMixedresult|}}}{{{FrenchOpenMixedresult|}}}{{{WimbledonMixedresult|}}}{{{USOpenMixedresult|}}}|Grand Slam Mixed Doubles results}}
+| class66      = navbox-title
+
+| label67      = [[Australian Open]]
+| data67       = {{{AustralianOpenMixedresult|}}}
+| label68      = [[French Open]]
+| data68       = {{{FrenchOpenMixedresult|}}}
+| label69      = [[Wimbledon Championships|Wimbledon]]
+| data69       = {{{WimbledonMixedresult|}}}
+| label70      = [[US Open (tennis)|US Open]]
+| data70       = {{{USOpenMixedresult|}}} 
+| data71       = {{#if:{{{OthertournamentsMixedDoubles|}}}|Other Mixed Doubles tournaments}}
+| class71      = note
+| label72      = [[Tennis at the Summer Olympics|Olympic Games]]
+| data72       = {{{OlympicMixedDoublesresult|}}}
+
+| header73     = {{#if:{{{WheelchairWorldTeamCupresult|}}}|Team Competitions}}
+| class73      = navbox-title
+
+| label74      = [[Wheelchair tennis World Team Cup|World Team Cup]]
+| data74       = {{{WheelchairWorldTeamCupresult|}}}
+
+| header75     = {{Infobox medal templates
+  |medals = {{{medaltemplates|}}}
+  |expand = {{{medaltemplates-expand|}}}
+  }}
+| class75      = navbox-title
+
+| belowstyle   = font-size: 80%; font-weight: lighter; color: #555
+| below        = {{#if:{{{updated|}}}|Last updated on: {{{updated}}}.}}
+
+}}<includeonly>{{#if: {{{nickname|}}}|[[Category:Depreciated infobox param (nickname)]]}}</includeonly><noinclude>{{documentation}}<!-- add category and language links to the /doc page, not here --></noinclude>
