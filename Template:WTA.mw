@@ -1,0 +1,38 @@
+[http://www.wtatennis.com/page/Player/Info/0,,12781~{{{1|{{{id}}}}}},00.html {{{2|{{{name|{{PAGENAME}}}}}}}}] at the [[Women's Tennis Association]]<noinclude>
+{{pp-template}}
+==Usage==
+<nowiki>{{WTA|id=000000|name=yyy}}</nowiki> where 000000 is the code in the url of the site.
+
+===How to spot the parameter "id"===
+Consider the example for [[Mary Pierce]]. The URL for her profile is
+
+<code><nowiki>http://www.wtatennis.com/page/Player/Info/0,,12781~</nowiki>'''6297'''<nowiki>,00.html</nowiki></code>
+
+In this URL, '''''6297''''' serves as the id. So the syntax for the template would be
+
+<nowiki>{{WTA|id=6297|name=Mary Pierce}}</nowiki>
+
+[[Category:Tennis external link templates]]
+[[Category:People and person external link templates]]
+
+[[als:Vorlage:WTA]]
+[[cs:Šablona:WTA]]
+[[de:Vorlage:WTA]]
+[[es:Plantilla:WTA]]
+[[fa:الگو:Wta]]
+[[fr:Modèle:Profil WTA]]
+[[ko:틀:WTA]]
+[[he:תבנית:פרופיל WTA]]
+[[jv:Cithakan:Wta]]
+[[hu:Sablon:WTA-profil]]
+[[nl:Sjabloon:Link WTA]]
+[[ja:Template:WTA]]
+[[pl:Szablon:WTA profil]]
+[[pt:Predefinição:WTA]]
+[[ru:Шаблон:Профиль WTA]]
+[[simple:Template:Wta]]
+[[sk:Šablóna:WTA Profil]]
+[[fi:Malline:WTA]]
+[[sv:Mall:WTA]]
+[[ta:வார்ப்புரு:Wta]]
+</noinclude>
