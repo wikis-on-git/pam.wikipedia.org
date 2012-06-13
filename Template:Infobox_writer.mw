@@ -68,13 +68,13 @@
 }}
 
 {{#if:{{{education<includeonly>|</includeonly>}}}|
-! Educasiun
+! Edukasiun
 {{!}} {{{education<includeonly>|</includeonly>}}}
 {{!}}-
 }}
 
 {{#if:{{{alma_mater<includeonly>|</includeonly>}}}|
-! Alma&nbsp;mater
+! Pipagaralan
 {{!}} {{{alma_mater<includeonly>|</includeonly>}}}
 {{!}}-
 }}
