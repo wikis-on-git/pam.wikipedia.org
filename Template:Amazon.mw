@@ -1,0 +1,134 @@
+{{navbox
+| name = Amazon
+| title = [[Amazon.com]]
+| listclass = hlist
+| state = {{{state<includeonly>|autocollapse</includeonly>}}}
+
+| group1 = [[:Category:Amazon.com people|People]]
+| list1  =
+* [[Jeff Bezos]]
+* [[Tony Hsieh]]
+* [[Tom Szkutak]]
+* [[Brian Valentine]]
+* [[Werner Vogels]]
+* Gregg Zehr
+* <small>Former: [[Rick Dalzell]]</small>
+* <small>[[Brian Krueger]]</small>
+* <small>[[Brian McBride (director)|Brian McBride]]</small>
+* <small>[[Ram Shriram]]</small>
+
+| group2 = Products and services
+|list2 = 
+{{Navbox subgroup
+|group2 = Websites
+| list2  =
+* [[A9.com]]
+* [[AbeBooks]]
+* [[Alexa Internet]]
+* [[Alexa Toolbar]]
+* [[Amapedia]]
+* [[Askville]]
+* [[CDNow|CDNOW]]
+* [[Amazon China|China]]
+* [[The Book Depository]]
+* [[Diapers.com]]
+* [[Digital Photography Review]]
+* [[Endless.com]]
+* [[AmazonFresh|Fresh]]
+* [[Internet Movie Database]]
+** [[Box Office Mojo]]
+** [[Withoutabox]]
+* [[Junglee.com]]
+* [[Amazon Marketplace|Marketplace]]
+* [[Amazon Payments|Payments]]
+* [[PlanetAll]]
+* [[Shelfari]]
+* [[AmazonWireless|Wireless]]
+* [[Woot|Woot.com]]
+* [[Zappos.com]]
+
+| group3 = [[Amazon Web Services|Web services]]
+| list3  =
+* [[Amazon Machine Image|AMI]]
+* [[Amazon CloudFront|CloudFront]]
+* [[Amazon DynamoDB|DynamoDB]]
+* [[Amazon Elastic Block Store|EBS]]
+* [[Amazon Elastic Compute Cloud|EC2]]
+* [[Amazon Flexible Payments Service|FPS]]
+* [[Amazon Mechanical Turk|MTurk]]
+* [[Amazon Product Advertising API|Product Advertising API]]
+* [[Amazon Relational Database Service|RDS]]
+* [[Amazon S3|S3]]
+* [[Amazon Simple Email Service|SES]]
+* [[Amazon SimpleDB|SimpleDB]]
+* [[Amazon Simple Queue Service|SQS]]
+* [[Amazon Virtual Private Cloud|VPC]]
+* [[Amazon Silk]]
+
+| group4 = Digital
+| list4  =
+* [[Amazon Appstore|Appstore]]
+* [[Audible.com]]
+* [[Amazon Cloud Drive|Cloud Drive]]
+* [[Amazon Instant Video|Instant Video]]
+* [[Amazon Kindle|Kindle]] ([[Kindle Fire|Fire]])
+* [[Lexcycle]]
+* [[LoveFilm]]
+* [[Mobipocket]]
+* [[Amazon MP3|MP3]]
+* [[Reflexive Entertainment]]
+
+| group5 = Technology
+| list5  =
+* [[1-Click]]
+* [[aStore]]
+* [[Carbonado_(Java)|Carbonado]]
+* [[Dynamo (storage system)|Dynamo]]
+* [[Gurupa]]
+* [[Lab126]]
+* [[Obidos (software)|Obidos]]
+
+| group6 = Publishing
+| list6  =
+* [[Amazon Publishing]]
+* [[Amazon Breakthrough Novel Award|Breakthrough Novel Award]]
+* [[Amazon's Best Books of the Year|Best Books of the Year]]
+
+| group7 = Investments
+| list7  =
+* [[43 Things]]
+* [[Amie Street]] ([[Songza]])
+* [[LibraryThing]]
+* [[Living Social]]
+* [[Sellaband]]
+
+| group8 = Other
+| list8  =
+* [[Amazon Light]]
+* [[Amazon Standard Identification Number|ASIN]]
+* [[Amazon.com controversies|Controversies]] ([[Amazon tax|tax]])
+* [[Amazon Fishbowl|Fishbowl]]
+* ''[[Perfect 10, Inc. v. Amazon.com, Inc.]]''
+* [[Statistically Improbable Phrases]]
+* [[Amazon Vine|Vine]]
+}}
+
+| belowclass = hlist
+| below = {{CTT
+ |icon         = profit
+ |revenue      = {{USD|48}} billion
+ |revenue_year = 2011
+ |staff        = 56,200
+ |staff_year   = 2012
+ |stock_symbol = {{NASDAQ|AMZN}}
+ |website      = [http://www.amazon.com/ Amazon.com] 
+ }}
+
+}}<noinclude>
+[[Category:Amazon.com|τ]]
+[[Category:Computer company templates]]
+[[Category:Websites templates]]
+[[ja:Template:Amazon]]
+[[ru:Шаблон:Amazon]]
+[[zh:Template:Amazon]]
+</noinclude>
