@@ -1,6 +1,6 @@
 [http://www.imdb.com/{{#if:{{{1|{{{id|}}}}}}|name/nm{{{1|{{{id|}}}}}}|Name?{{urlencode:{{PAGENAME}}}}}}/{{#switch:{{lc:{{{section|}}} }}
 |award|awards=awards Awards for
 |biography|bio=bio Biography for
-}} {{{2|{{{name|{{PAGENAME}}}}}}}}] at the [[Internet Movie Database]]<noinclude>
+}} {{{2|{{{name|{{PAGENAME}}}}}}}}] king [[Internet Movie Database]]<noinclude>
 {{documentation}}
 </noinclude>
