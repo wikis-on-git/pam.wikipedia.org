@@ -6,7 +6,7 @@
 -->{{#if:{{{years_active|}}}|<tr><th>Banuang aktibu</th><td>{{{years_active|}}}</td></tr>}}<!--
 -->{{#if:{{{actual status|}}}|<tr><th>Actual Status</th><td>{{{actual_status|}}}</td></tr>}}<!--
 -->{{#if:{{{music_genre|}}}|<tr><th>[[Music genre|Genres]]</th><td>{{{music_genre|}}}</td></tr>}}<!--
--->{{#if:{{{record_label|}}}|<tr><th>[[Record label|Labels]]</th><td>{{{record_label}}}</td></tr>}}<!--
+-->{{#if:{{{record_label|}}}|<tr><th>[[Record label|Marka]]</th><td>{{{record_label}}}</td></tr>}}<!--
 -->{{#if:{{{us_distribution|}}}|<tr><th>US&nbsp;distribution</th><td>{{{us_distribution|}}}</td></tr>}}<!--
 -->{{#if:{{{current_members|}}}|<tr><th>Members</th><td>
 {{{current_members|}}}</td></tr>}}<!--
