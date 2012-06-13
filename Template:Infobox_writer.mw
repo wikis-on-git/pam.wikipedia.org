@@ -38,7 +38,7 @@
 }}
 
 {{#if:{{{penname<includeonly>|</includeonly>}}}{{{pseudonym<includeonly>|</includeonly>}}}|
-! [[Talipanpan lagiu]]
+! [[Talipampan]]
 {{!}} {{{penname<includeonly>|</includeonly>{{{pseudonym|}}}}}}
 {{!}}-
 }}
