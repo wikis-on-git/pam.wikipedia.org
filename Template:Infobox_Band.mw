@@ -1,9 +1,9 @@
 <table class="infobox" style="width: 20em; font-size:90%; text-align: left; align: right;" cellspacing="4">
 <tr><th colspan="2" style="text-align: center;"><big>{{{band_name}}}</big></th></tr>
 {{#if:{{{image|}}}|<tr><td colspan="2" style="text-align: center; background-color: #f9f9f9;">{{{image|}}}<br /><small>{{{caption|}}}</small></td></tr>}}<!--
--->{{#if:{{{origin|}}}|<tr><th>Origin</th><td>{{{origin|}}}</td></tr>}}<!--
+-->{{#if:{{{origin|}}}|<tr><th>Penibatan</th><td>{{{origin|}}}</td></tr>}}<!--
 -->{{#if:{{{country|}}}|<tr><th>Country</th><td>{{{country|}}}</td></tr>}}<!--
--->{{#if:{{{years_active|}}}|<tr><th>Years&nbsp;active</th><td>{{{years_active|}}}</td></tr>}}<!--
+-->{{#if:{{{years_active|}}}|<tr><th>Banuang aktibu</th><td>{{{years_active|}}}</td></tr>}}<!--
 -->{{#if:{{{actual status|}}}|<tr><th>Actual Status</th><td>{{{actual_status|}}}</td></tr>}}<!--
 -->{{#if:{{{music_genre|}}}|<tr><th>[[Music genre|Genres]]</th><td>{{{music_genre|}}}</td></tr>}}<!--
 -->{{#if:{{{record_label|}}}|<tr><th>[[Record label|Labels]]</th><td>{{{record_label}}}</td></tr>}}<!--
