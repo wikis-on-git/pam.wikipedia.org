@@ -1,0 +1,19 @@
+<noinclude>{| class="infobox" style="width: 25em; font-size: 95%;"
+</noinclude>
+|- bgcolor="#eeeeee" class="adr" align=center
+! colspan="3" | '''Competitor for <span class="country-name">{{{1}}}</span>'''<noinclude>
+|}</noinclude><noinclude>
+{{-}}
+{{tmbox|text=This template should be used for athletes who have competed for different countries. There are many examples from the break up of the USSR as well as athletes from the UK competing at the commonwealth games. Other athletes have switched nationality, for example [[Wilson Kipketer]] was Kenyan but competed for Denmark too.}}
+
+{{documentation|Template:MedalRelatedTemplates}}
+
+[[Category:Medal infobox templates]]
+
+[[ar:قالب:MedalCountry]]
+[[es:Plantilla:MedallaPaís]]
+[[fr:Modèle:Médaille pays]]
+[[ko:틀:메달 나라]]
+[[ja:Template:MedalCountry]]
+[[ru:Шаблон:Выступление]]
+</noinclude>
