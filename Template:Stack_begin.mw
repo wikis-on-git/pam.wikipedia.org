@@ -1,0 +1,3 @@
+<includeonly><table cellpadding=0 cellspacing={{{cellspacing|1}}} style="{{{style|float:{{{float|right}}}; {{#switch:{{{clear|}}} | true = clear:{{{float|right}}}; | left|right|both = clear:{{{clear|}}}; | #default= }} background: transparent; margin: 0; padding: 0;}}}"><tr><td></includeonly><noinclude>
+{{documentation}}
+</noinclude>
