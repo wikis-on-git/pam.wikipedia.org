@@ -1,0 +1,433 @@
+{{documentation subpage}}
+{{Person infobox header}}
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+
+{{tl|Infobox person}} may be used to summarize information about a particular person, usually at the top of an article. 
+
+== Usage ==
+The infobox may be added by pasting the template as shown below into an article and then filling in the desired fields. Any parameters left blank or omitted will not be displayed.
+
+=== Blank template with basic parameters ===
+<pre style="overflow: auto">
+{{Infobox person
+| name        = 
+| image       = <!-- just the filename, without the File: or Image: prefix or enclosing [[brackets]] -->
+| alt         = 
+| caption     = 
+| birth_name  = 
+| birth_date  = <!-- {{Birth date and age|YYYY|MM|DD}} or {{Birth-date and age|Month DD, YYYY}} -->
+| birth_place = 
+| death_date  = <!-- {{Death date and age|YYYY|MM|DD|YYYY|MM|DD}} or {{Death-date and age|Month DD, YYYY|Month DD, YYYY}} (death date then birth date) -->
+| death_place = 
+| nationality = 
+| other_names = 
+| known_for   = 
+| occupation  = 
+}}
+</pre>
+
+=== Blank template with all parameters ===
+<pre style="overflow: auto">
+{{Infobox person
+| honorific_prefix          = 
+| name                      = 
+| honorific_suffix          = 
+| native_name               = 
+| native_name_lang          = 
+| image                     = <!-- just the name, without the File: or Image: prefix or enclosing [[brackets]] -->
+| image_size                = 
+| alt                       = 
+| caption                   = 
+| birth_name                = 
+| birth_date                = <!-- {{Birth date and age|YYYY|MM|DD}} -->
+| birth_place               = 
+| disappeared_date          = <!-- {{Disappeared date and age|YYYY|MM|DD|YYYY|MM|DD}} (disappeared date then birth date) -->
+| disappeared_place         = 
+| disappeared_status        = 
+| death_date                = <!-- {{Death date and age|YYYY|MM|DD|YYYY|MM|DD}} (death date then birth date) -->
+| death_place               = 
+| death_cause               = 
+| body_discovered           = 
+| resting_place             = 
+| resting_place_coordinates = <!-- {{Coord|LAT|LONG|type:landmark|display=inline}} -->
+| monuments                 = 
+| residence                 = 
+| nationality               = 
+| other_names               = 
+| ethnicity                 = <!-- Ethnicity should be supported with a citation from a reliable source -->
+| citizenship               = 
+| education                 = 
+| alma_mater                = 
+| occupation                = 
+| years_active              = 
+| employer                  = 
+| organization              = 
+| agent                     = 
+| known_for                 = 
+| notable_works             = 
+| style                     = 
+| influences                = 
+| influenced                = 
+| home_town                 = 
+| salary                    = 
+| net_worth                 = <!-- Net worth should be supported with a citation from a reliable source -->
+| height                    = <!-- {{height|m=}} -->
+| weight                    = <!-- {{convert|weight in kg|kg|lb}} -->
+| television                = 
+| title                     = 
+| term                      = 
+| predecessor               = 
+| successor                 = 
+| party                     = 
+| movement                  = 
+| opponents                 = 
+| boards                    = 
+| religion                  = <!-- Religion should be supported with a citation from a reliable source -->
+| denomination              = <!-- Denomination should be supported with a citation from a reliable source -->
+| criminal_charge           = <!-- Criminality parameters should be supported with citations from reliable sources -->
+| criminal_penalty          = 
+| criminal_status           = 
+| spouse                    = 
+| partner                   = 
+| children                  = 
+| parents                   = 
+| relatives                 = 
+| callsign                  = 
+| awards                    = 
+| signature                 = 
+| signature_alt             = 
+| signature_size            = 
+| module                    = 
+| module2                   = 
+| module3                   = 
+| module4                   = 
+| module5                   = 
+| module6                   = 
+| website                   = <!-- {{URL|Example.com}} -->
+| footnotes                 = 
+| box_width                 = 
+}}
+</pre>
+
+== Parameters ==
+Do not use all these parameters for any one person. The list is long to cover a wide range of people. Only use those parameters that convey essential or notable information about the subject. Any parameters left blank or omitted will not be displayed. If a data field has more than one parameter name which can be used, the preferred name is listed first in '''bold''' print.
+
+{| class="wikitable"
+! style="text-align: left" | Parameter
+! style="text-align: left" | Explanation
+|-
+| '''honorific_prefix'''
+| To appear on the line above the person's name
+|-
+| '''name'''
+| Common name of person (defaults to article name if left blank; provide '''birth_name''' (below) if different from '''name''').
+|-
+| '''honorific_suffix'''
+| To appear on the line below the person's name
+|-
+| '''native_name'''
+| The person's name in their own language, if different.
+|-
+| '''native_name_lang'''
+| [[ISO 639-2]] code e.g. "fre" or "fra" for French. If more than one, use {{tl|lang}} in {{para|native_name}} instead.
+|-
+| '''image'''
+| Image name: abc.jpg, xpz.png, 123.gif, etc. If an image is desired but not available, one may add "yes" to the "needs-photo" section of the [[:Template:WPBiography]] on the talkpage. If no image is available yet, [[Wikipedia:Centralized discussion/Image placeholders|do not use an image placeholder]].
+|-
+| '''image_size'''<br /> (''imagesize'')
+| Size to display image: ''200px'' (set width), ''x300px'' (set height), or ''200x300px'' (max width & max height). This defaults to ''frameless'' (default is 220px, but logged in users can change this by clicking on "my preferences" and adjusting thumbnail size) if empty or omitted. This parameter should not normally need to be set.
+|-
+| '''alt'''
+| Alt text for image, for visually impaired readers. See [[WP:ALT]].
+|-
+| '''caption'''
+| Caption for image, if needed. Try to include date of photo and the photographer.
+|-
+| '''birth_name'''
+| Name at birth; only use if different from '''name'''.
+|-
+| '''birth_date'''
+| Date of birth: {{tl|birth date and age}} (if living) or {{tl|birth date}} (if dead).  See [[Template:Birth date and age/doc]] for details on usage. If only a year of birth is known, or age as of a certain date, consider using {{tl|birth year and age}} or {{tl|birth based on age as of date}}.
+|-
+| '''birth_place'''
+| Place of birth: city, administrative region, sovereign state. Use the name of the birthplace at the time of birth, e.g.: Saigon (prior to 1976), Ho Chi Minh City (post 1976). [[Wikipedia:Manual of Style (icons)#Do not use flags to indicate locations of birth, residence, or death|Do not use a flag template]].
+|-
+| '''disappeared_date'''
+| (For missing people) Date of disappearance: {{tl|disappeared date and age}} (if birth date is known) or {{tl|disappeared date}} (if birth date unknown).
+|-
+| '''disappeared_place'''
+| (For missing people) Place of disappearance: city, administrative region, sovereign state. [[Wikipedia:Manual of Style (icons)#Do not use flags to indicate locations of birth, residence, or death|Do not use a flag template]].
+|-
+| '''disappeared_status'''
+| (For missing people) Current status for the person, e.g. if the person is still regarded as missing (using {{tl|missing for}} to calculate the time since disappearance), or if the person has been declared [[dead in absentia]], with a date for such a ruling.
+|-
+| '''death_date'''
+| Date of death: {{tl|death date and age}} (if birth date is known) or {{tl|death date}} (if birth date unknown). See [[Template:Death date/doc]] for details on usage. If exact dates are unknown, consider using {{tl|death year and age}}.
+|-
+| '''death_place'''
+| Place of death: city, administrative region, sovereign state. Note: [[Wikipedia:Manual of Style (icons)#Do not use flags to indicate locations of birth, residence, or death|Do not use a flag template]]. Use the name of the deathplace at the time of death, e.g.: Saigon (prior to 1976), Ho Chi Minh City (post 1976)
+|-
+| '''death_cause'''
+| Cause of death.
+|-
+| '''body_discovered'''
+| Place where the body was discovered (if different from place of death).  [[Wikipedia:Manual of Style (icons)#Do not use flags to indicate locations of birth, residence, or death|Do not use a flag template]].
+|-
+| '''resting_place'''
+| Place of burial, ash-scattering, etc. [[Wikipedia:Manual of Style (icons)#Do not use flags to indicate locations of birth, residence, or death|Do not use a flag template]].
+|-
+| '''resting_place_coordinates'''
+| Coordinates for place of burial, ash-scattering etc. Use {{tl|coord}} template.
+|-
+| '''monuments'''
+| Significant monuments erected, buildings named, etc., in honour of the subject. If many, link to an appropriate section of the article instead.
+|-
+| '''residence'''
+| Location(s) where the person notably resides/resided, if different from birth place. [[Wikipedia:Manual of Style (icons)#Avoid flag icons in infoboxes|Do not use a flag template]].
+|-
+| '''nationality'''
+| Nationality. May be used instead of citizenship (below) or vice versa in cases where any confusion could result. Should only be used {{em|with}} citizenship when they somehow differ. Should only be used if nationality cannot be inferred from the birthplace. [[Wikipedia:Manual of Style (icons)#Biographical use|Do not use a flag template]].
+|-
+| '''other_names'''
+| Other notable names for the person, if different from '''name''' and '''birth_name'''.
+|-
+| '''ethnicity'''
+| Ethnicity.  Please be sure to support with a citation from a reliable source.
+|-
+| '''citizenship'''
+| Country of legal citizenship, if different from nationality. Rarely needed. ''See usage notes for nationality above.'' Should only be used if citizenship cannot be inferred from the birthplace. [[Wikipedia:Manual of Style (icons)#Avoid flag icons in infoboxes|Do not use a flag template]].
+|-
+| '''education'''
+| Education, e.g. degree, institution and graduation year, if relevant. If very little information is available or relevant, the {{para|alma_mater}} parameter may be more appropriate.
+|-
+| '''alma_mater'''
+| ''[[Alma mater]]''. This parameter is a more concise alternative to {{para|education}}, and will most often simply consist of the linked name of the last-attended higher education institution.  It is usually not relevant to included either parameter for non-graduates, but article talk page consensus may conclude otherwise, as at [[Bill Gates]].
+|-
+| '''occupation'''
+| Occupation(s) as given in the lead.
+|-
+| '''years_active'''
+| Date range in years during which the subject was active in their principal occupation(s) and/or other activity for which they are notable. Use the format <code>1950–2000</code>, or <code>1970–present if still active (note the use of an [[WP:ENDASH|en dash]], not hyphen). If no dates of birth and/or death are known for the subject, only a ''[[floruit]]'' date range, as is common with ancient subjects, this parameter can be used for it. If approximate (''[[circa]]'') dates are known for either or both, put them in the <code>birth_date</code> and <code>death_date</code> parameters.
+|-
+| '''employer'''
+| Employer(s), if relevant.
+|-
+| '''organization'''
+| Non-employing organization(s), if relevant.
+|-
+| '''agent'''
+| The subject's agent (individual and/or agency), if relevant.
+|-
+| '''known_for'''</br> (''known'')
+| A brief description of why the person is notable.
+|-
+| '''notable_works'''
+| Title(s) of notable work(s) (publications, compositions, sculptures, films, etc.) by the subject, if any.
+|-
+| '''style'''
+| The style in which the subject works, if applicable.
+|-
+| '''influences'''
+| People who were influences of the subject. Clear and notable examples only. Can also be used to indicate groups, schools of thought, etc. (but beware [[WP:NOR|supposition]]).
+|-
+| '''influenced'''
+| People who were influenced by the subject. Clear and notable examples only. Can also be used to indicate groups, schools of thought, etc. (but beware [[WP:PEACOCK|grandiose claims]] and [[WP:NOR|supposition]]).
+|-
+| '''home_town'''
+| The place where the person was raised and matured, if different from birth place and residence.
+|-
+| '''salary'''
+| Annual salary or compensation, if relevant.
+|-
+| '''net_worth'''
+| Current estimated net worth, if relevant. Please be sure to support with a citation from a reliable source.
+|-
+| '''height'''
+| If person was notable for their height, or if height is relevant. If used, this should also include the year of the measurement if the person had not reached full adulthood when this stat was published. ''See documentation of this parameter at [[Template:Infobox sportsperson]] for more information.''
+|-
+| '''weight'''
+| If person was notable for their weight, or if weight is relevant. If used, this should also include the year of the measurement.  ''See documentation of this parameter at [[Template:Infobox sportsperson]] for more information.''
+|-
+| '''television'''
+| Television programmes presented by or ''closely'' associated with the subject.
+|-
+| '''title'''
+| Multiple uses:
+* Formal title, such as ''First Lady of Japan'' for [[Akie Abe]].
+* Awarded title, such as ''Mr. Olympia'' for [[Arnold Schwarzenegger]].
+* Job title, such as ''President of Calvin College'' for [[Anthony Diekema]].
+* A combination of the above, such as ''Professor of Mathematics'' and ''[[Fellow of the Royal Society]]'' for [[Bill Parry (mathematician)|Bill Parry]]
+''See also "awards" parameter, below, for awarded honors that are not really titles. A single award should not use both parameters.''
+|-
+| '''term'''
+| Years the person held the '''title''' listed above.
+|-
+| '''predecessor'''
+| Person who previously held the '''title''' listed above.
+|-
+| '''successor'''
+| Person who subsequently held the '''title''' listed above.
+|-
+| '''party'''
+| If relevant. Field labelled '''Political party'''.
+|-
+| '''movement'''
+| If relevant; non party-political.
+|-
+| '''opponents'''
+| Notable relevant opponents (e.g. for major political office).
+|-
+| '''boards'''
+| For [[board of directors]] membership(s), if relevant. Field labeled '''Board member&nbsp;of'''.
+|-
+| '''religion'''
+| If relevant. For living persons please refer to [[WP:BLPCAT]]. Please be sure to support with a citation from a reliable source.
+|-
+| '''denomination'''
+| Denomination of religion, if relevant.  Please be sure to support with a citation from a reliable source.
+|-
+| '''criminal_charge'''<br />'''criminal_penalty'''<br />'''criminal_status'''
+| For convicted criminals only.  Please be certain to support these parameters with citations from reliable sources.
+|-
+| '''spouse'''
+| Name of spouse, followed by years of marriage. Use the format ''Name (1950–present)'' for current spouse and ''Name (1970–1999)'' for former spouse(s); for convenience, consider using {{tl|marriage}}. Separate entries using {{Tl|Plainlist}} or {{Tl|Unbulleted list}}. For deceased persons still married at time of death, close the date range with death year.
+|-
+| '''partner'''
+| For unmarried [[life partner]]s (of any gender or sexual preference), not business partners. Use the format ''Name (1950–present)'' for current partner and ''Name (1970–1999)'' for former partner(s).
+|-
+| '''children'''
+| Number of children (i.e. 3), or list of names if notable, in which case, separate entries using {{Tl|Plainlist}} or {{Tl|Unbulleted list}}.
+|-
+| '''parents'''
+| Names of parents, if notable. Separate entries using {{Tl|Plainlist}} or {{Tl|Unbulleted list}}.
+|-
+| '''relatives'''<br /> (''relations'')
+| Names of siblings or other relatives, if notable. Include the relationship in parentheses after the name (sister, uncle, etc). Separate entries using {{Tl|Plainlist}} or {{Tl|Unbulleted list}}.
+|-
+| '''callsign'''	
+| Amateur radio [[call sign]], if relevant.
+|-
+| '''awards'''
+| Notable awards. If many, link to an appropriate section of the article instead. ''See also "title" parameter, above, for awarded titles. A single award should not use both parameters.''
+|-
+| '''signature'''
+| An image of the person's signature.
+|-
+| '''signature_alt'''
+| Alt text for the signature image. For example, for [[:File:Thomas Jefferson Signature.svg]], the alt text might be <code>|signature_alt="Th: Jefferson"</code>, spelling out the signature exactly as it appears in the image.
+|-
+| '''signature_size'''
+| Default is ''150px''. If necessary, a signature can be resized manually as per the "image_size" parameter.
+|-
+| '''module'''<br />'''module2'''<br />'''module3'''<br />'''module4'''<br />'''module5'''<br />'''module6'''
+| Used for embedding other infoboxes into this one.
+|-
+| '''website'''
+| Official website only. Unofficial websites should be placed under <nowiki>==External links==</nowiki> in the body of the article. Use {{tl|URL}} as in <nowiki>{{URL|Example.com}}</nowiki>. Do not include the <code>www.</code> part unless the server is misconfigured and requires it. Use [[camel case]] capitalization to make multiword domain names easier to read.
+|-
+| '''footnotes'''
+| Notes about any of the infobox data.
+|-
+| '''box_width'''
+| The infobox width, such as: box_width=220px (default: 22em). A space character between the number and the unit of measurement breaks the parameter. This parameter should not normally need to be set.
+|}
+
+== Examples ==
+{{Infobox person
+| name              = Bill Gates
+| image             = Bill Gates in WEF ,2007.jpg
+| caption           = Bill Gates at the [[World Economic Forum]] in [[Davos]], 2007
+| birth_date        = {{birth date and age|1955|10|28}}
+| birth_place       = [[Seattle, Washington]], USA
+| nationality       = American
+| occupation        = Chairman of [[Microsoft]] (non-executive)<br />Co-chair of [[Bill & Melinda Gates Foundation]]<br />Director of [[Berkshire Hathaway]]<br />CEO of [[Cascade Investment]]
+| networth          = {{increase}}[[United States dollar|US$]]53 [[1,000,000,000 (number)|billion]] (2010)<ref>[http://billionaires.forbes.com/topic/Bill_Gates Bill Gates topic page.] Forbes.com. Retrieved April 2010.</ref>
+| spouse            = {{marriage|Melinda Gates|1994}}
+| children          = 3
+| residence         = [[Medina, Washington]]
+| alma_mater        = Harvard University (dropped out in 1975)
+| website           = {{URL|microsoft.com/presspass/exec/billg}}
+| signature         = BillGates Signature.svg
+| parents           = [[William H. Gates, Sr.]]<br />[[Mary Maxwell Gates]]
+}}
+
+<pre style="overflow: auto">
+{{Infobox person
+| name              = Bill Gates
+| image             = Bill Gates in WEF ,2007.jpg
+| caption           = Bill Gates at the [[World Economic Forum]] in [[Davos]], 2007
+| birth_date        = {{birth date and age|1955|10|28}}
+| birth_place       = [[Seattle, Washington]], USA
+| nationality       = American
+| occupation        = Chairman of [[Microsoft]] (non-executive)<br />Co-chair of [[Bill & Melinda Gates Foundation]]<br />Director of [[Berkshire Hathaway]]<br />CEO of [[Cascade Investment]]
+| networth          = {{increase}}[[United States dollar|US$]]53 [[1,000,000,000 (number)|billion]] (2010)<ref>[http://billionaires.forbes.com/topic/Bill_Gates Bill Gates topic page.] Forbes.com. Retrieved April 2010.</ref>
+| spouse            = {{marriage|Melinda Gates|1994}}
+| children          = 3
+| residence         = [[Medina, WA]]
+| alma_mater        = Harvard University (dropped out in 1975)
+| website           = {{URL|microsoft.com/presspass/exec/billg}}
+| signature         = BillGates Signature.svg
+| parents           = [[William H. Gates, Sr.]]<br />[[Mary Maxwell Gates]]
+}}
+</pre>
+
+== Microformat ==
+{{UF-hcard-person}}
+
+== See also ==
+Alternative templates are listed at [[Wikipedia:WikiProject Biography/Infoboxes|WikiProject Biography/Infoboxes]] and within the [[:Category:People infobox templates|people infobox templates category]].
+
+<div style="display: none">{{reflist}}</div>
+
+<includeonly>
+{{Basepage subpage|
+[[Category:People infobox templates| ]]
+}}
+[[ar:قالب:معلومات شخصية]]
+[[be:Шаблон:Картка асобы]]
+[[be-x-old:Шаблён:Асоба]]
+[[bg:Шаблон:Биография инфо]]
+[[bn:টেমপ্লেট:Infobox person]]
+[[bs:Šablon:Infokutija biografija]]
+[[ca:Plantilla:Infocaixa persona]]
+[[cs:Šablona:Infobox Biografie]]
+[[cy:Nodyn:Gwybodlen Person]]
+[[da:Skabelon:Infoboks person]]
+[[dsb:Pśedłoga:Infokašćik wósoby]]
+[[et:Mall:Persoon]]
+[[en:Template:Infobox person/doc]]
+[[es:Plantilla:Ficha de persona]]
+[[eo:Ŝablono:Informkesto homoj]]
+[[eu:Txantiloi:Biografia infotaula oinarria]]
+[[fa:الگو:جعبه زندگینامه]]
+[[gu:ઢાંચો:માહિતીચોકઠું વ્યક્તિ]]
+[[fr:Modèle:Infobox biographie]]
+[[ko:틀:인물 정보]]
+[[hsb:Předłoha:Infokašćik wosoby]]
+[[hr:Predložak:Biografija]]
+[[id:Templat:Infobox Person]]
+[[it:Template:Bio]]
+[[ka:თარგი:ინფოდაფა პიროვნება]]
+[[ku:Şablon:Jînenîgarî]]
+[[lv:Veidne:Infokaste persona]]
+[[hu:Sablon:Életrajz infobox]]
+[[mk:Шаблон:Инфокутија за личност]]
+[[nl:Sjabloon:Infobox persoon]]
+[[ja:Template:Infobox 人物]]
+[[no:Mal:Infoboks biografi]]
+[[pt:Predefinição:Info/Biografia]]
+[[ro:Format:Infobox biografii]]
+[[ru:Шаблон:Персона]]
+[[fi:Malline:Henkilö]]
+[[sq:Stampa:Infobox person]]
+[[si:සැකිල්ල:තොරතුරුකොටුව පුද්ගලයා]]
+[[sv:Mall:Infobox biografi]]
+[[uk:Шаблон:Особа]]
+[[vi:Tiêu bản:Bảng tóm tắt tiểu sử]]
+[[th:แม่แบบ:กล่องข้อมูล ชีวประวัติ]]
+[[tr:Şablon:Kişi bilgi kutusu]]
+[[ur:سانچہ:خانۂ معلومات شخصیت]]
+[[yo:Àdàkọ:Infobox Person]]
+[[zh-yue:Template:生平資料盒]]
+[[zh:Template:Infobox Person]]
+</includeonly>
