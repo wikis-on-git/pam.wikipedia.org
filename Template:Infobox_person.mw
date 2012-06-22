@@ -40,7 +40,7 @@
 | data10     = {{{nationality|}}}
 
 | label11    = Aliwang lagiu
-| class11    = nickname
+| class11    = palayo
 | data11     = {{{other names|{{{other_names|{{{othername|{{{alias|}}}}}}}}}}}}
 
 | class12    = category
@@ -58,13 +58,13 @@
 | data15     = {{{alma mater|{{{alma_mater|}}}}}}
 
 | label16    = Kapanintunan/propesion
-| class16    = role
+| class16    = genapan
 | data16     = {{{occupation|}}}
 
 | label17    = Banuang aktibu
 | data17     = {{{years active|{{{years_active|{{{yearsactive|}}}}}}}}}
 
-| label18    = Employer
+| label18    = Papaobra
 | data18     = {{{employer|}}}
 | class18    = org
 
@@ -86,13 +86,13 @@
 | data23     = {{{style|}}}
 | class23    = category
 
-| label24    = Meimpluensia yad&nbsp;kang/kari
+| label24    = Meimpluensia ya kang/keng
 | data24     = {{{influences|}}}
 
 | label25    = Inimpluensian ne i/no ri
 | data25     = {{{influenced|}}}
 
-| label26    = Hometown
+| label26    = Balen
 | data26     = {{{home town|{{{home_town|}}}}}}
 
 | label27    = Panakitan
@@ -110,7 +110,7 @@
 | label31    = Programa king telebision
 | data31     = {{{television|}}}
 
-| label32    = Titulu
+| label32    = Pamagat
 | data32     = {{{title|}}}
 | class32    = title
 
@@ -134,10 +134,10 @@
 | label38    = <span style="white-space:nowrap;">Opponent(s)</span>
 | data38     = {{{opponents|}}}
 
-| label39    = Board member&nbsp;of
+| label39    = Board member&nbsp;ning
 | data39     = {{{boards|}}}
 
-| label40    = Relihiun
+| label40    = Relihiun/Kapanualan
 | data40     = {{{religion|}}}
 | class40    = category
 
