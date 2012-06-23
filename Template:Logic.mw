@@ -1,0 +1,375 @@
+{{Navbox with collapsible sections
+| name  = Logic
+| state = {{{state|<noinclude>un</noinclude>collapsed}}}
+| title = [[Logic]]
+| bodyclass = hlist
+| selected  = {{{expanded|}}}
+
+| sect1 = Overview
+| abbr1 = Overview
+| list1 = 
+ {{Navbox | child
+  | group1 = Academic<br/>areas
+  | list1  = 
+* [[Argumentation theory]]
+* [[Axiology]]
+* [[Critical thinking]]
+* [[Computability theory]]
+* [[Formal semantics (logic)|Formal semantics]]
+* [[History of logic]]
+* [[Informal logic]]
+* [[Logic in computer science]]
+* [[Mathematical logic]]
+* [[Mathematics]]
+* [[Metalogic]]
+* [[Metamathematics]]
+* [[Model theory]]
+* [[Philosophical logic]]
+* [[Philosophy]]
+* [[Philosophy of logic]]
+* [[Philosophy of mathematics]]
+* [[Proof theory]]
+* [[Set theory]]
+  | group2 = Foundational<br/>concepts
+  | list2  = 
+* [[Abductive reasoning|Abduction]]
+* [[Analytic–synthetic distinction|Analytic truth]]
+* [[Antinomy]]
+* [[A priori and a posteriori|A priori]]
+* [[Deductive reasoning|Deduction]]
+* [[Definition]]
+* [[Description]]
+* [[Entailment]]
+* [[Inductive reasoning|Induction]]
+* [[Inference]]
+* [[Entailment|Logical consequence]]
+* [[Logical form]]
+* [[Entailment|Logical implication]]
+* [[Logical truth]]
+* [[Name]]
+* [[Necessary and sufficient condition|Necessity]]
+* [[Meaning (linguistics)|Meaning]]
+* [[Paradox]]
+* [[Possible world]]
+* [[Presupposition]]
+* [[Probability]]
+* [[Reason]]
+* [[Reason]]ing
+* [[Reference]]
+* [[Semantics]]
+* [[Statement (logic)|Statement]]
+* [[Strict implication]]
+* [[Substitution (logic)|Substitution]]
+* [[Syntax (logic)|Syntax]]
+* [[Truth]]
+* [[Truth value]]
+* [[Validity]]
+}}
+
+| sect2 = [[Philosophical logic]]
+| abbr2 = Philosophical logic
+|list2 = 
+ {{Navbox|child
+  | group1 = [[Critical thinking]]<br/>and<br/>[[Informal logic]]
+  | list1  = 
+* [[Philosophical analysis|Analysis]]
+* [[Ambiguity]]
+* [[Argument]]
+* [[Belief]]
+* [[Bias]]
+* [[Credibility]]
+* [[Evidence]]
+* [[Explanation]]
+* [[Explanatory power]]
+* [[Fact]]
+* [[Fallacy]]
+* [[Inquiry]]
+* [[Opinion]]
+* [[Parsimony]]
+* [[Premise]]
+* [[Propaganda]]
+* [[Prudence]]
+* [[Reason]]ing
+* [[Relevance]]
+* [[Rhetoric]]
+* [[Rigour|Rigor]]
+* [[Vagueness]]
+
+ | group2 = [[Philosophy of logic|Theories of deduction]]
+ | list2 = 
+* [[Constructivism  (mathematics)|Constructivism]]
+* [[Dialetheism]]
+* [[Fictionalism]]
+* [[Finitism]]
+* [[Formalism  (mathematics)|Formalism]]
+* [[Intuitionism]]
+* [[Logical  atomism]]
+* [[Logicism]]
+* [[Nominalism]]
+* [[Platonic  realism]]
+* [[Pragmatism]]
+* [[Philosophical realism|Realism]]
+}}
+
+| sect3 = [[Metalogic]] and [[metamathematics]]
+| abbr3 = Metalogic
+ | list3= 
+* [[Cantor's theorem]]
+* [[Entscheidungsproblem|Church's theorem]]
+* [[Church–Turing thesis|Church's thesis]]
+* [[Consistency]]
+* [[Effective method]]
+* [[Foundations of mathematics]]
+* [[Gödel's completeness theorem]]
+* [[Gödel's incompleteness theorems]]
+* [[Soundness]]
+* [[Completeness]]
+* [[Decidability (logic)|Decidability]]
+* [[Interpretation (logic)|Interpretation]]
+* [[Löwenheim–Skolem theorem]]
+* [[Metatheorem]]
+* [[Satisfiability]]
+* [[Independence (mathematical logic)|Independence]]
+* [[Type–token distinction]]
+* [[Use–mention distinction]]
+
+| sect4 = [[Mathematical logic]]
+| abbr4 = Mathematical logic
+| list4 = 
+{{Navbox subgroups
+ | group1 = General
+ | list1  = 
+* [[Formal language]]
+* [[Formation rule]]
+* [[Formal system]]
+* [[Deductive system]]
+* [[Formal proof]]
+* [[Formal semantics (logic)|Formal semantics]]
+* [[Well-formed formula]]
+* [[Set (mathematics)|Set]]
+* [[Element (mathematics)|Element]]
+* [[Class (set theory)|Class]]
+* [[Classical logic]]
+* [[Axiom]]
+* [[Natural deduction]]
+* [[Rule of inference]]
+* [[Finitary relation|Relation]]
+* [[Theorem]]
+* [[Entailment|Logical consequence]]
+* [[Axiomatic system]]
+* [[Type theory]]
+* [[Symbol (formal)|Symbol]]
+* [[Syntax (logic)|Syntax]]
+* [[Theory (mathematical logic)|Theory]]
+
+  | group2 = [[Term logic|Traditional logic]]
+  | list2  = 
+* [[Proposition]]
+* [[Inference]]
+* [[Argument]]
+* [[Validity]]
+* [[Cogency]]
+* [[Syllogism]]
+* [[Square of opposition]]
+* [[Venn diagram]]
+
+  | group3 = [[Propositional calculus]]<br/>and [[Boolean logic]]
+  | list3  = 
+* [[Boolean function]]s
+* [[Propositional calculus]]
+* [[Propositional formula]]
+* [[Logical connective]]s
+* [[Truth table]]s
+
+  | group4 = [[Predicate logic|Predicate]]
+  | list4  = 
+* [[First-order logic|First-order]]
+* [[Quantification|Quantifiers]]
+* [[Predicate (mathematical logic)|Predicate]]
+* [[Second-order logic|Second-order]]
+* [[Monadic predicate calculus]]
+
+ | group5 = [[Set theory]]
+ | list5 = 
+* [[Set (mathematics)|Set]]
+* [[Empty set]]
+* [[Enumeration]]
+* [[Extensionality]]
+* [[Finite set]]
+* [[Function (mathematics)|Function]]
+* [[Subset]]
+* [[Power set]]
+* [[Countable set]]
+* [[Recursive set]]
+* [[Domain of a function|Domain]]
+* [[Range (mathematics)|Range]]
+* [[Ordered pair]]
+* [[Uncountable set]]
+
+ | group6 = [[Model theory]]
+ | list6 = 
+* [[Structure (mathematical logic)|Model]]
+* [[Interpretation (logic)|Interpretation]]
+* [[Non-standard model]]
+* [[Finite model theory]]
+* [[Truth value]]
+* [[Validity]]
+
+ | group7 = [[Proof theory]]
+ | list7 = 
+* [[Formal proof]]
+* [[Deductive system]]
+* [[Formal system]]
+* [[Theorem]]
+* [[Entailment|Logical consequence]]
+* [[Rule of inference]]
+* [[Syntax (logic)|Syntax]]
+
+ | group8 = [[Computability theory]]
+ | list8 = 
+* [[Recursion]]
+* [[Recursive set]]
+* [[Recursively enumerable set]]
+* [[Decision problem]]
+* [[Church–Turing thesis]]
+* [[Computable function]]
+* [[Primitive recursive function]]
+}}
+
+| sect5 = [[Non-classical logic]]
+| abbr5 = Non-classical logic
+| list5 = 
+{{Navbox subgroups
+
+ | group1 = [[Modal logic]]
+ | list1  =  
+* [[Modal logic#Alethic modalities|Alethic]]
+* [[Modal operator#Axiological|Axiologic]]
+* [[Deontic logic|Deontic]]
+* [[Doxastic logic|Doxastic]]
+* [[Epistemic modal logic|Epistemic]]
+* [[Temporal logic|Temporal]]
+
+ | group2 = [[Intuitionism]]
+ | list2  = 
+* [[Intuitionistic logic]]
+* [[Constructive analysis]]
+* [[Heyting arithmetic]]
+* [[Intuitionistic type theory]]
+* [[Constructive set theory]]
+
+ | group3 = [[Fuzzy logic]]
+ | list3  = 
+* [[Degree of truth]]
+* [[Fuzzy rule]]
+* [[Fuzzy set]]
+* [[Fuzzy finite element]]
+* [[Fuzzy set operations]]
+
+ | group4 = [[Substructural logic]]
+ | list4  = 
+* [[Structural rule]]
+* [[Relevance logic]]
+* [[Linear logic]]
+
+
+ | group5 = [[Paraconsistent logic]]
+ | list5  =  
+* [[Dialetheism]]
+
+ | group6 = [[Description logic]]
+ | list6 =   
+* [[Ontology]]
+* [[Ontology language]]
+}}
+
+| sect6 = [[List of logicians|Logicians]]
+| abbr6 = Logicians
+| list6 = 
+* [[Alan  Ross Anderson|Anderson]]
+* [[Aristotle]]
+* [[Averroes]]
+* [[Avicenna]]
+* [[Alexander Bain|Bain]]
+* [[Jon Barwise|Barwise]]
+* [[Paul Bernays|Bernays]]
+* [[George Boole|Boole]]
+* [[George Boolos|Boolos]]
+* [[Georg Cantor|Cantor]]
+* [[Rudolf Carnap|Carnap]]
+* [[Alonzo Church|Church]]
+* [[Chrysippus]]
+* [[Haskell  Curry|Curry]]
+* [[Augustus De Morgan|De Morgan]]
+* [[Gottlob Frege|Frege]]
+* [[Peter Geach|Geach]]
+* [[Gerhard Gentzen|Gentzen]]
+* [[Kurt Gödel|Gödel]]
+* [[David Hilbert|Hilbert]]
+* [[Stephen  Cole Kleene|Kleene]]
+* [[Saul Kripke|Kripke]]
+* [[Gottfried Wilhelm Leibniz|Leibniz]]
+* [[Leopold  Löwenheim|Löwenheim]]
+* [[Giuseppe Peano|Peano]]
+* [[Charles Sanders Peirce|Peirce]]
+* [[Hilary Putnam|Putnam]]
+* [[Willard Van Orman Quine|Quine]]
+* [[Bertrand Russell|Russell]]
+* [[Ernst Schröder|Schröder]]
+* [[Duns Scotus|Scotus]]
+* [[Thoralf Skolem|Skolem]]
+* [[Raymond Smullyan|Smullyan]]
+* [[Alfred Tarski|Tarski]]
+* [[Alan Turing|Turing]]
+* [[Alfred North Whitehead|Whitehead]]
+* [[William  of Ockham]]
+* [[Ludwig Wittgenstein|Wittgenstein]]
+* [[Ernst  Zermelo|Zermelo]]
+
+| sect7 = Lists
+| abbr7 = Lists
+| list7 =
+ {{Navbox | child
+  | group1 = Topics
+  | list1  = 
+* [[Outline of logic]]
+* [[Index of logic articles]]
+* [[List of mathematical logic topics|Mathematical logic]]
+* [[List of Boolean algebra topics|Boolean algebra]]
+* [[List of set theory topics|Set theory]]
+  | group2 = Other
+  | list2  = 
+* [[List of logicians|Logicians]]
+* [[List of rules of inference|Rules of inference]]
+* [[List of paradoxes|Paradoxes]]
+* [[List of fallacies|Fallacies]]
+* [[List of logic symbols|Logic symbols]]
+ }}
+
+| below = 
+* [[Portal:Logic|Portal]]
+* [[:Category:Logic|Category]]
+* [[Outline of logic|Outline]]
+* [[Wikipedia:WikiProject Logic|WikiProject]]
+* [[Wikipedia talk:WikiProject Logic|Talk]]
+* [{{fullurl:Special:Recentchangeslinked|target=Template:Logic&hidebots=0}} changes]
+
+}}<noinclude>
+{{documentation | content =
+{{collapsible option}}
+{{collapsible sections option |list=
+* "History", "Concepts", "Controversies", "People" or "Lists" |example=Concepts}}
+}}
+
+[[Category:Philosophy and thinking templates]]
+[[Category:WikiProject Logic|τ]]
+
+[[ar:قالب:منطق]]
+[[fa:الگو:منطق]]
+[[ja:Template:Logic]]
+[[mk:Шаблон:Логика]]
+[[pt:Predefinição:Lógica]]
+[[fr:Modèle:Palette Logique]]
+[[ru:Шаблон:Логика]]
+[[zh:模板:Logic]]
+</noinclude>
