@@ -1,0 +1,278 @@
+{{Infobox scientist
+| birth_name        = Alan Mathison Turing
+| image             = Alan Turing photo.jpg
+| image_size        = 200px
+| caption           = Turing at the time of his election to Fellowship of the [[Royal Society]].
+| birth_date        = {{Birth date|1912|6|23|df=yes}}
+| birth_place       = [[Maida Vale]], London, England,<br/> United Kingdom
+| death_date        = {{Death date and age|1954|6|7|1912|6|23|df=yes}}
+| death_place       = [[Wilmslow]], Cheshire, England,<br/> United Kingdom
+| residence         = United Kingdom
+| nationality       = British
+| field             = [[Mathematics]], [[Cryptanalysis]], [[Computer science]]
+| work_institutions = [[University of Cambridge]]<br />[[Government Code and Cypher School]]<br />[[National Physical Laboratory, UK|National Physical Laboratory]]<br />[[University of Manchester]]
+| alma_mater        = [[King's College, Cambridge]]<br />[[Princeton University]]
+| doctoral_advisor  = [[Alonzo Church]]
+| doctoral_students = [[Robin Gandy]]
+| known_for         = [[Halting problem]]<br />[[Turing machine]]<br />[[Cryptanalysis of the Enigma]]<br />[[Automatic Computing Engine]]<br />[[Turing Award]]<br />[[Turing Test]]<br />[[Turing pattern]]s
+| prizes            = [[Officer of the Order of the British Empire]]<br />[[Fellow of the Royal Society]]
+}}
+I '''Alan Mathison Turing''', [[Order of the British Empire|OBE]], [[Fellow of the Royal Society|FRS]] ({{IPAc-en|icon|ˈ|tj|ʊər|ɪ|ŋ}} {{Respell|TEWR|ing}}; 23 Junio 1912 – 7 Junio 1954), metung yang Ingles a [[matematiku]], [[logician]], [[cryptanalyst]] ampong [[computer scientist]]. Maragul ya impluwensiya king pamanalkus ning [[computer science]], at minye yang pormalisasyon ning konseptuo ning "[[algorithm]]" ampong "computation" kapamilatan ning [[Turing machine]], a maragul papil king pamaglalang ning modernung computer.<ref name="frs">{{cite doi|10.1098/rsbm.1955.0019}}</ref><ref name=AFP/> Turing is widely considered to be the [[List of people considered father or mother of a scientific field|father]] of computer science and [[artificial intelligence]].<ref>{{cite book|author=Homer, Steven and Alan L. |title=Computability and Complexity Theory|url=http://books.google.com/?id=r5kOgS1IB-8C&pg=PA35|publisher=Springer via Google Books limited view|page=35|isbn=0-387-95055-9|accessdate=13 May 2011|year=2001}}</ref>
+
+Anyang Kadwang Gerang Pangkabilugan, megobra ya i Turing para king [[Government Communications Headquarters#Government Code and Cypher School (GCCS)|Government Code and Cypher School (GCCS)]] king [[Bletchley Park]], Britain's ing sentru na para king [[cryptanalysis|codebreaking]] ning Britania. Mika panaun a yang meging pamuntuk ning [[Hut 8]], ing sangang manibala king naval cryptanalysis a Aleman. Mekapaglalang yang manilan a paralan ba lang lutasan deng [[cipher]] a Aleman, kayabe ya ing kaparalanan ning [[bombe]], metung a makinang [[electromechanics|electromechanical]] a makapanintun  pamituldu (setting) para king  [[Enigma machine]].
+
+Kaybat ning gera, megobra ya king [[National Physical Laboratory, UK|National Physical Laboratory]], nung nu ne lelang ing metung kareng mumunang disenyu para king stored-program computer, ing [[Automatic Computing Engine|ACE]]. Anyang 1948, megobra ya i Turing king [[Max Newman|Max Newman's]] Computing Laboratory king [[Victoria University of Manchester|Manchester University]], nung nu ya sinaup king pamanalkus da reng [[Manchester computers]]<ref>{{Harvnb|Leavitt|2007|pp=231–233}}</ref> at megi yang interesadu king  [[mathematical biology]]. Sinulat yang artikulu tungkul king batayan nang kemikal ning [[morphogenesis]],<ref>{{Cite journal| last= Turing | first= A. M. | title = The Chemical Basis of Morphogenesis | journal=Philosophical Transactions of the Royal Society of London, series B | volume = 237 | pages = 37–72 | year = 1952 | doi=10.1098/rstb.1952.0012| issue= 641| ref= harv}}</ref> at inula (''predicted'') ne ing tungkul kareng [[Chemical clock|oscillating]] [[chemical reaction]]antimo ing [[Belousov–Zhabotinsky reaction]], a mumuna rang inobserban anyang dekadang  1960.
+
+Uli ning pangabinabai nang Turing, midalum ya anyang 1952, panuan nung kapilan bawal la pa deng dapat a homosexual king Britania. Tinggap na ing pamanulu kapamilatan da reng hormone a pambabai ([[chemical castration]]) antimong alternatibu ning pangasukul. Mete ya anyang 1954, maygit mu king adwang duminggu bayu ing kayang pang apat a pulu't adwang aldo kebaitan, uli ning pangalasun ibat king [[cyanide]]. Agpang king pamagsyasat, migpakamate ya; para king kayang ima ampo reng aliwa, aksidenti ing kayang pangamate. Anyang 10&nbsp;Setiembre 2009, kaybat ning kampanya king Aptas ([[Internet activism|Internet campaign]]), ing Pun Ministro ning Britania, i [[Gordon Brown]], ginawa yang [[#Government apology|opisyal a pamanyad dispensa]] kapamilatan ning kapamahalan ning Britania para king pamagtratu kang Turing kaybat ning gera.<ref name = "PM-apology">{{Cite news | url = http://news.bbc.co.uk/2/hi/technology/8249792.stm | title = PM apology after Turing petition | date = 11 September 2009 |work=BBC News   }}</ref>
+
+==Lon la murin==
+{{Portal|Biography| Logic}}
+*[[Good–Turing frequency estimation]]
+*[[LU Decomposition]]
+*[[Turing Award]]
+*[[Turing degree]]
+*[[Turing completeness]]
+*[[Turing machine]]
+*[[Turing machine examples]]
+*[[Turing pattern]]
+*[[Turing reduction]]
+*[[Turing switch]]
+*[[Turing test ]]
+*[[Unorganized machine]]
+
+==Notes==
+{{Reflist|25em}}
+
+==Dalerayan==
+{{Refbegin|30em}}
+* {{Cite book | last = Agar | first = Jon | title = The government machine: a revolutionary history of the computer | publisher=MIT Press | year = 2003 | location = Cambridge, Massachusetts | isbn = 978-0-262-01202-7 }}
+* {{Citation | last = Alexander | first = C. Hugh O'D. | author-link = Conel Hugh O'Donel Alexander | year = circa 1945 | title = Cryptographic History of Work on the German Naval Enigma | url = http://www.ellsbury.com/gne/gne-000.htm | publisher=The National Archives, Kew, Reference HW 25/1}}
+* {{Cite book | last = Beniger | first = James | title = The control revolution: technological and economic origins of the information society | publisher=Harvard University Press | year = 1986 | location = Cambridge, Massachusetts | isbn = 0-674-16986-7 }}
+* {{Cite book | last = Babbage | first = Charles | author-link = Charles Babbage | year = 1864
+ | publication-date = 2008 | editor-last = Campbell-Kelly | editor-first = Martin | editor-link = Martin Campbell-Kelly | title = Passages from the life of a philosopher | publisher=Rough Draft Printing | isbn = 978-1-60386-092-5 | ref = harv}}
+* {{Cite book | last = Bodanis | first = David | author-link = David Bodanis | title = Electric Universe: How Electricity Switched on the Modern World | year = 2005 |publisher=Three Rivers Press | location = New York | isbn = 0-307-33598-4 | oclc = 61684223 }}
+* Bruderer, Herbert: [http://www.oldenbourg-verlag.de/wissenschaftsverlag/konrad-zuse-und-schweiz/9783486713664 ''Konrad Zuse und die Schweiz. Wer hat den Computer erfunden? Charles Babbage, Alan Turing und John von Neumann''] Oldenbourg Verlag, München 2012, XXVI, 224 Seiten, ISBN 978-3-486-71366-4
+* {{Cite book | last = Campbell-Kelly | first = Martin | authorlink = Martin Campbell-Kelly | last2 = Aspray | first2 = William | title = Computer: A History of the Information Machine | publisher=Basic Books | year = 1996 | location = New York | isbn = 0-465-02989-2 }}
+* {{Cite book | last = Ceruzzi | first = Paul | authorlink = Paul Ceruzzi | title = A History of Modern Computing | publisher=MIT Press | year = 1998 | location = Cambridge, Massachusetts, and London | isbn = 0-262-53169-0}}
+* {{Cite book | last = Chandler | first = Alfred | authorlink = Alfred Chandler | title = The Visible Hand: The Managerial Revolution in American Business | publisher=Belknap Press | year = 1977 | location = Cambridge, Massachusetts | isbn = 0-674-94052-0 }}
+* {{Cite journal | last = Copeland | first = B. Jack | authorlink = B. Jack Copeland | title = Colossus: Its Origins and Originators | journal=[[IEEE Annals of the History of Computing]] | volume = 26 | issue = 4 | pages = 38–45 | year = 2004 |doi = 10.1109/MAHC.2004.26 | ref = harv }}
+* {{Cite book | last = Copeland | first = B. Jack (ed.) | authorlink = B. Jack Copeland | title = The Essential Turing | year = 2004 | publisher=Oxford University Press | location = Oxford | isbn = 0-19-825079-7 | oclc = 156728127 224173329 48931664 57434580 57530137 59399569 }}
+* {{Cite book | last = Copeland (ed.) | first = B. Jack | authorlink = B. Jack Copeland | title = Alan Turing's Automatic Computing Engine | year = 2005 | publisher=Oxford University Press | location = Oxford | isbn = 0-19-856593-3 | oclc = 224640979 56539230 }}
+* {{Cite book | last = Copeland | first = B. Jack | authorlink = B. Jack Copeland | title = Colossus: The secrets of Bletchley Park's code-breaking computers | year = 2006 | publisher=Oxford University Press | isbn = 978-0-19-284055-4 | ref = harv }}
+* {{Cite book | last = Edwards | first = Paul N | title = The closed world: computers and the politics of discourse in Cold War America | publisher=MIT Press | year = 1996 | location = Cambridge, Massachusetts | isbn = 0-262-55028-8 }}
+* {{Citation | last = Gannon | first = Paul | title = Colossus: Bletchley Park's Greatest Secret | place = London | publisher=Atlantic Books | origyear = 2006 | year = 2007 | isbn = 978-1-84354-331-2 }}
+* {{Citation | last = Hilton | first = Peter | author-link = Peter Hilton | year = 2006 | chapter = Living with Fish: Breaking Tunny in the Newmanry and Testery }} in {{Harvnb|Copeland|2006|pp=189–203}}
+* {{Citation | last = Hodges | first = Andrew | authorlink = Hodges, Andrew | origyear = 1983 | year = 1992 | title = Alan Turing: the enigma |location = London | publisher=Burnett Books | isbn = 0-04-510060-8 | ref = harv }}
+* {{Cite book | last = Hochhuth | first = Rolf  | authorlink = Rolf Hochhuth | title = Alan Turing: en berättelse | publisher=Symposion | year = 1988 | isbn = 978-91-7868-109-9 }}
+* {{Cite book | last = Leavitt | first = David | authorlink = David Leavitt | year = 2007 | title = The man who knew too much: Alan Turing and the invention of the computer | publisher=Phoenix | isbn = 978-0-7538-2200-5 | ref = harv }}
+* {{Cite book | last = Levin | first = Janna | authorlink = Janna Levin | title = A Madman Dreams Of Turing Machines | publisher=Knopf | year = 2006 | location = New York | isbn = 978-1-4000-3240-2 }}
+* {{Cite book | last = Lewin | first = Ronald | authorlink = Ronald Lewin | title = Ultra Goes to War: The Secret Story | edition = Classic Penguin | series = Classic Military History | year = 1978 | publication-date = 2001 | publisher=Hutchinson & Co | location = London, England | isbn = 978-1-56649-231-7 | ref = harv }}
+* {{Cite book| last = Lubar | first = Steven | year = 1993 | title = Infoculture | location = Boston, Massachusetts and New York | publisher=Houghton Mifflin | isbn = 0-395-57042-5}}
+* {{Cite document | last = Mahon | first = A.P. | title = The History of Hut Eight 1939–1945 | publisher=UK National Archives Reference HW 25/2 | year = 1945 | url = http://www.ellsbury.com/hut8/hut8-000.htm | accessdate =10 December 2009 | ref = harv }}
+* {{Citation | editor-last = Oakley | editor-first = Brian | editor-link = Brian Oakley | title = The Bletchley Park War Diaries: July 1939&nbsp;— August 1945 | publisher=Wynne Press | year = 2006 | edition = 2.6 }}
+* {{Citation | last = O'Connell | first = H | last2 = Fitzgerald | first2 = M | title = Did Alan Turing have Asperger's syndrome? | journal=Irish Journal of Psychological Medicine | volume = 20 | pages = 28–31 | publisher=Irish Institute of Psychological Medicine | year = 2003 | issn = 0790-9667  }}
+*{{MacTutor Biography|id=Turing|title=Alan Mathison Turing}}
+*Petzold, Charles (2008). "[[The Annotated Turing]]:  A Guided Tour through Alan Turing's Historic Paper on Computability and the Turing Machine". [[Indianapolis]]: Wiley Publishing. ISBN 978-0-470-22905-7
+*Smith, Roger (1997). ''Fontana History of the Human Sciences''. London: Fontana.
+*Weizenbaum, Joseph (1976). ''Computer Power and Human Reason''. London: W.H. Freeman. ISBN 0-7167-0463-3
+* {{Cite book | last = Turing | first = Sara Stoney | title = Alan M Turing | publisher=W Heffer | year = 1959 }} Turing's mother, who survived him by many years, wrote this 157-page biography of her son, glorifying his life. It was published in 1959, and so could not cover his war work. Scarcely 300 copies were sold (Sara Turing to Lyn Newman, 1967, Library of [[St John's College, Cambridge]]). The six-page foreword by [[Lyn Irvine]] includes reminiscences and is more frequently quoted.
+* {{Cite book | last = Whitemore | first = Hugh | authorlink = Hugh Whitemore | last2 = Hodges | first2 = Andrew | authorlink2 = Andrew Hodges | title = Breaking the code | publisher=S. French  | year = 1988 }} This 1986 Hugh Whitemore play tells the story of Turing's life and death. In the original West End and Broadway runs, [[Derek Jacobi]] played Turing and he recreated the role in a 1997 television film based on the play made jointly by the BBC and [[WGBH-TV|WGBH, Boston]]. The play is published by Amber Lane Press, [[Oxford]], ASIN: B000B7TM0Q
+*Williams, Michael R. (1985) ''A History of Computing Technology'', [[Englewood Cliffs]], [[New Jersey]]: [[Prentice-Hall]], ISBN 0-8186-7739-2
+*{{Cite book|last=Yates |first=David M. |title=Turing's Legacy: A history of computing at the National Physical Laboratory 1945–1995 |year=1997 |publisher=[[Science Museum, London|London Science Museum]] |location=London |isbn=0-901805-94-7 |oclc=123794619 40624091 }}
+{{Refend}}
+
+==Further reading==
+*{{MathGenealogy|id=8014}}
+*{{cite journal|title=The Mind and the Computing Machine: Alan Turing and others|journal=[[The Rutherford Journal]]|url=http://www.rutherfordjournal.org/article010111.html |editor = Jack Copeland|ref=harv}}
+*{{cite encyclopaedia |last=Hodges |first=Andrew |editor=Edward N. Zalta |encyclopedia=[[Stanford Encyclopedia of Philosophy]] |title=Alan Turing |url=http://plato.stanford.edu/entries/turing/ |accessdate=10 January 2011 |edition=Winter 2009 |date=27 August 2007 |publisher=[[Stanford University]] |ref=harv}}
+*{{cite journal|last=Gray|first=Paul|date=29 March 1999|title=Computer Scientist: Alan Turing|journal=TIME|url=http://www.time.com/time/magazine/article/0,9171,990624,00.html|ref=harv}}
+* Gleick, James, ''[[The Information: A History, a Theory, a Flood|The Information: A History, A Theory, A Flood]]'', New York: Pantheon, 2011, ISBN 978-0-375-42372-7
+* Leavitt, David, ''The Man Who Knew Too Much: Alan Turing and the Invention of the Computer'', W. W. Norton, 2006
+* Turing, Sara, ''[http://www.cambridge.org/asia/catalogue/catalogue.asp?isbn=9781107020580 Alan M. Turing]'', Centenary Edition, Cambridge University Press, 2012, ISBN 978-1-107-02058-0
+
+==External links==
+{{Wikiquote}}
+{{Commons category|Alan Turing}}
+*[http://www.iploiesti.ro/alan-turing-sarbatorit-de-google-100-de-ani-de-la-nasterea-lui-alan-turing 100 years from Alan Turing birth]
+*[http://www.rkbexplorer.com/explorer/#display=person-{http://dblp.rkbexplorer.com/id/people-a27f18ebafc0d76ddb05173ce7b9873d-e0b388b7c1e0985b1371d73ee1fae8b5} Alan Turing] RKBExplorer
+*[http://www.turingcentenary.eu/ Alan Turing Year]
+*[http://www.topic2012.com/alan-turing/ Google Doodle for Alan Turing 100th Birthday]
+*[http://cie2012.eu/ CiE 2012: Turing Centenary Conference]
+*[http://www.visualturing.org/ Visual Turing]
+*[http://www.wolframalpha.com/examples/TuringMachines.html Turing Machine calculators] at [[Wolfram Alpha]]
+*[http://www.turing.org.uk/ Alan Turing] site maintained by [[Andrew Hodges]] including a [http://www.turing.org.uk/bio/part1.html short biography]
+*[http://www.alanturing.net/ AlanTuring.net&nbsp;– Turing Archive for the History of Computing] by [[Jack Copeland]]
+*[http://www.turingarchive.org/ The Turing Archive]&nbsp;– contains scans of some unpublished documents and material from the Kings College, Cambridge archive
+*{{cite journal|last=Jones|first=G. James|date=11 December 2001|title=Alan Turing&nbsp;– Towards a Digital Mind: Part 1|journal=System Toolbox|publisher=The Binary Freedom Project|url=http://www.systemtoolbox.com/article.php?history_id=3|ref=harv}}
+*[http://www.sherborne.org/school/School_Archives/ Sherborne School Archives]&nbsp;– holds papers relating to Alan Turing's time at Sherborne School
+*[http://openplaques.org/people/368 Alan Turing plaques] recorded on openplaques.org
+*[http://www.networkworld.com/news/2012/061112-turing-260039.html?page=1 Tech world preps to honor 'Father of Computer Science' Alan Turing, as centenary nears]
+
+===Papers===
+*[http://bibnetwiki.org/wiki/Category:Alan_M._Turing_Paper An extensive list of Turing's papers, reports and lectures, plus translated versions and collections] BibNetWiki
+*{{AcademicSearch|2612734}}
+*{{Turing 1950}}
+* [http://purl.umn.edu/107493 Oral history interview with Nicholas C. Metropolis], [[Charles Babbage Institute]], University of Minnesota. Metropolis was the first director of computing services at [[Los Alamos National Laboratory]]; topics include the relationship between Alan Turing and [[John von Neumann]]
+
+{{Logic|state=autocollapse}}
+{{philosophy of mind}}
+{{Use dmy dates|date=June 2012}}
+{{Use British English|date=August 2010}}
+{{Good article}}
+
+{{Persondata
+|NAME=Turing, Alan Mathison
+|ALTERNATIVE NAMES=
+|SHORT DESCRIPTION=[[Computer scientist]], [[mathematician]], and [[cryptographer]]
+|DATE OF BIRTH={{Birth date|df=yes|1912|6|23}}
+|PLACE OF BIRTH=[[Paddington]], London, England
+|DATE OF DEATH={{Death date|df=yes|1954|6|7}}
+|PLACE OF DEATH=[[Manchester]], England
+}}
+{{DEFAULTSORT:Turing, Alan}}
+[[Category:Alan Turing| ]]
+[[Category:1912 births]]
+[[Category:1954 deaths]]
+[[Category:20th-century mathematicians]]
+[[Category:20th-century philosophers]]
+[[Category:Alumni of King's College, Cambridge]]
+[[Category:Artificial intelligence researchers]]
+[[Category:Bayesian statisticians]]
+[[Category:Blue plaques]]
+[[Category:British cryptographers]]
+[[Category:British long-distance runners]]
+[[Category:British people of World War II]]
+[[Category:Computer designers]]
+[[Category:Computer pioneers]]
+[[category:English people of Scottish descent]]
+[[Category:English atheists]]
+[[Category:English athletes]]
+[[Category:English computer scientists]]
+[[Category:English inventors]]
+[[Category:English logicians]]
+[[Category:English mathematicians]]
+[[Category:English philosophers]]
+[[Category:Fellows of the Royal Society]]
+[[Category:History of artificial intelligence]]
+[[Category:Inventors who committed suicide]]
+[[Category:LGBT people from England]]
+[[Category:Mathematicians who committed suicide]]
+[[Category:Members of the Order of the British Empire]]
+[[Category:Officers of the Order of the British Empire]]
+[[Category:People educated at Sherborne School]]
+[[Category:People associated with Bletchley Park]]
+[[Category:People from Maida Vale]]
+[[Category:People from Wilmslow]]
+[[Category:People prosecuted under anti-homosexuality laws]]
+[[Category:Philosophers of mind]]
+[[Category:Princeton University alumni]]
+[[Category:Programmers who committed suicide]]
+[[Category:School of Computer Science, University of Manchester]]
+[[Category:Scientists who committed suicide]]
+[[Category:Suicides by poison]]
+[[Category:Suicides in England]]
+[[Category:Theoretical computer scientists]]
+[[Category:Academics of the University of Manchester Institute of Science and Technology]]
+
+{{Link FA|la}}
+
+[[af:Alan Turing]]
+[[ckb: ئالان تیورینگ]]
+[[ar:آلان تورنج]]
+[[an:Alan Turing]]
+[[ast:Alan Turing]]
+[[az:Alan Türinq]]
+[[bn:অ্যালান টুরিং]]
+[[zh-min-nan:Alan Turing]]
+[[be:Алан Матысан Цьюрынг]]
+[[be-x-old:Элан Т’юрынг]]
+[[bs:Alan Turing]]
+[[br:Alan Turing]]
+[[bg:Алън Тюринг]]
+[[ca:Alan Turing]]
+[[cs:Alan Turing]]
+[[cy:Alan Turing]]
+[[da:Alan Turing]]
+[[de:Alan Turing]]
+[[et:Alan Turing]]
+[[en:Alan Turing]]
+[[el:Άλαν Τούρινγκ]]
+[[es:Alan Turing]]
+[[eo:Alan Turing]]
+[[eu:Alan Turing]]
+[[fa:آلن تورینگ]]
+[[hif:Alan Turing]]
+[[fr:Alan Turing]]
+[[fy:Alan Turing]]
+[[ga:Alan Turing]]
+[[gd:Alan Turing]]
+[[gl:Alan Turing]]
+[[gan:圖靈]]
+[[gu:ઍલન ટ્યુરિંગ]]
+[[ko:앨런 튜링]]
+[[hy:Ալան Թյուրինգ]]
+[[hi:एलेन ट्यूरिंग]]
+[[hr:Alan Turing]]
+[[io:Alan Turing]]
+[[id:Alan Turing]]
+[[is:Alan Turing]]
+[[it:Alan Turing]]
+[[he:אלן טיורינג]]
+[[jv:Alan Turing]]
+[[ka:ალან ტიურინგი]]
+[[sw:Alan Turing]]
+[[ht:Alan Turing]]
+[[ku:Alan Turing]]
+[[kn:ಅಲೆನ್ ಟ್ಯೂರಿಂಗ್]]
+[[la:Alanus Mathison Turing]]
+[[lv:Alans Tjūrings]]
+[[lb:Alan M. Turing]]
+[[lt:Alan Turing]]
+[[li:Alan Turing]]
+[[hu:Alan Turing]]
+[[mk:Алан Тјуринг]]
+[[ml:അലൻ ട്യൂറിംഗ്]]
+[[mt:Alan Turing]]
+[[mr:अॅलन ट्युरिंग]]
+[[arz:الان تورينج]]
+[[ms:Alan Turing]]
+[[mwl:Alan Turing]]
+[[mn:Алан Матисон Тюринг]]
+[[nl:Alan Turing]]
+[[ja:アラン・チューリング]]
+[[no:Alan Turing]]
+[[nn:Alan Turing]]
+[[oc:Alan Turing]]
+[[pnb:الان ٹورنگ]]
+[[pms:Alan Turing]]
+[[pl:Alan Turing]]
+[[pt:Alan Turing]]
+[[ro:Alan Turing]]
+[[ru:Тьюринг, Алан]]
+[[rue:Алан Тюрінґ]]
+[[sa:एलेन ट्यूरिंग]]
+[[sq:Alan Turing]]
+[[scn:Alan Turing]]
+[[simple:Alan Turing]]
+[[sk:Alan Mathison Turing]]
+[[sl:Alan Turing]]
+[[sr:Алан Тјуринг]]
+[[sh:Alan Turing]]
+[[fi:Alan Turing]]
+[[sv:Alan Turing]]
+[[tl:Alan Turing]]
+[[ta:அலன் டூரிங்]]
+[[te:అలాన్ ట్యూరింగ్‌]]
+[[th:แอลัน ทัวริง]]
+[[tg:Алан Тюринг]]
+[[tr:Alan Turing]]
+[[uk:Алан Тюрінг]]
+[[ur:ایلن تورنگ]]
+[[vi:Alan Turing]]
+[[vo:Alan Turing]]
+[[war:Alan Turing]]
+[[yi:עלן טיורינג]]
+[[yo:Alan Turing]]
+[[zh-yue:Alan Turing]]
+[[bat-smg:Alans Tiorėngs]]
+[[zh:艾伦·图灵]]
