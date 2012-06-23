@@ -1,0 +1,53 @@
+{{ 
+<!--
+  IF ONE OF THE FIRST AUTHOR FIELD IS NON-EMPTY
+-->
+   #if:  {{{first|{{{last|{{{first2|{{{last2|}}}}}}}}}}}}
+<!--
+    THEN USE NON-DEFAULT AUTHOR FORMAT
+-->
+|{{Citation
+  | first = {{{first|}}} 
+  | last = {{{last|}}}
+  | author-link = {{{author-link|}}}
+  | first2 = {{{first2|}}}
+  | last2 = {{{last2|}}}
+  | author2-link = {{{author2-link|}}}
+  | first3 =  {{{first3|}}}
+  | last3 = {{{last3|}}}
+  | author3-link = {{{author3-link|}}}
+  | first4 =  {{{first4|}}}
+  | last4 = {{{last4|}}}
+  | author4-link = {{{author4-link|}}}
+  | editor-last = O'Connor
+  | editor-first = John J.
+  | editor-link = John J. O'Connor (mathematician)
+  | editor2-last = Robertson
+  | editor2-first = Edmund F.
+  | editor2-link = Edmund F. Robertson
+  | contribution = {{{title|{{PAGENAME}}}}}
+  | contribution-url = http://www-history.mcs.st-andrews.ac.uk/{{{class|Biographies}}}/{{{id}}}.html
+  | title = [[MacTutor History of Mathematics archive]]
+  | date = {{{date|}}}
+  | accessdate={{{accessdate|}}}
+  | publisher = [[University of St Andrews]]
+}}  
+<!--
+    ELSE USE DEFAULT AUTHOR FORMAT
+-->
+|{{Citation
+  | first = John J.
+  | last = O'Connor
+  | author-link = John J. O'Connor (mathematician)
+  | first2 = Edmund F.
+  | last2 = Robertson
+  | author2-link = Edmund F. Robertson
+  | contribution = {{{title|{{PAGENAME}}}}}
+  | contribution-url = http://www-history.mcs.st-andrews.ac.uk/{{{class|Biographies}}}/{{{id}}}.html
+  | title = [[MacTutor History of Mathematics archive]]
+  | date = {{{date|}}}
+  | accessdate={{{accessdate|}}}
+  | publisher = [[University of St Andrews]]
+  | ref = {{#if: {{{date|}}} | harv | none}}
+}}
+}}.<noinclude>{{documentation}}</noinclude>
