@@ -1,5 +1,4 @@
-<span class="smallcaps" style="font-variant:small-caps;">{{{1}}}</span><noinclude>
-
-<!-- Add categories and interwikis to the /doc subpage, not here! -->
+{{uc:{{#if:{{{2|}}}|{{{1|}}}{{smallcaps|{{nocaps|{{{2|}}}}}}}|
+{{smallcaps|{{nocaps|{{{1|}}}}}}}}}}}<noinclude>
 {{documentation}}
 </noinclude>
