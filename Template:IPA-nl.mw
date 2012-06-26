@@ -1,2 +1,2 @@
-<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Dutch:&nbsp;|langfl=Flemish:&nbsp;|langaf=Afrikaans:&nbsp;|pron=pronounced&nbsp;|fl=Flemish pronunciation:&nbsp;|af=Afrikaans pronunciation:&nbsp;|=|Dutch pronunciation:&nbsp;}}</small>{{IPA|[[Wikipedia:IPA for Dutch and Afrikaans|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Dutch:&nbsp;|langfl=Flemish:&nbsp;|langaf=Afrikaans:&nbsp;|pron=pronounced&nbsp;|fl=Flemish pronunciation:&nbsp;|af=Afrikaans pronunciation:&nbsp;|=|Pangayagkas a Olandes:&nbsp;}}</small>{{IPA|[[Wikipedia:IPA for Dutch and Afrikaans|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
 <noinclude>{{documentation}}</noinclude>
