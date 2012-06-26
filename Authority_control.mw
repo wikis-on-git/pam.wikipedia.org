@@ -1,0 +1,13 @@
+<table class="navbox" style="padding:0px; border:none; background:none; border-spacing:0px;"><tr><td style="padding:0px;"><div id="normdaten" class="catlinks" style="margin:0px;">'''[[Authority control]]''':<!--
+*** GND ***
+--> {{#if: {{{GND|}}} | [[Universal Authority File|GND]]: [http://d-nb.info/gnd/{{{GND}}} {{{GND}}}] {{#if:{{{LCCN|}}}|&#124;}} }}<!--
+*** PND ***
+--> {{#if:{{{PND|}}}| [[Name Authority File|PND]]: [http://d-nb.info/gnd/{{{PND}}} {{{PND}}}] {{#if:{{{LCCN|}}}|&#124;}} }}<!--
+*** LCCN ***
+--> {{#if:{{{LCCN|}}}|[[Library of Congress Control Number|LCCN]]: [http://lccn.loc.gov/{{ParmPart|1|{{{LCCN}}} }}{{ParmPart|2|{{{LCCN}}} }}{{padleft:{{ParmPart|3|{{{LCCN}}} }}|6|0}} {{ParmPart|1|{{{LCCN}}} }}{{ParmPart|2|{{{LCCN}}} }}{{padleft:{{ParmPart|3|{{{LCCN}}} }}|6|0}}]}}<!--
+*** VIAF ***
+--> {{#if:{{{VIAF|}}}|{{#if:{{{GND|}}}{{{PND|}}}{{{LCCN|}}}|&#124;}} [[Virtual International Authority File|VIAF]]: [http://viaf.org/viaf/{{{VIAF}}} {{{VIAF}}}]}}<!--
+*** SELIBR ***
+--> {{#if:{{{SELIBR|}}}|{{#if:{{{GND|}}}{{{PND|}}}{{{LCCN|}}}{{{VIAF|}}}|&#124;}} [[SELIBR]]: [http://libris.kb.se/auth/{{{SELIBR}}} {{{SELIBR}}}] {{#if:{{{GKD|}}}|&#124;}} }} {{#if:{{{GKD|}}}|[[Corporate Bodies Authority File|GKD]] in the DNB: [http://d-nb.info/gnd/{{{GKD}}} {{{GKD}}}] {{#if:{{{GKD-V1|}}}|&#124;}} }} {{#if:{{{GKD-V1|}}}|DNB: [http://d-nb.info/gnd/{{{GKD-V1}}} {{{GKD-V1}}}] {{#if:{{{SWD|}}}|&#124;}} }} {{#if:{{{SWD|}}}|[[Subject Headings Authority File|SWD]] in the DNB: [http://d-nb.info/gnd/{{{SWD}}} {{{SWD}}}][[Category:Wikipedia:Authority_control (key words only)]]|[[Category:Wikipedia articles with authority control information]] }}<!--
+*** WorldCat identities ***
+--> {{#if: {{{WORLDCATID|}}} | {{#if:{{{GND|}}}{{{PND|}}}{{{LCCN|}}}{{{VIAF|}}}{{{SELIBR|}}}{{{GKD|}}}{{{GKD-V1|}}}{{{GKD-V2|}}}{{{SWD|}}}{{{EST|}}} | &#124;}} [http://www.worldcat.org/identities/{{{WORLDCATID}}} WorldCat] | {{#if:{{{LCCN|}}} | {{#if:{{{GND|}}}{{{PND|}}}{{{LCCN|}}}{{{VIAF|}}}{{{SELIBR|}}}{{{GKD|}}}{{{GKD-V1|}}}{{{GKD-V2|}}}{{{SWD|}}}{{{EST|}}} | &#124;}} [http://www.worldcat.org/identities/lccn-{{ParmPart|1|{{{LCCN}}} }}{{ParmPart|2|{{{LCCN}}} }}-{{ParmPart|3|{{{LCCN}}} }} WorldCat] |}}}}</div></td></tr></table><noinclude>{{Documentation}}</noinclude>
