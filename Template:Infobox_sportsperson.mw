@@ -1,0 +1,153 @@
+{{Infobox
+| bodyclass   = vcard
+| title = {{#if:{{{honorific prefix|{{{honorific_prefix|}}}}}}|<span class="honorific-prefix" style="font-size: small">{{{honorific prefix|{{{honorific_prefix|}}}}}}</span><br />}}<includeonly><span class="fn">{{{name|{{PAGENAME}}}}}</span></includeonly>{{#if:{{{honorific suffix|{{{honorific_suffix|}}}}}}|<br /><span class="honorific-suffix" style="font-size: small">{{{honorific suffix|{{{honorific_suffix|}}}}}}</span>}}
+| image       = {{#if:{{Hide if placeholder image|{{{image<includeonly>|</includeonly>}}}}}|[[File:{{{image}}}|{{px|{{{image_size|}}}|{{{imagesize|}}}|frameless}}|alt={{{alt|}}}]]}}
+| caption     = {{{caption<includeonly>|</includeonly>}}}
+| headerstyle = background:{{#if:{{{headercolor|}}}|{{{headercolor}}}|#CCCC99}};
+
+| header1     = {{#if:{{{birth_name<includeonly>|</includeonly>}}}{{{fullname|}}}{{{nickname|}}}{{{nationality|}}}{{{birth_date|}}}{{{birth_place|}}}{{{death_date|}}}{{{death_place|}}}{{{residence|}}}{{{height|}}}{{{weight|}}}{{{other-interests|}}}{{{website|}}}|Personal information}}
+
+| label2     = Lagyung natibu
+| data2      = {{#if:{{{native_name<includeonly>|</includeonly>}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span> }}
+
+| label3      = Lagyu anyang mibait
+| data3       = {{{birth_name<includeonly>|{{{birthname|}}}</includeonly>}}}
+| class3      = nickname
+
+| label4      = Kumpletung lagyu
+| data4       = {{{fullname<includeonly>|</includeonly>}}}
+| class4      = nickname
+
+| label5      = Palayo
+| data5       = {{{nickname<includeonly>|</includeonly>}}}
+| class5      = nickname
+
+| class6    = category
+| label6      = Nasyonalidad
+| data6       = {{{nationality<includeonly>|</includeonly>}}}
+
+| class7    = category
+| label7    = Lahi
+| data7     = {{{ethnicity<includeonly>|</includeonly>}}}
+
+| class8    = category
+| label8    = Memalen
+| data8     = {{{citizenship<includeonly>|</includeonly>}}}
+
+| label9      = Mibait
+| data9       = {{br separated entries|{{{birth_date<includeonly>|</includeonly>}}}|{{#if:{{{birth_place<includeonly>|</includeonly>}}}|<span class="birthplace">{{{birth_place<includeonly>|</includeonly>}}}</span>}}}} 
+
+| label10     = Mete
+| data10      = {{br separated entries|{{{death_date<includeonly>|</includeonly>}}}|{{#if:{{{death_place<includeonly>|</includeonly>}}}|<span class="deathplace">{{{death_place<includeonly>|</includeonly>}}}</span>}}}} 
+
+| label11    = Libingan
+| class11     = label
+| data11      = {{br separated entries|{{{resting place|{{{resting_place|{{{restingplace|}}}}}}}}}|{{{resting place coordinates|{{{resting_place_coordinates|{{{restingplacecoordinates|}}}}}}}}}}}
+
+| label12     = Monumentu
+| data12      = {{{monuments<includeonly>|</includeonly>}}}
+
+| label13      = Tuknangan
+| data13       = {{{residence<includeonly>|</includeonly>}}}
+
+| label14    = Pamagaral
+| data14     = {{{education<includeonly>|</includeonly>}}}
+
+| label15    = ''[[Alma mater]]''
+| data15     = {{{alma mater|{{{alma_mater<includeonly>|</includeonly>}}}}}}
+
+| label16    = Propesyon
+| class16    = role
+| data16     = {{{occupation<includeonly>|</includeonly>}}}
+
+| label17    = Banuang aktibu
+| data17     = {{{years active|{{{years_active|{{{yearsactive<includeonly>|</includeonly>}}}}}}}}}
+
+| label18    = Employer
+| data18     = {{{employer<includeonly>|</includeonly>}}}
+| class18    = org
+
+| label19    = Ahenti
+| data19     = {{{agent<includeonly>|</includeonly>}}}
+| class19    = agent
+
+| label20      = Katas
+| data20       = {{{height<includeonly>|</includeonly>}}}
+| label21     = Weight
+| data21      = {{{weight<includeonly>|</includeonly>}}}
+| label22     = Other interests
+| data22      = {{{other-interests<includeonly>|</includeonly>}}}
+| label23     = Website
+| data23      = {{{website<includeonly>|</includeonly>}}}
+
+| data24      = {{{misc|{{{module|}}}}}}
+
+| header25    = {{#if:{{{country<includeonly>|</includeonly>}}}{{{sport|}}}{{{event|}}}{{{collegeteam|}}}{{{club|}}}{{{team|}}}{{{turnedpro|}}}{{{coach|}}}{{{retired|}}}{{{coaching|}}}{{{league|}}}|Sport}}
+
+| label26     = Bangsa
+| data26      = {{{country<includeonly>|</includeonly>}}}
+| label27     = Sport
+| data27      = {{{sport<includeonly>|</includeonly>}}}
+| label28     = Pangapalyari
+| data28      = {{{event<includeonly>|</includeonly>}}}
+| label29     = {{#if:{{{universityteam|}}}|University|College}} team
+| data29      = {{#if:{{{universityteam|}}}|{{{universityteam}}}|{{{collegeteam<includeonly>|</includeonly>}}}}}
+
+| label30     = {{#if:{{{league_type<includeonly>|</includeonly>}}}|{{{league_type}}}|League}}
+| data30      = {{{league<includeonly>|</includeonly>}}}
+| class30     = org
+
+| label31     = Club
+| data31      = {{{club<includeonly>|</includeonly>}}}
+| class31     = org
+
+| label32     = Team
+| data32      = {{{team<includeonly>|</includeonly>}}}
+| class32     = org
+
+| label33     = Turned pro
+| data33      = {{{turnedpro<includeonly>|</includeonly>}}}
+
+| label34     = Kapareha
+| data34      = {{{partner<includeonly>|</includeonly>}}}
+
+| label35     = Sadyang kapareha
+| data35      = {{{formerpartner<includeonly>|</includeonly>}}}
+
+| label36     = Coached by
+| data36      = {{{coach<includeonly>|</includeonly>}}}
+| class36     = agent
+
+| label37     = Retiradu
+| data37      = {{{retired<includeonly>|</includeonly>}}}
+
+| label38     = Now coaching
+| data38      = {{{coaching<includeonly>|</includeonly>}}}
+
+| data39     = {{{misc2|{{{module2|}}}}}}
+
+| header40    = {{#if:{{{worlds<includeonly>|</includeonly>}}}{{{regionals|}}}{{{nationals|}}}{{{olympics|}}}{{{paralympics|}}}{{{highestranking|}}}{{{pb|}}}|Achievements and titles}}
+| label41     = World finals
+| data41      = {{{worlds<includeonly>|</includeonly>}}}
+| label42     = Regional finals
+| data42      = {{{regionals<includeonly>|</includeonly>}}}
+| label43     = National finals
+| data43      = {{{nationals<includeonly>|</includeonly>}}}
+| label44     = [[Olympic Games|Olympic finals]]
+| data44      = {{{olympics<includeonly>|</includeonly>}}}
+| label45     = [[Paralympic Games|Paralympic finals]]
+| data45      = {{{paralympics<includeonly>|</includeonly>}}}
+| label46     = Highest world ranking
+| data46      = {{{highestranking<includeonly>|</includeonly>}}}
+| label47     = Personal best(s)
+| data47      = {{{pb<includeonly>|</includeonly>}}}
+
+| header48    = {{Infobox medal templates
+  |medals = {{{medaltemplates<includeonly>|</includeonly>}}}
+  |expand = {{#ifeq:{{lc:{{{show-medals}}}}}|no||yes}}
+  }}
+
+| belowstyle  = color:darkslategray; font-size:82%
+| below       = {{#if:{{{updated|}}}|Updated on {{{updated}}}.}}
+
+}}<noinclude>{{Documentation}}<!--PLEASE PUT CATEGORIES AND INTERWIKIS IN [[Template:Infobox Sportsperson/doc]].--></noinclude>
