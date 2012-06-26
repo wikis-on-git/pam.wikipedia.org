@@ -1,0 +1,67 @@
+{{infobox
+| bodyclass  = vcard
+
+| abovestyle = background-color:{{{bgcolour|#BCD4E6}}};
+| aboveclass = fn
+| above      = {{{name|<includeonly>{{PAGENAME}}</includeonly>}}}
+
+| labelstyle = line-height: 1.3em
+| datastyle  = line-height: 1.3em
+
+| image      = {{#if:{{{image|}}}|[[File:{{{image}}}|{{px|{{{imagesize|{{{image_size|}}}}}}|frameless}}|alt={{{alt|}}}]]}}
+| imageclass = {{image class|{{{image|}}} }}
+| caption    = {{{caption|}}}
+
+| label1     = Lagyu anyang mibait
+| class1     = palayo
+| data1      = {{{birth_name|{{{birthname|}}}}}}
+
+| label2     = Mibait
+| data2      = {{br separated entries|{{{birth_date|}}}|{{{birth_place|}}}}}
+
+| label3     = Mete
+| data3      = {{br separated entries|{{{death_date|}}}|{{{death_place|}}}}}
+
+| label4     = Asawa
+| data4      = {{{spouse|}}} 
+
+| label5     = Nasyonalidad
+| data5      = {{{nationality|}}} 
+| class5     = category
+
+| label7     = Propesyon
+| data7      = {{{field|}}}
+| class7     = category
+
+| label8     = Pamagsane
+| data8      = {{{training|}}}
+
+| label9     = Pangimut
+| data9      = {{{movement|}}}
+| class9     = category
+
+| rowclass10    = note
+| label10    = Obra
+| data10     = {{{works|{{{notable_works|}}}}}}
+
+| label11    = Patrons
+| data11     = {{{patrons|}}}
+
+| label12    = Meg-impluwensya
+| data12     = {{{influenced by|{{{influences|}}}}}}
+
+| label13    = Aimpluwensyan
+| data13     = {{{influenced|}}}
+
+| label14    = Galal
+| data14     = {{{awards|}}}
+
+| label15    = Miyalal
+| data15     = {{{elected|}}}
+
+| label17    = Karinan-aptas/Website
+| data17     = {{{website|}}}
+
+}}{{#if:{{{pronunciation|}}}|[[Category:Biography template using pronunciation]]}}<noinclude>
+{{documentation}}<!-- PLEASE ADD CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
+</noinclude>
