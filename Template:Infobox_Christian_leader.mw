@@ -10,14 +10,14 @@
 | image       = {{#if:{{{image|}}}|[[File:{{{image|}}}|{{px|{{{imagesize|{{{image_size|}}}}}}|frameless}}|alt={{{alt|}}}]] }}
 | caption     = {{{caption|}}}
 
-| label1     = Native name
+| label1     = Natibong lagyu
 | data1      = {{#if:{{{native_name|}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span> }}
 
-| label2      = Church
+| label2      = Pisamban
 | data2       = {{{church|}}}
 | class2      = org
 
-| label3      = Archdiocese
+| label3      = Arkidiosesis
 | data3       = {{{archdiocese|}}}
 
 | label4      = Province
@@ -26,7 +26,7 @@
 | label5      = Metropolis
 | data5       = {{{metropolis|}}}
 
-| label6      = Diocese
+| label6      = Diosesis
 | data6       = {{{diocese|}}}
 | class6      = label
 
@@ -47,30 +47,30 @@
 | data11      = {{#if:{{{term|}}}||{{{ended|{{{term_end|}}} }}} }}
 | rowclass11  = note
 
-| label12     = Predecessor
+| label12     = Elilan
 | data12      = {{{predecessor|}}}
 
-| label13     = Successor
+| label13     = Katuki
 | data13      = {{{successor|}}}
 
-| label14     = Opposed to
+| label14     = Kasalungat nang
 | data14      = {{{opposed|}}}
 
-| label15     = Other posts
+| label15     = Aliwang pwestu
 | data15      = {{{other_post|}}}
 
 | header16    = {{#if:{{{ordination|}}}{{{ordinated_by|}}}{{{consecration|}}}{{{consecrated_by|}}}{{{cardinal|}}}{{{rank|}}}|Orders}}
 
-| label17     = Ordination
+| label17     = Ordinasyon
 | data17      = {{br separated entries| {{{ordination|}}} | {{#if:{{{ordinated_by|}}}|by&nbsp;{{{ordinated_by}}}}} }}
 
 | label18     = Consecration
 | data18      = {{br separated entries| {{{consecration|}}} | {{#if:{{{consecrated_by|}}}|by&nbsp;{{{consecrated_by}}}}} }}
 
-| label19     = Created Cardinal
+| label19     = Megawang Cardinal
 | data19      = {{{cardinal|}}}
 
-| label20     = Rank
+| label20     = Ranggu
 | data20      = {{{rank|}}}
 
 | header21    = {{#if:{{{birth_name|}}}{{{birth_date|}}}{{{birth_place|}}}{{{death_date|}}}{{{death_place|}}}{{{buried|{{{tomb|}}}}}}{{{nationality|}}}{{{religion|}}}{{{residence|}}}{{{parents|}}}{{{spouse|}}}{{{children|}}}{{{occupation|}}}{{{previous_post|}}}{{{profession|}}}{{{alma_mater|}}}{{{signature|}}}{{{coat_of_arms|}}}{{{motto|}}}|Personal details}}
