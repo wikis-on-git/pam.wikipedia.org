@@ -1,0 +1,35 @@
+<includeonly>{{Infobox person
+|name        = {{{name|{{PAGENAME}}}}}
+|image       = {{{image|}}}
+|image_size  = {{{image_size|}}}
+|alt         = {{{alt|}}}
+|caption     = {{{caption|}}}
+|birth_name  = {{{birth_name|}}}
+|birth_date  = {{{birth_date|}}}
+|birth_place = {{{birth_place|}}}
+|death_date  = {{{death_date|}}}
+|death_place = {{{death_place|}}}
+|nationality = {{{nationality|}}}
+|alma_mater  = {{{alma_mater|}}}
+|occupation  = {{{occupation|}}}
+|influences  = {{{influences|}}}
+|influenced  = {{{influenced|}}}
+|module      = {{#if:{{{practice|}}}{{{significant_buildings|}}}{{{significant_projects|}}}{{{significant_design|}}}|{{Infobox|child = yes
+| label1     = Practice
+| data1      = {{{practice|}}}
+| title      = Obra
+| class2     = note
+| label2     = Buildings
+| data2      = {{{significant_buildings|}}}
+| class3     = note
+| label3     = Proyektu
+| data3      = {{{significant_projects|}}}
+| class4     = note
+| label4     = Disenyu
+| data4      = {{{significant_design|}}}
+}}}}
+|awards     = {{{awards|}}}
+}}</includeonly><noinclude>
+
+{{documentation}}
+</noinclude>
