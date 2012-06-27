@@ -1,0 +1,163 @@
+{{Infobox
+| bodyclass   = vcard
+| aboveclass  = n
+| abovestyle  = background-color:{{#switch:{{lc:{{{type|}}}}}|priest=#808080|pope=#F7D79C|cardinal=#f66|#default=plum}};
+| above       = <includeonly>{{#if:{{{honorific-prefix|}}}|<span class="honorific-prefix" style="font-size:small;">{{{honorific-prefix|}}}</span>&nbsp;}}<span class="fn">{{{name|{{{Full name|{{{English name|}}} }}} }}}</span>{{#if:{{{honorific-suffix|}}}|&nbsp;<span class="honorific-suffix" style="font-size:small;">{{{honorific-suffix|}}}</span>}}</includeonly>
+| subheader   = {{#if:{{{title|{{{archbishop_of|{{{bishop_of|{{{patriarch_of|}}} }}} }}} }}}|''{{{title|{{{archbishop_of|{{{bishop_of|{{{patriarch_of|}}} }}} }}} }}}''}}
+| headerstyle = background-color:#DDDDDD;
+| subheaderclass = role
+| imageclass  = {{image class|{{{image}}} }}
+| image       = {{#if:{{{image|}}}|[[File:{{{image|}}}|{{px|{{{imagesize|{{{image_size|}}}}}}|frameless}}|alt={{{alt|}}}]] }}
+| caption     = {{{caption|}}}
+
+| label1     = Native name
+| data1      = {{#if:{{{native_name|}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span> }}
+
+| label2      = Church
+| data2       = {{{church|}}}
+| class2      = org
+
+| label3      = Archdiocese
+| data3       = {{{archdiocese|}}}
+
+| label4      = Province
+| data4       = {{{province|}}}
+
+| label5      = Metropolis
+| data5       = {{{metropolis|}}}
+
+| label6      = Diocese
+| data6       = {{{diocese|}}}
+| class6      = label
+
+| label7      = See
+| data7       = {{{see|}}}
+
+| label8      = {{#if:{{{appointed|}}}|Appointed|Elected}}
+| data8       = {{#if:{{{appointed|}}}|{{{appointed}}}|{{{elected|}}}}} 
+
+| label9      = {{#if:{{{term|}}}|In Office|{{#switch:{{lc:{{{type|}}}}}|pope|antipope|coptic pope=Papacy began|#default=Enthroned}}}}
+| data9       ={{#if:{{{term|}}}|{{{term}}}|{{{enthroned|{{{began|{{{term_start|}}} }}} }}} }}
+| rowclass9   = note
+
+| label10      = Quashed
+| data10       = {{{quashed|}}}
+
+| label11     = {{#switch:{{lc:{{{type|}}}}}|pope|antipope|coptic pope=Papacy ended|#default=Reign ended}}
+| data11      = {{#if:{{{term|}}}||{{{ended|{{{term_end|}}} }}} }}
+| rowclass11  = note
+
+| label12     = Predecessor
+| data12      = {{{predecessor|}}}
+
+| label13     = Successor
+| data13      = {{{successor|}}}
+
+| label14     = Opposed to
+| data14      = {{{opposed|}}}
+
+| label15     = Other posts
+| data15      = {{{other_post|}}}
+
+| header16    = {{#if:{{{ordination|}}}{{{ordinated_by|}}}{{{consecration|}}}{{{consecrated_by|}}}{{{cardinal|}}}{{{rank|}}}|Orders}}
+
+| label17     = Ordination
+| data17      = {{br separated entries| {{{ordination|}}} | {{#if:{{{ordinated_by|}}}|by&nbsp;{{{ordinated_by}}}}} }}
+
+| label18     = Consecration
+| data18      = {{br separated entries| {{{consecration|}}} | {{#if:{{{consecrated_by|}}}|by&nbsp;{{{consecrated_by}}}}} }}
+
+| label19     = Created Cardinal
+| data19      = {{{cardinal|}}}
+
+| label20     = Rank
+| data20      = {{{rank|}}}
+
+| header21    = {{#if:{{{birth_name|}}}{{{birth_date|}}}{{{birth_place|}}}{{{death_date|}}}{{{death_place|}}}{{{buried|{{{tomb|}}}}}}{{{nationality|}}}{{{religion|}}}{{{residence|}}}{{{parents|}}}{{{spouse|}}}{{{children|}}}{{{occupation|}}}{{{previous_post|}}}{{{profession|}}}{{{alma_mater|}}}{{{signature|}}}{{{coat_of_arms|}}}{{{motto|}}}|Personal details}}
+
+| label22     = Lagyu anyang mibait
+| data22      = {{{birth_name|}}}
+| class22     = nickname
+
+| label23     = Mibait
+| data23      = {{br separated entries| {{{birth_date|}}} | {{{birth_place|}}} }}
+
+| label24     = Mete
+| data24      = {{br separated entries| {{{death_date|}}} | {{{death_place|}}} }}
+
+| label25     = {{#ifeq:{{lc:{{{type|}}}}}|pope|[[List of extant papal tombs|Buried]]|Buried}}
+| data25      = {{br separated entries | {{{buried|{{{tomb|}}}}}} | {{{resting_place_coordinates|}}} }}
+
+| label26     = Nasyonalidad
+| data26      = {{{nationality|}}}
+| class26     = category
+
+| label27     = Denomination
+| data27      = {{{religion|}}}
+| class27     = category 
+
+| label28     = Tuknangan
+| data28      = {{{residence|}}}
+| class28     = label
+
+| label29     = Pengari
+| data29      = {{{parents|}}}
+
+| label30     = Asawa
+| data30      = {{{spouse|}}}
+
+| label31     = Ának
+| data31      = {{{children|}}}
+
+| label32    = Propesyon
+| data32      = {{{occupation|}}}
+
+| label33     = {{#if:{{{previous_post|}}}|Previous post|Profession}}
+| data33      = {{#if:{{{previous_post|}}}|{{{previous_post}}}|{{{profession|}}}}}
+
+| label34     = Pamagaral
+| data34      = {{{education|}}}
+
+| label35     = [[Pipagaralan]]
+| data35      = {{{alma_mater|}}}
+
+| label36     = Motto
+| data36      = {{{motto|}}}
+
+| label37     = Signature
+| data37      = {{#if:{{{signature|}}}|[[File:{{{signature}}}|125px|{{{name|{{{Full name|{{{English name|{{PAGENAME}} }}} }}} }}}'s signature|alt={{{signature_alt}}}]]}}
+
+| label38     = Sagkal ning armas
+| data38      = {{#if:{{{coat_of_arms|}}}|[[File:{{{coat_of_arms}}}|50px|{{{name|{{{Full name|{{{English name|{{PAGENAME}} }}} }}} }}}'s coat of arms|alt={{{coat_of_arms_alt}}}]]}}
+
+| header39    = {{#if:{{{feast_day|}}}{{{venerated|}}}{{{saint_title|}}}{{{beatified_date|}}}{{{beatified_place|}}}{{{beatified_by|}}}{{{canonized_date|}}}{{{canonized_place|}}}{{{canonized_by|}}}{{{attributes|}}}{{{patronage|}}}{{{shrine|}}}{{{suppressed_date|}}}|Sainthood}}
+
+| label40     = Fiesta
+| data40      = {{{feast_day|}}}
+
+| label41     = Venerated in
+| data41      = {{{venerated|}}}
+
+| label42     = Titulo antimong santo
+| data42      = {{{saint_title|}}}
+
+| label43     = Meging beato
+| data43      = {{br separated entries | {{{beatified_date|}}} | {{{beatified_place|}}} | {{#if:{{{beatified_by|}}}|by&nbsp;{{{beatified_by}}}}} }}
+
+| label44     = Meging santo
+| data44      = {{br separated entries | {{{canonized_date|}}} |{{{canonized_place|}}} | {{#if:{{{canonized_by|}}}|by&nbsp;{{{canonized_by}}}}} }}
+
+| label45     = Attributes
+| data45      = {{{attributes|}}}
+
+| label46     = Patronage
+| data46      = {{{patronage|}}}
+
+| label47     = Shrines
+| data47      = {{{shrine|}}}
+
+| label48     = Cult suppressed
+| data48      = {{{suppressed_date|}}}
+
+| below       = {{#if:{{{other|}}}|[[Pope {{{other}}} (disambiguation)|Other Popes {{#ifeq:{{lc:{{{type|}}}}}|antipope|and Antipopes}} named {{{other}}}]]}}
+}}{{#if:{{{image|}}}|{{#ifexist:media:{{{image}}}||[[Category:Infobox person using a missing image]]}}}}<noinclude>{{documentation}}<!-- place category and language links on the /doc page, not here --></noinclude>
