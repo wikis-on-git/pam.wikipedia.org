@@ -36,14 +36,14 @@
 | label8      = {{#if:{{{appointed|}}}|Appointed|Elected}}
 | data8       = {{#if:{{{appointed|}}}|{{{appointed}}}|{{{elected|}}}}} 
 
-| label9      = {{#if:{{{term|}}}|In Office|{{#switch:{{lc:{{{type|}}}}}|pope|antipope|coptic pope=Papacy began|#default=Enthroned}}}}
+| label9      = {{#if:{{{term|}}}|In Office|{{#switch:{{lc:{{{type|}}}}}|pope|antipope|coptic pope=Migumpisang meging papa|#default=Enthroned}}}}
 | data9       ={{#if:{{{term|}}}|{{{term}}}|{{{enthroned|{{{began|{{{term_start|}}} }}} }}} }}
 | rowclass9   = note
 
 | label10      = Quashed
 | data10       = {{{quashed|}}}
 
-| label11     = {{#switch:{{lc:{{{type|}}}}}|pope|antipope|coptic pope=Papacy ended|#default=Reign ended}}
+| label11     = {{#switch:{{lc:{{{type|}}}}}|pope|antipope|coptic pope=Miyaring meging papa|#default=Reign ended}}
 | data11      = {{#if:{{{term|}}}||{{{ended|{{{term_end|}}} }}} }}
 | rowclass11  = note
 
