@@ -1,0 +1,31 @@
+{{Navbox 
+| name      = BAFTA Award for Best Original Screenplay 1983–1999
+| title     = {{#if:{{{list only|}}}||[[BAFTA Award for Best Original Screenplay]] (1983–1999)}}
+| basestyle = background: #BDB76B
+| state     = {{{state|autocollapse}}}
+| border    = {{#if:{{{list only|}}}|child}}
+| bodyclass = hlist
+
+| list1 = 
+* [[Paul D. Zimmerman]] (1983)
+* [[Woody Allen]] (1984)
+* [[Woody Allen]] (1985)
+* [[Woody Allen]] (1986)
+* [[David Leland]] (1987)
+* [[Shawn Slovo]] (1988)
+* [[Nora Ephron]] (1989)
+* [[Giuseppe Tornatore]] (1990)
+* [[Anthony Minghella]] (1991)
+* [[Woody Allen]] (1992)
+* [[Harold Ramis]] and [[Danny Rubin]] (1993)
+* [[Roger Avary]] and [[Quentin Tarantino]] (1994)
+* [[Christopher McQuarrie]] (1995)
+* [[Mike Leigh]] (1996)
+* [[Gary Oldman]] (1997)
+* [[Andrew Niccol]] (1998)
+* [[Charlie Kaufman]] (1999)
+
+| below = {{#if:{{{list only|}}}||{{BAFTAAwardBestOriginalScreenplay footer}}}}
+}}<noinclude>
+{{collapsible option}}[[Category:BAFTA Award for Best Original Screenplay templates]]
+</noinclude>
