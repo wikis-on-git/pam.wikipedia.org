@@ -1,0 +1,15 @@
+{{ {{{|safesubst:}}}ifsubst |<includeonly>{{subst:Unsubst|Clarify| reason|{{{reason|¬}}}| pre-text|{{{pre-text|¬}}}| post-text|{{{post-text|¬}}}| date|{{{date|{{subst:CURRENTMONTHNAME}} {{subst:CURRENTYEAR}}}}} }}</includeonly>|
+
+{{Fix
+|link=Wikipedia:Please clarify
+|text=kailangan ing pamipalino
+|title={{{reason|The text in the vicinity of this tag needs clarification or removal of jargon}}}
+|date={{{date|}}}
+|pre-text={{{pre-text|}}}
+|post-text={{{post-text|}}}
+|cat-date=Category:Wikipedia articles needing clarification
+}}
+
+}}<noinclude>
+{{Documentation}}
+</noinclude>
