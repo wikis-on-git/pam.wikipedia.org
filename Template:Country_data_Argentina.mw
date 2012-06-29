@@ -1,0 +1,15 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Argentina
+| flag alias = Flag of Argentina.svg
+| flag alias-alt  = Flag of Argentina (alternative).svg
+| link alias-naval = Argentine Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = alt
+| redir1 = ARG
+| related1 = Argentine Confederation
+</noinclude>
+}}
