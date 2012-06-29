@@ -1,6 +1,6 @@
 {{Side box
  | class = noprint selfref
- | text = '''Ining {{#if:{{{dake|}}}|{{{section}}}|{{#if:{{SUBJECTSPACE}}|bulung|artikulu}}}} atin yang {{{special|[[Help:Special characters|espesyal a karakter]]}}}.''' Nung alang makabageng [[{{{fix|Help:Special characters}}}|rendering support]], malyaring deng akit mu {{{error|[[mojibake|question marks la, kahun, o aliwang simbolo]]}}}{{#if:{{{characters|}}}|&#32;instead of {{{characters}}}}}.
+ | text = '''Ining {{#if:{{{dake|}}}|{{{section}}}|{{#if:{{SUBJECTSPACE}}|bulung|artikulu}}}} atin yang {{{special|[[Help:Special characters|espesyal a karakter]]}}}.''' Nung alang makabageng [[{{{fix|Help:Special characters}}}|rendering support]], malyaring deng akit mu {{{error|[[mojibake|question marks la, kahun, o aliwang simbolo]]}}}{{#if:{{{characters|}}}|&#32;imbes na {{{characters}}}}}.
  | image = {{#if:{{{image|}}}
    | [[File:{{{image}}}|40x40px|link={{{link|}}}|alt={{{alt|}}}]] }}
  | style = width: {{#if:{{{width|}}}|{{{width}}}|22em}};
