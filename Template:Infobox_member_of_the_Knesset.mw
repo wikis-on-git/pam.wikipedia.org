@@ -1,0 +1,43 @@
+{{Infobox
+| bodyclass   = vcard
+
+| aboveclass  = fn
+| abovestyle  = background-color:#00008B;color:white;
+| above       = {{{name|{{{Name|{{PAGENAME}}}}}}}}
+
+| image      = {{#if:{{{image|}}}|[[File:{{{image}}}|{{px|{{{image_size|}}}|frameless}}|alt={{{alt|}}}]]}}
+| imageclass = {{image class names|{{{image}}}}}
+| caption     = {{{caption<includeonly>|</includeonly>}}}
+
+| label2      = {{nowrap|Date of birth}}
+| data2       = {{nowrap|{{{birth_date<includeonly>|</includeonly>}}}}}
+
+| label3      = {{nowrap|Place of birth}}
+| data3       = {{nowrap|{{{birth_place<includeonly>|</includeonly>}}}}}
+
+| label4      = Year of [[aliyah]]
+| data4       = {{{Year of Aliyah<includeonly>|</includeonly>}}}
+
+| label5      = Date of death
+| data5       = {{{death_date<includeonly>|</includeonly>}}}
+
+| label6      = Place of death
+| data6       = {{{death_place<includeonly>|</includeonly>}}}
+
+| label7      = Knessets
+| data7       = {{{Knesset(s)<includeonly>|</includeonly>}}}
+
+| class8      = org
+| label8      = Party
+| data8       = {{nowrap|{{{Party<includeonly>|</includeonly>}}}}}
+
+| label9      = {{nowrap|Former parties}}
+| data9       = {{{Former parties<includeonly>|</includeonly>}}}
+
+| class10     = role
+| label10     = {{nowrap|Ministerial posts}}{{#if: {{{death_date|}}}||{{#if: {{{death_place|}}}||{{#ifeq: {{{out|no}}}|no|<br><small>(current in bold)</small>|}}}}}}
+| data10      = {{{Gov't roles<includeonly>|</includeonly>}}}
+
+}}<noinclude>{{documentation}}
+{{template sandbox notice}}
+</noinclude>
