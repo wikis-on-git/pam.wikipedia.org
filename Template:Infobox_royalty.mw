@@ -177,7 +177,7 @@
 {{!}}-
 }}
 {{#if: {{{spouse|}}}|
-! {{{spouse-type|{{#switch:{{{type}}}|monarch={{#switch:{{{consort}}}|yes=Spouse|<!--BACKWARD COMPAT FROM IBR-->{{#switch:{{{2}}}|consort=Spouse|Consort}}<!--BACKWARD COMPAT FROM IBR-->}}|majesty={{#switch:{{{consort}}}|yes=Spouse|<!--BACKWARD COMPAT FROM IBR-->{{#switch:{{{2}}}|consort=Spouse|Consort}}<!--BACKWARD COMPAT FROM IBR-->}}|Spouse}}}}}
+! {{{spouse-type|{{#switch:{{{type}}}|monarch={{#switch:{{{consort}}}|yes=Asawa|<!--BACKWARD COMPAT FROM IBR-->{{#switch:{{{2}}}|consort=Spouse|Consort}}<!--BACKWARD COMPAT FROM IBR-->}}|majesty={{#switch:{{{consort}}}|yes=Spouse|<!--BACKWARD COMPAT FROM IBR-->{{#switch:{{{2}}}|consort=Spouse|Consort}}<!--BACKWARD COMPAT FROM IBR-->}}|Asawa}}}}}
 {{!}} {{{spouse}}}
 {{!}}-
 }}
@@ -232,12 +232,12 @@
 {{!}}-
 }}
 {{#if:{{{birth_date|}}}{{{birth_place|}}}|
-! Born
+! Mibait
 {{!}} {{br separated entries| {{{birth_date|}}} | {{{birth_place|}}} }}
 {{!}}-
 }}
 {{#if:{{{death_date|}}}{{{death_place|}}}|
-! Died
+! Mete
 {{!}} {{br separated entries| {{{death_date|}}} | {{{death_place|}}} }}
 {{!}}-
 }}
@@ -257,7 +257,7 @@
 {{!}}-
 }}
 {{#if: {{{religion|}}}|
-! Religion
+! Relihyun
 {{!}} {{{religion}}}
 {{!}}-
 }}
