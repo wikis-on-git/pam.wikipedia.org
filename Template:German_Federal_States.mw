@@ -1,25 +1,39 @@
 <div style="position: relative; {{{options|<!-- this tests fine, which is what I needed: float:right -->}}};">
 [[Image:Karte Bundesrepublik Deutschland.svg|300px]]
-{{Image label|x=-54.0|y=-118.0|scale={{{width|-1}}}|text=[[Image:Coat of arms of Lower Saxony.svg|15px]] '''[[Lower Saxony]]'''}}
-{{Image label|x=-79.0|y=-92.0|scale={{{width|-1}}}|text=[[Image:Bremen Wappen(Mittel).svg|15px]]  '''[[Bremen (state)|Bremen]]'''}}
-{{Image label|x=-114.0|y=-70.0|scale={{{width|-1}}}|text=[[Image:Coat of arms of Hamburg.svg|15px]] ''' [[Hamburg]]'''}}
-{{Image label|x=-197.0|y=-52.0|scale={{{width|-1}}}|text=[[Image:Coat of arms of Mecklenburg-Western Pomerania (great).svg|15px]] '''[[Mecklenburg-Vorpommern|Mecklenburg-<br />Vorpommern]]'''}}
-{{Image label|x=-162.0|y=-160.0|scale={{{width|-1}}}|text=[[Image:Wappen Sachsen-Anhalt.svg|15px]] '''[[Saxony-Anhalt|Saxony-<br />Anhalt]]'''}}
-{{Image label|x=-233.0|y=-197.0|scale={{{width|-1}}}|text=[[Image:Coat of arms of Saxony.svg|15px]] '''[[Saxony]]'''}}
-{{Image label|x=-201.0|y=-102.0|scale={{{width|-1}}}|text=[[Image:Brandenburg Wappen.svg|15px]] '''[[Brandenburg]]'''}}
-{{Image label|x=-223.0|y=-128.0|scale={{{width|-1}}}|text=[[Image:Coat of arms of Berlin.svg|15px]] '''[[Berlin]]'''}}
-{{Image label|x=-144.0|y=-212.0|scale={{{width|-1}}}|text=[[Image:Coat of arms of Thuringia.svg|15px]] '''[[Thuringia]]'''}}
-{{Image label|x=-83.0|y=-230.0|scale={{{width|-1}}}|text=[[Image:Coat of arms of Hesse.svg|15px]] '''[[Hesse]]'''}}
-{{Image label|x=-20.0|y=-170.0|scale={{{width|-1}}}|text=[[Image:Coat of arms of North Rhine-Westfalia.svg|15px]] '''[[North Rhine-Westphalia|North Rhine-<br />Westphalia]]'''}}
-{{Image label|x=-14.0|y=-249.0|scale={{{width|-1}}}|text=[[Image:Coat of arms of Rhineland-Palatinate.svg|15px]] '''[[Rhineland-Palatinate|Rhineland-<br />Palatinate]]'''}}
-{{Image label|x=-172.0|y=-314.0|scale={{{width|-1}}}|text=[[Image:Bayern Wappen.svg|15px]] '''[[Bavaria]]'''}}
-{{Image label|x=-65.0|y=-335.0|scale={{{width|-1}}}|text=[[Image:Coat of arms of Baden-Württemberg (lesser).svg|15px]] '''[[Baden-Württemberg|Baden-<br />Württemberg]]'''}}
-{{Image label|x=-25.0|y=-295.0|scale={{{width|-1}}}|text=[[Image:Coa de-saarland.svg|15px]] '''[[Saarland]]'''}}
-{{Image label|x=-104.0|y=-17.0|scale={{{width|-1}}}|text=[[Image:Coat of arms of Schleswig-Holstein.svg|15px]] '''[[Schleswig-Holstein|Schleswig-<br />Holstein]]'''}}
+{{Image label|x=-54.0|y=-118.0|scale={{{width|-1}}}|text=[[File:Coat of arms of Lower Saxony.svg|15px]] '''[[Lower Saxony]]'''}}
+{{Image label|x=-79.0|y=-92.0|scale={{{width|-1}}}|text=[[File:Bremen Wappen(Mittel).svg|15px]]  '''[[Bremen (state)|Bremen]]'''}}
+{{Image label|x=-114.0|y=-70.0|scale={{{width|-1}}}|text=[[File:Coat of arms of Hamburg.svg|15px]] ''' [[Hamburg]]'''}}
+{{Image label|x=-197.0|y=-52.0|scale={{{width|-1}}}|text=[[File:Coat of arms of Mecklenburg-Western Pomerania (great).svg|15px]] '''[[Mecklenburg-Vorpommern|Mecklenburg-<br />Vorpommern]]'''}}
+{{Image label|x=-162.0|y=-160.0|scale={{{width|-1}}}|text=[[File:Wappen Sachsen-Anhalt.svg|15px]] '''[[Saxony-Anhalt|Saxony-<br />Anhalt]]'''}}
+{{Image label|x=-233.0|y=-197.0|scale={{{width|-1}}}|text=[[File:Coat of arms of Saxony.svg|15px]] '''[[Saxony]]'''}}
+{{Image label|x=-201.0|y=-102.0|scale={{{width|-1}}}|text=[[File:Brandenburg Wappen.svg|15px]] '''[[Brandenburg]]'''}}
+{{Image label|x=-223.0|y=-128.0|scale={{{width|-1}}}|text=[[File:Coat of arms of Berlin.svg|15px]] '''[[Berlin]]'''}}
+{{Image label|x=-144.0|y=-212.0|scale={{{width|-1}}}|text=[[File:Coat of arms of Thuringia.svg|15px]] '''[[Thuringia]]'''}}
+{{Image label|x=-83.0|y=-230.0|scale={{{width|-1}}}|text=[[File:Coat of arms of Hesse.svg|15px]] '''[[Hesse]]'''}}
+{{Image label|x=-20.0|y=-170.0|scale={{{width|-1}}}|text=[[File:Coat of arms of North Rhine-Westfalia.svg|15px]] '''[[North Rhine-Westphalia|North Rhine-<br />Westphalia]]'''}}
+{{Image label|x=-14.0|y=-249.0|scale={{{width|-1}}}|text=[[File:Coat of arms of Rhineland-Palatinate.svg|15px]] '''[[Rhineland-Palatinate|Rhineland-<br />Palatinate]]'''}}
+{{Image label|x=-172.0|y=-314.0|scale={{{width|-1}}}|text=[[File:Bayern Wappen.svg|15px]] '''[[Bavaria]]'''}}
+{{Image label|x=-65.0|y=-335.0|scale={{{width|-1}}}|text=[[File:Coat of arms of Baden-Württemberg (lesser).svg|15px]] '''[[Baden-Württemberg|Baden-<br />Württemberg]]'''}}
+{{Image label|x=-25.0|y=-295.0|scale={{{width|-1}}}|text=[[File:Wappen des Saarlands.svg|15px]] '''[[Saarland]]'''}}
+{{Image label|x=-104.0|y=-17.0|scale={{{width|-1}}}|text=[[File:Coat of arms of Schleswig-Holstein.svg|15px]] '''[[Schleswig-Holstein|Schleswig-<br />Holstein]]'''}}
 </div><noinclude>
+[[als:Vorlage:Deutsche Bundesländer]]
+[[ar:قالب:خارطة ولايات ألمانيا]]
 [[bg:Шаблон:Германски федерални провинции]]
 [[cs:Šablona:Německé spolkové země]]
 [[de:Vorlage:Deutsche Bundesländer]]
-[[eo:Ŝablono:Federaciaj landoj de Germanio]]
+[[en:Template:German Federal States]]
+[[eo:Ŝablono:Federaciaj landoj sur mapo de Germanio]]
+[[fr:Modèle:Länder d'Allemagne 2]]
 [[hsb:Předłoha:Němske zwjazkowe kraje]]
-[[ksh:Schablon:Navvi Bundesländor Deutschland - Beld]]</noinclude>
+[[ka:თარგი:გერმანიის ფედერაციული მიწები]]
+[[ksh:Schablon:Navvi Bundesländor Deutschland - Beld]]
+[[lt:Šablonas:Vokietijos suskirstymas]]
+[[os:Шаблон:Германы зæххыты картæ]]
+[[ro:Format:Land german]]
+[[ru:Шаблон:Карта Земель Германии]]
+[[sl:Predloga:Dežele ZR Nemčije]]
+[[sv:Mall:Tysklands förbundsländer]]
+[[tr:Şablon:Almanya'nın eyaletler haritası]]
+[[uk:Шаблон:Федеральні землі Німеччини]]
+</noinclude>
