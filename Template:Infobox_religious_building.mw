@@ -31,7 +31,7 @@
 ! colspan="2" style="text-align:center; background-color:{{Infobox religious building/color|{{{religious_affiliation}}}}}" | Basic information
 |-
 {{#if:{{{location|<noinclude>x</noinclude>}}}|
-! Location
+! Lugal
 {{!}} {{{location}}}
 {{!}}-
 }}
