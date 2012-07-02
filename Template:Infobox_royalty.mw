@@ -187,7 +187,7 @@
 {{!}}-
 }}
 {{#if:{{{issue|}}} |
-! colspan=2 {{!}} {{#if:{{{issue-link|}}}|<div style="float: right"><small>''[[{{{issue-link}}}{{!}}{{#if:{{{issue-pipe|}}}|{{{issue-pipe}}}|Detail}}]]''</small></div>}}Issue
+! colspan=2 {{!}} {{#if:{{{issue-link|}}}|<div style="float: right"><small>''[[{{{issue-link}}}{{!}}{{#if:{{{issue-pipe|}}}|{{{issue-pipe}}}|Detail}}]]''</small></div>}}Ának
 {{!}}-
 {{!}} colspan=2 style="text-align: left" {{!}} {{{issue}}}
 {{!}}-
