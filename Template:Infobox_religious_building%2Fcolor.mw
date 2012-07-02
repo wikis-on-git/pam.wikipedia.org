@@ -1,0 +1,64 @@
+<nowiki>#</nowiki>{{#switch:{{{1}}}
+| [[Anglican]]
+| [[Anglicanism|Anglican]]
+| [[Anglicanism]]
+| [[Anglicanism]]
+| [[Armenian Apostolic church]] | [[Armenian Apostolic Church]] | [[AAC]] | [[AAC]] | Armenian Apostolic church = FFCF00
+| [[Episcopal Church in the United States of America]]
+| [[Episcopal Church in the United States of America|ECUSA]]
+| [[Episcopal Church (United States)]]
+| [[Episcopal Church (United States)|Episcopal Church]]
+| [[Church of England]]          = ECACDE
+| [[Coptic Orthodox Church of Alexandria|Coptic Orthodox Church]]
+| [[Coptic Orthodox Church]]
+| [[Coptic]]                     = 56A8FF
+| [[Buddhist]]
+| [[Buddhism]]                   = FFCC33
+| [[Hinduism]]                   = FF8C80
+| [[Islam]]                      = 9BE89B
+| [[Haredi Judaism]]
+| [[Hasidic Judaism]]
+| [[Orthodox Judaism]]
+| [[Modern Orthodox Judaism]]
+| [[Conservative Judaism]]
+| [[Neolog Judaism]]             = 9BB4EB
+| [[Reconstructionist Judaism]]
+| [[Reform Judaism]]             = 87CEFA
+| [[Judaism]]                    = ADD8E6
+| [[Roman Catholic Church|Roman Catholic]]
+| [[Roman Catholic Church]]
+| [[Roman Catholic]]
+| [[Catholic]]                   = FFCC99
+| [[Shia Islam|Shia]]
+| [[Shia Islam|Shia (Twelver)]]
+| [[Shia Islam]]
+| [[Shia]]                       = ABE9CC
+| [[Sunni Islam|Sunni]]
+| [[Sunni Islam]]
+| [[Sunni]]                      = CCFFCC
+| [[Eastern Orthodox]]
+| [[Georgian Orthodox]] 
+| [[Georgian Orthodox Church]] 
+| [[Georgian Orthodox Church|Georgian Orthodox]]
+| [[Greek Orthodox Church]]
+| [[Russian Orthodox]]
+| [[Bulgarian Orthodox Church]]
+| [[Bulgarian Orthodox]]
+| [[Serbian Orthodox Church]]
+| [[Serbian Orthodox]]           = FFCF00
+| [[Syriac Orthodox]]
+| [[Syriac Catholic]]
+| [[Maronite Catholic]]
+| [[Chaldean Catholic]]
+| [[Assyrian Church of the East]]= CCB2FF
+| [[Bahá'í Faith|Bahá'í]]
+| [[Bahá'í]]
+| [[Bahá'í Faith]]               = FF8C00
+| #default                       = D3D3D3
+}}<noinclude>
+{{documentation|content=
+This subtemplate is used to determine the section coloring in {{tl|Infobox religious building}}.
+
+A list of the colors can be found in the corresponding [[Template:Infobox religious building/doc|documentation]].
+}}
+</noinclude>
