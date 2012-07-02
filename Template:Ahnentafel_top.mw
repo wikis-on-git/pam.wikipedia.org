@@ -1,0 +1,6 @@
+{| class="navbox collapsible collapsed {{#ifeq:{{{collapsed|}}}|yes|collapsed|uncollapsed}}" style="width:{{{width|auto}}};"
+! style="background:none;width:{{{width|70em}}};" | {{{1|Deng pipumpunan nang {{PAGENAME}}}}}
+|-
+|<noinclude>
+|}
+{{documentation}}</noinclude>
