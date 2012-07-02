@@ -1,0 +1,369 @@
+{| class="infobox vcard" style="font-size:90%; width:{{px|{{{infobox_width|}}}|300px}}; text-align:left"
+|- style="background-color:{{Infobox religious building/color|{{{religious_affiliation}}}}}"
+! colspan="2" class="fn org" style="font-size:larger; text-align:center" | {{{building_name}}}
+|-
+{{#if:{{{image|<noinclude>x</noinclude>}}}|
+{{!}} colspan="2" style="text-align:center;" {{!}} [[File:{{{image}}}|{{#if:{{{image_size|<noinclude>x</noinclude>}}}|{{{image_size}}}|250px}}|alt={{{alt<includeonly>|</includeonly>}}}]]
+}}
+{{{caption<includeonly>|</includeonly>}}}
+<!--Row for map if there is an image-->
+|-
+{{#if:{{both|{{{map_type|}}}|{{{latitude|}}}}}|
+{{!}}-
+{{!}} colspan="2" style="font-size:smaller; text-align:center" {{!}} <center>{{Location map
+ |{{{map_type}}}
+ |lat={{{latitude|}}}
+ |long={{{longitude|}}}
+ |width={{#if:{{{map_size|}}}|{{{map_size}}}|300}}
+ |float=center
+ |border=none
+ |caption={{#if:{{{map_caption|}}}|{{{map_caption}}}|Shown within {{{map_type}}}}}
+ |mark={{#switch:{{{religious_affiliation|}}}
+   | [[Armenian Apostolic Church]] = Set01-church1.svg
+   | [[Mekhitarist Order]] = Set01-church1.svg
+   | #default = }}
+ |marksize = {{#switch:{{{religious_affiliation|}}}
+   | [[Armenian Apostolic Church]] = 16
+   | [[Mekhitarist Order]] = 16
+   | #default = }}
+}}</center>}}
+|-
+! colspan="2" style="text-align:center; background-color:{{Infobox religious building/color|{{{religious_affiliation}}}}}" | Basic information
+|-
+{{#if:{{{location|<noinclude>x</noinclude>}}}|
+! Location
+{{!}} {{{location}}}
+{{!}}-
+}}
+{{#if:{{{geo|<noinclude>x</noinclude>}}}|
+! [[Geographic coordinate system|Geographic coordinates]]
+{{!}} {{{geo}}}
+{{!}}-
+}}
+{{#if:{{{latitude|<noinclude>x</noinclude>}}}|
+! [[Geographic coordinate system|Geographic coordinates]]
+{{!}} {{coord|{{{latitude<noinclude>|0</noinclude>}}}|{{{longitude<noinclude>|0</noinclude>}}}|{{#if:{{{coordinates_type|}}}|{{{coordinates_type}}}|type:landmark}}{{#if:{{{coord_region|}}}|_region:{{{coord_region}}}}}|format={{{coordinates_format|}}}|display=inline,title}}
+}}
+|- class="note"
+{{#if:{{{religious_affiliation|<noinclude>x</noinclude>}}}|
+! [[List of religions and spiritual traditions|Affiliation]]
+{{!}} {{{religious_affiliation}}}
+{{!}}-
+}}
+{{#if:{{{rite|<noinclude>x</noinclude>}}}|
+! [[Nusach|Rite]]
+{{!}} {{{rite}}}
+{{!}}-
+}}
+{{#if:{{{region|<noinclude>x</noinclude>}}}|
+! Rehiyon/Labwad
+{{!}} {{{region}}}
+{{!}}-
+}}
+{{#if:{{{state|<noinclude>x</noinclude>}}}|
+! Estado
+{{!}} {{{state}}}
+{{!}}-
+}}
+{{#if:{{{province|<noinclude>x</noinclude>}}}|
+! Lalawigan
+{{!}} {{{province}}}
+{{!}}-
+}}
+{{#if:{{{territory|<noinclude>x</noinclude>}}}|
+! Teritoryu
+{{!}} {{{territory}}}
+{{!}}-
+}}
+{{#if:{{{prefecture|<noinclude>x</noinclude>}}}|
+! Prefecture
+{{!}} {{{prefecture}}}
+{{!}}-
+}}
+{{#if:{{{district|<noinclude>x</noinclude>}}}|
+! Distritu
+{{!}} <span class="label">{{{district}}}</span>
+{{!}}-
+}}
+{{#if:{{{sector|<noinclude>x</noinclude>}}}|
+! Sektor
+{{!}} <span class="label">{{{sector}}}</span>
+{{!}}-
+}}
+{{#if:{{{cercle|<noinclude>x</noinclude>}}}|
+! Cercle
+{{!}} <span class="label">{{{cercle}}}</span>
+{{!}}-
+}}
+{{#if:{{{municipality|<noinclude>x</noinclude>}}}|
+! Munisipalidad
+{{!}} <span class="label">{{{municipality}}}</span>
+{{!}}-
+}}
+{{#if:{{{consecration_year|<noinclude>x</noinclude>}}}|
+! Year consecrated
+{{!}} {{{consecration_year}}}
+{{!}}-
+}}
+{{#if:{{{status|<noinclude>x</noinclude>}}}|
+! [[Ecclesiastical polity|Ecclesiastical or organizational status]]
+{{!}} {{{status}}}
+{{!}}-
+}}
+{{#if:{{{functional_status|<noinclude>x</noinclude>}}}|
+! Kabilyan
+{{!}} {{{functional_status}}}
+{{!}}-
+}}
+{{#if:{{{heritage_designation|<noinclude>x</noinclude>}}}|
+! Heritage designation
+{{!}} {{{heritage_designation}}}
+{{!}}-
+}}
+{{#if:{{{leadership|<noinclude>x</noinclude>}}}|
+! Leadership
+{{!}} {{{leadership}}}
+{{!}}-
+}}
+{{#if:{{{website|<noinclude>x</noinclude>}}}|
+! Website/Karinan-Aptas
+{{!}} {{{website}}}
+{{!}}-
+}}
+{{#ifeq:{{{architecture|yes}}}|yes|
+! colspan="2" style="text-align:center; background-color:{{Infobox religious building/color|{{{religious_affiliation}}}}}" {{!}} Architectural description
+{{!}}- class="note"
+{{#if:{{{architect|<noinclude>x</noinclude>}}}|
+! [[Arkitektu]]
+{{!}} {{{architect}}}
+{{!}}-
+}}
+{{#if:{{{architecture_type|<noinclude>x</noinclude>}}}|
+! Architectural type
+{{!}} {{{architecture_type}}}
+{{!}}-
+}}
+{{#if:{{{architecture_style|<noinclude>x</noinclude>}}}|
+! [[Architectural style]]
+{{!}} {{{architecture_style}}}
+{{!}}-
+}}
+{{#if:{{{founded_by||<noinclude>x</noinclude>}}}|
+! Talatátag
+{{!}} {{{founded_by}}}
+{{!}}-
+}}
+{{#if:{{{funded_by||<noinclude>x</noinclude>}}}|
+! Funded by
+{{!}} {{{funded_by}}}
+{{!}}-
+}}
+{{#if:{{{general_contractor|<noinclude>x</noinclude>}}}|
+! [[General contractor]]
+{{!}} {{{general_contractor}}}
+{{!}}-
+}}
+{{#if:{{{facade_direction|<noinclude>x</noinclude>}}}|
+! Direction of façade
+{{!}} {{{facade_direction}}}
+{{!}}- class="note"
+}}
+{{#if:{{{groundbreaking|<noinclude>x</noinclude>}}}|
+! Groundbreaking
+{{!}} {{{groundbreaking}}}
+{{!}}-
+}}
+{{!}}- class="note"
+{{#if:{{{year_completed|<noinclude>x</noinclude>}}}|
+! Meyari
+{{!}} {{{year_completed}}}
+{{!}}-
+}}
+{{#if:{{{construction_cost|<noinclude>x</noinclude>}}}|
+! Construction cost
+{{!}} {{{construction_cost}}}
+}}
+{{!}}-
+}}
+{{#ifeq:{{{specifications|yes}}}|yes|
+! colspan="2" style="text-align:center; background-color:{{Infobox religious building/color|{{{religious_affiliation}}}}}" {{!}} Specifications
+{{!}}-
+{{#if:{{{capacity|<noinclude>x</noinclude>}}}|
+! Bilang da reng mipagyu
+{{!}} {{{capacity}}}
+{{!}}-
+}}
+{{#if:{{{length|<noinclude>x</noinclude>}}}|
+! Kaba
+{{!}} {{{length}}}
+{{!}}-
+}}
+{{#if:{{{width|<noinclude>x</noinclude>}}}|
+! Lapad
+{{!}} {{{width}}}
+{{!}}-
+}}
+{{#if:{{{width_nave|<noinclude>x</noinclude>}}}|
+! Lapad ([[nave]])
+{{!}} {{{width_nave}}}
+{{!}}-
+}}
+{{#if:{{{height_max|<noinclude>x</noinclude>}}}|
+! Katas (max)
+{{!}} {{{height_max}}}
+{{!}}-
+}}
+{{#if:{{{dome_quantity|<noinclude>x</noinclude>}}}|
+! [[Dome]](s)
+{{!}} {{{dome_quantity}}}
+{{!}}-
+}}
+{{#if:{{{dome_height_outer|<noinclude>x</noinclude>}}}|
+! Dome height (outer)
+{{!}} {{{dome_height_outer}}}
+{{!}}-
+}}
+{{#if:{{{dome_height_inner|<noinclude>x</noinclude>}}}|
+! Dome height (inner)
+{{!}} {{{dome_height_inner}}}
+{{!}}-
+}}
+{{#if:{{{dome_dia_outer|<noinclude>x</noinclude>}}}|
+! Dome dia. (outer)
+{{!}} {{{dome_dia_outer}}}
+{{!}}-
+}}
+{{#if:{{{dome_dia_inner|<noinclude>x</noinclude>}}}|
+! Dome dia. (inner)
+{{!}} {{{dome_dia_inner}}}
+{{!}}-
+}}
+{{#if:{{{minaret_quantity|<noinclude>x</noinclude>}}}|
+! [[Minaret]](s)
+{{!}} {{{minaret_quantity}}}
+{{!}}-
+}}
+{{#if:{{{minaret_height|<noinclude>x</noinclude>}}}|
+! Minaret height
+{{!}} {{{minaret_height}}}
+{{!}}-
+}}
+{{#if:{{{spire_quantity|<noinclude>x</noinclude>}}}|
+! [[Spire]](s)
+{{!}} {{{spire_quantity}}}
+{{!}}-
+}}
+{{#if:{{{spire_height|<noinclude>x</noinclude>}}}|
+! Spire height
+{{!}} {{{spire_height}}}
+{{!}}-
+}}
+{{#if:{{{materials|<noinclude>x</noinclude>}}}|
+! [[Building material|Materials]]
+{{!}} {{{materials}}}
+}}
+{{!}}-
+}}
+{{#ifeq:{{{nrhp|<noinclude>yes</noinclude>}}}|yes|
+! colspan="2" style="text-align:center; background-color:{{Infobox religious building/color|{{{religious_affiliation}}}}}" {{!}} {{#if:{{{designated|}}}|[[United States|U.S.]] [[National Historic Landmark]]|[[United States|U.S.]] [[National Register of Historic Places]]}}
+{{!}}-
+{{#if:{{{added|<noinclude>x</noinclude>}}}|
+! Added to [[National Register of Historic Places|NRHP]]:
+{{!}} {{{added}}}
+{{!}}-
+}}
+{{#if:{{{refnum|<noinclude>x</noinclude>}}}|
+! NRHP Reference#:
+{{!}} {{{refnum}}} }}
+{{!}}-
+}}
+{{#if:{{{designated|<noinclude>x</noinclude>}}}|
+! Designated as [[National Historic Landmark|NHL]]:
+{{!}} {{{designated}}}
+{{!}}-
+}}
+|-<!--designation1 section-->
+{{designation|{{{designation1<includeonly>|</includeonly>}}}|delisted={{{delisted1_date|}}}}}
+|-
+{{#if:{{{designation1_offname<includeonly>|</includeonly>}}}|
+{{!}} colspan=2 style="text-align:center;" {{!}} ''Official name: {{{designation1_offname}}}''}}
+|-
+{{#if:{{{designation1_type<includeonly>|</includeonly>}}}|
+{{!}}'''Type:'''
+{{!}}{{{designation1_type}}}}}
+|-
+{{#if:{{{designation1_criteria<includeonly>|</includeonly>}}}|
+{{!}}'''Criteria:'''
+{{!}}{{{designation1_criteria}}}}}
+|-
+{{#if:{{{designation1_date<includeonly>|</includeonly>}}}|
+{{!}}'''Designated:'''
+{{!}}{{{designation1_date}}}}}
+|-
+{{#if:{{{delisted1_date<includeonly>|</includeonly>}}}|
+{{!}}'''Delisted:'''
+{{!}}{{{delisted1_date}}}}}
+|-
+{{#if:{{{designation1_parent<includeonly>|</includeonly>}}}|
+{{!}}'''Parent listing:'''
+{{!}}{{{designation1_parent}}}}}
+|-
+{{#if:{{{designation1_number<includeonly>|</includeonly>}}}|
+{{!}}'''Reference #:'''
+{{!}}{{{designation1_number}}}}}
+|-
+{{#if:{{{designation1_free1name<includeonly>|</includeonly>}}}|
+{{!}}'''{{{designation1_free1name}}}:'''
+{{!}}{{{designation1_free1value}}}}}
+|-
+{{#if:{{{designation1_free2name<includeonly>|</includeonly>}}}|
+{{!}}'''{{{designation1_free2name}}}:'''
+{{!}}{{{designation1_free2value}}}}}
+|-
+{{#if:{{{designation1_free3name<includeonly>|</includeonly>}}}|
+{{!}}'''{{{designation1_free3name}}}:'''
+{{!}}{{{designation1_free3value}}}}}
+|-<!--designation2 section-->
+{{designation|{{{designation2<includeonly>|</includeonly>}}}|delisted={{{delisted2_date|}}}}}
+|-
+{{#if:{{{designation2_offname<includeonly>|</includeonly>}}}|
+{{!}} colspan=2 style="text-align:center;" {{!}} ''Official name: {{{designation2_offname}}}''}}
+|-
+{{#if:{{{designation2_type<includeonly>|</includeonly>}}}|
+{{!}}'''Type:'''
+{{!}}{{{designation2_type}}}}}
+|-
+{{#if:{{{designation2_criteria<includeonly>|</includeonly>}}}|
+{{!}}'''Criteria:'''
+{{!}}{{{designation2_criteria}}}}}
+|-
+{{#if:{{{designation2_date<includeonly>|</includeonly>}}}|
+{{!}}'''Designated:'''
+{{!}}{{{designation2_date}}}}}
+|-
+{{#if:{{{delisted2_date<includeonly>|</includeonly>}}}|
+{{!}}'''Delisted:'''
+{{!}}{{{delisted2_date}}}}}
+|-
+{{#if:{{{designation2_parent<includeonly>|</includeonly>}}}|
+{{!}}'''Parent listing:'''
+{{!}}{{{designation2_parent}}}}}
+|-
+{{#if:{{{designation2_number<includeonly>|</includeonly>}}}|
+{{!}}'''Reference #:'''
+{{!}}{{{designation2_number}}}}}
+|-
+{{#if:{{{designation2_free1name<includeonly>|</includeonly>}}}|
+{{!}}'''{{{designation2_free1name}}}:'''
+{{!}}{{{designation2_free1value}}}}}
+|-
+{{#if:{{{designation2_free2name<includeonly>|</includeonly>}}}|
+{{!}}'''{{{designation2_free2name}}}:'''
+{{!}}{{{designation2_free2value}}}}}
+|-
+{{#if:{{{designation2_free3name<includeonly>|</includeonly>}}}|
+{{!}}'''{{{designation2_free3name}}}:'''
+{{!}}{{{designation2_free3value}}}}}
+|}<noinclude>
+{{documentation}}
+</noinclude>
