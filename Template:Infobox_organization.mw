@@ -1,0 +1,83 @@
+{{ infobox
+| bodyclass = vcard
+| above     = {{{name|<includeonly>{{PAGENAME}}</includeonly>}}}
+| aboveclass= fn org
+| abovestyle = background: {{ifempty|{{{bgcolor|}}}|none}}; color: {{ifempty|{{{fgcolor|}}}|#000}};
+| image = {{#if:{{{image|{{{image_border|}}}}}}|[[Image:{{{image|{{{image_border}}}}}}|{{#if:{{{size|}}}|{{{size}}}|200px}}|alt={{{alt|}}}]]|{{{image2|}}}}}
+| caption   = {{{caption|}}}
+
+| data1     = {{#if:{{{map|}}}|[[Image:{{{map}}}|{{#if:{{{msize|}}}|{{{msize}}}|250px}}|alt={{{malt|}}}]]{{#if:{{{mcaption|}}}|<br/>{{{mcaption}}}}}}}
+| data2     = {{{map2|}}}
+
+| label3    = Abbreviation
+| class3    = palayo
+| data3     = {{{abbreviation|}}}
+| label4    = Motto
+| class4    = note
+| data4     = {{{motto|}}}
+| label5     = Mumuna
+| data5      = {{{predecessor|}}}
+| label6     = Menalili
+| data6      = {{{successor|}}}
+| label7    = Alkus
+| class7    = note
+| data7     = {{{formation|}}}
+
+| label8    = Pangawala
+| data8     = {{{extinction|}}}
+| label9    = Type
+| data9     = {{{type|}}}
+| label10   = Legal&nbsp;status
+| data10    = {{{status|}}}
+| label11   = Purpose/focus
+| data11    = {{{purpose|}}}
+| label12   = Headquarters
+| data12    = {{{headquarters|}}}
+| label13   = Karinan
+| class13   = label
+| data13    = {{{location|}}}
+| label14   = Coordinates
+| data14    = {{{coords|}}}
+| label15   = Region&nbsp;served
+| data15    = {{{region_served|}}}
+| label16   = Membership
+| data16    = {{{membership|}}}
+| label17   = Official&nbsp;languages
+| data17    = {{{language|}}}
+| label18   = Secretary&nbsp;General
+| data18    = {{{general|}}}
+| label19   = {{#if:{{{leader_title|}}}|{{{leader_title}}}|Leader}}
+| data19    = {{{leader_name|}}}
+| label20   = {{{leader_title2|}}}
+| data20    = {{{leader_name2|}}}
+| label21   = {{{leader_title3|}}}
+| data21    = {{{leader_name3|}}}
+| label22   = {{{leader_title4|}}}
+| data22    = {{{leader_name4|}}}
+| label23   = Manimunang tau
+| data23    = {{{key_people|}}}
+| label24   = Main&nbsp;organ
+| data24    = {{{main_organ|}}}
+| label25   = Parent&nbsp;organization
+| data25    = {{{parent_organization|}}}
+| label26   = Affiliations
+| data26    = {{{affiliations|}}}
+| label27   = Budget
+| data27    = {{{budget|}}}
+| label28   = Staff
+| data28    = {{{num_staff|}}}
+| label29   = Volunteers
+| data29    = {{{num_volunteers|}}}
+| label30   = Website
+| class30   = url
+| data30    = {{{website|}}}
+| label31   = Remarks
+| class31   = note
+| data31    = {{{remarks|}}}
+| label32   = Former name 
+| class32   = note
+| data32    = {{{former name|}}}
+}}<noinclude>
+{{documentation}}
+<!--Please add any interwiki links etc on the /doc page, not here - thanks!-->
+</noinclude>
