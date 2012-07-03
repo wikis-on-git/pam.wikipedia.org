@@ -1,2 +1,2 @@
-<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Hindustani:&nbsp;|langhi=Hindi:&nbsp;|langur=Urdu:&nbsp;|pron=pronounced&nbsp;|hi=Hindi pronunciation:&nbsp;|ur=Urdu pronunciation:&nbsp;|=|Hindustani pronunciation:&nbsp;}}</small>{{IPA|[[WP:IPA for Hindi and Urdu|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Hindustani:&nbsp;|langhi=Hindi:&nbsp;|langur=Urdu:&nbsp;|pron=ágkas yang&nbsp;|hi=Hindi pronunciation:&nbsp;|ur=Urdu pronunciation:&nbsp;|=|Hindustani pronunciation:&nbsp;}}</small>{{IPA|[[WP:IPA for Hindi and Urdu|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
 <noinclude>{{documentation}}</noinclude>
