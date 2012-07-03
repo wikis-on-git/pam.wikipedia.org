@@ -1,0 +1,10 @@
+{{Side box
+ | class = noprint selfref
+ | text = '''Ining {{#if:{{{dake|}}}|{{{section}}}|{{#if:{{SUBJECTSPACE}}|bulung|artikulu}}}} atin yang  {{{special|[[Help:Special characters|makabukud a sulat]]}}}.''' Nung alang ustung [[{{{fix|Help:Special characters}}}|rendering support]], malyaring deng mayakit {{{error|[[mojibake|question mark la, kahun, or aliwang simbolo]]}}}{{#if:{{{characters|}}}|&#32;instead of {{{characters}}}}}.
+ | image = {{#if:{{{image|}}}
+   | [[File:{{{image}}}|40x40px|link={{{link|}}}|alt={{{alt|}}}]] }}
+ | style = width: {{#if:{{{width|}}}|{{{width}}}|22em}};
+ | textstyle = vertical-align:middle; font-size:95%;
+}}<noinclude>
+{{documentation}}
+</noinclude>
