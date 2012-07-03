@@ -1,0 +1,4 @@
+<span lang="{{#if: {{{2|}}}|{{{1}}}|und-Arab}}" xml:lang="{{#if: {{{2|}}}|{{{1}}}|und-Arab}}" title="Nasta'liq" style="font-size:125%; font-family:'Urdu Typesetting', 'Jameel Noori Nastaleeq', IranNastaliq, 'Nafees Nastaleeq', 'Nafees Nastaleeq v1.01', 'Nafees', 'Pak Nastaleeq', PDMS_Jauhar;">{{{2|{{{1}}}}}}</span><noinclude>
+
+{{documentation}}
+</noinclude>
