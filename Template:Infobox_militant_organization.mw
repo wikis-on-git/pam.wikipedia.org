@@ -1,0 +1,46 @@
+{{infobox
+| bodyclass = vcard
+
+| above   = {{{name|}}}
+| aboveclass = fn org
+
+| image   = <includeonly>{{#if:{{{logo|}}}|[[File:{{{logo}}}|{{#if:{{{image_size|}}}|{{{image_size}}}|200px}}]]}}</includeonly>
+| caption = {{{caption|}}}
+
+| label1 = Petsa da reng operasyun
+| data1  = {{{dates|}}}
+
+| label2 = Pekapun
+| data2  = {{{leader|}}}
+| class3 = agent
+
+| label3 = Motibu
+| data3  = {{{motives|}}}
+
+| label4 = Aktibung labwad o lugal
+| data4  = {{{area|}}}
+| class4 = label
+
+| label5 = Ideology
+| data5  = {{{ideology|}}}
+| class5 = category
+
+| label6 = Mangaragul a kimut
+| data6  = {{{crimes|}}}
+
+| label7 = Pikabalwan a ataki
+| data7  = {{{attacks|}}}
+
+| label8 = Kabilyan
+| data8  = {{{status|}}}
+| class8 = category
+
+| label9 = Dagul
+| data9  = {{{size|}}}
+
+| label10 = Banwa-banwang panakitan
+| data10  = {{{revenue|}}}
+
+| label11 = Paralan ning pamanakitan
+| data11  = {{{financing|}}}
+}}<noinclude>{{documentation}}</noinclude>
