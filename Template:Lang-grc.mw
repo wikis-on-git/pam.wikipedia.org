@@ -1,0 +1,6 @@
+[[Ancient Greek]]: {{lang|grc|{{{1}}}}}<!--
+-->{{#if: {{{2|}}}|&nbsp;{{lang|grc-Latn|''{{{2}}}''}}}}<!--
+-->{{#if:{{{3|}}}|&nbsp;"{{{3}}}"}}<!--
+--><noinclude>
+{{Documentation}}
+</noinclude>
