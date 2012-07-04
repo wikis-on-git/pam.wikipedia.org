@@ -1,8 +1,10 @@
 {{sister
-|project=wikinews
-|text=[[Wikinews]] has related news:
-'''''[[Wikinews:{{{1|Special:Search/{{PAGENAME}}}}}|{{{2|{{{1|{{PAGENAME}}}}}}}}]]'''''
+| project = wikinews
+| position = {{{position|}}}
+| text = Ing Wikinews atin yang makaugneng balita:
+'''''{{sec link auto| wikinews | {{{1| Special:Search/{{PAGENAME}} }}} | {{{2| {{{1| {{PAGENAME}} }}} }}} }}'''''
 }}<noinclude>
+
 {{documentation}}
 <!-- Add cats and interwikis to the /doc subpage, not here! -->
 </noinclude>
