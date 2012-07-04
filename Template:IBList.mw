@@ -1,0 +1,8 @@
+[http://www.iblist.com/{{#switch:{{{type|default}}}
+ |book=book{{{id}}}.htm ''{{{name}}}''
+ |author=author{{{id}}}.htm {{{name}}}
+ |series=series{{{id}}}.htm ''{{{name}}}''
+ |default=
+ }}] king [[Listahan da reng Libru king Aptas (Internet Book List)]]<noinclude>
+{{documentation}}
+</noinclude>
