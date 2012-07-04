@@ -1,4 +1,4 @@
-<div id="section_SpokenWikipedia" class="infobox sisterproject plainlinks"><div style="text-align: center; white-space:nowrap">'''Listen to this {{#if: {{NAMESPACE}} |page|article}}''' ([[:Image:{{{1}}}|info/dl]]) <br />
+<div id="section_SpokenWikipedia" class="infobox sisterproject plainlinks"><div style="text-align: center; white-space:nowrap">'''Pakiramdaman me ining {{#if: {{NAMESPACE}} |bulung|artikulu}}''' ([[:Image:{{{1}}}|info/dl]]) <br />
 [[Image:{{{1}}}|noicon|200px|center]]</div>
 {{ #if: {{{3|}}} | Note: this file is approximately {{{3}}}bytes <br>}}
 {{Spoken Wikipedia boilerplate|{{{2|}}}|{{{1|}}} }}</div><noinclude>{{pp-template|small=yes}}
