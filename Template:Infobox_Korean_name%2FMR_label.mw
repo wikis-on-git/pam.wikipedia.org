@@ -1,0 +1,1 @@
+<noinclude>{{subtemplate}}</noinclude><includeonly>{{#switch:{{lc:{{{context|}}}}}|n|nk|north|dprk=[[Revised Romanization of Korean|{{#ifeq:{{{abbr|}}}|yes|RR|Revised Romanization}}]]|#default=[[McCune–Reischauer|{{#ifeq:{{{abbr|}}}|yes|MR|McCune–Reischauer}}]]}}</includeonly>
