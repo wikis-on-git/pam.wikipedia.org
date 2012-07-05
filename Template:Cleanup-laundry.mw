@@ -1,0 +1,9 @@
+<!--{{Cleanup-laundry}} begin-->{{Ambox
+| name  = Cleanup-laundry
+| substcheck = <includeonly>{{subst:</includeonly><includeonly>substcheck}}</includeonly>
+| type  = style
+| image = [[File:Text-x-generic.svg|50x40px]]
+| issue = Deng [[Wikipedia:Manual of Style/Embedded lists|listahan a makapalub (''embedded list'')]] kening {{{1|artikulu}}} '''malyaring atin yang dakeng e [[WP:NOT|encyclopedic]]'''.
+| fix   = Paki[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|action=edit}} saupan ya kami] kapamilatan ning pamaglako kareng dakeng deta ampong pamandagdag kareng bageng karapatdapat king kalamnan ning artikulu.
+| date = {{{date|}}}
+}}{{DMCA|Artikulung mangaylangan pamaglinis|manibat|{{{date|}}}|All pages needing cleanup}}{{DMCA|Wikipedia laundry list cleanup|from|{{{date|}}}}}<!--{{Cleanup-laundry}} end--><noinclude>{{Documentation}}</noinclude>
