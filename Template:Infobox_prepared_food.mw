@@ -4,7 +4,7 @@
 | title       = {{{name|<includeonly>{{PAGENAME}}</includeonly>}}} 
 
 | image       = {{{image|}}}
-| caption     = {{{caption|}}} <includeonly>{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Articles with hRecipes]][[Category:Articles with Adr microformats]]}}</includeonly>
+| caption     = {{{caption|}}} <includeonly>{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Articulung atin bulug]][[Category:Articles with Adr microformats]]}}</includeonly>
 | imageclass  = photo
 
 | headerstyle = background-color: #b0c4de
@@ -47,7 +47,7 @@
 | label11     = Variations
 | data11      = {{{variations|}}}
 
-| label12     = Approximate [[calorie]]s<br />per serving
+| label12     = Bilang ning  [[calorie]]s<br />balang apag
 | data12      = {{{calories|}}}
 | class12     = nutrition
 
