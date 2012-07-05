@@ -11,7 +11,7 @@
 | headerstyle = {{#if:{{{color|}}}|background-color: {{{color}}};}} {{#if:{{{fontcolor|}}}|color: {{{fontcolor}}} }}
 | labelstyle  = font-weight:normal
 
-| header1     = {{#ifeq:{{{child|}}}|yes|Korean name|{{#if:{{{img|}}}|Korean name}} }}
+| header1     = {{#ifeq:{{{child|}}}|yes|Lagyung Koreanu|{{#if:{{{img|}}}|Korean name}} }}
 | class1      = navbox-title
 
 | label2      = {{Infobox Korean name/Hangul label|context={{{context|}}} }}
