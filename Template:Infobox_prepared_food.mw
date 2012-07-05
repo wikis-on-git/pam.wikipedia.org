@@ -20,7 +20,7 @@
 | data3       = {{{country|}}}
 | class3      = bangsa-lagiu
 
-| label4      = Region or state
+| label4      = Labuad o bangsa
 | data4       = {{{region|}}}
 | class4      = labuad
 
@@ -40,9 +40,9 @@
 | label9      = Serving temperature
 | data9       = {{{served|}}}
 
-| label10      = Main {{nowrap|ingredient(s)}}
+| label10      = Peka {{nowrap|ingredient(s)}}
 | data10       = {{{main_ingredient|}}}
-| class10      = ingredient
+| class10      = bulug
 
 | label11     = Variations
 | data11      = {{{variations|}}}
