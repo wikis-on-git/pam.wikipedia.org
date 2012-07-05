@@ -37,7 +37,7 @@
 | label8      = Type
 | data8       = {{{type|}}}
 
-| label9      = Serving temperature
+| label9      = Temperatura kabang Apag
 | data9       = {{{served|}}}
 
 | label10      = Peka {{nowrap|ingredient(s)}}
