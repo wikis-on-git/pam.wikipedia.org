@@ -1,0 +1,57 @@
+{{ infobox
+| bodyclass   = hrecipe adr
+| titleclass  = fn
+| title       = {{{name|<includeonly>{{PAGENAME}}</includeonly>}}} 
+
+| image       = {{{image|}}}
+| caption     = {{{caption|}}} <includeonly>{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Articles with hRecipes]][[Category:Articles with Adr microformats]]}}</includeonly>
+| imageclass  = photo
+
+| headerstyle = background-color: #b0c4de
+
+| header1     = {{#if:{{{alternate_name|}}}{{{country|}}}{{{region|}}}{{{creator|}}}|Origin}}
+
+| label2      = Alternative {{nowrap|name(s)}}
+| rowclass2   = note
+| data2       = {{{alternate_name|}}}
+
+| label3      = Karinan ning penibatan
+| rowclass3   = note
+| data3       = {{{country|}}}
+| class3      = bangsa-lagiu
+
+| label4      = Region or state
+| data4       = {{{region|}}}
+| class4      = labuad
+
+| label5      = Miglalang
+| rowclass5   = note
+| data5       = {{{creator|}}}
+| class5      = author
+
+| header6     = {{#if:{{{course|}}}{{{served|}}}{{{main_ingredient|}}}{{{variations|}}}{{{calories|}}}{{{other|}}}|Details}}
+
+| label7      = Course
+| data7       = {{{course|}}}
+
+| label8      = Type
+| data8       = {{{type|}}}
+
+| label9      = Serving temperature
+| data9       = {{{served|}}}
+
+| label10      = Main {{nowrap|ingredient(s)}}
+| data10       = {{{main_ingredient|}}}
+| class10      = ingredient
+
+| label11     = Variations
+| data11      = {{{variations|}}}
+
+| label12     = Approximate [[calorie]]s<br />per serving
+| data12      = {{{calories|}}}
+| class12     = nutrition
+
+| label13     = Other information
+| data13      = {{{other|}}}
+
+}}<noinclude>{{doc}}<!-- Add cats and interwikis to the /doc subpage, not here! --></noinclude>
