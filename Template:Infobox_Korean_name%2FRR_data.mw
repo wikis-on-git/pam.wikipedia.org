@@ -1,0 +1,1 @@
+<noinclude>{{subtemplate}}</noinclude><includeonly>{{#if:{{#switch:{{lc:{{{context|}}} }}|n|nk|north|dprk={{{mr|}}}|#default={{{rr|}}} }}|{{transl|ko|{{#switch:{{lc:{{{context|}}}}}|n|nk|north|dprk={{{mr}}}|#default={{{rr}}} }} }} }}</includeonly>
