@@ -1,0 +1,159 @@
+{{#if:{{{hangul|}}}{{{hanja|}}}{{{rr|}}}{{{mr|}}}|
+{{Infobox
+| child       = {{{child|}}}
+| bodystyle   = {{#if:{{{tablewidth|}}}|width: {{px|{{{tablewidth}}}}} }}
+| abovestyle  = {{#if:{{{color|}}}|background-color: {{{color}}};}} {{#if:{{{fontcolor|}}}|color: {{{fontcolor}}} }}
+| above       = {{#ifeq:{{{child|}}}|yes||{{#if:{{{logo|}}}|<div style="float: right; padding: 0 1px 1px 0">[[File:{{{logo|}}}|{{#if:{{{logowidth|}}}|{{{logowidth}}}|80}}px|alt={{{logoalt|}}}|{{{logo}}}]]</div>}} {{#if:{{{title|}}}|{{{title}}}|{{PAGENAME}}}} }}
+| aboveclass  = navbox-title
+
+| image       = {{#ifeq:{{{child|}}}|yes||{{#if:{{{img|}}}|[[File:{{{img}}}|{{px|{{{imgwidth|{{{width|}}}}}}|frameless}}|alt={{{alt|{{{imgalt|}}}}}}]]}} }}
+| caption     = {{{caption|}}}
+| headerstyle = {{#if:{{{color|}}}|background-color: {{{color}}};}} {{#if:{{{fontcolor|}}}|color: {{{fontcolor}}} }}
+| labelstyle  = font-weight:normal
+
+| header1     = {{#ifeq:{{{child|}}}|yes|Korean name|{{#if:{{{img|}}}|Korean name}} }}
+| class1      = navbox-title
+
+| label2      = {{Infobox Korean name/Hangul label|context={{{context|}}} }}
+| label3      = {{Infobox Korean name/Hanja label|context={{{context|}}} }}
+| label4      = {{Infobox Korean name/RR label|context={{{context|}}} }}
+| label5      = {{Infobox Korean name/MR label|context={{{context|}}} }}
+
+| data2       = {{Infobox Korean name/Hangul data|hangul={{{hangul|}}} }}
+| data3       = {{Infobox Korean name/Hanja data|hanja={{{hanja|}}} }}
+| data4       = {{Infobox Korean name/RR data|context={{{context|}}}|rr={{{rr|}}}|mr={{{mr|}}} }}
+| data5       = {{Infobox Korean name/MR data|context={{{context|}}}|rr={{{rr|}}}|mr={{{mr|}}} }}
+
+| header6     = {{#if:{{{hangulho|}}}{{{hanjaho|}}}{{{rrho|}}}{{{mrho|}}}|[[Pen name]]}}
+| class6      = navbox-title
+
+| label7      = {{Infobox Korean name/Hangul label|context={{{context|}}} }}
+| label8      = {{Infobox Korean name/Hanja label|context={{{context|}}} }}
+| label9      = {{Infobox Korean name/RR label|context={{{context|}}} }}
+| label10     = {{Infobox Korean name/MR label|context={{{context|}}} }}
+
+| data7       = {{Infobox Korean name/Hangul data|hangul={{{hangulho|}}} }}
+| data8       = {{Infobox Korean name/Hanja data|hanja={{{hanjaho|}}} }}
+| data9       = {{Infobox Korean name/RR data|context={{{context|}}}|rr={{{rrho|}}}|mr={{{mrho|}}} }}
+| data10      = {{Infobox Korean name/MR data|context={{{context|}}}|rr={{{rrho|}}}|mr={{{mrho|}}} }}
+
+| header11    = {{#if:{{{hangulborn|}}}{{{hanjaborn|}}}{{{rrborn|}}}{{{mrborn|}}}|[[Birth name]]}}
+| class11     = navbox-title
+
+| label12     = {{Infobox Korean name/Hangul label|context={{{context|}}} }}
+| label13     = {{Infobox Korean name/Hanja label|context={{{context|}}} }}
+| label14     = {{Infobox Korean name/RR label|context={{{context|}}} }}
+| label15     = {{Infobox Korean name/MR label|context={{{context|}}} }}
+
+| data12      = {{Infobox Korean name/Hangul data|hangul={{{hangulborn|}}} }}
+| data13      = {{Infobox Korean name/Hanja data|hanja={{{hanjaborn|}}} }}
+| data14      = {{Infobox Korean name/RR data|context={{{context|}}}|rr={{{rrborn|}}}|mr={{{mrborn|}}} }}
+| data15      = {{Infobox Korean name/MR data|context={{{context|}}}|rr={{{rrborn|}}}|mr={{{mrborn|}}} }}
+
+| header16    = {{#if:{{{hangula|}}}{{{hanjaa|}}}{{{rra|}}}{{{mra|}}}|Childhood name}}
+| class16     = navbox-title
+
+| label17     = {{Infobox Korean name/Hangul label|context={{{context|}}} }}
+| label18     = {{Infobox Korean name/Hanja label|context={{{context|}}} }}
+| label19     = {{Infobox Korean name/RR label|context={{{context|}}} }}
+| label20     = {{Infobox Korean name/MR label|context={{{context|}}} }}
+
+| data17      = {{Infobox Korean name/Hangul data|hangul={{{hangula|}}} }}
+| data18      = {{Infobox Korean name/Hanja data|hanja={{{hanjaa|}}} }}
+| data19      = {{Infobox Korean name/RR data|context={{{context|}}}|rr={{{rra|}}}|mr={{{mra|}}} }}
+| data20      = {{Infobox Korean name/MR data|context={{{context|}}}|rr={{{rra|}}}|mr={{{mra|}}} }}
+
+| header21    = {{#if:{{{hangulja|}}}{{{hanjaja|}}}{{{rrja|}}}{{{mrja|}}}|[[Courtesy name]]}}
+| class21     = navbox-title
+
+| label22     = {{Infobox Korean name/Hangul label|context={{{context|}}} }}
+| label23     = {{Infobox Korean name/Hanja label|context={{{context|}}} }}
+| label24     = {{Infobox Korean name/RR label|context={{{context|}}} }}
+| label25     = {{Infobox Korean name/MR label|context={{{context|}}} }}
+
+| data22      = {{Infobox Korean name/Hangul data|hangul={{{hangulja|}}} }}
+| data23      = {{Infobox Korean name/Hanja data|hanja={{{hanjaja|}}} }}
+| data24      = {{Infobox Korean name/RR data|context={{{context|}}}|rr={{{rrja|}}}|mr={{{mrja|}}} }}
+| data25      = {{Infobox Korean name/MR data|context={{{context|}}}|rr={{{rrja|}}}|mr={{{mrja|}}} }}
+
+| header26    = {{#if:{{{hangulstage|}}}{{{hanjastage|}}}{{{rrstage|}}}{{{mrstage|}}}|[[Stage name]]}}
+| class26     = navbox-title
+
+| label27     = {{Infobox Korean name/Hangul label|context={{{context|}}} }}
+| label28     = {{Infobox Korean name/Hanja label|context={{{context|}}} }}
+| label29     = {{Infobox Korean name/RR label|context={{{context|}}} }}
+| label30     = {{Infobox Korean name/MR label|context={{{context|}}} }}
+
+| data27      = {{Infobox Korean name/Hangul data|hangul={{{hangulstage|}}} }}
+| data28      = {{Infobox Korean name/Hanja data|hanja={{{hanjastage|}}} }}
+| data29      = {{Infobox Korean name/RR data|context={{{context|}}}|rr={{{rrstage|}}}|mr={{{mrstage|}}} }}
+| data30      = {{Infobox Korean name/MR data|context={{{context|}}}|rr={{{rrstage|}}}|mr={{{mrstage|}}} }}
+
+| header31    = {{#if:{{{hangulgye|}}}{{{hanjagye|}}}{{{rrgye|}}}{{{mrgye|}}}|[[Dharma name]]}}
+| class31     = navbox-title
+
+| label32     = {{Infobox Korean name/Hangul label|context={{{context|}}} }}
+| label33     = {{Infobox Korean name/Hanja label|context={{{context|}}} }}
+| label34     = {{Infobox Korean name/RR label|context={{{context|}}} }}
+| label35     = {{Infobox Korean name/MR label|context={{{context|}}} }}
+
+| data32      = {{Infobox Korean name/Hangul data|hangul={{{hangulgye|}}} }}
+| data33      = {{Infobox Korean name/Hanja data|hanja={{{hanjagye|}}} }}
+| data34      = {{Infobox Korean name/RR data|context={{{context|}}}|rr={{{rrgye|}}}|mr={{{mrgye|}}} }}
+| data35      = {{Infobox Korean name/MR data|context={{{context|}}}|rr={{{rrgye|}}}|mr={{{mrgye|}}} }}
+
+| header36    = {{#if:{{{hangulph|}}}{{{hanjaph|}}}{{{rrph|}}}{{{mrph|}}}|[[Posthumous name]]}}
+| class36     = navbox-title
+
+| label37     = {{Infobox Korean name/Hangul label|context={{{context|}}} }}
+| label38     = {{Infobox Korean name/Hanja label|context={{{context|}}} }}
+| label39     = {{Infobox Korean name/RR label|context={{{context|}}} }}
+| label40     = {{Infobox Korean name/MR label|context={{{context|}}} }}
+
+| data37      = {{Infobox Korean name/Hangul data|hangul={{{hangulph|}}} }}
+| data38      = {{Infobox Korean name/Hanja data|hanja={{{hanjaph|}}} }}
+| data39      = {{Infobox Korean name/RR data|context={{{context|}}}|rr={{{rrph|}}}|mr={{{mrph|}}} }}
+| data40      = {{Infobox Korean name/MR data|context={{{context|}}}|rr={{{rrph|}}}|mr={{{mrph|}}} }}
+
+| header41    = {{#if:{{{hangul1|}}}{{{hanja1|}}}{{{rr1|}}}{{{mr1|}}}|{{#if:{{{othername1|}}}|{{{othername1}}}|Other name}} }}
+| class41     = navbox-title
+
+| label42     = {{Infobox Korean name/Hangul label|context={{{context|}}} }}
+| label43     = {{Infobox Korean name/Hanja label|context={{{context|}}} }}
+| label44     = {{Infobox Korean name/RR label|context={{{context|}}} }}
+| label45     = {{Infobox Korean name/MR label|context={{{context|}}} }}
+
+| data42      = {{Infobox Korean name/Hangul data|hangul={{{hangul1|}}} }}
+| data43      = {{Infobox Korean name/Hanja data|hanja={{{hanja1|}}} }}
+| data44      = {{Infobox Korean name/RR data|context={{{context|}}}|rr={{{rr1|}}}|mr={{{mr1|}}} }}
+| data45      = {{Infobox Korean name/MR data|context={{{context|}}}|rr={{{rr1|}}}|mr={{{mr1|}}} }}
+
+| header46    = {{#if:{{{hangul2|}}}{{{hanja2|}}}{{{rr2|}}}{{{mr2|}}}|{{#if:{{{othername2|}}}|{{{othername2}}}|Other name}} }}
+| class46     = navbox-title
+
+| label47     = {{Infobox Korean name/Hangul label|context={{{context|}}} }}
+| label48     = {{Infobox Korean name/Hanja label|context={{{context|}}} }}
+| label49     = {{Infobox Korean name/RR label|context={{{context|}}} }}
+| label50     = {{Infobox Korean name/MR label|context={{{context|}}} }}
+
+| data47      = {{Infobox Korean name/Hangul data|hangul={{{hangul2|}}} }}
+| data48      = {{Infobox Korean name/Hanja data|hanja={{{hanja2|}}} }}
+| data49      = {{Infobox Korean name/RR data|context={{{context|}}}|rr={{{rr2|}}}|mr={{{mr2|}}} }}
+| data50      = {{Infobox Korean name/MR data|context={{{context|}}}|rr={{{rr2|}}}|mr={{{mr2|}}} }}
+
+| below       = {{{text|}}}
+
+}}<includeonly>
+
+{{Infobox Korean name/categories|hangul={{{hangul|}}}|hanja={{{hanja|}}}|rr={{{rr|}}}|mr={{{mr|}}} }}
+{{Infobox Korean name/categories|hangul={{{hangulho|}}}|hanja={{{hanjaho|}}}|rr={{{rrho|}}}|mr={{{mrho|}}} }}
+{{Infobox Korean name/categories|hangul={{{hangulborn|}}}|hanja={{{hanjaborn|}}}|rr={{{rrborn|}}}|mr={{{mrborn|}}} }}
+{{Infobox Korean name/categories|hangul={{{hangula|}}}|hanja={{{hanjaa|}}}|rr={{{rra|}}}|mr={{{mra|}}} }}
+{{Infobox Korean name/categories|hangul={{{hangulja|}}}|hanja={{{hanjaja|}}}|rr={{{rrja|}}}|mr={{{mrja|}}} }}
+{{Infobox Korean name/categories|hangul={{{hangulstage|}}}|hanja={{{hanjastage|}}}|rr={{{rrstage|}}}|mr={{{mrstage|}}} }}
+{{Infobox Korean name/categories|hangul={{{hangulgye|}}}|hanja={{{hanjagye|}}}|rr={{{rrgye|}}}|mr={{{mrgye|}}} }}
+{{Infobox Korean name/categories|hangul={{{hangulph|}}}|hanja={{{hanjaph|}}}|rr={{{rrph|}}}|mr={{{mrph|}}} }}
+{{Infobox Korean name/categories|hangul={{{hangul1|}}}|hanja={{{hanja1|}}}|rr={{{rr1|}}}|mr={{{mr1|}}} }}
+{{Infobox Korean name/categories|hangul={{{hangul2|}}}|hanja={{{hanja2|}}}|rr={{{rr2|}}}|mr={{{mr2|}}} }}
+
+</includeonly>|<includeonly>[[Category:Articles needing Korean script or text|{{PAGENAME}}]][[Category:Wikipedia articles needing romanized Korean|{{PAGENAME}}]]</includeonly>}}<includeonly>{{#if:{{{tablewidth|}}}|[[Category:Use of the tablewidth parameter in Infobox Korean name|{{PAGENAME}}]]}}{{#if:{{{logo|}}}|[[Category:Use of the logo parameter in Infobox Korean name|{{PAGENAME}}]]}}{{#if:{{{text|}}}|[[Category:Use of the text parameter in Infobox Korean name|{{PAGENAME}}]]}}{{#if:{{{fontcolor|}}}|[[Category:Use of the fontcolor parameter in Infobox Korean name|{{PAGENAME}}]]}}</includeonly><noinclude>{{documentation}}<!-- Please add metadata to the <includeonly> section at the bottom of the /doc subpage --></noinclude>
