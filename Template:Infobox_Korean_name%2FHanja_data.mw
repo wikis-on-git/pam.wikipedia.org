@@ -1,0 +1,1 @@
+<noinclude>{{subtemplate}}</noinclude><includeonly>{{#if:{{{hanja|}}}|{{#ifeq:{{{hanja|}}}|!|<noinclude>!</noinclude>|{{#switch:{{{hanja|}}}|na|none=''n/a''|#default=<span style="font-size:115%;">{{lang|ko-Hani|{{{hanja}}} }}</span> }} }} }}</includeonly>
