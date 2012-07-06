@@ -60,7 +60,7 @@
 
 | header4   = {{#if:{{{status|}}}{{{building_type|}}}{{{architectural_style|}}}{{{style|}}}{{{classification|}}}{{{location|}}}{{{location_town|}}}{{{location_city|}}}{{{location_country|}}}{{{address|}}}{{{latitude|}}}{{{latd|}}}{{{longitude|}}}{{{longd|}}}{{{coordinates|}}}{{{altitude|}}}{{{start_date|}}}{{{construction_start_date|}}}{{{topped-out_date|}}}{{{topped_out_date|}}}{{{est_completion|}}}{{{completion_date|}}}{{{inauguration_date|}}}{{{groundbreaking_date|}}}{{{opening_date|}}}{{{opening|}}}{{{opened|}}}{{{opened_date|}}}{{{renovation_date|}}}{{{closing_date|}}}{{{demolition_date|}}}{{{date_demolished|}}}{{{demolished_date|}}}{{{destruction_date|}}}{{{destroyed|}}}{{{cost|}}}{{{ren_cost|}}}|General information}}
 
-| label5    = Status
+| label5    = Kabilyan
 | class5    = category
 | data5     = {{#if:{{{status|{{{Status|}}}}}}|{{#switch:{{lc:{{{status|{{{Status|}}}}}}}}
 | built | completed | finished
