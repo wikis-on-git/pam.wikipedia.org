@@ -29,7 +29,7 @@
 | data5       = {{{creator|}}}
 | class5      = author
 
-| header6     = {{#if:{{{course|}}}{{{served|}}}{{{main_ingredient|}}}{{{variations|}}}{{{calories|}}}{{{other|}}}|Details}}
+| header6     = {{#if:{{{course|}}}{{{served|}}}{{{main_ingredient|}}}{{{variations|}}}{{{calories|}}}{{{other|}}}|Mangalating Bage}}
 
 | label7      = Course
 | data7       = {{{course|}}}
