@@ -125,7 +125,7 @@
 | data18    = {{{topped-out_date|{{{topped_out_date|}}}}}}
 
 | rowclass19= note
-| label19   = {{#if:{{{est_completion|}}}|Estimated completion|Completed}}
+| label19   = {{#if:{{{est_completion|}}}|Estimated completion|Meyari}}
 | data19    = {{#if:{{{est_completion|}}}|{{{est_completion}}}|{{{completion_date|}}}}}
 
 | label20   = {{#if:{{{inauguration_date|}}}|Inaugurated|Opening}}
