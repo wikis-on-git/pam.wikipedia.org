@@ -206,7 +206,7 @@
 | label45   = {{#if:{{{governing_body|}}}|Governing body|{{#if:{{{landlord|}}}|Landlord|Management}}}}
 | data45    = {{#if:{{{governing_body|}}}|{{{governing_body|}}}|{{#if:{{{landlord|}}}|{{{landlord}}}|{{{management|}}}}}}}
 
-| label46   = Architect
+| label46   = Arkitektu
 | data46    = {{{architect|}}}
 
 | label47   = Architecture firm
