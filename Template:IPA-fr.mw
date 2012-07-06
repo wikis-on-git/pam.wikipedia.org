@@ -1,4 +1,4 @@
-<onlyinclude><small>{{#if: {{{2|}}}|{{#switch: {{{2}}}|lang=French:&nbsp;|pron=pronounced:&nbsp;|IPA=IPA:&nbsp;|=|Pangayagkas a Frances:&nbsp;}}|{{#if: {{{2}}}|Pangayagkas a Frances:&nbsp;}}}}</small><span title="Pronunciation in IPA" class="IPA">[[WP:IPA for French|[{{{1}}}]]]</span><small>{{#if:{{{3|}}}|&nbsp; {{nowrap|([[File:Speaker Icon.svg|13px|link=:Media:{{{3|}}}]] [[:Media:{{{3|}}}|listen]])}}}}</small></onlyinclude>
+<onlyinclude><small>{{#if: {{{2|}}}|{{#switch: {{{2}}}|lang=French:&nbsp;|pron=ágkas yang:&nbsp;|IPA=IPA:&nbsp;|=|Pangayagkas a Frances:&nbsp;}}|{{#if: {{{2}}}|Pangayagkas a Frances:&nbsp;}}}}</small><span title="Pronunciation in IPA" class="IPA">[[WP:IPA for French|[{{{1}}}]]]</span><small>{{#if:{{{3|}}}|&nbsp; {{nowrap|([[File:Speaker Icon.svg|13px|link=:Media:{{{3|}}}]] [[:Media:{{{3|}}}|listen]])}}}}</small></onlyinclude>
 {{pp-template|small=yes}}
 
 ==Usage==
