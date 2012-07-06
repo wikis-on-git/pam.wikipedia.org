@@ -1,0 +1,311 @@
+{{Infobox
+| bodyclass   = vcard
+| aboveclass  = fn org
+| headerstyle = background-color:#ddd
+| above       = {{{building_name|{{{name|<includeonly>{{PAGENAME}}</includeonly>}}}}}}
+| subheader   = {{#if:{{{native_building_name|{{{native_name|}}}}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}| lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_building_name|{{{native_name}}}}}}</span>}}
+
+| image       = {{#ifexist:media:{{{image|}}}|[[File:{{{image}}}|{{px|{{{image_size|}}}|frameless}}|border|alt={{{image_alt|{{{alt|}}}}}}]]|{{{image|}}}}}
+| caption     = {{{caption|}}}
+
+| image2      = {{#if:{{{map_type|}}}|<center>{{Location map|{{{map_type|}}}
+ |alt     = {{{map_alt|}}}
+ |lat     = {{#if:{{{latm|}}}{{{latNS|}}}| | {{{latitude|{{{latd|}}}}}} }}
+ |long    = {{#if:{{{longm|}}}{{{longEW|}}}| | {{{longitude|{{{longd|}}}}}} }}
+ |lat_deg ={{#if:{{{latm|}}}{{{latNS|}}}|{{{latd|}}}| }}
+ |lat_min ={{#if:{{{latm|}}}{{{latNS|}}}|{{{latm|}}}| }}
+ |lat_sec ={{#if:{{{lats|}}}{{{latNS|}}}|{{{lats|}}}| }}
+ |lat_dir ={{#if:{{{latNS|}}}|{{{latNS|}}}| }}
+ |lon_deg ={{#if:{{{longm|}}}{{{longEW|}}}|{{{longd|}}}| }}
+ |lon_min ={{#if:{{{longm|}}}{{{longEW|}}}|{{{longm|}}}| }}
+ |lon_sec ={{#if:{{{longs|}}}{{{longEW|}}}|{{{longs|}}}| }}
+ |lon_dir ={{#if:{{{longEW|}}}|{{{longEW|}}}| }}
+ |float   = center
+ |mark    = Red pog.svg
+ |marksize= 7
+ |label   = {{{map dot label|{{{map_dot_label|}}}}}}
+ |border  = none
+ |caption = {{{map_caption|<center>Location within {{{map_type}}}</center>}}}
+ |width   = {{{map_size|}}}
+}}</center>|<!--
+-->{{#if:{{{image_map|}}}|[[File:{{{image_map|}}}|center|{{px|{{{map_size|}}}|frameless}}|alt={{{map_alt|}}}]]}}<!-- -->}}
+| caption2    = {{#if:{{{map_type|}}}||{{{map_caption|}}}}}
+
+| label1    = Former names
+| data1     = {{{former_names|{{{former_name|}}}}}}
+| class1    = nickname
+
+| label2    = Alternative names
+| data2     = {{{alternate_names|{{{alternate_name|}}}}}}
+| class2    = nickname
+
+| data3     = {{#if:{{{highest_prev|}}}{{{highest_next|}}}{{{highest_start|}}}{{{highest_end|}}}{{{highest_region|}}}|{{Infobox|child=yes|decat=yes|headerstyle=background-color:#ddd;
+  | header1  = Record height
+
+  | data2    = {{#if:{{{highest_start|}}}{{{highest_end|}}}<!--
+ -->|Tallest in {{#if:{{{highest_region|}}}|{{{highest_region}}}|the world}}<!--
+   --> {{#if:{{both|{{{highest_start|}}}|{{{highest_end|}}}}} <!--
+     -->|from {{{highest_start|}}} to {{{highest_end|}}}<!--
+     -->|{{#if:{{{highest_start|}}}|since {{{highest_start}}} }}<!--
+     -->{{#if:{{{highest_end|}}}|until {{{highest_end}}} }}<!--
+   -->}}{{ref label|talleststatus|I|}}<!--
+ -->}}
+
+  | label3   = Preceded by
+  | data3    = {{{highest_prev|}}}
+
+  | label4 = Surpassed by
+  | data4  = {{{highest_next|}}}
+}} }}
+
+| header4   = {{#if:{{{status|}}}{{{building_type|}}}{{{architectural_style|}}}{{{style|}}}{{{classification|}}}{{{location|}}}{{{location_town|}}}{{{location_city|}}}{{{location_country|}}}{{{address|}}}{{{latitude|}}}{{{latd|}}}{{{longitude|}}}{{{longd|}}}{{{coordinates|}}}{{{altitude|}}}{{{start_date|}}}{{{construction_start_date|}}}{{{topped-out_date|}}}{{{topped_out_date|}}}{{{est_completion|}}}{{{completion_date|}}}{{{inauguration_date|}}}{{{groundbreaking_date|}}}{{{opening_date|}}}{{{opening|}}}{{{opened|}}}{{{opened_date|}}}{{{renovation_date|}}}{{{closing_date|}}}{{{demolition_date|}}}{{{date_demolished|}}}{{{demolished_date|}}}{{{destruction_date|}}}{{{destroyed|}}}{{{cost|}}}{{{ren_cost|}}}|General information}}
+
+| label5    = Status
+| class5    = category
+| data5     = {{#if:{{{status|{{{Status|}}}}}}|{{#switch:{{lc:{{{status|{{{Status|}}}}}}}}
+| built | completed | finished
+| complete = <span style="color:darkgreen">Complete</span>
+| destroyed  = <span style="color:#e42328">Destroyed</span>
+| demolished = <span style="color:black">Demolished</span>
+| on hold    = <span style="color:purple">On hold</span>
+| incomplete | unfinished
+| under construction = <span style="color:purple">Under construction</span>
+| cancelled | canceled 
+| never built        = <span style="color:red">Never built</span>
+| topped out
+| topped-out         = <span>[[Topping out|Topped-out]]</span>
+| planned
+| proposed           = <span style="color:orange">Proposed</span>
+| approved           = <span style="color:orange">Approved</span>
+| #default           = {{{status|{{{Status|}}}}}}
+}}|{{#if:{{{cancelled|}}}{{{canceled|}}}|<span style="color:red">Never built</span>|{{#if:{{{topped_out|}}}|<span>[[Topping out|Topped-out]]</span>}} }} }}
+
+| label6    = Uri
+| data6     = {{{building_type|}}}
+| class6    = category
+
+| label7    = Architectural style
+| data7     = {{{architectural_style|}}}{{{style|}}}
+| class7    = category
+
+| label8    = Classification
+| data8     = {{{classification|}}}
+| class8    = category
+
+| class9    = label
+| label9    = Lugal
+| data9     = {{{location|}}}
+
+| label10   = Direksyon
+| data10    = {{{address|}}}
+
+| label11   = Balen o lakanbalen
+| data11    = {{ifempty|{{{location_town|}}}|{{{location_city|}}}}}
+
+| label12   = Bangsa
+| data12    = {{{location_country|}}}
+
+| label13   = [[Geographic coordinate system|Coordinates]]
+| data13    = {{#if:{{both|{{{latitude|{{{latd|}}}}}}|{{{longitude|{{{longd|}}}}}}}}|
+{{Geobox coor|{{{latitude|{{{latd|}}}}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{{longitude|{{{longd|}}}}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|type:landmark{{#if: {{{iso_region|}}}|_region:{{{iso_region}}}|{{#if:{{{location_country|}}}|_region:{{CountryAbbr|{{{location_country}}}|}}|}}}}|{{#if:{{{coordinates_display|}}}|title|μ}}={{{coordinates_display|}}}|format={{{coordinates_format|}}}}}|{{{coordinates|}}}}}
+
+| label14   = Katas
+| data14    = {{{altitude|}}}
+
+| label15   = Kasalungsungan a manupa
+| data15    = {{{current_tenants|}}}
+
+| label16   = Groundbreaking
+| data16    = {{{groundbreaking_date|}}}
+
+| label17   = Migumpisa ing pamanikdo
+| data17    = {{{start_date|}}}{{{construction_start_date|}}}
+
+| label18   = Topped-out
+| data18    = {{{topped-out_date|{{{topped_out_date|}}}}}}
+
+| rowclass19= note
+| label19   = {{#if:{{{est_completion|}}}|Estimated completion|Completed}}
+| data19    = {{#if:{{{est_completion|}}}|{{{est_completion}}}|{{{completion_date|}}}}}
+
+| label20   = {{#if:{{{inauguration_date|}}}|Inaugurated|Opening}}
+| data20    = {{ifempty|{{{inauguration_date|}}}|{{{opening_date|}}}|{{{opening|}}}|{{{opened|}}}|{{{opened_date|}}}}}
+
+| label21   = Misamasan
+| data21    = {{{renovation_date|}}}
+
+| label22   = Makasara
+| data22    = {{{closing_date|}}}
+
+| rowclass23= note
+| label23   = {{#if:{{{demolition_date|}}}{{{date_demolished|}}}{{{demolished_date|}}}|Demolished|Destroyed}}
+| data23    = {{ifempty|{{{demolition_date|}}}|{{{date_demolished|}}}|{{{demolished_date|}}}|{{{destruction_date|}}}|{{{destroyed|}}}}}
+
+| label24   = Alaga
+| data24    = {{{cost|}}}
+
+| label25   = Renovation cost
+| data25    = {{{ren_cost|}}}
+
+| header26  = {{#if:{{{architectural|}}}{{{tip|}}}{{{antenna_spire|}}}{{{roof|}}}{{{top_floor|}}}{{{observatory|}}}|Height}}
+
+| label27   = Katas
+| data27    = {{{height|}}}
+
+| label28   = Architectural
+| data28    = {{{architectural|}}}
+
+| label29   = Sepu
+| data29    = {{{tip|}}}
+
+| label30   = Antenna spire
+| data30    = {{{antenna_spire|}}}
+
+| label31   = Bubungan
+| data31    = {{{roof|}}}
+
+| label32   = Top floor
+| data32    = {{{top_floor|}}}
+
+| label33   = Observatory
+| data33    = {{{observatory|}}}
+
+| header34  = {{#if:{{{structural_system|}}}{{{size|}}}{{{diameter|}}}{{{other_dimensions|}}}{{{floor_count|}}}{{{floor_area|}}}{{{elevator_count|}}}|Technical details}}
+
+| label35   = Structural system
+| data35    = {{{structural_system|}}}
+| class35   = category
+
+| rowclass36= note
+| label36   = Dagul
+| data36    = {{{size|}}}
+
+| label37   = Diameter
+| data37    = {{{diameter|}}}
+
+| label38   = Aliwa pang sukad
+| data38    = {{{other_dimensions|}}}
+
+| label39   = Floor count
+| data39    = {{{floor_count|}}}
+
+| label40   = Floor area
+| data40    = {{{floor_area|}}}
+
+| label41   = Deng elevator
+| data41    = {{{elevator_count|}}}
+
+| header42  = {{#if:{{{client|}}}{{{owner|}}}{{{governing_body|}}}{{{landlord|}}}{{{management|}}}{{{architect|}}}{{{architecture_firm|}}}{{{developer|}}}{{{engineer|}}}{{{structural_engineer|}}}{{{civil_engineer|}}}{{{other_designers|}}}{{{quantity_surveyor|}}}{{{main_contractor|}}}{{{main_contractors|}}}|Design and construction}}
+
+| label43   = Client
+| data43    = {{{client|}}}
+
+| label44   = Owner
+| data44    = {{{owner|}}}
+
+| label45   = {{#if:{{{governing_body|}}}|Governing body|{{#if:{{{landlord|}}}|Landlord|Management}}}}
+| data45    = {{#if:{{{governing_body|}}}|{{{governing_body|}}}|{{#if:{{{landlord|}}}|{{{landlord}}}|{{{management|}}}}}}}
+
+| label46   = Architect
+| data46    = {{{architect|}}}
+
+| label47   = Architecture firm
+| data47    = {{{architecture_firm|}}}
+
+| label48   = Developer
+| data48    = {{{developer|}}}
+
+| label49   = Inyeru
+| data49    = {{{engineer|}}}
+
+| label50   = Structural engineer
+| data50    = {{{structural_engineer|}}}
+
+| label51   = Services engineer
+| data51    = {{{services_engineer|}}}
+
+| label52   = Civil engineer
+| data52    = {{{civil_engineer|}}}
+
+| label53   = Other designers
+| data53    = {{{other_designers|}}}
+
+| label54   = Quantity surveyor
+| data54    = {{{quantity_surveyor|}}}
+
+| label55   = Manimunang kontratista
+| data55    = {{{main_contractor|{{{main_contractors|}}}}}}
+
+| rowclass56 = note
+| label56    = Awards and prizes
+| data56     = {{{awards|}}}
+
+| label57    = Designations
+| data57     = {{{designations|}}}
+
+| header58  = {{#if:{{{ren_architect|}}}{{{ren_firm|}}}{{{ren_engineer|}}}{{{ren_str_engineer|}}}{{{ren_serv_engineer|}}}{{{ren_civ_engineer|}}}{{{ren_oth_designers|}}}{{{ren_qty_surveyor|}}}{{{ren_contractor|}}}{{{ren_awards|}}}|Renovating team}}
+
+| rowclass59 = note
+| label59   = Architect
+| data59    = {{{ren_architect|}}}
+
+| label60   = Renovating firm
+| data60    = {{{ren_firm|}}}
+
+| label61   = Inyeru
+| data61    = {{{ren_engineer|}}}
+
+| label62   = Structural engineer
+| data62    = {{{ren_str_engineer|}}}
+
+| label63   = Services engineer
+| data63    = {{{ren_serv_engineer|}}}
+
+| label64   = Civil engineer
+| data64    = {{{ren_civ_engineer|}}}
+
+| label65   = Aliwang migdisenyu
+| data65    = {{{ren_oth_designers|}}}
+
+| label66   = Quantity surveyor
+| data66    = {{{ren_qty_surveyor|}}}
+
+| label67   = Manimunang kontratista
+| data67    = {{{ren_contractor|}}}
+
+| rowclass68 = note
+| label68   = Awards and prizes
+| data68    = {{{ren_awards|}}}
+
+| header69  = {{#if:{{{number_of_stores|}}}{{{number_of_anchors|}}}{{{unit_count|}}}{{{number_of_units|}}}{{{room_count|}}}{{{parking|}}}{{{seating_type|}}}{{{capacity|{{{seating_capacity|}}}}}}|Other information}}
+
+| label70   = Seating type
+| data70    = {{{seating_type|}}}
+
+| label71   = Seating capacity
+| data71    = {{{capacity|{{{seating_capacity|}}}}}}
+
+| label72   = Number of stores
+| data72    = {{{number_of_stores|}}}
+
+| label73   = Number of anchors
+| data73    = {{{number_of_anchors|}}}
+
+| label74   = Number of {{#if:{{{unit_count|}}}{{{number_of_units|}}}|units|rooms}}
+| data74    = {{ifempty|{{{unit_count|}}}|{{{number_of_units|}}}|{{{room_count|}}}}}
+
+| label75   = Parking
+| data75    = {{{parking|}}}
+
+| header76  = {{#if:{{{website|}}}{{{url|}}}|Website}}
+| data77    = {{#if:{{{website|}}}|{{{website}}}|{{{url|}}}}}
+
+| data78    = {{{nrhp|{{{embedded|}}}}}}
+
+| header79  = {{#if:{{{references|}}}|References}}
+
+| data80   = {{{references|}}}
+
+| belowstyle = {{{belowstyle|}}}
+| below     = {{{footnotes|}}}
+}}{{#ifeq:{{{1|μ}}}|μ||[[Category:Building using deprecated parameters|σ{{PAGENAME}}]]}}<noinclude>{{documentation}}</noinclude>
