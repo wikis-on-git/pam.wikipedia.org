@@ -1,0 +1,357 @@
+{{Infobox settlement
+<!--See Template:Infobox settlement for additional fields that may be available-->
+<!--See the Table at Infobox settlement for all fields and descriptions of usage-->
+<!-- Basic info ---------------->
+|name                   =Timbuktu <!-- at least one of the first two fields must be filled in -->
+|official_name          =
+|other_name             =
+|native_name            =Tombouctou<!-- if different from the English name -->
+|nickname               =
+|settlement_type        =City<!--such as Town, Village, City, Borough etc.-->
+|total_type             = <!-- to set a non-standard label for total area and population rows -->
+|motto                  =
+|translit_lang1=  &nbsp;
+|translit_lang1_type=[[Koyra Chiini language|Koyra Chiini]]:
+|translit_lang1_info=Tumbutu
+|translit_lang1_info1=
+
+<!-- images and maps  ----------->
+|image_skyline          = Timbuktu Mosque Sankore.jpg
+|imagesize              = 250px
+|image_caption          = [[Sankore Madrasah|Sankore Mosque]] in Timbuktu
+|image_flag             =
+|flag_size              =
+|image_seal             =
+|seal_size              =
+|image_shield           =
+|shield_size            =
+|image_blank_emblem     =
+|blank_emblem_type      =
+|blank_emblem_size      =
+|image_map              = Niger saharan medieval trade routes.PNG
+|mapsize                =
+|map_caption            = Mapang magpalto kareng [[Trans-Saharan trade|rutang caravan a lilipat king Sahara]] anyang manga 1400. Makalto ya mu naman ing [[Imperyong Ghana]] (anggang ka-13 a dilanwa o siglu) ampo ing [[Imperyung Mali]] anyang ka-13 anggang ka-15 a siglu. Pansinan me ing ruta manibat [[Djenné]] a dadalan king Timbuktu papunta king [[Sijilmassa]]. Ing lugal a ngeni [[Niger]] maki kule yang dilo.
+|image_map1             =
+|mapsize1               =
+|map_caption1           =
+|image_dot_map          =
+|dot_mapsize            =
+|dot_map_caption        =
+|dot_x =  |dot_y =
+|pushpin_map            =Mali <!-- name of a location map as per Template:Location_map -->
+|pushpin_label_position = <!-- position of the pushpin label: left, right, top, bottom, none -->
+|pushpin_map_caption    = Location of Timbuktu within Mali
+|pushpin_mapsize        =250
+<!-- Location ------------------>
+|coordinates_region     = ML
+|subdivision_type       = Country
+|subdivision_name       = Mali<br>
+*[[Azawad]]
+|subdivision_type1      = Labwad
+|subdivision_name1      = [[Tombouctou Region]]
+|subdivision_type2      = Cercle
+|subdivision_name2      = [[Timbuktu Cercle]]
+|subdivision_type3      =
+|subdivision_name3      =
+|subdivision_type4      =
+|subdivision_name4      =
+<!-- Smaller parts (e.g. boroughs of a city) and seat of government -->
+|seat_type              =
+|seat                   =
+|parts_type             =
+|parts_style            = <!-- =list (for list), coll (for collapsed list), para (for paragraph format)
+                               Default is list if up to 5 items, coll if more than 5-->
+|parts                  = <!-- parts text, or header for parts list -->
+|p1                     =
+|p2                     = <!-- etc. up to p50: for separate parts to be listed-->
+<!-- Politics ----------------->
+|government_footnotes   =
+|government_type        =
+|leader_title           =
+|leader_name            =
+|leader_title1          = <!-- for places with, say, both a mayor and a city manager -->
+|leader_name1           =
+|leader_title2          =
+|leader_name2           =
+|leader_title3          =
+|leader_name3           =
+|leader_title4          =
+|leader_name4           =
+|established_title      = Settled
+|established_date       = 12th century
+|established_title1     = <!-- Incorporated (town) -->
+|established_date1      =
+|established_title2     = <!-- Incorporated (city) -->
+|established_date2      =
+|established_title3     =
+|established_date3      =
+|founder                =
+|named_for              =
+<!-- Area    --------------------->
+|area_magnitude         = <!-- use only to set a special wikilink -->
+|unit_pref              = <!--Enter: Imperial, to display imperial before metric-->
+|area_footnotes         =
+|area_total_km2         = <!-- ALL fields with measurements are subject to automatic unit conversion-->
+|area_land_km2          = <!--See table @ Template:Infobox settlement for details on unit conversion-->
+|area_water_km2         =
+|area_total_dunam       = <!--Used in Middle East articles only-->
+|area_total_sq_mi       =
+|area_land_sq_mi        =
+|area_water_sq_mi       =
+|area_water_percent     =
+|area_urban_km2         =
+|area_urban_sq_mi       =
+|area_metro_km2         =
+|area_metro_sq_mi       =
+|area_blank1_title      =
+|area_blank1_km2        =
+|area_blank1_sq_mi      =
+<!-- Elevation -------------------------->
+|elevation_footnotes    =  <!--for references: use<ref> </ref> tags-->
+|elevation_m            = 261
+|elevation_ft           =
+|elevation_max_m        =
+|elevation_max_ft       =
+|elevation_min_m        =
+|elevation_min_ft       =
+<!-- Population ----------------------->
+|population_as_of               =2009
+|population_footnotes           =<ref name=population/>
+|population_note                =
+|population_total               =54453
+|population_density_km2         = <!--For automatic calculation, any density field may contain: auto -->
+|population_density_sq_mi       =
+|population_metro               =
+|population_density_metro_km2   =
+|population_density_metro_sq_mi =
+|population_urban               =
+|population_density_urban_km2   =
+|population_density_urban_sq_mi =
+|population_blank1_title        =
+|population_blank1              =
+|population_density_blank1_km2 =
+|population_density_blank1_sq_mi =
+<!-- General information  --------------->
+|timezone               =
+|utc_offset             =
+|timezone_DST           =
+|utc_offset_DST         =
+| coor_type             = <!-- can be used to specify what the coordinates refer to -->
+|latd=16 |latm=46 |lats=33 |latNS=N
+|longd=3 |longm=00 |longs=34 | longEW=W|coordinates_display=d
+<!-- Area/postal codes & others -------->
+|postal_code_type       =  <!-- enter ZIP code, Postcode, Post code, Postal code... -->
+|postal_code            =
+|area_code              =
+|twin1                  =
+|twin1_country          =
+|twin2                  =
+|twin2_country          =
+|twin3                  =
+|twin3_country          =
+|twin4                  =
+|twin4_country          =
+|twin5                  =
+|twin5_country          =
+|twin6                  =
+|twin6_country          =
+|twin7                  =
+|twin7_country          =
+|blank_name             =
+|blank_info             =
+|blank1_name            =
+|blank1_info            =
+|blank2_name            =
+|blank2_info            =
+|blank3_name            =
+|blank3_info            =
+|blank4_name            =
+|blank4_info            =
+|blank5_name            =
+|blank5_info            =
+|blank6_name            =
+|blank6_info            =
+|footnotes              = {{designation list | embed=yes
+   | designation1 = WHS
+   | designation1_date = 1988 <small>(12th [[World Heritage Committee|session]])</small>
+   | designation1_type = Cultural
+   | designation1_criteria =ii, iv, v
+   | designation1_number = [http://whc.unesco.org/en/list/119 119]
+   | designation1_free1name = State Party
+   | designation1_free1value = Mali
+   | designation1_free2name = Region
+   | designation1_free2value = [[List of World Heritage Sites in Africa|Africa]]
+   | designation1_free3name = [[List of World Heritage in Danger|Endangered]]
+   | designation1_free3value = 1990&ndash;2005
+}}
+|website                =
+}}
+
+Ing '''Timbuktu''' ({{IPAc-en|lang|pron|icon|ˌ|t|ɪ|m|b|ʌ|k|ˈ|t|uː}}; {{lang-fr|Tombouctou}} {{IPA-fr|tɔ̃bukˈtu|pron}}; [[Koyra Chiini]]: ''Tumbutu''), sadya mu namang misusulat a '''Timbuctoo''' ampong '''Timbuktoo''', metung yang balen king bansa king [[Albugan]]g Africa ning [[Mali]] a atyu king {{convert|15|km|mi|abbr=on}} [[pangulu]] ning [[Ilug Niger]] king [[mauli]]ng gilid ning [[Sahara Desert]]. Ing balen ing buntuk balen o kapitolyu ning [[Labwad Timbuktu]], metung kareng walung [[Labwad ning Mali|labwad a administratibu ning Mali]]. Maki populasyun yang 54,453 anyang 2009 census.
+
+Migumpisa ya antimong pana-panaun a tutuknangan ing Timbuktu, a meging permanenting balayan anyang mumuna nang dake ning  ka-12 a dilanwa. Kaybat dang minaliwa deng ruta ning kalakal (''trading routes''), misaplala ya ing uli ning negosyu king asin, gintu, garing (''ivory'') ampong alipan, at megi yang dake ning [[Imperyu ning Mali]] anyang mumuna nang dake ning ka-13 a dilanwa. Anyang mumuna nang dake ning ka-15 a dilanwa, telan de reng tribung [[Tuareg (lahi)|Tuareg]] king saguling panaun, bayu ne ikwa ning daragul a [[Imperyu ning Songhay]] anyang 1468. Simbut ne ning ukbung [[Morocco|Moroccan]] ing Songhay anyang 1591, at gewa neng balwarti ing Timbuktu, lipat ning [[Gao]]. Ginawa lang bayung uring makababo deng sinakup, deng [[Arma (lahi)|arma]], a kaybat ning 1612 meging timawa king Morocco. Nanupata, yari na ing ginintuan a panaun ning lakanbalen, at linub ya king malambat a panaun ning pamagbaba kabilyan. Dakal lang tribu deng menibala kaniti, anggang dinatang la reng Frances anyang 1893, at makanyan ing kabilyan anggang iti megi yang dake ning kasalukuyan a [[Republica ning Mali]] anyang 1960. King salukuyan, kalulu ya ing Timbuktu, magi yang desyertu. Panigobran dong samasan kabilyan deng makasalesayan a manuskritung makasinup pa murin king lakanbalen. Samantala, maragul yang dake nign panakitan ning lugal ing turismu. 
+
+Anyang Ginintuan a Panaun, mika maulagang kalakal kareng libru uling kareng dakal a manigaral king Islam ampong maleparan a pamiugnayan king kalakal: kayabe kareng kampus ning [[Sankore Madrasah]], metung a universidad a Muslim, mitikdo ya ing Timbuktu antimong sentru ning pamanigaral king Africa. Dakal la reng talasulat king kasalesayan, alimbawa i 
+Shabeni ampo i [[Leo Africanus]], a miglarawan king Timbuktu. Deti mengising lang pamangutang king Europa, nung nu minalis ing paglalawe da king lakanbalen maninat king lugal a misnang mabandi, king lugal a misteryosu. Ini ing paglalaweng mibabo king makabayung panaun, anya king kultura ning [[Albugan]], ing lagyu na mengabaldugan yang lugal a masyadung malaut o aliwang dili.
+
+Anyang 1 Abril 2012, metung a aldo kaybat ning pangakwa king [[Gao]], asakup de king militar ning Mali ing Timbuktu deng [[Pamagrebelding Tuareg ning 2012 T|rebelding Tuareg]] ning  [[MNLA]] ampong [[Ansar Dine]].<ref>{{cite news |url=http://www.ajc.com/news/nation-world/mali-coup-leader-reinstates-1403759.html |title=Mali coup leader reinstates old constitution |author=Rukmini Callimachi |date=1 April 2012 |work= |publisher= |agency=Associated Press |accessdate=31 March 2012}}</ref> Five days later, the MNLA declared the region independent of Mali as the nation of [[Azawad]].<ref name="english.alarabiya.net">{{cite news|url=http://english.alarabiya.net/articles/2012/04/06/205763.html|agency=Al Arabiya|title=Tuareg rebels declare the independence of Azawad, north of Mali|date=6 April 2012|accessdate=6 April 2012}}</ref>
+E ne kikilalanan ning sanumang bangsa o ning komunidad a internasyunal ing bayung deklarang lugal kabilyan a pampulitika.<ref>[http://www.aljazeera.com/indepth/opinion/2012/04/20124149184982408.html Azawad: the latest African Border Dilemma, Walter G. Moseley, Al Jazeera, 18 April 2012]</ref>
+
+== Lon la murin ==
+* [[List of cities in Mali]]
+
+==Notes==
+{{Reflist|colwidth=30em}}
+
+==Dalerayan==
+*{{citation | last=Abitbol | first=Michel |authorlink=Michel Abitbol | year=1979 | title=Tombouctou et les Arma: de la conquête marocaine du Soudan nigérien en 1591 à l'hégémonie de l'empire Peulh du Macina en 1833 | publisher=Maisonneuve & Larose | place=Paris | isbn= 2-7068-0770-9 |language=French }}.
+*{{citation | last=Barth | first=Heinrich | author-link=Heinrich Barth | title=Travels and discoveries in North and Central Africa: Being a journal of an expedition undertaken under the auspices of H. B. M.'s government, in the years 1849–1855. (3 Vols) | year=1857 | publisher=Harper & Brothers | place=New York }}. Google books: [http://books.google.co.uk/books?id=ALsZAAAAYAAJ Volume 1], [http://books.google.co.uk/books?id=W8ByAAAAMAAJ Volume 2], [http://books.google.co.uk/books?id=l74ZAAAAYAAJ Volume 3].
+*{{citation | last = Black  | first = Crofton  | title = Leo Africanus's "Descrittione dell'Africa" and its sixteenth-century translations  | journal=Journal of the Warburg and Courtauld Institutes | volume = 65 | pages = 262–272  | publisher=The Warburg Institute  | year = 2002 | jstor=4135111 }}.
+*{{citation | last=Caillié | first=Réné | authorlink= René Caillié | title=Travels through Central Africa to Timbuctoo; and across the Great Desert, to Morocco, performed in the years 1824–1828 (2 Vols) | publisher=Colburn & Bentley |location=London | year=1830 }}. Google books: [http://books.google.co.uk/books?id=gPMTAAAAIAAJ Volume 1], [http://books.google.co.uk/books?id=u7xjAAAAMAAJ Volume 2].
+*{{citation | last=Cisse | first=Mamadou | title=Archaeological Investigations of Early Trade and Urbanism at Gao Saney (Mali) | publisher=Ph.D. Thesis, Rice University, Department of Anthropology | year=2011 }}.
+*{{citation | last=Cleaveland | first=Timothy | year=2008 | contribution=Timbuktu and Walata: lineages and higher education | title=The Meanings of Timbuktu | editor1-last=Jeppie | editor1-first=Shamil | editor2-last=Diagne | editor2-first= Souleymane Bachir | publisher=HSRC Press | place=Cape Town | isbn=978-0-7969-2204-5 | url= http://www.codesria.org/IMG/pdf/The_Meanings_of_Timbuktu_-_Chapter_6_-_Timbuktu_and_Walata__lineages_and_higher_education.pdf | pages=77–91 }}.
+*{{citation | last=Dubois | first=Felix | last2=White | first2=Diana (trans.) | title=Timbuctoo the mysterious | publisher=Longmans |location=New York | year=1896 | url=http://www.archive.org/details/timbuctoomyster01whitgoog }}.
+*{{citation | last=Dunn | first=Ross E. | title=The Adventures of Ibn Battuta | publisher=University of California Press | year=2005 | isbn=0-520-24385-4 }}. Originally published in 1986, ISBN 0-520-05771-6.
+*{{Citation |last = Fage |first = J.D. |authorlink = John Donnelly Fage |title = An Introduction to the History of West Africa |publisher=Cambridge University Press |year = 1956 |location = London |pages = 22
+|url = http://books.google.com/books?id=RDw9AAAAIAAJ&printsec=frontcover&dq=an+introduction+to+the+history+of+west+africa&hl=en&ei=GHWGTeC7BIfsOYW7uNkI&sa=X&oi=book_result&ct=result&resnum=1&ved=0CDMQ6AEwAA#v=onepage&q&f=false}}
+*{{citation | last=Hacquard | first=Augustin | year=1900 | title=Monographie de Tombouctou | publisher=Société des études coloniales & maritimes |place=Paris | url=http://www.archive.org/details/monographiedeto00hacqgoog }}. Also available from [http://gallica.bnf.fr/ark:/12148/bpt6k103743p Gallica].
+*{{citation | last=Houdas | first=Octave (ed. and trans.) | year=1901 | title= Tedzkiret en-nisiān fi Akhbar molouk es-Soudān | publisher=E. Laroux | place=Paris |url= http://gallica.bnf.fr/ark:/12148/bpt6k5444371d.r=houdas.langEN | language=French }}. The anonymous 18th century ''Tadhkirat al-Nisyan''  is a biographical dictionary of the pashas of Timbuktu from the Moroccan conquest up to 1750.
+*{{citation | last=Hunwick | first=J.O. | title=Encyclopaedia of Islam. Volume X | edition=2nd | year=2000 | contribution=Timbuktu |publisher=Brill | place=Leiden | url=http://www.archive.org/stream/encyclopediaofIslam10/Vol.10t-u#page/n532/mode/1up | isbn= 90-04-11211-1 | pages=508–510}}.
+*{{citation | last=Hunwick | first= John O.| authorlink= John Hunwick | year=2003 |title= Timbuktu and the Songhay Empire: Al-Sadi's Tarikh al-Sudan down to 1613 and other contemporary documents | publisher=Brill| place=Leiden | isbn=0585-6914 }}. First published in 1999 as ISBN 90-04-11207-3.
+*{{citation | last=Imperato | first=Pascal James | title=Mali: A Search for Direction | year=1989 | publisher=Westview Press | Boulder CO | isbn=1-85521-049-5 }}.
+*{{citation | last=Insoll| first=Timothy | year=2002 | title= The Archaeology of Post Medieval Timbuktu | journal=Sahara | volume=13 | pages=7–22 | url=http://www.insoll.org/Timbuktu%20Sahara.pdf }}.
+*{{citation | last=Insoll| first=Timothy | year=1997 | title= Iron Age Gao: an archaeological contribution | journal=Journal of African History | volume=38 | pages=1–30 | jstor=182944 }}.
+*{{citation |last = Jackson |first = James Grey |title = An Account of Timbuctoo and Housa, Territories in the Interior of Africa By El Hage Abd Salam Shabeeny |publisher=Longman, Hurst, Rees, Orme, and Brown |year = 1820 |location = London |url = http://books.google.nl/books?id=BAtFAAAAIAAJ }}.
+*{{citation | last=Jeppie | first=Shamil | year=2008 | contribution=Re/discovering Timbuktu | title=The Meanings of Timbuktu | editor1-last=Jeppie | editor1-first=Shamil | editor2-last=Diagne | editor2-first= Souleymane Bachir | publisher=HSRC Press| place=Cape Town | isbn=978-0-7969-2204-5 | url= http://www.codesria.org/IMG/pdf/The_Meanings_of_Timbuktu_-_Chapter_1_-_Re_discovering_Timbuktu.pdf | pages=1–17 }}.
+*{{citation | last=Kaba | first=Lansine | year=1981 | title= Archers, Musketeers, and Mosquitoes: The Moroccan Invasion of the Sudan and the Songhay Resistance (1591–1612) | journal=Journal of African History | volume=22 | issue=4 | pages=457–475 | jstor=181298 | doi=10.1017/S0021853700019861 | pmid=11632225}}.
+*{{citation | last=Leo Africanus | author-link=Leo Africanus | title=The History and Description of Africa (3 Vols) | year=1896 | publisher=Hakluyt Society | place=London | others=Brown, Robert, editor}}. A facsimile of Pory's English translation of 1600 together with an introduction and notes by the editor. Internet Archive: [http://www.archive.org/details/worksissuedbyha01unkngoog Volume 1], [http://www.archive.org/details/historyanddescr01unkngoog Volume 2], [http://www.archive.org/details/historyanddescr02porygoog Volume 3]
+*{{citation | last=Levtzion | first=Nehemia | title=Ancient Ghana and Mali | publisher=Methuen | place=London | year=1973 | isbn=0-8419-0431-6 |url=http://www.aluka.org/action/showMetadata?doi=10.5555/AL.CH.DOCUMENT.sip100013 }}. Link requires subscription to Aluka.
+*{{citation | editor1-last=Levtzion | editor1-first=Nehemia | editor2-last=Hopkins | editor2-first=John F.P. |title=Corpus of Early Arabic Sources for West Africa | publisher=Marcus Weiner Press | place=New York, NY | year=2000 | isbn=1-55876-241-8}}. First published in 1981 by Cambridge University Press, ISBN 0-521-22422-5.
+*{{citation | last=McIntosh| first=Roderick J. |year=2008 | title=The Meanings of Timbuktu | editor1-last=Jeppie | editor1-first=Shamil | editor2-last=Diagne | editor2-first= Souleymane Bachir | contribution=Before Timbuktu: Cities of the elder world| publisher= HSRC Press | Cape Town | isbn=978-0-7969-2204-5 | url=http://www.codesria.org/IMG/pdf/The_Meanings_of_Timbuktu_-_Chapter_3_-_Before_Timbuktu__cities_of_the_elder_world.pdf | pages=31–43 }}.
+*{{Citation | last=McIntosh| first=Roderick| year=1993 | title=The pulse model: genesis and accommodation of specialization in the Middle Niger | journal=Journal of African History| volume=34 | pages=181–220 | jstor=182426 }}.
+*{{Citation | last=McIntosh| first=Roderick| year=1989 | title=Middle Niger Terracottas before the Symplegades Gateway | journal=African Arts| volume=22 | pages=74-83+103-102}}.
+*{{citation| last=McIntosh | first= Roderick J. | last2=McIntosh | first2=Susan Keech | year=1981 | title=The inland Niger delta before the empire of Mali: evidence from Jenne-jeno | journal=Journal of African History | volume=22 | pages=1–22 | doi=10.1017/S0021853700018983 | jstor=182149 }}. Also available from [http://anthropology.rice.edu/WorkArea/linkit.aspx?LinkIdentifier=id&ItemID=477 Rice University].
+*{{citation | last=McIntosh | first= Susan Keech (ed.) | title=Excavations at Jenné-Jeno, Hambarketolo, and Kaniana (Inland Niger Delta, Mali), the 1981 season | publisher=University of California Press |location=Berkeley | year=1995 | isbn=0-520-09785-8 |url=http://www.aluka.org/action/showMetadata?doi=10.5555/AL.CH.DOCUMENT.sip100038 | doi=10.5555/AL.CH.DOCUMENT.sip100038 }}. Link requires subscription to Aluka.
+*{{citation | last1=McIntosh| first1=Susan Keech |last2=McIntosh | first2=Roderick J. |year=1986 | title=Archaeological reconnaissance in the region of Timbuktu | journal=National Geographic Research | volume=2 | pages=302–319 | url=http://anthropology.rice.edu/WorkArea/linkit.aspx?LinkIdentifier=id&ItemID=480 }}.
+*{{Citation | last=Miner | first=Horace | title=The primitive city of Timbuctoo | year=1953 | publisher=Princeton University Press | url=http://www.aluka.org/action/showMetadata?doi=10.5555/AL.CH.DOCUMENT.sip200008 }}. Link requires subscription to Aluka. Reissued by Anchor Books, New York in 1965.
+*{{Citation | last=Park| first=Douglas| year=2012 | title=Timbuktu und die selbstorganisierenden Gesellschaften der Vorzeit | journal=Wespennest| volume=162 | pages=Set to Print in May 2012|url=http://yale.academia.edu/DouglasPark/Papers/1269476/Prehistoric_Timbuktu_and_its_hinterland }}.
+*{{citation | last=Park | first=Douglas | title=Climate Change, Human Response and the Origins of Urbanism at Prehistoric Timbuktu | year=2011 | publisher=PhD thesis, Yale University, Department of Anthropology | New Haven | url=http://yale.academia.edu/DouglasPark/Papers/1269839/Climate_Change_Human_Response_and_the_Origins_of_Urbanism_at_Timbuktu_Archaeological_Investigations_into_the_Prehistoric_Urbanism_of_the_Timbuktu_Region_on_the_Niger_Bend_Mali_West_Africa }}.
+*{{Citation | last=Park| first=Douglas| year=2010 | title=Timbuktu and its prehistoric hinterland | journal=Antiquity| volume=84 | pages=1076–1088 |url=http://yale.academia.edu/DouglasPark/Papers/1269476/Prehistoric_Timbuktu_and_its_hinterland }}.
+*{{citation | last=Saad | first=Elias N. | year=1983 | title=Social History of Timbuktu: The Role of Muslim Scholars and Notables 1400–1900 | publisher=Cambridge University Press | isbn=0-521-24603-2 }}.
+
+==Karagdagang babasan==
+*{{citation | last=es-Sadi | first= Abderrahman | title= Tarikh es-Soudan | others=Houdas, Octave ed. and trans. | publisher=E. Leroux | place=Paris | year=1898–1900}}. (Vol. 1 contains the Arabic text, Vol. 2 contains a translation into French). Internet Archive: [http://www.archive.org/details/tarikhalsudan00sadauoft Volume 1]; [http://www.archive.org/details/tarikhessoudanpa00sadauoft Volume 2]; Gallica: [http://gallica.bnf.fr/ark:/12148/bpt6k5460292j Volume 2].
+*{{citation | last=Gramont | first=Sanche de | authorlink=Ted Morgan (writer)|year=1976 | title=The Strong Brown God: The story of the Niger River | publisher=Houghton Mifflin | place=Boston | isbn=0-395-25224-5 }}.
+*{{Citation | last=Houdas | first=Octave (ed. and trans.) | year=1901 | title= Tedzkiret en-nisiān fi Akhbar molouk es-Soudān | publisher=E. Laroux | place=Paris |url= http://gallica.bnf.fr/ark:/12148/bpt6k5444371d.r=houdas.langEN }}. The anonymous 18th century ''Tadhkirat al-Nisyan''  is a biographical dictionary of the pashas of Timbuktu from the Moroccan conquest up to 1750.
+*Jenkins, Mark, (June 1997) To Timbuktu, ISBN 978-0-688-11585-2 William Marrow & Co. Revealing travelogue along the Niger to Timbuktu
+*{{Citation | last=Hunwick | first=John O. | last2=Boye | first2=Alida Jay | last3=Hunwick | first3=Joseph | year=2008 | title=The Hidden Treasures of Timbuktu: Historic city of Islamic Africa | publisher=Thames and Hudson | place=London | isbn=978-0-500-51421-4 }}.
+*{{Citation | last=Insoll | first=Timothy | year=2001–2002 | title=The archaeology of post-medieval Timbuktu | journal=Sahara | volume=13 | pages=7–11 |url=http://www.insoll.org/Timbuktu%20Sahara.pdf }}.
+*{{Citation | last=Joffre | first=Joseph  | year=1895 | title= Opérations de la colonne Joffre avant et après l'occupation de Tombouctou | publisher=Berger-Levrault  | place=Paris | url=http://gallica.bnf.fr/ark:/12148/bpt6k5625975c/f5.image | language=French}}.
+*{{citation | last1=Joffre | first1=Joseph  | last2=Dimnet | first2=Ernest (ed. and trans.) | year=1915 | title=My March to Timbuctoo |publisher=Druffield | place=New York | url=http://www.archive.org/details/mymarchtotimbuc01dimngoog }}.
+*{{citation | last=Kâti | first=Mahmoûd Kâti ben el-Hâdj el-Motaouakkel | year=1913 | title=Tarikh el-fettach ou Chronique du chercheur, pour servir à l'histoire des villes, des armées et des principaux personnages du Tekrour | publisher=Ernest Leroux | place=Paris | others=Houdas, O., Delafosse, M. ed. and trans. | url=http://gallica.bnf.fr/ark:/12148/bpt6k5439466q | language=French}}. Also available from [http://www.aluka.org/action/showMetadata?doi=10.5555/AL.CH.DOCUMENT.nuhmkati1&pgs= Aluka] but requires subscription.
+*{{citation | last=Kryza | first=Frank T. | year=2006 | title=The race for Timbuktu: In search of Africa's city of gold | publisher=Harper Collins | place=New York NY | isbn=0-06-056064-9 }}.
+*{{citation | last=Masonen | first=Pekka | year=2000 | title=The Negroland Revisited: Discovery and Invention of the Sudanese Middle Ages | publisher=Finnish Academy of Science and Letters | place=Helsinki | isbn=951-41-0886-8 }}.
+*{{citation | last=Mauny |first=Raymond | year=1961 | title=Tableau géographique de l'ouest africain au moyen age, d’après les sources écrites, la tradition et l'archéologie | publisher=Institut français d'Afrique Noire | place=Dakar | language=French }}.
+*{{citation | last1=Park |first1=Douglas | last2=Coutros |first2=Peter | last3=Abdallahi |first3=Mohamoud | last4=Ould Sidi |first4=Ali | year=2010 | title=Rapport sur la troisiéme champagne de research à Tombouctou préhistorique | place=Field Report to the Direction Nationale du Patrimoine Culturel, Bamako | language=French | url=http://yale.academia.edu/DouglasPark/Papers/1554818/_3_--_LA_CAMPAGNE_DE_RECHERCHE_ARCHEOLOGIQUE_DANS_LA_REGION_DE_TOMBOUCTOU_ET_LA_REGION_DES_LACS_RAPPORT_SUR_LA_TROISIEME_CAMPAGNE_DE_RESEARCH_A_TOMBOUCTOU_PREHISTORIQUE }}.
+*{{citation | last1=Park |first1=Douglas | last2=Coutros |first2=Peter | last3=Kone |first2=Useman | year=2009 | title=Rapport sur la deuxiéme champagne de research à Tombouctou préhistorique | place=Field Report to the Direction Nationale du Patrimoine Culturel, Bamako | language=French | url=http://yale.academia.edu/DouglasPark/Papers/1553213/_2_--_LA_CAMPAGNE_DE_FOUILLE_ARCHEOLOGIQUE_A_TOMBOUCTOU_RAPPORT_SUR_LA_DEUXIEME_CAMPAGNE_DE_RECHERCHE_A_TOMBOUCTOU }}.
+*{{citation | last1=Park |first1=Douglas | last2=Togola |first2=Boubacar | year=2008 | title=Rapport sur la première champagne de research à Tombouctou préhistorique | place=Field Report to the Direction Nationale du Patrimoine Culturel, Bamako | language=French | url=http://yale.academia.edu/DouglasPark/Papers/1553132/_1_--_ETUDE_ARCHEOLOGIQUE_PRELIMINAIRE_DANS_LA_PROXIMITE_DE_TOMBOUCTOU_RAPPORT_SUR_LA_PREMIERE_CAMPAGNE_DE_RECHERCHE_A_TOMBOUCTOU }}.
+*{{citation | last=Staros | first=Kari A. | year=1996 | title=Route to Glory: The Developments of the Trans-Saharan and Trans-Mediterranean Trade Routes | publisher=SI University Honor Theses | url=http://opensiuc.lib.siu.edu/uhp_theses/74/}}.
+*{{citation | last=Trimingham | first=John Spencer | year=1962 | title=A History of Islam in West Africa | publisher=Oxford University Press|isbn=0-19-285038-5 }}.
+
+==Suglung palwal==
+{{Commons category}}
+{{Wikisource1911Enc}}
+*[http://www.saharanresearch.org Saharan Archaeological Research Association] - ''contains information on the archaeological projects targeting the Iron Age occupation of Timbuktu''
+*[http://www.youtube.com/watch?v=b9LkpJdll9A Ancient West Africa's Megacities] - ''contains video footage of Timbuktu's Iron Age occupation''
+*[http://international.loc.gov/intldl/malihtml/ Islamic Manuscripts from Mali, Library of Congress] – ''fuller presentation of the same manuscripts from the Mamma Haidara Commemorative Library''
+*[http://www.aluka.org/action/showCompilationPage?doi=10.5555/AL.CH.COMPILATION.HERITAGE-SITE.Timbucktu Timbuktu materials in the Aluka digital library]
+*[http://unesdoc.unesco.org/images/0018/001894/189454e.pdf Timbuktu manuscripts: Africa’s written history unveiled], ''The UNESCO Courier'', 2007-5, pp.&nbsp;7–9
+*[http://unesdoc.unesco.org/images/0006/000666/066613eo.pdf#66052 Ancient chroniclers of West Africa's past; journeys of discovery through the 'country of the black people'], ''The UNESCO Courier'', October 1959
+
+<!--外部链接-->
+
+{{Niger River}}
+{{Communes of the Tombouctou Region}}
+
+[[Category:Timbuktu| ]]
+[[Category:Populated places in the Tombouctou Region]]
+[[Category:Regional capitals in Mali]]
+[[Category:Communes of Mali]]
+[[Category:Communities on the Niger River]]
+[[Category:History of Islam]]
+[[Category:History of the Sahara]]
+[[Category:World Heritage Sites in Mali]]
+[[Category:Ancient cities]]
+[[Category:Massina Empire]]
+[[Category:Azawad]]
+
+{{Link FA|hr}}
+{{Link FA|sr}}
+
+[[ar:تمبكتو]]
+[[an:Timbuktú]]
+[[bm:Timbuktu]]
+[[zh-min-nan:Tombouctou]]
+[[bg:Тимбукту]]
+[[bs:Timbuktu]]
+[[ca:Timbuctu]]
+[[cs:Timbuktu]]
+[[cy:Tombouctou]]
+[[da:Timbuktu]]
+[[de:Timbuktu]]
+[[et:Tombouctou]]
+[[el:Τιμπουκτού]]
+[[en:Timbuktu]]
+[[es:Tombuctú]]
+[[eo:Timbuktuo]]
+[[eu:Tonbuktu]]
+[[fa:تیمبوکتو]]
+[[fr:Tombouctou]]
+[[fy:Timbûktû]]
+[[gl:Tombouctou]]
+[[gu:ટિમ્બક્ટુ]]
+[[ko:팀북투]]
+[[hi:टिम्बकटू]]
+[[hr:Timbuktu]]
+[[id:Timbuktu]]
+[[ie:Timbuktu]]
+[[is:Timbúktú]]
+[[it:Timbuctù]]
+[[he:טימבוקטו]]
+[[kn:ಟಿಂಬಕ್ಟು]]
+[[ka:ტომბუქტუ]]
+[[sw:Timbuktu]]
+[[lad:Timbuktu]]
+[[la:Tombutum]]
+[[lv:Timbuktu]]
+[[lt:Timbuktu]]
+[[hu:Timbuktu]]
+[[ml:റ്റിംബക്റ്റൂ]]
+[[mr:टिंबक्टू]]
+[[nah:Timbuctu]]
+[[nl:Timboektoe (stad)]]
+[[ja:トンブクトゥ]]
+[[no:Timbuktu]]
+[[nn:Timbuktu]]
+[[nds:Timbuktu]]
+[[pl:Timbuktu]]
+[[pt:Tombuctu]]
+[[ro:Tombouctou]]
+[[ru:Тимбукту]]
+[[sco:Timbuktu]]
+[[scn:Timbuctù]]
+[[simple:Timbuktu]]
+[[sk:Timbuktu (mesto)]]
+[[sr:Тимбукту]]
+[[sh:Timbuktu]]
+[[fi:Timbuktu]]
+[[sv:Timbuktu]]
+[[te:టింబక్టు]]
+[[tr:Timbuktu]]
+[[uk:Тімбукту]]
+[[vi:Timbuktu]]
+[[zh-classical:廷巴克圖]]
+[[war:Timbuktu]]
+[[wuu:廷巴克图]]
+[[yo:Timbuktu]]
+[[zh:廷巴克图]]
