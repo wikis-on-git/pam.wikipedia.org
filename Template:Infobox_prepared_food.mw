@@ -11,7 +11,7 @@
 
 | header1     = {{#if:{{{alternate_name|}}}{{{country|}}}{{{region|}}}{{{creator|}}}|Penibatan}}
 
-| label2      = Alternative {{nowrap|name(s)}}
+| label2      = Kayaliling {{nowrap|lagiu}}
 | rowclass2   = note
 | data2       = {{{alternate_name|}}}
 
