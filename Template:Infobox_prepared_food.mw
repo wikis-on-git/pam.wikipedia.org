@@ -9,7 +9,7 @@
 
 | headerstyle = background-color: #b0c4de
 
-| header1     = {{#if:{{{alternate_name|}}}{{{country|}}}{{{region|}}}{{{creator|}}}|Origin}}
+| header1     = {{#if:{{{alternate_name|}}}{{{country|}}}{{{region|}}}{{{creator|}}}|Penibatan}}
 
 | label2      = Alternative {{nowrap|name(s)}}
 | rowclass2   = note
