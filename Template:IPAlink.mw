@@ -1,0 +1,13 @@
+{{IPAlink/core
+| ipa symbol ={{{ipa symbol|{{{1|{{{IPA symbol|}}}}}}}}}
+| IPAsym name={{IPAsym|{{{ipa symbol|{{{1|{{{IPA symbol|}}}}}}}}}|3={{error|blank|tag=span}}}}<!-- catched blank input as error --><!--
+-->| bracket    ={{{bracket|{{{3|}}}}}}<!--
+-->| label      ={{#if:{{{label}}}<!--
+ -->|{{#if:{{{label|{{{showsymbol|{{{2|}}}}}}}}}|{{{label|{{{showsymbol|{{{2|}}}}}}}}}|{{{ipa symbol|{{{1|{{{IPA symbol|}}}}}}}}}}}<!--
+ -->|<!--label set blank-->}}
+| name       ={{{name|no}}}
+| errortext  ={{#if:{{{errortext|}}}|{{{errortext|}}}|{{#if:{{{errortext}}}|{{error|undefined|tag=span}}|{{error|blank|tag=span}}}}}}
+}}<noinclude>
+
+{{documentation}}
+</noinclude>
