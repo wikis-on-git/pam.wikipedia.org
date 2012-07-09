@@ -1,0 +1,40 @@
+{{#iferror:{{{IPAsym name|}}}|<!--
+ERROR SITUATION either blank or unknown input IPA symbol
+-->{{#switch:{{{errortext|}}}
+| {{error|undefined|tag=span}}={{{IPAsym name|}}}
+| {{error|blank|tag=span}}=<!-- errortext set blank -->
+| #default={{{errortext|}}}<!-- is filled -->
+}}<!--
+ERROR SITUATION end-->
+|<!--WL BEGIN wikilink 
+IPA FONT opening
+-->{{IPA|<!--
+IPA BRACKET opening
+-->{{#switch:{{{bracket|none}}}
+| < | > | angle =⟨
+| / | slash =/
+| ] | [ | square=&#x005b;
+| #default=
+}}<!--
+WL BRACKETS [[ open
+-->{{square bracket open|2}}<!--
+WL PAGE name
+-->{{{IPAsym name|}}}<!--
+LABEL piped wikilink
+-->{{#if:{{{label|}}}|{{!}}{{{label|}}}|}}<!--
+WL BRACKETS ]] closing
+-->]]<!--
+IPA BRACKET closing
+-->{{#switch:{{{bracket|none}}}
+| < | > | angle =⟩
+| / |     slash =/
+| ] | [ | square=&#x005d;
+| #default=
+}}<!--
+IPA FONT closing
+-->}}<!--
+NAME if requested
+-->{{#if:{{{dummy|}}}| | }}{{#if:{{{name|}}}|{{yesno|{{{name|no}}}|yes=&#x20;{{{IPAsym name|}}}}}}}}}<noinclude>
+
+{{documentation}}
+</noinclude>
