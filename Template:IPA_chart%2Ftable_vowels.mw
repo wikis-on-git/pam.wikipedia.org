@@ -1,0 +1,67 @@
+{| <!-- VOWELS CHART-->{{{alignstyle|}}} style="line-height:1.4em;{{{tablestyle|}}};" cellspacing=0
+|+ style="{{{captionstyle|}}}" | {{{caption|}}}
+|- style="text-align:center;"
+|
+| style="width:64px;"|<span style="position:relative; left:-0.4em;">[[Front vowel|Front]]</span>
+| style="width:62px;"| [[Near-front vowel|Near-{{zwsp}}front]]
+| style="width:64px;"| [[Central vowel|Central]]
+| style="width:62px;"| [[Near-back vowel|Near-{{zwsp}}back]]
+| style="width:64px;"| [[Back vowel|Back]]
+|-
+| style="height:32px; text-align:right;" | [[Close vowel|'''Close''']]
+| style="height:210px;" colspan="5" rowspan="7" | <div style="position:relative;">[[File:Blank vowel trapezoid.svg|320px|link=]]<div style="background:transparent; position:absolute; top:0px; left:0px;">
+{| style="position:relative; width:320px; height:224px; text-align:center; background:transparent; font-size:131%;"
+|-
+|
+<!-- CLOSE VOWELS -->
+{{IPA vowel chart/vowelpair|i|y||4|24}}
+{{IPA vowel chart/vowelpair|ɨ|ʉ||4|153}}
+{{IPA vowel chart/vowelpair|ɯ|u||4|281}}
+
+<!-- NEAR-CLOSE VOWELS -->
+{{IPA vowel chart/vowelpair|ɪ|ʏ||35|102}}
+{{IPA vowel chart/vowelpair|ɪ̈  |ʊ̈  ||35|163}}
+{{IPA vowel chart/vowelpair||ʊ||35|226}}
+
+<!-- CLOSE-MID VOWELS -->
+{{IPA vowel chart/vowelpair|e|ø||68|68}}
+{{IPA vowel chart/vowelpair|ɘ|ɵ||68|175}}
+{{IPA vowel chart/vowelpair|ɤ|o||68|281}}
+
+<!-- MID VOWELS -->
+{{IPA vowel chart/vowelpair|e̞  |ø̞  ||98|89}}
+{{IPA vowel chart/vowelpair| | | ə  |98|185}}
+{{IPA vowel chart/vowelpair|ɤ̞  |o̞  ||98|281}}
+
+<!-- OPEN-MID VOWELS -->
+{{IPA vowel chart/vowelpair|ɛ|œ||132|110}}
+{{IPA vowel chart/vowelpair|ɜ|ɞ||132|196}}
+{{IPA vowel chart/vowelpair|ʌ|ɔ||132|281}}
+
+<!-- NEAR-OPEN VOWELS -->
+{{IPA vowel chart/vowelpair|æ|||166|131}}
+{{IPA vowel chart/vowelpair|||ɐ|166|210}}
+
+<!-- OPEN VOWELS -->
+{{IPA vowel chart/vowelpair|a|ɶ||198|153}}
+{{IPA vowel chart/vowelpair|ä|||198|216}}
+{{IPA vowel chart/vowelpair|ɑ|ɒ||198|281}}
+
+|}
+</div></div>
+|-
+| style="height:32px; text-align:right;" | [[Near-close vowel|Near-close]]
+|-
+| style="height:32px; text-align:right;" | [[Close-mid vowel|Close-mid]]
+|-
+| style="height:32px; text-align:right;" | [[Mid vowel|'''Mid''']]
+|-
+| style="height:32px; text-align:right;" | [[Open-mid vowel|Open-mid]]
+|-
+| style="height:32px; text-align:right;" | [[Near-open vowel|Near-open]]
+|-
+| style="height:32px; text-align:right;" | [[Open vowel|'''Open''']]
+|}<noinclude>
+{{clear}}
+{{documentation|1=Template:IPA chart/doc}}
+</noinclude>
