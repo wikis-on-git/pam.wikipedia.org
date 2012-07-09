@@ -1,0 +1,146 @@
+{| class="infobox vcard" style="width: 22em; text-align: left; font-size: 88%; line-height: 1.5em"
+! colspan=2 class="fn org" style="font-size: 125%; text-align: center" | {{{agency_name|<includeonly>{{PAGENAME}}</includeonly>}}} 
+|-
+{{#if:{{{nativename|}}}|
+! colspan=2 class="nickname" style="font-size: 120%; text-align: center" {{!}} {{{nativename}}}
+{{!}}-
+}}
+{{#if:{{{nativename_a|}}}|
+! colspan=2 class="nickname" style="font-size: 120%; text-align: center" {{!}} {{{nativename_a}}}
+{{!}}-
+}}
+{{#if:{{{nativename_r|}}}|
+! colspan=2 class="nickname" style="font-size: 120%; text-align: center" {{!}} {{{nativename_r}}}
+{{!}}-
+}}
+{{#if:{{{seal|}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} [[file:{{{seal}}}|{{px|{{{seal_width|}}}|180px}}]]
+{{!}}-
+{{#if:{{{seal_caption|}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} {{{seal_caption}}}
+{{!}}-
+}}
+}}
+{{#if:{{{logo|}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} [[file:{{{logo}}}|{{px|{{{logo_width|}}}|180px}}]]
+{{!}}-
+{{#if:{{{logo_caption|}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} {{{logo_caption}}}
+{{!}}-
+}}
+}}
+{{#if:{{{picture|}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} [[file:{{{picture}}}|{{px|{{{picture_width|}}}|180px}}]]
+{{!}}-
+{{#if:{{{picture_caption|}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} {{{picture_caption}}}
+{{!}}-
+}}
+}}
+{{#if:{{{formed|}}}{{{preceding1|}}}{{{dissolved|}}}{{{superseding|}}}{{{jurisdiction|}}}{{{headquarters|}}}{{{motto}}}{{{employees|}}}{{{budget|}}}{{{minister1_name|}}}{{{chief1_name|}}}{{{parent_agency|}}}{{{child1_agency|}}}{{{keydocument1|}}}{{{website|}}}{{{footnotes|}}}{{{map|}}}{{{map_caption|}}}|
+! colspan=2 style="background-color: #efefef; text-align: center" {{!}} <span class="category">{{ucfirst: {{#if:{{{type|}}}|{{{type}}}|Agency}}}}</span> overview
+{{!}}-
+}}
+{{#if:{{{formed|}}}|
+! Melalang
+{{!}} {{{formed}}}
+{{!}}-
+}}
+{{#if:{{{preceding1|}}}|
+! {{#if:{{{preceding2|}}}|Preceding agencies|Preceding {{#if:{{{type|}}}|{{{type}}}|Agency}}}}
+{{!}} {{{preceding1}}}{{#if:{{{preceding2|}}}|<br />{{{preceding2}}} }}{{#if:{{{preceding3|}}}|<br />{{{preceding3}}} }}{{#if:{{{preceding4|}}}|<br />{{{preceding4}}} }}{{#if:{{{preceding5|}}}|<br />{{{preceding5}}} }}{{#if:{{{preceding6|}}}|<br />{{{preceding6}}} }}
+{{!}}-
+}}
+{{#if:{{{dissolved|}}}|
+! Misara
+{{!}} {{{dissolved}}}
+{{!}}-
+}}
+{{#if:{{{superseding|}}}|
+! Superseding {{{service|agency}}}
+{{!}} {{{superseding}}}
+{{!}}-
+}}
+{{#if:{{{jurisdiction|}}}|
+! Jurisdiction
+{{!}} {{{jurisdiction}}}
+{{!}}-
+}}
+{{#if:{{{headquarters|}}}|
+! Pun tanggapan
+{{!}} <span class="label">{{{headquarters}}}</span>{{#if:{{both|{{{latd|}}}|{{{longd|}}}}}|<br />{{geobox coor|{{{latd|}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{{longd|}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|type:landmark{{#if:{{{region_code|}}}|_region:{{{region_code}}}}}}}}}{{#if: {{{coordinates|}}}|<br/>{{{coordinates|}}} }}
+{{!}}-
+}}
+{{#if:{{{motto|}}}|
+! Motto
+{{!}} {{{motto}}}
+{{!}}-
+}}
+{{#if:{{{employees|}}}|
+! Empleadu
+{{!}} {{{employees}}}
+{{!}}-
+}}
+{{#if:{{{budget|}}}|
+! Banwa-banwang budget
+{{!}} {{{budget}}}
+{{!}}-
+}}
+{{#if:{{{minister1_name|}}}|
+! {{#if:{{{minister2_name|}}}|Ministers responsible|Minister responsible}}
+{{!}} {{{minister1_name}}}{{#if:{{{minister1_pfo|}}}|, {{{minister1_pfo}}} }}{{#if:{{{minister2_name|}}}|<br />{{{minister2_name}}}{{#if:{{{minister2_pfo|}}}|, {{{minister2_pfo}}} }} }}{{#if:{{{minister3_name|}}}|<br />{{{minister3_name}}}{{#if:{{{minister3_pfo|}}}|, {{{minister3_pfo}}} }} }}{{#if:{{{minister4_name|}}}|<br />{{{minister4_name}}}{{#if:{{{minister4_pfo|}}}|, {{{minister4_pfo}}} }} }}{{#if:{{{minister5_name|}}}|<br />{{{minister5_name}}}{{#if:{{{minister5_pfo|}}}|, {{{minister5_pfo}}} }} }}{{#if:{{{minister6_name|}}}|<br />{{{minister6_name}}}{{#if:{{{minister6_pfo|}}}|, {{{minister6_pfo}}} }} }}{{#if:{{{minister7_name|}}}|<br />{{{minister7_name}}}{{#if:{{{minister7_pfo|}}}|, {{{minister7_pfo}}} }} }}
+{{!}}-
+}}
+{{#if:{{{deputyminister1_name|}}}|
+! {{#if:{{{deputyminister2_name|}}}|Deputy Ministers responsible|Deputy Minister responsible}}
+{{!}} {{{deputyminister1_name}}}{{#if:{{{deputyminister1_pfo|}}}|, {{{deputyminister1_pfo}}} }}{{#if:{{{deputyminister2_name|}}}|<br />{{{deputyminister2_name}}}{{#if:{{{deputyminister2_pfo|}}}|, {{{deputyminister2_pfo}}} }} }}{{#if:{{{deputyminister3_name|}}}|<br />{{{deputyminister3_name}}}{{#if:{{{deputyminister3_pfo|}}}|, {{{deputyminister3_pfo}}} }} }}{{#if:{{{deputyminister4_name|}}}|<br />{{{deputyminister4_name}}}{{#if:{{{deputyminister4_pfo|}}}|, {{{deputyminister4_pfo}}} }} }}{{#if:{{{deputyminister5_name|}}}|<br />{{{deputyminister5_name}}}{{#if:{{{deputyminister5_pfo|}}}|, {{{deputyminister5_pfo}}} }} }}{{#if:{{{deputyminister6_name|}}}|<br />{{{deputyminister6_name}}}{{#if:{{{deputyminister6_pfo|}}}|, {{{deputyminister6_pfo}}} }} }}{{#if:{{{deputyminister7_name|}}}|<br />{{{deputyminister7_name}}}{{#if:{{{deputyminister7_pfo|}}}|, {{{deputyminister7_pfo}}} }} }}
+{{!}}-
+}}
+{{#if:{{{chief1_name|}}}|
+! {{ucfirst: {{#if:{{{type|}}}|{{{type}}}|Agency}}}} executive{{#if:{{{chief2_name|}}}|s}}
+{{!}} {{{chief1_name}}}{{#if:{{{chief1_position|}}}|, {{{chief1_position}}}}} {{#if:{{{chief2_name|}}}|<br />{{{chief2_name}}}{{#if:{{{chief2_position|}}}|, {{{chief2_position}}} }} }}{{#if:{{{chief3_name|}}}|<br />{{{chief3_name}}}{{#if:{{{chief3_position|}}}|, {{{chief3_position}}} }} }}{{#if:{{{chief4_name|}}}|<br />{{{chief4_name}}}{{#if:{{{chief4_position|}}}|, {{{chief4_position}}} }} }}{{#if:{{{chief5_name|}}}|<br />{{{chief5_name}}}{{#if:{{{chief5_position|}}}|, {{{chief5_position}}} }} }}{{#if:{{{chief6_name|}}}|<br />{{{chief6_name}}}{{#if:{{{chief6_position|}}}|, {{{chief6_position}}} }} }}{{#if:{{{chief7_name|}}}|<br />{{{chief7_name}}}{{#if:{{{chief7_position|}}}|, {{{chief7_position}}} }} }}{{#if:{{{chief8_name|}}}|<br />{{{chief8_name}}}{{#if:{{{chief8_position|}}}|, {{{chief8_position}}} }} }}{{#if:{{{chief9_name|}}}|<br />{{{chief9_name}}}{{#if:{{{chief9_position|}}}|, {{{chief9_position}}} }} }}
+{{!}}-
+}}
+{{#if:{{{parent_department|}}}|
+! Parent department
+{{!}} {{{parent_department}}}
+{{!}}-
+}}
+{{#if:{{{parent_agency|}}}|
+! Parent {{#if:{{{type|}}}|{{{type}}}|Agency}}
+{{!}} {{{parent_agency}}}
+{{!}}-
+}}
+{{#if:{{{child1_agency|}}}|
+! {{#if:{{{child2_agency|}}}|Child agencies|Child {{#if:{{{type|}}}|{{{type}}}|Agency}}}}
+{{!}} {{{child1_agency}}}{{#if:{{{child2_agency|}}}|<br />{{{child2_agency}}} }}{{#if:{{{child3_agency|}}}|<br />{{{child3_agency}}} }}{{#if:{{{child4_agency|}}}|<br />{{{child4_agency}}} }}{{#if:{{{child5_agency|}}}|<br />{{{child5_agency}}} }}{{#if:{{{child6_agency|}}}|<br />{{{child6_agency}}} }}{{#if:{{{child7_agency|}}}|<br />{{{child7_agency}}} }}{{#if:{{{child8_agency|}}}|<br />{{{child8_agency}}} }}{{#if:{{{child9_agency|}}}|<br />{{{child9_agency}}} }}{{#if:{{{child10_agency|}}}|<br />{{{child10_agency}}} }}{{#if:{{{child11_agency|}}}|<br />{{{child11_agency}}} }}{{#if:{{{child12_agency|}}}|<br />{{{child12_agency}}} }}{{#if:{{{child13_agency|}}}|<br />{{{child13_agency}}} }}{{#if:{{{child14_agency|}}}|<br />{{{child14_agency}}} }}{{#if:{{{child15_agency|}}}|<br />{{{child15_agency}}} }}{{#if:{{{child16_agency|}}}|<br />{{{child16_agency}}} }}{{#if:{{{child17_agency|}}}|<br />{{{child17_agency}}} }}{{#if:{{{child18_agency|}}}|<br />{{{child18_agency}}} }}{{#if:{{{child19_agency|}}}|<br />{{{child19_agency}}} }}{{#if:{{{child20_agency|}}}|<br />{{{child20_agency}}} }}{{#if:{{{child21_agency|}}}|<br />{{{child21_agency}}} }}{{#if:{{{child22_agency|}}}|<br />{{{child22_agency}}} }}{{#if:{{{child23_agency|}}}|<br />{{{child23_agency}}} }}{{#if:{{{child24_agency|}}}|<br />{{{child24_agency}}} }}{{#if:{{{child25_agency|}}}|<br />{{{child25_agency}}} }}
+{{!}}-
+}}
+{{#if:{{{keydocument1|}}}|
+! {{#if:{{{keydocument2|}}}|Key documents|Key document}}
+{{!}} {{{keydocument1}}} {{#if:{{{keydocument2|}}}|<br />{{{keydocument2}}} }}{{#if:{{{keydocument3|}}}|<br />{{{keydocument3}}} }}{{#if:{{{keydocument4|}}}|<br />{{{keydocument4}}} }}{{#if:{{{keydocument5|}}}|<br />{{{keydocument5}}} }}{{#if:{{{keydocument6|}}}|<br />{{{keydocument6}}} }}
+{{!}}-
+}}
+{{#if:{{{website|}}}|
+! colspan=2 style="background-color: #efefef; text-align: center" {{!}} Website
+{{!}}-
+{{!}} colspan=2 style="text-align: center" {{!}} {{{website}}}
+{{!}}-
+}}
+{{#if:{{{footnotes|}}}|
+! colspan=2 style="background-color: #efefef; text-align: center" {{!}} Footnotes
+{{!}}-
+{{!}} colspan=2 style="text-align: left" {{!}} {{{footnotes}}}
+{{!}}-
+}}
+{{#if:{{{map|}}}|
+! colspan=2 style="background-color: #efefef; text-align: center" {{!}} Map
+{{!}}-
+{{!}} colspan=2 style="text-align: center" {{!}} [[file:{{{map}}}|{{px|{{{map_width|}}}|frameless}}]]
+{{!}}-
+{{#if:{{{map_caption|}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} {{{map_caption}}}
+{{!}}-
+}} }}
+{{{child|}}}
+|}<noinclude>{{Documentation}}<!-- place category and language links on the /doc sub-page, not here --></noinclude>
