@@ -1,0 +1,71 @@
+{{Navbox with collapsible groups
+| name = IPA navigation
+| title = [[International Phonetic Alphabet]]
+| state = {{{state|plain}}}
+| listclass = hlist
+
+| group1 = IPA topics
+| abbr1 = IPA
+| list1 = 
+   {{Navbox|child
+   | group1 = IPA
+   | list1 =
+* [[International Phonetic Association]]
+* [[History of the IPA]]
+* [[Extensions to the IPA]]
+* [[IPA Kiel Convention|Kiel convention (1989)]]
+* [[Journal of the International Phonetic Association|Journal of the IPA (JIPA)]]
+* [[Naming conventions of the International Phonetic Alphabet|Naming conventions]]
+
+   | group2 = Phonetics
+   | list2 = 
+* [[International Phonetic Alphabet#Diacritics|Diacritics]]* [[Segment (linguistics)|Segments]]
+* [[Tone letter]]
+* [[Place of articulation]]
+* [[Manner of articulation]]
+
+   | group3 = Special topics
+   | list3 = 
+* [[Case variants of IPA letters]]
+* [[Handwritten IPA]]
+* [[Obsolete and nonstandard symbols in the International Phonetic Alphabet|Obsolete and nonstandard symbols]]
+* [[IPA chart for English dialects]]
+
+   | group4 = Encodings
+   | list4 = 
+* [[Speech Assessment Methods Phonetic Alphabet|SAMPA]]
+* [[X-SAMPA]]
+* [[Conlang X-SAMPA]]
+* [[Kirshenbaum]]
+* [[TIPA]]
+* [[Phonetic symbols in Unicode]]
+* [[WorldBet]]
+   }}
+
+| group2 = [[Consonant]]s
+| abbr2 = consonants
+| list2 = 
+   {{Navbox|child
+   | group1 = 
+   | list1 = {{IPA consonant chart|wrapper=navbox}}
+   | group2 = Chart image
+   | list2 = 
+* [[Media:IPA_consonants_2005.png|Pulmonics]]
+* [[Media:IPA_non-pulmonic_2005.png|Non-pulmonics ]]
+* [[Media:Affricate_ligatures.png|Affricates]]
+* [[Media:IPA_co-articulated_2005.png|Co-articulated]]
+   }}
+
+| group3 = [[Vowel]]s
+| abbr3 = vowels
+| list3 = 
+   {{Navbox|child
+   | group1 = 
+   | list1  ={{IPA vowel chart|wrapper=navbox|position=center}}
+   | below  =Vowels: {{IPA chart vowels|wrapper=linkrow|show ipa key=no}}
+   }}
+
+}}<noinclude>
+
+{{Documentation}}
+</noinclude>
