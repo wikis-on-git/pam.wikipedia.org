@@ -1,0 +1,992 @@
+<!-- stopS -->
+| 101
+| p =voiceless bilabial stop
+| 101 408
+| p̪ =voiceless labiodental stop
+| 102
+| b =voiced bilabial stop
+| 102 408
+| b̪ =voiced labiodental stop
+| 103
+| t =voiceless alveolar stop
+| 103 408
+| 103 + 408
+| t̪ =voiceless dental stop
+| 104
+| d =voiced alveolar stop
+| 104 408
+| 104 + 408
+| d̪ =voiced dental stop
+| t̠ʲ
+| c̟
+| ȶ = voiceless alveolo-palatal stop
+| d̠ʲ
+| ɟ̟
+| ȡ = voiced alveolo-palatal stop
+| 105
+| ʈ =voiceless retroflex stop
+| 106
+| ɖ =voiced retroflex stop
+| 107
+| c =voiceless palatal stop
+| 108
+| ɟ =voiced palatal stop
+| k̟ =voiceless prevelar stop
+| 109
+| k =voiceless velar stop
+| 110
+| ɡ =voiced velar stop
+| k̠ =voiceless postvelar stop
+| 111
+| q =voiceless uvular stop
+| 112
+| ɢ =voiced uvular stop
+| 173
+| ʡ =epiglottal stop
+| 113
+| ʔ =glottal stop
+
+<!-- NASAL -->
+| 114
+| m =bilabial nasal
+| m̥ =voiceless bilabial nasal
+| 115
+| ɱ =labiodental nasal
+| 116 408
+| 116 + 408
+| n̪ =dental nasal
+| 116
+| n =alveolar nasal
+| n̥ =voiceless alveolar nasal
+| n̠ =postalveolar nasal
+| n̠ʲ
+| ɲ̟
+| ȵ = alveolo-palatal nasal
+| 117
+| ɳ =retroflex nasal
+| ɳ̊
+| ɳ̥ =voiceless retroflex nasal
+| 118
+| ɲ =palatal nasal
+| ɲ̊
+| ɲ̥ =voiceless palatal nasal
+| 119
+| ŋ =velar nasal
+| ŋ̥
+| ŋ̊ =voiceless velar nasal
+| 120
+| ɴ =uvular nasal
+| 116 407
+| 116 + 407
+| n̼ =linguolabial nasal
+| 126
+<!-- FRICATIVES -->
+| ɸ =voiceless bilabial fricative
+| 127
+| β =voiced bilabial fricative
+| 128
+| f =voiceless labiodental fricative
+| 129
+| v =voiced labiodental fricative
+| 130
+| θ =voiceless dental fricative
+| 130 (414)
+| 130 414
+| θ̱ =voiceless alveolar non-sibilant fricative
+| 131
+| ð =voiced dental fricative
+
+| 138
+| ç =voiceless palatal fricative
+| 139
+| ʝ =voiced palatal fricative
+| 140
+| x =voiceless velar fricative
+| 141
+| ɣ =voiced velar fricative
+| x̠ =voiceless postvelar fricative
+| ɣ̄
+| ɣ̠ =voiced postvelar fricative
+| 142
+| χ =voiceless uvular fricative
+| 143
+| ʁ =voiced uvular fricative
+| 144
+| ħ =voiceless pharyngeal fricative
+| 145
+| ʕ =voiced pharyngeal fricative
+| 172
+| ʜ =voiceless epiglottal fricative
+| 174
+| ʢ =voiced epiglottal fricative
+| 146
+| h =voiceless glottal fricative
+| 147
+| ɦ =voiced glottal fricative
+| h̃ =Voiceless nasal glottal approximant
+| ɭ˔̊
+| ɬ̢ =voiceless retroflex lateral fricative
+| 157 402A 429
+| ʎ̥˔ =voiceless palatal lateral fricative
+| 158 429 402A
+| ʟ̝̊ =voiceless velar lateral fricative
+| 158 429
+| ʟ̝ =voiced velar lateral fricative
+<!-- APPROXIMANTS -->
+| β̞ =bilabial approximant
+| 150
+| ʋ =labiodental approximant
+| ð̞ =dental approximant
+| 151
+| ɹ =alveolar approximant
+| 152
+| ɻ =retroflex approximant
+| 153
+| j =palatal approximant
+| ȷ̃ =nasal palatal approximant
+| 154
+| ɣ̞
+| ɰ =velar approximant
+
+| 155
+| l =alveolar lateral approximant
+| l̪ =dental lateral approximant
+| l̥ =voiceless alveolar lateral approximant
+| l̠ʲ
+| ʎ̟
+| ȴ = lateral alveolo-palatal approximant
+| 156
+| ɭ =retroflex lateral approximant
+| 157
+| ʎ =palatal lateral approximant
+| 158
+| ʟ =velar lateral approximant
+| 209
+| ɫ =velarized alveolar lateral approximant
+
+| 169
+| hw
+| ʍ =voiceless labio-velar approximant
+| 170
+| w =labio-velar approximant
+| 170 424
+| w̃ =nasal labio-velar approximant
+| 171
+| ɥ =labial-palatal approximant
+<!-- TRILLS -->
+| 121
+| ʙ =bilabial trill
+| 122
+| r =alveolar trill
+| r̥ =voiceless alveolar trill
+| ɼ
+| r̝ =raised alveolar trill
+| 105 101 122
+| ​ɽ͡r
+| ɽ͡r =retroflex trill
+| 123
+| ʀ =uvular trill
+| ᴙ
+| я =epiglottal trill
+<!-- FLAPS -->
+| 184 413
+| ⱱ̟ =bilabial flap
+| 184
+| ⱱ =labiodental flap
+| 124
+| ɾ =alveolar tap
+| 125
+| ɽ =retroflex flap
+| 112 505
+| 112 + 505
+| ɢ̆ =uvular flap
+| 173 432
+| 173 + 432
+| ʡ̯ =epiglottal flap
+| 181
+| ɺ =alveolar lateral flap
+| ɺ̠
+| ɺ̢
+|  =retroflex lateral flap
+| ʎ̯ =palatal lateral flap
+| ʟ̆ =velar lateral flap
+
+| 148
+| ɬ =voiceless alveolar lateral fricative
+| 149
+| ɮ =voiced alveolar lateral fricative
+|  =voiceless retroflex lateral fricative
+|  =voiceless palatal lateral fricative
+|  =voiceless velar lateral fricative
+<!-- SIBILANTS -->
+| 132
+| s =voiceless alveolar sibilant
+| 132 (414)
+| 132 414
+| s̺ =voiceless apico-alveolar sibilant
+| 133
+| z =voiced alveolar sibilant
+| 134
+| ʃ =voiceless palato-alveolar sibilant
+| 135
+| ʒ =voiced palato-alveolar sibilant
+| 136
+| ʂ =voiceless retroflex sibilant
+| 137
+| ʐ =voiced retroflex sibilant
+<!-- IMPLOSIVES -->
+| 160
+| ɓ =voiced bilabial implosive
+| 162
+| ɗ =voiced alveolar implosive
+| ᶑ =voiced retroflex implosive
+| 164
+| ʄ =voiced palatal implosive
+| 166
+| ɠ =voiced velar implosive
+| 168
+| ʛ =voiced uvular implosive
+| ƥ =voiceless bilabial implosive
+| ƭ =voiceless alveolar implosive
+| ƈ =voiceless palatal implosive
+| ƙ =voiceless velar implosive
+| ʠ =voiceless uvular implosive
+<!-- EJECTIVES -->
+| 101 401
+| 101 + 401
+| pʼ =bilabial ejective
+| 103 401 408
+| 103 + 401 + 408
+| t̪ʼ =dental ejective
+| 165
+| 103 401
+| 103 + 401
+| tʼ =alveolar ejective
+| 107 401
+| 107 + 401
+| cʼ =palatal ejective
+| 109 401
+| 109 + 401
+| kʼ =velar ejective
+| 111 401
+| 111 + 401
+| qʼ =uvular ejective
+| 132 401
+| 132 + 401
+| sʼ =alveolar ejective fricative
+| ʈʼ =retroflex ejective
+| fʼ =labiodental ejective fricative
+| θʼ =dental ejective fricative
+| ɬʼ =alveolar lateral ejective fricative
+| xʼ =velar ejective fricative
+| χʼ =uvular ejective fricative
+
+<!-- AFFRICATES -->
+| 103 148 401
+| 103 (148) 401
+| ƛ’
+| t͡ɬʼ
+| t͜ɬʼ
+| tɬʼ =alveolar lateral ejective affricate
+| tʃʼ
+| t͜ʃʼ
+| t͡ʃʼ =palato-alveolar ejective affricate
+| pf
+| p̪f
+| p͡f
+| p̪͡f =voiceless labiodental affricate
+| bv
+| b̪v
+| b͡v
+| b͜v
+| b̪͡v =voiced labiodental affricate
+| 103 132
+| 103 (132)
+| ʦ
+| ts
+| t͜s
+| t͡s =voiceless alveolar affricate
+| 103 132 401
+| t͡sʼ
+| tsʼ =alveolar ejective affricate
+| ʣ
+| dz
+| d͜z
+| d͡z =voiced alveolar affricate
+| 103 (134)
+| 103 134
+| t̠ʃ
+| ʧ
+| tʃ
+| t͜ʃ
+| t͡ʃ =voiceless palato-alveolar affricate
+| 104 (135)
+| 104 135
+| d̠ʒ
+| ʤ
+| dʒ
+| d͜ʒ
+| d͡ʒ =voiced palato-alveolar affricate
+| 215
+| t̠ɕ
+| ʨ
+| tɕ
+| t͜ɕ
+| t͡ɕ =voiceless alveolo-palatal affricate
+| 216
+| d̠ʑ
+| ʥ
+| dʑ
+| d͜ʑ
+| d͡ʑ =voiced alveolo-palatal affricate
+| 105 (136)
+| 105 136
+| ʈʂ
+| t͡ʂ
+| t͜ʂ
+| tʂ
+| ʈ͡ʂ =voiceless retroflex affricate
+| tʂʼ
+| t͡ʂʼ
+| ʈʂʼ
+| ʈ͡ʂʼ =retroflex ejective affricate
+| 106 (137)
+| 106 137
+| ɖʐ
+| dʐ
+| d͜ʐ
+| ɖ͜ʐ
+| d͡ʐ
+| ɖ͡ʐ =voiced retroflex affricate
+| 108 (139)
+| 108 139
+| ɟ͡ʝ
+| ɟʝ =voiced palatal affricate
+| 107 (138)
+| 107 138
+| c͡ç
+| cç =voiceless palatal affricate
+| kx
+| k͡x
+| k͜x =voiceless velar affricate
+| qχ
+| q͡χ = voiceless uvular affricate
+| kxʼ
+| k͜xʼ
+| k͡xʼ =velar ejective affricate
+| 103 (148)
+| 103 148
+| ƛ
+| tɬ
+| t͜ɬ
+| t͡ɬ =voiceless alveolar lateral affricate
+| 104 (149)
+| 104 149
+| dɮ
+| d͜ɮ
+| d͡ɮ =voiced alveolar lateral affricate
+| c͡ʎ̥
+| cʎ̥
+| c͜ʎ̥
+| c͡ʎ
+| c͜ʎ
+| cʎ
+| c
+| c͡ʎ̥˔
+| cʎ̥˔
+| c͜ʎ̥˔
+| c͜
+| c͡ =voiceless palatal lateral affricate
+| c͡ʼ
+| c͜ʼ
+| cʼ
+| cʎ̝̥ʼ =palatal lateral ejective affricate
+| k͡ʟ̝̊
+| k
+| k͜
+| k͡ =voiceless velar lateral affricate
+| kʟ̝̊ʼ
+| k͡ʼ
+| k͜ʼ
+| kʼ =velar lateral ejective affricate
+| 182
+| ɕː
+| ɕ =voiceless alveolo-palatal sibilant
+| 183
+| ʑː
+| ʑ =voiced alveolo-palatal sibilant
+| 175
+| ɧ =sj-sound
+
+| 109 (101)
+| 109 101
+| kp
+| k͡p =voiceless labial-velar stop
+| 110 (102)
+| 110 102
+| ɡb
+| ɡ͡b =voiced labial-velar stop
+| 119 (114)
+| 119 114
+| ŋm
+| ŋ͡m =labial-velar nasal
+
+<!-- CLICKS -->
+| 176 =bilabial click
+| ʘ
+| ᵏʘ
+| kʘ =voiceless bilabial click
+| 177 =dental click
+| ʇ
+| ǀ
+| ᵏʇ
+| ᵏǀ
+| kʇ
+| kǀ =voiceless dental click
+| 178 =alveolar click
+| ʗ
+| ǃ
+| ᵏʗ
+| ᵏǃ
+| kʗ
+| kǃ =voiceless alveolar click
+| 179 =palatal click
+| ǂ
+| ᵏǂ
+| kǂ =voiceless palatal click
+| 180 =alveolar lateral click
+| ʖ
+| ǁ
+| ᵏʖ
+| ᵏǁ
+| kʖ
+| kǁ =voiceless alveolar lateral click
+| ǀ̬
+| ʇ̬
+| ᶢǀ
+| ᶢʇ
+| ɡǀ
+| ɡʇ =voiced dental click
+| ǀ̃
+| ʇ̃
+| ᵑǀ
+| ᵑʇ
+| ŋǀ
+| ŋʇ =dental nasal click
+| ǀ̃ˀ
+| ʇ̃ˀ
+| ǀˀ
+| ʇˀ
+| ᵑǀˀ
+| ᵑʇˀ
+| ᵑ̊ǀˀ
+| ᵑ̊ʇˀ
+| ŋ̊ǀˀ
+| ŋ̊ʇˀ
+| ŋǀˀ
+| ŋʇˀ =glottalized dental nasal click
+| ǃ̬
+| ʗ̬
+| ᶢǃ
+| ᶢʗ
+| ɡǃ
+| ɡʗ =voiced alveolar click
+| ǃ̃
+| ʗ̃
+| ᵑǃ
+| ᵑʗ
+| ŋǃ
+| ŋʗ =alveolar nasal click
+| ǃ̃ˀ
+| ʗ̃ˀ
+| ǃˀ
+| ʗˀ
+| ᵑǃˀ
+| ᵑʗˀ
+| ᵑ̊ǃˀ
+| ᵑ̊ʗˀ
+| ŋ̊ǃˀ
+| ŋ̊ʗˀ
+| ŋǃˀ
+| ŋʗˀ =glottalized alveolar nasal click
+| ǁ̬
+| ʖ̬
+| ᶢǁ
+| ᶢʖ
+| ɡǁ
+| ɡʖ =voiced alveolar lateral click
+| ǁ̃
+| ʖ̃
+| ᵑǁ
+| ᵑʖ
+| ŋǁ
+| ŋʖ =alveolar lateral nasal click
+| ǁ̃ˀ
+| ʖ̃ˀ
+| ǁˀ
+| ʖˀ
+| ᵑǁˀ
+| ᵑʖˀ
+| ᵑ̊ǁˀ
+| ᵑ̊ʖˀ
+| ŋ̊ǁˀ
+| ŋ̊ʖˀ
+| ŋǁˀ
+| ŋʖˀ =glottalized alveolar lateral nasal click
+| ǂ̬
+| ᶢǂ
+| ɡǂ =voiced palatal click
+| ǂ̃
+| ᵑǂ
+| ŋǂ =palatal nasal click
+| ǂ̃ˀ
+| ǂˀ
+| ᵑǂˀ
+| ᵑ̊ǂˀ
+| ŋ̊ǂˀ
+| ŋǂˀ =glottalized palatal nasal click
+| ʘ̬
+| ᶢʘ
+| ɡʘ =voiced bilabial click
+| ʘ̃
+| ᵑʘ
+| ŋʘ =bilabial nasal click
+| ʘ̃ˀ
+| ʘˀ
+| ᵑʘˀ
+| ᵑ̊ʘˀ
+| ŋ̊ʘˀ
+| ŋʘˀ =glottalized bilabial nasal click
+| ǃ˞
+| ‼ =voiceless retroflex click
+| ǃ̬˞
+| ᶢǃ˞
+| ɡǃ˞
+| ‼̬
+| ᶢ‼
+| ɡ‼ =voiced retroflex click
+| ǃ̃˞
+| ᵑǃ˞
+| ŋǃ˞
+| ‼̃
+| ᵑ‼
+| ŋ‼ =retroflex nasal click
+| ǃ̃˞ˀ
+| ǃ˞ˀ
+| ᵑǃ˞ˀ
+| ᵑ̊ǃ˞ˀ
+| ŋ̊ǃ˞ˀ
+| ŋ‼ˀ
+| ŋǃ˞ˀ
+| ŋ̊‼ˀ
+| ᵑ̊‼ˀ
+| ᵑ‼ˀ
+| ‼̃ˀ
+| ‼ˀ =glottalized retroflex nasal click
+
+<!------- VOWELS ------->
+| 301
+| i
+| iː =close front unrounded vowel
+| 309
+| y
+| yː =close front rounded vowel
+| 317
+| ɨ
+| ɨː =close central unrounded vowel
+| 318
+| ʉ
+| ʉː =close central rounded vowel
+| 316
+| ɯ
+| ɯː =close back unrounded vowel
+| 308
+| u
+| uː =close back rounded vowel
+| 319
+| ɪ
+| ɪː =near-close near-front unrounded vowel
+| 320
+| ʏ
+| ʏː =near-close near-front rounded vowel
+| 319 415
+| ᵻ
+| ɪ̵
+| ɪ̈ =near-close central unrounded vowel
+| 321 415
+| 318 430
+| ʉ̞
+| ʊ̵
+| ʊ̈ =near-close central rounded vowel
+| 321
+| ʊ
+| ʊː =near-close near-back vowel
+| 302
+| e
+| eː =close-mid front unrounded vowel
+| 302 430
+| ᴇ
+| e̞
+| ɛ̝ =mid front unrounded vowel
+| 310
+| ø
+| øː =close-mid front rounded vowel
+| 397
+| ɘ =close-mid central unrounded vowel
+| 323
+| ɵ
+| ɵː =close-mid central rounded vowel
+| 315
+| ɤ
+| ɤː =close-mid back unrounded vowel
+| 307
+| o
+| oː =close-mid back rounded vowel
+| 307 430
+| ɔ̝
+| o̞ =mid back rounded vowel
+| 322
+| ə
+| əː =mid-central vowel
+| 303
+| ɛ
+| ɛː =open-mid front unrounded vowel
+| 311
+| œ
+| œː =open-mid front rounded vowel
+| 326
+| ɜ
+| ɜː =open-mid central unrounded vowel
+| 395
+| ɞ =open-mid central rounded vowel
+| 314
+| ʌ
+| ʌː =open-mid back unrounded vowel
+| 306
+| ɔ
+| ɔː =open-mid back rounded vowel
+| 325
+| æ
+| æː =near-open front unrounded vowel
+| 324
+| ɐ
+| ɐː =near-open central vowel
+| 304
+| a
+| aː =open front unrounded vowel
+| 304 415
+| a̠
+| ä
+| äː =open central unrounded vowel
+| 312
+| ɶ =open front rounded vowel
+| 305
+| ɑ
+| ɑː =open back unrounded vowel
+| 313
+| ɒː
+| ɒ =open back rounded vowel
+| 310 430
+| ø̞ =mid front rounded vowel
+| 315 430
+| ɤ̞ =mid back unrounded vowel
+
+<!------- DIACRITICS (uncombined meaning and link) ------->
+<!-- used &#x25CC; (dotted circle, decimal &#9676;) as general placemarker: e.g. ◌ʼ -->
+| ◌ʼ
+| ʼ
+| 401=ejective consonant
+| ◌̥
+| ̥ 
+| 402A =voiceless
+| s̬
+| t̬
+| ◌̬
+| ̬ 
+| 403 =voice (phonetics)
+
+| pʰ
+| tʰ
+| t̪ ʰ
+| ʈʰ
+| kʰ
+| qʰ
+| tsʰ
+| tʃʰ
+| tʂʰ
+| ʈʂʰ
+| tɕʰ
+| tɬʰ
+| kxʰ
+| t͡sʰ
+| t͡ʃʰ
+| t͡ʂʰ
+| ʈ͡ʂʰ
+| t͡ɕʰ
+| t͡ɬʰ
+| k͡xʰ
+| ◌ʰ
+| ʰ
+| 404 =aspiration (phonetics)
+
+| b̤
+| d̤
+| ɡ̈
+| ◌̤
+| ̤
+| bʱ
+| dʱ
+| d̪ʱ
+| ɡʱ
+| ɖʱ
+| dʒʱ
+| d͡ʒʱ
+| dzʱ
+| d͡zʱ
+| dʐʱ
+| d͡ʐʱ
+| ɖʐʱ
+| ɖ͡ʐʱ
+| dʑʱ
+| d͡ʑʱ
+| ◌ʱ
+| ʱ
+| 405 =breathy voice
+
+| 406
+| a̰
+| b̰
+| ◌̰ 
+| ̰ =creacky voice
+
+<!-- ARTICULATION DIACRITICS-->
+| ̼
+| 407 =linguolabial consonant
+| ̪
+| 408 =dental consonant
+| ̺
+| 409 =apical consonant
+| ̻
+| 410 =laminal consonant
+| ̹
+| 411 =roundedness
+| ̜
+| 412 =roundedness
+| ̟
+| 413 =relative articulation#Advanced and retracted
+| ̠
+| 414 =relative articulation#Advanced and retracted
+| ̈
+| 415 =relative articulation#Centralized vowels
+| ̽
+| 416 =relative articulation#Mid-centralized vowel
+| ̘
+| 417 =advanced and retracted tongue root
+| ̙
+| 418 =advanced and retracted tongue root
+
+| 419
+| 322 419
+| 322 + 419
+| ɚ
+| ɝ
+| ɝː =R-colored vowel
+
+| 420
+| kʷ
+| ɡʷ
+| xʷ
+| ɣʷ
+| ŋʷ
+| qʷ
+| ɢʷ
+| ɴʷ
+| χʷ
+| ʁʷ
+| ◌ʷ
+| ʔʷ
+| pʷ
+| bʷ
+| kpʷ
+| tsʷ
+| dzʷ
+| tʃʷ
+| dʒʷ
+| kxʷ
+| ɡɣʷ
+| qχʷ
+| ɢʁʷ
+| sʷ
+| zʷ
+| ʂʷ
+| ʐʷ
+| fʷ
+| vʷ
+| ħʷ
+| ʕʷ
+| hʷ
+| ɦʷ
+| ʷ =labialization
+
+| 421
+| ◌ʲ
+| ʲ =palatalization
+| 422
+| ◌ˠ
+| ˠ =velarization
+
+| 423
+| sˤ
+| zˤ
+| tˤ
+| dˤ
+| θˤ
+| ðˤ
+| ɮˤ
+| lˤ
+| kˤ
+| ʔˤ
+| ◌ˤ
+| ˤ =pharyngealization
+
+| 424
+| æ̃
+| ɒ̃
+| ə̃
+| ɨ̃
+| ɪ̃
+| ʊ̃
+| ø̃
+| ʏ̃
+| ʉ̃
+| ɤ̃
+| ɯ̃
+| ɑ̃
+| ɛ̃
+| œ̃
+| ɔ̃
+| ã
+| ẽ
+| ĩ
+| õ
+| ũ
+| ɐ̃
+| ỹ =nasal vowel
+| ◌̃
+| ̃ =nasalization
+| ◌ⁿ
+| ⁿ
+| 425 =nasal release
+
+| dˡ
+| ◌ˡ
+| ˡ
+| 426 =lateral release (phonetics)
+| d̚
+| ◌̚
+| ̚
+| 427 =no audible release
+| ◌ˀ
+| ˀ =glottalization
+| ◌̴
+| ̴
+| 428 =Velarization
+| e̝
+| ɹ̝
+| ̝
+| ˔
+| 429 =relative articulation#Raised and lowered
+| e̞ <!-- second mentioning of e̞  after =mid front unrounded vowel, this one will never hit -->
+| β̞
+| ̞
+| ˕
+| 430 =relative articulation#Raised and lowered
+
+| ŋ̍
+| ŋ̩
+| n̩
+| m̩
+| r̩
+| ɹ̩
+| l̩
+| ◌̩
+| ̩ 
+| 431 =syllabic consonant
+
+| . =syllabification
+
+| u̯
+| i̯
+| y̯
+| ʊ̯
+| ɪ̯
+| ʏ̯
+| e̯
+| o̯
+| ◌̯
+| ̯ 
+| 432 =semivowel
+| aʊ
+| aɪ
+| ɔɪ
+| oʊ
+| eɪ =diphthong
+| ᶣ =labio-palatalization
+
+<!------- SUPRESEGMENTALS -------->
+| 501
+| ˈ =stress (linguistics)
+| 502
+| ˌ =secondary stress
+| 503
+| 504
+| ˑ
+| ː =length (phonetics)
+| 505
+| ̆
+| ə̆ =extra-short
+<!------- TONE LETTERS ------->
+| 519
+| 523
+| ˩
+| ˨
+| ˧
+| ˦
+| ˥ =tone letter
+| 517
+| ꜜ◌
+| ꜜ =downstep
+| 518
+| ꜛ◌
+| ꜛ =upstep
+| ∅ =zero (linguistics)
+<!-- EXTENDED IPA -->
+| 601 =bidental percussive
+| 602 =velopharyngael fricative
+| 603 =lateralised [s]
+| 604 =lateralised [z]
+<!-- INDETERMINACY symbols -->
+| 611 =IPA<!--balloon-->
+| 612
+| * =IPA
+<!-- TRANSCRIPTION -->
+| 901
+| [
+| 902
+| ]
+| 903
+| /
+| 906
+| (
+| 907
+| ) =IPA
+<!-- (999 and underscore _ ) added for testing purposes only. February 2011 -->
+| 999
+| _ =IPA vowel chart/sandbox
+| =<includeonly>{{{3|{{{2|{{error|Error using {{tl|IPAsym}}: No input|tag=span}}}}}}}}</includeonly>
+| #default ={{{2|{{error|Error using {{tl|IPAsym}}: IPA symbol "{{StripWhitespace|{{{1|}}}}}" not found in list|tag=span}}}}}
+}}<noinclude>
+
+{{Documentation}}
+<!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
+</noinclude>
