@@ -1,0 +1,62 @@
+{{Infobox
+| above        = {{{court_name|}}}
+| subheader    = {{{native_name|}}}
+| imagestyle   = padding-bottom:0.4em; border-bottom:solid 1px #aaa;
+| image        = {{#if:{{{image|}}}
+                    |[[File:{{{image}}}| 
+                    {{#if:{{{imagesize|}}}| 
+                      {{{imagesize}}}|{{{width|225}}}x{{{height|250px}}}|}}]]
+                    }}
+| caption      = {{{caption|}}}
+| label1       = Mitátag
+| data1        = {{{established|}}}
+| label2       = Sakup
+| data2        = {{{country|}}}
+| label3       = Lugal
+| data3        = {{{location|}}}
+| label4       = [[Geographic coordinate system|Coordinates]]
+| data4        = {{{coordinates|}}}
+| label5       = Composition method
+| data5        = {{{type|}}}
+| label6       = Dininan neng kapaintulutan ning
+| data6        = {{{authority|}}}
+| label7       = [[Appeal|Malyari lang iyapila deng kapasyan king]]
+| data7        = {{{appeals|}}}
+| label8       = Judge term length
+| data8        = {{{terms|}}}
+| label9       = Number of positions
+| data9        = {{{positions|}}}
+| label10      = Website (Karinan-Aptas)
+| data10       = {{{website|}}} 
+
+| header11     = {{#if:{{{motto|}}}|Motto}}
+| class11      = navbox-abovebelow
+| data12       = {{{motto|}}}
+
+| header14     = {{{chiefjudgetitle|}}}
+| class14      = navbox-abovebelow
+| label15      = Kasalukuyan
+| data15       = {{{chiefjudgename|}}}
+| label16      = Manibat
+| data16       = {{{termstart|}}}
+| label17      = Mayari ya ing manimunang pusisyun keng
+| data17       = {{{termend|}}}
+| label18      = Jurist term ends
+| data18       = {{{termend2|}}}
+
+| header19     = {{{chiefjudgetitle2|}}}
+| class19      = navbox-abovebelow
+| label20      = Currently
+| data20       = {{{chiefjudgename2|}}}
+| label21      = Since
+| data21       = {{{termstart2|}}}
+| label22      = Position ends
+| data22       = {{{termend3|}}}
+| label23      = Lead position ends
+| data23       = {{{termend4|}}}
+
+}}<noinclude>
+{{documentation}}
+
+<!---Please add metadata to the  section on the /doc subpage, not here!--->
+</noinclude>
