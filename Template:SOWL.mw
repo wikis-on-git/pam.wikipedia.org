@@ -1,0 +1,3 @@
+{{#ifeq:{{{style|}}}|citation|{{citation |authorlink=Peter Ladefoged |last=Ladefoged |first=Peter |authorlink2=Ian Maddieson|last2=Maddieson|first2=Ian |year=1996 | page={{{1|}}} |title=The Sounds of the World's Languages |location=Oxford |publisher=Blackwell |id=ISBN 0-631-19814-8 }}|{{cite book |authorlink=Peter Ladefoged |last=Ladefoged |first=Peter |authorlink2=Ian Maddieson|last2=Maddieson|first2=Ian |year=1996 | page={{{1|}}} |title=The Sounds of the World's Languages |location=Oxford |publisher=Blackwell |id=ISBN 0-631-19814-8 |ref=harv}}}}<noinclude>
+{{documentation}}
+</noinclude>
