@@ -1,0 +1,4 @@
+{{#switch: {{{1|}}}
+| kg = {{nowrap|{{formatnum:{{{2}}}}} kg}} {{nowrap|({{formatnum:{{#expr:{{{2}}}/0.45359237 round {{{3|0}}}}}}} lb)}}
+| lb = {{nowrap|{{formatnum:{{{2}}}}} lb}} {{nowrap|({{formatnum:{{#expr:{{{2}}}*0.45359237 round {{{3|0}}}}}}} kg)}}
+}}<noinclude>{{documentation}}</noinclude>
