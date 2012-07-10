@@ -334,7 +334,7 @@
 	</tr>
 {{#if:{{{area_total_km2|}}}{{{area_total_sq_mi|}}}{{{area_total_dunam|}}}|
 	<tr class="mergedrow">
-		<th> &nbsp;-&nbsp;{{#if:{{{total_type|}}}|{{{total_type}}}|{{#if:{{{area_metro_km2|}}}{{{area_metro_sq_mi|}}}{{{area_urban_km2|}}}{{{area_urban_sq_mi|}}}{{{population_metro|}}}{{{population_urban|}}}|{{#if:{{{settlement_type|}}}|{{{settlement_type}}}|City}}|Total}}}}
+		<th> &nbsp;-&nbsp;{{#if:{{{total_type|}}}|{{{total_type}}}|{{#if:{{{area_metro_km2|}}}{{{area_metro_sq_mi|}}}{{{area_urban_km2|}}}{{{area_urban_sq_mi|}}}{{{population_metro|}}}{{{population_urban|}}}|{{#if:{{{settlement_type|}}}|{{{settlement_type}}}|City}}|Kabilugan}}}}
 		</th>
 		<td>{{#if:{{both|{{among|unit_pref|dunam|Dunam}}|{{{area_total_dunam|}}}}}|{{formatnum:{{{area_total_dunam|}}}&nbsp;[[Dunam|dunams]] ({{#if:{{{area_total_km2|}}}|{{{area_total_km2|}}}&nbsp;[[Kilometru kudradu|km<sup>2</sup>]]|{{#expr: {{{area_total_dunam|}}} *0.001 round 1}}&nbsp;[[Kilometru kudradu|km<sup>2</sup>]]}}&nbsp;'''/'''&nbsp;{{#if: {{{area_total_sq_mi|}}}|{{{area_total_sq_mi|}}}&nbsp;[[square mile|sq&nbsp;mi]]|{{#expr: {{{area_total_dunam|}}} *0.000386102 round 1}}&nbsp;[[square mile|sq&nbsp;mi]]}})}}|{{areadisp|{{{unit_pref|}}}|{{{area_total_sq_mi|}}}|{{{area_total_km2|}}}|{{{area_magnitude|}}}||{{{subdivision_name|}}}}}}}</td>
 	</tr>
@@ -391,7 +391,7 @@
 	{{#ifeq:{{{total_type}}}|&nbsp;||</tr>}}
 {{#if:{{{population_total|}}}|
 	{{#ifeq:{{{total_type}}}|&nbsp;||<tr class="mergedrow">
-		<th>&nbsp;-&nbsp;{{#if:{{{total_type|}}}|{{{total_type}}}|{{#if:{{{population_metro|}}}{{{population_urban|}}}{{{area_metro_km2|}}}{{{area_metro_sq_mi|}}}{{{area_urban_km2|}}}{{{area_urban_sq_mi|}}}|{{#if:{{{settlement_type|}}}|{{{settlement_type}}}|City}}|Total}}}}</th>}}
+		<th>&nbsp;-&nbsp;{{#if:{{{total_type|}}}|{{{total_type}}}|{{#if:{{{population_metro|}}}{{{population_urban|}}}{{{area_metro_km2|}}}{{{area_metro_sq_mi|}}}{{{area_urban_km2|}}}{{{area_urban_sq_mi|}}}|{{#if:{{{settlement_type|}}}|{{{settlement_type}}}|City}}|Kabilugan}}}}</th>}}
 		<td>{{formatnum:{{{population_total}}}}}</td>
 	</tr>
 }}{{#if:{{{population_density_sq_mi|}}}{{{population_density_km2|}}}|
