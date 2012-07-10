@@ -1,0 +1,1382 @@
+{| class="infobox {{#if:{{{collapse|}}}|collapsible {{#ifeq: {{{collapse|}}}|yes|collapsed}}}}" style="width: 22em; font-size: 88%; text-align: left; {{#if:{{{float|}}}|float: left; clear: left; margin: 0 1em 1em 0;}} line-height: 1.5em"
+! style="font-size: 125%; background-color: #b0c4de; text-align: center" colspan=2| {{{title<includeonly>|{{PAGENAME}}</includeonly>}}}
+|-
+{{#if:{{{pic<includeonly>|</includeonly>}}}|
+{{!}} colspan=2 align="center" {{!}} [[file:{{{pic}}}{{!}}{{#if:{{{picsize|}}}|{{{picsize}}}|frameless}}{{#if:{{{picalt|}}}|{{!}}alt={{{picalt}}}}}{{#if:{{{pictooltip|}}}|{{!}}{{{pictooltip}}}}}]]
+{{!}}-
+{{#if:{{{piccap<includeonly>|</includeonly>}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} {{{piccap<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+}}
+{{#if:{{{pic2<includeonly>|</includeonly>}}}|
+{{!}} colspan=2 align="center" {{!}} [[file:{{{pic2}}}{{!}}{{#if:{{{picsize2|}}}|{{{picsize2}}}|260px}}{{#if:{{{pic2tooltip|}}}|{{!}}{{{pic2tooltip}}}}}]]
+{{!}}-
+{{#if:{{{piccap2<includeonly>|</includeonly>}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} {{{piccap2<includeonly>|</includeonly>}}}
+{{!}}-
+}}
+}}
+{{#if:{{{hangul|}}}{{{hanja|}}}{{{kana|}}}{{{kanji|}}}{{{hiragana|}}}{{{kyujitai|}}}{{{shinjitai|}}}{{{tam|}}}{{{hin|}}}{{{san|}}}{{{pli|}}}{{{tgl|}}}{{{msa|}}}{{{mnc|}}}{{{mon|}}}{{{mong|}}}{{{por|}}}{{{rus|}}}{{{tha|}}}{{{tib|}}}{{{qn|}}}{{{uig|}}}{{{vie|}}}{{{hantu|}}}{{{chunom|}}}{{{hn|}}}{{{zha|}}}{{{dungan-xej|}}}{{{dungan|}}}{{{lang1|}}}{{{lang2|}}}{{{lang3|}}}{{{lang4|}}}{{{lang5|}}}{{{lang6|}}}{{{lang7|}}}{{{lang8|}}}{{{lang9|}}}{{{lang10|}}}{{{lang11<includeonly>|</includeonly>}}}|
+{{#if:{{{c|}}}{{{t|}}}{{{s|}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} {{{name1|Chinese name}}}
+{{!}}-
+}}
+}}
+{{#if:{{{c<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Chinese language|Chinese]]
+{{!}} style="width: 50%; font-size: 130%" {{!}} {{lang|zh-Hani| {{{c}}} }}
+{{!}}-
+}}
+{{#switch:{{{order|}}}
+| #default=
+{{#if:{{{t<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Traditional Chinese characters|Traditional Chinese]]
+{{!}} style="width: 50%; font-size: 130%" {{!}} {{lang|zh-Hant| {{{t}}} }}
+}}
+{{!}}-
+{{#if:{{{s<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Simplified Chinese characters|Simplified Chinese]]
+{{!}} style="width: 50%; font-size: 130%" {{!}} {{lang|zh-Hans| {{{s}}} }}
+}}
+| st=
+{{#if:{{{s<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Simplified Chinese characters|Simplified Chinese]]
+{{!}} style="width: 50%; font-size: 130%" {{!}} {{lang|zh-Hans| {{{s}}} }}
+{{!}}-
+{{#if:{{{t<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Traditional Chinese characters|Traditional Chinese]]
+{{!}} style="width: 50%; font-size: 130%" {{!}} {{lang|zh-Hant| {{{t}}} }}
+}}
+}}
+}}
+{{#if:{{{phagspa<includeonly>|</includeonly>}}}|
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [['Phags-pa script]]
+{{!}} {{Phagspa|h|{{{phagspa}}}|{{{phagspa-latin|}}}|size=12}}
+}}
+{{!}}-
+{{#switch:{{{showflag|}}}
+| #default=
+| jp=
+{{#if:{{{j<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Yue Chinese|Cantonese]] [[Jyutping]]
+{{!}} style="width: 50%" {{!}} {{{j}}}
+}}
+{{!}}-
+{{#if:{{{p<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Pinyin|Hanyu Pinyin]]
+{{!}} style="width: 50%" {{!}} {{{p}}}
+}}
+| jyp=
+{{#if:{{{j<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Yue Chinese|Cantonese]] [[Jyutping]]
+{{!}} style="width: 50%" {{!}} {{{j}}}
+}}
+{{!}}-
+{{#if:{{{y<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Yue Chinese|Cantonese]] [[Yale Romanization|Yale]]
+{{!}} style="width: 50%" {{!}} {{{y}}}
+}}
+{{!}}-
+{{#if:{{{p<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Pinyin|Hanyu Pinyin]]
+{{!}} style="width: 50%" {{!}} {{{p}}}
+}}
+| pj=
+{{#if:{{{p<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Pinyin|Hanyu Pinyin]]
+{{!}} style="width: 50%" {{!}} {{{p}}}
+}}
+{{!}}-
+{{#if:{{{j<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Yue Chinese|Cantonese]] [[Jyutping]]
+{{!}} style="width: 50%" {{!}} {{{j}}}
+}}
+| p=
+{{#if:{{{p<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Pinyin|Hanyu Pinyin]]
+{{!}} style="width: 50%" {{!}} {{{p}}}
+}}
+| j=
+{{#if:{{{j<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Yue Chinese|Cantonese]] [[Jyutping]]
+{{!}} style="width: 50%" {{!}} {{{j}}}
+}}
+| h=
+{{#if:{{{h<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Guangdong Romanization#Hakka|Hakka]]
+{{!}} style="width: 50%" {{!}} {{{h}}}
+}}
+| gan=
+{{#if:{{{gan<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Gan Chinese|Gan]]
+{{!}} style="width: 50%" {{!}} {{{gan}}}
+}}
+| wuu=
+{{#if:{{{wuu}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Wu Chinese|Wu]]
+{{!}} style="width: 50%" {{!}} {{{wuu}}}
+}}
+| hsn=
+{{#if:{{{hsn<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Xiang Chinese|Xiang]]
+{{!}} style="width: 50%" {{!}} {{{hsn}}}
+}}
+| poj=
+{{#if:{{{poj<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Hokkien]] [[Pe̍h-ōe-jī|POJ]]
+{{!}} style="width: 50%" {{!}} {{{poj}}}
+}}
+| teo=
+{{#if:{{{teo<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Teochew dialect|Teochew]] [[Guangdong Romanization#Teochew|Peng'im]]
+{{!}} style="width: 50%" {{!}} {{{teo}}}
+}}
+| bpmf=
+{{#if:{{{bpmf<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Bopomofo]]
+{{!}} style="width: 50%" {{!}} {{{bpmf}}}
+}}
+| xej=
+{{#if:{{{xej<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Xiao'erjing]]
+{{!}} style="width: 50%" {{!}} {{{xej}}}
+}}
+| psic=
+{{#if:{{{p<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Pinyin|Hanyu Pinyin]]
+{{!}} style="width: 50%" {{!}} {{{p}}}
+}}
+{{!}}-
+{{#if:{{{sic<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Sichuanese Mandarin|Sichuanese]] [[Sichuanese Pinyin|Pinyin]]
+{{!}} style="width: 50%" {{!}} {{{sic}}}
+}}
+}}
+{{!}}-
+{{#if:{{{l<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} Literal meaning
+{{!}} style="width: 50%" {{!}} {{{l}}}
+}}
+|-
+{{#if:{{{c|}}}{{{t|}}}{{{s|}}}{{{phagspa<includeonly>|</includeonly>}}}|
+{{!}} colspan=2 {{!}}
+{{{!}} class="toccolours {{#switch:{{{hide|}}}|#default=collapsible collapsed|no= }}" width="100%" style="margin:0; border: 0; background-color: #f7f8ff; font-size: 95%"
+! colspan=2 style="text-align: left; background-color: #f9ffbc" {{!}} Transcriptions
+{{!}}-
+{{#if:{{{gan<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Gan Chinese|Gan]]
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} - [[Gan Chinese|Romanization]]
+{{!}} style="width: 50%" {{!}} {{{gan}}}
+}}
+{{!}}-
+{{#if:{{{h<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Hakka Chinese|Hakka]]
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} - [[Guangdong Romanization#Hakka|Romanization]]
+{{!}} style="width: 50%" {{!}} {{{h}}}
+}}
+{{!}}-
+{{#if:{{{p|}}}{{{tp|}}}{{{w|}}}{{{psp|}}}{{{myale|}}}{{{gr|}}}{{{bpmf|}}}{{{xej|}}}{{{dungan|}}}{{{sic|}}}{{{mps<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Mandarin Chinese|Mandarin]]
+}}
+{{!}}-
+{{#if:{{{p<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Pinyin|Hanyu Pinyin]]
+{{!}} style="width: 50%" {{!}} {{{p}}}
+}}
+{{!}}-
+{{#if:{{{tp<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Tongyong Pinyin]]
+{{!}} style="width: 50%" {{!}} {{{tp}}}
+}}
+{{!}}-
+{{#if:{{{w<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Wade–Giles]]
+{{!}} style="width: 50%" {{!}} {{{w}}}
+}}
+{{!}}-
+{{#if:{{{mi<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Wikipedia:IPA|IPA]]
+{{!}} style="width: 50%" {{!}} {{{mi}}}
+}}
+{{!}}-
+{{#if:{{{psp<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Chinese Postal Map Romanization|Postal Map]]
+{{!}} style="width: 50%" {{!}} {{{psp}}} <noinclude> *</noinclude>
+}}
+{{!}}-
+{{#if:{{{myr<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Yale Romanization#Mandarin|Yale Romanization]]
+{{!}} style="width: 50%" {{!}} {{{myr}}}
+}}
+{{!}}-
+{{#if:{{{gr<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Gwoyeu Romatzyh]]
+{{!}} style="width: 50%" {{!}} {{{gr}}}
+}}
+{{!}}-
+{{#if:{{{mps<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Mandarin Phonetic Symbols II|MPS2]]
+{{!}} style="width: 50%" {{!}} {{{mps}}}
+}}
+{{!}}-
+{{#if:{{{bpmf<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Bopomofo]]
+{{!}} style="width: 50%" {{!}} {{{bpmf}}}
+}}
+{{!}}-
+{{#if:{{{xej<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Xiao'erjing]]
+{{!}} style="width: 50%" {{!}} {{{xej}}}
+}}
+{{!}}-
+{{#if:{{{zh-dungan<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Dungan language|Dunganese]]
+{{!}} style="width: 50%" {{!}} {{{zh-dungan}}}
+}}
+{{!}}-
+{{#if:{{{sic<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Sichuanese Mandarin|Sichuanese]] [[Sichuanese Pinyin|Pinyin]]
+{{!}} style="width: 50%" {{!}} {{{sic}}}
+}}
+<!-- MIN -->
+{{!}}-
+{{#if:{{{poj|}}}{{{tl|}}}{{{buc|}}}{{{teo<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Min Chinese|Min]]
+}}
+{{!}}-
+{{#if:{{{poj<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Hokkien]] [[Pe̍h-ōe-jī|POJ]]
+{{!}} style="width: 50%" {{!}} {{{poj}}}
+}}
+{{!}}-
+{{#if:{{{tl<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Taiwanese Romanization System|Tâi-Lô]]
+{{!}} style="width: 50%" {{!}} {{{tl}}}
+}}
+{{!}}-
+{{#if:{{{buc<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Min Dong|Min-dong]] [[Foochow Romanized|BUC]]
+{{!}} style="width: 50%" {{!}} {{{buc}}}
+}}
+{{!}}-
+{{#if:{{{teo<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Teochew dialect|Teochew]] [[Guangdong Romanization#Teochew|Peng'im]]
+{{!}} style="width: 50%" {{!}} {{{teo}}}
+}}
+<!-- WU/SHANGHAI -->
+{{!}}-
+{{#if:{{{wuu|}}}{{{lmz<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Wu Chinese|Wu]]
+}}
+{{!}}-
+{{#if:{{{wuu<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Wu Chinese|Romanization]]
+{{!}} style="width: 50%" {{!}} {{{wuu}}}
+}}
+{{!}}-
+{{#if:{{{lmz<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Shanghainese]]<br>  [[Long-short (romanization)|romanization]]
+{{!}} style="width: 50%" {{!}} {{{lmz}}}
+}}
+<!-- XIANG/HUNAN -->
+{{!}}-
+{{#if:{{{hsn<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Xiang Chinese|Xiang]]
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} - [[Xiang Chinese|Romanization]]
+{{!}} style="width: 50%" {{!}} {{{hsn}}}
+}}
+<!-- YUE/CANTONESE -->
+{{!}}-
+{{#if:{{{j|}}}{{{ci|}}}{{{y|}}}{{{gd|}}}{{{toi<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Yue Chinese|Cantonese (Yue)]]
+}}
+{{!}}-
+{{#if:{{{j<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Jyutping]]
+{{!}} style="width: 50%" {{!}} {{{j}}}
+}}
+{{!}}-
+{{#if:{{{ci<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Wikipedia:IPA for Cantonese|IPA]]
+{{!}} style="width: 50%; font-size: 95%" class="IPA" {{!}} {{{ci}}}
+}}
+{{!}}-
+{{#if:{{{y<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Yale Romanization#Cantonese|Yale Romanization]]
+{{!}} style="width: 50%" {{!}} {{{y}}}
+}}
+{{!}}-
+{{#if:{{{gd<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Guangdong Romanization]]
+{{!}} style="width: 50%" {{!}} {{{gd}}}
+}}
+{{!}}-
+{{#if:{{{toi<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Taishanese]] [[Jyutping]]
+{{!}} style="width: 50%" {{!}} {{{toi}}}
+}}
+{{#if:{{{phagspa-latin<includeonly>|</includeonly>}}}|
+{{!}}-
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Old Mandarin]]
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} Romanized 'Phags-pa
+{{!}} {{{phagspa-latin}}}
+}}
+<!-- EMC/LMC -->
+{{!}}-
+{{#if:{{{mc|}}}{{{emc|}}}{{{lmc<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Middle Chinese]]
+}}
+{{!}}-
+{{#if:{{{mc<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Middle Chinese]]
+{{!}} style="width: 50%" {{!}} {{{mc}}}
+}}
+{{!}}-
+{{#if:{{{emc<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Middle Chinese#Early_Middle_Chinese|Early Middle Chinese]]
+{{!}} style="width: 50%" {{!}} {{{emc}}}
+}}
+{{!}}-
+{{#if:{{{lmc<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Middle Chinese#Late_Middle_Chinese|Late Middle Chinese]]
+{{!}} style="width: 50%" {{!}} {{{lmc}}}
+}}
+{{!}}}
+}}
+|-
+{{#if:{{{c2|}}}{{{t2|}}}{{{s2<includeonly>|</includeonly>}}}|
+! colspan=2 style="background-color: #b0c4de; text-align: center" {{!}} {{{altname|Alternative Chinese name}}}
+}}
+|-
+{{#if:{{{c2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Chinese language|Chinese]]
+{{!}} style="width: 50%; font-size: 130%" {{!}} {{lang|zh-Hani| {{{c2}}} }}
+}}
+|-
+{{#switch:{{{order|}}}
+| #default=
+{{#if:{{{t2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Traditional Chinese characters|Traditional Chinese]]
+{{!}} style="width: 50%; font-size: 130%" {{!}} {{lang|zh-Hant| {{{t2}}} }}
+}}
+{{!}}-
+{{#if:{{{s2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Simplified Chinese characters|Simplified Chinese]]
+{{!}} style="width: 50%; font-size: 130%" {{!}} {{lang|zh-Hans| {{{s2}}} }}
+}}
+| st=
+{{#if:{{{s2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Simplified Chinese characters|Simplified Chinese]]
+{{!}} style="width: 50%; font-size: 130%" {{!}} {{lang|zh-Hans| {{{s2}}} }}
+{{!}}-
+{{#if:{{{t2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Traditional Chinese characters|Traditional Chinese]]
+{{!}} style="width: 50%; font-size: 130%" {{!}} {{lang|zh-Hant| {{{t2}}} }}
+}}
+}}
+}}
+|-
+{{#if:{{{l2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} Literal meaning
+{{!}} style="width: 50%" {{!}} <noinclude> *</noinclude> {{{l2}}}
+}}
+|-
+{{#if:{{{c2|}}}{{{t2|}}}{{{s2<includeonly>|</includeonly>}}}|
+{{!}} colspan=2 {{!}}
+{{{!}} class="toccolours {{#switch:{{{hide|}}}|#default=collapsible collapsed|no= }}" width="100%" style="border: 0; background-color: #f7f8ff; font-size: 95%"
+! colspan=2 style="text-align: left; background-color: #f9ffbc" {{!}} Transcriptions
+{{!}}-
+{{#if:{{{gan2<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Gan Chinese|Gan]]
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} - [[Gan Chinese|Romanization]]
+{{!}} style="width: 50%" {{!}} {{{gan2}}}
+}}
+{{!}}-
+{{#if:{{{h2<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Hakka Chinese|Hakka]]
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} - [[Guangdong Romanization#Hakka|Romanization]]
+{{!}} style="width: 50%" {{!}} {{{h2}}}
+}}
+{{!}}-
+{{#if:{{{p2|}}}{{{tp2|}}}{{{w2|}}}{{{psp2|}}}{{{myr2|}}}{{{gr2|}}}{{{bpmf2|}}}{{{xej2|}}}{{{dungan2|}}}{{{mps2<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Mandarin Chinese|Mandarin]]
+}}
+{{!}}-
+{{#if:{{{p2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Pinyin|Hanyu Pinyin]]
+{{!}} style="width: 50%" {{!}} {{{p2}}}
+}}
+{{!}}-
+{{#if:{{{tp2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Tongyong Pinyin]]
+{{!}} style="width: 50%" {{!}} {{{tp2}}}
+}}
+{{!}}-
+{{#if:{{{w2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Wade–Giles]]
+{{!}} style="width: 50%" {{!}} {{{w2}}}
+}}
+{{!}}-
+{{#if:{{{mi2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Wikipedia:IPA|IPA]]
+{{!}} style="width: 50%" {{!}} {{{mi2}}}
+}}
+{{!}}-
+{{#if:{{{psp2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Chinese Postal Map Romanization|Postal Map]]
+{{!}} style="width: 50%" {{!}} {{{psp2}}} <noinclude> *</noinclude>
+}}
+{{!}}-
+{{#if:{{{myr2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Yale Romanization#Mandarin|Yale Romanization]]
+{{!}} style="width: 50%" {{!}} {{{myr2}}}
+}}
+{{!}}-
+{{#if:{{{gr2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Gwoyeu Romatzyh]]
+{{!}} style="width: 50%" {{!}} {{{gr2}}}
+}}
+{{!}}-
+{{#if:{{{mps2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Mandarin Phonetic Symbols II|MPS2]]
+{{!}} style="width: 50%" {{!}} {{{mps2}}}
+}}
+{{!}}-
+{{#if:{{{bpmf2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Bopomofo]]
+{{!}} style="width: 50%" {{!}} {{{bpmf2}}}
+}}
+{{!}}-
+{{#if:{{{xej2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Xiao'erjing]]
+{{!}} style="width: 50%" {{!}} {{{xej2}}}
+}}
+{{!}}-
+{{#if:{{{zh-dungan2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Dungan language|Dunganese]]
+{{!}} style="width: 50%" {{!}} {{{zh-dungan2}}}
+}}
+{{!}}-
+{{#if:{{{sic2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Sichuanese Mandarin|Sichuanese]] [[Sichuanese Pinyin|Pinyin]]
+{{!}} style="width: 50%" {{!}} {{{sic2}}}
+}}
+<!-- MIN -->
+{{!}}-
+{{#if:{{{poj2|}}}{{{teo2|}}}{{{buc2<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Min Chinese|Min]]
+}}
+{{!}}-
+{{#if:{{{poj2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Hokkien]] [[Pe̍h-ōe-jī|POJ]]
+{{!}} style="width: 50%" {{!}} {{{poj2}}}
+}}
+{{!}}-
+{{#if:{{{buc2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Min Dong|Min-dong]] [[Foochow Romanized|BUC]]
+{{!}} style="width: 50%" {{!}} {{{buc2}}}
+}}
+{{!}}-
+{{#if:{{{teo2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Teochew dialect|Teochew]] [[Guangdong Romanization#Teochew|Peng'im]]
+{{!}} style="width: 50%" {{!}} {{{teo2}}}
+}}
+<!-- WU/SHANGHAI -->
+{{!}}-
+{{#if:{{{wuu2|}}}{{{lmz2<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Wu Chinese|Wu]]
+}}
+{{!}}-
+{{#if:{{{wuu2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Wu Chinese|Romanization]]
+{{!}} style="width: 50%" {{!}} {{{wuu2}}}
+}}
+{{!}}-
+{{#if:{{{lmz2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Shanghainese]]<br>  [[Long-short (romanization)|romanization]]
+{{!}} style="width: 50%" {{!}} {{{lmz2}}}
+}}
+<!-- XIANG/HUNAN -->
+{{!}}-
+{{#if:{{{hsn2<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Xiang Chinese|Xiang]]
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} - [[Xiang Chinese|Romanization]]
+{{!}} style="width: 50%" {{!}} {{{hsn2}}}
+}}
+<!-- YUE/CANTONESE -->
+{{!}}-
+{{#if:{{{j2|}}}{{{ci2|}}}{{{y2|}}}{{{gd2|}}}{{{toi2<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Yue Chinese|Cantonese (Yue)]]
+}}
+{{!}}-
+{{#if:{{{j2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Jyutping]]
+{{!}} style="width: 50%" {{!}} {{{j2}}}
+}}
+{{!}}-
+{{#if:{{{ci2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Wikipedia:IPA for Cantonese|IPA]]
+{{!}} style="width: 50%; font-size: 95%" class="IPA" {{!}} {{{ci2}}}
+}}
+{{!}}-
+{{#if:{{{y2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Yale Romanization#Cantonese|Yale Romanization]]
+{{!}} style="width: 50%" {{!}} {{{y2}}}
+}}
+{{!}}-
+{{#if:{{{gd2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Guangdong Romanization]]
+{{!}} style="width: 50%" {{!}} {{{gd2}}}
+}}
+{{!}}-
+{{#if:{{{toi2<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Taishanese]] [[Jyutping]]
+{{!}} style="width: 50%" {{!}} {{{toi2}}}
+}}
+{{!}}}
+}}
+|-
+{{#if:{{{c3|}}}{{{t3|}}}{{{s3<includeonly>|</includeonly>}}}|
+! colspan=2 style="background-color: #b0c4de; text-align: center" {{!}} {{{altname3|Second alternative Chinese name}}}
+}}
+|-
+{{#if:{{{c3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Chinese language|Chinese]]
+{{!}} style="width: 50%; font-size: 130%" {{!}} {{lang|zh-Hani| {{{c3}}} }}
+}}
+|-
+{{#switch:{{{order|}}}
+| #default=
+{{#if:{{{t3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Traditional Chinese characters|Traditional Chinese]]
+{{!}} style="width: 50%; font-size: 130%" {{!}} {{lang|zh-Hant| {{{t3}}} }}
+}}
+{{!}}-
+{{#if:{{{s3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Simplified Chinese characters|Simplified Chinese]]
+{{!}} style="width: 50%; font-size: 130%" {{!}} {{lang|zh-Hans| {{{s3}}} }}
+}}
+| st=
+{{#if:{{{s3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Simplified Chinese characters|Simplified Chinese]]
+{{!}} style="width: 50%; font-size: 130%" {{!}} {{lang|zh-Hans| {{{s3}}} }}
+{{!}}-
+{{#if:{{{t3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Traditional Chinese characters|Traditional Chinese]]
+{{!}} style="width: 50%; font-size: 130%" {{!}} {{lang|zh-Hant| {{{t3}}} }}
+}}
+}}
+}}
+|-
+{{#if:{{{l3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} Literal meaning
+{{!}} style="width: 50%" {{!}} <noinclude> *</noinclude> {{{l3}}}
+}}
+|-
+{{#if:{{{c3|}}}{{{t3|}}}{{{s3<includeonly>|</includeonly>}}}|
+{{!}} colspan=2 {{!}}
+{{{!}} class="toccolours {{#switch:{{{hide|}}}|#default=collapsible collapsed|no= }}" width="100%" style="border: 0; background-color: #f7f8ff; font-size: 95%"
+! colspan=2 style="text-align: left; background-color: #f9ffbc" {{!}} Transcriptions
+{{!}}-
+{{#if:{{{gan3<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Gan Chinese|Gan]]
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} - [[Gan Chinese|Romanization]]
+{{!}} style="width: 50%" {{!}} {{{gan3}}}
+}}
+{{!}}-
+{{#if:{{{h3<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Hakka Chinese|Hakka]]
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} - [[Guangdong Romanization#Hakka|Romanization]]
+{{!}} style="width: 50%" {{!}} {{{h3}}}
+}}
+{{!}}-
+{{#if:{{{p3|}}}{{{tp3|}}}{{{w3|}}}{{{psp3|}}}{{{myr3|}}}{{{gr3|}}}{{{bpmf3|}}}{{{xej3|}}}{{{dungan3|}}}{{{mps3<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Mandarin Chinese|Mandarin]]
+}}
+{{!}}-
+{{#if:{{{p3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Pinyin|Hanyu Pinyin]]
+{{!}} style="width: 50%" {{!}} {{{p3}}}
+}}
+{{!}}-
+{{#if:{{{tp3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Tongyong Pinyin]]
+{{!}} style="width: 50%" {{!}} {{{tp3}}}
+}}
+{{!}}-
+{{#if:{{{w3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Wade–Giles]]
+{{!}} style="width: 50%" {{!}} {{{w3}}}
+}}
+{{!}}-
+{{#if:{{{mi3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Wikipedia:IPA|IPA]]
+{{!}} style="width: 50%" {{!}} {{{mi3}}}
+}}
+{{!}}-
+{{#if:{{{psp3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Chinese Postal Map Romanization|Postal Map]]
+{{!}} style="width: 50%" {{!}} {{{psp3}}} <noinclude> *</noinclude>
+}}
+{{!}}-
+{{#if:{{{myr3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Yale Romanization#Mandarin|Yale Romanization]]
+{{!}} style="width: 50%" {{!}} {{{myr3}}}
+}}
+{{!}}-
+{{#if:{{{gr3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Gwoyeu Romatzyh]]
+{{!}} style="width: 50%" {{!}} {{{gr3}}}
+}}
+{{!}}-
+{{#if:{{{mps3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Mandarin Phonetic Symbols II|MPS3]]
+{{!}} style="width: 50%" {{!}} {{{mps3}}}
+}}
+{{!}}-
+{{#if:{{{bpmf3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Bopomofo]]
+{{!}} style="width: 50%" {{!}} {{{bpmf3}}}
+}}
+{{!}}-
+{{#if:{{{xej3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Xiao'erjing]]
+{{!}} style="width: 50%" {{!}} {{{xej3}}}
+}}
+{{!}}-
+{{#if:{{{zh-dungan3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Dungan language|Dunganese]]
+{{!}} style="width: 50%" {{!}} {{{zh-dungan3}}}
+}}
+{{!}}-
+{{#if:{{{sic3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Sichuanese Mandarin|Sichuanese]] [[Sichuanese Pinyin|Pinyin]]
+{{!}} style="width: 50%" {{!}} {{{sic3}}}
+}}
+<!-- MIN -->
+{{!}}-
+{{#if:{{{poj3|}}}{{{teo3|}}}{{{buc3<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Min Chinese|Min]]
+}}
+{{!}}-
+{{#if:{{{poj3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Hokkien]] [[Pe̍h-ōe-jī|POJ]]
+{{!}} style="width: 50%" {{!}} {{{poj3}}}
+}}
+{{!}}-
+{{#if:{{{buc3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Min Dong|Min-dong]] [[Foochow Romanized|BUC]]
+{{!}} style="width: 50%" {{!}} {{{buc3}}}
+}}
+{{!}}-
+{{#if:{{{teo3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Teochew dialect|Teochew]] [[Guangdong Romanization#Teochew|Peng'im]]
+{{!}} style="width: 50%" {{!}} {{{teo3}}}
+}}
+<!-- WU/SHANGHAI -->
+{{!}}-
+{{#if:{{{wuu3|}}}{{{lmz3<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Wu Chinese|Wu]]
+}}
+{{!}}-
+{{#if:{{{wuu3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Wu Chinese|Romanization]]
+{{!}} style="width: 50%" {{!}} {{{wuu3}}}
+}}
+{{!}}-
+{{#if:{{{lmz3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Shanghainese]]<br>  [[Long-short (romanization)|romanization]]
+{{!}} style="width: 50%" {{!}} {{{lmz3}}}
+}}
+<!-- XIANG/HUNAN -->
+{{!}}-
+{{#if:{{{hsn3<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Xiang Chinese|Xiang]]
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} - [[Xiang Chinese|Romanization]]
+{{!}} style="width: 50%" {{!}} {{{hsn3}}}
+}}
+<!-- YUE/CANTONESE -->
+{{!}}-
+{{#if:{{{j3|}}}{{{ci3|}}}{{{y3|}}}{{{gd3|}}}{{{toi3<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Yue Chinese|Cantonese (Yue)]]
+}}
+{{!}}-
+{{#if:{{{j3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Jyutping]]
+{{!}} style="width: 50%" {{!}} {{{j3}}}
+}}
+{{!}}-
+{{#if:{{{ci3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Wikipedia:IPA for Cantonese|IPA]]
+{{!}} style="width: 50%; font-size: 95%" class="IPA" {{!}} {{{ci3}}}
+}}
+{{!}}-
+{{#if:{{{y3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Yale Romanization#Cantonese|Yale Romanization]]
+{{!}} style="width: 50%" {{!}} {{{y3}}}
+}}
+{{!}}-
+{{#if:{{{gd3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Guangdong Romanization]]
+{{!}} style="width: 50%" {{!}} {{{gd3}}}
+}}
+{{!}}-
+{{#if:{{{toi3<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Taishanese]] [[Jyutping]]
+{{!}} style="width: 50%" {{!}} {{{toi3}}}
+}}
+{{!}}}
+}}
+|-
+{{#if:{{{c4|}}}{{{t4|}}}{{{s4<includeonly>|</includeonly>}}}|
+! colspan=2 style="background-color: #b0c4de; text-align: center" {{!}} {{{altname4|Third alternative Chinese name}}}
+}}
+|-
+{{#if:{{{c4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Chinese language|Chinese]]
+{{!}} style="width: 50%; font-size: 130%" {{!}} {{lang|zh-Hani| {{{c4}}} }}
+}}
+|-
+{{#switch:{{{order|}}}
+| #default=
+{{#if:{{{t4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Traditional Chinese characters|Traditional Chinese]]
+{{!}} style="width: 50%; font-size: 130%" {{!}} {{lang|zh-Hant| {{{t4}}} }}
+}}
+{{!}}-
+{{#if:{{{s4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Simplified Chinese characters|Simplified Chinese]]
+{{!}} style="width: 50%; font-size: 130%" {{!}} {{lang|zh-Hans| {{{s4}}} }}
+}}
+| st=
+{{#if:{{{s4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Simplified Chinese characters|Simplified Chinese]]
+{{!}} style="width: 50%; font-size: 130%" {{!}} {{lang|zh-Hans| {{{s4}}} }}
+{{!}}-
+{{#if:{{{t4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Traditional Chinese characters|Traditional Chinese]]
+{{!}} style="width: 50%; font-size: 130%" {{!}} {{lang|zh-Hant| {{{t4}}} }}
+}}
+}}
+}}
+|-
+{{#if:{{{l4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} Literal meaning
+{{!}} style="width: 50%" {{!}} <noinclude> *</noinclude> {{{l4}}}
+}}
+|-
+{{#if:{{{c4|}}}{{{t4|}}}{{{s4<includeonly>|</includeonly>}}}|
+{{!}} colspan=2 {{!}}
+{{{!}} class="toccolours {{#switch:{{{hide|}}}|#default=collapsible collapsed|no= }}" width="100%" style="border: 0; background-color: #f7f8ff; font-size: 95%"
+! colspan=2 style="text-align: left; background-color: #f9ffbc" {{!}} Transcriptions
+{{!}}-
+{{#if:{{{gan4<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Gan Chinese|Gan]]
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} - [[Gan Chinese|Romanization]]
+{{!}} style="width: 50%" {{!}} {{{gan4}}}
+}}
+{{!}}-
+{{#if:{{{h4<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Hakka Chinese|Hakka]]
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} - [[Guangdong Romanization#Hakka|Romanization]]
+{{!}} style="width: 50%" {{!}} {{{h4}}}
+}}
+{{!}}-
+{{#if:{{{p4|}}}{{{tp4|}}}{{{w4|}}}{{{psp4|}}}{{{myr4|}}}{{{gr4|}}}{{{bpmf4|}}}{{{xej4|}}}{{{dungan4|}}}{{{mps4<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Mandarin Chinese|Mandarin]]
+}}
+{{!}}-
+{{#if:{{{p4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Pinyin|Hanyu Pinyin]]
+{{!}} style="width: 50%" {{!}} {{{p4}}}
+}}
+{{!}}-
+{{#if:{{{tp4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Tongyong Pinyin]]
+{{!}} style="width: 50%" {{!}} {{{tp4}}}
+}}
+{{!}}-
+{{#if:{{{w4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Wade–Giles]]
+{{!}} style="width: 50%" {{!}} {{{w4}}}
+}}
+{{!}}-
+{{#if:{{{mi4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Wikipedia:IPA|IPA]]
+{{!}} style="width: 50%" {{!}} {{{mi4}}}
+}}
+{{!}}-
+{{#if:{{{psp4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Chinese Postal Map Romanization|Postal Map]]
+{{!}} style="width: 50%" {{!}} {{{psp4}}} <noinclude> *</noinclude>
+}}
+{{!}}-
+{{#if:{{{myr4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Yale Romanization#Mandarin|Yale Romanization]]
+{{!}} style="width: 50%" {{!}} {{{myr4}}}
+}}
+{{!}}-
+{{#if:{{{gr4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Gwoyeu Romatzyh]]
+{{!}} style="width: 50%" {{!}} {{{gr4}}}
+}}
+{{!}}-
+{{#if:{{{mps4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Mandarin Phonetic Symbols II|MPS4]]
+{{!}} style="width: 50%" {{!}} {{{mps4}}}
+}}
+{{!}}-
+{{#if:{{{bpmf4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Bopomofo]]
+{{!}} style="width: 50%" {{!}} {{{bpmf4}}}
+}}
+{{!}}-
+{{#if:{{{xej4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Xiao'erjing]]
+{{!}} style="width: 50%" {{!}} {{{xej4}}}
+}}
+{{!}}-
+{{#if:{{{zh-dungan4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Dungan language|Dunganese]]
+{{!}} style="width: 50%" {{!}} {{{zh-dungan4}}}
+}}
+{{!}}-
+{{#if:{{{sic4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Sichuanese Mandarin|Sichuanese]] [[Sichuanese Pinyin|Pinyin]]
+{{!}} style="width: 50%" {{!}} {{{sic4}}}
+}}
+<!-- MIN -->
+{{!}}-
+{{#if:{{{poj4|}}}{{{teo4|}}}{{{buc4<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Min Chinese|Min]]
+}}
+{{!}}-
+{{#if:{{{poj4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Hokkien]] [[Pe̍h-ōe-jī|POJ]]
+{{!}} style="width: 50%" {{!}} {{{poj4}}}
+}}
+{{!}}-
+{{#if:{{{buc4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Min Dong|Min-dong]] [[Foochow Romanized|BUC]]
+{{!}} style="width: 50%" {{!}} {{{buc4}}}
+}}
+{{!}}-
+{{#if:{{{teo4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Teochew dialect|Teochew]] [[Guangdong Romanization#Teochew|Peng'im]]
+{{!}} style="width: 50%" {{!}} {{{teo4}}}
+}}
+<!-- WU/SHANGHAI -->
+{{!}}-
+{{#if:{{{wuu4|}}}{{{lmz4<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Wu Chinese|Wu]]
+}}
+{{!}}-
+{{#if:{{{wuu4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Wu Chinese|Romanization]]
+{{!}} style="width: 50%" {{!}} {{{wuu4}}}
+}}
+{{!}}-
+{{#if:{{{lmz4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Shanghainese]]<br>  [[Long-short (romanization)|romanization]]
+{{!}} style="width: 50%" {{!}} {{{lmz4}}}
+}}
+<!-- XIANG/HUNAN -->
+{{!}}-
+{{#if:{{{hsn4<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Xiang Chinese|Xiang]]
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} - [[Xiang Chinese|Romanization]]
+{{!}} style="width: 50%" {{!}} {{{hsn4}}}
+}}
+<!-- YUE/CANTONESE -->
+{{!}}-
+{{#if:{{{j4|}}}{{{ci4|}}}{{{y4|}}}{{{gd4|}}}{{{toi4<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #dcffc9" {{!}} [[Yue Chinese|Cantonese (Yue)]]
+}}
+{{!}}-
+{{#if:{{{j4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Jyutping]]
+{{!}} style="width: 50%" {{!}} {{{j4}}}
+}}
+{{!}}-
+{{#if:{{{ci4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Wikipedia:IPA for Cantonese|IPA]]
+{{!}} style="width: 50%; font-size: 95%" class="IPA" {{!}} {{{ci4}}}
+}}
+{{!}}-
+{{#if:{{{y4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Yale Romanization#Cantonese|Yale Romanization]]
+{{!}} style="width: 50%" {{!}} {{{y4}}}
+}}
+{{!}}-
+{{#if:{{{gd4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Guangdong Romanization]]
+{{!}} style="width: 50%" {{!}} {{{gd4}}}
+}}
+{{!}}-
+{{#if:{{{toi4<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Taishanese]] [[Jyutping]]
+{{!}} style="width: 50%" {{!}} {{{toi4}}}
+}}
+{{!}}}
+}}
+|-
+{{#if:{{{my|}}}{{{bi<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} Burmese name
+{{!}}-
+{{#if:{{{my<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Burmese language|Burmese]]
+{{!}} {{lang|my| {{{my}}} }}
+}}
+{{!}}-
+{{#if:{{{bi<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Wikipedia:IPA_for_Burmese|IPA]]
+{{!}} style="width: 50%; font-size: 95%" class="IPA" {{!}} {{{bi}}}
+}}
+}}
+|-
+{{#if:{{{tib<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} Tibetan name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[Tibetan script|Tibetan]]
+{{!}} style="width: 50%" {{!}} {{lang|bo| {{{tib}}} }}
+{{!}}-
+{{#if:{{{wylie|}}}{{{thdl|}}}{{{zwpy|}}}{{{lhasa<includeonly>|</includeonly>}}}|
+{{!}}colspan=2 {{!}}
+{{{!}} class="toccolours {{#switch:{{{hide|}}}|#default=collapsible collapsed|no= }}" width="100%" style="border: 0; background-color: #f7f8ff; font-size: 95%"
+!colspan=2 style="text-align: left; background-color: #f9ffbc" {{!}} Transcriptions
+{{!}}-
+{{#if:{{{wylie<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Wylie transliteration|Wylie]]
+{{!}} style="width: 50%" {{!}} {{{wylie}}}
+}}
+{{!}}-
+{{#if:{{{thdl<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[THDL Simplified Phonetic Transcription|THDL]]
+{{!}} style="width: 50%" {{!}} {{{thdl}}}
+}}
+{{!}}-
+{{#if:{{{zwpy<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Tibetan pinyin|Tibetan Pinyin]]
+{{!}} style="width: 50%" {{!}} {{{zwpy}}}
+}}
+{{!}}-
+{{#if:{{{lhasa<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Tibetan language#Dialects|Lhasa]] [[Wikipedia:IPA for Tibetan|IPA]]
+{{!}} style="width: 50%" class="IPA" {{!}} {{{lhasa}}}
+}}
+{{!}}}
+}}
+}}
+|-
+{{#if:{{{dungan|}}}{{{dungan-xej|}}}{{{dungan-han<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} Dunganese name
+{{!}}-
+{{#if:{{{dungan<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Dungan language|Dungan]]
+{{!}} {{{dungan}}}
+}}
+{{!}}-
+{{#if:{{{dungan-xej<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Xiao'erjing]]
+{{!}} {{{dungan-xej}}}
+}}
+{{!}}-
+{{#if:{{{dungan-latin<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Romanization]]
+{{!}} {{{dungan-latin}}}
+}}
+{{!}}-
+{{#if:{{{dungan-han<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Hanzi]]
+{{!}} {{{dungan-han}}}
+}}
+}}
+|-
+{{#if:{{{qn|}}}{{{vie|}}}{{{hantu<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} Vietnamese name
+{{!}}-
+{{#if:{{{vie<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Vietnamese language|Vietnamese]]
+{{!}} {{lang|vi| {{{vie}}} }}
+}}
+{{!}}-
+{{#if:{{{qn<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Vietnamese alphabet|Quốc ngữ]]
+{{!}} {{lang|vi| {{{qn}}} }}
+}}
+{{!}}-
+{{#if:{{{hn<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Hán tự|Hán]]-[[Chữ nôm|Nôm]]
+{{!}} <span lang="vi-Hant" xml: lang="vi-Hant">{{{hn}}}</span>
+}}
+{{!}}-
+{{#if:{{{chunom<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Chữ nôm]]
+{{!}} <span lang="vi-Hant" xml: lang="vi-Hant">{{{chunom}}}</span>
+}}
+{{!}}-
+{{#if:{{{hantu<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Hán tự]]
+{{!}} <span lang="vi-Hant" xml: lang="vi-Hant">{{{hantu}}}</span>
+}}
+}}
+|-
+{{#if:{{{tha|}}}{{{rtgs<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} Thai name
+{{!}}-
+{{#if:{{{tha<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Thai language|Thai]]
+{{!}} {{lang|th| {{{tha}}} }}
+}}
+{{!}}-
+{{#if:{{{rtgs<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Royal Thai General System of Transcription|RTGS]]
+{{!}} {{lang|th| {{{rtgs}}} }}
+}}
+}}
+|-
+{{#if:{{{zha<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} Zhuang name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[Zhuang language|Zhuang]]
+{{!}} {{{zha}}}
+}}
+|-
+{{#if:{{{hanja|}}}{{{hangul<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} Korean name
+{{!}}-
+{{#if:{{{hangul<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} {{#switch:{{{northkorea|}}}|yes=[[Hangul|Chosŏn'gŭl]]|#default=[[Hangul]]}}
+{{!}} style="width: 50%" {{!}} {{lang|ko| {{{hangul}}} }}
+}}
+{{!}}-
+{{#if:{{{hanja<includeonly>|</includeonly>}}}|
+{{!}}style="width: 50%; {{!}} {{#switch:{{{northkorea|}}}|yes=[[Hanja|Hancha]]|#default=[[Hanja]]}}
+{{!}} style="width: 50%" {{!}} {{lang|ko| {{{hanja}}} }}
+}}
+{{!}}-
+{{#if:{{{lk<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} Literal meaning
+{{!}} style="width: 50%" {{!}} {{{lk}}}
+}}
+{{!}}-
+{{#if:{{{mr|}}}{{{rr<includeonly>|</includeonly>}}}|
+{{!}}colspan=2 {{!}}
+{{{!}} class="toccolours {{#switch:{{{hide|}}}|#default=collapsible collapsed|no= }}" width="100%" style="border: 0; background-color: #f7f8ff; font-size: 95%"
+!colspan=2 style="text-align: left; background-color: #f9ffbc" {{!}} Transcriptions
+{{!}}-
+{{#switch:{{{northkorea<includeonly>|</includeonly>}}}|yes=|#default={{#if:{{{rr|}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Revised Romanization of Korean|Revised<br />  Romanization]]
+{{!}} style="width: 50%" {{!}} {{{rr}}}
+}}}}
+{{!}}-
+{{#if:{{{mr<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[McCune–Reischauer|McCune-<br />  Reischauer]]
+{{!}} style="width: 50%; {{!}} {{{mr}}}
+}}
+{{!}}-
+{{#switch:{{{northkorea<includeonly>|</includeonly>}}}|#default=|yes={{#if:{{{rr|}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Revised Romanization of Korean|Revised<br />  Romanization]]
+{{!}} style="width: 50%" {{!}} {{{rr}}}
+}}}}
+{{!}}}
+}}
+}}
+|-
+{{#if:{{{mong|}}}{{{mon<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} Mongolian name
+{{!}}-
+{{#if:{{{mon<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} {{#if:{{{mong<includeonly>|</includeonly>}}}|[[Mongolian Cyrillic script|Mongolian Cyrillic]]|[[Mongolian language|Mongolian]]}}
+{{!}} {{lang|mn| {{{mon}}} }}
+}}
+{{!}}-
+{{#if:{{{mong<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Mongolian script]]
+{{!}} {{MongolUnicode| {{{mong}}} }}
+}}
+{{!}}-
+{{#if:{{{monr<includeonly>|</includeonly>}}}|
+{{!}}colspan=2 {{!}}
+{{{!}} class="toccolours {{#switch:{{{hide|}}}|#default=collapsible collapsed|no= }}" width="100%" style="border: 0; background-color: #f7f8ff; font-size: 95%"
+!colspan=2 style="text-align: left; background-color: #f9ffbc" {{!}} Transcriptions
+{{!}}-
+{{#if:{{{monr<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[SASM/GNC romanization#Mongolian|SASM/GNC]]
+{{!}} style="width: 50%" {{!}} {{{monr}}}
+}}
+{{!}}}
+}}
+}}
+|-
+{{#if:{{{kanji|}}}{{{kana|}}}{{{hiragana|}}}{{{kyujitai|}}}{{{shinjitai<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} Japanese name
+{{!}}-
+{{#if:{{{kanji<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Kanji]]
+{{!}} style="width: 50%" {{!}} {{lang|ja| {{{kanji}}} }}
+}}
+{{!}}-
+{{#if:{{{kana<includeonly>|</includeonly>}}}|
+{{!}}style="width: 50%; {{!}} [[Kana]]
+{{!}} style="width: 50%" {{!}} {{lang|ja| {{{kana}}} }}
+}}
+{{!}}-
+{{#if:{{{hiragana<includeonly>|</includeonly>}}}|
+{{!}}style="width: 50%; {{!}} [[Hiragana]]
+{{!}} style="width: 50%" {{!}} {{lang|ja| {{{hiragana}}} }}
+}}
+{{!}}-
+{{#if:{{{kyujitai<includeonly>|</includeonly>}}}|
+{{!}}style="width: 50%; {{!}} [[Kyūjitai]]
+{{!}} style="width: 50%" {{!}} {{lang|ja| {{{kyujitai}}} }}
+}}
+{{!}}-
+{{#if:{{{shinjitai<includeonly>|</includeonly>}}}|
+{{!}}style="width: 50%; {{!}} [[Shinjitai]]
+{{!}} style="width: 50%" {{!}} {{lang|ja| {{{shinjitai}}} }}
+}}
+{{!}}-
+{{#if:{{{romaji|}}}{{{revhep|}}}{{{tradhep|}}}{{{kunrei|}}}{{{nihon<includeonly>|</includeonly>}}}|
+{{!}}colspan=2 {{!}}
+{{{!}} class="toccolours {{#switch:{{{hide|}}}|#default=collapsible collapsed|no= }}" width="100%" style="border: 0; background-color: #f7f8ff; font-size: 95%"
+!colspan=2 style="text-align: left; background-color: #f9ffbc" {{!}} Transcriptions
+{{!}}-
+{{#if:{{{romaji<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Romanization of Japanese|Romanization]]
+{{!}} style="width: 50%" {{!}} {{{romaji}}}
+}}
+{{!}}-
+{{#if:{{{revhep<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Hepburn romanization|Revised Hepburn]]
+{{!}} style="width: 50%" {{!}} {{{revhep}}}
+}}
+{{!}}-
+{{#if:{{{tradhep<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Hepburn romanization|Traditional Hepburn]]
+{{!}} style="width: 50%" {{!}} {{{tradhep}}}
+}}
+{{!}}-
+{{#if:{{{kunrei<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Kunrei-shiki romanization|Kunrei-shiki]]
+{{!}} style="width: 50%" {{!}} {{{kunrei}}}
+}}
+{{!}}-
+{{#if:{{{nihon<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Nihon-shiki romanization|Nihon-shiki]]
+{{!}} style="width: 50%; {{!}} {{{nihon}}}
+}}
+{{!}}}
+}}
+}}
+|-
+{{#if:{{{msa<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} Malay name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[Malay language|Malay]]
+{{!}} {{{msa}}}
+}}
+|-
+{{#if:{{{ind<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} Indonesian name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[Indonesian language|Indonesian]]
+{{!}} {{{ind}}}
+}}
+|-
+{{#if:{{{tgl<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} Filipino name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[Tagalog language|Tagalog]]
+{{!}} {{{tgl}}}
+}}
+|-
+{{#if:{{{uig<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} Uyghur name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[Uyghur language|Uyghur]]
+{{!}} <div style="direction:rtl;">{{lang|ug| {{{uig}}} }}</div>
+{{!}}-
+{{#if:{{{uly|}}}{{{uyy|}}}{{{usy|}}}{{{sgs|}}}{{{uipa<includeonly>|</includeonly>}}}|
+{{!}}colspan=2 {{!}}
+{{{!}} class="toccolours {{#switch:{{{hide|}}}|#default=collapsible collapsed|no= }}" width="100%" style="border: 0; background-color: #f7f8ff; font-size: 95%"
+!colspan=2 style="text-align: left; background-color: #f9ffbc" {{!}} Transcriptions
+{{!}}-
+{{#if:{{{uly<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Uyghur Latin alphabet|Latin Yëziqi]]
+{{!}} style="width: 50%" {{!}} {{{uly}}}
+}}
+{{!}}-
+{{#if:{{{uyy<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Uyghur New Script|{{unicode|Yengi Yezik̡}}]]
+{{!}} style="width: 50%" {{!}} {{{uyy}}}
+}}
+{{!}}-
+{{#if:{{{sgs<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[SASM/GNC romanization#Uyghur|SASM/GNC]]
+{{!}} style="width: 50%" {{!}} {{{sgs}}}
+}}
+{{!}}-
+{{#if:{{{usy<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - [[Uyghur Cyrillic alphabet|Siril Yëziqi]]
+{{!}} style="width: 50%" {{!}} {{{usy}}}
+}}
+{{!}}-
+{{#if:{{{uipa<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} - Uyghur [[Wikipedia: IPA|IPA]]
+{{!}} style="width: 50%" class="IPA" {{!}} {{{uipa}}}
+}}
+{{!}}}
+}}
+}}
+|-
+{{#if:{{{mnc<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} Manchu name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[Manchu language|Manchu]]
+{{!}} {{{mnc}}}
+}}
+|-
+{{#if:{{{tam<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} Tamil name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[Tamil language|Tamil]]
+{{!}} {{{tam}}}
+}}
+|-
+{{#if:{{{hin<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} Hindi name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[Hindi]]
+{{!}} {{{hin}}}
+}}
+|-
+{{#if:{{{san<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} Sanskrit name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[Sanskrit]]
+{{!}} {{lang|sa| {{{san}}} }}
+}}
+|-
+{{#if:{{{pli<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} Pali name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[Pali]]
+{{!}} {{lang|pi| {{{pli}}} }}
+}}
+|-
+{{#if:{{{por<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} Portuguese name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[Portuguese language|Portuguese]]
+{{!}} {{{por}}}
+}}
+|-
+{{#if:{{{rus<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} Russian name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[Russian language|Russian]]
+{{!}} {{lang|ru| {{{rus}}} }}
+{{!}}-
+{{#if:{{{rusr<includeonly>|</includeonly>}}}|
+! style="width: 50%; white-space: nowrap" {{!}} [[Romanization of Russian|Romanization]]
+{{!}} {{{rusr}}}
+}}
+}}
+|-
+{{#if:{{{lang1<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} {{{lang1}}} name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[{{{lang1|lang1}}} language|{{{lang1}}}]]
+{{!}} {{{lang1_content}}}
+}}
+|-
+{{#if:{{{lang2<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} {{{lang2}}} name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[{{{lang2|lang2}}} language|{{{lang2}}}]]
+{{!}} {{{lang2_content}}}
+}}
+|-
+{{#if:{{{lang3<includeonly>|</includeonly>}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} {{{lang3}}} name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[{{{lang3|lang3}}} language|{{{lang3}}}]]
+{{!}} {{{lang3_content}}}
+}}
+|-
+{{#if:{{{lang4|}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} {{{lang4}}} name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[{{{lang4}}} language|{{{lang4}}}]]
+{{!}} {{{lang4_content}}}
+}}
+|-
+{{#if:{{{lang5|}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} {{{lang5}}} name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[{{{lang5}}} language|{{{lang5}}}]]
+{{!}} {{{lang5_content}}}
+}}
+|-
+{{#if:{{{lang6|}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} {{{lang6}}} name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[{{{lang6}}} language|{{{lang6}}}]]
+{{!}} {{{lang6_content}}}
+}}
+|-
+{{#if:{{{lang7|}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} {{{lang7}}} name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[{{{lang7}}} language|{{{lang7}}}]]
+{{!}} {{{lang7_content}}}
+}}
+|-
+{{#if:{{{lang8|}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} {{{lang8}}} name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[{{{lang8}}} language|{{{lang8}}}]]
+{{!}} {{{lang8_content}}}
+}}
+|-
+{{#if:{{{lang9|}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} {{{lang9}}} name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[{{{lang9}}} language|{{{lang9}}}]]
+{{!}} {{{lang9_content}}}
+}}
+|-
+{{#if:{{{lang10|}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} {{{lang10}}} name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[{{{lang10}}} language|{{{lang10}}}]]
+{{!}} {{{lang10_content}}}
+}}
+|-
+{{#if:{{{lang11|}}}|
+! colspan=2 style="text-align: center; background-color: #b0c4de" {{!}} {{{lang11}}} name
+{{!}}-
+! style="width: 50%; white-space: nowrap" {{!}} [[{{{lang11}}} language|{{{lang11}}}]]
+{{!}} {{{lang11_content}}}
+}}
+|-
+{{#if:{{{footnote<includeonly>|</includeonly>}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} <small>{{{footnote}}}</small>
+}}
+|}<!-- End Template: Chinese --><noinclude>{{documentation}}<!-- Add cats and interwikis to the /doc subpage, not here!  --></noinclude>
