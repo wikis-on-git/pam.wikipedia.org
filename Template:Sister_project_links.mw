@@ -15,7 +15,7 @@
 -->{{!}} [[File:Wikinews-logo.svg|25x25px|link={{sec link image|n|Special:Search/{{{n|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Wikinews]] {{!}}{{!}} {{sec link auto|n|Special:Search/{{{n|{{{1|{{PAGENAME}}}}}}}}|Balita}} ibat king Wikinews<br />}}
 |-
 {{#ifeq:{{{q}}}|no||<!--
--->{{!}} [[File:Wikiquote-logo.svg|25x25px|link={{sec link image|q|Special:Search/{{{q|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Wikiquote]] {{!}}{{!}} {{sec link auto|q|Special:Search/{{{q|{{{1|{{PAGENAME}}}}}}}}|Simmbitla (''quotations''}} ibat king Wikiquote<br />}}
+-->{{!}} [[File:Wikiquote-logo.svg|25x25px|link={{sec link image|q|Special:Search/{{{q|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Wikiquote]] {{!}}{{!}} {{sec link auto|q|Special:Search/{{{q|{{{1|{{PAGENAME}}}}}}}}|Simbitla (''quotations'')}} ibat king Wikiquote<br />}}
 |-
 {{#ifeq:{{{s}}}|no||{{#ifeq:{{{author|no}}}|yes|<!--
 -->{{!}} [[File:Wikisource-logo.svg|25x25px|link={{sec link image|s|Special:Search/Author:{{{s|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Wikisource]] {{!}}{{!}} {{sec link auto|s|Special:Search/Author:{{{s|{{{1|{{PAGENAME}}}}}}}}|Kasulatan a makasalesayan}} ibat king Wikisource<br />|<!--
