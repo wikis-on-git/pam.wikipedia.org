@@ -3,26 +3,26 @@
 | colspan=2 style="margin: auto; text-align: center" | Dagdagan mu ing balu mu tungkul kang/king '''{{{display|{{{1|{{PAGENAME}}}}}}}}''' kareng [[Wikipedia:Wikimedia sister projects|kapatad nang proyektu]] ning Wikipedia:
 |-
 {{#ifeq:{{{wikt}}}|no||<!--
--->{{!}} [[File:Wiktionary-logo-en.svg|25x25px|link={{sec link image|wikt|Special:Search/{{{wikt|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Wiktionary]] {{!}}{{!}} {{sec link auto|wikt|Special:Search/{{{wikt|{{{1|{{PAGENAME}}}}}}}}|Definitions and translations}} ibat king Wiktionary<br />}}
+-->{{!}} [[File:Wiktionary-logo-en.svg|25x25px|link={{sec link image|wikt|Special:Search/{{{wikt|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Wiktionary]] {{!}}{{!}} {{sec link auto|wikt|Special:Search/{{{wikt|{{{1|{{PAGENAME}}}}}}}}|Kabaldugan ampong likas}} ibat king Wiktionary<br />}}
 |-
 {{#ifeq:{{{commons}}}|no||<!--
--->{{!}} [[File:Commons-logo.svg|25x25px|link={{sec link image|commons|Special:Search/{{{commons|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Commons]] {{!}}{{!}} {{sec link auto|commons|Special:Search/{{{commons|{{{1|{{PAGENAME}}}}}}}}|Images and media}} ibat king Commons<br />}}
+-->{{!}} [[File:Commons-logo.svg|25x25px|link={{sec link image|commons|Special:Search/{{{commons|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Commons]] {{!}}{{!}} {{sec link auto|commons|Special:Search/{{{commons|{{{1|{{PAGENAME}}}}}}}}|Larawan ampong media}} ibat king Commons<br />}}
 |-
 {{#ifeq:{{{v}}}|no||<!--
--->{{!}} [[File:Wikiversity-logo-Snorky.svg|25x25px|link={{sec link image|v|Special:Search/{{{v|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Wikiversity]] {{!}}{{!}} {{sec link auto|v|Special:Search/{{{v|{{{1|{{PAGENAME}}}}}}}}|Learning resources}} ibat king Wikiversity<br />}}
+-->{{!}} [[File:Wikiversity-logo-Snorky.svg|25x25px|link={{sec link image|v|Special:Search/{{{v|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Wikiversity]] {{!}}{{!}} {{sec link auto|v|Special:Search/{{{v|{{{1|{{PAGENAME}}}}}}}}|Saup king pamagaral}} ibat king Wikiversity<br />}}
 |-
 {{#ifeq:{{{n}}}|no||<!--
--->{{!}} [[File:Wikinews-logo.svg|25x25px|link={{sec link image|n|Special:Search/{{{n|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Wikinews]] {{!}}{{!}} {{sec link auto|n|Special:Search/{{{n|{{{1|{{PAGENAME}}}}}}}}|News stories}} ibat king Wikinews<br />}}
+-->{{!}} [[File:Wikinews-logo.svg|25x25px|link={{sec link image|n|Special:Search/{{{n|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Wikinews]] {{!}}{{!}} {{sec link auto|n|Special:Search/{{{n|{{{1|{{PAGENAME}}}}}}}}|Balita}} ibat king Wikinews<br />}}
 |-
 {{#ifeq:{{{q}}}|no||<!--
--->{{!}} [[File:Wikiquote-logo.svg|25x25px|link={{sec link image|q|Special:Search/{{{q|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Wikiquote]] {{!}}{{!}} {{sec link auto|q|Special:Search/{{{q|{{{1|{{PAGENAME}}}}}}}}|Quotations}} ibat king Wikiquote<br />}}
+-->{{!}} [[File:Wikiquote-logo.svg|25x25px|link={{sec link image|q|Special:Search/{{{q|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Wikiquote]] {{!}}{{!}} {{sec link auto|q|Special:Search/{{{q|{{{1|{{PAGENAME}}}}}}}}|Simmbitla (''quotations''}} ibat king Wikiquote<br />}}
 |-
 {{#ifeq:{{{s}}}|no||{{#ifeq:{{{author|no}}}|yes|<!--
--->{{!}} [[File:Wikisource-logo.svg|25x25px|link={{sec link image|s|Special:Search/Author:{{{s|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Wikisource]] {{!}}{{!}} {{sec link auto|s|Special:Search/Author:{{{s|{{{1|{{PAGENAME}}}}}}}}|Source texts}} ibat king Wikisource<br />|<!--
--->{{!}} [[File:Wikisource-logo.svg|25x25px|link={{sec link image|s|Special:Search/{{{s|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Wikisource]] {{!}}{{!}} {{sec link auto|s|Special:Search/{{{s|{{{1|{{PAGENAME}}}}}}}}|Source texts}} ibat king Wikisource<br />}}}}
+-->{{!}} [[File:Wikisource-logo.svg|25x25px|link={{sec link image|s|Special:Search/Author:{{{s|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Wikisource]] {{!}}{{!}} {{sec link auto|s|Special:Search/Author:{{{s|{{{1|{{PAGENAME}}}}}}}}|Kasulatan a makasalesayan}} ibat king Wikisource<br />|<!--
+-->{{!}} [[File:Wikisource-logo.svg|25x25px|link={{sec link image|s|Special:Search/{{{s|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Wikisource]] {{!}}{{!}} {{sec link auto|s|Special:Search/{{{s|{{{1|{{PAGENAME}}}}}}}}|Kasulatan a makasalesayan}} ibat king Wikisource<br />}}}}
 |-
 {{#ifeq:{{{b}}}|no||<!--
--->{{!}} [[File:Wikibooks-logo.svg|25x25px|link={{sec link image|b|Special:Search/{{{b|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Wikibooks]] {{!}}{{!}} {{sec link auto|b|Special:Search/{{{b|{{{1|{{PAGENAME}}}}}}}}|Textbooks}} ibat king Wikibooks<br />}}
+-->{{!}} [[File:Wikibooks-logo.svg|25x25px|link={{sec link image|b|Special:Search/{{{b|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Wikibooks]] {{!}}{{!}} {{sec link auto|b|Special:Search/{{{b|{{{1|{{PAGENAME}}}}}}}}|Libru}} ibat king Wikibooks<br />}}
 |-
 {{#ifeq:{{{species<includeonly>|no</includeonly>}}}|no||<!--
 -->{{!}} [[File:Wikispecies-logo.svg|25x25px|link={{sec link image|species|Special:Search/{{{species<noinclude>|{{{1|{{PAGENAME}}}}}</noinclude>}}}}}|alt=|Search Wikispecies]] {{!}}{{!}} {{sec link auto|species|Special:Search/{{{species<noinclude>|{{{1|{{PAGENAME}}}}}</noinclude>}}}|Species directories {{{species<noinclude>|</noinclude>}}}}} ibat king Wikispecies}}
