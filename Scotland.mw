@@ -1,8 +1,8 @@
-{{Infobox country |
-common_name                = Scotland
-image_flag                 = Flag of Scotland.svg
-flag_width                 = 127px
-image_coat                 = Royal Coat of Arms of the Kingdom of Scotland.svg
+{{Infobox country 
+|common_name                = Scotland
+|image_flag                 = Flag of Scotland.svg
+|flag_width                 = 127px
+|image_coat                 = Royal Coat of Arms of the Kingdom of Scotland.svg
 |symbol_width               = 118px
 |symbol_type                = Coat of Arms 
 |national_motto             = <small>''[[In My Defens God Me Defend]]'' ([[Scots language|Scots]])<br />(often shown abbreviated as '''''In Defens''''')</SMALL>
@@ -15,7 +15,7 @@ image_coat                 = Royal Coat of Arms of the Kingdom of Scotland.svg
 |latd=55| latm=57 |latNS=N |longd=3 |longm=12 |longEW=W
 |official_languages         = [[Scottish English|English]]
 |regional_languages         = [[Scottish Gaelic]], [[Scots language|Scots]]<sup>2</sup>
-|ethnic_groups              = 89% Scottish, 7% English, Irish, [[Welsh people|Welsh]], 4% other<ref>{{cite web|url=http://www.gro-scotland.gov.uk/statistics/library/mid-2005-population-estimates/ |archiveurl=http://web.archive.org/web/20080215164521/http://www.gro-scotland.gov.uk/statistics/library/mid-2005-population-estimates/ |archivedate= 15 February 2008 |title= Registrar-General's Mid-2005 Population Estimates for Scotland |publisher = Gro-Scotland | location = UK |date = 16 February 2010 | accessdate =30 April 2010}}</ref>
+|ethnic_groups              = 89% Scottish, 7% English, Irish, [[Welsh people|Welsh]], 4% other
 |ethnic_groups_year         =
 |demonym                    = [[Scottish people|Scottish or Scots]]<sup>3</sup>
 |government_type            = [[Scottish devolution|Devolved government]] within a [[constitutional monarchy]]<sup>4</sup>
@@ -86,10 +86,7 @@ image_coat                 = Royal Coat of Arms of the Kingdom of Scotland.svg
   | url = http://www.catholic.org/saints/saint.php?saint_id=419
   | accessdate =15 November 2011}}</ref>
 |footnote1                  = ''[[Flower of Scotland]]'', ''[[Scotland the Brave]]'' and ''[[Scots Wha Hae]]'' have been used in lieu of an official anthem.
-|footnote2                  = English is the official language of the United Kingdom.<ref>{{cite web|url=http://www.direct.gov.uk/en/Governmentcitizensandrights/LivingintheUK/DG_10012519 | title=Directgov: English language – Government, citizens and rights | work=[[Directgov]] | accessdate=23 August 2011}}</ref> Both Scots and Scottish Gaelic are officially recognised as [[autochthonous language]]s under the [[European Charter for Regional or Minority Languages]];<ref>{{cite web|url=http://www.scotland.gov.uk/Topics/ArtsCultureSport/gaelic/gaelic-english/17910/europeancharter | title=European Charter for Regional or Minority Languages | work=[[Scottish Government]] | accessdate=23 October 2011}}</ref> the [[Bòrd na Gàidhlig]] is tasked, under the [[Gaelic Language (Scotland) Act 2005]], with securing Gaelic as an [[official language]] of Scotland, commanding "equal respect" with English.<ref>Macleod, Angus [http://www.timesonline.co.uk/tol/news/uk/article384045.ece "Gaelic given official status"] (22 April 2005) ''[[The Times]]''. London. Retrieved 2 August 2007.</ref>
-|footnote3                  = Historically, the use of "[[Scotch (adjective)|Scotch]]" as an adjective comparable to "Scottish" or "Scots" was commonplace, particularly outwith Scotland. However, the modern use of the term describes only ''products'' of Scotland, usually food or drink related.
-|footnote4                  = Scotland's head of state is the monarch of the United Kingdom, currently Queen Elizabeth II (since 1952). Scotland has limited self-government within the United Kingdom as well as representation in the UK Parliament. It is also [[Scotland (European Parliament constituency)|a UK electoral region]] for the [[European Parliament]]. Certain executive and legislative powers have been devolved to, respectively, the Scottish Government and the Scottish Parliament at Holyrood in Edinburgh.
-|footnote5                  = Also [[.eu]], as part of the [[European Union]]. [[ISO 3166-1]] is [[Great Britain|GB]], but [[.gb]] is unused.
+|footnote2                  = English is the official language of the United Kingdom.<ref>
 }}
 
 ==Suglung Palual==
