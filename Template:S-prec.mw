@@ -1,0 +1,13 @@
+<includeonly>|-
+! colspan="3" style="border-top: 5px solid #ccffcc;" | {{#if:{{{1|}}}|{{#switch:{{{1}}}
+ |#default={{#if:{{{1}}}|Order of precedence}}
+ |ew=[[Order of precedence in England and Wales]]
+ |sc=[[Order of precedence in Scotland]]
+ |ni=[[Order of precedence in Northern Ireland]]
+ |uk=[[Orders of precedence in the United Kingdom]]
+ |usa=[[United States order of precedence]]
+ |us-pres=[[United States presidential line of succession]]
+}}|Order of precedence}}</includeonly><noinclude>
+{{Documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here. -->
+</noinclude>
