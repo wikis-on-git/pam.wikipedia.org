@@ -1,0 +1,28 @@
+{{sidebar
+| name = French literature (small)
+| headingstyle = background-color: #ddd; font-size: 110%;
+| contentstyle = font-size: 100%;
+| heading1 = [[French literature]]
+| content1 = [[:Category:French literature|By category]]
+| heading2 = French literary history
+| content2 = <div>
+[[Medieval French literature|Medieval]]<br />
+[[French Renaissance literature|16th century]]{{·}} [[17th-century French literature|17th century]]<br />
+[[18th-century French literature|18th century]]{{·}} [[19th-century French literature|19th century]]<br />
+[[20th-century French literature|20th century]]{{·}} [[Contemporary French literature|Contemporary]]
+</div>
+| heading3 =  French writers
+| content3 = <div>
+[[List of French-language authors|Chronological list]] <br/>
+[[:Category:French writers|Writers by category]] <br/>
+[[:Category:French novelists|Novelists]]{{·}}
+[[:Category:French dramatists and playwrights|Playwrights]] <br/>
+[[:Category:French poets|Poets]]{{·}}
+[[:Category:French essayists|Essayists]] <br/>
+[[:Category:French short story writers|Short story writers]]
+</div>
+| heading5 = Portals
+| content5 = [[Portal:France|France]]{{·}} [[Portal:Literature|Literature]]
+}}<noinclude>
+{{documentation}}
+</noinclude>
