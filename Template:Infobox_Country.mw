@@ -17,7 +17,7 @@
 -->}}<!--
 
 ================================================================
-                 Flag / Coat-of-arms (or other symbol)
+                 Bandera / Sagkal ning armas (o aliwang sagisag)
 ================================================================
 -->{{#if:{{{image_flag|}}}
    |<!--thenF:
@@ -107,7 +107,7 @@
 -->}}<!--
 
 ================================================================
-                              Anthem/s
+                              Imno
 ================================================================
 -->{{#if:{{{national_anthem|}}}{{{royal_anthem|}}}{{{anthem|}}} |<!--then:
      --><tr>
@@ -138,7 +138,7 @@
 -->}}<!--
 
 ================================================================
-                                Maps
+                                Mapa
 ================================================================
 -->{{#if:{{{image_map|}}} |<!--then:
      --><tr>
@@ -154,7 +154,7 @@
 -->}}<!--
 
 ================================================================
-       Capital/Admin center; Largest city/ies or settlement/s
+       Tungku/Sentru ning pamanibala; Pekamaragul a lakanbalen o balen
 ================================================================
 -->{{#if:{{{capital|}}}{{{admin_center|}}}{{{largest_city|}}}{{{largest_settlement|}}}
    |<!--then1:
@@ -251,7 +251,7 @@
 -->}}<!--(end1)
 
 ================================================================
-     Official or Recognised regional languages; Ethnic groups
+     Opisyal o Kikilalanan a amanung panglabwad; Lahi 
 ================================================================
 -->{{#if:{{{official_languages|}}} |<!--then:
      --><tr>
@@ -307,7 +307,7 @@
         </tr><!--
 -->}}<!--
 ================================================================
-     Organization type, Membership (geopolitical organization)
+     Uri ning aguman, Deng kayanib Membership (aguman a geopolitical)
 ================================================================
 -->{{#if:{{{org_type|}}} |<!--then:
      --><tr> <td colspan="2">'''Type'''</td>
@@ -389,7 +389,7 @@
 -->}}<!--
 
 ================================================================
-                           Legislature
+                           Kapulungan (Legislature)
 ================================================================
 -->{{#if:{{{legislature|}}} |<!--then:
      --><tr>
@@ -535,7 +535,7 @@
 -->}}<!--
 
 ================================================================
-     Area (area_label, area_km2, area_label2, area_data2,...)
+     Lapad (area_label, area_km2, area_label2, area_data2,...)
 ================================================================
 -->{{#if:{{{area_km2|}}} |<!--then:
      --><tr class="mergedtoprow">
