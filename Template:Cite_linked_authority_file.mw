@@ -1,0 +1,12 @@
+<includeonly>{{
+#if: {{{id|}}}
+ ||{{citation error|Missing parameter: You must specify the parameter {{para|id}} when using the [[Template:Cite linked authority file|linked authority file template]].}}
+}}{{{text|Date}}} information sourced from Library of Congress Authorities data, via corresponding [[WorldCat]]  Identities&nbsp;[http://errol.oclc.org/laf/{{urlencode:{{{id}}}}}.html linked authority file (LAF)]
+   {{
+     #if: {{{accessdate|}}}
+     |. Retrieved on [[{{{accessdate}}}]]
+   }}.</includeonly><noinclude>
+
+{{Documentation}} 
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
+</noinclude>
