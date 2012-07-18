@@ -1,3 +1,4 @@
+
 <table class="infobox geography vcard" style="float:right; width:300px; margin-left: 1em; margin-bottom: 1ex; background: #f9f9f9; border: 1px #aaaaaa solid; border-collapse: collapse; font-size: 95%;"><!--
 
 ================================================================
@@ -126,7 +127,7 @@
 -->}}<!--
 
 ================================================================
-                           Other symbol/s
+                           Aliwang sagisag
 ================================================================
 -->{{#if:{{{other_symbol|}}}{{{text_symbol|}}} |<!--then:
      --><tr>
