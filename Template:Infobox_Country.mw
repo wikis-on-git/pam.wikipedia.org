@@ -256,7 +256,7 @@
 ================================================================
 -->{{#if:{{{official_languages|}}} |<!--then:
      --><tr>
-          <th colspan="2" style="vertical-align:middle; white-space:nowrap;">Official language(s)</th>
+          <th colspan="2" style="vertical-align:middle; white-space:nowrap;">Kikilalanan a amanu</th>
           <td>{{{official_languages|}}}</td>
         </tr><!--
      -->{{#if:{{{national_languages|}}} |<!--then:
@@ -727,7 +727,7 @@
 ================================================================
 -->{{#if:{{{currency|}}} |<!--then:
      --><tr>
-          <th colspan="2" style="vertical-align:middle;">Currency</th>
+          <th colspan="2" style="vertical-align:middle;">Pera</th>
           <td>{{{currency}}} <!--
               -->{{#if:{{{currency_code|}}}
                  |<!--then:-->(<code>[[ISO 4217|{{{currency_code}}}]]</code>)}} </td>
