@@ -657,11 +657,11 @@
 -->{{#if:{{{GDP_PPP|}}} |<!--then:
      --><tr class="mergedtoprow">
           <td colspan="2">'''[[Gross domestic product|GDP]]'''&nbsp;([[Purchasing power parity|PPP]])</td>
-          <td>{{{GDP_PPP_year|}}}&nbsp;estimate</td>
+          <td>{{{GDP_PPP_year|}}}&nbsp;mga</td>
         </tr>
         <tr class="mergedrow">
           <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-          <td style="padding-left:0em;">Total</td>
+          <td style="padding-left:0em;">Kaganapan/Kabilugan</td>
           <td>{{{GDP_PPP}}}&nbsp;<!--
               -->{{#if:{{{GDP_PPP_rank|}}} |<!--then:-->([[List of countries by GDP (PPP)|{{{GDP_PPP_rank}}}]]) }}</td>
         </tr><!--
@@ -669,7 +669,7 @@
    -->{{#if:{{{GDP_PPP_per_capita|}}} |<!--then:
         --><tr class="mergedbottomrow">
              <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-             <td style="padding-left:0em;">Per capita</td>
+             <td style="padding-left:0em;">Balang katau</td>
              <td>{{{GDP_PPP_per_capita}}}&nbsp;<!--
                  -->{{#if:{{{GDP_PPP_per_capita_rank|}}} |<!--then:-->([[List of countries by GDP (PPP) per capita|{{{GDP_PPP_per_capita_rank}}}]]) }}</td>
            </tr><!--
