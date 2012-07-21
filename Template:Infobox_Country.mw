@@ -43,11 +43,11 @@
                       -->|<!--else:-->width:58%;<!--(58% as flags usually wider than coats-of-arms/symbols. Also accommodates IE.)--><!--
                       -->}}
 }} vertical-align:middle;"><!--
-             -->[[File:{{{image_flag}}}|125px|border|alt={{{alt_flag|}}}|Flag of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}}]]<!--end border:--><!--
+             -->[[File:{{{image_flag}}}|125px|border|alt={{{alt_flag|}}}|Bandera ning {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}}]]<!--end border:--><!--
             --></td>
                {{#if:{{{image_coat|}}}{{{image_symbol|}}}
                |<!--then:--><td align="center" style="width:auto; vertical-align:middle;"><!--
-                -->[[File:{{{image_coat|{{{image_symbol|}}}}}} |{{{symbol_width|85px}}} |alt={{{alt_coat|{{{alt_symbol|}}}}}}|{{{symbol_type|Coat of arms}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}}]]<!--
+                -->[[File:{{{image_coat|{{{image_symbol|}}}}}} |{{{symbol_width|85px}}} |alt={{{alt_coat|{{{alt_symbol|}}}}}}|{{{symbol_type|Sagkal armas}}} ning {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}}]]<!--
             --></td>
                }}
              </tr><!--
@@ -57,7 +57,7 @@
                  --><td align="center"><small>{{#ifexist:Flag of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |<!--then:-->[[Flag of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |{{{flag_caption|Flag}}}]]}}</small></td>
                }}
                {{#if:{{{image_coat|}}}{{{image_symbol|}}} |<!--then:
-                 --><td align="center"><small>{{#ifexist:{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |<!--then:-->[[{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |{{{symbol_type|Coat of arms}}}]]}}</small></td>
+                 --><td align="center"><small>{{#ifexist:{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |<!--then:-->[[{{{symbol_type_article|{{{symbol_type|Sagkal armas}}}}}} ning {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |{{{symbol_type|Sagkal armas}}}]]}}</small></td>
                }}
              </tr><!--
            ---------End subtable:---------
@@ -83,12 +83,12 @@
               --><tr>
                    <td align="center"
                        style="width:auto; vertical-align:middle;"><!--
-                       -->[[File:{{{image_coat|{{{image_symbol|}}}}}} |{{{symbol_width|100px}}} |alt={{{alt_coat|{{{alt_symbol|}}}}}}|{{{symbol_type|Coat of arms}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}}]]</td>
+                       -->[[File:{{{image_coat|{{{image_symbol|}}}}}} |{{{symbol_width|100px}}} |alt={{{alt_coat|{{{alt_symbol|}}}}}}|{{{symbol_type|Sagkal armas}}} ning {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}}]]</td>
                  </tr><!--
                  ----------Caption----------
               --><tr>
                    <td align="center"><!--
-                    --><small>{{#ifexist:{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |<!--then:--> [[{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |{{{symbol_type|Coat of arms}}}]]}}</small><!--
+                    --><small>{{#ifexist:{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |<!--then:--> [[{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |{{{symbol_type|Sagkal armas}}}]]}}</small><!--
                 --></td>
                  </tr><!--
                 ---------End subtable:----------
@@ -114,13 +114,13 @@
      --><tr>
           <td class="anthem" colspan="3" style="line-height:1.2em; text-align:center;"><!--
            -->{{#if:{{{national_anthem|}}}
-              |<!--then:-->'''Anthem:&nbsp;'''{{{national_anthem}}}<br/>
+              |<!--then:-->'''Pambangsang Dalit:&nbsp;'''{{{national_anthem}}}<br/>
               }}<!--
            -->{{#if:{{{anthem|}}}
-              |<!--then:-->'''Anthem:&nbsp;'''{{{anthem}}}<br/>
+              |<!--then:-->'''Pambangsang Dalit:&nbsp;'''{{{anthem}}}<br/>
               }}<!--
            -->{{#if:{{{royal_anthem|}}}
-              |<!--then:-->'''[[Royal anthem]]:&nbsp;'''{{{royal_anthem}}}
+              |<!--then:-->'''[[Dalit Pankaarian]]:&nbsp;'''{{{royal_anthem}}}
               }}<!--
        --></td>
         </tr><!--
@@ -149,7 +149,7 @@
 -->}}<!--
 -->{{#if:{{{image_map2|}}} |<!--then:
      --><tr class="mergedtoprow">
-          <td colspan="3" style="text-align:center; padding:0.6em 0em;"> [[File:{{{image_map2}}} |{{{map2_width|280px}}} |center |alt={{{alt_map2|{{{map_caption2|}}}}}}|{{{alt_map2|{{{map_caption2|Location of {{{common_name|{{{linking_name|{{PAGENAME}} }}} }}} }}} }}}]] <div style="position:relative; top:0.3em;"><small>{{{map_caption2|}}}</small></div>
+          <td colspan="3" style="text-align:center; padding:0.6em 0em;"> [[File:{{{image_map2}}} |{{{map2_width|280px}}} |center |alt={{{alt_map2|{{{map_caption2|}}}}}}|{{{alt_map2|{{{map_caption2|Karinan ning {{{common_name|{{{linking_name|{{PAGENAME}} }}} }}} }}} }}}]] <div style="position:relative; top:0.3em;"><small>{{{map_caption2|}}}</small></div>
           </td>
         </tr><!--
 -->}}<!--
@@ -168,7 +168,7 @@
                 |<!--then:-->'''{{{admin_center_type|Administrative&nbsp;center}}}'''<!--
              -->|<!--else:-->{{#if:{{{capital_type|}}}
                              |<!--then:-->'''{{{capital_type}}}'''<!--
-                          -->|<!--else:-->'''Capital'''<!--
+                          -->|<!--else:-->'''Tungku (Sentru/Sidduan)'''<!--
                           -->}}<!--
              -->}}<!--
        ---------------------------------------------------------
@@ -176,16 +176,16 @@
                  (if provided) equals "capital", capital or [[capital]];
        ---------------------------------------------------------
              -->{{#ifeq: {{#ifeq:{{{largest_city|}}}{{{largest_settlement|}}}
-                         |<!--equals3:-->capital
-                         |<!---then3:--->capital<!--
+                         |<!--equals3:-->tungku/sidduan
+                         |<!---then3:--->tungku/sidduan<!--
                       -->|<!---else3:
                           -->{{#switch:{{{capital}}}
-                             | [[{{{largest_city|}}}{{{largest_settlement|}}}]] = capital
-                             | {{{largest_city|}}}{{{largest_settlement|}}}     = capital
+                             | [[{{{largest_city|}}}{{{largest_settlement|}}}]] = tungku/sidduan
+                             | {{{largest_city|}}}{{{largest_settlement|}}}     = tungku/sidduan
                              | not capital
                              }}<!--(end#switch)
                       -->}}<!--(end3)-->
-                |<!--equals4:-->capital
+                |<!--equals4:-->tungku/sidduan
                 |<!---then4:
                  -----------------------------------------------
                   capital is largest_city or largest_settlement:
@@ -224,8 +224,8 @@
                      <th colspan="2"><!--
                       -->{{#if:{{{common_name|}}}
                          |<!--then:-->
-                              Largest {{{largest_settlement_type|city}}}
-                         |<!--else:-->Largest {{{largest_settlement_type|city}}}<!--
+                              Pekamaragul a  {{{largest_settlement_type|lakanbalen}}}
+                         |<!--else:-->Pekamaragul a  {{{largest_settlement_type|lakanbalen}}}<!--
                       -->}}<!--
                   --></th>
                      <td>{{{largest_city|}}}{{{largest_settlement|}}}</td><!--
@@ -241,8 +241,8 @@
                   --><th colspan="2"><!--
                       -->{{#if:{{{common_name|}}}
                            |<!--then:-->
-                              (and {{{largest_settlement_type|largest city}}})
-                           |<!--else:-->Largest {{{largest_settlement_type|city}}}<!--
+                              (and {{{largest_settlement_type|pekamaragula lakanbalen}}})
+                           |<!--else:-->Pekamaragul a {{{largest_settlement_type|lakanbalen}}}<!--
                       -->}}<!--
                   --></th>
                      <td>{{{largest_city|}}}{{{largest_settlement|}}}</td>
@@ -261,13 +261,13 @@
         </tr><!--
      -->{{#if:{{{national_languages|}}} |<!--then:
           --><tr>
-               <td colspan="2">Recognised national&nbsp;languages</td>
+               <td colspan="2">Kikilalanan a pambangsang&nbsp;amanu</td>
                <td style="vertical-align:middle;">{{{national_languages|}}}</td>
              </tr><!--
      -->}}<!--
      -->{{#if:{{{regional_languages|}}} |<!--then:
           --><tr class="mergedbottomrow">
-               <td colspan="2">Recognised regional&nbsp;languages</td>
+               <td colspan="2">Kikilalanan a panglabuad&nbsp;amanu</td>
                <td style="vertical-align:middle;">{{{regional_languages|}}}</td>
              </tr><!--
      -->}}<!--
@@ -288,7 +288,7 @@
 
 -->{{#if:{{{ethnic_groups|}}} |<!--then:
      --><tr>
-          <td colspan="2">'''Ethnic groups'''&nbsp;<!--
+          <td colspan="2">'''Katutubung lupung'''&nbsp;<!--
            -->{{#if:{{{ethnic_groups_year|}}} |<!--then:-->({{{ethnic_groups_year}}}) }}</td>
           <td>{{{ethnic_groups}}}</td>
         </tr><!--
@@ -311,7 +311,7 @@
      Uri ning aguman, Deng kayanib Membership (aguman a geopolitical)
 ================================================================
 -->{{#if:{{{org_type|}}} |<!--then:
-     --><tr> <td colspan="2">'''Type'''</td>
+     --><tr> <td colspan="2">'''Uri'''</td>
              <td>{{{org_type}}}</td>
         </tr><!--
 -->}}<!--
@@ -328,10 +328,10 @@
 -->{{#if:{{{government_type|}}} |<!--then:
      --><tr>
           <th colspan="2">{{#if:{{{politics_link|}}}|<!--then:
-              -->[[{{{politics_link}}}|Government]]|<!--else:
+              -->[[{{{politics_link}}}|Gubiernu]]|<!--else:
               -->{{#ifexist:Politics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|<!--then:
-                  -->[[Politics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Government]]|<!--else:
-                  -->Government}}}}</th>
+                  -->[[Politicu ning {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Gubiernu]]|<!--else:
+                  -->Gubiernu}}}}</th>
           <td>{{{government_type|}}}</td>
         </tr><!--
 -->|<!--nung alang no government_type a mibye, nung ating metung o maygit a pekapun a mibye,
@@ -394,21 +394,21 @@
 ================================================================
 -->{{#if:{{{legislature|}}} |<!--then:
      --><tr>
-          <th colspan="2">Legislature</th>
+          <th colspan="2">Talasulat Batas</th>
           <td>{{{legislature|}}}</td>
       </tr><!--
 -->}}<!--
 -->{{#if:{{{upper_house|}}} |<!--then:
      --> <tr class="mergedrow">
           <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-          <td style="padding-left:0em;">[[Upper House]]</td>
+          <td style="padding-left:0em;">[[Makatas a Bale/Upper House]]</td>
           <td>{{{upper_house}}}</td>
         </tr><!--
 -->}}<!--
 -->{{#if:{{{lower_house|}}} |<!--then:
      --><tr class="mergedbottomrow">
           <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-          <td style="padding-left:0em;">[[Lower House]]</td>
+          <td style="padding-left:0em;">[[Lalam Bale/Lower House]]</td>
           <td>{{{lower_house}}}</td>
         </tr><!--
 -->}}<!--
@@ -541,14 +541,14 @@
 -->{{#if:{{{area_km2|}}} |<!--then:
      --><tr class="mergedtoprow">
           <th colspan="3">{{#if:{{{area_link|}}}|<!--then:
-              -->[[{{{area_link}}}|Area]]|<!--else:
+              -->[[{{{area_link}}}|Lualas]]|<!--else:
               -->{{#ifexist:Geography of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|<!--then:
-                  -->[[Geography of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Area]]|<!--else:
-                  -->Area}}}}</th>
+                  -->[[Geographia ning {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Lualas]]|<!--else:
+                  -->Lualas}}}}</th>
         </tr>
         <tr class="mergedrow">
           <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-          <td style="padding-left:0em;">{{{area_label|Total}}}<!--
+          <td style="padding-left:0em;">{{{area_label|Kaganapan/Kabilugan}}}<!--
 --France-related footnote:-->{{#if:{{{FR_foot4|}}} |<!--then:-->{{{FR_foot4}}} }}</td>
           <td>{{formatnum:{{{area_km2|}}}}}&nbsp;km<sup>2</sup>&nbsp;<!--
               -->{{#if:{{{area_footnote|}}}|{{{area_footnote|}}} }}{{#if:{{{area_rank|}}} |<!--then:-->([[List of countries and outlying territories by total area|{{{area_rank}}}]]) }}<!--
@@ -559,7 +559,7 @@
 -->{{#if:{{{percent_water|}}} |<!--then:
      --><tr class="mergedrow">
           <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-          <td style="padding-left:0em;">Water&nbsp;(%)</td>
+          <td style="padding-left:0em;">Danuman&nbsp;(%)</td>
           <td>{{{percent_water|}}}</td>
         </tr><!--
 -->}}<!--
@@ -597,16 +597,16 @@
 -->{{#if:{{{population_estimate|}}}{{{population_census|}}}{{{FR_metropole_population|}}} |<!--then:
      --><tr class="mergedtoprow">
           <th colspan="3">{{#if:{{{population_link|}}}|<!--then:
-              -->[[{{{population_link}}}|Population]]|<!--else:
+              -->[[{{{population_link}}}|Populasiun]]|<!--else:
               -->{{#ifexist:Demographics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|<!--then:
-                  -->[[Demographics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Population]]|<!--else:
-                  -->Population}}}}</th>
+                  -->[[Demographicu ning {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Populasiun]]|<!--else:
+                  -->Populasiun}}}}</th>
         </tr><!--
      ---------------Estimate---------------
      -->{{#if:{{{population_estimate|}}} |<!--then:
         --><tr class="mergedrow">
              <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-             <td style="padding-left:0em;">{{{population_estimate_year|}}}&nbsp;estimate</td>
+             <td style="padding-left:0em;">{{{population_estimate_year|}}}&nbsp;mga</td>
              <td>{{{population_estimate|}}}&nbsp;<!--
               -->{{#if:{{{population_estimate_rank|}}} |<!--then:-->([[List of countries by population|{{{population_estimate_rank}}}]]) }}</td>
            </tr><!--
@@ -642,7 +642,7 @@
 -->{{#if:{{{population_density_km2|}}} |<!--then:
      --><tr class="mergedbottomrow">
           <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-          <td style="padding-left:0em;">Density<!--
+          <td style="padding-left:0em;">Pangasiksik<!--
 --France-related footnote:-->{{#if:{{{FR_foot5|}}} |<!--then:-->{{{FR_foot5}}} }}</td>
           <td>{{{population_density_km2|}}}/km<sup>2</sup>&nbsp;<!--
               -->{{#if:{{{pop_den_footnote|}}}|{{{pop_den_footnote|}}}}}{{#if:{{{population_density_rank|}}} |<!--then:-->([[List of countries by population density|{{{population_density_rank}}}]]) }}<!--
