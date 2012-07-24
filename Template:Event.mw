@@ -17,4 +17,9 @@
 |test=}}<!--end adr -->{{#if:{{{uncertain|}}}|</span>}}</span>{{#if:{{{note|}}}|&#32;("</span><span class="note">{{{note|}}}</span><span {{#if:{{{1|{{{shownote|}}}}}}|style="display:none"}}>")&#32;}}{{#if:{{{pre-coord|}}}||{{#if:{{{lon|}}}{{{lat|}}}|<span {{#if:{{{hide-coord|}}}|style="display:none"}}>{{coord|{{{lat|}}}|{{{lon|}}}|display=inline|scale:1000|name={{{start|{{{date|}}}}}}: {{#if:{{{showname|{{{name|}}}}}}|{{{showname|{{{name|}}}}}}|{{SUBPAGENAME}} }} }}&#32;</span>}}}}</span><span style="display:none" >&#32;(linkback:<span class="uid url">{{{url|{{fullurl:{{{article|{{FULLPAGENAME}}}}}{{{section|}}}}}}}}</span>)</span></span></span></span></includeonly><noinclude><br/>
 {{template doc}}<!--locality rationale- all jammed into one line because the only working app (operator) recognizes localities for google map scripts that way.  If city / town is specified, place those at the end. Placename/parm1 may be redundantly specified by locality1.   -->
 
-[[zh:模板:Event]]</noinclude>
+[[arz:قالب:Event]]
+[[en:Template:Event]]
+[[fa:الگو:Event]]
+[[ne:ढाँचा:Event]]
+[[new:Template:Event]]
+[[zh:Template:Event]]</noinclude>
