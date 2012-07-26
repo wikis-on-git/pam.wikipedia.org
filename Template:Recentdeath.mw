@@ -2,5 +2,5 @@
 | name  = Recent death
 | type  = notice
 | image = [[File:Ambox current red.svg|40px]]
-| text  = Ining artikulu '''tungkul ya king [[Deaths in {{CURRENTYEAR}}|{{{article|}}} {{{type|taung}}} bayu-bayu pamung mete]]'''. Ating impormasyun, alimbawa tungkul king  {{{type|kayang}}}'s pangamate ampong makaugneng kapalyaryan, a maylaring manaliwa potang miragdagan ing belwan tamu.
+| text  = Ining artikulu '''tungkul ya king [[Deaths in {{CURRENTYEAR}}|{{{article|}}} {{{type|taung}}} bayu-bayu pamung mete]]'''. Ating impormasyun, alimbawa tungkul king  {{{type|kayang}}} pangamate ampong makaugneng kapalyaryan, a malyaring manaliwa potang miragdagan ing belwan tamu.
 }}<includeonly>{{#if:{{NAMESPACE}}|<!-- don't categorize -->|[[Category:Recent deaths{{#if:{{{1|}}}|{{!}}{{{1}}}}}]]}}</includeonly><!--{{Recent death}} end--><noinclude>{{Documentation}}</noinclude>
