@@ -1,0 +1,6 @@
+<!--{{Recent death}} begin-->{{#ifeq:{{NAMESPACE}}|{{<includeonly>subst:</includeonly>NAMESPACE}}|<includeonly>[[Category:Pages with incorrectly substituted templates|{{PAGENAME}}]]</includeonly>|}}{{Ambox
+| name  = Recent death
+| type  = notice
+| image = [[File:Ambox current red.svg|40px]]
+| text  = Ining artikulu '''tungkul ya king [[Deaths in {{CURRENTYEAR}}|{{{article|a}}} {{{type|taung}}} bayu-bayu pamung mete]]'''. Ating impormasyun, alimbawa tungkul king kayang {{{type|person}}}'s pangamate ampong makaugneng kapalyaryan, a maylaring manaliwa potang miragdagan ing belwan tamu.
+}}<includeonly>{{#if:{{NAMESPACE}}|<!-- don't categorize -->|[[Category:Recent deaths{{#if:{{{1|}}}|{{!}}{{{1}}}}}]]}}</includeonly><!--{{Recent death}} end--><noinclude>{{Documentation}}</noinclude>
