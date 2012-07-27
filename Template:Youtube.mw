@@ -1,0 +1,13 @@
+[https://www.youtube.com/{{#if:{{{user|{{{u|{{{channel|}}}}}}}}}
+ |user/{{{user|{{{u|{{{channel|}}}}}}}}} {{{title|{{#if:{{{1|}}}|{{{1}}}|{{PAGENAME}}}}}}}'s channel]
+ |{{#if:{{{s|{{{show|}}}}}}
+  |show/{{{s|{{{show|}}}}}} {{{title|{{#if:{{{1|}}}|{{{1}}}|''{{PAGENAME}}''}}}}}] show
+  |{{#if:{{{sid|{{{showid|}}}}}}
+   |show?p={{{sid|{{{showid|}}}}}} {{{title|{{#if:{{{1|}}}|{{{1}}}|''{{PAGENAME}}''}}}}}] show
+   |watch?v={{{id|{{{1|}}}}}} {{{title|{{#if:{{{2|}}}|{{{2}}}|Video}}}}}]
+  }}
+ }}
+}} on {{#ifeq:{{{link}}}|no
+ |YouTube
+ |[[YouTube]]
+}}<noinclude>{{documentation}}</noinclude>
