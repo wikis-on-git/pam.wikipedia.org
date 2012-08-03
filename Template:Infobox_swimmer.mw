@@ -1,0 +1,34 @@
+<includeonly>{{Infobox sportsperson
+|headercolor = #b0c4de
+|name        = {{{name|}}}
+|image       = {{{image|}}}
+|image_size  = {{{image_size|{{{imagesize|}}}}}}
+|caption     = {{{caption|}}}
+|fullname    = {{{fullname|}}}
+|nickname    = {{{nickname|{{{nicknames|}}}}}}
+|nationality = {{{nationality|}}}
+|birth_name  = {{{birth_name|}}}
+|birth_date  = {{{birth_date|}}}
+|birth_place = {{{birth_place|}}}
+|death_date  = {{{death_date|}}}
+|death_place = {{{death_place|}}}
+|height      = {{{height|}}}
+|weight = {{{weight|}}}
+|sport = Pamangawe
+|module2     = {{#if:{{{strokes|}}}{{{club|}}}{{{collegeteam|}}}|{{Infobox|child = yes
+| label1      = [[Swimming stroke|Stroke(s)]]
+| data1       = {{{strokes|}}}
+| label2      = Club
+| class2      = org
+| data2       = {{{club|}}}
+| label3      = College team
+| data3       = {{{collegeteam|}}}
+| label4      = Coach
+| data4       = {{{coach|}}}
+}}}}
+| medaltemplates = {{{medaltemplates|}}}
+| show-medals    = {{{show-medals|no}}}
+| updated        = {{{updated|}}}
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
