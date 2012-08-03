@@ -1,9 +1,9 @@
-{{Hatnote|1=For other people {{#if:{{{2|}}}
+{{Hatnote|1=Para kareng aliwang taung {{#if:{{{2|}}}
  |{{#if:{{{1|}}}
   |{{{named|named}}} {{{1}}}
-  |with the same name
+  |parehu lagyu
  }}
- |{{{named|named}}} {{{1|{{PAGENAME}}}}}
+ |{{{named|maki lagyung}}} {{{1|{{PAGENAME}}}}}
 }}, see [[:{{{2|{{{1|{{PAGENAME}}}}} (disambiguation)}}}]].}}<noinclude>
 {{documentation}}
 <!-- Add categories and interwikis to the /doc subpage, not here! -->
