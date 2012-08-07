@@ -1,4 +1,4 @@
-{| class="infobox vcard" style="width: 22em; font-size: 90%; text-align: right"
+{| class="infobox vcard" style="width: 22em; font-size: 90%; text-align: left"
 | colspan=2 class="fn" style="text-align: center; font-size: 125%; font-weight: bold"|{{#if:{{{honorific-prefix|}}}|<span class="honorific-prefix" style="font-size: small">{{{honorific-prefix}}}</span>&nbsp;}}<span class="fn">{{{name|{{PAGENAME}}}}}</span>{{#if:{{{honorific-suffix|}}}|&nbsp;<span class="honorific-suffix" style="font-size: small">{{{honorific-suffix}}}</span>}}
 |-
 {{#if:{{{image|}}}|
