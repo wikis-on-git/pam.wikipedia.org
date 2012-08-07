@@ -1,0 +1,51 @@
+{{documentation subpage}}
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+
+This template returns the number of full years and surplus days between two specified dates. If the second set of parameters is not included, it will return the number of full years and surplus days between a specified date and today's date. The two numbers are separated by a comma; the words "year" and "day" are plural when appropriate. The {{tl|number table sorting}} template is included in the year value, so that values produced by this template will work properly in sortable lists. See [[Wikipedia:Age calculation templates]] for more information on using this kind of template.
+
+===Syntax===
+:<code><nowiki>{{Age in years and days|yyyy|mm|dd}}</nowiki></code> or
+:<code><nowiki>{{Age in years and days|yyyy|mm|dd|yyyy2|mm2|dd2}}</nowiki></code> 
+
+===Examples===
+:<code><nowiki>{{Age in years and days|1989|07|23}}</nowiki></code> returns "{{Age in years and days|1989|07|23}}"
+:<code><nowiki>{{Age in years and days|1989|07|23|2003|07|24}}</nowiki></code> returns "{{Age in years and days|1989|07|23|2003|07|24}}"
+
+===Notes===
+This template does not check for incorrect input:
+:<code><nowiki>{{Age in years and days|1980|07|14|1993|06|233}}</nowiki></code> returns "{{Age in years and days|1980|07|14|1993|06|233}}" (surplus days do not count as extra months)
+:<code><nowiki>{{Age in years and days|1980|07|14|1993|88|14}}</nowiki></code> returns "{{Age in years and days|1980|07|14|1993|88|14}}" (surplus months do not count as extra years)
+
+Also note that due to leap years, the measure "years and days" fails to be fully additive. The following example is not an error, but each calculation uses a different definition of "year", either 365 days or 366:
+:<code><nowiki>{{Age in years and days|2007|02|27|2008|03|02}}</nowiki></code> returns "{{Age in years and days|2007|02|27|2008|03|02}}"
+but split up:
+:<code><nowiki>{{Age in years and days|2007|02|27|2007|03|02}}</nowiki></code> returns "{{Age in years and days|2007|02|27|2007|03|02}}"
+:<code><nowiki>{{Age in years and days|2007|03|02|2008|03|02}}</nowiki></code> returns "{{Age in years and days|2007|03|02|2008|03|02}}"
+
+===See also===
+*{{tl|Age}} &mdash; Age in years
+*{{tl|Age in days}} &mdash; Age in days
+*{{tl|Age in years and days textual version}} &mdash; for usage in text (using the word "and" instead of the comma)
+*{{tl|Birth date and age}}
+*[[Wikipedia:Age calculation templates]]
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Date mathematics templates]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[de:Vorlage:Alter in Jahren und Tagen]]
+[[dsb:Pśedłoga:Starstwo w lětach a dnjach]]
+[[en:emplate:Age in years and days/doc]]
+[[eo:Ŝablono:Aĝo en jaroj kaj tagoj]]
+[[fr:Modèle:Age en années et jours]]
+[[hsb:Předłoha:Staroba w lětach a dnjach]]
+[[ja:Template:Age in years and days]]
+[[nl:Sjabloon:Leeftijd in jaren en dagen]]
+[[no:Mal:Tid i år og dager]]
+[[pt:Predefinição:Idade em anos e dias]]
+[[sv:Mall:Ålder i år och dagar]]
+[[th:แม่แบบ:อายุปีและวัน]]
+[[vi:Tiêu bản:Số năm theo năm và ngày]]
+[[zh:Template:Age in years and days]]
+</includeonly>
