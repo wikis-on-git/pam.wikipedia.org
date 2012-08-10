@@ -18,6 +18,7 @@
 {{template doc}}<!--locality rationale- all jammed into one line because the only working app (operator) recognizes localities for google map scripts that way.  If city / town is specified, place those at the end. Placename/parm1 may be redundantly specified by locality1.   -->
 
 [[arz:قالب:Event]]
+[[as:সাঁচ:Event]]
 [[en:Template:Event]]
 [[fa:الگو:Event]]
 [[ne:ढाँचा:Event]]
