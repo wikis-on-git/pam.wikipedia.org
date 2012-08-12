@@ -11,7 +11,7 @@ Ing '''BMP''' o '''BMP file format''', a ausan da mu namang '''bitmap''' o '''DI
 
 Dakal la reng  [[graphical user interface]] a gagamit bitmap kareng karelang built-in graphics subsystems;<ref>{{cite book | title = Cross-Platform GUI Programming with Wxwidgets | author = Julian Smart, Stefan Csomor, and Kevin Hock | url = http://books.google.com/books?id=CyMsvtgnq0QC&pg=PA265&dq=bitmap+pixmap+gui&as_brr=3&ei=4SjwRrTpHYSipgL63NS3BA&sig=4_ev_R-Xs8tXCVONCaiJEnFLtI0 | publisher = Prentice Hall | year = 2006 | isbn = 0131473816 }}</ref> alimbawa, king [[Graphics Device Interface|GDI]] subsystem da reng platform a Microsoft Windows ampong OS/2, nung nu ing partikular a format a magagamit ya pin ing ''Windows and OS/2 bitmap file format'', a keraklan dirinan dang lagiu ning [[file extension]] ning <code>.BMP</code> o <code>.DIB</code>. 
 
-==Pamagsimpan kareng pixel (Pixel storage)==
+== Pamagsimpan kareng pixel (Pixel storage) ==
 
 Kareng simpan a BMP a e makasiksik (uncompressed BMP files), at dakal pang aliwang file format a [[bitmap]], misisimpan la reng [[pixel]] da reng larawan (image pixels) a maki [[color depth]] a 1, 4, 8, 16, 24, o 32 bit balang pixel (bits per pixel). Den namang larawan a 8 bits o mas ditak, maliari la king [[grayscale]] o [[indexed color]]. Maliari yang isimpan ing metung a [[alpha channel]] (para king [[transparency (graphic)|transparency]]) king aliwang simpan o file, nung nu ne kawangis ning larawan a grayscale, o king kapat a channel a manalili kareng larawan a 24-bit king 32 bits per pixel.
 
@@ -60,11 +60,10 @@ Dakal la pa reng aliwang bitmap file format a magagamit da, oneng e ro gagamitan
 * [http://wvnvaxa.wvnet.edu/vmswww/bmp.html Example BMP images with various internal formats]
 * [http://dotwhat.net/bmp/43/ Bitmap image info]
 * [http://www.file-extensions.org/search/?searchstring=bitmap Bitmap entries at File-extensons.org]
+{{Compression Formats}}
 
 [[Category:Graphics file formats]]
 [[Category:Microsoft Windows multimedia technology]]
-
-{{Compression Formats}}
 
 [[ar:بي إم بي (صيغة ملفات)]]
 [[az:BMP]]
@@ -94,7 +93,7 @@ Dakal la pa reng aliwang bitmap file format a magagamit da, oneng e ro gagamitan
 [[ru:BMP]]
 [[sk:BMP (formát)]]
 [[sv:BMP]]
-[[tr:Bmp]]
+[[tr:BMP]]
 [[uk:BMP]]
 [[vi:BMP]]
 [[yo:BMP file format]]
