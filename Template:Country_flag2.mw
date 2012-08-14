@@ -3,5 +3,5 @@
 }}|{{
   #if: {{{size|}}} | {{{size}}} | 22x20px
 }}|Flag of {{{alias}}}]]&nbsp;[[{{{alias}}}|{{
-  #if: {{{name|}}} | {{{name}}} | {{{countryname|Earth}}} 
+  #if: {{{name|}}} | {{{name}}} | {{{countryname|{{{alias}}}}}} 
 }}]]<noinclude>{{/doc}}</noinclude>
