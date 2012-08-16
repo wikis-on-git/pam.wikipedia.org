@@ -1,0 +1,29 @@
+{{ #switch: {{{1}}}
+| 1896 Summer = US flag 44 stars.svg
+| 1900 Summer
+| 1904 Summer
+| 1906 Summer
+| 1908 Summer = US flag 45 stars.svg
+| 1912 Summer = US flag 46 stars.svg
+| 1920 Summer
+| 1924 Winter
+| 1924 Summer
+| 1928 Winter
+| 1928 Summer
+| 1932 Winter
+| 1932 Summer
+| 1936 Winter
+| 1936 Summer
+| 1948 Winter
+| 1948 Summer
+| 1952 Winter
+| 1952 Summer
+| 1956 Winter
+| 1956 Summer = US flag 48 stars.svg
+| 1960 Winter = US flag 49 stars.svg
+| #default = Flag of the United States.svg
+}}<noinclude>
+[[Category:Country flag IOC alias templates|USA]]
+[[ru:Шаблон:СтранаОИ флаг USA]]
+[[ko:틀:올림픽국기 USA]]
+</noinclude>
