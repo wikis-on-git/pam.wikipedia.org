@@ -1,0 +1,36 @@
+{{ #switch: {{{1}}}
+| 1952 Summer = Flag of the Soviet Union 1923.svg
+| 1956 Summer 
+| 1956 Winter
+| 1960 Summer 
+| 1960 Winter
+| 1964 Summer 
+| 1964 Winter
+| 1968 Summer 
+| 1968 Winter
+| 1972 Summer
+| 1972 Winter
+| 1976 Summer
+| 1976 Winter
+| 1980 Summer 
+| 1980 Winter = Flag of the Soviet Union 1955.svg
+| #default = Flag of the Soviet Union.svg
+}}<noinclude>
+[[Category:Country flag IOC alias templates|URS]]
+
+<!--[[en:Template:Country flag IOC alias URS]]-->
+[[Image:Flag of the Soviet Union.svg|thumb]]
+[[bn:টেমপ্লেট:Country flag IOC alias URS]]
+[[be:Шаблон:КраінаАГ сцяг URS]]
+[[es:Plantilla:Bandera código del COI URS]]
+[[fr:Modèle:DrapeauCIO-URS]]
+[[ko:틀:올림픽국기 URS]]
+[[id:Templat:Country flag IOC alias URS]]
+[[ka:თარგი:Country flag IOC alias URS]]
+[[hu:Sablon:Nemzeti zászló URS NOB-kóddal]]
+[[mn:Загвар:Country flag IOC alias URS]]
+[[ru:Шаблон:СтранаОИ флаг URS]]
+[[sr:Шаблон:Country flag IOC alias URS]]
+[[uk:Шаблон:КраїнаОІ прапор URS]]
+[[vi:Bản mẫu:Country flag IOC alias URS]]
+</noinclude>
