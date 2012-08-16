@@ -1,0 +1,19 @@
+{{ #switch: {{{1}}}
+| 1896 Summer
+| 1900 Summer
+| 1904 Summer
+| 1906 Summer
+| 1908 Summer
+| 1912 Summer = Flag of the German Empire.svg
+| 1928 Summer
+| 1928 Winter 
+| 1932 Summer  
+| 1932 Winter = Flag of Germany (3-2 aspect ratio).svg
+| 1936 Summer 
+| 1936 Winter = Flag of German Reich (1935–1945).svg
+| #default = Flag of Germany.svg
+}}<noinclude>
+[[Category:Country flag IOC alias templates|GER]]
+[[ru:Шаблон:СтранаОИ флаг GER]]
+[[ko:틀:올림픽국기 GER]]
+</noinclude>
