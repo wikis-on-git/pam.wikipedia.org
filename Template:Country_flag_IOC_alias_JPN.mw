@@ -1,0 +1,17 @@
+{{ #switch: {{{1}}}
+| 1912 Summer
+| 1920 Summer
+| 1924 Summer
+| 1928 Summer
+| 1928 Winter
+| 1932 Summer
+| 1932 Winter
+| 1936 Summer
+| 1936 Winter = Merchant flag of Japan (1870).svg
+| #default = Flag of Japan.svg
+}}<noinclude>
+[[Category:Country flag IOC alias templates|JPN]]
+[[ru:Шаблон:СтранаОИ флаг JPN]]
+[[ja:Template:Country flag IOC alias JPN]]
+[[ko:틀:올림픽국기 JPN]] 
+</noinclude>
