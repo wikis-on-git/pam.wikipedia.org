@@ -1,0 +1,21 @@
+{{ #switch: {{{1}}}
+| 1968 Winter
+| 1968 Summer = Flag of German Olympic Team 1960-1968.svg
+| #default = Flag of East Germany.svg
+}}<noinclude>
+[[Category:Country flag IOC alias templates|GDR]]
+
+<!--[[en:Template:Country flag IOC alias GDR]]-->
+[[bn:টেমপ্লেট:Country flag IOC alias GDR]]
+[[be:Шаблон:КраінаАГ сцяг GDR]]
+[[da:Skabelon:Landeflag IOC alias GDR]]
+[[es:Plantilla:Bandera código del COI GDR]]
+[[fr:Modèle:DrapeauCIO-GDR]]
+[[ko:틀:올림픽국기 GDR]]
+[[id:Templat:Country flag IOC alias GDR]]
+[[hu:Sablon:Nemzeti zászló GDR NOB-kóddal]]
+[[ru:Шаблон:СтранаОИ флаг GDR]]
+[[sr:Шаблон:Country flag IOC alias GDR]]
+[[uk:Шаблон:КраїнаОІ прапор GDR]]
+[[vi:Bản mẫu:Country flag IOC alias GDR]]
+</noinclude>
