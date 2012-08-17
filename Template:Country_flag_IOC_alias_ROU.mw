@@ -1,0 +1,65 @@
+{{ #switch: {{{1}}}
+| 1948 Winter = Flag of Romania (January-March 1948).svg
+| 1952 Winter
+| 1952 Summer = Flag of Romania (1948-1952).svg
+| 1956 Winter
+| 1956 Summer
+| 1960 Summer
+| 1964 Winter
+| 1964 Summer = Flag of Romania (1952-1965).svg
+| 1968 Winter
+| 1968 Summer
+| 1972 Winter
+| 1972 Summer
+| 1976 Winter
+| 1976 Summer
+| 1980 Winter
+| 1980 Summer
+| 1984 Winter
+| 1984 Summer
+| 1988 Winter
+| 1988 Summer = Flag of Romania (1965-1989).svg
+| #default = Flag of Romania.svg
+}}<noinclude>
+[[Image:{{ #switch: {{{1}}}
+| 1948 Winter = Flag of Romania (January-March 1948).svg
+| 1952 Winter
+| 1952 Summer = Flag of Romania (1948-1952).svg
+| 1956 Winter
+| 1956 Summer
+| 1960 Summer
+| 1964 Winter
+| 1964 Summer = Flag of Romania (1952-1965).svg
+| 1968 Winter
+| 1968 Summer
+| 1972 Winter
+| 1972 Summer
+| 1976 Winter
+| 1976 Summer
+| 1980 Winter
+| 1980 Summer
+| 1984 Winter
+| 1984 Summer
+| 1988 Winter
+| 1988 Summer = Flag of Romania (1965-1989).svg
+| #default = Flag of Romania.svg
+}}|thumb]]
+{{Redirect3|Template:Country flag IOC alias ROM|Code changed from ROM to ROU in January 2007}}
+[[Category:Country flag IOC alias templates|ROU]]
+[[bn:টেমপ্লেট:Country flag IOC alias ROU]]
+[[cy:Nodyn:Alias baner gwlad PORh ROU]]
+[[da:Skabelon:Landeflag IOC alias ROU]]
+[[es:Plantilla:Bandera código del COI ROU]]
+[[fr:Modèle:DrapeauCIO-ROU]]
+[[ko:틀:올림픽국기 ROU]]
+[[id:Templat:Country flag IOC alias ROU]]
+[[ka:თარგი:Country flag IOC alias ROU]]
+[[hu:Sablon:Nemzeti zászló ROU NOB-kóddal]]
+[[mn:Загвар:Country flag IOC alias ROU]]
+[[no:Mal:FlagIOCathlete/flagg/ROU]]
+[[pa:ਨਮੂਨਾ:Country flag IOC alias ROU]]
+[[ru:Шаблон:СтранаОИ флаг ROU]]
+[[sr:Шаблон:Country flag IOC alias ROU]]
+[[uk:Шаблон:КраїнаОІ прапор ROU]]
+[[vi:Bản mẫu:Country flag IOC alias ROU]]
+</noinclude>
