@@ -1,0 +1,8 @@
+{{ #switch: {{{1}}}
+| 1980 Summer = Olympic flag.svg
+| #default = Flag of the United Kingdom.svg
+}}<noinclude>
+[[Category:Country flag IOC alias templates|GBR]]
+[[ru:Шаблон:СтранаОИ флаг GBR]]
+[[ko:틀:올림픽국기 GBR]] 
+</noinclude>
