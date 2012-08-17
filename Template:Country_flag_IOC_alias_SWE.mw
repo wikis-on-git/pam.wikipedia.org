@@ -1,0 +1,9 @@
+{{ #switch: {{{1}}}
+| 1896 Summer
+| 1900 Summer = Swedish norwegian union flag.svg
+| #default = Flag of Sweden.svg
+}}<noinclude>
+[[Category:Country flag IOC alias templates|SWE]]
+[[ru:Шаблон:СтранаОИ флаг SWE]]
+[[ko:틀:올림픽국기 SWE]]
+</noinclude>
