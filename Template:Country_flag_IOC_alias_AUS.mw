@@ -1,0 +1,10 @@
+{{ #switch: {{{1}}}
+| 1896 Summer
+| 1900 Summer = Flag of the United Kingdom.svg
+| 1904 Summer = Flag of Australia 1903-1909.svg
+| 1980 Summer = Olympic flag.svg
+| #default = Flag of Australia.svg
+}}<noinclude>
+[[Category:Country flag IOC alias templates|AUS]]
+[[ko:틀:올림픽국기 AUS]]
+</noinclude>
