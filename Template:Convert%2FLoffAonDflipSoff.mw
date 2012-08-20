@@ -1,0 +1,7 @@
+{{convert/{{#if:{{{2|}}}|{{{o}}}|{{{3}}}}}|{{{1}}}|{{{1}}}*{{{b}}}|{{#if:{{{2|}}}|{{{3|}}}|{{{4|}}}}}|{{{s|}}}|r={{{r}}}|j={{{j}}}|d=LoffAonSoff}}<!--endconvert/{3}--
+--> (<!--separator--
+-->{{convert/numdisp|{{{1|2+3/5}}}}}&nbsp;{{{u}}})<noinclude>
+
+[[Category:2009 Convert unit subtemplates]]
+[[Category:Subtemplates of Template Convert]]
+</noinclude>
