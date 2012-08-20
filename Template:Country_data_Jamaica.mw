@@ -1,0 +1,18 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Jamaica
+| flag alias = Flag of Jamaica.svg
+| flag alias-1906 = Flag of Jamaica (1906-1957).svg
+| flag alias-1957 = Flag of Jamaica (1957-1962).svg
+| flag alias-naval = Naval Ensign of Jamaica.svg
+| link alias-naval = Jamaica Defence Force
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1906
+| var2 = 1957
+| redir1 = JAM
+</noinclude>
+}}
