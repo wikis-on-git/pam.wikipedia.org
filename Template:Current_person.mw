@@ -2,7 +2,7 @@
 | name  = Current person
 | type  = notice
 | image = [[Image:Gnome globe current event.svg|42px]]
-| text  = '''Ining {{{1|artikulu}}} tungkul ya king {{{2|taung}}} miugne king bageng [[Portal:current events|kasalungsungan a malilyari]].''' Mapalyaring malagwang manaliwa ing impormasiun kabang milalabas ya ing kapalyaryan. {{#if:{{{date|}}}|<small>''({{{date}}})''</small>}}
+| text  = '''Ining {{{1|articulo}}} tungkul ya king {{{2|taung}}} miugne king bageng [[Portal:current events|kasalungsungan a malilyari]].''' Mapalyaring malagwang manaliwa ing impormasiun kabang milalabas ya ing kapalyaryan. {{#if:{{{date|}}}|<small>''({{{date}}})''</small>}}
 }}{{DMCA|Current events|from|{{{date|}}}}}<!--{{Current person}} end--><noinclude>
 
 {{Documentation}}
