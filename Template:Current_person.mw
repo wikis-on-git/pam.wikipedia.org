@@ -1,0 +1,10 @@
+<!--{{Current person}} begin-->{{#ifeq:{{NAMESPACE}}|{{<includeonly>subst:</includeonly>NAMESPACE}}|<includeonly>[[Category:Pages with incorrectly substituted templates|{{PAGENAME}}]]</includeonly>|}}{{Ambox
+| name  = Current person
+| type  = notice
+| image = [[Image:Gnome globe current event.svg|42px]]
+| text  = '''Ining {{{1|artikulu}}} tungkul ya king {{{2|taung}}} miugne king bageng [[Portal:current events|kasalungsungan a malilyari]].''' Mapalyaring malagwang manaliwa ing impormasiun kabang milalabas ya ing kapalyaryan. {{#if:{{{date|}}}|<small>''({{{date}}})''</small>}}
+}}{{DMCA|Current events|from|{{{date|}}}}}<!--{{Current person}} end--><noinclude>
+
+{{Documentation}}
+
+</noinclude>
