@@ -14,7 +14,7 @@
 {{!}}-
 }}
 {{#if:{{{speaker|}}}|
-{{#if:{{{nominee|}}}{{{candidate|}}}||
+{{#if:{{{nominee|}}}{{{kandidatu|}}}||
 {{Infobox officeholder/Office|2|
 | 1blankname2 = {{{1blankname2|}}}
 | 1namedata2 = {{{1namedata2|}}}
@@ -62,7 +62,7 @@
 | preceding2 = {{{preceding2|}}}
 | preceded2 = {{{preceded2|}}}
 | premier2 = {{{premier2|}}}
-| president2 = {{{president2|}}}
+| president2 = {{{pamuntuk2|}}}
 | primeminister2 = {{{primeminister2|}}}
 | riding2 = {{{riding2|}}}
 | speaker = {{{speaker|}}}
@@ -73,9 +73,9 @@
 | state_legislature = {{{state_legislature|}}}
 | state_senate = {{{state_senate|}}}
 | state = {{{state|}}}
-| succeeded2 = {{{succeeded2|}}}
-| succeeding2 = {{{succeeding2|}}}
-| successor2 = {{{successor2|}}}
+| succeeded2 = {{{minalili2|}}}
+| succeeding2 = {{{elilan2|}}}
+| successor2 = {{{kayalili2|}}}
 | taoiseach2 = {{{taoiseach2|}}}
 | term{{#if:{{{termend2|}}}||_}}end2 = {{{term{{#if:{{{termend2|}}}||_}}end2|}}}
 | term{{#if:{{{termstart2|}}}||_}}start2 = {{{term{{#if:{{{termstart2|}}}||_}}start2|}}}
