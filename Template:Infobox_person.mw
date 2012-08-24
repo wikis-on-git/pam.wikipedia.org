@@ -186,7 +186,7 @@
 | header58   = {{#if:{{{signature|}}}|Signature}}
 | data59     = {{#if:{{{signature|}}}|[[File:{{{signature}}}|{{px|{{{signature size|{{{signature_size|}}}}}}|frameless}}|alt={{{signature alt|{{{signature_alt|}}}}}}]]}}
 
-| header60   = {{#if:{{{website|{{{homepage|{{{URL|}}}}}}}}}|Website}}
+| header60   = {{#if:{{{website|{{{homepage|{{{URL|}}}}}}}}}|Karinan-Aptas(Website)}}
 | data61     = {{{website|{{{homepage|{{{URL|}}}}}}}}}
 
 | below      = {{#if:{{{footnotes|}}}|'''Notes'''<div style="line-height:1.2em;">{{{footnotes}}}</div>}}
