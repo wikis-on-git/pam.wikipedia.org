@@ -1,0 +1,6 @@
+{{#if:{{{author|}}}{{{date|}}}{{{accessdate|}}}
+|{{cite web|url=http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid={{{1|{{{grid}}}}}} |title={{{2|{{{name|{{PAGENAME}}}}}}}} |publisher= [[Find a Grave]] |work={{{work|}}} |author={{{author|}}} |date={{{date|}}} |accessdate={{{accessdate|}}}}}
+|[http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid={{{1|{{{grid}}}}}} {{{2|{{{name|{{PAGENAME}}}}}}}}]{{#if:{{{work|}}}|, {{{work}}}}} at ''[[Find a Grave]]''
+}}<noinclude>
+{{Documentation}}
+</noinclude>
