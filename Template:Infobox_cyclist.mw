@@ -1,0 +1,42 @@
+{{Infobox
+|bodyclass    = vcard
+|title        = {{{name|{{{ridername|}}}}}}  |titleclass   = fn
+|image        = {{#if:{{Hide if placeholder image|{{{image|}}}}}| [[File:{{{image}}}|{{px|{{{image_size|}}}|frameless}}|alt={{{alt| }}}|{{{caption|}}}]] }}
+|caption      = {{{caption|}}}
+|headerstyle  = background:#ADDFAD;
+
+|header1  = {{#if:{{{fullname|}}}{{{nickname|}}}{{{birth_date|}}}{{{birth_place|}}}{{{death_date|}}}{{{death_place|}}}{{{height|}}}{{{weight|}}}|Personal information}}
+|label2   = Kumpletung lagyu                  |data2    = {{{fullname|}}}
+|label3   = Palayo                   |data3    = {{{nickname|}}}     |class3  = nickname
+|label4   = Mibait                       |data4    = {{br separated entries|{{{birth_date|}}}|{{{birth_place|}}} }} 
+|label5   = Mete                       |data5    = {{br separated entries|{{{death_date|}}}|{{{death_place|}}} }} 
+|label9   = Kátas                     |data9    = {{{height|}}}
+|label10  = Timbang                     |data10   = {{{weight|}}}
+
+|header11 = Impormasyon king koponan 
+|label12  = Kasalungsungan a&nbsp;koponan          |data12   = {{{currentteam|}}}  |class12 = note
+|label13  = Discipline                 |data13   = {{{discipline|}}}
+|label14  = Role                       |data14   = {{{role|}}}         |class14 = role
+|label15  = Rider&nbsp;type            |data15   = {{{ridertype|}}}
+
+|header16 = {{#if:{{{amateurteams|}}}|Amateur a koponan}}
+|label17  = {{#if:{{{amateuryears|}}}|{{nowrap|{{{amateuryears|}}} }} }} |data17   = {{#if:{{{amateurteams|}}}| {{nowrap|{{{amateurteams|}}} }} }}
+
+|header18 = {{#if:{{{proteams|}}}|Propesyonal a koponan}}
+|label19  = {{#if:{{{proyears|}}}|{{nowrap|{{{proyears|}}} }} }}     |data19   = {{#if:{{{proteams|}}}|{{nowrap|{{{proteams|}}} }} }}
+
+|header20 = {{#if:{{{manageteams|}}}|Managerial team(s)}}
+|label21  = {{{manageyears|}}}  |data21   = {{{manageteams|}}}
+
+|header22 = {{#if:{{{majorwins|}}}|Mangaragul a pamanyambut}}
+|data23   = {{#if:{{{majorwins|}}}|<table><tr class=""><td colspan="2" class="" style="text-align:left; ">{{{majorwins|}}}</td></tr></table>}}
+
+|header24 = {{Infobox medal templates
+  | title = Medal record<!-- default is "Medal record" -->
+  | medals = {{{medaltemplates|}}}
+  | expand = {{{show-medals|}}}
+ }}
+
+|belowstyle  = color:darkslategray; font-size:82%
+|below = {{#if:{{{updated|}}}|Infobox last updated on<br />{{{updated|}}}}}
+}}<noinclude>{{Documentation}}</noinclude>
