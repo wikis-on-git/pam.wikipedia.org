@@ -1,0 +1,6 @@
+<includeonly>{{Sister
+|project = Wikisource
+|text = Atyu king [[Wikisource]] ing tekstu ning {{#if:{{{2|}}}|a|the}} {{{year|1921}}} [[Collier's Encyclopedia]] article {{#if:{{{2|}}}|about}} '''''[[s:Collier's New Encyclopedia ({{{year|1921}}})/{{{1|{{PAGENAME}}}}}|{{{2|{{{1|{{PAGENAME}}}}}}}}]]'''''.
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
