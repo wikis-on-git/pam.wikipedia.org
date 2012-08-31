@@ -1,6 +1,6 @@
 <includeonly>{{Sister
 |project = Wikisource
-|text = Atyu king [[Wikisource]] ing tekstu ning {{#if:{{{2|}}}||}} {{{year|1921}}} [[Collier's Encyclopedia]] artikulu {{#if:{{{2|}}}|tungkul king}} '''''[[s:Collier's New Encyclopedia ({{{year|1921}}})/{{{1|{{PAGENAME}}}}}|{{{2|{{{1|{{PAGENAME}}}}}}}}]]'''''.
+|text = Atyu king [[Wikisource]] ing tekstu ning {{#if:{{{2|}}}||}} {{{year|1921}}} [[Collier's Encyclopedia]] artikulu {{#if:{{{2|}}}|tungkul kang/king}} '''''[[s:Collier's New Encyclopedia ({{{year|1921}}})/{{{1|{{PAGENAME}}}}}|{{{2|{{{1|{{PAGENAME}}}}}}}}]]'''''.
 }}</includeonly><noinclude>
 {{documentation}}
 </noinclude>
