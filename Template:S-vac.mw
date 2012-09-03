@@ -1,0 +1,21 @@
+<includeonly>|width="30%" align="center" rowspan="{{{rows|1}}}"|{{#if:{{{1|}}}|{{#switch:{{{1}}}
+ |#default={{#if:{{{1}}}|'''Vacant'''}}
+ |ab='''Makapanaya'''
+ |re='''Melalang pasibayu'''
+ |su='''Suspendidu'''
+ |di='''Metanggi'''
+ |co='''In commission'''
+ |do='''E aktibu'''
+ |unkn='''E re balu'''
+ |abeyance='''Makapanaya'''
+ |recreated='''Melalang pasibayu'''
+ |suspended='''Suspendidu''
+ |forfeit='''Forfeit'''
+ |disclaimed='''Metanggi'''
+ |commission='''In commission'''
+ |dormant='''E aktibu'''
+ |unknown='''E re balu'''
+}}|'''Vacant'''}}{{#if:{{{reason|}}}|<div style="font-size:90%">{{{reason}}}</div>}}{{#if:{{{last|}}}|<div style="font-size:90%">Title last held by</div>'''{{{last}}}'''}}{{#if:{{{next|}}}|<div style="font-size:90%">Title next held by</div>'''{{{next}}}'''}}{{#if:{{{unknlast|}}}|<div style="font-size:90%">Last known title holder:</div>'''{{{unknlast}}}'''}}{{#if:{{{unknnext|}}}|<div style="font-size:90%">Next known title holder:</div>'''{{{unknnext}}}'''}}{{#if:{{{as|}}}|<br><small>'''''as {{{as}}}'''''</small>}}</includeonly><noinclude>
+{{Documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here. -->
+</noinclude>
