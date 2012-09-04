@@ -176,7 +176,7 @@
 }} 
 
 {{#if:{{{website<includeonly>|</includeonly>}}}|
-{{!}} colspan="2" style="text-align:center;" {{!}} [{{{website}}} Opisyala karinan-aptas]
+{{!}} colspan="2" style="text-align:center;" {{!}} [{{{website}}} Opisyal a karinan-aptas]
 {{!}}-
 }}
 
