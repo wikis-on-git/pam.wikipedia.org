@@ -145,7 +145,7 @@
 }}
 
 {{#if:{{{influences<includeonly>|</includeonly>}}}|
-{{!}} colspan="2" {{!}} {{Collapsible list|title=Ayasag|frame_style=border:none; padding: 0;|title_style=background:transparent; text-align:left;|list_style=text-align:left;display:none;|1={{#if:{{{influences<includeonly>|</includeonly>}}}|:::{{{influences}}}}}}}
+{{!}} colspan="2" {{!}} {{Collapsible list|title=Ayasag|frame_style=border:none; padding: 0;|title_style=background:transparent; text-align:left;|list_style=text-align:left;display:none;|1={{#if:{{{influences<includeonly>|</includeonly>}}}|:::{{{ayasag}}}}}}}
 {{!}}-
 }}
 
