@@ -9,7 +9,7 @@
 
 <!-- {{#if:{{{pseudonym<includeonly>|</includeonly>}}}|
 ! [[Pseudonym]]
-{{!}} class="palayo" {{!}} {{{pseudonym<includeonly>|</includeonly>}}}
+{{!}} class="nickname" {{!}} {{{pseudonym<includeonly>|</includeonly>}}}
 {{!}}-
 }} -->
 
@@ -110,7 +110,7 @@
 }}
 
 {{#if:{{{awards<includeonly>|</includeonly>}}}|
-! Galal{{nowrap|award(s)}}
+! Kapansinpansin {{nowrap|award(s)}}
 {{!}} {{{awards<includeonly>|</includeonly>}}}
 {{!}}-
 }}
@@ -145,7 +145,7 @@
 }}
 
 {{#if:{{{influences<includeonly>|</includeonly>}}}|
-{{!}} colspan="2" {{!}} {{Collapsible list|title=Ayasag|frame_style=border:none; padding: 0;|title_style=background:transparent; text-align:left;|list_style=text-align:left;display:none;|1={{#if:{{{influences<includeonly>|</includeonly>}}}|:::{{{ayasag}}}}}}}
+{{!}} colspan="2" {{!}} {{Collapsible list|title=Influences|frame_style=border:none; padding: 0;|title_style=background:transparent; text-align:left;|list_style=text-align:left;display:none;|1={{#if:{{{influences<includeonly>|</includeonly>}}}|:::{{{influences}}}}}}}
 {{!}}-
 }}
 
@@ -155,7 +155,7 @@
 }}
 
 {{#if:{{{influenced<includeonly>|</includeonly>}}}|
-{{!}} colspan="2" {{!}} {{Collapsible list|title=Mekayasag|frame_style=border:none; padding: 0;|title_style=background:transparent; text-align:left;|list_style=text-align:left;display:none;|1={{#if:{{{influenced<includeonly>|</includeonly>}}}|:::{{{influenced}}}}}}}
+{{!}} colspan="2" {{!}} {{Collapsible list|title=Influenced|frame_style=border:none; padding: 0;|title_style=background:transparent; text-align:left;|list_style=text-align:left;display:none;|1={{#if:{{{influenced<includeonly>|</includeonly>}}}|:::{{{influenced}}}}}}}
 {{!}}-
 }}
 
@@ -176,7 +176,7 @@
 }} 
 
 {{#if:{{{website<includeonly>|</includeonly>}}}|
-{{!}} colspan="2" style="text-align:center;" {{!}} [{{{website}}} Opisyal a karinan-aptas]
+{{!}} colspan="2" style="text-align:center;" {{!}} [{{{website}}} Official website]
 {{!}}-
 }}
 
