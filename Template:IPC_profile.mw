@@ -1,0 +1,12 @@
+[http://www.paralympic.org/ipc_results/search.php?sport=all&games={{{games_id|all}}}&medal={{{medal|all}}}&npc={{{npc|all}}}&gender={{{gender|all}}}&name={{urlencode:{{{surname|}}}}}&fname={{urlencode:{{{givenname|}}}}} {{{linktext|{{{givenname|}}} {{{surname|}}}'s profile}}}] {{#ifeq:{{{quiet}}}|1||on paralympic.org}}<noinclude>
+
+;Params
+* surname
+* givenname
+* games_id, npc, medal, gender: optional filters
+* linktext – text to include in the link
+* quiet=1 – dont append "on paralympic.org"
+
+[[Category:Paralympics task force|{{PAGENAME}}]]
+[[Category:Sports external link templates]]
+</noinclude>
