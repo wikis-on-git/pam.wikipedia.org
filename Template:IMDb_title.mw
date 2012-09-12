@@ -1,0 +1,5 @@
+[http://www.imdb.com/{{#if:{{{1|{{{id|}}}}}}|title/tt{{{1|{{{id|}}}}}}|Title?{{urlencode:{{PAGENAME}}}}}}/{{#switch:{{lc:{{{section|}}} }}
+|award|awards=awards Galal para king
+}}  ''{{{2|{{{title|{{PAGENAME}}}}}}}}'' {{{3|{{{description|}}}}}}] king [[Internet Movie Database]]<noinclude>
+{{documentation}}
+</noinclude>
