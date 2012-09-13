@@ -1,0 +1,2 @@
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|IPA-no-colon=IPA&nbsp;|lang=Greek:&nbsp;|pron=pronounced&nbsp;|=|anc=Ancient Greek:&nbsp;|koine=Koine Greek:&nbsp;|med=Medieval Greek:&nbsp;|mod=Modern Greek:&nbsp;|a=|k=|ml=|md=Modern:&nbsp;|Greek pronunciation:&nbsp;}}</small>{{IPA|[[Wikipedia:IPA for {{#switch: {{{2}}}|anc=Ancient Greek|koine=Koine Greek|med=Medieval Greek|mod=Modern Greek|a=Ancient Greek|k=Koine Greek|ml=Medieval Greek|md=Modern Greek|Greek}}|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
+{{documentation}}
