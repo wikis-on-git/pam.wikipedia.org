@@ -1,0 +1,20 @@
+<noinclude>{| style="background: transparent; float: left; border: none;"
+|+ '''Usage'''
+|<nowiki></nowiki>
+<pre>{{
+| decade = first year of decade eg. 1700 for 1700s
+}}
+</pre>
+|}</noinclude>
+{| class="toccolours" align="center"
+!The [[:Category:{{{decade|}}}s|{{{decade|}}}s]]:
+||[[:Category:{{#expr: {{{decade|}}} - 10 }}s|&larr;{{#expr: {{{decade|}}} - 10 }}s]] | [[:Category:{{#expr: {{{decade|}}} }}|{{#expr:  {{{decade|}}} }}]]&ndash;[[:Category:{{#expr: {{{decade|}}} + 1 }}|{{#expr: {{{decade|}}} + 1 }}]]&ndash;[[:Category:{{#expr: {{{decade|}}} + 2 }}|{{#expr: {{{decade|}}} + 2 }}]]&ndash;[[:Category:{{#expr: {{{decade|}}} + 3 }}|{{#expr: {{{decade|}}} + 3 }}]]&ndash;[[:Category:{{#expr: {{{decade|}}} + 4 }}|{{#expr: {{{decade|}}} +4 }}]]&ndash;[[:Category:{{#expr: {{{decade|}}} + 5}}|{{#expr: {{{decade|}}} + 5}}]]&ndash;[[:Category:{{#expr: {{{decade|}}} + 6 }}|{{#expr: {{{decade|}}} + 6 }}]]&ndash;[[:Category:{{#expr: {{{decade|}}} + 7}}|{{#expr: {{{decade|}}} + 7}}]]&ndash;[[:Category:{{#expr: {{{decade|}}} + 8}}|{{#expr: {{{decade|}}} + 8}}]]&ndash;[[:Category:{{#expr: {{{decade|}}} + 9}}|{{#expr: {{{decade|}}} + 9}}]] | [[:Category:{{#expr: {{{decade|}}} + 10}}s|{{#expr: {{{decade|}}} + 10}}s &rarr;]]
+|}<noinclude>
+[[Category:Time, date and calendar templates|{{PAGENAME}}]]
+
+[[en:Template:Decade category header]]
+[[or:ଟେମ୍ପଲେଟ:Decade category header]]
+[[pt:Predefinição:Cabeçalho das décadas]]
+[[ta:வார்ப்புரு:Decade category header]]
+[[ur:سانچہ:Decade category header]]
+</noinclude>
