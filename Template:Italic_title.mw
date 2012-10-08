@@ -1,0 +1,19 @@
+{{DISPLAYTITLE:{{#switch: {{#ifexpr: {{str find|{{PAGENAME}}|(}} != -1
+  | 1
+  | 0
+  }}{{#if: {{{force|}}} 
+  | 1
+  | 0
+  }}{{str ≤ len | {{PAGENAME}} | 49 <!-- The max {{str find}} can handle is 50 --> | 1 | 0 }}| 100 = {{#if:{{NAMESPACE}}|{{NAMESPACE}}: }}{{#switch:{{PAGENAME}}
+  | {{{1}}} ({{{2|}}}) = ''{{{1}}}'' ({{{2|}}})
+  | {{{1}}} ({{{3|}}}) = ''{{{1}}}'' ({{{3|}}})
+  | {{{1}}} ({{{4|}}}) = ''{{{1}}}'' ({{{4|}}})
+  | {{{1}}} ({{{5|}}}) = ''{{{1}}}'' ({{{5|}}})
+  | {{{1}}} ({{{6|}}}) = ''{{{1}}}'' ({{{6|}}})
+  | #default = {{PAGENAME}}
+  }}| 101 = {{#if:{{NAMESPACE}}|{{NAMESPACE}}:}}''{{str left| {{PAGENAME}} | {{#expr:{{str find|{{PAGENAME}}|(}}-2}} }}'' {{substr any| {{PAGENAME}} | {{#expr: {{str find|{{PAGENAME}}|(}} - 1}} | {{#expr: {{str len|{{PAGENAME}}}} - {{str find|{{PAGENAME}}|(}} }} + 1 }}
+| 010
+| 011
+| 110
+| 111
+| 001 = {{#if:{{NAMESPACE}}|{{NAMESPACE}}: }}''{{PAGENAME}}'' | 000 = {{FULLPAGENAME}} }} }}<noinclude>{{documentation}}<!-- Add categories and interwikis to the /doc subpage, not here! --></noinclude>
