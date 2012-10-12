@@ -1,2 +1,2 @@
-<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Portuguese:&nbsp;|pron=pronounced:&nbsp;|eu=European Portuguese:&nbsp;|br=Brazilian Portuguese:&nbsp;|local=locally:&nbsp;|=|Portuguese pronunciation:&nbsp;}}</small>{{IPA|[[Wikipedia:IPA for Portuguese and Galician|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Portuguese:&nbsp;|pron=pronounced:&nbsp;|eu=European Portuguese:&nbsp;|br=Brazilian Portuguese:&nbsp;|local=locally:&nbsp;|=|Pangayagkas a Portugues:&nbsp;}}</small>{{IPA|[[Wikipedia:IPA for Portuguese and Galician|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
 <noinclude>{{documentation}}</noinclude>
