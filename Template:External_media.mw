@@ -1,0 +1,324 @@
+{| class="infobox" style="width: {{#if:{{{width|}}}|{{{width}}}|22em}}; padding-top:5px; {{#ifeq:{{{align|}}}|left|float: left; margin-right: 15px; margin-left: 0}}"
+! colspan=2 style="text-align: center; font-size: 125%" | {{#if:{{{image1|}}}|{{#if:{{{audio1|}}}{{{video1|}}}|[[File:Nuvola apps kview.svg|30px|alt=|link=]] External media|[[File:Nuvola apps kview.svg|30px|alt=|link=]] External images}}|{{#if:{{{audio1|}}}|[[Image:Nuvola apps arts.svg|30px|alt=|link=]] External audio|{{#if:{{{video1|}}}|[[Image:Nuvola apps kaboodle.svg|30px|alt=|link=]] External videos |[[File:Nuvola apps kview.svg|30px|alt=|link=]] External media }} }} }}
+|-
+{{#if:{{{topic|}}} | 
+! colspan=2 {{!}} ''{{{topic}}}''
+{{!}}-
+}}
+{{#if:{{{image1|}}}|{{#if:{{{audio1|}}}{{{video1|}}}|
+! colspan=2 {{!}} Images
+{{!}}-
+}} }}
+|-
+{{#if:{{{image1|}}}|
+{{!}} [[Image:Searchtool.svg|16px|alt=|link=]]
+{{!}} {{{image1}}}
+{{!}}-
+}}
+{{#if:{{{image2|}}}|
+{{!}} [[Image:Searchtool.svg|16px|alt=|link=]]
+{{!}} {{{image2}}}
+{{!}}-
+}}
+{{#if:{{{image3|}}}|
+{{!}} [[Image:Searchtool.svg|16px|alt=|link=]]
+{{!}} {{{image3}}}
+{{!}}-
+}}
+{{#if:{{{image4|}}}|
+{{!}} [[Image:Searchtool.svg|16px|alt=|link=]]
+{{!}} {{{image4}}}
+{{!}}-
+}}
+{{#if:{{{image5|}}}|
+{{!}} [[Image:Searchtool.svg|16px|alt=|link=]]
+{{!}} {{{image5}}}
+{{!}}-
+}}
+{{#if:{{{image6|}}}|
+{{!}} [[Image:Searchtool.svg|16px|alt=|link=]]
+{{!}} {{{image6}}}
+{{!}}-
+}}
+{{#if:{{{image7|}}}|
+{{!}} [[Image:Searchtool.svg|16px|alt=|link=]]
+{{!}} {{{image7}}}
+{{!}}-
+}}
+{{#if:{{{image8|}}}|
+{{!}} [[Image:Searchtool.svg|16px|alt=|link=]]
+{{!}} {{{image8}}}
+{{!}}-
+}}
+{{#if:{{{image9|}}}|
+{{!}} [[Image:Searchtool.svg|16px|alt=|link=]]
+{{!}} {{{image9}}}
+{{!}}-
+}}
+{{#if:{{{image10|}}}|
+{{!}} [[Image:Searchtool.svg|16px|alt=|link=]]
+{{!}} {{{image10}}}
+{{!}}-
+}}
+{{#if:{{{image11|}}}|
+{{!}} [[Image:Searchtool.svg|16px|alt=|link=]]
+{{!}} {{{image11}}}
+{{!}}-
+}}
+{{#if:{{{image12|}}}|
+{{!}} [[Image:Searchtool.svg|16px|alt=|link=]]
+{{!}} {{{image12}}}
+{{!}}-
+}}
+{{#if:{{{image13|}}}|
+{{!}} [[Image:Searchtool.svg|16px|alt=|link=]]
+{{!}} {{{image13}}}
+{{!}}-
+}}
+{{#if:{{{image14|}}}|
+{{!}} [[Image:Searchtool.svg|16px|alt=|link=]]
+{{!}} {{{image14}}}
+{{!}}-
+}}
+{{#if:{{{image15|}}}|
+{{!}} [[Image:Searchtool.svg|16px|alt=|link=]]
+{{!}} {{{image15}}}
+{{!}}-
+}}
+{{#if:{{{image16|}}}|
+{{!}} [[Image:Searchtool.svg|16px|alt=|link=]]
+{{!}} {{{image16}}}
+{{!}}-
+}}
+{{#if:{{{image17|}}}|
+{{!}} [[Image:Searchtool.svg|16px|alt=|link=]]
+{{!}} {{{image17}}}
+{{!}}-
+}}
+{{#if:{{{image18|}}}|
+{{!}} [[Image:Searchtool.svg|16px|alt=|link=]]
+{{!}} {{{image18}}}
+{{!}}-
+}}
+{{#if:{{{image19|}}}|
+{{!}} [[Image:Searchtool.svg|16px|alt=|link=]]
+{{!}} {{{image19}}}
+{{!}}-
+}}
+{{#if:{{{image20|}}}|
+{{!}} [[Image:Searchtool.svg|16px|alt=|link=]]
+{{!}} {{{image20}}}
+{{!}}-
+}}
+{{#if:{{{images|}}}|
+{{!}} colspan="2" {{!}} {{{images|}}}
+}}
+{{#if:{{{audio1|}}}|{{#if:{{{image1|}}}{{{video1|}}}|
+! colspan=2 {{!}} Audio
+{{!}}-
+}} }}
+|- valign="top"
+{{#if:{{{audio1|}}}|
+{{!}} [[Image:Nuvola apps arts.svg|16px|alt=|link=]]
+{{!}} {{{audio1}}}
+{{!}}-
+}}
+{{#if:{{{audio2|}}}|
+{{!}} [[Image:Nuvola apps arts.svg|16px|alt=|link=]]
+{{!}} {{{audio2}}}
+{{!}}-
+}}
+{{#if:{{{audio3|}}}|
+{{!}} [[Image:Nuvola apps arts.svg|16px|alt=|link=]]
+{{!}} {{{audio3}}}
+{{!}}-
+}}
+{{#if:{{{audio4|}}}|
+{{!}} [[Image:Nuvola apps arts.svg|16px|alt=|link=]]
+{{!}} {{{audio4}}}
+{{!}}-
+}}
+{{#if:{{{audio5|}}}|
+{{!}} [[Image:Nuvola apps arts.svg|16px|alt=|link=]]
+{{!}} {{{audio5}}}
+{{!}}-
+}}
+{{#if:{{{audio6|}}}|
+{{!}} [[Image:Nuvola apps arts.svg|16px|alt=|link=]]
+{{!}} {{{audio6}}}
+{{!}}-
+}}
+{{#if:{{{audio7|}}}|
+{{!}} [[Image:Nuvola apps arts.svg|16px|alt=|link=]]
+{{!}} {{{audio7}}}
+{{!}}-
+}}
+{{#if:{{{audio8|}}}|
+{{!}} [[Image:Nuvola apps arts.svg|16px|alt=|link=]]
+{{!}} {{{audio8}}}
+{{!}}-
+}}
+{{#if:{{{audio9|}}}|
+{{!}} [[Image:Nuvola apps arts.svg|16px|alt=|link=]]
+{{!}} {{{audio9}}}
+{{!}}-
+}}
+{{#if:{{{audio10|}}}|
+{{!}} [[Image:Nuvola apps arts.svg|16px|alt=|link=]]
+{{!}} {{{audio10}}}
+{{!}}-
+}}
+{{#if:{{{audio11|}}}|
+{{!}} [[Image:Nuvola apps arts.svg|16px|alt=|link=]]
+{{!}} {{{audio11}}}
+{{!}}-
+}}
+{{#if:{{{audio12|}}}|
+{{!}} [[Image:Nuvola apps arts.svg|16px|alt=|link=]]
+{{!}} {{{audio12}}}
+{{!}}-
+}}
+{{#if:{{{audio13|}}}|
+{{!}} [[Image:Nuvola apps arts.svg|16px|alt=|link=]]
+{{!}} {{{audio13}}}
+{{!}}-
+}}
+{{#if:{{{audio14|}}}|
+{{!}} [[Image:Nuvola apps arts.svg|16px|alt=|link=]]
+{{!}} {{{audio14}}}
+{{!}}-
+}}
+{{#if:{{{audio15|}}}|
+{{!}} [[Image:Nuvola apps arts.svg|16px|alt=|link=]]
+{{!}} {{{audio15}}}
+{{!}}-
+}}
+{{#if:{{{audio16|}}}|
+{{!}} [[Image:Nuvola apps arts.svg|16px|alt=|link=]]
+{{!}} {{{audio16}}}
+{{!}}-
+}}
+{{#if:{{{audio17|}}}|
+{{!}} [[Image:Nuvola apps arts.svg|16px|alt=|link=]]
+{{!}} {{{audio17}}}
+{{!}}-
+}}
+{{#if:{{{audio18|}}}|
+{{!}} [[Image:Nuvola apps arts.svg|16px|alt=|link=]]
+{{!}} {{{audio18}}}
+{{!}}-
+}}
+{{#if:{{{audio19|}}}|
+{{!}} [[Image:NNuvola apps arts.svg|16px|alt=|link=]]
+{{!}} {{{audio19}}}
+{{!}}-
+}}
+{{#if:{{{audio20|}}}|
+{{!}} [[Image:Nuvola apps arts.svg|16px|alt=|link=]]
+{{!}} {{{audio20}}}
+}}
+{{#if:{{{video1|}}}|{{#if:{{{audio1|}}}{{{image1|}}}|
+! colspan=2 {{!}} Videos
+{{!}}-
+}} }}
+|-
+{{#if:{{{video1|}}}|
+{{!}} [[Image:Nuvola apps kaboodle.svg|16px|alt=|link=]]
+{{!}} {{{video1}}}
+{{!}}-
+}}
+{{#if:{{{video2|}}}|
+{{!}} [[Image:Nuvola apps kaboodle.svg|16px|alt=|link=]]
+{{!}} {{{video2}}}
+{{!}}-
+}}
+{{#if:{{{video3|}}}|
+{{!}} [[Image:Nuvola apps kaboodle.svg|16px|alt=|link=]]
+{{!}} {{{video3}}}
+{{!}}-
+}}
+{{#if:{{{video4|}}}|
+{{!}} [[Image:Nuvola apps kaboodle.svg|16px|alt=|link=]]
+{{!}} {{{video4}}}
+{{!}}-
+}}
+{{#if:{{{video5|}}}|
+{{!}} [[Image:Nuvola apps kaboodle.svg|16px|alt=|link=]]
+{{!}} {{{video5}}}
+{{!}}-
+}}
+{{#if:{{{video6|}}}|
+{{!}} [[Image:Nuvola apps kaboodle.svg|16px|alt=|link=]]
+{{!}} {{{video6}}}
+{{!}}-
+}}
+{{#if:{{{video7|}}}|
+{{!}} [[Image:Nuvola apps kaboodle.svg|16px|alt=|link=]]
+{{!}} {{{video7}}}
+{{!}}-
+}}
+{{#if:{{{video8|}}}|
+{{!}} [[Image:Nuvola apps kaboodle.svg|16px|alt=|link=]]
+{{!}} {{{video8}}}
+{{!}}-
+}}
+{{#if:{{{video9|}}}|
+{{!}} [[Image:Nuvola apps kaboodle.svg|16px|alt=|link=]]
+{{!}} {{{video9}}}
+{{!}}-
+}}
+{{#if:{{{video10|}}}|
+{{!}} [[Image:Nuvola apps kaboodle.svg|16px|alt=|link=]]
+{{!}} {{{video10}}}
+{{!}}-
+}}
+{{#if:{{{video11|}}}|
+{{!}} [[Image:Nuvola apps kaboodle.svg|16px|alt=|link=]]
+{{!}} {{{video11}}}
+{{!}}-
+}}
+{{#if:{{{video12|}}}|
+{{!}} [[Image:Nuvola apps kaboodle.svg|16px|alt=|link=]]
+{{!}} {{{video12}}}
+{{!}}-
+}}
+{{#if:{{{video13|}}}|
+{{!}} [[Image:Nuvola apps kaboodle.svg|16px|alt=|link=]]
+{{!}} {{{video13}}}
+{{!}}-
+}}
+{{#if:{{{video14|}}}|
+{{!}} [[Image:Nuvola apps kaboodle.svg|16px|alt=|link=]]
+{{!}} {{{video14}}}
+{{!}}-
+}}
+{{#if:{{{video15|}}}|
+{{!}} [[Image:Nuvola apps kaboodle.svg|16px|alt=|link=]]
+{{!}} {{{video15}}}
+{{!}}-
+}}
+{{#if:{{{video16|}}}|
+{{!}} [[Image:Nuvola apps kaboodle.svg|16px|alt=|link=]]
+{{!}} {{{video16}}}
+{{!}}-
+}}
+{{#if:{{{video17|}}}|
+{{!}} [[Image:Nuvola apps kaboodle.svg|16px|alt=|link=]]
+{{!}} {{{video17}}}
+{{!}}-
+}}
+{{#if:{{{video18|}}}|
+{{!}} [[Image:Nuvola apps kaboodle.svg|16px|alt=|link=]]
+{{!}} {{{video18}}}
+{{!}}-
+}}
+{{#if:{{{video19|}}}|
+{{!}} [[Image:Nuvola apps kaboodle.svg|16px|alt=|link=]]
+{{!}} {{{video19}}}
+{{!}}-
+}}
+{{#if:{{{video20|}}}|
+{{!}} [[Image:Nuvola apps kaboodle.svg|16px|alt=|link=]]
+{{!}} {{{video20}}}
+}}
+|}<noinclude>{{documentation}}</noinclude>
