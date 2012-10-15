@@ -110,7 +110,7 @@
 }}
 
 {{#if:{{{awards<includeonly>|</includeonly>}}}|
-! Galal{{nowrap|award(s)}}
+! Galal{{nowrap|)}}
 {{!}} {{{awards<includeonly>|</includeonly>}}}
 {{!}}-
 }}
