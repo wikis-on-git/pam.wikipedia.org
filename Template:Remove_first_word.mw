@@ -1,0 +1,5 @@
+{{substr any|{{{1}}}|{{strfind short|{{{1}}}| |1}}|{{#expr:{{strlen_quick|{{{1}}}}}-{{strfind short|{{{1}}}| |1}} }}}}<noinclude>
+
+{{Documentation}}
+
+</noinclude>
