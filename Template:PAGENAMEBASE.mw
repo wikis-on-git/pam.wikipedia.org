@@ -1,0 +1,7 @@
+{{Strloc prefix|{{{1|{{PAGENAME}}}}}|
+   strloc= {{strfind_short|{{{1|{{PAGENAME}}}}}|(|1|
+     lenstr= {{strlen_quick|{{{1|{{PAGENAME}}}}}|}}}}-2
+}}<noinclude>
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
