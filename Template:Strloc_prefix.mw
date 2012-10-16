@@ -1,0 +1,37 @@
+<!--
+-=============================================================
+- Strloc_prefix - Get prefix up to strloc or entire string
+-=============================================================
+--                              (see NOTES at bottom)
+-->{{#ifexpr: {{{strloc|7}}} > 0
+  | {{padleft:|{{#expr:{{{strloc|7}}} }}|{{{1}}}}}
+  | {{{1}}}<!--too long or strloc <= 0 (string not found) -->
+}}<noinclude><!--
+--------------------------------------------------------------
+--NOTES
+--
+-- NOTE A1: This template gets the prefix of a string up to
+--      length strloc, or the entire string when strloc <= 0.
+--      It allows the location strloc to be a variable amount
+--      such as the result of a string search, because strloc
+--      is used twice: once to check if the entire string will
+--      be the result, or a 2nd time to limit the length of
+--      string extracted to length strloc. Hence, if strloc is
+--      set by a complex search or formula, then the use of
+--      this template will be about twice as fast as coding the
+--      logic directly.
+--
+-- NOTE N2: The expansion depth of this template is 2 levels,
+--      with 1 level for being a template, and the 2nd level
+--      needed to check the value of length strloc.
+--
+--------------------------------------------------------------
+--HISTORY:
+--07Feb2011 Created for string-prefix copy 2x times as fast.
+-->
+{{documentation}}
+<!-- Add categories & interwikis to /doc subpage, not here! -->
+
+[[Category:String manipulation templates]]
+[[Category:Templates with minimal expansion depth]]
+</noinclude>
