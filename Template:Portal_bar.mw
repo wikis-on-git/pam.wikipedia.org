@@ -1,0 +1,22 @@
+<div class="noprint" style="background-color:#F4F0EC; border:2px solid #DCDCDC; clear:both; margin-left:0px; margin-top:0.5em; padding:4px; text-align:center;">
+<ul>{{#if:{{{1|}}}|{{Portal bar/item|{{{1}}}|}}}}<!--
+-->{{#if:{{{2|}}}|{{Portal bar/item|{{{2}}}|}}}}<!--
+-->{{#if:{{{3|}}}|{{Portal bar/item|{{{3}}}|}}}}<!-- 
+-->{{#if:{{{4|}}}|{{Portal bar/item|{{{4}}}|}}}}<!-- 
+-->{{#if:{{{5|}}}|{{Portal bar/item|{{{5}}}|}}}}<!-- 
+-->{{#if:{{{6|}}}|{{Portal bar/item|{{{6}}}|}}}}<!-- 
+-->{{#if:{{{7|}}}|{{Portal bar/item|{{{7}}}|}}}}<!-- 
+-->{{#if:{{{8|}}}|{{Portal bar/item|{{{8}}}|}}}}<!-- 
+-->{{#if:{{{9|}}}|{{Portal bar/item|{{{9}}}|}}}}<!-- 
+-->{{#if:{{{10|}}}|{{Portal bar/item|{{{10}}}|}}}}<!-- 
+-->{{#if:{{{11|}}}|{{Portal bar/item|{{{11}}}|}}}}<!-- 
+-->{{#if:{{{12|}}}|{{Portal bar/item|{{{12}}}|}}}}<!-- 
+-->{{#if:{{{13|}}}|{{Portal bar/item|{{{13}}}|}}}}<!-- 
+-->{{#if:{{{14|}}}|{{Portal bar/item|{{{14}}}|}}}}<!-- 
+-->{{#if:{{{15|}}}|{{Portal bar/item|{{{15}}}|}}}}<!-- 
+-->{{#if:{{{16|}}}|{{Portal bar/item|{{{16}}}|}}}}<!-- 
+-->{{#if:{{{17|}}}|{{Portal bar/item|{{{17}}}|}}}}<!-- 
+-->{{#if:{{{18|}}}|{{Portal bar/item|{{{18}}}|}}}}</ul>
+</div><noinclude>
+{{documentation}}
+</noinclude>
