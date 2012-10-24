@@ -1,0 +1,111 @@
+{{Infobox
+| bodyclass  = vcard
+| abovestyle = color:#ffffff; background-color: #9f0807
+| above      = {{{name<includeonly>|{{PAGENAME}}</includeonly>}}}
+| aboveclass = fn
+
+| subheader  = {{{title<includeonly>|</includeonly>}}}
+| subheaderstyle = font-weight:bold;
+
+| image      = {{#if:{{Hide if placeholder image|{{{image|}}}}}
+   |[[File:{{{image}}}|{{px|{{{image_size|}}}|frameless}}|alt={{{alt|}}}]]
+   }}
+| caption     = {{{caption|}}}
+
+| label4     = Reign
+| data4      = {{{reign<includeonly>|</includeonly>}}}
+| label5     = Coronation
+| data5      = {{{coronation<includeonly>|</includeonly>}}}
+| label6     = Investiture
+| data6      = {{{investiture<includeonly>|</includeonly>}}}
+| label7     = Full name
+| data7      = {{{full name<includeonly>|</includeonly>}}}
+| class7     = nickname
+| label8     = Birth name
+| data8      = {{{birth_name<includeonly>|{{{birth name|}}}</includeonly>}}}
+| class8     = nickname
+
+| label9     = {{{native_lang1<includeonly>|</includeonly>}}}
+| class9     = nickname
+| data9      = {{{native_lang1_name1<includeonly>|</includeonly>}}}
+| label10     = {{{native_lang2<includeonly>|</includeonly>}}}
+| class10     = nickname
+| data10      = {{{native_lang2_name1<includeonly>|</includeonly>}}}
+| label11    = {{{native_lang3<includeonly>|</includeonly>}}}
+| class11    = nickname
+| data11     = {{{native_lang3_name1<includeonly>|</includeonly>}}}
+| label12    = {{{native_lang4<includeonly>|</includeonly>}}}
+| class12    = nickname
+| data12     = {{{native_lang4_name1<includeonly>|</includeonly>}}}
+| label13    = {{{native_lang5<includeonly>|</includeonly>}}}
+| class13    = nickname
+| data13     = {{{native_lang5_name1<includeonly>|</includeonly>}}}
+| label14    = {{{native_lang6<includeonly>|</includeonly>}}}
+| class14    = nickname
+| data14     = {{{native_lang6_name1<includeonly>|</includeonly>}}}
+| label15    = {{{native_lang7<includeonly>|</includeonly>}}}
+| class15    = nickname
+| data15     = {{{native_lang7_name1<includeonly>|</includeonly>}}}
+| label16    = {{{native_lang8<includeonly>|</includeonly>}}}
+| class16    = nickname
+| data16     = {{{native_lang8_name1<includeonly>|</includeonly>}}}
+
+| label17    = Titles
+| data17     = {{{othertitles<includeonly>|</includeonly>}}}
+| label18    = Baptism
+| data18     = {{{baptism<includeonly>|</includeonly>}}}
+| label19    = Born
+| data19     = {{{birth_date<includeonly>|</includeonly>}}}
+| label20    = Birthplace
+| data20     = {{{birth_place<includeonly>|</includeonly>}}}
+| label21    = Died
+| data21     = {{{death_date<includeonly>|</includeonly>}}}
+| label22    = Place of death
+| data22     = {{{death_place<includeonly>|</includeonly>}}}
+| label23    = Buried
+| data23     = {{{burial_place<includeonly>|{{{place of burial|}}}</includeonly>}}}{{#if: {{{burial_date<includeonly>|{{{date of burial|}}}</includeonly>}}}|, {{{burial_date|{{{date of burial|}}}}}}}}
+| label24    = Predecessor
+| data24     = {{{predecessor<includeonly>|</includeonly>}}}
+| label25    = {{{suc-type<includeonly>|</includeonly>}}}
+| data25     = {{{heir<includeonly>|</includeonly>}}}
+| label26    = Successor
+| data26     = {{{successor<includeonly>|</includeonly>}}}
+| label27    = Consort
+| data27     = {{{queen<includeonly>|</includeonly>}}}
+| class27    = agent
+| label28    = Consort
+| data28     = {{{consort<includeonly>|</includeonly>}}}
+| class28    = agent
+| label29    = Consort
+| data29     = {{{consortreign<includeonly>|</includeonly>}}}
+| label30    = Consort to
+| data30     = {{{consortto<includeonly>|</includeonly>}}}
+| label31    = Consort to
+| data31     = {{{spouse<includeonly>|</includeonly>}}}
+| label32    = {{#if:{{{spouse 2<includeonly>|</includeonly>}}} | Wives | Wife}}
+| data32     = {{{spouse 1<includeonly>|</includeonly>}}} {{#if: {{{spouse 2<includeonly>|</includeonly>}}} |<br/> {{{spouse 2}}} }} {{#if: {{{spouse 3<includeonly>|</includeonly>}}} | <br/> {{{spouse 3}}} }} {{#if: {{{spouse 4<includeonly>|</includeonly>}}} | <br/> {{{spouse 4}}} }} {{#if: {{{spouse 5<includeonly>|</includeonly>}}} | <br/> {{{spouse 5}}} }} {{#if: {{{spouse 6<includeonly>|</includeonly>}}} | <br/> {{{spouse 6}}} }} {{#if: {{{spouse 7<includeonly>|</includeonly>}}} | <br/> {{{spouse 7}}} }} {{#if: {{{spouse 8<includeonly>|</includeonly>}}} | <br/> {{{spouse 8}}} }} {{#if: {{{spouse 9<includeonly>|</includeonly>}}} | <br/> {{{spouse 9}}} }}
+| label33    = Offspring
+| data33     = {{{issue<includeonly>|</includeonly>}}} {{{offspring<includeonly>|</includeonly>}}}
+| label34    = Royal House
+| data34     = {{{royal house<includeonly>|</includeonly>}}}
+| class34    = org
+| label35    = Dynasty
+| data35     = {{{dynasty<includeonly>|</includeonly>}}}
+| label36    = Royal anthem
+| data36     = {{{royal anthem<includeonly>|</includeonly>}}}
+| label37    = Royal motto
+| data37     = {{{royal motto<includeonly>|</includeonly>}}}
+| label38    = Father
+| data38     = {{{father<includeonly>|</includeonly>}}}
+| label39    = Mother
+| data39     = {{{mother<includeonly>|</includeonly>}}}
+| label40    = Children
+| data40     = {{{children<includeonly>|</includeonly>}}}
+| label41    = Religious beliefs
+| data41     = {{{religion<includeonly>|</includeonly>}}}
+| label42    = Signature
+| data42     = {{{signature<includeonly>|</includeonly>}}}
+}}{{#if:{{{pronunciation|}}}|[[Category:Biography template using pronunciation]]}}<noinclude>
+{{documentation}}
+<!-- add categories and interwikis to Template:Infobox monarch/doc -->
+</noinclude>
