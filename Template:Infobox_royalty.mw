@@ -199,7 +199,7 @@
 {{!}}-
 }}
 {{#if: {{{era dates|}}} |
-! colspan=2 {{!}} Panaun {{#if:{{{era name|}}}|name and&nbsp;}}dates
+! colspan=2 {{!}} Panaun {{#if:{{{era name|}}}|name and&nbsp;}}
 {{!}}-
 {{!}} colspan=2 {{!}} {{#if:{{{era name|}}}|{{{era name}}}:&nbsp;}}{{{era dates}}}
 {{!}}-
@@ -247,12 +247,12 @@
 {{!}}-
 }}
 {{#if: {{{occupation|}}}|
-! Occupation
+! Obra
 {{!}} {{{occupation}}}
 {{!}}-
 }}
 {{#if:{{{signature|}}}|
-! Signature
+! Pirma
 {{!}} [[File:{{{signature}}}|125px|alt={{{signature_alt|}}}|{{PAGENAME}}'s signature]]
 {{!}}-
 }}
