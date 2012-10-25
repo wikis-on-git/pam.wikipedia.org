@@ -49,7 +49,7 @@
 {{!}}-
 }}
 {{#if: {{{reign|}}}|
-! {{{reign-type|{{#switch:{{{consort|}}}|yes=Tenure|<!--BACKWARD COMPAT FROM IBR-->{{#switch:{{{2}}}|consort=Tenure|Reign}}<!--BACKWARD COMPAT FROM IBR-->}}}}}
+! {{{reign-type|{{#switch:{{{consort|}}}|yes=Tenure|<!--BACKWARD COMPAT FROM IBR-->{{#switch:{{{2}}}|consort=Tenure|Menungkulan}}<!--BACKWARD COMPAT FROM IBR-->}}}}}
 {{!}} {{{reign}}}
 {{!}}-
 }}
