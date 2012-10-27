@@ -4,12 +4,12 @@
 ! On [[Mars]] for
 |-
 ! ''' <font color=red><big>{{age in days|2012|08|06}}</big></font color> ''' [[days]] </br> ([[Timekeeping on Mars#Sols|Sols]] [http://mars.jpl.nasa.gov/msl/ here]).
-|}<br>
+|}<br />
 {{Infobox spacecraft
 | Name                           = ''Curiosity'' rover
 | Image                          = [[File:Mars Science Laboratory Curiosity rover.jpg|300px]]
 | Caption                        = 
-| Organization                   = [[NASA]] <br> International team
+| Organization                   = [[NASA]] <br /> International team
 | Major_Contractors              = {{Plainlist|
 * [[Boeing]]
 * [[Lockheed Martin]]
@@ -20,10 +20,10 @@
 | Launch_Site                    = [[Cape Canaveral Air Force Station|Cape Canaveral]] [[LC-41]]<ref name="oig report"/>
 | Launch_Vehicle                 = [[Atlas V|Atlas V 541]] (AV-028)
 | Planet                         = [[Mars]]
-| Planet_Landing                 = August 6, 2012, 05:17:57.3 UTC <abbr title="Spacecraft Event Time">SCET</abbr><ref name="youtube1">{{cite web|title=MSL Sol 3 Update|url=http://www.youtube.com/watch?v=6f8HHQ2U2jg|publisher=NASA Television|accessdate=August 9, 2012|date=August 8, 2012}}</ref><br/>
-MSD 49269 05:50:16 [[Airy Mean Time|AMT]]<br>
+| Planet_Landing                 = August 6, 2012, 05:17:57.3 UTC <abbr title="Spacecraft Event Time">SCET</abbr><ref name="youtube1">{{cite web|title=MSL Sol 3 Update|url=http://www.youtube.com/watch?v=6f8HHQ2U2jg|publisher=NASA Television|accessdate=August 9, 2012|date=August 8, 2012}}</ref><br />
+MSD 49269 05:50:16 [[Airy Mean Time|AMT]]<br />
 | Planet_Coords                  =  [[Aeolis Palus]] in [[Gale (crater)|Gale Crater]], {{Coord|4|35|31|S|137|26|25|E|globe:mars}}
-| Mission_Duration               = 668 Martian [[Timekeeping on Mars#Sols|sols]] (23 Earth months) primary mission. <br>Current: {{age in days|2012|08|06}} days since landing <!-- at mission end, replace with "{{age in days|2012|08|06|year|month|day}} days from landing to mission end" -->
+| Mission_Duration               = 668 Martian [[Timekeeping on Mars#Sols|sols]] (23 Earth months) primary mission. <br />Current: {{age in days|2012|08|06}} days since landing <!-- at mission end, replace with "{{age in days|2012|08|06|year|month|day}} days from landing to mission end" -->
 | NSSDC_ID                       = 2011-070A
 | Webpage                        = [http://mars.jpl.nasa.gov/msl/ Mars Science Laboratory]
 | Mass                           = {{convert|900|kg|abbr=on}}<ref name="nasa"/>
@@ -83,3 +83,4 @@ Kayabe kareng parasan ning talalibut ing pamagsyasat king klima ampong geology n
 [[tr:Curiosity kâşif robotu]]
 [[uz:Curiosity (marsyurar)]]
 [[zh:好奇號]]
+[[zh-yue:好奇號]]
