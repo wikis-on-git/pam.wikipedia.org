@@ -1,0 +1,25 @@
+Froese, Rainer, and Daniel Pauly, eds. ({{{year|2006}}}). [http://www.fishbase.org/identification/SpeciesList.php?genus={{#if:x|{{{genus}}}}} Species of ''{{{genus}}}''] in [[FishBase]]. {{{month|April}}} {{{year|2006}}} version.<noinclude>
+
+'''Since 2008, FishBase does no longer provide genus pages. This template now provides only a link to the list of species of the genus.'''
+'''Here is the FishBase that existed in the past for genus ''[[Histrio]]'': [http://www.fishbase.org/Eschmeyer/GeneraSummary.cfm?ID=Histrio link]'''
+
+==See also==
+* [[:wikispecies:Template:FishBase genus]]
+* [[:commons:Template:FishBase genus]]
+
+[[Category:Biology source templates|{{PAGENAME}}]]
+[[Category:Biology external link templates|{{PAGENAME}}]]
+
+[[az:Şablon:FishBase genus]]
+[[ca:Plantilla:FishBase genus]]
+[[es:Plantilla:FishBase genus]]
+[[fr:Modèle:FishBase genre]]
+[[ko:틀:FishBase 속]]
+[[ml:ഫലകം:FishBase genus]]
+[[nl:Sjabloon:Link FishBase genus]]
+[[ja:Template:FishBase genus]]
+[[sl:Predloga:FishBase genus]]
+[[fi:Malline:FishBaseSuku]]
+[[uk:Шаблон:FishBase genus]]
+[[vi:Bản mẫu:FishBase genus]]
+</noinclude>
