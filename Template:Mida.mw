@@ -1,0 +1,6 @@
+{{#if:{{{2|}}}
+|<!--then:--><span style="font-size:{{{1|}}};">{{{2|}}}</span>
+|<!--else:--><span style="font-size:90%;">{{{1|}}}</span>
+}}<noinclude>
+{{Ús de la plantilla}}
+</noinclude>
