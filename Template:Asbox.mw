@@ -1,4 +1,4 @@
-<div class="boilerplate metadata" id="stub"><table cellpadding="0" cellspacing="0" style="background-color: transparent;"><tr ><td>  {{#if:{{{icon|}}}|{{{icon}}}&nbsp;|{{#if:{{{image|}}}|[[Image:{{{image}}}|{{#if:{{{pix|}}}|{{{pix}}}|40x30}}px]]&nbsp;|}}}}</td ><td >''Iting {{{subject|}}} artikulu {{{qualifier|}}} metung yang [[Wikipedia:suli|suli]].  Maliari kang sumaup kapamilatan ning [{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|action=edit}} pamandagdag kaniti]''.<br><small>{{{note|}}}</small></td ></tr ></table ></div ><includeonly><!--
+<div class="boilerplate metadata" id="stub"><table cellpadding="0" cellspacing="0" style="background-color: transparent;"><tr ><td>  {{#if:{{{icon|}}}|{{{icon}}}&nbsp;|{{#if:{{{image|}}}|[[Image:{{{image}}}|{{#if:{{{pix|}}}|{{{pix}}}|40x30}}px]]&nbsp;|}}}}</td ><td >''Iting artikulu {{{qualifier|}}}{{{subject|}}} metung yang [[Wikipedia:suli|suli]].  Maliari kang sumaup kapamilatan ning [{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|action=edit}} pamandagdag kaniti]''.<br><small>{{{note|}}}</small></td ></tr ></table ></div ><includeonly><!--
 
  *** Stub article category sorted by DEFAULTSORT or PAGENAME. ***
 
