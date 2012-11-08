@@ -1,12 +1,5 @@
 {{italic title}}
-| status = DD
-| status_system = iucn3.1
-| status_ref = <ref name=iucn>{{IUCN2008|assessors=     Taylor, B.L.,
-Baird, R., Barlow, J., Dawson, S.M., Ford, J., Mead, J.G.,
-Notarbartolo di Sciara, G., Wade, P. & Pitman,
-R.L.|year=2008|id=41760|title=Mesoplodon traversii|downloaded=24 March
-2009}} Database entry includes a brief justification of why this
-species is of data deficient.</ref>
+{{Taxobox
 | taxon = Mesoplodon traversii
 | authority = ([[John Edward Gray|Gray]], 1874)
 | range_map = Mesoplodon traversii distribution.png
