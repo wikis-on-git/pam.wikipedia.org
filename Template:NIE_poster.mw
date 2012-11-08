@@ -1,0 +1,6 @@
+<includeonly>{{Sister
+|project = Wikisource
+|text = Atsu [[Wikisource]] ing kasulatan ning {{#if:{{{2|}}}||}} {{{banwang|1905}}} [[New International Encyclopedia]] artikulung {{#if:{{{2|}}}|about}} '''''[[s:The New International Encyclopædia/{{{1|{{PAGENAME}}}}}|{{{2|{{{1|{{PAGENAME}}}}}}}}]]'''''.
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
