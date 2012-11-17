@@ -61,11 +61,11 @@
              | Academic advisors }}
 |data12  = {{{academic_advisors<includeonly>|</includeonly>}}}
 
-|label13 = Doctoral estudianti
+|label13 = Doctoral magaral
 |data13  = {{{doctoral_students<includeonly>|</includeonly>}}}
 
 |label14 = {{#if:{{{doctoral_students<includeonly>|</includeonly>}}}
-             | Aliwang kapnsinpansin&nbsp;estudianti
+             | Aliwang kapansinpansin&nbsp;magaral
              | Kapansinpansin estudianti }}
 |data14  = {{{notable_students<includeonly>|</includeonly>}}}
 
