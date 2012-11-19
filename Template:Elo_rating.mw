@@ -30,6 +30,7 @@ This template return the [[Elo rating]] for all chess players and is used in the
 [[fa:الگو:Elo rating]]
 [[hy:Կաղապար:ԷԼՕ վարկանիշ]]
 [[ru:Шаблон:Рейтинг ЭЛО]]
+[[th:แม่แบบ:Elo rating]]
 <onlyinclude><includeonly>{{#switch: {{{ID}}}
 <!--SUBSTER-Elo-rating-->|1401815=2505
 |4128184=2415
