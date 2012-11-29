@@ -1,0 +1,20 @@
+[[Image:Wikivoyage favicon.svg|16px]] [[wikivoyage:{{{1|{{PAGENAME}}}}}|{{{2|{{{1|{{PAGENAME}}}}}}}} travel guide]] from Wikivoyage<noinclude>
+{{pp-template|small=yes}}
+The functional wikivoyage template above supports 0, 1, or 2 parameters. 
+
+Usage:
+:0 arg: <nowiki>{{wikivoyage}}</nowiki> - link to Wikivoyage page matching this page name
+:1 arg: <nowiki>{{wikivoyage|Boracay}}</nowiki> - link to Wikivoyage's page on Boracay
+:2 arg: <nowiki>{{wikivoyage|Boracay|Boracay Island}}</nowiki> - ditto, but label it Boracay Island
+
+[[Category:Interwiki link templates|{{PAGENAME}}]]
+
+[[ca:Plantilla:Wikivoyage]]
+[[de:Vorlage:Wikivoyage]]
+[[fi:Malline:Wikivoyage]]
+[[fr:Modèle:Wikivoyage]]
+[[hr:Predložak:Wikivoyage]]
+[[pt:Predefinição:Wikivoyage]]
+[[ro:Format:Wikivoyage]]
+[[zh:Template:Wikivoyage]]
+</noinclude>r
