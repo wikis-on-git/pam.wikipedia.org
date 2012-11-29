@@ -1,5 +1,5 @@
 [[Image:Wikivoyage favicon.svg|16px]] [[wikivoyage:{{{1|{{PAGENAME}}}}}|{{{2|{{{1|{{PAGENAME}}}}}}}} travel guide]] from Wikivoyage<noinclude>
-{{pp-template|small=yes}}
+
 The functional wikivoyage template above supports 0, 1, or 2 parameters. 
 
 Usage:
@@ -17,4 +17,4 @@ Usage:
 [[pt:Predefinição:Wikivoyage]]
 [[ro:Format:Wikivoyage]]
 [[zh:Template:Wikivoyage]]
-</noinclude>r
+</noinclude>
