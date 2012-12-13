@@ -1,0 +1,7 @@
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Korean:&nbsp;|pron=pronounced&nbsp;|=|Korean pronunciation:&nbsp;}}</small>{{IPA|[[WP:IPA for Korean|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude><noinclude>
+{{documentation|Template:usage of IPA templates}}
+<!--Categories-->
+[[Category:IPA language templates|{{PAGENAME}}]]
+
+<!--Interwiki-->
+</noinclude>
