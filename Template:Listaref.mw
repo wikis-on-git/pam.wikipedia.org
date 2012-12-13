@@ -1,0 +1,14 @@
+<div class="listaref" style="<!--
+ -->{{#if: {{{ancho|{{{colwidth|}}}}}}
+    | -moz-column-width: {{{ancho{{{colwidth|}}}}}}; -webkit-column-width: {{{ancho{{{colwidth|}}}}}}; column-width: {{{ancho{{{colwidth|}}}}}};
+    | {{#if: {{{1|}}}
+      | -moz-column-count:{{{1}}}; -webkit-column-count:{{{1}}}; column-count:{{{1}}};
+      }}
+    }} list-style-type: <!--
+ -->{{{estilolista|{{{liststyle|{{#switch: {{{grupo|{{{group|}}}}}}
+    | upper-alpha
+    | upper-roman
+    | lower-alpha
+    | lower-greek
+    | lower-roman = {{{grupo|{{{group}}}}}}
+    | #default = decimal}}}}}}}};">{{#tag:references|{{{refs|}}}|group={{{grupo|{{{group|}}}}}}}}</div><noinclude>{{documentación}}</noinclude>
