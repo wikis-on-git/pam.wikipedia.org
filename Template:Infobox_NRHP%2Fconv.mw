@@ -1,0 +1,79 @@
+
+{{#ifeq:{{{1}}}|color
+ |{{Designation/color|{{{2|}}}}}
+}}{{#ifeq:{{{1}}}|text
+ |{{Designation/text|{{{2|}}}
+}}{{#ifeq:{{{3|}}}|nocat|
+  |{{#switch:{{{2}}}
+   |nhld
+   |formernhld
+   |hd
+   |formerhd   = [[Category:Historic districts in {{{3}}}]]
+   |indcp      = [[Category:Individually listed contributing properties to historic districts on the National Register]]
+   |cp
+   |nhldcp     = [[Category:Historic district contributing properties]]
+   |nmem
+   |formernmem = [[Category:National Memorials of the United States]]
+   |nb
+   |formernb
+   |nmp
+   |formernmp
+   |nbp
+   |formernbp
+   |nbs
+   |formernbs  = [[Category:National Battlefields and Military Parks of the United States]]
+  }}
+ }}
+}}{{#ifeq:{{{1}}}|link
+ |{{#switch:{{{2}}}
+  |nrhp        = National Register of Historic Places
+  |formernhl
+  |nhl    
+  |formernhld
+  |nhld        = National Historic Landmark
+  |formerhd
+  |hd          = Historic district (United States)
+  |cp
+  |indcp
+  |nhldcp      = Contributing property
+  |formernmon
+  |nmon        = U.S. National Monument
+  |formernhs
+  |nhs         = National Historic Site (United States)
+  |formernmem
+  |nmem        = National Memorial
+  |formernhp
+  |nhp         = National Historical Park
+  |formernb
+  |nb          = National Battlefield
+  |formernmp
+  |nmp         = National Military Park
+  |formernbp
+  |nbp         = National Battlefield Park
+  |formernbs
+  |nbs         = National Battlefield Site
+  |formernhr
+  |nhr         = List of areas in the United States National Park System#National Reserves
+  |formerihs
+  |ihs         = List of areas in the United States National Park System#International Historic Site
+  |#default    = {{{2}}}
+ }}
+}}{{#ifeq:{{{1}}}|abbr
+ |{{#switch:{{{2}}}
+  |formernhl   = NHL
+  |formernhld  = NHLD
+  |formerhd    = HD
+  |formernmon  = NMON
+  |formernhs   = NHS
+  |formernmem  = NMEM
+  |formernhp   = NHP
+  |formernb    = NB
+  |formernmp   = NMP
+  |formernbp   = NBP
+  |formernbs   = NBS
+  |formernhr   = NHR
+  |formerihs   = IHS
+  |indcp       = CP
+  |#default    = {{uc:{{{2}}}}}
+ }}
+}}
