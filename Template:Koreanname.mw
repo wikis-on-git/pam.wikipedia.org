@@ -1,0 +1,130 @@
+{{#if: {{{hangul|}}}{{{hanja|}}}{{{rr|}}}{{{mr|}}}|<table class="infobox bordered" style="margin: 0 0 1em 1em; width: {{#if: {{{tablewidth|}}}|{{{tablewidth}}}px|20em}}; background: {{#if: {{{background|}}}|{{{background}}}|#FAFAFA}};">
+<tr><th style="background: {{#if: {{{color|}}}|{{{color}}}|#CCF}}; color: {{#if: {{{fontcolor|}}}|{{{fontcolor}}}|#000}}; line-height: 1.3em; padding: 3px;">{{#if: {{{logo|}}}|<div style="float: right; padding: 0 1px 1px 0;">[[Image:{{{logo|}}}|{{#if: {{{logowidth|}}}|{{{logowidth}}}|80}}px|{{{logo}}}]]</div>}}{{#if: {{{title|}}}|{{{title}}}|{{PAGENAME}}}}
+</th></tr>{{#if: {{{img|}}}|
+<tr><td style="text-align: center;">[[Image:{{{img|}}}|{{#if: {{{imgwidth|{{{width|}}}}}}|{{{imgwidth|{{{width|}}}}}}|{{#expr: {{{tablewidth|250}}}-20}}}}px|{{{caption|{{{img}}}}}}]]<br /><small>{{{caption|}}}</small></td></tr>}}{{#if: {{{img|}}}|
+<tr><th style="background: {{#if: {{{color|}}}|{{{color}}}|#CCF}}; color: {{#if: {{{fontcolor|}}}|{{{fontcolor}}}|#000}};">Korean name</th></tr>}}
+<tr><td style="padding: 0;">
+{{Infobox Korean name/Nametable|background={{{background|}}}|context={{{context|}}}|hangul={{{hangul|}}}|hanja={{{hanja|}}}|rr={{{rr|}}}|mr={{{mr|}}}}}
+</td></tr>{{#if: {{{hangulho|}}}{{{hanjaho|}}}{{{rrho|}}}{{{mrho|}}}|
+<tr><th style="background: {{#if: {{{color|}}}|{{{color}}}|#CCF}}; color: {{#if: {{{fontcolor|}}}|{{{fontcolor}}}|#000}};">[[Pen name]]</th></tr>
+<tr><td style="padding: 0;">
+{{Infobox Korean name/Nametable|background={{{background|}}}|context={{{context|}}}|hangul={{{hangulho|}}}|hanja={{{hanjaho|}}}|rr={{{rrho|}}}|mr={{{mrho|}}}}}
+</td></tr>}}{{#if: {{{hangulborn|}}}{{{hanjaborn|}}}{{{rrborn|}}}{{{mrborn|}}}|
+<tr><th style="background: {{#if: {{{color|}}}|{{{color}}}|#CCF}}; color: {{#if: {{{fontcolor|}}}|{{{fontcolor}}}|#000}};">[[Birth name]]</th></tr>
+<tr><td style="padding: 0;">
+{{Infobox Korean name/Nametable|background={{{background|}}}|context={{{context|}}}|hangul={{{hangulborn|}}}|hanja={{{hanjaborn|}}}|rr={{{rrborn|}}}|mr={{{mrborn|}}}}}
+</td></tr>}}{{#if: {{{hangula|}}}{{{hanjaa|}}}{{{rra|}}}{{{mra|}}}|
+<tr><th style="background: {{#if: {{{color|}}}|{{{color}}}|#CCF}}; color: {{#if: {{{fontcolor|}}}|{{{fontcolor}}}|#000}};">Childhood name</th></tr>
+<tr><td style="padding: 0;">
+{{Infobox Korean name/Nametable|background={{{background|}}}|context={{{context|}}}|hangul={{{hangula|}}}|hanja={{{hanjaa|}}}|rr={{{rra|}}}|mr={{{mra|}}}}}
+</td></tr>}}{{#if: {{{hangulja|}}}{{{hanjaja|}}}{{{rrja|}}}{{{mrja|}}}|
+<tr><th style="background: {{#if: {{{color|}}}|{{{color}}}|#CCF}}; color: {{#if: {{{fontcolor|}}}|{{{fontcolor}}}|#000}};">[[Courtesy name]]</th></tr>
+<tr><td style="padding: 0;">
+{{Infobox Korean name/Nametable|background={{{background|}}}|context={{{context|}}}|hangul={{{hangulja|}}}|hanja={{{hanjaja|}}}|rr={{{rrja|}}}|mr={{{mrja|}}}}}
+</td></tr>}}{{#if: {{{hangulstage|}}}{{{hanjastage|}}}{{{rrstage|}}}{{{mrstage|}}}|
+<tr><th style="background: {{#if: {{{color|}}}|{{{color}}}|#CCF}}; color: {{#if: {{{fontcolor|}}}|{{{fontcolor}}}|#000}};">[[Stage name]]</th></tr>
+<tr><td style="padding: 0;">
+{{Infobox Korean name/Nametable|background={{{background|}}}|context={{{context|}}}|hangul={{{hangulstage|}}}|hanja={{{hanjastage|}}}|rr={{{rrstage|}}}|mr={{{mrstage|}}}}}
+</td></tr>}}{{#if: {{{hangulgye|}}}{{{hanjagye|}}}{{{rrgye|}}}{{{mrgye|}}}|
+<tr><th style="background: {{#if: {{{color|}}}|{{{color}}}|#CCF}}; color: {{#if: {{{fontcolor|}}}|{{{fontcolor}}}|#000}};">[[Dharma name]]</th></tr>
+<tr><td style="padding: 0;">
+{{Infobox Korean name/Nametable|background={{{background|}}}|context={{{context|}}}|hangul={{{hangulgye|}}}|hanja={{{hanjagye|}}}|rr={{{rrgye|}}}|mr={{{mrgye|}}}}}
+</td></tr>}}{{#if: {{{hangulph|}}}{{{hanjaph|}}}{{{rrph|}}}{{{mrph|}}}|
+<tr><th style="background: {{#if: {{{color|}}}|{{{color}}}|#CCF}}; color: {{#if: {{{fontcolor|}}}|{{{fontcolor}}}|#000}};">[[Posthumous name]]</th></tr>
+<tr><td style="padding: 0;">
+{{Infobox Korean name/Nametable|background={{{background|}}}|context={{{context|}}}|hangul={{{hangulph|}}}|hanja={{{hanjaph|}}}|rr={{{rrph|}}}|mr={{{mrph|}}}}}
+</td></tr>}}{{#if: {{{hangul1|}}}{{{hanja1|}}}{{{rr1|}}}{{{mr1|}}}|
+<tr><th style="background: {{#if: {{{color|}}}|{{{color}}}|#CCF}}; color: {{#if: {{{fontcolor|}}}|{{{fontcolor}}}|#000}};">{{#if: {{{othername1|}}}|{{{othername1}}}|Other name}}</th></tr>
+<tr><td style="padding: 0;">
+{{Infobox Korean name/Nametable|background={{{background|}}}|context={{{context|}}}|hangul={{{hangul1|}}}|hanja={{{hanja1|}}}|rr={{{rr1|}}}|mr={{{mr1|}}}}}
+</td></tr>}}{{#if: {{{hangul2|}}}{{{hanja2|}}}{{{rr2|}}}{{{mr2|}}}|
+<tr><th style="background: {{#if: {{{color|}}}|{{{color}}}|#CCF}}; color: {{#if: {{{fontcolor|}}}|{{{fontcolor}}}|#000}};">{{#if: {{{othername2|}}}|{{{othername2}}}|Other name}}</th></tr>
+<tr><td style="padding: 0;">
+{{Infobox Korean name/Nametable|background={{{background|}}}|context={{{context|}}}|hangul={{{hangul2|}}}|hanja={{{hanja2|}}}|rr={{{rr2|}}}|mr={{{mr2|}}}}}
+</td></tr>}}{{#if: {{{text|}}}|
+<tr><td style="text-align: center;">{{{text}}}</td></tr>}}
+</table>|[[Category:Articles needing Korean script or text|{{PAGENAME}}]][[Category:Wikipedia articles needing romanized Korean|{{PAGENAME}}]]}}<noinclude>
+
+==Informational fields==
+
+{{Koreanname|
+title={{{title}}}|
+logoimage={{{logoimage}}}|
+image={{{image}}}|
+hanja={{{hanja}}}|
+mr={{{mr}}}|
+rr={{{rr}}}|
+text=This is the default format.
+}}
+
+The '''hangul''' field must always be filled out.  If you define no parameters at all, but simply type <nowiki>{{koreanname}}</nowiki>, you will add the article to [[:Category:Articles needing Korean script or text]].  This will notify other editors that a Korean name is needed for the article.
+
+This template also includes numerous optional fields: 
+*'''title''', displayed at the top of the table; defaults to the page name.
+*'''hanja''', the [[:en:hanja|hanja]] for a given Korean name.  
+*'''mr''', the [[:en:McCune-Reischauer|McCune-Reischauer]] romanization of the name.
+*'''rr''', the [[:en:Revised Romanization of Korean|Revised Romanization]] of the name.
+*'''text''', additional free text at the bottom of the template.  Use sparingly.
+
+*Image fields:
+**'''img''', the filename of the image (for an image called [[Image:XYZ]], specify "img=XYZ").
+***'''width''', the display width of '''img''', in pixels.
+***'''caption''', displayed in small text beneath '''img'''.
+**'''image''', a text field which generally contains an image in [[:en:Wikipedia:Thumbnail|thumbnail]] format. (deprecated)
+**'''logoimage''', a text field optionally displayed in the upper right of the box, which typically contains an organization logo.
+
+If you set "hanja=!", you will add the article to [[:Category:Wikipedia articles needing hanja]].  In that case, the hanja field will not display.
+
+It is sometimes helpful to link the hangul or hanja to an entry or entries on [[:en:Wiktionary|Wiktionary]].  In these cases, the links will display without underlining, for easier readability.  [[:en:Template:Linktext]] is recommended for this purpose.
+
+==Context specification==
+
+{{Koreanname|
+context=north|
+title={{{title}}}|
+logoimage={{{logoimage}}}|
+image={{{image}}}|
+hanja={{{hanja}}}|
+mr={{{mr}}}|
+rr={{{rr}}}|
+text=Here, the "context" attribute has been set to "north".|
+}}
+
+North or South Korean contexts can be specified using the "context" attribute.  For a North Korean article, set "context=north".
+
+==Display==
+
+Various display attributes can also be adjusted, but that is ''not recommended'' in most cases.  All of these attributes are optional.
+
+This flexibility is intended to allow this template to fit neatly above and below other infoboxes, or to meet the special needs of certain article series.  
+
+Adjustable display attributes include:
+
+*'''tablewidth''', in pixels.
+* '''color''' of the title bar.
+*'''fontcolor''', the color of the text within the title bar.  
+
+<br clear="all" style="clear:all">
+
+{{esoteric}}
+[[Category:Wikipedia Korean name tables|Koreanname]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+
+[[de:Vorlage:Koreanischer Name]]
+[[en:Template:Infobox Korean name]]
+[[eo:Ŝablono:Informkesto korea vorto]]
+[[es:Plantilla:Nombre coreano]]
+[[fr:Modèle:Infobox Nom coréen]]
+[[id:Templat:Nama Korea]]
+[[io:Template:Koreanname]]
+[[it:Template:Nomi coreani]]
+[[ja:Template:朝鮮語圏の人物]]
+[[pl:Szablon:Koreańskie imię infobox]]
+[[pt:Predefinição:Info/Nome coreano]]
+[[ru:Шаблон:Корейское имя]]
+[[sv:Mall:Koreanamn]]
+[[th:แม่แบบ:กล่องข้อมูล ชื่อเกาหลี]]
+[[io:Template:Koreanname]]
+[[vi:Bản mẫu:Tên Triều Tiên]]
+[[zh:Template:Infobox Korean name]]
+</noinclude>
