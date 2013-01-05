@@ -1,6 +1,6 @@
 <includeonly>|-
 ! colspan="3" style="border-top: 5px solid #FFF179;" |{{#if:{{{1}}}||Awards and achievements titles}}{{#switch:{{{1}}}
- |#default={{#if:{{{1}}}|Awards and achievements}}
+ |#default={{#if:{{{1}}}|Deng Parangal ampo reng Akamtan}}
  |rec=Records
  |aw=Awards
  |ach=Achievements
