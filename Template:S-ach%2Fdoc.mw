@@ -1,0 +1,54 @@
+<includeonly>{{Template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+
+This template creates a header to be used with [[Template:S-start/doc|succession boxes]].
+
+==Usage==
+
+===Without parameter===
+The template was designed to default to <span style="background: #FFF179; border: 1px #aaa solid; padding: 0.2em;">&nbsp;'''Awards and Achievements'''&nbsp;</span> if no parameter is given. '''Note: this is not implemented properly in the current template code, therefore a parameter must be specified.''' In the following table, the first column contains the header and the second column shows the template call used to create it. The first column is currently blank, but this may change if the template is updated.
+
+{{s-start}}
+{{s-ach}}
+| <code><nowiki>{{s-ach}}</nowiki></code>
+{{s-end}}
+
+===With parameter===
+The format is <code><nowiki>{{</nowiki>s-ach|''parameter''}}</code>, where ''parameter'' is replaced by one of the parameter names shown in the following table. The first column displays the header and the second column contains the parameter name.
+
+{{s-start}}
+{{s-ach|ach}}
+| ach
+{{s-ach|achievements}}
+| achievements
+{{s-ach|aw}}
+| aw
+{{s-ach|awards}}
+| awards
+{{s-ach|rec}}
+| rec
+{{s-ach|records}}
+| records
+{{s-end}}
+
+==Example==
+From the [[Anthony Hopkins]] article:
+<pre style="font-size:95%; width:95%; overflow:auto;">
+{{s-start}}
+{{s-ach|aw}}
+{{s-bef | before = [[Robin Williams]]}}
+{{s-ttl | title  = [[Cecil B. DeMille Award]] | years = 2006}}
+{{s-aft | after  = [[Warren Beatty]]}}
+{{s-end}}
+</pre>
+{{s-start}}
+{{s-ach|aw}}
+{{s-bef|before=[[Robin Williams]]}}
+{{s-ttl|title=[[Cecil B. DeMille Award]]|years=2006}}
+{{s-aft|after=[[Warren Beatty]]}}
+{{s-end}}
+
+==See also==
+Documentation for creating succession boxes can be found at [[Template:S-start/doc]].
+<includeonly>
+[[Category:Succession templates|{{PAGENAME}}]]
+</includeonly>
