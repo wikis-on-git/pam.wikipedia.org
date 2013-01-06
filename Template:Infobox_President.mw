@@ -32,7 +32,7 @@
 {{#if:{{{term_end|}}}
 |<!--then:--> <!--(nothing; term has ended)-->
 |<!--else:--> 
-{{!}}colspan="2" style="text-align:center;"{{!}} '''Assumed&nbsp;office&nbsp;'''<br>{{{term_start}}}
+{{!}}colspan="2" style="text-align:center;"{{!}} '''Linukluk'''<br>{{{term_start}}}
 {{!-}}
 }}
 }}
