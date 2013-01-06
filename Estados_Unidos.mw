@@ -1,58 +1,97 @@
-{{Infobox Country| <!-- START INFOBOX -->
-native_name = United States ning America|
-common_name = United States |
-image_flag = Flag of the United States.svg |
-image_coat = Great Seal of the US.png|20px |
-national_motto = <br /> Official ([[Latin]]): ''[[E pluribus unum]]'' (1789 to 1956)<br />(Translated: "Out of Many, One")<br />''[[In God We Trust]]'' (1956 to present) |
-image_map = United_States_(orthographic_projection).svg |
-national_anthem = ''[[The Star-Spangled Banner]]'' |
-official_languages = [[Languages in the United States|None at federal level]];<br /> [[American English|English]] de facto |
-capital = [[Washington, D.C.]] |latd=38|latm=53|latNS=N|longd=77|longm=02|longEW=W|
-government_type = [[Federal republic]]|
-leader_titles = &nbsp;• [[President of the United States|Pamuntuk]]<br />&nbsp;• [[Vice President of the United States|Kaduang Pamuntuk]] |
-leader_names = [[Barack Obama]] ([[Democratic Party (United States)|D]]) <br />[[Joe Biden]] ([[Democratic Party (United States)|D]]) |
-largest_city = [[New York Lakanbalen]] |
-area = 9,631,418 | 
-area_rank = 3rd|
-area_magnitude = 1 E12|
-percent_water = 4.87 |
-<!-- population estimate from census bureau website http://www.census.gov/population/www/popclockus.html -->
-population_estimate = 299,598,000|
-population_estimate_year = 2006 |
-population_estimate_rank = 3rd|
-population_census = 281,421,906 |
-population_census_year = 2000 |
-population_density = 32<sup>1</sup> |
-population_density_rank = 140th |
-GDP_PPP_year = 2006 |
-GDP_PPP = $13.1 Trillion |
-GDP_PPP_rank = 1st |
-GDP_PPP_per_capita = $39,496 |
-GDP_PPP_per_capita_rank = 3rd |
-HDI_year=2003|
-HDI=0.944|
-HDI_rank=10th|
-HDI_category=<font color="#009900">high</font>|
-sovereignty_type = [[American Revolutionary War|Katimawan]] |
-established_events = &nbsp;• Declared<br />&nbsp;• Recognized
+{{Infobox country
+|conventional_long_name = United States of America
+|common_name            = the United States
+|image_flag             = Flag_of_the_United_States.svg
+|image_coat             = US-GreatSeal-Obverse.svg
+|length                 = 1776–present
+|symbol_type            = Great Seal
+|national_motto         = <!--Please read the talk page before editing these mottos:-->[[In God We Trust]]{{spaces|2}}<small>(official)</small><br />{{lang|la|''[[E pluribus unum|E Pluribus Unum]]''}}{{spaces|2}}<small>(traditional)</small><br /><small>([[Latin]]: Out of Many, One)</small>
+|image_map              = USA orthographic.svg
+|map_width              = 220px
+|national_anthem        = "[[The Star-Spangled Banner]]"<br/><center>[[File:Star Spangled Banner instrumental.ogg]]
+|official_languages     = None at federal level{{Ref label|engoffbox|a|}}
+|languages_type         = [[National language]]
+|languages              = [[American English|English]] (''[[de facto]]''){{Ref label|engfactobox|b|}}
+|capital                = [[Washington, D.C.]]
+|largest_city           = [[New York City]]
+|latd                   = 38|latm=53|latNS=N|longd=77|longm=01|longEW=W
+|government_type        = [[Federalism|Federal]] [[Presidential system|presidential]] [[constitutional republic]],<br>[[Two-party system]]
+|leader_title1          = [[President of the United States|President]]
+|leader_name1           = [[Barack Obama]] ([[Democratic Party (United States)|D]])
+|leader_title2          = [[Vice President of the United States|Vice President]]
+|leader_name2           = [[Joe Biden]] ([[Democratic Party (United States)|D]])
+|leader_title3          = {{nowrap|[[Speaker of the United States House of Representatives|Speaker of the House]]}}
+|leader_name3           = [[John Boehner]] ([[Republican Party (United States)|R]])
+|leader_title4          = [[Chief Justice of the United States|Chief Justice]]
+|leader_name4           = [[John Roberts]]
+|legislature            = [[United States Congress|Congress]]
+|upper_house            = [[United States Senate|Senate]]
+|lower_house            = [[United States House of Representatives|House of Representatives]]
+|sovereignty_type       = [[American Revolutionary War|Independence]]
+|sovereignty_note       = from the [[Kingdom of Great Britain]]
+|established_event1     = [[United States Declaration of Independence|Declared]]
+|established_date1      = July 4, 1776
+|established_event2     = [[Treaty of Paris (1783)|Recognized]]
+|established_date2      = September 3, 1783
+|established_event3     = [[United States Constitution|Current constitution]]
+|established_date3      = June 21, 1788
+|area_footnote          = <ref name="WF"/>{{Ref label|areabox|c|}}
+|area_sq_mi             = 3794101
+|area_km2               = 9826675
+|area_rank              = 3rd/4th
+|area_magnitude         = 1 E12
+|percent_water          = 6.76
+|population_estimate    = {{formatnum:{{data United States | Poptoday }} }}<ref name="POP">{{cite web|url=http://www.census.gov/population/www/popclockus.html|publisher=U.S. Census Bureau|title=U.S. POPClock Projection}} Figure updated automatically.</ref>
+|population_estimate_year = 2012
+|population_estimate_rank = 3rd
+|population_density_km2   = 33.7
+|population_density_sq_mi = 87.4
+|GDP_PPP_year             = 2011
+|GDP_PPP                  = $15.094 trillion<ref name=IMF_GDP>{{cite web|url=http://www.imf.org/external/pubs/ft/weo/2012/01/weodata/weorept.aspx?pr.x=56&pr.y=10&sy=2009&ey=2012&scsm=1&ssd=1&sort=country&ds=.&br=1&c=111&s=NGDPD%2CNGDPDPC%2CPPPGDP%2CPPPPC%2CLP&grp=0&a=|title=United States|publisher=International Monetary Fund|accessdate=April 22, 2012}}</ref>
+|GDP_PPP_rank             = 1st
+|GDP_PPP_per_capita       = $48,386<ref name="IMF_GDP"/>
+|GDP_PPP_per_capita_rank  = 6th
+|GDP_nominal              = $15.094 trillion<ref name="IMF GDP"/>
+|GDP_nominal_rank         = 1st
+|GDP_nominal_year         = 2011
+|GDP_nominal_per_capita   = $48,386<ref name="IMF_GDP"/>
+|GDP_nominal_per_capita_rank = 15th
+|HDI_year                 = 2011
+|HDI                      = {{increase}} 0.910<ref name="HDI">{{cite web|url=http://hdr.undp.org/en/media/HDR_2011_EN_Table1.pdf|title=Human Development Report 2011|year=2011|publisher=United Nations|accessdate=November 5, 2011}}</ref>
+|HDI_rank                 = 4th
+|HDI_category             = <span style="color:#090;">very&nbsp;high</span>
+|EF_year                  = 2007
+|EF                       = {{decrease}} 8.0 gha<ref name="EF">{{cite
+web|url=http://www.footprintnetwork.org/images/uploads/Ecological_Footprint_Atlas_2010.pdf|title=Ecological Footprint Atlas 2010|publisher=Global Footprint Network|accessdate=July 11, 2011}}</ref>
+|EF_rank                  = 6th
+|Gini                     = 45.0<ref name="WF"/>
+|Gini_rank                = 39th
+|Gini_year                = 2007
+|currency                 = [[United States dollar]] ($)
+|currency_code            = USD
+|country_code             = USA
+|utc_offset               = −5 to −10
+|utc_offset_DST           = −4 to −10{{Ref label|UTCbox|e|}}
+|cctld                    = [[.us]] [[.gov]] [[.mil]] [[.edu]]
+|calling_code             = [[North American Numbering Plan|+1]]
+|iso3166code = {{ISO 3166 code United States}}
+|iso3166note = {{Ref label|ISO3166box|f|}}
+|date_format              = mm/dd/yy ([[Anno Domini|AD]])
+|drives_on                = right
+|demonym                  = [[Americans|American]]
+|footnotes                =
+{{note|engoffbox}}a. English is the official language of at least 28 states—some sources give higher figures, based on differing definitions of "official".<ref name=ILW/> English and [[Hawaiian language|Hawaiian]] are both official languages in the state of [[Hawaii]].
 
-[[United States Constitution|'''Constitution''']]<br />&nbsp;• Completed<br />&nbsp;• Ratified<br />&nbsp;• Effective|
-established_dates = From [[Kingdom of Great Britain|the British]]<br /> [[Juliu 4]], [[1776]]<br />[[Septiembri 3]], [[1783]]
+{{note|engfactobox}}b. English is the ''de facto'' language of American government and the sole language spoken at home by 80 percent of Americans age five and older. [[Spanish language in the United States|Spanish is the second most commonly spoken language]].
 
-<br />[[Septiembri 17]], [[1787]]<br />[[Mayu 23]], [[1788]]<br />[[Marsu 4]], [[1789]]|
-currency = [[United States dollar|Dollar]] ($) |
-currency_code = USD |
-country_code = USA |
-time_zone = |
-utc_offset = -5 to -10 |
-time_zone_DST = |
-utc_offset_DST = -4 to -10 |
-cctld = [[.us]] [[.gov]] [[.edu]] [[.mil]] [[.um]] |
-calling_code = 1 |
-HDI = 0.944 |
-HDI_rank = 10th |
-footnotes= <sup>1</sup>In [[U.S. customary units]], the United States has an area of 3,718,711 mi² and a population density of 83/mi² |
-}}
+{{note|areabox}}c. Whether the United States or [[China]] is larger is [[List of countries by area|disputed]]. The figure given is from the U.S. [[Central Intelligence Agency]]'s ''[[The World Factbook]]''. Other sources give smaller figures. All authoritative calculations of the country's size include only the 50 states and the District of Columbia, not the territories.
+
+{{note|popbox}}d. The population estimate is of people whose usual residence is in the fifty states and the District of Columbia, regardless of nationality. It does not include those living in the territories, amounting to more than 4&nbsp;million people (mostly in [[Puerto Rico]]).
+
+{{note|UTCbox}}e. See [[Time in the United States]] for details about laws governing time zones in the United States.
+
+{{note|ISO3166box}}f. Does not include [[Insular area]]s and [[United States Minor Outlying Islands]], which have their own [[ISO 3166]] codes.
+}}<!--
 :''For other meanings, see the disambiguation page for [[US (disambiguation)|US]], [[USA (disambiguation)|USA]] or [[United States (disambiguation)|United States]].''
 
 Ing '''United States of America''' metung yang [[constitution]]al [[federal]] [[republic]], a atiu alus king [[Pangulung America]]. 
@@ -60,15 +99,15 @@ Atin yang 50 [[U.S. state|states]] at metung a [[Washington, D.C.|federal distri
 
 Manibat inyang kalibudtang-20ng dilanwa, kaibat ning [[Meto-Yatung Guerra II]], ing United States linual yang bilang pekadominanting mainpluwensiyang karas keng [[economics|pamagsiasat]], [[Politics of the United States|politika]], [[ukbu]], [[science|siensiya(kabiasnan)]], [[technology|technologiya]], at [[Culture of the United States|kalinangan]] a bage. Uli na ning kayang inpluwensiya, mebilang yang [[superpower]] at kaibat ning [[Cold War]], bilang a [[hyperpower]] kareng aliwa.
 
-Ing bangsa pagmasusian ne ing kayang pangatatag patse [[Juliu 4]], [[1776]], inyang ing pangaduang [[Continental Congress]]—representatikareng [[Thirteen Colonies|labingatlung]] [[British Empire|British]] [[Colony|colonies]]—tinggap de ing [[Declaration of Independence (United States)|Declaration of Independence]] nung nu tatakwil de ing upaya da reng British at ing karelang [[maka-sariling kapagnasan]] ing karelang pepairal.
+Ing bangsa pagmasusian ne ing kayang pangatatag patse [[Juliu 4]], [[1776]], inyang ing pangaduang [[Continental Congress]]—representatikareng  [[Thirteen Colonies|labingatlung]] [[British Empire|British]] [[Colony|colonies]]—tinggap de ing  [[Declaration of Independence (United States)|Declaration of Independence]] nung nu tatakwil de ing upaya da reng British at ing karelang [[maka-sariling kapagnasan]] ing karelang pepairal.
 
-Ing pangabalangkas na ning karelang gubyernu menaliwa inyang 1789, inyang deng estadu elilan de ing [[Articles of Confederation]] at inalili re ing [[United States Constitution]]. Ing petsa na ning pamananggap da reng balang metung kareng 50 estadus ya pin ing "pangalub da king Pamisanmetung' at maging dake ne ning 
+Ing pangabalangkas na ning karelang gubyernu menaliwa inyang  1789, inyang deng estadu elilan de ing [[Articles of Confederation]] at inalili re ing [[United States Constitution]]. Ing petsa na ning pamananggap da reng balang metung kareng 50 estadus ya pin ing "pangalub da king Pamisanmetung' at maging dake ne ning 
 
 == Amlat ==
 {{main|History of the United States}}
 
 === Amlat bayu Misulat ===
-Ing amlat ning America megumpisa inyang mig[[migrate]] la reng tau manibat [[Asia]] at linipat la king [[Bering land bridge]]. [[Indigenous peoples of the Americas#Early history|inyang bayu]] mga 12,000 banuang milabas, mapalyaring kaibat na ning pamanuki da kareng mangaragul a animal a darakpan da king America. Dening [[Native Americans in the United States|Katutubung Americanu]] milakwan lang katibayan king talagan atyu la pauli da reng [[petroglyph]]s, [[burial mound]]s, at aliwa pang [[artifact (archaeology)|artifacts]]. Keng tantya ra mga 2–9 million a katau deng pakatungnang keng sasakupan na ning U.S. ngeni, bayu la mepuksa keng sakit a darala da reng bayung datang a taga-Europa. Deng maluid a sociada ilapin deng [[Anasazi]] na ning maulingalbugan, nung nu la menuknangan king [[Chaco Canyon]] (and built sandstone buildings with up to 5 floors), at ding Woodland Indians, ding ginawa keng [[Cahokia]], a atyu malapit keng kasalungsungan a [[St. Louis]], a syudad atin populasyun a 41,623 inyang keyang pekamatas inyang AD 1200. 
+Ing amlat ning America megumpisa inyang mig[[migrate]] la reng tau manibat [[Asia]] at linipat la king [[Bering land bridge]]. [[Indigenous peoples of the Americas#Early history|inyang bayu]] mga 12,000 banuang milabas, mapalyaring kaibat na ning pamanuki da kareng mangaragul a animal a darakpan da king America. Dening [[Native Americans in the United States|Katutubung Americanu]] milakwan lang katibayan king talagan atyu la pauli da reng [[petroglyph]]s, [[burial mound]]s, at aliwa pang [[artifact (archaeology)|artifacts]]. Keng tantya ra mga 2–9 million a katau deng pakatungnang keng sasakupan na ning U.S. ngeni, bayu la mepuksa keng sakit a darala da reng bayung datang a taga-Europa. Deng maluid a sociada ilapin deng [[Anasazi]] na ning maulingalbugan, nung nu la menuknangan king [[Chaco Canyon]] (and built sandstone buildings with up to 5 floors), at ding Woodland Indians, ding ginawa keng [[Cahokia]], a atyu malapit keng kasalungsungan a  [[St. Louis]], a syudad atin populasyun a 41,623 inyang keyang pekamatas inyang AD 1200. 
 {{USHBS}}
 
 == Politicung Pangadake ==
@@ -223,7 +262,7 @@ Ing United States metung yang [[federation|federal aniban]] da reng limang pulun
 [[bpy:তিলপারাষ্ট্র]]
 [[br:Stadoù-Unanet Amerika]]
 [[bs:Sjedinjene Američke Države]]
-[[bxr:Амеэрикын Нэгэдэһэн Улас]]
+[[bxr:Америка]]
 [[ca:Estats Units d'Amèrica]]
 [[cbk-zam:Estados Unidos de America]]
 [[cdo:Mī-guók]]
@@ -287,7 +326,7 @@ Ing United States metung yang [[federation|federal aniban]] da reng limang pulun
 [[hy:Ամերիկայի Միացյալ Նահանգներ]]
 [[ia:Statos Unite de America]]
 [[id:Amerika Serikat]]
-[[ie:Unit States de America]]
+[[ie:Federativ States de USA]]
 [[ig:Njikota Obodo Amerika]]
 [[ik:United States of America]]
 [[ilo:Estados Unidos iti Amerika]]
@@ -300,7 +339,6 @@ Ing United States metung yang [[federation|federal aniban]] da reng limang pulun
 [[jv:Amérika Sarékat]]
 [[ka:ამერიკის შეერთებული შტატები]]
 [[kaa:Amerika Qurama Shtatları]]
-[[kab:Iwunak Yedduklen]]
 [[kbd:Америкэ Штат Зэгуэт]]
 [[ki:United States]]
 [[kk:Америка Құрама Штаттары]]
@@ -350,7 +388,7 @@ Ing United States metung yang [[federation|federal aniban]] da reng limang pulun
 [[nds:USA]]
 [[nds-nl:Verienigde Staoten van Amerika]]
 [[ne:संयुक्त राज्य अमेरिका]]
-[[new:संयुक्त राज्य अमेरिका]]
+[[new:अमेरिका]]
 [[nl:Verenigde Staten]]
 [[nn:USA]]
 [[no:USA]]
@@ -383,7 +421,7 @@ Ing United States metung yang [[federation|federal aniban]] da reng limang pulun
 [[ru:Соединённые Штаты Америки]]
 [[rue:Споєны Штаты Америцькы]]
 [[rw:Leta Zunze Ubumwe z’Amerika]]
-[[sa:संयुक्तानि राज्यानि]]
+[[sa:अमेरिका संयुक्त संस्थानः]]
 [[sah:Америка Холбоһуктаах Штааттара]]
 [[sc:Istados Unidos de Amèrica]]
 [[scn:Stati Uniti]]
@@ -436,7 +474,7 @@ Ing United States metung yang [[federation|federal aniban]] da reng limang pulun
 [[wa:Estats Unis]]
 [[war:Estados Unidos]]
 [[wo:Diiwaan yu Bennoo]]
-[[wuu:美国]]
+[[wuu:美利坚合众国]]
 [[xal:Америкин Ниицәтә Орн Нутгуд]]
 [[xh:IYunayithedi Steyitsi]]
 [[xmf:ამერიკაშ აკოართაფილი შტატეფი]]
