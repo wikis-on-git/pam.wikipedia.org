@@ -26,7 +26,7 @@
 {{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''In&nbsp;office'''<br>{{{term_start}}}&nbsp;&ndash;&nbsp;{{{term_end}}}
 {{!-}}
 |<!--else:--> <!--term is ongoing-->
-{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Incumbent]]'''
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Makalukluk]]'''
 {{!-}}
 }}
 {{#if:{{{term_end|}}}
