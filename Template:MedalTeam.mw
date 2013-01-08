@@ -1,0 +1,9 @@
+<noinclude>{| class="infobox" style="width: 25em; font-size: 95%;"
+</noinclude>
+|- bgcolor="#eeeeee" class="adr" align=center
+! colspan="3" | '''<span class="country-name">{{{1}}}</span>'''<noinclude>
+|}
+{{documentation|Template:MedalRelatedTemplates}}
+
+[[Category:Medal infobox templates]]
+</noinclude>
