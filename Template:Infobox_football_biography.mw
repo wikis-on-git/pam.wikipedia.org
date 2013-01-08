@@ -235,7 +235,7 @@
 | data63b     = {{#if:{{{totalcaps|}}}{{{totalcaps(goals)|}}}|'''{{{totalcaps|{{{totalcaps(goals)}}} }}}'''}}
 | data63c     = {{#if:{{{totalgoals|}}}|'''({{{totalgoals}}})'''}}
 
-| header64    = {{#if:{{{nationalteam1|{{{nationalteam|}}}}}}|National team{{#if:{{{ntupdate|{{{nationalteam-update|}}}}}}|<sup>‡</sup> }} }}
+| header64    = {{#if:{{{nationalteam1|{{{nationalteam|}}}}}}|Pambangsang koponan{{#if:{{{ntupdate|{{{nationalteam-update|}}}}}}|<sup>‡</sup> }} }}
 
 | label65     = {{#if:{{{clubs1|{{{clubs|}}}}}}||{{#if:{{{nationalyears1|{{{nationalyears|}}}}}}|Banwa}} }}
 | data65a     = {{#if:{{{clubs1|{{{clubs|}}}}}}||{{#if:{{{nationalteam1|{{{nationalteam|}}}}}}|'''Koponan'''}} }}
@@ -366,7 +366,7 @@
 | data116     = {{{managerclubs40|}}}
 
 | header117     = {{Infobox medal templates
-  |title = Honours
+  |title = Galal
   |medals = {{{medaltemplates|}}}
   |expand = {{{medaltemplates-expand|}}}
   }}
