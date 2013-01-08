@@ -1,0 +1,23 @@
+{{#ifexpr: abs( {{formatnum:{{{1|9}}}|R}}0 ) >= abs( {{formatnum:{{{1|9}}}|R}} )|<!--check if n+1/x0 >= n+1/x
+    then-1-is-one-number-->{{{1}}}|<!--
+    else-1-has-fraction-->{{convert/numdisp|{{{1|1+4/5}}}}}<!--
+    -->}}<!--endif n0 >= n
+-->{{
+  #ifexpr:{{formatnum:{{{2|4}}}|R}} < 0
+    |&nbsp;&ndash;&#32;|–}}<!--show range word
+-->{{<!--
+-->#ifexpr: abs( {{formatnum:{{{2|4}}}|R}}0 ) >= abs( {{formatnum:{{{2|4}}}|R}} )|<!--check if m+1/x0 >= m+1/x
+    then-2-is-one-number-->{{{2}}}|<!--
+    else-2-has-fraction-->{{convert/numdisp|{{{2|3+6/7}}}}}<!--
+    -->}}<!--endif#2 n0 >= n
+--> {{#ifexpr:( {{formatnum:{{{2|3/4}}}|R}} ) < 1.0001 and ( {{formatnum:{{{2|3/4}}}|R}} ) > 0|{{
+  #if:{{{u|<noinclude>x</noinclude>}}}|{{{u}}}|{{{n}}} }}|{{
+  #if:{{{u|}}}|{{{u}}}|{{{l|{{{n}}}s}}} }}<!--endif {u} exists
+-->}}<!--endifexpr {2}<1.0001 & {2}>0 --><noinclude>
+
+<br>The '''[[Template:Convert/-/AonSoff]]''' displays a range of numbers with en-dash "&ndash;" and the unit symbol abbreviation (if any), else it displays the unit name, as singular or plural for the 2nd amount. An example of a unit which has no unit symbol is the unit acre, which always shows either "acre" or "acres". This template is used to show either the input range numbers or the output range numbers, which might contain commas or x10 notation.
+
+[[Category:2010 Convert unit subtemplates]]
+[[Category:Subtemplates of Template Convert]]
+
+</noinclude>
