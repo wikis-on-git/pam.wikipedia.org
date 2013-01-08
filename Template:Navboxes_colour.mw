@@ -1,0 +1,20 @@
+{{Navbox
+|navbar = plain
+|bodystyle= text-align: center; clear: both;
+|titlestyle=background: {{{bg|transparent}}}; color:{{{fg|inherit}}}; border: 1px solid {{{bordercolor|#aaa}}};
+|title = {{{title|Links to related articles}}}
+|list1 = {{{list1|{{{list|}}}}}}
+|state={{{state|collapsed}}}
+|liststyle = padding:0px;font-size:111%;
+|listpadding = 0px;
+}}<noinclude>
+
+{{documentation}}
+
+[[Category:Navigational boxes]]
+
+[[bn:টেমপ্লেট:Navboxes colour]]
+[[ko:틀:안내 묶음]]
+[[id:Templat:Navboxes berwarna]]
+[[ms:Templat:Kotak pandu arah berwarna]]
+</noinclude>
