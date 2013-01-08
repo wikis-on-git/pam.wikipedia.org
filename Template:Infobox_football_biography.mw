@@ -17,37 +17,37 @@
 
 | header1     = {{#if:{{{fullname|}}}{{{birth_date|}}}{{{birth_place|}}}{{{dateofbirth|}}}{{{cityofbirth|}}}{{{countryofbirth|}}}{{{death_date|}}}{{{death_place|}}}{{{dateofdeath|}}}{{{cityofdeath|}}}{{{countryofdeath|}}}{{{height|}}}{{{position|}}}|Personal information}}
 
-| label2      = Full name
+| label2      = Kumpletung lagyu
 | data2       = {{{fullname|}}}
 | class2      = nickname
-| label3      = Date of birth
+| label3      = Aldo kebaitan
 | data3       = {{{birth_date|{{{dateofbirth|}}}}}}
-| label4      = Place of birth
+| label4      = Lugal a kebaitan
 | data4       = {{{birth_place|}}}
 | class4      = birthplace
-| label5      = Date of death
+| label5      = Kematyan
 | data5       = {{{death_date|{{{dateofdeath|}}}}}}
-| label6      = Place of death
+| label6      = Lugal a kematyan
 | class6      = deathplace
 | data6       = {{{death_place|}}}
-| label7      = Height
+| label7      = Katas
 | data7       = {{{height|}}}
-| label8      = Playing position
+| label8      = Pusisyun king pamamyalung
 | class8      = role
 | data8       = {{{position|}}}
 
 | header9     = {{#if:{{{currentclub|}}}|Club information}}
 
-| label10     = Current club
+| label10     = Kasalungsungan a club
 | class10     = org
 | data10      = {{{currentclub|}}}
-| label11     = Number
+| label11     = Bilang
 | data11      = {{{clubnumber|}}}
 
 | header12    = {{#if:{{{youthclubs1|{{{youthclubs|}}}}}}|Youth career}}
 
-| label13     = {{#if:{{{clubs1|{{{clubs|}}}}}}||{{#if:{{{youthyears1|{{{youthyears|}}}}}}|Years}} }}
-| data13      = {{#if:{{{clubs1|{{{clubs|}}}}}}||{{#if:{{{youthclubs1|{{{youthclubs|}}}}}}|'''Team'''}} }}
+| label13     = {{#if:{{{clubs1|{{{clubs|}}}}}}||{{#if:{{{youthyears1|{{{youthyears|}}}}}}|Banwa}} }}
+| data13      = {{#if:{{{clubs1|{{{clubs|}}}}}}||{{#if:{{{youthclubs1|{{{youthclubs|}}}}}}|'''Koponan'''}} }}
 
 | label14     = {{#if:{{{youthclubs|}}}|<span style="line-height:1.7em">}}{{#if:{{{youthclubs1|{{{youthclubs|}}}}}}|<span style="font-weight:normal">{{{youthyears1|{{{youthyears|–}}}}}}</span>}}
 | data14      = {{#if:{{{youthclubs|}}}|<span style="line-height:1.7em">}}{{{youthclubs1|{{{youthclubs|}}}}}}
@@ -237,8 +237,8 @@
 
 | header64    = {{#if:{{{nationalteam1|{{{nationalteam|}}}}}}|National team{{#if:{{{ntupdate|{{{nationalteam-update|}}}}}}|<sup>‡</sup> }} }}
 
-| label65     = {{#if:{{{clubs1|{{{clubs|}}}}}}||{{#if:{{{nationalyears1|{{{nationalyears|}}}}}}|Years}} }}
-| data65a     = {{#if:{{{clubs1|{{{clubs|}}}}}}||{{#if:{{{nationalteam1|{{{nationalteam|}}}}}}|'''Team'''}} }}
+| label65     = {{#if:{{{clubs1|{{{clubs|}}}}}}||{{#if:{{{nationalyears1|{{{nationalyears|}}}}}}|Banwa}} }}
+| data65a     = {{#if:{{{clubs1|{{{clubs|}}}}}}||{{#if:{{{nationalteam1|{{{nationalteam|}}}}}}|'''Koponan'''}} }}
 | data65b     = {{#if:{{{clubs1|{{{clubs|}}}}}}||{{#if:{{{nationalcaps(goals)1|{{{nationalcaps(goals)|}}}}}}|'''Apps (Gls)<sup>†</sup>'''|'''Apps<sup>†</sup>'''}} }}
 | data65c     = {{#if:{{{goals1|{{{goals|}}}}}}||{{#if:{{{nationalcaps(goals)1|{{{nationalcaps(goals)|}}}}}}||'''(Gls)<sup>†</sup>'''}} }}
 
@@ -281,8 +281,8 @@
 
 | header75    = {{#if:{{{managerclubs1|{{{managerclubs|}}}}}}|Teams managed}}
 
-| label76     = {{#if:{{{clubs1|{{{clubs|}}}}}}||{{#if:{{{managerclubs1|{{{managerclubs|}}}}}}|Years}} }}
-| data76a     = {{#if:{{{clubs1|{{{clubs|}}}}}}||{{#if:{{{manageryears1|{{{manageryears|}}}}}}|'''Team'''}} }}
+| label76     = {{#if:{{{clubs1|{{{clubs|}}}}}}||{{#if:{{{managerclubs1|{{{managerclubs|}}}}}}|Banwa}} }}
+| data76a     = {{#if:{{{clubs1|{{{clubs|}}}}}}||{{#if:{{{manageryears1|{{{manageryears|}}}}}}|'''Koponan'''}} }}
 
 | label77     = {{#if:{{{managerclubs|}}}|<span style="line-height:1.7em">}}{{#if:{{{managerclubs1|{{{managerclubs|}}}}}}|<span style="font-weight:normal">{{{manageryears1|{{{manageryears|–}}}}}}</span>}}
 | data77      = {{#if:{{{managerclubs|}}}|<span style="line-height:1.7em">}}{{{managerclubs1|{{{managerclubs|}}}}}}
