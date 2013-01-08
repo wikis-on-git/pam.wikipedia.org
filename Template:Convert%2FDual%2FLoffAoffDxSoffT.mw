@@ -1,0 +1,353 @@
+<!--
+-==============================================================
+- Convert/Dual/LoffAoffDxSoffT - Convert temperature range
+-==============================================================
+--                               (see NOTES at bottom)
+-->{{
+#ifeq:{{{disp|b}}}|output only|<!--then skip-->|<!--else--
+-->{{#ifeq:{{{disp|b}}}|output number only|<!--then skip--
+-->|<!--------------------------- else-show-inputs--
+-->{{convert/{{{2|to}}}/{{
+     #switch:{{{abbr|on}}}
+     | on|in|mos = Aon
+     | off|none|out = Aoff
+     | #default = A{{{abbr|off}}}
+     }}<!--endswitch abbr-->{{
+     #switch:{{{adj|off}}}
+     | off = Soff
+     | on|mid = Son
+     }}<!--endswitch adj--
+  -->|{{{1|10+1/9}}}|<!--
+  -->{{{3|20+1/34}}}<!--
+  -->|u= {{#switch:{{{4|F}}}
+       | C-change|F-change|°C-change|°F-change = {{
+       <!--check to wikilink unit "-change" -->
+       #switch:{{{lk|off}}}<!--parameter lk=xxx-->
+       | off | out = {{{u}}}
+       | on | in = [[{{{t|{{{u}}}}}}|{{{u}}}]]
+       }}<!--endswitch lk #1a -->
+       | #default = {{
+       <!--check to wikilink unit-symbol-->
+       #switch:{{{lk|off}}}<!--parameter lk=xxx-->
+       | off | out = {{{u}}}
+       | on | in = [[{{{t|{{{u}}}}}}|{{{u}}}]]
+       }}<!--endswitch lk #1b -->
+     }}<!--endswitch {4}#1 --
+  ------------------------------ Generate n, l & h
+  -- (need name words because not in Convert/F, etc.)
+  -->|n= {{<!--check to wikilink unit-name-->
+     #switch:{{{lk|off}}}
+     | off|out={{#ifeq:{{{u}}}|K||<!--else-->degree&#32;}}{{{t}}}
+     | on |in = {{#ifeq:{{{u}}}|K||<!--else-->degree&#32;}}<!--
+       -->[[{{{t|temperature}}}|{{{t}}}]]
+     }}<!--endswitch lk #2--
+  -->|l= {{<!--check to wikilink unit-plural-->
+     #switch:{{{lk|off}}}
+     | off|out={{#ifeq:{{{u}}}|K|kelvins|<!--
+       else-->degrees {{{t}}}}}
+     | on |in = {{#ifeq:{{{u}}}|K|[[{{{t}}}|kelvins]]|<!--
+       else-->degrees [[{{{t|temperature}}}|{{{t}}}]]}}
+     }}<!--endswitch lk #3--
+  -->|h= {{<!--check to wikilink unit-hyphenated-->
+     #switch:{{{lk|off}}}
+     | off|out={{#ifeq:{{{u}}}|K|kelvin|<!--
+       else-->degrees-{{{t}}}}}
+     | on |in = {{#ifeq:{{{u}}}|K|[[{{{t}}}|kelvin]]|<!--
+       else-->degree-[[{{{t|temperature}}}|{{{t}}}]]}}
+     }}<!--endswitch lk #4--
+-->}}<!--endconvert/{2}/Ao*So*--
+  ============================================== check mid-text
+  -->{{#if:{{{midtext|<noinclude>-rise</noinclude>}}}|<!--
+    -->{{#ifeq:{{padleft:|1|{{{midtext|-r}}} }}|-<!--has hyphen
+      --then-->|{{{midtext|-rise}}}<!--append as dashed
+      --else-->|&#32;{{{midtext|rise}}}<!--append with space
+    -->}}<!--endifeq-hyphen
+  -->}}<!--endif midtext used
+  ============================================== put separator
+  -->{{{sep| (}}}<!--" (" or "," etc.
+  -->}}<!--endif disp=output number only--
+-->}}<!--endif disp=output only--
+-->{{#switch:{{{4|°F}}}<!--Select output: s is rounding -->
+| C|°C= {{#ifeq:{{{u|°F}}}|°F|<!--then convert from Farenheit--
+    -->{{#expr:({{{1|10}}}-32.0)*5/9 {{#ifexpr: <!--
+      -->  {{{s|0.5+6}}}*0=0.5|<!--then-check-sigfig-->{{
+        #ifexpr:{{{s|6}}} > 0.5 |<!--then-round-sigfig-
+        -->round({{{s|6}}}-{{Order of magnitude|({{{1|10}}}-32)*5/9}}-1.5)<!--
+        -->|<!--else-default--> round ({{{s|1}}} )<!--
+        -->}}<!--endif s>0.5
+      -->|<!--else-round-by-s--> round ({{{s|1}}} ) <!--
+      -->}}<!--endif s*0=0.5--
+    -->}}<!--endexpr ({1}-32)*5/9-->{{
+    #switch:{{{2|x}}}<!-- -----------------------range word-->
+      | x|xx = {{#ifeq:{{{adj|off}}}|off|&nbsp;×&#32;|-×-}}
+      | - = &ndash;
+      | #default = {{
+         #ifeq:{{{adj|off}}}|off|&nbsp;{{{2}}}&#32;|-{{{2}}}-}}
+    }}<!--endswitch {2}
+    -->{{#expr:({{{3|20}}}-32.0)*5/9 {{#ifexpr: <!--
+      -->  {{{s|0.5+6}}}*0=0.5|<!--then-check-sigfig-->{{
+        #ifexpr:{{{s|6}}} > 0.5 |<!--then-round-sigfig-
+        -->round({{{s|6}}}-{{Order of magnitude|({{{3|20}}}-32)*5/9}}-1.5)<!--
+        -->|<!--else-default--> round ({{{s|1}}} )<!--
+        -->}}<!--endif s>0.5
+      -->|<!--else-round-by-s--> round ({{{s|1}}} ) <!--
+      -->}}<!--endif s*0=0.5--
+    -->}}<!--endexpr ({3}-32)*5/9--
+  else-->|<!--convert from Kelvin--
+    -->{{#expr:( {{{1|1}}}-273.15 ) {{#ifexpr: <!--
+      --> {{{s|0.5+6}}}*0=0.5|<!--then-check-sigfig-->{{
+        #ifexpr:{{{s|6}}} > 0.5 |<!--then-round-sigfig-
+        -->round({{{s|6}}}-{{Order of magnitude|{{{1|10}}}-273.15}}-1.5)<!--
+        -->|<!--else-default--> round ({{{s|1}}} )<!--
+        -->}}<!--endif s>0.5
+      -->|<!--else-round-by-s--> round ({{{s|1}}} ) <!--
+      -->}}<!--endif s*0=0.5--
+    -->}}<!--endexpr {1}-273.15-->{{
+    #switch:{{{2|x}}}<!-- -----------------------range word-->
+      | x|xx = {{#ifeq:{{{adj|off}}}|off|&nbsp;×&#32;|-×-}}
+      | - = &ndash;
+      | #default = {{
+         #ifeq:{{{adj|off}}}|off|&nbsp;{{{2}}}&#32;|-{{{2}}}-}}
+    }}<!--endswitch {2}
+    -->{{#expr:( {{{3|9}}}-273.15 ) {{#ifexpr: <!--
+      --> {{{s|0.5+6}}}*0=0.5|<!--then-check-sigfig-->{{
+        #ifexpr:{{{s|6}}} > 0.5 |<!--then-round-sigfig-
+        -->round({{{s|6}}}-{{Order of magnitude|{{{3|20}}}-273.15}}-1.5)<!--
+        -->|<!--else-default--> round ({{{s|1}}} )<!--
+        -->}}<!--endif s>0.5
+      -->|<!--else-round-by-s--> round ({{{s|1}}} ) <!--
+      -->}}<!--endif s*0=0.5--
+    -->}}<!--endexpr {3}-273.15--
+  -->}}<!--endif {u}=F-->
+| F|°F= {{#ifeq:{{{u|°C}}}|°C|<!--then convert from Celsius--
+    -->{{#expr:( ({{{1|1}}})*9/5 +32) {{#ifexpr:<!--
+      --> {{{s|0.5+6}}}*0=0.5|<!--then-check-sigfig-->{{
+        #ifexpr:{{{s|6}}} > 0.5 |<!--then-round-sigfig-
+        -->round({{{s|6}}}-{{Order of magnitude|(({{{1|9}}})*9/5+32)}}-1.5)<!--
+        -->|<!--else-default--> round ({{{s|1}}} )<!--
+        -->}}<!--endif s>0.5
+      -->|<!--else-round-by-s--> round ({{{s|1}}} ) <!--
+      -->}}<!--endif s*0=0.5--
+    -->}}<!--endexpr ({1}*9/5+32-->{{
+    #switch:{{{2|x}}}<!-- -----------------------range word-->
+      | x|xx = {{#ifeq:{{{adj|off}}}|off|&nbsp;×&#32;|-×-}}
+      | - = &ndash;
+      | #default = {{
+         #ifeq:{{{adj|off}}}|off|&nbsp;{{{2}}}&#32;|-{{{2}}}-}}
+    }}<!--endswitch {2}
+    -->{{#expr:( ({{{3|9}}})*9/5 +32) {{#ifexpr:<!--
+      --> {{{s|0.5+6}}}*0=0.5|<!--then-check-sigfig-->{{
+        #ifexpr:{{{s|6}}} > 0.5 |<!--then-round-sigfig-
+        -->round({{{s|6}}}-{{Order of magnitude|(({{{3|9}}})*9/5+32)}}-1.5)<!--
+        -->|<!--else-default--> round ({{{s|1}}} )<!--
+        -->}}<!--endif s>0.5
+      -->|<!--else-round-by-s--> round ({{{s|1}}} ) <!--
+      -->}}<!--endif s*0=0.5--
+    -->}}<!--endexpr ({3}*9/5+32--
+  else-->|<!--convert from Kelvin--
+    -->{{#expr:(({{{1|1}}}-273.15)*9/5+32) {{#ifexpr:<!--
+      --> {{{s|0.5+6}}}*0=0.5|<!--then-check-sigfig-->{{
+        #ifexpr:{{{s|6}}} > 0.5 |<!--then-round-sigfig-
+        -->round({{{s|6}}}-{{Order of magnitude|(({{{1|1}}}-273.15)*9/5+32)}}-1.5)<!--
+        -->|<!--else-default--> round ({{{s|1}}} )<!--
+        -->}}<!--endif s>0.5
+      -->|<!--else-round-by-s--> round ({{{s|1}}} ) <!--
+      -->}}<!--endif s*0=0.5--
+    -->}}<!--endexpr ({1}-273~)*9/5+32-->{{
+    #switch:{{{2|x}}}<!-- -----------------------range word-->
+      | x|xx = {{#ifeq:{{{adj|off}}}|off|&nbsp;×&#32;|-×-}}
+      | - = &ndash;
+      | #default = {{
+         #ifeq:{{{adj|off}}}|off|&nbsp;{{{2}}}&#32;|-{{{2}}}-}}
+    }}<!--endswitch {2}
+    -->{{#expr:(({{{3|9}}}-273.15)*9/5+32) {{#ifexpr:<!--
+      --> {{{s|0.5+6}}}*0=0.5|<!--then-check-sigfig-->{{
+        #ifexpr:{{{s|6}}} > 0.5 |<!--then-round-sigfig-
+        -->round({{{s|6}}}-{{Order of magnitude|({{{3|9}}}-273.15)*9/5+32}}-1.5)<!--
+        -->|<!--else-default--> round ({{{s|1}}} )<!--
+        -->}}<!--endif s>0.5
+      -->|<!--else-round-by-s--> round ({{{s|1}}} ) <!--
+      -->}}<!--endif s*0=0.5--
+    -->}}<!--endexpr ({3}-273~)*9/5+32--
+  -->}}<!--endif {u}=C-->
+| K|°K= {{#expr:( {{{b|0}}} ) {{#ifexpr:<!--
+      --> {{{s|0.5+6}}}*0=0.5|<!--then-check-sigfig-->{{
+        #ifexpr:{{{s|6}}} > 0.5 |<!--then-round-sigfig-
+        -->round( {{{s|6}}}-{{Order of magnitude| {{{b|0}}} }}-1.5)<!--
+        -->|<!--else-default--> round ({{{s|1}}} )<!--
+        -->}}<!--endif s>0.5
+      -->|<!--else-round-by-s--> round ({{{s|1}}} ) <!--
+      -->}}<!--endif s*0=0.5--
+    -->}}<!--endexpr {b}-->{{
+    #switch:{{{2|x}}}<!-- -----------------------range word-->
+      | x|xx = {{#ifeq:{{{adj|off}}}|off|&nbsp;×&#32;|-×-}}
+      | - = &ndash;
+      | #default = {{
+         #ifeq:{{{adj|off}}}|off|&nbsp;{{{2}}}&#32;|-{{{2}}}-}}
+    }}<!--endswitch {2}
+  -->{{#expr:( {{{b|0}}} + ({{{3|9}}}-{{{1}}}) {{<!--
+    -->#ifeq:{{{o}}}|°C|<!--then F-to-C--> * 9/5 +32.0<!--
+    -->}}<!--endif o=°C-->) {{#ifexpr:<!--
+      --> {{{s|0.5+6}}}*0=0.5|<!--then-check-sigfig-->{{
+        #ifexpr:{{{s|6}}} > 0.5 |<!--then-round-sigfig-
+        -->round( {{{s|6}}}-{{Order of magnitude|{{{b|0}}}+({{{3|9}}}-{{{1}}})}}-1.5)<!--
+        -->|<!--else-default--> round ({{{s|1}}} )<!--
+        -->}}<!--endif s>0.5
+      -->|<!--else-round-by-s--> round ({{{s|1}}} ) <!--
+      -->}}<!--endif s*0=0.5--
+    -->}}<!--endexpr {b}+( {3}-{1} )-->
+| C-change|°C-change = {{#expr:( ({{{1|1}}} )*5/9 ) {{#ifexpr:<!--
+      --> {{{s|0.5+6}}}*0=0.5|<!--then-check-sigfig-->{{
+        #ifexpr:{{{s|6}}} > 0.5 |<!--then-round-sigfig-
+        -->round( {{{s|6}}}-{{Order of magnitude| {{{1|1}}} }}-1.5)<!--
+        -->|<!--else-default--> round ({{{s|1}}} )<!--
+        -->}}<!--endif s>0.5
+      -->|<!--else-round-by-s--> round ({{{s|1}}} ) <!--
+      -->}}<!--endif s*0=0.5--
+    -->}}<!--endexpr {b}-->{{
+    #switch:{{{2|x}}}<!-- -----------------------range word-->
+      | x|xx = {{#ifeq:{{{adj|off}}}|off|&nbsp;×&#32;|-×-}}
+      | - = &ndash;
+      | #default = {{
+         #ifeq:{{{adj|off}}}|off|&nbsp;{{{2}}}&#32;|-{{{2}}}-}}
+    }}<!--endswitch {2}
+  -->{{#expr:( {{{3|9}}} )*5/9 {{<!--
+      -->#ifexpr:<!--
+      --> {{{s|0.5+6}}}*0=0.5|<!--then-check-sigfig-->{{
+        #ifexpr:{{{s|6}}} > 0.5 |<!--then-round-sigfig-
+        -->round( {{{s|6}}}-{{Order of magnitude|{{{3|9}}}}}-1.5)<!--
+        -->|<!--else-default--> round ({{{s|1}}} )<!--
+        -->}}<!--endif s>0.5
+      -->|<!--else-round-by-s--> round ({{{s|1}}} ) <!--
+      -->}}<!--endif s*0=0.5--
+    -->}}<!--endexpr {3}*5/9-->
+| F-change|°F-change = {{#expr:( ( {{{1|1}}} )*1.8 ) {{<!--
+      -->#ifexpr:<!--
+      --> {{{s|0.5+6}}}*0=0.5|<!--then-check-sigfig-->{{
+        #ifexpr:{{{s|6}}} > 0.5 |<!--then-round-sigfig-
+        -->round( {{{s|6}}}-1.5)<!--
+        -->|<!--else-default--> round ({{{s|1}}} )<!--
+        -->}}<!--endif s>0.5
+      -->|<!--else-round-by-s--> round ({{{s|1}}} ) <!--
+      -->}}<!--endif s*0=0.5--
+    -->}}<!--endexpr {b}-->{{
+    #switch:{{{2|x}}}<!-- -----------------------range word-->
+      | x|xx = {{#ifeq:{{{adj|off}}}|off|&nbsp;×&#32;|-×-}}
+      | - = &ndash;
+      | #default = {{
+         #ifeq:{{{adj|off}}}|off|&nbsp;{{{2}}}&#32;|-{{{2}}}-}}
+    }}<!--endswitch {2}
+  -->{{#expr:( {{{3|9}}} )*1.8 <!--
+    -->{{#ifexpr:<!--
+      --> {{{s|0.5+6}}}*0=0.5|<!--then-check-sigfig-->{{
+        #ifexpr:{{{s|6}}} > 0.5 |<!--then-round-sigfig-
+        -->round( {{{s|6}}}-1.5)<!--
+        -->|<!--else-default--> round ({{{s|1}}} )<!--
+        -->}}<!--endif s>0.5
+      -->|<!--else-round-by-s--> round ({{{s|1}}} ) <!--
+      -->}}<!--endif s*0=0.5--
+    -->}}<!--endexpr {3}*1.8--
+-------------------------------------------- -->
+| #default=<br>'''[[Template:Convert/Dual/LoffAoffDxSoffT]]<!--
+  --><br>&nbsp; - Invalid output type''' {4}="{{{4|Nul}}}", in <!--
+  -->{<font/>{Convert&#124;{{uncomma|{{{1|4,555}}}|x}}<!--
+  -->&#124;{{{2}}}&#124;{{formatnum:{{{3|6,888}}}|R}}<!--
+  -->&#124;{{{4}}}&#124;...}<font/>}.
+}}<!--endswitch {4}--
+-->{{#ifeq:{{{disp|b}}}|output number only|<!--then skip--
+-->|<!--============================= else-show-output-unit--
+  -->{{#switch:{{{abbr|on}}}<!--branch by abbr=xxx-->
+| none|in = <!--
+  -->{{#switch:{{{lk|off}}}<!--wikilink by lk=xxx-->
+    | off | in = &nbsp;<!--
+    -->{{#switch:{{{4|°C}}}
+      | C|°C = degrees Celsius
+      | F|°F = degrees Fahrenheit
+      | K|°K = kelvins
+      | C-change|°C-change = degrees Celsius change
+      | F-change|°F-change = degrees Fahrenheit change
+      }}<!--endswitch {4}-->
+    | out | on = &nbsp;<!--
+    -->{{#switch:{{{4|°C}}}
+      | C|°C = [[Celsius|degrees Celsius]]
+      | F|°F = [[Fahrenheit|degrees Fahrenheit]]
+      | C-change|°C-change = [[Celsius|degrees Celsius change]]
+      | F-change|°F-change = [[Fahrenheit|degrees Fahrenheit change]]
+      | K|°K = [[kelvins]]
+      }}<!--endswitch {4}-- --
+    -->}}<!--endswitch lk-->
+| off|on|out|mos = <!--
+  -->{{#switch:{{{lk|off}}}<!--wikilink by lk=xxx-->
+    | off | in = &nbsp;<!--
+    -->{{#switch:{{{4|°C}}}
+      | C|°C = °C
+      | F|°F = °F
+      | K|°K = K
+      | C-change|°C-change = °C
+      | F-change|°F-change = °F
+      }}<!--endswitch {4}-->
+    | out | on = &nbsp;<!--
+    -->{{#switch:{{{4|°C}}}
+      | C|°C = [[Celsius|°C]]
+      | F|°F = [[Fahrenheit|°F]]
+      | K|°K = [[kelvins|K]]
+      | C-change|°C-change = [[Celsius|°C]]
+      | F-change|°F-change = [[Fahrenheit|°F]]
+      }}<!--endswitch {4}-- --
+    -->}}<!--endswitch lk--
+  -->}}<!--endswitch abbr--
+  -->{{#ifeq:{{{disp|b}}}|b|)}}<!--ending ")" for disp=b
+-->}}<!--endif disp=output number only--
+--><noinclude><!--
+==============================================================
+--NOTES
+--   This template shows the input range and output range,
+--   converting the temperatures depending on units given
+--   in parameters: {{{u}}} input, {{{4}}} output C, F or K.
+--   It does not handle the Rankin scale.
+--
+--
+-- NOTE N2: The names of units follow the [[NIST]] names in
+--      the SI system ([[International System of Units]]),
+--      with: degree Celsius, degree Fahrenheit & kelvin.
+--      See: http://physics.nist.gov/cuu/Units/units.html
+--      for the names, symbols & derived units.
+--
+--------------------------------------------------------------
+--HISTORY:
+--21Oct09 Created for all temperature ranges & separators.
+--03Nov09 Changed to show ndash when {2}=hyphen else " {2} ".
+--16Nov09 Allow non-abbreviated: abbr=none, abbr=in, abbr=out.
+--17Nov09 Source: http://physics.nist.gov/cuu/Units/units.html
+--17Nov09 Set names: lowercase "kelvin", "degree Celsius" etc.
+--13Feb10 Fixed to handle sigfig=5 or round-parameter in {s}.
+--13Feb10 Confirmed "round" always chops trailing zeroes.
+--13Feb10 Fixed sigfig=n by subtracting default rounding of 0.5.
+--13Feb10 Fixed sigfig=n by using {ordomag} of calculated result.
+--14Feb10 Fixed sigfig=n for C-to-F by using "( )" in {ordomag}.
+--05Mar10 Fixed to allow output unit specified with &deg symbol.
+--05Mar10 Fixed to allow option abbr=on.
+--05Mar10 Fixed to display fractions not sums as "2+1/3" etc.
+--06Mar10 Fixed 6 unopened comments "<--" for option abbr=none.
+--06Mar10 Fixed to show "K" for kelvins by using parameter {4}.
+--06Mar10 Linked symbols to Celsius, Fahrenheit or kelvins.
+--06Mar10 Changed abbr=none to not abbreviate output units.
+--06Mar10 Added abbr=mos as same as abbr=on.
+--02Apr10 Fixed to handle range word "xx" as with "to" or "by".
+--02Apr10 Added midtext after input units.
+--28May10 Fixed to allow adj=mid (for midtext).
+--28May10 Omitted Convert/numdisp, now in Convert/to/AonSoff.
+--15Aug10 Added C-change to convert to F-change degrees.
+--15Aug10 Added F-change to convert to C-change degrees.
+--16Aug10 Shows "-change" on input unit for F/C-change degrees.
+--25Aug10 Fixed F-change to convert to C-change degrees.
+--14Feb11 Fixed plural as "degrees" (with "s") when lk=on.
+--
+-->
+[[Category:2009 Convert unit subtemplates]]
+[[Category:Subtemplates of Template Convert]]
+</noinclude>{{
+  #ifeq: {{{1|32}}}|3501.6|<!--
+--><br>DEBUG: P1={{{1|P1}}} P2={{{2|P2}}} P3={{{3|P3}}} P4={{{4|P4}}} <br>{{in5|12}}o={{{o|o}}} s={{{s|Nul}}}&nbsp; b={{{b|Nul}}} c={{{c|Nul}}} }}<!--endif P1=3501.6--><noinclude>
+[[pt:Predefinição:Convert/Dual/LoffAoffDxSoffT]]
+</noinclude>
