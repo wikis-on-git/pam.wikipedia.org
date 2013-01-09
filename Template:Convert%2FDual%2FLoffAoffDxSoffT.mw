@@ -349,5 +349,21 @@
 </noinclude>{{
   #ifeq: {{{1|32}}}|3501.6|<!--
 --><br>DEBUG: P1={{{1|P1}}} P2={{{2|P2}}} P3={{{3|P3}}} P4={{{4|P4}}} <br>{{in5|12}}o={{{o|o}}} s={{{s|Nul}}}&nbsp; b={{{b|Nul}}} c={{{c|Nul}}} }}<!--endif P1=3501.6--><noinclude>
+[[ar:قالب:Convert/Dual/LoffAoffDbSoffT]]
+[[as:সাঁচ:Convert/Dual/LoffAoffDbSoffT]]
+[[en:Template:Convert/Dual/LoffAoffDxSoffT]]
+[[fa:الگو:Convert/Dual/LoffAoffDxSoffT]]
+[[gu:ઢાંચો:Convert/Dual/LoffAoffDbSoffT]]
+[[hi:साँचा:Convert/Dual/LoffAoffDxSoffT]]
+[[id:Templat:Convert/Dual/LoffAoffDxSoffT]]
+[[km:ទំព័រគំរូ:Convert/Dual/LoffAoffDxSoffT]]
+[[ml:ഫലകം:Convert/Dual/LoffAoffDxSoffT]]
+[[ne:ढाँचा:Convert/Dual/LoffAoffDxSoffT]]
 [[pt:Predefinição:Convert/Dual/LoffAoffDxSoffT]]
+[[sco:Template:Convert/Dual/LoffAoffDxSoffT]]
+[[sl:Predloga:Convert/Dual/LoffAoffDxSoffT]]
+[[sw:Kigezo:Convert/Dual/LoffAoffDxSoffT]]
+[[te:మూస:Convert/Dual/LoffAoffDxSoffT]]
+[[vi:Bản mẫu:Convert/Dual/LoffAoffDxSoffT]]
+[[zh:Template:Convert/Dual/LoffAoffDxSoffT]]
 </noinclude>
