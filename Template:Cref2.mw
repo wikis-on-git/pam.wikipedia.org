@@ -1,4 +1,22 @@
 <sup id="ref_{{urlencode:{{anchorencode:{{{1}}}}}}}{{#if:{{{group|}}}|_grp_{{urlencode:{{anchorencode:{{{group}}}}}}}}}_{{urlencode:{{anchorencode:{{{2|1}}}}}}}" class="reference">[[#cnote_{{anchorencode:{{{1}}}}}{{#if:{{{group|}}}|_grp_{{anchorencode:{{{group}}}}}}}|[{{{1}}}]]]</sup><noinclude>
 {{Documentation}}
 [[ar:قالب:محتوى مرجعي2]]
+[[arz:قالب:Cref2]]
+[[as:সাঁচ:Cref2]]
+[[bn:টেমপ্লেট:Cref2]]
+[[bs:Šablon:Cref2]]
+[[ca:Plantilla:Cref2]]
+[[diq:Şablon:Cref2]]
+[[en:Template:Cref2]]
+[[fa:الگو:Cref2]]
+[[id:Templat:Cref2]]
+[[ja:Template:Cref2]]
+[[mk:Шаблон:Cref2]]
+[[ml:ഫലകം:Cref2]]
+[[ms:Templat:Cref2]]
+[[sh:Šablon:Cref2]]
+[[ta:வார்ப்புரு:Cref2]]
+[[te:మూస:Cref2]]
+[[tpi:Templet:Cref2]]
+[[war:Batakan:Cref2]]
 </noinclude>
