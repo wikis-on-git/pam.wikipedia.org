@@ -1,0 +1,11 @@
+{{convert/{{{4}}}|{{{1}}}|-|{{{3}}}<!--
+-->|{{#ifeq:{{#expr:({{{5}}}+0)*0}}|0|def|{{{5}}}}}<!--param. 4
+-->|{{{6|}}}<!--set parameter 5--
+-->|{{{7|}}}<!--set parameter 6--
+-->|s=({{#ifeq:{{#expr:({{{5|a}}})*0}}|0|{{{5}}}|{{#ifeq:{{#expr:({{{6|a}}})*0}}|0|{{{6}}}|{{#ifeq:{{#expr:({{{8|a}}})*0}}|0|{{{8}}}|0.5}} }} }})+(0{{{s}}})<!--set precision as numeric {5},{6} or {8}
+-->|r={{{r}}}|d=Dual/{{{d}}}}}<noinclude>
+
+<br>The [[Template:Convert/-]] (for ranges using "-") is invoked as the first template below {Convert}, for converting ranges such as {Convert|2|-|4|ft|m}. It immediately invokes Convert/{4}, for the input unit {4}, passing the range of input numbers as "{1}|-|{3}". Having obtained all 8 parameters, {1}|-|{3}...{8}, it sets the precision "s" from either parameter {5}, {6} or {8} (depending on whichever is the numeric round-number); otherwise, the precision is set as: <nowiki>s=(0.5)+(0{{{s}}})</nowiki>. It passes {d} down as Dual/{d} to invoke subtemplate Convert/Dual/{d} which displays the dual-range (rather than a typical single amount). For any customization, such as disp=x, the parameters {6} and {7} are passed as {5} and {6} (or null if none).
+
+[[Category:Subtemplates of Template Convert]]
+</noinclude>
