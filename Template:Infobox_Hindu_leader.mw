@@ -1,0 +1,54 @@
+{{Infobox
+|abovestyle=background: #FF9933;
+|above= {{{name}}}
+| image      = {{#if:{{{image|}}}|[[File:{{{image}}}|{{px|{{{image_size|{{{imagesize|}}}}}}|frameless}}|alt={{{alt|}}}]]}}
+| caption    = {{{caption|}}}
+|label1=Mibait
+|data1= {{br separated entries|{{{birth_name|}}}|{{{birth_date|}}}|{{{birth_place|}}}}}
+
+|label2=Mete
+|data2=  {{br separated entries|{{{death_date|}}}|{{{death_place|}}}}}
+
+|label3=Nasyonalidad
+|data3={{{nationality|}}} 
+
+|label4=Titulu/galal
+|data4= {{{honors|}}}
+
+|label5=Talatátag ning
+|data5={{{founder|}}}
+
+|label6=Sekta nung nu ya makikilala
+|data6={{{sect|}}}
+
+|label7=Orden
+|data7={{{order|}}}
+
+|label8= Guru
+|data8= {{{guru|}}}
+
+|label9=Pilosopiya
+|data9= {{{philosophy|}}}
+
+|label10 = Obrang pangkasulatan
+|data10 = {{{Literary works|}}}
+
+|label11= Sikat a disipulus
+|data11= {{{disciple|{{{disciples|}}}}}}
+
+|data12      = {{#if:{{{influenced|}}}|
+{{Collapsible list
+| title       = Impluwensya kang
+| frame_style = border: none; padding: 0;
+| list_style  = text-align: center;
+| 1           = {{{influenced}}}
+}}
+}}
+
+|label13=Quotation
+|data13= {{{quote|}}}
+
+|label14=Pirma
+|data14={{#if:{{{signature|}}}|[[File:{{{signature}}}|200px|alt={{{signature_alt|}}}]]}}
+|below= {{{footnotes|}}}
+}}<noinclude>{{documentation}}</noinclude>
