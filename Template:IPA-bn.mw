@@ -1,4 +1,4 @@
-<onlyinclude><small>{{#if: {{{2|}}}|{{#switch: {{{2}}}|lang=Bengali:&nbsp;|pron=pronounced:&nbsp;|IPA=IPA:&nbsp;|local=locally&nbsp;|=|[[Bengali language|Bengali]]ng pangayagkas:&nbsp;}}|{{#if: {{{2}}}|Bengali pronunciation:&nbsp;}}}}</small>{{IPA|[[Help:IPA for Bengali|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude><noinclude>
+<onlyinclude><small>{{#if: {{{2|}}}|{{#switch: {{{2}}}|lang=Bengali:&nbsp;|pron=pronounced:&nbsp;|IPA=IPA:&nbsp;|local=locally&nbsp;|=|[[Bengali language|Bengali]]ng pangayagkas:&nbsp;}}|{{#if: {{{2}}}|Pangayagkas a Bengali:&nbsp;}}}}</small>{{IPA|[[Help:IPA for Bengali|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude><noinclude>
 
 {{documentation|Template:usage of IPA templates}}
 
