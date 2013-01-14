@@ -1,6 +1,6 @@
 <includeonly>{{#switch:{{{demospace|{{NAMESPACE}}}}}|Talk= The BBC programme [[In Our Time (BBC Radio 4)|''In Our Time'']] presented by [[Melvyn Bragg]] has an episode which may be about this subject (if not moving this note to the appropriate  talk page earns cookies). You can add it to "External links" by pasting <nowiki>{{In Our Time|</nowiki>{{{1}}}<nowiki>|</nowiki>{{{2}}}<nowiki>|</nowiki>{{{3}}}<nowiki>}}</nowiki>.
-|Template= [http://www.bbc.co.uk/programmes/{{{2}}} {{{1|}}}] keng [[In Our Time (BBC Radio 4)|''In Our Time'']] king [[BBC]]. {{#if:{{{3|}}}|([http://www.bbc.co.uk/iplayer/console/{{{2}}}/In_Our_Time_{{{3}}} makiramdam na ka])}} <nowiki>{{In Our Time|</nowiki>{{{1}}}<nowiki>|</nowiki>{{{2}}}<nowiki>|</nowiki>{{{3}}}<nowiki>}}</nowiki> [[{{{1|}}}]] [[Talk:{{{1|}}}]]
-|* [http://www.bbc.co.uk/programmes/{{{2}}} {{{1|}}}] keng [[In Our Time (BBC Radio 4)|''In Our Time'']] king [[BBC]]. {{#if:{{{3|}}}|([http://www.bbc.co.uk/iplayer/console/{{{2}}}/In_Our_Time_{{{3}}} listen now])}}}}</includeonly>
+|Template= [http://www.bbc.co.uk/programmes/{{{2}}} {{{1|}}}] keng [[In Our Time (BBC Radio 4)|''In Our Time'']] king [[BBC]]. {{#if:{{{3|}}}|([http://www.bbc.co.uk/iplayer/console/{{{2}}}/In_Our_Time_{{{3}}} makiramdam ka])}} <nowiki>{{In Our Time|</nowiki>{{{1}}}<nowiki>|</nowiki>{{{2}}}<nowiki>|</nowiki>{{{3}}}<nowiki>}}</nowiki> [[{{{1|}}}]] [[Talk:{{{1|}}}]]
+|* [http://www.bbc.co.uk/programmes/{{{2}}} {{{1|}}}] keng [[In Our Time (BBC Radio 4)|''In Our Time'']] king [[BBC]]. {{#if:{{{3|}}}|([http://www.bbc.co.uk/iplayer/console/{{{2}}}/In_Our_Time_{{{3}}} makiramdam ka])}}}}</includeonly>
 <noinclude> 
 
 {{Template:Documentation}}
