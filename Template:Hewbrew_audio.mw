@@ -1,0 +1,10 @@
+{{#if:{{{link|}}}|[[Hebrew language|Hebrew]]: }}<span dir="ltr" style='font-family:"SBL Hebrew", david, narkisim, "Microsoft Sans Serif"; font-size:125%;' lang="he" xml:lang="he">{{Audio|{{{2}}}|{{{1}}}}}</span><noinclude>
+{{pp-template|small=yes}}
+
+This template is meant for Hebrew text with ''[[niqqud|nikud]]'' and audio - basically it's a bigger and serif font (although those who don't have Hebrew fonts will see Microsoft Sans Serif). The second parameter allows you to link to an audio file. Use the link parameter to add <nowiki>[[Hebrew language|Hebrew]]:</nowiki> to the start.
+
+It is otherwise identical to {{tl|Hebrew}}.
+
+[[Category:Afro-Asiatic multilingual support templates|{{PAGENAME}}]]
+[[Category:Jews and Judaism templates]]
+</noinclude>
