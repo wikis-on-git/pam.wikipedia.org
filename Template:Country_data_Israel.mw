@@ -1,0 +1,19 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Israel
+| flag alias = Flag of Israel.svg
+| flag alias-civil = Civil Ensign of Israel.svg
+| flag alias-naval = Naval Ensign of Israel.svg
+| link alias-naval = Israeli Navy
+| flag alias-air force = Israel Air Force Flag.svg
+| link alias-air force = Israeli Air Force
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| redir1 = ISR
+| var1 = civil
+</noinclude>
+}}<noinclude>
+[[sl:Predloga:Podatki države Izrael]]
+</noinclude>
