@@ -1,0 +1,16 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Belarus
+| flag alias = Flag of Belarus.svg
+| flag alias-1991 = Flag of Belarus (1991-1995).svg
+| flag alias-1995 = Flag of Belarus (1995-2012).svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1991
+| var2 = 1995
+| redir1 = BLR
+| related1 = Byelorussian SSR
+</noinclude>
+}}
