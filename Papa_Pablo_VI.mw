@@ -16,8 +16,12 @@ other=Pablo}}
 
 <center>
 {{start box}}
-{{succession box | before=[[Alfredo Ildefonso Cardinal Schuster]]| title=[[Arsobispu ning Milan]] |years=1953 – 1963 | after=[[Giovanni Cardinal Colombo]]}}
-{{succession box | before=[[Papa Juan XXIII|Juan XXIII]] | title=[[Papa]] | years=[[Juniu 21]] [[1963]] – [[Agostu 6]]  [[1978]] | after=[[Papa Juan Pablo I|Juan Pablo I]] }}
+{{S-bef|before=[[Alfredo Ildefonso Cardinal Schuster]]}}
+{{S-ttl|title=[[Arsobispu ning Milan]] |years=1953 – 1963}} 
+{{S-aft| after=[[Giovanni Cardinal Colombo]]}}
+{{S-bef| before=[[Papa Juan XXIII|Juan XXIII]]}}
+{{S-ttl|title=[[Papa]] | years=[[Juniu 21]] [[1963]] – [[Agostu 6]]  [[1978]]}}
+{{S-aft | after=[[Papa Juan Pablo I|Juan Pablo I]] }}
 {{end box}}
 </center>
 {{Popes}}
