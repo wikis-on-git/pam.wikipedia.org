@@ -68,7 +68,7 @@
 }}
 
 {{#if:{{{education<includeonly>|</includeonly>}}}|
-! Edukasiun
+! Edukasyun
 {{!}} {{{education<includeonly>|</includeonly>}}}
 {{!}}-
 }}
@@ -80,13 +80,13 @@
 }}
 
 {{#if:{{{period<includeonly>|</includeonly>}}}|
-!  Pamanyulat panaun
+!  Panaun ning pamanyulat 
 {{!}} {{{period<includeonly>|</includeonly>}}}
 {{!}}-
 }}
 
 {{#if:{{{genre<includeonly>|</includeonly>}}}|
-! [[Literary genre|Genres]]
+! [[Literary genre|Genre]]
 {{!}} {{{genre<includeonly>|</includeonly>}}}
 {{!}}-
 }}
@@ -98,7 +98,7 @@
 }}
 
 {{#if:{{{movement<includeonly>|</includeonly>}}}|
-! [[Kilusan pangliteratura]]
+! [[Pangimut pangliteratura]]
 {{!}} {{{movement<includeonly>|</includeonly>}}}
 {{!}}-
 }}
@@ -128,7 +128,7 @@
 }}
 
 {{#if:{{{children<includeonly>|</includeonly>}}}|
-! Anak
+! Ának
 {{!}} {{{children<includeonly>|</includeonly>}}}
 {{!}}-
 }}
