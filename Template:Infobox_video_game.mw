@@ -1,0 +1,40 @@
+
+{| class="{{#ifeq:{{{collapsible|}}}|yes|collapsible {{#if:{{{state|}}}|{{{state}}}|autocollapse}}}} infobox hproduct" style="float:{{{align|right}}}; width:{{#if:{{{width|}}}|{{{width|}}}|264px}}; font-size:90%; text-align:left;" cellspacing="0" cellpadding="3"
+|-
+<includeonly>! colspan=2 style="text-align:center;" | <span style="font-size:111%;">{{#ifeq:{{lc:{{{italic title|}}}}}|no||''}}<span class="fn">{{#if:{{{title|}}}|{{{title}}}|{{PAGENAME}}}}</span>{{#ifeq:{{lc:{{{italic title|}}}}}|no||''}}</span></includeonly>
+{{#ifeq:{{{show image|}}}|yes|<table style="width:100%; font-weight:normal; background:none; margin: 6px 0 0 0" cellspacing="0" cellpadding="0">|{{!}}-}}
+{{#if:{{{image|}}}|
+{{!}} colspan="2" style="text-align:center;" {{!}} {{{image|}}}<br />{{#if:{{{caption|}}}|<span style="font-size:95%;">{{{caption}}}</span>}}
+}}
+{{#ifeq:{{{show image|}}}|yes|</table>}}
+{{Alternating rows table section
+|es=background:#f0f0f0;
+|{{#if:{{{developer|}}}|{{!}} '''[[Video game developer|Talapanalkus (Developer)''' {{!!}} {{{developer|}}} }}
+|{{#if:{{{publisher|}}}| {{!}} '''[[Video game publisher|Publisher]]''' {{!!}} <span class="brand">{{{publisher|}}}</span> }}
+|{{#if:{{{distributor|}}}| {{!}} '''Distributor''' {{!!}} {{{distributor|}}} }}
+|{{#if:{{{director|}}}| {{!}} '''Direktor''' {{!!}} {{{director|}}} }}
+|{{#if:{{{producer|}}}| {{!}} '''[[Video game producer|Producer]]''' {{!!}} {{{producer|}}} }}
+|{{#if:{{{designer|}}}| {{!}} '''[[Game designer|Migdisenyu]]''' {{!!}} {{{designer|}}} }}
+|{{#if:{{{programmer|}}}| {{!}} '''[[Game programmer|Programmer]]''' {{!!}} {{{programmer|}}} }}
+|{{#if:{{{artist|}}}| {{!}} '''[[Game artist|Artist]]''' {{!!}} {{{artist|}}} }}
+|{{#if:{{{writer|}}}| {{!}} '''Talasulat''' {{!!}} {{{writer|}}} }}
+|{{#if:{{{composer|}}}| {{!}} '''[[Video game music|Kompositor]]''' {{!!}} {{{composer|}}} }}
+|{{#if:{{{series|}}}| {{!}} '''Serye''' {{!!}} {{{series|}}} }}
+|{{#if:{{{engine|}}}| {{!}} '''[[Game engine|Engine]]''' {{!!}} {{{engine|}}} }}
+|{{#if:{{{version|}}}| {{!}} '''Bersyon''' {{!!}} {{{version|}}} }}
+|{{#if:{{{platform|{{{platforms|}}}}}}| {{!}} '''[[Computing platform|Platform(s)]]''' {{!!}} <span class="nowraplinks">{{{platform|{{{platforms|}}}}}}</span> }}
+|{{#if:{{{released|{{{release|}}}}}}| {{!}} '''Release&nbsp;date(s)''' {{!!}} {{{released|{{{release}}}}}} }}
+|{{#if:{{{latest release version|}}}| {{!}} '''[[Software release life cycle|Latest release]]''' {{!!}} {{{latest release version|}}} {{#if: {{{latest release date|}}}| / {{{latest release date|}}} }} }}
+|{{#if:{{{latest preview version|}}}| {{!}} '''[[Software release life cycle|Preview release]]''' {{!!}} {{{latest preview version|}}} {{#if: {{{latest preview date|}}}| / {{{latest preview date|}}} }} }}
+|{{#if:{{{genre|}}}| {{!}} '''[[Video game genres|Genre(s)]]''' {{!!}} {{{genre|}}} }}
+|{{#if:{{{mode|{{{modes|}}}}}}|{{!}} '''Uri (''Mode/s'')''' {{!!}} {{{modes|}}} }}
+|{{#if:{{{media|}}}| {{!}} '''[[Digital media|Media]]'''/'''[[Digital distribution|distribution]]''' {{!!}} {{{media|}}} }}
+|{{#if:{{{cabinet|}}}| {{!}} '''Cabinet''' {{!!}} {{{cabinet|}}} }}
+|{{#if:{{{arcade system|}}}| {{!}} '''[[Arcade system board|Arcade system]]''' {{!!}} {{{arcade system|}}} }}
+|{{#if:{{{cpu|}}}| {{!}} '''[[Central processing unit|CPU]]''' {{!!}} {{{cpu|}}} }}
+|{{#if:{{{sound|}}}| {{!}} '''Katni''' {{!!}} {{{sound|}}} }}
+|{{#if:{{{display|}}}| {{!}} '''Display''' {{!!}} {{{display|}}} }}
+}}{{main other|{{#ifeq:{{lc:{{{italic title|}}}}}|no||{{italic title|force={{#ifeq:{{lc:{{{italic title|}}}}}|force|true}}}}}}}}
+|}<noinclude>
+{{documentation}}<!-- Add cats and interwikis to the /doc subpage, not here! -->
+</noinclude>
