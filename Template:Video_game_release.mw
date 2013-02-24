@@ -1,0 +1,12 @@
+<ul style="list-style: none none; line-height: inherit; margin: 0px;"><!--
+-->{{#if:{{{JP|}}}|<li><small><sup>[[Japan|JP]]</sup></small> {{{JP}}}</li>}}<!--
+-->{{#if:{{{NA|}}}|<li><small><sup>[[North America|NA]]</sup></small> {{{NA}}}</li>}}<!--
+-->{{#if:{{{PAL|}}}|<li><small><sup>[[PAL region|PAL]]</sup></small> {{{PAL}}}</li>}}<!--
+-->{{#if:{{{EU|}}}|<li><small><sup>[[Europe|EU]]</sup></small> {{{EU}}}</li>}}<!--
+-->{{#if:{{{AUS|}}}|<li><small><sup>[[Australasia|AUS]]</sup></small> {{{AUS}}}</li>}}<!--
+-->{{#if:{{{INT|}}}|<li><small><sup>[[International version|INT]]</sup></small> {{{INT}}}</li>}}<!--
+-->{{#if:{{{WW|}}}|<li><small><sup>WW</sup></small> {{{WW}}}</li>}}<!--
+-->{{#if:{{{3|}}}|<li><small><sup>[[{{{1}}}|{{{2}}}]]</sup></small> {{{3|}}}</li>|{{#if:{{{2|}}}|<li><small><sup>{{{1}}}</sup></small> {{{2}}}</li>}}}}<!--
+--></ul><noinclude>
+{{Documentation}}
+</noinclude>
