@@ -286,25 +286,25 @@
 {{!}}-
 }}
 {{#if:{{{incumbent|}}}|
-! style="text-align:left;" {{!}} Incumbent
+! style="text-align:left;" {{!}} Makalukluk
 {{!}} {{{incumbent}}}
 {{!}}-
 }}
 {{#if:{{{succeeding|}}}|
-! style="text-align:left;" {{!}} Succeeding
+! style="text-align:left;" {{!}} Minalili kang
 {{!}} {{{succeeding}}}
 {{!}}-
 |{{#if:{{{preceding|}}}|
-! style="text-align:left;" {{!}} Preceding
+! style="text-align:left;" {{!}} Bayu i 
 {{!}} {{{preceding}}}
 {{!}}-
 }}
-{{#if:{{{{{#if:{{{predecessor|}}}|predecessor|preceded}}|}}} |
-! style="text-align:left;" {{!}} {{nowrap|Preceded by}}
-{{!}} {{{{{#if:{{{predecessor|}}}|predecessor|preceded}}|}}}
+{{#if:{{{{{#if:{{{predecessor|}}}|predecessor|minuna ya kang}}|}}} |
+! style="text-align:left;" {{!}} {{nowrap|Elilan neng}}
+{{!}} {{{{{#if:{{{predecessor|}}}|predecessor|minuna ya kang}}|}}}
 {{!}}-
 }}
-{{#switch:{{{{{#if:{{{successor|}}}|successor|succeeded}}|}}}
+{{#switch:{{{{{#if:{{{successor|}}}|successor|elilan ne i}}|}}}
 | Incumbent
 | '''Incumbent'''
 | ''Incumbent''
@@ -313,9 +313,9 @@
 | '''incumbent'''
 | ''incumbent''
 | [[incumbent]] =
-|{{#if:{{{{{#if:{{{successor|}}}|successor|succeeded}}|}}} |
-! style="text-align:left;" {{!}} {{nowrap|Succeeded by}}
-{{!}} {{{{{#if:{{{successor|}}}|successor|succeeded}}|}}} }}
+|{{#if:{{{{{#if:{{{successor|}}}|successor|elilan ne i}}|}}} |
+! style="text-align:left;" {{!}} {{nowrap|Elilan neng}}
+{{!}} {{{{{#if:{{{successor|}}}|successor|elilan ne i}}|}}} }}
 {{!}}-
 }}}}
 <!-----Constituency----->
@@ -326,7 +326,7 @@
 }}
 <!-----Majority----->
 {{#if:{{{majority|}}}|
-! style="text-align:left;" {{!}} Majority
+! style="text-align:left;" {{!}} Mayorya
 {{!}} {{{majority}}}
 {{!}}-
 }}</includeonly><noinclude>{{doc}}</noinclude>
