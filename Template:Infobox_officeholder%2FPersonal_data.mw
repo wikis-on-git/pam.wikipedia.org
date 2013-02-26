@@ -125,17 +125,17 @@
 {{!}}-
 }}
 {{#if:{{{profession|}}}|
-! Profesion
+! Propesyon
 {{!}} {{{profession}}}
 {{!}}-
 }}
 {{#if:{{{cabinet|}}}|
-! Gabinete
+! Gabineti
 {{!}} {{{cabinet}}}
 {{!}}-
 }}
 {{#if:{{{committees|}}}|
-! Comite
+! Komite
 {{!}} {{{committees}}}
 {{!}}-
 }}
@@ -145,7 +145,7 @@
 {{!}}-
 }}
 {{#if:{{{religion|}}}|
-! Relihion
+! Relihiun
 {{!}} {{{religion}}}
 {{!}}-
 }}
@@ -175,7 +175,7 @@
 {{!}}-
 }}
 {{#if:{{{signature|}}}|
-! Firma
+! Pirma
 {{!}} [[Image:{{{signature}}}|128px|alt={{{signature_alt|}}}|{{PAGENAME}}'s signature]]
 {{!}}-
 }}
@@ -200,17 +200,17 @@
 {{!}}-
 }}
 {{#if:{{{branch|}}}|
-! Sangang pagsilbian
+! Sangang pagsilbyan
 {{!}} {{{branch}}}
 {{!}}-
 }}
 {{#if:{{{serviceyears|}}}|
-! Banua&nbsp;ning servicio
+! Banwa&nbsp;ning serbisyu
 {{!}} {{{serviceyears}}}
 {{!}}-
 }}
 {{#if:{{{rank|}}}|
-! Rango
+! Ranggu
 {{!}} {{{rank}}}
 {{!}}-
 }}
