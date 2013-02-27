@@ -67,8 +67,7 @@
 | label28   = Staff
 | data28    = {{{num_staff|}}}
 | label29   = Boluntaryu
-| data29    = {{{num_volunteers|}}}
-| label30   = Website
+| label30   = Karinan Aptas (Website)
 | class30   = url
 | data30    = {{{website|}}}
 | label31   = Remarks
