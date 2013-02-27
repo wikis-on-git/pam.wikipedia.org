@@ -9,7 +9,7 @@
 | data1     = {{#if:{{{map|}}}|[[Image:{{{map}}}|{{#if:{{{msize|}}}|{{{msize}}}|250px}}|alt={{{malt|}}}]]{{#if:{{{mcaption|}}}|<br/>{{{mcaption}}}}}}}
 | data2     = {{{map2|}}}
 
-| label3    = Abbreviation
+| label3    = Pamikuyad
 | class3    = palayo
 | data3     = {{{abbreviation|}}}
 | label4    = Motto
@@ -25,11 +25,11 @@
 
 | label8    = Pangawala
 | data8     = {{{extinction|}}}
-| label9    = Type
+| label9    = Uri
 | data9     = {{{type|}}}
-| label10   = Legal&nbsp;status
+| label10   = Kabilyang&nbsp;legal
 | data10    = {{{status|}}}
-| label11   = Purpose/focus
+| label11   = Kapagnasan
 | data11    = {{{purpose|}}}
 | label12   = Headquarters
 | data12    = {{{headquarters|}}}
@@ -38,11 +38,11 @@
 | data13    = {{{location|}}}
 | label14   = Coordinates
 | data14    = {{{coords|}}}
-| label15   = Region&nbsp;served
+| label15   = Karinan&nbsp;a pagsilbyan
 | data15    = {{{region_served|}}}
-| label16   = Membership
+| label16   = Kayanib
 | data16    = {{{membership|}}}
-| label17   = Official&nbsp;languages
+| label17   = Amanung&nbsp;opisyal
 | data17    = {{{language|}}}
 | label18   = Secretary&nbsp;General
 | data18    = {{{general|}}}
@@ -56,17 +56,17 @@
 | data22    = {{{leader_name4|}}}
 | label23   = Manimunang tau
 | data23    = {{{key_people|}}}
-| label24   = Main&nbsp;organ
+| label24   = Manimunang&nbsp;aguman
 | data24    = {{{main_organ|}}}
-| label25   = Parent&nbsp;organization
+| label25   = Pengaring&nbsp;aguman
 | data25    = {{{parent_organization|}}}
-| label26   = Affiliations
+| label26   = Pamiugnayan
 | data26    = {{{affiliations|}}}
 | label27   = Budget
 | data27    = {{{budget|}}}
 | label28   = Staff
 | data28    = {{{num_staff|}}}
-| label29   = Volunteers
+| label29   = Boluntaryu
 | data29    = {{{num_volunteers|}}}
 | label30   = Website
 | class30   = url
@@ -74,7 +74,7 @@
 | label31   = Remarks
 | class31   = note
 | data31    = {{{remarks|}}}
-| label32   = Former name 
+| label32   = Sadyang lagyu 
 | class32   = note
 | data32    = {{{former name|}}}
 }}<noinclude>
