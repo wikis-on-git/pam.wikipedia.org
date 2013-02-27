@@ -1,0 +1,160 @@
+{| border="1" cellpadding="4" cellspacing="0" style="float:right; clear:right; width:22em; margin:10px 0 10px 10px !important; border-collapse: collapse; margin:0 auto; border:1px solid #aaa; background-color:#f9f9f9; font-size:88%;"
+! colspan="2" style="border: 1px solid #aaa; background-color:#ddd;" | Amlat ning Ordinasyun 
+|-
+{{#if:{{{ordained deacon by|}}}{{{date of diaconal ordination|}}}{{{place of diaconal ordination|}}}|
+! colspan="2" style="border-top: 5px solid #333; background-color:#f2f2f2;" {{!}} '''Ordinasyun king panga-diakono'''
+{{!}}-}}
+{{#if:{{{ordained deacon by|}}}|
+{{!}} '''Inordina neng'''
+{{!}} '''{{{ordained deacon by|}}}'''
+{{!}}-
+}}
+|-
+{{#if:{{{date of diaconal ordination|}}}|
+{{!}} '''Petsa ning ordinasyun'''
+{{!}} {{{date of diaconal ordination|}}}
+{{!}}-
+}}
+|-
+{{#if:{{{place of diaconal ordination|}}}|
+{{!}} '''Lugal ning ordinasyun'''
+{{!}} {{{place of diaconal ordination|}}}
+{{!}}-
+}}
+|-
+{{#if:{{{ordained priest by|}}}{{{date of priestly ordination|}}}{{{place of priestly ordination|}}}|
+! colspan="2" style="border-top: 5px solid #333; background-color:#f2f2f2;" {{!}} '''Ordinasyun king pangapari'''
+{{!}}-}}
+{{#if:{{{ordained priest by|}}}|
+{{!}} '''Inordina neng'''
+{{!}} '''{{{ordained priest by|}}}'''
+{{!}}-
+}}
+|-
+{{#if:{{{date of priestly ordination|}}}|
+{{!}} '''Petsa ning ordinasyun'''
+{{!}} {{{date of priestly ordination|}}}
+{{!}}-
+}}
+|-
+{{#if:{{{place of priestly ordination|}}}|
+{{!}} '''Lugal ning ordinasyun'''
+{{!}} {{{place of priestly ordination|}}}
+{{!}}-
+}}
+|-
+{{#if:{{{consecrated by|}}}{{{date of consecration|}}}{{{place of consecration|}}}|
+! colspan="2" style="border-top: 5px solid #800080; background-color:#f2f2f2;" {{!}} '''Konsagrasyun king panga-obispu'''
+{{!}}-}}
+{{#if:{{{consecrated by|}}}|
+{{!}} '''Manimunang konsagrador'''
+{{!}} '''{{{consecrated by|}}}'''
+{{!}}-
+}}
+{{#if:{{{co-consecrator1|}}}|
+{{!}} '''Co-consecrator'''
+{{!}} '''{{{co-consecrator1|}}}'''
+{{!}}-
+}}
+{{#if:{{{co-consecrator2|}}}|
+{{!}} '''Co-consecrator'''
+{{!}} '''{{{co-consecrator2|}}}'''
+{{!}}-
+}}
+{{#if:{{{date of consecration|}}}|
+{{!}} '''Petsa&nbsp;ning&nbsp;konsagrasyun'''
+{{!}} {{{date of consecration|}}}
+{{!}}-
+}}
+{{#if:{{{place of consecration|}}}|
+{{!}} '''Lugal&nbsp;ning&nbsp;Konsagrasyun'''
+{{!}} {{{place of consecration|}}}
+{{!}}-
+}}
+{{#if:{{{bishop 1|}}}|
+! colspan="2" style="border-top: 5px solid #800080; background-color:#f2f2f2;" {{!}} '''Bishops consecrated by {{PAGENAME}} as principal consecrator'''
+{{!}}-}}
+{{#if:{{{bishop 1|}}}{{{consecration date 1|}}}|
+{{!}} '''{{{bishop 1|}}}'''
+{{!}} {{{consecration date 1|}}}
+{{!}}-}}
+{{#if:{{{bishop 2|}}}{{{consecration date 2|}}}|
+{{!}} '''{{{bishop 2|}}}'''
+{{!}} {{{consecration date 2|}}}
+{{!}}-}}
+{{#if:{{{bishop 3|}}}{{{consecration date 3|}}}|
+{{!}} '''{{{bishop 3|}}}'''
+{{!}} {{{consecration date 3|}}}
+{{!}}-}}
+{{#if:{{{bishop 4|}}}{{{consecration date 4|}}}|
+{{!}} '''{{{bishop 4|}}}'''
+{{!}} {{{consecration date 4|}}}
+{{!}}-}}
+{{#if:{{{bishop 5|}}}{{{consecration date 5|}}}|
+{{!}} '''{{{bishop 5|}}}'''
+{{!}} {{{consecration date 5|}}}
+{{!}}-}}
+{{#if:{{{bishop 6|}}}{{{consecration date 6|}}}|
+{{!}} '''{{{bishop 6|}}}'''
+{{!}} {{{consecration date 6|}}}
+{{!}}-}}
+{{#if:{{{bishop 7|}}}{{{consecration date 7|}}}|
+{{!}} '''{{{bishop 7|}}}'''
+{{!}} {{{consecration date 7|}}}
+{{!}}-}}
+{{#if:{{{bishop 8|}}}{{{consecration date 8|}}}|
+{{!}} '''{{{bishop 8|}}}'''
+{{!}} {{{consecration date 8|}}}
+{{!}}-}}
+{{#if:{{{bishop 9|}}}{{{consecration date 9|}}}|
+{{!}} '''{{{bishop 9|}}}'''
+{{!}} {{{consecration date 9|}}}
+{{!}}-}}
+{{#if:{{{bishop 10|}}}{{{consecration date 10|}}}|
+{{!}} '''{{{bishop 10|}}}'''
+{{!}} {{{consecration date 10|}}}
+{{!}}-}}
+{{#if:{{{bishop 11|}}}{{{consecration date 11|}}}|
+{{!}} '''{{{bishop 11|}}}'''
+{{!}} {{{consecration date 11|}}}
+{{!}}-}}
+{{#if:{{{bishop 12|}}}{{{consecration date 12|}}}|
+{{!}} '''{{{bishop 12|}}}'''
+{{!}} {{{consecration date 12|}}}
+{{!}}-}}
+{{#if:{{{bishop 13|}}}{{{consecration date 13|}}}|
+{{!}} '''{{{bishop 13|}}}'''
+{{!}} {{{consecration date 13|}}}
+{{!}}-}}
+{{#if:{{{bishop 14|}}}{{{consecration date 14|}}}|
+{{!}} '''{{{bishop 14|}}}'''
+{{!}} {{{consecration date 14|}}}
+{{!}}-}}
+{{#if:{{{bishop 15|}}}{{{consecration date 15|}}}|
+{{!}} '''{{{bishop 15|}}}'''
+{{!}} {{{consecration date 15|}}}
+{{!}}-}}
+{{#if:{{{bishop 16|}}}{{{consecration date 16|}}}|
+{{!}} '''{{{bishop 16|}}}'''
+{{!}} {{{consecration date 16|}}}
+{{!}}-}}
+{{#if:{{{bishop 17|}}}{{{consecration date 17|}}}|
+{{!}} '''{{{bishop 17|}}}'''
+{{!}} {{{consecration date 17|}}}
+{{!}}-}}
+{{#if:{{{bishop 18|}}}{{{consecration date 18|}}}|
+{{!}} '''{{{bishop 18|}}}'''
+{{!}} {{{consecration date 18|}}}
+{{!}}-}}
+{{#if:{{{bishop 19|}}}{{{consecration date 19|}}}|
+{{!}} '''{{{bishop 19|}}}'''
+{{!}} {{{consecration date 19|}}}
+{{!}}-}}
+{{#if:{{{bishop 20|}}}{{{consecration date 20|}}}|
+{{!}} '''{{{bishop 20|}}}'''
+{{!}} {{{consecration date 20|}}}
+{{!}}-}}
+|}<noinclude>
+{{documentation}}
+<!-- Please add categories and interwiki links to /doc subpage, not here! -->
+</noinclude>
