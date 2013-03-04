@@ -1,115 +1,74 @@
-<includeonly>{| | class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
-! style="text-align: center; color: {{{color|black}}}; background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3" |<big class="{{Template:Infobox musical artist/hCard Class|{{{Background|}}} }}">{{{Name}}}</big>
-{{#if:{{{Img|}}}
-  |<tr style="text-align: center;"><td colspan="3">[[Image:{{{Img}}}|{{#ifeq:{{lc:{{{Landscape|}}}}}|yes|{{min|300|{{#if:{{#ifexpr:{{{Img_size}}}}}|300|{{{Img_size}}}}}}}x200|{{min|220|{{#if:{{#ifexpr:{{{Img_size}}}}}|300|{{{Img_size}}}}}}}}}px|{{{Img_capt|}}}]] <br /><div style="font-size: 90%; line-height: 15px;">{{{Img_capt|}}}</div></td></tr>
-}}
-|-
-! style="color: {{{color|black}}}; background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3" | Impormasyun
-{{#if:{{{Birth_name|}}}
-  |<tr><td>'''Lagyu'''</td><td colspan="2">{{{Birth_name}}}</td></tr>
-}}<!--
--->{{#if:{{{Alias|}}}
-  |<tr><td>'''Kebaluan bilang'''</td><td colspan="2" class="nickname">{{{Alias}}}</td></tr>
-}}<!--
--->{{#if:{{{Born|}}}
-  |<tr><td>'''Kebaitan'''</td><td colspan="2">{{{Born}}}</td></tr>
-}}<!--
--->{{#if:{{{Origin|}}}
-  |<tr><td>'''Penibatan'''</td><td colspan="2">{{{Origin}}}</td></tr>
-}}<!--
--->{{#if:{{{Died|}}}
-  |<tr><td>'''Aldo Kematyan'''</td><td colspan="2">{{{Died}}}</td></tr>
-}}<!--
--->{{#if:{{{Genre|}}}
-  |<tr><td>'''[[:en:Music genre|Genre]]'''</td><td colspan="2">{{{Genre}}}</td></tr>
-}}<!--
--->{{#if:{{{Occupation|}}}
-  |<tr><td style="white-space:nowrap;">'''Obra'''</td><td colspan="2">{{{Occupation}}}</td></tr>
-}}<!--
--->{{#if:{{{Instrument|}}}
-  |<tr><td style="white-space:nowrap;">'''[[:en:Musical instrument|Instrumento]]'''</td><td colspan="2" class="note">{{{Instrument}}}</td></tr>
-}}<!--
--->{{#if:{{{Voice_type|}}}
-  |<tr><td style="white-space:nowrap;">'''[[:en:Voice type|Clasi ning vocis]]'''</td><td colspan="2" class="note">{{{Voice_type}}}</td></tr>
-}}<!--
--->{{#if:{{{Years_active|}}}
-  |<tr><td>'''banuang gugunyat'''</td><td colspan="2">{{{Years_active}}}</td></tr>
-}}<!--
--->{{#if:{{{Label|}}}
-  |<tr><td style="padding-right: 1em;">'''[[:en:Record label|Tatak]]'''</td><td colspan="2">{{{Label}}}</td></tr>
-}}<!--
--->{{#if:{{{Associated_acts|}}}
-  |<tr><td textalign="top" style="padding-right: 1em;">'''Kaugne'''</td><td colspan="2">{{{Associated_acts}}}</td></tr>
-}}<!--
--->{{#if:{{{Influences|}}}
-  |<tr><td textalign="top" style="padding-right: 1em;">'''Megenganyu'''</td><td colspan="2">{{{Influences}}}</td></tr>
-}}<!--
--->{{#if:{{{URL|}}}
-  |<tr><td>'''Website'''</td><td colspan="2">{{{URL}}}</td></tr>
-}}<!--
--->{{#if:{{{Current_members|}}}
-  |<tr><th style="color: {{{color|black}}}; background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3">Deng kayanib</th></tr><tr><td style="text-align: center;" colspan="3">{{{Current_members}}}</td></tr>
-}}<!--
--->{{#if:{{{Past_members|}}}
-  |<tr><th style="color: {{{color|black}}}; background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3">Dating kayanib</th></tr><tr><td style="text-align: center;" colspan="3">{{{Past_members}}}</td></tr>
-}}<!--
--->{{#if:{{{Notable_instruments|}}}
-  |<tr><th style="color: {{{color|black}}}; background: {{Infobox musical artist/color selector|{{{Background|}}} }};" colspan="3">Deng Instrumentu</th></tr><tr><td style="text-align: center;" colspan="3">{{{Notable_instruments}}}</td></tr>
-}}
-|}</includeonly><noinclude>
-Blank Code:
+{{Infobox
+| child       = {{lc:{{{embed}}}}}
 
-<pre><nowiki>{{Infobox musical artist <!-- See Wikipedia:WikiProject_Musicians -->
-| Name                = 
-| Img                 = 
-| Img_capt            = 
-| Img_size            = 
-| Landscape           = 
-| color               = 
-| Background          = 
-| Birth_name          = 
-| Alias               = 
-| Born                = 
-| Died                = 
-| Origin              = 
-| Instrument          = 
-| Voice_type          = 
-| Genre               = 
-| Occupation          = 
-| Years_active        = 
-| Label               = 
-| Associated_acts     = 
-| URL                 = 
-| Current_members     = 
-| Past_members        = 
-| Notable_instruments = 
-}}</nowiki></pre>
+| bodyclass   = vcard
 
-Sample:
+| title       = {{#ifeq:{{lc:{{{embed}}}}}|yes|Musical career}}
 
-{{Infobox musical artist <!-- See Wikipedia:WikiProject_Musicians -->
-| Name                = -
-| Img                 = -
-| Img_capt            = -
-| Img_size            = -
-| Landscape           = -
-| Background          = -
-| Birth_name          = -
-| Alias               = -
-| Born                = -
-| Died                = -
-| Origin              = -
-| Instrument          = -
-| Voice_type          = -
-| Genre               = -
-| Occupation          = -
-| Years_active        = -
-| Label               = -
-| Associated_acts     = -
-| URL                 = -
-| Current_members     = -
-| Past_members        = -
-| Notable_instruments = -
-}}
+| aboveclass  = {{Infobox musical artist/hCard class|{{{Background|{{{background|}}}}}}}}
+| abovestyle  = background-color: {{Infobox musical artist/color|{{{Background|{{{background|}}}}}}}}
+| above       = {{#ifeq:{{lc:{{{embed}}}}}|yes||{{#if:{{{Name|{{{name|}}}}}}|{{{Name|{{{name}}}}}}|<includeonly>{{BASEPAGENAME}}</includeonly>}}}}
 
-[[:en:Template:Infobox musical artist/doc]]</noinclude>
+| image       = {{#if:{{Hide if placeholder image|{{{Img|{{{image|}}}}}}}}|[[File:{{{Img|{{{image|}}}}}}|{{px|{{#ifeq:{{lc:{{{Landscape|{{{landscape|}}}}}}}}|yes|{{min|300|{{#if:{{#ifexpr:{{{Img_size|{{{image_size}}}}}}}}|300|{{{Img_size|{{{image_size}}}}}}}}}}x200px}}|{{{Img_size|{{{image_size|}}}}}}|frameless}}|alt={{{Img_alt|{{{alt|}}}}}}|{{{Img_capt|{{{caption|}}}}}}]]}}
+| caption     = {{{Img_capt|{{{caption|}}}}}}
+
+| headerstyle = background-color: {{Infobox musical artist/color|{{{Background|{{{background|}}}}}}}}
+
+| header1     = {{#if:{{{Img|{{{image|}}}}}}|Background information}}
+
+| label2     = Katutubung lagyu
+| data2      = {{#if:{{{native_name|}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span> }}
+
+| class3      = nickname
+| label3      = Lagyu pangabait
+| data3       = {{{Birth_name|{{{birth_name|}}}}}}
+
+| class4      = nickname
+| label4      = Kilala ya murin king lagyung
+| data4       = {{{Alias|{{{alias|}}}}}}
+
+| label5     = Mibait
+| data5      = {{br separated entries|{{{birth_date|}}}|{{{birth_place|}}}}}
+
+| label6     = Penibatan
+| data6      = {{{Origin|{{{origin|}}}}}}
+
+| label7     = Mete
+| data7      = {{br separated entries|{{{death_date|}}}|{{{death_place|}}}}}
+
+| label8     = [[Music genre|Uri ning musika/Genre]]
+| data8      = {{{Genre|{{{genre|}}}}}}
+
+| class9     = role
+| label9     = Kapanintunan
+| data9      = {{{Occupation|{{{occupation|}}}}}}
+
+| class10     = note
+| label10     = Instrumentu
+| data10      = {{{Instrument|{{{instrument|}}}}}}
+
+| label11    = Banwa nung kapilan aktibu
+| data11     = {{{Years_active|{{{years_active|{{{yearsactive|}}}}}}}}}
+
+| label12    = [[Record label|Marka]]
+| data12     = {{{Label|{{{label|}}}}}}
+
+| label13    = Palageng makaugne
+| data13     = {{{Associated_acts|{{{associated_acts|}}}}}}
+
+| label14    = Karinan-Aptas/Website
+| data14     = {{{website|{{{URL|{{{url|}}}}}}}}}
+
+| header15   = {{#if:{{{Current_members|{{{current_members|}}}}}}|Members}}
+
+| data16     = {{{Current_members|{{{current_members|}}}}}}
+
+| header17   = {{#if:{{{Past_members|{{{past_members|}}}}}}|Past members}}
+
+| data18     = {{{Past_members|{{{past_members|}}}}}}
+
+| header19   = {{#if:{{{Notable_instruments|{{{notable_instruments|}}}}}}|Notable instruments}}
+
+| class20    = note
+| data20     = {{{Notable_instruments|{{{notable_instruments|}}}}}}
+}}<includeonly>{{ns0|[[Category:Articles with hCards]]{{Infobox musical artist/tracking|{{{Background|{{{background|}}}}}}}}{{#if:{{{pronunciation|}}}|[[Category:Biography template using pronunciation]]}}}}</includeonly><noinclude><!-- Please add metadata to the <includeonly> section at the bottom of the /doc subpage -->{{documentation}}</noinclude>
