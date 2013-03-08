@@ -110,12 +110,10 @@ King [[2012 Summer Olympics]] king London, i Pistorius ing mumunang meputut adua
 
 {{S-start}}
 {{s-ach}}
-{{succession box
-|before = {{flagicon|GER}} [[Verena Bentele]]
-|title = [[Laureus World Sports Award for Sportsperson of the Year with a Disability|Laureus World Sportsperson with a Disability of the Year]]
-|years = 2012
-|after = ''Incumbent''
-}}
+{{s-bef||before = {{flagicon|GER}} [[Verena Bentele]]}}
+{{S-ttl||title = [[Laureus World Sports Award for Sportsperson of the Year with a Disability|Laureus World Sportsperson with a Disability of the Year]]
+|years = 2012}}
+{{S-inc}}
 {{S-end}}
 
 <!-- Metadata: see [[Wikipedia:Persondata]] -->
