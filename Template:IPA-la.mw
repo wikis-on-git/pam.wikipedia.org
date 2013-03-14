@@ -1,0 +1,3 @@
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Latin:&nbsp;|pron=pronounced&nbsp;|UK=UK:&nbsp;|=|classical=Classical Latin:&nbsp;|church=Ecclesiastical Latin:&nbsp;|Pangayagkasa a Latin:&nbsp;}}</small>{{IPA|[[Wikipedia:IPA for Latin|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
+
+{{documentation}}
