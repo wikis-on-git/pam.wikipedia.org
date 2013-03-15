@@ -2,7 +2,7 @@
 {{#ifeq: {{{bullet|}}} | none
 | 
 | * 
-}}[[Image:commons-logo.svg|12px|link=|alt=]] Media related to {{sec link auto| commons | Category:{{#if:x| {{{1| {{PAGENAME}} }}} }} | {{{2| {{{1| {{PAGENAME}} }}} }}} }} at Wikimedia Commons<noinclude>
+}}[[Image:commons-logo.svg|12px|link=|alt=]] Ating mediang maki kaugnayan kang/king {{sec link auto| commons | Category:{{#if:x| {{{1| {{PAGENAME}} }}} }} | {{{2| {{{1| {{PAGENAME}} }}} }}} }} king Wikimedia Commons<noinclude>
 
 {{documentation}}
 <!-- Add categories and interwikis to the /doc subpage, not here! -->
