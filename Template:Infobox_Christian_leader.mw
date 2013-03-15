@@ -10,7 +10,7 @@
 | image       = {{#if:{{{image|}}}|[[File:{{{image|}}}|{{px|{{{imagesize|{{{image_size|}}}}}}|frameless}}|alt={{{alt|}}}]] }}
 | caption     = {{{caption|}}}
 
-| label1     = Natibong lagyu
+| label1     = Natibung lagyu
 | data1      = {{#if:{{{native_name|}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span> }}
 
 | label2      = Pisamban
@@ -33,10 +33,10 @@
 | label7      = See
 | data7       = {{{see|}}}
 
-| label8      = {{#if:{{{appointed|}}}|Appointed|Elected}}
+| label8      = {{#if:{{{appointed|}}}|Mepili|Linukluk}}
 | data8       = {{#if:{{{appointed|}}}|{{{appointed}}}|{{{elected|}}}}} 
 
-| label9      = {{#if:{{{term|}}}|In Office|{{#switch:{{lc:{{{type|}}}}}|pope|antipope|coptic pope=Migumpisang meging papa|#default=Enthroned}}}}
+| label9      = {{#if:{{{term|}}}|In Office|{{#switch:{{lc:{{{type|}}}}}|pope|antipope|coptic pope=Migumpisang meging papa|#default=Linukluk}}}}
 | data9       ={{#if:{{{term|}}}|{{{term}}}|{{{enthroned|{{{began|{{{term_start|}}} }}} }}} }}
 | rowclass9   = note
 
@@ -61,10 +61,10 @@
 
 | header16    = {{#if:{{{ordination|}}}{{{ordinated_by|}}}{{{consecration|}}}{{{consecrated_by|}}}{{{cardinal|}}}{{{rank|}}}|Orders}}
 
-| label17     = Ordinasyon
+| label17     = Ordinasyun
 | data17      = {{br separated entries| {{{ordination|}}} | {{#if:{{{ordinated_by|}}}|by&nbsp;{{{ordinated_by}}}}} }}
 
-| label18     = Consecration
+| label18     = Konsagrasyun
 | data18      = {{br separated entries| {{{consecration|}}} | {{#if:{{{consecrated_by|}}}|by&nbsp;{{{consecrated_by}}}}} }}
 
 | label19     = Megawang Cardinal
@@ -144,7 +144,7 @@
 | label43     = Meging beato
 | data43      = {{br separated entries | {{{beatified_date|}}} | {{{beatified_place|}}} | {{#if:{{{beatified_by|}}}|by&nbsp;{{{beatified_by}}}}} }}
 
-| label44     = Meging santo
+| label44     = Meging santu
 | data44      = {{br separated entries | {{{canonized_date|}}} |{{{canonized_place|}}} | {{#if:{{{canonized_by|}}}|by&nbsp;{{{canonized_by}}}}} }}
 
 | label45     = Attributes
