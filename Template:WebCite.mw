@@ -1,0 +1,11 @@
+{{#if:{{{title|}}} <!--If there is a title-->|
+      {{#if:{{{date|}}} <!--And there is a date-->|
+            [{{{url| {{{1}}} }}} {{{title}}}] king [[WebCite]] {{#iferror:&#32;(''archived {{date|{{{date}}}|{{{dateformat}}} }}'')}}|
+
+<!--If there is a title and no date -->
+      [{{{url|{{{1}}}}}} {{{title}}}] king [[WebCite]]}}|
+<!--If there is no title-->
+      {{#if:{{{date|}}} <!--And there is a date-->|
+            [{{{url|{{{1}}}}}} Makasimpan king] {{#iferror:{{date|{{{date}}}|{{{dateformat}}} }} }} king [[WebCite]]|
+<!--If there is no title, nor a date-->
+      [{{{url|{{{1}}}}}} Archived] at [[WebCite]]}}}}<noinclude>{{doc}}</noinclude>
