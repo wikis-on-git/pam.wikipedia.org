@@ -1,0 +1,16 @@
+{{Sister
+|project = news
+|text = {{#if:{{{1|}}}|Wikinews has related news:|[[wikinews:|Ing Wikinews]] atin yang kaugneng balita}}
+{{#if:{{{1|}}}|*'''''[[wikinews:{{{1}}}|{{{d1|{{{1}}}}}}]]'''''}}
+{{#if:{{{2|}}}|*'''''[[wikinews:{{{2}}}|{{{d2|{{{2}}}}}}]]'''''}}
+{{#if:{{{3|}}}|*'''''[[wikinews:{{{3}}}|{{{d3|{{{3}}}}}}]]'''''}}
+{{#if:{{{4|}}}|*'''''[[wikinews:{{{4}}}|{{{d4|{{{4}}}}}}]]'''''}}
+{{#if:{{{5|}}}|*'''''[[wikinews:{{{5}}}|{{{d5|{{{5}}}}}}]]'''''}}
+{{#if:{{{6|}}}|*'''''[[wikinews:{{{6}}}|{{{d6|{{{6}}}}}}]]'''''}}
+{{#if:{{{7|}}}|*'''''[[wikinews:{{{7}}}|{{{d7|{{{7}}}}}}]]'''''}}
+{{#if:{{{8|}}}|*'''''[[wikinews:{{{8}}}|{{{d8|{{{8}}}}}}]]'''''}}
+{{#if:{{{9|}}}|*'''''[[wikinews:{{{9}}}|{{{d9|{{{9}}}}}}]]'''''}}
+}}<noinclude>
+{{documentation}}
+<!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
+</noinclude>
