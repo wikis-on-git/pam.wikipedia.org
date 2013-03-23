@@ -1,6 +1,6 @@
 {{Sister
 |project = news
-|text = {{#if:{{{1|}}}|Wikinews has related news:|[[wikinews:|Ing Wikinews]] atin yang kaugneng balita}}
+|text = {{#if:{{{1|}}}|Ing Wikinews atin yang kaugneng balita:|[[wikinews:|Ing Wikinews]] atin yang kaugneng balita}}
 {{#if:{{{1|}}}|*'''''[[wikinews:{{{1}}}|{{{d1|{{{1}}}}}}]]'''''}}
 {{#if:{{{2|}}}|*'''''[[wikinews:{{{2}}}|{{{d2|{{{2}}}}}}]]'''''}}
 {{#if:{{{3|}}}|*'''''[[wikinews:{{{3}}}|{{{d3|{{{3}}}}}}]]'''''}}
