@@ -2,7 +2,9 @@
 |name       = Subdivisions of British Columbia
 |titlestyle = background:#cddaff;
 |title      = [[Image:Flag of British Columbia.svg|22px|Flag of British Columbia]] Subdivisions of [[British Columbia]]
-|state      = <noinclude>expanded</noinclude><includeonly>{{{state|autocollapse}}}</includeonly>
+|state      = <noinclude>
+expanded
+</noinclude><includeonly>{{{state|autocollapse}}}</includeonly>
 |groupstyle = background:#e6ecff;
 |belowstyle = background:#e6ecff;
 
@@ -42,16 +44,16 @@
 
 [[Category:British Columbia navigational boxes]]
 
-[[en:Template:Subdivisions of British Columbia]]
-[[eo:Ŝablono:Brita Kolumbio]]
-[[fr:Modèle:Palette Colombie-Britannique]]
-[[id:Templat:BritishColumbia]]
-[[is:Snið:Breska Kólumbía]]
-[[it:Template:Columbia Britannica]]
-[[ja:Template:ブリティッシュコロンビア州の地方行政区]]
-[[jv:Cithakan:BritishColumbia]]
-[[ms:Templat:Subdivisions of British Columbia]]
-[[ro:Format:Subdiviziunile Columbiei Britanice]]
-[[ru:Шаблон:Британская Колумбия]]
-[[vec:Modèl:Columbia Britannica]]
+
+
+
+
+
+
+
+
+
+
+
+
 </noinclude>
