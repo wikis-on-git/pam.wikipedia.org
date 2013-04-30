@@ -1,3 +1,4 @@
+
 <table class="infobox geography vcard" style="width:22em; font-size:88%;"><!--
 ============================================================
   Lagyu
@@ -187,7 +188,7 @@
     (#ifeq:)-->|<!------------------------------------------
                      capital is largest_city/_settlement:
                  -------------------------------------------
-             --><br/>and {{{largest_settlement_type|largest city}}}<!--
+             --><br/>ampong {{{largest_settlement_type|pekamaragul a lakanbalen}}}<!--
        --></td><!--
           --------Add capital:--------
        --><td>{{{capital}}}<!--
@@ -558,7 +559,7 @@
                | [[{{{area_link}}}|Lapad]]
                | {{#ifexist:Geography of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}
                   | [[Geography of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Lapad]]
-                  | Area<!--
+                  | Lapad<!--
               -->}}<!--
            -->}}<!--
       --></th>
