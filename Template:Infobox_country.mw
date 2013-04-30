@@ -555,7 +555,7 @@
      | <tr class="mergedtoprow">
          <th colspan="3"><!--
            -->{{#if:{{{area_link|}}}
-               | [[{{{area_link}}}|Area]]
+               | [[{{{area_link}}}|Lapad]]
                | {{#ifexist:Geography of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}
                   | [[Geography of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Lapad]]
                   | Area<!--
