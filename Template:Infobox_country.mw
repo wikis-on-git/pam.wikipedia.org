@@ -1,3 +1,4 @@
+
 <table class="infobox geography vcard" style="width:22em; font-size:88%;"><!--
 ============================================================
   Lagyu
@@ -113,7 +114,7 @@
      | <tr>
          <td class="anthem" colspan="3" style="text-align:center;line-height:1.2em;"><!--
            -->{{#if:{{{national_anthem|}}}{{{anthem|}}}
-               |'''Anthem:&nbsp;'''{{{national_anthem|{{{anthem|}}}}}}
+               |'''Himno:&nbsp;'''{{{national_anthem|{{{anthem|}}}}}}
               }}<!--
            -->{{#if:{{{royal_anthem|}}}
                | {{#if:{{{national_anthem|}}}{{{anthem|}}} |<br/>}}<!--
@@ -169,7 +170,7 @@
         | <td colspan="2"><!--
            -->{{#if:{{{admin_center_type|}}}{{{admin_center|}}}
                | '''{{{admin_center_type|Administrative&nbsp;center}}}'''<!--
-            -->| {{#if:{{{capital_type|}}} |'''{{{capital_type}}}''' |'''Capital'''}}<!--
+            -->| {{#if:{{{capital_type|}}} |'''{{{capital_type}}}''' |'''Tungku o kapitolyu'''}}<!--
            -->}}<!--
            -------------------------------------------------
             If capital provided, check whether largest_city
@@ -249,7 +250,7 @@
        </tr><!--
     -->{{#if:{{{national_languages|}}}
         | <tr>
-            <td colspan="2">Recognised national&nbsp;languages</td>
+            <td colspan="2">Kikilalanan a pambangsang&nbsp;amanu</td>
             <td style="vertical-align:middle;">{{{national_languages}}}</td>
           </tr><!--
     -->}}<!--
