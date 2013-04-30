@@ -1,4 +1,3 @@
-
 <table class="infobox geography vcard" style="width:22em; font-size:88%;"><!--
 ============================================================
   Lagyu
@@ -330,7 +329,7 @@
            -->{{#if:{{{politics_link|}}}
                | [[{{{politics_link}}}|Kapamahalan]]<!--
             -->| {{#ifexist:Politics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}
-                  | [[Politics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Government]]<!--
+                  | [[Politics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Kapamahalan]]<!--
                -->| Government<!--
               -->}}<!--
            -->}}<!--
