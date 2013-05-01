@@ -1,0 +1,19 @@
+<!--
+
+Bang magdagdag wiki king listaan da reng makikilalang wiking Wikia, i-edit ya ing Template:Wikia/list
+
+Deng input o ilub:
+ 1= WikiName
+ 2= WikiTitle    (ONLY used if input 1 is not found in Template:Wikia/list)
+ 3= ArticleName
+ 4= ArticleTitle
+
+--><includeonly>{{#if:{{{3|}}}<!--
+1     1st link -->|[{{fullurl:wikiasite:{{str_trim|{{{1|{{PAGENAME}}}}}}}:{{str_trim|{{{3|}}}}}}} {{{4|{{{3|{{{2|{{{1|{{PAGENAME}}}}}}}}}}}}}}]<!-- 
+2          /if --> on&#32;}}<!--
+3     2nd link -->[{{fullurl:wikiasite:{{str_trim|{{{1|{{PAGENAME}}}}}}}}} {{Template:Wikia/list<!--
+4  (1st input) -->|{{{1 | {{PAGENAME}} }}}<!--
+5  (2nd input) -->|{{{2 | {{{1 | {{PAGENAME}} }}} }}} }}]</includeonly><noinclude>
+
+{{Documentation}}
+</noinclude>
