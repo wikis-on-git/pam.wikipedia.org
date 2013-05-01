@@ -1,0 +1,48 @@
+<!--
+
+Comments:
+1 = Wikia WikiName
+2 = User provided name (ONLY used if the 1st input isn't on this list)
+
+Please enter these alphabetically, for easier maintenance.  Thanks!
+
+--><includeonly>{{#switch:{{lc:{{{1|}}}}}</includeonly><noinclude>{{doc|content=<pre></noinclude>
+| 24            = 24 Wiki
+| adventuretime = Adventure Time Wiki
+| assassinscreed = The Assassin's Creed Wiki
+| batenkaitos   = ''Baten Kaitos'' Wiki
+| bladerunner   = Off-world: The ''Blade Runner'' Wiki
+| comics        = Comic Book Series Wiki
+| conan         = Conan Wiki
+| conlang       = Constructed Languages wiki
+| cybernations  = Cyber Nations Wiki
+| delphi        = Delphi Wiki
+| diablo        = Diablo Wiki
+| doom          = ''Doom'' Wiki
+| ewrestling    = eWrestling Encyclopedia
+| familypedia   = Familypedia
+| ffxiclopedia  = FFXIclopedia
+| firefly       = The ''Firefly'' and ''Serenity'' Database
+| furry         = WikiFur
+| gearsofwar    = Gearspedia: The ''Gears of War'' Wiki
+| guildwars     = GuildWiki
+| gunz          = GunZ.Wikia
+| halo          = Halo Nation - The Halo Franchise, Bungie, 343 Industries and more
+| marvel        = Marvel Database
+| memoryalpha|enmemoryalpha = Memory Alpha <!--do not italicize Star Trek, per Wikipedia:WikiProject Star Trek-->
+| museums       = MuseumsWiki
+| ratchetandclank  = ''Ratchet & Clank'' Wiki
+| runescape     = ''RuneScape'' Wiki
+| stargate      = ''Stargate'' Wiki
+| startrek      = Memory Beta <!--do not italicize Star Trek, per Wikipedia:WikiProject Star Trek-->
+| starwars      = Wookieepedia: a ''Star Wars'' Wiki
+| terminator    = The Terminator Wiki
+| tibia         = TibiaWiki, an external wiki
+| wizardry      = Wizardry Wiki, an external wiki
+| wot           = ''A Wheel of Time'' Wiki
+| wow|wowwiki   = WoWWiki
+| www|wikia     = Wikia
+| xbox          = Xbox Wiki
+| yugioh        = Yu-Gi-Oh!
+| #default      = {{#if:{{{2}}} | {{{2|}}} | {{{1}}} }},&#32; an external wiki
+}}<noinclude></pre>}}</noinclude>
