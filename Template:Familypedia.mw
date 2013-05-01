@@ -1,0 +1,17 @@
+{{Wikia|familypedia|[[Familypedia]]|{{{1|}}}}} (open wiki)<noinclude>
+{{documentation|content=
+Maglalang yang suglung a palwal a me-format paras king artikulu king  [[Familypedia]].
+== Usage ==
+<code><nowiki>{{Familypedia|</nowiki>''article name''<nowiki>}}</nowiki></code>
+
+== Alimbawa ==
+Ing pamag-type king
+<pre>
+* {{Familypedia|Eadgyth of Wessex (910-946)}}
+</pre>
+maresulta ya king
+* {{Familypedia|Eadgyth of Wessex (910-946)}}
+}}
+
+[[Category:External link templates]]
+</noinclude>
