@@ -44,7 +44,7 @@
 | header3  = {{#if:{{{other_names|}}}{{{proper_name|}}}{{{devanagari|}}}{{{sanskrit_transliteration|{{{sanskrit_translit|}}}}}}{{{tamil|}}}{{{marathi|}}}{{{bengali|}}}{{{script|}}}|Lagiu}}
 | label4   = '''Other names''':
 | data4    = {{{other_names|}}}
-| label5   = '''Proper name''':
+| label5   = '''Ustu lagiu''':
 | data5    = {{{proper_name|}}}
 | label6   = '''Devanagari''':
 | data6    = {{{devanagari|}}}
