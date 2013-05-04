@@ -1,0 +1,137 @@
+{{Infobox
+| bodyclass   = vcard
+| bodystyle   = text-align:left; border-color: #FF3F00;
+
+| abovestyle  = background-color:#FFC569; color: black; 
+| headerstyle = background-color:#FFC569; color: black; 
+| labelstyle  = font-weight: normal; text-align: right;
+
+| above    = <includeonly><span class="fn org">{{ifempty|{{{name|}}}|{{PAGENAME}}}}</span></includeonly>
+
+| image    = {{#if:{{{image|}}}|[[Image:{{{image}}}<!--
+  -->|{{px|{{{image_size|}}}|280px}}<!--
+  -->|alt={{{image_alt|}}}<!--
+  -->|{{{caption|}}}]]}}
+|captionstyle = padding-top:0.3em; line-height:1.2em
+| caption  = {{{caption|}}}
+
+| data1    = {{#if:{{{pushpin_map|}}}|<center>{{Location map|{{{pushpin_map}}}
+ |alt = {{{pushpin_map_alt|}}}
+ |lat = {{#if:{{{latm|}}}{{{latNS|}}}| |{{{latd|{{{latitude|<noinclude>32</noinclude>}}}}}} }}
+ |long = {{#if:{{{longm|}}}{{{longEW|}}}| |{{{longd|{{{longitude|<noinclude>80</noinclude>}}}}}} }}
+ |lat_deg={{#if:{{{latm|}}}{{{latNS|}}}|{{{latd|}}}| }}
+ |lat_min={{#if:{{{latm|}}}{{{latNS|}}}|{{{latm|}}}| }}
+ |lat_sec={{#if:{{{lats|}}}{{{latNS|}}}|{{{lats|}}}| }}
+ |lat_dir={{#if:{{{latNS|}}}|{{{latNS|}}}| }}
+ |lon_deg={{#if:{{{longm|}}}{{{longEW|}}}|{{{longd|}}}| }}
+ |lon_min={{#if:{{{longm|}}}{{{longEW|}}}|{{{longm|}}}| }}
+ |lon_sec={{#if:{{{longs|}}}{{{longEW|}}}|{{{longs|}}}| }}
+ |lon_dir={{#if:{{{longEW|}}}|{{{longEW|}}}| }}
+ |float      = center
+ |caption    = {{ifempty|{{{map_caption|}}}|Location within {{Location map {{{pushpin_map}}}|name}}}}
+ |border     = none
+ |position   = {{{pushpin_label_position|}}}
+ |mark       = Gold temple icon.png
+ |marksize   = 8
+ |label      = {{ifempty|{{{pushpin_map_label|}}}|{{{name|}}}|{{PAGENAME}}}}
+ |width      = {{#iferror:{{#expr:1+{{{map_size|}}}+1}}|280|{{{map_size|}}}}}
+}}</center>}}
+
+| label2   = '''[[Geographic coordinate system|Coordinates]]''':
+| data2    = {{#if:{{both|{{{latitude|{{{latd|}}}}}}|{{{longitude|{{{longd|}}}}}}}}|
+{{Geobox coor|{{{latitude|{{{latd|}}}}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{{longitude|{{{longd|}}}}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|type:landmark{{#if:{{{coordinates_region|}}}|_region:{{{coordinates_region}}}}}|{{#if:{{{coordinates_display|}}}|title|μ}}={{{coordinates_display|}}}}}{{{coordinates_footnotes|}}}{{#if:{{{coordinates_label|}}}|<br />({{{coordinates_label}}})}}}}
+
+| header3  = {{#if:{{{other_names|}}}{{{proper_name|}}}{{{devanagari|}}}{{{sanskrit_transliteration|{{{sanskrit_translit|}}}}}}{{{tamil|}}}{{{marathi|}}}{{{bengali|}}}{{{script|}}}|Lagiu}}
+| label4   = '''Other names''':
+| data4    = {{{other_names|}}}
+| label5   = '''Proper name''':
+| data5    = {{{proper_name|}}}
+| label6   = '''Devanagari''':
+| data6    = {{{devanagari|}}}
+| label7   = '''Sanskrit transliteration''':
+| data7    = {{{sanskrit_translit|}}}
+| label8   = '''Tamil''':
+| data8    = {{{tamil|}}}
+| label9   = '''Marathi''':
+| data9    = {{{marathi|}}}
+| label10   = '''Oriya''':
+| data10    = {{{Oriya|}}}
+| label11  = '''[[Bengali language|Bengali]]''':
+| data11   = {{{bengali|}}}
+| label12  = '''[[Chinese language|Chinese]]''':{{#if:{{{pinyin|}}}|<br /><small>[[Pinyin]]:</small>}}
+| data12   = {{{chinese|}}}{{#if:{{both|{{{chinese|}}}|{{{pinyin|}}}}}|<br /><small>{{{pinyin|}}}</small>}}
+| label13  = '''[[Malay language|Malay]]''':
+| data13   = {{{malay|}}}
+| label14  = '''{{ifempty|{{{script_name|}}}|Script}}''':
+| data14   = {{{script|}}}
+
+| header14 = {{#if:{{{country|}}}{{{state/province|}}}{{{state|}}}{{{province|}}}{{{district|}}}{{{locale|}}}{{{location|}}}{{{coordinates|}}}|Karinan}}
+
+| label15  = '''Bangsa''':
+| data15   = {{{country|}}}
+
+| label16  = '''{{#if:{{{state|}}}|State|{{#if:{{{province|}}}|Province|Lalawigan}}}}''':
+| data16   = {{ifempty|{{{state|}}}|{{{province|}}}|{{{state/province|}}}}}
+
+| label17  = '''Distritu''':
+| data17   = {{{district|}}}
+
+| label18  = '''Locale''':
+| data18   = {{{locale|}}}
+
+| label19  = '''Karinan''':
+| data19   =  {{{location|}}}
+
+| label20  = '''Katas''':
+| data20   = {{#if:{{{elevation_m|}}}|{{convert|{{{elevation_m}}}|m|ft|0|abbr=on}}{{{elevation_footnotes|}}}}}
+
+| label21  = '''Coordinates''':
+| data21   =  {{{coordinates|}}}
+
+| header22 = {{#if:{{{primary_deity|}}}{{{important_festivals|}}}{{{architecture|}}}{{{number_of_temples|}}}{{{number_of_monuments|}}}{{{inscriptions|}}}|Architecture and culture}}
+
+| label23  = '''Pun diwata''':
+| data23   =  {{{primary_deity|}}}
+
+| label24  = '''Mayalagang kapagmasusian''':
+| data24   =  {{{important_festivals|}}}
+
+| label25  = '''Architecturang aske''':
+| data25   =  {{{architecture|}}}
+
+| label26  = '''Bilang da reng templu''':
+| data26   = {{{number_of_temples|}}}
+
+| label27  = '''Bilang da reng monumentu''':
+| data27   =  {{{number_of_monuments|}}}
+
+| label28  = '''Gulis/sulat''':
+| data28   =  {{{inscriptions|}}}
+
+| header29 = {{#if:{{{date_built|}}}{{{creator|}}}{{{temple_board|}}}|History}}
+
+| label30  = '''Aldo mitatag''':
+| data30   =  {{{date_established|}}}
+
+| label31  = '''Aldo mitalakad''':<br/><small>(Current structure)</small>
+| data31   =  {{{date_built|}}}
+
+| label32  = '''Miglalang''':
+| data32   =  {{{creator|}}}
+
+| label33  = '''Architectu''':
+| data33   =  {{{architect|}}}
+
+| label34  = '''Templu lupun''':
+| data34   =  {{{temple_board|}}}
+
+| label35  = '''Lupun mangasiwa''':
+| data35   = {{{governing_body|}}}
+
+| label36  = '''Website''':
+| data36   =  {{{website|}}}
+
+| below      = {{#if:{{{footnotes|}}}|<span style="font-size: smaller;">{{{footnotes}}}</span>}}
+}}{{#ifeq:{{{1|μ}}}|μ||[[Category:Infobox Mandir using deprecated parameters|1{{PAGENAME}}]]}}{{#ifeq:{{{architectural_styles|μ}}}|μ||[[Category:Infobox Mandir using deprecated parameters|A{{PAGENAME}}]]}}{{#ifeq:{{{Website|μ}}}|μ||[[Category:Infobox Mandir using deprecated parameters|W{{PAGENAME}}]]}}{{#ifeq:{{{image size|μ}}}|μ||[[Category:Infobox Mandir using deprecated parameters|S{{PAGENAME}}]]}}{{#ifeq:{{{alt|μ}}}|μ||[[Category:Infobox Mandir using deprecated parameters|a{{PAGENAME}}]]}}{{#ifeq:{{{map|μ}}}|μ||[[Category:Infobox Mandir using deprecated parameters|M{{PAGENAME}}]]}}{{#if:{{{image|}}}|{{#ifexist:media:{{{image}}}||[[Category:Infobox Mandir using deprecated parameters|i{{PAGENAME}}]]}}}}<noinclude>
+{{documentation}}
+</noinclude>
