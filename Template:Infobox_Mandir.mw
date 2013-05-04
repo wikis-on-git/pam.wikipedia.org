@@ -88,7 +88,7 @@
 | label21  = '''Coordinates''':
 | data21   =  {{{coordinates|}}}
 
-| header22 = {{#if:{{{primary_deity|}}}{{{important_festivals|}}}{{{architecture|}}}{{{number_of_temples|}}}{{{number_of_monuments|}}}{{{inscriptions|}}}|Architecture and culture}}
+| header22 = {{#if:{{{primary_deity|}}}{{{important_festivals|}}}{{{architecture|}}}{{{number_of_temples|}}}{{{number_of_monuments|}}}{{{inscriptions|}}}|Architectura ampong cultura}}
 
 | label23  = '''Pun diwata''':
 | data23   =  {{{primary_deity|}}}
@@ -108,7 +108,7 @@
 | label28  = '''Gulis/sulat''':
 | data28   =  {{{inscriptions|}}}
 
-| header29 = {{#if:{{{date_built|}}}{{{creator|}}}{{{temple_board|}}}|History}}
+| header29 = {{#if:{{{date_built|}}}{{{creator|}}}{{{temple_board|}}}|Amlat}}
 
 | label30  = '''Aldo mitatag''':
 | data30   =  {{{date_established|}}}
