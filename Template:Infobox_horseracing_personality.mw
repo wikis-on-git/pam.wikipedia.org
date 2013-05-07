@@ -1,0 +1,38 @@
+{{Infobox
+| bodyclass   = vcard
+| abovestyle  = background-color: #b0c4de
+| headerstyle = background-color: #b0c4de
+| above       = {{{name|<includeonly>{{PAGENAME}}</includeonly>}}}
+| aboveclass  = fn 
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=frameless|alt={{{alt|}}}|suppressplaceholder=yes}}
+| caption     = {{{caption|}}}
+
+| label1      = Obra
+| data1       = {{{occupation|}}}
+| class1      = role
+
+| label2      = Mibait
+| data2       = {{br separated entries|{{{birth_date|}}}|{{{birth_place|}}} }} 
+
+| label3      = Mete
+| data3       = {{br separated entries|{{{death_date|}}}|{{{death_place|}}} }} 
+
+| label5      = Simbut king kayang karera
+| data5       = {{{career wins|}}}
+| rowclass 5  = note
+
+| header6     = {{#if:{{{race|}}}{{{awards|}}}{{{honours|}}}|Major racing wins, honours and awards}}
+
+| header7     = {{#if:{{{race|}}}|Manimunang pamanyambut king pamangarera}}
+| data8       = {{{race|}}}
+
+| header9     = {{#if:{{{awards|}}}|Galal king pamangarera}}
+| data10      = {{{awards|}}}
+
+| header11    = {{#if:{{{honours|}}}|Honours}}
+| data12      = {{{honours|}}}
+
+| header13    = {{#if:{{{horses|}}}|Maulagang kabayu}}
+| data14      = {{{horses|}}}
+
+}}<noinclude>{{documentation}}<!-- place category and language links on the /doc sub-page, not here --></noinclude>
