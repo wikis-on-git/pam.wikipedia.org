@@ -204,7 +204,7 @@
 }}
 <!---------- Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
 {{#if:{{{vicepresident|}}}|
-! style="text-align:left;" {{!}} {{nowrap|{{#if:{{{office|}}}|{{#ifeq:{{isValidPageName|Vice {{{office}}}}}|valid|[[Vice {{{office}}}|Vice President]]|Vice President}}|Vice President}}}}
+! style="text-align:left;" {{!}} {{nowrap|{{#if:{{{office|}}}|{{#ifeq:{{isValidPageName|Vice {{{office}}}}}|valid|[[Vice {{{office}}}|Vice President]]|Vice President}}|Kadwang Pamuntuk}}}}
 {{!}} {{{vicepresident}}}
 {{!}}-
 }}
