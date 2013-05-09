@@ -1,3 +1,4 @@
+
 <includeonly>
 <!----------Speaker of the House---------->
 {{#if:{{{speaker|}}}|
@@ -148,7 +149,7 @@
 {{!}}-
 }}
 {{#if:{{{president|}}}|
-! style="text-align:left;" {{!}} President
+! style="text-align:left;" {{!}} Pamuntuk
 {{!}} {{{president}}}
 {{!}}-
 }}
@@ -168,7 +169,7 @@
 {{!}}-
 }}
 {{#if:{{{minister|}}}|
-! style="text-align:left;" {{!}} Minister
+! style="text-align:left;" {{!}} Ministru
 {{!}} {{{minister}}}
 {{!}}-
 }}
@@ -204,7 +205,7 @@
 }}
 <!---------- Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
 {{#if:{{{vicepresident|}}}|
-! style="text-align:left;" {{!}} {{nowrap|{{#if:{{{office|}}}|{{#ifeq:{{isValidPageName|Vice {{{office}}}}}|valid|[[Vice {{{office}}}|Vice President]]|Vice President}}|Kadwang Pamuntuk}}}}
+! style="text-align:left;" {{!}} {{nowrap|{{#if:{{{office|}}}|{{#ifeq:{{isValidPageName|Vice {{{office}}}}}|valid|[[Vice {{{office}}}|Kadwang Pamuntuk]]|Kadwang Pamuntuk}}|Kadwang Pamuntuk}}}}
 {{!}} {{{vicepresident}}}
 {{!}}-
 }}
