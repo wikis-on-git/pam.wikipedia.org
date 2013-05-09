@@ -115,7 +115,7 @@
 {{!}}-
 }}
 {{#if:{{{alma_mater|}}}|
-! [[Alma mater|Pipagaralan&nbsp;]]
+! [[Alma mater|Pípagaralan&nbsp;]]
 {{!}} {{{alma_mater}}}
 {{!}}-
 }}
@@ -145,7 +145,7 @@
 {{!}}-
 }}
 {{#if:{{{religion|}}}|
-! Relihiun
+! Relihyun
 {{!}} {{{religion}}}
 {{!}}-
 }}
@@ -200,7 +200,7 @@
 {{!}}-
 }}
 {{#if:{{{branch|}}}|
-! Sangang pagsilbyan
+! Sangang págsilbyan
 {{!}} {{{branch}}}
 {{!}}-
 }}
