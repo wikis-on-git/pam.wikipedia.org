@@ -1,0 +1,13 @@
+{{Ambox
+| name = Advert
+| subst= <includeonly>{{subst:substcheck}}</includeonly>
+| type = content
+| class= ambox-Advert
+| issue= Ining {{{1|artikulu}}} '''makasulat yang anting [[WP:NOT#SOAPBOX|{{#if:{{{2|}}}|{{{2}}}|patalastas}}]]'''.
+| fix  = Please help [{{fullurl:{{FULLPAGENAME}}|action=edit}} improve it] by rewriting promotional content from a [[Wikipedia:Neutral point of view|paglalaweng e mangabiran (''neutral'')]] at ilako la reng e karapatdapat a [[WP:EL|suglung palwal]].
+| cat  = Articles with a promotional tone
+| date = {{{date|}}}
+| all  = Eganaganang artikulung maki tabas a managyag o ''promotional''
+}}<noinclude>
+{{documentation}}
+</noinclude>
