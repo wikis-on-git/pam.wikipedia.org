@@ -63,7 +63,7 @@
 | data6      = {{{time<includeonly>|</includeonly>}}}
 | label7     = Kabilyan
 | data7      = {{{status<includeonly>|</includeonly>}}}
-| label8     = {{#if:{{{fam1|{{{family<includeonly>|</includeonly>}}}}}}|Parent systems}}
+| label8     = {{#if:{{{fam1|{{{family<includeonly>|</includeonly>}}}}}}|Sistemang penibatan o pengari}}
 | data8      = {{#if:{{{fam1|{{{family<includeonly>|</includeonly>}}}}}}|<div style="line-height:100%;">
 {{{fam1|{{{family}}}}}}<ul style="line-height:100%; margin-left:15px; padding-left:0"><li>{{#if:{{{fam2|}}}
 | {{{fam2}}}<ul style="line-height:100%; margin-left:5px; padding-left:0"><li>{{#if:{{{fam3|}}}
@@ -86,9 +86,9 @@
 }}</li></ul>| {{{name}}}}}</li></ul>| {{{name}}}}}</li></ul>| {{{name}}}}}</li></ul>| {{{name}}}
 }}</li></ul>| {{{name}}}}}</li></ul>
 </div>}}
-| label9      = Child systems
+| label9      = Sistemang supling
 | data9       = {{{children<includeonly>|</includeonly>}}}
-| label10     = Sister systems
+| label10     = Sistemang kapatad
 | data10      = {{{sisters<includeonly>|</includeonly>}}}
 | label11     = [[ISO 15924]]
 | data11      = <noinclude><tt><nowiki>{{{iso15924|}}}</nowiki><tt></noinclude><!--
