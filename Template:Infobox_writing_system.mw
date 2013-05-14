@@ -1,0 +1,113 @@
+{{ infobox
+| abovestyle = background:{{#switch:{{LC:{{{type|}}}}}
+  |abjad        |[[abjad]]
+  |consonantary |[[consonantary]]                     = palegreen  
+  |alphabet     |[[alphabet]]                         = lightblue
+  |abugida      |[[abugida]]                          = navajowhite 
+  |syllabary    |[[syllabary]]                        = pink        
+  |semisyllabary|[[semisyllabary]]                    = magenta
+  |manual       |[[manual]]                           = paleturquoise 
+  |pictographic |[[pictographic]]                     = palegoldenrod  
+  |ideographic  |[[ideographic]]                      = gold
+  |logographic  |[[logographic]]|[[logosyllabic]]     = mistyrose  
+  |stenography  |[[stenography]]
+  |shorthand    |[[shorthand]]                        = {{#switch:{{LC:{{{SHtype|}}}}}
+  |abjadi       |[[abjadi]]                           = palegreen 
+  |consonantal  |[[consonantal]]                      = palegreen 
+  |alphabetic   |[[alphabetic]]                       = lightblue 
+  |abugida      |[[abugida]]                          = navajowhite 
+  |syllabic     |[[syllabic]]                         = pink 
+  |semisyllabic |[[semisyllabic]]                     = magenta 
+  |undeciphered                                       = gainsboro 
+  |alternative                                        = khaki 
+  |#default                                           = turquoise
+  }}
+  |undeciphered                                       = gainsboro
+  |alternative                                        = khaki
+  |tactile                                            = white; font-variant:small-caps
+  |#default                                           = white
+  }}; color:{{#switch:{{lc:{{{SHform|}}}}}
+  |cursive |printed  = #303030 
+  |stenographic      = #405000 
+  |geometric         = #005020 
+  |semi-script       = #600000 
+  |elliptical        = #600000 
+  |script-geometric  = #600000 
+  |script            = #500030 
+  |#default          = black 
+  }}; {{#switch:{{lc:{{{mode|}}}}}
+  |tactile                     = font-variant:small-caps;
+  |stenographic |[[stenographic]] 
+  |shorthand    |[[shorthand]] = font-style:italic
+  |manual                      = font-style:italic; font-variant:small-caps;
+  |#default                    =
+  }}
+
+| bodystyle   = {{{bodystyle|}}}
+| above      = {{{name<includeonly>|{{PAGENAME}}</includeonly>}}}<br>{{{altname|}}}
+
+| image      = {{#if:{{{sample<includeonly>|</includeonly>}}}|[[File:{{{sample}}}|{{#if:{{{imagesize|}}}|{{{imagesize}}}|310px}}]]}}
+| caption    = {{{caption|}}}
+| label1     = Tinduk o uri
+| data1      = {{#if:{{{SHline|}}}|{{{SHline|}}}-line|}} {{{SHform|}}} {{{SHtype|}}} {{{mode|}}} {{{type<includeonly>|</includeonly>}}} {{{typedesc<includeonly>|</includeonly>}}}
+
+| label2     = Amanu
+| data2      = {{{languages<includeonly>|</includeonly>}}}
+| label3     = Miglalang
+| data3      = {{{creator<includeonly>|</includeonly>}}} 
+| label4     = Lelangan
+| data4      = {{#if:{{{date<includeonly>|</includeonly>}}}|{{{date}}} }}
+| label5     = Milimbag/Mibulalag
+| data5      = {{#if:{{{SHdates<includeonly>|</includeonly>}}}|{{{SHdates}}} }} {{#if:{{{published<includeonly>|</includeonly>}}}|{{{published}}} }}
+| label6     = Panaun
+| data6      = {{{time<includeonly>|</includeonly>}}}
+| label7     = Kabilyan
+| data7      = {{{status<includeonly>|</includeonly>}}}
+| label8     = {{#if:{{{fam1|{{{family<includeonly>|</includeonly>}}}}}}|Parent systems}}
+| data8      = {{#if:{{{fam1|{{{family<includeonly>|</includeonly>}}}}}}|<div style="line-height:100%;">
+{{{fam1|{{{family}}}}}}<ul style="line-height:100%; margin-left:15px; padding-left:0"><li>{{#if:{{{fam2|}}}
+| {{{fam2}}}<ul style="line-height:100%; margin-left:5px; padding-left:0"><li>{{#if:{{{fam3|}}}
+| {{{fam3}}}<ul style="line-height:100%; margin-left:5px; padding-left:0"><li>{{#if:{{{fam4|}}}
+| {{{fam4}}}<ul style="line-height:100%; margin-left:5px; padding-left:0"><li>{{#if:{{{fam5|}}}
+| {{{fam5}}}<ul style="line-height:100%; margin-left:5px; padding-left:0"><li>{{#if:{{{fam6|}}}
+| {{{fam6}}}<ul style="line-height:100%; margin-left:5px; padding-left:0"><li>{{#if:{{{fam7|}}}
+| {{{fam7}}}<ul style="line-height:100%; margin-left:5px; padding-left:0"><li>{{#if:{{{fam8|}}}
+| {{{fam8}}}<ul style="line-height:100%; margin-left:5px; padding-left:0"><li>{{#if:{{{fam9|}}}
+| {{{fam9}}}<ul style="line-height:100%; margin-left:5px; padding-left:0"><li>{{#if:{{{fam10|}}}
+| {{{fam10}}}<ul style="line-height:100%; margin-left:5px; padding-left:0"><li>{{#if:{{{fam11|}}}
+| {{{fam11}}}<ul style="line-height:100%; margin-left:5px; padding-left:0"><li>{{#if:{{{fam12|}}}
+| {{{fam12}}}<ul style="line-height:100%; margin-left:5px; padding-left:0"><li>{{#if:{{{fam13|}}}
+| {{{fam13}}}<ul style="line-height:100%; margin-left:5px; padding-left:0"><li>{{#if:{{{fam14|}}}
+| {{{fam14}}}<ul style="line-height:100%; margin-left:5px; padding-left:0"><li>{{#if:{{{fam15|}}}
+| {{{fam15}}}<ul style="line-height:100%; margin-left:5px; padding-left:0"><li>{{{name}}}</li></ul>
+| {{{name}}}
+}}</li></ul>| {{{name}}}}}</li></ul>| {{{name}}}}}</li></ul>| {{{name}}}}}</li></ul>| {{{name}}}
+}}</li></ul>| {{{name}}}}}</li></ul>| {{{name}}}}}</li></ul>| {{{name}}}}}</li></ul>| {{{name}}}
+}}</li></ul>| {{{name}}}}}</li></ul>| {{{name}}}}}</li></ul>| {{{name}}}}}</li></ul>| {{{name}}}
+}}</li></ul>| {{{name}}}}}</li></ul>
+</div>}}
+| label9      = Child systems
+| data9       = {{{children<includeonly>|</includeonly>}}}
+| label10     = Sister systems
+| data10      = {{{sisters<includeonly>|</includeonly>}}}
+| label11     = [[ISO 15924]]
+| data11      = <noinclude><tt><nowiki>{{{iso15924|}}}</nowiki><tt></noinclude><!--
+-->{{#if:{{ISO 15924 code|{{{iso15924|}}}|default=}}|<!--
+--><tt>{{ISO 15924 code|{{{iso15924|}}} }}, <!--
+-->{{ISO 15924 number|{{{iso15924|}}} }}</tt><!--
+-->}}
+| label12     = &nbsp;
+| data12      = {{#if:{{{iso15924 note<includeonly>|</includeonly>}}}|<tt>{{{iso15924 note<includeonly>|</includeonly>}}}</tt>}}
+| label13     = Direksyon
+| data13      = {{ISO 15924 direction|{{{iso15924|}}}|rtl=Right-to-left|ltr=Left-to-right|ttb=Top-to-bottom|default=|mixed=Mixed}}
+| label14     = Unicode alias
+| data14      = {{ISO 15924 alias|{{{iso15924|}}}}}
+| label15     = [[Mapping of Unicode characters|Unicode range]]
+| data15      = {{{unicode<includeonly>|</includeonly>}}}
+| data16      = {{#if:{{{footnotes<includeonly>|</includeonly>}}}|<div style="text-align: left">{{{footnotes}}}</div>}}
+{{#ifeq:{{{note|}}}|none||'''Note''': This page may contain [[Help:IPA|IPA]] phonetic symbols.}}
+| belowclass  = noprint
+}}<noinclude>
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
+{{Documentation}}
+</noinclude>
