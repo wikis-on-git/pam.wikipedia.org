@@ -1,0 +1,8 @@
+{{ SpecialChars
+| section    = {{{1|}}}
+| special    = [[Brahmic family of scripts|Sulat a Indic]]
+| image      = {{{image|Example.of.complex.text.rendering.svg}}}
+| characters = Indic text
+| fix        = Help:Multilingual support (Indic)
+| error          =[[mojibake|question marks or boxes]], misplaced vowels or missing conjuncts
+}}<noinclude> {{documentation}} </noinclude>
