@@ -1,0 +1,19 @@
+{{#switch:{{{1}}}
+| name   = Mauling Sudan
+| top    = 12.7
+| bottom = 3.2
+| left   = 23.15
+| right  = 36.4
+| image  = South Sudan location map.svg
+| image1 = South Sudan location map Topographic.png
+}}<noinclude><!--
+-- The above switch-statement branches by text in parameter #1,
+-- returning the associated value after each equals sign ("=").
+-->
+{{Location map/Info}}
+{{Documentation}}
+
+[[Category:Location map by country templates|Mauling Sudan]]
+
+[[os:Хуызæг:ПозКартæ Хуссар Судан]]
+</noinclude>
