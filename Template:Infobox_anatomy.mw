@@ -1,0 +1,86 @@
+{| class="infobox" style="width: 22em; text-align: left; font-size: 88%; line-height: 1.5em"
+! colspan=2 style="font-size: 125%; text-align:center; background-color: dimgray; color: white" | ''{{{Name}}}''
+|-
+{{#if:{{{Image<includeonly>|</includeonly>}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} <noinclude>†</noinclude>[[Image:{{{Image}}}|{{{Width|250}}}px|]]
+{{!}}-
+{{#if:{{{Caption<includeonly>|</includeonly>}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} {{{Caption}}}
+{{!}}-
+}}
+}}
+{{#if:{{{Image2<includeonly>|</includeonly>}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} <noinclude>†</noinclude>[[Image:{{{Image2}}}|{{{Width|250}}}px|]]
+{{!}}-
+{{#if:{{{Caption2<includeonly>|</includeonly>}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} {{{Caption2}}}
+{{!}}-
+}}
+}}
+{{#if:{{{Map<includeonly>|</includeonly>}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} <noinclude>†</noinclude>{{ {{{Map}}} | {{{MapPos}}} | Inline=1 }}
+{{!}}-
+{{#if:{{{MapCaption<includeonly>|</includeonly>}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} {{{MapCaption}}}
+{{!}}-
+}}
+}}
+|- style="text-align: left;" 
+{{#if:{{{Latin<includeonly>|</includeonly>}}}|
+! [[Latin]]
+{{!}} <noinclude>†&nbsp;</noinclude>''{{{Latin}}}''
+}}
+|- style="text-align: left;" 
+{{#if:{{{GraySubject<includeonly>|</includeonly>}}}|
+! [[List of subjects in Gray's Anatomy:{{{GraySubject|}}}#Gray.27s_page_.23{{{GrayPage|}}}|Gray's]]
+{{!}} style="white-space: nowrap;" {{!}} <noinclude>†&nbsp;</noinclude>''[http://education.yahoo.com/reference/gray/subjects/subject?id={{{GraySubject}}}#p{{{GrayPage|}}} subject #{{{GraySubject}}} {{{GrayPage|}}}]''
+}}
+|- style="text-align: left;" 
+{{#if:{{{System<includeonly>|</includeonly>}}}|
+! [[Organ system|System]]
+{{!}} <noinclude>†&nbsp;</noinclude>{{{System}}}
+}}
+|- style="text-align: left; background:Pink" 
+{{#if:{{{Artery<includeonly>|</includeonly>}}}|
+! [[Artery]]
+{{!}} <noinclude>†&nbsp;</noinclude>{{{Artery}}}
+}}
+|- style="text-align: left; background:LightBlue " 
+{{#if:{{{Vein<includeonly>|</includeonly>}}}|
+! [[Vein]]
+{{!}} <noinclude>†&nbsp;</noinclude>{{{Vein}}}
+}}
+|- style="text-align: left; background:Yellow" 
+{{#if:{{{Nerve<includeonly>|</includeonly>}}}|
+! [[Nerve]]
+{{!}} <noinclude>†&nbsp;</noinclude>{{{Nerve}}}
+}}
+|- style="text-align: left; background:LightGreen" 
+{{#if:{{{Lymph<includeonly>|</includeonly>}}}|
+! [[Lymph]]
+{{!}} <noinclude>†&nbsp;</noinclude>{{{Lymph}}}
+}}
+|- style="text-align: left; background:Thistle" 
+{{#if:{{{Precursor<includeonly>|</includeonly>}}}|
+! [[Embryology|Precursor]]
+{{!}} <noinclude>†&nbsp;</noinclude>{{{Precursor}}}
+}}
+|- style="text-align: left;" 
+{{#if:{{{MeshName<includeonly>|</includeonly>}}}|
+! [[Medical Subject Headings|MeSH]]
+{{!}} style="white-space: nowrap;" {{!}} <noinclude>†&nbsp;</noinclude>''[http://www.nlm.nih.gov/cgi/mesh/{{{MeshYear|2011}}}/MB_cgi?mode=&term={{{MeshName}}} {{{MeshName}}}]''
+}}
+|- style="text-align: left;" 
+{{#if:{{{Code<includeonly>|</includeonly>}}}|
+! Code
+{{!}} <noinclude>†&nbsp;</noinclude>{{{Code}}}
+}}
+|- style="text-align: left;" 
+{{#if:{{{Dorlands<includeonly>|</includeonly>}}}|
+! [[Elsevier|Dorlands/Elsevier]]
+{{!}} style="white-space: nowrap;" {{!}} <noinclude>†&nbsp;</noinclude>''[http://www.mercksource.com/pp/us/cns/cns_hl_dorlands_split.jsp?pg=/ppdocs/us/common/dorlands/dorland/{{{Dorlands}}}.htm {{{DorlandsID}}}]''
+}}
+|}<noinclude>
+{{documentation}}
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
+</noinclude>
