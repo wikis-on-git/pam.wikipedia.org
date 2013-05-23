@@ -1,0 +1,1 @@
+{{language with name|sco|{{#if:{{{abbr|}}}|{{{abbr|}}}|Scots}}|{{#if:{{{i|}}}|{{{1}}}|''{{{1}}}''}}|links={{#if:{{{links|{{{link|{{{l|}}}}}}}}}|no|{{#if:{{{abbr|}}}|no|yes}}}}}}<noinclude>{{documentation}}<!-- place category and language links on the /doc sub-page --></noinclude>
