@@ -1,0 +1,5 @@
+{{ sister
+| position = {{{position|}}}
+| project  = data
+| text     = Ing [[Wikidata]] atin yang datos a makaugne king: '''''[[d:Special:ItemByTitle/enwiki/{{{1|{{PAGENAME}}}}}|{{{2|{{{1|{{PAGENAME}}}}}}}}]]''''' 
+}}<noinclude>{{documentation}}<!-- Add categories and interwikis to the /doc sub-page --></noinclude>
