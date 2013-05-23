@@ -1,0 +1,11 @@
+<!--{{Third-party}} begin-->{{#ifeq:{{NAMESPACE}}|{{<includeonly>subst:</includeonly>NAMESPACE}}|<includeonly>[[Category:Pages with incorrectly substituted templates|{{PAGENAME}}]]</includeonly>|}}{{Ambox
+| name  = Third-party
+| type = content
+| image = [[Image:Question book-new.svg|50x40px]]
+| issue = Ining {{{1|artikulu}}} '''masyadu yang mamasa kareng pikuanan a asnang kalapit king paksa''', at uli na niti, e makaing malyaring [[Wikipedia:Verifiability|suryan]] at maging [[Wikipedia:Neutral point of view|patas]].
+| fix   = Pakisaup king [{{fullurl:{{FULLPAGENAME}}|action=edit}} pamanyamasan] kapamilatan ning pamanalili kareng mas karapatdapat a   [[Wikipedia:Citing sources|pikuanan]] kareng [[Wikipedia:Independent sources|ayasahan ampong independienting katlung panig reliable, independent, (''third-party'') a pikuanan]]. {{#if:{{{2|}}}|Ing pikuanan a kukustyunan ya pin ing: {{{2}}}.}}
+| date  = {{{date|}}}
+}}{{DMCA|Deng artikulung kulang pagtiwalan a reperensyang |ibat|{{{date|}}}|Deng artikulung kulang pagtiwalan a reperensya}}<!--{{Primary sources}} end--><noinclude>
+
+{{Documentation}}
+</noinclude>
