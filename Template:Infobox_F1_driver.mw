@@ -1,0 +1,78 @@
+{{Infobox
+| child       = {{#if:{{{embed|}}}|yes}}
+| bodyclass   = biography vcard
+| bodystyle   = width:24em 
+| title       = {{{name|{{{Name|}}}}}}
+| titleclass  = fn
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|{{{Image|}}}}}}|size={{{image_size|}}}|sizedefault=frameless|alt={{{alt|}}}}}
+| caption     = {{{caption|}}}
+| headerstyle = background-color: gainsboro
+
+| label1      = Mibait
+| data1       = {{br separated entries|{{{birth_date|}}}|{{{birth_place|}}} }}
+| label2      = Mete
+| data2       = {{br separated entries|{{{death_date|}}}|{{{death_place|}}} }}
+| header3     = {{#if:{{{Races|}}}{{{Years|}}}|[[Formula One]] World Championship career}}
+
+| label4      = [[FIA Super Licence#Nationality of drivers|Nationality]]
+| data4       = {{{nationality|{{{Nationality|}}}}}}
+| label5      = Banwang aktibu 
+| data5       = {{{Years|}}}
+| label6      = Koponan
+| data6       = {{{Team(s)|{{{Teams|}}}}}}
+
+| label11     = 2013 team
+| class11     = org
+| data11      = {{{2013 Team|}}}
+| label12     = 2013 car #
+| data12      = {{{2013 Car number|}}}
+<!--
+| label13     = 2014 team
+| data13      = {{{2014 Team|}}}
+| label14     = 2014 car #
+| data14      = {{{2014 Car number|}}}
+-->
+| label15     = Karera
+| data15      = {{{Races|}}}
+| label16     = [[List of Formula One World Drivers' Champions|Championships]]
+| data16      = {{{Championships|}}}
+| label17     = [[List of Formula One Grand Prix winners|Wins]]
+| data17      = {{{Wins|}}}
+| label18     = Podiums
+| data18      = {{{Podiums|}}}
+| label19     = Career points
+| data19      = {{{Points|}}}
+| label20     = [[Pole position]]s
+| data20      = {{{Poles|}}}
+| label21     = [[Fastest lap]]s
+| data21      = {{{Fastest laps|}}}
+| label22     = First race
+| data22      = {{{First race|}}}
+| label23     = First win
+| data23      = {{{First win|}}}
+| label24     = Last win
+| data24      = {{{Last win|}}}
+| label25     = Last race
+| data25      = {{{Last race|}}}
+| label26     = {{#if:{{{Last position|}}}|[[{{{Last season|2011}}} Formula One season|{{{Last season|2011}}}]] position}}
+| data26      = {{{Last position|}}}
+
+| header27    = {{#if:{{{BF1 Years|}}}|[[British Formula One Series]] career}}
+| label28     = Banwang aktibu
+| data28      = {{{BF1 Years|}}}
+| label29     = Races
+| data29      = {{{BF1 Races|}}}
+| label30     = Championships
+| data30      = {{{BF1 Championships|}}}
+| label31     = Pamanyambut
+| data31      = {{{BF1 Wins|}}}
+| label32     = Podium finishes
+| data32      = {{{BF1 Podiums|}}}
+| label33     = Career points
+| data33      = {{{BF1 Points|}}}
+| label34     = [[Pole position]]s
+| data34      = {{{BF1 Poles|}}}
+| label35     = [[Fastest lap]]s
+| data35      = {{{BF1 Fastest laps|}}}
+| below        = {{#if:{{{updated|{{{Updated|}}}}}}|Last updated on: {{{updated|{{{Updated|}}}}}}.}}
+}}<noinclude>{{documentation}}<!-- place category and language links on the /doc sub-page, not here --></noinclude>
