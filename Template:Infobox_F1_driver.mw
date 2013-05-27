@@ -1,3 +1,4 @@
+
 {{Infobox
 | child       = {{#if:{{{embed|}}}|yes}}
 | bodyclass   = biography vcard
@@ -8,17 +9,17 @@
 | caption     = {{{caption|}}}
 | headerstyle = background-color: gainsboro
 
-| label1      = Mibait
+| label1      = Born
 | data1       = {{br separated entries|{{{birth_date|}}}|{{{birth_place|}}} }}
-| label2      = Mete
+| label2      = Died
 | data2       = {{br separated entries|{{{death_date|}}}|{{{death_place|}}} }}
 | header3     = {{#if:{{{Races|}}}{{{Years|}}}|[[Formula One]] World Championship career}}
 
 | label4      = [[FIA Super Licence#Nationality of drivers|Nationality]]
 | data4       = {{{nationality|{{{Nationality|}}}}}}
-| label5      = Banwang aktibu 
+| label5      = Active years
 | data5       = {{{Years|}}}
-| label6      = Koponan
+| label6      = Teams
 | data6       = {{{Team(s)|{{{Teams|}}}}}}
 
 | label11     = 2013 team
@@ -32,7 +33,7 @@
 | label14     = 2014 car #
 | data14      = {{{2014 Car number|}}}
 -->
-| label15     = Karera
+| label15     = Races
 | data15      = {{{Races|}}}
 | label16     = [[List of Formula One World Drivers' Champions|Championships]]
 | data16      = {{{Championships|}}}
@@ -58,13 +59,13 @@
 | data26      = {{{Last position|}}}
 
 | header27    = {{#if:{{{BF1 Years|}}}|[[British Formula One Series]] career}}
-| label28     = Banwang aktibu
+| label28     = Active years
 | data28      = {{{BF1 Years|}}}
 | label29     = Races
 | data29      = {{{BF1 Races|}}}
 | label30     = Championships
 | data30      = {{{BF1 Championships|}}}
-| label31     = Pamanyambut
+| label31     = Wins
 | data31      = {{{BF1 Wins|}}}
 | label32     = Podium finishes
 | data32      = {{{BF1 Podiums|}}}
