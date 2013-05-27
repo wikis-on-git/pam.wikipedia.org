@@ -1,0 +1,10 @@
+{{#switch:{{{1}}}
+|name   =Fujian
+|top = 28.5
+|bottom = 23.3
+|left = 115.5
+|right = 121.0
+|image  =China Fujian2 location map.svg
+}}<noinclude>{{Location map/Info}}
+[[Category:China location map templates|Fujian]]
+</noinclude>
