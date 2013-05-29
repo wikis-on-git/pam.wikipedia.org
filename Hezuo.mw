@@ -13,7 +13,7 @@
 <!-- images and maps  ----------->
 |image_skyline          = Hezuo.jpg
 |imagesize              = 
-|image_caption          = Monastery in Hezuo
+|image_caption          = Monasteryu king Hezuo
 |image_flag             = 
 |flag_size              =
 |image_seal             = 
@@ -25,7 +25,7 @@
 |blank_emblem_size      =
 |image_map              = Location of Hezuo within Gansu (China).png
 |mapsize                =  
-|map_caption            = Hezuo City (red) within Gannan Prefecture (yellow) and Gansu
+|map_caption            = Ing Lakanbalen ning Hezuo (malutu) kilub ning Gannan Prefecture (dilo) ampo ning Gansu
 |image_map1             = 
 |mapsize1               = 
 |map_caption1           = 
@@ -35,14 +35,15 @@
 |dot_x =  |dot_y =
 <!-- Location ------------------>
 |pushpin_map = Qinghai
-|pushpin_map_caption = Location relative to Qinghai
-|subdivision_type       = Country
-|subdivision_name       = [[People's Republic of China]]
-|subdivision_type1      = [[Province (China)|Province]]
+|pushpin_map_caption = Lokasyun kumpara king Qinghai
+|subdivision_type       = Bangsa
+|subdivision_name       = 
+Maldang Republika ning Tsina
+|subdivision_type1      = [[Lalawigan ning Maldang Republika ning Tsina |Lalawigan]]
 |subdivision_name1      = [[Gansu]]
 |subdivision_type2      = [[Autonomous prefecture]]
 |subdivision_name2      = [[Gannan Tibetan Autonomous Prefecture|Gannan]]
-|seat_type              = Municipal seat
+|seat_type              = Tungku ning Munisipalidad (''Municipal seat'')
 |seat                   = [[Dangzhou Subdistrict]] ({{lang|zh-hans|当周街道}})
 |parts_type             =
 |parts_style            = <!-- =list (for list), coll (for collapsed list), para (for paragraph format)
