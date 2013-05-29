@@ -1,0 +1,23 @@
+
+<noinclude>{{ombox
+| type = style
+| image = [[Image:Ambox warning yellow.svg|40x40px]]
+| text =
+'''Do not use this template in article space unless you are already familiar with the {{tlx|zh}} template.''' {{tlx|zh}} has all the functionality that is normally needed in editing articles, is simpler and less cluttersome to use, and is better maintained. The only time you would ever need to use <code>{{tl|zh-full}}</code> is if you need to include special transliterations that are not included in {{tlx|zh}} or if you want to show the various elements in a different order than usual (which is not recommended, because it would create inconsistency within the project). 99 times out of 100, the only template you need is {{tlx|zh}}.
+}}</noinclude>{{StripWhitespace|x={{{1|}}}}}<!--
+-->{{#if:{{{2|}}}|{{;}} {{StripWhitespace|x={{{2|}}}}}}}<!--
+-->{{#if:{{{3|}}}|{{;}} {{StripWhitespace|x={{{3|}}}}}}}<!--
+-->{{#if:{{{4|}}}|{{;}} {{StripWhitespace|x={{{4|}}}}}}}<!--
+-->{{#if:{{{5|}}}|{{;}} {{StripWhitespace|x={{{5|}}}}}}}<!--
+-->{{#if:{{{6|}}}|{{;}} {{StripWhitespace|x={{{6|}}}}}}}<!--
+-->{{#if:{{{7|}}}|{{;}} {{StripWhitespace|x={{{7|}}}}}}}<!--
+-->{{#if:{{{8|}}}|{{;}} {{StripWhitespace|x={{{8|}}}}}}}<!--
+-->{{#if:{{{9|}}}|{{;}} {{StripWhitespace|x={{{9|}}}}}}}<!--
+-->{{#if:{{{10|}}}|{{;}} {{StripWhitespace|x={{{10|}}}}}}}<!--
+-->{{#if:{{{11|}}}|{{;}} {{StripWhitespace|x={{{11|}}}}}}}<!--
+-->{{#if:{{{12|}}}|{{;}} {{StripWhitespace|x={{{12|}}}}}}}<!--
+-->{{#if:{{{13|}}}|{{;}} {{StripWhitespace|x={{{13|}}}}}}}<!--
+-->{{#if:{{{14|}}}|{{;}} {{StripWhitespace|x={{{14|}}}}}}}<!--
+-->{{#if:{{{15|}}}|{{;}} {{StripWhitespace|x={{{15|}}}}}}}<noinclude>
+{{documentation}}
+</noinclude>
