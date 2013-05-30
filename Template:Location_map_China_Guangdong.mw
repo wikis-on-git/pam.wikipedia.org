@@ -1,0 +1,10 @@
+{{#switch:{{{1}}}
+|name=Guangdong
+|top=25.7
+|bottom=20.0
+|left=109.4
+|right=117.5
+|image=China Guangdong location map.svg
+}}<noinclude>{{Location map/Info}}
+[[Category:China location map templates|Guangdong]]
+</noinclude>
