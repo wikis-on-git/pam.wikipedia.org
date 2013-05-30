@@ -1,0 +1,15 @@
+<!--{{One source}} begin-->{{Ambox
+| name  = One source
+| subst = <includeonly>{{subst:</includeonly><includeonly>substcheck}}</includeonly>
+| type  = content
+| class = ambox-one_source
+| image = [[File:Question book-new.svg|link=|50x40px]]
+| issue = {{{text|This {{{1|article}}} '''relies largely or entirely upon a [[Wikipedia:Identifying reliable sources|single source]]'''.}}}
+| fix   = Please help [{{fullurl:{{FULLPAGENAME}}|action=edit}} improve this article] by introducing [[Wikipedia:Citing sources|citations]] to additional sources.
+| talk  = {{{talk|#}}}
+| date  = {{{date|}}}
+| cat   = Articles needing additional references
+| all   = All articles needing additional references
+}}<!--{{One source}} end--><noinclude>
+{{Documentation}}
+</noinclude>
