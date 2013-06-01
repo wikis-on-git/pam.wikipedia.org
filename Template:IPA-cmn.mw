@@ -1,4 +1,4 @@
-<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Mandarin:&nbsp;|pron=pronounced&nbsp;|=|Mandarin pronunciation:&nbsp;}}</small>{{IPA|[[Help:IPA for Mandarin|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude><noinclude>
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Mandarin:&nbsp;|pron=pronounced&nbsp;|=|Pangayagkas a Mandarin:&nbsp;}}</small>{{IPA|[[Help:IPA for Mandarin|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude><noinclude>
 
 {{documentation|Template:usage of IPA templates}}
 
