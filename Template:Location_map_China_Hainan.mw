@@ -1,0 +1,12 @@
+{{#switch:{{{1}}}
+| name   = Hainan
+| top    = 20.5
+| bottom = 17.9
+| left   = 108.2
+| right  = 111.5
+| image  = China Hainan location map.svg
+}}<noinclude>{{Location map/Info}}
+
+[[Category:China location map templates|Hainan]]
+
+</noinclude>
