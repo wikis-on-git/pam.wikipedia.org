@@ -1,0 +1,78 @@
+
+{| class="infobox bordered vcard" style="width: 25em; text-align: left; font-size: 95%;"
+! colspan="2" style="text-align:center; {{MLBPrimaryColor|{{{team}}}}}; font-size:larger;" class="fn" | <span style="{{MLBSecondaryColor|{{{team}}}}};" class="note">'''<span style="{{MLBSecondaryColor|{{{team}}}}};">{{{name}}}</span>
+|-
+{{#if:{{{image<includeonly>|</includeonly>}}}|
+<td colspan="2" style="text-align:center;">{{#invoke:InfoboxImage|InfoboxImage|image={{{image<includeonly>|</includeonly>}}}|size={{{image_size|{{{width|}}}}}}|sizedefault=200px|alt={{{alt<includeonly>|</includeonly>}}}|suppressplaceholder=yes}}<br>
+{{{caption<includeonly>|</includeonly>}}}</th>
+}}
+{{#if:{{{team<includeonly>|</includeonly>}}}|
+{{!}}-
+{{!}} colspan="2" style="text-align:center; {{MLBPrimaryColor|{{{team}}}}};"{{!}} <span style="{{MLBSecondaryColor|{{{team}}}}};" class="note">'''<span style="{{MLBSecondaryColor|{{{team}}}}};">{{{team}}}</span> {{#if:{{{number<includeonly>|</includeonly>}}}| – No. {{{number|--}}}'''}}</span>}}
+{{!}}- style="text-align: center;" 
+{{#if:{{{position<includeonly>|</includeonly>}}}|{{!}} ! colspan="2" {{!}} '''{{{position}}}'''
+}}
+{{!}}- style="text-align: center;" 
+{{#if:{{{positionplain<includeonly>|</includeonly>}}}|{{!}} ! colspan="2" {{!}} '''{{{positionplain}}}'''
+}}
+{{#if:{{{birth_date<includeonly>|</includeonly>}}}{{{birth_place<includeonly>|</includeonly>}}}|{{!}}-
+{{!}} colspan="2" style="text-align:center;" {{!}} '''Mibait:''' {{{birth_date<includeonly>|</includeonly>}}}{{#if:{{{birth_date<includeonly>|</includeonly>}}}|{{#if:{{{birth_place<includeonly>|</includeonly>}}}|<br>}}}}{{{birth_place<includeonly>|</includeonly>}}}
+{{#if:{{{death_date<includeonly>|</includeonly>}}}{{{death_place<includeonly>|</includeonly>}}}|{{!}}-
+{{!}} colspan="2" style="text-align:center;" {{!}} '''Mete:''' {{{death_date<includeonly>|</includeonly>}}}{{#if:{{{death_date<includeonly>|</includeonly>}}}|{{#if:{{{death_place<includeonly>|</includeonly>}}}|<br>}}}}{{{death_place<includeonly>|</includeonly>}}}}}}}
+{{!}}-
+{{!}} width="50%" style="text-align:center;" {{!}} '''{{#if:{{{finalyear|}}}{{death_date|}}}|Batted|Bats}}:''' {{{bats}}}
+{{!}} width="50%" style="text-align:center;" {{!}} '''{{#if:{{{finalyear|}}}{{death_date|}}}|Threw|Throws}}:''' {{{throws}}}{{#if:{{{debutyear|<noinclude>x</noinclude>}}}{{{debutteam|<noinclude>x</noinclude>}}}|&nbsp;
+{{!}}-
+! colspan="2" style="text-align:center; {{MLBAltPrimaryColor|{{{team}}}}};" {{!}} <span style="{{MLBAltSecondaryColor|{{{team}}}}};">MLB debut</span>
+{{!}}-
+{{!}} colspan="2" style="text-align:center;" {{!}} {{#if:{{{debutdate|<noinclude>x</noinclude>}}}|{{{debutdate}}},&nbsp;}}{{#if:{{{debutyear|<noinclude>x</noinclude>}}}|{{{debutyear}}}}}{{#if:{{{debutteam|<noinclude>x</noinclude>}}}|{{#if:{{{debutyear|<noinclude>x</noinclude>}}}|&nbsp;for the&nbsp;}}{{{debutteam}}}}}}}
+|-
+{{#if:{{{finalyear|<noinclude>x</noinclude>}}}{{{finalteam|<noinclude>x</noinclude>}}}|{{!}}-
+! colspan="2" style="text-align:center; {{MLBAltPrimaryColor|{{{team}}}}};" {{!}} <span style="{{MLBAltSecondaryColor|{{{team}}}}};">Last MLB appearance</span>
+{{!}}-
+{{!}} colspan="2" style="text-align:center;" {{!}} {{#if:{{{finaldate|<noinclude>x</noinclude>}}}|{{{finaldate}}},&nbsp;}}{{#if:{{{finalyear|<noinclude>x</noinclude>}}}|{{{finalyear}}}}}{{#if:{{{finalteam|<noinclude>x</noinclude>}}}|{{#if:{{{finalyear|<noinclude>x</noinclude>}}}|&nbsp;for the&nbsp;}}{{{finalteam}}}}}}}
+|-
+{{#if:{{{stat1label<includeonly>|</includeonly>}}}|
+<th colspan="2" style="text-align:center; {{MLBPrimaryColor|{{{team}}}}};"><span style="{{MLBSecondaryColor|{{{team}}}}};">Career statistics {{#if:{{{statyear<includeonly>|</includeonly>}}}|<br/>(through {{{statyear}}})}}</span></th>
+
+}}{{#if:{{{stat1label<includeonly>|</includeonly>}}}|
+<tr><th style="text-align:right">{{{stat1label}}}&nbsp;&nbsp;</th><td>&nbsp;&nbsp;{{{stat1value}}}</td></tr>
+
+}}{{#if:{{{stat2label<includeonly>|</includeonly>}}}|
+<tr><th style="text-align:right">{{{stat2label}}}&nbsp;&nbsp;</th><td>&nbsp;&nbsp;{{{stat2value}}}</td></tr>
+
+}}{{#if:{{{stat3label<includeonly>|</includeonly>}}}|
+<tr><th style="text-align:right">{{{stat3label}}}&nbsp;&nbsp;</th><td>&nbsp;&nbsp;{{{stat3value}}}</th></tr> 
+
+}}{{#if:{{{stat4label<includeonly>|</includeonly>}}}|
+<tr><th style="text-align:right">{{{stat4label}}}&nbsp;&nbsp;</th><td>&nbsp;&nbsp;{{{stat4value}}}</th></tr> 
+
+}}{{#if:{{{stat5label<includeonly>|</includeonly>}}}|
+<tr><th style="text-align:right">{{{stat5label}}}&nbsp;&nbsp;</th><td>&nbsp;&nbsp;{{{stat5value}}}</th></tr> 
+
+}}{{#if:{{{stat6label<includeonly>|</includeonly>}}}|
+<tr><th style="text-align:right">{{{stat6label}}}&nbsp;&nbsp;</th><td>&nbsp;&nbsp;{{{stat6value}}}</th></tr> 
+
+}}<!--deprecated, use teams instead-->{{#if:{{{formerteams|}}}|
+<tr><th colspan="2" style="text-align:center; {{MLBAltPrimaryColor|{{{team}}}}};"><span style="{{MLBAltSecondaryColor|{{{team}}}}};">Former teams</span></th></tr><tr><td colspan="2">{{{formerteams}}}</td></tr>
+
+}}{{#if:{{{teams<includeonly>|</includeonly>}}}|
+<tr><th colspan="2" style="text-align:center; {{MLBAltPrimaryColor|{{{team}}}}};"><span style="{{MLBAltSecondaryColor|{{{team}}}}};">Teams</span></th></tr><tr><td colspan="2">
+{{{teams}}}</td></tr>
+
+}}{{#if:{{{awards<includeonly>|</includeonly>{{{highlights<includeonly>|</includeonly>}}}}}}|
+<tr><th colspan="2" style="text-align:center; {{MLBPrimaryColor|{{{team}}}}};"><span style="{{MLBSecondaryColor|{{{team}}}}};">Career highlights and awards</span></th></tr><tr><td colspan="2">
+{{{awards|{{{highlights}}}}}}</td></tr>
+
+}}{{#if:{{{hofdate<includeonly>|</includeonly>}}}|
+<tr><th colspan="2" style="text-align:center; background:#A50024;">[[National Baseball Hall of Fame and Museum|<span style="color:white;">{{#if:{{{hoffuture|}}}|Incoming&nbsp;}}Member of the National</span>]]</th></tr><tr><th colspan="2" style="text-align:center; background:#11225b;">[[File:Empty Star.svg|20px|link=]] [[File:Empty Star.svg|20px|link=]] [[File:Empty Star.svg|20px|link=]] [[National Baseball Hall of Fame and Museum|<span style="color:white;">Baseball Hall of Fame</span>]] [[File:Empty Star.svg|20px|link=]] [[File:Empty Star.svg|20px|link=]] [[File:Empty Star.svg|20px|link=]]</th></tr><tr><th style="text-align:right">Induction&nbsp;&nbsp;</th><td>&nbsp;&nbsp;{{{hofdate}}}</td></tr>
+
+}}{{#if:{{{hofvote<includeonly>|</includeonly>}}}|
+<tr><th style="text-align:right">Botu&nbsp;&nbsp;</td><td>&nbsp;&nbsp;{{{hofvote}}}</td></tr>
+
+}}{{#if:{{{hofmethod<includeonly>|</includeonly>}}}|
+<tr><th style="text-align:right">Paralan ning Pamanalal&nbsp;&nbsp;</th><td>&nbsp;&nbsp;{{{hofmethod}}}</td></tr>
+}}
+|}<noinclude>
+{{documentation}}
+</noinclude>
