@@ -1,0 +1,11 @@
+{{#switch:{{{1}}}
+|name   = Heilongjiang
+|top    = 54
+|bottom = 43
+|left   = 121
+|right  = 135
+|image  = China Heilongjiang location map.svg
+}}<noinclude>{{Location map/Info}}
+[[Category:China location map templates|Heilongjiang]]
+
+</noinclude>
