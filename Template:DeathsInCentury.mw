@@ -1,5 +1,5 @@
 <includeonly>{| id="toc" align=center
-| align=center | [[:category:{{#ifexpr:{{{1|5}}}=0|1st|{{Ordinal|{{{1|5}}}}}}}-century {{#ifexpr:{{{1|5}}}=0|BC|}} kematyan|<<]] - '''Ding taung mete iniang [[{{Ordinal|{{#expr:{{{1|5}}}+1}}}} dilanua]]''' - [[:category:{{Ordinal|{{#expr:{{{1|5}}}+2}}}}-century kematyan|>>]]
+| align=center | [[:category:{{#ifexpr:{{{1|5}}}=0|1st|{{Ordinal|{{{1|5}}}}}}}-century {{#ifexpr:{{{1|5}}}=0|BC|}} kematyan|<<]] - '''Ding taung mete iniang [[{{Ordinal|{{#expr:{{{1|5}}}+1}}}} dilanua]]''' - [[:category:{{Ordinal|{{#expr:{{{1|5}}}+2}}}}-dilanua kematyan|>>]]
 |-
 | style="background: #e0e0e0" |
 |-
@@ -27,8 +27,8 @@
 |-
 | align=center |''Lawen ya rin ing:'' [[:Category:{{Ordinal|{{#expr:{{{1|5}}}+1}}}}-century births|{{Ordinal|{{#expr:{{{1|5}}}+1}}}}-dilanuang kebaitan]]
 |}
-[[Category:{{Ordinal|{{#expr:{{{1|5}}}+1}}}} century|Kematyan]]
-[[Category:Kematyan by year|#{{#ifexpr:{{{1|5}}}<9|0|}}{{#expr:{{{1|5}}}+1}}]]
+[[Category:{{Ordinal|{{#expr:{{{1|5}}}+1}}}} dilanua|Kematyan]]
+[[Category:Kematyan agpang keng banua|#{{#ifexpr:{{{1|5}}}<9|0|}}{{#expr:{{{1|5}}}+1}}]]
 </includeonly><noinclude>
 For NNth-century kematyan categories.
 
