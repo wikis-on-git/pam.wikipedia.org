@@ -1,5 +1,5 @@
 <includeonly>{| id="toc" align=center
-| align=center | [[:category:{{#ifexpr:{{{1|5}}}=0|1st|{{Ordinal|{{{1|5}}}}}}}-dilanua {{#ifexpr:{{{1|5}}}=0|BC|}} kebaitan|<<]] - '''People born in the [[{{Ordinal|{{#expr:{{{1|5}}}+1}}}} century]]''' - [[:category:{{Ordinal|{{#expr:{{{1|5}}}+2}}}}-dilanua kebaitan|>>]]
+| align=center | [[:category:{{#ifexpr:{{{1|5}}}=0|1st|{{Ordinal|{{{1|5}}}}}}}-dilanua {{#ifexpr:{{{1|5}}}=0|BC|}} kebaitan|<<]] - '''Taung mibait iniang [[{{Ordinal|{{#expr:{{{1|5}}}+1}}}} dilanua]]''' - [[:category:{{Ordinal|{{#expr:{{{1|5}}}+2}}}}-dilanua kebaitan|>>]]
 |-
 | style="background: #e0e0e0" |
 |-
