@@ -1,4 +1,6 @@
-{{ {{{1<noinclude>|country showdata</noinclude>}}}
+{{ {{{1<noinclude>
+|country showdata
+</noinclude>}}}
 | alias = South Africa
 | flag alias = Flag of South Africa.svg
 | flag alias-1910 = South Africa Flag 1910-1912.svg
@@ -30,6 +32,6 @@
 | related2 = Union of South Africa
 </noinclude>
 }}<noinclude>
-[[af:Sjabloon:Landdata Suid-Afrika]]
-[[sl:Predloga:Podatki države Južna Afrika]]
+
+
 </noinclude>
