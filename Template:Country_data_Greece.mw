@@ -1,4 +1,6 @@
-{{ {{{1<noinclude>|country showdata</noinclude>}}}
+{{ {{{1<noinclude>
+|country showdata
+</noinclude>}}}
 | alias = Greece
 | flag alias = Flag of Greece.svg
 | flag alias-old = Flag of Greece (1828-1978).svg
@@ -21,7 +23,7 @@
 | redir2 = GRE
 </noinclude>
 }}<noinclude>
-[[af:Sjabloon:Landdata Griekeland]]
-[[ml:ഫലകം:Country data Greece]]
-[[sl:Predloga:Podatki države Grčija]]
+
+
+
 </noinclude>
