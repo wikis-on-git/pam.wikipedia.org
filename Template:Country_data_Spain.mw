@@ -1,4 +1,6 @@
-{{ {{{1<noinclude>|country showdata</noinclude>}}}
+{{ {{{1<noinclude>
+|country showdata
+</noinclude>}}}
 | alias           = Spain
 | shortname alias = Spain
 | flag alias      = Flag of Spain.svg
@@ -22,5 +24,5 @@
 * <nowiki>{{flagcountry|Spain|1977}}</nowiki> = {{flagcountry|Spain|1977}}
 * <nowiki>{{flagcountry|Spain|civil}}</nowiki> = {{flagcountry|Spain|civil}}
 
-[[sl:Predloga:Podatki države Španija]]
+
 </noinclude>
