@@ -1,4 +1,6 @@
-{{ {{{1<noinclude>|country showdata</noinclude>}}}
+{{ {{{1<noinclude>
+|country showdata
+</noinclude>}}}
 | alias = Lebanon
 | flag alias = Flag of Lebanon.svg
 | size = {{{size|}}}
@@ -9,4 +11,4 @@
 | redir2 = LIB
 | redir3 = LEB <!-- this is non-standard and ought to be replaced and deleted -->
 </noinclude>
-}}<noinclude>[[sl:Predloga:Podatki države Libanon]]</noinclude>
+}}<noinclude></noinclude>
