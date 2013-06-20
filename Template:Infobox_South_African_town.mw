@@ -1,0 +1,150 @@
+
+<includeonly>{{Infobox settlement
+<!-- See Template:Infobox settlement for additional fields and descriptions -->
+| name                    = {{#if: {{{name|}}} | {{{name}}} | {{Metadata South Africa/mainplace/name|{{{censuscode|}}}}} }}
+| official_name           = {{{official_name|}}}
+| other_name              = {{{other_name|}}}
+| native_name             = {{{native_name|}}}
+| native_name_lang        = <!-- ISO 639-2 code e.g. "fr" for French. If more than one, use {{lang}} instead -->
+| image_skyline           = {{{image_skyline|}}}
+| image_alt               = {{{image_alt|}}}
+| image_caption           = {{{image_caption|}}}
+| image_flag              = {{{image_flag|}}}
+| flag_alt                =
+| image_seal              = {{{image_seal|}}}
+| seal_alt                =
+| image_shield            = {{{image_shield|}}}
+| shield_alt              =
+| nickname                = {{{nickname|}}}
+| motto                   = {{{motto|}}}
+| image_map               = {{{image_map|}}}
+| map_alt                 =
+| map_caption             = {{{map_caption|}}}
+| pushpin_map             = {{#if: {{{pushpin_map|}}} | {{{pushpin_map}}} | {{#if: {{{latd|}}} | {{#switch: {{Metadata South Africa/mainplace/province|{{{censuscode|}}}}} | EC = Eastern Cape | FS = Free State | GP = Gauteng | ZN = KwaZulu-Natal | LP = Limpopo | MP = Mpumalanga | NW = South Africa North West | NC = Northern Cape | WC = Western Cape }} }} }}
+| pushpin_label_position  =
+| pushpin_map_alt         =
+| pushpin_map_caption     = {{#if: {{{pushpin_map_caption|}}} | {{{pushpin_map_caption|}}} | {{#if: {{{pushpin_map|}}} | | {{#if: {{{latd|}}} |  {{small|1=''[[File:Red pog.svg|6px|link=|alt=]]&nbsp;{{#if: {{{name|}}}|{{{name}}}|{{PAGENAME}} }} shown within {{#switch: {{Metadata South Africa/mainplace/province|{{{censuscode|}}}}} | EC = the Eastern Cape | FS = the Free State | GP = Gauteng | ZN = KwaZulu-Natal | LP = Limpopo | MP = Mpumalanga | NW = the North West | NC = the Northern Cape | WC = the Western Cape }}''}} }} }} }}
+| pushpin_map1            = {{#if: {{{latd|}}} | {{#ifeq: {{{pushpin_map|}}} | South Africa | | South Africa }} }}
+| pushpin_label_position1 =
+| pushpin_map_alt1        =
+| pushpin_map_caption1    = {{#if: {{{pushpin_map_caption1|}}} | {{{pushpin_map_caption1|}}} | {{#ifeq: {{{pushpin_map|}}} | South Africa | | {{#if: {{{latd|}}} |  {{small|1=''[[File:Red pog.svg|6px|link=|alt=]]&nbsp;{{#if: {{{name|}}}|{{{name}}}|{{PAGENAME}} }} shown within South Africa''}} }} }} }}
+| latd  = {{{latd|}}} |latm  = {{{latm|}}} |lats  = {{{lats|}}} |latNS  = {{#if: {{{latd|}}} | S }}
+| longd = {{{longd|}}} |longm = {{{longm|}}} |longs = {{{longs|}}} |longEW = {{#if: {{{latd|}}} | E }}
+| coor_pinpoint           =
+| coordinates_type        = type:city_region:ZA
+| coordinates_display     = inline,title
+| coordinates_footnotes   =
+| subdivision_type        = Bangsa
+| subdivision_name        = [[Mauling Aprika]]
+| subdivision_type1       = Lalawigan
+| subdivision_name1       = [[{{#switch: {{Metadata South Africa/mainplace/province|{{{censuscode|}}}}} | EC = Eastern Cape | FS = Free State (South African province){{!}}Free State | GP = Gauteng | ZN = KwaZulu-Natal | LP = Limpopo | MP = Mpumalanga | NW = North West (South African province){{!}}North West | NC = Northern Cape | WC = Western Cape }}]]
+| subdivision_type2       = {{#switch: {{Metadata South Africa/mainplace/muni|{{{censuscode|}}}}} | Buffalo City | City of Cape Town | Ekurhuleni | eThekwini | City of Johannesburg | Mangaung | Nelson Mandela Bay | City of Tshwane = | #default = District }}
+| subdivision_name2       = [[{{Metadata South Africa/mainplace/district|{{{censuscode|}}}}} District Municipality|{{Metadata South Africa/mainplace/district|{{{censuscode|}}}}}]]
+| subdivision_type3       = Munisipalidad
+| subdivision_name3       = {{#switch: {{Metadata South Africa/mainplace/muni|{{{censuscode|}}}}} | Buffalo City | City of Cape Town | Ekurhuleni | eThekwini | City of Johannesburg | Mangaung | Nelson Mandela Bay | City of Tshwane = [[{{Metadata South Africa/mainplace/muni|{{{censuscode|}}}}} Metropolitan Municipality|{{Metadata South Africa/mainplace/muni|{{{censuscode|}}}}}]] | #default = [[{{Metadata South Africa/mainplace/muni|{{{censuscode|}}}}} Local Municipality{{#switch: {{Metadata South Africa/mainplace/muni|{{{censuscode|}}}}} | Emalahleni | Naledi =, {{Metadata South Africa/mainplace/province|{{{censuscode|}}}}} }} |{{Metadata South Africa/mainplace/muni|{{{censuscode|}}}}}]] }}
+| subdivision_type5      = {{#ifeq: {{Metadata South Africa/mainplace/muni|{{{censuscode|}}}}} | City of Johannesburg | {{#ifeq: {{Metadata South Africa/Joburg regions| {{Metadata South Africa/mainplace/name|{{{censuscode|}}}}} }} | Invalid Data-key | | Region }} }}
+| subdivision_name5       = [[Regions of Johannesburg|{{Metadata South Africa/Joburg regions| {{Metadata South Africa/mainplace/name|{{{censuscode|}}}}}}}]]
+| established_title       = {{{established_title|}}}
+| established_date        = {{{established_date|}}}
+| founder                 =
+| named_for               = {{{named_for|}}}
+| seat_type               = {{{seat_type|}}}
+| seat                    = {{{seat|}}}
+| government_footnotes    = {{{government_footnotes|}}}
+| government_type         = {{{government_type|}}}
+| leader_party            = {{{leader_party|}}}
+| leader_title            = {{{leader_title|}}}
+| leader_name             = {{{leader_name|}}}
+| leader_title1           = {{{leader_title1|}}}
+| leader_name1            = {{{leader_name1|}}}
+| leader_title2           = {{{leader_title2|}}}
+| leader_name2            = {{{leader_name2|}}}
+| unit_pref               = Metric<!-- or US or UK -->
+| area_footnotes          = {{#tag:ref |{{cite web |url=http://census.adrianfrith.com/place/{{{censuscode|}}} |title = Main Place {{{name|}}} |work=Census 2001}} |name=census2001}}{{{references|}}}
+| area_total_km2          = {{Metadata South Africa/mainplace/area|{{{censuscode|}}}}}
+| area_land_km2           =
+| area_water_km2          =
+| area_water_percent      =
+| area_metro_km2          = {{{area_metro_km2|}}}
+| area_blank1_title       = {{{area_blank1_title|}}}
+| area_blank1_km2         = {{{area_blank1_km2|}}}
+| area_note               =
+| elevation_footnotes     =
+| elevation_m             = {{{elevation_m|}}}
+| population_footnotes    = <ref name="census2001" />{{{references|}}}
+| population_est          = {{{population_est|}}}
+| pop_est_as_of           = {{{pop_est_as_of|}}}
+| population_total        = {{Metadata South Africa/mainplace/population|{{{censuscode|}}}}}
+| population_as_of        = {{#if: {{{population_as_of|}}} | {{{population_as_of|}}} | 2001 }}
+| population_density_km2  = auto
+| population_metro        = {{{population_metro|}}}
+| population_density_metro_km2 = {{#if: {{{population_metro|}}} | auto }}
+| population_metro_footnotes = {{{population_metro_footnotes|}}}
+| population_demonym      = {{{population_demonym|}}}
+| population_note         = {{{population_note|}}}
+<!-- demographics (section 1) -->
+| demographics_type1      = Racial makeup <span style="font-weight:normal;">(2001)</span> 
+| demographics1_footnotes = <ref name="census2001" />{{{references|}}}
+| demographics1_title1    = {{#if: {{#titleparts: {{Metadata South Africa/mainplace/race|{{{censuscode|}}} }} | 1 | 1 }} | <span style="font-weight:normal;">[[Black African]]</span> }}
+| demographics1_info1     = {{#if: {{#titleparts: {{Metadata South Africa/mainplace/race|{{{censuscode|}}} }} | 1 | 1 }} | {{#titleparts: {{Metadata South Africa/mainplace/race|{{{censuscode|}}} }} | 1 | 1 }}% }}
+| demographics1_title2    = {{#if: {{#titleparts: {{Metadata South Africa/mainplace/race|{{{censuscode|}}} }} | 1 | 2 }} | <span style="font-weight:normal;">[[Coloured]]</span> }}
+| demographics1_info2     = {{#if: {{#titleparts: {{Metadata South Africa/mainplace/race|{{{censuscode|}}} }} | 1 | 2 }} | {{#titleparts: {{Metadata South Africa/mainplace/race|{{{censuscode|}}} }} | 1 | 2 }}% }}
+| demographics1_title3    = {{#if: {{#titleparts: {{Metadata South Africa/mainplace/race|{{{censuscode|}}} }} | 1 | 3 }} | <span style="font-weight:normal;">[[Indian South African|Indian]]/[[Asian South African|Asian]]</span> }}
+| demographics1_info3     = {{#if: {{#titleparts: {{Metadata South Africa/mainplace/race|{{{censuscode|}}} }} | 1 | 3 }} | {{#titleparts: {{Metadata South Africa/mainplace/race|{{{censuscode|}}} }} | 1 | 3 }}% }}
+| demographics1_title4    = {{#if: {{#titleparts: {{Metadata South Africa/mainplace/race|{{{censuscode|}}} }} | 1 | 4 }} | <span style="font-weight:normal;">[[White South African|White]]</span> }}
+| demographics1_info4     = {{#if: {{#titleparts: {{Metadata South Africa/mainplace/race|{{{censuscode|}}} }} | 1 | 4 }} | {{#titleparts: {{Metadata South Africa/mainplace/race|{{{censuscode|}}} }} | 1 | 4 }}% }}
+<!-- demographics (section 2) -->
+| demographics_type2      = [[First language]]s <span style="font-weight:normal;">(2001)</span> 
+| demographics2_footnotes = <ref name="census2001" />{{{references|}}}
+| demographics2_title1    = {{#if: {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 1 }} | <span style="font-weight:normal;">{{#switch: {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 1 }} | AF = [[Afrikaans]] | EN = [[English language|English]] | ND = [[Southern Ndebele language|Southern Ndebele]] | XH = [[Xhosa language|Xhosa]] | ZU = [[Zulu language|Zulu]] | NS = [[Northern Sotho language|Northern Sotho]] | ST = [[Sotho language|Sotho]] | TN = [[Tswana language|Tswana]] | SS = [[Swazi language|Swazi]] | VE = [[Venda language|Venda]] | TS = [[Tsonga language|Tsonga]] }}</span> }}
+| demographics2_info1     = {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 2 }}%
+| demographics2_title2    = {{#if: {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 3 }} | <span style="font-weight:normal;">{{#switch: {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 3 }} | AF = [[Afrikaans]] | EN = [[English language|English]] | ND = [[Southern Ndebele language|Southern Ndebele]] | XH = [[Xhosa language|Xhosa]] | ZU = [[Zulu language|Zulu]] | NS = [[Northern Sotho language|Northern Sotho]] | ST = [[Sotho language|Sotho]] | TN = [[Tswana language|Tswana]] | SS = [[Swazi language|Swazi]] | VE = [[Venda language|Venda]] | TS = [[Tsonga language|Tsonga]] }}</span> }}
+| demographics2_info2     = {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 4 }}%
+| demographics2_title3    = {{#if: {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 5 }} | <span style="font-weight:normal;">{{#switch: {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 5 }} | AF = [[Afrikaans]] | EN = [[English language|English]] | ND = [[Southern Ndebele language|Southern Ndebele]] | XH = [[Xhosa language|Xhosa]] | ZU = [[Zulu language|Zulu]] | NS = [[Northern Sotho language|Northern Sotho]] | ST = [[Sotho language|Sotho]] | TN = [[Tswana language|Tswana]] | SS = [[Swazi language|Swazi]] | VE = [[Venda language|Venda]] | TS = [[Tsonga language|Tsonga]] }}</span> }}
+| demographics2_info3     = {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 6 }}%
+| demographics2_title4    = {{#if: {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 7 }} | <span style="font-weight:normal;">{{#switch: {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 7 }} | AF = [[Afrikaans]] | EN = [[English language|English]] | ND = [[Southern Ndebele language|Southern Ndebele]] | XH = [[Xhosa language|Xhosa]] | ZU = [[Zulu language|Zulu]] | NS = [[Northern Sotho language|Northern Sotho]] | ST = [[Sotho language|Sotho]] | TN = [[Tswana language|Tswana]] | SS = [[Swazi language|Swazi]] | VE = [[Venda language|Venda]] | TS = [[Tsonga language|Tsonga]] }}</span> }}
+| demographics2_info4     = {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 8 }}%
+| demographics2_title5    = {{#ifexpr: (100 - ( {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 2 }} + {{#if: {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 4 }} | {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 4 }} | 0 }} + {{#if: {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 6 }} | {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 6 }} | 0 }} + {{#if: {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 8 }} | {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 8 }} | 0 }} )) > 0.1 | <span style="font-weight:normal;">Other {{#if: {{{other_specify|}}} | {{{other_specify}}} }}</span> }}
+| demographics2_info5     = {{#expr: (100 - ( {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 2 }} + {{#if: {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 4 }} | {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 4 }} | 0 }} + {{#if: {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 6 }} | {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 6 }} | 0 }} + {{#if: {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 8 }} | {{#titleparts: {{Metadata South Africa/mainplace/langs|{{{censuscode|}}} }} | 1 | 8 }} | 0 }} )) round 1 }}%
+<!-- blank fields (section 1) -->
+| blank_name_sec1         = {{{blank_name_sec1|}}}
+| blank_info_sec1         = {{{blank_info_sec1|}}}
+| blank1_name_sec1        = {{{blank1_name_sec1|}}}
+| blank1_info_sec1        = {{{blank1_info_sec1|}}}
+| blank2_name_sec1        = {{{blank2_name_sec1|}}}
+| blank2_info_sec1        = {{{blank2_info_sec1|}}}
+<!-- blank fields (section 2) -->
+| blank_name_sec2         =
+| blank_info_sec2         =
+| blank1_name_sec2        =
+| blank1_info_sec2        =
+| blank2_name_sec2        =
+| blank2_info_sec2        = <!-- etc., up to blank7_name_sec2 / blank7_info_sec2 -->
+<!-- twin cities --------------->
+| twin1                   = {{{twin1|}}}
+| twin1_country           = {{{twin1_country|}}}
+| twin2                   = {{{twin2|}}}
+| twin2_country           = {{{twin2_country|}}}
+| twin3                   = {{{twin3|}}}
+| twin3_country           = {{{twin3_country|}}}
+| twin4                   = {{{twin4|}}}
+| twin4_country           = {{{twin4_country|}}}
+| twin5                   = {{{twin5|}}}
+| twin5_country           = {{{twin5_country|}}}
+| twin6                   = {{{twin6|}}}
+| twin6_country           = {{{twin6_country|}}}
+<!-- Other information -->
+| timezone1               = [[South Africa Standard Time|SAST]]
+| utc_offset1             = +2
+| timezone1_DST           =
+| utc_offset1_DST         =
+| postal_code_type        = {{#if: {{{postal_code|}}} | {{{postal_code_type|}}} }}
+| postal_code             = {{{postal_code|}}}
+| area_code_type          = {{{area_code_type|}}}
+| area_code               = {{{area_code|}}}
+| iso_code                =
+| website                 = {{{website|}}}
+| footnotes               = {{{footnotes|}}}
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
