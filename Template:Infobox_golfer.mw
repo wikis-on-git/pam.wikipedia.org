@@ -1,0 +1,153 @@
+{{Infobox
+| bodyclass   = vcard
+| bodystyle   = width:25em
+| abovestyle  = background-color:#ace1af
+| aboveclass  = fn
+| headerstyle = background-color:#ace1af
+| labelstyle  = white-space:nowrap; font-weight:normal;
+| above       = {{{name<includeonly>|{{PAGENAME}}</includeonly>}}}
+| image       = {{#if:{{{image<includeonly>|</includeonly>}}}|[[File:{{{image}}}|{{px|{{{image_size|}}}|{{{imagesize|}}}|frameless}}|alt={{{alt|}}}]]}}
+| caption     = {{{caption<includeonly>|</includeonly>}}}
+
+| header1     = {{#if:{{{fullname<includeonly>|</includeonly>}}}{{{nickname|}}}{{{birth_date|}}}{{{death_date|}}}{{{height|}}}{{{weight|}}}{{{nationality|}}}{{{residence|}}}{{{spouse|}}}{{{partner|}}}{{{children|}}}|Personal information}}
+
+| label2      = '''Kumpletung lagyu'''
+| data2       = {{{fullname<includeonly>|</includeonly>}}}
+| label3      = '''Palayo'''
+| class3      = nickname
+| data3       = {{#if:{{{nickname<includeonly>|</includeonly>}}}|''{{{nickname}}}''}}
+| label4      = '''Mibait'''
+| data4       = {{br separated entries|{{{birth_date<includeonly>|</includeonly>}}}|{{{birth_place<includeonly>|</includeonly>}}}}}
+| label5      = '''Mete'''
+| data5       = {{br separated entries|{{{death_date<includeonly>|</includeonly>}}}|{{{death_place<includeonly>|</includeonly>}}}}}
+| label6      = '''Kátas'''
+| data6       = {{{height<includeonly>|</includeonly>}}}
+| label7      = '''Bayat'''
+| data7       = {{{weight<includeonly>|</includeonly>}}}
+| label8      = '''Nasyonalidad'''
+| data8       = {{{nationality<includeonly>|</includeonly>}}}
+| label9      = '''Tuknangan'''
+| data9       = {{{residence<includeonly>|</includeonly>}}}
+| label10     = '''Asawa'''
+| data10      = {{{spouse<includeonly>|</includeonly>}}}
+| label11     = '''Kapareha'''
+| data11      = {{{partner<includeonly>|</includeonly>}}}
+| label12     = '''Ának'''
+| data12      = {{{children<includeonly>|</includeonly>}}}
+
+| header13    = {{#if:{{{college<includeonly>|</includeonly>}}}{{{status|}}}{{{yearpro|}}}{{{retired|}}}{{{tour}}}{{{extour}}}{{{prowins}}}|Career}}
+
+| label14     = '''Kolehyu'''
+| data14      = {{{college<includeonly>|</includeonly>}}}
+| label15     = '''Kabilyan'''
+| data15      = {{#if:{{{yearpro}}}| |{{{status}}}}}
+| label16     = '''Meging propesyonal'''
+| data16      = {{{yearpro<includeonly>|</includeonly>}}}
+| label17     = '''Migretiru'''
+| data17      = {{{retired<includeonly>|</includeonly>}}}
+| label18     = '''Kasalungsungan a tour'''
+| data18      = {{{tour<includeonly>|</includeonly>}}}
+| label19     = '''Sadyang tour'''
+| data19      = {{{extour<includeonly>|</includeonly>}}}
+| label20     = '''Propesyonal a pamanyambut'''
+| data20      = {{{prowins<includeonly>|</includeonly>}}}
+
+| header21    = {{#if:{{{pgawins<includeonly>|</includeonly>}}}{{{eurowins|}}}{{{japwins|}}}{{{asiawins|}}}{{{sunwins|}}}{{{auswins|}}}{{{nwidewins|}}}{{{chalwins|}}}{{{champwins|}}}{{{seneurowins|}}}{{{lpgawins|}}}{{{letwins|}}}{{{jlpgawins|}}}{{{klpgawins|}}}{{{lagtwins|}}}{{{alpgwins|}}}{{{futwins|}}}|Number of wins by tour}}
+
+| label22     = PGA Tour
+| data22      = {{{pgawins<includeonly>|</includeonly>}}}
+| label23     = European Tour
+| data23      = {{{eurowins<includeonly>|</includeonly>}}}
+| label24     = Japan Golf Tour
+| data24      = {{{japwins<includeonly>|</includeonly>}}}
+| label25     = Asian Tour
+| data25      = {{{asiawins<includeonly>|</includeonly>}}}
+| label26     = Sunshine Tour
+| data26      = {{{sunwins<includeonly>|</includeonly>}}}
+| label27     = PGA Tour of Australasia
+| data27      = {{{auswins<includeonly>|</includeonly>}}}
+| label28     = Web.com Tour
+| data28      = {{{nwidewins<includeonly>|</includeonly>}}}
+| label29     = Challenge Tour
+| data29      = {{{chalwins<includeonly>|</includeonly>}}}
+| label30     = Champions Tour
+| data30      = {{{champwins<includeonly>|</includeonly>}}}
+| label31     = European Seniors Tour
+| data31      = {{{seneurowins<includeonly>|</includeonly>}}}
+| label32     = LPGA Tour
+| data32      = {{{lpgawins<includeonly>|</includeonly>}}}
+| label33     = Ladies European Tour
+| data33      = {{{letwins<includeonly>|</includeonly>}}}
+| label34     = LPGA of Japan Tour
+| data34      = {{{jlpgawins<includeonly>|</includeonly>}}}
+| label35     = LPGA of Korea Tour
+| data35      = {{{klpgawins<includeonly>|</includeonly>}}}
+| label36     = Ladies Asian Golf Tour
+| data36      = {{{lagtwins<includeonly>|</includeonly>}}}
+| label37     = ALPG Tour
+| data37      = {{{alpgwins<includeonly>|</includeonly>}}}
+| label38     = Futures Tour
+| data38      = {{{futwins<includeonly>|</includeonly>}}}
+| label39     = {{#if:{{{pgawins<includeonly>|</includeonly>}}}{{{eurowins|}}}{{{japwins|}}}{{{asiawins|}}}{{{sunwins|}}}{{{auswins|}}}{{{nwidewins|}}}{{{chalwins|}}}{{{champwins|}}}{{{seneurowins|}}}{{{lpgawins|}}}{{{letwins|}}}{{{jlpgawins|}}}{{{klpgawins|}}}{{{lagtwins|}}}{{{alpgwins|}}}{{{futwins|}}}{{{champwins|}}}{{{seneurowins|}}}|Other|'''Major tour wins'''}}
+| data39      = {{{otherwins<includeonly>|</includeonly>}}}
+
+| header40    = {{#if:{{{masters<includeonly>|</includeonly>}}}{{{usopen|}}}{{{open|}}}{{{pga|}}}|Best results in Major Championships<br />{{#if:{{{majorwins|}}}|(Wins: {{{majorwins}}})}} }}
+| header41    = {{#if:{{{western<includeonly>|</includeonly>}}}{{{titleholders|}}}{{{nabisco|}}}{{{lpga|}}}{{{wusopen|}}}{{{dumaurier|}}}{{{wbritopen|}}}|Best results in LPGA Major Championships<br />{{#if:{{{majorwins|}}}|(Wins: {{{majorwins}}})}} }}
+
+| label47     = [[Masters Tournament]]
+| data47      = {{{masters<includeonly>|</includeonly>}}}
+| label48     = [[U.S. Open (golf)|U.S. Open]]
+| data48      = {{{usopen<includeonly>|</includeonly>}}}
+| label49     = [[The Open Championship]]
+| data49      = {{{open<includeonly>|</includeonly>}}}
+| label50     = [[PGA Championship]]
+| data50      = {{{pga<includeonly>|</includeonly>}}}
+| label51     = [[United States Amateur Championship (golf)|U.S. Amateur]]
+| data51      = {{{usamateur<includeonly>|</includeonly>}}}
+| label52     = [[The Amateur Championship|British Amateur]]
+| data52      = {{{britamateur<includeonly>|</includeonly>}}}
+| label53     = [[Women's Western Open|Western Open]]
+| data53      = {{{western<includeonly>|</includeonly>}}}
+| label54     = [[Titleholders Championship|Titleholders C'ship]]
+| data54      = {{{titleholders<includeonly>|</includeonly>}}}
+| label55     = [[Kraft Nabisco Championship|Kraft Nabisco C'ship]]
+| data55      = {{{nabisco<includeonly>|</includeonly>}}}
+| label56     = [[LPGA Championship]]
+| data56      = {{{lpga<includeonly>|</includeonly>}}}
+| label57     = [[U.S. Women's Open]]
+| data57      = {{{wusopen<includeonly>|</includeonly>}}}
+| label58     = [[Canadian Women's Open|du Maurier Classic]]
+| data58      = {{{dumaurier<includeonly>|</includeonly>}}}
+| label59     = [[Women's British Open]]
+| data59      = {{{wbritopen<includeonly>|</includeonly>}}}
+| label60     = [[The Evian Championship]]
+| data60      = {{{evian<includeonly>|</includeonly>}}}
+
+| header61    = {{#if:{{{wghofid<includeonly>|</includeonly>}}}{{{award1|}}}{{{awardssection|}}}|Achievements and awards}}
+
+| label62     = [[World Golf Hall of Fame]]
+| data62      = {{#if:{{{wghofyear<includeonly>|</includeonly>}}}|{{{wghofyear}}} ''([http://www.worldgolfhalloffame.org/hof/member.php?member={{{wghofid}}} member page])''}}
+
+| label63     = {{{award1<includeonly>|</includeonly>}}}
+| data63      = {{{year1<includeonly>|</includeonly>}}}
+| label64     = {{{award2<includeonly>|</includeonly>}}}
+| data64      = {{{year2<includeonly>|</includeonly>}}}
+| label65     = {{{award3<includeonly>|</includeonly>}}}
+| data65      = {{{year3<includeonly>|</includeonly>}}}
+| label66     = {{{award4<includeonly>|</includeonly>}}}
+| data66      = {{{year4<includeonly>|</includeonly>}}}
+| label67     = {{{award5<includeonly>|</includeonly>}}}
+| data67      = {{{year5<includeonly>|</includeonly>}}}
+| label68     = {{{award6<includeonly>|</includeonly>}}}
+| data68      = {{{year6<includeonly>|</includeonly>}}}
+| label69     = {{{award7<includeonly>|</includeonly>}}}
+| data69      = {{{year7<includeonly>|</includeonly>}}}
+| label70     = {{{award8<includeonly>|</includeonly>}}}
+| data70      = {{{year8<includeonly>|</includeonly>}}}
+| label71     = {{{award9<includeonly>|</includeonly>}}}
+| data71      = {{{year9<includeonly>|</includeonly>}}}
+| label72     = {{{award10<includeonly>|</includeonly>}}}
+| data72      = {{{year10<includeonly>|</includeonly>}}}
+
+| below       = {{#if:{{{awardssection<includeonly>|</includeonly>}}}|''(For a full list of awards, see [[{{{awardssection}}}|here]])''}}
+}}<noinclude>{{documentation}}</noinclude>
