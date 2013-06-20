@@ -1,0 +1,19 @@
+{{#switch:{{{1}}}
+| name   = China
+| y = 50.0 + 1.256383 * 116.80932603407057 * 0.02641006622571962 - 1.256383 * 116.80932603407057 * (1.3713469994670882 - (1.9996655301850468 -({{{2|latitude}}} * pi / 180)) * cos(0.5867115434267053 * ({{{3|longitude}}} - 104) * pi / 180))
+| x = 50.0 + 116.80932603407057 * ((1.9996655301850468-({{{2|latitude}}}* pi / 180)) * sin(0.5867115434267053 * ({{{3|longitude}}} - 104) * pi / 180))
+| image  = China edcp location map.svg
+| image1 = China edcp relief location map.jpg
+}}<noinclude><!--
+--
+-- The above switch-statement branches by text in parameter #1,
+-- returning the associated value after each equals sign ("=").
+-->
+{{Location map/Info}}
+{{Documentation}}
+
+[[Category:Location map by country templates|China]]
+[[Category:China location map templates| ]]
+
+[[os:Шаблон:ПозКартæ Китай]]
+</noinclude>
