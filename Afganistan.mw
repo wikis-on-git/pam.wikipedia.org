@@ -1,57 +1,83 @@
-[[File:Kabul_TV_Hill_view.jpg|thumb|left|Kabul]]
-{{Infobox_Country|
-|native_name = د افغانستان اسلامي دولت<br />''Da Afghanistan Islami Dawlat''<br /> دولت اسلامی افغانستان'''<br />'''''Dawlâteh Eslamiyeh Afghanistan''
-|conventional_long_name = Islamic State of Afghanistan
+{{Infobox country
+|conventional_long_name = Islamicung Republica ning Afghanistan
+|native_name =
+ {{vunblist|li_style=font-size:88%;
+  | {{longitem|{{nobold|{{resize|120%|جمهوری اسلامی افغانستان}}}}<br />{{nowrap|''Jomhūrī-ye Eslāmī-ye Afġānestān''{{nbsp|2}}{{resize|70%|([[Dari (Persian dialect)|Dari Persian]])}}}}}}
+  | {{longitem|{{nobold|{{resize|120%|د افغانستان اسلامي جمهوریت}}}}<br />{{native name|ps|Da Afġānistān Islāmī Jomhoriyat}}}}
+ }}
 |common_name = Afghanistan
 |image_flag = Flag of Afghanistan.svg
 |image_coat = Coat of arms of Afghanistan.svg
-|symbol_type=Emblem
-|image_map = Afghanistan in its region.svg
-|national_motto = none
-|national_anthem = ''[[Sououd-e-Melli]]''
-|official_languages = [[Pashto]], [[Dari (Afghanistan)|Dari]]
+|symbol_type = Sagkal ning armas
+|image_map = Afghanistan (orthographic projection).svg
+|national_anthem = ''[[Afghan National Anthem]]''<br /><center>[[File:National anthem of Afghanistan.ogg]]</center>
+|languages_type = [[Opisyal a amanu]]<ref name=AO/>
+|languages = {{hlist|style=white-space:nowrap; |[[Pashto language|Pashto]] |[[Dari (Persian dialect)|Dari (Persian)]]}}
+|demonym = [[Demography of Afghanistan|Afghan]]{{ref label|crown|alternatives|none}}
 |capital = [[Kabul]]
-|latd=34|latm=30|latNS=N|longd=69|longm=10|longEW=E
+|latd=34 |latm=32 |latNS=N |longd=69 |longm=08 |longEW=E
 |largest_city = [[Kabul]]
-|government_type = [[Islamic Republic]]
-|leader_titles =  - [[President of Afghanistan|President]]<br /> - [[Vice President]]
-|leader_names = [[Hamid Karzai]]<br />[[Ahmad Zia Massoud]]<br />[[Karim Khalili]]
-|area_rank = 40th
+|government_type = [[Islamicung republica]]
+|leader_title1 = [[Pamuntuk ning Afghanistan|Pamuntuk]]
+|leader_name1 = [[Hamid Karzai]]
+|leader_title2 = [[Kadwang Pamuntuk ning Afghanistan|Kadwang Pamuntuk]]
+|leader_name2 = {{vunblist |[[Mohammed Fahim]] |[[Karim Khalili]]}}
+|leader_title3 = [[Chief Justice of Afghanistan|Chief Justice]]
+|leader_name3 = [[Abdul Salam Azimi]]
+|legislature = [[National Assembly of Afghanistan|National Assembly]]
+|upper_house = [[House of Elders]]
+|lower_house = [[House of the People (Afghanistan)|House of the People]]
+|area_rank = 41st
 |area_magnitude = 1_E11
-|area = 647,500
-|areami² = 250,001<!-- Do not remove per [[WP:MOSNUM]] -->
-|percent_water = N/A |
-|population_estimate = 31,056,997
-|population_estimate_year = 2006
-|population_estimate_rank = 38th
-|population_census =
-|population_census_year =
-|population_density = 43
-|population_densitymi² = 111<!-- Do not remove per [[WP:MOSNUM]] -->
-|population_density_rank= 125th
-|GDP_PPP_year= 2006
-|GDP_PPP = $31.9 billion
-|GDP_PPP_rank = 91st
-|GDP_PPP_per_capita = $1,310
-|GDP_PPP_per_capita_rank = 162nd
-|HDI_year = 2003
-|HDI = NA
-|HDI_rank = unranked
-|HDI_category = <font color=gray>NA</font>
-|sovereignty_type = [[Independence]]
-|established_events =  - Date
-|established_dates = From [[United Kingdom]] influence<br />[[August 19]], [[1919]]
-|currency = [[Afghani (currency)|Afghani <small>(Af)</small>]]
+|area_km2 = 652230
+|area_sq_mi = 251827
+|percent_water = negligible
+|population_estimate = 30,419,928<ref name="CIA-Afghanistan"/>
+|population_estimate_year = 2012
+|population_estimate_rank = 40
+|population_census = 15.5 million<ref name="IIOT">{{cite web |url=http://www.gl.iit.edu/govdocs/afghanistan/Afghanistan-Chapter2.pdf |title=Chapter 2. The Society and Its Environment |format=PDF |work=Afghanistan Country Study |publisher=[[Illinois Institute of Technology]]|pages=105–06 |accessdate=12 October 2010}}</ref>
+|population_census_year = 1979
+|population_density_km2 = 43.5
+|population_density_sq_mi = 111.8
+|population_density_rank = 150th
+|GDP_PPP_year = 2011
+|GDP_PPP = $29.731 billion<ref name=imf2>{{cite web |url=http://www.imf.org/external/pubs/ft/weo/2012/01/weodata/weorept.aspx?sy=2009&ey=2012&scsm=1&ssd=1&sort=country&ds=.&br=1&c=512&s=NGDPD%2CNGDPDPC%2CPPPGDP%2CPPPPC%2CLP&grp=0&a=&pr.x=80&pr.y=10 |title=Afghanistan |publisher=International Monetary Fund |accessdate=17 April 2012}}</ref>
+|GDP_PPP_rank =
+|GDP_PPP_per_capita = $1,000<ref name="CIA-Afghanistan"/>
+|GDP_PPP_per_capita_rank =
+|GDP_nominal_year = 2011
+|GDP_nominal = $18.181 billion<ref name=imf2/>
+|GDP_nominal_per_capita = $585<ref name=imf2/>
+|Gini_year = 2008
+|Gini_change =  <!--increase/decrease/steady-->
+|Gini = 29 <!--number only-->
+|Gini_ref = <ref name="wb-gini">{{cite web |url=http://data.worldbank.org/indicator/SI.POV.GINI/ |title=Gini Index |author= |date= |work= |publisher=World Bank |accessdate=2 March 2011}}</ref>
+|Gini_rank =
+|HDI_year = 2011
+|HDI_change =  <!--increase/decrease/steady-->
+|HDI = 0.398 <!--number only-->
+|HDI_ref = <ref>{{cite web |url=http://hdr.undp.org/en/media/HDR_2011_EN_Table1.pdf |title=Human Development Index and its components |format=PDF |date= |accessdate=19 May 2012}}</ref>
+|HDI_rank = 172nd
+|FSI = 102.3 {{increase}} 2.5
+|FSI_year = 2007
+|FSI_rank = 8th
+|FSI_category = <span style="color:#f00;">Alert</span>
+|sovereignty_type = [[History of Afghanistan|Establishment]]
+|established_event1 = {{nowrap|[[Durrani Empire|First Afghan state]]<ref name="CIA-Afghanistan"/><ref name="Last-Afghan-empire"/>}}
+|established_date1 = Octubre 1747
+|established_event2 = [[Anglo-Afghan Treaty of 1919|Independence]] (from the United Kingdom)
+|established_date2 = Agosto 19, 1919
+|currency = [[Afghan afghani|Afghani]]
 |currency_code = AFN
 |country_code = AFG
-|time_zone =
-|utc_offset = +4:30 
-|time_zone_DST = 
-|utc_offset_DST = +4:30
+|time_zone = D†
+|utc_offset = +4:30
+|drives_on = right
+|calling_code = [[+93]]
 |cctld = [[.af]]
-|calling_code = 93
-|footnotes =
 }}
+{{contains Pashto text}}
+
 Ing '''Afghanistan''' ({{IPAc-en|ʌ|f|ˈ|ɡ|ʌ|n|ɪ|s|t|ɑː|n}}; {{IPAc-en|audio=En-us-Afghanistan.ogg|æ|f|ˈ|ɡ|æ|n|ɨ|s|t|æ|n}}; {{lang-fa|{{big|افغانستان}}}}; {{lang-ps|Afġānistān}}), king opisyal a lagyu, '''[[Islamicung Republica]] ning Afghanistan''', metung yang [[Landlocked country|makakulung gabun ]] [[a magsariling bangsang]] kayabe king [[Mauling Asia]],<ref name=UNdata/> [[Kalibudtang Asia]],<ref name="Britannica"/> ampo king metung a dake, [[Albugang Asia]]. Maki populasyun yang manga atlung pulung (30) milyun a manuknangan king lugal a manga  {{convert|647500|km²|0|abbr=on}}, at uli na niti, metung ka-[[Listaan da reng bangsa agpang king populasyun|42]] pekamaragul a populasyun ampong ka-[[Listaan da reng bangsa ampong teritoryu agpang king lapad |41]] a pekamaragul a bangsa king yatu. Kalele ne [[Pakistan]] king [[mauli]], ing [[Iran]] king [[albugan]], ding   [[Turkmenistan]], [[Uzbekistan]] ampong [[Tajikistan]] king [[pangulu]], ampo ing [[Maldang Republika ning Tsina]] king marayung [[pangulu]] [[aslagan]].
 
 {{Maulingalbugang Asia}}
