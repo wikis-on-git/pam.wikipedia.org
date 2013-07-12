@@ -25,7 +25,7 @@
 |blank_emblem_size      =
 |image_map              = ChinaHenanXinxiang.png
 |mapsize                =  
-|map_caption            = Xinxiang's location in Henan province
+|map_caption            = Ing lokasyun ning Xinxiang king lalawigan ning Henan 
 |image_map1             = 
 |mapsize1               = 
 |map_caption1           = 
@@ -33,16 +33,16 @@
 |dot_mapsize            =
 |dot_map_caption        =
 |dot_x =  |dot_y =
-|pushpin_map            = China <!-- the name of a location map as per http://en.wikipedia.org/wiki/Template:Location_map -->
+|pushpin_map            = Tsina <!-- the name of a location map as per http://en.wikipedia.org/wiki/Template:Location_map -->
 |pushpin_label_position = <!-- the position of the pushpin label: left, right, top, bottom, none -->
-|pushpin_map_caption    = Location in China
+|pushpin_map_caption    = Lokasyun king Tsina
 |pushpin_mapsize        =  
 <!-- Location ------------------>
 |coordinates_display    = inline,title
 |coordinates_region     = CN
-|subdivision_type       = Country
-|subdivision_name       = [[People's Republic of China|China]]
-|subdivision_type1      = [[Province (China)|Province]]
+|subdivision_type       = Bangsa
+|subdivision_name       = Maldang Republika ning Tsina
+|subdivision_type1      = [[Lalawigan ning Maldang Republika ning Tsina |Lalawigan]]
 |subdivision_name1      = [[Henan]]
 |seat_type              =
 |seat                   =
