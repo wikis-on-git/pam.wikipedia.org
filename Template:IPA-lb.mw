@@ -1,0 +1,7 @@
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Luxembourgish:&nbsp;|pron=ágkas yang&nbsp;|=|Luxembourgish pronunciation:&nbsp;}}</small>{{IPA|[[Help:IPA for Luxembourgish|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
+{{documentation|Template:usage of IPA templates}}
+
+<!-- PLEASE ADD CATEGORIES BELOW THIS LINE, THANKS. -->
+[[Category:IPA language templates|{{PAGENAME}}]]
+
+<!-- PLEASE ADD INTERWIKIS BELOW THIS LINE, THANKS. -->
