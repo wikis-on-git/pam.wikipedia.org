@@ -1,0 +1,7 @@
+! colspan="3" style="border-top: 5px solid #cccccc;" | {{#if:{{{1|}}}|{{#switch:{{{1}}}
+ |line=Lines of succession
+ |#default={{{1}}}
+}}|Other offices}}
+</includeonly><noinclude>
+{{documentation}}
+</noinclude>
