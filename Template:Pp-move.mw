@@ -1,0 +1,18 @@
+<includeonly>{{pp-meta
+|type=move
+|small={{{small|}}}
+|demospace={{{demospace|}}}
+|demolevel={{{demolevel|undefined}}}
+|expiry={{{expiry|}}}
+|dispute=no
+|reason={{#if:{{{reason|}}}|&#32;because {{lcfirst:{{{reason|}}}}}}}
+|categories={{{categories|{{#switch: {{NAMESPACE}}
+ | {{ns:2}}
+ | {{ns:3}} = [[Category:Wikipedia move-protected user and user talk pages|{{PAGENAME}}]]
+ | {{ns:4}}
+ | {{ns:12}} = [[Category:Wikipedia move-protected project pages|{{PAGENAME}}]]
+ | {{ns:100}} = [[Category:Wikipedia move-protected portals|{{PAGENAME}}]]
+ | #default = {{talk other|[[Category:Wikipedia move-protected talk pages|{{PAGENAME}}]]|[[Category:Wikipedia move-protected pages|{{PAGENAME}}]]}}}}{{#if:{{{expiry|}}}||[[Category:Wikipedia protected pages without expiry|{{PAGENAME}}]]}}}}}}}</includeonly><noinclude>
+{{pp-move|demospace=main|categories=no}}
+{{Documentation}}
+</noinclude>
