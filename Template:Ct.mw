@@ -1,0 +1,4 @@
+{{Cycling data {{{1|}}}
+| Cycling team {{ #if: {{{nolink|}}} |nolink|link}}
+| year = {{{year|{{{2|}}}}}}
+}}<noinclude>{{documentation}}</noinclude>
