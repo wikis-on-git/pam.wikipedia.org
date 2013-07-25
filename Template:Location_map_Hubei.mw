@@ -1,0 +1,11 @@
+{{#switch:{{{1}}}
+|name   = Hubei
+|top = 33.5
+|bottom = 28.8
+|left = 108.2
+|right = 116.4
+|image  = China Hubei location map.svg
+}}<noinclude>{{Location map/Info}}
+[[Category:China location map templates|Hubei]]
+
+</noinclude>
