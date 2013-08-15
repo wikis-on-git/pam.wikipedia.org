@@ -1,0 +1,64 @@
+{{ infobox
+| child      = {{{child|}}}
+| decat      = yes <!-- remove from template:infobox tracking categories -->
+| bodyclass  =  vcard
+| title      = {{#ifeq:{{{child|}}}|yes|'''Karera king pamaglutu'''|{{{name|<includeonly>{{PAGENAME}}</includeonly>}}} }}
+| titleclass = {{#ifeq:{{{child|}}}|yes||fn}}
+| image      = {{#if:{{{image|}}}|[[File:{{{image}}}|{{px|{{{image_size|}}}|{{{imagesize|}}}|frameless}}|alt={{{alt|}}}]]}}
+| caption    = {{{caption|}}}
+
+| label1     = Mibait
+| data1      = {{br separated entries|{{{birth_name|}}}|{{{birth_date|}}}|{{{birth_place|}}}}}
+| label2     = Mete
+| data2      = {{br separated entries|{{{death_date|}}}|{{{death_place|}}}}}
+| label3     = Istilu ning pamaglutu 
+| data3      = {{{style|}}}
+| class3     = category
+| label4     = Pamagaral
+| data4      = {{{education|}}}
+| label5     = Asawa
+| data5      = {{{spouse|}}}
+| data6      = {{#if:{{{ratings|}}}|
+{{Collapsible list
+| title        = Rating(s)
+| frame_style  = border: none; padding: 0;
+| list_style   = text-align: left; margin-left:10px;
+| 1            = {{{ratings}}}
+}}
+}}
+| data7      = {{#if:{{{restaurants|}}}|
+{{Collapsible list
+| title        = Kasalungsungan a restoran
+| frame_style  = border: none; padding: 0;
+| list_style   = text-align: left; margin-left:10px;
+| 1            = {{{restaurants}}}
+}}
+}}
+| data8      = {{#if:{{{prevrests|}}}|
+{{Collapsible list
+| title        = Sadyang restoran
+| frame_style  = border: none; padding: 0;
+| list_style   = text-align: left; margin-left:10px;
+| 1            = {{{prevrests}}}
+}}
+}}
+| data9      = {{#if:{{{television|}}}|
+{{Collapsible list
+| title        = Programang telebisyun
+| frame_style  = border: none; padding: 0;
+| list_style   = text-align: left; margin-left:10px;
+| 1            = {{{television}}}
+}}
+}}
+| data10     = {{#if:{{{awards|}}}|
+{{Collapsible list
+| title        = Galal a simbut
+| frame_style  = border: none; padding: 0;
+| list_style   = text-align: left; margin-left:10px;
+| 1            = {{{awards}}}
+}}
+}}
+| header11   = {{#if:{{{website|}}}|Official website}}
+| data12     = {{{website|}}}
+
+}}<noinclude>{{documentation}}</noinclude>
