@@ -62,9 +62,5 @@
 |class="mergedbottomrow" colspan="2" style="text-align:center; background:none;"| [[Image:{{{Symbol}}}|130px|{{#if:{{{SymbolName|}}}|{{{SymbolName}}}|Symbol of {{{Name}}} Prefecture}}]]<br/>{{#if:{{{SymbolDescription|}}}|{{{SymbolDescription}}}|Symbol of {{{Name}}} Prefecture}}
 |}<noinclude>
 [[Category:Asian country subdivision infobox templates|Japan prefecture]]
-[[fi:Malline:Japanin prefektuuri]]
-[[ja:Template:基礎情報 都道府県]]
 [[lt:template:Japonijos prefektūros]]
-[[th:แม่แบบ:กล่องข้อมูล จังหวัดประเทศญี่ปุ่น]]
-[[zh:Template:Infobox Prefecture Japan]]
 </noinclude>
