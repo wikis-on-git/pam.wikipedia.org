@@ -555,5 +555,4 @@
 |}<!--For deprecated parameter names--><includeonly>{{#if:{{{city_logo|}}}{{{area_total|}}}{{{area_land|}}}{{{area_water|}}}{{{TotalArea_sq_mi|}}}{{{LandArea_sq_mi|}}} {{{WaterArea_sq_mi|}}}{{{area_urban|}}}{{{UrbanArea_sq_mi|}}}{{{area_metro|}}}{{{MetroArea_sq_mi|}}} {{{elevation|}}}{{{population_density|}}}{{{population_density_mi2|}}} {{{population_density_metro_mi2|}}} {{{population_density_urban_mi2|}}}|[[Category:Settlement articles requiring maintenance]]}}</includeonly><noinclude>
 {{pp-template|small=yes}}
 {{documentation}}
-[[cs:Šablona:Infobox sídla světa]]
 </noinclude>
