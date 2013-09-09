@@ -1,0 +1,15 @@
+{{userbox-level
+| level    = 
+| id       = [[:Portuges language|pt]]
+| info     = Este usuário/utilizador tem como língua '''[[:Category:User pt-N|nativa]]''' o '''[[:Category:User pt|português]]'''.
+| usercategory = User pt-N
+| nocat = {{{nocat|}}}
+}}<noinclude>
+<br><br><br><br>
+==Usage==
+This template will automatically add your page to the following categories:
+*[[:Category:User pt-N]]
+{{languages|Portuguese|pt}}
+[[Category:User templates pt|Pt, User]]
+
+</noinclude>
