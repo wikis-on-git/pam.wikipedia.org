@@ -1,0 +1,30 @@
+{{Navbox
+|name = Languages
+|navbar = plain
+|title = [[{{{1}}}{{{langvoid| language}}}]]
+|listclass = hlist
+|list1 = 
+;{{nobold|[[Wikipedia:Babel|Babel]]}}
+: [[{{#if:{{{userspace|}}}|User:{{{2}}}-0|Template:User {{{2}}}-0}}|0]]
+: [[{{#if:{{{userspace|}}}|User:{{{2}}}-1|Template:User {{{2}}}-1}}|1]]
+: [[{{#if:{{{userspace|}}}|User:{{{2}}}-2|Template:User {{{2}}}-2}}|2]]
+: [[{{#if:{{{userspace|}}}|User:{{{2}}}-3|Template:User {{{2}}}-3}}|3]]
+: [[{{#if:{{{userspace|}}}|User:{{{2}}}-4|Template:User {{{2}}}-4}}|4]]
+: [[{{#if:{{{userspace|}}}|User:{{{2}}}|Template:User {{{2}}}}}|N]]
+: [[{{#if:{{{userspace|}}}|User:{{{2}}}-5|Template:User {{{2}}}-5}}|5]]
+}}<includeonly>
+{{#ifeq:{{lc:{{SUBPAGENAME}}}} | doc |
+|{{{catvoid|{{#ifexist:Category:User templates {{{catalt|{{{2}}}}}}|[[Category:User templates {{{catalt|{{{2}}}}}}|{{{sections|}}}{{#switch:{{PAGENAME}}
+ |User {{{2}}}-0 = {{{#|0}}}
+ |User {{{2}}}-1 = {{{#|1}}}
+ |User {{{2}}}-2 = {{{#|2}}}
+ |User {{{2}}}-3 = {{{#|3}}}
+ |User {{{2}}}-4 = {{{#|4}}}
+ |User {{{2}}}   = {{{#|N}}}
+ |User {{{2}}}-N = {{{#|N}}}
+ |User {{{2}}}-5 = {{{#|5}}}
+ |#default       = {{{#| }}}
+}}]]}}
+}}}}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
