@@ -1,0 +1,10 @@
+<div class="noprint toccolours" style="clear: both; width: 94%; margin: 0.5em auto; text-align: center; padding: 0">
+{{#if:{{{title<includeonly>|</includeonly>}}}|
+<div style="padding-top: 0.2em; padding-bottom: 0.2em; {{#if:{{{color|}}}|background-color: {{{color|}}}}}">{{{title}}}</div>
+}}
+<div style="font-size: 90%; width: 98%; padding: 0.2em 0.4em 0.1em 0.4em; _height: 6ex; min-height: 6ex; white-space:nowrap; vertical-align: middle; overflow: auto; overflow-y: visible">
+<ul style="padding: 0; margin: 0; display: inline">
+<li style="display: inline">{{{list|<noinclude>long list of items in parameter "List" - item 1 - item 2 - item 3 - item 4 - item 5 - item 6 - item 7 - item 7 - item 8 - item 9 - item 10 - item 11 - item 12 - item 13 - item 14 - item 15 - item 16 - item 17</noinclude>}}}</li>
+</ul>
+</div>
+</div><noinclude>{{Documentation}}<!-- Add categories and interwikis to the /doc subpage, not here! --></noinclude>
