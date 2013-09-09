@@ -1,0 +1,354 @@
+<!-- 
+   The following stats have been updated for the 2013 Italian Grand Prix:
+   - entries, starts, poles, wins, podiums, fastestlaps, careerpoints, seasonpoints, seasonposition
+   The following stats still need to be updated:
+   -  none
+
+-->{{#switch: {{{1|}}}
+ | UPTO = 2013 Italian Grand Prix
+ | ALO = {{#switch: {{{2|}}}
+ | entries        = 210
+ | starts         = 209
+ | poles          = 22
+ | wins           = 32
+ | podiums        = 93
+ | fastestlaps    = 20
+ | careerpoints   = 1,533
+ | seasonpoints   = 169
+ | seasonposition = 2nd
+}}
+ | BIA = {{#switch: {{{2|}}}
+ | entries        = 12
+ | starts         = 12
+ | poles          = 0
+ | wins           = 0
+ | podiums        = 0
+ | fastestlaps    = 0
+ | careerpoints   = 0
+ | seasonpoints   = 0
+ | seasonposition = 19th
+}}
+ | BOT = {{#switch: {{{2|}}}
+ | entries        = 12
+ | starts         = 12
+ | poles          = 0
+ | wins           = 0
+ | podiums        = 0
+ | fastestlaps    = 0
+ | careerpoints   = 0
+ | seasonpoints   = 0
+ | seasonposition = 17th
+}}
+ | BUT = {{#switch: {{{2|}}}
+ | entries        = 242
+ | starts         = 240
+ | poles          = 8
+ | wins           = 15
+ | podiums        = 49
+ | fastestlaps    = 8
+ | careerpoints   = 1047
+ | seasonpoints   = 48
+ | seasonposition = 9th
+}}
+ | CHI = {{#switch: {{{2|}}}
+ | entries        = 12
+ | starts         = 12
+ | poles          = 0
+ | wins           = 0
+ | podiums        = 0
+ | fastestlaps    = 0
+ | careerpoints   = 0
+ | seasonpoints   = 0
+ | seasonposition = 22nd
+}}
+ | DIR = {{#switch: {{{2|}}}
+ | entries        = 51
+ | starts         = 51
+ | poles          = 0
+ | wins           = 0
+ | podiums        = 0
+ | fastestlaps    = 0
+ | careerpoints   = 109
+ | seasonpoints   = 36
+ | seasonposition = 10th
+}}
+ | GRO = {{#switch: {{{2|}}}
+ | entries        = 38
+ | starts         = 38
+ | poles          = 0
+ | wins           = 0
+ | podiums        = 5
+ | fastestlaps    = 1
+ | careerpoints   = 153
+ | seasonpoints   = 57
+ | seasonposition = 8th
+}}
+ | GUT = {{#switch: {{{2|}}}
+ | entries        = 12
+ | starts         = 12
+ | poles          = 0
+ | wins           = 0
+ | podiums        = 0
+ | fastestlaps    = 1
+ | careerpoints   = 0
+ | seasonpoints   = 0
+ | seasonposition = 18th
+}}
+ | HAM = {{#switch: {{{2|}}}
+ | entries        = 122
+ | starts         = 122
+ | poles          = 31
+ | wins           = 22
+ | podiums        = 54
+ | fastestlaps    = 13
+ | careerpoints   = 1054
+ | seasonpoints   = 141
+ | seasonposition = 3rd
+}}
+ | HUL = {{#switch: {{{2|}}}
+ | entries        = 51
+ | starts         = 50
+ | poles          = 1
+ | wins           = 0
+ | podiums        = 0
+ | fastestlaps    = 1
+ | careerpoints   = 102
+ | seasonpoints   = 17
+ | seasonposition = 14th
+}}
+ | MAL = {{#switch: {{{2|}}}
+ | entries        = 51
+ | starts         = 51
+ | poles          = 1
+ | wins           = 1
+ | podiums        = 1
+ | fastestlaps    = 0
+ | careerpoints   = 47
+ | seasonpoints   = 1
+ | seasonposition = 16th
+}}
+ | MAS = {{#switch: {{{2|}}}
+ | entries        = 186
+ | starts         = 184
+ | poles          = 15
+ | wins           = 11
+ | podiums        = 36
+ | fastestlaps    = 14
+ | careerpoints   = 783
+ | seasonpoints   = 79
+ | seasonposition = 7th
+}}
+ | PER = {{#switch: {{{2|}}}
+ | entries        = 51
+ | starts         = 49
+ | poles          = 0
+ | wins           = 0
+ | podiums        = 3
+ | fastestlaps    = 2
+ | careerpoints   = 98
+ | seasonpoints   = 18
+ | seasonposition = 12th
+}}
+ | PIC = {{#switch: {{{2|}}}
+ | entries        = 32
+ | starts         = 32
+ | poles          = 0
+ | wins           = 0
+ | podiums        = 0
+ | fastestlaps    = 0
+ | careerpoints   = 0
+ | seasonpoints   = 0
+ | seasonposition = 20th
+}}
+ | RAI = {{#switch: {{{2|}}}
+ | entries        = 189
+ | starts         = 188
+ | poles          = 16
+ | wins           = 20
+ | podiums        = 75
+ | fastestlaps    = 38
+ | careerpoints   = 920
+ | seasonpoints   = 134
+ | seasonposition = 4th
+}}
+ | RIC = {{#switch: {{{2|}}}
+ | entries        = 43
+ | starts         = 43
+ | poles          = 0
+ | wins           = 0
+ | podiums        = 0
+ | fastestlaps    = 0
+ | careerpoints   = 28
+ | seasonpoints   = 18
+ | seasonposition = 13th
+}}
+ | ROS = {{#switch: {{{2|}}}
+ | entries        = 140
+ | starts         = 140
+ | poles          = 4
+ | wins           = 3
+ | podiums        = 9
+ | fastestlaps    = 4
+ | careerpoints   = 503.5
+ | seasonpoints   = 104
+ | seasonposition = 6th
+}}
+ | SUT = {{#switch: {{{2|}}}
+ | entries        = 102
+ | starts         = 102
+ | poles          = 0
+ | wins           = 0
+ | podiums        = 0
+ | fastestlaps    = 1
+ | careerpoints   = 120
+ | seasonpoints   = 25
+ | seasonposition = 11th
+}}
+ | VDG = {{#switch: {{{2|}}}
+ | entries        = 12
+ | starts         = 12
+ | poles          = 0
+ | wins           = 0
+ | podiums        = 0
+ | fastestlaps    = 0
+ | careerpoints   = 0
+ | seasonpoints   = 0
+ | seasonposition = 21st
+}}
+ | VER = {{#switch: {{{2|}}}
+ | entries        = 32
+ | starts         = 32
+ | poles          = 0
+ | wins           = 0
+ | podiums        = 0
+ | fastestlaps    = 0
+ | careerpoints   = 29
+ | seasonpoints   = 13
+ | seasonposition = 15th
+}}
+ | VET = {{#switch: {{{2|}}}
+ | entries        = 113
+ | starts         = 113
+ | poles          = 40
+ | wins           = 32
+ | podiums        = 55
+ | fastestlaps    = 19
+ | careerpoints   = 1,276
+ | seasonpoints   = 222
+ | seasonposition = 1st
+}}
+ | WEB = {{#switch: {{{2|}}}
+ | entries        = 210
+ | starts         = 208
+ | poles          = 11
+ | wins           = 9
+ | podiums        = 38
+ | fastestlaps    = 17
+ | careerpoints   = 978.5
+ | seasonpoints   = 130
+ | seasonposition = 5th
+}}<!--
+
+  Drivers not competing in 2013:
+
+-->
+ | DAM = {{#switch: {{{2|}}}
+ | entries        = 20
+ | starts         = 20
+ | poles          = 0
+ | wins           = 0
+ | podiums        = 0
+ | fastestlaps    = 0
+ | careerpoints   = 0
+ | seasonpoints   = 0
+ | seasonposition = -
+}}
+ | DLR = {{#switch: {{{2|}}}
+ | entries        = 107
+ | starts         = 106
+ | poles          = 0
+ | wins           = 0
+ | podiums        = 1
+ | fastestlaps    = 1
+ | careerpoints   = 35
+ | seasonpoints   = 0
+ | seasonposition = -
+}}
+ | GLO = {{#switch: {{{2|}}}
+ | entries        = 95
+ | starts         = 91
+ | poles          = 0
+ | wins           = 0
+ | podiums        = 3
+ | fastestlaps    = 1
+ | careerpoints   = 51
+ | seasonpoints   = 0
+ | seasonposition = -
+}}
+ | KAR = {{#switch: {{{2|}}}
+ | entries        = 48
+ | starts         = 46
+ | poles          = 0
+ | wins           = 0
+ | podiums        = 0
+ | fastestlaps    = 0
+ | careerpoints   = 5
+ | seasonpoints   = 0
+ | seasonposition = -
+}}
+ | KOB = {{#switch: {{{2|}}}
+ | entries        = 60
+ | starts         = 60
+ | poles          = 0
+ | wins           = 0
+ | podiums        = 1
+ | fastestlaps    = 1
+ | careerpoints   = 125
+ | seasonpoints   = 0
+ | seasonposition = -
+}}
+ | KOV = {{#switch: {{{2|}}}
+ | entries        = 110
+ | starts         = 109
+ | poles          = 1
+ | wins           = 1
+ | podiums        = 4
+ | fastestlaps    = 2
+ | careerpoints   = 105
+ | seasonpoints   = 0
+ | seasonposition = -
+}}
+ | PET = {{#switch: {{{2|}}}
+ | entries        = 58
+ | starts         = 57
+ | poles          = 0
+ | wins           = 0
+ | podiums        = 1
+ | fastestlaps    = 1
+ | careerpoints   = 64
+ | seasonpoints   = 0
+ | seasonposition = -
+}}
+ | MSC = {{#switch: {{{2|}}}
+ | entries        = 308
+ | starts         = 307
+ | poles          = 68
+ | wins           = 91
+ | podiums        = 155
+ | fastestlaps    = 77
+ | careerpoints   = 1,566
+ | seasonpoints   = 0
+ | seasonposition = -
+}}
+ | SEN = {{#switch: {{{2|}}}
+ | entries        = 46
+ | starts         = 46
+ | poles          = 0
+ | wins           = 0
+ | podiums        = 0
+ | fastestlaps    = 1
+ | careerpoints   = 33
+ | seasonpoints   = 0
+ | seasonposition = -
+}}
+}}<noinclude>{{Documentation}}</noinclude>
