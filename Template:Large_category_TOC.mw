@@ -1,0 +1,78 @@
+<span class="plainlinks">{{Navigation bar
+| color = #f9f9f9;
+| title = <div>
+<span class="plainlinks" >
+{{MediaWiki:Toc}}:
+[{{fullurl:{{FULLPAGENAME}}}} Top]
+[{{fullurl:{{FULLPAGENAME}}|from=0}} 0–9]
+[{{fullurl:{{FULLPAGENAME}}|from=A}} A]
+[{{fullurl:{{FULLPAGENAME}}|from=B}} B]
+[{{fullurl:{{FULLPAGENAME}}|from=C}} C]
+[{{fullurl:{{FULLPAGENAME}}|from=D}} D]
+[{{fullurl:{{FULLPAGENAME}}|from=E}} E]
+[{{fullurl:{{FULLPAGENAME}}|from=F}} F]
+[{{fullurl:{{FULLPAGENAME}}|from=G}} G]
+[{{fullurl:{{FULLPAGENAME}}|from=H}} H]
+[{{fullurl:{{FULLPAGENAME}}|from=I}} I]
+[{{fullurl:{{FULLPAGENAME}}|from=J}} J]
+[{{fullurl:{{FULLPAGENAME}}|from=K}} K]
+[{{fullurl:{{FULLPAGENAME}}|from=L}} L]
+[{{fullurl:{{FULLPAGENAME}}|from=M}} M]
+[{{fullurl:{{FULLPAGENAME}}|from=N}} N]
+[{{fullurl:{{FULLPAGENAME}}|from=O}} O]
+[{{fullurl:{{FULLPAGENAME}}|from=P}} P]
+[{{fullurl:{{FULLPAGENAME}}|from=Q}} Q]
+[{{fullurl:{{FULLPAGENAME}}|from=R}} R]
+[{{fullurl:{{FULLPAGENAME}}|from=S}} S]
+[{{fullurl:{{FULLPAGENAME}}|from=T}} T]
+[{{fullurl:{{FULLPAGENAME}}|from=U}} U]
+[{{fullurl:{{FULLPAGENAME}}|from=V}} V]
+[{{fullurl:{{FULLPAGENAME}}|from=W}} W]
+[{{fullurl:{{FULLPAGENAME}}|from=X}} X]
+[{{fullurl:{{FULLPAGENAME}}|from=Y}} Y]
+[{{fullurl:{{FULLPAGENAME}}|from=Z}} Z]
+</span>
+</div>
+| list= <div style="overflow-x:scroll;overflow-y:hidden;"><span class="plainlinks">
+[{{fullurl:{{FULLPAGENAME}}|from=*}} *] • 
+[{{fullurl:{{FULLPAGENAME}}|from=0}} 0]
+[{{fullurl:{{FULLPAGENAME}}|from=1}} 1]
+[{{fullurl:{{FULLPAGENAME}}|from=2}} 2]
+[{{fullurl:{{FULLPAGENAME}}|from=3}} 3]
+[{{fullurl:{{FULLPAGENAME}}|from=4}} 4]
+[{{fullurl:{{FULLPAGENAME}}|from=5}} 5]
+[{{fullurl:{{FULLPAGENAME}}|from=6}} 6]
+[{{fullurl:{{FULLPAGENAME}}|from=7}} 7]
+[{{fullurl:{{FULLPAGENAME}}|from=8}} 8]
+[{{fullurl:{{FULLPAGENAME}}|from=9}} 9]
+• '''A''' {{Large category TOC/a-z|A}}
+• '''B''' {{Large category TOC/a-z|B}}
+• '''C''' {{Large category TOC/a-z|C}}
+• '''D''' {{Large category TOC/a-z|D}}
+• '''E''' {{Large category TOC/a-z|E}}
+• '''F''' {{Large category TOC/a-z|F}}
+• '''G''' {{Large category TOC/a-z|G}}
+• '''H''' {{Large category TOC/a-z|H}}
+• '''I''' {{Large category TOC/a-z|I}}
+• '''J''' {{Large category TOC/a-z|J}}
+• '''K''' {{Large category TOC/a-z|K}}
+• '''L''' {{Large category TOC/a-z|L}}
+• '''M''' {{Large category TOC/a-z|M}}
+• '''N''' {{Large category TOC/a-z|N}}
+• '''O''' {{Large category TOC/a-z|O}}
+• '''P''' {{Large category TOC/a-z|P}}
+• '''Q''' {{Large category TOC/a-z|Q}}
+• '''R''' {{Large category TOC/a-z|R}}
+• '''S''' {{Large category TOC/a-z|S}}
+• '''T''' {{Large category TOC/a-z|T}}
+• '''U''' {{Large category TOC/a-z|U}}
+• '''V''' {{Large category TOC/a-z|V}}
+• '''W''' {{Large category TOC/a-z|W}}
+• '''X''' {{Large category TOC/a-z|X}}
+• '''Y''' {{Large category TOC/a-z|Y}}
+• '''Z''' {{Large category TOC/a-z|Z}}
+</span></div> }}</span><noinclude>
+
+{{Documentation}} 
+
+</noinclude>
