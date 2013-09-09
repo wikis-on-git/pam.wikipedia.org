@@ -1,0 +1,13 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = East Timor
+| shortname alias = Timor-Leste
+| flag alias = Flag of East Timor.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+<noinclude>
+| templatename = Timor-Leste
+| redir1 = TLS
+| redir2 = East Timor
+</noinclude>
+}}
