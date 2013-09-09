@@ -1,0 +1,6 @@
+{{#ifeq:{{{primary|}}}|false||__NOTOC__}}<div class="toc plainlinks hlist" {{#ifeq:{{{primary|}}}|false||id="toc"}} style="{{#if:{{{align|}}}|float:{{{align}}};clear:{{{align}}};|clear:left;}}">
+<div id="toctitle">{{#ifeq:{{{primary|}}}|false|<strong>{{{title|{{MediaWiki:Toc}} }}}</strong>|<h2>{{{title|{{MediaWiki:Toc}} }}}</h2>}}
+</div>
+<noinclude>
+{{TOC bottom}}
+{{documentation}}</noinclude>
