@@ -1,0 +1,15 @@
+{{#switch:{{{1}}}
+| name   = Cambodia
+| top    = 14.8
+| bottom = 9.9
+| left   = 102.2
+| right  = 107.9
+| image  = Cambodia location map.svg
+| image1 = Cambodia physical map.svg
+}}<noinclude>
+{{Location map/Info}}
+{{Documentation}}
+
+[[Category:Location map by country templates|Cambodia]]
+
+</noinclude>
