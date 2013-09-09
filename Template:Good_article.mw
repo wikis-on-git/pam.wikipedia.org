@@ -1,0 +1,6 @@
+{{ top icon
+| imagename    = symbol support vote.svg
+| wikilink     = Wikipedia:Good articles
+| description  = This is a good article. Click here for more information.
+| id           = good-star
+}}{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Good articles]]}}<noinclude>{{documentation}}</noinclude>
