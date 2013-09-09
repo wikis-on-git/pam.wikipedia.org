@@ -1,0 +1,21 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Georgia (country)
+| shortname alias = Georgia
+| flag alias = Flag of Georgia.svg
+| flag alias-1990 = Flag of Georgia (1990-2004).svg
+| flag alias-naval = Naval Ensign of Georgia.svg
+| link alias-naval = {{#ifeq:{{{variant|}}}|coast guard|Coast Guard of Georgia|Georgian Navy}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| templatename = Georgia
+| var1 = 1990
+| redir1 = GEO
+| redir2 = Georgia (country)
+| related1 = Georgian SSR
+</noinclude>
+}}<noinclude>
+[[sl:Predloga:Podatki države Gruzija]]
+</noinclude>
