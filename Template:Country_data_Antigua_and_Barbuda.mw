@@ -1,0 +1,15 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Antigua and Barbuda
+| flag alias = Flag of Antigua and Barbuda.svg
+| flag alias-colonial = Missing Blue Ensign.svg
+| flag alias-naval = Coastguard Ensign of Antigua and Barbuda.svg
+| link alias-naval = Royal Antigua and Barbuda Defence Force|Royal Antigua and Barbuda D.F.
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = colonial
+| redir1 = ATG
+</noinclude>
+}}
