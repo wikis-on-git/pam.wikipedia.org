@@ -1,0 +1,6 @@
+{{hide in print|{{#ifeq:{{str left|{{{1}}}|3}}|10.|[[Digital object identifier|doi]]:[http://dx.doi.org/{{urlencode:{{{1|{{{id}}}}}}}} {{#tag:nowiki|{{{1|{{{id}}}}}}}}]|<includeonly>[[Category:Pages with DOI errors]]<span class="error">Error: Bad DOI specified!</span></includeonly>}}<!--
+-->}}<!--
+-->{{only in print|doi:{{{1|{{{id}}}}}}<!--
+-->}}<!--
+--><noinclude>
+{{documentation}}</noinclude>
