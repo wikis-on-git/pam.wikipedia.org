@@ -1,0 +1,18 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Honduras
+| flag alias = Flag of Honduras.svg
+| flag alias-1839 = Flag of Honduras (1839-1866).svg
+| flag alias-1866 = Honduras 1866.svg
+| flag alias-naval = Naval Ensign of Honduras.svg
+| link alias-naval = Honduran Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1839
+| var2 = 1866
+| redir1 = HND
+| redir2 = HON
+</noinclude>
+}}
