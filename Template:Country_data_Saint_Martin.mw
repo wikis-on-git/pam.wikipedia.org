@@ -1,0 +1,21 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Collectivity of Saint Martin
+| shortname alias = Saint Martin
+| flag alias = Flag of France.svg
+| flag alias-local = Flag of Saint-Martin (local).svg
+| link alias-football = Saint-Martin national football team
+| name alias-football = Saint-Martin
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+<noinclude>
+| templatename = Saint Martin
+| var1 = local
+| redir1 = MAF
+| redir2 = Saint-Martin
+| redir3 = Saint Martin
+| related1 = Sint Maarten
+</noinclude>
+}}
