@@ -1,0 +1,18 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Syria
+| flag alias = Flag of Syria.svg
+| flag alias-1932 = Syria-flag 1932-58 1961-63.svg
+| flag alias-1963 = Flag of Iraq (1963-1991).svg
+| flag alias-1972 = Flag of Syria 1972.svg
+| link alias-naval = Syrian Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1932
+| var2 = 1963
+| var3 = 1972
+| redir1 = SYR
+</noinclude>
+}}
