@@ -1,0 +1,20 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Saint Lucia
+| flag alias = Flag of Saint Lucia.svg
+| flag alias-1875 = Missing Blue Ensign.svg
+| flag alias-1939 = Missing Blue Ensign.svg
+| flag alias-1967 = Flag of Saint Lucia 1967.svg
+| flag alias-1979 = Flag of Saint Lucia (1979-2002).svg
+| link alias-naval = Saint Lucia Coast Guard
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1875
+| var2 = 1939
+| var3 = 1967
+| var4 = 1979
+| redir1 = LCA
+</noinclude>
+}}
