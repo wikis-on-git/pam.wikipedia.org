@@ -1,0 +1,14 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Bermuda
+| flag alias = Flag of Bermuda.svg
+| flag alias-1910 = Flag of Bermuda 1910.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1910
+| redir1 = BMU
+| redir2 = BER
+</noinclude>
+}}
