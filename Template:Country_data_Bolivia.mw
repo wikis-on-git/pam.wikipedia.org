@@ -1,0 +1,15 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Bolivia
+| flag alias = Flag of Bolivia.svg
+| flag alias-state = Flag of Bolivia (state).svg
+| flag alias-naval = Naval Ensign of Bolivia.svg
+| link alias-naval = Bolivian Naval Force
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = state
+| redir1 = BOL
+</noinclude>
+}}
