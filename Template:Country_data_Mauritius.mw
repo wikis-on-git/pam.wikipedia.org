@@ -1,0 +1,20 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Mauritius
+| flag alias = Flag of Mauritius.svg
+| flag alias-1906 = Flag of Mauritius 1906.svg
+| flag alias-1923 = Flag of Mauritius 1923.svg
+| flag alias-civil = Civil Ensign of Mauritius.svg
+| flag alias-naval = Naval Ensign of Mauritius.svg
+| link alias-naval = National Coast Guard of Mauritius
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1906
+| var2 = 1923
+| var3 = civil
+| redir1 = MUS
+| redir2 = MRI
+</noinclude>
+}}
