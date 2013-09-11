@@ -1,0 +1,21 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Iceland
+| flag alias = Flag of Iceland.svg
+| flag alias-old  = Hvítbláinn.svg
+| flag alias-naval = Flag of Iceland (state).svg
+| flag alias-1918 = Light Blue Flag of Iceland.svg
+| border-naval =
+| link alias-naval = Icelandic Coast Guard
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = old
+| var2 = 1918
+| redir1 = ISL
+</noinclude>
+}}<noinclude>
+[[ms:Templat:Country data Iceland]]
+[[sl:Predloga:Podatki države Islandija]]
+</noinclude>
