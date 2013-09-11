@@ -1,0 +1,20 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Haiti
+| flag alias = Flag of Haiti.svg
+| flag alias-1964 = Flag of Haiti (1964-1986).svg
+| flag alias-civil = Flag of Haiti (civil).svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1964
+| var2 = civil
+| redir1 = HTI
+| redir2 = HAI
+</noinclude>
+}}<noinclude>
+[[af:Sjabloon:Landdata Haïti]]
+[[fr:Modèle:Country data Haïti]]
+[[sl:Predloga:Podatki države Haiti]]
+</noinclude>
