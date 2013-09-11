@@ -1,0 +1,113 @@
+{{#switch:{{ISO 15924 code|{{{1|}}}}}<!-- 
+ Begin of Unicode-determined list (101 codes for Unicode 6.1): -->
+ | Armn
+ | Bali
+ | Bamu
+ | Batk
+ | Beng
+ | Bopo
+ | Brah
+ | Brai
+ | Bugi
+ | Buhd
+ | Cakm
+ | Cans
+ | Cari
+ | Cham
+ | Cher
+ | Copt
+ | Cyrl
+ | Deva
+ | Dsrt
+ | Egyp
+ | Ethi
+ | Geor
+ | Glag
+ | Goth
+ | Grek
+ | Gujr
+ | Guru
+ | Hang
+ | Hani
+ | Hano
+ | Hira
+ | Ital
+ | Java
+ | Kali
+ | Kana
+ | Khmr
+ | Knda
+ | Kthi
+ | Lana
+ | Laoo
+ | Latn
+ | Lepc
+ | Limb
+ | Linb
+ | Lisu
+ | Lyci
+ | Merc
+ | Mero
+ | Mlym
+ | Mtei
+ | Mymr
+ | Olck
+ | Orya
+ | Osma
+ | Plrd
+ | Rjng
+ | Runr
+ | Saur
+ | Shaw
+ | Shrd
+ | Sinh
+ | Sora
+ | Sund
+ | Sylo
+ | Tagb
+ | Takr
+ | Tale
+ | Talu
+ | Taml
+ | Tavt
+ | Telu
+ | Tfng
+ | Tglg
+ | Thai
+ | Tibt
+ | Ugar
+ | Vaii
+ | Xpeo
+ | Xsux
+ | Yiii ={{{ltr|ltr}}}
+ | Arab
+ | Armi
+ | Avst
+ | Cprt
+ | Hebr
+ | Khar
+ | Lydi
+ | Mand
+ | Nkoo
+ | Orkh
+ | Phli
+ | Phnx
+ | Prti
+ | Samr
+ | Sarb
+ | Syrc
+ | Thaa     ={{{rtl|rtl}}}
+ | Zyyy     ={{{mixed|mixed}}}<!-- 
+ End of Unicode-determined list. --><!--
+ Please add other codes here below. -->
+ | Latf
+ | Latg     ={{{ltr|ltr}}}
+ | Mong
+ | Phag     ={{{ttb|ttb}}}<!-- Mong, Phag: overruling Unicode bidi class here (04-2012) -->
+ | Ogam     ={{{mixed|mixed}}}<!-- scolarly and Unicode bidi class defined: ltr, but originally sort of ttb (Unicode chapter 14) -->
+ | Qaai
+ | Zinh     ={{{inh|inh}}}<!-- inheriting: combining marks, diacritics -->
+ | #default ={{{default|}}}
+}}<noinclude>
+{{documentation}}
+</noinclude>
