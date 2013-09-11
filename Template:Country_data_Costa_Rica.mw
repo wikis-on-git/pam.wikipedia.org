@@ -1,0 +1,19 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Costa Rica
+| flag alias = Flag of Costa Rica.svg
+| flag alias-1839 = Flag of Costa Rica (1839-1848).svg
+| flag alias-1848 = Bandera de Costa Rica de 1848.svg
+| flag alias-state = Flag of Costa Rica (state).svg
+| link alias-naval = Costa Rica Civil Guard
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1839
+| var2 = 1848
+| var2 = state
+| redir1 = CRI
+| redir2 = CRC
+</noinclude>
+}}
