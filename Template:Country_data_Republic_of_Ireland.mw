@@ -1,0 +1,25 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Republic of Ireland
+| shortname alias = Ireland
+| flag alias = Flag of Ireland.svg
+| link alias-naval = Irish Naval Service
+| link alias-football = Republic of Ireland {{{mw|}}} national {{{age|}}} football team
+| name alias-football = Republic of Ireland
+| flag alias-rugby union = Flag placeholder.svg<!-- (IRFU flag.svg) placeholders are intentional: use Template:Country data Ireland for cross-island teams -->
+| border-rugby union =
+| flag alias-cricket = Flag placeholder.svg<!-- (Cricket Ireland flag.svg) placeholders are intentional: use Template:Country data Ireland for cross-island teams -->
+| border-cricket =
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| redir1 = IRL
+| related1 = Ireland
+| related2 = Irish Free State
+| cat = Ireland republic
+</noinclude>
+}}<noinclude>
+[[sl:Predloga:Podatki države Republika Irska]]
+</noinclude>
