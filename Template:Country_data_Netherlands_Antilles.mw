@@ -1,0 +1,14 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Netherlands Antilles
+| flag alias = Flag of the Netherlands Antilles.svg
+| flag alias-1959 = Flag of the Netherlands Antilles (1959-1986).svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1959
+| redir1 = ANT
+| redir2 = AHO
+</noinclude>
+}}
