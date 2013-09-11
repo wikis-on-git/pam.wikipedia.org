@@ -1,0 +1,24 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Jersey
+| flag alias = Flag of Jersey.svg
+| flag alias-old  = Flag of Jersey (pre 1981).svg
+| flag alias-civil = Civil Ensign of Jersey.svg
+| flag alias-government = Government Ensign of Jersey.svg
+| link alias-cricket = Jersey {{{age|}}} cricket team
+| link alias-football = Jersey official football team
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = old
+| var2 = civil
+| var3 = government
+| redir1 = JEY
+| related1 = Guernsey
+| related2 = Alderney
+| related3 = Sark
+| related3 = Herm
+</noinclude>
+}}
