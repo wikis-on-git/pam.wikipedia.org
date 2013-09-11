@@ -1,0 +1,22 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = French Polynesia
+| flag alias = Flag of French Polynesia.svg
+| flag alias-1946  = Flag of France.svg
+| name alias-basketball = Tahiti
+| link alias-basketball = Tahiti {{{mw|}}} national basketball team
+| name alias-football = Tahiti
+| link alias-football = Tahiti {{{mw|}}} national football team
+| name alias-rugby union = Tahiti
+| link alias-rugby union = Tahiti national rugby union team
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+<noinclude>
+| var1 = 1946
+| redir1 = PYF
+| redir2 = Tahiti
+| redir3 = TAH
+</noinclude>
+}}
