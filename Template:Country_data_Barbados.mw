@@ -1,0 +1,18 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Barbados
+| flag alias = Flag of Barbados.svg
+| flag alias-1885 = Flag of Barbados 1885.png
+| flag alias-1958 = Flag of Barbados 1958.png
+| flag alias-naval = Naval Ensign of Barbados.svg
+| link alias-naval = Barbados Coast Guard
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1885
+| var2 = 1958
+| redir1 = BRB
+| redir2 = BAR
+</noinclude>
+}}
