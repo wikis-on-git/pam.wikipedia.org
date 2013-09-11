@@ -1,0 +1,17 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Isle of Man
+| flag alias = Flag of the Isle of Man.svg
+| flag alias-civil = Civil Ensign of the Isle of Man.svg
+| link alias-cricket = Isle of Man {{{age|}}} cricket team
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+<noinclude>
+| var1 = civil
+| redir1 = IMN
+| redir2 = IOM
+| cat = Man isle
+</noinclude>
+}}
