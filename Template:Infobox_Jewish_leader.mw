@@ -1,0 +1,121 @@
+{{Infobox
+| bodyclass   = infobox vcard
+| aboveclass  = fn
+| abovestyle  = background-color:#6495ED;
+| above       = <includeonly>{{#if:{{{honorific-prefix|}}}|<span class="honorific-prefix" style="font-size:small;">{{{honorific-prefix|}}}</span>&nbsp;}}<span class = "fn summary">{{{name|{{{Full name|{{{English name|}}} }}} }}}</span>{{#if:{{{honorific-suffix|}}}|&nbsp;<span class="honorific-suffix" style="font-size:small;">{{{honorific-suffix|}}}</span>}}</includeonly>
+| subheader   = {{#if:{{{title|{{{chief rabbi_of|{{{bishop_of|{{{patriarch_of|}}} }}} }}} }}}|''{{{title|{{{chief_rabbi_of|{{{bishop_of|{{{patriarch_of|}}} }}} }}} }}}''}}
+| headerstyle = background-color:#DDDDDD;
+| subheaderclass = role
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=frameless|alt={{{alt|}}}|suppressplaceholder=yes}}
+| caption     = {{{caption|}}}
+
+| label1      = Position
+| data1       = {{{synagogueposition|}}}
+| class1      = org
+
+| label2      = Sinagoga
+| data2       = {{{synagogue|}}}
+
+| label3      = Pusisyun
+| data3       = {{{yeshivaposition|}}}
+
+| label4      = Yeshiva
+| data4       = {{{yeshiva|}}}
+
+| label5      = Pusisyun
+| data5       = {{{organisationposition|}}}
+| class5      = label
+
+| label6      = Aguman/Organisasyun
+| data6       = {{{organisation|}}}
+
+| label7      = Migumpisa
+| data7       = {{{began|}}}
+| rowclass7   = note
+
+| label8      = Ended
+| data8       = {{{ended|}}}
+| rowclass8   = note
+
+| label9      = Predecessor
+| data9       = {{{predecessor|}}}
+
+| label10     = Successor
+| data10      = {{{successor|}}}
+
+| label11     = Created Rabbi
+| data11      = {{{rabbi|}}}
+
+| label12     = Megawang Rebbe
+| data12      = {{{rebbe|}}}
+
+| label13     = Megawang Kohan
+| data13      = {{{kohan|}}}
+
+| label14     = Megawang Hazzan
+| data14      = {{{hazzan|}}}
+
+| label15     = Ranggu
+| data15      = {{{rank|}}}
+
+| label16     = Aliwa pa
+| data16      = {{{other_post|}}}
+
+| header17    = {{#if:{{{birth_name|}}}{{{birth_date|}}}{{{birth_place|}}}{{{death_date|}}}{{{death_place|}}}{{{buried|{{{tomb|}}}}}}{{{nationality|}}}{{{religion|}}}{{{residence|}}}{{{parents|}}}{{{spouse|}}}{{{children|}}}{{{occupation|}}}{{{profession|}}}{{{alma_mater|}}}{{{signature|}}}|Personal details}}
+
+| label18     = Lagyu kabait
+| data18      = {{{birth_name|}}}
+| class18     = nickname
+
+| label19     = Mibait
+| data19      = {{br separated entries|{{{birth_date|}}}|{{{birth_place|}}}}}
+
+| label20     = Mete
+| data20      = {{br separated entries|{{{death_date|}}}|{{{death_place|}}}}}
+
+| label21     = {{#ifeq:{{lc:{{{type|}}}}}|pope|[[List of extant papal tombs|Buried]]|Buried}}
+| data21      = {{{buried|{{{tomb|}}} }}}
+
+| label22     = Nasyonalidad
+| data22      = {{{nationality|}}}
+
+| label23     = Denomination
+| data23      = {{{denomination|}}}
+| class23     = category 
+
+| label24     = Tuknangan
+| data24      = {{{residence|}}}
+| class24     = label
+
+| label25     = Dynasty
+| data25      = {{{dynasty|}}}
+
+| label26     = Pengari
+| data26      = {{{parents|}}}
+
+| label27     = Asawa
+| data27      = {{{spouse|}}}
+
+| label28     = Ának
+| data28      = {{{children|}}}
+
+| label29     = Obra
+| data29      = {{{occupation|}}}
+
+| label30     = Propesyon
+| data30      = {{{profession|}}}
+
+| label31     = [[Pipagaralamn]]
+| data31      = {{{alma_mater|}}}
+
+| label32     = [[Semicha]]
+| data32      = {{{semicha|}}}
+
+| label33     = Pirma
+| data33      = {{#if:{{{signature|}}}|[[File:{{{signature}}}|125px|{{PAGENAME}}'s signature]]}}
+
+}}<noinclude>{{documentation}}
+
+[[Category:People infobox templates|Jewish leader]]
+[[Category:Jews and Judaism infobox templates|Jewish leader]]
+</noinclude>
