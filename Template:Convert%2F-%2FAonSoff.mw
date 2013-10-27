@@ -1,0 +1,55 @@
+{{#ifeq: {{{1|1+4/5}}} |{{#titleparts:{{{1|1+4/5}}}|1|1}} |<!--check x+n/d
+  then-one-number-->{{{1}}}|<!--
+  else-mixed-number-->{{convert/numdisp|{{{1|1+4/5}}}}}<!--
+  -->}}<!--endif 0*{1}=0
+-->{{
+  #ifexpr: {{formatnum: {{padleft:|3|{{{2|4}}}100}}1 |R}} < 0
+    or {{str_len|{{{1}}}|}} > 8 or {{str_len|{{{2}}}|}} > 8
+    |{{#ifexpr: {{str_len|{{{1}}}|}} < 6|&nbsp;|&#32;}}–&#32;
+    |–}}<!--show range word (unicode &ndash)
+-->{{
+#ifeq: {{{2|3+6/7}}} |{{#titleparts:{{{2|3+6/7}}}|1|1}} |<!--check x+n/d
+  then-one-number-->{{{2}}}|<!--
+  else-mixed-number-->{{convert/numdisp|{{{2|3+6/7}}}}}<!--
+  -->}}<!--endif 0*{2}=0
+-->&nbsp;{{#ifeq: 1| {{#expr:abs( {{formatnum:{{{2|3/4}}}|R}} ) < 1.0001 and
+  {{formatnum:{{{2|3/4}}}|R}} <> 0 }}
+  |{{#ifeq:{{{u|xnone<noinclude>x</noinclude>}}}|xnone |{{{n}}}
+    |{{#ifeq: { |{{padleft:|1
+      |{{{u<noinclude>|x</noinclude>}}} }}|{{{n}}} |{{{u}}} }}
+  }}<!--endifeq {u}=xnone-->
+  |{{#ifeq:{{{u|xnone}}}|xnone |{{{l|{{{n}}}s}}}
+    |{{#ifeq: { |{{padleft:|1|{{{u}}} }}|{{{l|{{{n}}}s}}} |{{{u}}} }}
+  }}<!--endifeq {u}=xnone-->
+}}<!--endifexpr {2}<1.0001 & {2}>0 --><noinclude><!--
+-----------------------------------------------------------------------
+--NOTES:
+--
+-- NOTE A1: This template shows an input range or output range with the
+--      amounts separated with "-" and allows wrapping after the dash
+--      (to avoid end-of-line gap when the 1st amount is very long).
+--      The range word "x" shows "by" with names or "x" with symbols.
+--
+-- NOTE F3: To handle fractions, the parser function {#titleparts:}
+--      extracts the start of a fraction, as not equal to the whole,
+--      so {convert/numdisp} is called to format the fraction part.
+--
+-- NOTE X2: To handle x10 notation, parser function {#titleparts:}
+--      treats the whole as one number.
+--      
+--------------------------------------------------------------------
+--HISTORY:
+--01May2008 Created by User:Jimp.
+--16Jan2012 Fixed for negative fractions by using abs(n).
+--14Jan2013 Used non-breaking space per protected edit request.
+--16Sep2013 Changed to handle undefined {u} as {n} or plural {l}.
+--16Sep2013 Fixed for -1.0 to show singular unit when null {u}.
+--16Sep2013 Fixed scientific x10 notation by {#ifeq:1|{#expr}|...}.
+--16Sep2013 Improved to space at "-" if amount {1} or {2} > 8 long.
+--16Sep2013 Improved to wrap before "-" if amount {1} > 5 long.
+--16Sep2013 Fixed negative check for x10 notation as 3-byte prefix.
+--16Sep2013 Put NOTES comments to explain template operation.
+--16Sep2013 Put HISTORY comments to log major changes (not typos).
+-->
+{{documentation|Template:Convert/-/AonSoff/doc}}
+</noinclude>
