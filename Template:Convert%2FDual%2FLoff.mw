@@ -1,0 +1,4 @@
+{{convert/Dual/{{#ifexpr:0*{{{4|0}}}*0>0|s}}{{#ifexpr:2*{{{4|0}}}=0.5+{{{4|0}}}||p}}rnd|{{{1<noinclude>|0</noinclude>}}}|{{{2}}}|{{{3<noinclude>|0</noinclude>}}}|b=({{{4|0}}}*2-({{{4|0}}}))/{{{b<noinclude>|1</noinclude>}}}|j={{{j}}}|p={{#expr:2*{{{4|0}}}-({{{4|0}}})}}|s={{#expr:0*{{{4|0}}}*0}}|n={{{n}}}|l={{{l|{{{n}}}s}}}|h={{{h|{{{n}}}}}}|u={{{u}}}}}<noinclude>
+{{pp-template|small=yes}}
+[[Category:Subtemplates of Template Convert]]
+</noinclude>
