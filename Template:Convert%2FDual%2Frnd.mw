@@ -1,0 +1,4 @@
+{{convert/{{{2}}}|{{convert/round|{{{1|1}}}|({{{1|1}}})*{{{b|1}}}|5={{{j|0}}}}}|{{convert/round|{{{3|3}}}|({{{3|3}}})*{{{b|1}}}|5={{{j|0}}}}}|u={{{u}}}|n={{{n}}}|l={{{l}}}|h={{{h}}}|U={{{U|{{{u}}}}}}|N={{{N|{{{n}}}}}}|L={{{L|{{{l}}}}}}|H={{{H|{{{h}}}}}}|k={{{k}}}|£={{{£|}}}|$={{{$|}}}}}<noinclude>
+{{pp-template|small=yes}}
+[[Category:Subtemplates of Template Convert]]
+</noinclude>
