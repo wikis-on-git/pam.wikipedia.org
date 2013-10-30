@@ -1,0 +1,25 @@
+<span style="font-size:{{{size|85%}}}">{{#if: {{{post-noms|}}}|{{{post-noms}}}|<!--
+-->{{#if: {{{1|}}}|{{post-nominals/{{{country|CAN}}}|{{{1}}}}}}}<!--
+-->{{#if: {{{2|}}}|&nbsp;{{post-nominals/{{{country|CAN}}}|{{{2}}}}}}}<!--
+-->{{#if: {{{3|}}}|&nbsp;{{post-nominals/{{{country|CAN}}}|{{{3}}}}}}}<!--
+-->{{#if: {{{4|}}}|&nbsp;{{post-nominals/{{{country|CAN}}}|{{{4}}}}}}}<!--
+-->{{#if: {{{5|}}}|&nbsp;{{post-nominals/{{{country|CAN}}}|{{{5}}}}}}}<!--
+-->{{#if: {{{6|}}}|&nbsp;{{post-nominals/{{{country|CAN}}}|{{{6}}}}}}}<!--
+-->{{#if: {{{7|}}}|&nbsp;{{post-nominals/{{{country|CAN}}}|{{{7}}}}}}}<!--
+-->{{#if: {{{8|}}}|&nbsp;{{post-nominals/{{{country|CAN}}}|{{{8}}}}}}}<!--
+-->{{#if: {{{9|}}}|&nbsp;{{post-nominals/{{{country|CAN}}}|{{{9}}}}}}}<!--
+-->{{#if: {{{10|}}}|&nbsp;{{post-nominals/{{{country|CAN}}}|{{{10}}}}}}}<!--
+-->{{#if: {{{11|}}}|&nbsp;{{post-nominals/{{{country|CAN}}}|{{{11}}}}}}}<!--
+-->{{#if: {{{12|}}}|&nbsp;{{post-nominals/{{{country|CAN}}}|{{{12}}}}}}}<!--
+-->{{#if: {{{13|}}}|&nbsp;{{post-nominals/{{{country|CAN}}}|{{{13}}}}}}}<!--
+-->{{#if: {{{14|}}}|&nbsp;{{post-nominals/{{{country|CAN}}}|{{{14}}}}}}}<!--
+-->{{#if: {{{15|}}}|&nbsp;{{post-nominals/{{{country|CAN}}}|{{{15}}}}}}}<!--
+-->{{#if: {{{16|}}}|&nbsp;{{post-nominals/{{{country|CAN}}}|{{{16}}}}}}}<!--
+-->{{#if: {{{17|}}}|&nbsp;{{post-nominals/{{{country|CAN}}}|{{{17}}}}}}}<!--
+-->{{#if: {{{18|}}}|&nbsp;{{post-nominals/{{{country|CAN}}}|{{{18}}}}}}}<!--
+-->{{#if: {{{19|}}}|&nbsp;{{post-nominals/{{{country|CAN}}}|{{{19}}}}}}}<!--
+-->{{#if: {{{20|}}}|&nbsp;{{post-nominals/{{{country|CAN}}}|{{{20}}}}}}}}}</span><noinclude>
+
+{{Documentation}}
+<!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
+</noinclude>
