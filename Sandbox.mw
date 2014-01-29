@@ -1,9 +1,9 @@
 {{About|the media conglomerate|the television network|ABS-CBN}}
-{{Infobox company
-| name              = ABS-CBN Corporation
-| logo              = [[File:ABS-CBN logo 2014.png|200px]]
+{{Infobox_Company 
+| company_name      = ABS-CBN Corporation
+| company_logo      = [[File:ABS-CBN_logo.svg|200px]] <br /> ''Kapuso ng Bawat Pilipino''<br />
 | caption           = 
-| type              = [[Public company|Public]]
+| company_type      = [[Public company|Public]]
 | traded_as         = {{pse|ABS|ABSP}}
 | predecessor       = Bolinao Electronics Corporation (1946–1952)
 | foundation        = July 11, 1946
