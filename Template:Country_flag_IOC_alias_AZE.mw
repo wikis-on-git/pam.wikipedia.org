@@ -1,0 +1,6 @@
+{{ #switch: {{{1}}}
+| 1996 Summer = Olympic flag.svg
+| #default = Flag of Azerbaijan.svg
+}}<noinclude>
+[[Category:Country flag IOC alias templates|AZE]]
+</noinclude>
