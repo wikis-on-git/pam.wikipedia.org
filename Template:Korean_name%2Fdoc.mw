@@ -1,0 +1,38 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+== Usage ==
+This template is put at the top of a biographical article to explain to readers which part of a Korean person's name is the family name. If desired, the person's [[generation name]] can also be stated. The template will automatically link to the article (if one exists) of the specified family name. For example,
+
+<code><nowiki>{{Korean name|Kim}}</nowiki></code>
+
+will display
+
+{{Korean name|Kim}}
+
+If the family name article does not follow the "NAME (Korean surname)" naming convention, a link can be created manually, e.g.
+
+<code><nowiki>{{Korean name|[[Won (surname)|Won]]}}</nowiki></code>
+
+will display
+
+{{Korean name|[[Won (surname)|Won]]}}
+
+If the surname is stage or pen name, e.g.
+
+<code><nowiki>{{Korean name|Lee|Han}}</nowiki></code>
+
+will display
+
+{{Korean name|Lee|Han}}
+
+== See also ==
+* [[Template:Infobox Korean name]] 
+* [[Template:Chinese name]] 
+* [[Template:Hmong name]]
+* [[Template:Japanese name]]
+* [[Template:Eastern name order]]
+
+<includeonly>
+[[Category:Hatnote templates for names]]
+</includeonly>
