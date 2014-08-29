@@ -1,0 +1,124 @@
+{{Infobox
+| italic title= {{{italic_title|<noinclude>no</noinclude>}}}
+| bodyclass   = vevent
+| abovestyle  = font-style: italic; {{#if:{{Infobox television/colour|{{{show_name}}}}}|background-color:{{Infobox television/colour|{{{show_name}}}}};}}
+| aboveclass  = summary navbox-title
+| headerstyle = {{#if:{{Infobox television/colour|{{{show_name}}}}}|background-color:{{Infobox television/colour|{{{show_name}}}}};}}
+
+| above       = {{{show_name|<includeonly>{{PAGENAME}}</includeonly>}}}
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=frameless|upright=1|alt={{{image_alt|}}}}}
+| caption     = {{{caption|}}}
+
+| label1      = Also known as
+| data1       = {{{show_name_2|}}}
+| label2      = Genre
+| class2      = category
+| data2       = {{{genre|}}}
+| label3      = Format
+| class3      = category
+| data3       = {{{format|}}}
+| label4      = Created by
+| data4       = {{{creator|}}}
+| label5      = Based on
+| data5       = {{{based_on|}}}
+| label6      = Developed by
+| data6       = {{{developer|}}}
+| label7      = Written by
+| data7       = {{{writer|}}}
+| label8      = Directed by
+| class8      = attendee
+| data8       = {{{director|}}}
+| label9      = Creative <span style="white-space:nowrap">director(s)</span>
+| class9      = attendee
+| data9       = {{{creative_director|}}}
+| label10     = Presented by
+| class10     = attendee
+| data10      = {{{presenter|{{{host|}}}}}}
+| label11     = Starring
+| class11     = attendee
+| data11      = {{{starring|}}}
+| label12     = Judges
+| class12     = attendee
+| data12      = {{{judges|}}}
+| label13     = Voices of
+| class13     = attendee
+| data13      = {{{voices|}}}
+| label14     = Narrated by
+| class14     = attendee
+| data14      = {{{narrated|}}}
+| label15     = Theme music composer
+| data15      = {{{theme_music_composer|}}}
+| label16     = Opening theme
+| data16      = {{{opentheme|}}}
+| label17     = Ending theme
+| data17      = {{{endtheme|}}}
+| label18     = Composer(s)
+| data18      = {{{composer|}}}
+| label19     = Country of origin
+| data19      = {{{country|}}}
+| label20     = Original <span style="white-space:nowrap">language(s)</span>
+| data20      = {{{language|}}}
+| label21     = No. of seasons
+| data21      = {{{num_seasons|}}}
+| label22     = No. of series
+| data22      = {{{num_series|}}}
+| label23     = No. of episodes
+| data23      = {{{num_episodes|}}} {{#if: {{{list_episodes|}}} | <span style="white-space:nowrap">([[{{{list_episodes}}}|List of episodes]])</span>}}
+
+| header24    = {{#if:{{{producer|}}}{{{executive_producer|}}}{{{location|}}}{{{camera|}}}{{{runtime|}}}|Production }}
+| class24     = navbox-title
+
+| label25     = Executive <span style="white-space:nowrap">producer(s)</span>
+| data25      = {{{executive_producer|}}}
+| label26     = <span style="white-space:nowrap">Producer(s)</span>
+| data26      = {{{producer|}}}
+| label27     = Editor(s)
+| data27      = {{{editor|}}}
+| label28     = Location(s)
+| data28      = {{{location|}}}
+| label29     = Cinematography
+| data29      = {{{cinematography|}}}
+| label30     = Camera setup
+| data30      = {{{camera|}}}
+| label31     = Running time
+| data31      = {{{runtime|}}}
+| label32     = Production <span style="white-space:nowrap">company(s)</span>
+| data32      = {{{company|}}}
+| label33     = Distributor
+| data33      = {{{distributor|}}}
+
+| header34    = {{#if:{{{channel|}}}{{{network|}}}{{{picture_format|}}}{{{audio_format|}}}{{{first_run|}}}{{{first_aired|}}}{{{last_aired|}}}|Broadcast}}
+| class34     = navbox-title
+
+| label35     = Original channel
+| data35      = {{{network|{{{channel|}}}}}}
+| label36     = Picture format
+| data36      = {{{picture_format|}}}
+| label37     = Audio format
+| data37      = {{{audio_format|}}}
+| label38     = First shown in
+| data38      = {{{first_run|}}}
+| label39     = {{#if: {{{last_aired|}}}|Original run|Original airing}}
+| data39      = {{{first_aired|}}} {{#if: {{{last_aired|}}}| – {{{last_aired|}}}|}}
+
+| header41    = {{#if:{{{preceded_by|}}}{{{followed_by|}}}{{{related|}}}|Chronology}}
+| class41     = navbox-title
+
+| label42     = Preceded by<includeonly>[[Category:Infobox_television preceded_by pages]]</includeonly>
+| data42      = {{{preceded_by|}}}
+| label43     = Followed by<includeonly>[[Category:Infobox_television followed_by pages]]</includeonly>
+| data43      = {{{followed_by|}}}
+| label44     = Related shows
+| data44      = {{{related|}}}
+
+| header45    = {{#if:{{{website|}}}{{{production_website|}}}|External links}}
+| class45     = navbox-title
+
+| data46      = {{#if:{{{website|}}}|[{{{website}}} {{#if:{{{website_title|}}}|{{{website_title}}}|Website}}]}}
+| class46     = url
+| data47      = {{#if:{{{production_website|}}}|[{{{production_website}}} {{#if:{{{production_website_title|}}}|{{{production_website_title}}}|Production website}}]}}
+| class47     = url
+}}{{#if:{{{bgcolour|}}}{{{bgcolor|}}}{{{color text|}}}{{{colour text|}}}|{{main other|[[Category:Television articles that use colour in the infobox]]}}}}<noinclude>
+{{documentation}}
+<!-- category and language links go on /doc, not here -->
+</noinclude>
