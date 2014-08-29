@@ -1,0 +1,10 @@
+<code style="background:transparent;border:none;">{{{1}}}</code><noinclude>
+
+{{Documentation
+ | content =
+<code style="background:transparent;border:none;"> {{braces|plaincode{{!}}''code''}} </code> = 
+<code style="background:transparent;border:none;"> <nowiki><code style="background:transparent;border:none;"></nowiki>{{padlr|3px|''code''}}<nowiki></code></nowiki> </code>
+}}
+
+[[Category:Programming typing-aid templates]]
+</noinclude>
