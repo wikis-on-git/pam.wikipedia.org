@@ -1,0 +1,16 @@
+{{big|'''How to manage this template's visibility'''}}
+* Use {{plaincode|{{((}}<includeonly>{{</includeonly>BASEPAGENAME<includeonly>}}</includeonly>&nbsp;{{!}}{{#ifeq:{{{statename|}}}|optional | |state=}}collapsed{{))}}}} to show this template in its collapsed (i.e. hidden<!--or: titlebar-only-->) state.
+: Use {{plaincode|{{((}}<includeonly>{{</includeonly>BASEPAGENAME<includeonly>}}</includeonly>&nbsp;{{!}}{{#ifeq:{{{statename|}}}|optional | |state=}}expanded{{))}}}} to show this template in its expanded (i.e. fully visible) state.
+: Use {{plaincode|{{((}}<includeonly>{{</includeonly>BASEPAGENAME<includeonly>}}</includeonly>&nbsp;{{!}}{{#ifeq:{{{statename|}}}|optional | |state=}}autocollapse{{))}}}} to show this template in its collapsed state '''''only if''''' there is another template of the same type on the page.
+* {{#if:{{{state|}}}{{{default|}}}
+   | '''''{{#if:{{{state|}}} |{{{state}}} |{{{default}}} }}''' has been set as the default state.
+   | Unless set otherwise (see the ''state'' parameter within the template's code), the template's default state is "autocollapse".
+  }}<!--
+
+----Add {{pp-template}} if template where this is transcluded is protected:----
+--->{{Template other
+     | {{#ifeq:{{PROTECTIONLEVEL:move}}|sysop |{{pp-template|docusage=yes}}
+        | {{#if:{{PROTECTIONLEVEL:edit}}      |{{pp-template|docusage=yes}} }}
+    }} }}<noinclude>
+{{Documentation}}
+</noinclude>
