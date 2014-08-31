@@ -1,0 +1,35 @@
+{{#if:{{{1|}}}|<nowiki>#</nowiki>}}{{#switch: {{{1}}}
+| #default = 
+| [[Angel (1999 TV series)|Angel]]
+| Angel = 7E9ED2
+| [[Buffy the Vampire Slayer]]
+| Buffy the Vampire Slayer = 7E9ED2
+| [[Chuck (TV series)|Chuck]]
+| Chuck = F6431A
+| [[Entourage (TV series)|Entourage]]
+| Entourage = FBBC87
+| [[Firefly (TV series)|Firefly]]
+| Firefly = FFCC99
+| [[Futurama]]
+| Futurama = DEDDE2
+| [[House (TV series)|House]]
+| House = DEDEDE
+| [[Mad Men]]
+| Mad Men = F52B13
+| [[Sex and the City]]
+| Sex and the City = EAADEA
+| [[The 4400]]
+| The 4400 = B9D0E8
+| [[The O.C.]]
+| The O.C. = FFAA44
+| [[The Simpsons]]
+| The Simpsons = FADA00
+| [[The Sopranos]]
+| The Sopranos = CDCCCC
+| [[The X-Files]]
+| The X-Files = B1B9C2
+| [[Veronica Mars]]
+| Veronica Mars = C0D883
+}}<noinclude>
+{{documentation}}
+</noinclude>
