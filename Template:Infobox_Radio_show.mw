@@ -1,0 +1,80 @@
+{{Infobox
+| italic title = {{{italic_title|}}}
+| bodyclass  = vevent
+| title      = {{{name|{{{show_name|<includeonly>{{PAGENAME}}</includeonly>}}}}}}
+| titleclass = summary
+| titlestyle = font-style: italic
+| image      = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|{{{imagesize|}}}}}}|sizedefault=180x180px|alt={{{alt|}}}}}
+| caption    = {{{caption|}}}
+| labelstyle = white-space: nowrap
+
+| label1     = Other names
+| data1      = {{{other_names|}}}
+| label2     = Genre
+| data2      = {{{format|}}}
+| label3     = Running time
+| data3      = {{{runtime|}}}
+| label4     = Country
+| data4      = {{{country|}}}
+| label5     = Language(s)
+| data5      = {{{language|}}}
+| label6     = Home station
+| data6      = {{{home_station|}}}
+| label7     = Syndicates
+| data7      = {{{syndicates|}}}
+| label8     = TV adaptations
+| data8      = {{{television|}}}
+| label9     = Host(s)
+| data9      = {{{presenter|}}}
+| label10    = Starring
+| data10     = {{{starring|}}}
+| label11    = Announcer
+| data11     = {{{announcer|}}}
+| label12    = Creator(s)
+| data12     = {{{creator|}}}
+| label13    = Writer(s)
+| data13     = {{{writer|}}}
+| label14    = Director(s)
+| data14     = {{{director|}}}
+| label15    = Senior editor(s)
+| data15     = {{{senior_editor|}}}
+| label16    = Editor(s)
+| data16     = {{{editor|}}}
+| label17    = Producer(s)
+| data17     = {{{producer|}}}
+| label18    = Exec. producer(s)
+| data18     = {{{executive_producer|{{{exec_producer|}}}}}}
+| label19    = Narrated by
+| data19     = {{{narrated|}}}
+| label20    = Recording studio
+| data20     = {{{record_location|{{{rec_location|}}}}}}
+| label21    = Remote studios
+| data21     = {{{remote_location|{{{rem_location|}}}}}}
+| label22    = Other studios
+| data22     = {{{other_location|{{{oth_location|}}}}}}
+| label23    = Air dates
+| data23     = {{#if:{{{first_aired|}}}
+| {{#switch: {{lc:x{{{last_aired<includeonly>|date</includeonly>}}} }}
+ | x|xdate|xpresent|xtoday|xnow = since {{{first_aired}}}
+ | #default = {{{first_aired}}} to {{{last_aired}}}
+}} }}
+| label24    = No. of series
+| data24     = {{{num_series|}}}
+| label25    = No. of episodes
+| data25     = {{{num_episodes|}}}
+| label26    = Audio format
+| data26     = {{{audio_format|}}}
+| label27    = Opening theme
+| data27     = {{{opentheme|}}}
+| label28    = Other themes
+| data28     = {{{othertheme|}}}
+| label29    = Ending theme
+| data29     = {{{endtheme|}}}
+| label30    = Sponsor(s)
+| data30     = {{{sponsor|}}}
+| label31    = Website
+| data31     = {{{website|}}}
+| label32    = Podcast
+| data32     = {{{podcast|}}}
+
+}}<noinclude>{{documentation}}<!-- Please add metadata to the <includeonly> section on the /doc subpage, not here --></noinclude>
