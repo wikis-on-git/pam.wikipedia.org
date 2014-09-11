@@ -1,0 +1,147 @@
+{{Infobox
+| bodyclass = vcard
+
+| titleclass = fn org
+| titlestyle = padding-bottom:0.2em<!--(so title doesn't touch border)-->;
+| title = {{{name|{{{company_name|<includeonly>{{PAGENAME}}</includeonly>}}}}}}
+
+| imageclass = logo
+| imagestyle = {{#if:{{{logo_padding|}}} |padding-top:{{{logo_padding}}};padding-bottom:{{{logo_padding}}};}}
+| image = {{#invoke:InfoboxImage|InfoboxImage |image={{{logo|{{{company_logo|}}}}}} |size={{{logo_size|}}} |sizedefault=frameless |upright=1 |alt={{{logo_alt|{{{alt|}}}}}}}}
+| caption = {{{logo_caption|{{{caption|}}}}}}
+| image2 = {{#invoke:InfoboxImage|InfoboxImage |image={{{image|}}} |size={{{image_size|}}} |sizedefault=frameless |upright=1.35 |alt={{{image_alt|}}}}}
+| caption2 = {{{image_caption|}}}
+
+| labelstyle = padding-top:0.225em;line-height:1.15em; padding-right:0.5em;
+| datastyle = line-height:1.35em;
+
+| label1  = [[Doing business as|Trading&nbsp;name]]
+|  data1  = {{{trading_name|}}}
+
+| label2  = Native name
+|  data2  = {{#if:{{{native_name|}}} |<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span>|}}
+
+| label3  = [[Romanization|Romanized]] name
+|  data3  = {{{romanized_name|}}}
+
+| label4  = Formerly called
+| class4  = nickname
+|  data4  = {{{former_name|}}}
+
+| label5  = [[Types of business entity|{{#if:{{{defunct|}}}|Former t|T}}ype]]
+| class5  = category
+|  data5  = {{{type|{{{company_type|}}}}}}
+
+| label6  = [[Ticker symbol|Traded&nbsp;as]]
+|  data6  = {{{traded_as|}}}
+
+| label7  = [[International Securities Identification Number|ISIN]]
+|  data7  = {{#if:{{{ISIN|}}} |[http://toolserver.org/~magnus/isin.php?language=de&isin={{{ISIN}}} {{{ISIN}}}]}}
+
+| label8  = Industry
+| class8  = category 
+|  data8  = {{{industry|}}}
+
+| label9  = Genre
+| class9  = category
+|  data9  = {{{genre|}}}
+
+| label10 = Fate
+|  data10 = {{{fate|}}}
+
+| label11 = Predecessors
+|  data11 = {{{predecessors|{{{predecessor|{{{Predecessor|}}}}}}}}}
+
+| label12 = Successors
+|  data12 = {{{successors|{{{successor|}}}}}}
+
+| label13 = Founded
+|  data13 = {{{foundation|}}}
+
+| label14 = Founders
+| class14 = agent
+|  data14 = {{{founders|{{{founder|}}}}}}
+
+| label15 = Defunct
+|  data15 = {{{defunct|{{{dissolved|}}}}}}
+
+| label16 = Headquarters
+| class16 = {{#if:{{{location|}}} |label |adr}}
+|  data16 = {{#if:{{{location|}}}{{{location_city|}}}{{{location_country|}}}
+             | {{Comma separated entries
+                | 1 = {{{location|}}}
+                | 2 = {{#if:{{{location_city|}}}    |<span class="locality">{{{location_city}}}</span>}}
+                | 3 = {{#if:{{{location_country|}}} |<span class="country-name">{{{location_country}}}</span>}}
+            }} }}
+
+| label17 = Coordinates
+|  data17 = {{{coordinates|}}}
+
+| label18 = Number of locations
+|  data18 = {{{locations|}}}
+
+| label19 = Area served
+|  data19 = {{{area_served|}}}
+
+| label20 = Key people
+| class20 = agent
+|  data20 = {{{key_people|}}}
+
+| label21 = Products
+|  data21 = {{{products|}}}
+
+| label22 = Brands
+|  data22 = {{{brands|}}}
+
+| label23 = Production output  
+|  data23 = {{{production|}}}
+
+| label24 = Services
+| class24 = category
+|  data24 = {{{services|}}}
+
+| label25 = Revenue
+|  data25 = {{{revenue|}}}
+
+| label26 = [[Earnings before interest and taxes|Operating income]]
+|  data26 = {{{operating_income|}}}
+
+| label27 = {{yesno|{{{intl|}}}|yes=[[Net income|Profit]]|no=[[Net income]]|def=[[Net income]]}}
+|  data27 = {{{net_income|}}}
+
+| label28 = [[Assets under management|AUM]]
+|  data28 = {{{aum|}}}
+
+| label29 = [[Asset|Total assets]]
+|  data29 = {{{assets|}}}
+
+| label30 = [[Equity (finance)|Total equity]]
+|  data30 = {{{equity|}}}
+
+| label31 = Owners
+|  data31 = {{{owners|{{{owner|}}}}}}
+
+| label32 = Members
+|  data32 = {{{members|}}}
+
+| label33 = Employees
+|  data33 = {{{num_employees|}}}
+
+| label34 = [[Parent company|Parent]]
+|  data34 = {{{parent|}}}
+
+| label35 = [[Division (business)|Division]]s
+|  data35 = {{{divisions|}}}
+
+| label36 = [[Subsidiary|Subsidiaries]]
+|  data36 = {{{subsid|}}}
+
+| label37 = Website
+|  data37 = {{{homepage|{{{website|}}}}}}
+
+| belowstyle = line-height:1.35em;
+| below = {{#if:{{{footnotes|}}} |'''Footnotes{{\}}references'''<br/>{{{footnotes}}} }}
+
+}}{{#if:{{{bodystyle|}}}|[[Category:Pages using infobox company with bodystyle]]}}<noinclude>
+{{Documentation}}
+</noinclude>
