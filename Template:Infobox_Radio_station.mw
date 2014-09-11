@@ -1,0 +1,92 @@
+{{infobox
+| bodyclass = vcard
+
+| title   = {{{name|}}}
+| titleclass = fn org
+| image   = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=frameless|upright=1|alt={{{alt|}}}}}
+| caption = {{{caption|}}}
+
+| label1  = [[City of license]]
+|  data1  = {{{city|}}}
+
+| label2  = Broadcast area
+| class2  = label
+|  data2  = {{{area|}}}
+
+| label3  = Branding
+|  data3  = {{{branding|}}}
+
+| rowclass4 = note
+| label4  = [[Slogan]]
+|  data4  = {{{slogan|}}}
+
+| label5  = [[Frequency]]
+|  data5  = {{{frequency|}}}
+
+| label6  = [[Broadcast relay station|Translator(s)]]
+|  data6  = {{{translator|}}}
+
+| label7  = [[Repeater]]s
+|  data7  = {{{repeater|}}}
+
+| label8  = First air date
+|  data8  = {{{airdate|}}}
+
+| label9  = Last air date
+|  data9  = {{{last airdate|}}}
+
+| label10 = [[Radio format|Format]]
+| class10 = category
+|  data10 = {{{format|}}}
+
+| label11 = Language(s)
+| class11 = category
+|  data11 = {{{language|}}}
+
+| label12 = Audience share
+|  data12 = {{{share|}}} {{#if: {{{share source|}}}|({{{share as of|}}}, {{{share source|}}})}}
+
+| label13 = [[Nominal power|Power]]
+|  data13 = {{{power|}}}
+
+| label14 = [[Effective radiated power|ERP]]
+|  data14 = {{{erp|}}}
+
+| label15 = [[Height above average terrain|HAAT]]
+|  data15 = {{{haat|}}}
+
+| label16 = [[List of North American broadcast station classes|Class]]
+| class16 = category
+|  data16 = {{{class|}}}
+
+| label17 = [[Facility ID]]
+|  data17 = {{{facility_id|}}}
+
+| label18 = Transmitter coordinates
+|  data18 = {{{coordinates|}}}
+
+| label19 = [[Call sign|Callsign meaning]]
+|  data19 = {{{callsign_meaning|}}}
+
+| label20 = Former callsigns
+|  data20 = {{{former_callsigns|}}}
+
+| label21 = Former frequencies
+|  data21 = {{{former_frequencies|}}}
+
+| label22 = Affiliations
+|  data22 = {{{affiliations|}}}
+
+| label23 = Owner
+|  data23 = {{{owner|}}} {{#if:{{{licensee|}}}|<br /><small>({{{licensee|}}})</small>}}
+
+| label24 = [[Sister station]]s
+|  data24 = {{{sister_stations|}}}
+
+| label25 = [[Webcast]]
+|  data25 = {{{webcast|}}}
+
+| label26 = Website
+|  data26 = {{{website|}}}
+
+}}<noinclude>{{documentation}}<!-- Add categories to the /doc subpage, not here! --></noinclude>
