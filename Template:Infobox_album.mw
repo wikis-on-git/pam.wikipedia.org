@@ -1,0 +1,62 @@
+{{infobox
+| italic title= {{{Italic title|}}}
+| bodyclass   = vevent haudio
+| aboveclass  = summary album
+| abovestyle  = font-style: italic; background-color: {{#ifeq:{{Infobox album/color|{{{Type|}}}}}|khaki|{{Infobox album/color}}|{{Infobox album/color|{{{Type|}}} }} }}
+| above       = {{#if:{{{Name|}}}|{{{Name}}}|<includeonly><span style="font-style: normal">Untitled</span></includeonly>}}
+| image       = {{#switch:{{{Cover|}}}
+ |<!--blank-->
+ |blank       =
+ |???         = [[File:Nocover.png|frameless]]
+ |#default    = [[File:{{{Cover}}}|frameless|upright=1|alt={{{Alt|}}}|{{#ifeq:{{{Border|}}}|yes|border}}]]
+}}
+| caption     = {{{Caption|}}}
+| headerstyle = background-color: {{#ifeq:{{Infobox album/color|{{{Type|}}}}}|khaki|{{Infobox album/color}}|{{Infobox album/color|{{{Type|}}}}}}}
+| headerclass = description
+| header1     = {{Infobox album/link|{{{Type|}}} }}{{#if:{{{Longtype|}}}|&#32;{{{Longtype}}}}}{{#if:{{{Artist|}}}|&#32;by <span class="contributor">{{{Artist}}}</span> }}
+| label2  = Released
+| data2   = {{{Released|}}}
+| class2  = published
+| label3  = Recorded
+| data3   = {{{Recorded|}}}
+| label4  = [[Music genre|Genre]]
+| data4   = {{{Genre|}}}
+| class4  = category
+| label5  = Length
+| data5   = {{{Length|}}}
+| label6  = Language
+| data6   = {{{Language|}}}
+| class6  = category
+| label7  = [[Record label|Label]]
+| data7   = {{{Label|}}}
+| label8  = [[Film director|Director]]
+| data8   = {{{Director|}}}
+| label9  = [[Record producer|Producer]]
+| data9   = {{{Producer|}}}
+| label10 = Compiler
+| data10  = {{{Compiler|}}}
+| header13  = {{#if:{{{Last album|}}}{{{Next album|}}}|{{#if:{{{Chronology|}}}|{{{Chronology}}}|{{{Artist}}}}}&#32;chronology }}
+| data14  = {{#if:{{{Last album|}}}{{{Next album|}}}|<span />
+{{{!}} style="width:100%; background: transparent; text-align: center; line-height: 1.4em; vertical-align: top"
+{{!}} style="width: 33%; padding: 0.2em 0.1em 0.2em 0" {{!}} {{{Last album|}}}
+{{!}} style="width: 33%; padding: 0.2em 0.1em 0.2em 0.1em" {{!}} {{{This album|}}}
+{{!}} style="width: 33%; padding: 0.2em 0 0.2em 0.1em" {{!}} {{{Next album|}}}
+{{!}}}
+}}
+
+| below = {{{Misc|}}}
+
+}}{{category handler
+ |main={{#ifeq:{{Infobox album/color|{{{Type|}}}|Test}}|Test
+  |[[Category:Album articles with non-standard infoboxes]]
+ }}{{#ifeq:{{Infobox album/color|{{{Type|}}}}}|khaki
+  |[[Category:Album articles with non-standard infoboxes]][[Category:Song articles needing single infobox conversion]]
+ }}[[Category:Articles with hAudio microformats]]{{#switch:{{lc:{{{Cover|}}}}}
+  |
+  |???
+  |nocover.png = [[Category:Album infoboxes lacking a cover]]
+ }}
+}}<noinclude>
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here. -->
+</noinclude>
