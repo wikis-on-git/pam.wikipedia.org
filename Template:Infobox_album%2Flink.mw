@@ -1,0 +1,19 @@
+{{#switch:{{lc:{{{1|}}}}}
+  |extended play|ep|[[extended play]]|[[ep]]=[[Extended play|EP]]
+  |studio album|[[studio album]]|[[album]]|album|original studio album|lp|studio|cover album|cover|[[cover album]]|[[cover version]]|tribute album|tribute|[[tribute album]]=[[Studio album]]
+  |demo=[[Demo (music)|Demo album]]
+  |double album|[[double album]]=[[Studio album]]
+  |live album|[[live album]]|live=[[Live album]]
+  |greatest hits|[[greatest hits]]|greatest=[[Greatest hits album]]
+  |box set|[[box set]]|box|[[boxed set]]=[[Box set]]
+  |compilation album|comp|compilation|[[compilation album]]=[[Compilation album]]
+  |remix album|remix|[[remix]]|[[remix album]]=[[Remix album]]
+  |mixtape|[[mixtape]]=[[Mixtape]]
+  |soundtrack|movie soundtrack|[[soundtrack]]|[[soundtrack album]]=[[Soundtrack album]]
+  |television|tv|TV|television theme=[[Soundtrack|Television theme]]
+  |film|film score|[[film score]]=[[Film score]]
+  |cast recording|cast|[[cast recording]]|cast album|[[cast album]]|cast=[[Cast recording]]
+  |video|vhs|vid|VHS|DVD|dvd=[[Music video|Video]]
+  |#default={{{1|}}}
+}}<noinclude>{{pp-template|small=yes}}
+{{Documentation}}</noinclude>
