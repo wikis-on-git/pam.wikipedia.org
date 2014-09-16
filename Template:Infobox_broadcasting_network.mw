@@ -1,0 +1,157 @@
+{{Infobox
+| bodyclass  = vcard
+| bodystyle  = font-size:90%;width:{{{width|20.0em}}};
+| abovestyle = background-color: #bfdfff; font-size: 125%;
+| headerstyle = background-color: #d0e5f5;
+| titleclass = fn org
+| titlestyle = font-size:120%;padding-bottom:0.25em;
+| above      = {{{network_name|{{{name|}}}}}}
+| imageclass = logo
+| image      = {{#invoke:InfoboxImage|InfoboxImage |image={{{network_logo|{{{logo|}}}}}} |size={{{network_logo_size|{{{logo_size|}}}}}} |sizedefault=64px |alt={{{network_logo_alt|{{{logo_alt|}}}}}} }}
+| caption    = {{{network_logo caption|{{{logo caption|}}}}}}
+| image2     = {{#if:{{{collapsible|}}} |{{Hidden begin|title=Screenshot|titlestyle=text-align:center;}}}} {{#invoke:InfoboxImage|InfoboxImage |image={{{image|{{{screenshot|}}}}}} |size={{{image_size|{{{screenshot_size|}}}}}} |sizedefault=300px |alt={{{image_alt|{{{screenshot_alt|}}}}}} }}
+| caption2   = {{{caption|}}} {{#if:{{{collapsible|}}} |{{Hidden end}}}}
+| labelstyle = padding-right:1.0em<!--keeps labels and data separate-->;
+
+| label1  = Type
+| class1  = category
+|  data1  = {{{network_type|{{{type|}}}}}}
+
+| label2  = Branding
+|  data2  = {{{branding|}}}
+
+| label3  = Country
+| class3  = adr
+|  data3  = {{#if:{{{country|}}} |<span class="country-name">{{{country}}}</span>}}
+
+| label4  = {{longitem|First air&nbsp;date}}
+|  data4  = {{{airdate|}}}
+
+| label5  = Availability
+|  data5  = {{{available|}}}
+
+| label6  = Founded
+|  data6  = {{{founded|}}}{{{foundation|}}} {{#if:{{{founded|}}} |{{#if:{{{founder|}}}|<br/>by {{{founder}}} }} }}
+
+| label7  = Motto
+|  data7  = {{{motto|}}}
+
+| label8  = [[Advertising slogan|Slogan]]
+|  data8  = {{{slogan|}}}
+
+| label9  = {{longitem|[[Market share]]}}
+|  data9  = {{{market_share|}}}
+
+| label10 = [[Financial endowment|Endowment]]
+|  data10 = {{{endowment|}}}
+
+| label11 = [[Revenue]]
+|  data11 = {{{revenue|}}}
+
+| label12 = {{longitem|[[Net income]]}}
+|  data12 = {{{net_income|}}}
+
+| label13 = {{longitem|Licence area}}
+|  data13 = {{{license_area|{{{licence_area|}}}}}}
+
+| label14 = Headquarters
+|  data14 = {{{headquarters|{{{headquarters|}}}}}}
+
+| label15 = {{longitem|Broadcast area}}
+|  data15 = {{{broadcast_area|}}}
+
+| label16 = Area
+| class16 = label
+|  data16 = {{{area|}}}
+
+| label17 = [[Effective radiated power|ERP]]
+|  data17 = {{{erp|}}}
+
+| label18 = Owner
+|  data18 = {{{owner|}}}
+
+| label19 = Parent
+|  data19 = {{{parent|}}}
+
+| label20 = {{longitem|Key people}}
+|  data20 = {{{key_people|}}}
+
+| label21 = Established
+|  data21 = {{{established|}}}
+
+| label22 = {{longitem|Test card}}
+|  data22 = {{{test_card|}}}
+
+| label23 = {{longitem|Transmission test}}
+|  data23 = {{{test_of_transmission|}}}
+
+| label24 = {{longitem|Launch date}}
+|  data24 = {{{launch_date|}}}
+
+| label25 = Dissolved
+|  data25 = {{{closure_date|{{{dissolved|}}}}}}
+
+| label26 = {{longitem|Former names}}
+|  data26 = {{{past_names|{{{former_names|}}}}}}
+
+| label27 = {{longitem|[[Digital terrestrial television|Digital channel]]}}
+|  data27 = {{{digital|}}}
+
+| label28 = {{longitem|[[Program and System Information Protocol|Virtual]] channel}}
+|  data28 = {{{virtual channel|}}}
+
+| label29 = {{longitem|[[Analog television|Analogue channel]]}}
+|  data29 = {{{analog|}}}
+
+| label30 = {{longitem|[[Analog television|Analog channel]]}}
+|  data30 = {{{Analog channel|}}}
+
+| label31 = {{longitem|Picture format}}
+|  data31 = {{{Picture format|}}}
+
+| label32 = {{longitem|{{{servicename1|}}}}}
+|  data32 = {{{service1|}}}
+| label33 = {{longitem|{{{servicename2|}}}}}
+|  data33 = {{{service2|}}}
+| label34 = {{longitem|{{{servicename3|}}}}}
+|  data34 = {{{service3|}}}
+| label35 = {{longitem|{{{servicename4|}}}}}
+|  data35 = {{{service4|}}}
+| label36 = {{longitem|{{{servicename5|}}}}}
+|  data36 = {{{service5|}}}
+| label37 = {{longitem|{{{servicename6|}}}}}
+|  data37 = {{{service6|}}}
+| label38 = {{longitem|{{{servicename7|}}}}}
+|  data38 = {{{service7|}}}
+
+| label39 = <span style="white-space:nowrap;">[[Call sign|Callsign]]s</span>
+|  data39 = {{{callsign|{{{callsigns|}}}}}}
+| label40 = {{longitem|Callsign meaning}}
+|  data40 = {{{callsign_meaning|}}}
+| label41 = {{longitem|Former callsigns}}
+|  data41 = {{{former_callsigns|}}}
+
+| label42 = [[Affiliate|Affiliation]]
+|  data42 = {{{affiliations|{{{affiliation|}}}}}}
+| label43 = <span style="white-space:nowrap;">[[Affiliate]]s</span>
+|  data43 = {{{affiliates|}}}
+| label44 = Group
+|  data44 = {{{groups|}}}
+| label45 = {{longitem|Former [[Affiliate|affiliations]]}}
+|  data45 = {{{former_affiliations|}}}
+
+| label46 = [[Webcast]]
+|  data46 = {{{webcast|}}}
+
+| label47 = {{longitem|Official website}}
+|  data47 = {{{website|}}}
+
+| label48 = Language
+|  data48 = {{{language|}}}
+
+| label49 = Replaced&nbsp;by
+|  data49 = {{{replaced_by|}}}
+
+|  data50 = {{#if:{{{footnotes|}}} |<div style="text-align:left;">'''Notes'''<br/>{{{footnotes}}}</div>}}
+
+}}<noinclude>{{Documentation}}</noinclude>
