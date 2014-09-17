@@ -1,0 +1,19 @@
+<includeonly>{{#if:{{{empty|}}}||{{#ifeq:{{PAGESINCATEGORY:{{PAGENAME}}}}|0|''(This category appears to be empty - [http://en.wikipedia.org/w/index.php?title=Special%3ASearch&search={{urlencode:{{{1|}}}}}&go=Go Find candidates])''{{Break}}}}}}</includeonly>
+:''This category contains albums by {{#if:{{{the|}}}|the}} '''[[{{{1|}}}{{#if:{{{display|}}}|{{!}}{{{display}}}}}]]'''.'' {{#if:{{{2|}}}|({{{2}}})}}
+{{#if:{{{discography|}}}|
+
+==See also==
+* {{#if:{{{the|}}}|The}} '''[[{{#if:{{{discography band name|}}}|{{{discography band name}}}|{{albums category/strip dab|{{{1|}}}}}}} discography{{#if:{{{display|}}}|{{!}}{{{display}}} discography}}]]
+}}
+{{#ifexist:Category:{{{1|}}} (band)|[[Category:{{{1|}}} (band)]]|{{#ifexist:Category:{{{1|}}} (musician)|[[Category:{{{1|}}} (musician)]]|
+{{#ifexist:Category:{{{1|}}} (singer)|[[Category:{{{1|}}} (singer)]]|
+{{#ifexist:Category:{{{1|}}} (rapper)|[[Category:{{{1|}}} (rapper)]]|
+{{#ifexist:Category:{{{1|}}} (American band)|[[Category:{{{1|}}} (American band)]]|
+{{#ifexist:Category:{{{1|}}} (entertainer)|[[Category:{{{1|}}} (entertainer)]]|
+{{#ifexist:Category:{{{1|}}} (group))|[[Category:{{{1|}}} (group)]]|
+{{#ifexist:Category:{{{1|}}} (British band))|[[Category:{{{1|}}} (British band)]]|
+{{#ifexist:Category:{{{1|}}} (Japanese band))|[[Category:{{{1|}}} (Japanese band)]]|
+{{#ifexist:Category:{{{1|}}}|[[Category:{{{1|}}}|Albums]]}}}}}}}}}}}}}}}}}}}}
+<noinclude>
+[[Category:WikiProject Albums templates]]
+</noinclude>
