@@ -1,0 +1,6 @@
+{{Albums category/core|{{{1|{{Str left|{{PAGENAME}}|{{#expr:{{Str find|{{PAGENAME}}|albums}}-2}}}}}}}|{{{2|}}}|empty={{{empty|}}}|display={{{display|}}}|the={{{the|}}}|discography={{{discography|}}}|discography band name={{{discography band name|}}}}}
+<includeonly>{{#ifexist:Template:Albums category/type/{{{type|default}}}|[[Category:{{Albums category/type/{{{type|default}}}}}]]|**[[Template:Albums category/type/{{{type|default}}}]] does not exist. Check the value of "type" in the template "Albums category". Valid items are listed at [[Template:Albums category/type]] . [[Category:Albums category uses with invalid parameters|T{{PAGENAME}}]]}}</includeonly><noinclude>
+
+{{Documentation}}
+
+</noinclude>
