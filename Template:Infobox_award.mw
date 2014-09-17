@@ -1,0 +1,123 @@
+{{Infobox
+| bodyclass   = vevent
+| abovestyle  = background-color: {{{bgcolour|{{{bgcolor|#EEDD82}}}}}}
+| aboveclass  = summary
+| above       = {{#if:{{{name|}}}|{{{name|}}}|<includeonly>{{PAGENAME}}</includeonly>}}
+| headerstyle  = background-color: {{{bgcolour|{{{bgcolor|#EEDD82}}}}}}
+| labelstyle  = width:33%;
+| subheader   = {{#if:{{{subheader|}}}|{{{subheader}}}|{{#if:{{{current_awards|}}}|[[File:Gnome globe current event.svg|40px|link=|alt=]] ''[[{{{current_awards|}}}]]''}}}}
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|{{{imagesize|}}}}}}|sizedefault=frameless|upright=1|alt={{{alt|}}}}}
+| caption     = {{{caption|}}}
+
+| label1      = Awarded for
+| data1       = {{{description|}}}
+
+| label2      = Sponsor
+| data2       = {{{sponsor|}}}
+
+| label3      = Date
+| data3       = {{{date|}}}
+
+| label4      = {{#if:{{{venue|}}}|Venue|{{#if:{{{location|}}}|Location|Site}}}}
+| data4       = {{#if:{{{venue|}}}|{{{venue}}}|{{#if:{{{location|}}}|{{{location}}}|{{{site|}}}}}}}
+| class4      = location
+
+| label5      = Country
+| data5       = {{{country|}}}
+| class5      = location
+
+| label6      = Presented by
+| data6       = {{{presenter|}}}
+| class6      = attendee
+
+| label7      = {{#if:{{{host|}}}|Host|Hosts}}
+| data7       = {{#if:{{{host|}}}|{{{host}}}|{{{hosts|}}}}}
+| class7      = attendee
+
+| label8      = Preshow host
+| data8       = {{{preshow_host|}}}
+| class8      = attendee
+
+| label9      = Acts
+| data9       = {{{acts|}}}
+| class9      = attendee
+
+| label10     = Reward
+| data10      = {{{reward|}}}
+
+| label11     = First awarded
+| data11      = {{{year|}}}
+
+| label12     = Last awarded
+| data12      = {{{year2|}}}
+
+| label14     = {{#if:{{{holder|}}}
+  |{{#if:{{{holder_label|}}}|{{{holder_label}}}|Currently held by}}
+  |{{#if:{{{winner|}}}
+     | Winner
+     | Winners
+    }}
+   }}
+| data14      = {{ifempty|{{{holder|}}}|{{{winner|}}}|{{{winners|}}}}}
+
+| header15    = {{#if:{{both|{{{award1_type|}}}|{{{award1_winner|}}}}}{{both|{{{award2_type|}}}|{{{award2_winner|}}}}}{{both|{{{award3_type|}}}|{{{award3_winner|}}}}}|Highlights}}
+
+| label16     = Most awards
+| data16      = {{{most_awards|{{{most_wins|}}}}}}
+
+| label17     = Most nominations
+| data17      = {{{most_nominations|}}}
+
+| label18     = {{{award1_type}}}
+| data18      = {{#if:{{{award1_type|}}}|{{{award1_winner|}}}}}
+
+| label19     = {{{award2_type}}}
+| data19      = {{#if:{{{award2_type|}}}|{{{award2_winner|}}}}}
+
+| label20     = {{{award3_type}}}
+| data20      = {{#if:{{{award3_type|}}}|{{{award3_winner|}}}}}
+
+| label21     = {{{award4_type}}}
+| data21      = {{#if:{{{award4_type|}}}|{{{award4_winner|}}}}}
+
+| label22     = {{{award5_type}}}
+| data22      = {{#if:{{{award5_type|}}}|{{{award5_winner|}}}}}
+
+| label23     = Official website
+| data23      = {{{website|}}}
+
+| header24    = {{#if:{{{network|}}}{{{network_list|}}}{{{runtime|}}}{{{ratings|}}}{{{producer|}}}{{{director|}}}|Television/Radio coverage}}
+
+| label25     = {{#if:{{{network_list|}}}|Networks|Network}}
+| data25      = {{#if:{{{network_list|}}}|<nowiki />|{{{network|}}}}}
+
+| data26      = {{#if:{{{network_list|}}}|<div style="text-align:left; width:100%; padding-left:0.5em">{{{network_list}}}</div>}}
+
+| label27     = Runtime
+| data27      = {{{runtime|}}}
+
+| label28     = Viewership
+| data28      = {{{viewership|{{{ratings|}}}}}}
+
+| label29     = Producer
+| data29      = {{{producer|}}}
+
+| label30     = Director
+| data30      = {{{director|}}}
+
+| header35    = {{#if:{{{image2|}}}|<nowiki />}}
+
+| data36      = {{#if:{{{image2|}}}|[[File:{{{image2}}}|{{#if:{{{image2size|}}}|{{{image2size}}}|frameless}}|alt={{{alt2|}}}]]{{#if:{{{caption2|}}}|<br />{{{caption2}}}}}}}
+
+| data37  = {{#if:{{{previous|}}}{{{main|}}}{{{next|}}}|<nowiki />
+{{{!}} style="width:100%; background-color: {{{bgcolour|{{{bgcolor|#EEDD82}}}}}};"
+{{!}} style="width: 30%; padding: 0.2em 0.1em 0.2em 0" {{!}} {{#if:{{{previous|}}}|'''&lt;&nbsp;{{{previous}}}'''|&nbsp;}}
+{{!}} style="width: 40%; padding: 0.2em 0.1em 0.2em 0.1em" {{!}} {{#if:{{{main|}}}|'''{{{main}}}'''|&nbsp;}}
+{{!}} style="width: 30%; padding: 0.2em 0 0.2em 0.1em" {{!}} {{#if:{{{next|}}}|'''{{{next}}}&nbsp;&gt;'''|&nbsp;}}
+{{!}}}
+}}
+
+}}{{#if:{{{best_director|}}}{{{best_film|}}}|[[Category:Pages using infobox award with undocumented parameters]]}}<noinclude>
+{{documentation}}
+<!-- category and language links go on /doc, not here -->
+</noinclude>
