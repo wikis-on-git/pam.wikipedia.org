@@ -1,0 +1,84 @@
+{{infobox
+| title = {{{title|{{PAGENAME}}}}}
+| subheader = {{#if: {{{current_season|}}} | '''Current season, competition or edition:'''<br />[[File:{{#switch: {{lc: {{{sport}}}}} | amfootball | american football | americanfootball = AmericanFootball | australian rules football | aussie rules | australian football = AFL | basketball = Basketball | baseball = Baseball | cricket = Cricket | cycling = Cycling | field hockey = Field hockey | Skating | figure Skating = Figure Skating | golf = Golf  | gymnastics = Gymnastics | handball = Handball | ice hockey | hockey = Hockey | motorsport | motorsports = Motorsport | netball = Netball | olympic | olympic games | olympics = Olympics | rugby league | rugby union | rugby = Rugby football | boxing = Boxing | curling = Curling | swimming = Swimming | athletics = Athletics | lacrosse = Lacrosse | tennis = Tennisball | beach volleyball | volleyball = Volleyball | squash = Squash | association football | soccer = Soccerball | table tennis | ping pong | ping-pong = TableTennis | poker | texas hold 'em | omaha hold 'em = Poker | Sports}} current event.svg|31px|link=|alt=]] ''{{#iferror:{{#expr:{{{current_season}}}}}|[[{{{current_season}}}]]|{{{current_season}}}}}'' | {{#if: {{{last_season|}}} | '''Most recent season or competition:'''<br />''{{#iferror:{{#expr:{{{last_season}}}}}|[[{{{last_season}}}]]|{{{last_season}}}}}'' | {{#if: {{{upcoming_season|}}} | '''Upcoming season or competition:'''<br />[[File:{{#switch: {{lc: {{{sport}}}}} | amfootball | american football | americanfootball = AmericanFootball | australian rules football | aussie rules | australian football = AFL | basketball = Basketball | baseball = Baseball | cricket = Cricket | cycling = Cycling | field hockey = Field hockey | Skating | figure Skating = Figure Skating | golf = Golf | gymnastics = Gymnastics | handball = Handball | ice hockey | hockey = Hockey | motorsport | motorsports = Motorsport | netball = Netball | olympic| olympic games | olympics = Olympics | rugby league | rugby union | rugby = Rugby football | boxing = Boxing | curling = Curling | swimming = Swimming | athletics = Athletics | lacrosse = Lacrosse | tennis = Tennisball | beach volleyball | volleyball = Volleyball | squash = Squash | association football | soccer = Soccerball | table tennis | ping pong | ping-pong = TableTennis | poker | texas hold 'em | omaha hold 'em = Poker | Sports}} current event.svg|31px|link=|alt=]] ''{{#iferror:{{#expr:{{{upcoming_season}}}}}|[[{{{upcoming_season}}}]]|{{{upcoming_season}}}}}''}} }} }}{{#if: {{{current_season2|}}} | <br/>''{{#iferror:{{#expr:{{{current_season2}}}}}|[[{{{current_season2}}}]]|{{{current_season2}}}}}''}}
+| bodystyle = width:311px
+| image = {{#invoke:InfoboxImage|InfoboxImage|image={{{logo|}}}|size={{{pixels|}}}|sizedefault=200px}}
+| caption = {{{caption|}}}
+| label1 = Formerly
+| data1 = {{{Formerly|{{{formerly|}}}}}}
+| label2 = Replaced by
+| data2 = {{{Replaced|{{{replaced|}}}}}}
+| label3 = Sport
+| data3 = {{#switch: {{lc: {{{sport}}}}} | amfootball | americanfootball = [[American football]] | aussie rules | australian football = [[Australian rules football]] | squash = [[Squash (sport)|Squash]] | soccer = [[Association football]] | {{#ifexist:{{{sport|}}}|[[{{{sport|}}}]]|{{{sport|}}}}} }}
+| label4 = Founded
+| data4 = {{{founded|}}}
+| label5 = {{#if:{{{administrator|}}}|Administrator|Owner(s)}}
+| data5 = {{#if:{{{administrator|}}}|{{{administrator}}}|{{{owner|}}}}}
+| label6 = CEO
+| data6 = {{{ceo|}}}
+| label7 = Director
+| data7 = {{{Director|{{{director|}}}}}}
+| label8 = President
+| data8 = {{{President|{{{president|}}}}}}
+| label9 = Commissioner
+| data9 = {{{Commissioner |{{{commissioner|}}}}}}
+| label10 = Claim to fame
+| data10 = {{{fame|}}}
+| label11 = Motto
+| data11 = {{{motto|}}}
+| label12 = Inaugural season
+| data12 = {{{inaugural|}}}
+| label13 = Divisions
+| data13 = {{{divisions|}}}
+| label14 = No. of teams
+| data14 = {{{teams|}}}
+| label15 = Singles entrants
+| data15 = {{{singles|}}}
+| label16 = Competitors
+| data16 = {{{competitors|}}}
+| label17 = {{#if:{{{countries|}}}|Countries|Country}}
+| data17 =  {{#if:{{{countries|}}}|{{{countries}}}|{{{country|}}}}}
+| label18 = Headquarters
+| data18 = {{{headquarters|}}}
+| label19 = Venue(s)
+| data19 = {{{venue|}}}
+| label20 = {{#if:{{{confed|}}}|Confederation|{{#if:{{{continents|}}}|Continents|Continent}}}}
+| data20 =  {{{confed|{{{continents|{{{continent|}}}}}}}}}
+| label21 = Ceased
+| data21 = {{{folded|}}}
+| label22 = {{#if: {{{folded|}}} | Last | Most recent }} champion(s)
+| data22 = {{{champion|{{{champions|}}}}}}
+| label23 = Most titles
+| data23 = {{{most_champs|{{{most successful club|}}}}}}
+| label24 = Qualification
+| data24 = {{{qualification|}}}
+| label25 = TV partner(s)
+| data25 = {{{TV|{{{tv|}}}}}}
+| label26 = Sponsor(s)
+| data26 = {{{sponsor|}}}
+| label27 = Related competitions
+| data27 = {{{related_comps|}}}
+| label28 = Founder
+| data28 = {{{founder|{{{Founder|}}}}}}
+| label29 = {{#if:{{{level|}}}|Level|Level}} on {{#if:{{{pyramid|}}}|[[{{{pyramid}}}|pyramid]]|pyramid}}
+| data29 =  {{#if:{{{level|}}}|{{{level}}}|{{{levels|}}}}}
+| label30 = [[Promotion and relegation|Promotion]] to
+| data30 = {{{promotion|}}}
+| label31 = [[Promotion and relegation|Relegation]] to
+| data31 = {{{relegation|}}}
+| label32 = Domestic cup(s)
+| data32 = {{{domestic_cup|}}}
+| label33 = International cup(s)
+| data33 = {{{confed_cup|}}}
+| label34 = Tournament format
+| data34 = {{{tournament_format|}}}
+| label35 = Official website
+| data35 = {{{website|}}}
+| belowstyle = text-align:left;
+| below = 
+{{#if:{{{footnotes|}}}|
+<div style="text-align:center;background:#f5f5f5;font-weight:bold;">Notes</div>
+{{{footnotes}}}}}
+}}<noinclude>
+{{documentation}}
+</noinclude>
