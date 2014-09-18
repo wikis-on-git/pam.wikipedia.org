@@ -1,0 +1,23 @@
+{{ infobox person
+| name        = {{{name|{{PAGENAME}}}}}
+| image       = {{{image|}}}
+| image_size  = {{{image_size|}}}
+| alt         = {{{alt|}}}
+| caption     = {{{caption|}}}
+| birth_name  = {{{birth_name|}}}
+| birth_date  = {{{birth_date|}}}
+| birth_place = {{{birth_place|}}}
+| death_date  = {{{death_date|}}}
+| death_place = {{{death_place|}}}
+| other_names = {{{other_names|}}}
+| website     = {{{website|}}}
+| signature   = {{{signature|}}}
+
+| module      = {{ infobox sports announcer details
+
+| team   = {{{team|}}}
+| genre  = {{{genre|}}}
+| sport  = {{{sport|}}}
+}}
+
+}}<noinclude>{{doc|content={{uses infobox person|main=infobox sports announcer details}}}}</noinclude>
