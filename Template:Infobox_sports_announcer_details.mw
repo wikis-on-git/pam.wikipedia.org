@@ -1,0 +1,12 @@
+{{infobox|child=yes
+| title  = '''Sports commentary career'''
+| decat  = yes <!-- remove from template:infobox tracking categories -->
+
+| label1 = Team(s)
+| data1  = {{{team|}}}
+| label2 = [[Genre|Genre(s)]]
+| data2  = {{{genre|}}}
+| label3 = Sports
+| data3  = {{{sport|}}}
+
+}}<noinclude>{{Documentation}}</noinclude>
