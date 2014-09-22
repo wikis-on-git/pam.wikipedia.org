@@ -1,0 +1,98 @@
+{{infobox
+| title        = {{{call_letters|<includeonly>{{PAGENAME}}</includeonly>}}}
+| image        = {{#invoke:InfoboxImage|InfoboxImage|image={{{station_logo|}}}|size={{{logo_size|}}}|sizedefault=frameless|alt={{{logo_alt|}}}}}
+
+| header1      = {{br separated entries|{{{location|}}}|{{#if:{{{country|}}}|<span style="font-size:85%">{{{country}}}</span>}}}}
+
+| image2        = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|{{{hq_photo|}}}}}}|size={{{image_size|}}}|sizedefault=frameless|alt={{{alt|}}}}}
+
+| label2       = [[City of license]]
+| data2        = {{{city|}}}
+
+| label3       = Branding
+| data3        = {{{station_branding|}}}
+
+| label4       = Slogan
+| data4        = {{{station_slogan|}}}
+
+| label5       = [[Channel (broadcasting)|Channel]]s
+| data5        = {{br separated entries|{{#if:{{{analog|}}}|[[analog television|Analog]]: {{{analog}}}}}|{{#if:{{{digital|}}}|[[digital terrestrial television|Digital]]: {{{digital}}}}}}}
+
+| label6       = [[digital subchannel|Subchannel]]s
+| data6        = {{{subchannels|}}}
+
+| label7       = [[broadcast relay station|Translator]]s
+| data7        = {{{other_chs|}}}
+
+| label8       = [[Network affiliate|Affiliation]]s
+| data8        = {{{affiliations|}}}
+
+| label9       = [[Television network|Network]]
+| data9        = {{{network|}}}
+
+| label10      = Owner
+| data10       = {{br separated entries|{{{owner|}}}|{{#if:{{{licensee|}}}|''<span style="font-size:85%">({{{licensee}}})</span>''}}}}
+
+| label11      = Founded
+| data11       = {{{founded|}}}
+
+| label12      = First air date
+| data12       = {{{airdate|}}}
+
+| label13      = Last air date
+| data13       = {{{enddate|}}}
+
+| label14      = [[Call sign|Call letters' meaning]]
+| data14       = {{{callsign_meaning|}}}
+
+| label15      = [[Sister station|Sister station(s)]]
+| data15       = {{{sister_stations|}}}
+
+| label16      = [[Call sign|Former callsign]]s
+| data16       = {{{former_callsigns|}}}
+
+| label17      = Former channel number(s)
+| data17       = {{{former_channel_numbers|}}}
+
+| label18      = [[Affiliate|Former affiliation]]s
+| data18       = {{{former_affiliations|}}}
+
+| label19      = [[Effective radiated power|Transmitter power]]
+| data19       = {{{effective_radiated_power|}}}
+
+| label20      = [[HAAT|Height]]
+| data20       = {{{HAAT|}}}
+
+| label21      = [[List of broadcast station classes|Class]]
+| data21       = {{{class|}}}
+
+| label22      = [[Facility ID]]
+| data22       = {{{facility_id|}}}
+
+| label23      = Transmitter coordinates
+| data23       = {{{coordinates|}}}
+
+| label24      = Licensing authority
+| data24       = {{{licensing_authority|}}}
+
+| label25 = Public license information:
+| data25 = {{#switch:{{{licensing_authority|}}}
+|[[Federal Communications Commission|FCC]]<!--preferred for United States stations-->
+|FCC
+|[[FCC]]
+|Federal Communications Commission
+|[[Federal Communications Commission]]
+|F.C.C.
+|[[F.C.C.]]
+|[[Federal Communications Commission|F.C.C.]] =  {{br separated entries
+|{{FCC-TV-Station-profile|{{{call_letters}}}|Profile}}|{{TVQ|{{{call_letters}}}|CDBS}}|<!-- add a 3rd FCC link here.  Notes: "Template:br separated entities" has a 3-item limit.  Do not put in line breaks when using this template. -->}} <!-- end FCC {{br separated entries...}}-->
+|<!-- add other country licensing authority links here -->
+}} <!-- end #switch:licensing_authority -->
+
+| label26      = Website
+| data26       = {{{homepage|}}}
+
+}}{{main other|{{#if:{{{network|}}}|[[Category:Broadcast infoboxes with deprecated parameters]]}}}}<noinclude>
+{{documentation}}
+<!-- Please add categories and interwikis to the /doc subpage, not here. -->
+</noinclude>
