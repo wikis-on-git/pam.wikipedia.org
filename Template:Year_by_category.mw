@@ -1,0 +1,13 @@
+{{Year by category/core
+| align = {{{align|}}}
+| cat = {{{cat|}}}
+| mcd = {{{m|}}}{{{c|}}}{{{d|}}}
+| y = {{{y|}}}
+| in = {{{in|}}}
+| parent = {{{parent|}}}
+| subcat = {{{subcat|}}}
+| sortkey = {{{sortkey|{{{cat}}}}}}
+| transition suffix = {{{transition suffix|}}}
+}}<noinclude>
+{{documentation}}
+</noinclude>
