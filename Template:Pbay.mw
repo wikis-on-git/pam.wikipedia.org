@@ -1,0 +1,8 @@
+<includeonly>{{#ifexpr: {{#expr:{{{1}}} < 2004}} |[[{{{1}}} PBA season|{{{1}}}]]| 
+{{#if: {{{nolink|}}}
+| {{{1|1000}}}–{{padleft:{{#expr: ({{{1|1000}}} + 1) {{#if: {{{full|}}}||{{#ifeq: {{{1}}}|1999|{{#if: {{{trunc|}}}|mod 100}}|mod 100}} }} }}|2}}{{#if:{{{app|}}}|&nbsp;{{{app}}}}} | [[{{#if:{{{team|}}}|{{#ifexist:{{{1|1000}}}–{{padleft:{{#expr: ({{{1|1000}}} + 1) {{#ifeq: {{{1}}}|1999||mod 100}}}}|2}} {{{team}}} season|{{{1|1000}}}–{{padleft:{{#expr: ({{{1|1000}}} + 1) {{#ifeq: {{{1}}}|1999||mod 100}}}}|2}} {{{team}}} season|{{{team}}}}}|{{{1|1000}}}–{{padleft:{{#expr: ({{{1|1000}}} + 1) {{#ifeq: {{{1}}}|1999||mod 100}}}}|2}} PBA season}}|{{#if:{{{title|}}}|{{{title}}}|{{#switch: {{{2}}}
+| start = {{{1|1000}}}
+| end = {{#expr: {{{1|1000}}} + 1}}
+| {{{1|1000}}}–{{padleft:{{#expr: ({{{1|1000}}} + 1) {{#if: {{{full|}}}||{{#ifeq: {{{1}}}|1999|{{#if: {{{trunc|}}}|mod 100}}|mod 100}} }} }}|2}}
+}}{{#if:{{{app|}}}|&nbsp;{{{app}}}}}}}]]}}
+}}</includeonly><noinclude></noinclude>
