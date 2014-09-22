@@ -1,0 +1,23 @@
+{| class="cquote" role="presentation" style="margin:auto; border-collapse: collapse; border: none; background-color: {{{bgcolor|transparent}}}; width: {{#if: {{{wide|}}} | 100% | auto}}; {{#if: {{{bgcolor|}}} | border: 1px solid #AAAAAA;}}"
+| style="width: 20px; vertical-align: top; border: none; color: #B2B7F2; font-size: {{#switch:{{{size|{{{2|{{{quotewidth|{{{width|20px}}}}}}}}}}}}
+|10px=20px
+|30px=60px
+|40px=80px
+|50px=100px
+|60px=120px
+|#default=40px}}; font-family: 'Times New Roman', Times, serif; font-weight: bold; line-height: .6em; text-align: left; padding: {{#if:{{{small|}}}|10px 2px|10px 10px}};" | “
+| style="vertical-align: top; border: none; padding: {{#if:{{{small|}}}|4px 2px|4px 10px}};" | {{{text|{{{1|<includeonly>Insert the text of the quote here, without quotation marks.</includeonly><noinclude>{{lorem ipsum}}</noinclude>}}}}}}
+| style="width: 20px; vertical-align: bottom; border: none; color: #B2B7F2; font-size: {{#switch:{{{size|{{{2|{{{quotewidth|{{{width|20px}}}}}}}}}}}}
+|10px=20px
+|30px=60px
+|40px=80px
+|50px=100px
+|60px=120px
+|#default=40px}}; font-family: 'Times New Roman', Times, serif; font-weight: bold; line-height: .6em; text-align: right; padding: {{#if:{{{small|}}}|10px 2px|10px 10px}};" | ”
+|-
+{{#if:{{{4|{{{author|}}}}}}{{{5|{{{source|{{{publication|}}}}}}}}}|
+{{!}} colspan="3" class="cquotecite" style="border: none; padding-right: 4%" {{!}} {{#if:{{{4|{{{author|<noinclude>Origin</noinclude>}}}}}}|<p style="font-size: smaller; text-align: right;"><cite style="font-style: normal;">—{{{4|{{{author}}}}}}{{#if:{{{5|{{{source|{{{publication|<noinclude>Source</noinclude>}}}}}}}}}|, {{{5|{{{source|{{{publication}}}}}}}}}}}</cite></p>}}
+}}
+|}<!-- {{subst:FULLPAGENAME}} -->{{#if:{{NAMESPACE}}||{{#if:{{{4|{{{author|}}}}}}{{{5|{{{source|{{{publication|}}}}}}}}}|[[Category:Articles with attributed pull quotes]]}}}}<noinclude>
+{{documentation}}
+</noinclude>
