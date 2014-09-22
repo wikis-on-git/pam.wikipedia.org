@@ -1,0 +1,19 @@
+{| id="toc" class="toccolours"  border="1" cellpadding="4" style="border-collapse:collapse;border-style:solid;border-width:1px; {{#switch:{{{align|}}} |left=clear:left;float:left;margin-right:1.0em; |right=clear:right;float:right;margin-left:1.0em; |center=margin:1.0em auto; |none=margin:1.0em 0; |#default=margin:1.0em;}}"
+|class="hlist" style="padding-left:0.5em;text-align:center;padding-right:0.5em;"|
+* [[:Category:{{#expr: {{{mcd|}}}0 - 1}} {{{cat}}} {{{transition suffix|}}}|←]] [[:Category:{{{mcd|}}}0 {{{cat}}}|{{{mcd|}}}0]]
+* [[:Category:{{{mcd|}}}1 {{{cat}}}|{{{mcd|}}}1]]
+* [[:Category:{{{mcd|}}}2 {{{cat}}}|{{{mcd|}}}2]]
+* [[:Category:{{{mcd|}}}3 {{{cat}}}|{{{mcd|}}}3]]
+* [[:Category:{{{mcd|}}}4 {{{cat}}}|{{{mcd|}}}4]]
+* [[:Category:{{{mcd|}}}5 {{{cat}}}|{{{mcd|}}}5]]
+* [[:Category:{{{mcd|}}}6 {{{cat}}}|{{{mcd|}}}6]]
+* [[:Category:{{{mcd|}}}7 {{{cat}}}|{{{mcd|}}}7]]
+* [[:Category:{{{mcd|}}}8 {{{cat}}}|{{{mcd|}}}8]]
+* [[:Category:{{{mcd|}}}9 {{{cat}}}|{{{mcd|}}}9]] [[:Category:{{#expr: {{{mcd|}}}0 + 10}} {{{cat}}}|→]]
+|}
+{{#if:{{{in|}}} |{{See also |{{{mcd|}}}{{{y}}} in {{{in}}}}} |}}
+{{#ifeq:{{NAMESPACE}}|{{ns:14}} |{{#if:{{{subcat|}}} |[[Category:{{{subcat}}}|{{{sortkey}}} ]] |[[Category:{{{mcd|}}}{{{y}}}|{{{sortkey}}} ]]}} }}
+<includeonly>{{#ifeq:{{NAMESPACE}}|{{ns:14}} |{{#if:{{{parent|}}} |[[Category:{{{parent|}}}|{{{mcd|}}}{{{y}}}|]] |}} }}</includeonly><noinclude>
+
+{{Documentation |content=This subtemplate is used by {{tl|Year by category}}.}}
+</noinclude>
