@@ -1,0 +1,39 @@
+{{Infobox
+| title   = {{{name|<includeonly>{{PAGENAME}}</includeonly>}}}
+| image   = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=frameless|alt={{{alt|}}}}}
+| caption = {{{caption}}}
+| label1  = Formerly known as
+| data1   = {{{formerly_known|}}}
+| label2  = Premiered
+| data2   = {{{premiered|}}}
+| label4  = Closed
+| data4   = {{{closed|}}}
+| label5  = Channel
+| data5   = {{{channel|}}}
+| label6  = Division of 
+| data6   = {{{division|}}}
+| label7  = Origin
+| data7   = {{{country|}}}
+| label8  = Key people
+| data8   = {{{key_people|}}}
+| label9  = Headquarters
+| data9   = {{{headquarters|}}}
+| label10 = Major broadcasting contracts
+| data10  = {{{major_contracts|}}}
+| label11 = Parent
+| data11  = {{{parent|}}}
+| label12 = Sister network
+| data12  = {{{sister|}}}
+| label13 = Format
+| data13  = {{{format|}}}
+| label14 = Runtime
+| data14  = {{{runtime|}}}
+| label15 = Language
+| data15  = {{{language|}}}
+| label16 = Official website
+| data16  = {{{website|}}}
+| belowstyle = border-top:#aaa 1px solid
+| below   = {{{footnotes|}}}
+}}<noinclude>
+{{documentation}}<!-- add categories to the doc page, not here, and absolutely, not outside of the noinclude tags or else all articles transcluding the infobox will end up in the category -->
+</noinclude>
