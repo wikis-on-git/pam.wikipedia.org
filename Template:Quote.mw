@@ -1,0 +1,9 @@
+<blockquote class="templatequote">{{{text|{{{quote|{{{1|<noinclude>{{lorem ipsum}}</noinclude><includeonly>{{error|Error: No text given for quotation (or equals sign used in the actual argument to an unnamed parameter)}}</includeonly>}}}}}}}}}{{#if:{{{sign|{{{cite|{{{2|<noinclude>TRUE</noinclude>}}}}}}}}}
+ |<div class="templatequotecite">&#8212;{{{sign|{{{cite|{{{2|<noinclude>[[Someone's full name|Someone]]</noinclude>}}}}}}}}}{{#if:{{{source|{{{3|<noinclude>TRUE</noinclude>}}}}}}
+  |,&nbsp;<cite>{{{source|{{{3|<noinclude>Source</noinclude>}}}}}}</cite>
+ }}</div>
+}}
+</blockquote><noinclude>
+{{documentation}}
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
+</noinclude>
