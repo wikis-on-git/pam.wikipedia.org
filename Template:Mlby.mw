@@ -1,0 +1,9 @@
+{{#switch:{{{disp|{{{2|}}}}}}
+ |full=[[{{{1}}} Major League Baseball season]]
+ |abbr=[[{{{1}}} Major League Baseball season|{{{1}}} MLB season]]
+ |seas=[[{{{1}}} Major League Baseball season|{{{1}}} season]]
+ |[[{{{1}}} Major League Baseball season|{{{1}}}]]
+}}<noinclude>
+{{Documentation}}
+<!--Add categories and interwikis to the /doc subpage, not here!-->
+</noinclude>
