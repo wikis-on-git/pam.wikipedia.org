@@ -1,0 +1,21 @@
+{{s-start}}
+{{s-bef|before={{{prev}}}}}
+{{s-ttl|title={{{list}}}}}
+{{s-aft|after={{{next}}}}}
+{{s-end}}<noinclude>
+{{documentation|content=
+Use as follows:
+
+<nowiki>{{sequence|</nowiki><br />
+<nowiki>prev=[[previous entry]]|</nowiki><br />
+<nowiki>next=[[next entry]]|</nowiki><br />
+<nowiki>list=[[list]]</nowiki><br />
+<nowiki>}}</nowiki>
+
+==See also==
+*{{tl|Series (mathematics)}}
+*{{tl|Succession box}}
+
+[[Category:Wikipedia templates]]
+}}
+</noinclude>
