@@ -10,10 +10,10 @@ The template knows whether you are citing a book, periodical, or a chapter in a 
 
 ==Citation of books==
 <pre>{{Harvard reference
- | last=Zhu
- | first=Di
+ | last=
+ | first=
  | authorlink=
- | year=2014
+ | year=
  | date=
  | title=
  | place=
