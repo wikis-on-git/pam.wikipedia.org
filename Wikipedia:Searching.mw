@@ -242,7 +242,8 @@ Wikipedia can also be searched via a custom keyword.
 #Create a new bookmark (Bookmarks/Manage Bookmarks/New Bookmark in Firefox)
 #Enter "Wikipedia Quicksearch" for the name (without the quotes).
 #Enter one of the following for the location, again without quotes:
-#*"<nowiki>http://en.wikipedia.org/wiki/Special:Search?search=%s</nowiki>" to search the English Wikipedia
+#*"<nowiki>http://en.wikipedia.org/wiki/wiki.html?search=%s
+</nowiki>" to search the English Wikipedia
 #*"<nowiki>http://de.wikipedia.org/wiki/Special:Search?search=%s</nowiki>" to search the German Wikipedia
 #*"<nowiki>http://www.google.com/search?q=site:wikipedia.org+%s</nowiki>" to use Google to search all Wikipedias
 #Enter "w" (without the quotes) for the keyword.
