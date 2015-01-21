@@ -1,20 +1,22 @@
-{{Infobox_Disease |
-  Name           = Diabetes mellitus tinduk (type) 1 |
-  Image          = |
-  Caption        = |
-  DiseasesDB     = 3649 |
-  ICD10          = E10 |
-  ICD9           = 250.x1, 250.x3 |
-  ICDO           = |
-  OMIM           = 222100 |
-  MedlinePlus    = 000305 |
-  eMedicineSubj  = med |
-  eMedicineTopic = 546 |
-  MeshID         = D003922 |
+{{Infobox Disease
+ | Name           = Diabetes mellitus tinduk (type) 1
+ | Image          = 
+ | Caption        = 
+ | DiseasesDB     = 3649
+ | ICD10          = {{ICD10|E|10||e|10}}
+ | ICD9           = {{ICD9|250.01}}
+ | OMIM           = 222100
+ | MedlinePlus    = 000305
+ | eMedicineSubj  = med
+ | eMedicineTopic = 546
+ | MeshID         = D003922
 }}
+
 Ing '''Diabetes mellitus type 1''' (Tinduk 1 diabetes, Tinduk I diabetes, T1D, T1DM, IDDM, pang-anak a diabetes) meutng yang askeng [[diabetes mellitus]]. Tinduk 1 diabetes metung yang [[autoimmune]] a sakit nung nu ing katataulian na ing pangmalambatan a pangsira ning [[insulin]] a magpalual a [[beta cells]] na ning [[kundilat]]. Ing tinduk 1 makamate ya liwas mu nung meulu ya keng exogenous insulin kapamilatan ning [[injection]] a alilan nala na la reng mauaualang [[hormone]].
 
 Tinduk 1 diabetes (dati kebaluan ya bilang "childhood", "anak" o "insulin-mamasa" diabetes) eya mu pang-anak a problema: ing pang atin idad a Tinduk 1 kailangan malingun ya — dakal kareng atin idad ero tuturan at isipan da atin lang [[Diabetes mellitus type 2|Tinduk 2]] pauli ning maling-ukul ning Tinduk 1 bilang panganak mung diabetes - uling alang panulu, ding Tinduk 1 a diabetic dagul lang Tinduk 1 diabetic a pang atin idad.
+{{Diabetes}}
+
 
 == Dakal pang pamamasa ==
 *[http://diabetes.niddk.nih.gov/dm/pubs/america/contents.htm National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)] - Diabetes in America Textbook (PDFs)
@@ -36,10 +38,7 @@ Tinduk 1 diabetes (dati kebaluan ya bilang "childhood", "anak" o "insulin-mamasa
 *[http://www.diabetes.org/type-1-diabetes.jsp Type 1 Diabetes] at the [[American Diabetes Association]]
 *[http://diabetes.niddk.nih.gov National Diabetes Information Clearinghouse]
 
-
 {{Endocrine pathology}}
 
 [[Category:Diabetes]]
 [[Category:Autoimmune diseases]]
-
-[[de:Diabetes mellitus#Diabetes Typ 1]]
