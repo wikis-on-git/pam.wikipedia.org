@@ -3,7 +3,7 @@
 | child       = {{{child|}}}
 | bodystyle   = {{#if:{{{tablewidth|}}}|width: {{px|{{{tablewidth}}}}} }}
 | abovestyle  = {{#if:{{{color|}}}|background-color: {{{color}}};}} {{#if:{{{fontcolor|}}}|color: {{{fontcolor}}} }}
-| above       = {{#ifeq:{{{child|}}}|yes||{{#if:{{{logo|}}}|<div style="float: right; padding: 0 1px 1px 0">[[File:{{{logo|}}}|{{#if:{{{logowidth|}}}|{{{logowidth}}}|80}}px|alt={{{logoalt|}}}|{{{logo}}}]]</div>}} {{#if:{{{title|}}}|{{{title}}}|{{PAGENAME}}}} }}
+| above       = {{#ifeq:{{{child|}}}|yes||{{#if:{{{logo|}}}|<div style="float: right; padding: 0 1px 1px 0">[[File:{{{logo|}}}|{{#if:{{{logowidth|}}}|{{{logowidth}}}|70}}px|alt={{{logoalt|}}}|{{{logo}}}]]</div>}} {{#if:{{{title|}}}|{{{title}}}|{{PAGENAME}}}} }}
 | aboveclass  = navbox-title
 
 | image       = {{#ifeq:{{{child|}}}|yes||{{#if:{{{img|}}}|[[File:{{{img}}}|{{px|{{{imgwidth|{{{width|}}}}}}|frameless}}|alt={{{alt|{{{imgalt|}}}}}}]]}} }}
