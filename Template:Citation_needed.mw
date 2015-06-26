@@ -1,8 +1,8 @@
 {{ {{{|safesubst:}}}ifsubst |<includeonly>{{subst:Unsubst|Citation needed| name|{{{name|¬}}}|reason|{{{reason|¬}}}| date|{{{date|{{subst:CURRENTMONTHNAME}} {{subst:CURRENTYEAR}}}}} }}</includeonly>|
 {{Fix
 |name={{{name|Citation needed}}}
-|link=Wikipedia:Citation needed
-|text=mangaylangangan yang sitas/suporta
+|link=:en:Wikipedia:Citation needed
+|text=mangailangangan yang sitas/suporta
 |class=Template-Fact
 |title=Ining pahayag mangaylangan yang sitas o suporta ibat kareng pagtiwalan a dalerayan
 |date={{{date|}}}
