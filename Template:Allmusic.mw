@@ -9,7 +9,7 @@
    }}[http://www.allmusic.com/{{{class|{{{1|artist}}}}}}/{{{id|{{{2|}}}}}}{{
    #if: {{{tab|}}}
    |/{{{tab}}}
-   }} {{{label|{{{3|{{PAGENAME}}}}}}}}] at [[Allmusic]]{{
+   }} {{{label|{{{3|{{PAGENAME}}}}}}}}] king [[Allmusic]]{{
    #if: {{{accessdate|}}}
    |. Retrieved {{{accessdate}}}.
    }}
