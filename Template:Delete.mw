@@ -1,7 +1,7 @@
 <div name="Deletion notice" class="boilerplate metadata" id="delete" style="background-color: #fee; margin: 0 1em; padding: 0 10px; border: 1px solid #aaa;">
-'''This page is a [[Wikipedia:Speedy deletions|candidate for speedy deletion]]{{ #if:{{{1|}}}|&nbsp;for the following reason: ''{{{1}}}''}}.'''
+'''This page is a [[:en:Wikipedia:Speedy deletions|candidate for speedy deletion]]{{ #if:{{{1|}}}|&nbsp;for the following reason: ''{{{1}}}''}}.'''
 
-If you disagree with its speedy deletion, please explain why on [[{{NAMESPACE}} talk:{{PAGENAME}}|its talk page]].  If this page obviously does not meet the criteria for speedy deletion, or you intend to fix it, please remove this notice, but do not remove this notice from articles that you have created yourself.
+If you disagree with its speedy deletion, please explain why on [[{{NAMESPACE}} talk:{{PAGENAME}}|its talk page]]. If this page obviously does not meet the criteria for speedy deletion, or you intend to fix it, please remove this notice, but do not remove this notice from articles that you have created yourself.
 Make sure no other pages [[Special:Whatlinkshere/{{NAMESPACE}}:{{PAGENAME}}|link here]] and check the page's [{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|action=history}} history] before deleting.
 </div>
 <includeonly>[[Category:Candidates for speedy deletion]]</includeonly><noinclude>[[Category:Wikipedia maintenance templates]]
