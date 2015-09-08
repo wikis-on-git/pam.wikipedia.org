@@ -1,20 +1,6 @@
 {{Taxobox
-| Taxon_WissName   = Sansevieria zeylanica
-| Taxon_Rang       = Art
-| Taxon_Autor      =  ([[Carl von Linné|L.]]) [[Karl Ludwig Willdenow|Willd.]]
-| Taxon2_Name       = Bogenhanf
-| Taxon2_WissName  = Sansevieria
-| Taxon2_Rang      = Gattung
-| Taxon3_WissName  = Nolinoideae
-| Taxon3_Rang      = Unterfamilie
-| Taxon4_Name      = Spargelgewächse
-| Taxon4_WissName  = Asparagaceae
-| Taxon4_Rang      = Familie
-| Taxon5_Name      = Spargelartige
-| Taxon5_Rang      = Ordnung
-| Taxon5_WissName  = Asparagales
-| Taxon6_Name      = Monokotyledonen
-| Taxon6_Rang      = ohne
+{{Automatic taxobox
+|taxon = Sansevieria
 | Bild             = Sansevieria zeylanica pm290.jpg
 | Bildbeschreibung = ''Sansevieria zeylanica'' aus ''Les Liliacées'', Tafel 290
 }}
