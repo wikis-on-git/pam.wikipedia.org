@@ -1,0 +1,5 @@
+{{sister project
+| position = {{{position|}}}
+| project  = incubator
+| text     = '''''[[:incubator:{{#switch:{{lcfirst:{{{2|}}}}}|wikipedia=Wp|wiktionary=Wt|wikibooks=Wb|wikinews=Wn|wikiquote=Wq|#default={{{prefix|Wp}}}<!-- -->}}/{{{1|{{{code}}}}}}|{{{lang|{{{language|{{PAGENAME}}<!-- -->}}}<!-- -->}}} test]]''''' ning [[{{ucfirst:{{{2|Wikipedia}}}}}]] king [[meta:Wikimedia Incubator|Wikimedia Incubator]]
+}}<noinclude>{{documentation}}<!-- Add categories and interwikis to the /doc subpage, not here! --></noinclude>
