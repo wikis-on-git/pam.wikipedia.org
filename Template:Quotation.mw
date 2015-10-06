@@ -1,0 +1,13 @@
+<blockquote class="toccolours" style="float:{{#switch:{{{align|}}}| left = left| right = right| center = none; margin-left:auto; margin-right:auto;| #default = none}}; display:table;"><div style="padding: 10px 15px 10px 15px;">{{{1<noinclude>|{{Lorem}}</noinclude>}}}
+{{#if:{{{2|}}}
+
+ |<cite><div style="text-align: right;"> —&#8239;{{{2}}}{{#if:{{{3|}}}
+  |, ''{{{3}}}''
+ }}{{#if:{{{4|}}}
+  |, {{{4}}}
+ }}</div></cite>
+}}</div></blockquote><noinclude>
+
+{{Documentation}}
+<!-- PLEASE ADD CATEGORIES TO THE /doc SUBPAGE, THANKS -->
+</noinclude>
