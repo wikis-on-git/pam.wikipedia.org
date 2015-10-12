@@ -1,5 +1,41 @@
 Ing '''EXO''' metung yang bandang talakantang [[Tsinu]]-[[Mauling Koreanu]] king [[Mauling Korea]].
 
+;Timeline
+<timeline>
+ImageSize   = width:500 height:275
+PlotArea    = width:400 height:200 left:65 bottom:65
+Alignbars   = justify
+DateFormat  = mm/dd/yyyy
+Period      = from:2011 till:2015
+TimeAxis    = orientation:horizontal format:yyyy
+
+Colors =
+  id:EXO-K value:rgb(1,0,0) legend:EXO-K
+  id:EXO-M value:rgb(0,0,0.9) legend:EXO-M
+  id:Inactive value:rgb(0,0,0) legend:Inactive
+
+Legend = orientation:horizontal position:bottom
+ScaleMajor = unit:year increment:1 start:2011 gridcolor:black
+
+PlotData =
+  color:red width:10 textcolor:black align:left anchor:from
+  bar:Kai      from:start till:end color:EXO-K
+  bar:Luhan    from:start till:end color:EXO-M
+  bar:Luhan    from:10/10/2014 till:end color:Inactive
+  bar:Tao      from:start till:end color:EXO-M
+  bar:Tao      from:04/23/2015 till:end color:Inactive
+  bar:Chen     from:start till:end color:EXO-m
+  bar:Sehun    from:01/10/2012 till:end color:EXO-K
+  bar:Lay      from:01/17/2012 till:end color:EXO-M
+  bar:Xiumin   from:01/26/2012 till:end color:EXO-M
+  bar:Baekhyun from:01/30/2012 till:end color:EXO-K
+  bar:D.O.     from:01/30/2012 till:end color:EXO-K
+  bar:Suho     from:02/17/2012 till:end color:EXO-K
+  bar:Kris     from:02/17/2012 till:end color:EXO-M
+  bar:Kris     from:05/15/2014 till:end color:Inactive
+  bar:Chanyeol from:02/23/2012 till:end color:EXO-K
+</timeline>
+
 ==Suglung Palwal==
 * {{Official website|http://exo-k.smtown.com/|EXO-K official website}}
 * {{Official website|http://exo-m.smtown.com/|EXO-M official website}}
