@@ -31,6 +31,10 @@
 ! [[MedlinePlus]]
 {{!}} [http://www.nlm.nih.gov/medlineplus/ency/article/{{{MedlinePlus}}}.htm {{{MedlinePlus}}}]  {{{MedlinePlus_mult|}}}}}
 |-
+{{#if: {{{Derm101|}}}|
+! [[Derm101|Derm101]]
+{{!}} [http://www.derm101.com/therapeutic/{{{Derm101}}}/ {{{Derm101}}}] {{{Derm101_mult|}}}}}
+|-
 {{#if: {{{eMedicineSubj|}}}|
 ! [[eMedicine]]
 {{!}} {{#ifeq: {{{eMedicineSubj|}}}| search | [http://www.emedicine.com/cgi-bin/foxweb.exe/searchengine@/em/searchengine?boolean=and&book=all&maxhits=40&HiddenURL=&query={{{eMedicineTopic}}} topic list] | [http://www.emedicine.com/{{{eMedicineSubj}}}/topic{{{eMedicineTopic}}}.htm {{{eMedicineSubj}}}/{{{eMedicineTopic}}}]&nbsp;}} {{{eMedicine_mult|}}}}}
