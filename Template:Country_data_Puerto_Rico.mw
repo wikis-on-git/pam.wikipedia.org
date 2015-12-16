@@ -1,0 +1,21 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Puerto Rico
+| flag alias = Flag of Puerto Rico.svg
+| flag alias-1898 = US flag 45 stars.svg
+| flag alias-1908 = US flag 46 stars.svg
+| flag alias-1912 = US flag 48 stars.svg
+| flag alias-1952 = Flag of Puerto Rico (1952-1995).svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1898
+| var2 = 1908
+| var3 = 1912
+| var4 = 1952
+| redir1 = PRI
+| redir2 = PUR
+</noinclude>
+}}<noinclude>
+</noinclude>
