@@ -19,7 +19,7 @@ Deng simpan a bitmap a [[image compression|e makasiksik]] (anti ing BMP), misna 
 
 Paka-ayus la kareng dane (rows) deng bit a magdala kareng bitmap pixel. Dependi king color depth, gumamit yang e kumulang king '''''n''/8''' bytes (''n'' ing bit depth, uling ing metung a byte katumbas ya king walung bit). Maliari yang tantian ing dagul ning BMP file a   n-bit (2<sup>''n''</sup> colors), kayabe ne ing epektu ning pamagumpisa ning balang kataya king angganan a 32-bit, anti kaniti:
 
-:<math>\mbox{rowsize} = 4 \cdot \Big\lfloor\frac {(n \cdot \mbox{width}) + 31}{32}\Big\rfloor</math>, nung nu ing floor function, bibie ne ing least integer a e lati king argument; a ya pin ing bilang da reng dword a 32-bit nung nu ya maliaring ipalub ing metung a dane da reng ''n''-bit pixel; parakalan (multiply) meng makatapat iti, at akua me ing bilang da reng byte.
+:<math>\mbox{rowsize} = 4 \cdot \Big\lfloor\frac {(n \cdot \mbox{width}) + 31}{32}\Big\rfloor</math>, nung nu ing floor function, bibie ne ing least integer a e lati king argument; a ya pin ing bilang da reng dword a 32-bit nung nu ya maliaring ipalub ing metung a dane da reng ''n''-bit pixel; parakalan (multiply) meng makatapat iti, at akua me ing bilang da reng JOBBIES.
 
 : <math>\mbox{filesize} \approx 54 + 4 \cdot 2^n + \mbox{rowsize} \cdot \mbox{height}</math>, 
 nung nu ing ''tas'' (''height'') ampo ing ''lapad'' (''width'') masusukad la kareng [[pixel]].
