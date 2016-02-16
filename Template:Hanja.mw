@@ -1,0 +1,14 @@
+{{#if:{{{no|}}}||[[hanja]]:}} {{lang|ko|[[wiktionary:{{{1}}}|{{{1}}}]]{{#if:{{{2|}}}|[[wiktionary:{{{2}}}|{{{2}}}]]}}{{#if:{{{3|}}}|[[wiktionary:{{{3}}}|{{{3}}}]]}} {{#if:{{{4|}}}|[[wiktionary:{{{4}}}|{{{4}}}]]}}{{#if:{{{5|}}}|[[wiktionary:{{{5}}}|{{{5}}}]]}}}}<noinclude>
+This template can be used for in-line citations of hanja. It provides automatic lang-coding and Wiktionary links.  It should ''not'' be used inside a name table, because it will conflict with the formatting and lang-coding there.
+
+==See also==
+*[[Wikipedia:Manual of Style (Korea-related articles)]]
+*[[Template:Infobox Korean name]]
+*[[Template:Hangul]]
+*[[Template:Chosongul]]
+*[[Template:Ko-hhrm]]
+*[[Template:Lang-ko]]
+
+[[Category:Korea templates|{{PAGENAME}}]]
+[[Category:Interwiki link templates|{{PAGENAME}}]]
+</noinclude>
