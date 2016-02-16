@@ -1,0 +1,37 @@
+{{Documentation subpage}}
+
+==Purpose==
+This template organizes Korean scripts and romanizations for use within article prose. It formats Korean [[Hangul]] and [[hanja]] using [[Template:Lang]] to ensure that web browsers use appropriate fonts, and screen readers use correct pronunciation. It also uses [[Template:Transl]] to mark romanizations as belonging in the "latinx" class of [[MediaWiki:Common.css]].
+
+==Usage==
+Full parameter set:
+:<code><nowiki>{{Korean|hangul=|hanja=|rr=|mr=|links=|context=|lit=}}</nowiki></code>
+Typical usage:
+:<code><nowiki>{{Korean|hangul=|hanja=|rr=}}</nowiki></code>
+Example:
+:<code><nowiki>{{Korean|hangul=대청황제공덕비|hanja=大清皇帝功德碑|rr=Daechong Hwangje Gongdeokbi}}</nowiki></code>
+will produce:
+:{{Korean|hangul=대청황제공덕비|hanja=大清皇帝功德碑|rr=Daechong Hwangje Gongdeokbi}}
+
+Alternatively, the template can be used without labels. Example:
+:<code><nowiki>{{Korean|대청황제공덕비|大清皇帝功德碑|Daechong Hwangje Gongdeokbi}}</nowiki></code>
+This will produce the same output as above, but be careful to put the Hangul, hanja, and romanizations in the same order as you would if you were using the labels.
+
+There are several optional parameters:
+* '''mr=''' for [[McCune–Reischauer]] romanization; to be used in place of '''rr=''' in articles about [[North Korean language|North Korea]]
+* '''context=north''' for use in articles about North Korea; displays "Hancha" instead of "Hanja" and "Chosŏn'gŭl" instead of "Hangul"
+* '''context=old''' displays the more neutral [[Hunminjeongeum]] instead of "Hangul" or "Chosŏn'gŭl", can be used in articles about events that occurred before the development of North and South Korea (pre-1945)
+* '''links=no''' to remove labels and links to language pages to improve readability; useful if the template is used multiple times in the same article (see [[WP:OLINK]])
+* '''lit=''' allows for the inclusion of a literal English translation; should generally not be used for people's names
+
+'''Note:''' This template should generally be placed in parentheses (see [[MOS:TEXT#Foreign terms|MOS:TEXT]])
+
+==See also==
+* [[Template:Infobox Korean name]]
+* [[Template:Lang-ko]]
+* [[Template:Hangul]]
+* [[Template:Hanja]]
+
+<includeonly>
+[[Category:Korean name templates|{{PAGENAME}}]]
+</includeonly>
