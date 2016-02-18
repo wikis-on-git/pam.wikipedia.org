@@ -50,7 +50,7 @@
 | label6 = Etnisidad
 | data6 = {{{ethnicity|}}}
 
-| label7 = {{#if:{{{extinct|}}} |[[Meteng Amanun|Mete]] |{{#if:{{{era|}}} |Era |{{#if:{{{creator|}}} |Users |{{longitem|Katutubung {{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}|talasalita|talasalita}}}} }} }} }}
+| label7 = {{#if:{{{extinct|}}} |[[Meteng Amanun|Mete]] |{{#if:{{{era|}}} |Era |{{#if:{{{creator|}}} |Users |{{longitem|Tubung {{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}|talasalita|talasalita}}}} }} }} }}
 | data7 =<!--
 -->{{#if:{{{extinct|}}}|{{#ifeq:{{{extinct}}}|?|(date missing)[[Category:Language articles with unknown extinction date]]|{{{extinct}}}}}<!-- extinct input used
    -->|{{#if:{{{era|}}}|{{{era}}}<!-- era input used
