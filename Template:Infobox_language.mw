@@ -1,0 +1,401 @@
+{{Infobox
+| bodystyle = {{#if:{{{boxsize|}}}|width: {{{boxsize}}};}}
+
+| abovestyle = font-size:130%; color: {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}} }}|black|1}}|white|{{{fontcolor|black}}} }}; background-color: {{#if:{{{creator|}}}{{{setting|}}}|black|{{#if:{{{signers|}}}|silver|{{Infobox language/family-color|{{{familycolor|Default}}} }} }} }};
+| above = {{{name|{{PAGENAME}}}}}
+| aboveclass = above
+
+| subheaderstyle = font-size:110%; color: {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}} }}|black|1}}|white|{{{fontcolor|black}}} }}; background-color: {{#if:{{{creator|}}}{{{setting|}}}|black|{{#if:{{{signers|}}}|silver|{{Infobox language/family-color|{{{familycolor|Default}}} }} }} }};
+| subheader1 = {{{altname|}}}
+| subheader2 = {{{nativename|}}}
+| subheader3 = {{#if:{{{acceptance|}}}|({{{acceptance|}}})}}
+
+| image = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{imagesize|}}}|sizedefault=200px|alt={{{imagealt|}}}}}
+| caption = {{{imagecaption|}}}
+
+| headerstyle = color: {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}|white|{{{fontcolor|black}}}}}; background-color: {{#if:{{{signers|}}}|silver|{{#if:{{{creator|}}}{{{setting|}}}|black|{{Infobox language/family-color|{{{familycolor|Default}}}}}}}}};
+| labelstyle = padding-top:0.225em;line-height:1.1em;<!--(modified longitem)--> padding-right:0.5em;<!--(to ensure some gap between any (long/unwrapped) label and subsequent data on same line)-->
+| datastyle = line-height:1.35em; 
+
+<!--------------------------------------------------------->
+| label1 = Agkas
+| data1 = {{#if:{{{pronunciation|}}}| {{{pronunciation|''to be added''}}}}}
+
+| label2 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
+  | Linalang&nbsp;nang/ning
+  | Katutubu&nbsp;king
+  }}
+| data2 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
+  |{{{creator|–}}}
+  |{{{states|{{{state|}}}}}}
+  }}
+
+| label3 = Petsa
+| data3 = {{{created|}}}
+
+| label4 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
+  |Pamag-gamit
+  |{{#if:{{{region|}}}|Labwad}}
+  }}
+| data4 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
+    |{{{setting|}}}
+    |{{{region|}}}
+    }}
+
+| label5 = [[Geographic coordinate system|Deng Kordinatu]]
+| data5 = {{#if:{{{latd|}}}
+  | <small style="white-space: nowrap">{{coord|{{{latd}}}|{{{latm}}}|{{{latNS}}}|{{{longd}}}|{{{longm}}}|{{{longEW}}}|type:landmark|display=inline}}</small>
+  }}
+
+| label6 = Etnisidad
+| data6 = {{{ethnicity|}}}
+
+| label7 = {{#if:{{{extinct|}}} |[[Meteng Amanun|Mete]] |{{#if:{{{era|}}} |Era |{{#if:{{{creator|}}} |Users |{{longitem|Native {{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}|speakers|speakers}}}} }} }} }}
+| data7 =<!--
+-->{{#if:{{{extinct|}}}|{{#ifeq:{{{extinct}}}|?|(date missing)[[Category:Language articles with unknown extinction date]]|{{{extinct}}}}}<!-- extinct input used
+   -->|{{#if:{{{era|}}}|{{{era}}}<!-- era input used
+      -->|<!-- no era, check for sign/spoken -->{{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}} }}|silver|1}}<!-- check for signers/silver
+         -->|<!-- SIGN language (silver) -->{{#if:{{{signers|}}}{{{speakers|}}}|{{#ifeq: {{lc:{{{date}}}}}|na|{{{signers|{{{speakers|–}}}}}}
+      |{{#ifeq:{{{signers|{{{speakers}}}}}}|?|<!--
+      -->|{{#ifeq:{{{signers|{{{speakers}}}}}}|none|''None''
+      |{{#if:{{{date|}}}|{{{signers|{{{speakers|–}}}}}}&nbsp;({{{dateprefix|}}}{{{date}}})
+      |{{{signers|{{{speakers|–}}}}}}&nbsp;(''date missing''){{main other|[[Category:Language articles with speaker number undated]]}}}} }} }} }} }}<!--(end if:date, ifeq:date=na, if:signers. end of SIGN)
+         -->|<!-- SPOKEN language (not silver) -->{{#if:{{{speakers|}}}|{{#ifeq: {{lc:{{{date}}}}}|na|{{{speakers|–}}}
+      |{{#ifeq: {{{date}}}|no date|unknown (undated figure of {{{speakers}}})|<!--
+The following changes the display depending on the age of the data. Limit set to 25 years, as a population can double in that time.
+-->{{#if:{{{date|}}}|{{#iferror:{{#expr: {{padleft:|4|{{{date}}}|}} }}||{{#ifexpr:(({{CURRENTYEAR}} - {{padleft:|4|{{{date}}}|}}) < 25)<!--
+    -->|<!-- regular-->{{{speakers|–}}}&nbsp;({{{dateprefix|}}}{{{date}}})<!--
+    -->|<!-- old (25+) --> unknown ({{{speakers}}} cited {{{dateprefix|}}}{{{date}}}){{main other|{{#ifeq:{{{ref}}}|e18|[[Category:Language articles with old Ethnologue 18 speaker data]]|[[Category:Language articles with old speaker data]]}}}}}}}}<!--(end ifexpr:25+, iferror:)
+    -->|{{#ifeq:{{{speakers}}}|?|<!--
+       -->|{{#ifeq:{{{speakers}}}|none|''None''
+       |<!-- no date input -->{{{speakers|–}}}&nbsp;(''date missing''){{main other|[[Category:Language articles with speaker number undated]]}}}} }} }}<!--(end if:date, before the 25+ expr check)
+    -->}}<!--(end ifeq:date=no date)
+    -->}}<!--(end ifeq:date=na)
+    -->|<!--(no speakers number to be shown)-->}}}}<!--(end if:speakers (in 2nd param of silver-check), if:silver. end of SPOKEN)
+      -->}} }}<!--(end if:era, if:extinct. No open #if:s left)
+If there is a ref, and there is any input for this row (data7), then we add the reference:
+-->{{#if:{{{ref|}}}|{{#if:{{{extinct|}}}{{{era|}}}{{{signers|}}}{{{speakers|}}}{{{date|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|sign_language}}|{{Infobox language/ref|{{{ref}}}|iso3={{{iso3|}}}|name={{{name|{{PAGENAME}}}}}|lc1={{{lc1|}}}|ld1={{{ld1}}}|lc2={{{lc2|}}}|ld2={{{ld2}}}|lc3={{{lc3|}}}|ld3={{{ld3}}}|lc4={{{lc4|}}}|ld4={{{ld4}}}|lc5={{{lc5|}}}|ld5={{{ld5}}}|lc6={{{lc6|}}}|ld6={{{ld6}}}|lc7={{{lc7|}}}|ld7={{{ld7}}}}}}}}}<!--
+Add speakers2 after the ref:
+-->{{#if:{{{speakers2|}}}|<br />{{{speakers2|}}} }}
+
+| label8 = {{#if:{{{revived|}}} |[[Language revitalization|Revival]]{{#if:{{{revived-category|{{{revived-cat|}}}}}}|{{#ifeq:{{{revived-category|{{{revived-cat}}}}}}|nocat|<!--suppress-->|[[Category:{{{revived-category|{{{revived-cat}}}}}}]]|[[Category:Language revival]]}} }} }}
+| data8 = {{{revived|}}} 
+
+| label9 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
+  |Sangkan
+  |{{allow wrap|{{longitem|[[Pamilyang amanu]]}}}}
+  }}
+| data9 = {{#ifeq: {{lc:{{{family}}}}}|na||<div style="text-align:left;">{{{family|{{{fam1|{{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
+  |''Unknown''{{main other|[[Category:Deng amanung alang klasipikasyon]]}}
+  |{{#if:{{{creator|}}}{{{setting|}}}
+    |[[constructed language]]
+    |{{Infobox language/genetic|{{{familycolor|Default}}}}}
+    }}
+  }}}}}
+<ul style="line-height:100%; margin-left:1.35em;padding-left:0"><li>
+{{#ifeq:{{{familycolor|}}}|unclassified||{{#ifeq:{{{familycolor|}}}|Unclassified||{{#ifeq:{{{familycolor|}}}|isolate||{{#ifeq:{{{familycolor|}}}|Isolate||{{#if:{{{fam2|}}}
+| {{{fam2}}}<ul style="line-height:100%;margin-left:0.45em;padding-left:0;"><li>{{#if:{{{fam3|}}}
+| {{{fam3}}}<ul style="line-height:100%;margin-left:0.45em;padding-left:0;"><li>{{#if:{{{fam4|}}}
+| {{{fam4}}}<ul style="line-height:100%;margin-left:0.45em;padding-left:0;"><li>{{#if:{{{fam5|}}}
+| {{{fam5}}}<ul style="line-height:100%;margin-left:0.45em;padding-left:0;"><li>{{#if:{{{fam6|}}}
+| {{{fam6}}}<ul style="line-height:100%;margin-left:0.45em;padding-left:0;"><li>{{#if:{{{fam7|}}}
+| {{{fam7}}}<ul style="line-height:100%;margin-left:0.45em;padding-left:0;"><li>{{#if:{{{fam8|}}}
+| {{{fam8}}}<ul style="line-height:100%;margin-left:0.45em;padding-left:0;"><li>{{#if:{{{fam9|}}}
+| {{{fam9}}}<ul style="line-height:100%;margin-left:0.45em;padding-left:0;"><li>{{#if:{{{fam10|}}}
+| {{{fam10}}}<ul style="line-height:100%;margin-left:0.45em;padding-left:0;"><li>{{#if:{{{fam11|}}}
+| {{{fam11}}}<ul style="line-height:100%;margin-left:0.45em;padding-left:0;"><li>{{#if:{{{fam12|}}}
+| {{{fam12}}}<ul style="line-height:100%;margin-left:0.45em;padding-left:0;"><li>{{#if:{{{fam13|}}}
+| {{{fam13}}}<ul style="line-height:100%;margin-left:0.45em;padding-left:0;"><li>{{#if:{{{fam14|}}}
+| {{{fam14}}}<ul style="line-height:100%;margin-left:0.45em;padding-left:0;"><li>{{#if:{{{fam15|}}}
+| {{{fam15}}}<ul style="line-height:100%;margin-left:0.45em;padding-left:0;"><li>'''{{{name|{{PAGENAME}}}}}'''</li></ul>
+| '''{{{name|{{PAGENAME}}}}}'''
+}}</li></ul>| '''{{{name|{{PAGENAME}}}}}'''
+}}</li></ul>| '''{{{name|{{PAGENAME}}}}}'''
+}}</li></ul>| '''{{{name|{{PAGENAME}}}}}'''
+}}</li></ul>| '''{{{name|{{PAGENAME}}}}}'''
+}}</li></ul>| '''{{{name|{{PAGENAME}}}}}'''
+}}</li></ul>| '''{{{name|{{PAGENAME}}}}}'''
+}}</li></ul>| '''{{{name|{{PAGENAME}}}}}'''
+}}</li></ul>| '''{{{name|{{PAGENAME}}}}}'''
+}}</li></ul>| '''{{{name|{{PAGENAME}}}}}'''
+}}</li></ul>| '''{{{name|{{PAGENAME}}}}}'''
+}}</li></ul>| '''{{{name|{{PAGENAME}}}}}'''
+}}</li></ul>| '''{{{name|{{PAGENAME}}}}}'''
+}}</li></ul>| '''{{{name|{{PAGENAME}}}}}'''
+}}</li></ul>
+}}}}}}}}}}}</div>}}
+
+| label10 = {{longitem|Minunang ulma}}
+| data10 = {{#if:{{{protoname|}}}{{{ancestor|}}}|<div style="text-align:left;">{{{protoname|{{{ancestor|}}}}}}
+<ul style="line-height:100%; margin-left:1.35em;padding-left:0"><li>{{#if:{{{ancestor2|}}}
+| {{{ancestor2}}}<ul style="line-height:100%;margin-left:0.45em;padding-left:0;"><li>{{#if:{{{ancestor3|}}}
+| {{{ancestor3}}}<ul style="line-height:100%;margin-left:0.45em;padding-left:0;"><li>{{#if:{{{ancestor4|}}}
+| {{{ancestor4}}}<ul style="line-height:100%;margin-left:0.45em;padding-left:0;"><li>{{#if:{{{ancestor5|}}}
+| {{{ancestor5}}}<ul style="line-height:100%;margin-left:0.45em;padding-left:0;"><li>'''{{{name|{{PAGENAME}}}}}'''</li></ul>
+| '''{{{name|{{PAGENAME}}}}}'''
+}}</li></ul>| '''{{{name|{{PAGENAME}}}}}'''
+}}</li></ul>| '''{{{name|{{PAGENAME}}}}}'''
+}}</li></ul>| '''{{{name|{{PAGENAME}}}}}'''
+}}</li></ul> </div>
+}}
+
+| label11 = {{longitem|Pamantayang ulma}}
+| data11 = {{#if:{{{standards|}}}|{{{standards}}}
+|{{#if:{{{stand1|}}}|
+<div>{{{stand1|}}}</div>
+<div>{{{stand2|}}}</div>
+<div>{{{stand3|}}}</div>
+<div>{{{stand4|}}}</div>
+<div>{{{stand5|}}}</div>
+<div>{{{stand6|}}}</div>
+}}}}
+
+| label12 = Deng Diyalektu
+| data12 = {{#if:{{{dialects|}}}|{{{dialects}}}
+|{{#if:{{{dia1|}}}|
+<div>{{{dia1|}}}</div>
+<div>{{{dia2|}}}</div>
+<div>{{{dia3|}}}</div>
+<div>{{{dia4|}}}</div>
+<div>{{{dia5|}}}</div>
+<div>{{{dia6|}}}</div>
+<div>{{{dia7|}}}</div>
+<div>{{{dia8|}}}</div>
+<div>{{{dia9|}}}</div>
+<div>{{{dia10|}}}</div>
+<div>{{{dia11|}}}</div>
+<div>{{{dia12|}}}</div>
+<div>{{{dia13|}}}</div>
+<div>{{{dia14|}}}</div>
+<div>{{{dia15|}}}</div>
+<div>{{{dia16|}}}</div>
+<div>{{{dia17|}}}</div>
+<div>{{{dia18|}}}</div>
+<div>{{{dia19|}}}</div>
+<div>{{{dia20|}}}</div>
+}}}}
+
+| label13 = {{allow wrap|{{longitem|[[Sistemang Pamagsulat]]}}}}
+| data13 =  {{#switch: {{lc:{{{script|}}}}}
+             | latin
+             | [[latin]]
+             | latin alphabet
+             | [[Alpabetung Latin]]
+             | [[Alpabetung Latin|Latin]] = [[Eskritu Latin|Latin]]
+             | #default = {{{script|}}}
+            }}
+
+| label14 = {{allow wrap|{{longitem|[[Manually coded language|Signed forms]]}}}}
+| data14 = {{#if:{{{sign|}}}|{{{sign}}}}}
+
+| label15 = Deng pikuwanan
+| data15 = {{{posteriori|}}}
+
+<!--------------------------------------------------------->
+| header16 = {{#if:{{{nation|}}}{{{minority|}}}{{{agency|}}}|Estadu Opisyal}}
+
+| label17 = {{longitem|Amanu Opisyal&nbsp;king}}
+| data17 = {{{nation|}}}
+
+| label18 = {{longitem|class=nowrap|Kebaluang menoridad<br />a pamyalita&nbsp;king}}
+| data18 = {{#if:{{{minority|}}} |<div style="<!--label17 above almost always linewraps, so:-->vertical-align:middle;">{{{minority}}}</div>}}
+
+| label19 = [[List of language regulators|Regladu&nbsp;ning]]
+| data19 = {{{agency|{{#ifexpr:{{#if:{{{agency|}}}|1|0}} and {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|Default}}}}}|black|1}}|1|0}}
+  | ''None''
+<!--  | {{#if:{{{nation|}}}|''Ala yang regulasyong opisyal''}} [this ends up claiming that languages have no regulation just cuz no-one bothered to add the regulator -->
+  }}}}}
+
+<!--------------------------------------------------------->
+| header20 = Deng kodigong pampamyalita
+
+| label21 = [[ISO 639-1]]
+| data21 = {{#if:{{{iso1|}}}|<code>{{{iso1}}}</code>}}
+
+| label22 = [[ISO 639-2]]
+| data22 = {{#if:{{{iso2|}}}{{{iso2b|}}}{{{iso2t|}}}
+ |<code>{{#if:{{{iso2b|}}}{{{iso2t|}}}
+  |[[ISO639-3:{{{iso2b|{{{iso2|–}}}}}}|{{{iso2b}}}]]&nbsp;(B)
+  |{{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
+   |{{{iso2|sgn}}}
+   |{{
+    #if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
+    |{{{iso2|art}}}
+    |[[ISO639-3:{{{iso2}}}|{{{iso2}}}]]}}}}}}</code> {{{iso2comment|}}}{{
+     #if:{{{iso2b|}}}{{{iso2t|}}}
+     |<br /><code>[[ISO639-3:{{{iso2t|{{{iso2|–}}}}}}|{{{iso2t}}}]]&nbsp;(T)</code>}}
+ }}
+
+| label23 = [[ISO 639-3]]
+| data23 = {{#if:{{{iso3|}}}
+   |{{#ifeq:{{lc:{{{iso3|}}}}}|none|{{#if:{{{iso3comment|}}}|{{{iso3comment}}}|''None'' (<code>mis</code>)}}|<code>[[ISO639-3:{{{iso3}}}|{{{iso3}}}]]</code> {{#if:{{{lc1|}}}| – [[ISO 639 macrolanguage|inclusive code]]<!--not all are 'macrolanguages': Hittite, for example-->}} {{{iso3comment|}}}}}|{{#if:{{{lc1|}}}| |–}}}}{{#ifexpr:{{#if:{{{lc1|}}}|1|0}} and {{#if:{{{lc2|}}}|1|0}}|{{#if:{{{iso3|}}}|<br />Individual codes|{{#if:{{{lc3|}}}|Variously|Either}}}}:{{Infobox language/codelist
+|{{{lc1|}}}|{{{ld1|}}}}}{{Infobox language/codelist
+|{{{lc2|}}}|{{{ld2|}}}}}{{Infobox language/codelist
+|{{{lc3|}}}|{{{ld3|}}}}}{{Infobox language/codelist
+|{{{lc4|}}}|{{{ld4|}}}}}{{Infobox language/codelist
+|{{{lc5|}}}|{{{ld5|}}}}}{{Infobox language/codelist
+|{{{lc6|}}}|{{{ld6|}}}}}{{Infobox language/codelist
+|{{{lc7|}}}|{{{ld7|}}}}}{{Infobox language/codelist
+|{{{lc8|}}}|{{{ld8|}}}}}{{Infobox language/codelist
+|{{{lc9|}}}|{{{ld9|}}}}}{{Infobox language/codelist
+|{{{lc10|}}}|{{{ld10|}}}}}{{Infobox language/codelist
+|{{{lc11|}}}|{{{ld11|}}}}}{{Infobox language/codelist
+|{{{lc12|}}}|{{{ld12|}}}}}{{Infobox language/codelist
+|{{{lc13|}}}|{{{ld13|}}}}}{{Infobox language/codelist
+|{{{lc14|}}}|{{{ld14|}}}}}{{Infobox language/codelist
+|{{{lc15|}}}|{{{ld15|}}}}}{{Infobox language/codelist
+|{{{lc16|}}}|{{{ld16|}}}}}{{Infobox language/codelist
+|{{{lc17|}}}|{{{ld17|}}}}}{{Infobox language/codelist
+|{{{lc18|}}}|{{{ld18|}}}}}{{Infobox language/codelist
+|{{{lc19|}}}|{{{ld19|}}}}}{{Infobox language/codelist
+|{{{lc20|}}}|{{{ld20|}}}}}{{Infobox language/codelist
+|{{{lc21|}}}|{{{ld21|}}}}}{{Infobox language/codelist
+|{{{lc22|}}}|{{{ld22|}}}}}{{Infobox language/codelist
+|{{{lc23|}}}|{{{ld23|}}}}}{{Infobox language/codelist
+|{{{lc24|}}}|{{{ld24|}}}}}{{Infobox language/codelist
+|{{{lc25|}}}|{{{ld25|}}}}}{{Infobox language/codelist
+|{{{lc26|}}}|{{{ld26|}}}}}{{Infobox language/codelist
+|{{{lc27|}}}|{{{ld27|}}}}}{{Infobox language/codelist
+|{{{lc28|}}}|{{{ld28|}}}}}{{Infobox language/codelist
+|{{{lc29|}}}|{{{ld29|}}}}}{{Infobox language/codelist
+|{{{lc30|}}}|{{{ld30|}}} }}
+ |{{#if:{{{lc1|}}}|{{#if:{{{iso3|}}}|<br />Individual code:}}{{Infobox language/codelist|code={{{lc1}}}|2={{{ld1|}}} }} }} }}
+
+| label24 = [[ISO 639-6]]<!-- NOTE: ISO6 CODES HAVE BEEN RETIRED -->
+| data24 = {{#if:{{{iso6|}}}|<code>{{{iso6}}}</code>}}
+
+| label25 = {{longitem|Talang panglinggwista}}
+| data25  = {{Infobox language/linguistlist|1={{{linglist|}}} |2={{{lingname|}}}}}
+| label26 = &nbsp;
+| data26  = {{Infobox language/linguistlist|1={{{linglist2|}}}|2={{{lingname2|}}}}}
+| label27 = &nbsp;
+| data27  = {{Infobox language/linguistlist|1={{{linglist3|}}}|2={{{lingname3|}}}}}
+| label28 = &nbsp;
+| data28  = {{Infobox language/linguistlist|1={{{linglist4|}}}|2={{{lingname4|}}}}}
+| label29 = &nbsp;
+| data29  = {{Infobox language/linguistlist|1={{{linglist5|}}}|2={{{lingname5|}}}}}
+| label30 = &nbsp;
+| data30  = {{Infobox language/linguistlist|1={{{linglist6|}}}|2={{{lingname6|}}}}}
+
+| label31 = ''[[Glottolog]]''
+| data31 = {{#if:{{{glotto|}}}|{{#ifeq:{{lc:{{{glotto|}}}}}|none|''None''[[Category:Languages without Glottolog code]]|{{#ifeq:{{lc:{{{glotto|}}}}}|spurious|(insufficiently attested or not a distinct language){{main other|[[Category:Languages rejected by Glottolog]]}}|<code>{{glottolink|{{{glotto}}}}}</code>{{#if:{{{glottoname|}}}|&nbsp; {{nowrap|({{{glottoname}}})}}}}{{#ifeq:{{{glottofoot|}}}|no||{{#tag:ref|{{Glottolog|{{{glotto}}}|{{{glottorefname|{{{glottoname|{{{name}}}}}}}}}}}|name="Glottolog"}}}}}}}}}}<!--
+-->{{#if:{{{glotto2|}}}|{{#if:{{{glotto|}}}|<br />|<!--no break when more than one box on a page-->}}<code>{{glottolink|{{{glotto2}}}}}</code>{{#if:{{{glottoname2|}}}|&nbsp; {{nowrap|({{{glottoname2}}})}}}}{{#ifeq:{{{glottofoot|}}}|no||{{#tag:ref|{{Glottolog|{{{glotto2}}}|{{{glottorefname2|{{{glottoname2|{{{name}}}}}}}}}}}|name="Glottolog2"}}}}}}<!--
+-->{{#if:{{{glotto3|}}}|{{#if:{{{glotto2|}}}|<br />|<!--no break-->}}<code>{{glottolink|{{{glotto3}}}}}</code>{{#if:{{{glottoname3|}}}|&nbsp; {{nowrap|({{{glottoname3}}})}}}}{{#ifeq:{{{glottofoot|}}}|no||{{#tag:ref|{{Glottolog|{{{glotto3}}}|{{{glottorefname3|{{{glottoname3|{{{name}}}}}}}}}}}|name="Glottolog3"}}}}}}<!--
+-->{{#if:{{{glotto4|}}}|{{#if:{{{glotto3|}}}|<br />|<!--no break-->}}<code>{{glottolink|{{{glotto4}}}}}</code>{{#if:{{{glottoname4|}}}|&nbsp; {{nowrap|({{{glottoname4}}})}}}}{{#ifeq:{{{glottofoot|}}}|no||{{#tag:ref|{{Glottolog|{{{glotto4}}}|{{{glottorefname4|{{{glottoname4|{{{name}}}}}}}}}}}|name="Glottolog4"}}}}}}<!--
+-->{{#if:{{{glotto5|}}}|{{#if:{{{glotto4|}}}|<br />|<!--no break-->}}<code>{{glottolink|{{{glotto5}}}}}</code>{{#if:{{{glottoname5|}}}|&nbsp; {{nowrap|({{{glottoname5}}})}}}}{{#ifeq:{{{glottofoot|}}}|no||{{#tag:ref|{{Glottolog|{{{glotto5}}}|{{{glottorefname5|{{{glottoname5|{{{name}}}}}}}}}}}|name="Glottolog5"}}}}}}
+
+| label32 = [[Australian Institute of Aboriginal and Torres Strait Islander Studies|AIATSIS]]{{#if:{{{aiatsis|}}}|{{#tag:ref|{{AIATSIS|{{{aiatsis|}}}|{{{aiatsisname|{{{name}}}}}}|{{{aiatsis2|}}}}}|name="AIATSIS"}}}}
+| data32 = {{#if:{{{aiatsis|}}}|<code>[http://austlang.aiatsis.gov.au/main.php?code={{{aiatsis}}} {{{aiatsis}}}]</code>{{#if:{{{aiatsisname|}}}|&nbsp;{{{aiatsisname}}}}} }}{{#if:{{{aiatsis2|}}}|, <code>[http://austlang.aiatsis.gov.au/main.php?code={{{aiatsis2}}} {{{aiatsis2}}}]</code>{{#if:{{{aiatsisname2|}}}|&nbsp;{{{aiatsisname2}}}}} }}{{#if:{{{aiatsis3|}}}|, <code>[http://austlang.aiatsis.gov.au/main.php?code={{{aiatsis3}}} {{{aiatsis3}}}]</code>{{#if:{{{aiatsisname3|}}}|&nbsp;{{{aiatsisname3}}}}} }}{{#if:{{{aiatsis4|}}}|, <code>[http://austlang.aiatsis.gov.au/main.php?code={{{aiatsis4}}} {{{aiatsis4}}}]</code>{{#if:{{{aiatsisname4|}}}|&nbsp;{{{aiatsisname4}}}}} }}{{#if:{{{aiatsis5|}}}|, <code>[http://austlang.aiatsis.gov.au/main.php?code={{{aiatsis5}}} {{{aiatsis5}}}]</code>{{#if:{{{aiatsisname5|}}}|&nbsp;{{{aiatsisname5}}}}} }}{{#if:{{{aiatsis6|}}}|, <code>[http://austlang.aiatsis.gov.au/main.php?code={{{aiatsis6}}} {{{aiatsis6}}}]</code>{{#if:{{{aiatsisname6|}}}|&nbsp;{{{aiatsisname6}}}}} }}
+
+| label33 = {{allow wrap|{{longitem|[[Guthrie classification of Bantu languages|Guthrie code]]}}}}
+| data33 = {{#if:{{{guthrie|}}}|<code>{{{guthrie}}}</code><ref name="Guthrie">Jouni Filip Maho, 2009. [http://goto.glocalnet.net/mahopapers/nuglonline.pdf New Updated Guthrie List Online]</ref>}}
+
+| label34 = [[Obserbatoryu Linggwaspera|Linggwaspera]]
+| data34 = {{#if:{{{lingua|}}}|<code>{{{lingua}}}</code>}}
+
+| label35 = [[IETF language tag|IETF]]
+| data35 = {{#if:{{{ietf|}}}|<code>{{{ietf}}}</code>{{Main other|[[Category:Language articles with IETF language tag]]}}}}
+
+| data36 = {{#if:{{{map|}}}
+  |{{#invoke:InfoboxImage|InfoboxImage|image={{{map}}}|size={{{mapsize|}}}|sizedefault=220px|alt={{{mapalt|}}}}}{{#if:{{{mapcaption|}}}|<div style="text-align:left;">{{{mapcaption}}}</div>}}
+  }}
+
+| data37 = {{#if:{{{map2|}}}
+  | {{#invoke:InfoboxImage|InfoboxImage|image={{{map2}}}|size={{{mapsize|}}}|sizedefault=220px|alt={{{mapalt2|}}}}}{{#if:{{{mapcaption2|}}}|<div style="text-align:left;">{{{mapcaption2}}}</div>}}
+  }}
+
+<!--------------------------------------------------------->
+| belowclass = noprint selfref
+| belowstyle = background-color:#ddddff;padding:0.3em 0.5em;text-align:left;line-height:1.3;
+| below = {{#ifeq:{{lc:{{{notice|{{{notice2|}}}}}}}}|ipa
+  |'''This article contains [[International Phonetic Alphabet|IPA]] phonetic symbols.''' Without proper [[International Phonetic Alphabet#Technical note|rendering support]], you may see [[mojibake|question marks, boxes, or other symbols]] instead of [[Unicode]] characters.
+  }}
+
+}}<!--
+---- Adding tracking categories ----
+ Note 1: Above in this code, already tracking [[Category:...]]'s may be added.
+ Note 2: All categories are using {{main other|[[Cat:...]}}.
+-->{{main other|<!--
+-->{{#if:{{Infobox language/family-color|{{{familycolor|}}}}}{{{signers|}}}{{{creator|}}}||[[Category:Languages without family color codes]]}}<!--
+-->{{#if:{{{extinct|}}}{{{era|}}}{{{signers|}}}{{{speakers|}}}{{{creator|}}}{{{setting|}}}||<!-- no main input for data7 -->[[Category:Language articles without speaker estimate]]}}<!-- 
+-->{{#ifeq:{{{speakers|}}}|?|{{#if:{{{iso3|}}}{{{lc1|}}}|{{#ifeq:{{{iso3|}}}|none|<!-- ok -->|{{#ifeq:{{{ref|}}}|e18|<!-- ok -->|[[Category:Language articles with unknown population not citing Ethnologue 18]]}}}}}}}}<!--
+-->{{#ifeq:{{lc:{{{iso3|}}}}}|none|{{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}|[[Category:Conlangs without ISO 639-3 code]]}}}}<!--
+-->{{#if:{{{date|}}}|{{#iferror: {{#expr: {{padleft:|4|{{{date}}}|}} }} |<!--
+   -->{{#switch: {{lc:{{{date}}}}}
+   | na       = [[Category:Language articles with NA population dates]]
+   | no date  = [[Category:Language articles with 'no date' set]]
+   | #default = [[Category:Language articles with invalid population dates]]<!--
+   -->}}|<!-- no error -->}}|<!-- no date -->}}<!--
+-->{{#if:{{{iso3|}}}|<!--ok-->|{{#if:{{{lc1|}}}|<!--ok-->|<!--
+    -->{{#switch: {{lc:{{{isoexception}}}}}
+    | dialect       = [[Category:Dialects of languages with ISO 639-3 code]]
+    | historical    = [[Category:Historical forms of languages with ISO codes]]
+    | protolanguage = [[Category:Protolanguages without ISO codes]]
+    | talkpage = 
+    |}}}}}}<!--
+-->{{#ifeq:{{{iso3|}}}|none|{{#if:{{{glotto|}}}|<!--ok-->|{{#if:{{{linglist|}}}|<!--ok-->|{{#if:{{{lingua|}}}|<!--ok-->|{{#if:{{{aiatsis|}}}|<!--ok-->|{{#if:{{{guthrie|}}}|<!--ok-->|{{#if:{{{creator|}}}|<!--ok-->|{{#if:{{{created|}}}|<!--ok-->|[[Category:Languages without ISO 639-3 code]]}}}}}}}}}}}}}}}}<!--
+-->{{#if:{{{iso3|}}}{{{lc1|}}}{{{glotto|}}}{{{glotto2|}}}{{{glotto3|}}}{{{glotto4|}}}{{{glotto5|}}}{{{linglist|}}}{{{lingua|}}}{{{aiatsis|}}}{{{guthrie|}}}{{{isoexception|}}}|<!--ok-->|[[Category:Language articles without language codes]]}}<!--
+-->{{#if:{{{lc1|}}}|{{#if:{{{lc2|}}}|<!--ok-->|[[Category:Languages which need ISO 639-3 comment]]}}}}<!--
+-->{{#ifeq:{{{iso3|}}}|none|{{#ifeq:{{{ref|}}}|e18|[[Category:Nonexistent E18 links]]}}}}<!--
+-->{{#ifeq:{{{iso3|}}}|none|{{#if:{{{linglist|}}}|{{#ifeq:{{{isoexception|}}}|dialect|[[Category:Dialects with Linguist List code]]|[[Category:Languages without ISO 639-3 code but with Linguist List code]]}}}}<!--
+-->{{#ifeq:{{{glotto|}}}|none|<!--ok-->||{{#if:{{{glotto|}}}|[[Category:Languages without ISO 639-3 code but with Glottolog code]]}}}}<!--
+-->{{#if:{{{lingua|}}}|[[Category:Languages without ISO 639-3 code but with Linguasphere code]]}}<!--
+-->{{#if:{{{aiatsis|}}}|[[Category:Languages without ISO 639-3 code but with AIATSIS code]]}}<!--
+-->{{#if:{{{guthrie|}}}|[[Category:Languages without ISO 639-3 code but with Guthrie code]]}}}}<!--
+-->{{#if:{{{iso3|}}}|<!--okay-->|{{#if:{{{lc1|}}}|<!--ok-->|{{#if:{{{linglist|}}}|{{#ifeq:{{{isoexception|}}}|dialect|[[Category:Dialects with Linguist List code]]|[[Category:Languages without ISO 639-3 code but with Linguist List code]]}}}}<!--
+-->{{#ifeq:{{{glotto|}}}|none|<!--ok-->|{{#if:{{{glotto|}}}|[[Category:Languages without ISO 639-3 code but with Glottolog code]]}}}}<!--
+-->{{#if:{{{lingua|}}}|[[Category:Languages without ISO 639-3 code but with Linguasphere code]]}}<!--
+-->{{#if:{{{aiatsis|}}}|[[Category:Languages without ISO 639-3 code but with AIATSIS code]]}}<!--
+-->{{#if:{{{guthrie|}}}|[[Category:Languages without ISO 639-3 code but with Guthrie code]]}}}}}}<!--
+-->{{#if:{{{glotto|}}}|{{#if:{{{glottorefname|}}}{{{glottoname|}}}|<!--ok-->
+   |{{#switch: {{lc:{{{glotto}}}}} |none = |spurious = 
+   |#default = [[Category:Articles with unnamed Glottolog code]]}}}}}}<!--
+-->{{#if:{{{glotto2|}}}|{{#if:{{{glottoname2|}}}{{{glottorefname2|}}}|<!--ok-->|[[Category:Articles with unnamed Glottolog code]]}}}}<!--
+-->{{#if:{{{glotto3|}}}|{{#if:{{{glottoname3|}}}{{{glottorefname3|}}}|<!--ok-->|[[Category:Articles with unnamed Glottolog code]]}}}}<!--
+-->{{#if:{{{glotto4|}}}|{{#if:{{{glottoname4|}}}{{{glottorefname4|}}}|<!--ok-->|[[Category:Articles with unnamed Glottolog code]]}}}}<!--
+-->{{#if:{{{glotto5|}}}|{{#if:{{{glottoname5|}}}{{{glottorefname5|}}}|<!--ok-->|[[Category:Articles with unnamed Glottolog code]]}}}}<!--
+-->{{#ifeq:{{Chr|{{{map|}}}|1}}|[|[[Category:Ill-formatted infobox-language images]]|<!--ok-->}}<!--
+-->{{#ifeq:{{Chr|{{{map2|}}}|1}}|[|[[Category:Ill-formatted infobox-language images]]|<!--ok-->}}<!--
+-->{{#ifeq:{{Chr|{{{image|}}}|1}}|[|[[Category:Ill-formatted infobox-language images]]|<!--ok-->}}<!--
+-->{{#if:{{{iso2|}}}{{{iso2b|}}}{{{iso2t|}}}|[[Category:Languages with ISO 639-2 code]]|<!--ok-->}}<!--
+-->{{#if:{{{iso1|}}}|[[Category:Languages with ISO 639-1 code]]|<!--ok-->}}<!--
+-->{{#if:{{{speakers|}}}|{{#ifeq:{{{speakers|}}}|?|{{#if:{{{ref|}}}|[[Category:Language articles with speakers set to 'unknown' despite a reference]]|{{#ifeq:{{{isoexception|}}}|dialect|[[Category:Dialect articles with speakers set to 'unknown']]|[[Category:Language articles with speakers set to 'unknown']]}}}}|{{#ifeq:{{{speakers|}}}|none|{{#ifeq:{{lc:{{{familycolor|}}}}}|pidgin|<!--ok: pidgins don't have native speakers-->|[[Category:Language articles with speakers set to 'none']]}}|{{#if:{{{ref|}}}|<!--ok-->|[[Category:Language articles without reference field]]}}}}}}}}<!--
+-->{{#if:{{{extinct|}}}{{{era|}}}|{{#if:{{{ref|}}}|<!--ok-->|{{#ifeq:{{{extinct}}}|?|<!--ok-->|[[Category:Language articles with unreferenced extinction date]]}}}}}}<!--
+-->{{#if:{{{glotto|}}}{{{glotto2|}}}{{{glotto3|}}}{{{glotto4|}}}{{{glotto5|}}}|<!--ok-->|[[Category:Language articles missing Glottolog code]]}}<!--
+-->{{#ifeq:{{{iso3|}}}|none|{{#ifeq:{{{glotto|}}}|none|[[Category:Languages with neither ISO nor Glottolog code]]}}}}<!--
+-->{{#ifeq:{{{iso3|}}}|none||{{#if:{{{iso3|}}}{{{lc1|}}}|{{#if:{{{ref|}}}|{{#switch: {{{ref}}} | e18 = | e17 = | e16 = | e15 = | e14 = | e13 = | e12 = | e11 = | e10 = | e09 = | e08 = | ne2007 = [[Category:Articles citing Nationalencyklopedin]] | ne2010 = [[Category:Articles citing Nationalencyklopedin]] | inali = [[Category:Articles citing INALI]] | linglist = [[Category:Articles citing Linguist List]] | aiatsis= [[Category:Articles citing AIATSIS]] | guthrie = [[Category:Articles citing Maho/Guthrie]] | &nbsp; = [[Category:Articles opting out of population reference]] | {{#if:{{{extinct|}}}{{{era|}}}|[[Category:Extinct ISO language articles citing sources other than Ethnologue]]|[[Category:ISO language articles citing sources other than Ethnologue]]}}}}}}}}}}<!--
+-->{{#invoke:Check for unknown parameters|check|unknown=[[Category:Language articles with unsupported infobox fields|_VALUE_]]
+|name|altname|nativename|acceptance|pronunciation
+|states|state|region
+|latd|latm|latNS|longd|longm|longEW
+|ethnicity|speakers|speakers2|extinct|era|revived|revived-cat
+|date|dateprefix|ref
+|familycolor|fam1|fam2|fam3|fam4|fam5|fam6|fam7|fam8|fam9
+|fam10|fam11|fam12|fam13|fam14|fam15|family
+|ancestor|ancestor2|ancestor3|ancestor4|ancestor5|protoname
+|creator|created|setting|posteriori
+|dialects|dia1|dia2|dia3|dia4|dia5|dia6|dia7|dia8|dia9|dia10
+|dia11|dia12|dia13|dia14|dia15|dia16|dia17|dia18|dia19|dia20
+|stand1|stand2|stand3|stand4|stand5|stand6|standards
+|script|sign
+|nation|minority|agency
+|iso1|iso2|iso2b|iso2t|iso3|iso2comment|iso3comment|isoexception|iso6|ietf
+|lc1|ld1|lc2|ld2|lc3|ld3|lc4|ld4|lc5|ld5|lc6|ld6|lc7|ld7|lc8|ld8|lc9|ld9|lc10|ld10
+|lc11|ld11|lc12|ld12|lc13|ld13|lc14|ld14|lc15|ld15|lc16|ld16|lc17|ld17|lc18|ld18|lc19|ld19|lc20|ld20
+|lc21|ld21|lc22|ld22|lc23|ld23|lc24|ld24|lc25|ld25|lc26|ld26|lc27|ld27|lc28|ld28|lc29|ld29|lc30|ld30
+|linglist|lingname|linglist2|lingname2|linglist3|lingname3|linglist4|lingname4|linglist5|lingname5
+|lingua|guthrie
+|aiatsis|aiatsis2|aiatsis3|aiatsis4|aiatsis5|aiatsis6
+|aiatsisname|aiatsisname2|aiatsisname3|aiatsisname4|aiatsisname5|aiatsisname6
+|glotto|glotto2|glotto3|glotto4|glotto5
+|glottoname|glottoname2|glottoname3|glottoname4|glottoname5
+|glottorefname|glottorefname2|glottorefname3|glottorefname4|glottorefname5
+|glottofoot
+|image|imagesize|imagealt|imagecaption|imageheader
+|map|mapsize|mapalt|mapcaption|map2|mapalt2|mapcaption2|boxsize
+|notice|notice2
+}}<!--
+ Close wrapping {{main other}} for the categories:
+-->}}<noinclude>
+{{documentation}}
+</noinclude>
