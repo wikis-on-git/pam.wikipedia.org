@@ -1,0 +1,14 @@
+{{Documentation subpage}}
+<!-- Categories and interwikis go at the bottom of this page. -->
+
+=== Usage ===
+This is a subtemplate of {{tlx|Infobox language}}. It returns a background color name (e.g. {{code|pink}} or {{code|<nowiki>#c0dde6</nowiki>}}) for any language family name entered. Family names and their background colors are shown in the quilt table below.
+
+If no language family name is entered, or the input name is not recognised, a "" (blank) will be returned (resulting in a "transparent" background color), and the page will be added to [[:Category:Languages without family color codes]].
+
+===Color overview===
+{{Infobox language/quilt}}
+{{clear}}
+===See also===
+* {{tlx|Infobox language family}}
+* [[:Category:Languages without family color codes]]
