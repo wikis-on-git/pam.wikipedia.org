@@ -1,0 +1,34 @@
+{|style="text-align:center; margin:0;"
+<!-- Colour codes for language families and groups: [[Wikipedia:WikiProject Languages -->
+|colspan="21" bgcolor="{{Infobox language/family-color|Afro-Asiatic}}"|{{Infobox language/genetic |Afro-Asiatic}}
+|colspan="21" bgcolor="{{Infobox language/family-color|Nilo-Saharan}}"|{{Infobox language/genetic |Nilo-Saharan}}
+|colspan="21" bgcolor="{{Infobox language/family-color|Niger-Congo}}"|{{Infobox language/genetic |Niger-Congo}}
+|colspan="21" bgcolor="{{Infobox language/family-color|Khoisan}}"|[[Khoisan languages|Khoisan (areal)]]
+|-
+|colspan="14" bgcolor="{{Infobox language/family-color|Indo-European}}"|{{Infobox language/genetic |Indo-European}}
+|colspan="14" bgcolor="{{Infobox language/family-color|Caucasian}}"|[[Caucasian languages|Caucasian (areal)]]
+|colspan="14" bgcolor="{{Infobox language/family-color|Uralic}}"|{{Infobox language/genetic |Uralic}}
+|colspan="14" bgcolor="{{Infobox language/family-color|Dravidian}}"|{{Infobox language/genetic |Dravidian}}
+|colspan="14" bgcolor="{{Infobox language/family-color|Altaic}}"|[[Altaic languages|Altaic (areal)]]
+|colspan="14" bgcolor="{{Infobox language/family-color|Paleosiberian}}"|[[Paleosiberian languages|Paleosiberian (areal)]]
+|-
+|colspan="12" bgcolor="{{Infobox language/family-color|Sino-Tibetan}}"|{{Infobox language/genetic |Sino-Tibetan}}
+|colspan="12" bgcolor="{{Infobox language/family-color|Hmong-Mien}}"|{{Infobox language/genetic |Hmong-Mien}}
+|colspan="12" bgcolor="{{Infobox language/family-color|Tai–Kadai}}"|{{Infobox language/genetic |Tai–Kadai}}
+|colspan="12" bgcolor="{{Infobox language/family-color|Austro-Asiatic}}"|{{Infobox language/genetic |Austro-Asiatic}}
+|colspan="12" bgcolor="{{Infobox language/family-color|Austronesian}}"|{{Infobox language/genetic |Austronesian}}
+|colspan="12" bgcolor="{{Infobox language/family-color|Papuan}}"|[[Papuan languages|Papuan (areal)]]
+|colspan="12" bgcolor="{{Infobox language/family-color|Australian}}"|[[Australian Aboriginal languages|Australian (areal)]]
+|-
+|colspan="28" bgcolor="{{Infobox language/family-color|Eskimo-Aleut}}"|{{Infobox language/genetic |Eskimo-Aleut}}
+|colspan="28" bgcolor="{{Infobox language/family-color|Na-Dené}}"|[[Na-Dené]] (& [[Dené-Yeniseian]])
+|colspan="28" bgcolor="{{Infobox language/family-color|American}}"|[[Indigenous languages of the Americas|American (areal)]]
+|-
+|colspan="17" bgcolor="{{Infobox language/family-color|Creole}}"|{{Infobox language/genetic |Creole}}/{{Infobox language/genetic |Pidgin}}/{{Infobox language/genetic |Mixed}}
+|colspan="17" bgcolor="{{Infobox language/family-color|Isolate}}"|{{Infobox language/genetic |Isolate}}
+|colspan="17" bgcolor="{{Infobox language/family-color|Sign}}"|{{Infobox language/genetic |Sign}}
+|colspan="17" bgcolor="{{Infobox language/family-color|Conlang}}"|<font style="color:white; background-color:black">{{Infobox language/genetic |Conlang}}</font>
+|colspan="16" bgcolor="{{Infobox language/family-color|unclassified}}"|{{Infobox language/genetic |unclassified}}
+|}
+<noinclude>{{documentation}}
+</noinclude>
