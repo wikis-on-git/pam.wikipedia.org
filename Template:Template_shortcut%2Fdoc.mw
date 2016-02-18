@@ -1,0 +1,59 @@
+{{Documentation subpage}}
+{{tsh|tsh}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+This template shows shortcuts (= redirects) to a template, like the box appearing at the right. {{tl|Tsh}} is a shortcut to {{<nowiki />template shortcut}}.
+
+== Usage ==
+
+===Which to show?===
+Although the template can show up to ten aliases, editors are ''encouraged to choose well'' which ones to display. Even if many redirects exist, ''two or three at the most'' is almost always enough, and by keeping the number small, it facilitates remembering them, and the situation is kept well organized. 
+
+List others in the "aliases" section of the [[Wikipedia:Template documentation|template documentation]]. Again, not all of them need to be listed; some shortcuts are there just for historical reasons, and others differ only in whitespaces or in capitalization. Such names are usually better to hide.
+
+Place this template at the top of the template documentation page.
+
+===Optional parameters===
+This template has several optional parameters:
+* '''float''' – if set to "left", then the box will float to the left of the page, instead of the default float "right".
+* '''clear''' – if set to "right" (and float = right) the box will be pushed to the right margin of the page, and prevent it from nest to the left of other right floating elements.  Similarly, if set to "left" (and float = left) the box will be pushed to the left margin of the page.
+* '''pre, pre2, pre3 ... up to pre10''' – can be used to show some text before the shortcut links, but within the braces. This is mostly used to indicate that the template should be used with substitution.
+* '''top''' – to change the padding above the box (e.g. {{para|top|0}} for no padding, {{para|top|0.2em}}, {{para|top|4}}{{\}}{{para|top|4px}}).
+
+==Examples==
+
+===Basic===
+For one template shortcut named {{tl|uw-v1}}: 
+
+{{tlc|template shortcut|uw-v1}}
+{{template shortcut|uw-v1}}
+{{clear}}
+
+To indicate that {{tl|uw-vandalism1}} has three shortcuts named: {{tl|uw-v1}}, {{tl|uw-vand1}}, and {{tl|uw-vandal1}}; then the following code may be used:
+
+{{tlc|template shortcut|uw-v1|uw-vand1|uw-vandal1}}
+{{template shortcut|uw-v1|uw-vand1|uw-vandal1}}
+{{clear}}
+
+=== With additional parameters ===
+Using {{para|float|<var>left</var>}} makes this template flow to the left of the page:
+
+<code><nowiki>{{template shortcut|float=left|uw-v1}}</nowiki></code>
+{{template shortcut|float=left|uw-v1}}
+{{clear}}
+
+Using {{para|pre2|<var>subst:</var>}} and {{para|pre3|<var>subst:</var>}} will show "subst:" before the shortcut links, but within the braces. For example: 
+
+<code><nowiki>{{template shortcut|uw-v1|pre2=subst:|uw-vand1|pre3=subst:|uw-vandal1}}</nowiki></code>
+{{template shortcut|uw-v1|pre2=subst:|uw-vand1|pre3=subst:|uw-vandal1}}
+{{clear}}
+
+== See also ==
+* {{tl|shortcut}}, the standard shortcut notice.
+** {{tl|shortcut-l}} for a left-aligned standard shortcut notice.
+* {{tl|policy shortcut}} for shortcuts to sections of policy pages.
+
+<includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox||
+<!----CATEGORIES BELOW THIS LINE, PLEASE:---->
+[[Category:Disambiguation and redirection templates]]
+[[Category:Template documentation]]
+}}</includeonly>
