@@ -83,7 +83,7 @@
 | label33    = Headquarters
 | class33    = label
 | data33     = {{{headquarters|}}}
-| label34    = [[Newspaper circulation|Circulation]]
+| label34    = [[Newspaper circulation|Sirkulasyon]]
 | data34     = {{{circulation|}}}{{#if:{{{circulation_date|}}}| &#32;(as of {{{circulation_date}}}) }}{{{circulation_ref|}}}
 | label35    = Readership
 | data35     = {{{readership|}}}
