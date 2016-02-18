@@ -200,7 +200,7 @@ Add speakers2 after the ref:
 | label18 = {{longitem|class=nowrap|Kebaluang menoridad<br />a pamyalita&nbsp;king}}
 | data18 = {{#if:{{{minority|}}} |<div style="<!--label17 above almost always linewraps, so:-->vertical-align:middle;">{{{minority}}}</div>}}
 
-| label19 = [[List of language regulators|Panibala&nbsp;ne ning]]
+| label19 = [[List of language regulators|Panibalan&nbsp;ning]]
 | data19 = {{{agency|{{#ifexpr:{{#if:{{{agency|}}}|1|0}} and {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|Default}}}}}|black|1}}|1|0}}
   | ''None''
 <!--  | {{#if:{{{nation|}}}|''Ala yang regulasyong opisyal''}} [this ends up claiming that languages have no regulation just cuz no-one bothered to add the regulator -->
