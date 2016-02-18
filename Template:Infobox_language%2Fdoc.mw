@@ -1,0 +1,1831 @@
+{{Documentation subpage}}
+<!-- Categories go at the bottom of this page and interwikis go in Wikidata. -->
+{{intricate template}}
+{{lua|Module:InfoboxImage|Module:Check for unknown parameters}}
+
+This template is for use in articles about '''[[languages]] or [[dialects]]'''. It provides a common standard for displaying data about a language.
+
+=== Usage ===
+This template accepts the following parameters:
+;name:name of language #REQUIRED
+;altname:additional name of the language
+;nativename:native or a second additional name
+;pronunciation:IPA pronunciation of the native name
+;acceptance:questionable acceptance/status of the language: unattested, spurious, etc.
+;states:countries in which it is mainly spoken
+;state:alias for '''states'''
+;region:geographic region in which it is mainly spoken
+;latd:latitude degrees
+;latm:latitude minutes
+;latNS:latitude direction
+;longd:longitude degrees
+;longm:longitude minutes
+;longEW:longitude direction
+;ethnicity:people for whom this is the ethnically native language; also good for the ethnic population if different from the number of speakers (although the names chosen for the articles on the people and on the language will generally be the same, it may be appropriate to pipe in the native name of the people here)
+;speakers:{{tlx|sigfig|number of native speakers/signers|2}}
+;date:date of estimate of number of speakers/signers (must start with a 4-digit year: see next)
+;dateprefix:any text wanted inside the parentheses before the date; a space ({{code|&nbsp;}}) must be explicitly included at the end
+;era:era of use of a historical language, such as one that developed into something else; 'speakers' will not display
+;extinct:date of extinction, or information about extinction; 'speakers' will not display
+;revived:Date and/or population of attempted revival of extinct language
+;revived-category: optional name (without "Category:") of appropriate subcategory of [[:Category:Language revival]] (which is used by default if {{para|revived}} has a value); or <code>nocat</code> to suppress categorization
+;ref:reference for the number of speakers/signers. Appears after the (date) field.
+;speakers2:2nd line (2nd estimate, 2nd country, L2 speakers, etc.)
+;familycolor:appropriate language family #REQUIRED
+:See table below for list of options. Please do not use other names, because they will not be recognised, and the table will be colored grey.
+:In most cases, 'familycolor' will trigger a default entry for the 'fam1' field, so that field is not necessary (you can continue will 'fam2'), but you can override this by entering something under 'fam1'. For areal colors (American, Khoisan, Paleosiberian, etc.), you will be prompted for a 'fam1' entry if you do not provide one. If 'isolate' or 'unclassified' is used, the fam1–xx tree will not display.
+;fam1:the broadest possible widely accepted [[language family]] of which the language is a part
+;fam2:a more specific sub-family
+;...
+;fam15:most specific sub group
+;family:whatever you want to say; fam1–xx will not display
+;ancestor:ancestral or reconstructed forms
+;ancestor2
+;...
+;ancestor5:intermediate forms
+;protoname:alias for ancestor
+;creator:name of language creator
+;created:year of first creation
+;setting:the use or setting for a created language
+;posteriori:natural-language sources of a created language
+;dia1:
+;...
+;dia20:primary dialects
+;dialects:whatever you want to say
+;stand1:a standardized register
+;stand2:a second standardized register
+;...
+;stand6:sixth standardized register
+;standards:whatever you want to say
+;script:the writing system(s) used for the language by literate speakers
+;sign:signed forms (manually coded language)
+;nation:list of countries in which it is an official language
+;minority:list of countries in which it is a recognised/protected minority language
+;agency:regulatory body or language academy for the language
+;iso1:the ISO 639-1 code for the language
+;iso2:the ISO 639-2 code for the language (not for its family)
+;iso2b:the ISO 639-2 bibliographic code
+;iso2t:the ISO 639-2 terminological code
+;iso2comment:for comments to not interfere with the link
+;iso3:the ISO 639-3 code for the language.
+:Field will display even if left empty, unless 'lc1' etc. is used.
+:Use 'none' if the language (not dialect) has no iso3 code, and the article will be added to [[:Category:Languages without iso3 codes]].
+:Use 'linglist' if it has an iso3 code, but this is maintained at Linguist List instead of at SIL. Add the code itself under |linglist=
+:(This is not necessary if the SIL page provides its own link to the Linguist List page.)
+;iso3comment:for comments to not interfere with the link
+;isoexception:a maintenance field to organize cleanup categories (see below).
+:currently excludes article from general missing-ISO category if set to 'dialect', 'historical', 'protolanguage', or 'talkpage'.
+;lc1:ISO code of the first dialect (the 'iso3' field will not display if empty and this is included)
+;ld1:name of the first language dialect
+;lc2:ISO code of the second dialect
+;ld2:name of the second language dialect
+:...
+;lc30:ISO code of the 30–th dialect
+;ld30:name of the 30–th dialect
+;iso6:the ISO 639-6 code for the language.
+;linglist:a private or local Linguist List ISO 639-3 code or substitute for an ISO code; use xxx-xxx format for dialects.
+:Use for code range qaa–qtz or those involving numerals only; enter other codes under 'iso3' and the reader will be redirected from Ethnologue.
+;lingname:comment on the Linguist List code or support
+;linglist2
+;linglist3:additional Linguist List codes
+;lingname2
+;lingname3:additional comments. (If Linguist List has redundant codes, write to them, and they will likely retire them.)
+;lingua:the Linguasphere code for the language
+;glotto2
+;...
+;glotto5:the Glottolog code(s) for the language
+;glottoname2
+;...
+;glottoname5:the Glottolog name(s) for the language; appears in both the info box and the footnote
+;glottorefname2
+;...
+;glottorefname5:the Glottolog name(s) for the language; appears only in the footnote
+;glottofoot:set to "no" to hide the Glottolog footnotes
+;guthrie:the Guthrie code for Bantu languages
+;aiatsis:the AIATSIS code for Australian languages (linked)
+;aiatsis2
+;...
+;aiatsis8:additional AIATSIS codes
+;aiatsisname2
+;...
+;aiatsisname8:name of code, if not that of the info box, or note to appear after code
+;ietf:[[IETF language tag]]
+;image:image at top of info box. Use format "image name.png", without "file/image" or brackets.
+;imagesize:override default image size (currently 200px). Use units ("123px", "12em")
+;imagealt:alt text for the image
+;imagecaption:caption to appear under image
+;imageheader:brief header for image (appears in the left-hand column)
+;map:image at bottom of info box. Use format "image name.png", without "file/image" or brackets.
+;mapsize:override default map size (currently 220px). Use units ("123px", "12em"). Affects both maps.
+;mapalt:alt text for the map
+;mapcaption:caption to appear under map
+;map2:a second map
+;mapalt2:alt text for the second map
+;mapcaption2:caption to appear under both maps
+;boxsize:overrides default width of infobox, currently set at 22em. Format must include units ("12em" or "123px").
+:Useful when an article has various infoboxes aligned in a column. (Box will automatically expand to fix map wider than default box width.)
+;notice
+;notice2:IPA/ipa [adds notice for IPA notation], Indic [same for Indic scripts]
+
+== Syntax ==
+<pre style="overflow:auto;">
+{{Infobox language
+| name          =
+| altname       =
+| nativename    =
+| pronunciation =
+| states (state) =
+| region        =
+| latd  = | latm  = | latNS  = <!-- latitude degrees/minutes/direction -->
+| longd = | longm = | longEW = <!-- longitude degrees/minutes/direction -->
+| ethnicity     =
+| speakers      =
+| extinct       =
+| revived       =
+| revived-cat   =
+| era           =
+| date          =
+| dateprefix    =
+| ref           =
+| speakers2     =
+| familycolor   =
+| fam1          =
+| fam2          =
+| fam15         =
+| family        =
+| ancestor(2/3) =
+| creator       =
+| created       =
+| setting       =
+| posteriori    =
+| dia1          =
+| dia2          =
+| dialects      =
+| sign          =
+| stand1        =
+| stand2        =
+| standards     =
+| script        =
+| nation        =
+| minority      =
+| agency        =
+| iso1          =
+| iso2          =
+| iso2b         =
+| iso2t         = 
+| iso3          =
+| iso3comment   =
+| isoexception  =
+| lc1           =
+| ld1           =
+| lc2           =
+| ld2           =
+| iso6          =
+| glotto        =
+| glottoname    =
+| glotto2–5     =
+| glottoname2–5 =
+| linglist      =
+| lingname      =
+| linglist2/3   =
+| lingname2/3   =
+| lingua        =
+| guthrie       =
+| aiatsis       =
+| aiatsisname   =
+| aiatsis2–8    =
+| aiatsisname2–8 =
+| ietf =
+| image         =
+| imagesize     =
+| imagealt      =
+| imagecaption  =
+| imageheader   =
+| map           =
+| mapsize       =
+| mapalt        =
+| mapcaption    =
+| map2          =
+| mapalt2       =
+| mapcaption2   =
+| boxsize       =
+| notice        = 
+| notice2       = 
+}}
+</pre>
+
+== Example ==
+{{Infobox language
+| name = English
+| pronunciation = {{IPAc-en|ˈ|ɪ|ŋ|ɡ|l|ɪ|ʃ}}<ref>[http://www.oxfordadvancedlearnersdictionary.com/dictionary/english_2 English Adjective] – Oxford Advanced Learner's Dictionary – Oxford University Press ©2010.</ref> |region = (see [[#Geographical distribution|below]])
+| speakers = 360&nbsp;million
+| date = 2010
+| dateprefix = cited&nbsp;
+| ref = <ref name=NE>[[Nationalencyklopedin]] "Världens 100 största språk 2010" The World's 100 Largest Languages in 2010</ref>
+| speakers2 = [[Second language|L2]]: 375&nbsp;million and 750 million [[English as a foreign or second language|EFL]]<ref name=BritishCouncilEnglish>{{cite web |url=http://www.britishcouncil.org/learning-elt-future.pdf |title=Future of English|accessdate=24 August 2011 |publisher=The British Council}} (page 10)</ref>
+| familycolor = Indo-European
+| fam2 = [[Germanic languages|Germanic]]
+| fam3 = [[West Germanic languages|West Germanic]]
+| fam4 = [[Anglo-Frisian languages|Anglo–Frisian]]
+| fam5 = [[English languages|Anglic]]
+| sign = [[Manually coded English]]
+| script = [[English alphabet]] ([[Latin script]])
+| nation = {{plainlist|
+* [[List of countries where English is an official language#Sovereign states|54 countries]]
+* [[List of countries where English is an official language#Non-sovereign entities|27 non-sovereign entities]]
+* [[United Nations]]
+* [[European Union]]
+* [[Commonwealth of Nations]]
+* [[Council of Europe]]
+* [[International Olympic Committee|IOC]]
+* [[NATO]]
+* [[North American Free Trade Agreement|NAFTA]]
+* [[Organization of American States|OAS]]
+* [[Organisation for Economic Co-operation and Development|OECD]]
+* [[Organisation of Islamic Cooperation|OIC]]
+* [[Pacific Islands Forum|PIF]]
+* [[UKUSA Agreement]]}}
+| iso1 = en
+| iso2 = eng
+| iso3 = eng
+| lingua = 52-ABA
+| map = Anglospeak.svg
+| mapcaption = {{legend|#0000ff|Countries where English is the native language of the majority of the population}} {{legend|#8ddada|Countries where English is an official but not primary language}}
+| notice = IPA
+}}
+<pre style="overflow:auto;">
+{{Infobox language
+| name = English
+| pronunciation = {{IPAc-en|ˈ|ɪ|ŋ|ɡ|l|ɪ|ʃ}}<ref>[http://www.oxfordadvancedlearnersdictionary.com/dictionary/english_2 English Adjective] – Oxford Advanced Learner's Dictionary – Oxford University Press ©2010.</ref> |region = (see [[#Geographical distribution|below]])
+| speakers = 360&nbsp;million
+| date = 2010
+| dateprefix = cited&nbsp;
+| ref = <ref name=NE>[[Nationalencyklopedin]] "Världens 100 största språk 2010" The World's 100 Largest Languages in 2010</ref>
+| speakers2 = [[Second language|L2]]: 375&nbsp;million and 750 million [[English as a foreign or second language|EFL]]<ref name=BritishCouncilEnglish>{{cite web |url=http://www.britishcouncil.org/learning-elt-future.pdf |title=Future of English|accessdate=24 August 2011 |publisher=The British Council}} (page 10)</ref>
+| familycolor = Indo-European
+| fam2 = [[Germanic languages|Germanic]]
+| fam3 = [[West Germanic languages|West Germanic]]
+| fam4 = [[Anglo-Frisian languages|Anglo–Frisian]]
+| fam5 = [[English languages|Anglic]]
+| sign = [[Manually coded English]]
+| script = [[English alphabet]] ([[Latin script]])
+| nation = {{plainlist|
+* [[List of countries where English is an official language#Sovereign states|54 countries]]
+* [[List of countries where English is an official language#Non-sovereign entities|27 non-sovereign entities]]
+* [[United Nations]]
+* [[European Union]]
+* [[Commonwealth of Nations]]
+* [[Council of Europe]]
+* [[International Olympic Committee|IOC]]
+* [[NATO]]
+* [[North American Free Trade Agreement|NAFTA]]
+* [[Organization of American States|OAS]]
+* [[Organisation for Economic Co-operation and Development|OECD]]
+* [[Organisation of Islamic Cooperation|OIC]]
+* [[Pacific Islands Forum|PIF]]
+* [[UKUSA Agreement]]}}
+| iso1 = en
+| iso2 = eng
+| iso3 = eng
+| lingua = 52-ABA
+| map = Anglospeak.svg
+| mapcaption = {{legend|#0000ff|Countries where English is the native language of the majority of the population}} {{legend|#8ddada|Countries where English is an official but not primary language}}
+| notice = IPA
+}}
+</pre>
+'''References in infobox'''
+{{Reflist}}
+{{clear}}
+=== Placement ===
+{{Infobox language/quilt|right}}{{clear}}
+
+The template should placed at the very top of the wikitext of the article, before any text. The absolute basic syntax is as shown below:
+:'''<nowiki>{{Infobox language</nowiki>''' ← this calls the template
+:'''| name =''' name of language ← the name of the language needs to be given
+:'''| familycolor =''' appropriate language family ← refer to the coloured chart to the right (or above, depending on your browser), and type the name shown there; this will add the appropriate family color to the template top.8 Using "Altaic" or "Caucasian" etc. does *not* result in a claim that the language belongs to that family: think of them as areal codings.
+:'''<nowiki>}}</nowiki>''' ← this ends the template call
+
+<nowiki>*</nowiki>If you enter "isolate", you will be restricted to a single line for the family.  In order to allow levels of classification, as with dialects of a language isolate, enter "grey"/"gray" instead.
+
+However, you will probably want to add more than just this. Other parameters are listed below, they can be incorporated anywhere between the first and last lines, and in any order.
+
+=== Additional parameters ===
+
+There are several more parameters that can be defined between the opening and closing lines. These are:
+:'''| altname =''' additional name of the language [not every one, but one a reader would be likely to look for]
+:'''| nativename =''' native name, or a second alternative name [most cases as of 2012 not actually the native name]
+:'''| states =''' countries in which it is mainly spoken (multigenerational communities) ← you do not have to define both this and '''region'''. Do not use flag icons except for national or official status ([[WP:INFOBOXFLAG]]).
+:'''| region =''' geographic region in which it is mainly spoken ← you do not have to define both this and '''states'''; use this parameter for a single statement about geographic distribution. It is not for the broader region where the states are located, but rather the regions within the country, or across countries, where it is spoken. (That is, do not add SE Asia if we state it's in Laos, or West Africa if we state it's in Mali.)
+:'''| speakers =''' the number of native speakers of the language. If unknown, enter {{angle bracket|?}} and do not enter NA for the date (this causes the article to be listed in the [[:Category:Language articles with speakers set to 'unknown']], a hidden [[WP:PROJCATS|maintenance category]]). If no native speakers, enter {{angle bracket|none}}. Otherwise, if no date is supplied, ''missing date'' will be displayed.  Use <code><nowiki>{{sigfig|...|2}}</nowiki></code> to round to 2 [[significant figures]] while retaining the exact figure from the reference.
+:'''| date =''' the date of publication of the estimate of the number of speakers.
+::Used for calculations for obsolete data, so needs to start with a 4-digit year. Exception: If {{angle bracket|NA}} is entered, nothing will display. If {{angle bracket|no date}} is entered, "no date" will display.  Do not enter a date parameter at all if speakers is set to {{angle bracket|none}}.
+::Articles with old dates (currently ≥ 30 years) appear in [[:Category:Language articles with old speaker data]].
+:'''| ref =''' reference for the speaker data.
+::If {{angle bracket|e17}} is entered, this will automatically generate a reference to the ''Ethnologue'' 17 article that bears the ISO 639-3 code entered at 'iso3'.
+::To link to the auto-generated reference from elsewhere in the article, use <code><nowiki><ref name=e17/></nowiki></code>.
+::{{angle bracket|e16}} and <code><nowiki><ref name=e16/></nowiki></code> or {{angle bracket|e15}} and <code><nowiki><ref name=e15/></nowiki></code> can be used to ref the 16th or 15th edition, for example for extinct languages which are no longer supported.
+::{{angle bracket|linglist}} and <code><nowiki><ref name=linglist/></nowiki></code> can be used to ref the ''MultiTree'' entry at the Linguist List.
+::{{angle bracket|ne2007/ne2010}} and <code><nowiki><ref name=NE100/></nowiki></code> can be used to ref the Swedish national encyclopedia, which we use for many of the world's top 100 languages
+::{{angle bracket|inali}} and <code><nowiki><ref name=INALI/></nowiki></code> can be used to ref Mexico's [[Instituto Nacional de Lenguas Indígenas]]
+::Similarly, aiatsis can be used to link to the <code><nowiki><ref name=AIATSIS/></nowiki></code> ref generated by the info box for the AIATSIS entry for Australian languages.  (For Glottolog and Maho's edition of the Guthrie list for Bantu languages, <code><nowiki><ref name=Glottolog(2–5)/></nowiki></code> or <code><nowiki><ref name=Guthrie/></nowiki></code> needs to be added manually, as they do not provide population data.)
+:'''| speakers2 =''' a 2nd line for speaker data, such as L2 speakers, appearing after the date.
+::If this is a second line of L1 speakers, it should be arranged so that, if there are two dates cited, the oldest appears in the date parameter, for automated update calculations. Data from different countries should not be added together if they are not comparable: say if one is from 1973 and another from 2006, or if one is rounded to the nearest million and another is on the order of 10,000.
+:'''| iso1 =''' the [[ISO 639-1]] code for the language
+:'''| iso2 =''' the [[ISO 639-2]] code for the language; creates a link to the ISO page ← see just hereafter for the situation where a language has two ISO 639-2 codes
+:'''| iso3 =''' the [[ISO 639-3]] code for the language; creates a link to the ISO page ← see [[#Language with more than one ISO 639-3 code|below]] for the situation where multiple ISO 639-3 codes apply; if there is no ISO 639-3 code, set '''iso3=none''' to return the text ''none'' and add the article to a list of uncoded languages (if '''iso3comment''' is also used, that will display in place of ''none'')
+::Only iso3 will appear (with a dash) if the code is omitted. If a language has two [[ISO 639-2]] codes, one will be defined as the ''bibliographic'' code, and the other ''terminological''. These can be added in separate fields using the following parameters:
+:'''| iso2b =''' the [[ISO 639-2]] bibliographic code
+:'''| iso2t =''' the [[ISO 639-2]] terminological code
+:'''| lingua =''' the [[Linguasphere]] code for the language
+:'''| linglist(2,3) =''' the [[Linguist List]] code(s) for the language. May be a proper ISO code maintained at Linguist List, or a local non-ISO code; creates a link to the Linguist List page.
+:'''| lingname(2,3) =''' the Linguist List name for the language, or other comment
+:'''| glotto(2–5) =''' the [[Glottolog]] code for the language. Generates a reference which can be accessed via name="Glottolog(2–5)".  Enter "none" if Glottolog does not have a code for the language, "spurious" if Glottolog uses that term. [future: also "unattested"]
+:'''| glottoname(2–5) =''' the names to be used for the Glottolog reference(s).  If there is more than one box on a page, then you need a different-numbered parameter for each, in order to generate separate footnotes.
+:'''| guthrie =''' the [[Guthrie classification of Bantu languages|Guthrie]] code for Bantu languages. Generates a reference which can be accessed via name="Guthrie".
+:'''| aiatsis(2,3) =''' the [[AIATSIS]] code(s) for Australian languages. Generates a reference which can be accessed via name="AIATSIS".
+:'''| aiatsis(2,3)name =''' the AIATSIS name, if different from the entry at |name=.
+:'''| iso3comment ='''  allows a comment in the ISO field that will not interfere with the link
+:'''| isoexception ='''  handles exceptions to the handling of missing ISO codes. Currently there are dedicated tracking categories for 'dialect' (variety of a language with an ISO code), 'historical' (ancestral form of a language with an ISO code), 'protolanguage', 'talkpage' (add to templates on talk pages and in archives so that they stop showing up in the tracking categories).
+:'''| ietf ='''  [[IETF language tag]]
+
+=== Genetic classification ===
+
+You can use the language template to show the [[language family|genetic classification]] of a language at a glance. This classification is displayed as a descending staircase of language families, from the broadest to the most specific. To add the genetic classification use the following:
+:'''| fam1 =''' the broadest possible widely accepted [[language family]] of which the language is a part ← if this would be exactly the same as you have defined for '''familycolor''', it may be omitted
+:'''| fam2 =''' a more specific sub-family
+:'''| fam3 =''' a more specific group
+
+You can keep adding parameters in like fashion until you have completed the classification. If you would prefer to enter some other information in this box (for example, ''disputed''), use this parameter instead:
+:'''| family =''' whatever you want to say (sequesters the repetition of the name of the language)
+This can be set to "na" to avoid specifying a family relationship at all, an for a geographical group that has no single origin.
+
+Ancestral forms may be useful when we have an article on them, or when they have been assigned ISO codes:
+:'''| ancestor =''' an ancestral form, such as Old English or Proto-Basque
+:'''| ancestor2/3 =''' intermediate ancestral forms, such as Middle English or Aquitanian
+
+=== Optional parameters ===
+
+Some parts of the template remain invisible unless they are specifically called. Only use these parameters if they are required.
+:'''| fontcolor =''' colour of font against 'familycolor' ← the font colour is usually black, use this to change it if it is difficult to read
+:'''| pronunciation =''' pronunciation of the native name of the language in [[International Phonetic Alphabet|IPA]] → remember to enclose the transcription in an IPA template such as {{tl|IPA-all}}
+:'''| nation =''' list of countries in which it is an official language
+:'''| minority =''' list of countries in which it is a recognised minority language. This is intended for legal protection and similar ''de jure'' recognition, not simply being listed on a census and other ''de facto'' recognition.
+:'''| agency =''' regulatory body or language academy for the language
+:'''| extinct =''' date of extinction, or information about extinction ← this replaces '''speakers'''
+:'''| revived = ''' date and/or population of attempted revival of extinct language
+:'''| revived-category = ''' (or '''| revived-cat = ''') optional name  (without "Category:") of appropriate subcategory of [[:Category:Language revival]] (which is used by default if {{para|revived}} has a value); can be given as '''| revived-category = nocat ''' to suppress the categorization entirely, when the language has a separate article about its revival that is already in the category (e.g. [[Cornish revival]] is in [[:Category:Celtic language revival]], so {{para|revived-cat=nocat}} is used in the infobox at [[Cornish language]]).
+:'''| era =''' era of use of an ancestral form of a language ← this replaces '''speakers'''
+:'''| script =''' writing system(s) used to represent the language ← in the form ''script (instantiation)'', such as "[[Latin script|Latin]] ([[English alphabet]])"<br />(Common variants of "Latin (alphabet)" redirect to [[Latin script]]. For the [[Latin alphabet]] itself, add an element such as <code>&amp;nbsp;</code>.)
+
+=== Language with more than one ISO 639-3 code ===
+
+Some languages have a number of [[ISO 639-3]] codes, one for each dialect of that language. If you try putting all of these codes in the usual '''iso3 ='''  parameter, it will get quite messy. Instead, use the following parameters:
+:'''| lc1 =''' language code of the first dialect
+:'''| ld1 =''' name of the first language dialect
+
+For subsequent dialects, use '''lc2''' and so forth. Lc entries will be automatically linked to the ''Ethnologue'' site. Wikipedia articles on the dialects may be linked from the ld entries..
+
+For languages with an [[ISO 639-3 macrolanguage]] code and several individual codes, use '''iso3''' for the macrolanguage and '''lc''n''''', '''ld''n''''' for the individual codes.
+
+=== Constructed languages ===
+
+This template is appropriate to use for [[constructed languages]]. The following parameters can be used:
+:'''| creator =''' name of language creator
+:'''| created =''' year of first creation
+:'''| setting =''' the use or setting for the language
+:'''| posteriori =''' natural-language sources
+
+Using these parameters, or setting '''familycolor=Conlang''', automatically sets the coloured bars of the infobox to {{code|{{Infobox language/family-color|Conlang}}}} background with white fonts, and removes the '''states''' and '''region''' parameters from use ('''nation''' is also disabled). If the '''iso2''' parameter is left undefined, it is treated as being '''iso2=art'''. For conlangs, the '''family''' or '''fam''n''''' parameters are used to describe the hierarchy of purpose of the language, whereas '''posteriori''' is used to describe the ''a posteriori'' sources on which the conlang draws.
+
+=== Images in the template ===
+
+You should not put large images at the top of the language template: they just make it very messy. You can place a small image at the top of the template using the following parameters:
+:'''| image =''' image name.png
+:'''| imagesize =''' 100px ← overrides the default image size
+:'''| imagealt =''' alt text
+:'''| imagecaption =''' caption
+:'''| imageheader =''' very simple description of image ('logo', 'map', 'script', etc.) ← this is placed in the left-hand column, and so needs to be short
+
+If you have a larger image or two, such as a map, you can place them at the bottom of the template, spanning both columns, with the following parameter:
+:'''| map(2) =''' image name.png
+:'''| mapsize =''' 300px ← overrides the default image size
+:'''| mapalt(2) =''' alt text
+:'''| mapcaption(2) =''' caption
+
+The [[WP:EIS|usual image markup]] applies for both images. [[Alt text]] is for visually impaired readers, and the [[WP:CAPTION|caption]] is for all readers; typically they should have little in common (see [[WP:ALT]]).
+
+=== Footer notice ===
+A notice or notices may be placed at the bottom of the infobox:
+:'''| notice=ipa''' ← places a notice about the [[Unicode]] fonts used for displaying [[International Phonetic Alphabet|IPA]]
+
+=== Sub-templates ===
+# [[:Template:Infobox language/codelist]]
+# [[:Template:Infobox language/family-color]]
+# [[:Template:Infobox language/genetic]]
+# [[:Template:Infobox language/linguistlist]]
+# [[:Template:Infobox language/ref]]
+# [[:Template:Infobox language/quilt]]
+
+=== Error-tracking categories ===
+With 8,000 articles, manual review is insufficient. The following automating tracking categories should catch some of the more common errors. They also produce lists of articles that should be reviewed occasionally, because they lack population data or the data is dated.
+
+;ISO support
+* [[:Category:Languages without ISO 639-3 code]] – [iso3=] is set to 'none', as it is not (yet) included in ISO. May have other codes.
+** [[:Category:Conlangs without ISO 639-3 code]] (subcat: most conlangs do not qualify for ISO)
+** [[:Category:Nonexistent E17 links]] (setting [iso3=none] and [ref=e17] generates an invalid reference)
+* [[:Category:Language articles without language codes]] – no language code listed, but not specifically excluded from ISO with [iso3=none]
+** [[:Category:Languages without ISO 639-3 code but with Linguist List code]]
+*** subcat [[:Category:Dialects with Linguist List code]] – LingList codes some dialects with sub-ISO codes as "xxx-yyy"
+** [[:Category:Languages without ISO 639-3 code but with Linguasphere code]]
+** [[:Category:Languages without ISO 639-3 code but with AIATSIS code]]
+** [[:Category:Languages without ISO 639-3 code but with Guthrie code]]
+** [[:Category:Dialects of languages with ISO 639-3 code]] (a normal exception)
+** [[:Category:Historical forms of languages with ISO codes]] (a normal exception)
+** [[:Category:Protolanguages without ISO codes]] (a normal exception)
+* [[:Category:Languages which need ISO 639-3 comment]] – triggered by [lc1=] without [lc2=] (once used as a way to provide comments; occasionally still appropriate with [iso3=] when a second but redundant ISO code is included)
+* [[:Category:Languages with ISO 639-2 code]] (sometimes the 639-3 code is mistakenly copied into the <code>iso2</code> field)
+* [[:Category:Languages with ISO 639-1 code]]
+
+;Speaker and date issues
+* [[:Category:Language articles without speaker estimate]] – no entry under [speakers=], and not extinct, a sign language, or a conlang
+* [[:Category:Language articles with invalid population dates]] – entry error at [date=] (anything other than a 4-digit number at start)
+* [[:Category:Language articles with speaker number undated]] – no entry at [date=]
+** [[:Category:Language articles with 'no date' set]] – [date=no date], used when the source lacks a date
+** [[:Category:Language articles with NA population dates]] – [date=NA], used when a date does not apply
+* [[:Category:Language articles with old speaker data]] (currently set to > 25 years)
+* [[:Category:Language articles without reference field]]
+* [[:Category:Language articles citing Ethnologue 16]]
+* [[:Category:Language articles citing Ethnologue 15]]
+* [[:Category:Language articles citing Ethnologue 14]]
+
+;Classification
+* [[:Category:Language articles with spurious family]] (generally because [fam1=] is autofilled from [familycolor] to 'American', 'Australian', 'Papuan', 'Khoisan', 'Caucasian', 'Andamanese', or 'Paleosiberian')
+* [[:Category:Languages without family color codes]] – no or invalid familycolor
+* [[:Category:Languages without classification]] – family displayed as 'unknown' (sometimes triggered by SLs or conlangs)
+
+;Other
+* [[:Category:Language articles needing infoboxes]] (manual cat: switch off (to "no") if you judge the article does not need one)
+* [[:Category:Ill-formatted infobox-language images]] – images need to be stripped of external file formatting
+* [[:Category:Language articles with unsupported infobox fields]] (detects any parameter not in the list, incl. for now anything over dia20)
+
+== See also ==
+* [[:Template:Infobox language family]]
+
+== TemplateData ==
+This is the [[WP:VisualEditor/TemplateData|TemplateData]] for this template so it can be used with the new [[WP:VisualEditor|VisualEditor]].
+
+<templatedata>
+{
+"description": "Display data about a language in a standard format",
+"params": {
+    "name": {
+ "label": "Name",
+ "description": "The English name of the language",
+ "type": "string",
+ "default": "",
+ "required": true},
+    "altname": {
+ "label": "Alternative name",
+ "description": "An alternative or additional English name of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "nativename": {
+ "label": "Native name",
+ "description": "The native name of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "pronunciation": {
+ "label": "Pronunciation",
+ "description": "The IPA pronunciation of the native name of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "states": {
+ "label": "States",
+ "description": "States or countries in which the language is mainly spoken",
+ "type": "string",
+ "default": "",
+ "required": false,
+ "aliases": [ "state" ]},
+    "region": {
+ "label": "Region",
+ "description": "The geographic region(s) in which the language is mainly spoken",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "latd": {
+ "label": "Latitude (degrees)",
+ "description": "The latitudinal measure in degrees of the center of the language's geographic region",
+ "type": "number",
+ "default": "",
+ "required": false},
+    "latm": {
+ "label": "Latitude (minutes)",
+ "description": "The latitudinal measure in minutes of the center of the language's geographic region",
+ "type": "number",
+ "default": "",
+ "required": false},
+    "latNS": {
+ "label": "Latitude (North/South)",
+ "description": "The direction of the latitude coordinates",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "longd": {
+ "label": "Longitude (degrees)",
+ "description": "The longitudinal measure in degrees of the center of the language's geographic region",
+ "type": "number",
+ "default": "",
+ "required": false},
+    "longm": {
+ "label": "Longitude (minutes)",
+ "description": "The longitudinal measure in minutes of the center of the language's geographic region",
+ "type": "number",
+ "default": "",
+ "required": false},
+    "longEW": {
+ "label": "Longitude (East/West)",
+ "description": "The direction of the longitude coordinates",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ethnicity": {
+ "label": "Ethnicity",
+ "description": "The ethnic group(s) whose native language this is",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "speakers": {
+ "label": "Speakers",
+ "description": "The number of native speakers/signers of the language (will be rounded to 2 significant figures)",
+ "type": "number",
+ "default": "",
+ "required": false},
+    "extinct": {
+ "label": "Extinction",
+ "description": "The date of the language's extinction or other information about extinction",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "revived": {
+ "label": "Revival",
+ "description": "Date and/or population of attempted revival of extinct language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "revived-category": {
+ "label": "",
+ "description": "optional name of appropriate subcategory of [[:Category:Language revival]] (which is used by default if {{para|revived}} has a value); or <code>nocat</code> to suppress categorization",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "era": {
+ "label": "Era",
+ "description": "The era of a historical language's use",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "date": {
+ "label": "Date",
+ "description": "The date of the stated estimate of the number of speakers, starting with a 4-digit year",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dateprefix": {
+ "label": "Date prefix",
+ "description": "Additional information about the date of estimation of the number of speakers, placed in parentheses before the date",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ref": {
+ "label": "Reference",
+ "description": "A reference for the number of speakers, placed after the date, if any",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "speakers2": {
+ "label": "Speakers 2",
+ "description": "A second line giving more information about the number of speakers, such as a second estimate",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "familycolor": {
+ "label": "Language Family Color",
+ "description": "The appropriate language family for the purposes of determining the background color, chosen from a fixed set given in the documentation",
+ "type": "string",
+ "default": "",
+ "required": true},
+    "fam1": {
+ "label": "Language Family",
+ "description": "The broadest accepted language family the language belongs to",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "fam2": {
+ "label": "Language Family 2",
+ "description": "A more specific sub-language family that the language belongs to",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "fam3": {
+ "label": "Language Family 3",
+ "description": "A more specific sub-language family that the language belongs to",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "fam4": {
+ "label": "Language Family 4",
+ "description": "A more specific sub-language family that the language belongs to",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "fam5": {
+ "label": "Language Family 5",
+ "description": "A more specific sub-language family that the language belongs to",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "fam6": {
+ "label": "Language Family 6",
+ "description": "A more specific sub-language family that the language belongs to",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "fam7": {
+ "label": "Language Family 7",
+ "description": "A more specific sub-language family that the language belongs to",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "fam8": {
+ "label": "Language Family 8",
+ "description": "A more specific sub-language family that the language belongs to",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "fam9": {
+ "label": "Language Family 9",
+ "description": "A more specific sub-language family that the language belongs to",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "fam10": {
+ "label": "Language Family 10",
+ "description": "A more specific sub-language family that the language belongs to",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "fam11": {
+ "label": "Language Family 11",
+ "description": "A more specific sub-language family that the language belongs to",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "fam12": {
+ "label": "Language Family 12",
+ "description": "A more specific sub-language family that the language belongs to",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "fam13": {
+ "label": "Language Family 13",
+ "description": "A more specific sub-language family that the language belongs to",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "fam14": {
+ "label": "Language Family 14",
+ "description": "A more specific sub-language family that the language belongs to",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "fam15": {
+ "label": "Language Family 15",
+ "description": "A more specific sub-language family that the language belongs to",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "family": {
+ "label": "Family",
+ "description": "Overrides all other family parameters, displays whatever you want",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ancestor": {
+ "label": "Ancestor",
+ "description": "An ancestral or reconstructed form of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ancestor2": {
+ "label": "Ancestor 2",
+ "description": "An ancestral or reconstructed form of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ancestor3": {
+ "label": "Ancestor 3",
+ "description": "An ancestral or reconstructed form of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "creator": {
+ "label": "Creator",
+ "description": "For constructed languages, the name of the creator",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "created": {
+ "label": "Creation date",
+ "description": "Creation date for constructed languages",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "setting": {
+ "label": "Setting",
+ "description": "The fictional setting or other usage of a constructed language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "posteriori": {
+ "label": "Posteriori",
+ "description": "Natural languages used as sources for a constructed language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dia1": {
+ "label": "Dialect",
+ "description": "A primary dialect of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dia2": {
+ "label": "Dialect 2",
+ "description": "Another primary dialect of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dia3": {
+ "label": "Dialect 3",
+ "description": "Another primary dialect of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dia4": {
+ "label": "Dialect 4",
+ "description": "Another primary dialect of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dia5": {
+ "label": "Dialect 5",
+ "description": "Another primary dialect of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dia6": {
+ "label": "Dialect 6",
+ "description": "Another primary dialect of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dia7": {
+ "label": "Dialect 7",
+ "description": "Another primary dialect of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dia8": {
+ "label": "Dialect 8",
+ "description": "Another primary dialect of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dia9": {
+ "label": "Dialect 9",
+ "description": "Another primary dialect of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dia10": {
+ "label": "Dialect 10",
+ "description": "Another primary dialect of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dia11": {
+ "label": "Dialect 11",
+ "description": "Another primary dialect of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dia12": {
+ "label": "Dialect 12",
+ "description": "Another primary dialect of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dia13": {
+ "label": "Dialect 13",
+ "description": "Another primary dialect of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dia14": {
+ "label": "Dialect 14",
+ "description": "Another primary dialect of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dia15": {
+ "label": "Dialect 15",
+ "description": "Another primary dialect of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dia16": {
+ "label": "Dialect 16",
+ "description": "Another primary dialect of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dia17": {
+ "label": "Dialect 17",
+ "description": "Another primary dialect of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dia18": {
+ "label": "Dialect 18",
+ "description": "Another primary dialect of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dia19": {
+ "label": "Dialect 19",
+ "description": "Another primary dialect of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dia20": {
+ "label": "Dialect 20",
+ "description": "Another primary dialect of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "dialects": {
+ "label": "Dialects",
+ "description": "Overrides all other dialect parameters, just displays the argument",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "stand1": {
+ "label": "Standardized Register",
+ "description": "A standardized register of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "stand2": {
+ "label": "Standardized Register 2",
+ "description": "Another standardized register of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "stand3": {
+ "label": "Standardized Register 3",
+ "description": "Another standardized register of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "stand4": {
+ "label": "Standardized Register 4",
+ "description": "Another standardized register of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "stand5": {
+ "label": "Standardized Register 5",
+ "description": "Another standardized register of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "stand6": {
+ "label": "Standardized Register 6",
+ "description": "Another standardized register of the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "standards": {
+ "label": "Standardized Registers",
+ "description": "Overrides all other standardized register parameters, displays the argument",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "script": {
+ "label": "Script",
+ "description": "The writing system(s) that literate speakers use for the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "nation": {
+ "label": "Nations",
+ "description": "A list of countries in which it is an official language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "minority": {
+ "label": "Minority Status",
+ "description": "A list of countries in which it is a recognized minority language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "agency": {
+ "label": "Agency",
+ "description": "The regulatory body or language academy for the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "iso1": {
+ "label": "ISO 639-1",
+ "description": "The ISO 639-1 code for the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "iso2": {
+ "label": "ISO 639-2",
+ "description": "The ISO 639-2 code for the language (but not the language family)",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "iso2b": {
+ "label": "ISO 639-2 Bibliographic",
+ "description": "The ISO 639-2 bibliographic code for the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "iso2t": {
+ "label": "ISO 639-2 Terminological",
+ "description": "The ISO 639-2 terminological code for the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "iso3": {
+ "label": "ISO 639-3",
+ "description": "The ISO 639-3 code for the language, can be 'none' or 'linglist'",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "iso3comment": {
+ "label": "ISO 639-3 Comment",
+ "description": "Any comments about the ISO 639-3 code, so as not to interfere with the link",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "isoexception": {
+ "label": "ISO Exception",
+ "description": "Used for cleanup categories, excludes from the general 'Missing ISO Code' category if set to 'dialect', 'historical', 'protolanguage', or 'talkpage'",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc1": {
+ "label": "Dialect ISO 639",
+ "description": "The ISO 639 code of the first dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld1": {
+ "label": "Dialect Name",
+ "description": "The name of the first dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc2": {
+ "label": "Dialect ISO 639 2",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld2": {
+ "label": "Dialect Name 2",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc3": {
+ "label": "Dialect ISO 639 3",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld3": {
+ "label": "Dialect Name 3",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc4": {
+ "label": "Dialect ISO 639 4",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld4": {
+ "label": "Dialect Name 4",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc5": {
+ "label": "Dialect ISO 639 5",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld5": {
+ "label": "Dialect Name 5",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc6": {
+ "label": "Dialect ISO 639 6",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld6": {
+ "label": "Dialect Name 6",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc7": {
+ "label": "Dialect ISO 639 7",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld7": {
+ "label": "Dialect Name 7",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc8": {
+ "label": "Dialect ISO 639 8",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld8": {
+ "label": "Dialect Name 8",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc9": {
+ "label": "Dialect ISO 639 9",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld9": {
+ "label": "Dialect Name 9",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc10": {
+ "label": "Dialect ISO 639 10",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld10": {
+ "label": "Dialect Name 10",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc11": {
+ "label": "Dialect ISO 639 11",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld11": {
+ "label": "Dialect Name 11",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc12": {
+ "label": "Dialect ISO 639 12",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld12": {
+ "label": "Dialect Name 12",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc13": {
+ "label": "Dialect ISO 639 13",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld13": {
+ "label": "Dialect Name 13",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc14": {
+ "label": "Dialect ISO 639 14",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld14": {
+ "label": "Dialect Name 14",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc15": {
+ "label": "Dialect ISO 639 15",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld15": {
+ "label": "Dialect Name 15",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc16": {
+ "label": "Dialect ISO 639 16",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld16": {
+ "label": "Dialect Name 16",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc17": {
+ "label": "Dialect ISO 639 17",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld17": {
+ "label": "Dialect Name 17",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc18": {
+ "label": "Dialect ISO 639 18",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld18": {
+ "label": "Dialect Name 18",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc19": {
+ "label": "Dialect ISO 639 19",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld19": {
+ "label": "Dialect Name 19",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc20": {
+ "label": "Dialect ISO 639 20",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld20": {
+ "label": "Dialect Name 20",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc21": {
+ "label": "Dialect ISO 639 21",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld21": {
+ "label": "Dialect Name 21",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc22": {
+ "label": "Dialect ISO 639 22",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld22": {
+ "label": "Dialect Name 22",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc23": {
+ "label": "Dialect ISO 639 23",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld23": {
+ "label": "Dialect Name 23",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc24": {
+ "label": "Dialect ISO 639 24",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld24": {
+ "label": "Dialect Name 24",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc25": {
+ "label": "Dialect ISO 639 25",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld25": {
+ "label": "Dialect Name 25",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc26": {
+ "label": "Dialect ISO 639 26",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld26": {
+ "label": "Dialect Name 26",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc27": {
+ "label": "Dialect ISO 639 27",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld27": {
+ "label": "Dialect Name 27",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc28": {
+ "label": "Dialect ISO 639 28",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld28": {
+ "label": "Dialect Name 28",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc29": {
+ "label": "Dialect ISO 639 29",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld29": {
+ "label": "Dialect Name 29",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc30": {
+ "label": "Dialect ISO 639 30",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld30": {
+ "label": "Dialect Name 30",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc31": {
+ "label": "Dialect ISO 639 31",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld31": {
+ "label": "Dialect Name 31",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc32": {
+ "label": "Dialect ISO 639 32",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld32": {
+ "label": "Dialect Name 32",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc33": {
+ "label": "Dialect ISO 639 33",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld33": {
+ "label": "Dialect Name 33",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc34": {
+ "label": "Dialect ISO 639 34",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld34": {
+ "label": "Dialect Name 34",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc35": {
+ "label": "Dialect ISO 639 35",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld35": {
+ "label": "Dialect Name 35",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc36": {
+ "label": "Dialect ISO 639 36",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld36": {
+ "label": "Dialect Name 36",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc37": {
+ "label": "Dialect ISO 639 37",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld37": {
+ "label": "Dialect Name 37",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc38": {
+ "label": "Dialect ISO 639 38",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld38": {
+ "label": "Dialect Name 38",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc39": {
+ "label": "Dialect ISO 639 39",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld39": {
+ "label": "Dialect Name 39",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc40": {
+ "label": "Dialect ISO 639 40",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld40": {
+ "label": "Dialect Name 40",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc41": {
+ "label": "Dialect ISO 639 41",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld41": {
+ "label": "Dialect Name 41",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc42": {
+ "label": "Dialect ISO 639 42",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld42": {
+ "label": "Dialect Name 42",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc43": {
+ "label": "Dialect ISO 639 43",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld43": {
+ "label": "Dialect Name 43",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc44": {
+ "label": "Dialect ISO 639 44",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld44": {
+ "label": "Dialect Name 44",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lc45": {
+ "label": "Dialect ISO 639 45",
+ "description": "The ISO 639 code of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ld45": {
+ "label": "Dialect Name 45",
+ "description": "The name of another dialect",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "iso6": {
+ "label": "ISO 639-6",
+ "description": "The ISO 639-6 code for the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "linglist": {
+ "label": "Linguist List",
+ "description": "The Linguist List ISO 639-3 private or local code or other substitute, range qaa-qtz or numerals only",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lingname": {
+ "label": "Linguist List Comment",
+ "description": "Any comments on the Linguist List code",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "linglist2": {
+ "label": "Linguist List 2",
+ "description": "An additional Linguist List code",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lingname2": {
+ "label": "Linguist List Comment 2",
+ "description": "An additional comment on the Linguist List code",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "linglist3": {
+ "label": "Linguist List 3",
+ "description": "An additional Linguist List code",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lingname3": {
+ "label": "Linguist List Comment 3",
+ "description": "An additional comment on the Linguist List code",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "lingua": {
+ "label": "Linguasphere",
+ "description": "The Linguasphere code for the language",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "guthrie": {
+ "label": "Guthrie",
+ "description": "The Guthrie code for Bantu languages",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "aiatsis": {
+ "label": "AIATSIS",
+ "description": "The AIATSIS code for Australian languages",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "aiatsisname": {
+ "label": "AIATSIS Comment",
+ "description": "Any comments on the AIATSIS code",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "aiatsis2": {
+ "label": "AIATSIS 2",
+ "description": "An additional AIATSIS code",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "aiatsisname2": {
+ "label": "AIATSIS Comment 2",
+ "description": "An additional comment on the AIATSIS code",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "aiatsis3": {
+ "label": "AIATSIS 3",
+ "description": "An additional AIATSIS code",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "aiatsisname3": {
+ "label": "AIATSIS Comment 3",
+ "description": "An additional comment on the AIATSIS code",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "aiatsis4": {
+ "label": "AIATSIS 4",
+ "description": "An additional AIATSIS code",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "aiatsisname4": {
+ "label": "AIATSIS Comment 4",
+ "description": "An additional comment on the AIATSIS code",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "aiatsis5": {
+ "label": "AIATSIS 5",
+ "description": "An additional AIATSIS code",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "aiatsisname5": {
+ "label": "AIATSIS Comment 5",
+ "description": "An additional comment on the AIATSIS code",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "aiatsis6": {
+ "label": "AIATSIS 6",
+ "description": "An additional AIATSIS code",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "aiatsisname6": {
+ "label": "AIATSIS Comment 6",
+ "description": "An additional comment on the AIATSIS code",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "aiatsis7": {
+ "label": "AIATSIS 7",
+ "description": "An additional AIATSIS code",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "aiatsisname7": {
+ "label": "AIATSIS Comment 7",
+ "description": "An additional comment on the AIATSIS code",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "aiatsis8": {
+ "label": "AIATSIS 8",
+ "description": "An additional AIATSIS code",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "aiatsisname8": {
+ "label": "AIATSIS Comment 8",
+ "description": "An additional comment on the AIATSIS code",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "ietf": {
+ "label": "IETF",
+ "description": "IETF language tag",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "image": {
+ "label": "Image",
+ "description": "The image to display at the top of the infobox, in the format 'image name.png' without 'File:' or brackets",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "imagesize": {
+ "label": "Image Size",
+ "description": "Overrides the default image size, using units of 'px' or 'em'",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "imagealt": {
+ "label": "Image Alt Text",
+ "description": "The alt (hover) text for the image",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "imagecaption": {
+ "label": "Image Caption",
+ "description": "A caption to display under the image",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "imageheader": {
+ "label": "Image Header",
+ "description": "A brief header for the image to display in the left hand column",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "map": {
+ "label": "Map",
+ "description": "The image to display at the bottom of the infobox, in the format 'image name.png' without 'File:' or brackets",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "mapsize": {
+ "label": "Map Size",
+ "description": "Overrides the default image size for the map, using units of 'px' or 'em'",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "mapalt": {
+ "label": "Map Alt Text",
+ "description": "The alt (hover) text for the map",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "mapcaption": {
+ "label": "Map Caption",
+ "description": "A caption to display under the map",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "map2": {
+ "label": "Map 2",
+ "description": "A second map to display at the bottom of the infobox, in the format 'image name.png' without 'File:' or brackets",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "mapalt2": {
+ "label": "Map Alt Text 2",
+ "description": "The alt (hover) text the second map",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "mapcaption2": {
+ "label": "Map Caption 2",
+ "description": "A caption to display under both maps",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "boxsize": {
+ "label": "Infobox Size",
+ "description": "Overrides the default width of the infobox, using units of 'px' or 'em' (it automatically expands to fit images wider than the default width)",
+ "type": "string",
+ "default": "",
+ "required": false},
+    "notice": {
+ "label": "IPA Notice",
+ "description": "Set to 'IPA' or 'ipa' to display a notice that the article contains special IPA phonetic symbols",
+ "type": "string",
+ "default": "",
+ "required": false}
+}
+}
+</templatedata>
+
+== Tracking/maintenance categories ==
+* [[:Category:Language articles with unsupported infobox fields]] (via [[Module:Check for unknown parameters]])
+* [[:Category:Articles citing AIATSIS]]
+* [[:Category:Articles citing INALI]]
+* [[:Category:Articles citing Linguist List]]
+* [[:Category:Articles citing Maho/Guthrie]]
+* [[:Category:Articles citing Nationalencyklopedin]]
+* [[:Category:Articles opting out of population reference]]
+* [[:Category:Articles with unnamed Glottolog code]]
+* [[:Category:Conlangs without ISO 639-3 code]]
+* [[:Category:Dialect articles with speakers set to 'unknown']]
+* [[:Category:Dialects of languages with ISO 639-3 code]]
+* [[:Category:Dialects with Linguist List code]]
+* [[:Category:Extinct ISO language articles citing sources other than Ethnologue]]
+* [[:Category:Historical forms of languages with ISO codes]]
+* [[:Category:Ill-formatted infobox-language images]]
+* [[:Category:ISO language articles citing sources other than Ethnologue]]
+* [[:Category:Language articles missing Glottolog code]]
+* [[:Category:Language articles with invalid population dates]]
+* [[:Category:Language articles with NA population dates]]
+* [[:Category:Language articles with 'no date' set]]
+* [[:Category:Language articles with old Ethnologue 18 speaker data]]
+* [[:Category:Language articles with old speaker data]]
+* [[:Category:Language articles with speaker number undated]]
+* [[:Category:Language articles with speakers set to 'none']]
+* [[:Category:Language articles with speakers set to 'unknown']]
+* [[:Category:Language articles with unknown extinction date]]
+* [[:Category:Language articles with unknown population not citing Ethnologue 18]]
+* [[:Category:Language articles with unreferenced extinction date]]
+* [[:Category:Language articles without language codes]]
+* [[:Category:Language articles without reference field]]
+* [[:Category:Language articles without speaker estimate]]
+* [[:Category:Languages rejected by Glottolog]]
+* [[:Category:Languages which need ISO 639-3 comment]]
+* [[:Category:Languages with ISO 639-1 code]]
+* [[:Category:Languages with ISO 639-2 code]]
+* [[:Category:Languages with neither ISO nor Glottolog code]]
+* [[:Category:Languages without classification]]
+* [[:Category:Languages without family color codes]]
+* [[:Category:Languages without Glottolog code]]
+* [[:Category:Languages without ISO 639-3 code]]
+* [[:Category:Languages without ISO 639-3 code but with AIATSIS code]]
+* [[:Category:Languages without ISO 639-3 code but with Glottolog code]]
+* [[:Category:Languages without ISO 639-3 code but with Guthrie code]]
+* [[:Category:Languages without ISO 639-3 code but with Linguasphere code]]
+* [[:Category:Languages without ISO 639-3 code but with Linguist List code]]
+* [[:Category:Nonexistent E18 links]]
+* [[:Category:Protolanguages without ISO codes]]
+* [[:Category:Language articles with IETF language tag]]
+
+<includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox | |
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Language infobox templates|Language]]
+[[Category:Templates that add a tracking category]]
+
+}}</includeonly>
