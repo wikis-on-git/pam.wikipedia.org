@@ -1,0 +1,466 @@
+{{Documentation subpage}}
+<!--Categories where indicated at the bottom of this page, please; interwikis at Wikidata (see [[Wikipedia:Wikidata]])-->
+{{Parameter names example
+|_template=Infobox newspaper
+| name 
+| school
+| logo 
+| logo_size
+| logo_alt
+| image 
+| image_size
+| image_alt
+| caption 
+| motto
+| type 
+| format 
+| owners 
+| founder 
+| publisher 
+| president 
+| editor 
+| chiefeditor
+| depeditor 
+| assoceditor
+| maneditor
+| generalmanager
+| newseditor
+| managingeditordesign
+| campuseditor 
+| campuschief 
+| metroeditor
+| metrochief 
+| opeditor 
+| sportseditor 
+| photoeditor
+| staff 
+| foundation
+| political 
+| language 
+| ceased publication 
+| relaunched 
+| headquarters 
+| circulation 
+| circulation_date
+| circulation_ref
+| readership
+| sister newspapers 
+| ISSN 
+| oclc
+| RNI 
+| website 
+| free 
+| dirinteractive
+| publishing_country 
+| publishing_city
+}}
+
+== Usage == 
+<pre style="overflow:auto;">
+{{Infobox newspaper
+| name                 = 
+| school               = 
+| logo                 = 
+| logo_size            = 
+| logo_alt             = 
+| image                = 
+| image_size           = 
+| image_alt            = 
+| caption              = 
+| motto                = 
+| type                 = 
+| format               = 
+| owner                = <!-- or |owners= -->
+| founder              = <!-- or |founders= -->
+| publisher            = 
+| president            = 
+| editor               = 
+| chiefeditor          = 
+| depeditor            = 
+| assoceditor          = 
+| maneditor            = 
+| generalmanager       = 
+| newseditor           = 
+| managingeditordesign = 
+| campuseditor         = 
+| campuschief          = 
+| metroeditor          = 
+| metrochief           = 
+| opeditor             = 
+| sportseditor         = 
+| photoeditor          = 
+| staff                = 
+| foundation           = <!-- or |launched= -->
+| political            = 
+| language             = 
+| ceased publication   = 
+| relaunched           = 
+| headquarters         = 
+| circulation          = 
+| circulation_date     = 
+| circulation_ref      = 
+| readership           = 
+| sister newspapers    = 
+| ISSN                 = 
+| oclc                 = 
+| RNI                  = 
+| website              = 
+| free                 = 
+| dirinteractive       = 
+| publishing_country   = 
+| publishing_city      = 
+}}
+</pre>
+{{clear}}
+
+=== Parameters === 
+All parameters are optional. If no value is specified for the parameter, it will not be displayed.
+
+* ''name'' – name of the newspaper. If this is omitted (not just left blank), it will be inferred from the article title.
+* ''school'' – for school newspapers
+* ''logo'' – image (logo or other), use with ''logo_size'' and ''logo_alt''; should not duplicate the image.
+* ''image'' – image (front page or other), use with ''image_size'' and ''image_alt''; if this is a front page there is no need to use the logo field as well.
+** ''caption'' – caption text to be displayed below ''image''
+* ''motto'' – motto of newspaper
+* ''type'' – frequency and type, i.e. Daily [[newspaper]]
+* ''format'' – page format, i.e. [[Broadsheet]], [[Berliner (format)|Berliner]], [[Tabloid (paper size)|Tabloid]], [[Compact (newspaper)|Compact]]
+* ''owners'' – or ''owner'', name of the company, person or family which owns the newspaper
+* ''founder'' – or ''founders'', name of the company or person who founded or directs the newspaper, if {{para|owner}} is not appropriate (for instance, in the case of some nonprofits)
+* ''publisher'' – name of Publisher
+* ''president'' – name of President
+* ''editor'' – name of Editor
+* ''chiefeditor'' – name of Editor-in-Chief
+* ''depeditor'' – name of Deputy Editor
+* ''assoceditor'' – name of Associate Editor
+* ''maneditor'' – name of Managing Editor
+* ''generalmanager'' – name of General Manager
+* ''newseditor'' – name of News Editor
+* ''managingeditordesign'' – name of Managing Editor, Design
+* ''campuseditor'' – name of Campus Editor
+* ''campuschief'' – name of Campus Chief
+* ''metroeditor'' – name of Metro Editor
+* ''metrochief'' – name of Metro Chief
+* ''opeditor'' – name of Opinion Editor
+* ''sportseditor'' – name of Sports Editor
+* ''photoeditor'' – name of Photo Editor
+* ''staff'' – names of Staff writers
+* ''foundation'' – or ''launched'' date newspaper was founded. Use {{Tl|Start date}}
+* ''political'' – political leanings of the newspaper, e.g. [[Centre-right]]
+* ''language'' – language used in the newspaper, usually omitted if English
+* ''ceased publication'' – date that a former newspaper ceased publication
+* ''relaunched'' – date that a newspaper was relauched
+* ''headquarters'' – location of the newspaper's headquarters
+* ''circulation'' – the [[newspaper circulation]] numbers
+* ''circulation_date'' – the date or period of the newspaper circulation numbers
+* ''circulation_ref'' – a [[Help:Footnotes|<code><nowiki><ref></nowiki></code>]] tag indicating the source of the value of {{para|circulation}} and/or {{para|circulation_date}}
+* ''readership'' – readership
+* ''sister newspapers'' – names of any sister newspapers
+* ''ISSN'' – the newspaper's [[International Standard Serial Number|ISSN]], e.g. 1085-6706 (automatically linked to  http://www.WorldCat.org via {{Tl|ISSN search link}}). Search [//www.worldcat.org/issn/ here] or [http://www.oclc.org/firstsearch/periodicals/index_title.asp here] to find an ISSN
+* ''oclc'' – the newspaper's [[Online Computer Library Center|OCLC]] number, useful where an ISSN has not been allocated (automatically linked to http://www.WorldCat.org)
+* ''RNI'' – the Office of the Registrar of Newspapers for India number
+* ''website'' – the newspaper's website, use {{tl|URL}}, i.e. {{tlc|URL|www.latimes.com}}
+* ''free'' – the newspaper's online free archives
+* ''dirinteractive'' – name of Director of Interactive
+* ''publishing_country'' – country where published
+* ''publishing_city'' – city where published
+
+== Example ==
+;[[Chicago Tribune|''Chicago Tribune'']]
+{{Infobox newspaper
+| name           = Chicago Tribune
+| logo           = Chicago Tribune Logo.svg
+| logo_size      = 200px
+| logo_alt       = alt logo text
+<!-- Commented out: | image          = Chicagotribunejune162009.png -->
+| image_size     = 225px
+| image_alt      = Newspaper front page with top headline "Obama: Health care a 'ticking time bomb'"
+| caption        = Front page from June 16, 2009
+| motto          = "An American Paper for Americans"
+| type           = Daily newspaper
+| format         = [[Broadsheet]]
+| owners         = [[Tribune Publishing]]
+| founder        = [[James Kelly (journalist)|James Kelly]], John E. Wheeler and Joseph K. C. Forrest
+| publisher      = Tony W. Hunter
+| editor         = [[Gerould W. Kern]]
+| assoceditor    = Joycelyn Winnecke
+| maneditor      = Jane Hirt
+| opeditor       = R. Bruce Dold
+| sportseditor   = Tim Bannon
+| foundation     = {{Start date|1847|06|10}}
+| political      = 
+| language       = [[English language|English]]
+| headquarters   = [[Tribune Tower]]<br/>435 [[Michigan Avenue (Chicago)|North Michigan Avenue]]<br/>Chicago, [[Illinois]] 60611
+| circulation    = 448,930 daily<br/>331,190 Saturday<br/>853,324 Sunday
+| ISSN           = 1085-6706
+| oclc           = 60639020
+| website        = {{URL|http://www.chicagotribune.com}}
+| dirinteractive = Bill Adee (VP for Digital Development and Operations, Tribune Media Group)
+| publishing_country = [[United States]]
+}}
+<pre style="overflow:auto;">
+{{Infobox newspaper
+| name           = Chicago Tribune
+| logo           = Logo.png
+| logo_size      = 200px
+| logo_alt       = alt logo text
+| image          = Logo.png
+| image_size     = 150px
+| image_alt      = alt image text
+| caption        = image caption
+| motto          = motto
+| type           = Daily newspaper
+| format         = [[Broadsheet]]
+| owners         = [[Tribune Publishing]]
+| founder        = [[James Kelly (journalist)|James Kelly]], John E. Wheeler and Joseph K. C. Forrest
+| publisher      = Tony W. Hunter
+| editor         = [[Gerould W. Kern]]
+| assoceditor    = Joycelyn Winnecke
+| maneditor      = Jane Hirt
+| opeditor       = R. Bruce Dold
+| sportseditor   = Tim Bannon
+| foundation     = {{Start date|1847|06|10}}
+| political      = 
+| language       = [[English language|English]]
+| headquarters   = [[Tribune Tower]]<br/>435 [[Michigan Avenue (Chicago)|North Michigan Avenue]]<br/>Chicago, [[Illinois]] 60611
+| circulation    = 448,930 daily<br/>331,190 Saturday<br/>853,324 Sunday
+| ISSN           = 1085-6706
+| oclc           = 60639020
+| website        = {{URL|http://www.chicagotribune.com}}
+| dirinteractive = Bill Adee (VP for Digital Development and Operations, Tribune Media Group)
+| publishing_country = [[United States]]
+}}
+
+This example has been modified for display purposes.
+</pre>
+{{clear}}
+
+== TemplateData ==
+<templatedata>
+{
+	"description": "This templates generates an infobox to summarize information about a newspaper.",
+	"params": {
+		"name": {
+			"label": "Name",
+			"description": "Name of the nwspaper. If left blank, it will be inferred from the article title."
+		},
+		"logo": {
+			"label": "Logo",
+			"type": "wiki-page-name",
+			"description": "Logo image link"
+		},
+		"image": {
+			"label": "Image",
+			"type": "wiki-page-name",
+			"description": "Image link"
+		},
+		"caption": {
+			"label": "Caption",
+			"type": "string",
+			"description": "Caption to be displayed below the image"
+		},
+		"type": {
+			"label": "Type",
+			"description": "Frequency and type, e.g. Daily newspaper"
+		},
+		"format": {
+			"label": "Format",
+			"description": "Page format, i.e. Broadsheet, Berliner, Tabloid, Compact"
+		},
+		"owners": {
+			"label": "Owner",
+			"type": "string",
+			"description": "Name of the company, person or family which owns the newspaper"
+		},
+		"founder": {
+			"label": "Founder",
+			"type": "string",
+			"description": "Name of the company or person who founded or directs the newspaper, if \"owner\" is not appropriate (for instance, in the case of some nonprofits)"
+		},
+		"publisher": {
+			"label": "Publisher",
+			"type": "string",
+			"description": "Name of Publisher"
+		},
+		"editor": {
+			"label": "Editor",
+			"type": "string",
+			"description": "Name of Editor"
+		},
+		"president": {
+			"label": "President",
+			"type": "string",
+			"description": "Name of President"
+		},
+		"chiefeditor": {
+			"label": "Editor-in-Chief",
+			"type": "string",
+			"description": "Name of Editor-in-Chief"
+		},
+		"depeditor": {
+			"label": "Deputy Editor",
+			"type": "string",
+			"description": "Name of Deputy Editor"
+		},
+		"assoceditor": {
+			"label": "Associate Editor",
+			"type": "string",
+			"description": "Name of Associate Editor"
+		},
+		"maneditor": {
+			"label": "Managing Editor",
+			"type": "string",
+			"description": "Name of Managing Editor"
+		},
+		"newseditor": {
+			"label": "News Editor",
+			"type": "string",
+			"description": "Name of News Editor"
+		},
+		"managingeditordesign": {
+			"label": "Managing Editor",
+			"type": "string",
+			"description": "Name of Managing Editor, Design"
+		},
+		"campuseditor": {
+			"label": "Campus Editor",
+			"type": "string",
+			"description": "Name of Campus Editor"
+		},
+		"campuschief": {
+			"label": "Campus Chief",
+			"type": "string",
+			"description": "Name of Campus Chief"
+		},
+		"opeditor": {
+			"label": "Opinion Editor",
+			"type": "string",
+			"description": "Name of Opinion Editor"
+		},
+		"sportseditor": {
+			"label": "Sports Editor",
+			"type": "string",
+			"description": "Name of Sports Editor"
+		},
+		"photoeditor": {
+			"label": "Photo Editor",
+			"type": "string",
+			"description": "Name of Photo Editor"
+		},
+		"staff": {
+			"label": "Staff writers",
+			"type": "string",
+			"description": "Names of Staff writers"
+		},
+		"foundation": {
+			"label": "Found date",
+			"description": "Date newspaper was founded"
+		},
+		"political": {
+			"label": "Political leanings",
+			"description": "Political leanings of the newspaper, e.g. Centre-right"
+		},
+		"language": {
+			"label": "Language",
+			"type": "string",
+			"description": "Language used in the newspaper, usually omitted if English"
+		},
+		"ceased publication": {
+			"label": "Publication cease",
+			"type": "string",
+			"description": "Date that a former newspaper ceased publication"
+		},
+		"relaunched": {
+			"label": "Relaunch",
+			"type": "string",
+			"description": "Date that a newspaper was relauched"
+		},
+		"headquarters": {
+			"label": "Headquarters",
+			"description": "Location of the newspaper's headquarters"
+		},
+		"circulation": {
+			"label": "Circulation numbers",
+			"type": "string",
+			"description": "The newspaper circulation numbers"
+		},
+		"sister newspapers": {
+			"label": "Sister newspaper(s)",
+			"type": "string",
+			"description": "Names of any sister newspapers"
+		},
+		"ISSN": {
+			"label": "ISSN",
+			"description": "The newspaper's ISSN"
+		},
+		"oclc": {
+			"label": "OCLC",
+			"description": "The newspaper's OCLC"
+		},
+		"website": {
+			"label": "Website",
+			"type": "string",
+			"description": "The newspaper's website"
+		},
+		"free": {
+			"label": "Free archives",
+			"type": "string",
+			"description": "The newspaper's free online archives"
+		},
+		"dirinteractive": {
+			"label": "Director of Interactive",
+			"type": "string",
+			"description": "Name of Director of Interactive"
+		},
+		"circulation_ref": {
+			"label": "Circulation reference",
+			"description": "Reference indicating the source of the circulation or circulation date",
+			"type": "content"
+		}
+	}
+}
+</templatedata>
+
+== See also ==
+* {{tl|Infobox journal}}
+* {{tl|Infobox magazine}}
+* {{tl|ISSN}}
+* {{tl|ISSN search link}}
+* {{tl|OCLC}}
+* {{tl|OCLC search link}}
+
+{{Organization infoboxes}}
+
+<includeonly>
+{{#ifeq:{{SUBPAGENAME}}|sandbox | |
+<!--Categories below here, please; interwikis to Wikidata.-->
+{{DEFAULTSORT:Infobox Newspaper}}
+[[Category:Newspaper templates| ]]
+[[Category:Publishing infobox templates|Newspaper]]
+[[Category:WikiProject Journalism templates]]
+
+[[ar:قالب:صندوق معلومات جريدة]]
+[[be-x-old:Шаблён:Газэта]]
+[[bg:Шаблон:Вестник]]
+[[bn:টেমপ্লেট:তথ্যছক সংবাদপত্র]] 
+[[ca:Plantilla:Infotaula de publicacions periòdiques]]
+[[cs:Šablona:Infobox Noviny]]
+[[cy:Nodyn:Gwybodlen Papur newydd]]
+[[da:Skabelon:Infoboks avis]]
+[[el:Πρότυπο:Κουτί πληροφοριών εφημερίδας]]
+[[es:Plantilla:Ficha de periódico]]
+[[eo:Ŝablono:Informkesto gazeto]]
+[[he:תבנית:עיתון]]
+[[id:Templat:Infobox Newspaper]]
+[[ja:Template:Infobox Newspaper]]
+[[ka:თარგი:ინფოდაფა გაზეთი]]
+[[ko:틀:신문 정보]]
+[[nl:Sjabloon:Infobox krant]]
+[[no:Mal:Infoboks avis]]
+[[pt:Predefinição:Info/Jornal]]
+[[ru:Шаблон:Газета]]
+[[fi:Malline:Lehti]]
+[[sv:Mall:Publikation]]
+[[tr:Şablon:Gazete bilgi kutusu]]
+[[uk:Шаблон:Газета]]
+[[vi:Bản mẫu:Infobox Newspaper]]
+}}</includeonly>
