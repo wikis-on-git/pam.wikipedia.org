@@ -1,0 +1,12 @@
+{{Documentation subpage}}
+
+* Template to allow an exception to the ambient nowrap in navboxes; idea is that list items over, say, 60 characters warrant an exception to prevent [[page widening]].
+
+===See also===
+* {{tl|Normalwraplink}}
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Line-handling templates]]
+
+</includeonly>
