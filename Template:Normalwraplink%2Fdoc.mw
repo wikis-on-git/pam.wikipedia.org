@@ -1,0 +1,19 @@
+{{Documentation subpage}}
+<!-- Categories go at the bottom of this page and interwikis go in Wikidata. -->
+
+== Usage ==
+This template can be used within {{tl|sidebar}} to wrap links which are normally not broken by whitespace, such as in the title.
+
+<pre>
+{{wraplink|link|title}}
+</pre>
+
+<code>title</code> is optional, and is used as though the link were piped.
+
+== See also ==
+* {{tl|Allow wrap}}
+
+<includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox | |
+<!-- Categories go here, and interwikis go in Wikidata -->
+[[Category:Line-handling templates]]
+}}</includeonly>
