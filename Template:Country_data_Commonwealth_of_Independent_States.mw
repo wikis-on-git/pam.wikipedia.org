@@ -1,0 +1,17 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Commonwealth of Independent States
+| shortname alias = CIS
+| flag alias = Flag of the CIS.svg
+| flag alias-1992 = CIS-euro92-flag.png
+| link alias-tennis = Russia {{{mw}}} Cup team
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1992
+| redir1 = CIS
+| related1 = Soviet Union
+</noinclude>
+}}
