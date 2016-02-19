@@ -1,0 +1,14 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Mauling Korea
+| templatename    = Mauling Korea
+| flag alias      = Flag of South Korea.svg
+| flag alias-unification = Unification flag of Korea.svg{{!}}border
+| countryname = {{{countryname|South Korea<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| sport = {{{sport|}}}
+| variant = {{{variant|}}}
+}}<noinclude>
+==Variants==
+* <nowiki>{{flag|South Korea|unification}}</nowiki> = {{flag|South Korea|unification}}
+</noinclude>
