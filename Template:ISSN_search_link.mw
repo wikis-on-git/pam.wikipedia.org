@@ -1,0 +1,14 @@
+[//www.worldcat.org/issn/{{trim|1={{{1}}}}} {{trim|1={{{1}}}}}]<noinclude>
+<!-- * INTERNAL NOTE:
+     *
+     * This template uses WorldCat, with the benefit that the link format
+     *
+     *   //www.worldcat.org/issn/[item ISSN]
+     *
+     * is _documented_ (see worldcat.org) and thus unlikely to change.
+     *
+-->
+
+{{Documentation}}
+<!-- Add categories to the /doc subpage, not here! -->
+</noinclude>
