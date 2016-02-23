@@ -16,7 +16,7 @@
 | data2      = {{{format|}}}
 | label3     = Owner(s)
 | data3      = {{{owners|{{{owner|}}}}}}
-| label4     = (Deng) Talatatag
+| label4     = (Deng) Menatag
 | data4      = {{{founders|{{{founder|}}}}}}
 | label5     = Publisher
 | data5      = {{{publisher|}}}
@@ -70,7 +70,7 @@
 | data21     = {{{photoeditor|}}}
 | label22    = Staff writers
 | data22     = {{{staff|}}}
-| label25    = {{#if:{{{launched|}}}|Launched|Founded}}
+| label25    = {{#if:{{{launched|}}}|Launched|Mitatag}}
 | data25     = {{#if:{{{launched|}}}|{{{launched|}}}|{{{foundation|}}}}}
 | label26    = Political alignment
 | data26     = {{{political|}}}
@@ -78,9 +78,9 @@
 | data27     = {{{language|}}}
 | label28    = {{nowrap|Ceased publication}}
 | data28     = {{{ceased publication|}}}
-| label29    = Melunsad pasibayu
+| label29    = Mitatag pasibayu
 | data29     = {{{relaunched|}}}
-| label33    = Headquarters
+| label33    = Pun tanggapan
 | class33    = label
 | data33     = {{{headquarters|}}}
 | label34    = [[Newspaper circulation|Sirkulasyon]]
