@@ -2335,3 +2335,54 @@ If you have questions, please reach out to me on my talk page or on the strategy
 
 I hope you'll join us! [[:m:User:Mdennis (WMF)|Maggie Dennis]] via [[User:MediaWiki message delivery|MediaWiki message delivery]] ([[User talk:MediaWiki message delivery|talk]]) 19:06, 18 Eneru 2016 (UTC)
 <!-- Message sent by User:Mdennis (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:PEarley_(WMF)/Mass_Message_-_large&oldid=15253743 -->
+
+== VisualEditor News #1—2016 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+
+''[[:m:VisualEditor/Newsletter/2016/February|Read this in another language]] • [[:m:VisualEditor/Newsletter|Subscription list for this multilingual newsletter]]''
+
+<div style="margin:0.5em;width:230px;{{#switch:ltr|rtl=float:left;margin-left:0;|#default=float:right;margin-right:0;}}border:1px solid #AAA;padding:0.5em;">
+[[File:VisualEditor-logo.svg|200x70px|center|alt=The visual editor]]
+
+'''Did you know?'''  
+<div class="thumbcaption" style="font-size: 90%;">  
+
+Among experienced editors, the visual editor's table editing is one of the most popular features.
+[[File:VisualEditor table menu move column.png|alt=Screenshot showing a pop-up menu for column operations in a table|centre|frameless|230x230px]]
+If you select the top of a column or the end of a row, you can quickly insert and remove columns and rows.  
+
+Now, you can also rearrange columns and rows. Click "Move before" or "Move after" to swap the column or row with its neighbor.
+You can read and help translate [[:mw:VisualEditor/User guide|the user guide]], which has more information about how to use the visual editor.</div></div>
+
+Since the last newsletter, the [[:mw:VisualEditor/Portal|VisualEditor Team]] has fixed many bugs. Their workboard is available [[phab:project/board/483/|in Phabricator]]. Their [[:mw:VisualEditor/Current_priorities|current priorities]] are improving support for Japanese, Korean, Arabic, Indic, and Han scripts, and improving the single edit tab interface.   
+
+=== Recent changes ===
+You can '''switch from the wikitext editor to the visual editor''' after you start editing. This function is available to nearly all editors at most wikis except the Wiktionaries and Wikisources.    
+
+Many local '''feedback pages''' for the visual editor have been redirected to [[:mw:VisualEditor/Feedback]].
+
+You can now re-arrange columns and rows in '''tables''', as well as copying a row, column or any other selection of cells and pasting it in a new location.    
+
+The '''formula editor''' has two options: you can choose "Quick edit" to see and change only the LaTeX code, or "Edit" to use the full tool. The full tool offers immediate preview and an extensive list of symbols.  
+=== Future changes ===
+The '''[[:mw:VisualEditor/Single edit tab|single edit tab]]''' project will combine the "{{int:vector-view-edit}}" and "{{int:visualeditor-ca-editsource}}" tabs into a single "{{int:vector-view-edit}}" tab. 
+This is similar to the system already used on the mobile website. ([[phab:T102398|T102398]]) Initially, the "{{int:vector-view-edit}}" tab will open whichever editing environment you used last time. Your last editing choice will be stored as an account preference for logged-in editors, and as a cookie for logged-out users. Logged-in editors will have these options in the {{int:prefs-editing}} tab of [[Special:Preferences]]:   
+* {{int:visualeditor-preference-tabs-remember-last}},
+* {{int:visualeditor-preference-tabs-prefer-ve}},
+* {{int:visualeditor-preference-tabs-prefer-wt}}, and
+* {{int:visualeditor-preference-tabs-multi-tab}}. (This is the state for people using the visual editor now.)
+The visual editor uses the same search engine as [[Special:Search]] to find links and files. This search will get better at detecting typos and spelling mistakes soon. These improvements to search will appear in the visual editor as well.
+
+The visual editor will be offered to all editors at most [[:mw:VisualEditor/Rollouts|"Phase 6" Wikipedias]] during the next few months. This will affect the following languages, amongst others: 
+[[:w:ja: |'''Japanese''']], [[:w:ko:|'''Korean''']], [[:w:ur: |'''Urdu''']], [[:w:fa: |'''Persian''']], [[:w:ar: |'''Arabic''']], [[:w:ta: |'''Tamil''']], [[:w:mr: |'''Marathi''']], [[:w:ml: |'''Malayalam''']], [[:w:hi: |'''Hindi''']], [[:w:bn: |'''Bengali''']], [[:w:as: |'''Assamese''']], [[:w:th: |'''Thai''']], [[:w:arc: |'''Aramaic''']].
+ 
+=== Let's work together ===
+* Please try out the newest version of the '''[[:mw:VisualEditor/Single edit tab|single edit tab]]''' on [[test2wiki:Special:Random|test2.wikipedia.org]]. You may need to restore the default preferences (at the bottom of [[test2wiki:Special:Preferences]]) to see the initial prompt for options. Were you able to find a preference setting that will work for your own editing? Did you see [[:c:File:VisualEditor single edit tab preference dialog.png|the large preferences dialog box]] when you started editing an article there?  
+* <mark>Can you read and type in Korean, Arabic, Japanese, Indic, or Han scripts?</mark> Does typing in these languages feels natural in the visual editor? Language engineer [[:mw:User:DChan (WMF)|David Chan]] needs to know. Please see the instructions at [[:mw:VisualEditor/IME Testing#What to test]] if you can help. Please post your comments and the language(s) that you tested at [[:mw:Topic:St8y4ni42d0vr9cv|the feedback thread on mediawiki.org]].
+* Learn how to improve the "automagical" [[:mw:citoid|citoid]] referencing system in the visual editor, by creating [[:en:Zotero|Zotero]] translators for popular sources in your language! Join the [https://lists.wikimedia.org/pipermail/wikitech-l/2016-February/084840.html Tech Talk about "Automated citations in Wikipedia: Citoid and the technology behind it"] with Sebastian Karcher on 29 February 2016. 
+ 
+If you aren't reading this in your favorite language, then please help us with translations!  Subscribe to the [[mail:translators-l|Translators mailing list]] or [https://meta.wikimedia.org/w/index.php?title=User_talk:Elitre_(WMF)&action=edit&section=new contact us] directly, so that we can notify you when the next issue is ready. {{int:Feedback-thanks-title}}
+ 
+</div> [[:mw:User:Elitre (WMF)|Elitre (WMF)]], 21:21, 26 Pebreru 2016 (UTC)
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=VisualEditor/Newsletter/Wikis_with_VE&oldid=15385167 -->
