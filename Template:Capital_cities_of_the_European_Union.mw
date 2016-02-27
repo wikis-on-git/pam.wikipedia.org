@@ -1,7 +1,37 @@
-{{Navigation Template
-| templateName = Lakanbalen tungku ning Pisanmetung a Europa
-| header = [[Image:Flag_of_Europe.svg|24px|Flag of the European Union]] [[Tungkung]] lakanbalen ding [[Pisanmetung a Europa]]
-| body = [[Amsterdam]] · [[Athens]] · [[Berlin]] · [[Bratislava]] · [[Brussels]] · [[Bucharest]] · [[Budapest]] · [[Copenhagen]]  · [[Dublin]] · [[Helsinki]] · [[Lisbon]] · [[Ljubljana]] · [[London]] · [[Luxembourg (lakanbalen)|Luxembourg Laknbalen]] · [[Madrid]] · [[Nicosia]] · [[Paris]] · [[Prague]] · [[Riga]] · [[Rome]] · [[Sofia]] · [[Stockholm ]] · [[Tallinn]] · [[Valletta]] · [[Vienna]] · [[Vilnius]] · [[Warsaw]]
+{{Navbox
+|name = Lakanbalen tungku ning Pisanmetung a Europa
+|title = [[File:Flag_of_Europe.svg|24px|Flag of the European Union]] [[Tungkung]] lakanbalen ding [[Pisanmetung a Europa]]
+|listclass = hlist
+|list1 =
+* {{Flagicon|Netherlands}} [[Amsterdam]]
+* {{Flagicon|Greece}} [[Athens]]
+* {{Flagicon|Germany}} [[Berlin]]
+* {{Flagicon|Slovakia}} [[Bratislava]]
+* {{Flagicon|Belgium}} [[Brussels]]
+* {{Flagicon|Romania}} [[Bucharest]]
+* {{Flagicon|Hungary}} [[Budapest]]
+* {{Flagicon|Denmark}} [[Copenhagen]]
+* {{Flagicon|Ireland}} [[Dublin]]
+* {{Flagicon|Finland}} [[Helsinki]]
+* {{Flagicon|Portugal}} [[Lisbon]]
+* {{Flagicon|Slovenia}} [[Ljubljana]]
+* {{Flagicon|United Kingdom}} [[London]]
+* {{Flagicon|Luxembourg}} [[Luxembourg City]]
+* {{Flagicon|Spain}} [[Madrid]]
+* {{Flagicon|Cyprus}} [[Nicosia]]
+* {{Flagicon|France}} [[Paris]]
+* {{Flagicon|Czech Republic}} [[Prague]]
+* {{Flagicon|Latvia}} [[Riga]]
+* {{Flagicon|Italy}} [[Rome]]
+* {{Flagicon|Bulgaria}} [[Sofia]]
+* {{Flagicon|Sweden}} [[Stockholm]]
+* {{Flagicon|Estonia}} [[Tallinn]]
+* {{Flagicon|Malta}} [[Valletta]]
+* {{Flagicon|Austria}} [[Vienna]]
+* {{Flagicon|Lithuania}} [[Vilnius]]
+* {{Flagicon|Poland}} [[Warsaw]]
+* {{Flagicon|Croatia}} [[Zagreb]]
 }}<noinclude>
-[[Category:Capitals in Europe |*]]
+[[Category:European Union templates]]
+[[Category:Capitals in Europe|*]]
 </noinclude>
