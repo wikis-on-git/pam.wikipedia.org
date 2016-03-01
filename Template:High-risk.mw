@@ -1,0 +1,37 @@
+{{ombox
+| type = content
+| image = [[File:Ambox warning orange.svg|40px|alt=|link=]]
+| text = 
+'''This {{
+#switch:{{NAMESPACE}}
+|Module=Lua module
+|#default=template
+}} is used on <span class="plainlinks">[https://tools.wmflabs.org/templatecount/index.php?lang=en&namespace={{NAMESPACENUMBER:{{FULLPAGENAME}}}}&name={{urlencode:{{
+#switch: {{SUBPAGENAME}}
+| doc | sandbox = {{BASEPAGENAME}}
+| #default      = {{PAGENAME}}
+}}}} {{#if:{{{1|}}}|{{formatnum:{{{1}}}}}|a very large number of}} pages].'''</span><br />To avoid large-scale disruption and unnecessary server load, any changes to this {{
+#switch:{{NAMESPACE}}
+|Module=module
+|#default=template
+}} should first be tested in its [[{{
+#switch: {{SUBPAGENAME}}
+| doc | sandbox = {{SUBJECTSPACE}}:{{BASEPAGENAME}}
+| #default      = {{SUBJECTPAGENAME}}
+}}/sandbox|/sandbox]] or [[{{
+#switch: {{SUBPAGENAME}}
+| doc | sandbox = {{SUBJECTSPACE}}:{{BASEPAGENAME}}
+| #default      = {{SUBJECTPAGENAME}}
+}}/testcases|/testcases]] subpages{{
+#switch:{{NAMESPACE}}
+|Module=.
+|#default=, or in your own [[Wikipedia:Subpages#How to create user subpages|user subpage]].
+}} The tested changes can then be added to this page in one single edit. Please consider discussing any changes on {{#if:{{{2|}}}|[[{{{2}}}]]|the [[{{
+#switch: {{SUBPAGENAME}}
+| doc | sandbox = {{TALKSPACE}}:{{BASEPAGENAME}}
+| #default      = {{TALKPAGENAME}}
+}}|talk page]]}} before implementing them.
+}}<noinclude>
+{{Documentation}}
+<!-- Add categories to the /doc subpage; interwikis go to Wikidata, thank you! -->
+</noinclude>
