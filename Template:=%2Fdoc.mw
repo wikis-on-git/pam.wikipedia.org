@@ -1,0 +1,37 @@
+{{Documentation subpage}}
+{{High-risk|295,000+}}
+<!-- 
+    PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE
+    YOU CAN EDIT THE TEMPLATE DOCUMENTATION BELOW THIS COMMENT
+-->
+
+== Usage ==
+This template allows "<code>=</code>" to be used in template parameters. 
+
+This template cannot be [[WP:SUBST|substituted]].
+
+== Example ==
+*<code><nowiki>{{Font color|black|yellow|2 + 2 {{=}} 4}}</nowiki></code> produces: {{Font color|black|yellow|2 + 2 {{=}} 4}}
+
+You can also use named parameters to bypass the restriction:
+*<code><nowiki>{{Font color|black|yellow|3= 2 + 2 = 4}}</nowiki></code> produces: {{Font color|black|yellow|3= 2 + 2 = 4}}
+
+== TemplateData ==
+{{TemplateDataHeader}}
+
+<TemplateData>
+{"description":"A template to allow = to be used in template parameters","params":{}}
+</TemplateData>
+
+== See also ==
+* {{tl|((}}, which produces: {{((}}
+* {{tl|))}}, which produces: {{))}}
+* {{tl|!}}, which produces: {{!}}
+* {{tl|ifequal}}
+
+
+<includeonly><!----PLEASE ADD CATEGORIES BELOW THIS LINE:---->
+[[Category:Wikipedia character-substitution templates]]
+[[Category:Template namespace templates]]
+[[Category:Mathematical formatting templates]]
+</includeonly>
