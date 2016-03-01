@@ -1,0 +1,56 @@
+{{documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AT THE BOTTOM OF THIS PAGE AND INTERWIKIS TO WIKIDATA. -->
+
+This is the {{tl|high-risk}} message box. It is meant to be put at the top of the documentation page on the most high-use (high-risk) templates and Lua modules (the template detects the name space), i.e., for templates used on 100,000 pages or more. For templates used on 2,000–100,000 pages, it is recommended to use the {{tl|high-use}} template instead, which has a softer wording.
+
+'''''Note:''''' It is normal that some of the links in the message box are red. 
+
+=== Usage ===
+The template can be used as is. But it can also take some parameters: 
+* First parameter is the number of pages. See [[Wikipedia:Database reports/Templates with the most transclusions]] to find out how many pages use a given template.
+* Second parameter is the name of some other talk page if you want discussion to be made there instead. But a better option might be to redirect the talkpage of your template to that other talkpage.
+
+===Examples===
+<pre>
+{{high-risk| 300,000+ | Wikipedia talk:High-risk templates }}
+</pre>
+
+{{high-risk| 300,000+ | Wikipedia talk:High-risk templates }}
+
+<pre>
+{{high-risk| 300,000+ }}
+</pre>
+
+{{high-risk| 300,000+ }}
+
+<pre>
+{{high-risk| | Wikipedia talk:High-risk templates }}
+</pre>
+
+{{high-risk| | Wikipedia talk:High-risk templates }}
+
+The full code for a /doc page top may look like this:
+
+<pre>
+{{documentation subpage}}
+<!-- Categories go where indicated at the bottom of this page, please; interwikis go to Wikidata (see also: [[Wikipedia:Wikidata]]). -->
+{{high-risk| 300,000+ }}
+</pre>
+
+=== Technical details ===
+The [[/sandbox]] and [[/testcases]] links are the standard names for such subpages. If those pages are created then the green /doc box for the template will detect them and link to them in its heading. For instance see the top of this documentation.
+
+=== See also ===
+* {{tl|high-risk}} – For the most high-use (high-risk) templates.
+* {{tl|high-use}} – For the slightly less high-risk templates.
+* {{tl|intricate template}} – For the intricate, i.e., complex templates.
+* {{tl|pp-template}} – The protection template that usually is put on high-risk templates.
+* {{tl|used in system}} – For templates used in the Wikipedia user interface.
+* [[Wikipedia:High-risk templates]]
+* [[Wikipedia:Template sandbox and test cases]]
+
+<includeonly>
+<!-- CATEGORIES GO HERE AND INTERWIKIS TO WIKIDATA, THANK YOU! -->
+[[Category:Template namespace templates]]
+
+</includeonly>
