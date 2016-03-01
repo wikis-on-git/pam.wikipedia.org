@@ -3,7 +3,7 @@
   | <!-- doc page -->
 </includeonly>{{
     #ifeq: {{{doc-notice|show}}} | show
-    | <div class="messagebox" id="template_doc_page_viewed_directly" style="padding-left:1ex;">'''This is a [[Wikipedia:Template documentation|documentation]] [[Wikipedia:Subpages|subpage]] for {{{1|[[{{SUBJECTSPACE}}:{{BASEPAGENAME}}]]}}}''' <small>(see that page for the {{ #if: {{SUBJECTSPACE}} | {{lc:{{SUBJECTSPACE}}}} | article }} itself)</small>.<br />It contains usage information, [[Wikipedia:Categories|categories]] and other content that is not part of the original {{ #if: {{SUBJECTSPACE}} |{{lc:{{SUBJECTSPACE}}}} page|article}}. </div>
+    | <div class="messagebox" id="template_doc_page_viewed_directly" style="padding-left:1ex;">'''Ini ing ''[[:en:Wikipedia:Template documentation|documentation]] [[:en:Wikipedia:Subpages|subpage]]'' para king {{{1|[[{{SUBJECTSPACE}}:{{BASEPAGENAME}}]]}}}''' <small>(see that page for the {{ #if: {{SUBJECTSPACE}} | {{lc:{{SUBJECTSPACE}}}} | article }} itself)</small>.<br />Atin yang kabaluan (''impormasyun''), [[Wikipedia:Categories|deng kategorya]] ampo reng aliwang laman tungkul king pamaggamit a yali parti ning original {{ #if: {{SUBJECTSPACE}} |{{lc:{{SUBJECTSPACE}}}} page|article}}. </div>
   }}{{DEFAULTSORT:{{PAGENAME}}}}{{
     #if: {{{inhibit|}}}
     | <!-- skip -->
