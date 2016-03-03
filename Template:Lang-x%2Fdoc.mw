@@ -1,0 +1,85 @@
+{{Documentation subpage|[[:Category:Lang-x templates]]}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+{{COinS safe|n}}
+
+== Usage ==
+Template {{Tlf|'''{{lcfirst:{{BASEPAGENAME}}}}'''|nolink=yes}} indicates to readers the original form of a term or phrase in {{#ifeq:{{FULLPAGENAME}}|Template:Lang-x/doc|a foreign|[[{{ISO 639 name {{lcfirst:{{Str right|{{BASEPAGENAME}}|5}}}}}} language|{{ISO 639 name {{lcfirst:{{Str right|{{BASEPAGENAME}}|5}}}}}}]]}} language. The term or phrase is the only mandatory parameter. The text is formatted according to recommendations in [[Wikipedia:Manual of Style/Text formatting#Foreign terms]] (italics for Latin-script languages, regular for others).
+
+The template should generally be placed after the English translation of the foreign term or phrase. 
+
+The parameter <!--Not implemented in all templates yet! {{Para|link|no}} (or {{Para|links|no}})--> {{Para|links|no}} prevents the language name from being linked.
+
+The parameter {{Para|lit}} enables a literal translation to be given. It [[Template talk:Language with name#Suggestion: An optional literal translation|is being rolled out]] to these templates and so may be available for {{Tlf|{{lcfirst:{{BASEPAGENAME}}}}|nolink=yes}}.
+
+== Examples ==
+The following examples show translations from German.
+
+'''Edit'''
+* Weimar is located in the federal state of Thuringia (<code><nowiki>{{lang-de|Thüringen}}</nowiki></code>).
+* The Seafarers of Catan (<code><nowiki>{{lang-de|Die Seefahrer von Catan}}</nowiki></code>) is an expansion of the board game ''[[The Settlers of Catan]]''.
+* Albert the Bear (<code><nowiki>{{lang-de|Albrecht der Bär|links=no}}</nowiki></code>)
+*''All Quiet on the Western Front'' (<code><nowiki>{{lang-de|Im Westen nichts Neues|lit=In the West Nothing New}}</nowiki><code>) is a novel by [[Erich Maria Remarque]].
+
+'''Resulting text'''
+* Weimar is located in the federal state of Thuringia ({{lang-de|Thüringen}}).
+* The Seafarers of Catan ({{lang-de|Die Seefahrer von Catan}}) is an expansion of the board game ''[[The Settlers of Catan]]''.
+* Albert the Bear ({{lang-de|Albrecht der Bär|links=no}})
+*''All Quiet on the Western Front'' ({{lang-de|Im Westen nichts Neues|lit=In the West Nothing New}}) is a novel by [[Erich Maria Remarque]].
+
+== See also ==
+* {{Tl|lang}}, and its opposite, {{Tl|Language with name/for}}
+* {{Tl|link language}}
+* {{Tl|{{#ifeq:0
+|{{#ifexist:ISO 639:{{#ifeq:0|{{#ifexist:ISO 639:{{#ifeq:0|{{#ifexist:ISO 639:{{#ifeq:0|{{#ifexist:ISO 639:{{#ifeq:0|{{#ifexist:ISO 639:{{#ifeq:0|{{#ifexist:ISO 639:{{#ifeq:0|{{#ifexist:ISO 639:{{#ifeq:0|{{#ifexist:ISO 639:{{#ifeq:0|{{#ifexist:ISO 639:{{Str right|{{BASEPAGENAME}}|5}}|0|1}}
+|{{Str right|{{BASEPAGENAME}}|5}}
+|{{Str crop|{{Str right|{{BASEPAGENAME}}|5}}|1}}}}|0|1}}
+|{{Str right|{{BASEPAGENAME}}|5}}
+|{{Str crop|{{Str right|{{BASEPAGENAME}}|5}}|2}}}}|0|1}}
+|{{Str right|{{BASEPAGENAME}}|5}}
+|{{Str crop|{{Str right|{{BASEPAGENAME}}|5}}|3}}}}|0|1}}
+|{{Str right|{{BASEPAGENAME}}|5}}
+|{{Str crop|{{Str right|{{BASEPAGENAME}}|5}}|4}}}}|0|1}}
+|{{Str right|{{BASEPAGENAME}}|5}}
+|{{Str crop|{{Str right|{{BASEPAGENAME}}|5}}|5}}}}|0|1}}
+|{{Str right|{{BASEPAGENAME}}|5}}
+|{{Str crop|{{Str right|{{BASEPAGENAME}}|5}}|6}}}}|0|1}}
+|{{Str right|{{BASEPAGENAME}}|5}}
+|{{Str crop|{{Str right|{{BASEPAGENAME}}|5}}|7}}}}|0|1}}
+|{{Str right|{{BASEPAGENAME}}|5}}
+|{{Str crop|{{Str right|{{BASEPAGENAME}}|5}}|8}}}}|0|1}}
+|{{Str right|{{BASEPAGENAME}}|5}}
+|{{Str crop|{{Str right|{{BASEPAGENAME}}|5}}|9}}
+}} icon}}
+
+{{TemplateDataHeader}}
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "Text",
+			"description": "The foreign text to display.",
+			"type": "string",
+			"required": true
+		},
+		"links": {
+			"label": "Display link",
+			"description": "Set to no to disable the link to the article's language.",
+			"type": "boolean"
+		},
+		"lit": {
+			"label": "Literal translation"
+		}
+	},
+	"description": "Indicates to readers the original form of a term or phrase in a foreign language."
+}
+</templatedata>
+
+<includeonly>
+<!-- CATEGORIES (which are not already covered in the individual lang-x templates) HERE, THANKS -->
+{{#ifeq:0
+|{{#ifexist:ISO 639:{{Str right|{{BASEPAGENAME}}|5}}|0|1}}
+|[[Category:Lang-x templates]]
+|[[Category:Lang-x templates with other than ISO 639]]
+}}
+</includeonly>
+<noinclude>[[Category:Documentation shared content templates]]</noinclude>
