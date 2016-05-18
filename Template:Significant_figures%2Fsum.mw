@@ -1,0 +1,7 @@
+<includeonly>{{#expr:{{{3}}}+{{precision|{{{1}}}}}+1}}</includeonly><noinclude>
+{{doc|content=
+This subtemplate counts significant figures in a number.
+
+[[Category:Subtemplates of template sigfig|sum]]
+}}
+</noinclude>
