@@ -1,0 +1,142 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE. -->
+{{Infobox surname
+| name            = name
+| image           = 
+| image_size      = 
+| caption         = caption
+| pronunciation   = pronunciation
+| gender          = gender
+| feminine        = feminine
+| masculine       = masculine
+| language        = language
+| languageorigin  = languageorigin
+| origin          = origin
+| derivation      = derivation
+| meaning         = meaning
+| variant         = variant
+| cognate         = cognate
+| anglicisation   = anglicisation
+| derivative      = derivative
+| seealso         = seealso
+| family          = family
+}}
+
+==Gamit==
+<pre style="width: 15em;">{{Infobox surname
+| name            = 
+| image           = 
+| image_size      = 
+| caption         = 
+| pronunciation   = 
+| gender          = 
+| feminine        = 
+| masculine       = 
+| language        = 
+| languageorigin  = 
+| origin          = 
+| derivation      = 
+| meaning         = 
+| variant         = 
+| cognate         = 
+| anglicisation   = 
+| derivative      = 
+| seealso         = 
+| family          = 
+}}</pre><br clear="all" />
+
+==Parametru==
+{| class="wikitable"
+! style="text-align: left" | Parameter
+! style="text-align: left" | Explanation
+|- 
+| <code>name</code>
+| Insert the specific name that the article is about (defaults to <code><nowiki>{{PAGENAME}}</nowiki></code> if empty).
+|-
+| <code>image</code>
+| Insert a relevant image for the name.
+|-
+| <code>image_size</code>
+| The infobox automatically resizes images to a width of 200px. Use this parameter '''only''' if the image being used is ''smaller'' than 200px.
+|-
+| <code>caption</code>
+| Insert image caption, which should describe the image used.
+|-
+| <code>pronunciation</code>
+| Insert the pronunciation(s) of the name. Separate multiple entries with a line break (<code><nowiki><br/></nowiki></code>). Use [[IPA]] codes if possible.
+|-
+| <code>gender</code>
+| Insert the gender of the name. Use either ''Feminine'', ''Masculine'', or ''Unisex''.
+|-
+| <code>masculine</code>
+| (If the name you are using in the 'name parameter' (the first one, above) is feminine, insert the masculine form(s) of this specific name.
+|-
+| <code>feminine</code>
+| (If the name you are using in the 'name parameter' (the first one, above) is masculine, insert the feminine form(s) of this specific name.
+|-
+| <code>language</code>
+| Insert the [[language]](s) of the name. Note that this is not the language of ''origin'', only the ''current'' language(s) of the name.
+|-
+| <code>languageorigin</code>
+| Insert the language(s) of origin. Separate multiple entries with a line break (<code><nowiki><br/></nowiki></code>). Note that this option ties in with the next 3 parameters.
+|-
+| <code>origin</code>
+| Insert the origin of the name - the original name, or word, that the name is derived from.
+|-
+| <code>derivation</code>
+| Insert the derivation of the word listed above. (<code><nowiki><br/></nowiki></code>).
+|-
+| <code>meaning</code>
+| Insert the meaning of the derivation above, or the meaning of the original name/word. (<code><nowiki><br/></nowiki></code>).
+|-
+| <code>variant</code>
+| Insert the variant form(s) of the name - the alternate spellings of the name. However, note the more specific options below.
+|-
+| <code>cognate</code>
+| Insert the [[cognate]](s) associated with the name.
+|-
+| <code>anglicisation</code>
+| Insert the [[Anglicisation of names|Anglicisation]](s) associated with the name. This is for listing the Anglicised forms of a non-[[English language]] name. Note ''derivative'' option below. Also, some surnames are going to ''many'' Anglicised forms; only use this parameter if there are a few Anglicised forms. Long lists of names should be in the article-mainspace.
+|-
+| <code>derivative</code>
+| Insert the derivative(s) associated with the name. This is for listing the non-English language names that this name has spawned.
+|-
+| <code>seealso</code>
+| Insert the names that might not fit the into the 'other names' options above.
+|-
+| <code>family</code>
+| Insert family/families who bear the name. Only insert notable families, preferably ones with articles.
+|}
+
+==Alimbawa==
+{{Infobox surname
+| name            = Mac Raghnaill
+| image           = Mac Raghnaill - Gaelic type.svg
+| image_size      = 
+| caption         = ''Mac Raghnaill'' in a [[Gaelic type]].
+| pronunciation   = 
+| gender          = Masculine
+| feminine        = Nic Raghnaill, Bean Mhic Raghnaill, Mhic Raghnaill
+| masculine       = 
+| language        = [[Irish language|Irish]]
+| languageorigin  = 
+| origin          = 
+| derivation      = 
+| meaning         = "son of ''[[Raghnall (given name)|Raghnall]]''"
+| variant         = Mac Rághnaill, Mac Raonaill
+| cognate         = 
+| anglicisation   = 
+| derivative      = 
+| seealso         = 
+}}
+
+==Lawen Murin==
+* {{tl|Infobox noble house}}
+* {{tl|Infobox family}}
+* {{tl|Infobox family name}}
+
+<includeonly><!--
+++++ PLEASE ADD CATEGORIES AND INTERWIKIS BELOW THIS LINE, INSIDE INCLUDEONLY TAGS, THANK YOU. -->
+[[Category:WikiProject Anthroponymy templates]]
+
+</includeonly>
