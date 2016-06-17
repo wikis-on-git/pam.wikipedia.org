@@ -1,0 +1,41 @@
+<includeonly>{{Infobox
+|above        = {{{name}}}
+|abovestyle   = background:#ADD8E6
+|headerstyle  = background:#ADD8E6
+| image      = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{max|220|{{{image_size|}}}}}|sizedefault=frameless}}
+| caption    = {{{caption|}}}
+| label1     = Agkas
+| data1      = {{{pronunciation|}}}
+| label2     = Kasarian
+| data2      = {{{gender|}}}
+| label3     = [[Wika|(Mga) wika]]
+| data3      = {{{language|}}}
+| header4    = {{#if:{{{masculine|}}}{{{feminine|}}}|Aliwang Kasarian}} 
+| label5     = Lalaki
+| data5      = {{{masculine|}}}
+| label6     = Babayi
+| data6      = {{{feminine|}}}
+| header7    = {{#if:{{{languageorigin|}}}{{{origin|}}}{{{derivation|}}}{{{meaning|}}}|Penibatan/Orihen}} 
+| label8     = (Deng) amanu
+| data8      = {{{languageorigin|}}}
+| label9     = Kataya/Lagyu
+| data9      = {{{origin|}}}
+| label10     = Pikuwanan
+| data10      = {{{derivation|}}}
+| label11     = Kabaldugan
+| data11      = {{{meaning|}}}
+| header12    = {{#if:{{{variant|}}}{{{cognate|}}}{{{anglicisation|}}}{{{derivative|}}}{{{seealso|}}}|Deng aliwa pang lagyu}} 
+| label13     = Baryante
+| data13      = {{{variant|}}}
+| label14     = Deng kawugne/kognado
+| data14      = {{{cognate|}}}
+| label15     = (Mga) [[Pamaglikas king Ingles da reng lagyu|Pamaglikas king Ingles]]
+| data15      = {{{anglicisation|}}}
+| label16     = Pikuwanan
+| data16      = {{{derivative|}}}
+| label17     = Lawen Murin
+| data17      = {{{seealso|}}}
+| header18    = {{#if:{{{family|}}}|Deng Pamilya}}
+| data19      = {{{family|}}}
+}}</includeonly>
+<noinclude>{{Documentation}}</noinclude>
