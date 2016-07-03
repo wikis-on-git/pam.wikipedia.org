@@ -3,7 +3,7 @@
 | colspan=2 style="margin: auto; text-align: center" | Dagdagan mu ing balu mu tungkul kang/king '''{{{display|{{{1|{{PAGENAME}}}}}}}}''' kareng [[Wikipedia:Wikimedia sister projects|kapatad nang proyektu]] ning Wikipedia:
 |-
 {{#ifeq:{{{wikt}}}|no||<!--
--->{{!}} [[File:Wiktionary-logo-en.svg|25x25px|link={{sec link image|wikt|Special:Search/{{{wikt|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Wiktionary]] {{!}}{{!}} {{sec link auto|wikt|Special:Search/{{{wikt|{{{1|{{PAGENAME}}}}}}}}|Kabaldugan ampong likas}} ibat king Wiktionary<br />}}
+-->{{!}} [[File:Wiktionary-logo-v2.svg|25x25px|link={{sec link image|wikt|Special:Search/{{{wikt|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Wiktionary]] {{!}}{{!}} {{sec link auto|wikt|Special:Search/{{{wikt|{{{1|{{PAGENAME}}}}}}}}|Kabaldugan ampong likas}} ibat king Wiktionary<br />}}
 |-
 {{#ifeq:{{{commons}}}|no||<!--
 -->{{!}} [[File:Commons-logo.svg|25x25px|link={{sec link image|commons|Special:Search/{{{commons|{{{1|{{PAGENAME}}}}}}}}}}|alt=|Search Commons]] {{!}}{{!}} {{sec link auto|commons|Special:Search/{{{commons|{{{1|{{PAGENAME}}}}}}}}|Larawan ampong media}} ibat king Commons<br />}}
