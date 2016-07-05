@@ -1,0 +1,55 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+=== Usage ===
+ <nowiki>{{Phagspa|<h/v>|<text>}}</nowiki>
+ <nowiki>{{Phagspa|<h/v>|<text>|<tooltip>}}</nowiki>
+
+ <nowiki>{{Phagspa|<h/v>|<text>|<tooltip>|<size=12>}}</nowiki>
+
+This applies a [[Unicode]] [['Phags-pa script|'Phags-pa]] [[font]] to the given 'Phags-pa text if such font is available on the user's system.  The fonts applied are, in the following order:
+* '''BabelStone Phags-pa Book''' — freeware font that has joining and shaping behaviour;
+* '''Microsoft PhagsPa''' — font that is shipped with [[Windows 7]] and later and has correct joining and shaping behaviour in Windows 7 and later;
+* '''Noto Sans Phags Pa''' — freeware font that has joining and shaping behaviour.
+If the first parameter is ''h'' the text will be laid out horizontally, but if it is ''v'' the text will try to be laid out from top to bottom in vertical lines running left to right.
+To break a long vertical line of 'Phags-pa text into left-to-right segments so it displays better within ordinary horizontal text, wrap each syllable in a separate Phagspa template, and separate each Phagspa template with a space character; additionaly, you can also try to use CSS property to limit the height, see below.
+
+===Parameters===
+The first parameter should be ''h'' or ''v''.  If ''h'' the text will be laid out horizontally, but if ''v'' the text may be displayed in vertical top-to-bottom layout (results vary depending upon the user's browser, but it should work with Internet Explorer 8 in [[Windows Vista]] or later, Chrome version 17 or later, and in Firefox 41 or later. Firefox version 38.0–40.0 and Firefox 38 ESR based browsers can enabling the vertical layout through open the <code>about:config</code> page, and set <code>layout.css.vertical-text.enabled</code> as <code>true</code> value.).
+
+The second parameter is the Unicode 'Phags-pa text to be displayed.
+
+The third parameter is the transliteration or translation of the 'Phags-pa text, which will be displayed as the mouseover tooltip.  This is optional, and if omitted the tooltip will be "'Phags-pa text".
+
+The fourth parameter is the font size to be used in px units.  This is optional, and if omitted the font size will be 12px.
+
+The style parameter is the extended style to be used in the text area. This is optional.
+
+===Examples===
+#<code><nowiki>{{Phagspa|h|ꡏꡡꡃ ꡣꡡꡙ ꡐꡜꡞ}}</nowiki></code> provides {{Phagspa|h|ꡏꡡꡃ ꡣꡡꡙ ꡐꡜꡞ}}
+#<code><nowiki>{{Phagspa|h|ꡏꡡꡃ ꡣꡡꡙ ꡐꡜꡞ|'mongxol tshi}}</nowiki></code> provides {{Phagspa|h|ꡏꡡꡃ ꡣꡡꡙ ꡐꡜꡞ|'mongxol tshi}}
+#<code><nowiki>{{Phagspa|h|ꡏꡡꡃ ꡣꡡꡙ ꡐꡜꡞ|'mongxol tshi|size=20}}</nowiki></code> provides {{Phagspa|h|ꡏꡡꡃ ꡣꡡꡙ ꡐꡜꡞ|'mongxol tshi|size=20}}
+#<code><nowiki>{{Phagspa|v|ꡏꡡꡃ ꡣꡡꡙ ꡐꡜꡞ}}</nowiki></code> provides {{Phagspa|v|ꡏꡡꡃ ꡣꡡꡙ ꡐꡜꡞ}}
+#<code><nowiki>{{Phagspa|v|ꡏꡡꡃ ꡣꡡꡙ ꡐꡜꡞ|'mongxol tshi}}</nowiki></code> provides {{Phagspa|v|ꡏꡡꡃ ꡣꡡꡙ ꡐꡜꡞ|'mongxol tshi}}
+#<code><nowiki>{{Phagspa|v|ꡏꡡꡃ ꡣꡡꡙ ꡐꡜꡞ|'mongxol tshi|size=20}}</nowiki></code> provides {{Phagspa|v|ꡏꡡꡃ ꡣꡡꡙ ꡐꡜꡞ|'mongxol tshi|size=20}}
+#<code><nowiki>{{Phagspa|v|ꡏꡡꡃ}} {{Phagspa|v|ꡣꡡꡙ}} {{Phagspa|v|ꡐꡜꡞ}}
+</nowiki></code> provides {{Phagspa|v|ꡏꡡꡃ}} {{Phagspa|v|ꡣꡡꡙ}} {{Phagspa|v|ꡐꡜꡞ}}
+#<code><nowiki>{{Phagspa|v|ꡏꡡꡃ ꡣꡡꡙ ꡐꡜꡞ|style=height:40px;}}
+</nowiki></code> provides {{Phagspa|v|ꡏꡡꡃ ꡣꡡꡙ ꡐꡜꡞ|style=height:40px;}}
+
+=== See also ===
+
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Unicode templates]]
+[[Category:Writing system templates]]
+
+[[id:Templat:Phagspa]]
+[[ja:Template:Phagspa]]
+[[sco:Template:Phagspa]]
+[[sv:Mall:Phagspa]]
+[[ur:Template:Phagspa]]
+[[vi:Bản mẫu:Phagspa]]
+[[war:Batakan:Phagspa]]
+[[zh:Template:Phagspa]]
+</includeonly>
