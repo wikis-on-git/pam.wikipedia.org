@@ -1,0 +1,194 @@
+{{Infobox
+| bodyclass   = vcard
+
+| aboveclass  = fn
+| abovestyle  = background-color:{{#if:{{{currentmembers|}}}|lightsteelblue|{{#if:{{{pastmembers|}}}|lightsteelblue|{{#switch: {{{gender|}}}
+  |#default = #F8EABA
+  | male    = #E0E0FF
+  | female  = #F7C4D8
+  }}}}}};
+| headerstyle = background-color:{{#if:{{{currentmembers|}}}|lightsteelblue|{{#if:{{{pastmembers|}}}|lightsteelblue|{{#switch: {{{gender|}}}
+  |#default = #F8EABA
+  | male    = #E0E0FF
+  | female  = #F7C4D8
+  }}}}}};
+
+| above       = {{{name|<includeonly>{{PAGENAMEBASE}}</includeonly>}}}
+
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|{{{imagesize|}}}}}}|sizedefault=frameless|upright=1|alt={{{imagealt|{{{alt|}}}}}}|suppressplaceholder=yes}}
+| caption     = {{{caption|}}}
+
+| labelstyle  = white-space:nowrap;
+
+| class1      = nickname
+| label1      = Lagyung Tsinu
+| data1       = {{#if:{{{chinesename|}}}|<span style="font-size: 120%;">{{{chinesename|}}}</span>}}
+
+| label2      = Lagyung Tsinu
+| data2       = {{#if:{{{tradchinesename|}}}|<span style="font-size: 120%;" class="nickname">{{lang|zh-Hant|{{{tradchinesename}}}}}</span>  <small>([[Traditional Chinese characters|tradisyonal]])</small>}}
+
+| label3      = Lagyung Tsinu
+| data3       = {{#if:{{{simpchinesename|}}}|<span style="font-size: 120%;" class="nickname">{{lang|zh-Hans|{{{simpchinesename}}}}}</span>  <small>([[Simplified Chinese characters|Pepayak]])</small>}}
+
+| label4      = Pinyin
+| data4       = {{#if:{{{pinyinchinesename|}}}|<span class="nickname">{{{pinyinchinesename}}}</span>  <small>([[Mandarin]])</small>}}
+
+| label5      = Jyutping
+| data5       = {{#if:{{{jyutpingchinesename|}}}|<span class="nickname">{{{jyutpingchinesename}}}</span>  <small>([[Kantones]])</small>}}
+
+| label6      = Yale
+| data6       = {{#if:{{{yalechinesename|}}}|<span class="nickname">{{{yalechinesename}}}</span>  <small>([[Kantones]])</small>}}
+
+| label7      = Pe̍h-ōe-jī
+| data7       = {{#if:{{{pojchinesename|}}}|<span class="nickname">{{{pojchinesename}}}</span>  <small>([[Hokkien]])</small>}}
+
+| class8      = nickname
+| label8      = Lagyung Kebaitan
+| data8       = {{{birth_name|{{{birthname|}}}}}}
+
+| label9      = [[Tala da reng grupung etniku king Tsina|Etnisidad]]
+| data9       = {{{ethnicity|}}}
+
+| label10     = Penibatan
+| data10      = {{{origin|}}}
+
+| label11     = Kebaitan
+| data11      = {{br separated entries|{{{birth_date|}}}|{{{birth_place|}}}}}
+
+| label12     = Kematayan
+| data12      = {{br separated entries|{{{death_date|}}}|{{{death_place|}}}}}
+
+| label13     = Pepaglibingan
+| data13      = {{br separated entries|{{{restingplace|}}}|{{{restingplacecoordinates|}}}}}
+
+| class14     = nickname
+| label14     = Aliwang Lagyu
+| data14      = {{{othername|}}}
+
+| class15     = role
+| label15     = Obra
+| data15      = {{{occupation|}}}
+
+| class16     = category
+| label16     = ''[[Music genre|Genre(s)]]''
+| data16      = {{{genre|}}}
+
+| class17     = note
+| label17     = [[Musical instrument|Instrumentu]]
+| data17      = {{{instrument|}}}
+
+| class18     = note
+| label18     = [[Voice type|Tinduk ning<br>Bosis/Siwala]]
+| data18      = {{{voicetype|}}}
+
+| label19     = [[Record label|Marka/Tatak]]
+| data19      = {{{label|}}}
+
+| label20     = Deng Banuwa<br>anyang Aktibu
+| data20      = {{{yearsactive|}}}
+
+| label21     = Maka-ugneng Lage
+| data21      = {{{associatedact|}}}
+
+| label22     = Asawa
+| data22      = {{{spouse|}}}
+
+| label23     = Kapareha
+| data23      = {{{partner|}}}
+
+| label24     = Anak
+| data24      = {{{children|}}}
+
+| label25     = Pengari
+| data25      = {{{parents|}}}
+
+| label26     = [[Ancestral home (Chinese)|Pipumpunan]]
+| data26      = {{{ancestry|}}}
+
+| label27     = Impluwensya
+| data27      = {{{influences|}}}
+
+| label28     = Ayinpluwensyan
+| data28      = {{{influenced|}}}
+
+| label29     = Edukasyon/Panipagaral
+| data29      = {{{education|}}}
+
+| label30     = ''Alma mater''
+| data30      = {{{alma mater|{{{alma_mater|}}}}}}
+
+| label31     = Opisyal a<br>Karinan-Aptas
+| data31      = {{{website|{{{homepage|}}}}}}
+
+| class32     = nickname
+| label32     = Kebaluwan ya murin<br>anti mung
+| data32      = {{{Alias|{{{alias|}}}}}}
+
+| header33    = {{#if:{{{currentmembers|}}}|Kasalunsungang<br>Kayanib}}
+| data34      = {{{currentmembers|}}}
+| class34     = plainlist
+
+| header35    = {{#if:{{{pastmembers|}}}|Sadyang Kayanib}}
+| data36      = {{{pastmembers|}}}
+| class36     = plainlist
+
+| data40      = {{#if:{{{awards|}}}{{{hongkongfilmwards|}}}{{{goldenbauhiniaawards|}}}{{{hkfcsawards|}}}{{{asianfilmawards|}}}{{{goldenhorseawards|}}}{{{huabiaoawards|}}}{{{goldenroosterawards|}}}{{{hundredflowersawards|}}}{{{goldeneagleawards|}}}{{{flyingapsarasawards|}}}{{{rthktop10goldsongsawards|}}}{{{goldenmelodyawards|}}}{{{mtvasiaawards|}}}{{{ntsawards|}}}{{{goldenbellawards|}}}{{{tvbanniversaryawards|}}}{{{magnoliaawards|}}}{{{asiantvawards|}}}{{{rainbowawards|}}}|{{Collapsible list
+ |title = Awards
+ |titlestyle = background-color:{{#if:{{{currentmembers|}}}|lightsteelblue|{{#if:{{{pastmembers|}}}|lightsteelblue|{{#switch: {{{gender|}}}
+    |#default = #F8EABA
+    | male    = #E0E0FF
+    | female  = #F7C4D8
+    }}}}}};
+ |1 = <table width="100%">
+  {{Infobox|child=yes
+  | headerstyle  = background-color:{{#if:{{{currentmembers|}}}|lightsteelblue|{{#if:{{{pastmembers|}}}|lightsteelblue|{{#switch: {{{gender|}}}
+    |#default = #F8EABA
+    | male    = #E0E0FF
+    | female  = #F7C4D8
+    }}}}}};
+  | header1  = {{#if:{{{hongkongfilmwards|}}}|[[Hong Kong Film Awards]]}}
+  | data2    = {{{hongkongfilmwards|}}}
+  | header3  = {{#if:{{{goldenbauhiniaawards|}}}|[[Golden Bauhinia Awards]]}}
+  | data4    = {{{goldenbauhiniaawards|}}}
+  | header5  = {{#if:{{{hkfcsawards|}}}|[[Hong Kong Film Critics Society Awards]]}}
+  | data6    = {{{hkfcsawards|}}}
+  | header7  = {{#if:{{{asianfilmawards|}}}|[[Asian Film Awards]]}}
+  | data8    = {{{asianfilmawards|}}}
+  | header9  = {{#if:{{{goldenhorseawards|}}}|[[Golden Horse Film Festival and Awards|Golden Horse Awards]]}}
+  | data10   = {{{goldenhorseawards|}}}
+  | header11 = {{#if:{{{huabiaoawards|}}}|[[Huabiao Awards]]}}
+  | data12   = {{{huabiaoawards|}}}
+  | header13 = {{#if:{{{goldenroosterawards|}}}|[[Golden Rooster Awards]]}}
+  | data14   = {{{goldenroosterawards|}}}
+  | header15 = {{#if:{{{hundredflowersawards|}}}|[[Hundred Flowers Awards]]}}
+  | data16   = {{{hundredflowersawards|}}}
+  | header17 = {{#if:{{{goldeneagleawards|}}}|[[China TV Golden Eagle Award|Golden Eagle Awards]]}}
+  | data18   = {{{goldeneagleawards|}}}
+  | header19 = {{#if:{{{flyingapsarasawards|}}}|[[Flying Apsaras Awards]]}}
+  | data20   = {{{flyingapsarasawards|}}}
+  | header21 = {{#if:{{{rthktop10goldsongsawards|}}}|[[RTHK Top 10 Gold Songs Awards]]}}
+  | data22   = {{{rthktop10goldsongsawards|}}}
+  | header23 = {{#if:{{{goldenmelodyawards|}}}|[[Golden Melody Awards]]}}
+  | data24   = {{{goldenmelodyawards|}}}
+  | header25 = {{#if:{{{mtvasiaawards|}}}|[[MTV Asia Awards]]}}
+  | data26   = {{{mtvasiaawards|}}}
+  | header27 = {{#if:{{{ntsawards|}}}|[[New Talent Singing Awards]]}}
+  | data28   = {{{ntsawards|}}}
+  | header29 = {{#if:{{{goldenbellawards|}}}|[[Golden Bell Awards]]}}
+  | data30   = {{{goldenbellawards|}}}
+  | header31 = {{#if:{{{tvbanniversaryawards|}}}|[[TVB Anniversary Awards]]}}
+  | data32   = {{{tvbanniversaryawards|}}}
+  | header33 = {{#if:{{{magnoliaawards|}}}|[[Shanghai Television Festival]]}}
+  | data34   = {{{magnoliaawards|}}}
+  | header35 = {{#if:{{{asiantvawards|}}}|[[Asian Television Award|Asian Television Awards]]}}
+  | data36   = {{{asiantvawards|}}}
+  | header37 = {{#if:{{{rainbowawards|}}}|Asian Rainbow Awards}}
+  | data38   = {{{rainbowawards|}}}
+  | header39 = {{#if:{{{awards|}}}|{{#if:{{{hongkongfilmwards|}}}{{{goldenbauhiniaawards|}}}{{{hkfcsawards|}}}{{{asianfilmawards|}}}{{{goldenhorseawards|}}}{{{huabiaoawards|}}}{{{goldenroosterawards|}}}{{{hundredflowersawards|}}}{{{goldeneagleawards|}}}{{{flyingapsarasawards|}}}{{{rthktop10goldsongsawards|}}}{{{goldenmelodyawards|}}}{{{mtvasiaawards|}}}{{{ntsawards|}}}{{{goldenbellawards|}}}{{{tvbanniversaryawards|}}}{{{magnoliaawards|}}}{{{asiantvawards|}}}{{{rainbowawards|}}}|Other awards}}}}
+  | data40   = {{{awards|}}}
+  }}
+ </table>
+ }}
+}}
+}}<noinclude>{{documentation}}
+</noinclude>
