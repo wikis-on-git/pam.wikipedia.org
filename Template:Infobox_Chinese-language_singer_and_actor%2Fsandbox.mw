@@ -25,7 +25,7 @@
 | data1       = {{#if:{{{chinesename|}}}|<span style="font-size: 120%;">{{{chinesename|}}}</span>}}
 
 | label2      = Lagyung Tsinu
-| data2       = {{#if:{{{tradchinesename|}}}|<span style="font-size: 120%;" class="nickname">{{lang|zh-Hant|{{{tradchinesename}}}}}</span>  <small>([[Traditional Chinese characters|tradisyonal]])</small>}}
+| data2       = {{#if:{{{tradchinesename|}}}|<span style="font-size: 120%;" class="nickname">{{lang|zh-Hant|{{{tradchinesename}}}}}</span>  <small>([[Traditional Chinese characters|Tradisyonal]])</small>}}
 
 | label3      = Lagyung Tsinu
 | data3       = {{#if:{{{simpchinesename|}}}|<span style="font-size: 120%;" class="nickname">{{lang|zh-Hans|{{{simpchinesename}}}}}</span>  <small>([[Simplified Chinese characters|Pepayak]])</small>}}
