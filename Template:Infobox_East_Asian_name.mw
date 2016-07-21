@@ -1,0 +1,57 @@
+{{Infobox Chinese/Header
+| title = {{{title|<includeonly>{{PAGENAMEBASE}}</includeonly>}}}
+| float = <!---(left/right(default)/none)--->
+| collapse = <!---(yes/no)--->
+| pic={{{img|}}} | picsize={{{imgwidth|}}} | piccap={{{caption|}}}
+}}<!--
+
+----------------Tsinu-----------------
+-->{{#if:{{{chinese|}}}{{{tradchi|}}}{{{simpchi|}}}
+    | {{Infobox Chinese/Chinese |hide={{{hide|}}}
+       | chinese_header = {{#if:{{{chinesename|}}} |{{{chinesename}}} |Chinese name}}
+       |c={{{chinese|}}} |t={{{tradchi|}}} |s={{{simpchi|}}} |p={{{pinyin|}}} |w={{{wg|}}}
+   }} }}<!--
+
+----------------Hapones----------------
+-->{{#if:{{{kanji|}}}{{{kana|}}}
+    | {{Infobox Chinese/Japanese |hide={{{hide|}}}
+       | japanese_header = {{#if:{{{japanesename|}}} |{{{japanesename}}} |Japanese name}}
+       |kanji={{{kanji|}}} |kyujitai={{{kyujitai|}}} |shinjitai={{{shinjitai|}}} |kana={{{kana|}}} |hiragana={{{hiragana|}}} |romaji={{{romaji|}}} |revhep={{{hepburn|}}} |tradhep={{{tradhep|}}} |kunrei={{{kunrei|}}} |nihon={{{nihon|}}}
+   }} }}<!--
+
+----------Hapones (''alternate'')----------
+-->{{#if:{{{kanji2|}}}{{{kana2|}}}
+    | {{Infobox Chinese/Japanese |hide={{{hide|}}}
+       | japanese_header = {{#if:{{{japanesename2|}}} |{{{japanesename2}}} |Alternate Japanese name}}
+       |kanji={{{kanji2|}}} |kyujitai={{{kyujitai2|}}} |shinjitai={{{shinjitai2|}}} |kana={{{kana2|}}} |hiragana={{{hiragana2|}}} |romaji={{{romaji2|}}} |revhep={{{hepburn2|}}} |tradhep={{{tradhep2|}}} |kunrei={{{kunrei2|}}} |nihon={{{nihon2|}}}
+   }} }}<!--
+
+-----------------Koreanu-----------------
+-->{{#if:{{{hangul|}}}{{{hanja|}}}
+    | {{Infobox Chinese/Korean |hide={{{hide|}}}
+       | korean_header = {{#if:{{{koreanname|}}} |{{{koreanname}}} |Korean name}}
+       |hangul={{{hangul|}}} |hanja={{{hanja|}}} |rr={{{rr|}}} |mr={{{mr|}}} |northkorea={{#switch:{{{koreancontext|{{{context|}}}}}} |n|north|North|dprk|DPRK|nk=yes}} |lk={{{lk|}}}
+   }} }}<!--
+
+-----------Koreanu (''alternate'')-----------
+-->{{#if:{{{hangul2|}}}{{{hanja2|}}}
+    | {{Infobox Chinese/Korean |hide={{{hide|}}}
+       | korean_header = {{#if:{{{koreanname2|}}} |{{{koreanname2}}} |Alternate Korean name}}
+       |hangul={{{hangul2|}}} |hanja={{{hanja2|}}} |rr={{{rr2|}}} |mr={{{mr2|}}} |northkorea={{#switch:{{{koreancontext2|{{{context2|}}}}}} |n|north|North|dprk|DPRK|nk=yes}} |lk={{{lk2|}}}
+   }} }}<!--
+
+-----------Siriliku (Rusu)-----------
+-->{{#if:{{{cyrillic|}}}
+    | {{Infobox Chinese/Russian |hide={{{hide|}}}
+       | russian_header = {{#if:{{{russianname|}}} |{{{russianname}}} |Russian name}}
+       |rus={{{cyrillic|}}} |rusr={{{romanization|}}}
+   }} }}<!--
+
+--------------customizable--------------
+-->{{#if:{{{content1|}}} |{{Infobox Chinese/Blank |lang={{{field1|}}} |lang_content={{{content1|}}} }} }}<!--
+-->{{#if:{{{content2|}}} |{{Infobox Chinese/Blank |lang={{{field2|}}} |lang_content={{{content2|}}} }} }}<!--
+-->{{#if:{{{content3|}}} |{{Infobox Chinese/Blank |lang={{{field3|}}} |lang_content={{{content3|}}} }} }}<!--
+
+-->{{Infobox Chinese/Footer}}<noinclude>
+{{Documentation}}
+</noinclude>
