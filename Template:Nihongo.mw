@@ -9,7 +9,7 @@
  |&#32;(
 }}{{#if:{{{2|}}}
  |{{#ifeq:{{yesno|{{{lead|}}}}}|yes
-  |[[Japanese language|Japanese]]:&#32;
+  |[[Japanese language|Hapones]]:&#32;
  }}<span class="t_nihongo_kanji" lang="ja">{{{2}}}</span>
 }}{{#if:{{{1|}}}
  |{{#if:{{{3|}}}
@@ -33,7 +33,7 @@
 }}{{#if:{{{extra2|{{{5|}}}}}}
  |&#32;{{{extra2|{{{5}}}}}}
 }}{{category handler
-|main=[[Category:Articles containing Japanese-language text]]
+|main=[[Category:Deng artikulung ating tekstu ning Amanung Hapones]]
 }}</span><noinclude>
 {{documentation}}
 <!-- Add categories and interwikis to the /doc subpage, not here! -->
