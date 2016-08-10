@@ -683,50 +683,50 @@ Deta mung larawan a maka-uploaded king Wikipedia ing malyaring gamitan. Bang mag
 ! Nung nanu ing ta-type mu
 |- valign="top"
 |A picture: 
-[[Image:wiki.png]]
+[[Image:Wikipedia-logo-v2-pam.svg]]
 |<pre>A picture: 
-<nowiki>[[Image:wiki.png]]</nowiki></pre>
+<nowiki>[[Image:Wikipedia-logo-v2-pam.svg]]</nowiki></pre>
 
 
 
 |- valign="top"
 |Maki text a panalili o alternative text:
-[[Image:wiki.png|jigsaw globe]]
+[[Image:Wikipedia-logo-v2-pam.svg|jigsaw globe]]
 |<pre>With alternative text:
-<nowiki>[[Image:wiki.png|jigsaw globe]]</nowiki></pre>
+<nowiki>[[Image:Wikipedia-logo-v2-pam.svg|jigsaw globe]]</nowiki></pre>
 * Pakarekomenda ra ing pamangamit king alternative text, a magagamit neng atyu king babo ning larawan ing mouse, nung e maka-load ing larawan king text-only browser, o nung babasan yang masikan. Lon ya ing 
 [[Wikipedia:Alternate text for images|Alternate text for images]] para king pamamye lino king pamangamit kaniti.
 
 
 |- valign="top"
 |Galo ya papunta king wanan ning bulung a maki sulat:
-[[Image:wiki.png|frame|Wikipedia Encyclopedia]]<br clear=all>
+[[Image:Wikipedia-logo-v2-pam.svg|frame|Wikipedia Encyclopedia]]<br clear=all>
 |<pre> Galo ya papunta king wanan ning bulung a maki sulat:
-<nowiki>[[Image:wiki.png|frame|Wikipedia Encyclopedia]]</nowiki></pre>
+<nowiki>[[Image:Wikipedia-logo-v2-pam.svg|frame|Wikipedia Encyclopedia]]</nowiki></pre>
 * Tambing neng igalo papuntang wanan ning frame tag ing larawan.
 * Magagamit ya muring alternate text ing caption o sulat a tungkul king larawan.
 
 
 |- valign="top"
 |Gagalong papunta king wanan ning bulung a ''alang'' caption:
-[[Image:wiki.png|right|Wikipedia Encyclopedia]]
+[[Image:Wikipedia-logo-v2-pam.svg|right|Wikipedia Encyclopedia]]
 |<pre>Gagalong papunta king wanan ning bulung a ''alang'' caption:
-<nowiki>[[Image:wiki.png|right|Wikipedia Encyclopedia]]</nowiki></pre>
+<nowiki>[[Image:Wikipedia-logo-v2-pam.svg|right|Wikipedia Encyclopedia]]</nowiki></pre>
 * Atyu ing help topic king [[En:Wikipedia:Extended image syntax|Extended image syntax]] , a babye aliwa pang pipamilinan.
 
 
 |- valign="top"
 |Linking directly to the description page of an image:
-[[:Image:wiki.png]]
+[[:Image:Wikipedia-logo-v2-pam.svg]]
 |<pre>Linking directly to the description page of an image:
-<nowiki>[[:Image:wiki.png]]</nowiki></pre>
+<nowiki>[[:Image:Wikipedia-logo-v2-pam.svg]]</nowiki></pre>
 * Nung i-click me ing larawan a makalto king bulung (anti ing sanu man kareng atyu king babo) miras ka king description page
 
 |- valign="top"
 |Diretsung pamag-link king metung a larawan a e ya lalto ini:
-[[media:wiki.png|Larawan ning jigsaw globe logo]]
+[[media:Wikipedia-logo-v2-pam.svg|Larawan ning jigsaw globe logo]]
 |<pre>Diretsung pamag-link king metung a larawan a e ya lalto ini:
-<nowiki>[[media:wiki.png|Larawan ning jigsaw globe logo]]</nowiki></pre>
+<nowiki>[[media:Wikipedia-logo-v2-pam.svg|Larawan ning jigsaw globe logo]]</nowiki></pre>
 * Bang mituglung kareng larawan a lunto la mung link deti at e la lulwal king bulung, gamitan ya ing "media" link.  
 
 
