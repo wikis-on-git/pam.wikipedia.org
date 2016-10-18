@@ -1,8 +1,9 @@
 {{#switch:{{{1|}}}
+<!-- ISO code | FIFA code | kampampangan name | English name -->
 |ABW|ARU|Aruba              = Flag of Aruba.svg
 |AFG|Afganistan|Afghanistan = Flag of Afghanistan.svg
 |ALB|Albania                = Flag of Albania.svg
-|ALŽ = Flag of Algeria.svg
+|DZA|ALG|Algeria            = Flag of Algeria.svg
 |AMS = Flag of the United States Virgin Islands.svg
 |AND = Flag of Andorra.svg
 |ANG = Flag of Angola.svg
