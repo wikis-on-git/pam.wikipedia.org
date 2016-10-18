@@ -1,5 +1,5 @@
 <li style="-moz-float-edge: content-box">
-<noinclude>{{pp-template}}<div style="border: 1px solid; width: 96%; padding: 1em; float: left; background: #EFEFEF">
+<noinclude><div style="border: 1px solid; width: 96%; padding: 1em; float: left; background: #EFEFEF">
 This '''''main page-bullet''''' template deals with a peculiarity of [[Mozilla Firefox|Firefox]] that prevents word wrap around right-aligned images in the case of bulleted lists.</div>
 
 [[Category:Formatting templates| ]]
