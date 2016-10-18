@@ -1,8 +1,9 @@
 {{#switch:{{{1|}}}
+<!-- ISO code | FIFA code | kampampangan name | English name -->
 |ABW|ARU|Aruba              = [[Aruba]]
-|AFG|Afghanistan|Afganistan = [[Afganistan]]
+|AFG|Afganistan|Afghanistan = [[Afganistan]]
 |ALB|Albania                = [[Albania]]
-|ALŽ|Algeria = [[Algeria]]
+|DZA|ALG|Algeria            = [[Algeria]]
 |AMS|United States Virgin Islands = [[United States Virgin Islands]]
 |AND|Andorra = [[Andorra]]
 |ANG|Angola = [[Angola]]
