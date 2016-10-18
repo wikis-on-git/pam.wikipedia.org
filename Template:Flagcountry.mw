@@ -1,4 +1,5 @@
 {{#switch:{{{1|}}}
+|ABW|ARU|Aruba           = Flag of Aruba.svg
 |ADO = Flag of the United States Virgin Islands.svg
 |AFG = Flag of Afghanistan.svg
 |ALB = Flag of Albania.svg
@@ -9,7 +10,6 @@
 |ANV = Flag of Anguilla.svg
 |ARG = Flag of Argentina.svg
 |ARM = Flag of Armenia.svg
-|ARU = Flag of Aruba.svg
 |ATG = Flag of Antigua and Barbuda.svg
 |AUS = Flag of Australia.svg
 |AUT = Flag of Austria.svg
