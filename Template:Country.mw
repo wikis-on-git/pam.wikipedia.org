@@ -1,4 +1,5 @@
 {{#switch:{{{1|}}}
+|ABW|ARU|Aruba           = [[Aruba]]
 |ADO|United States Virgin Islands = [[United States Virgin Islands]]
 |AFG|Afghanistan = [[Afghanistan]]
 |ALB|Albania = [[Albania]]
@@ -9,7 +10,6 @@
 |ANV|Anguilla = [[Anguilla]]
 |ARG|Argentina = [[Argentina]]
 |ARM|Armenia = [[Armenia]]
-|ARU|Aruba = [[Aruba]]
 |ATG|Antigua and Barbuda = [[Antigua and Barbuda]]
 |AUS|Australia = [[Australia]]
 |AUT|Austria = [[Austria]]
