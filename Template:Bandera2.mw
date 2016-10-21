@@ -1,1 +1,1 @@
-[[File:{{Flagcountry|{{{1|}}}}}|border|23px]] {{Country|{{{1|}}}}}<includeonly>{{#ifeq:{{NAMESPACE}}|{{ns:10}}|[[Category:Templates ding banderang|{{PAGENAME}}]]}}</includeonly><noinclude>[[Category:Templates ding banderang| ]]</noinclude>
+[[File:{{Flagcountry|{{{1|}}}}}|border|23px]] {{Country|{{{1|}}}}}<includeonly>{{#ifeq:{{PAGENAME}}|{{uc:{{PAGENAME}}}}|[[Category:Templates ding banderang|{{PAGENAME}}]]}}</includeonly><noinclude>[[Category:Templates ding banderang| ]]</noinclude>
