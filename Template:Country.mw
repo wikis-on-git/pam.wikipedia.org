@@ -1,5 +1,5 @@
 {{#switch:{{{1|}}}
-<!-- ISO code | FIFA code | kampampangan name | English name -->
+<!-- ISO code | FIFA code | Kampampangan name | English name -->
 |ABW|ARU|Aruba              = [[Aruba]]
 |AFG|Afganistan|Afghanistan = [[Afganistan]]
 |AGO|ANG|Angola             = [[Angola]]
@@ -37,11 +37,11 @@
 |CYP|Sipre|Cyprus           = [[Sipre]]
 |CZE|Republika ning Tseka|Czech Republic = [[Republika ning Tseka]]
 |DZA|ALG|Algeria            = [[Algeria]]
+|IND|India                  = [[India]]
 |MNE|Montenegro             = [[Montenegro]]
 |TCD|CHA|Chad               = [[Chad]]
 
 |ČIL|Chile = [[Chile]]
-|ČSSR|Czech Republic = [[Czech Republic]]
 |DAN|Denmark = [[Denmark]]
 |DDR|East Germany = [[East Germany]]
 |DMN|Dominica = [[Dominica]]
@@ -79,7 +79,6 @@
 |HK|Hong Kong = [[Hong Kong]]
 |HON|Honduras = [[Honduras]]
 |HRV|Croatia = [[Croatia]]
-|IND|India = [[India]]
 |INDN|Indonesia = [[Indonesia]]
 |IRK|Iraq = [[Iraq]]
 |IRN|Iran = [[Iran]]
