@@ -37,7 +37,7 @@ Ing '''Windows Media Audio''' ('''WMA''') metung yang teknolohiyang [[audio data
 *[http://www.medialab.sonera.fi/demos/streaming/avq/audio_real_vs_windowsmedia/ Audio quality comparison between RealAudio and Windows Media Audio]
 *[http://www.spinnaker.com/crypt/drm/freeme/Technical Description of the algorithm used for Windows Media encryption]
 *[http://svn.mplayerhq.hu/ffmpeg/trunk/libavcodec/wmadec.c?view=markup Windows Media Audio decoder source code at FFMpeg's CVS]
-*[http://www.digit-life.com/articles/mp3pro/ mp3PRO vs MP3] - includes graphs comparing high-frequency performance for WMA/MP3/WAV
+*[https://www.pricenfees.com/digit-life-archives/mp3pro-vs-mp3 mp3PRO vs MP3] - includes graphs comparing high-frequency performance for WMA/MP3/WAV
 *[http://www.jakeludington.com/ask_jake/20050811_convert_wma_to_mp3.html Convert WMA to MP3] - tutorial on how to convert WMA to MP3
 
 ==Dalerayan==
