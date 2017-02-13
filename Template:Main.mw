@@ -1,8 +1,4 @@
-:<div class="noprint">''Main article{{#if:{{{2|}}}|s}}&#58; [[{{{1}}}|{{{l1|{{{1}}}}}}]]{{#if:{{{2| }}}
-  |{{#if:{{{3|}}}|,&#32;|&#32;and&#32;}}[[{{{2}}}|{{{l2|{{{2}}}}}}]]}}{{#if:{{{3|}}}
-  |{{#if:{{{4|}}}|,&#32;|,&#32;and&#32;}}[[{{{3}}}|{{{l3|{{{3}}}}}}]]}}{{#if:{{{4|}}}
-  |{{#if:{{{5|}}}|,&#32;|,&#32;and&#32;}}[[{{{4}}}|{{{l4|{{{4}}}}}}]]}}{{#if:{{{5|}}}
-  |, and [[{{{5}}}|{{{l5|{{{5}}}}}}]]}}''{{#if:{{{6| }}}|&#32; (too many parameters in &#123;&#123;[[Template:main|main]]&#125;&#125;)}}</div><noinclude>
+{{#invoke:main|main}}<noinclude>
 
 == Usage ==
 To link to a "main article" on a topic, use &#123;{main|The other article}}.
