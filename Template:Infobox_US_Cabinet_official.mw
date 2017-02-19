@@ -10,7 +10,7 @@
 }}
 {{#if:{{{image name|}}} |
 {{!}}colspan="2" style="text-align:center;"{{!}} [[Image:{{{image name}}}|{{#ifeq:{{{image name|}}}|Replace this image1.svg|150px|{{#if:{{{imagesize|}}}|{{{imagesize}}}|160px}}}}|{{PAGENAME}}]]<br/>
-<small>{{{caption|}}}<small/>
+<small>{{{caption|}}}</small>
 {{!}}-
 }}
 {{#if:{{{smallimage|}}} |
