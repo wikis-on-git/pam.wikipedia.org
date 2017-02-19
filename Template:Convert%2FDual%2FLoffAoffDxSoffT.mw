@@ -250,9 +250,9 @@
 -------------------------------------------- -->
 | #default=<br>'''[[Template:Convert/Dual/LoffAoffDxSoffT]]<!--
   --><br>&nbsp; - Invalid output type''' {4}="{{{4|Nul}}}", in <!--
-  -->{<font/>{Convert&#124;{{uncomma|{{{1|4,555}}}|x}}<!--
+  -->{<nowiki/>{Convert&#124;{{uncomma|{{{1|4,555}}}|x}}<!--
   -->&#124;{{{2}}}&#124;{{formatnum:{{{3|6,888}}}|R}}<!--
-  -->&#124;{{{4}}}&#124;...}<font/>}.
+  -->&#124;{{{4}}}&#124;...}<nowiki/>}.
 }}<!--endswitch {4}--
 -->{{#ifeq:{{{disp|b}}}|output number only|<!--then skip--
 -->|<!--============================= else-show-output-unit--
