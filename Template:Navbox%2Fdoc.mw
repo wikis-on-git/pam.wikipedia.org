@@ -73,7 +73,7 @@ The concise list of parameters is as follows:
 :<code>above - </code>text to appear above the group/list section (could be a list of overall wikilinks).
 
 :<code>group<sub>n</sub> - </code>the left-side text before list-n (if group-n omitted, list-n starts at left of box).
-:<code>list<sub>n</sub> - </code>text listing wikilinks, often separated by middot templates, such as: [<font/>[A]]<code>{<font/>{·}}</code> [<font/>[B]]
+:<code>list<sub>n</sub> - </code>text listing wikilinks, often separated by middot templates, such as: [<nowiki/>[A]]<code>{<nowiki/>{·}}</code> [<nowiki/>[B]]
 :<code>below - </code>optional text to appear below the group/list section.
 :<code>navbar - </code>title-bar nav link (default: <code>Tnavbar</code> for <small>v • d • e</small> links; "navbar=plain" will omit, but should only be used when absolutely necessary).
 
