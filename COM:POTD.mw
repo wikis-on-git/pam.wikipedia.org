@@ -35,14 +35,3 @@ Malyari yang lon ing ''caption'' kapamilatan ning<br />
 * [[Template:Potd/{{#ifexpr: {{CURRENTMONTH}}=12|{{#expr:{{CURRENTYEAR}}+1}}-01|{{CURRENTYEAR}}-{{#ifexpr: {{CURRENTMONTH}}+1<10|0{{#expr:{{CURRENTMONTH}}+1}}|{{#expr:{{CURRENTMONTH}}+1}} }} }}|Deng larawan ning aldo keng tutuking bulan]]
 
 [[Category:Commons:Potd (pam)| ]]
-
-[[bs:Wikipedia:Slika dana]]
-[[en:Wikipedia:Picture of the day]]
-[[fr:Wikipédia:Image du jour]]
-[[hu:Wikipédia:A nap képe]]
-[[kk:Уикипедия:Тәулік суреті]]
-[[os:Википеди:Боны ныв]]
-[[ru:Википедия:Изображение дня]]
-[[zh:Wikipedia:每日圖片]]
-[[zh-classical:維基大典:每日圖繪]]
-[[zh-yue:Wikipedia:是日靚畫]]
