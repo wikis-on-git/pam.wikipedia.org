@@ -4,7 +4,7 @@
 | clubname = FC Barcelona
 | image = [[File:FCB.png|frameless]]
 | fullname = Futbol Club Barcelona<!--in Catalan, futbol does not have an accent over "u"-->
-| nickname = ''Barça'' o ''Blaugrana'' (team)<br />''Culés'' o ''Barcelonistas'' (talasuporta)<br />''Blaugranes'' o ''Azulgranas''<!--in Catalan, it is always blaugrana (singular) or blaugranes (plural), while in Spanish the Catalan word "blaugrana" is often used as well as the Spanish word "azulgrana"--> (talasuporta)
+| nickname = ''Barça'' (team)<br />''Culés'' o ''Barcelonistas'' (talasuporta)<br />''Blaugranas'' o ''Azulgranas''<!--in Catalan, it is always blaugrana (singular) or blaugranes (plural), while in Spanish the Catalan word "blaugrana" is often used as well as the Spanish word "azulgrana"--> (talasuporta)
 | motto = Més que un club
 | founded = {{Start date and years ago|1899|11|29}}<br />antimong ''Foot-Ball Club Barcelona''
 | ground = [[Camp Nou]], [[Barcelona]]
@@ -18,15 +18,30 @@
 | current = 2017–18 FC Barcelona season
 | website = http://www.fcbarcelona.com
 <!-- DO NOT ADD OR REVERT INTO EARLIER VERSIONS: THE NIKE LOGO IS COPYRIGHTED AND MAY NOT BE USED-->
-| pattern_la1= |pattern_b1=_2redstripes2|pattern_ra1=
-| pattern_sh1=|pattern_so1=
-| leftarm1=0000BA|body1=0000BA|rightarm1=0000BA|shorts1=0000BA|socks1=0000BA
-| pattern_la2= _navyborder|pattern_b2=_collarnavy|pattern_ra2=_navyborder
-| pattern_sh2=|pattern_so2=
-| leftarm2=FFA000|body2=FFA000|rightarm2=FFA000|shorts2=111130|socks2=FFA000
-| pattern_la3= |pattern_b3=_vneck|pattern_ra3=
-| pattern_sh3=|pattern_so3=
-| leftarm3=880000|body3=880000|rightarm3=880000|shorts3=880000|socks3=880000
+| pattern_la1=
+| pattern_b1=_2redstripes2
+| pattern_ra1=
+| leftarm1=0000BC
+| body1=0000BC
+| rightarm1=0000BC
+| shorts1=0000BC
+| socks1=0000BC
+| pattern_la2=_thinwhiteborder
+| pattern_b2=_vneck
+| pattern_ra2=_thinwhiteborder
+| leftarm2=FF6000
+| body2=FF6000
+| rightarm2=FF6000
+| shorts2=000040
+| socks2=FF6000
+| pattern_la3=_navyborder
+| pattern_b3=_vneck
+| pattern_ra3=_navyborder
+| leftarm3=AAFF70
+| body3=AAFF70
+| rightarm3=AAFF70
+| shorts3=14404E
+| socks3=AAFF70
 }}
 Ing '''Futbol Club Barcelona''' ({{IPA-ca|fubˈbɔɫ ˈkɫub bərsəˈɫonə|-|Futbol Club Barcelona - name.ogg}}), a ausan da muring '''Barcelona''' at antimong palayo, '''Barça''',<ref>Pronounced {{IPA-ca|ˈbar.sə|}}.</ref> metung yang propesional a [[Football team|football club]], a makabasi king [[Barcelona]], [[Catalonia]], [[Espania]].
 
