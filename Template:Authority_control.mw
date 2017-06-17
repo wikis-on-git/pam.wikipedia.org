@@ -1,9 +1,9 @@
 <table class="navbox" style="padding:0px; border:none; background:none; border-spacing:0px;"><tr><td style="padding:0px;"><div id="normdaten" class="catlinks" style="margin:0px;">'''Authority control''':<!--
 *** GND ***
---> {{#if: {{{GND|}}} | [[Universal Authority File|GND]]: [http://d-nb.info/gnd/{{{GND}}} {{{GND}}}] {{#if:{{{LCCN|}}}|&#124;}} }}<!--
+--> {{#if: {{{GND|}}} | [[Universal Authority File|GND]]: [http://d-nb.info/gnd/{{{GND}}} {{{GND}}}] {{#if:{{{ORCID|}}}|&#124;}} }}<!--
+*** ORCID ***
+--> {{#if: {{{ORCID|}}} | [[ORCID]]: [http://orcid.org/{{{ORCID}}} {{{ORCID}}}] {{#if:{{{LCCN|}}}|&#124;}} }}<!--
 *** PND ***
---> {{#if:{{{PND|}}}| [[Name Authority File|PND]]: [http://d-nb.info/gnd/{{{PND}}} {{{PND}}}] {{#if:{{{LCCN|}}}|&#124;}} }}<!--
-*** LCCN ***
 --> {{#if:{{{LCCN|}}}|[[Library of Congress Control Number|LCCN]]: [http://lccn.loc.gov/{{ParmPart|1|{{{LCCN}}} }}{{ParmPart|2|{{{LCCN}}} }}{{padleft:{{ParmPart|3|{{{LCCN}}} }}|6|0}} {{ParmPart|1|{{{LCCN}}} }}{{ParmPart|2|{{{LCCN}}} }}{{padleft:{{ParmPart|3|{{{LCCN}}} }}|6|0}}]}}<!--
 *** VIAF ***
 --> {{#if:{{{VIAF|}}}|{{#if:{{{GND|}}}{{{PND|}}}{{{LCCN|}}}|&#124;}} [[Virtual International Authority File|VIAF]]: [http://viaf.org/viaf/{{{VIAF}}} {{{VIAF}}}]}}<!--
