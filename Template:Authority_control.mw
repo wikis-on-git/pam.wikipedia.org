@@ -2,7 +2,7 @@
 *** GND ***
 --> {{#if: {{{GND|}}} | [[Universal Authority File|GND]]: [http://d-nb.info/gnd/{{{GND}}} {{{GND}}}] {{#if:{{{ORCID|}}}|&#124;}} }}<!--
 *** ORCID ***
---> {{#if: {{{ORCID|}}} | [[ORCID]]: [http://orcid.org/{{{ORCID}}} {{{ORCID}}}] {{#if:{{{LCCN|}}}|&#124;}} }}<!--
+--> {{#if: {{{ORCID|}}} | [[ORCID]]: [https://orcid.org/{{{ORCID}}} {{{ORCID}}}] {{#if:{{{LCCN|}}}|&#124;}} }}<!--
 *** PND ***
 --> {{#if:{{{LCCN|}}}|[[Library of Congress Control Number|LCCN]]: [http://lccn.loc.gov/{{ParmPart|1|{{{LCCN}}} }}{{ParmPart|2|{{{LCCN}}} }}{{padleft:{{ParmPart|3|{{{LCCN}}} }}|6|0}} {{ParmPart|1|{{{LCCN}}} }}{{ParmPart|2|{{{LCCN}}} }}{{padleft:{{ParmPart|3|{{{LCCN}}} }}|6|0}}]}}<!--
 *** VIAF ***
