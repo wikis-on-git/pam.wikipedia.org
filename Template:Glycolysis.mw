@@ -10,12 +10,9 @@ This template is part of [[Wikipedia:Wikiproject Metabolic Pathways|Metabolic Pa
 ==The Template==
 </noinclude>
 <br clear="all" />
-<div>
-{| class="toccolours" align="center"
-| align="center" bgcolor="lightblue" | <div style="float:right;margin-right:8px;">{{Tnavbar|Glycolysis|mini=1|nodiv=1}}</div>'''[[Glycolysis]] [[Metabolic pathway|Metabolic Pathway]]'''
-|-
-|
-{| border="0" style="font-size: 90%" align="center"
+<div class="toccolours" >
+<h4 style="background-color: lightblue; text-align: center; padding: 0; margin: 0">[[Glycolysis]] [[Metabolic pathway|Metabolic Pathway]]<span style="float:right;margin-right:8px;">{{Tnavbar|Glycolysis|mini=1|nodiv=1}}</span></h4>
+{| style="border: none; font-size: 90%" align="center"
 | bgcolor="lightgreen" | [[Glucose]]
 |
 |
@@ -33,42 +30,38 @@ This template is part of [[Wikipedia:Wikiproject Metabolic Pathways|Metabolic Pa
 | bgcolor="lightgreen" | [[Glyceraldehyde 3-phosphate]]
 |
 |
-|
 | bgcolor="lightgreen" | [[Glyceraldehyde 3-phosphate]]
 |
 |
-|
 |-
-| rowspan="3" align="center" | [[image:D-glucose_wpmp.png|39px]]
+| rowspan="3" align="center" | [[image:D-glucose_wpmp.svg|40px]]
 | valign="bottom" | ATP
 | valign="bottom" | ADP
-| rowspan="3" align="center" | [[image:alpha-D-glucose-6-phosphate_wpmp.png|41px]]
+| rowspan="3" align="center" | [[image:alpha-D-glucose-6-phosphate_wpmp.png|50px]]
 | valign="bottom" | 
 | valign="bottom" | 
-| rowspan="3" align="center" | [[image:beta-D-fructose-6-phosphate_wpmp.png|54px]]
+| rowspan="3" align="center" | [[image:beta-D-fructose-6-phosphate_wpmp.svg|60px]]
 | valign="bottom" | ATP
 | valign="bottom" | ADP
-| rowspan="3" align="center" | [[image:beta-D-fructose-1,6-bisphosphate_wpmp.png|58px]]
+| rowspan="3" align="center" | [[image:beta-D-fructose-1,6-bisphosphate_wpmp.png|60px]]
 | valign="bottom" | 
 | valign="bottom" | 
-| rowspan="3" align="center" | [[image:glycerone-phosphate_wpmp.png|27px]]
+| rowspan="3" align="center" | [[image:glycerone-phosphate_wpmp.png|50px]]
 | 
-| rowspan="3" align="center" | [[image:D-glyceraldehyde-3-phosphate_wpmp.png|29px]]
+| rowspan="3" align="center" | [[image:D-glyceraldehyde-3-phosphate_wpmp.png|50px]]
 | valign="bottom" | 
 | valign="bottom" | 
-|
-| rowspan="3" align="center" | [[image:D-glyceraldehyde-3-phosphate_wpmp.png|29px]]
+| rowspan="3" align="center" | '''2''' [[image:D-glyceraldehyde-3-phosphate_wpmp.png|50px]]
 | valign="bottom" | NAD<sup>+</sup> '''+''' P<sub>i</sub>
 | valign="bottom" | NADH '''+''' H<sup>+</sup>
 |-
-| colspan="2"   align="center" | [[image:Biochem_reaction_arrow_forward_YYNN_horiz_med.png|35px]]
-| colspan="2"   align="center" | [[image:biochem_reaction_arrow_reversible_NNNN_horiz_med.png|35px]]
-| colspan="2"   align="center" | [[image:Biochem_reaction_arrow_forward_YYNN_horiz_med.png|35px]]
-| colspan="2"   align="center" | [[image:biochem_reaction_arrow_reversible_NNNN_horiz_med.png|35px]]
+| colspan="2"   align="center" | [[image:Biochem_reaction_arrow_forward_YYNN_horiz_med.svg|35px]]
+| colspan="2"   align="center" | [[image:biochem_reaction_arrow_reversible_NNNN_horiz_med.svg|35px]]
+| colspan="2"   align="center" | [[image:Biochem_reaction_arrow_forward_YYNN_horiz_med.svg|35px]]
+| colspan="2"   align="center" | [[image:biochem_reaction_arrow_reversible_NNNN_horiz_med.svg|35px]]
 | '''+'''
-| colspan="2"   align="center" | [[image:biochem_reaction_arrow_reversible_NNNN_horiz_med.png|35px]]
-| '''2'''
-| colspan="2"   align="center" | [[image:biochem_reaction_arrow_reversible_YYYY_horiz_med.png|35px]]
+| colspan="2"   align="center" | [[image:biochem_reaction_arrow_reversible_NNNN_horiz_med.svg|35px]]
+| colspan="2"   align="center" | [[image:biochem_reaction_arrow_reversible_YYYY_horiz_med.svg|35px]]
 |-
 | valign="top" |
 | valign="top" |
@@ -81,89 +74,64 @@ This template is part of [[Wikipedia:Wikiproject Metabolic Pathways|Metabolic Pa
 |
 | valign="top" |
 | valign="top" |
-|
 | valign="top" | NAD<sup>+</sup> '''+''' P<sub>i</sub>
 | valign="top" | NADH '''+''' H<sup>+</sup>
 |}
 
-{| border="0" style="font-size: 90%" align="center"
+{| style="border: none; font-size: 90%" align="center"
 |-
-|
 | bgcolor="lightgreen" | [[1,3-Bisphosphoglycerate]]
-|
 |
 |
 | bgcolor="lightgreen" | [[Glycerate 3-phosphate|3-Phosphoglycerate]]
 |
 |
-|
 | bgcolor="lightgreen" | [[2-Phosphoglycerate]]
-|
 |
 |
 | bgcolor="lightgreen" | [[Phosphoenolpyruvate]]
 |
 |
-|
 | bgcolor="lightgreen" | [[Pyruvic acid|Pyruvate]]
-|
 |
 |
 | bgcolor="lightgreen" | [[Acetyl-CoA]]
 |-
-|
-| rowspan="3" align="center" | [[File:1,3-bisphospho-D-glycerate.svg|29px]]
+| rowspan="3" align="center" | '''2''' [[File:1,3-bisphospho-D-glycerate.svg|60px]]
 | valign="bottom" | ADP
 | valign="bottom" | ATP
-|
-| rowspan="3" align="center" | [[image:3-phospho-D-glycerate.svg|29px]]
+| rowspan="3" align="center" | '''2''' [[image:3-phospho-D-glycerate.svg|60px]]
 | valign="bottom" | 
 | valign="bottom" | 
-|
-| rowspan="3" align="center" | [[image:2-phospho-D-glycerate_wpmp.png|42px]]
+| rowspan="3" align="center" | '''2''' [[image:2-phospho-D-glycerate_wpmp.svg|70px]]
 | valign="bottom" | 
 | valign="bottom" | H<sub>2</sub>O
-|
-| rowspan="3" align="center" | [[image:phosphoenolpyruvate_wpmp.png|26px]]
+| rowspan="3" align="center" | '''2''' [[image:phosphoenolpyruvate_wpmp.png|50px]]
 | valign="bottom" | ADP
 | valign="bottom" | ATP
-|
-| rowspan="3" align="center" | [[image:pyruvate_wpmp.png|21px]]
-| valign="bottom" | [[Coenzyme A|CoA]] '''+''' NAD<sup>+</sup>
-| valign="bottom" | NADH '''+''' H<sup>+</sup> '''+''' CO<sub>2</sub>
-|
-| rowspan="3" align="center" | [[image:acetyl_co-A_wpmp.png|31px]]
+| rowspan="3" align="center" | '''2''' [[image:pyruvate_wpmp.png|40px]]
+| style="padding: 0 1em" valign="bottom" | [[Coenzyme A|CoA]]<br>'''+''' NAD<sup>+</sup>
+| style="padding: 0 1em 0 0" valign="bottom" | NADH<br>'''+''' H<sup>+</sup><br>'''+''' CO<sub>2</sub>
+| rowspan="3" align="center" | '''2''' [[image:acetyl_co-A_wpmp.png|50px]]
 |-
-|'''2'''
-| colspan="2"   align="center" | [[image:biochem_reaction_arrow_reversible_YYYY_horiz_med.png|35px]]
-|'''2'''
-| colspan="2"   align="center" | [[image:biochem_reaction_arrow_reversible_NNNN_horiz_med.png|35px]]
-|'''2'''
-| colspan="2"   align="center" | [[image:biochem_reaction_arrow_reversible_NYYN_horiz_med.png|35px]]
-|'''2'''
-| colspan="2"   align="center" | [[image:Biochem_reaction_arrow_forward_YYNN_horiz_med.png|35px]]
-|'''2'''
-| colspan="2"   align="center" | [[image:Biochem_reaction_arrow_forward_YYNN_horiz_med.png|35px]]
-|'''2'''
+| colspan="2"   align="center" | [[image:biochem_reaction_arrow_reversible_YYYY_horiz_med.svg|35px]]
+| colspan="2"   align="center" | [[image:biochem_reaction_arrow_reversible_NNNN_horiz_med.svg|35px]]
+| colspan="2"   align="center" | [[image:biochem_reaction_arrow_reversible_NYYN_horiz_med.svg|35px]]
+| colspan="2"   align="center" | [[image:Biochem_reaction_arrow_forward_YYNN_horiz_med.svg|35px]]
+| colspan="2"   align="center" | [[image:Biochem_reaction_arrow_forward_YYNN_horiz_med.svg|35px]]
 |-
-|
 | valign="top" | ADP
 | valign="top" | ATP
-|
 | valign="top" |
 | valign="top" |
-|
 | valign="top" |
 | valign="top" | H<sub>2</sub>O
-|
 | valign="top" |
 | valign="top" |
-|
 | valign="top" |
 | valign="top" |
-|
 |}
-|}[[Category:Glycolysis]]
+[[Category:Glycolysis]]
 </div>
 <noinclude>
 </noinclude>
