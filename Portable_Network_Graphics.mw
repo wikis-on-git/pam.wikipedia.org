@@ -1,7 +1,7 @@
 {{Infobox file format
 | name         = Portable Network Graphics
 | icon         = PNG
-| screenshot   = [[File:PNG transparency demonstration 1.png]] <br /> [[File:PNG transparency demonstration 2.png]]
+| screenshot   = [[File:PNG transparency demonstration 1.png|200px]] <br /> [[File:PNG transparency demonstration 2.png]]
 | caption      = Metung a larawan a PNG a maki 8-bit transparency channel (babo). Makatumpak ya king diseniung checkered king gulut (lalam), a keraklang magagamit kayabe ning [[graphics software]] bang lunto ing kayang lino (transparency).
 | extension    = .png
 | mime         = image/png
