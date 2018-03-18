@@ -1,5 +1,7 @@
-<div style="float:left;border:solid #6EF7A7 1px;margin:1px">
-{| cellspacing="0" style="width:238px;background:#C5FCDC"
-| style="width:45px;height:45px;background:#6EF7A7;text-align:center;font-size:14pt" | '''[[Tagalug (amanu)|tl]]'''
-| style="font-size:8pt;padding:4pt;line-height:1.25em" | Ang tagagamit na ito ay '''[[:Category:User tl-N|katutubong]]''' tagapagsalita ng '''[[:Category:User tl|Tagalog]]'''.
-|}</div><includeonly>[[Category:User tl|{{PAGENAME}}]][[Category:User tl-N|{{PAGENAME}}]]</includeonly><noinclude><br clear="all"/>
+{{userbox-level
+| level    = 
+| id       = [[Amanung Tagalug|tl]]
+| info     = Ang tagagamit na ito ay '''[[:Category:User tl-N|katutubong]]''' tagapagsalita ng '''[[:Category:User tl|Tagalog]]'''.
+| usercategory = User tl-N
+| nocat = {{{nocat|}}}
+}}<noinclude>{{documentation}}</noinclude>
