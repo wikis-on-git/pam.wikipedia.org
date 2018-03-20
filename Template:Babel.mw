@@ -104,7 +104,7 @@
 }}{{#if:{{{100|}}}|{{User {{{100}}}}}
 }}{{{special-boxes|}}}
 |-
-| style="background-color: {{{color|inherit}}}; text-align: center;" colspan="10" | {{{footer|[[:Category:Wikipedians by language|Search user languages]]}}}
+| style="background-color: {{{color|inherit}}}; text-align: center;" colspan="10" | {{{footer|[[:Category:Wikipedians by language|Maintun amanung]]}}}
 |}<noinclude>{{clear}}<!-- {{documentation}} -->
 <!-- Add categories and interwikis to the /doc subpage, not here! -->
 </noinclude>
