@@ -3,7 +3,7 @@
 | flag alias = Flag of the United Kingdom.svg
 | flag alias-civil = Civil Ensign of the United Kingdom.svg
 | flag alias-government = Government Ensign of the United Kingdom.svg
-| flag alias-naval = Naval Ensign of the United Kingdom.svg
+| flag alias-naval = Naval ensign of the United Kingdom.svg
 | flag alias-naval-RFA = British-Royal-Fleet-Auxiliary-Ensign.svg
 | flag alias-naval-RMAS = British Royal Maritime Auxiliary Ensign.svg
 | link alias-naval = {{#switch:{{{variant|}}}|naval-RFA|RFA=Royal Fleet Auxiliary|naval-RMAS|RMAS=Royal Maritime Auxiliary Service|#default=Royal Navy}}
