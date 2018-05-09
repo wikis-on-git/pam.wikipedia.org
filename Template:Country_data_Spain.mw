@@ -7,8 +7,9 @@
 | flag alias-1506 = Flag of New Spain.svg
 | flag alias-1785 = Spain1785.gif
 | flag alias-1931 = Flag of the Second Spanish Republic.svg
-| flag alias-1939 = Flag of the Spain Under Franco.png
-| flag alias-1977 = Bandera de España(1977-1981).gif
+| flag alias-1939 = Flag of Spain (1938 - 1945).svg
+| flag alias-1945 = Flag of Spain (1945–1977).svg
+| flag alias-1977 = Flag of Spain (1977 - 1981).svg
 | flag alias-civil = Flag of Spain (civil variant).svg
 | countryname = {{{countryname|Spain<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
 | size        = {{{size|}}}
@@ -16,11 +17,13 @@
 | variant     = {{{variant|}}}
 | sport       = {{{sport|}}}
 }}<noinclude>
-==Variants==
+
+== Variants ==
 * <nowiki>{{flagcountry|Spain|1506}}</nowiki> = {{flagcountry|Spain|1506}}
 * <nowiki>{{flagcountry|Spain|1785}}</nowiki> = {{flagcountry|Spain|1785}}
 * <nowiki>{{flagcountry|Spain|1931}}</nowiki> = {{flagcountry|Spain|1931}}
 * <nowiki>{{flagcountry|Spain|1939}}</nowiki> = {{flagcountry|Spain|1939}}
+* <nowiki>{{flagcountry|Spain|1945}}</nowiki> = {{flagcountry|Spain|1945}}
 * <nowiki>{{flagcountry|Spain|1977}}</nowiki> = {{flagcountry|Spain|1977}}
 * <nowiki>{{flagcountry|Spain|civil}}</nowiki> = {{flagcountry|Spain|civil}}
 
