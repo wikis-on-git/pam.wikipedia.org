@@ -342,15 +342,6 @@ Search Type=8
 * Opera 8 appears to take a copy of the "search.ini" and load it into an internal buffer of some type. After editing the file with your new entry you must change the "File Version" at the top of the file to allow for your changes to be seen in the browser.
 * In Opera 7.0, you should back up your customized search.ini because the file is overwritten by the Opera installer. This is no longer true in 7.10 and later.
 * In Opera 6 and 7.0, the menu accelerator letter is defined by the &amp; in the name. In current versions the accelerator is automatically generated and may no longer be the same as the key.
-k
-v
-
-
-
-
-
-i
- .
 
 ====More information====
 *[http://www.opera.com/support/search/supsearch.dml?index=351 Searching with Opera]
