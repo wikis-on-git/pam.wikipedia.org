@@ -317,13 +317,13 @@ or by setting atom counts for each element, in these parameters:
   | N= | Na= | O= | P= | Pt= | S= | Se= | Sr= | Tc= | Zn= | charge=
 
  e.g.   | C=2 | H=6 | O=1
- gives  Formula   <font color="000000">[[Carbon|C]]</font><sub>2</sub><font color="4D4D4D">[[Hydrogen|H]]</font><sub>6</sub><font color="742323">[[Oxygen|O]]</font>
+ gives  Formula   [[Carbon|<font color="000000">C</font>]]<sub>2</sub>[[Hydrogen|<font color="4D4D4D">H</font>]]<sub>6</sub>[[Oxygen|<font color="742323">O</font>]]
 
 Irrespective of the order of asigning values to the constituent parameters, the formula is displayed with elements in the above order. The charge parameter, if defined, is shown superscripted. 
  
  e.g.   | C=2 | O=1 | H=6 | charge=+   is identical to next line
         | C=2 | H=6 | O=1 | charge=+
- giving Formula   <font color="000000">[[Carbon|C]]</font><sub>2</sub><font color="4D4D4D">[[Hydrogen|H]]</font><sub>6</sub><font color="742323">[[Oxygen|O]]</font><sup>+</sup>
+ giving Formula   [[Carbon|<font color="000000">C</font>]]<sub>2</sub>[[Hydrogen|<font color="4D4D4D">H</font>]]<sub>6</sub>[[Oxygen|<font color="742323">O</font>]]<sup>+</sup>
 
 8) Licensing information - There are two major licensing authorities that make drug information easily accessible: The US [[Food and Drug Administration]] (FDA) and the [[European Medicines Agency]] (EMEA). NB The word "Licence" is the noun in British English, "License" is the verb.
 
