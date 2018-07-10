@@ -1,5 +1,5 @@
 {| {{#if: {{{Summary|}}} | summary="Navigation box - {{{Summary}}}" }} class="toccolours" style="clear: both; width: 85%; margin: 0.5em auto; text-align: center; padding: 0em 0em 0em 0em" 
-! style="padding-top: 0.2em; padding-bottom: 0.2em; {{ #if: {{{Color|}}} | background: {{{Color}}} | background: #006600 }}" | <font color="ffd700">[[Far Eastern University]]</font>
+! style="padding-top: 0.2em; padding-bottom: 0.2em; {{ #if: {{{Color|}}} | background: {{{Color}}} | background: #006600 }}" | [[Far Eastern University|<font color="ffd700">Far Eastern University</font>]]
 |-
 | align="center" style="font-size: 90%;" |&nbsp;&nbsp;Institute of Accounts, Business and Finance&nbsp;&nbsp;|&nbsp;&nbsp;Institute of Architecture and Fine Arts&nbsp;&nbsp;|&nbsp;&nbsp;Institute of Arts and Sciences&nbsp;&nbsp;<br>&nbsp;&nbsp;Institute of Education&nbsp;&nbsp;|&nbsp;&nbsp;Institute of Nursing&nbsp;&nbsp;|&nbsp;&nbsp;Institute of Law&nbsp;&nbsp;|&nbsp;&nbsp;Institute of Graduate Studies&nbsp;&nbsp;<br/><font/>
 |-
