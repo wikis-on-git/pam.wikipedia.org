@@ -3372,3 +3372,10 @@ Some pages at this wiki use outdated HTML.  This change may change the appearanc
 Read [https://lists.wikimedia.org/pipermail/wikitech-ambassadors/2018-June/001867.html this e-mail message] for more information.  Read the instructions at [[:mw:Help:Extension:Linter]].  You can ask questions at [[:mw:Talk:Parsing/Replacing Tidy]].  Thank you for helping fix these problems.
 </div> [[:m:User:Elitre (WMF)]] 14:38, 2 Juliu 2018 (UTC)
 <!-- Message sent by User:Elitre (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Talk:Editing/Parsing_change&oldid=18129171 -->
+
+== Global preferences are available ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+Global preferences are now available, you can set them by visiting your new [[Special:GlobalPreferences|global preferences page]]. Visit [[mw:Help:Extension:GlobalPreferences|mediawiki.org for information on how to use them]] and [[mw:Help talk:Extension:GlobalPreferences|leave feedback]]. -- [[User:Keegan (WMF)|Keegan (WMF)]] ([[m:User talk:Keegan (WMF)|talk]])
+</div> 19:19, 10 Juliu 2018 (UTC)
+<!-- Message sent by User:Keegan (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=17968247 -->
