@@ -1,6 +1,6 @@
 <br clear=all>
 {| {{#if: {{{Summary|}}} | summary="Navigation box - {{{Summary}}}" }} class="toccolours" style="clear: both; width: 70%; margin: 0.5em auto; text-align: center; padding: 0em 0em 0em 0em" 
-! style="padding-top: 0.2em; padding-bottom: 0.2em; {{ #if: {{{Color|}}} | background: {{{Color}}} | background: #0260A8 }}" | <font color="FFFFFF">[[Ateneo#Use in the Philippines|Deng pipagaralan a Jesuita king Filipinas]]</font>
+! style="padding-top: 0.2em; padding-bottom: 0.2em; {{ #if: {{{Color|}}} | background: {{{Color}}} | background: #0260A8 }}" | [[Ateneo#Use in the Philippines|<font color="FFFFFF">Deng pipagaralan a Jesuita king Filipinas</font>]]
 |-
 | align="center" style="font-size: 90%" | [[Ateneo de Manila University|Ateneo de Manila]] • [[Ateneo de Zamboanga University|Ateneo de Zamboanga]] • [[Ateneo de Naga University|Ateneo de Naga]] • [[Ateneo de Davao University|Ateneo de Davao]] • [[Loyola College of Culion|Loyola-Culion]] • [[Xavier University (Cagayan de Oro)|Xavier]]
 |-
