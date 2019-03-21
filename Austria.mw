@@ -14,7 +14,7 @@ largest_city 		= Vienna|
 government_type 	= [[Republic]] |
 leader_titles 		= [[Federal President of Austria|President]]<br>[[Chancellor of Austria|Chancellor]]|
 leader_names    	= [[Alexander Van der Bellen]]<br>[[Christian Kern]]|
-area 			= 83,879|area_rank=112th|area_magnitude=1 E10|percent_water=1.3|
+area_km2 			= 83,879|area_rank=112th|area_magnitude=1 E10|percent_water=1.3|
 areami²                 = 32,383 | <!-- Do not remove [[WP:MOSNUM]] -->
 population_estimate 	= 8,772,865|population_estimate_year=2017|population_estimate_rank=93th|
 population_density 	= 105|population_density_rank=78th |
