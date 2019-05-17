@@ -1,0 +1,13 @@
+<noinclude>{{ {{PAGENAME}}|Template:Shared Template Warning|Shared Template Warning}}{{Documentation}}</noinclude><includeonly><table
+ cellspacing="0" cellpadding="0" border="0"
+ style="background:transparent; margin:0.5em auto; padding:0.5em; background-color:#fee7e6; border:1px solid #aaa;"
+><tr><td nowrap="nowrap" valign="top"><!--
+--><span style="position:relative; top:-2px;"><!--
+ -->[[File:OOjs_UI_icon_notice-destructive.svg|18px|warning|link=]]<!--
+--></span>&nbsp;'''{{#invoke:TNT|msg|I18n/Shared Template Warning.tab|warning}}'''</td><!--
+--><td valign="top" style="padding-left:0.5em;"><!--
+ -->{{#ifeq:{{SITENAME}}|MediaWiki<!--
+  -->|{{#invoke:TNT|msg|I18n/Shared Template Warning.tab|be-careful}}<!--
+  -->|{{#invoke:TNT|msg|I18n/Shared Template Warning.tab|no-edit|{{{1}}}}}<!--
+-->}}{{#if:{{{2|}}}|<br>{{#invoke:TNT|msg|I18n/Shared Template Warning.tab|translate|c:Data:I18n/{{{2}}}.tab}}<!--
+-->}}</td></tr></table></includeonly>
