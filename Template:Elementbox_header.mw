@@ -7,7 +7,7 @@
 | align="center" | <span style="font-size:95%">{{{above}}}</span><br />↑<br /><span style="font-size:120%; font-weight:bold">{{{symbol}}}</span><br />↓<br /><span style="font-size: 95%">{{{below}}}</span>
 |
 {|
-| [[image:{{{symbol}}}-TableImage.png|250px|center]]<div align="center">[[periodic table (standard)|Periodic Table]] - [[Periodic table (extended) | Extended Periodic Table]]</div>
+| {{#ifexist:Media:{{{symbol}}}-TableImage.svg|[[File:{{{symbol}}}-TableImage.svg|300px]]|[[File:{{{symbol}}}-TableImage.png|300px]]}}<div align="center">[[periodic table (standard)|Periodic Table]] - [[Periodic table (extended) | Extended Periodic Table]]</div>
 |}
 |}
 |-
