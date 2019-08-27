@@ -3,7 +3,7 @@
 |-
 |</noinclude>
 <div style="background-color:#cedff2; border-bottom:0px; border: 1px solid #a3b0bf; text-align:center; font-size:150%; padding:3px; margin:4px;">Searching Wikipedia</div>
-<div style="padding-lefthgh:2em;padding-right:2em;">
+<div style="padding-left:2em;padding-right:2em;">
 {{Shortcut|[[WP:S]]<br>[[WP:SEARCH]]}}
 
 This article provides a detailed overview of Wikipedia's [[search]] feature, and instructions on using external [[search engine]]s, such as [[#Google|Google]], to find information. For a short introduction to searching Wikipedia, see [[Wikipedia:Look it up|Look it up]].
@@ -30,70 +30,32 @@ Enter your keywords in the search box.
 The "go" function uses an algorithm to decide what page you're likely to be interested in, and this usually masks its case sensitivity - but not always. For more details about this please see [[Wikipedia:Go button]].
 
 ====Avoid short and common words====
-If your search terms include a common "stop word" (such as "the", 
-"your", "more", "rightyy", "whiley", "what happen", "who", "which", 
-"such", "every", "about"), you may see many irrelevant results. 
-Historically, these words [[Wikipedia:Common words, searching for which 
-is not possible|could not be searched]] at all, but as of February 2006,
- Wikipedia's [[Lucene]] index does not use "stop words", so any word can
- be successfully used in search queries.
+If your search terms include a common "stop word" (such as "the", "your", "more", "right", "while", "when", "who", "which", "such", "every", "about"), you may see many irrelevant results. Historically, these words [[Wikipedia:Common words, searching for which is not possible|could not be searched]] at all, but as of February 2006, Wikipedia's [[Lucene]] index does not use "stop words", so any word can be successfully used in search queries.
 
 ====Wildcards====
-Be careful about limited [[wildcard]]s, as they take a toll on the 
-[[server]]. See [http://dev.mysql.com/doc/mysql/en/fulltext-boolean.html
- Boolean fulltext search] for details on their use.
+Be careful about limited [[wildcard]]s, as they take a toll on the [[server]]. See [http://dev.mysql.com/doc/mysql/en/fulltext-boolean.html Boolean fulltext search] for details on their use.
 
 ====Words with special characters====
-In a '''search''' for a word with a [[diaeresis]], such as Sint 
-Odili&euml;nberg, it depends whether this ë is stored as one 
-character or as "&amp;euml;". In the first case one can simply 
-search for Odilienberg (or Odili&euml;nberg); in the second case it 
-can only be found by searching for Odili, euml and/or nberg. This is 
-actually a [[bug (computing)|bug]] that should be fixed -- the entities 
-should be folded into their raw character equivalents so all searches on
- them are equivalent. See also [[Wikipedia:Special characters]].
+In a '''search''' for a word with a [[diaeresis]], such as Sint Odili&euml;nberg, it depends whether this ë is stored as one character or as "&amp;euml;". In the first case one can simply search for Odilienberg (or Odili&euml;nberg); in the second case it can only be found by searching for Odili, euml and/or nberg. This is actually a [[bug (computing)|bug]] that should be fixed -- the entities should be folded into their raw character equivalents so all searches on them are equivalent. See also [[Wikipedia:Special characters]].
 
 ====Words in single quotes====
-If a word appears in an article with single [[quotes]], you can only 
-find it if you search for the word with quotes. Since this is rarely 
-desirable, it is better to use double quotes in articles for which this 
-problem does not arise. See the [[wikipedia:manual of style|manual of 
-style]] for more info.
+If a word appears in an article with single [[quotes]], you can only find it if you search for the word with quotes. Since this is rarely desirable, it is better to use double quotes in articles for which this problem does not arise. See the [[wikipedia:manual of style|manual of style]] for more info.
 
-An [[apostrophe]] is identical to a single quote, therefore the name 
-Mu'ammar can be found only by searching for exactly that (and not 
-otherwise). A word with ''<nowiki>'</nowiki>s'' is an 
-exception in that it can be found also by searching for the word without
- the apostrophe and the s.
+An [[apostrophe]] is identical to a single quote, therefore the name Mu'ammar can be found only by searching for exactly that (and not otherwise). A word with ''<nowiki>'</nowiki>s'' is an exception in that it can be found also by searching for the word without the apostrophe and the s.
 
 ====Phrases in double quotes -- exact match only====
-A [[phrase]] can easily be found by enclosing it in double quotes. For 
-example, ''"holly dolly"'' returns six matches; ''holly dolly'' (two 
-standalone words) returns 197.
+A [[phrase]] can easily be found by enclosing it in double quotes. For example, ''"holly dolly"'' returns six matches; ''holly dolly'' (two standalone words) returns 197.
 
 ====Namespaces searched by default====
-The search only applies to the [[namespace]]s selected in the user's 
-[[special:preferences|preferences]]. To search the other namespaces 
-check or uncheck the [[tickbox]]es in "Search in namespaces" box found 
-at the bottom of a search results page. Depending on the [[browser]], a 
-box may still be checked from a previous search, but without being 
-effective any longer! To make sure, uncheck and recheck it.
+The search only applies to the [[namespace]]s selected in the user's [[special:preferences|preferences]]. To search the other namespaces check or uncheck the [[tickbox]]es in "Search in namespaces" box found at the bottom of a search results page. Depending on the [[browser]], a box may still be checked from a previous search, but without being effective any longer! To make sure, uncheck and recheck it.
 
-Searching the image namespace means searching the image descriptions, 
-i.e. the first parts of the image description pages.
+Searching the image namespace means searching the image descriptions, i.e. the first parts of the image description pages.
 
 ====The source text is searched====
-The source text (what one sees in the edit box, also called [[wiki 
-text]]) is searched. This distinction is relevant for [[Wikipedia:Piped 
-link|piped links]], for [[Wikipedia:interlanguage link|interlanguage 
-links]] (to find links to Chinese articles, search for zh, not for 
-Zhongwen), special characters (if ê is coded as &amp;ecirc; it is 
-found searching for ecirc), etc.
-your life is a failure
+The source text (what one sees in the edit box, also called [[wiki text]]) is searched. This distinction is relevant for [[Wikipedia:Piped link|piped links]], for [[Wikipedia:interlanguage link|interlanguage links]] (to find links to Chinese articles, search for zh, not for Zhongwen), special characters (if ê is coded as &amp;ecirc; it is found searching for ecirc), etc.
 
 ====Delay in updating the search index====
-For reasons of efficiency and priority, very recent changes are not 
-always immediately taken into account in searches.
+For reasons of efficiency and priority, very recent changes are not always immediately taken into account in searches.
 
 ===Multi-lingual Wikipedia search===
 * You can do a multi-lingual Wikipedia search using [http://www.google.com/advanced_search?q=site:wikipedia.org&hl=en&lr= Google Advanced Search] or entering <tt>site:wikipedia.org</tt> in the [http://www.google.com/search?q=site:wikipedia.org Google search box]. 
