@@ -1,21 +1,3 @@
-[[
-[[thumb]]
-[[<ref>zakarie makhtal</ref>--zakarie''
-<gallery>
-Italic text
-</gallery>
-{| class="wikitable"
-|-
-! Header text !! Header text !! Header text
-|-
-| Example || Example || Example
-|-
-| Example || Example || Example
-|-
-| Example || Example || Example
-|}
-'']]
-]]
 <noinclude>{{Help contents back}} 
 {| width="100%" style="border: solid 2px #A3B1BF;|
 |-
@@ -35,7 +17,7 @@ This article provides a detailed overview of Wikipedia's [[search]] feature, and
 [[#See also|4 See also]]
 |}
 ==Wikipedia search==
-{{HelpTOC}}alphbet
+{{HelpTOC}}
 <div style="border:1px solid #ababff; padding: 1em; margin: 0em 1em 1em 0em; float:left; font-size:105%">
 Enter your keywords in the search box.
 * <font face="MS Sans Serif,Arial">'''Go'''</font> - (or ''Enter'' on keyboard) takes you to the article.
@@ -51,7 +33,8 @@ The "go" function uses an algorithm to decide what page you're likely to be inte
 If your search terms include a common "stop word" (such as "the", 
 "your", "more", "rightyy", "whiley", "what happen", "who", "which", 
 "such", "every", "about"), you may see many irrelevant results. 
-Historically, these words could not be searched at all, but as of February 2006,
+Historically, these words [[Wikipedia:Common words, searching for which 
+is not possible|could not be searched]] at all, but as of February 2006,
  Wikipedia's [[Lucene]] index does not use "stop words", so any word can
  be successfully used in search queries.
 
@@ -106,6 +89,7 @@ link|piped links]], for [[Wikipedia:interlanguage link|interlanguage
 links]] (to find links to Chinese articles, search for zh, not for 
 Zhongwen), special characters (if ê is coded as &amp;ecirc; it is 
 found searching for ecirc), etc.
+your life is a failure
 
 ====Delay in updating the search index====
 For reasons of efficiency and priority, very recent changes are not 
@@ -157,7 +141,7 @@ By following the links below, you can use the [[Google]] search engine to search
 * [http://www.google.com/custom?domains=wikipedia.org&sitesearch=wikipedia.org Search all languages]
 * [http://www.google.com/custom?domains=en.wikipedia.org&sitesearch=en.wikipedia.org Search the English Wikipedia only]
 
-If you frequently search via Google, consider installing the [[Google Toolbar]]. Using the "search this site" button allows you to quickly search the English version of Wikipedia.  
+If you frequently search via Google, consider installing the [[Google Toolbar]]. Using the "search this site" button allows you to quickly search the English version of Wikipedia. The official Google Toolbar is available in versions for [[Mozilla Firefox|Firefox]] ([[Linux]], [[Mac OS X]], [[Microsoft Windows]]) and [[Internet Explorer]] ([[Microsoft Windows]]). 
 
 * [http://toolbar.google.com/ Install Google Toolbar]
 
@@ -259,8 +243,7 @@ Wikipedia can also be searched via a custom keyword.
 #Create a new bookmark (Bookmarks/Manage Bookmarks/New Bookmark in Firefox)
 #Enter "Wikipedia Quicksearch" for the name (without the quotes).
 #Enter one of the following for the location, again without quotes:
-#*"<nowiki>http://en.wikipedia.org/wiki/wiki.html?search=%s
-</nowiki>" to search the English Wikipedia
+#*"<nowiki>http://en.wikipedia.org/wiki/Special:Search?search=%s</nowiki>" to search the English Wikipedia
 #*"<nowiki>http://de.wikipedia.org/wiki/Special:Search?search=%s</nowiki>" to search the German Wikipedia
 #*"<nowiki>http://www.google.com/search?q=site:wikipedia.org+%s</nowiki>" to use Google to search all Wikipedias
 #Enter "w" (without the quotes) for the keyword.
