@@ -1,0 +1,28 @@
+{| class="toccolours" style="width: 100%; margin: 0.5em auto;"
+! style="background: #CCF; text-align: right; padding-right: 0.4em; width: 15%;" | Descripsyon
+|
+{{{Deskripsyon}}}
+|-
+! style="background: #CCF; padding-right: 0.4em; text-align: right;" | Pikuanan
+|
+{{{Pikuanan}}}
+|-
+! style="background: #CCF; padding-right: 0.4em; text-align: right;" | Petsa
+|
+{{{Petsa}}}
+{{#if: {{{Lokasyon | }}} | <tr><th style="background: #CCF; padding-right: 0.4em; text-align: right;">'''Lokasyon'''</th><td><p>
+{{{Lokasyon}}}</p></td></tr>}}
+|-
+! style="background: #CCF; padding-right: 0.4em; text-align: right;" | Maki-akda
+|
+{{{Maki-akda}}}
+|-
+! style="background: #CCF; padding-right: 0.4em; text-align: right;" | Pamamie lisensia
+|
+{{{Pamamie lisensia}}}
+{{#if: {{{other version | }}} | <tr><th style="background: #CCF; padding-right: 0.4em; text-align: right;">'''Other Version'''</th><td><p>
+{{{laing_mga_bersyon}}}</p></td></tr>}}
+|}<noinclude>
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+
+</noinclude>
