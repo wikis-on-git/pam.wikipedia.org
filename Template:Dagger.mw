@@ -1,0 +1,21 @@
+[[File:Dagger-14-plain.png|alt={{if empty|{{{alt|}}}|dagger}}|link=]]<noinclude>
+{{documentation
+|content = 
+This template generates a dagger symbol with [[Wikipedia:Alternative text for images|alternative text]]. The default alt text is "dagger". The text is not normally visible to readers, but may be displayed by web browsers when images are switched off, is read out loud by [[screen reader]]s for those with visual impairment, and can be used by search engines to determine the content of the image.
+
+== Paggamit ==
+:<code><nowiki>{{dagger}}</nowiki></code> produces {{dagger}}
+:<code><nowiki>{{dagger|alt=footnote}}</nowiki></code> produces {{dagger|alt=footnote}}<br />(Either the symbol or the alternative text is displayed, according to the browser settings.)
+
+== Tingnan din ==
+* [[Padron:Double-dagger]]
+* [[Padron:Extinct]]
+* [[Padron:Down-arrow]]
+* [[Padron:Up-arrow]]
+* [[Padron:Hash-tag]]
+* [[Padron:Section-sign]]
+* [[Padron:KIA]] for the "Killed in action" marker
+* [[Padron:Gc]] for a light gray superscripted dagger
+}}
+[[Kategorya:Single-image insertion templates]]
+</noinclude>
