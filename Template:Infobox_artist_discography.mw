@@ -1,0 +1,48 @@
+{{Infobox
+| above      = <span class="fn">{{#if:{{{Artist|}}}|{{{Artist}}}|{{PAGENAMEBASE}}}} discography</span>
+| abovestyle = {{{abovestyle|{{{Abovestyle|}}}}}}
+|headerstyle  = background:#DADCED;
+|labelstyle  = background:#DADCED;
+|datastyle   = background:#E6E8FA; text-align:center;
+| image      = {{#invoke:InfoboxImage|InfoboxImage|image={{{Image|}}}|alt={{{alt|{{{Alt|}}}}}}|suppressplaceholder=yes}}
+| caption    = {{{image caption|{{{Image caption|{{{Caption|}}}}}}}}}
+| label1 = Studio albums
+| data1 = {{{Studio|}}}
+| label2 = Live albums
+| data2 = {{{Live|}}}
+| label3 = Compilation albums
+| data3 = {{{Compilation|}}}
+| label4 = Internet albums
+| data4 = {{{Internet|}}}
+| label5 = Video albums
+| data5 = {{{Video|}}}
+| label6 = Music videos
+| data6 = {{{Music videos|}}}
+| label7 = EPs
+| data7 = {{{EP|}}}
+| label8 = Singles
+| data8 = {{{Singles|}}}
+| label9 = B-sides
+| data9 = {{{B-sides|}}}
+| label10 = Soundtrack albums
+| data10 = {{{Soundtrack|}}}
+| label11 = Tribute albums
+| data11 = {{{Tribute|}}}
+
+| label20    = {{{Option name|}}}
+| data20     = {{{Option|}}}
+| label21    = {{{1Option name|}}}
+| data21     = {{{1Option|}}}
+| label22    = {{{2Option name|}}}
+| data22     = {{{2Option|}}}
+| label23    = {{{3Option name|}}}
+| data23     = {{{3Option|}}}
+| label24    = {{{4Option name|}}}
+| data24     = {{{4Option|}}}
+| label25    = {{{5Option name|}}}
+| data25     = {{{5Option|}}}
+| label26    = {{{6Option name|}}}
+| data26     = {{{6Option|}}}
+}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using infobox artist discography with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Infobox artist discography]] with unknown parameter "_VALUE_"|ignoreblank=1|1Option name|1Option|2Option name|2Option|3Option name|3Option|4Option name|4Option|5Option name|5Option|6Option name|6Option|Abovestyle|Alt|Artist|B-sides|Caption|Compilation|EP|Image|Image caption|Internet|Live|Music videos|Option name|Option|Singles|Soundtrack|Studio|Tribute|Video|abovestyle|alt|image caption}}<noinclude>
+{{documentation}}<!-- PLEASE ADD CATEGORIES TO THE /doc SUBPAGE AND INTERWIKIS TO Wikidata -->
+</noinclude>
