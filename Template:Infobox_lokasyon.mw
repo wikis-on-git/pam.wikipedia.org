@@ -20,8 +20,8 @@
 |motto = {{{motto|}}}
 |image_map  = {{{image_map|{{#invoke:wd|property|raw|best|{{{qid|}}}|P242}} }}} 
 |mapsize = {{{mapsize|280px}}} 
-|map_alt = {{{map_alt|Kinamumugtakan kan {{#invoke:wd|label|{{{qid|}}}}}}}} 
-|map_caption  = {{{map_caption|Kinamumugtakan kan {{#invoke:wd|label|{{{qid|}}}}}}}} 
+|map_alt = {{{map_alt|Lokasyon ning {{#invoke:wd|label|{{{qid|}}}}}}}} 
+|map_caption  = {{{map_caption|Lokasyon ning {{#invoke:wd|label|{{{qid|}}}}}}}} 
 |pushpin_map = {{{pushpin_map|}}}
 |pushpin_label_position  = {{{pushpin_label_position|}}}
 |pushpin_label = {{{pushpin_label|}}}
@@ -41,7 +41,7 @@
   "type": "Feature",
   "geometry": { "type": "Point", "coordinates": [{{#invoke:WikidataIB |getValue |maxvals =1 |P625 |fwd=ALL |osd=no |qid={{{qid|}}} |noicon=true |show=longlat}}] },
   "properties": {
-    "title": "Kinamumugtakan kan {{#invoke:wd|label|{{{qid|}}}}}",
+    "title": "Lokasyon ning {{#invoke:wd|label|{{{qid|}}}}}",
     "marker-color": "0050d0",
     "marker-symbol": "circle-stroked"
     }
@@ -69,7 +69,7 @@
   "type": "Feature",
   "geometry": { "type": "Point", "coordinates": [{{#invoke:WikidataIB |getValue |maxvals =1 |P625 |fwd=ALL |osd=no |qid={{{qid|}}} |noicon=true |show=longlat}}] },
   "properties": {
-    "title": "Kinamumugtakan kan {{#invoke:wd|label|{{{qid|}}}}}",
+    "title": "Lokasyon ning {{#invoke:wd|label|{{{qid|}}}}}",
     "marker-color": "0050d0",
     "marker-symbol": "circle-stroked"
     }
