@@ -1,0 +1,124 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES WHERE INDICATED AT THE BOTTOM OF THIS PAGE -->
+{{lua|Module:Tlg}}
+
+{{tl|tlg}} (abbreviating "[t]emplate [l]ink {{small|(with)}} [g]eneral {{small|(options)}}") is a generalised version of the {{tl|tl}} ("template link") template. It can be used to replace or implement {{tlf|tl}} and related templates such as {{tl|tlb}}, {{tl|tlx}}, etc.
+
+===Parameters===
+====Named====
+With the exception of {{mono|alttext}}, {{tlf|tlg}}'s named parameters are toggles that are either omitted (default) or activated (by being assigned a value such as "on", "yes", "true", "include", etc.). They may be included in any order ([[Template:Tlg#Examples|see Examples below]]):
+{| class="wikitable"
+! Parameter || Action || As in
+|-
+| brace || Include braces as part of the template link ||
+|-
+| braceinside || Include innermost braces as part of the template link || {{tl|tlw}}
+|-
+| bold<br/>boldlink<br/>boldname || Renders the template link/name in '''bold''' || {{tl|tlb}}, {{tl|tlx}}, etc.
+|-
+| code || Display output using HTML [[HTML element#code|{{tag|code}}]] tags ([[monospaced font]]) || {{tl|tlc}}, {{tl|tlx}}, etc.
+|-
+| plaincode || Uses {{tag|code|params=style="border:none; background:transparent;"}} ||
+|-
+| kbd || Display output using HTML [[HTML element#kbd|{{tag|kbd}}]] tags (monospaced font) || {{tl|tltt}}, {{tl|tltt2}}, etc.
+|-
+| italic<br/>italics || Display any parameters accompanying the template link/name in ''italic/s'' || {{tl|tlxi}}
+|-
+| nolink || Don't render the template name as a link || {{tl|tlf}}
+|-
+| nowrap || Prevent the insertion of line breaks ([[word wrap]]) in the output || {{tl|tlp}}, {{tl|tlf}}, etc.
+|-
+| nowrapname || Prevent word wrapping in the output of template name/link (parameters will wrap if needed) ||
+|-
+| subst || Include a [[Help:Substitution|subst:]] prefix before the template link/name || {{tl|tls}}
+|-
+| <nowiki>|alttext=[text]</nowiki> || Use [text] as the label for the template link  || {{tl|tla}}
+|}
+
+====Unnamed (Positional)====
+{{tlf|tlg}} may take up to ten [[unnamed parameter]]s as parameters accompanying the template link (or name); see Examples below.
+
+===Examples===
+{{#switch:{{SITENAME}} |Wikipedia|Meta= |
+; Note: On the source sister projects, en.wikipedia and Meta, '''X0, X1, X2, …, X9 are sandbox templates''' for experimentation on involved templates that need be in template space. An auto-cleansing software facility exists that might be used to duplicate the facility on other Sister projects.
+}}
+
+{{Aligned table
+ |cols=3 |class=wikitable
+ |style=background-color:transparent;<!-- to see background of <code>...</code> -->
+ | '''Code'''                         | '''Output'''               | '''Remarks'''
+ | {{tlx|tlg|Termometro}}             |  {{tlg|Termometro}}        |  {{error|Termometro}} template does not exist. Be aware with linking to non-existing templates, although desired.
+ | {{tlx|tlg|ok}}                      |   {{tlg|ok}}           |  ok template does exist
+ | {{tlx|tlg|convert|<nowiki>&lt;nowiki>14|m|ftin|abbr=out|sp=us&lt;/nowiki></nowiki>}} | {{tlg|convert|<nowiki>14|m|ftin|abbr=out|sp=us</nowiki>}} | Unlimited parameters as one {{tag|nowiki|link=yes}} [[Help:Wikitext#Nowiki|string]]
+ | {{tlx|tlg|Abc}}                    | {{tlg|Abc}}                | 
+ | {{tlx|tlg|abC}}                    | {{tlg|abC}}                | template names are case-sensitive
+ | {{tlx|tlg|abc}}                    | {{tlg|abc}}                | first letter is case-insensitive though
+ | {{tlx|tlg|abc|'''<nowiki>{{spaces}}</nowiki>'''{{{1}}}'''<nowiki>{{spaces}}</nowiki>'''}} | {{tlg|abc|{{spaces}}{{{1}}}{{spaces}}}}|  Using {{tl|spaces}} before and after <nowiki>{{{1}}}</nowiki> parameter.
+ | {{tlx|tlg|x0}}                     | {{tlg|x0}}                 | 
+ | {{tlx|tlg|x0|code{{=}}on}}         | {{tlg|x0|code=on}}         | &lt;code&gt; style
+ | {{tlx|tlg|x0|plaincode{{=}}on}}    | {{tlg|x0|plaincode=on}}    | plaincode style
+ | {{tlx|tlg|x0|kbd{{=}}on}}          | {{tlg|x0|kbd=on}}          | &lt;kbd&gt; style
+ | {{tlx|tlg|x0|bold{{=}}on}}         | {{tlg|x0|bold=on}}         | bold link/name
+ | {{tlx|tlg|x1|one|italic{{=}}on}}   | {{tlg|x1|one|italic=on}}   | parameter/s in italics
+ | {{tlx|tlg|x0|nolink{{=}}on}}       | {{tlg|x0|nolink=on}}       | 
+ | {{tlx|tlg|x0|subst{{=}}on}}        | {{tlg|x0|subst=on}}        | 
+ | {{tlx|tlg|x0|brace{{=}}on}}        | {{tlg|x0|brace=on}}        | all braces in link
+ | {{tlx|tlg|x0|braceinside{{=}}on}}  | {{tlg|x0|braceinside=on}}  | inside braces in link
+ | {{tlx|tlg|x0|alttext{{=}}x0 link}} | {{tlg|x0|alttext=x0 link}} | 
+ | {{tlx|tlg|x0|bold{{=}}on|code{{=}}on|brace{{=}}on}} | {{tlg|x0|bold=on|code=on|brace=on}} | No reason you can't combine multiple parameter settings
+ | {{tlx|tlg|x1|one}}                 | {{tlg|x1|one}}             | 
+ | {{tlx|tlg|x2|one|two}}             | {{tlg|x2|one|two}}         | 
+ | {{tlx|tlg|x2|bold{{=}}on|code{{=}}on|one|two}} | {{tlg|x2|bold=on|code=on|one|two}} | Can combine named and anonymous parameters …
+ | {{tlx|tlg|x2|one|two|bold{{=}}on|code{{=}}on}} | {{tlg|x2|one|two|bold=on|code=on}} | … in any order …
+ | {{tlx|tlg|x2|one|code{{=}}on|two|bold{{=}}on|three}} | {{tlg|x2|one|code=on|two|bold=on|three}} | … even intermixed …
+ | {{tlx|tlg|x2|one|code{{=}}on|two|bold{{=}}on|three|italic{{=}}on}} | {{tlg|x2|one|code=on|two|bold=on|three|italic=on}} | … with many different configurations.
+ | {{tlx|tlg|x3|1|2|3|4|5|6|7|8|9&#124;10}}               | {{tlg|x3|1|2|3|4|5|6|7|8|9|10}}      | 
+ | {{tlx|tlg|x4|1|2|3|4|5|6|7|8|9&#124;10&#124;11}}       | {{tlg|x4|1|2|3|4|5|6|7|8|9|10|11}}   | up to 10 parameters, then …
+ | {{tlx|tlg|x5|1|2|3|4|5|6|7|8|9&#124;10&amp;#124;11}}   | {{tlg|x5|1|2|3|4|5|6|7|8|9|10&#124;11}} | {{align|right|<code>&amp;#124;</code> for more}}
+ | {{tlx|tlg}}                                            | {{tlg}}                              | with no arguments, the current page name is substituted
+ | {{tlx|tlg|x1|x&#61;u}}                                 | {{tlg|x1|x=u}}                       | '''{{=}}''' won't work
+ | {{tlx|tlg|x1|x&amp;#61;u}}                             | {{tlg|x1|x&#61;u}}                   | {{align|right|<code>&amp;#61;</code> is okay}}
+ | {{tlx|tlg|x1|x<nowiki>{{=}}</nowiki>u}}                | {{tlg|x1|x{{=}}u}}                   | {{align|right|<code><nowiki>{{=}}</nowiki></code> is okay  (see [[:template:=|template equal sign]])}}
+ | {{tlx|tlg|x1|x&lt;nowiki&gt;&#61;&lt;/nowiki&gt;u}}    | {{tlg|x1|x<nowiki>=</nowiki>u}}      | {{align|right|sticky nowiki is okay}}
+ | {{tlx|tlg|x2|<nowiki />|two|<nowiki />|<nowiki />}}    | {{tlg|x2||two||}}                    | empty parameters work too, even at the end
+ | {{tlx|tlg|x2|<nowiki>3=two</nowiki>|<nowiki>2=one</nowiki>}} | {{tlg|x2|3=two|2=one}} | {{align|right|right to left okay}}
+}}
+
+{| class="wikitable" |style="border:1; cellpadding:4; background-color:transparent;"
+|+ style="text-align:left;" | Wrapping of long names (default)
+|-
+! Code
+! style="width:15em;" | Output
+|-
+| {{tlx|tlg|long template name that would wrap to new line|this is a long value for the 1st parameter that would wrap}}
+| {{tlg|long template name that would wrap to new line|this is a long value for the 1st parameter that would wrap}}
+|}
+
+{| class="wikitable" |style="border:1; cellpadding:4; background-color:transparent;"
+|+ style="text-align:left;" | Wrapping of long names (<kbd>nowrap=on</kbd>)
+|-
+! Code
+! style="width:15em;" | Output
+|-
+| {{tlx|tlg|nowrap{{=}}on|long template name that would wrap to new line|long value for the 1st parameter that would wrap}}
+| {{tlg|nowrap=on|long template name that would wrap to new line|long value for the 1st parameter that would wrap}}
+|}
+
+{| class="wikitable" |style="border:1; cellpadding:4; background-color:transparent;"
+|+ style="text-align:left;" | Wrapping of long names (<kbd>nowrapname=on</kbd>)
+|-
+! Code
+! style="width:15em;" | Output
+|-
+| {{tlx|tlg|nowrapname{{=}}on|long template name that would wrap to new line|long value for the 1st parameter that would wrap}}
+| {{tlg|nowrapname=on|long template name that would wrap to new line|long value for the 1st parameter that would wrap}}
+|}
+
+== See also ==
+{{Template-linking templates}}
+
+<includeonly>{{Sandbox other|
+| <!-- CATEGORIES BELOW THIS LINE, PLEASE: -->
+[[Category:Internal template-link templates]]
+[[Category:Typing-aid templates]]
+}}</includeonly>
