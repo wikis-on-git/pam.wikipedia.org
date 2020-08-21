@@ -1,0 +1,32 @@
+{{Documentation subpage}}
+{{notice|'''This subtemplate is not intended to be used directly'''}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+This subtemplate of {{tl|Infobox settlement}} is used for automatic linking for various image captions.  It is not meant to be used directly.
+
+=== Usage ===
+
+{| class="wikitable"
+|-
+! Code !! Result
+|-
+| <code><nowiki>{{Infobox settlement/link}}</nowiki></code> || {{Infobox settlement/link}}
+|-
+| <code><nowiki>{{Infobox settlement/link|type=Flag}}</nowiki></code> || {{Infobox settlement/link|type=Flag}}
+|-
+| <code><nowiki>{{Infobox settlement/link|type=Flag|link=Template:Infobox settlement}}</nowiki></code> || {{Infobox settlement/link|type=Flag|link=Template:Infobox settlement}}
+|-
+| <code><nowiki>{{Infobox settlement/link|type=Flag|name= }}</nowiki></code> || {{Infobox settlement/link|type=Flag|name= }}
+|-
+| <code><nowiki>{{Infobox settlement/link|type=Flag|name=the United States of America}}</nowiki></code> || {{Infobox settlement/link|type=Flag|name=the United States of America}}
+|-
+|}
+
+=== See also ===
+
+<includeonly>{{Sandbox other||
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Geography infobox subtemplates]]
+[[bn:টেমপ্লেট:Infobox settlement/link]] 
+[[sl:Predloga:Infopolje Naselje/link]]
+}}</includeonly>
