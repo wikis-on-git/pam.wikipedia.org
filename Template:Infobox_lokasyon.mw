@@ -1,18 +1,27 @@
 <includeonly>{{Infobox settlement2
-|name = {{{name|{{#invoke:wd|label|{{{qid|}}}}}}}}
+| name                   = {{PH wikidata|name}}
+| image_skyline          = {{PH wikidata|image_skyline}}
+| image_caption          = {{PH wikidata|image_caption}}
+| image_seal             = {{PH wikidata|image_seal}}
+| seal_size              = 100x80px
+| image_map              = {{PH wikidata|image_map}}
+| map_caption            = {{PH wikidata|map_caption}}
+| image_map1             = {{Infobox mapframe|frame-width=230}}
+| pushpin_map            = Philippines
+| pushpin_label_position = left
+| pushpin_map_caption    = Location within the {{PH wikidata|country}}
+| coordinates            = {{PH wikidata|coordinates}}
+| settlement_type        = {{PH wikidata|settlement_type}}
 |native_name = {{{native_name|}}}
 |official_name = {{{official_name|}}}
 |settlement_type = {{{settlement_type|{{#invoke:String2|ucfirst|{{#invoke:wd|property|linked|{{{qid|}}}|P31}}}}}}}
-|image_skyline = {{{image_skyline|{{#invoke:wd|property|raw|best|{{{qid|}}}|P18}}}}}
 |image_alt = {{{image_alt|}}}
 |image_caption = {{{image_caption|<!--{{#if:{{{image_skyline|}}}|{{{image_caption|}}}|{{#if:{{#invoke:Wikidata|getImageLegend|FETCH_WIKIDATA|id={{{qid|}}}}}|{{#invoke:Wikidata|getImageLegend|FETCH_WIKIDATA|id={{{qid|}}}}}|Image of {{#if:{{{name|}}}|{{{name}}}|{{#invoke:wd|label|{{{qid|}}}}}}}}}}}--> }}}
 |image_size = {{{image_size|280px}}}
 |image_flag = {{{image_flag|{{#invoke:wd|property|raw|best|{{{qid|}}}|P41}}}}}
 |flag_alt = {{{flag_alt|}}}
 |flag_size = {{{flag_size|110x80px}}}
-|image_seal = {{{image_seal|{{#invoke:wd|property|raw|best|{{{qid|}}}|P158}}}}}
 |seal_alt = {{{seal_alt|}}}
-|seal_size = {{{seal_size|100x80px}}}
 |image_shield = {{{image_shield|{{#if:{{main other|{{#property:P158}}|{{#property:P158|from={{{qid|}}}}}}}||{{#invoke:wd|property|raw|best|{{{qid|}}}|P94}}}}}}}
 |shield_alt = {{{shield_alt|}}}
 |shield_size = {{{shield_size|100x80px}}}
@@ -22,31 +31,6 @@
 |mapsize = {{{mapsize|280px}}} 
 |map_alt = {{{map_alt|Lokasyon ning {{#invoke:wd|label|{{{qid|}}}}}}}} 
 |map_caption  = {{{map_caption|Lokasyon ning {{#invoke:wd|label|{{{qid|}}}}}}}} 
-|pushpin_map = {{{pushpin_map|}}}
-|pushpin_label_position  = {{{pushpin_label_position|}}}
-|pushpin_label = {{{pushpin_label|}}}
-|pushpin_map_alt = {{{pushpin_map_alt|}}}
-|pushpin_mapsize = {{{pushpin_mapsize|280px}}}
-|pushpin_relief = {{{pushpin_relief|}}}
-|pushpin_map_caption = {{{pushpin_map_caption|}}}
-|pushpin_map2  = {{#if:{{{pushpin_map|}}}||{{#if:{{#invoke:Wikidata|pageId}}{{{qid|}}}|{{#tag:mapframe|
-[
- {
-      "type": "ExternalData",
-      "properties": { "fill": "#FF0000", "fill-opacity": 0.1, "stroke": "#FF9999" },
-      "service": "geoshape",
-      "ids": "{{{qid|{{#invoke:Wikidata|pageId}}}}}"
-  },
-  {
-  "type": "Feature",
-  "geometry": { "type": "Point", "coordinates": [{{#invoke:WikidataIB |getValue |maxvals =1 |P625 |fwd=ALL |osd=no |qid={{{qid|}}} |noicon=true |show=longlat}}] },
-  "properties": {
-    "title": "Lokasyon ning {{#invoke:wd|label|{{{qid|}}}}}",
-    "marker-color": "0050d0",
-    "marker-symbol": "circle-stroked"
-    }
-  }
-]
 |longitude = {{#invoke:WikidataIB |getValue |maxvals =1|P625 |fwd=ALL |osd=no |qid={{{qid|}}}|noicon=true |show=long}}
 |latitude = {{#invoke:WikidataIB |getValue |maxvals =1|P625 |fwd=ALL |osd=no |qid={{{qid|}}} |noicon=true |show=lat}}
 |zoom = {{{zoom|10}}}
