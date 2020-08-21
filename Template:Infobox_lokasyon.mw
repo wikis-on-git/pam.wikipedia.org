@@ -11,12 +11,10 @@
 | pushpin_label_position = left
 | pushpin_map_caption    = Location within the {{PH wikidata|country}}
 | coordinates            = {{PH wikidata|coordinates}}
-| settlement_type        = {{PH wikidata|settlement_type}}
 |native_name = {{{native_name|}}}
 |official_name = {{{official_name|}}}
 |settlement_type = {{{settlement_type|{{#invoke:String2|ucfirst|{{#invoke:wd|property|linked|{{{qid|}}}|P31}}}}}}}
 |image_alt = {{{image_alt|}}}
-|image_caption = {{{image_caption|<!--{{#if:{{{image_skyline|}}}|{{{image_caption|}}}|{{#if:{{#invoke:Wikidata|getImageLegend|FETCH_WIKIDATA|id={{{qid|}}}}}|{{#invoke:Wikidata|getImageLegend|FETCH_WIKIDATA|id={{{qid|}}}}}|Image of {{#if:{{{name|}}}|{{{name}}}|{{#invoke:wd|label|{{{qid|}}}}}}}}}}}--> }}}
 |image_size = {{{image_size|280px}}}
 |image_flag = {{{image_flag|{{#invoke:wd|property|raw|best|{{{qid|}}}|P41}}}}}
 |flag_alt = {{{flag_alt|}}}
@@ -27,7 +25,6 @@
 |shield_size = {{{shield_size|100x80px}}}
 |nickname = {{{nickname|}}}
 |motto = {{{motto|}}}
-|coordinates= {{PH wikidata|coordinates}}
 |subdivision_type = {{{subdivision_type|Bansa}}}
 |subdivision_name = {{{subdivision_name|{{#invoke:wd|property|linked|{{{qid|}}}|P17}}}}}
 |established_title  = {{{established_title|{{#if:{{main other|{{#property:P571}}|{{#property:P571|from={{{qid|}}}}}}}|Pigtugdas|}}}}}
