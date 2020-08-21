@@ -81,7 +81,7 @@
 |lang = {{{lang|}}}
 }} }} |}} }}}
 |coordinates_footnotes = {{{coordinates_footnotes|{{#ifeq:{{{dateformat}}}|dmy|{{#invoke:wd|references|current|{{{qid|}}}|P625}}|{{#invoke:wd|references|mdy|current|{{{qid|}}}|P625}} }} }}}
-|subdivision_type = {{{subdivision_type|Nasyon}}}
+|subdivision_type = {{{subdivision_type|Bansa}}}
 |subdivision_name = {{{subdivision_name|{{#invoke:wd|property|linked|{{{qid|}}}|P17}}}}}
 |established_title  = {{{established_title|{{#if:{{main other|{{#property:P571}}|{{#property:P571|from={{{qid|}}}}}}}|Pigtugdas|}}}}}
 |established_date = {{{established_date|{{#ifeq:{{{dateformat}}}|dmy|{{PAGENAMEBASE|{{#invoke:wd|property|{{{qid|}}}|P571}}}}|{{PAGENAMEBASE|{{#invoke:wd|property|mdy|{{{qid|}}}|P571}}}} }} }}}
