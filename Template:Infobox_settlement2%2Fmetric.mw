@@ -1,0 +1,3 @@
+<includeonly>{{formatnum:{{{metv}}}{{{s|&nbsp;}}}{{{metu|m}}} ({{{impv}}}{{{s|&nbsp;}}}{{{impu|ft}}}{{#ifeq:{{{impv|0}}}|1||{{#ifeq:{{{s}}}|/||{{#ifeq:{{{impu}}}|acre|s}}}}}})}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
