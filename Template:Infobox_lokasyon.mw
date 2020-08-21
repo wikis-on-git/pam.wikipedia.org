@@ -28,7 +28,7 @@
 |pushpin_map_alt = {{{pushpin_map_alt|}}}
 |pushpin_mapsize = {{{pushpin_mapsize|280px}}}
 |pushpin_relief = {{{pushpin_relief|}}}
-|pushpin_map_caption = {{{pushpin_map_caption|}}}
+|pushpin_map_caption = {{{pushpin_map_caption|}}}}}
 
 |coordinates = {{{coordinates|{{#if:{{#invoke:Wikidata|pageId}}{{{qid|}}}|{{coord/display/{{main other|inline,title|inline}}|{{#tag:maplink|
 [
