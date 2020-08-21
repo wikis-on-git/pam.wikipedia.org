@@ -1,0 +1,62 @@
+{{Documentation subpage}}
+<!--Categories where indicated at the bottom of this page, please; interwikis at Wikidata (see [[Wikipedia:Wikidata]])-->
+{{High-use| 34448 }}
+{{TOC right}}
+{{Uses TemplateStyles|Template:TOC limit/styles.css|Template:TOC right/styles.css}}
+
+{{tl|TOC right}} forces the auto-generated Table of Contents for an article to appear floated to the right side of the page, in order to improve article layout.
+
+== Usage ==
+Insert <code>&#123;&#123;{{BASEPAGENAME}}&#125;&#125;</code> at the point in the article where you want the top of the Table of Contents box to appear. This should usually be after the text of the lead section, and just before the first section heading, in accordance with [[Wikipedia:Lead section#Elements of the lead]]. Use with {{tl|-}} or {{tl|clear}} to prevent collision with text; use the '''clear''' parameter (see below) to prevent collision with images.
+
+* Avoid placing the TOC in a visually poor location. Crossing a section division is probably a poor idea.
+
+;width: Set the CSS width.
+
+;limit: Limits the depth of subheadings shown. For instance using <code>limit=4</code> will hide the fourth level and deeper subheadings in the hierarchy. And <code>limit=2</code> will hide all subheadings leaving only the main headings. This works by hiding the lower levels with CSS. See [[Template:TOC limit/styles.css]].
+
+Do not place this template so that the TOC aligns with a large image or infobox; this breaks the layout on narrow screens (even users with screens as wide as 1024px wide can have problems). Also, a TOC that crosses a section division is probably a poor idea, if that can be avoided.
+
+Unless the section in which the {{tl|TOC right}} is placed is long enough, the result may well be undesirable. 
+
+It should only be used in cases where the TOC gets in the way of other content or is detrimental to the layout of the page; it should ''not'' simply be used for aesthetics since it tampers with the standard appearance of articles. See [[Help:Section#Floating the TOC]] for further guidelines.
+
+== See also ==
+* {{Lts|TOC left}}
+
+<includeonly>{{Sandbox other||
+
+<!--------ADD CATEGORIES BELOW THIS LINE-------->
+{{DEFAULTSORT:Toc Right}}
+[[Category:Wikipedia table of contents templates]]
+}}</includeonly> 
+<templatedata>
+{
+	"params": {
+		"limit": {
+			"label": "Limit",
+			"description": "Limits the depth of subheadings shown. For instance using limit=4 will hide the fourth level and deeper subheadings in the hierarchy. And limit=2 will hide all subheadings leaving only the main headings. This works by hiding the lower levels with CSS",
+			"type": "number"
+		},
+		"clear": {
+			"label": "Clear",
+			"description": "Sets the CSS clear property, which forces this float underneath the side specified with this attribute. So, clear=right (which is the default) will place the element after all the right floating elements before it. Options are left, right, both, or none.",
+			"type": "string"
+		},
+		"width": {
+			"aliases": [
+				"1"
+			],
+			"label": "Width",
+			"description": "Overrides the CSS width"
+		}
+	},
+	"description": "{{TOC right}} forces the auto-generated \"Table of Contents\" for an article to appear floated to the right side of the page (as seen right), in order to improve article layout.",
+	"paramOrder": [
+		"clear",
+		"limit",
+		"width"
+	],
+	"format": "inline"
+}
+</templatedata>
