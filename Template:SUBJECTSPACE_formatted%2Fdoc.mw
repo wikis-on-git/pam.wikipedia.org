@@ -1,0 +1,15 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+=== Usage ===
+This template returns a descriptor for the SUBJECTSPACE formatted for inclusion in a sentence of text. It applies the correct capitalization for midsentence appearance, returns "article" if the subjectspace is main, and adds "page" if grammatically correct.<!--
+
+=== See also ===
+
+--><includeonly>{{Sandbox other||
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Namespace manipulation templates]]
+[[as:Template:SUBJECTSPACE formatted]]
+[[ms:Templat:SUBJECTSPACE formatted]]
+[[sl:Predloga:SUBJECTSPACE formatiran]]
+}}</includeonly>
