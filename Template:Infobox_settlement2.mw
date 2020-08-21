@@ -100,7 +100,7 @@
 | rowclass19 = mergedtoprow
 | class19 = maptable
 |  data19 = {{#if:{{{image_flag|}}}{{{image_seal|}}}{{{image_shield|}}}{{{image_blank_emblem|}}}{{both|{{{pushpin_map_narrow|}}}|{{{pushpin_map|}}}}}
-|{{Infobox settlement22/columns
+|{{Infobox settlement2/columns
 | 1 = {{#if:{{{image_flag|}}}|{{#invoke:InfoboxImage|InfoboxImage|image={{{image_flag}}}|size={{{flag_size|}}}|sizedefault={{#if:{{both|{{{pushpin_map_narrow|}}}|{{{pushpin_map|}}}}}|85px|100px}}|border={{yesno |{{{flag_border|}}}|yes=yes|blank=yes}}|alt={{{flag_alt|}}}|title=Flag of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}}}<div style="padding:0.2em 0 0.2em 0;">{{Infobox settlement2/link|type=Flag|link={{{flag_link|}}}|name={{{official_name}}}}}</div>}}
 | 2 = {{#if:{{{image_seal|}}}|{{#invoke:InfoboxImage|InfoboxImage|image={{{image_seal|}}}|size={{{seal_size|}}}|sizedefault={{#if:{{both|{{{pushpin_map_narrow|}}}|{{{pushpin_map|}}}}}|85px|100px}}|alt={{{seal_alt|}}}|title=Official seal of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}}}<div style="padding:0.2em 0 0.2em 0;">{{Infobox settlement2/link|type={{#if:{{{seal_type|}}}|{{{seal_type}}}|Seal}}|link={{{seal_link|}}}|name={{{official_name}}}}}</div>}}
 | 3 = {{#if:{{{image_shield|}}}|{{#invoke:InfoboxImage|InfoboxImage|image={{{image_shield|}}}||size={{{shield_size|}}}|sizedefault={{#if:{{both|{{{pushpin_map_narrow|}}}|{{{pushpin_map|}}}}}|85px|100px}}|alt={{{shield_alt|}}}|title=Coat of arms of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}}}<div style="padding:0.2em 0 0.2em 0;">{{Infobox settlement2/link|type=Coat of arms|link={{{shield_link|}}}|name={{{official_name}}}}}</div>}}
