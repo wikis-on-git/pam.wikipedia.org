@@ -1,0 +1,20 @@
+{{Documentation subpage}}
+{{Nosubst}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+=== Usage ===
+
+<code><nowiki>{{Nosubst}}</nowiki></code>
+
+This template should be placed on the <big>[[Wikipedia:Template documentation|documentation]] [[Wikipedia:Subpage|subpage]]</big> (not the template page itself) of any template that should '''not''' be substituted (and [[Wikipedia:Transclusion|transcluded]] instead).
+
+;Parameters
+* This template accepts one optional parameter, which can be used to give a more detailed description of why the template in question should not be substituted. For example, <code><nowiki>{{Nosubst|Example text.}}</nowiki></code> produces:
+{{Nosubst|Example text.}}
+
+{{List of subst helper templates}}
+
+<includeonly>{{sandbox other||
+<!-- CATEGORIES HERE, THANKS -->
+[[Category:Documentation header templates]]
+}}</includeonly>
