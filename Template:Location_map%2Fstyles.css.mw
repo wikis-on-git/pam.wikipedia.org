@@ -1,0 +1,51 @@
+/* {{pp-template}} */
+.locmap .od {
+	position: absolute;
+}
+
+.locmap .id {
+	position: absolute;
+	line-height: 0;
+}
+
+.locmap .l0 {
+	font-size: 0%;
+	position: absolute;
+}
+
+.locmap .pv {
+	line-height: 110%;
+	position: absolute;
+	text-align: center;
+}
+
+.locmap .pl {
+	line-height: 110%;
+	position: absolute;
+	top: -0.75em;
+	text-align: right;
+}
+
+.locmap .pr {
+	line-height: 110%;
+	position: absolute;
+	top: -0.75em;
+	text-align: left;
+}
+
+.locmap .pv>div {
+	display: inline;
+	padding: 1px;
+}
+
+.locmap .pl>div {
+	display: inline;
+	padding: 1px;
+	float: right;
+}
+
+.locmap .pr>div {
+	display: inline;
+	padding: 1px;
+	float: left;
+}
