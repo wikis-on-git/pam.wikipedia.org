@@ -1,0 +1,7 @@
+<includeonly>https://psa.gov.ph/classification/psgc/?q=psgc/{{#ifeq:{{#invoke:String|sub|{{#property:P988}}|5|6}}|00
+|{{#ifeq:{{#invoke:String|sub|{{#property:P988}}|3|4}}|00
+  |provinces/{{#invoke:String|sub|{{#property:P988}}|1|2}}
+  |citimuni/{{#property:P988}}
+  }}
+|barangays/{{#invoke:String|sub|{{#property:P988}}|1|6}}000&regcode={{#invoke:String|sub|{{#property:P988}}|1|2}}&provcode={{#invoke:String|sub|{{#property:P988}}|3|4}}
+}}</includeonly><noinclude>{{documentation}}</noinclude>
