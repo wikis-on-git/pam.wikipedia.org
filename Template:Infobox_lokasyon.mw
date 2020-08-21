@@ -8,9 +8,14 @@
 | map_caption            = {{PH wikidata|map_caption}}
 | image_map1             = {{Infobox mapframe|id={{#invoke:Wikibase|id}}}}
 | coordinates            = {{PH wikidata|coordinates}}
-|native_name = {{{native_name|}}}
-|official_name = {{{official_name|}}}
-|settlement_type = {{{settlement_type|{{#invoke:String2|ucfirst|{{#invoke:wd|property|linked|{{{qid|}}}|P31}}}}}}}
+| native_name            = {{{native_name|}}}
+| official_name          = {{{official_name|}}}
+| subdivision_type1      = Rehiyon
+| subdivision_name1      = {{PH wikidata|region}}
+| pushpin_map            = Philippines
+| pushpin_label_position = left
+| pushpin_map_caption    = Location within the {{PH wikidata|country}}
+| coordinates            = {{PH wikidata|coordinates}}
 |image_alt = {{{image_alt|}}}
 |image_size = {{{image_size|280px}}}
 |image_flag = {{{image_flag|{{#invoke:wd|property|raw|best|{{{qid|}}}|P41}}}}}
@@ -33,15 +38,20 @@
 |area_footnotes = {{{area_footnotes|{{#ifeq:{{{dateformat}}}|dmy|{{#invoke:wd|references|current|{{{qid|}}}|P2046}}|{{#invoke:wd|references|mdy|current|{{{qid|}}}|P2046}} }} }}}
 |area_total_km2  = {{{area_total_km2|{{#if:{{main other|{{#property:P2046}}|{{#property:P2046|from={{{qid|}}}}}}}|{{#ifeq:{{#invoke:Wikidata|getUnits|qid={{{qid|}}}|P2046|FETCH_WIKIDATA}}|square meter|{{rnd|{{convert|input={{#invoke:String|replace|{{#invoke:String|replace|{{#invoke:wd|property|{{{qid|}}}|P2046}}| %D+||plain=false}}|±[%d%.][%d%.]*||plain=false}} m2|km2|disp=output number only|comma=off}}|2}}|{{#ifeq:{{#invoke:Wikidata|getUnits|qid={{{qid|}}}|P2046|FETCH_WIKIDATA}}|square kilometer|{{rnd|{{convert|input={{#invoke:String|replace|{{#invoke:String|replace|{{#invoke:wd|property|{{{qid|}}}|P2046}}| %D+||plain=false}}|±[%d%.][%d%.]*||plain=false}} km2|km2|disp=output number only|comma=off}}|2}}|{{#invoke:String|replace|{{#invoke:String|replace|{{#invoke:wd|property|{{{qid|}}}|P2046}}| %D+||plain=false}}|±[%d%.][%d%.]*||plain=false}} }} }} }} }}}
 |elevation_m = {{{elevation_m|{{#ifexpr:{{#invoke:String|find|{{#invoke:wd|property|raw|best|{{{qid|}}}|P2044}}|foot}}||{{#invoke:String|replace|{{#invoke:string|replace|{{#invoke:wd|property|raw|best|{{{qid|}}}|P2044}}|±[%d%.][%d%.]*||plain=false}}|meter}}}}}}}
-|population_footnotes = {{{population_footnotes|{{#ifeq:{{{dateformat}}}|dmy|{{#invoke:wd|references|{{{qid|}}}|P1082|{{formatnum:{{#invoke:wd|property|{{{qid|}}}|P1082}}|R}}}}|{{#invoke:wd|references|mdy|{{{qid|}}}|P1082|{{formatnum:{{#invoke:wd|property|{{{qid|}}}|P1082}}|R}}}} }} }}}
-|population_as_of = {{{population_as_of|{{#ifeq:{{{dateformat}}}|dmy|{{#invoke:wd|qualifier|normal+|single|{{{qid|}}}|P1082|P585}}|{{#invoke:wd|qualifier|mdy|normal+|single|{{{qid|}}}|P1082|P585}} }} }}}
-|population_total = {{{population_total|{{#invoke:wd|property|current|{{{qid|}}}|P1082}} }}}
-|population_density_km2 = {{{population_density_km2|auto}}}
+| population_footnotes   = {{PH census|current}}
+| population_total       = {{PH wikidata|population_total}}
+| population_as_of       = {{PH wikidata|population_as_of}}
+| population_density_km2 = auto
+| population_blank1_title= Households
+| population_blank1      = {{PH wikidata|household}} 
+| postal_code_type       = [[List of ZIP codes in the Philippines|ZIP code]]
+| postal_code            = {{PH wikidata|postal_code}}
+| postal2_code_type      = {{PSGCstyle}}
+| postal2_code           = {{PSGC detail}}
+| area_code_type         = {{areacodestyle}}
+| area_code              = {{PH wikidata|area_code}}
+| website                = {{PH wikidata|website}}
 |timezone   = {{{timezone|{{#invoke:wd|properties|linked|{{{qid|}}}|P421}}}}}
-|postal_code_type = {{{postal_code_type|Kodigo&nbsp;nin&nbsp;postal}}}
-|postal_code = {{{postal_code|{{#invoke:wd|properties|raw|{{{qid|}}}|P281}}}}}
-|area_code = {{{area_code|{{#invoke:wd|properties|raw|{{{qid|}}}|P473}}}}}
-|website = {{{website|{{#if:{{main other|{{#property:P856}}|{{#property:P856|from={{{qid|}}}}}}}|{{URL|{{#invoke:wd|property|raw|best|{{{qid|}}}|P856}}}}|}}}}}
 |footnotes = {{{footnotes|{{#if:{{#invoke:Wikidata|pageId}}||{{#ifeq:{{NAMESPACE}}|{{ns:0}}|{{error|Warning!}} Data will appear when article is linked to Wikidata.[[Category:Articles using Template:Infobox location not linked to Wikidata]]}}}} }}}
 }}</includeonly><noinclude>
 {{documentation}}
