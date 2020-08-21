@@ -1,0 +1,89 @@
+
+Editing Template:Improve documentation/doc
+Jump to navigationJump to search
+Information about TemplateData
+This is the documentation page of the template Improve documentation.
+Content that violates any copyrights will be deleted. Encyclopedic content must be verifiable. Work submitted to Wikipedia can be edited, used, and redistributed—by anyone—subject to certain terms and conditions.
+
+Advanced
+Special characters
+Help
+{{Documentation subpage}}
+{{No subst}}
+<!-- Categories where indicated at the bottom of this page, please. -->
+
+== Usage ==
+
+For use on template/module documentation pages whose content is missing, insufficient, incomplete and/or inaccurate.
+
+Example: {{Tlx|Improve documentation|date{{=}}{{CURRENTMONTHNAME}} {{CURRENTYEAR}}}}
+
+The template adds pages to [[:Category:Templates with missing or incorrect documentation]].
+
+==TemplateData==
+<templatedata>
+{
+	"params": {
+		"talk": {},
+		"date": {}
+	},
+	"description": "Tags templates with inadequate or nonexistent documentations.",
+	"format": "block"
+}
+</templatedata>
+
+
+== See also ==
+* {{tl|Documentation}}
+* [[Wikipedia:Template documentation]]
+* {{tlg|Ombox}} the template transcluded into this one. It provides the basic framework. 
+<includeonly>{{Sandbox other||
+
+<!-- Categories below this line, please: -->
+[[Category:Template documentation cleanup templates]]
+[[Category:Template documentation]]
+}}</includeonly>
+
+
+Insert
+  – — ° ′ ″ ≈ ≠ ≤ ≥ ± − × ÷ ← → · §   Sign your posts on talk pages: [[User:Exec8|Exec8]] ([[User talk:Exec8|pamisabi-sabi]]) 16:12, 21 Agostu 2020 (UTC)   Cite your sources: <ref></ref>
+Edit summary (Briefly describe your changes)
+	This is a minor edit
+	Watch this page
+By publishing changes, you agree to the Terms of Use, and you irrevocably agree to release your contribution under the CC BY-SA 3.0 License and the GFDL. You agree that a hyperlink or URL is sufficient attribution under the Creative Commons license.
+
+   Preview page with this template (what's this?)
+Page title
+Pages transcluded onto the current version of this page (help) :
+
+This page is a member of 1 hidden category (help) :
+
+Navigation menu
+Exec8
+Alerts (0)
+Notices (0)
+TalkSandboxPreferencesBetaWatchlistContributionsLog out
+TemplateTalk
+ReadEditView historyWatchMore
+Search
+Search Wikipedia
+Main page
+Contents
+Current events
+Random article
+About Wikipedia
+Contact us
+Donate
+Contribute
+Help
+Community portal
+Recent changes
+Upload file
+Tools
+What links here
+Related changes
+Special pages
+Page information
+
+Languages
+Privacy policyAbout WikipediaDisclaimersContact WikipediaMobile viewDevelopersStatisticsCookie statementWikimedia FoundationPowered by MediaWiki
