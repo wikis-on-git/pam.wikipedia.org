@@ -1,0 +1,11 @@
+{{Sister project
+| position = {{{position|}}}
+| project  = data
+| text     = This {{module other|module|template}} uses {{#if:{{{section|}}} | one or more [[Wikidata]] properties; see [[#{{{section}}}|§&nbsp;{{{section}}}]] for details. | the [[Wikidata]] propert{{#if:{{{2|}}}|ies|y}}:
+{{#invoke:Uses Wikidata|usesProperty}}
+}}}}{{#switch:{{SUBPAGENAME}}
+|sandbox |testcases |doc= <!--no category-->
+|#default={{#ifeq:{{PAGENAME}} |Uses Wikidata ||{{module other |[[Category:Modules using data from Wikidata]] |{{template other |[[Category:Templates using data from Wikidata]]}} }} }}
+}}<!--
+
+--><noinclude>{{documentation}}</noinclude>
