@@ -27,44 +27,7 @@
 |shield_size = {{{shield_size|100x80px}}}
 |nickname = {{{nickname|}}}
 |motto = {{{motto|}}}
-|image_map  = {{{image_map|{{#invoke:wd|property|raw|best|{{{qid|}}}|P242}} }}} 
-|mapsize = {{{mapsize|280px}}} 
-|map_alt = {{{map_alt|Lokasyon ning {{#invoke:wd|label|{{{qid|}}}}}}}} 
-|map_caption  = {{{map_caption|Lokasyon ning {{#invoke:wd|label|{{{qid|}}}}}}}} 
-|longitude = {{#invoke:WikidataIB |getValue |maxvals =1|P625 |fwd=ALL |osd=no |qid={{{qid|}}}|noicon=true |show=long}}
-|latitude = {{#invoke:WikidataIB |getValue |maxvals =1|P625 |fwd=ALL |osd=no |qid={{{qid|}}} |noicon=true |show=lat}}
-|zoom = {{{zoom|10}}}
-|width = 280
-|height = 280
-|align = center
-|frameless = yes
-|lang = {{{lang|}}}
-}}|}} }}
-|pushpin_map2_coord = {{#if:{{{pushpin_map|}}}|{{coord|{{#invoke:WikidataIB |getValue |maxvals =1|P625 |fwd=ALL |osd=no |qid={{{qid|}}} |noicon=true |show=lat}}|{{#invoke:WikidataIB |getValue |maxvals =1|P625 |fwd=ALL |osd=no |qid={{{qid|}}}|noicon=true |show=long}}}}}}
-|coordinates = {{{coordinates|{{#if:{{#invoke:Wikidata|pageId}}{{{qid|}}}|{{coord/display/{{main other|inline,title|inline}}|{{#tag:maplink|
-[
- {
-      "type": "ExternalData",
-      "properties": { "fill": "#FF0000", "fill-opacity": 0.1, "stroke": "#FF9999" },
-      "service": "geoshape",
-      "ids": "{{{qid|{{#invoke:Wikidata|pageId}}}}}"
-  },
-  {
-  "type": "Feature",
-  "geometry": { "type": "Point", "coordinates": [{{#invoke:WikidataIB |getValue |maxvals =1 |P625 |fwd=ALL |osd=no |qid={{{qid|}}} |noicon=true |show=longlat}}] },
-  "properties": {
-    "title": "Lokasyon ning {{#invoke:wd|label|{{{qid|}}}}}",
-    "marker-color": "0050d0",
-    "marker-symbol": "circle-stroked"
-    }
-  }
-]
-|longitude = {{#invoke:WikidataIB |getValue |maxvals =1|P625 |fwd=ALL |osd=no |qid={{{qid|}}}|noicon=true |show=long}}
-|latitude = {{#invoke:WikidataIB |getValue |maxvals =1|P625 |fwd=ALL |osd=no |qid={{{qid|}}} |noicon=true |show=lat}}
-|zoom = {{{zoom|10}}}
-|lang = {{{lang|}}}
-}} }} |}} }}}
-|coordinates_footnotes = {{{coordinates_footnotes|{{#ifeq:{{{dateformat}}}|dmy|{{#invoke:wd|references|current|{{{qid|}}}|P625}}|{{#invoke:wd|references|mdy|current|{{{qid|}}}|P625}} }} }}}
+|coordinates= {{PH wikidata|coordinates}}
 |subdivision_type = {{{subdivision_type|Bansa}}}
 |subdivision_name = {{{subdivision_name|{{#invoke:wd|property|linked|{{{qid|}}}|P17}}}}}
 |established_title  = {{{established_title|{{#if:{{main other|{{#property:P571}}|{{#property:P571|from={{{qid|}}}}}}}|Pigtugdas|}}}}}
