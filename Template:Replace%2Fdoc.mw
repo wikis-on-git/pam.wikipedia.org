@@ -1,0 +1,26 @@
+{{Documentation subpage}}
+{{Lua|Module:String}}
+<!----PLEASE ADD CATEGORIES WHERE INDICATED AT THE END OF THIS PAGE---->
+===Usage===
+<code>{{((}}replace|''string''|''target''|''replacement''|count=''n''{{))}}</code>
+
+Returns ''string'' with the first ''n'' occurrences of ''target'' replaced with ''replacement''. Omitting {{code|1=count}} will replace all occurrences. Space counts as a character if placed in any of the first three parameters.
+
+===Examples===
+* <code><nowiki>{{replace|One two two three two four twotwo five|two|NINE}}</nowiki></code> &rarr; {{replace|One two two three two four twotwo five|two|NINE}}
+* <code><nowiki>{{replace|One two two three two four twotwo five|two|NINE|count=2}}</nowiki></code> &rarr; {{replace|One two two three two four twotwo five|two|NINE|count=2}}
+* <code><nowiki>{{replace|foo_bar|_| }}</nowiki></code> &rarr; {{replace|foo_bar|_| }}
+====Space====
+* <code><nowiki>{{replace|One-two two-three two-four twotwo-five|-|—}}</nowiki></code> &rarr; {{replace|One-two two-three two-four twotwo-five|-|—}}
+* <code><nowiki>{{replace|One-two two-three two-four twotwo-five|- |—}}</nowiki></code> &rarr; {{replace|One-two two-three two-four twotwo-five|- |—}}
+
+===See also===
+* {{tl|str rep}}, which replaces only the first occurrence of a string.
+
+
+{{String-handling templates |IRL}}
+
+<includeonly>{{Sandbox other||
+<!----CATEGORIES BELOW THIS LINE, PLEASE:---->
+[[Category:String manipulation templates]]
+}}</includeonly>
