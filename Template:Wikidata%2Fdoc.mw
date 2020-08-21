@@ -1,0 +1,6 @@
+{{documentation subpage}}
+{{Template shortcut|Wd}}
+{{Lua sidebar|template=Wikidata|module=Wd}}
+{{Lua|Module:Wd}}
+{{Hatnote|For a version of this template with an opt-in toggle, see {{t|WikidataOI}}.}}
+{{Wd/doc|seealso=*{{t|WikidataOI}}, the same template but including an opt-in toggle.}}
