@@ -1,0 +1,18 @@
+/* {{pp-template}} */
+.tocright {
+	float: right;
+	clear: right;
+	width: auto;
+	background: none;
+	padding: .5em 0 .8em 1.4em;
+	margin-bottom: .5em; 
+}
+.tocright-clear-left {
+	clear: left;
+}
+.tocright-clear-both {
+	clear: both;
+}
+.tocright-clear-none {
+	clear: none;
+}
