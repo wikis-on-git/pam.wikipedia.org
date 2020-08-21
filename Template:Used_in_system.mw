@@ -1,0 +1,7 @@
+{{ombox
+| type = content
+| text = 
+'''This {{lcfirst:{{NAMESPACE}}}} is used {{#if:{{{1|}}}|{{{1}}}|in system messages}}.''' <br /> Changes to it can cause immediate changes to the Wikipedia user interface. {{#ifeq:{{NAMESPACENUMBER}}|6||To avoid large-scale disruption, any changes should first be tested in this {{lcfirst:{{NAMESPACE}}}}'s [[{{Sandbox other|{{SUBJECTSPACE}}:{{BASEPAGENAME}}|{{SUBJECTPAGENAME}}}}/sandbox|/sandbox]] or [[{{Sandbox other|{{SUBJECTSPACE}}:{{BASEPAGENAME}}|{{SUBJECTPAGENAME}}}}/testcases|/testcases]] subpage, or in your own [[Wikipedia:Subpages#How to create user subpages|user space]]. The tested changes can then be added in one single edit to this {{lcfirst:{{NAMESPACE}}}}.}} Please discuss any changes {{#if:{{{2|}}}|at [[{{{2}}}]]|on the [[{{Sandbox other|{{TALKSPACE}}:{{BASEPAGENAME}}|{{TALKPAGENAME}}}}|talk page]]}} before implementing them.
+}}<includeonly>{{Sandbox other||{{#switch:{{#invoke:Effective protection level|{{#switch:{{NAMESPACE}}|File=upload|#default=edit}}|{{FULLPAGENAME}}}}|sysop|templateeditor|interfaceadmin=|#default={{category handler|all=[[Category:Pages used in system messages needing protection]]|nocat={{{nocat|}}}}}}}}}</includeonly><noinclude>
+{{documentation}}<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
