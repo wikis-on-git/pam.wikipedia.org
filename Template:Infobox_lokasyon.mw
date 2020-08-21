@@ -15,7 +15,6 @@
 | pushpin_map            = Philippines
 | pushpin_label_position = left
 | pushpin_map_caption    = Location within the {{PH wikidata|country}}
-| coordinates            = {{PH wikidata|coordinates}}
 |image_alt = {{{image_alt|}}}
 |image_size = {{{image_size|280px}}}
 |image_flag = {{{image_flag|{{#invoke:wd|property|raw|best|{{{qid|}}}|P41}}}}}
