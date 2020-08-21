@@ -1,0 +1,57 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AT THE BOTTOM OF THIS PAGE -->
+{{Lua|Module:Side box|Module:Uses Wikidata}}
+
+== Usage ==
+As supported by [[Wikipedia:Wikimedia sister projects]], this template may be used to add a [[Wikidata]] ''property'' link to a Wikipedia article – concretely, the link created leads to the property's ''discussion'' page containing the actual human-readable documentation. Note that this template generates an [[Wikipedia:InterWikimedia links|InterWikimedia link]] and is not intended to represent sources for Wikipedia articles.
+
+{|class="wikitable"
+|-
+! Code
+! scope="col" style="width: 20em;" | Result
+|-
+|{{demo|br=<td>|<nowiki>{{Wikidata property | P496 }}</nowiki>}}
+|-
+|{{demo|br=<td>|<nowiki>{{Wikidata property |1= P496 }}</nowiki>}}
+|-
+|{{demo|br=<td>|<nowiki>{{Wikidata property | P1164 | P2820 }}</nowiki>}}
+|-
+|{{demo|br=<td>|<nowiki>{{Wikidata property |1= P1164 |2= P2820 }}</nowiki>}}
+|}
+
+== Parameters ==
+# P''number'' ('''mandatory''')
+# Name (defaults to Wikidata property label)
+
+== Supporting templates and modules ==
+* {{tl|Sister project}}, implemented using {{ml|Side box|main}} via {{tl|Side box}}
+* {{ml|Uses Wikidata|usesProperty}}
+
+== See also ==
+* {{tl|Uses Wikidata}}
+* {{tl|Tracks Wikidata}}
+* {{tl|Wikidata entity link}}
+* {{tl|Wikidata property link}}
+
+== TemplateData ==
+{{TemplateData header}}
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "P number",
+			"example": "P231",
+			"required": true,
+			"suggested": true
+		},
+		"position": {}
+	}
+}
+</templatedata>
+
+<includeonly>{{sandbox other||
+<!-- CATEGORIES HERE, THANKS -->
+[[Category:Interwiki link templates]]
+[[Category:Wikidata templates]]
+
+}}</includeonly>
