@@ -1,0 +1,9 @@
+{{SAFESUBST:<noinclude />#invoke:Unsubst||date=__DATE__ |$B={{Ombox
+| type  = content
+| name  = Improve documentation
+| class = ambox-Refimprove
+| image = [[File:Question book-new.svg|50x40px|alt=Question book (new version) SVG]]
+| text  = This {{#switch:{{NAMESPACE}}|Module=module|#default=template}}'s [[Wikipedia:Template documentation|documentation]] is '''missing, inadequate, or does not accurately describe its functionality and/or the [[Help:Template#Parameters|parameters]] in its code.''' Please help [{{fullurl:{{FULLPAGENAME}}{{#ifexist:{{FULLPAGENAME}}/doc|/doc}}|action=edit}} to expand and improve it]. {{#if:{{{talk|{{{1|}}}}}} |See [[{{TALKPAGENAME}}|talk page]] for details.|}} {{#if:{{{date|{{{2|}}}}}} |{{smaller|''({{{date}}})''}}}}
+}}<includeonly>{{Dated maintenance category|||Templates with missing or incorrect documentation}}</includeonly>}}<noinclude>
+{{Documentation}}
+</noinclude>
