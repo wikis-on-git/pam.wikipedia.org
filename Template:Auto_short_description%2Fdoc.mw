@@ -1,0 +1,17 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+'''Template:Auto short description''' should be placed on doc pages of templates which automatically generate short description for pages transcluding them.
+
+Pages tagged with this template are categorized in [[:Category:Templates that generate short descriptions]].
+
+== Examples ==
+{{Tlx|{{BASEPAGENAME}}}}
+
+{{Tlx|{{BASEPAGENAME}}|sometimes{{=}}yes}} – for templates that only generate short descriptions under particular conditions
+
+{{Tlx|{{BASEPAGENAME}}|conditions{{=}}when it is used in Wikipedia space}} – when an explanation is desired for the conditions under which a short description is generated, e.g. when the short description template is wrapped with {{tl|Namespace detect}}
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Template namespace templates]]
+}}</includeonly>
