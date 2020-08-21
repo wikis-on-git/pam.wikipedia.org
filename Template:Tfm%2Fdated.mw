@@ -1,0 +1,21 @@
+{{ {{{|safesubst:}}}#invoke:Unsubst||type= |page= |link= |help= |$B={{#ifeq:{{{bigbox|<noinclude>yes</noinclude>}}}|yes|{{Ombox
+  |type  = move
+  |image = none
+  |class=nomobile
+  |small = {{{small|no}}}
+  |text  = This {{#ifeq:{{lc:{{{type}}}}}|module|[[Help:Module|module]]|[[Help:Template|template]]}} is '''being considered for merging with [[{{#ifeq:{{lc:{{{type}}}}}|module|Module|Template}}:{{{otherpage}}}]].''' Please discuss this matter at [[{{{link}}}|'''this {{#ifeq:{{lc:{{{type}}}}}|module|module|template}}'s entry''']] at templates for discussion to help reach a consensus.
+{{#ifeq:{{{help}}}|off||----
+''<small class="plainlinks" style="line-height:1.3em;">[[Wikipedia:Maintenance|Maintenance]] use only:<br>1. [{{fullurl:{{{link}}}|action=edit&editintro=Wikipedia:Templates_for_discussion/editnotice&section=1}} Edit the TfD log] to create the discussion entry.<br>2. Please consider notifying the [{{fullurl:{{FULLPAGENAME}}|action=history}} author(s)] by placing <span class="nowrap">{{tlx|Tfmnotice|{{{page}}}|{{{otherpage}}}|subst=yes}} <nowiki>~~~~</nowiki></span> on their talk page(s).</small>''
+ }}}}{{category handler
+  | all = [[Category:Templates for merging]]
+  | nocat = {{{nocat|{{#ifeq:{{Template:FULLBASEPAGENAME|{{FULLBASEPAGENAME}}}}|Template:Tfm|true}}}}}
+  | category2 = {{{category|¬}}}
+ }}|{{#switch:{{lc:{{{type}}}}}
+ |tiny = <span style="padding: 0; font-size: xx-small; font-weight: bold; color: #000000; background-color: #f9f9f9;" class="tfd">[[{{{link}}}|‹See TfM›]]</span>
+ |inline = <span style="padding: 0; font-size: xx-small; color: #000; border: 1px solid #aaa; background-color: #f9f9f9;" class="tfd">‹The [[Help:Template|template]] ''[[Template:{{{page}}}|{{{page}}}]]'' is being [[{{{link}}}|considered for merging]].›</span>&nbsp;
+ |infobox|box|sidebar = <div class="boilerplate metadata plainlinks tfd" id="tfd" style="background-color: transparent; padding: 0 0.2em; color: #000; text-align: center; position: relative; float: right; clear: right; width: {{#if:{{{width|}}}|{{{width}}}|20em}}"><span style="font-size: xx-small;">‹&nbsp;The [[Help:Template|template]] ''[[Template:{{{page}}}|{{{page}}}]]'' is being [[{{{link}}}|considered for merging]].&nbsp;›</span></div>
+ |disabled = <!-- No output -->
+ |#default = <div class="boilerplate metadata plainlinks tfd" id="tfd" style="background-color: transparent; padding: 0; font-size:xx-small; color:#000000; text-align: center; border-bottom:1px solid #AAAAAA; overflow:hidden;">‹&nbsp;The [[Help:Template|template]] below (''[[Template:{{{page}}}|{{{page}}}]]'') is being considered for merging. See [[{{{link}}}|templates for discussion]] to help reach a consensus.&nbsp;›</div>
+}}}}}}<noinclude>
+{{Documentation}}
+</noinclude>
