@@ -1,0 +1,107 @@
+{{Documentation subpage}}
+{{High-use}}
+<!-- Categories go where indicated at the bottom of this page, please; interwikis go to Wikidata (see also: [[Wikipedia:Wikidata]]). -->
+{{#ifeq:{{FULLPAGENAME}}|Template:High-use|
+{{lua|Module:High-use|Module:Transclusion count}}}}
+This is the {{tl|High-use}} message box.
+
+It is meant to be put at the top of the documentation for templates used on more than 2000 pages.
+
+For templates where the number of pages is more than 100,000 or if the first parameter is set as "risk" a stronger wording is given.
+
+'''Note!''' It is normal that some of the links in the message box are red. 
+
+== Usage ==
+
+{{tlx|1=High-use}}
+
+{{tlx|1=High-use|2=1=''number of transclusions''|3=2=''discussion page, or use + notation''|4=all-pages=''yes/no''|5=info=''additional text''}}
+
+The template can be used as is, and will automatically use bot-updated transclusion counts from [[Special:PrefixIndex/Module:Transclusion_count/data/|subpages of Module:Transclusion_count/data/]] when available. But it can also take some parameters: 
+* ''<code>number of transclusions</code>'': The first parameter is either a static number of times the template has been transcluded, or the word "risk" (without quotes) to display "a very large number of" instead of the actual value. This value will be ignored if transclusion data is available for the current page (generally for templates with more than 2000 transclusions).
+* ''<code>discussion page, or use + notation</code>'': The second parameter is overloaded. It will cause the number of transclusions to display as "#,###+" instead of "approximately #,###" when set equal to "yes" (without quotes). When used in this manner, values will be rounded down, instead of rounded to the nearest number with the appropriate number of significant figures. When set to any other non-blank value, it will replace the link to the template's talk page to the value of the parameter (for example, <code>2=WP:VPT</code> will insert a link to [[WP:VPT]]),
+* <code>all-pages=yes</code>: Will also output what percentage of all pages use the template. This should only be used for very highly transcluded templates.
+* <code>info=''extra information''</code>: When set to non-blank, will insert ''extra information'' into the template text if the template has more than 10,000 transclusions or paramter 1 is set to "risk".
+* <code>demo=''Template_name''</code>: Will use the transclusion count for the template at [[Template:Template_name]] instead of detecting what template it is being used on. Capitalization must exactly match the value used in [[Special:PrefixIndex/Module:Transclusion_count/data/]].
+* <code>form=</code>: When set to "editnotice", will display the message using {{tl|editnotice}} instead of {{tl|ombox}}.
+* <code>expiry=</code>: Sets the {{para|expiry}} paramter for {{tl|editnotice}}.
+
+=== Examples ===
+
+The full code for a /doc page top can look like this:
+
+<pre>
+{{documentation subpage}}
+{{high-use}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+</pre>
+
+==== Standard form ====
+
+<pre>
+{{high-use| 4,000 }}
+{{high-use| 4,000 | Wikipedia talk:High-risk templates }}
+{{high-use| | Wikipedia talk:High-risk templates }}
+</pre>
+{{high-use| 4,000 }}
+{{high-use| 4,000 | Wikipedia talk:High-risk templates }}
+{{high-use| | Wikipedia talk:High-risk templates }}
+
+==== Rounding and + notation ====
+
+<pre>
+{{high-use| 49,500 | demo=A template that does not exist }}
+{{high-use| 49,500+ | demo=A template that does not exist }}
+</pre>
+{{high-use| 49,500 | demo=A template that does not exist }}
+{{high-use| 49,500+ | demo=A template that does not exist }}
+
+==== Editnotice form ====
+
+<pre>
+{{high-use| form=editnotice }}
+</pre>
+{{high-use| form=editnotice }}
+
+==== High risk ====
+
+<pre>
+{{high-use| demo=Yesno }}
+{{high-use| risk }}
+{{high-use| risk | Wikipedia talk:High-risk templates | all-pages = yes | info = This is a very large number! }}
+</pre>
+{{high-use| demo=Yesno }}
+{{high-use| risk }}
+{{high-use| risk | Wikipedia talk:High-risk templates | all-pages = yes | info = This is a very large number! }}
+
+== Technical details ==
+
+The [[/sandbox]] and [[/testcases]] links are the standard names for such subpages. If those pages are created then the green /doc box for the template will detect them and link to them in its heading. For instance see the top of this documentation.
+
+== Supporting templates and modules ==
+
+* {{tl|Ombox}} which uses {{m2|Message box|ombox}}
+* {{tl|Editnotice}} which uses {{m2|Message box|fmbox}}
+* {{m2|High-use|main}}
+* {{m2|Transclusion count|fetch}}
+
+== See also ==
+
+* {{tl|Used in system}} – For templates used in the Wikipedia user interface.
+* {{tl|Intricate template}}
+* {{tl|pp-template}} – The protection template that usually is put on high-risk templates.
+* [[Wikipedia:Template sandbox and test cases]]
+* [[Wikipedia:High-risk templates]]
+
+== Template counters ==
+
+* [[toollabs:templatecount/]] – Easy to use, returns current (real time) transclusion count for a template.
+* [[Wikipedia:Database reports/Templates transcluded on the most pages]] – Lists the 1000 most transcluded templates. Not updated since November 2018.
+*  <span class="plainlinks">[{{fullurl:Special:MostLinkedTemplates|limit=500}} Special:MostLinkedTemplates]</span> – Currently disabled for the English Wikipedia, but still runs for other Wikipedias so might be turned on again some day.
+* [[tools:~dispenser/cgi-bin/embeddedincount.py]] – Seems to lack human interface, probably meant for programs to call.
+* [[Special:PrefixIndex/Module:Transclusion_count/data/]] Template count data used by this template. Broken down by first letter of template and rounded to two or three significant figures. Updated weekly.
+
+<includeonly>{{sandbox other||
+<!-- Categories go below this line, please; interwikis go to Wikidata, thank you! -->
+[[Category:Documentation header templates]]
+}}</includeonly>
