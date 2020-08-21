@@ -487,7 +487,7 @@
 
 <!-- ***Populasyon*** -->
 | rowclass77 = mergedtoprow
-| label77 = Populasyon <div style="font-weight:normal;display:inline;">{{#if:{{{wikidata|qualifier|single|P1082|P585}}}|({{{wikidata|qualifier|single|P1082|P585}}})}}{{{population_footnotes|}}}</div>
+| label77 = Populasyon <div style="font-weight:normal;display:inline;">{{wikidata|qualifier|single|P1082|P585}}{{{population_footnotes|}}}</div>
 |  data77 = {{#if:{{{population|}}}
   | {{formatnum:{{{population}}}}}
   | {{#ifeq:{{{total_type}}}|&nbsp;
@@ -503,7 +503,7 @@
   |{{#ifeq:{{{total_type}}}|&nbsp;
      |
      |{{#if:{{{population_total|}}}{{{population_urban|}}}{{{population_rural|}}}{{{population_metro|}}}{{{population_blank1|}}}{{{population_blank2|}}}{{{population_est|}}}
-       |Populasyon <div style="font-weight:normal;display:inline;">{{#if:{{{wikidata|qualifier|single|P1082|P585}}}|({{{wikidata|qualifier|single|P1082|P585}}})}}{{{population_footnotes|}}}</div>
+       |Populasyon <div style="font-weight:normal;display:inline;">{{#if:{{{population_as_of|}}}|({{{population_as_of}}})}}{{{population_footnotes|}}}</div>
       }}
     }}
   }}
