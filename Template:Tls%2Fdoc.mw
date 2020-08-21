@@ -1,0 +1,33 @@
+{{Documentation subpage}}
+{{used in system|in [[MediaWiki:Newuserlogpagetext]]}}
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+{{high-use| 28099 }}
+{{tl|{{PAGENAME}}}} is a variant of {{Tl|Tl}} for templates which should be [[Wikipedia:Template substitution|substituted]] ''without'' any parameters. For substituted templates ''with'' parameters, try {{tl|Tlsx}}.
+
+== Usage ==
+ <nowiki>{{Tls|template name}}</nowiki>
+
+== Example ==
+{| class="wikitable"
+! Code
+! Result
+|-
+| {{Tlx|Tls|x4}}
+| {{Tls|x4}}
+|}
+
+== See also ==
+* {{lts|subst}}: {{tlp|subst|foo}} prints {{subst|foo}}, without linking.
+* {{lts|tlu}} for outside of the Template space, unsubstituted, monospace font
+* {{lts|tlsu}} for outside of the Template space, substituted, monospace font
+* [[:Category:Internal link templates]]
+
+{{Template-linking templates}}
+
+<includeonly>{{Sandbox other||
+
+<!-- ADD CATEGORIES BELOW THIS LINE, PLEASE: -->
+[[Category:Internal template-link templates]]
+[[Category:Typing-aid templates]]
+
+}}</includeonly>
