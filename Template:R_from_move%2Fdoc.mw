@@ -1,0 +1,81 @@
+{{Documentation subpage}}
+<!-- Categories go where indicated at the bottom of this page, please; interwikis go to Wikidata (see also: [[Wikipedia:Wikidata]]) -->
+{{High-risk| 1417983 |all-pages = yes}}
+{{Substitution|not|nor used to tag [[Wikipedia:Soft redirects|soft redirects]]}}
+{{Twinkle standard installation}}
+{{tsh|R page move|R move}}
+__NOTOC__
+=== Usage ===
+{{hatnote|Use this rcat template in '''any [[wp:namespace|namespace]]'''.}}
+* This redirect category ([[WP:RCAT|rcat]]) template populates {{Cat|Redirects from moves}}, which is used to track all page moves that, if a redirect had not been left behind, would result in the breakage of links, both internal [[WP:wikilink|wikilink]]s and external [[URL|internet website links]]. See [[WP:LINKROT]].
+* For [[WP:redirect pages|redirect]]s that have been left behind from page moves and have not yet been categorized, add this rcat in the following manner:
+<pre>
+#REDIRECT [[(target page name)]]
+ 
+{{Rcat shell|
+{{R from move}}
+}}
+</pre>
+: Template {{tl|Rcat shell}} is an alias for the ''Redirect category shell'' template, which may be used to add as many appropriate rcats as needed, usually from one to seven, along with their parameters, to a redirect. For more information see the documentation on its template page. This rcat may also tag a redirect individually:
+<pre>
+#REDIRECT [[(target page name)]]
+ 
+{{R from move}}
+</pre>
+: This is in accord with instructions found at [[Wikipedia:REDCAT]].
+* Use this rcat to tag any redirect in any namespace that has been left behind as the result of a [[WP:Moving pages|page move (rename)]]. This tagging has become automated; however, there are still many older redirects from moves that need to be manually tagged by this rcat.
+ 
+==== Aliases ====
+* <span class="plainlinks">[{{fullurl:Special:WhatLinksHere/Template:R_from_move|hidetrans=1&hidelinks=1&limit=500}} Also known as...]</span> – list of templates that redirect here and may also be used
+ 
+=== Printworthiness ===
+{{info|image=Stop hand nuvola.svg|Please do not alter the printworthy settings of this rcat without first notifying the '''[[WP:Version 1.0 Editorial Team|Version 1.0 Editorial Team]]''', who are responsible for any and all materials, including redirects, that go into a printed version of ''Wikipedia''.}}
+* In [[wp:mainspace|main-article namespace]], many redirects from moved pages are considered unprintworthy; however, there are many others that are printworthy, so there is no default sort for [[wp:printworthiness|printworthiness]]. In 2003, efforts were begun to support the [[Wikimedia Foundation]]'s goal of increasing access and availability of ''Wikipedia'' articles in {{diff|Wikipedia:Pushing to 1.0||1319195|printed versions}}. Some rcats automatically populate either {{Cat|Printworthy redirects}} or {{Cat|Unprintworthy redirects}} by default. Others, like this rcat, do not, and that means it is up to editors to choose which of those categories, ''Printworthy'' or ''Unprintworthy'', is appropriate and should be populated. The rcats that are used separately to populate those categories are:
+:* {{tlx|R printworthy}} and
+:* {{tlx|R unprintworthy}}
+: Please click on each one for more details and guidance.
+* Template {{tl|Redirect category shell}} will accept these rcats just like any other.
+:: '''Examples:'''
+<pre>
+{{Rcat shell|
+{{R from move}}
+{{R printworthy}}
+}}
+ 
+{{Rcat shell|
+{{R from move}}
+{{R unprintworthy}}
+}}
+</pre>
+: Either {{tl|Redirect category shell}} or its alias/shortcut, {{tl|Rcat shell}}, may be used.
+ 
+=== Error detection and correction ===
+Whenever page moves result in the inadvertent [[Help:talk page|talk page]] redirect that targets a different page than the talk page of the [[WP:subject page|subject-page]] redirect's target, then the talk page and the subject page will not be synchronized, and this template will also populate:
+* {{Cat|Unsynchronized talk page redirects}}
+Moved pages that are exceptions, for example, pages and subpages that redirect to talk pages to centralize discussions, can be added to the {{tl|R from move/except}} page.
+ 
+=== TemplateData ===
+ 
+<templatedata>
+{
+"params": {},
+"description": "Places this redirect in the category [[Category:Redirects from moves]]. It takes no parameters."
+}
+</templatedata>
+ 
+=== See also ===
+* {{tl|R from duplicated article}}
+* {{tl|R from merge}}
+* [[Wikipedia:WikiProject Redirect/Style guide|WikiProject Redirect/Style guide]]
+ 
+{{R template index}}
+ 
+<includeonly>{{Sandbox other||{{#ifeq:{{SUBPAGENAME}}|except||
+<!-- Categories go below this line, please; interwikis go to Wikidata, thank you! -->
+[[Category:Redirect templates|Move]]
+[[Category:Redirects from moves| ]]
+[[Category:Templates for redirects resulting from merges or moves|Move]]
+ 
+}}}}</includeonly> <noinclude>
+[[Category:Rcat template documentation pages|Move]]
+</noinclude>
