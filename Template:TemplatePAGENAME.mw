@@ -1,0 +1,1 @@
+{{#ifexist:{{#rel2abs:./doc}}|{{PAGENAME}}|{{BASEPAGENAME}}}}<noinclude>{{template doc}}</noinclude>
