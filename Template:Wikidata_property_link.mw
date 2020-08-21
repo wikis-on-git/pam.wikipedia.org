@@ -13,4 +13,6 @@
   }}
 | #default = {{#switch: {{uc:{{Str left|{{{1|}}}|1}}}}
   | P = [[d:Special:EntityPage/{{#if:1|{{{1|}}}}}|{{wikidata|label|{{#if:1|{{{1|}}}}}}} <small>({{#if:1|{{{1|}}}}})</small>]]
-  | [[d:Special:EntityPage/P{{#if:1|{{{1|}}}}}|{{wikidata|labe
+  | [[d:Special:EntityPage/P{{#if:1|{{{1|}}}}}|{{wikidata|label|P{{#if:1|{{{1|}}}}}}} <small>(P{{#if:1|{{{1|}}}}})</small>]]
+  }}
+}}</includeonly><noinclude>{{Documentation}}</noinclude>
