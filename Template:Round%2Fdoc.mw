@@ -1,0 +1,83 @@
+{{Documentation subpage}}{{template shortcut|rnd}}
+<!-- PLEASE ADD CATEGORIES AT THE BOTTOM OF THIS PAGE. -->
+{{high-use|263614}}
+{{lua|Module:Math}}
+
+==Usage==
+This template rounds parameter 1 by parameter 2 decimal places (goes the other way for negative rounding) and includes trailing zeros.
+* {{tlc|{{BASEPAGENAME}}|54.376|2}} &nbsp; &nbsp; gives {{{{BASEPAGENAME}}|54.376|2}}
+* {{tlc|{{BASEPAGENAME}}|54.376|-1}} &nbsp; gives {{{{BASEPAGENAME}}|54.376|-1}}
+* {{tlc|{{BASEPAGENAME}}|68.4273E12|-10}} gives {{{{BASEPAGENAME}}|68.4273E12|-10}}
+For example, rounding by 1 gives 1 decimal digit, rounding by&nbsp;0 gives integers, or rounding by&nbsp;-2 gives the amount in hundreds. [[Scientific notation]] is displayed for numbers greater than or equal to 1{{e|9}}, or less than 1{{e|−4}}.
+
+'''Examples:'''
+*{{tlc|{{BASEPAGENAME}}|2.0004|3}} gives {{{{BASEPAGENAME}}|2.0004|3}}
+**whereas <code><nowiki>{{#expr:2.0004 round 3}}</nowiki></code> gives {{#expr:2.0004 round 3}}
+*{{tlc|{{BASEPAGENAME}}|0.000020004|7}} gives {{{{BASEPAGENAME}}|0.000020004|7}}
+*{{tlc|{{BASEPAGENAME}}|0|8}} gives {{{{BASEPAGENAME}}|0|8}}
+*{{tlc|{{BASEPAGENAME}}|154268|-3}} gives {{{{BASEPAGENAME}}|154268|-3}}
+*{{tlc|{{BASEPAGENAME}}|154568|-3}} gives {{{{BASEPAGENAME}}|154568|-3}}
+*{{xpsoc|{{BASEPAGENAME}}|1200004|-1}}
+**whereas {{xpsoc|#expr:1200004round-1}}, even though  {{xpsoc|#expr:1300004round-1}} (see [[m:Help:Format produced by expr]]) 
+*{{xpsoc|{{BASEPAGENAME}}|1300004|-1}}
+*{{xpsoc|{{BASEPAGENAME}}|4.1e6|9}}
+*{{xpsoc|{{BASEPAGENAME}}|4.1e6|10}}
+*{{xpsoc|{{BASEPAGENAME}}|1542689271|-7}}
+*{{xpsoc|{{BASEPAGENAME}}|1542689271|2}}
+*{{xpsoc|{{BASEPAGENAME}}|7e9|-9}}
+*{{xpsoc|{{BASEPAGENAME}}|-123|1}}
+*{{xpsoc|{{BASEPAGENAME}}|-1200007|-2}}
+*{{xpsoc|{{BASEPAGENAME}}|-1234567899|-7}}
+As with #expr, the total number of significant digits is not more than 14:
+*{{xpsoc|{{BASEPAGENAME}}|1234567890.123456789|10}}
+*{{xpsoc|{{BASEPAGENAME}}|123456789.0123456789|10}}
+*{{xpsoc|{{BASEPAGENAME}}|.0001234567890123456789|20}}
+
+;The second parameter, precision, shoulld be an integer. Non-integer may give unexpected result.
+*{{xpsoc|{{BASEPAGENAME}}|1.234567}}
+*{{xpsoc|{{BASEPAGENAME}}|1.234567|2}}
+*{{xpsoc|{{BASEPAGENAME}}|1.234567|2.3}}
+*{{xpsoc|{{BASEPAGENAME}}|1.234567|2.7}}
+
+==Internal details==
+The markup-based version of Template:{{BASEPAGENAME}} uses three subtemplates:
+*{{tl|{{BASEPAGENAME}}/-}} — for trailing zeros
+*{{tl|{{BASEPAGENAME}}/e+}} — for scientific notation for numbers greater than or equal to 10<sup>9</sup> or less than or equal to −10<sup>9</sup>
+*{{tl|{{BASEPAGENAME}}/e−}} — for scientific notation for numbers greater than −10<sup>−4</sup> and less than 10<sup>−4</sup> but not equal to zero
+
+The [[Lua script|Lua]]-based version of {{tlc|{{BASEPAGENAME}}}} uses [[Module:Math]] and always has an expansion depth of 3. However, the markup-based version has an expansion depth of 9–15, which depends on the size of the numbers (integer results use depth 9, decimals use depth 12), where astronomical numbers can hit expansion depth of 15 levels, for {{tlc|{{BASEPAGENAME}}|56.44e33|-32}}&nbsp;→ 5.64&nbsp;× 10<sup>34</sup>.
+
+==TemplateData==
+{{TemplateDataHeader}}
+<templatedata>{
+"description": "Rounds (parameter 1) by (parameter 2) decimal places, and formats. Scientific notation is used for numbers greater than 1×10^9, or less than 1×10^−4.",
+"params": {
+  "1": {
+    "label": "number",
+    "description": "The number to be rounded",
+    "type": "number",
+    "required": true
+  },
+  "2": {
+    "label": "decimal places",
+    "description": "The number of decimal places, if negative the number is rounded so the last (parameter 2) digits are zero",
+    "type": "number",
+    "required": true
+  }
+}}</templatedata>
+
+==Maintenance categories==
+*{{clc|Pages with bad rounding precision}}
+
+==See also==
+*{{tl|rndfrac}}
+*{{tl|rndnear}}
+*{{tl|rndgaps}}
+*{{tl|rndcalc}}
+*{{tl|significant figures}}
+
+<includeonly>{{basepage subpage|<!--
+++++ PLEASE ADD CATEGORIES BELOW THIS LINE, THANK YOU. -->
+[[Category:Mathematical function templates]]
+[[Category:Templates that add a tracking category]]
+}}</includeonly>
