@@ -1,0 +1,4 @@
+PH<noinclude>
+{{documentation|content=
+This subtemplate is used by {{tl|PH wikidata}} to compute the ISO region from properties P300 and P988.  It is not intended to be used directly.
+}}</noinclude>
