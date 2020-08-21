@@ -1,5 +1,5 @@
 <noinclude>{{Tfm/dated|page=Infobox settlement2|otherpage=Infobox Australia state or territory|link=Wikipedia:Templates for discussion/Log/2020 August 14#Template:Infobox settlement2|type=sidebar|help=off|bigbox={{#invoke:Noinclude|noinclude|text=yes}}}}
-</noinclude><includeonly>{{main other|{{Infobox
+</noinclude><includeonly>{{Infobox
 | child = {{yesno|{{{embed|}}}}}
 | bodyclass = geography vcard
 | bodystyle = width:23em
