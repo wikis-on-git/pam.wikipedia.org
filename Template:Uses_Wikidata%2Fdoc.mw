@@ -1,0 +1,62 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{Lua|Module:Side box|Module:Uses Wikidata}}
+
+This template may be used in the documentation of another template or module, to indicate that that template or module uses a [[Wikidata]] property or properties, where available.
+__NOTOC__
+== Usage ==
+===Standard usage===
+<code><nowiki>{{</nowiki>Uses Wikidata|''P1''|''P2''|''P3''...<nowiki>}}</nowiki></code>
+
+Replace ''P1'', ''P2'', ''P3'', etc. with the actual property numbers – including the "P". As many or as few as necessary may be specified.
+===Section link===
+If the documentation has a section describing and listing the Wikidata properties used, then a [[Help:section link|section link]] may be specified instead:
+
+<code><nowiki>{{</nowiki>Uses Wikidata|section=''name of section''<nowiki>}}</nowiki></code>
+
+==Examples==
+For a single property (e.g. [[d:Property:P496]]):
+{{markup
+|<nowiki>{{Uses Wikidata|P496}}</nowiki>
+|{{Uses Wikidata|P496}}
+}}
+
+For multiple properties:
+{{markup
+|<nowiki>{{Uses Wikidata|P10|P20|P30}}</nowiki>
+|{{Uses Wikidata|P10|P20|P30}}
+}}
+
+As many properties as needed can be specified:
+{{markup
+|<nowiki>{{Uses Wikidata|1=P10|2=P20|3=P30|4=P40|5=P50|6=P101|7=P222}}</nowiki>
+|{{Uses Wikidata|1=P10|2=P20|3=P30|4=P40|5=P50|6=P101|7=P150}}
+}}
+
+If the properties are described in a section of the documentation (e.g. <code><nowiki>===Using Wikidata===</nowiki></code>):
+{{markup
+|<nowiki>{{Uses Wikidata|section=Using Wikidata}}</nowiki>
+|{{Uses Wikidata|section=Using Wikidata}}
+}}
+
+== Tracking categories ==
+The following categories are populated by this template:
+* {{clc|Templates using data from Wikidata}}
+* {{clc|Modules using data from Wikidata}}
+
+== Supporting templates and modules ==
+* {{tl|Sister project}}, implemented using {{ml|Side box|main}} via {{tl|Side box}}
+* {{ml|Uses Wikidata|usesProperty}}
+* {{tl|Template other}}
+* {{tl|Module other}}
+
+== See also ==
+* {{tl|Wikidata property}}
+* {{tl|Tracks Wikidata}}
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Wikidata templates]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates using data from Wikidata|*]]
+}}</includeonly>
