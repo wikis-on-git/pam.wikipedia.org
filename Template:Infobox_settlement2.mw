@@ -143,8 +143,10 @@
 |  data24 = {{#if:{{both|{{{pushpin_map_narrow|}}}|{{{pushpin_map|}}}}}||{{#if:{{{image_map|}}}
 |{{#invoke:InfoboxImage|InfoboxImage|image={{{image_map}}}|size={{{mapsize|}}}|sizedefault=250px|alt={{{map_alt|}}}|title={{{map_caption|Location of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}}}}}}{{#if:{{{map_caption|}}}|<div style="padding:0.3em 0 0 0;">{{{map_caption}}}</div>}}
 }}}}
-| rowclass25 = mergedrow
-|  data25 = {{#if:{{{image_map1|}}}|{{#invoke:InfoboxImage|InfoboxImage|image={{{image_map1}}}|size={{{mapsize1|}}}|sizedefault=250px|alt={{{map_alt1|}}}|title={{{map_caption1|Location of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}}}}}}{{#if:{{{map_caption1|}}}|<div style="padding:0.3em 0 0 0;">{{{map_caption1}}}</div>}} }}
+| rowclass25 = mergedtoprow
+|  data25 = {{#if:{{both|{{{pushpin_map_narrow|}}}|{{{pushpin_map|}}}}}||{{#if:{{{image_map1|}}}
+|{{#invoke:InfoboxImage|InfoboxImage|image={{{image_map1}}}|size={{{mapsize|}}}|sizedefault=250px|alt={{{map_alt|}}}|title={{{map_caption|Location of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}}}}}}{{#if:{{{map_caption|}}}|<div style="padding:0.3em 0 0 0;">{{{map_caption}}}</div>}}
+}}}}
 
 <!-- ***Pushpin Map*** -->
 | rowclass26 = mergedtoprow
