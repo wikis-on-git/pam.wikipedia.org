@@ -1,0 +1,49 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{sandbox other||{{not a sandbox}}}}
+{{High-use}}
+{{Lua|Module:String}}
+
+This template allows to differentiate between regular <code>Template:...</code> and <code>Template:.../sandbox</code> pages. It is typically used to ''prevent'' a /sandbox page being categorised with their main page.
+
+;Also: when numbered /sandbox1
+Any subpage <code>/sandbox''ANYTEXT''</code> is considered a <code>/sandbox</code>. So this includes <code>/sandbox''1''</code>, <code>/sandbox_2</code>.
+
+;Also: /doc
+A <code>/doc</code> subpage is also considered a <code>/sandbox</code>.
+
+== Usage ==
+This template can be used on template documentation pages to ensure that any given template sandbox or template documentation does not populate its main template's category(ies).
+
+This template has two unnamed parameters, {{para|1}} and {{para|2}}.  Near the bottom of a /doc page where the categories are usually placed, install this template as follows:
+<pre>
+{{Documentation subpage}}
+<!-- all /documentation code goes here -->
+<includeonly>{{sandbox other||
+<!-- categories the main template should be in, but not the /sandbox: -->
+[[Category:(first category)]]
+[[Category:(second category)]]
+
+}}</includeonly>
+</pre>
+
+* Usage of an empty first parameter (two pipes together, {{code|<nowiki>||</nowiki>}}, at the end of the first line of code above) essentially means {{para|1|(do nothing)}} and will not allow the sandbox page to populate the listed categories.
+* Note that the closing template braces ({{code|<nowiki>}}</nowiki>}}) are placed just before the &#60;/includeonly> tag.  This is the same as {{para|2|(category comment and categories)}}.  In "long hand" it may appear as follows:
+<pre>
+<includeonly>{{sandbox other|1=<!-- keep sandbox out of categories -->|2=
+<!-- Categories go below this line; interwikis go to Wikidata -->
+[[Category:(first category)]]
+[[Category:(second category)]]
+(more categories if needed)
+
+}}</includeonly>
+</pre>
+
+== See also ==
+{{Foo other see also}}
+{{Namespace and pagename-detecting templates}}
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Pagename manipulation templates]]
+[[Category:Template namespace templates]]
+}}</includeonly>
