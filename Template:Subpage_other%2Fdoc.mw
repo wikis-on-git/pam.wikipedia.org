@@ -1,0 +1,18 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+== Usage ==
+This template checks whether the current page is a subpage or not. A [[Wikipedia:Subpages|subpage]] is a page that has a slash: 
+:''<nowiki>[[Template:Parentpage/Subpage]]</nowiki>''
+
+Exception: in article space (mainspace) the slash is part of the title, and there are no subpages. Example, [[AC/DC]] is a parent page not a subpage.
+
+Usage example: both [[Template:Infobox element isotopes]] and [[Template:Infobox element isotopes/infotable]] use documentation page [[Template:Infobox element isotopes/doc]]. We only want to categorise the parent page. So in the /doc page we add:
+:<code><nowiki>{{Subpage other|<!-- do not categorise -->|[[Category:Chemical element infobox]]}}</nowiki></code>
+
+;Note: [[WP:Subpage]] uses an other definition than magic word <code><nowiki>{{SUBPAGENAME}}</nowiki></code>. This template uses the former definition (pagename has an after-slash part). 
+==See also==
+{{Foo other see also}}
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Pagename manipulation templates]]
+[[Category:Template namespac
