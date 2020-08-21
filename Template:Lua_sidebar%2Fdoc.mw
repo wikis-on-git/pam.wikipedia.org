@@ -1,0 +1,16 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+This template displays links which are generated based on a page's base page name. These are useful for templates which work using a specific Lua module. The parameter {{para|title}} can be used to add the title of the template and module, if needed; {{para|template}} and {{para|module}} do the same, but for only the template and only the module respectively.
+
+The first unnamed parameter or {{para|1}} can be used to add more information; {{tlx|Sidebar|2=child=yes}} can be used inside it for further customization. The default links use {{tl|Div col}} and the <kbd>plainlist</kbd> CSS class.
+
+== Usage ==
+
+* Without any extra links: <code><nowiki>{{Lua sidebar}}</nowiki></code>
+* With an extra unbulleted list: <code><nowiki>{{Lua sidebar|{{ubl|List item 1|List item 2}}}}</nowiki></code>
+* For [[Template:Infobox]] and [[Module:Infobox]]: <code><nowiki>{{Lua sidebar|title=Infobox}}</nowiki></code>
+* For [[Template:Coord]], on [[Module talk:Coordinates]]: <code><nowiki>{{Lua sidebar|template=Coord}}</nowiki></code>
+* For [[Module:Coordinates]], on [[Template talk:Coord]]: <code><nowiki>{{Lua sidebar|module=Coordinates}}</nowiki></code>
+
+<includeonly>{{sandbox other||
+<!-- Categories below
