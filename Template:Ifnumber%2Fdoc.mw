@@ -1,0 +1,24 @@
+{{Documentation subpage}}
+<!-- Place categories where indicated at the bottom of this page and interwikis at Wikidata -->
+
+=== Usage ===
+Returns 1 if the value is numeric and 0 otherwise.
+
+==Examples==
+<table class="wikitable">
+<tr><th>code</th><th>result</th></tr>
+{{template example row|1}}
+{{template example row|one}}
+{{template example row|<nowiki />}}
+{{template example row|1|a number|not a number}}
+{{template example row|one|a number|not a number}}
+{{template example row|1000|a number|not a number}}
+{{template example row|10.00|a number|not a number}}
+{{template example row|1,000|a number|not a number}}
+{{template example row|1,000.50|a number|not a number}}
+{{template example row|99 balloons|a number|not a number}}
+{{template example row|99.9999e10|a number|not a number}}
+<tr><td><code>
+<nowiki>{{Ifnumber|{{{val|6.B2C}}}|number|value "{{{val|6.B2C}}}" not numeric}}</nowiki>&nbsp;</code></td><td> {{Ifnumber|{{{val|6.B2C}}}|number|value "{{{val|6.B2C}}}" not numeric}}</td>
+</tr>
+</table>
