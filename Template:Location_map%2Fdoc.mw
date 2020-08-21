@@ -1,391 +1,764 @@
-{{template doc page}}
-<!-- DOCUMENTATION -->
-Creates a location map as a [[m:Help:composite images|composite image]] of an existing map in [[equirectangular projection]] with a marker and an optional label superimposed onto it.  Note:
-:* Using "caption=xxx" frames the map (empty "caption=" leaves map unframed);
-:* The marker/label is not checked for valid latitude/longitude & could land anywhere on the article page, even beyond the bottom;
-:* To suppress the marker, set marksize=1 pixel wide.
-:* For map "width=250" omit "px" or will stretch across page.
-:* To place multiple markers/labels, refer below to: ''[[#See also|See also]]''.
-:* To map along converging longitudes, refer to: ''[[Template:Location_map_skew]]''.
+{{Documentation subpage}}
+{{High-use| 599433 }}
+{{Lua|Module:Location map}}
+{{Uses TemplateStyles|Template:Location map/styles.css}}
+{{TOC right}}
+
+This [[:Category:Location map templates|template]] generates a location map as a [[m:Help:composite images|composite image]], consisting of a map and a location mark.  Optionally, a label and caption can be added.
 
 ==Usage==
- <nowiki>{{</nowiki>Location map
- |''location''
- |label      = ''label text''
- |label_size = map font size, per cent
- |alt        = [[WP:ALT|Alt text]] for image (defaults to generic description)
- |position   = left ''or'' right ''or'' top ''or'' bottom ''or'' none – 
-                position of the label relative to the mark, defaults to ''right''
- |background = ''color'', background color for the label, defaults to none 
- |lon_dir=W    longitude: W=west, E=east (default)
- |lat_dir=S    latitude: S=south, N=north (default)
- |lat_deg    = ''latitude'' degrees
- |lat_min    = ''latitude'' minutes
- |lat_sec    = ''latitude'' seconds
- |lon_deg    = ''longitude'' degrees
- |lon_min    = ''longitude'' minutes
- |lon_sec    = ''longitude'' seconds
- |lat        = ''latitude'' (decimal format; enter negative numbers for southern latitude)
- |long       = ''longitude'' (decimal format; enter negative numbers for western longitude)
- |mark       = ''marker image file name'', a red dot by default
- |marksize   = ''marker size'', default=8
- |border     = ''border color'' or ''none''
- |caption    = ''map caption''; for no caption enter "caption="; if the parameter is omitted then the caption will be "Marker text (location map name)"
- |float      = left ''or'' right ''or'' center ''or'' none
- |width      = ''map width'' (omit "px" or will stretch across page)
- |AlternativeMap = Alternative map file name (changes background map, border coordinates are determined based on the map name); this is only recommended for use in templates <nowiki>}}</nowiki>
+Map image files are not accessed directly, but by using an auxiliary map definition.  For example, if the first unnamed parameter supplied to this template is 'Japan', then this template uses the entry for Japan in [[Module:Location map/data/Japan]] if it exists, or {{tl|Location map Japan}} otherwise, one of which contains the data needed to generate the composite image.
 
-Parameter ''location'' refers to {Template:Location map ''location''} containing the name and coordinates of a map.
+;Please note:
+*Assigning <u>any</u> value to the parameter <code>caption</code> causes the map to be displayed as a thumbnail image.  If this parameter is not declared, the template will generate a default caption.
+*The coordinates are not checked.  If the coordinates specified fall outside the area covered by the map image, the location mark will not display inside the image; however, it may be displayed somewhere else on the page.
+*Do not use '''<code>px</code>''' when setting the map image size.  Using <code>width=200px</code> will usually cause a very large map to be displayed.  Use <code>width=200</code>.
+*To create a map with more than one location mark, use either {{tl|Location map+}} or {{tl|Location map many}}.
 
-== Available maps ==
+==Blank templates==
+{{Location map|USA
+|relief= 1
+|width= 320
+|lat= 44.6
+|long= -110.5
+|caption= Location of [[Yellowstone]] in the north-western United States of America
+}}
 
-List of templates Template:Location map location (without "Template:" prefix here):
-{{Special:Prefixindex/Template:Location_map_}}
-
-NOTE:  For more of this list, go to:
-[[Special:PrefixIndex/Template:Location_map_]]
-and select "Next page" in the Upper-Right corner.
-
-See also [[:Category:Location map templates]] (currently very incomplete, but useful for some subcategories).
-
-== Creating new maps ==
-
-#Find an appropriate blank map in [[equirectangular projection]].
-#Create a template named Template:Location map ''location'' (copy the content of any other map template into it and enter appropriate values).
-
-== Examples ==
-
-=== Map with the default caption (degrees/minutes) ===
-
-{| width=100%
-| width=60% valign=top | '''Pag (Croatia)'''
- <nowiki>{{Location map
- |Croatia | label=Pag
- |mark=<!--dot-->Green pog.svg
- |lat_deg=44|lat_min=26
- |lon_deg=15|lon_min=3
- |position=right
- |width=300
- |float=right
-}}</nowiki>
-| align="center" |
-{{Location map|Croatia|label=Pag
- |mark=<!--dot-->Green pog.svg
- |lat_deg=44|lat_min=26|lon_deg=15|lon_min=3|position=right
- |width=300|float=right}}
-|}
-
-=== Map with the default caption (coordinates decimal) ===
-
-{| width=100%
-| width=60% valign=top | '''Pag (Croatia)'''
- <nowiki>{{Location map | Croatia
- |label=Pag
- |lat= <!--decimal form--> 44.44
- |long=15.05
- |position=right
- |width= <!--smaller--> 200
- |float=right
-}}</nowiki>
-| width="280" align="center" | {{Location map | Croatia |label=Pag|lat=44.44|long=15.05
-|position=right|width=200|float=right}}
-|}
-
-
-=== Map with the default caption and alt text ===
-
-{| width=100%
-| width=60% valign=top | '''Pag (Croatia)'''
- <nowiki>{{Location map
- |Croatia | label=Pag
- |alt = Pag lies off the West coast of Croatia, in the Adriatic Sea
- |mark=<!--dot-->Green pog.svg
- |lat_deg=44|lat_min=26
- |lon_deg=15|lon_min=3
- |position=right
- |width=300
- |float=right
-}}</nowiki>
-| align="center" |
-{{Location map|Croatia|label=Pag|alt=Pag lies off the West coast of Croatia, in the Adriatic Sea
- |mark=<!--dot-->Green pog.svg
- |lat_deg=44|lat_min=26|lon_deg=15|lon_min=3|position=right
- |width=300|float=right}}
-|}
-
-
-=== Marker/Label outside of Map ===
-
-{| width=100%
-| width=60% valign=top | '''Pag (Croatia)'''
- <nowiki>{{Location map | Croatia
- |label=Pag
- |lat=44.44
- |long=<!--outside map-->11.05
- |position=right
- |width=200
- |float=right
-}}</nowiki>
-| width="280" align="center" | {{Location map |Croatia |label=Pag|lat=44.44|long=11.05
-|position=right|width=200|float=right}}
-|}
-
-=== Map with a custom caption and text background ===
-
-{| width=100%
-| width=60% valign=top | '''Imotski'''
- <nowiki>{{Location map
- |Croatia
- |label=Imotski
- |lat=43.44
- |long=17.21
- |position=right
- |width=300
- |float=right
- |background=#FFFFDD
- |caption=Imotski on the map of Croatia
- }}</nowiki>
-| width="300" align="center" | {{Location map|Croatia|label=Imotski|lat=43.44|long=17.21|position=right|width=300|float=right|background=#FFFFDD|caption=Imotski on the map of Croatia}}
-|}
-
-=== Map with enlarged marker and label ===
-
-{| width=100%
-| width=60% valign=top | '''Pag (Croatia)'''
- <nowiki>{{Location map
- |Croatia
- |label=Pag
- |label_size=200
- |lat=44.44
- |long=15.05
- |marksize=14
- |position=right
- |width=300
- |float=right
- |background=#FFFFDD
- |caption=Pag Island on the map of Croatia
- }}</nowiki>
-| width="300" align="center" | {{Location map|Croatia|label=Pag|label_size=200|lat=44.44|long=15.05|marksize=14|position=right|width=300|float=right|background=#FFFFDD|caption=Pag Island on the map of Croatia}}
-|}
-
-=== Map with no caption ===
-
-{| width=100%
-| width=60% valign=top | '''Brčko (Bosnia and Herzegovina)'''
- <nowiki>{{Location map
- |Bosnia
- |label=Brčko
- |position=left
- |width=150
- |lat=44.87
- |long=18.81
- |float=right
- |caption=
- }}</nowiki>
-| width="250" | {{Location map|Bosnia|label=Brčko|position=left|width=150|lat=44.87|long=18.81|float=right|caption=}}
-|}
-
-=== Western Hemisphere ===
-
-{| width=100%
-| width=60% valign=top | '''Lockerbie (Scotland)'''
- <nowiki>{{Location map
- |Scotland
- |label=Lockerbie  | marksize=9
- |mark=Blue_pog.svg
- |lat_dir=N | lat_deg=55 | lat_min=07
-            | lat_sec=16
- |lon_dir=W | lon_deg=03 | lon_min=21
-            | lon_sec=19
- |position=right
- |width=170
- |float=right
- |caption=Lockerbie in Scotland
-}}</nowiki>
-| width="200" align="center" | {{Location map|Scotland
-|label=Lockerbie | marksize=9 |mark=Blue_pog.svg
-|lat_dir=N|lat_deg =55|lat_min =7|lat_sec=16
-|lon_dir =W|lon_deg=3|lon_min=21|lon_sec=19
-|position=right|width=170|float=right|caption=Lockerbie in Scotland}}
-|}
-
-=== Country that crosses 180° meridian ===
-
-{| width=100%
-| width=60% valign=top | '''Uelen (Russia)'''
- <nowiki>{{Location map
- |Russia
- |label=Uelen  | marksize=7
- |mark=Locator_Dot.png
- |lat_deg=66|lat_min=09
- |lon_deg=169|lon_min=48|lon_dir=W
- |position=left
- |width=500
- |float=left
- |background=yellow
-}}</nowiki>
+{|
+!Decimal degrees
+!
+!Degrees, minutes, seconds
+!
+!With {{tl|Coord}}<small><br>(usually for infoboxes)</small>
+!
+![[Wikidata]]
 |-
-| align="center" |
-{{Location map | Russia 
-|label=Uelen | marksize=7 | mark=Locator_Dot.png
-|lat_deg=66|lat_min=09|lon_deg=169|lon_min=48|lon_dir=W
-|position=left|width=500|float=left|background=yellow}}
+|style=vertical-align:top|
+<pre style="overflow:auto; margin-right:5px">
+{{Location map|{{{1}}}
+|width      = 
+|float      = 
+|border     = 
+|caption    = 
+|alt        = 
+|relief     = 
+|AlternativeMap= 
+|overlay_image = 
+|label      = 
+|label_size = 
+|position   = 
+|background = 
+|mark       = 
+|marksize   = 
+|link       = 
+|lat_deg    = 
+|lon_deg    = 
+}}
+</pre>
+|style=width:20px|
+|style=vertical-align:top|
+<pre style="overflow:auto; margin-right:5px">
+{{Location map|{{{1}}}
+|width      = 
+|float      = 
+|border     = 
+|caption    = 
+|alt        = 
+|relief     = 
+|AlternativeMap= 
+|overlay_image = 
+|label      = 
+|label_size = 
+|position   = 
+|background = 
+|mark       = 
+|marksize   = 
+|link       = 
+|lat_deg    = 
+|lat_min    = 
+|lat_sec    = 
+|lat_dir    = 
+|lon_deg    = 
+|lon_min    = 
+|lon_sec    = 
+|lon_dir    = 
+}}
+</pre>
+|style=width:20px|
+|style=vertical-align:top|
+<pre style="overflow:auto; margin-right:5px">
+{{Location map|{{{1}}}
+|width      = 
+|float      = 
+|border     = 
+|caption    = 
+|alt        = 
+|relief     = 
+|AlternativeMap= 
+|overlay_image = 
+|label      = 
+|label_size = 
+|position   = 
+|background = 
+|mark       = 
+|marksize   = 
+|coordinates= 
+}}
+</pre>
+|style=width:20px|
+|style=vertical-align:top|
+<pre style="overflow:auto; margin-right:5px">
+{{Location map|{{{1}}}
+|width      = 
+|float      = 
+|border     = 
+|caption    = 
+|alt        = 
+|relief     = 
+|AlternativeMap= 
+|overlay_image = 
+|label      = 
+|label_size = 
+|position   = 
+|background = 
+|mark       = 
+|marksize   = 
+}}
+</pre>
 |}
 
-== All Parameters ==
-<table class="wikitable">
- <th>Parameter</th>
- <th>Default</th>
- <th>Description</th>
- <tr>
-  <th>{1}</th>
-  <td>&nbsp;</td>
-  <td>&nbsp;</td>
- </tr>
- <tr>
-  <th>AlternativeMap=</th>
-  <td>Location map {1}|image</td>
-  <td><nowiki>[[</nowiki>image: {}]]</td>
- </tr>
- <tr>
-  <th>background=</th>
-  <td>&nbsp;</td>
-  <td>background-color: {};</td>
- </tr>
- <tr>
-  <th>border=</th>
-  <td>#CCCCCC</td>
-  <td>border: {};</td>
- </tr>
- <tr>
-  <th>caption=</th>
-  <td>&nbsp;</td>
-  <td>&nbsp;</td>
- </tr>
- <tr>
-  <th>float=</th>
-  <td>&nbsp;</td>
-  <td>float: {}; clear: {};</td>
- </tr>
- <tr>
-  <th>label=</th>
-  <td>{PAGENAME}</td>
-  <td>&nbsp;</td>
- </tr>
- <tr>
-  <th>lat=</th>
-  <td>0</td>
-  <td>&nbsp;</td>
- </tr>
- <tr>
-  <th>lat_deg=</th>
-  <td>0</td>
-  <td>&nbsp;</td>
- </tr>
- <tr>
-  <th>lat_dir=</th>
-  <td>&nbsp;</td>
-  <td>&nbsp;</td>
- </tr>
- <tr>
-  <th>lat_min=</th>
-  <td>0</td>
-  <td>&nbsp;</td>
- </tr>
- <tr>
-  <th>lat_sec=</th>
-  <td>0</td>
-  <td>&nbsp;</td>
- </tr>
- <tr>
-  <th>long=</th>
-  <td>0</td>
-  <td>&nbsp;</td>
- </tr>
- <tr>
-  <th>lon_deg=</th>
-  <td>0</td>
-  <td>&nbsp;</td>
- </tr>
- <tr>
-  <th>lon_dir=</th>
-  <td>&nbsp;</td>
-  <td>&nbsp;</td>
- </tr>
- <tr>
-  <th>lon_min=</th>
-  <td>0</td>
-  <td>&nbsp;</td>
- </tr>
- <tr>
-  <th>lon_sec=</th>
-  <td>0</td>
-  <td>&nbsp;</td>
- </tr>
- <tr>
-  <th>mark=</th>
-  <td>Red pog.svg</td>
-  <td><nowiki>[[</nowiki>Image: {}]]</td>
- </tr>
- <tr>
-  <th>marksize=</th>
-  <td>8</td>
-  <td><nowiki>[[</nowiki>Image: {}px]]<br/>font-size: {}px;</td>
- </tr>
- <tr>
-  <th>position=</th>
-  <td>right</td>
-  <td>&nbsp;</td>
- </tr>
- <tr>
-  <th>width=</th>
-  <td>240</td>
-  <td>image: {}px<br/>width: ({}+2)px;</td>
- </tr>
-</table>
+==Parameters==
+{|class="wikitable" style="width:100%"
+!colspan=2 style=background-color:lightblue|map display parameters
+|-
+!parameter!!description
+|-
+|<code>{{{1}}}</code>
+|'''Required''' – use the name of the map as the first unnamed parameter; for example, specifying ''England'' will use the values for England in [[Module:Location map/data/England]], if it exists, or {{tld|Location map England}} otherwise.  See the [[#Examples|examples]] below.  Multiple maps can be shown by providing a list of map names separated by <kbd>#</kbd>.  For multiple maps, the first is shown by default, a reader can select the others with radio buttons.
+|-
+|<code>width</code>
+|Determines the width of the map in [[pixel]]s, overriding any default values; do not include <code>px</code>, for example: <code>width=300</code>, not <code>width=300px</code>.
+|-
+|<code>default_width</code>
+|Determines the default width of the map in pixels, intended for use by templates, e.g. place infoboxes; the default value is 240.  Do not include <code>px</code>.  This value will be multiplied by the <code>defaultscale</code> parameter specified in individual map templates, if it exists, in order to achieve an appropriate size for vertical maps.  For example, if <code>default_width=200</code> is given, a map of Thailand will be displayed with a width of 200x0.57 = 114 pixels (as specified in [[Module:Location map/data/Thailand]]).
+|-
+|<code>max_width</code>
+|The maximum size of the map in pixels, intended for use by templates, e.g. place infoboxes. Do not include <code>px</code>.
+|-
+|<code>float</code>
+|Specifies the position of the map on the page; valid values are <code>left</code>, <code>right</code>, <code>center</code> and <code>none</code>.  The default is <code>right</code>.
+|-
+|<code>border</code>
+|Specifies the colour of the 1px map border; the default is ''lightgrey'' (see [[web colors]]).  If set to <code>none</code>, no border will be generated.  This parameter is seldom used.
+|-
+|<code>caption</code>
+|The text of a caption to be displayed below the map; specifying a caption will cause the map to be displayed with a frame.  If <code>caption</code> is defined but is not assigned a value, the map will not be framed and no caption will be displayed.  If <code>caption</code> is not defined, the map will not be framed and a default caption will be generated.  The default caption is created from the <code>label</code> parameter (or the current page name if label not defined) and the <code>name</code> parameter from map definition template.  Multiple captions can be shown when separated by <kbd>##</kbd> (that's two).
+|-
+|<code>alt</code>
+|Alt text for map; used by [[screen reader]]s, see [[WP:ALT]].
+|-
+|<code>relief</code>
+|Any non-blank value (1, yes, etc.) will cause the template to display the map specified in the map definition template as <code>image1</code>, which is usually a [[Cartographic relief depiction|relief map]]; see the example at [[Template:Location map+/relief|Location map+/relief]].
+|-
+|<code>AlternativeMap</code>
+|Allows the use of an alternative map; the image must have the same edge coordinates as the location map template.  See the example at [[Template:Location map+/AlternativeMap|Location map+/AlternativeMap]].
+|-
+|<code>overlay_image</code>
+|Allows an overlay to be superimposed on the map; this parameter is seldom used.  See the example at [[Template:Location map+/overlay|Location map+/overlay]].
+|-
+!colspan=2 style=background-color:lightblue|label and mark parameters<br><small>if no coordinates are specified, the template will try to get them from the page's [[Wikidata]] item</small>
+|-
+!parameter!!description
+|-
+|<code>label</code>
+|The text of the label to display next to the identifying mark; a [[Wiki markup|wikilink]] can be used.  The default, if not specified is no label, just the marker.
+|-
+|<code>label_size</code>
+|The font size to use for the label, given as a percentage of the normal font size (<100 = smaller, >100 = larger); the default size is 90.  Do not include <code>%</code>, for example: <code>label_size=80</code>, not <code>label_size=80%</code>.  If set to 0, the label is only displayed when the user hovers over the mark.
+|-
+|<code>label_width</code>
+|The width to use for the label, given as an [[Em (typography)#CSS|em size]]; the default width is 6.  Do not include <code>em</code>, for example: <code>label_width=7</code>, not <code>label_width=7em</code>.
+|-
+|<code>position</code>
+|The position of the label relative to the identifying mark; valid values are <code>left</code>, <code>right</code>, <code>top</code>,<code>bottom</code> and <code>none</code>.  This defaults to either <code>left</code> or <code>right</code>, depending on the coordinates of the marker, and its position relative to the right border of the map image.  When <code>position=none</code>, any defined label will not be displayed with the mark, but it will be used to create the default caption.
+|-
+|<code>background</code>
+|The background colour to use for the label; see [[Web colors]].  The default is no background colour, which shows the map image behind the label.
+|-
+|<code>mark</code>
+|The name of an image file to display as the identifying mark; the default is [[:File:Red pog.svg|Red pog.svg]] ([[File:Red pog.svg|8px]]).  See examples at [[Commons:Location markers]] and [[Commons:Category:Map icons]].
+|-
+|<code>marksize</code>
+|The size of the identifying mark in [[pixel]]s; the default is 8.  Do not include <code>px</code>, for example: <code>marksize=10</code>, not <code>marksize=10px</code>.
+|-
+|<code>link</code>
+|Specifies a [[Wiki markup|wikilink]] which can be followed if the reader clicks on the identifying mark; do not include <code>[[]]</code> (double square brackets), for example: <code>link=Yellowstone National Park</code>, not <code>link=[&#91;Yellowstone National Park&#93;]</code>.
+|-
+|<code>coordinates</code>
+|The coordinates in {{tl|Coord}} format;  <small>whilst ''not'' recommended, if you want to waste time, you can also enter them in decimal degrees (e.g. <code>48.067°N 12.863°E</code>); you shouldn't need to, though.</small>
+|-
+|<code>lat_deg</code>
+|The degrees of [[latitude]]; this value can be specified using [[decimal degrees]], and when this format is used, minutes and seconds should not be specified.
+|-
+|<code>lat_min</code>
+|The minutes of latitude.
+|-
+|<code>lat_sec</code>
+|The seconds of latitude; not usually necessary.
+|-
+|<code>lat_dir</code>
+|N if north (default value), or S for south of the [[Equator]]; other values will be disregarded.  Not required if using signed decimal degrees, i.e. negative numbers for southern latitude.
+|-
+|<code>lon_deg</code>
+|The degrees of [[longitude]]; this value can be specified using [[decimal degrees]], and when this format is used, minutes and seconds should not be specified.
+|-
+|<code>lon_min</code>
+|The minutes of longitude.
+|-
+|<code>lon_sec</code>
+|The seconds of longitude; not usually necessary.
+|-
+|<code>lon_dir</code>
+|E for east (default value), or W for west of the [[IERS Reference Meridian|Prime Meridian]]; o_ther values will be disregarded.  Not required if using signed decimal degrees, i.e. negative numbers for western longitude.
+|}
 
-== See also ==
-* [[Template:Location map many]] - placing multiple markers/labels.
-* [[Template:Location map+]] - placing long list of markers/labels.
-* [[Template:Location map skew]] - mapping along converging longitudes (non-equirectangular).
-* [[commons:Category:Map pointer]]
+==Available maps==
+[[File:template location map.svg|thumb|360px|Location map templates as of 5 Nov 2014.  To find the best location map template covering a given place, open the SVG file in a web browser and use arrow keys and zoom function.  Hovering over a region shows its name and highlights it.  Clicking it loads its page.]]
+There are over 1,000 maps available.  To find other maps:
+*[[Special:PrefixIndex/Module:Location map/data/]] – checked before a map template is searched for, new maps should be created here rather than creating new templates
+*[[Template:Location map/List]] – some of the items listed here are redirects, and a few templates may not function as expected
+*[[:Category:Location map templates]] – templates sorted by category
+*[[Special:WhatLinksHere/Template:Location map/Info]] – a search that might help
+*[[Special:Prefixindex/Template:Location map]] – another search that might help
 
-<includeonly>
-{{DEFAULTSORT:{{PAGENAME}}}}
-[[Category:Graphic templates]]
-[[Category:Mapping templates]]
+==Creating new map definitions==
+See [[Template:Location map/Creating a new map definition|Creating a new map definition]].
 
-[[af:Sjabloon:Liggingkaart]]
-[[ar:قالب:خارطة مواقع]]
-[[be-x-old:Шаблён:Лякалізацыйная мапа]]
-[[bg:Шаблон:Карта позиция]]
-[[bs:Šablon:Lokacijska karta]]
-[[da:Skabelon:Kortpositioner]]
-[[de:Vorlage:Positionskarte]]
-[[dsb:Pśedłoga:LocMap]]
-[[en:Template:Location map/doc]]
-[[et:Mall:Asendikaart]]
-[[eo:Ŝablono:Situo sur mapo]]
-[[es:Plantilla:Location map]]
-[[simple:Template:Location map]]
-[[fa:الگو:روی نقشه]]
-[[fr:Modèle:Carte avec géolocalisation]]
-[[hsb:Předłoha:LocMap]]
-[[hr:Predložak:Lokacijska karta]]
-[[it:Template:Mappa di localizzazione/man]]
-[[ja:Template:Location map]]
-[[ka:თარგი:პოზრუკა]]
-[[nl:Sjabloon:Positiekaart]]
-[[no:Mal:Kartposisjon]]
-[[os:Шаблон:ПозКартæ]]
-[[pl:Szablon:Mapa lokalizacyjna]]
-[[pt:Predefinição:Mapa de localização]]
-[[ru:Шаблон:ПозКарта]]
-[[sq:Stampa:Harta e pozicionit]]
-[[sl:Predloga:Lokacijska karta]]
-[[fi:Malline:Location map]]
-[[sv:Mall:Kartposition]]
-[[tg:Шаблон:Ҷо рӯи харита]]
-[[uk:Шаблон:Карта розташування]]
-[[zh:Template:Location map]]
-</includeonly>
+==Examples==
+===Default width and float, no label, default caption (decimal coordinates)===
+Note: when a label is not specified, the default caption is "Page name (Map name)", so if this example was viewed on a page named ''Pag'', the default caption would be "Pag (Croatia)".  Likewise, on a page named ''Pag (town)'', the default caption would be "Pag (town) (Croatia)".
+{{Location map|Croatia
+|alt     = Pag is on an island.
+|lat_deg = 44.44
+|lon_deg = 15.05
+}}
+<pre style=width:40em>
+{{Location map|Croatia
+|alt     = Pag is on an island.
+|lat_deg = 44.44
+|lon_deg = 15.05
+}}
+</pre>
+{{clear}}
+
+===Map with the default caption (degrees/minutes)===
+Note: when a label is specified, the default caption is "Label text (Map name)", seen as "Pag (Croatia)" in this example.
+{{Location map|Croatia
+|width = 200
+|float = right
+|alt = Pag is on an island.
+|label = Pag
+|position = right
+|mark = Green pog.svg <!--green dot-->
+|lat_deg = 44 |lat_min = 26 <!-- default: lat_dir = N -->
+|lon_deg = 15 |lon_min = 3  <!-- default: lon_dir = E -->
+}}
+<pre style=width:40em>
+{{Location map|Croatia
+|width = 200
+|float = right
+|alt = Pag is on an island.
+|label = Pag
+|position = right
+|mark = Green pog.svg <!--green dot-->
+|lat_deg = 44 |lat_min = 26 <!-- default: lat_dir = N -->
+|lon_deg = 15 |lon_min = 3  <!-- default: lon_dir = E -->
+}}
+</pre>
+{{clear}}
+
+When {{para|position|none}}, the label text is not displayed next to the mark, but is still used in the default caption and default alt text.
+{{Location map|Croatia
+|width = 200
+|float = right
+|label = Pag
+|position = none
+|mark = Green pog.svg <!--green dot-->
+|lat_deg = 44 |lat_min = 26 <!-- default: lat_dir = N -->
+|lon_deg = 15 |lon_min = 3  <!-- default: lon_dir = E -->
+}}
+<pre style=width:40em>
+{{Location map|Croatia
+|width = 200
+|float = right
+|label = Pag
+|position = none
+|mark = Green pog.svg <!--green dot-->
+|lat_deg = 44 |lat_min = 26 <!-- default: lat_dir = N -->
+|lon_deg = 15 |lon_min = 3  <!-- default: lon_dir = E -->
+}}
+</pre>
+{{clear}}
+
+===Mark outside of map border, no caption===
+{{Location map|Croatia
+|width    = 200
+|float    = right
+|caption  =
+|alt      = Rimini in Italy (outside the map)
+|lat_deg  = 44.05
+|lon_deg  = 12.57 <!--outside maps left border at 13.1-->
+|outside  = 1 <!--we're aware the point is outside the map, so suppress the warning category-->
+|label    = Rimini
+|position = right
+}}
+<pre style=width:60em>
+{{Location map|Croatia
+|width    = 200
+|float    = right
+|caption  =
+|alt      = Rimini in Italy (outside the map)
+|lat_deg  = 44.05
+|lon_deg  = 12.57 <!--outside maps left border at 13.1-->
+|outside  = 1 <!--we're aware the point is outside the map, so suppress the warning category-->
+|label    = Rimini
+|position = right
+}}
+</pre>
+{{clear}}
+
+===Caption, label_size, background, mark, marksize===
+{{Location map|Italy
+|width      = 200
+|float      = right
+|caption    = Location of Rimini in Italy
+|alt        = Map of Italy with mark showing location of Rimini
+|label      = Rimini
+|label_size = 150 <!--150% of normal size-->
+|position   = bottom
+|background = orange
+|mark       = Orange_pog.svg
+|marksize   = 12 <!--size in pixels-->
+|lat_deg    = 44.05
+|lon_deg    = 12.578
+}}
+<pre style=width:40em>
+{{Location map|Italy
+|width      = 200
+|float      = right
+|caption    = Location of Rimini in Italy
+|alt        = Map of Italy with mark showing location of Rimini
+|label      = Rimini
+|label_size = 150 <!--150% of normal size-->
+|position   = bottom
+|background = orange
+|mark       = Orange_pog.svg
+|marksize   = 12 <!--size in pixels-->
+|lat_deg    = 44.05
+|lon_deg    = 12.57
+}}
+</pre>
+{{clear}}
+
+{{anchor|Using Alternative Map}}<!--former section name for links from other pages-->
+
+===AlternativeMap parameter===
+{{Location map|Italy
+|AlternativeMap = Italy location map.svg
+|width   = 200
+|float   = right
+|caption = Location of Rome in Italy
+|alt     = Map of Italy with mark showing location of Rome
+|label   = Rome
+|lat_deg = 41.9
+|lon_deg = 12.5
+}}
+<pre style=width:40em>
+{{Location map|Italy
+|AlternativeMap = Italy location map.svg
+|width   = 200
+|float   = right
+|caption = Location of Rome in Italy
+|alt     = Map of Italy with mark showing location of Rome
+|label   = Rome
+|lat_deg = 41.9
+|lon_deg = 12.5
+}}
+</pre>
+{{clear}}
+
+{{anchor|Relief}}<!--former section name for links from other pages-->
+
+===Relief parameter===
+Also demonstrates automatic positioning of label to the left, due to far right position of mark.
+{{Location map|Nepal
+|relief = yes
+|caption = Location of Biratnagar Airport in Nepal
+|alt = Biratnagar Airport is located in southeastern Nepal
+|label = Biratnagar
+|mark = Airplane silhouette.svg
+|marksize = 10
+|lat_deg = 26 |lat_min = 28 |lat_sec = 53 |lat_dir = N
+|lon_deg = 87 |lon_min = 15 |lon_sec = 50 |lon_dir = E
+}}
+<pre style=width:40em>
+{{Location map|Nepal
+|relief = yes
+|caption = Location of Biratnagar Airport in Nepal
+|alt = Biratnagar Airport is located in southeastern Nepal
+|label = Biratnagar
+|mark = Airplane silhouette.svg
+|marksize = 10
+|lat_deg = 26 |lat_min = 28 |lat_sec = 53 |lat_dir = N
+|lon_deg = 87 |lon_min = 15 |lon_sec = 50 |lon_dir = E
+}}
+</pre>
+{{clear}}
+
+{{Location map|Nepal
+|relief = 
+|caption = Location of Biratnagar Airport in Nepal
+|alt = Biratnagar Airport is located in southeastern Nepal
+|label = Biratnagar
+|mark = Airplane silhouette.svg
+|marksize = 10
+|lat_deg = 26 |lat_min = 28 |lat_sec = 53 |lat_dir = N
+|lon_deg = 87 |lon_min = 15 |lon_sec = 50 |lon_dir = E
+}}
+<pre style=width:40em>
+{{Location map|Nepal
+|relief = 
+|caption = Location of Biratnagar Airport in Nepal
+|alt = Biratnagar Airport is located in southeastern Nepal
+|label = Biratnagar
+|mark = Airplane silhouette.svg
+|marksize = 10
+|lat_deg = 26 |lat_min = 28 |lat_sec = 53 |lat_dir = N
+|lon_deg = 87 |lon_min = 15 |lon_sec = 50 |lon_dir = E
+}}
+</pre>
+{{clear}}
+
+{{anchor|Alternative style of map}}<!--former section name for links from other pages-->
+
+===User selection of multiple maps===
+{{Location map|UK Scotland#UK
+|relief = 1
+|width = 180
+|float = right
+|caption = Lockerbie in Scotland, UK
+|alt = Lockerbie is in southern Scotland.
+|label = Lockerbie
+|mark = Blue_pog.svg
+|marksize = 9
+|lat_deg = 55 |lat_min = 07 |lat_sec = 16 |lat_dir = N
+|lon_deg = 03 |lon_min = 21 |lon_sec = 19 |lon_dir = W
+}}
+<pre style=width:40em>
+{{Location map|UK Scotland#UK
+|relief = 1
+|width = 180
+|float = right
+|caption = Lockerbie in Scotland, UK
+|alt = Lockerbie is in southern Scotland.
+|label = Lockerbie
+|mark = Blue_pog.svg
+|marksize = 9
+|lat_deg = 55 |lat_min = 07 |lat_sec = 16 |lat_dir = N
+|lon_deg = 03 |lon_min = 21 |lon_sec = 19 |lon_dir = W
+}}
+</pre>
+
+===Map that crosses 180° meridian===
+{{Category see also|Location map templates crossing the 180th meridian}}
+
+[[Module:Location map/data/Russia Chukotka Autonomous Okrug]] is an example of a map that crosses the [[180th meridian]]. To the west of 180°, in the [[Eastern Hemisphere]], is [[Pevek]] at 170°17′E [[longitude]]. To the east of 180°, in the [[Western Hemisphere]], is [[Uelen]] at 169°48′W longitude.
+
+{{Location map
+| Russia Chukotka Autonomous Okrug
+| float       = right
+| width       = 250
+| caption     = [[Chukotka Autonomous Okrug]]
+| label       = Pevek
+| position    = bottom
+| background  = lightgreen
+| mark        = Locator_Dot.png
+| marksize    = 7
+| coordinates = {{coord|69|42|N|170|17|E}}
+}}
+<pre style="width: 30em">
+{{Location map
+| Russia Chukotka Autonomous Okrug
+| float       = right
+| width       = 250
+| caption     = [[Chukotka Autonomous Okrug]]
+| label       = Pevek
+| position    = bottom
+| background  = lightgreen
+| mark        = Locator_Dot.png
+| marksize    = 7
+| coordinates = {{coord|69|42|N|170|17|E}}
+}}
+</pre>
+{{clear}}
+
+{{Location map
+| Russia Chukotka Autonomous Okrug
+| float       = right
+| width       = 250
+| caption     = [[Chukotka Autonomous Okrug]]
+| label       = Uelen
+| position    = bottom
+| background  = lightgreen
+| mark        = Locator_Dot.png
+| marksize    = 7
+| coordinates = {{coord|66|09|N|169|48|W}}
+}}
+<pre style="width: 30em">
+{{Location map
+| Russia Chukotka Autonomous Okrug
+| float       = right
+| width       = 250
+| caption     = [[Chukotka Autonomous Okrug]]
+| label       = Uelen
+| position    = bottom
+| background  = lightgreen
+| mark        = Locator_Dot.png
+| marksize    = 7
+| coordinates = {{coord|66|09|N|169|48|W}}
+}}
+</pre>
+{{clear}}
+
+==Template data==
+{{Collapse top|[[Wikipedia:TemplateData|TemplateData]] documentation used by [[Wikipedia:VisualEditor|VisualEditor]] and other tools}}
+{{TemplateData header|noheader=1}}
+<templatedata>
+{
+	"description": "This template places a location mark on a map.",
+	"params": {
+		"1": {
+			"label": "Map name(s)",
+			"type": "string",
+			"required": true,
+			"description": "The name of the map to be used; multiple maps can be provided as a list separated by #"
+		},
+		"width": {
+			"label": "Map width",
+			"type": "number",
+			"description": "Determines the width of the map in pixels, overriding any default values; do not include \"px\", for example: \"300\", not \"300px\"."
+		},
+		"default_width": {
+			"label": "Default width",
+			"type": "number",
+			"description": "Determines the default width of the map in pixels, intended for use by templates such as infoboxes; the default value is 240.  Do not include \"px\".  This value will be multiplied by the defaultscale parameter specified in individual map templates, if it exists, in order to achieve an appropriate size for vertical maps."
+		},
+		"float": {
+			"label": "Position",
+			"type": "string",
+			"description": "Specifies the position of the map on the page; valid values are left, right, center and none.  The default is right."
+		},
+		"border": {
+			"label": "Border color",
+			"type": "string",
+			"description": "Specifies the color of the map border; if set to none, no border will be generated."
+		},
+		"caption": {
+			"label": "Map caption",
+			"type": "string",
+			"description": "The text of a caption to be displayed below the map; if caption is defined, but is not assigned a value, the map will not be framed, and no caption will be displayed.  If caption is not defined, the map will not be framed and a default caption will be generated."
+		},
+		"alt": {
+			"label": "Alt text",
+			"type": "string",
+			"description": "Alt text for map; used by screen readers."
+		},
+		"relief": {
+			"label": "Alternative map from template",
+			"type": "string",
+			"description": "Any non-blank value (1, yes, etc.) will cause the template to display the map specified in the map definition template as image1, which is usually a relief map."
+		},
+		"AlternativeMap": {
+			"label": "Alternative map not from template",
+			"type": "string",
+			"description": "Allows the use of an alternative map; the image must have the same edge coordinates as the map template."
+		},
+		"overlay_image": {
+			"label": "Overlay image",
+			"type": "string",
+			"description": "Allows an overlay to be superimposed on the map; this parameter is seldom used."
+		},
+		"label": {
+			"label": "Marker label",
+			"type": "string",
+			"description": "The text of the label to display next to the mark; a wikilink can be used."
+		},
+		"label_size": {
+			"label": "Label size",
+			"type": "number",
+			"description": "The font size to use for the label, given as a percentage of the normal font size; do not include \"%\"."
+		},
+		"label_width": {
+			"label": "Label width",
+			"type": "number",
+			"description": "The width to use for the label, given as an em size; do not include \"em\"."
+		},
+		"position": {
+			"label": "Label position",
+			"type": "string",
+			"description": "The position of the label relative to the mark; valid values are left, right, top, bottom and none.  This defaults to either left or right, depending on the coordinates of the marker, and its position relative to the right border of the map image.  When position=none, any defined label will not be displayed with the mark, but it will be used to create the default caption."
+		},
+		"background": {
+			"label": "Label background",
+			"type": "string",
+			"description": "The background color to use for the label."
+		},
+		"mark": {
+			"label": "Marker image",
+			"type": "string",
+			"description": "The name of an image to display as the marker."
+		},
+		"marksize": {
+			"label": "Marker size",
+			"type": "number",
+			"description": "The size of the mark in pixels; do not include \"px\"."
+		},
+		"link": {
+			"label": "Marker link",
+			"type": "string",
+			"description": "Specifies a wikilink which will be followed if the reader clicks on the mark."
+		},
+		"lat_deg": {
+			"label": "Latitude degrees",
+			"type": "number",
+			"required": true,
+			"description": "The degrees of latitude; this value can be specified using decimal degrees.  When this format is used, minutes and seconds should not be specified."
+		},
+		"lat_min": {
+			"label": "Latitude minutes",
+			"type": "number",
+			"description": "The minutes of latitude."
+		},
+		"lat_sec": {
+			"label": "Latitude seconds",
+			"type": "number",
+			"description": "The seconds of latitude."
+		},
+		"lat_dir": {
+			"label": "Latitude direction",
+			"type": "string",
+			"description": "N if north or S for south of the Equator; not required if using signed decimal degrees."
+		},
+		"lon_deg": {
+			"label": "Longitude degrees",
+			"type": "number",
+			"required": true,
+			"description": "The degrees of longitude; this value can be specified using decimal degrees.  When this format is used, minutes and seconds should not be specified."
+		},
+		"lon_min": {
+			"label": "Longitude minutes",
+			"type": "number",
+			"description": "The minutes of longitude."
+		},
+		"lon_sec": {
+			"label": "Longitude seconds",
+			"type": "number",
+			"description": "The seconds of longitude."
+		},
+		"lon_dir": {
+			"label": "Longitude direction",
+			"type": "string",
+			"description": "E for east or W for west of the Prime Meridian; not required if using signed decimal degrees."
+		},
+		"coordinates": {
+			"label": "Coordinates",
+			"description": "Coordinates, usually in {{Coord}} format; however, they can also be typed out in decimal degrees (with no spaces between ° and N/S/E/W).",
+			"example": "{{Coord|48.067|12.863}}",
+			"type": "string"
+		}
+	},
+	"paramOrder": [
+		"1",
+		"width",
+		"default_width",
+		"float",
+		"border",
+		"caption",
+		"alt",
+		"relief",
+		"AlternativeMap",
+		"overlay_image",
+		"label",
+		"label_size",
+		"label_width",
+		"position",
+		"background",
+		"mark",
+		"marksize",
+		"link",
+		"coordinates",
+		"lat_deg",
+		"lat_min",
+		"lat_sec",
+		"lat_dir",
+		"lon_deg",
+		"lon_min",
+		"lon_sec",
+		"lon_dir"
+	]
+}
+</templatedata>
+{{Collapse bottom}}
+
+
+==See also==
+{{Commons|Location markers}}
+{{Commons category|Map pointers}}
+* [[Wikipedia:Maps for Wikipedia]], a list of mapping tools available on Wikipedia
+* [[Template:Location map/Info]]
+
+;For similar examples, see the documentation at [[Template:Location map+]], as well as:
+*[[Template:Location map+/relief]], an example using the ''relief'' parameter
+*[[Template:Location map+/AlternativeMap]], an example using the ''AlternativeMap'' parameter
+*[[Template:Location map+/overlay]], an example using the ''overlay_image'' parameter
+
+;Location map templates
+*[[Template:Location map many]], to display up to nine (9) markers and labels
+*[[Template:Location map+]], to display unlimited number of markers and labels
+
+;Other templates
+*[[Template:Annotated image]], allows text notes to overlap image, allows cropping
+*[[Template:Overlay]] – places up to thirty (30) marker images of various chooseable kinds over a base image with optional grid and legend
+*[[Template:Superimpose]], supports simple layer superimposition.
+*[[Template:Superimpose2]], to place up to fifty (50) image layers over one another
+
+;Infoboxes incorporating Location map – any country or region
+{{Location map/doc/See also infobox templates}}
+
+;Infoboxes incorporating Location map – specific countries or regions
+{{Collapsible list|framestyle=border 1px|titlestyle=text-align:left; background-color:lightgrey|
+*[[Template:Infobox Australian place]]
+*[[Template:Infobox Belgium Municipality]]
+*[[Template:Infobox European Parliament constituency]]
+*[[Template:Infobox frazione]] (Italy)
+*[[Template:Infobox French commune]]
+*[[Template:Infobox German location]]
+*[[Template:Infobox Greek Dimos]]
+*[[Template:Infobox Israel municipality]]
+*[[Template:Infobox Israel village]]
+*[[Template:Infobox Italian comune]]
+*[[Template:Infobox London station]]
+*[[Template:Infobox NRHP]] (USA)
+*[[Template:Infobox Pennsylvania historic site]] (USA)
+*[[Template:Infobox Site of Special Scientific Interest]] (UK)
+*[[Template:Infobox Tibetan Buddhist monastery]]
+*[[Template:Infobox UK place]]
+*[[Template:Infobox UK postcode area]]
+*[[Template:Infobox Venezuelan municipality]]
+}}
+
+<includeonly>{{Sandbox other|
+| <!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Location map templates| ]]
+[[Category:Map formatting and function templates]]
+}}</includeonly>
