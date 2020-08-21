@@ -1,0 +1,187 @@
+<includeonly>{{#if:{{#property:P988}}
+
+| <ref name="LWUA-PopulationData">
+   {{cite web
+    | title = Province of {{#switch: {{#invoke:String|sub|{{#property:P988}}|1|4}}
+     | 1401     = Abra
+     | 1602     = Agusan del Norte
+     | 1603     = Agusan del Sur
+     | 0604     = Aklan
+     | 0505     = Albay
+     | 0606     = Antique
+     | 1481     = Apayao
+     | 0377     = Aurora
+     | 1507     = Basilan
+     | 0308     = Bataan
+     | 0209     = Batanes
+     | 0410     = Batangas
+     | 1411     = Benguet
+     | 0878     = Biliran
+     | 0712     = Bohol
+     | 1013     = Bukidnon
+     | 0314     = Bulacan
+     | 0215     = Cagayan
+     | 0516     = Camarines Norte
+     | 0517     = Camarines Sur
+     | 1018     = Camiguin
+     | 0619     = Capiz
+     | 0520     = Catanduanes
+     | 0421     = Cavite
+     | 0722     = Cebu
+     | 1182     = Compostela Valley
+     | 1123     = Davao del Norte
+     | 1124     = Davao del Sur
+     | 1186     = Davao del Sur <!-- LGUs of Davao Occidental (DOC) are currently empty, use Davao del Sur [DAS] instead) -->
+     | 1125     = Davao Oriental
+     | 1685     = Dinagat Islands
+     | 0826     = Eastern Samar
+     | 0679     = Guimaras
+     | 1427     = Ifugao
+     | 0128     = Ilocos Norte
+     | 0129     = Ilocos Sur
+     | 0630     = Iloilo
+     | 0231     = Isabela
+     | 1432     = Kalinga
+     | 0133     = La Union
+     | 0434     = Laguna
+     | 1035     = Lanao del Norte
+     | 1536     = Lanao del Sur
+     | 0837     = Leyte
+     | 1538     = Maguindanao
+     | 1740     = Marinduque
+     | 0541     = Masbate
+     | 1339     = Metro Manila, 1st (Not a Province)
+     | 1374     = Metro Manila, 2nd (Not a Province)
+     | 1375     = Metro Manila, 3rd (Not a Province)
+     | 1376     = Metro Manila, 4th (Not a Province)
+     | 1042     = Misamis Occidental
+     | 1043     = Misamis Oriental
+     | 1444     = Mountain Province
+     | 1845     = Negros Occidental
+     | 1846     = Negros Oriental
+     | 1247     = North Cotabato
+     | 0848     = Northern Samar
+     | 0349     = Nueva Ecija
+     | 0250     = Nueva Vizcaya
+     | 1751     = Occidental Mindoro
+     | 1752     = Oriental Mindoro
+     | 1753     = Palawan
+     | 0354     = Pampanga
+     | 0155     = Pangasinan
+     | 0456     = Quezon
+     | 0257     = Quirino
+     | 0458     = Rizal
+     | 1759     = Romblon
+     | 1280     = Sarangani
+     | 0761     = Siquijor
+     | 0562     = Sorsogon
+     | 1263     = South Cotabato
+     | 0864     = Southern Leyte
+     | 1265     = Sultan Kudarat
+     | 1566     = Sulu
+     | 1667     = Surigao del Norte
+     | 1668     = Surigao del Sur
+     | 0369     = Tarlac
+     | 1570     = Tawi{{nbhyph}}tawi
+     | 0860     = Samar (Western Samar)
+     | 0371     = Zambales
+     | 0972     = Zamboanga del Norte
+     | 0973     = Zamboanga del Sur
+     | 0983     = Zamboanga Sibugay
+     |          =
+    }}
+    | url   = http://122.54.214.222/population/MunPop.asp?prov={{#switch: {{#invoke:String|sub|{{#property:P988}}|1|4}}
+     | 1401     = ABR&province=Abra <!-- Abra -->
+     | 1602     = GUN&province=Agusan%20del%20Norte <!-- Agusan del Norte -->
+     | 1603     = GUS&province=Agusan%20del%20Sur <!-- Agusan del Sur -->
+     | 0604     = AKL&province=Aklan <!-- Aklan -->
+     | 0505     = ALB&province=Albay <!-- Albay -->
+     | 0606     = ANT&province=Antique <!-- Antique -->
+     | 1481     = APA&province=Apayao <!-- Apayao -->
+     | 0377     = AUR&province=Aurora <!-- Aurora -->
+     | 1507     = BAL&province=Basilan <!-- Basilan -->
+     | 0308     = BAT&province=Bataan <!-- Bataan -->
+     | 0209     = BTN&province=Batanes <!-- Batanes -->
+     | 0410     = BAS&province=Batangas <!-- Batangas -->
+     | 1411     = BEN&province=Benguet <!-- Benguet -->
+     | 0878     = BIL&province=Biliran <!-- Biliran -->
+     | 0712     = BOL&province=Bohol <!-- Bohol -->
+     | 1013     = BUK&province=Bukidnon <!-- Bukidnon -->
+     | 0314     = BUL&province=Bulacan <!-- Bulacan -->
+     | 0215     = CAG&province=Cagayan <!-- Cagayan -->
+     | 0516     = CAN&province=Camarines%20Norte <!-- Camarines Norte -->
+     | 0517     = CAS&province=Camarines%20Sur <!-- Camarines Sur -->
+     | 1018     = CAM&province=Camiguin <!-- Camiguin -->
+     | 0619     = CAP&province=Capiz <!-- Capiz -->
+     | 0520     = CAT&province=Catanduanes <!-- Catanduanes -->
+     | 0421     = CAV&province=Cavite <!-- Cavite -->
+     | 0722     = CEB&province=Cebu <!-- Cebu -->
+     | 1182     = COM&province=Compostela%20Valley <!-- Compostela Valley -->
+     | 1123     = DAN&province=Davao%20del%20Norte <!-- Davao del Norte -->
+     | 1124     = DAS&province=Davao%20del%20Sur <!-- Davao del Sur -->
+     | 1186     = DAS&province=Davao%20del%20Sur <!-- Davao Occidental (DOC); currently empty, use Davao del Sur [DAS] instead) -->
+     | 1125     = DAO&province=Davao%20Oriental <!-- Davao Oriental -->
+     | 1685     = DIN&province=Dinagat%20Islands <!-- Dinagat Islands -->
+     | 0826     = EAS&province=Eastern%20Samar <!-- Eastern Samar -->
+     | 0679     = GUI&province=Guimaras <!-- Guimaras -->
+     | 1427     = IFU&province=Ifugao <!-- Ifugao -->
+     | 0128     = ILN&province=Ilocos%20Norte <!-- Ilocos Norte -->
+     | 0129     = ILS&province=Ilocos%20Sur <!-- Ilocos Sur -->
+     | 0630     = ILO&province=Iloilo <!-- Iloilo -->
+     | 0231     = ISA&province=Isabela <!-- Isabela -->
+     | 1432     = KAL&province=Kalinga <!-- Kalinga -->
+     | 0133     = LAU&province=La%20Union <!-- La Union -->
+     | 0434     = LAG&province=Laguna <!-- Laguna -->
+     | 1035     = LAN&province=Lanao%20del%20Norte <!-- Lanao del Norte -->
+     | 1536     = LAS&province=Lanao%20del%20Sur <!-- Lanao del Sur -->
+     | 0837     = LEY&province=Leyte <!-- Leyte -->
+     | 1538     = MAG&province=Maguindanao <!-- Maguindanao -->
+     | 1740     = MAR&province=Marinduque <!-- Marinduque -->
+     | 0541     = MAS&province=Masbate <!-- Masbate -->
+     | 1339     = NC1&province=Metro%20Manila,%201st <!-- NCR, FIRST DISTRICT (Not a Province) -->
+     | 1374     = NC2&province=Metro%20Manila,%202nd <!-- NCR, SECOND DISTRICT (Not a Province) -->
+     | 1375     = NC3&province=Metro%20Manila,%203rd <!-- NCR, THIRD DISTRICT (Not a Province) -->
+     | 1376     = NC4&province=Metro%20Manila,%204th <!-- NCR, FOURTH DISTRICT (Not a Province) -->
+     | 1042     = MOC&province=Misamis%20Occidental <!-- Misamis Occidental -->
+     | 1043     = MOR&province=Misamis%20Oriental <!-- Misamis Oriental -->
+     | 1444     = MTP&province=Mountain%20Province <!-- Mountain Province -->
+     | 1845     = NEC&province=Negros%20Occidental <!-- Negros Occidental -->
+     | 1846     = NER&province=Negros%20Oriental <!-- Negros Oriental -->
+     | 1247     = NOC&province=North%20Cotabato <!-- North Cotabato -->
+     | 0848     = NOS&province=Northern%20Samar <!-- Northern Samar -->
+     | 0349     = NUE&province=Nueva%20Ecija <!-- Nueva Ecija -->
+     | 0250     = NUV&province=Nueva%20Vizcaya <!-- Nueva Vizcaya -->
+     | 1751     = OCM&province=Occidental%20Mindoro <!-- Occidental Mindoro -->
+     | 1752     = ORM&province=Oriental%20Mindoro <!-- Oriental Mindoro -->
+     | 1753     = PAL&province=Palawan <!-- Palawan -->
+     | 0354     = PAM&province=Pampanga <!-- Pampanga -->
+     | 0155     = PAN&province=Pangasinan <!-- Pangasinan -->
+     | 0456     = QUE&province=Quezon <!-- Quezon -->
+     | 0257     = QUI&province=Quirino <!-- Quirino -->
+     | 0458     = RIZ&province=Rizal <!-- Rizal -->
+     | 1759     = ROM&province=Romblon <!-- Romblon -->
+     | 1280     = SAR&province=Sarangani <!-- Sarangani -->
+     | 0761     = SIQ&province=Siquijor <!-- Siquijor -->
+     | 0562     = SOR&province=Sorsogon <!-- Sorsogon -->
+     | 1263     = SOC&province=South%20Cotabato <!-- South Cotabato -->
+     | 0864     = SOL&province=Southern%20Leyte <!-- Southern Leyte -->
+     | 1265     = SUK&province=Sultan%20Kudarat <!-- Sultan Kudarat -->
+     | 1566     = SUL&province=Sulu <!-- Sulu -->
+     | 1667     = SUN&province=Surigao%20del%20Norte <!-- Surigao del Norte -->
+     | 1668     = SUS&province=Surigao%20del%20Sur <!-- Surigao del Sur -->
+     | 0369     = TAR&province=Tarlac <!-- Tarlac -->
+     | 1570     = TAW&province=Tawi%20Tawi <!-- Tawitawi -->
+     | 0860     = WES&province=Western%20Samar <!-- Samar (Western Samar) -->
+     | 0371     = ZAM&province=Zambales <!-- Zambales -->
+     | 0972     = ZAN&province=Zamboanga%20del%20Norte <!-- Zamboanga del Norte -->
+     | 0973     = ZAS&province=Zamboanga%20del%20Sur <!-- Zamboanga del Sur -->
+     | 0983     = ZAB&province=Zamboanga%20Sibugay <!-- Zamboanga Sibugay -->
+     |          =
+    }}
+    | work       = Municipality Population Data
+    | publisher  = [[Local Water Utilities Administration]] Research Division
+    | accessdate = Disyembre 17, 2016
+   }}
+</ref>
+
+| }}</includeonly><noinclude>{{documentation}}</noinclude>
