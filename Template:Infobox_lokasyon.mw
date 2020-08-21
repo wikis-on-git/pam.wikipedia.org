@@ -39,7 +39,7 @@
 |elevation_m = {{{elevation_m|{{#ifexpr:{{#invoke:String|find|{{#invoke:wd|property|raw|best|{{{qid|}}}|P2044}}|foot}}||{{#invoke:String|replace|{{#invoke:string|replace|{{#invoke:wd|property|raw|best|{{{qid|}}}|P2044}}|±[%d%.][%d%.]*||plain=false}}|meter}}}}}}}
 | population_footnotes   = {{PH census|current}}
 | population_total       = {{PH wikidata|population_total}}
-| population_as_of       = {{PH wikidata|population_as_of}}
+| population_as_of       = {{wikidata|qualifier|single|P1082|P585}}
 | population_density_km2 = auto
 | population_blank1_title= Households
 | population_blank1      = {{PH wikidata|household}} 
