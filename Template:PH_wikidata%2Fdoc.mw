@@ -1,0 +1,109 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{stack|{{Uses Wikidata|position=left|P31|P1449|P1451|P18|P41|P158|P242|P131|P300|P1621|P17|P150|P571|P194|P1313|P31|P194|P1082|P459|P585|P988|P1831|P1538|P2936|P1549|P281|P706|P473|P1879|P417|P856|P2013|P2002|P2003|P2397|P373|P239|P238|P402|P625|P2564|P708|P2044|P137|P2046|P3087|P768|P2403|P2138|P2402}}}}
+This template is used to retrieve wikidata for use in {{tl|infobox settlement}} templates transcluded in articles about populated places in the [[Philippines]].  Currently, this template is used within the article, but may be moved to {{tl|infobox settlement}} in the future.  Keeping the "infobox parameter" / "wikidata property" relationships within a single template ensures some level of consistency, allows for tracking of uses, and allows for changes to the relationships without changing every single article.
+
+Add {{tl|infobox lighthouse}}<br />
+{{stack|{{Uses Wikidata|position=left|P3562|P2980|P2923|P2048|P1030|P3922|P2929|P3563}}}}
+
+== Usage ==
+<code><nowiki>{{PH wikidata|property name}}</nowiki></code> where <code>property name</code> is one of the following
+{{colbegin|colwidth=18em}}
+* <code>area_code</code> 
+* <code>area</code> 
+* <code>assets</code> 
+* <code>capital_of</code> 
+* <code>climate_type</code>
+* <code>commons</code> 
+* <code>coordinates</code>
+* <code>council_title</code> 
+* <code>country</code>
+* <code>diocese</code>
+* <code>district</code> 
+* <code>electoral_district</code> 
+* <code>electorate_point_in_time</code> 
+* <code>electorate_title</code> 
+* <code>electorate</code> 
+* <code>elevation_ft</code> 
+* <code>elevation_m</code> 
+* <code>elevation_footnotes</code> 
+* <code>established_date</code> or <code>founded</code> 
+* <code>expenditure</code> 
+* <code>facebook</code> 
+* <code>government_type</code> 
+* <code>household</code> 
+* <code>iata</code> 
+* <code>icao</code> 
+* <code>image_caption</code> 
+* <code>image_flag</code> 
+* <code>image_map</code> 
+* <code>image_map1</code> 
+* <code>image_seal</code> 
+* <code>image_shield</code> 
+* <code>image_skyline</code> 
+* <code>income_class_ordinal</code> 
+* <code>income_class_title</code>
+* <code>income_class</code> or <code>income_class_text</code> 
+* <code>instagram</code> 
+* <code>iso_region</code> or <code>iso_code</code> or <code>coordinates_region</code> 
+* <code>language</code> 
+* <code>leader_title</code> or <code>mayor_title</code> 
+* <code>liabilities</code> 
+* <code>located_on</code> or <code>located_in</code> 
+* <code>map_caption</code> 
+* <code>map_caption1</code> 
+* <code>motto</code> 
+* <code>municipalities</code> or <code>barangays</code> 
+* <code>name</code>
+* <code>nickname1</code>
+* <code>official_name</code> 
+* <code>operator</code>
+* <code>osm</code> 
+* <code>patron_saint</code> 
+* <code>population_as_of</code> 
+* <code>population_demonym</code> or <code>demonym</code> 
+* <code>population_point_in_time</code> 
+* <code>population_total</code> 
+* <code>postal_code</code>
+* <code>province</code> 
+* <code>psgc_title</code> 
+* <code>psgc</code>
+* <code>region</code> 
+* <code>revenue</code> 
+* <code>revenue_point_in_time</code> 
+* <code>seat</code> 
+* <code>settlement_text</code>
+* <code>settlement_type</code>
+* <code>twitter</code> 
+* <code>vicemayor_title</code> 
+* <code>website</code>
+* <code>youtube</code> 
+* <code>infobox lighthouse</code>
+**<code>admiralty</code>
+**<code>ARLHS</code>
+**<code>characteristic</code>
+**<code>focalheight</code>
+**<code>height</code>
+**<code>light_sector</code>
+**<code>NGA</code>
+**<code>range</code>
+{{colend}}
+
+== Tracking ==
+* [[Special:WhatLinksHere/Template:PH wikidata/check wikidata commons link]]
+* [[Special:WhatLinksHere/Template:PH wikidata/deprecated parameter]]
+
+== See also ==
+* {{tl|areacodestyle}}
+* {{tl|Official URL}}
+* {{tl|PH census}} / {{tl|Philippine census reference}}
+* {{tl|PH Comelec roll}}
+* {{tl|PH electorate}}
+* {{tl|PH Town Council}}
+* {{tl|PSGC detail}}
+* {{tl|PSGCstyle}}
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Philippines templates]]
+}}</includeonly>
