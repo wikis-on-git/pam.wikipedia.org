@@ -1,0 +1,9 @@
+return {
+	name = 'Pilipinas',
+	top = 21.2,
+	bottom = 4.3,
+	left = 114.0,
+	right = 131.2,
+	image = 'Philippines location map (square).svg',
+	image1 = 'Philippines relief location map (square).svg'
+}
