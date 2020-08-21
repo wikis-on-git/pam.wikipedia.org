@@ -17,13 +17,22 @@
 |flag_alt = {{{flag_alt|}}}
 |flag_size = {{{flag_size|110x80px}}}
 |seal_alt = {{{seal_alt|}}}
+|image_shield = {{{image_shield|{{#if:{{main other|{{#property:P158}}|{{#property:P158|from={{{qid|}}}}}}}||{{#invoke:wd|property|raw|best|{{{qid|}}}|P94}}}}}}}
 |shield_alt = {{{shield_alt|}}}
 |shield_size = {{{shield_size|100x80px}}}
 |nickname = {{{nickname|}}}
 |motto = {{{motto|}}}
 |subdivision_type = {{{subdivision_type|Bansa}}}
 |subdivision_name = {{{subdivision_name|{{#invoke:wd|property|linked|{{{qid|}}}|P17}}}}}
+|established_title  = {{{established_title|{{#if:{{main other|{{#property:P571}}|{{#property:P571|from={{{qid|}}}}}}}|Pigtugdas|}}}}}
+|established_date = {{{established_date|{{#ifeq:{{{dateformat}}}|dmy|{{PAGENAMEBASE|{{#invoke:wd|property|{{{qid|}}}|P571}}}}|{{PAGENAMEBASE|{{#invoke:wd|property|mdy|{{{qid|}}}|P571}}}} }} }}}
+|seat_type = {{{seat_type|{{#if:{{main other|{{#property:P36}}|{{#property:P36|from={{{qid|}}}}}}}|Kapitolyo|}}}}}
+|seat = {{{seat|{{#if:{{#invoke:wd|property|linked|{{{qid|}}}|P36}}|{{#invoke:wd|property|linked|{{{qid|}}}|P36}}|{{main other|{{#property:P36}}|{{#property:P36|from={{{qid|}}}}}}}}}}}}
+|leader_title = {{{leader_title|{{#if:{{main other|{{#property:P6}}|{{#property:P6|from={{{qid|}}}}}}}|{{#if:{{#invoke:String2|ucfirst|{{#invoke:wd|property|linked|{{{qid|}}}|P1313}}}}|{{#invoke:String2|ucfirst|{{#invoke:wd|property|linked|{{{qid|}}}|P1313}}}}|Lider}}}}}}}
+|leader_name = {{{leader_name|{{#if:{{main other|{{#property:P6}}|{{#property:P6|from={{{qid|}}}}}}}|{{#if:{{#invoke:wd|property|linked|{{{qid|}}}|P6}}|{{#invoke:wd|property|linked|{{{qid|}}}|P6}}|{{main other|{{#property:P6}}|{{#property:P6|from={{{qid|}}}}}}}}}}}}}}
 |area_footnotes = {{{area_footnotes|{{#ifeq:{{{dateformat}}}|dmy|{{#invoke:wd|references|current|{{{qid|}}}|P2046}}|{{#invoke:wd|references|mdy|current|{{{qid|}}}|P2046}} }} }}}
+|area_total_km2  = {{{area_total_km2|{{#if:{{main other|{{#property:P2046}}|{{#property:P2046|from={{{qid|}}}}}}}|{{#ifeq:{{#invoke:Wikidata|getUnits|qid={{{qid|}}}|P2046|FETCH_WIKIDATA}}|square meter|{{rnd|{{convert|input={{#invoke:String|replace|{{#invoke:String|replace|{{#invoke:wd|property|{{{qid|}}}|P2046}}| %D+||plain=false}}|±[%d%.][%d%.]*||plain=false}} m2|km2|disp=output number only|comma=off}}|2}}|{{#ifeq:{{#invoke:Wikidata|getUnits|qid={{{qid|}}}|P2046|FETCH_WIKIDATA}}|square kilometer|{{rnd|{{convert|input={{#invoke:String|replace|{{#invoke:String|replace|{{#invoke:wd|property|{{{qid|}}}|P2046}}| %D+||plain=false}}|±[%d%.][%d%.]*||plain=false}} km2|km2|disp=output number only|comma=off}}|2}}|{{#invoke:String|replace|{{#invoke:String|replace|{{#invoke:wd|property|{{{qid|}}}|P2046}}| %D+||plain=false}}|±[%d%.][%d%.]*||plain=false}} }} }} }} }}}
+|elevation_m = {{{elevation_m|{{#ifexpr:{{#invoke:String|find|{{#invoke:wd|property|raw|best|{{{qid|}}}|P2044}}|foot}}||{{#invoke:String|replace|{{#invoke:string|replace|{{#invoke:wd|property|raw|best|{{{qid|}}}|P2044}}|±[%d%.][%d%.]*||plain=false}}|meter}}}}}}}
 |population_footnotes = {{{population_footnotes|{{#ifeq:{{{dateformat}}}|dmy|{{#invoke:wd|references|{{{qid|}}}|P1082|{{formatnum:{{#invoke:wd|property|{{{qid|}}}|P1082}}|R}}}}|{{#invoke:wd|references|mdy|{{{qid|}}}|P1082|{{formatnum:{{#invoke:wd|property|{{{qid|}}}|P1082}}|R}}}} }} }}}
 |population_as_of = {{{population_as_of|{{#ifeq:{{{dateformat}}}|dmy|{{#invoke:wd|qualifier|normal+|single|{{{qid|}}}|P1082|P585}}|{{#invoke:wd|qualifier|mdy|normal+|single|{{{qid|}}}|P1082|P585}} }} }}}
 |population_total = {{{population_total|{{#invoke:wd|property|current|{{{qid|}}}|P1082}} }}}
@@ -32,6 +41,7 @@
 |postal_code_type = {{{postal_code_type|Kodigo&nbsp;nin&nbsp;postal}}}
 |postal_code = {{{postal_code|{{#invoke:wd|properties|raw|{{{qid|}}}|P281}}}}}
 |area_code = {{{area_code|{{#invoke:wd|properties|raw|{{{qid|}}}|P473}}}}}
+|website = {{{website|{{#if:{{main other|{{#property:P856}}|{{#property:P856|from={{{qid|}}}}}}}|{{URL|{{#invoke:wd|property|raw|best|{{{qid|}}}|P856}}}}|}}}}}
 |footnotes = {{{footnotes|{{#if:{{#invoke:Wikidata|pageId}}||{{#ifeq:{{NAMESPACE}}|{{ns:0}}|{{error|Warning!}} Data will appear when article is linked to Wikidata.[[Category:Articles using Template:Infobox location not linked to Wikidata]]}}}} }}}
 }}</includeonly><noinclude>
 {{documentation}}
