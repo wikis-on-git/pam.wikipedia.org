@@ -1,0 +1,39 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AT THE BOTTOM OF THIS PAGE -->
+{{used in system|in [[MediaWiki:Abusefilter-disallowed-semicolon]]}}
+{{Uses TemplateStyles |Template:Mono/styles.css}}
+{{COinS safe|n}}
+== Usage ==
+
+{{tlx|mono|<var>text to format here</var>}}
+
+renders as:
+
+{{mono|text to format here}}
+
+This template is for formatting short bits of content (the only parameter) as monospaced (nonproportional) text. It is simply a quick shorthand for the necessary [[Cascading Style Sheets|CSS]] code.  It is a replacement for {{tag|tt}}, which is an obsolete element under HTML5. ([http://www.w3.org/TR/html5/obsolete.html#non-conforming-features Non-conforming features])
+
+This template ''should'' be used where the content is being rendered in monospaced text for purely stylistic/display reasons, where this display has no particular semantic significance.
+
+It ''should not'' be used to indicate source code, nor for variables or variable input (use {{tl|code}} or {{tag|code}} for code and {{tl|var}} or {{tag|var}} for variables). For keyboard or samples, use {{tag|kbd}} or {{tag|samp}} respectively.
+
+It ''cannot'' be used to mark up multiple paragraphs, sections or other block elements, as it uses {{tag|span|o}}, which is an inline element. See {{tl|monodiv}} and {{tl|pre}} for a <code>&lt;div&gt;</code>-based block version. Or, multiple instances of {{tl|Mono}} can be invoked.
+
+=== Parameters ===
+There are two parameters:
+;{{para|1}} or unnamed
+: The content to format as monospaced. If the content contains a <code>=</code> character, the parameter must be numbered or the template will break. For backward compatibility with an old, merged-in template, this parameter can also be called {{para|2}}.
+;{{para|needs_review|yes}}
+: Used (e.g. by [[WP:Bot|bots]] or [[WP:AWB|AWB]] scripts) to indicate replacement of now-obsolete {{tag|tt}} markup with {{tnull|mono|...}} markup. This template displays nothing and presently does no categorization, though a cleanup category can be created if necessary. It indicates that the markup may need to be changed to something more semantically meaningful, such as {{tag|code}}, {{tag|samp}}, or {{tag|kbd}}.
+
+== See also ==
+* {{tl|pre}}
+* {{tl|code}}
+* {{tl|kbd}}
+* {{tl|samp}}
+* {{tl|var}}
+
+<includeonly>{{Sandbox other||
+<!-- CATEGORIES HERE, THANKS -->
+[[Category:Typing-aid templates|{{PAGENAME}}]]
+}}</includeonly>
