@@ -1,0 +1,68 @@
+{{Documentation subpage}} {{Template shortcut|pli|plk|plal|scp|plnk}}
+{{high-use}}
+{{used in system}}
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+This template will allow you to create a local or [[Help:Interwiki linking|interwiki link]] (such as a link to the [[Help:Page history|history of a page]]) on a page without having the [[File:External.svg|10px]] follow the link. This can be used, for example, when internal or interwiki links appear as external links. See [[Help:URL#URLs on other Wikimedia projects]] for more information.
+
+== Caution ==
+
+When you link to a Wikipedia or other Wikimedia project URL, ''omit the preceding "http:", or "https:"'', so that the URL begins with "//". This allows users to use the protocol they're currently using.
+
+You can use {{tnull|fullurl}} [[Help:Magic words|magicword]] to generate URLs to Wikipedia pages.
+
+Also this template is not suitable for external links, since it suppresses displaying the exeternal link small icon ([[File:Insertlink.gif|12px]]); for external links, use {{tl|URL}}
+
+== Examples ==
+
+*<code><nowiki>{{Plain link|url=//www.wikipedia.org}}</nowiki></code> gives {{Plain link|url=//www.wikipedia.org}}
+*<code><nowiki>{{Plain link|//www.wikipedia.org Wikipedia}}</nowiki></code> gives {{Plain link|//www.wikipedia.org Wikipedia}}
+*<code><nowiki>{{Plain link|//www.wikipedia.org | Wikipedia}}</nowiki></code> gives {{Plain link|//www.wikipedia.org|Wikipedia}}
+*<code><nowiki>{{Plain link|http://www.google.co.uk|Google}}</nowiki></code> gives {{Plain link|http://www.google.co.uk|Google}}
+
+Note that if your url or link title contains an equals sign <code>=</code> you must use named parameters:
+*<code><nowiki>{{Plain link|url=//en.wikipedia.org/w/index.php?title=Equals_sign&oldid=282228764|name="=" }}</nowiki></code> gives {{Plain link|url=//en.wikipedia.org/w/index.php?title=Equals_sign&oldid=282228764|name="="}}
+
+== Redirects ==
+
+To be more concise, you can use <code><nowiki>{{scp}}</nowiki></code> or <code><nowiki>{{plnk}}</nowiki></code> and numbers as parameter names, e.g.:
+*<code><nowiki>{{scp|1=//en.wikipedia.org/w/index.php?title=Equals_sign&oldid=282228764|2="="}}</nowiki></code> gives the same {{scp|1=//en.wikipedia.org/w/index.php?title=Equals_sign&oldid=282228764|2="="}}
+*<code><nowiki>{{plnk|1=//en.wikipedia.org/w/index.php?title=Equals_sign&oldid=282228764|2="="}}</nowiki></code> gives the same {{plnk|1=//en.wikipedia.org/w/index.php?title=Equals_sign&oldid=282228764|2="="}}
+
+== TemplateData ==
+{{TemplateData header}}
+<templatedata>
+{
+	"description": "Use this template to add a local or interwiki link that would otherwise show a box and arrow icon next to the link without the icon.",
+	"format": "inline",
+	"params": {
+		"url": {
+			"aliases": ["URL","1"],
+			"label": "URL",
+			"description": "URL of the link. For Wikimedia links, use the format \"//example.com\". This allows users to use the protocol they're currently using.",
+			"type": "url"
+		},
+		"name": {
+			"aliases": ["NAME","1"],
+			"label": "Text",
+			"description": "Text to be linked",
+			"type": "string"
+		}
+	},
+	"paramOrder": [
+		"url",
+		"name"
+	]
+}
+</templatedata>
+
+== See also ==
+* [[Template:Querylink]], generates a plain link for Wikipedia pages with extended parameters
+* [[Template:Plain]], a similar template that keeps the URL written out
+* [[Template:Diff]]
+* [[Template:Oldid]]
+* [[Template:URL]]
+
+<includeonly>{{Sandbox other||
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:External link templates]]
+}}</includeonly>
