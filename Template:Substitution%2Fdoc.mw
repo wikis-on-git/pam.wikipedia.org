@@ -1,0 +1,58 @@
+{{Distinguish|Template:Subst|Template:Substituted}}
+{{Documentation subpage}}
+{{nosubst}} 
+
+==Examples==
+=== With middle text but no additional text at the end ===
+<code><nowiki>{{Substitution|not}}</nowiki></code>
+
+produces:
+
+{{Substitution|not}}
+
+=== With both middle text and additional text at the end===
+<code><nowiki>{{Substitution|only (at least as of </nowiki>{{CURRENTYEAR}}<nowiki>)|if temperatures fall and it starts to snow}}</nowiki></code>
+
+produces:
+
+{{Substitution|only (at least as of {{CURRENTYEAR}})|if temperatures fall and it starts to snow}}
+
+=== With no middle text but some additional text at the end===
+
+<code><nowiki>{{Substitution| |if you wish to ensure your emoji's image remains the same even if its template's image is changed}}</nowiki></code>
+
+produces:
+
+{{Substitution| |if you wish to ensure your emoji image remains the same even if its template image is changed}}
+
+== TemplateData ==
+{{TemplateDataHeader}}
+<templatedata>{
+  "description": "Use this template to add a message box to a template's documentation subpage indicating if and how that template  should be substituted.",
+  "params": {
+    "first parameter": {
+      "label": "1",
+      "description": "Inserts any helpful or instructive text in bold font such as 'always' or 'never' between the words 'should' and 'be' in the resulting message box; if no such instruction is desired, this parameter should be entered as a single blank typed space (in this sense, the parameter is required: it must be an instructive word OR it must be a blank typed space—it must NOT be left with no entry",
+      "type": "string",
+      "example": "never",
+      "required": true
+    },
+      "second parameter": {
+      "label": "2",
+      "description": "This parameter takes any text you add to it and places it at the end of the sentence that the message box generates; it should NOT end in a period",
+      "type": "string",
+      "example": "unless older versions cannot be found",
+      "default": "",
+      "required": false
+    }
+  }
+}</templatedata>
+
+==See also==
+* {{tl|Nosubst}}
+* {{tl|Subst only}}
+* {{tl|Transclusionless}}
+
+<includeonly>{{sandbox other||
+[[Category:Documentation header templates]]
+}}</includeonly>
