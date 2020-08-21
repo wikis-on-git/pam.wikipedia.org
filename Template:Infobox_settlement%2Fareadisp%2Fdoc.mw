@@ -1,0 +1,722 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+{{notice|'''This subtemplate is not intended to be used directly'''}}
+
+This '''subtemplate of {{tl|Infobox settlement}}''' displays area values.
+
+=== Usage ===
+ <nowiki>{{</nowiki>Infobox settlement/areadisp
+ | km2   = area in [[square kilometre]]s (via ''area_total_km2'' and others)
+ | sqmi  = area in [[square mile]]s (via ''area_total_sq_mi'' and others)
+ | ha    = area in [[hectare]]s (via ''area_total_ha'' and others)
+ | acre  = area in [[acre]]s (via ''area_total_acre'' and others)
+ | dunam = area in [[dunam]]s (via ''area_total_dunam'' and others)
+ | pref  = preference to display /km2 or /sqmi (via ''unit_pref'')
+ | name  = name of country (via ''subdivision_name'')
+ | link  = if ''dunam_link'' = on, returns ''total=on''
+ | mag   = set to value of ''area_magnitude''
+ }}
+
+=== Examples: square kilometre (km2) ===
+<code><nowiki>{{Infobox settlement/areadisp|km2=N}}</nowiki></code>
+{| class="wikitable" style="font-size:95%;"
+! colspan=2 | Input
+! colspan=3 | Output
+! &nbsp;
+! colspan=2 | Input
+! colspan=3 | Output
+|-
+! km2=
+! [[Template:Precision|Precision]]
+! Conversion<br/>(sq. mi.)
+! [[Template:Order of magnitude|Order of<br/>magnitude]]
+! Template<br>output
+! &nbsp;
+! km2=
+! [[Template:Precision|Precision]]
+! Conversion<br/>(sq. mi.)
+! [[Template:Order of magnitude|Order of<br/>magnitude]]
+! Template<br>output
+|-
+| style="padding:10px;" | <code><nowiki>10000</nowiki></code>
+| style="padding:10px;" | {{Precision|10000}}
+| style="padding:10px;" | {{Rnd|{{#expr:10000/2.589988110336}}|1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:10000/2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|km2=10000}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>22222</nowiki></code>
+| style="padding:10px;" | {{Precision|22222}}
+| style="padding:10px;" | {{Rnd|{{#expr:22222/2.589988110336}}|1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:22222/2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|km2=22222}}
+|-
+| style="padding:10px;" | <code><nowiki>1000</nowiki></code>
+| style="padding:10px;" | {{Precision|1000}}
+| style="padding:10px;" | {{#expr:1000/2.589988110336 round1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:1000/2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|km2=1000}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>2222</nowiki></code>
+| style="padding:10px;" | {{Precision|2222}}
+| style="padding:10px;" | {{#expr:2222/2.589988110336 round1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:2222/2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|km2=2222}}
+|-
+| style="padding:10px;" | <code><nowiki>100</nowiki></code>
+| style="padding:10px;" | {{Precision|100}}
+| style="padding:10px;" | {{#expr:100/2.589988110336 round1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:100/2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|km2=100}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>222</nowiki></code>
+| style="padding:10px;" | {{Precision|222}}
+| style="padding:10px;" | {{#expr:222/2.589988110336 round1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:222/2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|km2=222}}
+|-
+| style="padding:10px;" | <code><nowiki>10</nowiki></code>
+| style="padding:10px;" | {{Precision|10}}
+| style="padding:10px;" | {{#expr:10/2.589988110336 round2}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:10/2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|km2=10}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>22</nowiki></code>
+| style="padding:10px;" | {{Precision|22}}
+| style="padding:10px;" | {{#expr:22/2.589988110336 round1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:22/2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|km2=22}}
+|-
+| style="padding:10px;" | <code><nowiki>1</nowiki></code>
+| style="padding:10px;" | {{Precision|1}}
+| style="padding:10px;" | {{#expr:1/2.589988110336 round3}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:1/2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|km2=1}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>2</nowiki></code>
+| style="padding:10px;" | {{Precision|2}}
+| style="padding:10px;" | {{#expr:2/2.589988110336 round2}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:2/2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|km2=2}}
+|-
+| style="padding:10px;" | <code><nowiki>0.1</nowiki></code>
+| style="padding:10px;" | {{Precision|0.1}}
+| style="padding:10px;" | {{#expr:0.1/2.589988110336 round4}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.1/2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|km2=0.1}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.2</nowiki></code>
+| style="padding:10px;" | {{Precision|0.2}}
+| style="padding:10px;" | {{#expr:0.2/2.589988110336 round3}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.2/2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|km2=0.2}}
+|-
+| style="padding:10px;" | <code><nowiki>0.01</nowiki></code>
+| style="padding:10px;" | {{Precision|0.01}}
+| style="padding:10px;" | {{#expr:0.01/2.589988110336 round5}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.01/2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|km2=0.01}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.22</nowiki></code>
+| style="padding:10px;" | {{Precision|0.22}}
+| style="padding:10px;" | {{#expr:0.22/2.589988110336 round4}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.22/2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|km2=0.22}}
+|-
+| style="padding:10px;" | <code><nowiki>0.001</nowiki></code>
+| style="padding:10px;" | {{Precision|0.001}}
+| style="padding:10px;" | {{#expr:0.001/2.589988110336 round6}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.001/2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|km2=0.001}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.222</nowiki></code>
+| style="padding:10px;" | {{Precision|0.222}}
+| style="padding:10px;" | {{#expr:0.222/2.589988110336 round5}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.222/2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|km2=0.222}}
+|-
+| style="padding:10px;" | <code><nowiki>0.0001</nowiki></code>
+| style="padding:10px;" | {{Precision|0.0001}}
+| style="padding:10px;" | {{#expr:0.0001/2.589988110336 round7}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.0001/2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|km2=0.0001}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.2222</nowiki></code>
+| style="padding:10px;" | {{Precision|0.2222}}
+| style="padding:10px;" | {{#expr:0.2222/2.589988110336 round6}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.2222/2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|km2=0.2222}}
+|}
+
+=== Examples: square mile (sqmi) ===
+<code><nowiki>{{Infobox settlement/areadisp|pref=UK|sqmi=N}}</nowiki></code>
+{| class="wikitable" style="font-size:95%;"
+! colspan=2 | Input
+! colspan=3 | Output
+! &nbsp;
+! colspan=2 | Input
+! colspan=3 | Output
+|-
+! sqmi=
+! [[Template:Precision|Precision]]
+! Conversion<br/>(km<sup>2</sup>)
+! [[Template:Order of magnitude|Order of<br/>magnitude]]
+! Template<br>output
+! &nbsp;
+! sqmi=
+! [[Template:Precision|Precision]]
+! Conversion<br/>(km<sup>2</sup>)
+! [[Template:Order of magnitude|Order of<br/>magnitude]]
+! Template<br>output
+|-
+| style="padding:10px;" | <code><nowiki>10000</nowiki></code>
+| style="padding:10px;" | {{Precision|10000}}
+| style="padding:10px;" | {{Rnd|{{#expr:10000*2.589988110336}}|1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:10000*2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|sqmi=10000}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>22222</nowiki></code>
+| style="padding:10px;" | {{Precision|22222}}
+| style="padding:10px;" | {{Rnd|{{#expr:22222*2.589988110336}}|1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:22222*2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|sqmi=22222}}
+|-
+| style="padding:10px;" | <code><nowiki>1000</nowiki></code>
+| style="padding:10px;" | {{Precision|1000}}
+| style="padding:10px;" | {{Rnd|{{#expr:1000*2.589988110336}}|2}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:1000*2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|sqmi=1000}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>2222</nowiki></code>
+| style="padding:10px;" | {{Precision|2222}}
+| style="padding:10px;" | {{Rnd|{{#expr:2222*2.589988110336}}|2}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:2222*2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|sqmi=2222}}
+|-
+| style="padding:10px;" | <code><nowiki>100</nowiki></code>
+| style="padding:10px;" | {{Precision|100}}
+| style="padding:10px;" | {{Rnd|{{#expr:100*2.589988110336}}|2}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:100*2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|sqmi=100}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>222</nowiki></code>
+| style="padding:10px;" | {{Precision|222}}
+| style="padding:10px;" | {{Rnd|{{#expr:222*2.589988110336}}|2}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:222*2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|sqmi=222}}
+|-
+| style="padding:10px;" | <code><nowiki>10</nowiki></code>
+| style="padding:10px;" | {{Precision|10}}
+| style="padding:10px;" | {{Rnd|{{#expr:10*2.589988110336}}|2}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:10*2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|sqmi=10}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>22</nowiki></code>
+| style="padding:10px;" | {{Precision|22}}
+| style="padding:10px;" | {{Rnd|{{#expr:22*2.589988110336}}|2}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:22*2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|sqmi=22}}
+|-
+| style="padding:10px;" | <code><nowiki>1</nowiki></code>
+| style="padding:10px;" | {{Precision|1}}
+| style="padding:10px;" | {{#expr:1*2.589988110336 round2}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:1*2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|sqmi=1}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>2</nowiki></code>
+| style="padding:10px;" | {{Precision|2}}
+| style="padding:10px;" | {{#expr:2*2.589988110336 round2}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:2*2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|sqmi=2}}
+|-
+| style="padding:10px;" | <code><nowiki>0.1</nowiki></code>
+| style="padding:10px;" | {{Precision|0.1}}
+| style="padding:10px;" | {{#expr:0.1*2.589988110336 round3}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.1*2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|sqmi=0.1}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.2</nowiki></code>
+| style="padding:10px;" | {{Precision|0.2}}
+| style="padding:10px;" | {{#expr:0.2*2.589988110336 round3}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.2*2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|sqmi=0.2}}
+|-
+| style="padding:10px;" | <code><nowiki>0.01</nowiki></code>
+| style="padding:10px;" | {{Precision|0.01}}
+| style="padding:10px;" | {{#expr:0.01*2.589988110336 round4}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.01*2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|sqmi=0.01}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.22</nowiki></code>
+| style="padding:10px;" | {{Precision|0.22}}
+| style="padding:10px;" | {{#expr:0.22*2.589988110336 round4}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.22*2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|sqmi=0.22}}
+|-
+| style="padding:10px;" | <code><nowiki>0.001</nowiki></code>
+| style="padding:10px;" | {{Precision|0.001}}
+| style="padding:10px;" | {{#expr:0.001*2.589988110336 round5}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.001*2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|sqmi=0.001}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.222</nowiki></code>
+| style="padding:10px;" | {{Precision|0.222}}
+| style="padding:10px;" | {{#expr:0.222*2.589988110336 round5}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.222*2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|sqmi=0.222}}
+|-
+| style="padding:10px;" | <code><nowiki>0.0001</nowiki></code>
+| style="padding:10px;" | {{Precision|0.0001}}
+| style="padding:10px;" | {{#expr:0.0001*2.589988110336 round6}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.0001*2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|sqmi=0.0001}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.2222</nowiki></code>
+| style="padding:10px;" | {{Precision|0.2222}}
+| style="padding:10px;" | {{#expr:0.2222*2.589988110336 round6}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.2222*2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|sqmi=0.2222}}
+|-
+| style="padding:10px;" | <code><nowiki>0.00001</nowiki></code>
+| style="padding:10px;" | {{Precision|0.00001}}
+| style="padding:10px;" | {{#expr:0.00001*2.589988110336 round7}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.00001*2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|sqmi=0.00001}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.22222</nowiki></code>
+| style="padding:10px;" | {{Precision|0.22222}}
+| style="padding:10px;" | {{#expr:0.22222*2.589988110336 round6}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.22222*2.589988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|sqmi=0.22222}}
+|}
+
+=== Examples: hectare (ha) ===
+<code><nowiki>{{Infobox settlement/areadisp|ha=N}}</nowiki></code>
+{| class="wikitable" style="font-size:95%;"
+! colspan=2 | Input
+! colspan=3 | Output
+! &nbsp;
+! colspan=2 | Input
+! colspan=3 | Output
+|-
+! ha=
+! [[Template:Precision|Precision]]
+! Conversion<br/>(acres)
+! [[Template:Order of magnitude|Order of<br/>magnitude]]
+! Template<br>output
+! &nbsp;
+! ha=
+! [[Template:Precision|Precision]]
+! Conversion<br/>(acres)
+! [[Template:Order of magnitude|Order of<br/>magnitude]]
+! Template<br>output
+|-
+| style="padding:10px;" | <code><nowiki>10000</nowiki></code>
+| style="padding:10px;" | {{Precision|10000}}
+| style="padding:10px;" | {{#expr:10000/0.4046856422 round1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:10000/0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|ha=10000}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>22222</nowiki></code>
+| style="padding:10px;" | {{Precision|22222}}
+| style="padding:10px;" | {{#expr:22222/0.4046856422 round1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:22222/0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|ha=22222}}
+|-
+| style="padding:10px;" | <code><nowiki>1000</nowiki></code>
+| style="padding:10px;" | {{Precision|1000}}
+| style="padding:10px;" | {{#expr:1000/0.4046856422 round1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:1000/0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|ha=1000}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>2222</nowiki></code>
+| style="padding:10px;" | {{Precision|2222}}
+| style="padding:10px;" | {{#expr:2222/0.4046856422 round1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:2222/0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|ha=2222}}
+|-
+| style="padding:10px;" | <code><nowiki>100</nowiki></code>
+| style="padding:10px;" | {{Precision|100}}
+| style="padding:10px;" | {{#expr:100/0.4046856422 round1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:100/0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|ha=100}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>222</nowiki></code>
+| style="padding:10px;" | {{Precision|222}}
+| style="padding:10px;" | {{#expr:222/0.4046856422 round1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:222/0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|ha=222}}
+|-
+| style="padding:10px;" | <code><nowiki>10</nowiki></code>
+| style="padding:10px;" | {{Precision|10}}
+| style="padding:10px;" | {{#expr:10/0.4046856422 round1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:10/0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|ha=10}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>22</nowiki></code>
+| style="padding:10px;" | {{Precision|22}}
+| style="padding:10px;" | {{#expr:22/0.4046856422 round1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:22/0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|ha=22}}
+|-
+| style="padding:10px;" | <code><nowiki>1</nowiki></code>
+| style="padding:10px;" | {{Precision|1}}
+| style="padding:10px;" | {{#expr:1/0.4046856422 round2}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:1/0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|ha=1}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>2</nowiki></code>
+| style="padding:10px;" | {{Precision|2}}
+| style="padding:10px;" | {{#expr:2/0.4046856422 round1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:2/0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|ha=2}}
+|-
+| style="padding:10px;" | <code><nowiki>0.1</nowiki></code>
+| style="padding:10px;" | {{Precision|0.1}}
+| style="padding:10px;" | {{#expr:0.1/0.4046856422 round3}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.1/0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|ha=0.1}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.2</nowiki></code>
+| style="padding:10px;" | {{Precision|0.2}}
+| style="padding:10px;" | {{#expr:0.2/0.4046856422 round2}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.2/0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|ha=0.2}}
+|-
+| style="padding:10px;" | <code><nowiki>0.01</nowiki></code>
+| style="padding:10px;" | {{Precision|0.01}}
+| style="padding:10px;" | {{#expr:0.01/0.4046856422 round4}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.01/0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|ha=0.01}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.22</nowiki></code>
+| style="padding:10px;" | {{Precision|0.22}}
+| style="padding:10px;" | {{#expr:0.22/0.4046856422 round3}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.22/0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|ha=0.22}}
+|-
+| style="padding:10px;" | <code><nowiki>0.001</nowiki></code>
+| style="padding:10px;" | {{Precision|0.001}}
+| style="padding:10px;" | {{#expr:0.001/0.4046856422 round5}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.001/0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|ha=0.001}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.222</nowiki></code>
+| style="padding:10px;" | {{Precision|0.222}}
+| style="padding:10px;" | {{#expr:0.222/0.4046856422 round4}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.222/0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|ha=0.222}}
+|-
+| style="padding:10px;" | <code><nowiki>0.0001</nowiki></code>
+| style="padding:10px;" | {{Precision|0.0001}}
+| style="padding:10px;" | {{#expr:0.0001/0.4046856422 round6}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.0001/0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|ha=0.0001}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.2222</nowiki></code>
+| style="padding:10px;" | {{Precision|0.2222}}
+| style="padding:10px;" | {{#expr:0.2222/0.4046856422 round5}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.2222/0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|ha=0.2222}}
+|-
+| style="padding:10px;" | <code><nowiki>0.00001</nowiki></code>
+| style="padding:10px;" | {{Precision|0.00001}}
+| style="padding:10px;" | {{#expr:0.00001/0.4046856422 round7}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.00001/0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|ha=0.00001}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.22222</nowiki></code>
+| style="padding:10px;" | {{Precision|0.22222}}
+| style="padding:10px;" | {{#expr:0.22222/0.4046856422 round6}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.22222/0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|ha=0.22222}}
+|}
+
+=== Examples: acre ===
+<code><nowiki>{{Infobox settlement/areadisp|pref=UK|acre=N}}</nowiki></code>
+{| class="wikitable" style="font-size:95%;"
+! colspan=2 | Input
+! colspan=3 | Output
+! &nbsp;
+! colspan=2 | Input
+! colspan=3 | Output
+|-
+! acre=
+! [[Template:Precision|Precision]]
+! Conversion<br/>(hectares)
+! [[Template:Order of magnitude|Order of<br/>magnitude]]
+! Template<br>output
+! &nbsp;
+! acre=
+! [[Template:Precision|Precision]]
+! Conversion<br/>(hectares)
+! [[Template:Order of magnitude|Order of<br/>magnitude]]
+! Template<br>output
+|-
+| style="padding:10px;" | <code><nowiki>10000</nowiki></code>
+| style="padding:10px;" | {{Precision|10000}}
+| style="padding:10px;" | {{#expr:10000*0.4046856422 round 1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:10000*0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|acre=10000}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>22222</nowiki></code>
+| style="padding:10px;" | {{Precision|22222}}
+| style="padding:10px;" | {{#expr:22222*0.4046856422 round 1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:22222*0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|acre=22222}}
+|-
+| style="padding:10px;" | <code><nowiki>1000</nowiki></code>
+| style="padding:10px;" | {{Precision|1000}}
+| style="padding:10px;" | {{#expr:1000*0.4046856422 round 2}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:1000*0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|acre=1000}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>2222</nowiki></code>
+| style="padding:10px;" | {{Precision|2222}}
+| style="padding:10px;" | {{#expr:2222*0.4046856422 round 1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:2222*0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|acre=2222}}
+|-
+| style="padding:10px;" | <code><nowiki>100</nowiki></code>
+| style="padding:10px;" | {{Precision|100}}
+| style="padding:10px;" | {{#expr:100*0.4046856422 round 2}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:100*0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|acre=100}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>222</nowiki></code>
+| style="padding:10px;" | {{Precision|222}}
+| style="padding:10px;" | {{#expr:222*0.4046856422 round 1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:222*0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|acre=222}}
+|-
+| style="padding:10px;" | <code><nowiki>10</nowiki></code>
+| style="padding:10px;" | {{Precision|10}}
+| style="padding:10px;" | {{#expr:10*0.4046856422 round 2}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:10*0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|acre=10}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>22</nowiki></code>
+| style="padding:10px;" | {{Precision|22}}
+| style="padding:10px;" | {{#expr:22*0.4046856422 round 1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:22*0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|acre=22}}
+|-
+| style="padding:10px;" | <code><nowiki>1</nowiki></code>
+| style="padding:10px;" | {{Precision|1}}
+| style="padding:10px;" | {{#expr:1*0.4046856422 round 3}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:1*0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|acre=1}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>2</nowiki></code>
+| style="padding:10px;" | {{Precision|2}}
+| style="padding:10px;" | {{#expr:2*0.4046856422 round 2}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:2*0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|acre=2}}
+|-
+| style="padding:10px;" | <code><nowiki>0.1</nowiki></code>
+| style="padding:10px;" | {{Precision|0.1}}
+| style="padding:10px;" | {{#expr:0.1*0.4046856422 round 4}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.1*0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|acre=0.1}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.2</nowiki></code>
+| style="padding:10px;" | {{Precision|0.2}}
+| style="padding:10px;" | {{#expr:0.2*0.4046856422 round 3}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.2*0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|acre=0.2}}
+|-
+| style="padding:10px;" | <code><nowiki>0.01</nowiki></code>
+| style="padding:10px;" | {{Precision|0.01}}
+| style="padding:10px;" | {{#expr:0.01*0.4046856422 round 5}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.01*0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|acre=0.01}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.22</nowiki></code>
+| style="padding:10px;" | {{Precision|0.22}}
+| style="padding:10px;" | {{#expr:0.22*0.4046856422 round 4}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.22*0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|acre=0.22}}
+|-
+| style="padding:10px;" | <code><nowiki>0.001</nowiki></code>
+| style="padding:10px;" | {{Precision|0.001}}
+| style="padding:10px;" | {{#expr:0.001*0.4046856422 round 6}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.001*0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|acre=0.001}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.222</nowiki></code>
+| style="padding:10px;" | {{Precision|0.222}}
+| style="padding:10px;" | {{#expr:0.222*0.4046856422 round 4}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.222*0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|acre=0.222}}
+|-
+| style="padding:10px;" | <code><nowiki>0.0001</nowiki></code>
+| style="padding:10px;" | {{Precision|0.0001}}
+| style="padding:10px;" | {{#expr:0.0001*0.4046856422 round 7}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.0001*0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|acre=0.0001}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.2222</nowiki></code>
+| style="padding:10px;" | {{Precision|0.2222}}
+| style="padding:10px;" | {{#expr:0.2222*0.4046856422 round 5}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.2222*0.4046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=UK|acre=0.2222}}
+|}
+
+=== Examples: dunam ===
+<code><nowiki>{{Infobox settlement/areadisp|pref=Dunam|dunam=N}}</nowiki></code>
+{| class="wikitable" style="font-size:85%;"
+! colspan=2 | Input
+! colspan=3 | Output
+! &nbsp;
+! colspan=2 | Input
+! colspan=3 | Output
+|-
+! dunam=
+! [[Template:Precision|Precision]]
+! Conversion
+! [[Template:Order of magnitude|Order of<br/>magnitude]]
+! Template<br>output
+! &nbsp;
+! dunam=
+! [[Template:Precision|Precision]]
+! Conversion
+! [[Template:Order of magnitude|Order of<br/>magnitude]]
+! Template<br>output
+|-
+| style="padding:10px;" | <code><nowiki>100000</nowiki></code>
+| style="padding:10px;" | {{Precision|100000}}
+| style="padding:10px;" | km2:&nbsp;{{#expr:100000/1E3}}<br/>sqmi:&nbsp;{{Rnd|{{#expr:100000/2589.988110336}}|3}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:100000/1E3}}}}<br/>{{Order of magnitude|{{#expr:100000/2589.988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=Dunam|dunam=100000}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>222222</nowiki></code>
+| style="padding:10px;" | {{Precision|222222}}
+| style="padding:10px;" | km2:&nbsp;{{#expr:222222/1E3}}<br/>sqmi:&nbsp;{{Rnd|{{#expr:222222/2589.9881103363}}|3}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:222222/1E3}}}}<br/>{{Order of magnitude|{{#expr:222222/2589.988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=Dunam|dunam=222222}}
+|-
+| style="padding:10px;" | <code><nowiki>10000</nowiki></code>
+| style="padding:10px;" | {{Precision|10000}}
+| style="padding:10px;" | km2:&nbsp;{{#expr:10000/1E3}}<br/>sqmi:&nbsp;{{Rnd|{{#expr:10000/2589.988110336}}|3}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:10000/1E3}}}}<br/>{{Order of magnitude|{{#expr:10000/2589.988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=Dunam|dunam=10000}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>22222</nowiki></code>
+| style="padding:10px;" | {{Precision|22222}}
+| style="padding:10px;" | km2:&nbsp;{{#expr:22222/1E3}}<br/>sqmi:&nbsp;{{Rnd|{{#expr:22222/2589.9881103363}}|3}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:22222/1E3}}}}<br/>{{Order of magnitude|{{#expr:22222/2589.988110336}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=Dunam|dunam=22222}}
+|-
+| style="padding:10px;" | <code><nowiki>1000</nowiki></code>
+| style="padding:10px;" | {{Precision|1000}}
+| style="padding:10px;" | km2:&nbsp;{{#expr:1000/1E3}}<br/>ac:&nbsp;{{#expr:1000/4.046856422 round1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:1000/1E3}}}}<br/>{{Order of magnitude|{{#expr:1000/4.046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=Dunam|dunam=1000}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>2222</nowiki></code>
+| style="padding:10px;" | {{Precision|2222}}
+| style="padding:10px;" | km2:&nbsp;{{#expr:2222/1E3}}<br/>ac:&nbsp;{{#expr:2222/4.046856422 round1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:2222/1E3}}}}<br/>{{Order of magnitude|{{#expr:2222/4.046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=Dunam|dunam=2222}}
+|-
+| style="padding:10px;" | <code><nowiki>100</nowiki></code>
+| style="padding:10px;" | {{Precision|100}}
+| style="padding:10px;" | ha:&nbsp;{{#expr:100/10}}<br/>ac:&nbsp;{{#expr:100/4.046856422 round1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:100/10}}}}<br/>{{Order of magnitude|{{#expr:100/4.046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=Dunam|dunam=100}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>222</nowiki></code>
+| style="padding:10px;" | {{Precision|222}}
+| style="padding:10px;" | ha:&nbsp;{{#expr:222/10}}<br/>ac:&nbsp;{{#expr:222/4.046856422 round1}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:222/10}}}}<br/>{{Order of magnitude|{{#expr:222/4.046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=Dunam|dunam=222}}
+|-
+| style="padding:10px;" | <code><nowiki>10</nowiki></code>
+| style="padding:10px;" | {{Precision|10}}
+| style="padding:10px;" | ha:&nbsp;{{#expr:10/10}}<br/>ac:&nbsp;{{#expr:10/4.046856422 round2}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:10/10}}}}<br/>{{Order of magnitude|{{#expr:10/4.046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=Dunam|dunam=10}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>22</nowiki></code>
+| style="padding:10px;" | {{Precision|22}}
+| style="padding:10px;" | ha:&nbsp;{{#expr:22/10}}<br/>ac:&nbsp;{{#expr:22/4.046856422 round2}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:22/10}}}}<br/>{{Order of magnitude|{{#expr:22/4.046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=Dunam|dunam=22}}
+|-
+| style="padding:10px;" | <code><nowiki>1</nowiki></code>
+| style="padding:10px;" | {{Precision|1}}
+| style="padding:10px;" | ha:&nbsp;{{#expr:1/10}}<br/>ac:&nbsp;{{#expr:1/4.046856422 round3}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:1/10}}}}<br/>{{Order of magnitude|{{#expr:1/4.046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=Dunam|dunam=1}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>2</nowiki></code>
+| style="padding:10px;" | {{Precision|2}}
+| style="padding:10px;" | ha:&nbsp;{{#expr:2/10}}<br/>ac:&nbsp;{{#expr:2/4.046856422 round2}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:2/10}}}}<br/>{{Order of magnitude|{{#expr:2/4.046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=Dunam|dunam=2}}
+|-
+| style="padding:10px;" | <code><nowiki>0.1</nowiki></code>
+| style="padding:10px;" | {{Precision|0.1}}
+| style="padding:10px;" | ha:&nbsp;{{#expr:0.1/10}}<br/>ac:&nbsp;{{#expr:0.1/4.046856422 round4}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.1/10}}}}<br/>{{Order of magnitude|{{#expr:0.1/4.046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=Dunam|dunam=0.1}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.2</nowiki></code>
+| style="padding:10px;" | {{Precision|0.2}}
+| style="padding:10px;" | ha:&nbsp;{{#expr:0.2/10}}<br/>ac:&nbsp;{{#expr:0.2/4.046856422 round3}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.2/10}}}}<br/>{{Order of magnitude|{{#expr:0.2/4.046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=Dunam|dunam=0.2}}
+|-
+| style="padding:10px;" | <code><nowiki>0.01</nowiki></code>
+| style="padding:10px;" | {{Precision|0.01}}
+| style="padding:10px;" | ha:&nbsp;{{#expr:0.01/10}}<br/>ac:&nbsp;{{#expr:0.01/4.046856422 round5}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.01/10}}}}<br/>{{Order of magnitude|{{#expr:0.01/4.046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=Dunam|dunam=0.01}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.22</nowiki></code>
+| style="padding:10px;" | {{Precision|0.22}}
+| style="padding:10px;" | ha:&nbsp;{{#expr:0.22/10}}<br/>ac:&nbsp;{{#expr:0.22/4.046856422 round3}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.22/10}}}}<br/>{{Order of magnitude|{{#expr:0.22/4.046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=Dunam|dunam=0.22}}
+|-
+| style="padding:10px;" | <code><nowiki>0.001</nowiki></code>
+| style="padding:10px;" | {{Precision|0.001}}
+| style="padding:10px;" | ha:&nbsp;{{#expr:0.001/10}}<br/>ac:&nbsp;{{#expr:0.001/4.046856422 round6}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.001/10}}}}<br/>{{Order of magnitude|{{#expr:0.001/4.046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=Dunam|dunam=0.001}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.222</nowiki></code>
+| style="padding:10px;" | {{Precision|0.222}}
+| style="padding:10px;" | ha:&nbsp;{{#expr:0.222/10}}<br/>ac:&nbsp;{{#expr:0.222/4.046856422 round4}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.222/10}}}}<br/>{{Order of magnitude|{{#expr:0.222/4.046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=Dunam|dunam=0.222}}
+|-
+| style="padding:10px;" | <code><nowiki>0.0001</nowiki></code>
+| style="padding:10px;" | {{Precision|0.0001}}
+| style="padding:10px;" | ha:&nbsp;{{#expr:0.0001/10}}<br/>ac:&nbsp;{{#expr:0.0001/4.046856422 round7}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.0001/10}}}}<br/>{{Order of magnitude|{{#expr:0.0001/4.046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=Dunam|dunam=0.0001}}
+| &nbsp;
+| style="padding:10px;" | <code><nowiki>0.2222</nowiki></code>
+| style="padding:10px;" | {{Precision|0.2222}}
+| style="padding:10px;" | ha:&nbsp;{{#expr:0.2222/10}}<br/>ac:&nbsp;{{#expr:0.2222/4.046856422 round5}}
+| style="padding:10px;" | {{Order of magnitude|{{#expr:0.2222/10}}}}<br/>{{Order of magnitude|{{#expr:0.2222/4.046856422}}}}
+| style="padding:10px;" | {{Infobox settlement/areadisp|pref=Dunam|dunam=0.2222}}
+|}
+
+=== See also ===
+*{{Tl|Infobox settlement}}
+*{{Tl|Infobox settlement/densdisp}}
+*{{Tl|Infobox settlement/lengthdisp}}
+*{{Tl|Infobox settlement/pref}}
+*{{Tl|Infobox settlement/metric}}
+*{{Tl|Infobox settlement/metric/mag}}
+*{{Tl|Infobox settlement/impus}}
+*{{Tl|Infobox settlement/impus/mag}}
+*{{Tl|Infobox settlement/dunam}}
+*{{Tl|Infobox settlement/dunam/mag}}
+*{{Tl|Infobox settlement/link}}
+*{{Tl|Infobox settlement cleaner}}
+<includeonly>{{Sandbox other||
+<!-- CATEGORIES HERE, THANKS -->
+[[Category:Geography infobox subtemplates]]
+}}</includeonly>
