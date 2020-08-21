@@ -1,0 +1,48 @@
+{{Documentation subpage}}
+<!-- Place categories where indicated at the bottom of this page and interwikis at Wikidata -->
+{{Template shortcut|Prop|Property|wpl|WPL|wdp|WDP|wdpl|WDPL}}
+
+'''{{NAMESPACE}}:{{BASEPAGENAME}}''' displays a link to [[Wikidata]] property.
+
+== Usage examples ==
+; Standard usage
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|123}}</code> → {{{{BASEPAGENAME}}|123}}
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|P123}}</code> → {{{{BASEPAGENAME}}|P123}}
+
+; Leading/trailing whitespace
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}} | 123 }}</code> → {{{{BASEPAGENAME}} | 123 }}
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}} | P123 }}</code> → {{{{BASEPAGENAME}} | P123 }}
+
+; id = n(one)
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|123|id=n}}</code> → {{{{BASEPAGENAME}}|123|id=n}}
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|P123|id=none}}</code> → {{{{BASEPAGENAME}}|P123|id=none}}
+
+; id = o(nly)
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|123|id=o}}</code> → {{{{BASEPAGENAME}}|123|id=o}}
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|P123|id=only}}</code> → {{{{BASEPAGENAME}}|P123|id=only}}
+
+; id = f(irst)
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|123|id=f}}</code> → {{{{BASEPAGENAME}}|123|id=f}}
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|P123|id=first}}</code> → {{{{BASEPAGENAME}}|P123|id=first}}
+
+; Template shortcuts
+: <code><nowiki>{{</nowiki>prop|123}}</code> → {{prop|123}}
+: <code><nowiki>{{</nowiki>property|P123}}</code> → {{property|P123}}
+: <code><nowiki>{{</nowiki>wpl|123}}</code> → {{wpl|123}}
+: <code><nowiki>{{</nowiki>WPL|P123}}</code> → {{WDPL|P123}}
+
+== Supporting template and module ==
+* {{tlx|wikidata|label}} which uses {{mlx|wd|label}}
+
+== See also ==
+* {{tlx|Wikidata property}}
+* {{tlx|Wikidata entity link}}
+* {{tlx|Wikidata URL}}
+* {{tlx|Label}}
+* [[d:Template:Property]]
+* [[c:Template:Property]]
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line; interwikis at Wikidata -->
+[[Category:Wikidata templates]]
+}}</includeonly>
