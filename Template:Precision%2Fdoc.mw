@@ -1,0 +1,112 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AT THE BOTTOM OF THIS PAGE -->
+{{high-risk| 227851 }}
+{{lua|Module:Math}}
+__NOTOC__
+
+The '''Template:Precision''' determines the precision (as a count of decimal digits) for any amount, large or negative, using a fast algorithm. It can also handle a trailing decimal point (such as "15." or "-41.") or trailing zeroes (such as "15.34000" having precision as 5 decimal digits). For fractional input it returns the base ten logarithm of the numerator.
+
+== Examples ==
+{| class="wikitable"
+| <code><nowiki>{{Precision|1111.123456789}}</nowiki></code>	  || {{Precision|1111.123456789}}
+|-
+| <code><nowiki>{{Precision|1111.12345678}}</nowiki></code>	  || {{Precision|1111.12345678}}
+|-
+| <code><nowiki>{{Precision|1111.1234567}}</nowiki></code>	  || {{Precision|1111.1234567}}
+|-
+| <code><nowiki>{{Precision|1111.123456}}</nowiki></code>	  || {{Precision|1111.123456}}
+|-
+| <code><nowiki>{{Precision|1111.12345}}</nowiki></code>	  || {{Precision|1111.12345}}
+|-
+| <code><nowiki>{{Precision|1111111111.12345678}}</nowiki></code> || {{Precision|1111111111.12345678}}
+|-
+| <code><nowiki>{{Precision|1111111111.1234567}}</nowiki></code>  || {{Precision|1111111111.1234567}}
+|-
+| <code><nowiki>{{Precision|1111111111.123456}}</nowiki></code>   || {{Precision|1111111111.123456}}
+|-
+| <code><nowiki>{{Precision|1111111111.12345}}</nowiki></code>    || {{Precision|1111111111.12345}}
+|-
+| <code><nowiki>{{Precision|1111111111.1234}}</nowiki></code>	  || {{Precision|1111111111.1234}}
+|-
+| <code><nowiki>{{Precision|1111111111.123}}</nowiki></code>	  || {{Precision|1111111111.123}}
+|-
+| <code><nowiki>{{Precision|1111111111.12}}</nowiki></code>	  || {{Precision|1111111111.12}}
+|-
+| <code><nowiki>{{Precision|1111111111.1}}</nowiki></code>	  || {{Precision|1111111111.1}}
+|-
+| <code><nowiki>{{Precision|1111111111.10}}</nowiki></code>	  || {{Precision|1111111111.10}}
+|-
+| <code><nowiki>{{Precision|1111111111.100}}</nowiki></code>	  || {{Precision|1111111111.100}}
+|-
+| <code><nowiki>{{Precision|1111111111.1000}}</nowiki></code>	  || {{Precision|1111111111.1000}}
+|-
+| <code><nowiki>{{Precision|1111111111.10000}}</nowiki></code>    || {{Precision|1111111111.10000}}
+|-
+| <code><nowiki>{{Precision|1111111111}}</nowiki></code>	  || {{Precision|1111111111}}
+|-
+| <code><nowiki>{{Precision|1111111110}}</nowiki></code>	  || {{Precision|1111111110}}
+|-
+| <code><nowiki>{{Precision|1111111100}}</nowiki></code>	  || {{Precision|1111111100}}
+|-
+| <code><nowiki>{{Precision|1111111000}}</nowiki></code>	  || {{Precision|1111111000}}
+|-
+| <code><nowiki>{{Precision|1111110000}}</nowiki></code>	  || {{Precision|1111110000}}
+|-
+| <code><nowiki>{{Precision|1111100000}}</nowiki></code>	  || {{Precision|1111100000}}
+|-
+| <code><nowiki>{{Precision|1111000000}}</nowiki></code>	  || {{Precision|1111000000}}
+|-
+| <code><nowiki>{{Precision|1110000000}}</nowiki></code>	  || {{Precision|1110000000}}
+|-
+| <code><nowiki>{{Precision|1100000000}}</nowiki></code>	  || {{Precision|1100000000}}
+|-
+| <code><nowiki>{{Precision|0}}</nowiki></code>			  || {{Precision|0}}
+|-
+| <code><nowiki>{{Precision|1}}</nowiki></code>			  || {{Precision|1}}
+|-
+| <code><nowiki>{{Precision|22.45}}</nowiki></code>		  || {{Precision|22.45}}
+|-
+| <code><nowiki>{{Precision|22.12345}}</nowiki></code>		  || {{Precision|22.12345}}
+|-
+| <code><nowiki>{{Precision|22}}</nowiki></code>		  || {{Precision|22}}
+|-
+| <code><nowiki>{{Precision|22000}}</nowiki></code>		  || {{Precision|22000}}
+|-
+| <code><nowiki>{{Precision|-15.275}}</nowiki></code>		  || {{Precision|-15.275}}
+|-
+| <code><nowiki>{{Precision|-15.2500}}</nowiki></code>		  || {{Precision|-15.2500}}
+|-
+| <code><nowiki>{{Precision|23000222000111.432}}</nowiki></code>  || {{Precision|23000222000111.432}}
+|-
+| <code><nowiki>{{Precision|-15.123}}</nowiki></code>		  || {{Precision|-15.123}}
+|-
+| <code><nowiki>{{Precision|0.09}}</nowiki></code>		  || {{Precision|0.09}}
+|-
+| <code><nowiki>{{Precision|0.88}}</nowiki></code>		  || {{Precision|0.88}}
+|-
+| <code><nowiki>{{Precision|880000}}</nowiki></code>		  || {{Precision|880000}}
+|-
+| <code><nowiki>{{Precision|90000000}}</nowiki></code>		  || {{Precision|90000000}}
+|}
+
+===Known bugs===
+* For numbers in scientific notation, the precision is typically returned as too low by 1 decimal place. Example: <nowiki>{{precision |7.1234E+06}}</nowiki> &rarr; {{precision|7.1234E+06}} (should be precision as 4 decimal digits, not 3).
+
+===Technical notes===
+*NOTE A1: This template determines the precision of decimals by counting the length of the numeric string (in a #switch comparing lengths of padded strings), then subtracting integer length, minus the decimal point, and minus 1 if negative. For integers, 1 place is subtracted for each trailing 0 on the integer. For fractions, any prior count is cleared x 0, then returns the base ten logarithm of denominator: (..prior...)*0 + (ln denom / ln 10).
+*NOTE D2: The check, for whole integers, compares the amount versus appending "0" at the end: when the amount is a decimal, then the value is unchanged by appending 0 at the end: so 5.23 = 5.230 is true, whereas for whole integers, it would be: 5 = 50 as false, due to values becoming n*10 for integer n. So, for integer n, the check rejects: n = n0 as false; hence n is integer.
+*NOTE M3: The magnitude of the integer portion is calculated by logarithm of the floor of absolute value (divided by [[natural logarithm]] of 10 to adjust for e=2.71828*), as: ln (floor( abs({{{1|-0.050067}}}) )+0.99 )/ln10 Function floor(x) trims the decimal part, to leave the whole count: 0-9 yield 0, 10-19 as 1, 1000-1999 as 3. The abs(x) avoids floor of negatives, floor(-0.1)= -1, hence using abs(x) ensures -0.1 floors to 0 not -1. Near zero, the +0.99 avoids invalid log of 0, but does not round-up any decimals, already floored as nnn.00. Complexity is 6 operations: floor of abs( {1} ) +0.99 then log<sub>10</sub>''x'' (ln''x'' ÷ ln10), then floor that logarithm ratio. Decimals -1 < x < 1 yield -1, avoiding log 0.001 = -3.
+*NOTE N4: Nesting of if-else and nested templates is kept to a minimum, due to the MediaWiki 1.6 limit of 40 levels of if-logic for all nested templates used together. Template {ordomag} was omitted to avoid 2 more levels of nested templates. Template {Precision} had 8 levels, and this template was trimmed to only 5 levels.
+*NOTE S5: The #switch is run with "x" prepended in front of the amount, otherwise a #switch will compare as numeric where "2" would match "2.0" even though "2" is length 1 so "x2" no longer matches with "x2.0" as non-numeric. The #switch will exit on the first match, so smaller lengths are compared first, to avoid extra comparisons for more rare, longer numeric strings up to 41 long.
+*NOTE W6: The check for integers with whole end-zeroes uses typical n=n/10*10, for each power of 10, where whole millions match: <nowiki>{{#ifexpr: {1}=floor( {1}/1E6 )*1E6| }}</nowiki> Previously, {Precision} had tried to use "round" to detect end-zeroes but "round" loses precision at -5, so, n00000 round -5 differs from n00000 slightly, and comparisons to exact rounded amounts failed to match some numbers when 6 or more zeroes "n000000".
+*NOTE Z7: The check on zero for any .00000 compares adding 1 to the amount, versus appending "1" at the end: if the amount is a decimal, then adding 1 will be larger than appending 1 at the end: 0.00 + 1 > 0.001, whereas for whole zero, it would be: 0+1 > 01 as false, due to the value being the same. So, for integer 0, the check rejects: 0+1 > 01 as false; hence whole 0 is integer.
+
+== See also ==
+* [[Significant figures]]
+{{Math templates|functions}} 
+
+<includeonly>{{Sandbox other||
+<!-- CATEGORIES HERE, THANKS -->
+[[Category:Mathematical function templates]]
+
+}}</includeonly>
