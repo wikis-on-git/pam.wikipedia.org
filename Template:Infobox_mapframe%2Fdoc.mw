@@ -1,0 +1,167 @@
+{{Documentation subpage}}
+{{lua|Module:Infobox mapframe}}
+{{Uses Wikidata|P625}}
+{{Tracks Wikidata|P402}}
+{{Sister project
+|image=[[File:Openstreetmap logo.svg|40x40px]]
+|text=This template uses the [[OpenStreetMap]] tag:
+*'''''[https://wiki.openstreetmap.org/wiki/Key:wikidata wikidata]''''' (see [https://wiki.openstreetmap.org/wiki/Talk:Key:wikidata talk]; [https://taginfo.openstreetmap.org/keys/wikidata taginfo])
+}}
+{{Lua sidebar}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+This template generates a mapframe map, suitable for infoboxes, with minimal user input. This template only works with single features (points, lines, or shapes); use {{tlx|maplink}} if more advanced options, such as displaying multiple features, are required.
+
+If coordinates are not supplied, they will be fetched from the page's Wikidata item. In such cases, if {{para|point}} is not set, then a point feature marker is displayed at those coordinates {{em|unless}} the Wikidata item has an {{Q|P402}} specified.
+*See [[:Category:Infobox mapframe without OSM relation ID on Wikidata]] for pages which have items without {{Q|P402}}
+
+== Usage ==
+'''Note:''' When in mainspace, parameter {{para|id}} is not required (except to use a different page's data)
+
+===Basic===
+<pre>{{Infobox mapframe}}</pre>
+When used without parameters, or with only {{para|id}}, the map will display either a shape, line, or point feature, depending on the data available on Wikidata and OpenStreetMap.
+*If the Wikidata item does not specify a {{Q|P402}} value, then a point marker will be displayed by default in addition any OSM shape or line feature.
+*If the Wikidata items does not specify a {{Q|P625}} value, then no map will be displayed
+{{cot|Basic usage examples}}
+Point feature (Wikidata coordinates):
+<pre>{{Infobox mapframe |id=Q7270550}}</pre>
+{{Infobox mapframe |id=Q7270550}}
+Line feature:
+<pre>{{Infobox mapframe |id=Q1318331}}</pre>
+{{Infobox mapframe |id=Q1318331}}
+Shape feature:
+<pre>{{Infobox mapframe |id=Q61}}</pre>
+{{Infobox mapframe |id=Q61}}
+{{cob}}
+
+===Using specified coordinates instead of Wikidata===
+Point feature only, no shapes or lines:
+<pre>{{Infobox mapframe |coord=}}</pre>
+Point feature and shape/line feature if available:
+<pre>{{Infobox mapframe |wikidata=yes |coord=}}</pre>
+
+Specify coordinates using the {{tlx|Coord}} templates, e.g. {{para|coord|2={{tlx|Coord|32.1|S|116.2|E}}}}
+*If {{para|coord}} is specified, then by default only that coordinate will be displayed (no line or shape features)
+*If {{para|coord}} is specified and {{para|wikidata|yes}} is used, then those coordinate will be displayed, along with any line or shape features linked to the Wikidata item.
+{{cot|Specified coordinates examples}}
+Point feature (with coordinates specified, no shape/line feature from Wikidata item):
+<pre>{{infobox mapframe |coord={{coord|31|56|S|115|58|E}} }}</pre>
+{{infobox mapframe |id=Q45935 |coord={{coord|31|56|S|115|58|E}} }}
+Point feature (with coordinates specified, along with shape/line feature from Wikidata item):
+<pre>{{infobox mapframe |wikidata=yes |coord={{coord|31|56|S|115|58|E}} }}</pre>
+{{infobox mapframe |id=Q45935 |wikidata=yes |coord={{coord|31|56|S|115|58|E}} }}
+{{cob}}
+
+===Customizing which features are displayed===
+====Inverse shape====
+<pre>{{Infobox mapframe |shape=inverse}}</pre>
+Replace the shape with an inverse-shape (geomask) by setting {{para|shape|inverse}}
+{{cot|Inverse shape example}}
+<pre>{{Infobox mapframe |id=Q61 |shape=inverse}}</pre>
+{{Infobox mapframe |id=Q61 |shape=inverse}}
+{{cob}}
+
+====Turn point marker on or off====
+Force point marker to be displayed:
+<pre>{{Infobox mapframe |point=on}}</pre>
+Prevent point marker from being displayed:
+<pre>{{Infobox mapframe |point=none}}</pre>
+
+====Turn shape feature off====
+Prevent shape feature from being displayed:
+<pre>{{Infobox mapframe |shape=none}}</pre>
+
+====Turn line feature off====
+Prevent line feature from being displayed:
+<pre>{{Infobox mapframe |line=none}}</pre>
+
+===Show a geomask from a related Wikidata item===
+<pre>{{Infobox mapframe |geomask=}}</pre>
+Set {{para|geomask}} to a Wikidata item id (Q-number), or property id (P-number) such as {{Q|P17}}
+{{cot|Geomask examples}}
+Use the item linked from the {{q|P17}} statement as a geomask:
+<pre>{{Infobox mapframe |id=Q3239281 |geomask=P17}}</pre>
+{{Infobox mapframe |id=Q3239281 |geomask=P17}}
+Use the item {{q|Q1199}} as a geomask:
+<pre>{{Infobox mapframe |id=Q3239281 |geomask=Q1199}}</pre>
+{{Infobox mapframe |id=Q3239281 |geomask=Q1199}}
+{{cob}}
+
+===Determine zoom from object length or area===
+Use {{para|length_km}} or {{para|length_mi}} or {{para|area_km2}} or {{para|area_mi2}}
+{{cot|Zoom from length/area examples}}
+Determine zoom from object length in kilometres or miles
+<pre>{{Infobox mapframe |id=Q1318331 |length_km=5.6}}</pre>
+<pre>{{Infobox mapframe |id=Q1318331 |length_mi=3.5}}</pre>
+{{Infobox mapframe |id=Q1318331 |length_km=5.6}}
+Determine zoom from object area in square kilometres or square miles
+<pre>{{Infobox mapframe |id=Q100 |area_km2=232.14}}</pre>
+<pre>{{Infobox mapframe |id=Q100 |area_mi2=89.63}}</pre>
+{{Infobox mapframe |id=Q100 |area_km2=232.14}}
+{{cob}}
+
+==Parameters==
+All parameters are optional.
+
+{{Infobox mapframe/doc/parameters|noprefix=yes|deprecated=yes}}
+
+==Examples for use within templates==
+{{cot|Infobox hospital}}
+{{tl|Infobox hospital}} (as of [https://en.wikipedia.org/w/index.php?title=Template:Infobox_hospital&oldid=919731352 5 October 2019])
+<pre>
+|image3    = {{yesno|{{{mapframe|yes}}}|no=|yes={{Infobox mapframe
+ |zoom={{{mapframe-zoom|}}}
+ |frame-width={{{mapframe-width|}}}
+ |frame-height={{{mapframe-height|}}}
+ |marker={{{mapframe-marker|hospital}}}
+ |marker-color={{{mapframe-marker-color|{{{mapframe-marker-colour|}}}}}}
+ |frame-lat={{{mapframe-lat|{{{mapframe-latitude|}}}}}}
+ |frame-long={{{mapframe-long|{{{mapframe-longitude|}}}}}}
+ |stroke-color={{{mapframe-stroke-color|{{{mapframe-stroke-colour|}}}}}}
+ }}
+}}
+|caption3 = {{yesno|{{{mapframe|yes}}}|no=|yes={{{mapframe-caption|}}}}}
+</pre>
+{{cob}}
+
+{{cot|Infobox power station}}
+{{tl|Infobox power station}} (as of [https://en.wikipedia.org/w/index.php?title=Template:Infobox_power_station&oldid=890573674 2 April 2019]):
+<pre>| image2        = {{#ifeq:{{{location_map|}}}|no|<!-- -->|{{Infobox mapframe
+                  |id                    = {{{qid|}}}
+                  |coord                 = {{{coordinates|}}}
+                  |frame-width           = {{Digits|1={{#if:{{{image_size|}}}|{{{image_size|}}}|300px}}}}
+                  |marker                = industrial
+                  |zoom                  = {{#if:{{{location_map_geomask|}}}|{{{location_map_zoom|}}}|{{{location_map_zoom|5}}}}}
+                  |geomask               = {{#ifeq:{{{location_map_geomask|}}}|Yes|P17|<!-- -->}}
+                  |geomask-stroke-width  = {{#ifeq:{{{location_map_geomask|}}}|Yes|0.5|<!-- -->}}
+                  |geomask-stroke-colour = {{#ifeq:{{{location_map_geomask|}}}|Yes|#000000|<!-- -->}}
+                  |geomask-fill          = {{#ifeq:{{{location_map_geomask|}}}|Yes|#BABABA|<!-- -->}}
+                  }}}}
+| caption2      = {{#ifeq:{{{location_map|}}}|no|<!-- -->|{{#if:{{{coordinates|}}}{{#property:P625}}|{{{location_map_caption|}}}}}}}
+</pre>
+{{cob}}
+
+{{cot|Infobox Australian road}}
+{{tl|Infobox Australian road}} (as of [https://en.wikipedia.org/w/index.php?title=Template:Infobox_Australian_road&oldid=918815119 5 October 2019]):
+<pre>
+| data3        = {{#ifexist:media:{{{location|}}}<!--
+-->|[[File:{{{location}}}|270px|frameless|alt={{{location_alt|{{{loc_alt|{{{alt|}}}}}}}}}]]<!--
+-->|{{{location|<!--
+   -->{{yesno| {{{mapframe|yes}}}<!--
+   -->|no=<!--
+   -->|yes={{Infobox mapframe | length_km={{{length|}}} }}<!-- Tracking category:
+    -->{{main other|{{#if:{{#property:P625}}|[[Category:Infobox Australian road articles with an infobox mapframe map|{{#if:{{{coordinates_a|}}}|π}}{{PAGENAME}}]]}}}}<!--
+   -->}}<!--
+ -->}}}<!--
+-->}}
+</pre>
+{{cob}}
+
+== See also ==
+* [[Wikipedia:Maps for Wikipedia]], a list of mapping tools available on Wikipedia
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+
+}}</includeonly>
+[[uk:Шаблон:Mapframe для карток/документація]]
