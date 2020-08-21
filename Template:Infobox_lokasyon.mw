@@ -17,7 +17,6 @@
 |flag_alt = {{{flag_alt|}}}
 |flag_size = {{{flag_size|110x80px}}}
 |seal_alt = {{{seal_alt|}}}
-|image_shield = {{{image_shield|{{#if:{{main other|{{#property:P158}}|{{#property:P158|from={{{qid|}}}}}}}||{{#invoke:wd|property|raw|best|{{{qid|}}}|P94}}}}}}}
 |shield_alt = {{{shield_alt|}}}
 |shield_size = {{{shield_size|100x80px}}}
 |nickname = {{{nickname|}}}
