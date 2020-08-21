@@ -1,0 +1,154 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{High risk| 2000000+ |all-pages = yes}}
+{{Warning|'''Please do not use redirects/shortcuts for this template''', as they cause problems with the [[User:Galobtter/Shortdesc helper|short description editing gadget]] and other maintenance tools.}}
+
+'''[[Template:Short description]]''' is used to add a [[Wikipedia:Short description|short description]] (which can be edited from within Wikipedia) to a Wikipedia page. 
+
+== Usage ==
+{{tld|Short description|''Write your short description here''}}
+
+== Parameters ==
+{{TemplateData header|noheader=1}}
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "Description",
+			"description": "The short description of the article",
+			"example": "Online free encyclopedia anyone can edit",
+			"required": true,
+			"type": "content"
+		},
+		"2": {
+			"label": "2",
+			"description": "Whether to override a short description if transcluded.  Should be unused or 'noreplace'.",
+			"example": "noreplace",
+			"required": false,
+			"type": "string"
+		},
+		"pagetype": {
+			"type": "string",
+			"description": "The type of page. This puts it in the appropriate category - Things with short description",
+			"example": "Redirect",
+			"required": false,
+			"default": "The namespace of the page."
+		},
+		"bot": {
+			"description": "Name of bot which added the short description. Should be generated automatically, as in [[Special:Diff/925779924]] ",
+			"example": "PearBOT 5",
+			"type": "string"
+		}
+	},
+	"description": "Creates a short description for a Wikipedia article, which is used in the Visual Editor to provide context on wikilinks.",
+	"format": "{{_|_ = _}}\n"
+}
+</templatedata>
+
+== About writing good short descriptions ==
+This page is about the short description ''template''—it does not provide guidelines for writing a good short description. However, [[Wikipedia:Short description]], offers quick, easy-to-understand guidelines for writing effective short descriptions. If you plan to use this template, you should make sure you understand [[Wikipedia:Short description#Content|how to write a good short description]].
+
+== Template information ==
+Eventually all articles should have a short description:
+* by directly using this template, in which case the short description will be unique to the article
+* transcluded in another template, such as a disambiguation template, where a generic short description is adequate for a large class of pages
+* where the short description is assembled from data in an infobox
+
+Automatically generated descriptions within templates should set the second parameter as {{code|noreplace}} so they do not override any short descriptions specifically added to the transcluding article.
+
+Short descriptions are not required in other namespaces, but in some cases may be useful.
+
+If the article title alone is sufficient to ensure reliable identification of the desired article, a null value of {{tnull|Short description|none}} may be used. However, this will not override the descriptions from Wikidata.
+
+Short descriptions do not necessarily serve the same function as the Wikidata description for an item and they do not have to be the same, but some overlap is expected in many cases.
+Some Wikidata descriptions may be unsuitable, and if imported, must be checked for relevance, accuracy and fitness for purpose. Responsibility for such imports lies with the importer.
+
+The idea is that a class can be set to display differently on desktop Wikipedia from how it displays on mobile view. The intention is to bring the short description within the ''immediate'' editing ability of most editors.
+
+=== Example ===
+At [[Oxygen therapy]], add the following at the top of the article:
+* {{tld|Short description|Use of oxygen as medical treatment}}
+or
+* {{tld|Short description|1{{=}}Use of oxygen as medical treatment}}
+Use the second form if the text of the short description contains an equals sign (=). Avoid this if possible, as it affects alternative uses of the short description as in {{tl|annotated link}} ({{Phab|T216356}}, if implemented, will make usage of annotated link unnecessary.)
+
+== Testing ==
+For testing purposes, the display of this template can be enabled by adding a line to your [[Special:MyPage/common.css]]:
+* <syntaxhighlight lang="CSS" inline>.shortdescription { display:block !important; }</syntaxhighlight>
+This can be easily removed or disabled when finished testing.
+
+If you wish to {{em|always}} see short descriptions, you may want a more utilitarian layout, such as:
+
+<syntaxhighlight lang="CSS">
+.shortdescription {
+  display:block !important;
+  white-space: pre-wrap;
+}
+.shortdescription::before { 
+  content: "\A[Short description:\0020";
+}
+.shortdescription::after { 
+  content: "]\A";
+}
+</syntaxhighlight>
+There is a test version of this template available as [[Template:Short description/test]] which displays its text by default.
+* {{tld|Short description/test}} displays the short description if supplied
+* {{tld|Short description/test}} displays nothing if <code>none</code> is supplied
+* {{tld|Short description/test}} displays the description from Wikidata if <code>wikidata</code> is supplied.
+
+Taking {{Q|Q1096878}} as an example:
+* <code><nowiki>{{short description/test|Underwater diving where breathing is from equipment independent of the surface}}</nowiki></code> → {{short description/test|Underwater diving where breathing is from equipment independent of the surface }}
+* <code><nowiki>{{short description/test|none }}</nowiki></code> → {{short description/test|none}}
+* <code><nowiki>{{short description/test|wikidata }}</nowiki></code> → {{short description/test|wikidata|qid=Q1096878}}
+
+===Pagetype parameter===
+
+If {{param|Pagetype}} is '''not''' set, then this template adds the article to a category based on the namespace:
+* {{clc|Articles with short description}}
+* {{clc|Books with short description}}
+* {{clc|Categories with short description}}
+* {{clc|Drafts with short description}}
+* {{clc|Files with short description}}
+* {{clc|Help pages with short description‎}}
+* {{clc|Modules with short description}}
+* {{clc|Portals with short description}}
+* {{clc|Project pages with short description}}
+* {{clc|Templates with short description}}
+* {{clc|User pages with short description‎}}
+* {{clc|Redirects with short description}} {{--}} for redirects in any namespace
+
+If {{param|Pagetype}} '''is''' set, then this template adds the article to a category matching the parameter. For example:
+* {{clc|Disambiguation pages with short description‎}} {{--}} {{code|pagetype {{=}} Disambiguation page}}
+
+== Aliases ==
+While there are <span class="plainlinks">[{{fullurl:Special:WhatLinksHere/Template:Short_description|hidetrans=1&hidelinks=1&limit=500}} redirects to this template]</span>, '''they should not be used'''.
+
+: Other templates and gadgets attempt to extract the description from pages by explicitly searching for the use of the {{tl|Short description}} template.
+: For example, {{tl|Annotated link}} searches for templates "Short description" or "short description".
+
+==Bot parameter== 
+Bots adding short descriptions without manual supervision should set {{para|bot}} with the value being the bot task. For example [[Wikipedia:Bots/Requests for approval/PearBOT 5]] uses <code>|bot=PearBOT 5</code>. Any user may remove the parameter if the description is acceptable. If it's not please report it to the bot operator.
+
+The bot name is added to the category. For example:
+* {{clc|Category:Articles with short description added by PearBOT 5}}
+
+== Maintenance categories ==
+* {{clc|Pages using short description with unknown parameters}}
+* {{clc|Articles with long short description}}
+* {{clc|Wikipedia pages with long short description‎}}
+* {{clc|Templates that generate short descriptions‎}}
+* {{clc|Modules that create a short description}}
+* {{clc|Category:Short description matches Wikidata}}
+* {{clc|Category:Short description is different from Wikidata}}
+* {{clc|Category:Short description with empty Wikidata description}}
+
+==See also ==
+
+* {{tl|Auto short description}}
+* [[Wikipedia:WikiProject Short descriptions]]
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+<!-- Category:Articles with short description (maintenance category)? -->
+[[Category:Templates that add a tracking category]]
+}}</includeonly>
