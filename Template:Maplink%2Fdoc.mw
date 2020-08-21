@@ -1,0 +1,414 @@
+{{Documentation subpage}}
+<includeonly>{{template shortcut|Mapframe}}</includeonly>
+{{Lua|Module:Mapframe}}
+{{Uses Wikidata|P625}}
+{{Sister project
+|image=[[File:Openstreetmap logo.svg|40x40px]]
+|text=This template uses the [[OpenStreetMap]] tag:
+*'''''[https://wiki.openstreetmap.org/wiki/Key:wikidata wikidata]''''' (see [https://wiki.openstreetmap.org/wiki/Talk:Key:wikidata talk]; [https://taginfo.openstreetmap.org/keys/wikidata taginfo])
+}}
+<!--{{High-use|2960}}-->
+<!-- PLEASE ADD CATEGORIES WHERE INDICATED AT THE BOTTOM OF THIS PAGE -->
+
+This template adds a link, or frame, which will display map data – either from:
+*data stored in GeoJSON format on Commons
+*line/polygon features in OpenStreetMap.
+*coordinates, either supplied or from Wikidata
+*raw GeoJSON, preferably transcluded from another page
+Note:
+*If you have a very large/slow map, you should use the <code>mapframe</code> extension tag directly instead of this template, as was done in [[Special:Diff/970846012]]. The reason for this is that using the template to call the extension tag will result in the map rendering counting as Lua time, which may result in time exceeded errors.
+*GeoJSON files cannot currently be directly uploaded. Instead, on [[c:|Commons]], create a page that is in the <code>Data:</code> namespace and ends in <code>.map</code> – see [[mw:Help:Map Data]] for further information.
+*To make OpenStreetMap (OSM) features available, add the Wikidata key to the OSM relation (and wait 1 or 2 days) – see [[mw:Help:Extension:Kartographer#External_data]] and [[mw:Help:Extension:Kartographer/OSM]] for further information.
+
+{{notice|You can use {{tlx|Infobox mapframe}} to generate a mapframe map, suitable for infoboxes, with minimal user input.}}
+==Uses==
+This template is intended for linear or polygon features, including (but not limited to):
+*Roads
+*Rivers
+*Subway or train lines
+*Ship courses
+*Flight paths
+*Explorers journeys
+*Animal habitats
+*Countries and their subdvisions
+and more...
+This template can also be used to display point features on a map, i.e. coordinates.
+
+==Usage==
+Basic usage
+*{{maplink|from=ecos.fws.gov/Endangered habitat 58938/Plethodon neomexicanus.map|text=Data page}} on Commons {{small|1=(e.g. [[c:Data:ecos.fws.gov/Endangered habitat 58938/Plethodon neomexicanus.map|Data:ecos.fws.gov/Endangered habitat 58938/Plethodon neomexicanus.map]])}}:
+*:<code><nowiki>{{maplink|from=}}</nowiki></code> (specify .map data page in from=, excluding Data prefix)
+*{{maplink|raw={{Wikipedia:Map data/Main Roads Western Australia/Forrest Highway}}|text=Raw GeoJSON data}} {{small|1=(e.g. <nowiki>{{</nowiki>[[Wikipedia:Map data/Main Roads Western Australia/Forrest Highway]]<nowiki>}}</nowiki>)}}:
+*:<code><nowiki>{{maplink|raw=}}</nowiki></code> (specify raw GeoJSON, preferably transcluded from a subpage of [[Wikipedia:Map data]])
+*{{maplink|type=line|id=Q1094308|text=Line of a border or a linear feature}} from OSM:
+*:<code><nowiki>{{maplink|type=line|id=}}</nowiki></code> (Wikidata id only required if another article's Wikidata page is to be used)
+*{{maplink|type=shape|id=Q1094308|text=Shape}} from OSM:
+*:<code><nowiki>{{maplink|type=shape|id=}}</nowiki></code> (Wikidata id only required if another article's Wikidata page is to be used)
+*{{maplink|type=shape-inverse|id=Q1094308|text=Inverted shape}} from OSM: 
+*:<code><nowiki>{{maplink|type=shape-inverse|id=}}</nowiki></code> (Wikidata id only required if another article's Wikidata page is to be used)
+*{{maplink|type=point|id=Q1094308|text=Point feature}} (coordinates):
+*:...from Wikidata:<br/><code><nowiki>{{maplink|type=point|id=}}</nowiki></code> (Wikidata id only required if another article's Wikidata page is to be used)
+*:...from specified coordinates:<br/><code><nowiki>{{maplink|type=point|coord=}}</nowiki></code> (specify coordinates using {{tl|Coord}} template)
+*{{maplink|type=named|from=Netherton Tunnel Branch Canal|text=All named coordinates}} from a page or section {{resize|1=({{tlx|coord}} templates using the {{para|name}} parameter)}}
+*:...from the current page: <code><nowiki>{{maplink|type=named}}</nowiki></code> or <code><nowiki>{{maplink|type=named|from=#Section}}</nowiki></code>
+*:...from another page: <code><nowiki>{{maplink|type=named|from=Other page}}</nowiki></code> or <code><nowiki>{{maplink|type=named|from=Other page#Section}}</nowiki></code>
+*{{maplink|type=circle|radius=1000|id=Q1094308|text=Circle}} (centred on a point's coordinates):
+*:...from Wikidata:<br/><code><nowiki>{{maplink|type=circle|radius=|id=}}</nowiki></code> (Wikidata id only required if another article's Wikidata page is to be used)
+*:...from specified coordinates:<br/><code><nowiki>{{maplink|type=circle|radius=|coord=}}</nowiki></code> (specify coordinates using {{tl|Coord}} template)
+*To show in a frame, add the parameter {{para|frame|yes}}.
+{{maplink|frame=yes|type=line|id=Q1094308|text=Mapframe example}}
+{{-}}
+*Additional parameters are available to customise the displayed map.
+{{maplink|frame=yes|plain=yes|type=line|id=Q1094308|frame-width=200|frame-height=250|frame-long=19.1009|frame-lat=47.5001|zoom=8}}
+{{-}}
+Full parameter set – data page
+<pre>
+{{maplink
+|display=
+|from=
+|zoom=
+|text=
+|icon=
+}}
+</pre>
+
+Full parameter set – raw data
+<pre>
+{{maplink
+|display=
+|raw= <!-- preferably {{Wikipedia:Map data/subpage}} -->
+|zoom=
+|text=
+|icon=
+}}
+</pre>
+
+Full parameter set – geoline/geoshape
+<pre>
+{{maplink
+|display=
+|type=
+|id=
+|title=
+|description=
+|stroke-color=
+|stroke-width=
+|zoom=
+|text=
+|icon=
+}}
+</pre>
+
+Full parameter set – point features/coordinates
+<pre>
+{{maplink
+|display=
+|type=point
+|id=
+|title=
+|description=
+|coord=
+|marker=
+|zoom=
+|text=
+|icon=
+}}
+</pre>
+
+
+Full parameter set – circles
+<pre>
+{{maplink
+|display=
+|type=circle
+|radius=  <!-- in metres, alternative parameters available for other units --> 
+|id=
+|title=
+|description=
+|coord=
+|marker=
+|zoom=
+|text=
+|icon=
+}}
+</pre>
+
+==Parameters==
+===For overall display===
+;display
+:How the template is displayed. Valid values are:
+::<code>inline</code> - Only displays the inline link (you can forego this, as it is the default)
+::<code>title</code> - Only displays the title link
+::<code>inline,title</code> - Displays the inline link as well as the title link
+::<code>title,inline</code> - Same as above
+;text
+:Text to display for the link (or caption if using mapframe); default is "Map"
+;icon
+:Set to "no" to turn off the icon that appears next to the link
+;zoom
+:Zoom level, from <code>1</code> to <code>19</code> (larger numbers zoom in further); default is automatically determined by the map, unless you the only feature is a single point.
+Mapframe parameters (only work with inline display)
+;frame
+:Set to "yes" to show a map frame instead of a link
+:;plain
+::Set to "yes" to show just the map without the surrounding frame, and without a caption ('''text''' parameter will be ignored)
+:;frame-align
+::Alignment with respect to the page: <code>left</code>, <code>center</code>, or <code>right</code>; default is <code>right</code> 
+:;frame-width
+::Width of the map frame, default is <code>300</code>
+:;frame-height
+::Height of the map frame, default is <code>200</code>
+:;frame-coordinates
+::''(or '''frame-coord''')''
+::Optional - alternate coordinates for initial placement of map. Use {{tl|Coord}} template to specify coordinates {{small|1=(e.g. {{para|frame-coordinates|2=<nowiki>{{Coord|12.34|S|56.78|W}}</nowiki>}})}}. If not set, coordinates will be retrieved from Wikidata.
+:;frame-latitude
+::''(or '''frame-lat''')''
+::''(ignored if ''{{para|frame-coordinates}}'' or ''{{para|frame-coord}}'' is set)''
+::Optional - alternate latitude coordinate for initial placement of map. 
+:;frame-longitude
+::''(or '''frame-long''')''
+::''(ignored if ''{{para|frame-coordinates}}'' or ''{{para|frame-coord}}'' is set)''
+::Optional - alternate longitude coordinate for initial placement of map.
+:{{a note}} If frame latitude and longitude are not set by parameters, then frame coordinates can be determined automatically, either:
+:*Based on the line and shape objects (if any have been specified), or
+:*From the point feature specified in {{para|[[#coord|coord]]}} (if set), or
+:*Retrieved from Wikidata (if available – for either the item specified in {{para|id}} parameter, or for the page the template is placed on)
+
+===Raw GeoJSON===
+;raw
+:Raw GeoJSON (preferably transcluded from a subpage of [[Wikipedia:Map data]]) as well as <nowiki><maplink></nowiki> functionality not available via the other parameters. [[#The raw parameter|See below]] for more information.
+
+===For each feature===
+Multiple features can be displayed on a single map. For each additional feature, add a sequential number to the end of the parameter name. For example, the second uses parameters like {{para|type2}}, {{para|id2}}, etc., the third feature {{para|type3}}, {{para|id3}}, etc., and so on.
+;type
+:Type of data. Valid values are:
+::<code>line</code> – a geoline feature from OSM (e.g. a road)
+::<code>shape</code> – a geoshape feature from OSM (e.g. a state or province)
+::<code>shape-inverse</code> – a geomask feature from OSM (the inverse of a geoshape - allows an unobstructed view of the map beneath)
+::<code>data</code> – a geoJSON data page on Commons (parameter is optional in this case)
+::<code>point</code> – a point feature (coordinates)
+::<code>named</code> – all named coordinates in an page or section ({{tlx|coord}} templates with {{para|name}} parameter)
+::<code>circle</code> – a circle centred on a point's coordinates
+;id
+:''(or '''ids''')''
+:Wikidata id (Q-number) of the point feature, Wikidata id that the OSM line/shape feature is tagged with. Separate multiple ids with a comma. Defaults to the current page's Wikidata id (if {{para|from}} not set).
+;from
+:Source of map data:
+:*If '''type''' is <code>data</code> or omitted: The JSON (.map) file from Commons to display (excluding the <code>Data:</code> prefix)
+:*If '''type''' is <code>named</code>: Page name, or name#section, to get named coordinates from. If omitted, or specified as just #section, then current page will be used.
+;title
+:Title of the feature (for features from OSM), displayed when the feature is clicked on; default is the page title
+;description
+:Description of the feature (for features from OSM), displayed when the feature is clicked on; optional
+;stroke-color
+:''(or '''stroke-colour''')''
+:Color code for the color used to draw the feature (for features from OSM); default is <code>#ff0000</code> (red)
+;stroke-width
+:Width for the lines used to draw the feature (for features from OSM); default is <code>6</code>
+;stroke-opacity
+:Opacity for the lines used to draw the feature (for features from OSM) – a number between <code>0</code> (fully transparent) and <code>1</code> (fully opaque); default is <code>1</code>
+;fill
+:Color code for the fill color of the feature (for shape or shape-inverse features from OSM); default is <code>#000000</code> (black). Note that a semi-transparent version of the specified color will be used by default, allowing the map below to still be seen.
+;fill-opacity
+:Opacity for the fill color of the feature (for shape or shape-inverse features from OSM) – a number between <code>0</code> (fully transparent) and <code>1</code> (fully opaque); default is <code>0.5</code>
+;{{anchor|coord}}coord
+:Coordinates to display for a point feature. Use {{tl|Coord}} template to specify coordinates  {{small|1=(e.g. {{para|coord|2=<nowiki>{{Coord|12.34|S|56.78|W}}</nowiki>}})}}. If not set, coordinates will be retrieved from Wikidata.
+;marker
+:Name of Maki marker image to display at the point feature. See [[mw:Maps/Icons]] for options. If not set, a plain marker will be shown without an image. 
+;marker-color
+:''(or '''marker-colour''')''
+:Color code ([[Web colors#Hex triplet|Hex triplet]]) specifying marker background color. Default is <code>5E74F3</code> ({{Color box|#5E74F3}})
+;marker-size
+:Size of the marker. Can be <code>small</code>, <code>medium</code> (default) or <code>large</code>.
+;radius
+:''(or '''radius_m'''), or alternative parameters '''radius_km''', or '''radius_mi''', or '''radius_ft'''''
+:Radius of the circle. In metres by default, or in kilometers or  miles or feet if the alternative parameters are used.
+;edges
+:Number of edges used to construct the circle. Default is <code>32</code>. Higher numbers will result in a smoother circle but use more Lua processing resources.
+
+==Multiple map switcher==
+An option for [[Template:Switcher]]-style switching of multiple mapframes, where specified parameters like zoom, or frame coordinates, or a shape's item id are switched between different values. When using, ensure the number of values in each list are the same.
+
+Instructions:
+# Add parameter '''switch''' to specify labels for the different options: a list separated by either{{code|,}}, or {{code|;}} if the labels contain commas, or {{code|###}} if the labels contain semi-colons. Each label will be displayed with a prefix of "Show ".
+#:Example: {{para|switch|zoomed out, zoomed mid, zoomed in}}
+# For each parameter that is to be switched, set its value to {{kbd|SWITCH:}} followed by a list of values to switch between, again separated by {{code|,}} or {{code|;}} or {{code|###}}
+#:Example: {{para|zoom|4,9,14}}
+#:Parameters '''frame''', '''plain''', and '''text''' should not be switched
+#Make sure each list has the same number of entries. The position of value in a {{kbd|SWITCH:}} list corresponds to the same position in the list of labels set in {{para|switch}}.
+Example: {{mapframe|frame=yes|type=point|id=Q100|text=Boston|zoom=SWITCH:4,9,14|switch=zoomed out, zoomed mid, zoomed in}}
+<pre>{{mapframe|frame=yes|type=point|id=Q100|text=Boston|zoom=SWITCH:4,9,14|switch=zoomed out, zoomed mid, zoomed in}}</pre>
+{{-}}
+
+==Examples and tips==
+===Multiple features===
+Multiple features allow you to:
+*Use external data from both Wikimedia Commons and OpenStreetMap together
+*Apply different styles to different external data features from OpenStreetMap
+*Include multiple links to external data from Wikimedia Commons
+
+{{Maplink|frame=yes
+|type=shape|id=Q3495894|title=Shape|description=Description of shape
+|type2=line|id2=Q1318331|title2=Line|description2=Description of line
+|type3=point|coord3={{coord|32|S|116|E}}|title3=Point|description3=Description of point
+}}
+<pre>{{Maplink|frame=yes
+|type=shape|id=Q3495894|title=Shape|description=Description of shape
+|type2=line|id2=Q1318331|title2=Line|description2=Description of line
+|type3=point|coord3={{coord|32|S|116|E}}|title3=Point|description3=Description of point
+}}
+</pre>
+{{-}}
+
+{{Maplink|frame=yes|plain=yes|frame-width=250|frame-height=280|zoom=6|frame-lat=29.185|frame-long=76.225
+|type=shape-inverse|id=Q1174|title=Haryana
+|type2=point|id2=Q200663|stroke-width=3|title2=Faridabad
+}}
+<pre>
+{{Maplink|frame=yes|plain=yes|frame-width=250|frame-height=280|zoom=6|frame-lat=29.185|frame-long=76.225
+|type=shape-inverse|id=Q1174|title=Haryana
+|type2=point|id2=Q200663|stroke-width=3|title2=Faridabad
+}}
+</pre>
+{{-}}
+
+===Infoboxes===
+Mapframes can be included in infoboxes. Using {{para|plain|yes}} to remove the outer frame is recommended.
+
+For simple cases with a single feature, {{tlx|infobox mapframe}} can be used instead (see that template's documentation for details).
+{{Infobox Australian road
+| road_name    = Mitchell Freeway
+| location     = {{maplink |type=line |frame=yes |plain=yes |frame-align=center |frame-lat=-31.8262 |frame-long=115.7877 |zoom=9 |id=Q1939502}}
+| loc_caption  = Map of Perth's northern suburbs with Mitchell Freeway highlighted in red
+| type         = freeway
+| show_links   = no
+}}
+
+<pre>
+{{Infobox Australian road
+| location = {{maplink |type=line |frame=yes |plain=yes |frame-align=center |frame-lat=-31.8262 |frame-long=115.7877 |zoom=9}}
+  ...  (other parameters omitted)  ...
+}}
+</pre>
+{{-}}
+
+=== The raw parameter ===
+The "raw" parameter allows the same inputs as the full <nowiki><maplink></nowiki> function. It allows you to:
+*Use GeoJSON data directly
+*Use Wikidata queries to obtain information for the map
+*Use templates - if a map includes direct GeoJSON or many components, placing the data in a template will avoid cluttering the article text
+See [[mw:Help:Extension:Kartographer]] for instructions.
+====Raw GeoJSON example====
+{{maplink|raw={{Wikipedia:Map data/Main Roads Western Australia/Forrest Highway}}|text=Route map}}
+<pre>
+{{maplink|raw={{Wikipedia:Map data/Main Roads Western Australia/Forrest Highway}}|text=Route map}}
+</pre>
+(Link to GeoJSON data subpage: [[Wikipedia:Map data/Main Roads Western Australia/Forrest Highway]])
+====Raw Wikidata query examples====
+{{maplink|frame=yes|text=Ten countries|raw={
+  "type": "ExternalData",
+  "service": "geoshape",
+  "query": "
+SELECT * WHERE {
+  ?id wdt:P463 wd:Q1065 .
+} LIMIT 10
+"}
+|frame-width=600|frame-height=400|frame-lat=25|frame-long=10|zoom=1
+}}
+<pre style=min-width:30em>
+{{maplink|frame=yes|text=Ten countries|raw={
+  "type": "ExternalData",
+  "service": "geoshape",
+  "query": "
+SELECT * WHERE {
+  ?id wdt:P463 wd:Q1065 .
+} LIMIT 10
+"}
+|frame-width=600|frame-height=400|frame-lat=25|frame-long=10|zoom=1
+}}
+</pre>
+{{-}}
+
+{{maplink|frame=yes|raw={
+  "type": "ExternalData",
+  "service": "geoshape",
+  "query": "
+SELECT ?id ?head
+  (SAMPLE(?img) as ?img_) 
+  (min(?partyId) as ?party) 
+  (if(?party = '0', '#800000', if(?party = '1', '#000080', '#008000')) as ?fill)
+  (concat('[[', substr(str(?link),31,500),  '{{!}}', ?headLabel, ']]') as ?title)
+  (concat(?stateLabel, '\\n', '[[File:', substr(str(?img_), 52, 500), '{{!}}200px]]') as ?description)
+WHERE {  
+  ?id wdt:P31 wd:Q35657 .
+  ?id wdt:P6 ?head .
+  ?head wdt:P102 ?party .
+  BIND(if(?party = wd:Q29468, '0', if(?party = wd:Q29552, '1', '2')) as ?partyId) 
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language 'en' .
+    ?head rdfs:label ?headLabel .
+    ?id rdfs:label ?stateLabel .
+  }
+  OPTIONAL {
+    ?head wdt:P18 ?img .
+  }
+  ?link schema:about ?head .
+  ?link schema:isPartOf <https://en.wikipedia.org/> .
+} GROUP BY ?id ?head ?headLabel ?link ?stateLabel
+"}|frame-width=600|frame-height=400|frame-lat=52|frame-long=-110|zoom=3}}
+<pre style=min-width:30em>
+{{maplink|frame=yes|raw={
+  "type": "ExternalData",
+  "service": "geoshape",
+  "query": "
+SELECT ?id ?head
+  (SAMPLE(?img) as ?img_) 
+  (min(?partyId) as ?party) 
+  (if(?party = '0', '#800000', if(?party = '1', '#000080', '#008000')) as ?fill)
+  (concat('[[', substr(str(?link),31,500),  '{{!}}', ?headLabel, ']]') as ?title)
+  (concat(?stateLabel, '\\n', '[[File:', substr(str(?img_), 52, 500), '{{!}}200px]]') as ?description)
+WHERE {  
+  ?id wdt:P31 wd:Q35657 .
+  ?id wdt:P6 ?head .
+  ?head wdt:P102 ?party .
+  BIND(if(?party = wd:Q29468, '0', if(?party = wd:Q29552, '1', '2')) as ?partyId) 
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language 'en' .
+    ?head rdfs:label ?headLabel .
+    ?id rdfs:label ?stateLabel .
+  }
+  OPTIONAL {
+    ?head wdt:P18 ?img .
+  }
+  ?link schema:about ?head .
+  ?link schema:isPartOf <https://en.wikipedia.org/> .
+} GROUP BY ?id ?head ?headLabel ?link ?stateLabel
+"}|frame-width=600|frame-height=400|frame-lat=52|frame-long=-110|zoom=3}}
+</pre>
+{{-}}
+
+===Gotchas===
+*When retrieving lines or shapes from OSM, you can't style the fill color or the opacity level of fills or strokes (unless you use the {{para|raw}} parameter)
+*The following code utilising the {{para|raw}} parameter won't work because the curly brace to close the GeoJSON is adjacent to the curly braces to close the template:
+<pre>{{Maplink|raw= {"type": "ExternalData","service": "geoshape","ids": "Q13518258"}}}</pre>
+:To fix it, put a space before the two template braces or move them to a separate line.
+
+== Tutorials ==
+* [[Wikipedia:Creating route maps from OpenStreetMap data]]
+* [[Wikipedia:Creating shape maps from OpenStreetMap data]]
+
+== Redirects ==
+* {{tlf|Map link}}
+* {{tlf|Mapframe}}
+
+== See also ==
+*[[Wikipedia:Maps for Wikipedia]], a list of mapping tools available on Wikipedia
+*[[Template:Mapbox]] – a derivative of this template that puts the link inside a right-aligned box
+*[[Template:Attached KML]]
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Coordinates templates]]
+[[Category:Map templates]]
+[[Category:Exclude in print]]
+}}</includeonly>
