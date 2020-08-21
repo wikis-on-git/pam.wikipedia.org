@@ -1,0 +1,12 @@
+{{Documentation subpage}}
+{{Uses Wikidata|P988}}
+
+== Usage ==
+This template utilizes the article's PSGC code supplied at Wikidata, and is used in Philippine city or municipality pages to cite the LWUA population data (at least the 1990 population figures).
+
+<code><nowiki>{{LWUA population data}}</nowiki></code>
+
+
+<includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox | |
+[[Category:Philippines templates]]
+}}</includeonly>
