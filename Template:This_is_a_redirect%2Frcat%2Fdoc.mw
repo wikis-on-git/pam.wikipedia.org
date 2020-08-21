@@ -1,0 +1,26 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+== Usage ==
+This template subpage is used to illustrate the {{tl|Redirect category shell}} (''Rcat shell'') template on [[wp:redirect|redirect]] category ([[wp:rcat|rcat]]) template pages.  This template should be surrounded by <nowiki><noinclude></nowiki> tags so it will not be a part of the transcluded rcat.
+:{{small|''The "&#60;/noinclude>" closing tag (with a " / " at the beginning) must go before "real" template code directly, without intervening spaces or line breaks (or it will introduce unnecessary whitespace).''}}
+Place this template at the TOP of an rcat page to illustrate the ''Redirect category shell'' template on that page.
+:{{green|'''''Correct:'''''}}
+<pre>
+<noinclude>{{This is a redirect/rcat}}
+</noinclude>{{Redirect template ...
+</pre>
+:{{red|'''''Incorrect:'''''}}
+<pre>
+<noinclude>{{This is a redirect/rcat}}</noinclude>
+{{Redirect template ...
+</pre>
+
+== See also ==
+* {{tl|Redirect category shell/Comparison}} – compare the ''Redirect category shell'' and ''This is a redirect'' templates' usage to the individual use of rcats.
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:WikiProject Redirect templates|This is a redirect/rcat]]
+[[Category:Redirect templates| ]]
+
+}}</includeonly>
