@@ -28,26 +28,9 @@
 |pushpin_map_alt = {{{pushpin_map_alt|}}}
 |pushpin_mapsize = {{{pushpin_mapsize|280px}}}
 |pushpin_relief = {{{pushpin_relief|}}}
-|pushpin_map_caption = {{{pushpin_map_caption|}}}}}
+|pushpin_map_caption = {{{pushpin_map_caption|}}
 
-|coordinates = {{{coordinates|{{#if:{{#invoke:Wikidata|pageId}}{{{qid|}}}|{{coord/display/{{main other|inline,title|inline}}|{{#tag:maplink|
-[
- {
-      "type": "ExternalData",
-      "properties": { "fill": "#FF0000", "fill-opacity": 0.1, "stroke": "#FF9999" },
-      "service": "geoshape",
-      "ids": "{{{qid|{{#invoke:Wikidata|pageId}}}}}"
-  },
-  {
-  "type": "Feature",
-  "geometry": { "type": "Point", "coordinates": [{{#invoke:WikidataIB |getValue |maxvals =1 |P625 |fwd=ALL |osd=no |qid={{{qid|}}} |noicon=true |show=longlat}}] },
-  "properties": {
-    "title": "Kinamumugtakan kan {{#invoke:wd|label|{{{qid|}}}}}",
-    "marker-color": "0050d0",
-    "marker-symbol": "circle-stroked"
-    }
-  }
-]
+
 |longitude = {{#invoke:WikidataIB |getValue |maxvals =1|P625 |fwd=ALL |osd=no |qid={{{qid|}}}|noicon=true |show=long}}
 |latitude = {{#invoke:WikidataIB |getValue |maxvals =1|P625 |fwd=ALL |osd=no |qid={{{qid|}}} |noicon=true |show=lat}}
 |zoom = {{{zoom|10}}}
