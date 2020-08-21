@@ -5,7 +5,8 @@
 | image_seal             = {{PH wikidata|image_seal}}
 | seal_size              = 100x80px
 | image_map              = {{PH wikidata|image_map}}
-| image_map1             = {{Infobox mapframe|frame-width=230}}
+| map_caption            = {{PH wikidata|map_caption}}
+| image_map1             = {{Infobox mapframe|id={{#invoke:Wikibase|id}}}}
 | coordinates            = {{PH wikidata|coordinates}}
 |native_name = {{{native_name|}}}
 |official_name = {{{official_name|}}}
