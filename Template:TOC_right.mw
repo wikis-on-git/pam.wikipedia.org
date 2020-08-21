@@ -1,0 +1,5 @@
+<templatestyles src="Template:TOC_right/styles.css" />{{#if:{{{limit|}}}|<templatestyles src="Template:TOC limit/styles.css" />}}<!--
+--><div class="tocright {{#if:{{{clear|}}}|tocright-clear-{{{clear|}}}}} {{#if:{{{limit|}}}|toclimit-{{{limit}}}}}" style="{{#if:{{{width|{{{1|}}}}}}|width: {{{width|{{{1}}}}}};}}">__TOC__</div><noinclude>
+{{documentation}}
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
+</noinclude>
