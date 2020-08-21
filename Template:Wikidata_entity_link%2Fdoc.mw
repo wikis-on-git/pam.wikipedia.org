@@ -1,0 +1,56 @@
+{{Documentation subpage}}
+<!-- Template categories go at the bottom of this page. -->
+{{Template shortcut|Q|wde|WDE|wdq|WDQ}}
+{{Lua|Module:Wd}}
+
+'''{{NAMESPACE}}:{{BASEPAGENAME}}''' is used to get an automatically localized link to a Wikidata item or property.
+
+== Usage examples ==
+; Standard usage
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}}}}</code> → {{{{BASEPAGENAME}} }}
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|1}}</code> → {{{{BASEPAGENAME}}|1}}
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|Q1}}</code> → {{{{BASEPAGENAME}}|Q1}}
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|P681}}</code> → {{{{BASEPAGENAME}}|P681}}
+
+; Leading/trailing white space
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}} | 1 }}</code> → {{{{BASEPAGENAME}} | 1 }}
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}} | Q1 }}</code> → {{{{BASEPAGENAME}} | Q1 }}
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}} | P681 }}</code> → {{{{BASEPAGENAME}} | P681 }}
+
+; Lower case
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}} | q1 }}</code> → {{{{BASEPAGENAME}} | q1 }}
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}} | p681 }}</code> → {{{{BASEPAGENAME}} | p681 }}
+
+; Template shortcuts
+: <code><nowiki>{{</nowiki>q|1}}</code> → {{q|1}}
+: <code><nowiki>{{</nowiki>wde|Q1}}</code> → {{wde|Q1}}
+: <code><nowiki>{{</nowiki>wdq|P681}}</code> → {{wdq|P681}}
+
+== TemplateData ==
+{{TemplateData header}}
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "iterm or property number",
+			"description": "The letter P is required when linking to properties. The letter Q is optional when linking to items.",
+			"example": "Q42, 42, P23",
+			"type": "line",
+			"suggested": true
+		}
+	}
+}
+</templatedata>
+
+== See also ==
+* [[Wikidata:Template:Q]]
+* [[Wikidata:Template:Property]]
+* [[Template:Label]]
+* [[Template:Wikidata property]]
+* [[Template:Wikidata property link]]
+* {{tl|QID}}
+
+<includeonly>{{Sandbox other||
+<!-- Template categories go here. -->
+[[Category:Wikidata templates]]
+}}</includeonly>
