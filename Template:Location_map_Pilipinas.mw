@@ -1,0 +1,28 @@
+{{#switch:{{{1}}}|
+|name   = Pilipinas
+|top = 21.2
+|bottom = 4.3
+|left = 114.1
+|right = 127.3
+|image = Philippines location map.svg
+
+}}<noinclude>[[Image:Philippines location map.svg|right|thumb|250px]]
+{| class="wikitable" width="240"
+|-
+| align="center" colspan="2" style="background-color:#DDD; color:#000" | '''Coordinates'''
+|-
+| Top     || 21.2
+|-
+| Bottom  || 4.3
+|-
+| Left    || 114.1
+|-
+| Right   || 127.3
+|}
+see {{tl|Location map}}
+</noinclude>
+
+<noinclude>
+
+
+</noinclude>
