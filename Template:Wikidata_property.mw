@@ -1,0 +1,8 @@
+{{Sister project
+| position = {{{position|}}}
+| project  = data
+| text     = [[Wikidata]] has the propert{{#if:{{{2|}}}|ies|y}}: 
+{{#invoke:Uses Wikidata|usesProperty}}
+}}<noinclude>
+{{documentation}}<!-- Add categories and interwikis to the /doc sub-page -->
+</noinclude>
