@@ -6,7 +6,6 @@
 | seal_size              = 100x80px
 | image_map              = {{PH wikidata|image_map}}
 | map_caption            = {{PH wikidata|map_caption}}
-| image_map1             = {{Infobox mapframe|id={{#invoke:Wikibase|id}}}}
 | native_name            = {{{native_name|}}}
 | official_name          = {{{official_name|}}}
 | settlement_type        = {{PH wikidata|settlement_type}}
