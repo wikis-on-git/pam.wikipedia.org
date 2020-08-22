@@ -23,15 +23,18 @@
 |Capiz = VI
 |Catanduanes = V
 |Cavite = IV-A
+|Kabite = IV-A
 |Cebu = VII
-|Compostela Valley = XI
+|Davao de Oro = XI
 |Cotabato = XII
 |Davao del Norte = XI
 |Davao del Sur = XI
 |Davao Occidental = XI
 |Davao Oriental = XI
 |Dinagat Islands = XIII
+|Kapuluang Dinagat = XIII
 |Eastern Samar = VIII
+|Silangang Samar = VIII
 |Guimaras = VI
 |Ifugao = CAR
 |Ilocos Norte = I
@@ -49,9 +52,10 @@
 |Masbate = V
 |Misamis Occidental = X
 |Misamis Oriental = X
-|Mountain Province = CAR
+|Lalawigang Bulubundukin = CAR
 |Negros Occidental = VI
 |Negros Oriental = VII
+|Hilagang Samar = VIII
 |Northern Samar = VIII
 |Nueva Ecija = III
 |Nueva Vizcaya = II
@@ -69,7 +73,9 @@
 |Siquijor = VII
 |Sorsogon = V
 |South Cotabato = XII
+|Timog Cotabato = XII
 |Southern Leyte = VIII
+|Katimugang Leyte = VIII
 |Sultan Kudarat = XII
 |Sulu = BARMM
 |Surigao del Norte = XIII
@@ -81,5 +87,6 @@
 |Zamboanga del Sur = IX
 |Zamboanga Sibugay = IX
 |Metro Manila = NCR
-|#default = {{{1|}}}{{<includeonly>safesubst:</includeonly>#ifeq:{{<includeonly>safesubst:</includeonly>#property:P31}}|province of the Philippines||{{<includeonly>safesubst:</includeonly>PH wikidata/region default}}}}
+|Kalakhang Maynila = NCR
+|#default = {{{1|}}}{{#ifeq:{{#property:P31}}|province of the Philippines||{{PH wikidata/region default}}}}
 }}
