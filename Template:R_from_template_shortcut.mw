@@ -1,0 +1,14 @@
+<noinclude>{{This is a redirect/rcat}}
+</noinclude>{{Redirect template
+  |name=From a template shortcut
+  |from=a shortcut page name '''in ''any'' [[WP:namespace|namespace]]'''
+  |to=a page in [[WP:template namespace|template namespace]]
+  |info=** ''If target page is '''not''' a template, then use {{tl|R from shortcut}} instead.''
+** Template shortcuts are [[wikilink]]ed on community pages, talk pages and edit summaries, but not in [[wp:mainspace|mainspace]] articles.  [[WP:Transclusion|Transclusion]]s in mainspace are common and do not need to be "[[WP:NOTBROKEN|fixed]]".
+** '''Note:'''  ''Template talk pages are in a [[wp:talk namespace|talk namespace]]; they are '''''not''''' in the template namespace.  All shortcuts to talk pages should be tagged with {{tlc|R from shortcut}}.''
+  |all category=Redirects from template shortcuts
+  |printworthy=no
+}}<noinclude>
+<!-- Place categories on /doc subpage; interwikis go to Wikidata. -->
+{{Documentation}} 
+</noinclude>
