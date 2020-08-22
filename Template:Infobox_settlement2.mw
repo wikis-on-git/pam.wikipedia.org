@@ -882,9 +882,9 @@
 | label143 = {{{blank7_name_sec2}}}
 |  data143 = {{#if:{{{blank7_name_sec2|}}}|{{{blank7_info_sec2|}}}}}
 
-<!-- ***Websityo*** -->
+<!-- ***Websayt*** -->
 | rowclass146 = mergedtoprow
-| label146 = Websityo
+| label146 = Websayt
 |  data146 = {{#if:{{{website|}}}|{{{website}}}}}
 
 <!-- ***Footnotes*** -->
