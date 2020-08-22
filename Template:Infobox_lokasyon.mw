@@ -10,7 +10,7 @@
 | coordinates            = {{PH wikidata|coordinates}}
 | native_name            = {{{native_name|}}}
 | official_name          = {{{official_name|}}}
-| settlement_type        = {{#property:P31}}
+| settlement_type        = {{PH wikidata|settlement_type}}
 | subdivision_type1      = [[Ding Labuad ning Filipinas|Labuad]]
 | subdivision_name1      = {{PH wikidata|region}}
 | subdivision_type2      = [[Ding Lalawigan ning Filipinas|Lalawigan]]
