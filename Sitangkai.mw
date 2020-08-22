@@ -1,80 +1,49 @@
-{{Infobox Philippine municipality |
- infoboxtitle  = Balen ning Sitangkai |
- sealfile      =  |
- locatormapfile= Ph_locator_tawi-tawi_sitangkai.png  |
- caption       = Mapa ning [[Tawi-Tawi]] papakit en ing karinan ning Sitangkai. |
- region        = [[Autonomous Region in Muslim Mindanao]] |
- province      = [[Tawi-Tawi]] |
- districts     = [[Legislative district of Tawi-Tawi|Lone district of Tawi-Tawi]] |
- barangays     = 9 |
- class         =  |
- mayor         =  | 
- founded       = [[Agostu 26]], [[1959]]  |
- pop2000       =  28,257 |
- popden2000    = |
- areakm2       =  |
- coordinates   =  |
-}}
+{{Infobox lokasyon}}
 
-{{Philippine Census			
-| title = Sensus ning Populasyun <br> Sitangkai, Tawi-Tawi
-| 1990 = 34493		
-| 1995 = 36027		
-| 2000 = 52772		
-| 2007 = 40641		
-| 2010 = 30514		
-| 2015 = 		
-| 2020 = 		
-| 2025 = 		
-| 2030 = 		
-|}}
-
-Ing '''Sitangkai''' metung yang   [[Ding Balen ning Filipinas|balen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Tawi-Tawi|Tawi-Tawi]], [[Filipinas]].  Agpang keng [[2000]] sensus, atin yang populasyun a 52,772 a katau kareng 8,969 a pamimalemale.
-
-
+Ing '''Sitangkai''' metung yang   [[Ding Balen ning Filipinas|balen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Tawi-Tawi|Tawi-Tawi]], [[Filipinas]].  Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ==Deng Barangay==
 
 Ing Sitangkai atin  yang 9 a [[barangay]].
-{|class=wikitable
-!Barangay
-!Populasyun <br>([[2000]])
-|-
-|Datu Baguinda Putih
-|align="right"|5,518      
-|-
-|Imam Sapie
-|align="right"|3,034      
-|-
-|North Larap
-|align="right"| 2,383            
-|-
-|Panglima Alari
-|align="right"|6,121          
-|-
-|Sipangkot
-|align="right"|3,703      
-|-
-|Sitangkai Poblacion
-|align="right"|3,196      
-|-
-|South Larap (Larap)
-|align="right"| 1,162      
-|-
-|Tongmageng
-|align="right"|  1,333            
-|-
-|Tongusong
-|align="right"|1,807      
-|}
+<table border=0><tr>
+<td valign=top>
+* South Larap (Larap)
+* Ligayan
+* Nunukan
+* Sitangkai Poblacion
+* Sibutu (Pob.)
+* Talisay
+* Tandu Banak
+* Taungoh
+* Tongehat
+* Tongmageng
+* Tongsibalo
+* Tongusong
+* Ungus-ungus
+</td><td valign=top>
+* Ambulong Sapal
+* Datu Amilhamja Jaafar
+* Datu Baguinda Putih
+* Hadji Imam Bidin
+* Hadji Mohtar Sulayman
+* Hadji Taha
+* Imam Hadji Mohammad
+* Imam Sapie
+* North Larap
+* Panglima Alari
+* Sheik Makdum
+* Sipangkot
+</td></tr></table>
 
-==Suglung Palwal==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 {{Tawi-Tawi}}
-
-{{coor title dm|4|40|N|119|24|E|region:PH_type:city}}
-
 [[Category:Balen ning Tawi-Tawi]]
