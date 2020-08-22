@@ -1,0 +1,69 @@
+{{Documentation subpage}}
+{{Nosubst}}
+{{Twinkle standard installation}}
+{{Template shortcuts|flux|live}}
+{{Lua|Module:Unsubst}}
+
+This template displays the tag above and adds articles to [[:Category:Current events]] or one of its dated subcategories.
+
+==Guidelines==
+:*Note that every article on Wikipedia has a [[Wikipedia:General disclaimer|General disclaimer]] indicating that the article contents may not be accurate.
+:* As an advisory to editors, the template may optionally be used in those extraordinary occasions that many editors (perhaps a hundred or more) edit an article on the same day, for example, in the case of natural disasters or other breaking news.
+:* It is not intended to be used to mark an article that merely has recent news articles about the topic; if it were, hundreds of thousands of articles would have this template, with no informational consequence.
+:* Generally it is expected that this template and its closely related templates will appear on an article for less than a day; occasionally longer.
+:* If you desire that an article be noticed as a topic about or related to a significant current event, see [[Wikipedia:How the Current events page works]], and also [[Wikipedia:In the news/Candidates]]
+:''[{{fullurl:Special:Whatlinkshere/Template:{{BASEPAGENAME}}|limit=999&namespace=0}} Check main (article) namespace links]''
+
+==Usage==
+The template takes three parameters:
+* Parameter 1 overrides the word "article"
+* Parameter 2 overrides the words "current event"
+* Named parameter "date" categorizes into a monthly sub category for ease of maintenance. This will be added by a [[WP:BOT|bot]] if omitted.
+
+===Examples===
+{{Current/examples}}
+
+==Template data==
+{{TemplateDataHeader}}
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "Type (typically section)",
+			"description": "Something to replace \"article\" in the template, typically \"section\"",
+			"type": "string",
+			"default": "article"
+		},
+		"2": {
+			"label": "Type",
+			"description": "Allows modification of the current link instead of displaying \"current event\"",
+			"example": "current aviation incident",
+			"type": "string",
+			"suggested": true
+		},
+		"date": {
+			"label": "Date",
+			"description": "The month and year that the article is identified as current.",
+			"example": "May 2015",
+			"type": "date",
+			"required": true
+		}
+	},
+	"description": "This template generates a tag to indicate that the article documents a current event."
+}
+</templatedata>
+
+==Redirects==
+* {{tl|Current section}}
+
+==See also==
+* [[Wikipedia:Current event templates]]
+* {{tl|Currentdate}}
+* {{tl|Speculation}}
+* {{tl|In use}}
+* {{tl|Recentism}}
+* {{tl|Update}}
+
+<includeonly>{{Sandbox other||
+[[Category:Temporal templates]]
+}}</includeonly>
