@@ -1,0 +1,22 @@
+{{Documentation subpage}}
+{{tsh|nbhyph|nbh}}
+{{tl|Non breaking hyphen}} produces a [[non-breaking hyphen]] (see [[WP:Nonbreaking hyphen]]).
+
+==Usage==
+<code><nowiki>{{Non breaking hyphen}}</nowiki></code>
+
+==Character==
+The character used is {{unichar|2011|NON-BREAKING HYPHEN|html=}}
+
+==Redirects==
+*{{tlx|nbhyph}}
+
+==See also==
+*{{lt|nbsp}}
+*{{lt|shy}}
+*{{lt|spaces}}
+*{{lt|zwsp}} (zero-width space)
+
+<includeonly>{{Sandbox other||
+[[Category:Character-substitution templates]]
+}}</includeonly>
