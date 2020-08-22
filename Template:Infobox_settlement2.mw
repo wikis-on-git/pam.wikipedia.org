@@ -485,7 +485,7 @@
 | label76 = &nbsp;•&nbsp;Ranggo
 |  data76 = {{#if:{{{elevation_min_m|}}}{{{elevation_min_ft|}}}|{{{elevation_min_rank|}}}}}
 
-<!-- ***Populasyon*** -->
+<!-- ***Populasyun*** -->
 | rowclass77 = mergedtoprow
 | label77 = Populasyun ({{wikidata|qualifier|single|P1082|P585}})
 |  data77 = {{#if:{{{population|}}}
@@ -503,7 +503,7 @@
   |{{#ifeq:{{{total_type}}}|&nbsp;
      |
      |{{#if:{{{population_total|}}}{{{population_urban|}}}{{{population_rural|}}}{{{population_metro|}}}{{{population_blank1|}}}{{{population_blank2|}}}{{{population_est|}}}
-       |Populasyon <div style="font-weight:normal;display:inline;">{{#if:{{{population_as_of|}}}|({{{population_as_of}}})}}{{{population_footnotes|}}}</div>
+       |Populasyun <div style="font-weight:normal;display:inline;">{{#if:{{{population_as_of|}}}|({{{population_as_of}}})}}{{{population_footnotes|}}}</div>
       }}
     }}
   }}
@@ -524,7 +524,7 @@
 | label80 = &nbsp;•&nbsp;Pigtatantya&nbsp;<div style="font-weight:normal;display:inline;">({{{pop_est_as_of}}}){{{pop_est_footnotes|}}}</div>
 |  data80 = {{#if:{{{population_est|}}}|{{formatnum:{{{population_est}}}}} }}
 
-<!-- ***Ranggo nin densidad nin populasyon*** -->
+<!-- ***Ranggo nin densidad nin Populasyun*** -->
 | rowclass81 = mergedrow
 | label81 =&nbsp;•&nbsp;Ranggo
 |  data81 = {{{population_rank|}}}
@@ -545,7 +545,7 @@
       |name ={{{subdivision_name}}}
     }}}}
 
-<!-- ***Ranggo nin densidad nin Populasyon*** -->
+<!-- ***Ranggo nin densidad nin Populasyun*** -->
 | rowclass83 = mergedrow
 | label83 = &nbsp;•&nbsp;Ranggong&nbsp;densidad
 |  data83 = {{{population_density_rank|}}}
