@@ -1,0 +1,1 @@
+<includeonly>{{#switch:{{#invoke:Math|max|0|{{#Invoke:Math|precision|{{{1}}}}}|{{#Invoke:Math|precision|{{{2}}}}}}}|0=d|1|2=dm|dms}}</includeonly><noinclude>{{template doc}}</noinclude>
