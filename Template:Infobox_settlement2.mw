@@ -446,9 +446,9 @@
       |name={{{subdivision_name}}}
     }} }}
 
-<!-- ***Elebasyon*** -->
+<!-- ***Elebasyun*** -->
 | rowclass72 = mergedtoprow
-| label72 = Elebasyon<div style="font-weight:normal;display:inline;">{{{elevation_footnotes|}}}{{#if:{{{elevation_point|}}}|&#32;({{{elevation_point}}})}}</div>
+| label72 = Elebasyun<div style="font-weight:normal;display:inline;">{{{elevation_footnotes|}}}{{#if:{{{elevation_point|}}}|&#32;({{{elevation_point}}})}}</div>
 |  data72 = {{#if:{{{elevation_m|}}}{{{elevation_ft|}}}
  |{{infobox_settlement/lengthdisp
       |m   ={{{elevation_m|}}}
@@ -458,7 +458,7 @@
     }} }}
 
 | rowclass73 = {{#if:{{{elevation_m|}}}{{{elevation_ft|}}}|mergedrow|mergedtoprow}}
-| label73 = Pinakahalangkaw&nbsp;na&nbsp;elebasyon<div style="font-weight:normal;display:inline;">{{{elevation_max_footnotes|}}}{{#if:{{{elevation_max_point|}}}|&#32;({{{elevation_max_point}}})}}</div>
+| label73 = Pinakahalangkaw&nbsp;na&nbsp;Elebasyun<div style="font-weight:normal;display:inline;">{{{elevation_max_footnotes|}}}{{#if:{{{elevation_max_point|}}}|&#32;({{{elevation_max_point}}})}}</div>
 |  data73 = {{#if:{{{elevation_max_m|}}}{{{elevation_max_ft|}}}
  |{{infobox_settlement/lengthdisp
       |m   ={{{elevation_max_m|}}}
@@ -466,13 +466,13 @@
       |pref={{{unit_pref}}}
       |name={{{subdivision_name}}}
     }} }}
-<!-- ***Pinakamaluyang ranggo nin elebasyon*** -->
+<!-- ***Pinakamaluyang ranggo nin Elebasyun*** -->
 | rowclass74 = mergedrow
 | label74 = &nbsp;•&nbsp;Ranggo
 |  data74 =  {{#if:{{{elevation_max_m|}}}{{{elevation_max_ft|}}}| {{{elevation_max_rank|}}} }}
 
 | rowclass75 = {{#if:{{{elevation_min_rank|}}}|mergedrow|mergedbottomrow}}
-| label75 = Pinakahababang&nbsp;elebasyon<div style="font-weight:normal;display:inline;">{{{elevation_min_footnotes|}}}{{#if:{{{elevation_min_point|}}}|&#32;({{{elevation_min_point}}})}}</div>
+| label75 = Pinakahababang&nbsp;Elebasyun<div style="font-weight:normal;display:inline;">{{{elevation_min_footnotes|}}}{{#if:{{{elevation_min_point|}}}|&#32;({{{elevation_min_point}}})}}</div>
 |  data75 = {{#if:{{{elevation_min_m|}}}{{{elevation_min_ft|}}}
   |{{infobox_settlement/lengthdisp
       |m   ={{{elevation_min_m|}}}
@@ -480,7 +480,7 @@
       |pref={{{unit_pref}}}
       |name={{{subdivision_name}}}
     }} }}
-<!-- ***Pinakamaluyang ranggo nin elebasyon*** -->
+<!-- ***Pinakamaluyang ranggo nin Elebasyun*** -->
 | rowclass76 = mergedrow
 | label76 = &nbsp;•&nbsp;Ranggo
 |  data76 = {{#if:{{{elevation_min_m|}}}{{{elevation_min_ft|}}}|{{{elevation_min_rank|}}}}}
