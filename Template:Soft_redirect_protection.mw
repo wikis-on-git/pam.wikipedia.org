@@ -1,0 +1,7 @@
+<includeonly>{{#switch:{{PROTECTIONLEVEL:edit}}
+|autoconfirmed=[[Category:Protected soft redirects]]
+|extendedconfirmed|templateeditor
+|sysop=[[Category:Protected soft redirects]]
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
