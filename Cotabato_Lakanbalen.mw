@@ -1,25 +1,6 @@
-{{Infobox Philippine city |
- infoboxtitle = City of Cotabato |
- sealfile     = Ph_seal_cotabato_city.png |
- locatormapfile = Ph_locator_maguindanao_cotabato.png |
- caption      = Map of [[Maguindanao]] showing the location of Cotabato City. |
- region       = [[Bangsamoro|Bangsamoro Autonomous Region in Muslim Mindanao]] (BARMM) |
- districts    = [[Legislative districts of Maguindanao#1st District|1st District of Maguindanao]] |
- province     = — |
- barangays    = 37 |
- class        = 2nd class city|
- mayor        = Muslimin G. Sema ([[Lakas-CMD]]) |
- cityhood     = [[June 20]], [[1959]] |
- areakm2      = 176.00 |
- pop2000      = 150,450 |
- popden2000   = 855 |
- website      = [http://www.cotabatocity.gov.ph www.cotabatocity.gov.ph]|
- coordinates  = |
-}}
-Ing '''Lakanbalen ning Cotabato''' pang5 yang klasing [[Ding Lakanbalen ning Filipinas|lakanbalen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Maguindanao]], [[Filipinas]]. Agpang keng [[2015]] sensus, atin yang populasyun a 299,438 a katau.
+{{Infobox lokasyon}}
 
-
-
+Ing '''Lakanbalen ning Cotabato''' pang5 yang klasing [[Ding Lakanbalen ning Filipinas|lakanbalen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Maguindanao]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 == Deng Barangay ==
 
@@ -74,15 +55,20 @@ Ing Cotabato Lakanbalen atin yang 37ng [[barangay]].
 * [[GMA Network]]: Channel 12 
 * [[Studio 23]]: Channel 25 
 * [[ACQ-Kingdom Broadcasting Network]]: Channel 29 
-== Suglugn Palwal ==
+
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
+
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 * [http://www.wowcotabato.com WowCotabato]
 * [http://www.cotabato.com.ph cotabato.com.ph]
 * [http://www.cotabato.ph Cotabato.ph]
-* [http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-* [http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
 
 {{Maguindanao}}
 {{Philippine cities}}
-{{coor title dm|7|13|N|124|15|E|region:PH_type:city}}
-
 [[Category:Ding Lakanbalen ning Filipinas]]
