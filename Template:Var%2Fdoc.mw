@@ -1,0 +1,92 @@
+{{Documentation subpage}}
+<!-- Add categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{high-use| 6000 }}
+==Usage==
+This template is to help facilitate the displaying of variable names (in mathematics, computer source code, wikimarkup in template documentation, metasyntactic variables, etc.) with the [[Semantic HTML|semantically correct]] {{tag|var}} tags, which also renders the variable in italics, as is customary. This method is preferred to simply italicizing for many reasons, including [[WP:Accessibility|accessibility]], [[separation of presentation and content]], [[semantic Web]], and [[WP:METADATA|metadata]]; In [[XHTML]] and [[HTML]], the {{tag|var|o}} element has semantic meaning, while simple italicization does not.  This template provides a tiny hint of [[kerning]] to compensate for the italicization and enhance readability.
+
+"Variable" in this sense may include arbitrary or unknown names or terms, examples of human input, arithmetical variables in equations, etc. This template (and the underlying XHTML) are generally {{em|not}} used if MediaWiki's {{tag|math}} tags (or any other stand-alone mathematical markup) are being used.
+
+===Examples===
+; Example: 
+: {{tlxb|var|username}}
+outputs the following HTML:
+: '''{{tag|var|content=username}}'''
+which renders as:
+: {{var|username}}
+
+Note that on the screen or in print, this renders as simple italicization, as does {{code|inline=y|<nowiki>''username''</nowiki>}} (using pairs of apostrophes) or {{tag|i|content=username}} (using HTML), yet it carries more semantic meaning than either of these methods.
+
+At times, you may wish to use a serif font.  This is especially true when attempting to render single-letter variables like "I" (upper-case "i") and "l" (lower-case "L"), since they are nearly indistinguishable (if at all).  In such situations, use the {{tlx|varserif}} template instead of {{tnull|var}}, to make them more distinguishable, like these serif examples: {{varserif|I}}, {{varserif|l}}.
+
+; More examples:
+<div style="background:#FFFFFF;">
+{{Markup
+| <nowiki>The HTML code:
+: {{tag|var|content=username}}
+renders as: 
+: {{var|username}}</nowiki>
+| The HTML code:
+: {{tag|var|content=username}}
+renders as: 
+: {{var|username}}
+
+| <nowiki>The commandline should read: {{samp|%}} {{kbd|1=ssh {{var|hostname}}}}<br />(where {{var|hostname}} is the IP address or ...)<br />If it is correct, press {{key press|Enter}}.</nowiki>
+| The commandline should read: {{samp|%}} {{kbd|1=ssh {{var|hostname}}}}<br />(where {{var|hostname}} is the IP address or ...)<br />If it is correct, press {{key press|Enter}}.
+
+| <nowiki>in this equation, let {{var|x}}{{=}}1 and {{var|y}}{{=}}120 ...</nowiki>
+| in this equation, let {{var|x}}{{=}}1 and {{var|y}}{{=}}120 ...
+
+| <nowiki>{{para|accessdate|{{var|todays_date}}}}</nowiki>
+| {{para|accessdate|{{var|todays_date}}}}
+}}
+</div>
+
+==TemplateData==
+{{TemplateDataHeader}}
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "variable",
+			"type": "line",
+			"required": true
+		},
+		"class": {
+			"type": "string"
+		},
+		"id": {
+			"label": "ID",
+			"type": "string"
+		},
+		"style": {
+			"label": "CSS style",
+			"type": "string"
+		},
+		"lang": {
+			"label": "language",
+			"example": "c++",
+			"type": "string"
+		},
+		"title": {
+			"label": "HTML title (hovertext)",
+			"type": "string"
+		}
+	},
+	"description": "Marks text as an HTML variable"
+}
+</templatedata>
+
+== See also ==
+* {{tl|mvar}} which makes the argument italic and formats as mathematics
+* {{tl|math}} which formats its argument as mathematics
+* {{tl|bigmath}}, the same as {{tl|math}} but makes it bigger
+
+{{Semantic markup templates}}
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line; interwikis at Wikidata -->
+[[Category:Mathematical formatting templates]]
+[[Category:Programming typing-aid templates]]
+[[Category:Semantic markup templates]]
+[[Category:Wikipedia XHTML tag-replacing templates]]
+}}</includeonly>
