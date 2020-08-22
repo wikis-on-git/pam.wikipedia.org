@@ -1,0 +1,32 @@
+==Parameters==
+{{tld|time}} supports two positional and several named parameters; none are required:
+:<code>|&lt;{{var|time zone}}></code> – the first positional (unnamed) parameter, specifies the time zone for which the template is to provide a time output.  If omitted, the template displays UTC time.  A time zone is identified by an abbreviation of the time zone's standard-time name.  Do not use a summertime or daylight saving time abbreviation; they will be ignored and produce an error message.
+:<code>|&lt;{{var|df}}></code> – the positional (unnamed) version of {{para|df}} which see
+:{{para|df}} – date format; this parameter takes one of several values; values other than these are ignored:
+::{{para|df|dmy}} – specifies day month year date format; time in 24-hour format; alias: {{para|df|dmy24}}
+:::{{time|MST|dmy}}
+::{{para|df|dmy12}} – same as {{para|df|dmy}} except time in 12-hour am/pm format
+:::{{time|MST|dmy12}}
+::{{para|df|mdy}} – specifies  month day, year format; time in 24-hour format; default when a date format is not specified in the time zone's properties; alias: {{para|df|mdy24}}
+:::{{time|MST|mdy}}
+::{{para|df|mdy12}} – same as {{para|df|mdy}} except time in 12-hour am/pm format
+:::{{time|MST|mdy12}}
+::{{para|df|iso}} – renders the date/time in a form roughly adhering to the [[ISO 8601]] format (seconds omitted)
+:::{{time|MST|iso}}
+::{{para|df|y}} – legacy {{tld|time}} parameter, same as {{para|df|dmy}}
+::{{para|df|12}} – time-only display 12-hour am/pm format
+:::{{time|MST|12}}
+::{{para|df|24}} – time-only display 24-hour format
+:::{{time|MST|24}}
+:{{para|df-cust}} – custom time/date formats using the codes defined at [[:mw:Help:Extension:ParserFunctions##time]]; yields to {{para|df}}
+::{{para|df-cust-a}} – custom time/date formats as above specifically for [[ante meridiem]] time; requires {{para|df-cust-p}}; yields to {{para|df-cust}}
+::{{para|df-cust-p}} – custom time/date formats as above specifically for [[post meridiem]] time; requires {{para|df-cust-a}}; yields to {{para|df-cust}}
+:{{para|dst}} – when set to <code>no</code>, disables the daylight saving time calculation for the time zone; other values ignored; useful for locations within a time zone that do not observe daylight saving time; [[Arizona]], for example
+:{{para|lang|&lt;{{var|code}}>}} – displays time/date in language specified by ISO 639 language <code>&lt;{{var|code}}></code>
+:these parameters take only the value <code>yes</code>:
+::{{para|dateonly}} – suppresses time display 
+::{{para|timeonly}} – suppresses date display
+::{{para|hide-refresh}} – suppresses the refresh link
+::{{para|hide-tz}} – suppresses the timezone abbreviation
+::{{para|unlink-tz}} – renders unlinked timezone abbreviation 
+:{{para|_TEST_TIME_}} – a parameter that was useful during the development of the template's code.  The value assigned to this parameter must either be in ISO 8601 format without time zone designator ({{nowrap|{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}T{{CURRENTHOUR}}:{{CURRENTMINUTE}}:{{CURRENTSECOND}}}}), or YYYYMMDDhhmmss format as output by {{tl|Timestamp}} ({{Timestamp}}). This is interpreted by the template as UTC.
