@@ -1,0 +1,13 @@
+<noinclude>{{This is a redirect/rcat}}
+</noinclude>{{Redirect template
+  |name=To a help page
+  |from=''any'' page inside or outside of help namespace
+  |to=a page in that namespace
+  |info=** The above category link leads to a list of redirects from inside help namespace.  For redirects from outside help space, see '''{{cat|Redirects to help namespace}}'''.
+  |help category=Redirects to help pages
+  |other category=Redirects to help namespace
+  |printworthy=no
+}}<noinclude>
+<!-- Place categories on /doc subpage; interwikis go to Wikidata. -->
+{{Documentation}}
+</noinclude>
