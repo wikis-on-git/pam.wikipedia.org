@@ -1,0 +1,48 @@
+{{Documentation subpage}}
+{{High-use| 5300 }}
+
+== Summary ==
+* This template is for creating [[Wikipedia:Soft redirect|soft redirects]], that is to say, short pages inviting readers to visit another page on a different [[meta:Wikimedia projects|Wikimedia project]]. This cannot be performed with a classical redirect due to technical restrictions.
+* This template is also used to redirect an entry to a [[Help:Special page|special page]], in which case hard redirects have been disabled.
+* Occasionally it is used to effectively disable a redirect that has been deprecated, e.g. [[WP:DIVA]], in which case {{tl|Historical}} is usually also used, above the soft redirect template.
+* For redirecting [[WP:CAT|categories]], use {{Tlx|Category redirect}} instead.
+* For all other redirects within the English Wikipedia, please continue to use <code><nowiki>#REDIRECT [[Other article]]</nowiki></code>.
+
+This places tagged pages in [[:Category:Wikipedia soft redirects]] or [[:Category:User soft redirects]].
+
+== Usage ==
+=== Single parameter ===
+<code><nowiki>{{</nowiki>Soft redirect|''target''}}</code>
+
+'''Example'''
+
+<code><nowiki>{{</nowiki>Soft redirect|Meta:Template:Interwiki redirect}}</code> will produce:
+
+{{Soft redirect|Meta:Template:Interwiki redirect}}
+===Two parameters===
+<code><nowiki>{{</nowiki>Soft redirect|''target''|''label''}}</code>
+
+'''Example'''
+
+<code><nowiki>{{</nowiki>Soft redirect|Lawn mower|grasscutter}}</code> will produce:
+
+{{Soft redirect|Lawn mower|grasscutter}}
+
+''Please remember that this is just to illustrate the second "label" parameter.  Template:Soft redirect should not be used when {{code|#REDIRECT [[Lawn mower]]}} should be used.''
+
+== Other examples ==
+* [[Wikipedia:Bylaws]]
+* [[Wikipedia:Special:SpecialPages]]
+
+== See also ==
+* [[Wikipedia:Soft redirect]] guideline
+* {{tl|Double soft redirect}}, a template for a "soft redirect with two targets".
+* {{Section link|Wikipedia:Wikimedia sister projects|Specialized soft redirect templates}}
+
+<includeonly>{{sandbox other||{{#ifeq:{{SUBPAGENAME}}|doc||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Templates for soft redirects]]
+[[Category:Interwiki link templates]]
+[[Category:Redirect templates]]
+
+}}}}</includeonly>
