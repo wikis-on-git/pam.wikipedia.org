@@ -1,0 +1,222 @@
+{{Documentation subpage}}
+{{lua|Module:time|Module:time/data}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+This template displays the current time in a parameter-specified time zone. The time is calculated based on the offset from [[UTC]] for the specified time zone taking into account whether [[daylight saving time]] is currently active in that time zone.
+
+'''Note:''' Most Wikipedia pages display a cached version of the page to reduce server load, so the template will only display the current time ''as of when the page was last parsed''.  You can refresh the displayed time by clicking the {{small|[refresh]}} link.
+__TOC__
+{{Template:Time/doc/parameters}}
+
+== Usage ==
+Typically, all that is needed is:
+:<code><nowiki>{{</nowiki>time|''<TZ>''<nowiki>}}</nowiki></code> where <code>''<TZ>''</code> is one of the supported time zone abbreviations
+::<code><nowiki>{{time|MST}}</nowiki></code>
+:::{{time|MST}}
+To change the rendered format:
+:<code><nowiki>{{time|MST|df=y}}</nowiki></code>
+::{{time|MST|df=y}}
+:<code><nowiki>{{time|MST|y}}</nowiki></code>
+::{{time|MST|y}}
+:<code><nowiki>{{time|MST|dmy}}</nowiki></code>
+::{{time|MST|dmy}}
+:<code><nowiki>{{time|MST|iso}}</nowiki></code>
+::{{time|MST|iso}}
+
+===Supported time zones===
+This is a list of the currently supported time zone abbreviations:
+{{div col|colwidth=15em}}
+*[[Australian Central Standard Time|ACST]] {{small|(ACDT)}}
+*[[Australian Eastern Standard Time|AEST]] {{small|(AEDT)}}
+*[[Alaska Standard Time|AKST]] {{small|(AKT)}}
+*[[Anywhere on Earth|AoE]]{{efn-ua|name=non-standard|Not standard time zones, these are included on a whim of the programmer; AoE is 'Anywhere on Earth', 'IDLE' and 'IDLW' are International Date Line East and West}}
+*[[Atlantic Standard Time|AST]] {{small|(AT) (ADT)}}
+*[[Australian Western Standard Time|AWST]]
+*[[Bangladesh Standard Time|BST]]
+*[[Beijing Time|BT]]
+*[[Central European Time|CET]] {{small|(CEST)}}
+*[[Chamorro Time Zone|ChST]]
+*[[Central Standard Time|CST]] {{small|(CT) (CDT)}}
+*[[Eastern European Time|EET]] {{small|(EEST)}}
+*[[Eastern Standard Time (North America)|EST]] {{small|(ET) (EDT)}}
+*[[Greenwich Mean Time|GMT]]
+*[[Time in the Republic of Ireland|GMT-IE]]{{efn-ua|[[Irish Standard Time]]. The abbreviation, IST, is also used for [[Indian Standard Time]]. Irish Standard Time occurs in the summer.  For these reasons, the template uses GMT-IE as the time zone abbreviation for Ireland.}}
+*[[Time in the United Kingdom|GMT-UK]]{{efn-ua|[[GMT]] does not observe daylight saving time.  The United Kingdom observes GMT in winter but shifts to [[British Summer Time]] in summer.  The abbreviation BST is also used by [[Bangladesh Standard Time]].  To differentiate GMT as observed in the UK from year-round GMT, use GMT-UK for the former.}}
+*[[Hawaii–Aleutian Time Zone|HAST]] {{small|(HADT) (HST) (HDT)}}
+*IDLE{{efn-ua|name=non-standard}}
+*IDLW{{efn-ua|name=non-standard}}
+*[[Irkutsk Time|IRKT]]
+*[[Indian Standard Time|IST]]
+*[[Japan Standard Time|JST]]
+*[[Krasnoyarsk Time|KRAT]]
+*[[Moscow Time|MSK]]
+*[[Mountain Standard Time|MST]]
+*[[Newfoundland Standard Time|NST]]
+*[[New Zealand Standard Time|NZST]] {{small|(NZDT)}}
+*[[Omsk Time|OMST]]
+*[[Kamchatka Time|PETT]]
+*[[Pakistan Standard Time|PKT]]
+*PMST{{efn-ua|[[Saint-Pierre and Miquelon]] Standard Time}}
+*[[Pacific Standard Time|PST]] {{small|(PT) (PDT)}}
+*[[Samara Time|SAMT]]
+*[[South African Standard Time|SAST]]
+*[[Srednekolymsk Time|SRET]]
+*[[Singapore Standard Time|SST]]
+*[[Kaliningrad Time|USZ1]]
+*[[Coordinated Universal Time|UTC]]
+*[[Vladivostok Time|VLAT]]
+*[[Western European Time|WET]] {{small|(WEST)}}
+*WGT{{efn-ua|Western Greenland Time}}
+*[[Western Indonesian Time|WIB]]
+*[[Eastern Indonesian Time|WIT]]
+*[[Central Indonesian Time|WITA]]
+*[[Yakutsk Time|YAKT]]
+*[[Yekaterinburg Time|YEKT]]
+{{div col end}}
+{{notelist-ua}}
+
+===UTC offset===
+To display the time at a particular UTC offset, specify the UTC time offset as the time zone:
+:<code><nowiki>{{time|UTC-07:00}}</nowiki></code>
+::{{time|UTC-07:00}}
+'UTC', a sign character, two hour digits, a colon, and two minute digits are required.  Accepted sign characters are: '+', '-' (hyphen), '±', and '−' (minus).
+
+===Military/nautical time zones===
+To display the time at a particular [[military time zones|military]] or [[nautical time zone]],<ref>{{cite web |url=http://astro.ukho.gov.uk/nao/miscellanea/WMTZ/ |title=World Time Zone Map |website=HM Nautical Almanac Office |date=February 2016}}</ref> use the time zone's alpha designation:
+:<code><nowiki>{{time|M}}</nowiki></code>
+::{{time|M}}
+Some military and nautical time zone designators are extended with an asterisk (*), a dagger (†), or double dagger (‡).  When writing this template for designators that are extended with a dagger or double dagger, use '+' and '++' respectively:
+:<code><nowiki>{{time|M++}}</nowiki></code>
+::{{time|M++}}
+:<code><nowiki>{{time|M+}}</nowiki></code>
+::{{time|M+}}
+
+===Daylight saving time===
+Daylight saving time (DST) calculations are automatic for those time zones where it is observed.  There are locales that do not observe DST within time zones where it is generally observed.  To render the correct time for a non-observant locale, set {{para|dst|no}}:
+:<code><nowiki>{{time|MST|dst=no}}</nowiki></code>
+::{{time|MST|dst=no}} – [[time in Arizona]]
+:<code><nowiki>{{time|MST}}</nowiki></code>
+::{{time|MST}} – but, time on the [[Navajo Nation]] in Arizona
+
+The opposite case is not supported.  For places like [[Thule Air Base]] in Greenland, which observes US DST rules while WGT observes EU DST rules, a time zone properties table will be needed in Module:Time.  See §[[#Adding a new time zone|Adding a new time zone]].
+
+==Error messages==
+{{tld|time}} can produce several error messages.  These are:
+:<span style="font-size:100%" class="error"><nowiki>{{time}</nowiki>} – both of &#124;df-cust-a= and &#124;df-cust-p required</span> – when defining a custom format for am (or pm) time, you must also define a custom format for pm (or am) time
+:<span style="font-size:100%" class="error"><nowiki>{{time}}</nowiki> – error calculating dst timestamps</span> – indicates an internal error because one or more of the following time zone properties is malformed: UTC offset, DST begin or end definition. To resolve this error make sure that the time zone's properties are correct.
+:<span style="font-size:100%" class="error"><nowiki>{{time}}</nowiki> – incomplete definition for ...</span> – indicates an internal error because one or more of the following time zone properties is missing: DST begin or end definition, DST event time, time zone article.  To resolve this error supply the missing properties.
+:<span style="font-size:100%" class="error"><nowiki>{{time}</nowiki>} – invalid date format {{mono|&lt;{{var|format}}>}}</span> – value assigned to {{para|df}} is not one of the defined format strings; ss §[[Template:Time#Parameters|Parameters]]
+:<span style="font-size:100%" class="error"><nowiki>{{time}}</nowiki> – invalid use of ±</span> - the symbol ± is being used when the minute and hour offsets aren't 00:00
+:<span style="font-size:100%" class="error"><nowiki>{{time}</nowiki>} – malformed or incomplete _TEST_TIME_</span> – value assigned to this parameter must either have the format: YYYY-MM-DDThh:mm:ss where all except 'T' are digits, or YYYYMMDDhhmmss
+:<span style="font-size:100%" class="error"><nowiki>{{time}</nowiki>} – unknown timezone</span> – the time zone positional parameter is not one of the supported time zone abbreviations.  To resolve this error check the parameter's spelling or add the time zone's properties to the module.  See §[[#Adding a new time zone|Adding a new time zone]].
+
+==Adding a new time zone==
+{{tld|time}} uses [[Module:Time/data]].  In that module, is a table of tables, the data structure that specifies the properties of the individual time zones.  A blank time zone properties table has this form:
+<pre>[''] = {
+	abbr = '',			
+	dst_abbr = '',
+	utc_offset = '',
+	df = '',
+	dst_begins = '',
+	dst_ends = '',
+	dst_time = '',
+	dst_e_time = '',
+	article = ''
+},</pre>
+
+To add a new time zone to Module:Time/data, add the appropriate information inside the single quotes.  If a property does not apply, leave the quotes empty.  The rules for each property are:
+:<code><nowiki>['']</nowiki></code> – (required) the abbreviation of a time zone's standard time; must be lower case; this is the value that will be used in the template's time zone parameter
+:<code><nowiki>abbr = ''</nowiki></code> – (required) the abbreviation of a time zone's standard time as it will be rendered by the template
+:<code><nowiki>dst_abbr = ''</nowiki></code> – the abbreviation of a time zone's daylight saving or summer time as it will be rendered by the template
+:<code><nowiki>utc_offset = ''</nowiki></code> – (required) the offset in hours and minutes from [[UTC±00:00]]; has the form: <code><nowiki>utc_offset = '<sign>hh:mm'</nowiki></code> where <code><sign></code> may be <code>+</code> (optional) or <code>-</code> (required for time zones west of the 0 meridian)
+:<code><nowiki>df = ''</nowiki></code> – one of three keywords <code>dmy</code>, <code>mdy</code>, or <code>iso</code> used to specify date format typically used in the time zone; can be overridden with {{para|df}} template parameter
+:<code><nowiki>dst_begins = ''</nowiki></code> – a four word sentence in the form <code><ordinal></code> <code><day name></code> <code><in|of></code> <code><month name></code> where:
+::<code><ordinal></code> – any of the words 'first', '1st', 'second', '2nd', ... 'fifth', '5th', or 'last'
+::<code><day name></code> – any of the day names 'Sunday', 'Monday', 'Tuesday', etc.; capitalization is not important but otherwise must be spelled correctly; abbreviations not supported
+::<code><in|of></code> – either of the words 'in' or 'of'
+::<code><month name></code> – any of the month names 'January', 'February', 'March', etc.; capitalization is not important but otherwise must be spelled correctly; abbreviations not supported
+:<code><nowiki>dst_ends = ''</nowiki></code> – (required if <code>dst_begins</code> is specified) same as <code>dst_begins</code>
+:<code><nowiki>dst_time = ''</nowiki></code> – (required if <code>dst_begins</code> is specified) the time that daylight saving time begins; usually local time; when DST begins at a specified time UTC ([[European Summer Time]] for example) use:  <code>dst_time = 'hh:mm UTC'</code>; four digits and the colon are required
+:<code><nowiki>dst_e_time = ''</nowiki></code> – the time that daylight saving time ends if different from the time it begins; usually local daylight saving time ; when DST ends at a specified time UTC use:  <code>dst_e_time = 'hh:mm UTC'</code>; four digits and the colon are required
+:<code><nowiki>article = ''</nowiki></code> – (required) the title of a Wikipedia article that is appropriate to the timezone; do not include wikimarkup
+
+The table-of-tables is organized east (plus UTC offsets) then west (minus UTC offset), by offset hours, and then alphabetically by time zone positional parameter name.
+
+===Adding a new alias===
+
+You may also want to add an alias of a timezone:
+
+<pre>[''] = {tz = ''},</pre>
+
+To add a new time zone to Module:Time/data, add the appropriate information inside the single quotes.
+:<code><nowiki>['']</nowiki></code> – (required) the abbreviation of a time zone's alias. This must be lower case.
+:<code><nowiki>tz = ''</nowiki></code> – (required) the abbreviation of the time zone that's already in the code. This must be lower case
+
+The table-of-tables is organized east (plus UTC offsets) then west (minus UTC offset), and by if it's a DST offset or if it's not.
+
+==See also==
+{{Date and time templates}}
+
+==References==
+{{reflist}}
+
+==TemplateData==
+{{TemplateData header}}
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "time zone",
+			"description": "The time zone for the time formatting",
+			"example": "EST",
+			"type": "string",
+			"suggested": true
+		},
+		"2": {
+			"aliases": [
+				"df"
+			],
+			"label": "date format",
+			"description": "The format to render the date and time",
+			"example": "dmy12",
+			"suggested": true
+		},
+		"dst": {
+			"label": "Daylight savings time",
+			"example": "yes",
+			"type": "string"
+		},
+		"lang": {
+			"label": "ISO 639 language code",
+			"description": "displays time/date in language specified by ISO 639 language",
+			"type": "string"
+		},
+		"dateonly": {
+			"description": "If 'yes', suppresses display of the time and only shows the date",
+			"example": "yes",
+			"type": "string"
+		},
+		"timeonly": {
+			"description": "If 'yes', suppresses display of the date and only shows the time",
+			"example": "yes",
+			"type": "string"
+		},
+		"hide-tz": {
+			"label": "Hide time zone?",
+			"description": "If 'yes', suppresses time zone abbreviation",
+			"example": "yes",
+			"type": "string"
+		},
+		"unlink-tz": {
+			"label": "Don't link time zone?",
+			"description": "If 'yes', renders the timezone without linking to its article.",
+			"example": "yes",
+			"type": "string"
+		}
+	}
+}
+</templatedata>
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Time, date and calendar templates]]
+}}</includeonly>
