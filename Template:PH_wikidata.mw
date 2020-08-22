@@ -24,7 +24,7 @@
 | image_seal = {{safesubst:#property:P158}}
 | image_shield = {{safesubst:#property:P94}}
 | image_map = {{safesubst:#property:P242}}
-| map_caption = {{safesubst:#if:{{safesubst:#property:P131}}|Map of {{safesubst:#invoke:string|replace|{{safesubst:#property:P131}}|%s+%([^%(]-%)$||plain=false}} with {{safesubst:#invoke:string|replace|{{safesubst:PAGENAME}}|, .*||plain=false}} highlighted}}
+| map_caption = {{safesubst:#if:{{safesubst:#property:P131}}|Mapa ning {{safesubst:#invoke:string|replace|{{safesubst:#property:P131}}|%s+%([^%(]-%)$||plain=false}} ampong {{safesubst:#invoke:string|replace|{{safesubst:PAGENAME}}|, .*||plain=false}} ilage}}
 | image_map1 = {{safesubst:#property:P1621}}
 | map_caption1 = {{safesubst:#if:{{safesubst:#property:P131}}|Map of {{safesubst:#invoke:string|replace|{{safesubst:PAGENAME}}|, .*||plain=false}} showing barangays {{safesubst:#switch:{{{prefix}}}| coastal = and islands}}}}
 | official_name = {{safesubst:#property:P1448}}
