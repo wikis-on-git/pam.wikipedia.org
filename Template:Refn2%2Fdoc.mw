@@ -1,0 +1,120 @@
+{{Documentation subpage}}
+===Purpose===
+This template is used to [[Help:Footnotes|create footnotes in Wikipedia]], as an alternative and complement to the <syntaxhighlight lang="HTML" inline><ref></syntaxhighlight>. [[:mw:Extension:Cite/Cite.php#Substitution and embedded parser functions|Because of a technical limitation]], some of the standard Wikipedia markup elements that are often used in the article prose do not work within a set of <syntaxhighlight lang="HTML" inline><ref>...</ref></syntaxhighlight> tags, including but not limited to [[Help:Pipe trick|the pipe trick]], [[Wikipedia:Substitution|template substitution]] and another "nested" set of <syntaxhighlight lang="HTML" inline><ref>...</ref></syntaxhighlight> tags. For example, the following does not work as expected:
+# <syntaxhighlight lang="HTML" inline><ref>[[Help:Footnotes|]]</ref></syntaxhighlight> (Generates: <nowiki>[[Help:Footnotes|]]</nowiki> instead of a wikilink)
+# <syntaxhighlight lang="HTML" inline><ref>{{SUBST:TODAY}}</ref></syntaxhighlight> (Generates: <nowiki>{{SUBST:TODAY}}</nowiki> instead of the date that the edit was made)
+# <syntaxhighlight lang="HTML" inline><ref>Explanatory footnote<ref>Citation</ref></ref></syntaxhighlight> (Generates: <span style="font-weight: bold; color: #CC0000;">Cite error: A &lt;ref&gt; tag is missing the closing &lt;/ref&gt; (see the [[:Help:Cite errors/Cite error included ref|help page]]).</span> &lt;/ref&gt;)
+
+Replacing the outermost <syntaxhighlight lang="HTML" inline><ref>...</ref></syntaxhighlight> set with {{tlp|Refn}} allows for the use of the markup elements listed above.
+
+===Usage===
+{{tld|refn|2=group=groupname|3=name=name|4=Contents of the footnote|allowlinebreak=yes}}
+
+:* '''groupname''': Groupname per [[WP:REFGROUP]]; if not specified, then the main and nested references will be rendered into the same reference list
+:* '''name''': Reference name per [[WP:REFNAME]]
+
+{{refname rules}}
+
+===Examples===
+====Footnotes with citations====
+{{markup
+|<syntaxhighlight lang="HTML">An example.{{refn|group=note|name=first|A note.<ref>An included reference.</ref>}}
+Another example.{{refn|group=note|Another note.<ref>Another included reference.</ref>}}
+A third example.{{refn|group=note|The third note.<ref>The reference in the third note.</ref>}}
+Repeating the first example.{{refn|group=note|name=first}}
+
+==Notes==
+{{reflist|group=note}}
+
+==References==
+{{reflist}}</syntaxhighlight>
+|An example.{{refn|group=note|name=first|A note.<ref>An included reference.</ref>}}
+Another example.{{refn|group=note|Another note.<ref>Another included reference.</ref>}}
+A third example.{{refn|group=note|The third note.<ref>The reference in the third note.</ref>}}
+Repeating the first example.{{refn|group=note|name=first}}
+
+{{fake heading|sub=3|Notes}}
+{{reflist|group=note}}
+
+{{fake heading|sub=3|References}}
+{{reflist}}
+}}
+
+====Substitution====
+The first example shows that substitution does not work in a regular <syntaxhighlight lang="HTML" inline><ref>...</ref></syntaxhighlight> tag (the {{para|access-date}} does not appear correctly). The second example shows that the {{para|access-date}} is substituted correctly within {{tl|refn}}.
+
+{{markup
+|<syntaxhighlight lang="HTML"><ref>{{cite web |access-date={{Subst:TODAY}} |title=Languages |work=Apache HTTP Server |agency=Ohloh |publisher= Black Duck Software |url=https://www.ohloh.net/p/apache/analyses/latest/languages_summary}}</ref>
+{{reflist}}</syntaxhighlight>
+|<ref>{{cite web |access-date={{Subst:TODAY}} |title=Languages |work=Apache HTTP Server |agency=Ohloh |publisher= Black Duck Software |url=https://www.ohloh.net/p/apache/analyses/latest/languages_summary|template-doc-demo=true}}</ref>
+{{reflist}}
+
+|<nowiki>{{refn|{{cite web |access-date={{Subst:TODAY}} |title=Languages |work=Apache HTTP Server |agency=Ohloh |publisher= Black Duck Software |url=https://www.ohloh.net/p/apache/analyses/latest/languages_summary}}}}
+{{reflist}}</nowiki>
+|{{refn|{{cite web |access-date=4 April 2014 |title=Languages |work=Apache HTTP Server |agency=Ohloh |publisher= Black Duck Software |url=https://www.ohloh.net/p/apache/analyses/latest/languages_summary}}}}
+{{reflist}}
+}}
+
+===Errors===
+If the reference or note content is missing, then Cite error: Invalid &lt;ref&gt; tag; refs with no name must have content. will be displayed.
+
+If the note content contains an equals sign (<code>=</code>), the equals sign will be interpreted as setting off a named parameter and cause an error. This can be worked around by [[Help:Template#Usage hints and workarounds|using a numbered parameter]], for example:
+
+{{markup
+|1=<nowiki>{{refn|1+1=2}}</nowiki>
+|2=<span class="error mw-ext-cite-error">Cite error: There are &lt;ref&gt; tags on this page without content in them (see the [[Help:Cite errors/Cite error ref no input|help page]]).</span>
+|3=<nowiki>{{refn|1= 1+1=2}}</nowiki>
+|4={{refn|1= 1+1=2}}
+
+{{reflist}}
+}}
+
+
+{{#section:Help:footnotes|pregroup}}
+
+===See also===
+*{{tl|citeref}} (a different method to create nested links working on citation template anchor level rather than <nowiki><ref></ref></nowiki> markup level)
+
+{{#lst:Help:Cite errors/Cite error group refs without references|rlt}}
+
+{{Wikipedia referencing}}
+
+== TemplateData ==
+{{TemplateData header}}
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "content",
+			"description": "The content of the footnote.",
+			"type": "content",
+			"required": true,
+			"suggested": true,
+			"aliases": [
+				"refn"
+			]
+		},
+		"name": {
+			"description": "The name of the footnote. Corresponds to the \"name\" attribute of the <ref> tag.",
+			"type": "string"
+		},
+		"group": {
+			"label": "group",
+			"description": "The reference group. Corresponds to the \"group\" attribute on the <ref> tag.",
+			"type": "string"
+		}
+	},
+	"description": "This template is used to create footnotes in Wikipedia, as an alternative and complement to the <ref> tag.",
+	"paramOrder": [
+		"1",
+		"name",
+		"group"
+	],
+	"format": "inline"
+}
+</templatedata>
+<includeonly>{{sandbox other||
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Footnote templates]]
+[[Category:Templates that generate named references]]
+}}</includeonly>
