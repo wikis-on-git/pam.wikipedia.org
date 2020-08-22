@@ -1,7 +1,7 @@
 [[Template:Coord]] consists of a number of [[:Category:Coord template|subtemplates]]. This page provides an explanation of how the template uses these subtemplates.
 
 == Index ==
-{{Coord/sub doc}}
+{{coordinates/sub doc}}
 
 == Use cases ==
 <pre>
@@ -27,61 +27,61 @@ Pass all parameters to one of the following input templates:
 
 <code>
 if no 4th parameter<br/>
-&emsp;use [[#Coord/input/dec]]<br/>
+&emsp;use [[#coordinates/input/dec]]<br/>
 else if 4th and 8th together are NE, NW, SE or SW<br/>
-&emsp;use [[#Coord/input/dms]]<br/>
+&emsp;use [[#coordinates/input/dms]]<br/>
 else if 3rd and 6th together are NE, NW, SE or SW<br/>
-&emsp;use [[#Coord/input/dm]]<br/>
+&emsp;use [[#coordinates/input/dm]]<br/>
 else if 2nd and 4th together are NE, NW, SE or SW<br/>
-&emsp;use [[#Coord/input/d]]<br/>
+&emsp;use [[#coordinates/input/d]]<br/>
 else<br/>
-&emsp;use [[#Coord/input/ERROR]]
+&emsp;use [[#coordinates/input/ERROR]]
 </code>
 
 The input templates differ on which parameters they use and what they do to them.
 
-== Coord/input/dec ==
-[[Template:Coord/input/dec]]
+== coordinates/input/dec ==
+[[Template:coordinates/input/dec]]
 
 Input: Parameters 1, 2, 3, format, name
 
-Pass to Coord/link the following parameters:
+Pass to coordinates/link the following parameters:
 
 * dms-lat and dms-long: The latitude and longitude in degrees (minutes (and seconds)) format as text (and not separate parameters), using
-** [[Template:Coord/prec dec|Coord/prec dec]] to determine whether minutes and seconds are needed to cover the precision of the given number of decimal digits, and
-** [[Template:Coord/dec2dms|Coord/dec2dms]] to split them to the necessary parts.
+** [[Template:coordinates/prec dec|coordinates/prec dec]] to determine whether minutes and seconds are needed to cover the precision of the given number of decimal digits, and
+** [[Template:coordinates/dec2dms|coordinates/dec2dms]] to split them to the necessary parts.
 * dec-lat and dec-long: Passed along as given.
 * param: URL parameters for use in [[Template:GeoTemplate]]
-* default: The ''format'' parameter, or "dec" if not given. Used in [[#Coord/link]]
+* default: The ''format'' parameter, or "dec" if not given. Used in [[#coordinates/link]]
 * name: Passed along as given.
 
-== Coord/input/d ==
-[[Template:Coord/input/d]]
+== coordinates/input/d ==
+[[Template:coordinates/input/d]]
 
 Input: Parameters 1, 2, 3, 4, 5, format, name
 
-Pass to Coord/link the following parameters:
+Pass to coordinates/link the following parameters:
 
 * dms-lat and dms-long: The latitude and longitude in degrees (minutes (and seconds)) format as text (and not separate parameters), using
-** [[Template:Coord/prec dec|Coord/prec dec]] to determine whether minutes and seconds are needed to cover the precision of the given number of decimal digits, and
-** [[Template:Coord/dec2dms|Coord/dec2dms]] to split them to the necessary parts.
-* dec-lat and dec-long: Passed along with signs from NSEW using [[Template:Coord/dms2dec|Coord/dms2dec]]
+** [[Template:coordinates/prec dec|coordinates/prec dec]] to determine whether minutes and seconds are needed to cover the precision of the given number of decimal digits, and
+** [[Template:coordinates/dec2dms|coordinates/dec2dms]] to split them to the necessary parts.
+* dec-lat and dec-long: Passed along with signs from NSEW using [[Template:coordinates/dms2dec|coordinates/dms2dec]]
 * param: URL parameters for use in [[Template:GeoTemplate]]
-* default: The ''format'' parameter, or "dec" if not given. Used in [[#Coord/link]]
+* default: The ''format'' parameter, or "dec" if not given. Used in [[#coordinates/link]]
 * name: Passed along as given.
 
-== Coord/input/dm ==
-[[Template:Coord/input/dm]]
+== coordinates/input/dm ==
+[[Template:coordinates/input/dm]]
 
 ...
 
-== Coord/input/dms ==
-[[Template:Coord/input/dms]]
+== coordinates/input/dms ==
+[[Template:coordinates/input/dms]]
 
 ...
 
-== Coord/link ==
-[[Template:Coord/link]]
+== coordinates/link ==
+[[Template:coordinates/link]]
 
 Input: [[Template:Coor URL]] and parameters dms-lat, dms-long, dec-lat, dec-long, param, name, default
 
@@ -89,7 +89,7 @@ Creates a link of the given coordinates, displaying the coordinate parameters as
 
 In addition, "geo" and the nested "latitude" and "longitude" have special meaning as a [[Geo (microformat)|Geo microformat]] and so might also be used by other templates.
 
-== Coord/display/inline,title ==
-[[Template:Coord/display/inline,title]]
+== coordinates/display/inline,title ==
+[[Template:coordinates/display/inline,title]]
 
 ...
