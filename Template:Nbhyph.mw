@@ -1,0 +1,10 @@
+<noinclude>{{#tag:syntaxhighlight|
+</noinclude>&#x2011;<noinclude>
+|lang=html}}
+{{template doc}}
+<templatedata>
+{
+	"params": {},
+	"description": "Inserts a non-breaking hyphen (NBH), which keeps hyphenated words/phrases together preventing the parts from being on two different lines."
+}
+</templatedata></noinclude>
