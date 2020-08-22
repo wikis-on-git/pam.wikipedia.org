@@ -55,12 +55,12 @@
 | area_code_type         = {{areacodestyle}}
 | area_code              = {{PH wikidata|area_code}}
 | website                = {{PH wikidata|website}}
-| demographics1_title1   = Uryan
-| demographics1_info1    = {{PH wikidata|income_class}}
-| blank1_name_sec1       = Panakitan (₱)
-| blank1_info_sec1       = {{PH wikidata|revenue}} {{PH wikidata|revenue_point_in_time}} 
-| blank2_name_sec1       = Amanu
-| blank2_info_sec1       = {{PH wikidata|language}}
+| blank1_name_sec1       = Uryan
+| blank1_info_sec1       = {{PH wikidata|income_class}}
+| blank2_name_sec1       = Panakitan (₱)
+| blank2_info_sec1       = {{PH wikidata|revenue}} {{PH wikidata|revenue_point_in_time}} 
+| blank1_name_sec2       = Amanu
+| blank1_info_sec2       = {{PH wikidata|language}}
 |timezone   = {{{timezone|{{#invoke:wd|properties|linked|{{{qid|}}}|P421}}}}}
 |footnotes = {{{footnotes|{{#if:{{#invoke:Wikidata|pageId}}||{{#ifeq:{{NAMESPACE}}|{{ns:0}}|{{error|Warning!}} Data will appear when article is linked to Wikidata.[[Category:Articles using Template:Infobox location not linked to Wikidata]]}}}} }}}
 }}</includeonly><noinclude>
