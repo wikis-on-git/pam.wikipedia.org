@@ -1,35 +1,13 @@
-{{cleanup|October 2006}}
-{{Infobox Philippine city |
- infoboxtitle = Tacloban Lakanbalen  |
- sealfile     = |
- locatormapfile = Ph_locator_leyte_tacloban.png |
- caption      = Mapa ning [[Leyte]] papakit ne ing karinan ning Tacloban Lakanbalen. |
- region       = [[Aslagan Visayas]] (Labuad VII) |
- province     = Chartered city in [[Leyte]] |
- districts    = mumunang distritu ning Leyte |
- barangays    = 138 |
- class        = 1st class city |
- Mayor        = Alfredo "Bejo" T. Romualdez Sr. 
- Cityhood     = [[Juniu 12]], [[1953]] 
- areakm2      = 101 |
- pop2000      = 178,639 |
- popden2000   = 1,769 |
- coordinates  = |
-}}
+{{Infobox lokasyon}}
 
-
-Ing '''Lakanbalen ning Tacloban'''  primra yang klasing [[Ding Lakanbalen ning Filipinas|lakanbalen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Leyte]],  [[Filipinas]]. Agpang keng [[2000]] sensus, atin yang populasyun a 178,639 a katau kareng 34,758 a pamimalemale.
-
-
-[[File:Tacloban City Hall.jpg|thumb|left|250px|City Hall]]
-[[File:Pasalubong from Tacloban.JPG|thumb|right|250px|Pasalubong]]
+Ing '''Lakanbalen ning Tacloban'''  primra yang klasing [[Ding Lakanbalen ning Filipinas|lakanbalen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Leyte]],  [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 == Deng Barangay ==
-
+[[File:Tacloban City Hall.jpg|thumb|right|288px|City Hall]]
+[[File:Pasalubong from Tacloban.JPG|thumb|right|288px|Pasalubong]]
 Ing Tacloban Lakanbalen atin yang 138 a [[barangay]].
 
-<table border=0><tr>
-<td valign=top>
+{{Columns-list|3|
 * Barangay 2
 * Nula-tula (Bgys. 3 & 3A)
 * Libertad (Barangays 1 & 4)
@@ -65,7 +43,6 @@ Ing Tacloban Lakanbalen atin yang 138 a [[barangay]].
 * Barangay 25
 * Barangay 26
 * Barangay 27
-</td><td valign=top>
 * Barangay 28
 * Barangay 29
 * Barangay 30
@@ -102,7 +79,6 @@ Ing Tacloban Lakanbalen atin yang 138 a [[barangay]].
 * Barangay 53
 * Barangay 54
 * El Reposo (Barangays 55 & 55
-</td><td valign=top>
 * Barangay 56
 * Barangay 57
 * Barangay 58
@@ -138,7 +114,6 @@ Ing Tacloban Lakanbalen atin yang 138 a [[barangay]].
 * Barangay 85 (San Jose)
 * Barangay 86
 * Barangay 87
-</td><td valign=top>
 * Barangay 88 (San Jose)
 * Barangay 89
 * Barangay 90 (San Jose)
@@ -172,16 +147,20 @@ Ing Tacloban Lakanbalen atin yang 138 a [[barangay]].
 * Barangay 8-A
 * Barangay 23-A
 * Barangay 94-A
-</td></tr></table>
+}}
 
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
 == Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 * [http://www.batch2006.com/visit_tacloban.htm Tacloban Leyte current Photos]
 * [http://www.tacloban.gov.ph Official Website of Tacloban]
 * [http://www.taclobanoids.org Official Forum of Tacloban City]
-* [http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-* [http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
-{{Leyte}}
-{{coor title dm|11|15|N|125|00|E|region:PH_type:city}}
 
+{{Leyte}}
 [[Category:Ding Lakanbalen ning Filipinas]]
