@@ -5,9 +5,7 @@ Ing '''Lakanbalen ning Marawi''' pang3 yang klasing [[Ding  Lakanbalen ning Fili
 == Deng Barangay ==
 Ing Marawi atin yang 96 ng [[barangay]].
 
-{| border="0"
-|-----
-| valign="top" |
+{{Columns-list|3|
 * Ambolong
 * Bacolod Chico Proper
 * Banga
@@ -40,7 +38,6 @@ Ing Marawi atin yang 96 ng [[barangay]].
 * Dulay
 * Dulay West
 * East Basak
-| valign="top" |
 * Emie Punud
 * Fort
 * Gadongan
@@ -73,7 +70,6 @@ Ing Marawi atin yang 96 ng [[barangay]].
 * Pagayawan
 * Panggao Saduc
 * Papandayan
-| valign="top" |
 * Paridi
 * Patani
 * Pindolonan
@@ -106,7 +102,7 @@ Ing Marawi atin yang 96 ng [[barangay]].
 * Marawi Poblacion
 * Norhaya Village
 * Papandayan Caniogan
-|}
+}}
 
 == Demograpiku ==
 {{Populasyon}}
