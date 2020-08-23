@@ -1,47 +1,12 @@
-{{Infobox Philippine city |
- infoboxtitle = Ormoc Lakanbalen |
- sealfile     = |
- locatormapfile = Ph_locator_leyte_ormoc.png |
- caption      = Mapa ning [[Leyte]] papakit ne ing karinan ning Ormoc Lakanbalen. |
- region       = [[Aslagan Visayas]] (Labuad VIII) |
- province     = [[Leyte]] |
- districts    = pang4 a distritu ning [[Leyte]] |
- barangays    = 110 |
- class        = primera klasing lakanbalen |
- mayor        = 
- cityhood     = 
- areakm2      = 490.50 |
- pop2000      = 154,297 |
- popden2000   = 315 |
- coordinates  = |
-}}
+{{Infobox lokasyon}}
 
-Ing '''Lakanbalen ning Ormoc'''  primera yang klasing [[Ding Lakanbalen ning Filipinas|lakanbalen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Leyte]],  [[Filipinas]]. Agpang keng [[2000]] sensus, atin yang populasyun a 154,297 a katau kareng 31,542 a pamimalemale.
-
-
-
-== Tourism Highlights ==
-
-* The '''Leyte Mountain Trail''' 
-
-* '''Rainforest tour'''   
-* '''Lake Danao''' 
-
-* '''Tongonan Hotsprings National Park''' 
-
-== Tau at Kalinagan ==
-
-Deng tau ning Ormoc mayayaus lang Ormocanons. Deng Ormocanons keraklan ing amnu ra [[Cebuanu]] (o kaya ''Kana'', nung nu deng mangamanung Cebuano king Leyte at Mauling Leyte kekralan mayayaus la) kayabe da ring buung albugang dake ning pulu ning Leyte. Deng tau makiugne la kareng lapitlapit a balen at [[Cebu]] kesa keng aslagang dake ning mismung Leyte. 
-
-
+Ing '''Lakanbalen ning Ormoc'''  primera yang klasing [[Ding Lakanbalen ning Filipinas|lakanbalen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Leyte]],  [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 == Deng Barangay ==
 
 Ing Ormoc Lakanbalen atin yang 110ng [[barangay]].
 
-{| border="0"
-|-----
-| valign="top" |
+{{Columns-list|3|
 * Alegria
 * Bagong
 * Labrador (Balion)
@@ -71,7 +36,6 @@ Ing Ormoc Lakanbalen atin yang 110ng [[barangay]].
 * Barangay 8 (Pob.)
 * Barangay 9 (Pob.)
 * Barangay 10 (Pob.)
-| valign="top" |
 * Barangay 11 (Pob.)
 * Barangay 12 (Pob.)
 * Barangay 13 (Pob.)
@@ -100,7 +64,6 @@ Ing Ormoc Lakanbalen atin yang 110ng [[barangay]].
 * Hugpa
 * Ipil
 * Lao
-| valign="top" |
 * Libertad
 * Liloan
 * Linao
@@ -129,7 +92,6 @@ Ing Ormoc Lakanbalen atin yang 110ng [[barangay]].
 * San Jose
 * San Juan
 * San Vicente
-| valign="top" |
 * Santo Niño
 * San Pablo (Simangan)
 * Sumangga
@@ -156,18 +118,24 @@ Ing Ormoc Lakanbalen atin yang 110ng [[barangay]].
 * Juaton
 * Luna
 * Mabato
-|}
+}}
+
+== Demograpiku ==
+{{Populasyon}}
+== Tau at Kalinagan ==
+Deng tau ning Ormoc mayayaus lang Ormocanons. Deng Ormocanons keraklan ing amnu ra [[Cebuanu]] (o kaya ''Kana'', nung nu deng mangamanung Cebuano king Leyte at Mauling Leyte kekralan mayayaus la) kayabe da ring buung albugang dake ning pulu ning Leyte. Deng tau makiugne la kareng lapitlapit a balen at [[Cebu]] kesa keng aslagang dake ning mismung Leyte. 
+
+== Panibatan ==
+{{reflist}}
 
 == Suglung Palwal ==
-
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 * [http://www.ormoc.gov.ph Ormoc City official website]
-* [http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-* [http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
 * [http://www.batch2006.com/visit_ormac.htm  Ormoc City, Leyte current Photos]
 
 {{Leyte}}
 {{Indy Philippine cities}}
-
-{{coor title dm|11|00|N|124|36|E|region:PH_type:city}}
 
 [[Category:Ding Lakanbalen ning Filipinas]]
