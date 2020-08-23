@@ -1,20 +1,6 @@
-[[Image:Ph_locator_misamis oriental_lugait.png|right|Map of Misamis Oriental showing the location of Lugait]]
+{{Infobox lokasyon}}
 
-{{Philippine Census			
-| title = Sensus ning Populasyun <br> Lugait, Misamis Oriental
-| 1990 = 11973		
-| 1995 = 13012		
-| 2000 = 14704		
-| 2007 = 16863		
-| 2010 = 18639		
-| 2015 = 19758		
-| 2020 = 		
-| 2025 = 		
-| 2030 = 		
-|}}
-
-Ing '''Lugait''' pang4 yang clasing  [[Ding Balen ning Filipinas|balen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Misamis Oriental|Misamis Oriental]], [[Filipinas]].  Agpang keng [[2000]] sensus, atin yang populasyun a 14,704 a katau kareng 3,048 a pamimalemale.
-
+Ing '''Lugait''' pang4 yang clasing  [[Ding Balen ning Filipinas|balen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Misamis Oriental|Misamis Oriental]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ==Deng Barangay==
 
@@ -29,15 +15,16 @@ Ing Lugait atin yang 8ng [[barangay]].
 * Poblacion
 * Upper Talacogon
 
-==Suglung Palwal==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
-
-{{philippines-geo-stub}}
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 {{Misamis Oriental}}
-
-{{coor title dm|8|20|N|124|16|E|region:PH_type:city}}
-
+{{philippines-geo-stub}}
 [[Category:Balen ning Misamis Oriental]]
