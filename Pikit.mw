@@ -1,20 +1,6 @@
-[[Image:Ph_locator_cotabato_pikit.png|right|Map of Cotabato showing the location of Pikit]]
+{{Infobox lokasyon}}
 
-{{Philippine Census			
-| title = Sensus ning Populasyun <br> Pikit, Cotabato  
-| 1990 = 32774		
-| 1995 = 57909		
-| 2000 = 68455		
-| 2007 = 96372		
-| 2010 = 113014		
-| 2015 = 154441		
-| 2020 = 		
-| 2025 = 		
-| 2030 = 		
-|}}
-
-Ing '''Pikit''' primera yang klasing   [[Ding Balen ning Filipinas|balen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Cotabato|Cotabato]], [[Filipinas]].  Agpang keng [[2000]] sensus, atin yang populasyun a 68,455 a katau kareng 13,081 a pamimalemale.
-
+Ing '''Pikit''' primera yang klasing   [[Ding Balen ning Filipinas|balen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Cotabato|Cotabato]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 ==Deng Barangay==
 
 Ing Pikit atin yang 42ng [[barangay]].
@@ -66,10 +52,15 @@ Ing Pikit atin yang 42ng [[barangay]].
 * Tinutulan
 *kalaisan
 
-==Suglung Palwal==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 *[http://www.cotabato.com.ph Cotabato.com.ph]
 *[http://www.cotabato.ph Cotabato.ph]
 *[http://www.themindanao.com theMindanao.com]
@@ -77,7 +68,4 @@ Ing Pikit atin yang 42ng [[barangay]].
 {{Cotabato}}
 
 {{Philippines-geo-stub}}
-
-{{coor title d|7.054|N|124.672|E|type:city_region:PH_source:GNS-enwiki}}
-
 [[Category:Balen ning Cotabato]]
