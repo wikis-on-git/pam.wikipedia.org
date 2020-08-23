@@ -1,23 +1,8 @@
-[[Image:Ph_locator_cotabato_president roxas.png|right|Map of Cotabato showing the location of President Roxas]]
+{{Infobox lokasyon}}
 
-{{Philippine Census			
-| title = Sensus ning Populasyun <br> President Roxas, Cotabato  
-| 1990 = 31412		
-| 1995 = 36788		
-| 2000 = 41231		
-| 2007 = 43133		
-| 2010 = 44229		
-| 2015 = 47575		
-| 2020 = 		
-| 2025 = 		
-| 2030 = 		
-|}}
-
-Ing '''President Roxas'''  pang3 yang klasing   [[Ding Balen ning Filipinas|balen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Cotabato|Cotabato]], [[Filipinas]].  Agpang keng [[2000]] sensus, atin yang populasyun a 41,231  a katau kareng 8,118 a pamimalemale.
-
+Ing '''President Roxas'''  pang3 yang klasing   [[Ding Balen ning Filipinas|balen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Cotabato|Cotabato]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ==Deng Barangay==
-
 Ing President Roxas iatin yang 25ng [[barangay]].
 
 <table border=0><tr>
@@ -50,10 +35,15 @@ Ing President Roxas iatin yang 25ng [[barangay]].
 * Mabuhay
 </td></tr></table>
 
-==Sgulung Palwal==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 *[http://www.cotabato.com.ph Cotabato.com.ph]
 *[http://www.cotabato.ph Cotabato.ph]
 *[http://www.themindanao.com theMindanao.com]
@@ -61,7 +51,4 @@ Ing President Roxas iatin yang 25ng [[barangay]].
 {{Cotabato}}
 
 {{Philippines-geo-stub}}
-
-{{coor title d|7.154|N|125.056|E|type:city_source:GNS-enwiki}}
-
 [[Category:Balen ning Cotabato]]
