@@ -2,7 +2,7 @@
  | 1903	| 1918 | 1939 |	1948 | 1960 | 1970 | 1975 | 1980 | 1990	| 1995 | 2000 | 2007 = {{refn2| name=NSO07-{{#if:{{{2|}}}|{{{2}}}|{{#invoke:String|sub|{{#property:P988}}|1|2}} }}   |
   {{cite encyclopedia
    | publisher   = [[:en:Philippine Statistics Authority#National Statistics Office|NSO]]
-   | last1       = Mga Sensus kan Populasyon (1903–2007)
+   | last1       = Censuses of Population (1903–2007)
    | url         = https://archive.org/download/PhilippinesCensusofPopulationLGUs19032007
    | chapter     = {{#switch: {{#if:{{{2|}}}|{{{2}}}|{{#invoke:String|sub|{{#property:P988}}|1|2}} }}
     | 01         = Rehiyon I (Labuad Ilocos)
@@ -104,7 +104,7 @@
  | 2015 = {{refn2| name=PSA15–{{#if:{{{2|}}}|{{{2}}}|{{#invoke:String|sub|{{#property:P988}}|1|2}} }}   |
   {{cite encyclopedia
    | publisher   = [[:en:Philippine Statistics Authority|PSA]]
-   | last1       = Sensus kan Populasyon (2015)
+   | last1       = Census of Population (2015)
    | accessdate  = 20 Jun 2016
    | chapter     = {{#switch: {{#if:{{{2|}}}|{{{2}}}|{{#invoke:String|sub|{{#property:P988}}|1|2}} }}
     | 01         = Rehiyon I (Labuad Ilocos)
