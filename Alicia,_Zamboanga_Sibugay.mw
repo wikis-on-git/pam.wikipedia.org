@@ -1,41 +1,8 @@
-{{ Infobox Philippine municipality |
-| infoboxtitle   = Balen ning Alicia
-| seal           = not available
-| sealfile       = 
-| locatormapfile = Ph_locator_zamboanga sibugay_alicia.png
-| caption        = Mapa [[Zamboanga Sibugay]] papakit ne ing karinan ning Alicia. 
-| region         = [[Zamboanga Peninsula]] (Labuad IX) 
-| province       = [[Zamboanga Sibugay]] 
-| districts      = [[Legislative district of Zamboanga Sibugay|Lone District of Zamboanga Sibugay]]
-| founded        = 
-| barangays      = 27
-| class          = pang4 a klasing balen 
-| website        = 
-| mayor          = 
-| coordinates    =  
-| pop2000        = 29,954
-| popden2000     = 
-| areakm2        = 
-}}
+{{Infobox lokasyon}}
 
-{{Philippine Census			
-| title = Sensus ning Populasyun <br> Alicia, Zamboanga Sibugay
-| 1990 = 24803		
-| 1995 = 27959		
-| 2000 = 29954		
-| 2007 = 32289		
-| 2010 = 34895		
-| 2015 = 		
-| 2020 = 		
-| 2025 = 		
-| 2030 = 		
-|}}
-
-
-Ing '''Alicia''' pang4 yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Zamboanga Sibugay]], [[Filipinas]]. Agpang keng [[2000]] sensus, atin yang populasyun a 29,954 a katau kareng 5,663  a pamimalemale.
+Ing '''Alicia''' pang4 yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Zamboanga Sibugay]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 == Deng Barangay ==
-
 Ing Alicia atin yang 27ng [[barangay]].
 
 {| border="0"
@@ -71,10 +38,15 @@ Ing Alicia atin yang 27ng [[barangay]].
 * Timbang-timbang
 |}
 
-== Kasusug Kilwal ==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 {{Zamboanga Sibugay}}
 
