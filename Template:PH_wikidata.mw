@@ -3,7 +3,7 @@
  {{safesubst:#if:{{safesubst:#property:P31}}|
   {{safesubst:#ifexpr:{{#invoke:String|find|{{safesubst:#property:P31}}|Balen Filipinas}}| [[Balen Filipinas{{!}}Balen]]| 
    {{safesubst:#ifexpr:{{#invoke:String|find|{{safesubst:#property:P31}}|Ding Lakanbalen ning Filipinas}}| [[Ding Lakanbalen ning Filipinas{{!}} {{safesubst:#switch:{{{prefix}}}{{!}} cc = Component{{!}} icc = Independent Component}} Lakanbalen]]|
-    {{safesubst:#ifexpr:{{#invoke:String|find|{{safesubst:#property:P31}}|Ding Lakanbalen ning Filipinas}}|[[Ding Lakanbalen ning Filipinas{{!}}Maragul Lakanbalen]]|
+    {{safesubst:#ifexpr:{{#invoke:String|find|{{safesubst:#property:P31}}|highly urbanized city}}|[[Ding Lakanbalen ning Filipinas{{!}}Maragul Lakanbalen]]|
      {{safesubst:#ifexpr:{{#invoke:String|find|{{safesubst:#property:P31}}|barangay}}|[[Barangay]]|
       {{safesubst:#ifexpr:{{#invoke:String|find|{{safesubst:#property:P31}}|Ding Lalawigan ning Filipinas}}|[[Ding Lalawigan ning Filipinas{{!}}Lalawigan]]|
        {{safesubst:#ifexpr:{{#invoke:String|find|{{safesubst:#property:P31}}|purok}}|[[Purok]]|
