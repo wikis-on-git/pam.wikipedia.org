@@ -1,24 +1,10 @@
-[[Image:Ph_locator_agusan del sur_san francisco.png|right|Map of Agusan del Sur showing the location of San Francisco]]
+{{Infobox lokasyon}}
 
-{{Philippine Census			
-| title = Sensus ning Populasyun <br> San Francisco, Agusan del Sur
-| 1990 = 43878		
-| 1995 = 50844		
-| 2000 = 56968		
-| 2007 = 62881		
-| 2010 = 70986		
-| 2015 = 74542		
-| 2020 = 		
-| 2025 = 		
-| 2030 = 		
-|}}
-
-Ing '''San Francisco'''  pang2 yang klasing   [[Ding Balen ning Filipinas|balen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Agusan del Sur|Agusan del Sur]], [[Filipinas]].  Agpang keng [[2000]] sensus, atin yang populasyun a 56,968  a katau kareng 10,717 a pamimalemale.
+Ing '''San Francisco'''  pang2 yang klasing   [[Ding Balen ning Filipinas|balen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Agusan del Sur|Agusan del Sur]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ==Deng Barangay==
 
 Ing San Francisco atin yang 27ng [[barangay]].
-
 <table border=0><tr>
 <td valign=top>
 * Alegria
@@ -51,13 +37,15 @@ Ing San Francisco atin yang 27ng [[barangay]].
 * Ormaca
 </td></tr></table>
 
-==Suglung Palwal==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 {{Agusan del Sur}}
-
-{{coor title d|8.536|N|125.950|E|type:city_source:GNS-enwiki}}
-
 [[Category:Balen ning Agusan del Sur]]
