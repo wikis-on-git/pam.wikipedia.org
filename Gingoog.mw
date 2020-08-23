@@ -1,20 +1,6 @@
-{{Infobox Philippine city |
- infoboxtitle = Gingoog City |
- locatormapfile = Ph_locator_misamis oriental_gingoog.png |
- caption      = Map of [[Misamis Oriental]] showing the location of Gingoog City. |
- region       = [[Northern Mindanao]] (Region X) |
- province     = [[Misamis Oriental]] |
- barangays    = 79 |
- class        = 1st class city; urban |
- cityhood     = |
- areakm2      = 649.80 |
- pop2000      = 102,379 |
- popden2000   = 157.5 |
- coordinates  = |
-}}
+{{Infobox lokasyon}}
 
-Ing '''Lakanbalen ning Gingoog''' primera yang klasing [[Ding  Lakanbalen ning Filipinas|lakanbalen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Misamis Oriental|Misamis Oriental]],  [[Filipinas]]. Agpang keng [[2000]] sensus, atin yang populasyun a 102,379 a katau kareng 20,081 a pamimalemale.
-
+Ing '''Lakanbalen ning Gingoog''' primera yang klasing [[Ding  Lakanbalen ning Filipinas|lakanbalen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Misamis Oriental|Misamis Oriental]],  [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ==Deng Barangay==
 
@@ -105,17 +91,16 @@ Ing Gingoog Lakanbaeln atin yang 79 a  [[barangay]].
 * Tagpako
 </td></tr></table>
 
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-
-==Gingoog Information==
-
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 *[http://www.webcitation.org/query?id=1256572947148495&url=www.geocities.com/gingoog_dalnet/gingoogcity.html Gingoog City]
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
-
 
 {{Misamis Oriental}}
-
-{{coor title dm|8|50|N|125|06|E|region:PH_type:city}}
-
 [[Category:Ding Lakanbalen ning Filipinas]]
