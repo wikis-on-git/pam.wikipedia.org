@@ -1,23 +1,8 @@
-[[Image:Ph_locator_cotabato_kabacan.png|right|Map of Cotabato showing the location of Kabacan]]
+{{Infobox lokasyon}}
 
-{{Philippine Census			
-| title = Sensus ning Populasyun <br> Kabacan, Cotabato  
-| 1990 = 32055		
-| 1995 = 61481		
-| 2000 = 61998		
-| 2007 = 73991		
-| 2010 = 81282		
-| 2015 = 89161		
-| 2020 = 		
-| 2025 = 		
-| 2030 = 		
-|}}
-
-Ing '''Kabacan''' pang2 yang klasing   [[Ding Balen ning Filipinas|balen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Cotabato|Cotabato]], [[Filipinas]].  Agpang keng [[2000]] sensus, atin yang populasyun a 61,998 a katau kareng 12,663 a pamimalemale.
-
+Ing '''Kabacan''' pang2 yang klasing   [[Ding Balen ning Filipinas|balen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Cotabato|Cotabato]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ==Deng Barangay==
-
 Ing Kabacan atin yang 24 a [[barangay]].
 
 {| border="0"
@@ -50,18 +35,20 @@ Ing Kabacan atin yang 24 a [[barangay]].
 * Tamped
 |}
 
-==Suglung Palwal==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 *[http://www.kabacan.com.ph Kabacan.com.ph]
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
 *[http://www.cotabato.com.ph Cotabato.com.ph]
 *[http://www.cotabato.ph Cotabato.ph]
 
 {{Cotabato}}
 
 {{Philippines-geo-stub}}
-
-{{coord|7|07|N|124|49|E|display=title|region:PH_type:adm2nd_source:GNS-enwiki}}
-
 [[Category:Balen ning Cotabato]]
