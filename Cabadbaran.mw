@@ -1,25 +1,6 @@
-{{ Infobox Philippine municipality |
-| infoboxtitle   = Municipality of Cabadbaran
-| seal           = available
-| sealfile       = Ph seal agusan del norte cabadbaran.png
-| locatormapfile = Ph_locator_agusan del norte cabadbaran.png
-| caption        = Map of [[Agusan del Norte]] showing the location of Cabadbaran. 
-| region         = [[Caraga]] (Region XIII) 
-| province       = [[Agusan del Norte]] 
-| districts      = [[Legislative districts of Agusan del Norte#2nd District|2nd District of Agusan del Norte]]
-| founded        = 
-| barangays      = 31 
-| class          = 2nd class municipality 
-| website        = 
-| mayor          = 
-| coordinates    = 
-| pop2000        = 55,006
-| popden2000     = 
-| areakm2        = 
-}}
+{{Infobox lokasyon}}
 
-
-Ing '''Cabadbaran''' pang2 yang klasing [[Ding Balen ning Filipinas|balen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Agusan del Norte]], [[Filipinas]].  Agpang keng [[2000]] sensus, atin yang populasyun a 55,006 a katau kareng 10,410 a pamimalemale.
+Ing '''Cabadbaran''' pang2 yang klasing [[Ding Balen ning Filipinas|balen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Agusan del Norte]], [[Filipinas]].  Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 == Deng Barangay ==
 
@@ -63,13 +44,15 @@ Ing Cabadbaran atin yang 31ng a [[barangay]].
 * Mahaba
 |}
 
-== Kasusug Kilwal ==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-* [http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-* [http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 {{Agusan del Norte}}
-
-{{coor title dm|9|07|N|125|32|E|region:PH_type:city}}
-
 [[Category:Balen ning Agusan del Norte]]
