@@ -1,34 +1,13 @@
-{{Infobox Philippine city |
- infoboxtitle = Lakanbalen ning Lapu-Lapu |
- sealfile     = Ph_seal_cebu_lapu-lapu.png |
- locatormapfile = Ph_locator_cebu_lapu-lapu.png |
- caption      = Mapa ning [[Cebu PUlu|Cebu]] papakit ne ing karinan ning Lapu-Lapu |
- region       = [[Kalibudtang Visayas]] (Labuad VII) |
- province     = [[Cebu|Cebu]] |
- districts    = pang6 a distritu ning Cebu |
- barangays    = 30 |
- class        = primera klasi; urban |
- mayor        = Arturo Radaza |
- cityhood     = [[Juniu 17]], [[1961]] |
- areakm2      = 64.22 |
- pop2000      = 217,019 |
- popden2000   = 3,379 |
- coordinates  = |
-}}
+{{Infobox lokasyon}}
 
-
-
-Ing '''Lakanbalen ning Lapu-Lapu''' primera yang klasing [[Ding Lakanbalen ning Filipinas|lakanbalen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Cebu]], [[Filipinas]]. Agpang keng [[2000]] sensus, atin yang populasyun a 217,019 a katau kareng 44,439 a pmimalemale.
-
-
-
+Ing '''Lakanbalen ning Lapu-Lapu''' primera yang klasing [[Ding Lakanbalen ning Filipinas|lakanbalen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Cebu]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 == Deng Barangays ==
-
+[[File:Hilton_mactan.jpg|288px|thumb|right|Cebu Hilton Resort and Towers]]
+[[File:Shangrila_mactan.jpg|288px|thumb|right|Shangri-La's Mactan Island Resort and Spa]]
 Ing Lapu-Lapu Lakanbalen atin yang 30ng [[barangay]].
 
-<table border=0><tr>
-<td valign=top>
+{{Columns-list|3|
 * Agus
 * Babag
 * Bankal
@@ -44,7 +23,6 @@ Ing Lapu-Lapu Lakanbalen atin yang 30ng [[barangay]].
 * Ibo
 * Looc
 * Mactan
-</td><td valign=top>
 * Maribago
 * Marigondon
 * Pajac
@@ -60,40 +38,22 @@ Ing Lapu-Lapu Lakanbalen atin yang 30ng [[barangay]].
 * Tingo
 * Tungasan
 * San Vicente
-</td></tr></table>
+}}
 
-
-
-== Larawan ==
-
-'''Cebu Hilton Resort and Towers''', Lapu-lapu City, Metro Cebu
-<br />
-[[File:Hilton_mactan.jpg]]
-<p>
-<p>
-'''Shangri-La's Mactan Island Resort and Spa''', Lapu-lapu City, Metro Cebu
-<br />
-[[File:Shangrila_mactan.jpg]]
-<p>
-<p>
-
-== Lawen ya rin ==
-
-* [[Metro Cebu]]
-* [[Gun-ob]]
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
 == Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 * [http://www.lapulapucity.gov.ph/ Official City Government website]
-* [http://www.nscb.gov.ph/activestats/psgc/municipality.asp?muncode=072226000&regcode=07&provcode=22 Philippine Standard Geographic Code]
-* [http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
 * [http://www.cebuaccommodation.com/ Independent Guide to Cebu's Accommodation]
 * [http://www.cebulifestyles.com/ Travel Portal Dedicated To Cebu]
 * [http://living.cebunetwork.com/sutukil-fresh-seafood-mactan-island/2006/05/06/ Sutukil: Fresh seafood dining in Lapu-Lapu city, Mactan Island]
 * [http://www.mynimo.com Jobs in Lapu-Lapu City]
 
-{{Metro Cebu}}
 {{Cebu}}
-
-{{coor title dm|10|19|N|123|57|E|region:PH_type:city}}
-
 [[Category:Ding Lakanbalen ning Filipinas]]
