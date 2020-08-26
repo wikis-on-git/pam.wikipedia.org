@@ -1,27 +1,12 @@
-[[Image:Ph_locator_iloilo_balasan.png|right|Map of Iloilo showing the location of Balasan]]
+{{Infobox lokasyon}}
 
-{{Philippine Census			
-| title = Sensus ning Populasyun <br> Balasan, Iloilo
-| 1990 = 22013		
-| 1995 = 22949		
-| 2000 = 25474		
-| 2007 = 27384		
-| 2010 = 29724		
-| 2015 = 33088		
-| 2020 = 		
-| 2025 = 		
-| 2030 = 		
-|}}
-
-Ing '''Balasan'''  pang4 yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Iloilo|Iloilo]], [[Filipinas]]. Agpang keng [[2000]] sensus, atin yang populasyun a  25,474 a katau kareng 5,109 a pamimalemale.
+Ing '''Balasan'''  pang4 yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Iloilo|Iloilo]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ==Deng Barangay==
 
 Ing Balasan atin yang 23ng [[barangay]].
 
-{| border="0"
-|-----
-| valign="top" |
+{{Columns-list|2|
 * Aranjuez
 * Bacolod
 * Balanti-an
@@ -34,7 +19,6 @@ Ing Balasan atin yang 23ng [[barangay]].
 * Kinalkalan
 * Lawis
 * Malapoc
-| valign="top" |
 * Mamhut Norte
 * Mamhut Sur
 * Maya
@@ -46,15 +30,17 @@ Ing Balasan atin yang 23ng [[barangay]].
 * Salvacion
 * Tingui-an
 * Zaragosa
-|}
+}}
 
-==Kasusug Kilwal==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 {{Iloilo}}
-
-{{coor title dm|11|28|N|123|05|E|region:PH_type:city}}
-
 [[Category:Balen ning Iloilo]]
