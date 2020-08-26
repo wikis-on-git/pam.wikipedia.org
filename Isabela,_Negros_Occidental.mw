@@ -1,22 +1,8 @@
-[[Image:Ph_locator_negros occidental_isabela.png|right|Map of Negros Occidental showing the location of Isabela]]
+{{Infobox lokasyon}}
 
-{{Philippine Census			
-| title = Sensus ning Populasyun <br> Isabela, Negros Occidental
-| 1990 = 47010		
-| 1995 = 49019		
-| 2000 = 48719		
-| 2007 = 58819		
-| 2010 = 59523		
-| 2015 = 62146		
-| 2020 = 		
-| 2025 = 		
-| 2030 = 		
-|}}
-
-Ing '''Balen ning Isabela''' pang3 yang klasing [[Ding Balen ning Filipinas|balen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Negros Occidental |Negros Occidental]], [[Filipinas]].  Agpang keng [[2000]] sensus, atin yang populasyun a 48,719 a katau kareng 9,469  a pamimalemale.
+Ing '''Balen ning Isabela''' pang3 yang klasing [[Ding Balen ning Filipinas|balen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Negros Occidental |Negros Occidental]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ==Deng Barangay==
-
 Ing Isabela atin yang 30ng [[barangay]].
 
 <table border=0><tr>
@@ -54,14 +40,16 @@ Ing Isabela atin yang 30ng [[barangay]].
 * Tinongan
 </td></tr></table>
 
-==Suglung Palwal==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 *[http://elgu.ncc.gov.ph/ecommunity/isabela-negoc/index.php?cat1=1 Municipality of Isabela]
 
 {{Negros Occidental}}
-
-{{coor title d|10.204|N|122.989|E|type:city_source:GNS-enwiki}}
-
 [[Category:Balen ning Negros Occidental]]
