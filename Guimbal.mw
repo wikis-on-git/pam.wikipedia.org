@@ -1,28 +1,11 @@
-[[Image:Ph_locator_iloilo_guimbal.png|right|Map of Iloilo showing the location of Guimbal]]
+{{Infobox lokasyon}}
 
-{{Philippine Census			
-| title = Sensus ning Populasyun <br> Guimbal, Iloilo
-| 1990 = 23478		
-| 1995 = 26316		
-| 2000 = 27707		
-| 2007 = 29724		
-| 2010 = 32325		
-| 2015 = 33820		
-| 2020 = 		
-| 2025 = 		
-| 2030 = 		
-|}}
-
-Ing '''Guimbal'''  pang4 yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Iloilo|Iloilo]], [[Filipinas]]. Agpang keng [[2000]] sensus, atin yang populasyun a 27,707 a katau kareng 5,310 a pamimalemale.
-
-
+Ing '''Guimbal'''  pang4 yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Iloilo|Iloilo]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ==Deng Barangay==
-
 Ing Guimbal atin yang 33ng [[barangay]].
 
-<table border=0><tr>
-<td valign=top>
+{{Columns-list|2|
 * Anono-o
 * Bacong
 * Bagumbayan Pob. (Bagumbayan-
@@ -34,7 +17,6 @@ Ing Guimbal atin yang 33ng [[barangay]].
 * Bongol San Vicente
 * Bulad
 * Buluangan
-</td><td valign=top>
 * Burgos-Gengos (Pob.)
 * Cabasi
 * Cabubugan
@@ -46,7 +28,6 @@ Ing Guimbal atin yang 33ng [[barangay]].
 * Gotera (Pob.)
 * Igcocolo
 * Libo-on Gonzales (Pob.)
-</td><td valign=top>
 * Lubacan
 * Nahapay
 * Nalundan
@@ -58,12 +39,17 @@ Ing Guimbal atin yang 33ng [[barangay]].
 * Sipitan-Badiang
 * Iyasan
 * Santa Rosa-Laguna
-</td></tr></table>
+}}
 
-==Kasusug Kilwal==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 *[http://web.archive.org/20021130114926/www.geocities.com/guimbal_iloilo/ Municipality of Guimbal Official Website]
 
 {{Iloilo}}
