@@ -1,28 +1,11 @@
-[[Image:Ph_locator_iloilo_ajuy.png|right|Map of Iloilo showing the location of Ajuy]]
-			
-{{Philippine Census			
-| title = Sensus ning Populasyun <br> Ajuy, Iloilo
-| 1990 = 38120		
-| 1995 = 38415		
-| 2000 = 45192		
-| 2007 = 47113		
-| 2010 = 47248		
-| 2015 = 52268		
-| 2020 = 		
-| 2025 = 		
-| 2030 = 		
-|}}
+{{Infobox lokasyon}}
 
-Ing '''Ajuy'''  pang4 yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Iloilo|Iloilo]], [[Filipinas]]. Agpang keng [[2000]] sensus, atin yang populasyun a 45,192 a katau kareng 8,312 a pamimalemale.
-
+Ing '''Ajuy'''  pang4 yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Iloilo|Iloilo]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ==Deng Barangay==
-
 Ing Ajuy atin yang 34 a [[barangay]].
 
-{| border="0"
-|-----
-| valign="top" |
+{{Columns-list|2|
 * Adcadarao
 * Agbobolo
 * Badiangan
@@ -35,7 +18,6 @@ Ing Ajuy atin yang 34 a [[barangay]].
 * Lanjagan
 * Luca
 * Malayu-an
-| valign="top" |
 * Mangorocoro
 * Nasidman
 * Pantalan Nabaye
@@ -47,7 +29,6 @@ Ing Ajuy atin yang 34 a [[barangay]].
 * Pinay Espinosa
 * Poblacion
 * Progreso
-| valign="top" |
 * Puente Bunglas
 * Punta Buri
 * Rojas
@@ -59,15 +40,17 @@ Ing Ajuy atin yang 34 a [[barangay]].
 * Tanduyan
 * Tipacla
 * Tubogan
-|}
+}}
 
-==Kasusug Kilwal==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 {{Iloilo}}
-
-{{coor title dm|11|10|N|123|01|E|region:PH_type:city}}
-
 [[Category:Balen ning Iloilo]]
