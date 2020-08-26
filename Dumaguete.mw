@@ -1,32 +1,15 @@
-{{Infobox Philippine city |
- infoboxtitle   = City of Dumaguete | 
- sealfile       = Ph seal negros oriental dumaguete.png |
- locatormapfile = Ph_locator_negros oriental_dumaguete.png |
- caption        = Map of [[Negros Oriental]] showing the location of Dumaguete City |
- region         = [[Central Visayas]] (Region VII) |
- province       = Negros Oriental |
- districts      = 2nd district of Negros Oriental |
- barangays      = 30 |
- class          = 2nd class city |
- mayor          = Agustin Ramon M. Perdices |
- cityhood       = [[June 15]], [[1948]] |
- areakm2        = 34.26 |
- pop2000        = 102,265 |
- popden2000     = 3041.8 |
- coordinates    =  |
-}}
-Ing '''Lakanbalen ning Dumaguete'''  metung yang klasing [[Ding Lakanbalen ning Filipinas|lakanbalen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Negros Oriental]],  [[Filipinas]]. Agpang keng [[2000]] sensus, atin yang populasyun a 102,265 a katau kareng 21,582 a pamimalemale.
+{{Infobox lokasyon}}
 
+Ing '''Lakanbalen ning Dumaguete'''  metung yang klasing [[Ding Lakanbalen ning Filipinas|lakanbalen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Negros Oriental]],  [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
-== Amlat ==
-[[File:Dumaguete Belfry.jpg|left|thumb|250px|.]]
+[[File:Silliman hall.jpg|288px|thumb|right|[[Silliman University]].]]
+[[File:Dumaguete Belfry.jpg|298px|right]]
+[[File:Dumaguete_Boulevard.jpg|298px|right]]
+[[File:Dumaguete Cathedral.jpg|298px|right]]
 
+==Deng Barangay==
+Ing Dumaguete atin yang 30 ng [[barangay]].
 
-[[File:Dumaguete_Boulevard.jpg|thumb|right|250px|.]]
-
-
-<table border=0><tr>
-<td valign=top>
 * Bagacay
 * Bajumpandan
 * Balugo
@@ -37,7 +20,6 @@ Ing '''Lakanbalen ning Dumaguete'''  metung yang klasing [[Ding Lakanbalen ning 
 * Cadawinonan
 * Calindagan
 * Camanjac
-</td><td valign=top>
 * Candau-ay
 * Cantil-e
 * Daro
@@ -48,7 +30,6 @@ Ing '''Lakanbalen ning Dumaguete'''  metung yang klasing [[Ding Lakanbalen ning 
 * Piapi
 * Barangay 1
 * Barangay 2
-</td><td valign=top>
 * Barangay 3
 * Barangay 4
 * Barangay 5
@@ -59,16 +40,6 @@ Ing '''Lakanbalen ning Dumaguete'''  metung yang klasing [[Ding Lakanbalen ning 
 * Tabuctubig
 * Taclobo
 * Talay
-</td></tr></table>
-
-
-== Demographics ==
-
-[[File:Dumaguete Cathedral.jpg|right|thumb|250px|]]
- 
-== Pamagaral ==
-
-[[File:Silliman hall.jpg|left|thumb|250px|Dumaguete is best known for [[Silliman University]].]]
 
 == Television Networks: ==
 * [[GMA Network]]: Channel 5 
@@ -77,15 +48,20 @@ Ing '''Lakanbalen ning Dumaguete'''  metung yang klasing [[Ding Lakanbalen ning 
 * [[Studio 23]]: Channel 24
 * [[Studio 51]]: Koji Shiga, MES, DASH Engineering
 
-== References ==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
+
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
+* [http://www.dumaguetecity.gov.ph Official Website of Dumaguete City]
 * [http://www.philippinebusiness.com.ph/archives/magazine/vol11-2004/11-6/geographics.htm PhilippineBusiness.com.ph - University Town]
 * http://www.tdh.nl/filelibrary/Deel3_ECPAT.pdf
-* [http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-* [http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
-== Suglung Palwal ==
-* [http://www.dumaguetecity.gov.ph Official Website of Dumaguete City]
+
+
 
 {{Negros Oriental}}
-{{coor title dm|9|19|N|123|18|E|region:PH_type:city}}
-
 [[Category:Ding Lakanbalen ning Filipinas]]
