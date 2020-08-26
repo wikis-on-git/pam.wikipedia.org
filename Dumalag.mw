@@ -1,26 +1,12 @@
-[[Image:Ph_locator_capiz_dumalag.png|right|Map of Capiz showing the location of Dumalag]]
+{{Infobox lokasyon}}
 
-{{Philippine Census			
-| title = Sensus ning Populasyun <br> Dumalag, Capiz
-| 1990 = 25484		
-| 1995 = 28348		
-| 2000 = 25920		
-| 2007 = 29221		
-| 2010 = 29298		
-| 2015 = 29466		
-| 2020 = 		
-| 2025 = 		
-| 2030 = 		
-|}}
-
-Ing '''Dumalag'''  pang4 yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Capiz|Capiz]], [[Filipinas]]. Agpang keng [[2000]] sensus, atin yang populasyun a 25,920 a katau kareng 5,375 a pamimalemale.
+Ing '''Dumalag'''  pang4 yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Capiz|Capiz]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ==Deng Barangay==
 
 Ing Dumalag atin yang 19 a [[barangay]].
 
-<table border=0><tr>
-<td valign=top>
+{{Columns-list|2|
 * Concepcion
 * Consolacion
 * Dolores
@@ -31,7 +17,6 @@ Ing Dumalag atin yang 19 a [[barangay]].
 * San Miguel
 * San Rafael
 * San Roque
-</td><td valign=top>
 * Santa Carmen
 * Santa Cruz
 * Santa Monica
@@ -41,15 +26,17 @@ Ing Dumalag atin yang 19 a [[barangay]].
 * Santo Niño
 * Santo Rosario
 * Poblacion
-</td></tr></table>
+}}
 
-==Kasusug Kilwal==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 {{Capiz}}
-
-{{coor title dm|11|18|N|122|37|E|region:PH_type:city}}
-
 [[Category:Balen ning Capiz]]
