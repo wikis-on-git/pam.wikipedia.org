@@ -1,25 +1,11 @@
-[[Image:Ph_locator_capiz_dumarao.png|right|Map of Capiz showing the location of Dumarao]]
+{{Infobox lokasyon}}
 
-{{Philippine Census			
-| title = Sensus ning Populasyun <br> Dumarao, Capiz
-| 1990 = 36801		
-| 1995 = 38037		
-| 2000 = 40303		
-| 2007 = 42603		
-| 2010 = 43986		
-| 2015 = 46157		
-| 2020 = 		
-| 2025 = 		
-| 2030 = 		
-|}}
-
-Ing '''Dumarao'''  pang3 yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Capiz|Capiz]], [[Filipinas]]. Agpang keng [[2000]] sensus, atin yang populasyun a 40,303 a katau kareng 7,993 a pamimalemale.
+Ing '''Dumarao'''  pang3 yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Capiz|Capiz]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ==Deng Barangay==
-
 Ing Dumarao atin yang 33ng [[barangay]].
 
-<td valign=top>
+{{Columns-list|2|
 * Agbatuan
 * Aglalana
 * Aglanot
@@ -31,7 +17,6 @@ Ing Dumarao atin yang 33ng [[barangay]].
 * Calapawan
 * Cubi
 * Dacuton
-</td><td valign=top>
 * Dangula
 * Gibato
 * Codingle
@@ -43,7 +28,6 @@ Ing Dumarao atin yang 33ng [[barangay]].
 * Nagsulang
 * Ongol Ilawod
 * Ongol Ilaya
-</td><td valign=top>
 * Poblacion Ilawod
 * Poblacion Ilaya
 * Sagrada Familia
@@ -55,15 +39,17 @@ Ing Dumarao atin yang 33ng [[barangay]].
 * Tina
 * Tinaytayan
 * Traciano
-</td></tr></table>
+}}
 
-==Kasusug Kilwal==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 {{Capiz}}
-
-{{coor title dm|11|16|N|122|41|E|region:PH_type:city}}
-
 [[Category:Balen ning Capiz]]
