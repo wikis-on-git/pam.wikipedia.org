@@ -1,27 +1,11 @@
-[[Image:Ph_locator_iloilo_igbaras.png|right|Map of Iloilo showing the location of Igbaras]]
+{{Infobox lokasyon}}
 
-{{Philippine Census			
-| title = Sensus ning Populasyun <br> Igbaras, Iloilo
-| 1990 = 25274		
-| 1995 = 25960		
-| 2000 = 27878		
-| 2007 = 29417		
-| 2010 = 31347		
-| 2015 = 32004		
-| 2020 = 		
-| 2025 = 		
-| 2030 = 		
-|}}
-
-Ing '''Igbaras'''  pang4 yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Iloilo|Iloilo]], [[Filipinas]]. Agpang keng [[2000]] sensus, atin yang populasyun a 27,878 a katau kareng 5,559 a pamimalemale.
-
+Ing '''Igbaras'''  pang4 yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Iloilo|Iloilo]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ==Deng Barangay==
-
 Ing Igbaras atin yang 46 a [[barangay]].
 
-<table border=0><tr>
-<td valign=top>
+{{Columns-list|2|
 * Alameda
 * Amorogtong
 * Anilawan
@@ -38,7 +22,6 @@ Ing Igbaras atin yang 46 a [[barangay]].
 * Calampitao
 * Cale
 * Corucuan
-</td><td valign=top>
 * Catiringan
 * Igcabugao
 * Igpigus
@@ -54,7 +37,6 @@ Ing Igbaras atin yang 46 a [[barangay]].
 * Mulangan
 * Pasong
 * Passi
-</td><td valign=top>
 * Pinaopawan
 * Barangay 1 Poblacion
 * Barangay 2 Poblacion
@@ -70,18 +52,19 @@ Ing Igbaras atin yang 46 a [[barangay]].
 * Talayatay
 * Taytay
 * Tigbanaba
-</td></tr></table>
+}}
 
-==Kasusug Kilwal==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
+
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 *[http://www.Igbaras.Net Official Website of the Municipality of Igbaras]
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
 *[http://www.igbaras.com Longest lasting IGBARAS site. Best ever!]
 
-
-
 {{Iloilo}}
-
-{{coor title dm|10|43|N|122|16|E|region:PH_type:city}}
-
 [[Category:Balen ning Iloilo]]
