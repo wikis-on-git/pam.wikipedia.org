@@ -1,26 +1,12 @@
-[[Image:Ph_locator_capiz_sigma.png|right|Map of Capiz showing the location of Sigma]]
+{{Infobox lokasyon}}
 
-{{Philippine Census			
-| title = Sensus ning Populasyun <br> Sigma, Capiz
-| 1990 = 25089		
-| 1995 = 25801		
-| 2000 = 27366		
-| 2007 = 28709		
-| 2010 = 29138		
-| 2015 = 30134		
-| 2020 = 		
-| 2025 = 		
-| 2030 = 		
-|}}
-
-Ing '''Sigma'''  pang4 yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Capiz|Capiz]], [[Filipinas]]. Agpang keng [[2000]] sensus, atin yang populasyun a 27,366 a katau kareng 5,541 a pamimalemale.
+Ing '''Sigma'''  pang4 yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Capiz|Capiz]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ==Deng Barangay==
 
 Ing Sigma atin yang 21ng a [[barangay]].
 
-<table border=0><tr>
-<td valign=top>
+{{Columns-list|2|
 * Acbo
 * Amaga
 * Balucuan
@@ -32,7 +18,6 @@ Ing Sigma atin yang 21ng a [[barangay]].
 * Malapad Cogon
 * Mangoso
 * Mansacul
-</td><td valign=top>
 * Matangcong
 * Matinabus
 * Mianay
@@ -43,15 +28,17 @@ Ing Sigma atin yang 21ng a [[barangay]].
 * Poblacion Norte
 * Poblacion Sur
 * Tawog
-</td></tr></table>
+}}
 
-==Kasusug Kilwal==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 {{Capiz}}
-
-{{coor title dm|11|25|N|122|40|E|region:PH_type:city}}
-
 [[Category:Balen ning Capiz]]
