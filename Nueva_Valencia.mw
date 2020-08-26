@@ -1,26 +1,12 @@
-[[Image:Ph_locator_guimaras_nueva valencia.png|right|Map of Guimaras showing the location of Nueva Valencia]]
+{{Infobox lokasyon}}
 
-{{Philippine Census			
-| title = Sensus ning Populasyun <br> Nueva Valencia, Guimaras
-| 1990 = 30703		
-| 1995 = 27158		
-| 2000 = 30716		
-| 2007 = 35026		
-| 2010 = 37852		
-| 2015 = 39810		
-| 2020 = 		
-| 2025 = 		
-| 2030 = 		
-|}}
-
-Ing '''Nueva Valencia'''  pang4 yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Guimaras|Guimaras]], [[Filipinas]]. Agpang keng [[2000]] sensus, atin yang populasyun a 30,716 a katau kareng 6,043 a pamimalemale.
+Ing '''Nueva Valencia'''  pang4 yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Guimaras|Guimaras]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ==Deng Barangay==
 
 Ing Nueva Valencia atin yang 20ng [[barangay]].
 
-<table border=0><tr>
-<td valign=top>
+{{Columns-list|2|
 * Cabalagnan
 * Calaya
 * Canhawan
@@ -31,7 +17,6 @@ Ing Nueva Valencia atin yang 20ng [[barangay]].
 * La Paz
 * Lanipe
 * Lucmayan
-</td><td valign=top>
 * Magamay
 * Napandong
 * Pandaraonan
@@ -42,15 +27,17 @@ Ing Nueva Valencia atin yang 20ng [[barangay]].
 * San Roque
 * Santo Domingo
 * Tando
-</td></tr></table>
+}}
 
-==Kasusug Kilwal==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 {{Guimaras}}
-
-{{coor title dm|10|31|N|122|32|E|region:PH_type:city}}
-
 [[Category:Balen ning Guimaras]]
