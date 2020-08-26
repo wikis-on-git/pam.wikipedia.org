@@ -1,26 +1,11 @@
-[[Image:Ph_locator_capiz_jamindan.png|right|Map of Capiz showing the location of Jamindan]]
+{{Infobox lokasyon}}
 
-{{Philippine Census			
-| title = Sensus ning Populasyun <br> Jamindan, Capiz
-| 1990 = 27896		
-| 1995 = 34022		
-| 2000 = 33966		
-| 2007 = 34831		
-| 2010 = 35002		
-| 2015 = 36677		
-| 2020 = 		
-| 2025 = 		
-| 2030 = 		
-|}}
-
-Ing '''Jamindan'''  pang4 yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Capiz|Capiz]], [[Filipinas]]. Agpang keng [[2000]] sensus, atin yang populasyun a 33,966 a katau kareng 6,850 a pamimalemale.
+Ing '''Jamindan'''  pang4 yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Capiz|Capiz]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ==Deng Barangay==
-
 Ing Jamindan atin yang 30ng [[barangay]].
 
-<table border=0><tr>
-<td valign=top>
+{{Columns-list|2|
 * Agambulong
 * Agbun-od
 * Agcagay
@@ -36,7 +21,6 @@ Ing Jamindan atin yang 30ng [[barangay]].
 * Jaena Norte
 * Jaena Sur
 * Jagnaya
-</td><td valign=top>
 * Lapaz
 * Linambasan
 * Lucero
@@ -52,15 +36,17 @@ Ing Jamindan atin yang 30ng [[barangay]].
 * San Juan
 * San Vicente
 * Santo Rosario
-</td></tr></table>
+}}
 
-==Kasusug Kilwal==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 {{Capiz}}
-
-{{coor title dm|11|24|N|122|30|E|region:PH_type:city}}
-
 [[Category:Balen ning Capiz]]
