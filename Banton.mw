@@ -1,19 +1,6 @@
-[[Image:Ph_locator_romblon_banton.png|right|Map of Romblon showing the location of Banton]]
+{{Infobox lokasyon}}
 
-{{Philippine Census			
-| title = Sensus ning Populasyun <br> Banton, Romblon
-| 1990 = 7077		
-| 1995 = 6069		
-| 2000 = 6769		
-| 2007 = 6799		
-| 2010 = 5963		
-| 2015 = 		
-| 2020 = 		
-| 2025 = 		
-| 2030 = 		
-|}}
-
-Ing '''Banton''' pang5 yang klasing [[Ding Balen ning Filipinas|balen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Romblon|Romblon]], [[Filipinas]].  Agpang keng [[2000]] sensus, atin yang populasyun a 6,769 a katau kareng 1,478 a pamimalemale.
+Ing '''Banton''' pang5 yang klasing [[Ding Balen ning Filipinas|balen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Romblon|Romblon]], [[Filipinas]].  Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ==Deng Barangay==
 Ing Banton atin yang 17ng [[barangay]].
@@ -41,15 +28,16 @@ Ing Banton atin yang 17ng [[barangay]].
 * Yabawon
 |}
 
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-==Suglung Palwal==
-
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 *[http://www.yagting.com/bantonvol01/banton_vol1.asp Banton, Romblon Official Website]
 
 {{Romblon}}
-
-{{coor title d|12.949|N|122.097|E|type:city_region:PH_source:GNS-enwiki}}
-
 [[Category:Balen ning Romblon]]
