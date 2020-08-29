@@ -5,9 +5,7 @@ Ing '''Lakanbalen ning Bacoor''' primera yang klasing [[Ding Lakanbalen ning Fil
 == Deng Barangay ==
 Ing Bacoor atin yang  73 [[barangay]].
 
-{| border="0"
-|-----
-| valign="top" |
+{{Columns-list|2|
 * Alima
 * Aniban I
 * Banalo
@@ -33,7 +31,6 @@ Ing Bacoor atin yang  73 [[barangay]].
 * Zapote I
 * Queens Row Central
 * Queens Row East
-| valign="top" |
 * Queens Row West
 * Aniban II
 * Aniban III
@@ -59,7 +56,6 @@ Ing Bacoor atin yang  73 [[barangay]].
 * Molino VI
 * Molino VII
 * Niog II
-| valign="top" |
 * Niog III
 * P.F. Espiritu II (Panapaan II)
 * P.F. Espiritu III (Panapaan III)
@@ -84,7 +80,7 @@ Ing Bacoor atin yang  73 [[barangay]].
 * Zapote III
 * Zapote IV
 * Zapote V
-|}
+}}
 
 == Demograpiku ==
 {{Populasyon}}
