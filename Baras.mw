@@ -1,20 +1,6 @@
-[[Image:Ph_locator_catanduanes_baras.png|right|Map of Catanduanes showing the location of Baras]]
+{{Infobox lokasyon}}
 
-{{Philippine Census			
-| title = Sensus ning Populasyun <br> Baras, Catanduanes
-| 1990 = 9769		
-| 1995 = 11843		
-| 2000 = 11653		
-| 2007 = 11787		
-| 2010 = 12243		
-| 2015 = 12848		
-| 2020 = 		
-| 2025 = 		
-| 2030 = 		
-|}}
-
-Ing '''Balen ning Baras''' pang5 yang klasing [[Ding Balen ning Filipinas|balen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Catanduanes|Catanduanes]],  [[Filipinas]].  Agpang keng [[2000]] sensus, atin yang populasyun a 11,653 a katau kareng 2,190 a pamimalemale.
-
+Ing '''Balen ning Baras''' pang5 yang klasing [[Ding Balen ning Filipinas|balen]] king [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Catanduanes|Catanduanes]],  [[Filipinas]].  Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ==Deng Barangay==
 
@@ -55,13 +41,15 @@ Ing Baras atin yang 29 a [[barangay]].
 * Western Poblacion
 |}
 
-==Suglung Palwal==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 {{Catanduanes}}
-
-{{coor title d|13.659|N|124.370|E|type:city_region:PH_source:GNS-enwiki}}
-
 [[Category:Balen ning Catanduanes]]
