@@ -1,80 +1,8 @@
-{{Use mdy dates|date=April 2012}}
-{{refimprove|date=August 2012}}
-<!-- NOTE TO EDITORS: Do not put nonsense details and unconsolidated information on this page. It is an act of page vandalism and not permitted by Wikipedia. -->
-{{Infobox settlement
-| name                    = Biñan
-| official_name           = Lakanbalen ning Biñan
-| native_name             = ''Lungsod ng Biñan''
-| native_name_lang        = fil<!-- ISO 639-2 code -->
-| settlement_type         = [[Cities of the Philippines|Lakanbalen]]
-| image_flag              =
-| image_seal              = Binan city seal.jpg
-| seal_size               = 120x80px
-| nickname                = "Trading and Commerce Center of the South"; "Balen ning Bantug a Puto Biñan'' and ''Kakanin''"
-| image_skyline           =
-| image_caption           = Kaili papuntang wanan: [[Biñan#Tourist_Attractions|Splash Island]], [[Pavilion Mall]], kabalenan plaza kambe ning Monumentu nang [[Jose Rizal]] ampo ing Alberto Mansion keng sigugulut, [[Puto|Puto-Biñan]] ampo ing [[Kakanin]] (rice cakes and puddings), ding bantug nang produktu ning lakanbalen ampo ing [[De La Salle-Canlubang|De La Salle University – Canlubang Campus]]
-| motto                   = ''Unlad Biñan'' ("Progress Biñan")
-| image_map               = Ph_locator_laguna_binanNEW.png
-| map_caption             = Mapa ning Laguna papakit ne ing karinan ning Biñan
-| pushpin_map             = Filipinas
-| pushpin_mapsize         = 200
-| pushpin_map_caption     = Karinan king Filipinas
-| latd  = 14 |latm  = 20 |lats  =  |latNS  = N
-| longd = 121|longm = 05|longs = |longEW = E
-| coordinates_type        = region:PH_type:city
-| coordinates_display     = title,inline
-| coordinates_footnotes   =
-| subdivision_type        = Bangsa
-| subdivision_name        = {{flag|Philippines}}
-| subdivision_type1       = [[Regions of the Philippines|Region]]
-| subdivision_name1       = [[CALABARZON]] (Region IV-A)
-| subdivision_type2       = [[Provinces of the Philippines|Lalawigan]]
-| subdivision_name2       = [[Laguna (province)|Laguna]]
-| subdivision_type3       = [[House of Representatives of the Philippines#District representation|Distritu]]
-| subdivision_name3       = [[Legislative districts of Laguna#1st District|Mumunang Distritu ning Laguna]]
-| established_title       = Mitatag
-| established_date        = 1571 ampong 1791
-| established_title2      = Pangalakanbalen
-| established_date2       = February 5, 2010
-| parts_type              = [[Barangay]]s
-| parts_style             = para
-| p1                      = 24
-| leader_party            =
-| leader_title            = Mayor
-| leader_name             = Marlyn B. Alonte-Naguiat (Liberal)
-| leader_title1           = Vice-Mayor
-| leader_name1            = Walfredo R. Dimaguila (Liberal)
-| area_footnotes          =
-| area_total_km2          = 43.50
-| elevation_footnotes     =
-| elevation_m             =
-| population_footnotes    =
-| population_total        = 283,396
-| population_as_of        = 2010
-| population_density_km2  = auto
-| population_demonym      = Biñanense
-| population_note         =
-| timezone1               = [[Philippine Standard Time|PST]]
-| utc_offset1             = +8
-| postal_code_type        = [[List of ZIP codes in the Philippines|ZIP code]]
-| postal_code             = 4024
-| area_code_type          = [[Telephone numbers in the Philippines|Dialing code]]
-| area_code               = 49
-|blank_name             = Income Class
-|blank_info             = 1st Class
-| website                 = [http://www.binan.ph www.binan.ph]
-| footnotes               =
-}}
+{{Infobox lokasyon}}
 
-[[File:Ph_locator_laguna_binan.png|right|Map of Laguna showing the location of Biñan]]
+Ing '''Biñán''' primera yang klasing [[Ding Balen ning Filipinas|balen]] ning [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Laguna]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
-
-Ing '''Biñán''' primera yang klasing [[Ding Balen ning Filipinas|balen]] ning [[Ding Lalawigan ning Filipinas|lalawigan]]
-ning [[Laguna]], [[Filipinas]]. Agpang keng [[2000]] sensus, atin yang papulasyun a 201,186 a a katau ka reng 42,307 a pamimalemale.
-
-
-== Barangays ==
-
+== Deng Barangay ==
 Ing Biñan atin yang 24 a [[barangay]].
 
 <table border=0><tr>
@@ -106,14 +34,17 @@ Ing Biñan atin yang 24 a [[barangay]].
 * Zapote
 </td></tr></table>
 
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
-* [http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-* [http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
 {{Laguna}}
-
-{{coor title dm|14|20|N|121|05|E|region:PH_type:city}}
-
 {{1911}}
 
 [[Category:1571 establishments]]
