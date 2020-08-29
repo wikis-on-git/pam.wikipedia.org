@@ -1,19 +1,6 @@
-[[Image:Ph_locator_batangas_nasugbu.png|right|Map of Batangas showing the location of Nasugbu]]
-
-{{Philippine Census			
-| title = Sensus ning Populasyun <br> Nasugbu, Batangas
-| 1990 = 75515		
-| 1995 = 83874		
-| 2000 = 96113		
-| 2007 = 113926		
-| 2010 = 122483		
-| 2015 = 134113		
-| 2020 = 		
-| 2025 = 		
-| 2030 = 		
-|}}
+{{Infobox lokasyon}}
 	
-Ing '''Nasugbu'''  primera yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Batangas]],  [[Filipinas]]. Agpang keng [[2000]] sensus, atin yang populasyun a 96,113 a katau kareng 19,615 a pamimalemale.
+Ing '''Nasugbu'''  primera yang klasing [[Balen Filipinas|balen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Batangas]],  [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 == Deng Barangay ==
 
@@ -67,13 +54,15 @@ Ing Nasugbu atin yang 42 [[barangay]].
 * Wawa
 </td></tr></table>
 
-== Kasusug Kilwal ==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-* [http://www.nasugbu.gov.ph Official Nasugbu web site]
-* [http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 {{Batangas}}
-
-{{coor title dm|14|04|N|120|38|E|region:PH_type:city}}
-
 [[Category:Balen ning Batangas]]
