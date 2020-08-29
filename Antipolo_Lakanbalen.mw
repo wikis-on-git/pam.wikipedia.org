@@ -1,75 +1,44 @@
-{{ Infobox Philippine city |
-| infoboxtitle   = Lakanbalen ning Antipolo
-| seal           = not available
-| sealfile       = Ph seal rizal antipolo city.png
-| locatormapfile = Ph_locator_rizal_antipolo.png 
-| caption        = Mapa ning lalawigan [[Rizal]] papakit ne ing karina ning Antipolo Lakanbalen. 
-| region         = [[CALABARZON]] (Labuad IV-A) 
-| province       = [[Rizal]] 
-| districts      = [[Congressional Districts of Antipolo City|1st and 2nd Districts of Antipolo City]]
-| barangays      = 16
-| class          = Primera klasing lakanbalen, Partially Urban
-| mayor          = Angelito C. Gatlabayan ([[Liberal Party (Philippines)|LP]])
-| founded        = [[1591]]
-| website        = [http://elgu2.ncc.gov.ph/antipolocity/ elgu2.ncc.gov.ph/antipolocity]
-| pop2000        = 470,866 
-| popden2000     = 1,538.3 
-| areakm2        = 306.10 
-| cityhood       = [[Abril 4]], [[1998]]
-| coordinates    = 14°35' N 121°10' E  }}
+{{Infobox lokasyon}}
 
-Ing '''Lakanbalen ning Antipolo''' primera yang klasing [[Ding Lakanbalen ning Filipinas|lakanbalen]] king  [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Rizal]], [[Filipinas]]. Kapilan pamu gewa deng balen tungku ning lalawigan [[Rizal]]; dapot ing tungkung panlalawigan atiu pa king [[Pasig Lakanbalen]] king [[Metro Manila]] nung nu iya ing dating tungku. Agpang keng [[2000]] sensus, atin yang populasyun a 470,866 a katau kareng 97,415 a pmimalemale.
+Ing '''Lakanbalen ning Antipolo''' primera yang klasing [[Ding Lakanbalen ning Filipinas|lakanbalen]] king  [[Ding Lalawigan ning Filipinas|lalawigan]] ning [[Rizal]], [[Filipinas]]. Kapilan pamu gewa deng balen tungku ning lalawigan [[Rizal]]; dapot ing tungkung panlalawigan atiu pa king [[Pasig Lakanbalen]] king [[Metro Manila]] nung nu iya ing dating tungku. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 == Deng Barangay ==
 Ing Antipolo Lakanbalen atin yang 16 a [[barangay]].
 
-{| class=wikitable
-!Barangay
-!Lapad Gabun <br />([[hectare|ha.]])
-!Populasyun <br />([[2000]])
-!Pangasiksik <br /> Tau/ha
-|-
-|Bagong Nayon || 301.34 || 33,787 || 112.12
-|-
-|Beverly Hills || 28.76 || 1,973 || 68.60
-|-
-|Calawis || 5,581.12 || 2,510 || 0.45
-|-
-|Cupang || 1,568.23 || 56,131 || 35.79
-|-
-|Dalig || 406.48 || 31,109 || 76.53
-|-
-|Dela Paz (Pob.) || 597.99 || 45,185 || 75.56
-|-
-|Inarawan || 959.9 || 11,040 || 11.50
-|-
-|Mambugan || 368.21 || 31,305 || 85.02
-|-
-|Mayamot || 540.74 || 40,784 || 75.42
-|-
-|Muntindilao || 473.11 || 7,922 || 16.74
-|-
-|San Isidro (Pob.) || 479.7 || 39,242 || 81.81
-|-
-|San Jose (Pob.) || 13,787.77 || 55,136 || 4.00
-|-
-|San Juan || 3,327.69 || 5,583 || 1.68
-|-
-|San Luis || 502.99 || 37,667 || 74.89
-|-
-|San Roque (Pob.) || 723.25 || 36,431 || 50.37
-|-
-|Santa Cruz || 725.52 || 35,061 || 48.33
-|-
-|}
+<table border=0><tr>
+<td valign=top>
+* Calawis
+* Cupang
+* Dela Paz (Pob.)
+* Mayamot
+* San Isidro (Pob.)
+* San Jose (Pob.)
+* San Roque (Pob.)
+* Mambugan
+</td><td valign=top>
+* Bagong Nayon
+* Beverly Hills
+* Dalig
+* Inarawan
+* San Juan
+* San Luis
+* Santa Cruz
+* Muntingdilaw
+</td></tr></table>
 
+== Demograpiku ==
+{{Populasyon}}
 == Television Network: ==
 * [[Studio 23]]: Channel 40
 
+== Panibatan ==
+{{reflist}}
+
 == Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 * [http://antipolo.gov.ph/ Antipolo City] Official Site
-* [http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-* [http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
 * [http://www.ahyer.com/philippines/calabarzon/rizal/antipolo/subdivisions.html List of Antipolo subdivisions]
 * [http://static.namesdatabase.com/PHAC.html List of schools in Antipolo]
 
