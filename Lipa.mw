@@ -1,23 +1,6 @@
-{{Infobox Philippine municipality |
- infoboxtitle = City of Lipa |
- locatormapfile = Ph_locator_batangas_lipa city.png |
- caption      = Map of [[Batangas]] showing the location of Lipa City. |
- region       = [[CALABARZON]] (Region IV-A) |
- province     = [[Batangas]] |
- districts    = 4th district of Batangas |
- barangays    = 72 |
- income class = 1<sup>st</sup> class city urban |
- mayor        = [[Vilma Santos|Vilma Santos-Recto]] |
- area         = 229.4 km2 |
- population   = 193,460 |
- total density= 843/km2 |
-}} 
+{{Infobox lokasyon}}
 
-
-
-Ing '''Lakanbalen ning Lipa''' primera yang klasing [[Ding Lakanbalen ning Filipinas|Lakanbalen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Batangas]], [[Filipinas]]. Agpang keng [[2000]] sensus, atin yang populasyun a 218,447 a katau kareng 41,962 a pamimalemale. Atiu mga 78 kilometru mauli manibat [[Menila]].
-
-
+Ing '''Lakanbalen ning Lipa''' primera yang klasing [[Ding Lakanbalen ning Filipinas|Lakanbalen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Batangas]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale. Atiu mga 78 kilometru mauli manibat [[Menila]].
 
 == Deng Barangay ==
 
@@ -102,15 +85,18 @@ Ing Lipa Lakanbalen atin yang 72ng [[barangay]].
 * Barangay 12 (Pob.)
 </td></tr></table>
 
-== Kasusug Kilwal ==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-* [http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-* [http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 * [http://www.dlsl.edu.ph/Lipa%20City/index.html Lipa City Portal by De La Salle Lipa]
 * [http://www.dlsl.edu.ph/ De La Salle Lipa]
 
 {{Batangas}}
-
-{{coor title dm|13|56|N|121|10|E|region:PH_type:city}}
 
 [[Category:Ding Lakanbalen ning Filipinas]]
