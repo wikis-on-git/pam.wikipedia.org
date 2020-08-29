@@ -5,8 +5,7 @@ Ing '''Lakanbalen ning San Pablo''' pang2 yang klasing [[Ding Lakanbalen ning Fi
 == Deng Barangay ==
 Ing San Pablo Lakanbalen atin yang 81ng a [[barangay]].
 
-<table border=0><tr>
-<td valign=top>
+{{Columns-list|3|
 * Bagong Bayan II-A
 * Bagong Pook VI-C
 * Barangay I-A
@@ -27,7 +26,6 @@ Ing San Pablo Lakanbalen atin yang 81ng a [[barangay]].
 * Barangay IV-B
 * Barangay IV-C
 * Barangay V-A
-</td><td valign=top>
 * Barangay V-B
 * Barangay V-C
 * Barangay V-D
@@ -48,7 +46,6 @@ Ing San Pablo Lakanbalen atin yang 81ng a [[barangay]].
 * San Antonio 2
 * San Bartolome
 * San Buenaventura
-</td><td valign=top>
 * San Crispin
 * San Cristobal
 * San Diego
@@ -69,7 +66,6 @@ Ing San Pablo Lakanbalen atin yang 81ng a [[barangay]].
 * San Nicolas
 * San Pedro
 * San Rafael
-</td><td valign=top>
 * San Roque
 * San Vicente
 * Santa Ana
@@ -91,7 +87,7 @@ Ing San Pablo Lakanbalen atin yang 81ng a [[barangay]].
 * Santa Maria
 * Santa Monica
 * Santa Veronica
-</td></tr></table>
+}}
 
 == Demograpiku ==
 {{Populasyon}}
