@@ -5,9 +5,7 @@ Ing '''Batangas Lakanbalen''' primera ya klasing [[Ding Lakanbalen ning Filipina
 == Deng Barangay ==
 Ing Batangas Lakanbalen atin yang 105ng [[barangay]].
 
-{| border="0"
-|-----
-| valign="top" |
+{{Columns-list|3||
 * Alangilan
 * Balagtas
 * Balete
@@ -43,7 +41,6 @@ Ing Batangas Lakanbalen atin yang 105ng [[barangay]].
 * Liponpon, Isla Verde
 * Mahabang Dahilig
 * Mahabang Parang
-| valign="top" |
 * Mahacot Silangan
 * Mahacot Kanluran
 * Malalim
@@ -79,7 +76,6 @@ Ing Batangas Lakanbalen atin yang 105ng [[barangay]].
 * Barangay 3 (Pob.)
 * Barangay 4 (Pob.)
 * Barangay 5 (Pob.)
-| valign="top" |
 * Barangay 6 (Pob.)
 * Barangay 7 (Pob.)
 * Barangay 8 (Pob.)
@@ -115,7 +111,7 @@ Ing Batangas Lakanbalen atin yang 105ng [[barangay]].
 * Tinga Labak
 * Tulo
 * Wawa
-|}
+}}
 
 == Demograpiku ==
 {{Populasyon}}
