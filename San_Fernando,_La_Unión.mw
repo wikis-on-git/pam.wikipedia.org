@@ -1,27 +1,6 @@
-{{Infobox Philippine city |
- infoboxtitle = San Fernando Lakanbaeln |
- sealfile     = |
- locatormapfile = Ph_locator_la union_san fernando.png |
- caption      = Mapa ning [[La Union]] papakit ne ing karinan ning San Fernando Lakanbalen. |
- region       = [[Labuad Ilocos]] (Labuad I) |
- province     = [[La Union]] |
- districts    = 1st district of La Union |
- barangays    = 59 |
- mayor        = Mary Jane Ortega ([[Lakas-CMD]]) |
- class        = primera klasing lakanbalen; urban |
- founded      = [[1850]]|
- cityhood     = [[1998]] |
- areakm2      = 109.10 |
- pop2000      = 115,650 |
- popden2000   = 936 |
-}}
+{{Infobox lokasyon}}
 
-
-Ing '''San Fernando Lakanbalen''' primera yang klasing [[Ding Lakanbalen ning Filipinas|Lakanbalen]] king [[Lalawigan Filipinas|lalawigan]] ning [[La Union]], [[Filipinas]]. Agpang keng [[2000]] sensus, atin yang populasyun a 45,143 a katau kareng 9,193 a pamimalemale.
-
-
-
-
+Ing '''San Fernando Lakanbalen''' primera yang klasing [[Ding Lakanbalen ning Filipinas|Lakanbalen]] king [[Lalawigan Filipinas|lalawigan]] ning [[La Union]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 == Deng Barangay ==
 Ing San Fernando Lakanbalen atin yang 59 a [[barangay]].
@@ -92,10 +71,16 @@ Ing San Fernando Lakanbalen atin yang 59 a [[barangay]].
 * Tanquigan
 </td></tr></table>
 
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
+
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
+
 
 {{La Union}}
-
-
-{{coor title dm|16|37|N|120|19|E|type:city}}
-
 [[Category:Ding Lakanbalen ning Filipinas]]
