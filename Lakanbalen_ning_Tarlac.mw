@@ -1,72 +1,11 @@
-{{Infobox settlement
-| name                    = Tarlac Lakanbalen
-| native_name             = ''Ciudad Ning Tarlak''<br>''Lungsod Ng Tarlac''<br>''Ciudad Ti Tarlac''
-| settlement_type         = [[Cities of the Philippines|Lakanbalen]]
-| image_skyline           = Tarlac City 1.JPG
-| image_alt               = 
-| image_caption           = 
-| image_flag              = 
-| flag_alt                = 
-| image_seal              = 
-| seal_alt                = 
-| image_shield            = 
-| shield_alt              = 
-| nickname                = Balen ning Abias, Mayumu ampong Eganaganang Masanting.
-| motto                   = ''Sulong Tarlac City''
-| image_map               = Ph_locator_tarlac_tarlac.png
-| map_alt                 = 
-| map_caption             = Mapa ning Tarlac papakit ne ing karinan ning Tarlac Lakanbalen.
-| pushpin_map             = Philippines
-| pushpin_mapsize         = 200
-| pushpin_map_caption     = Karinan king Filipinas
-| latd  =  15|latm  =  28|lats  =  |latNS  = N
-| longd =  120|longm =  35|longs =  |longEW = E
-| coordinates_type        = source:itwiki_region:PH_type:city
-| coordinates_display     = inline,title
-| coordinates_footnotes   = 
-| subdivision_type        = [[List of sovereign states|Bangsa]]
-| subdivision_name        = {{flag|Philippines}}
-| subdivision_type1       = [[Regions of the Philippines|Labuad]]
-| subdivision_name1       = [[Central Luzon|Central Luzon (Labuad III)]]
-| subdivision_type2       = [[Provinces of the Philippines|Lalawigan]]
-| subdivision_name2       = [[Tarlac]]
-| subdivision_type3       = [[House of Representatives of the Philippines#District representation|District]]
-| subdivision_name3       = [[Legislative districts of Tarlac#2nd District|pang2 Distritu]]
-| established_title       = Mitatag
-| established_date        = 1788
-| established_title1      = Pangalakanbalen
-| established_date1       = [[Abril 18]], 1998
-| parts_type              = [[Barangay]]s
-| parts_style             = para
-| p1                      = 76
-| leader_party            = 
-| leader_title            = Mayor
-| leader_name             = Antonio "Guduy" Lumabi Jr.
-| area_total_km2          = 274.66
-| population_total        = 314155
-| population_as_of        = 2007
-| population_density_km2  = auto
-| elevation_m             = 
-| blank_name_sec1         = [[Cities of the Philippines#Classification|Panakitan klasi]]
-| blank_info_sec1         = primeru klasi
-| timezone                = [[Philippine Standard Time|PHT]]
-| utc_offset              = +8
-| postal_code_type        = [[List of ZIP codes in the Philippines|ZIP Code]]
-| postal_code             = 2300
-| website                 = [http://www.tarlaccity.gov.ph/ tarlaccity.gov.ph]
-| footnotes               = 
-}}
+{{Infobox lokasyon}}
 
+Ing '''Tarlac Lakanbalen''' pangatlu yang klasing lakanbalen king [[Lalawigan Filipinas|lalawigan]] ning [[Tarlac]], [[Filipinas]]. Iti ing tungku lakanbalen  ning [[Tarlac]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
-
-<!--[[Image:Ph locator tarlac tarlac2.png|right|Mapa ning Tarlac papakit ne ing Tarlac Lakanbalen ]]-->
-Ing '''Tarlac Lakanbalen''' pangatlu yang klasing lakanbalen king lalawigan ning [[Tarlac]], [[Filipinas]]. Iti ing tungku lakanbalen  ning [[Tarlac]]. Agpang keng [[2000]] sensus, atin yang papulasyun a 262,481 a katau ka reng 51,703 a pamimalemale.
-
-==Barangay==
+== Deng Barangay ==
 Ing Siyudad Tarlac atin yang 76 [[barangay]].
 
-<table border=0><tr>
-<td valign=top>
+{{Columns-list|2|
 * Aguso  
 * Alvindia Segundo 
 * Amucao 
@@ -94,7 +33,6 @@ Ing Siyudad Tarlac atin yang 76 [[barangay]].
 * Care 
 * Central 
 * Culipat 
-</td><td valign=top>
 * Cut-cut I 
 * Cut-cut II 
 * Dalayap 
@@ -120,7 +58,6 @@ Ing Siyudad Tarlac atin yang 76 [[barangay]].
 * San Juan Bautista ( formerly Matadero)
 * San Juan de Mata 
 * San Luis 
-</td><td valign=top>
 * San Manuel 
 * San Miguel 
 * San Nicolas 
@@ -146,14 +83,10 @@ Ing Siyudad Tarlac atin yang 76 [[barangay]].
 * Trinidad (Trinidad Primero) 
 * Ungot 
 * Villa Bacolor 
-</td></tr></table>
+}}
 
-
-
-=='''Amlat o Kasalesayan'''==
-
-=='''Pamagsiasat'''==
-
+== Demograpiku ==
+{{Populasyon}}
 ==Media==
 * DZIL-FM 88.5 Audiovisual Communicators, Inc.
 * DZMC 91.1 TNC Promotions & Advertising Inc.
@@ -442,16 +375,13 @@ Private Schools:<ref name=schools/>
 * Baguio Lakanbalen, Benguet
 * Bauan, Batangas
 
-==Dalerayan==
+== Panibatan ==
 {{reflist}}
 
-==Kasusug Kilwal==
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-*[http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 {{Tarlac}}
-
-{{Philippines-geo-stub}}
-{{Kapampangan_article_stub}}
-
 [[Category:Ding Lakanbalen ning Filipinas]]
