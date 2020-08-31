@@ -1,24 +1,8 @@
-{{Infobox Philippine city |
- infoboxtitle = Palayan Lakanbalen |
- locatormapfile = Ph_locator_nueva ecija_palayan.png |
- caption      = Mapa ning [[Nueva Ecija]] papakit ne ing karinan ning Palayan Lakanablen. |
- region       = [[Kalibudtarang Luzon]] (Labuad III) |
- province     = [[Nueva Ecija]] |
- districts    = pang3 distritu ning Nueva Ecija |
- barangays    = 20 |
- class        = pang4 a klasi|
- mayor        = |
- cityhood     = [[1965]] |
- areakm2      = 45.60 |
- pop2000      = 31,253 |
- popden2000   = 685 |
- coordinates  = |
-}}
+{{Infobox lokasyon}}
 
-Ing '''Palayan Lakanbalen''' pang4 yang klasing  [[Ding Lakanbalen ning Filipinas|Lakanbalen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Nueva Ecija]], [[Filipinas]]. Agpang keng [[2000]] sensus, atin yang populasyun a 31,253 a katau kareng 6,279 a pamimalemale.
+Ing '''Palayan Lakanbalen''' pang4 yang klasing  [[Ding Lakanbalen ning Filipinas|Lakanbalen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Nueva Ecija]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 == Deng Barangay ==
-
 Ing Palayan Lakanbalen atin yang 20ng [[barangay]].
 
 <table border=0><tr>
@@ -46,13 +30,16 @@ Ing Palayan Lakanbalen atin yang 20ng [[barangay]].
 * Bagong Buhay
 </td></tr></table>
 
-== External links ==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-* [http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-* [http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
+
 
 {{Nueva Ecija}}
-
-{{coor title dm|15|32|N|121|05|E|region:PH_type:city}}
-
 [[Category:Ding Lakanbalen ning Filipinas]]
