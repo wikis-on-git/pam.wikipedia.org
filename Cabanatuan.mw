@@ -1,28 +1,9 @@
-{{Infobox Philippine city |
- infoboxtitle = Cabanatuan Lakanbalen |
- sealfile     =|
- locatormapfile = Ph_locator_nueva ecija_cabanatuan.png |
- caption      = Mapa ning [[Nueva Ecija]] papakit ne ing karinan ning Cabanatuan. |
- region       = [[Kalibudtarang Luzon]] (Labuad III) |
- province     = [[Nueva Ecija]] |
- districts    = pang3 distritu ning Nueva Ecija |
- barangays    = 89 |
- class        = 2nd Class; Component 2ity|
- mayor        = Alvin Pangilinan Vergara ([[Lakas-CMD]]) |
- founded      = [[1750]] |
- cityhood     = [[1950]] |
- areakm2      = 192.29  |
- pop2000      = 302,231 <small>(2015)</small> |
- popden2000   = 1 600 |
- coordinates  = 15 29N, 120 58E|
-}}
+{{Infobox lokasyon}}
 
-Ing '''Cabanatuan Lakanbalen''' metung yang maluid a  [[Ding Lakanbalen ning Filipinas|Lakanbalen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Nueva Ecija]], [[Filipinas]]. Agpang keng [[2015]] sensus, atin yang populasyun a 302,231 a katau kareng 45,424 a pamimalemale.
+Ing '''Cabanatuan Lakanbalen''' metung yang maluid a  [[Ding Lakanbalen ning Filipinas|Lakanbalen]] king [[Lalawigan Filipinas|lalawigan]] ning [[Nueva Ecija]], [[Filipinas]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
-== DengBarangay ==
-
+== Deng Barangay ==
 Ing Cabanatuan Lakanbalen atin yang 89 a [[barangay]].
-
 
 {| border="0"
 |-----
@@ -120,13 +101,15 @@ Ing Cabanatuan Lakanbalen atin yang 89 a [[barangay]].
 * Santo Niño
 |}
 
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
 
-
-== Kasususg Kilwal ==
-
-* [http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-* [http://www.t-macs.com/kiso/local/ 2000 Philippine Census Information]
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 {{Nueva Ecija}}
-
 [[Category:Ding Lakanbalen ning Filipinas]]
