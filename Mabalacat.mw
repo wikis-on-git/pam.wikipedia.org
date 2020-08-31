@@ -1,78 +1,17 @@
-{{Infobox settlement
-| name                    = Mabalacat Lakanbalen
-| official_name           = Lakanbalen ning Mabalacat  "City of Mabalacat" keng English
-| other_name              =
-| native_name             = ''Lakanbalen ning Mabalacat'' <br> ''Lakanbalen Mabalacat''
-| settlement_type         = [[Cities in the Philippines#City classification|Component City]]
-| image_skyline           = Mabalacat 1.JPG
-| image_caption           = 
-| image_flag              = 
-| image_seal              = 
-| nickname                = 
-| motto                   = 
-| image_map               = Ph_locator_pampanga_mabalacatNEW.png
-| map_caption             = Mapa ning Pampanga papakit ne ing karinan ning Mabalacat
-| pushpin_map             = Philippines
-| pushpin_mapsize         = 200
-| pushpin_map_caption     = Location within the Philippines
-| latd  = 15 |latm  = 13 |lats  =  |latNS  = N
-| longd = 120|longm = 35|longs = |longEW = E 
-| coordinates_type        = region:PH_type:city
-| coordinates_display     = title,inline
-| coordinates_footnotes   = 
-| subdivision_type        = [[List of sovereign states|Bangsa]]
-| subdivision_name        = {{flag|Philippines}}
-| subdivision_type1       = [[Regions of the Philippines|Labuad]]
-| subdivision_name1       = [[Central Luzon|Central Luzon (Labuad III)]]
-| subdivision_type2       = [[Provinces of the Philippines|Lalawigan]]
-| subdivision_name2       = [[Pampanga]]
-| subdivision_type3       = [[House of Representatives of the Philippines#District representation|District]]
-| subdivision_name3       = [[Legislative districts of Pampanga#1st District|Mumunang Distritu]]
-| established_title       = Mitatag
-| established_date        = 1712
-| established_title2      = Incorporated
-| established_date2       = Juliu 21, 2012 (lakanbalen)
-| parts_type              = [[Barangay]]s
-| parts_style             = para
-| p1                      = 27
-| leader_party            = 
-| leader_title            = Mayor
-| leader_name             = Marino P. Morales
-| area_footnotes          = <ref name=PSGC>{{cite web|title=Province: PAMPANGA |url=http://www.nscb.gov.ph/activestats/psgc/province.asp?regName=REGION+III+%28Central+Luzon%29&regCode=03&provCode=035400000&provName=PAMPANGA |work=PSGC Interactive |publisher=National Statistical Coordination Board |accessdate=5 November 2012 |location=Makati City, Philippines}}</ref>
-| area_total_km2          = 83.18
-| elevation_footnotes     = 
-| elevation_m             = 
-| population_footnotes    = <ref name=NSO10>{{cite web |url=http://www.census.gov.ph/sites/default/files/attachments/hsd/pressrelease/Central%20Luzon.pdf |title=Total Population by Province, City, Municipality and Barangay: as of May 1, 2010 |work=2010 Census of Population and Housing |publisher=National Statistics Office |accessdate=2012-10-22}}</ref>
- |population_density_km2 = auto
-| population_total        = 215610
-| population_as_of        = 2010
-| population_density_km2  = auto
-| population_demonym      = 
-| population_note         = 
-| timezone1               = [[Philippine Standard Time|PST]]
-| utc_offset1             = +8
-| postal_code_type        = [[List of ZIP codes in the Philippines|ZIP code]]
-| postal_code             = 2010
-| area_code_type          = [[Telephone numbers in the Philippines|Dialing code]]
-| area_code               = 45
-| blank_name_sec1         = [[Municipalities of the Philippines#Income classification|Income class]]
-| blank_info_sec1         = 1st class
-| website                 = [http://www.mabalacat.gov.ph/ mabalacat.gov.ph]
-| footnotes               = 
-}}
-[[File:Mabalacat 2.JPG|300px|right]]
+{{Infobox lokasyon}}
 
-Ing Mabalacat metung yang primeru klasing lakanbalen ing pangulung dake ning lalawigan ning [[Pampanga]], [[Filipinas]]. Ing dating balen meging yang lakanbalen kaibat dong kitnan deng memalen iniang [[Juliu 21]] [[2012]] at meging yang pangatlung lakanbalen kaibat ning [[Lakanbalen Angeles]] ampong [[Lakanbalen San Fernando]]. Agpang keng 2010 census, atin yang populasiun a 215,610 a katau.
+Ing Mabalacat metung yang primeru klasing lakanbalen ing pangulung dake ning [[Lalawigan Filipinas|lalawigan]] ning [[Pampanga]], [[Filipinas]]. Ing dating balen meging yang lakanbalen kaibat dong kitnan deng memalen iniang [[Juliu 21]] [[2012]] at meging yang pangatlung lakanbalen kaibat ning [[Lakanbalen Angeles]] ampong [[Lakanbalen San Fernando]]. Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 Ing lagiu ning lakanbalen meyakua ya keng tanaman a "[[balacat]]" nung nu la dakal karin.
 
 Ing kasalungsungan a lakanbalen pamuntuk ya pin y Gng [[Marino "Boking" Morales]] a pangapat na ng manungkulan at ing kaduang pamuntuk ya pin y Gng. [[Chris Garbo]].
 
-==Barangay==
+== Deng Barangay ==
+[[File:Mabalacat 2.JPG|298px|right]]
 
-Ing Mabalacat atin yang 27 [[barangay]].l;;
-<table border=0><tr>
-<td valign=top>
+Ing Mabalacat atin yang 27 [[barangay]].
+
+{{Columns-list|2|
 * Atlu-Bola
 * Bical
 * Bundagul
@@ -87,7 +26,6 @@ Ing Mabalacat atin yang 27 [[barangay]].l;;
 * Mabiga
 * Macapagal Village
 * Mamatitang
-</td><td valign=top>
 * Mangalit
 * Marcos Village
 * Mawaque
@@ -101,18 +39,17 @@ Ing Mabalacat atin yang 27 [[barangay]].l;;
 * Sapangbalen
 * Sapang Biabas
 * Tabun
-</td></tr></table>
+}}
+== Demograpiku ==
+{{Populasyon}}
 
-==Suglung Palwal==
+== Panibatan ==
+{{reflist}}
 
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
-
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 {{Pampanga}}
-
-{{Luzon lateral}}
-
-{{Philippines-geo-stub}}
-{{Kapampangan_article_stub}}
-
-[[Category:Ding Balen ning Filipinas]]  [[Category:Pampanga]]
+[[Category: Balen ning Pampanga]]
