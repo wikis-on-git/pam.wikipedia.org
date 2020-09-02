@@ -1,0 +1,96 @@
+<includeonly>{{Infobox settlement2
+| name                   = {{PH wikidata|name}}
+| image_skyline          = {{PH wikidata|image_skyline}}
+| image_caption          = {{PH wikidata|image_caption}}
+| image_seal             = {{PH wikidata|image_seal}}
+| seal_size              = 100x80px
+| image_map              = {{PH wikidata|image_map}}
+| map_caption            = {{PH wikidata|map_caption}}
+| native_name            = {{{native_name|}}}
+| official_name          = {{{official_name|}}}
+| settlement_type        = {{PH wikidata|settlement_type}}
+| subdivision_type1      = [[Ding Labuad ning Filipinas|Labuad]]
+| subdivision_name1      = {{PH wikidata|region}}
+| subdivision_type3      = Tuknangan
+| subdivision_name3      ={{PH wikidata|settlement_type}}
+|pushpin_map = {{{pushpin_map|}}}
+|pushpin_label_position  = {{{pushpin_label_position|}}}
+|pushpin_label = {{{pushpin_label|}}}
+|pushpin_map_alt = {{{pushpin_map_alt|}}}
+|pushpin_mapsize = {{{pushpin_mapsize|280px}}}
+|pushpin_relief = {{{pushpin_relief|}}}
+|pushpin_map_caption = {{{pushpin_map_caption|}}}
+|pushpin_map2  = {{#if:{{{pushpin_map|}}}||{{#if:{{#invoke:Wikidata|pageId}}{{{qid|}}}|{{#tag:mapframe|
+[
+ {
+      "type": "ExternalData",
+      "properties": { "fill": "#FF0000", "fill-opacity": 0.1, "stroke": "#FF9999" },
+      "service": "geoshape",
+      "ids": "{{{qid|{{#invoke:Wikidata|pageId}}}}}"
+  },
+  {
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [{{#invoke:WikidataIB |getValue |maxvals =1 |P625 |fwd=ALL |osd=no |qid={{{qid|}}} |noicon=true |show=longlat}}] },
+  "properties": {
+    "title": "Kinamumugtakan kan {{#invoke:wd|label|{{{qid|}}}}}",
+    "marker-color": "0050d0",
+    "marker-symbol": "circle-stroked"
+    }
+  }
+]
+|longitude = {{#invoke:WikidataIB |getValue |maxvals =1|P625 |fwd=ALL |osd=no |qid={{{qid|}}}|noicon=true |show=long}}
+|latitude = {{#invoke:WikidataIB |getValue |maxvals =1|P625 |fwd=ALL |osd=no |qid={{{qid|}}} |noicon=true |show=lat}}
+|zoom = {{{zoom|10}}}
+|width = 280
+|height = 280
+|align = center
+|frameless = yes
+|lang = {{{lang|}}}
+}}|}} }}
+|pushpin_map2_coord = {{#if:{{{pushpin_map|}}}|{{coord|{{#invoke:WikidataIB |getValue |maxvals =1|P625 |fwd=ALL |osd=no |qid={{{qid|}}} |noicon=true |show=lat}}|{{#invoke:WikidataIB |getValue |maxvals =1|P625 |fwd=ALL |osd=no |qid={{{qid|}}}|noicon=true |show=long}}}}}}
+|coordinates = {{#property:P625}}
+|coordinates_footnotes = {{{coordinates_footnotes|{{#ifeq:{{{dateformat}}}|dmy|{{#invoke:wd|references|current|{{{qid|}}}|P625}}|{{#invoke:wd|references|mdy|current|{{{qid|}}}|P625}} }} }}}
+|image_alt = {{{image_alt|}}}
+|image_size = {{{image_size|280px}}}
+|image_flag = {{{image_flag|{{#invoke:wd|property|raw|best|{{{qid|}}}|P41}}}}}
+|flag_alt = {{{flag_alt|}}}
+|flag_size = {{{flag_size|110x80px}}}
+|seal_alt = {{{seal_alt|}}}
+|image_shield = {{{image_shield|{{#if:{{main other|{{#property:P158}}|{{#property:P158|from={{{qid|}}}}}}}||{{#invoke:wd|property|raw|best|{{{qid|}}}|P94}}}}}}}
+|shield_alt = {{{shield_alt|}}}
+|shield_size = {{{shield_size|100x80px}}}
+|nickname = {{{nickname|}}}
+|motto = {{{motto|}}}
+|subdivision_type = {{{subdivision_type|Bansa}}}
+|subdivision_name = {{{subdivision_name|{{#invoke:wd|property|linked|{{{qid|}}}|P17}}}}}
+|established_title  = {{{established_title|{{#if:{{main other|{{#property:P571}}|{{#property:P571|from={{{qid|}}}}}}}|Mitatag|}}}}}
+|established_date = {{{established_date|{{#ifeq:{{{dateformat}}}|dmy|{{PAGENAMEBASE|{{#invoke:wd|property|{{{qid|}}}|P571}}}}|{{PAGENAMEBASE|{{#invoke:wd|property|mdy|{{{qid|}}}|P571}}}} }} }}}
+|seat_type = {{{seat_type|{{#if:{{main other|{{#property:P36}}|{{#property:P36|from={{{qid|}}}}}}}|Kapitolyo|}}}}}
+|seat = {{{seat|{{#if:{{#invoke:wd|property|linked|{{{qid|}}}|P36}}|{{#invoke:wd|property|linked|{{{qid|}}}|P36}}|{{main other|{{#property:P36}}|{{#property:P36|from={{{qid|}}}}}}}}}}}}
+|leader_title = {{{leader_title|{{#if:{{main other|{{#property:P6}}|{{#property:P6|from={{{qid|}}}}}}}|{{#if:{{#invoke:String2|ucfirst|{{#invoke:wd|property|linked|{{{qid|}}}|P1313}}}}|{{#invoke:String2|ucfirst|{{#invoke:wd|property|linked|{{{qid|}}}|P1313}}}}|Lider}}}}}}}
+|leader_name = {{{leader_name|{{#if:{{main other|{{#property:P6}}|{{#property:P6|from={{{qid|}}}}}}}|{{#if:{{#invoke:wd|property|linked|{{{qid|}}}|P6}}|{{#invoke:wd|property|linked|{{{qid|}}}|P6}}|{{main other|{{#property:P6}}|{{#property:P6|from={{{qid|}}}}}}}}}}}}}}
+|area_footnotes = {{{area_footnotes|{{#ifeq:{{{dateformat}}}|dmy|{{#invoke:wd|references|current|{{{qid|}}}|P2046}}|{{#invoke:wd|references|mdy|current|{{{qid|}}}|P2046}} }} }}}
+|area_total_km2  = {{{area_total_km2|{{#if:{{main other|{{#property:P2046}}|{{#property:P2046|from={{{qid|}}}}}}}|{{#ifeq:{{#invoke:Wikidata|getUnits|qid={{{qid|}}}|P2046|FETCH_WIKIDATA}}|square meter|{{rnd|{{convert|input={{#invoke:String|replace|{{#invoke:String|replace|{{#invoke:wd|property|{{{qid|}}}|P2046}}| %D+||plain=false}}|±[%d%.][%d%.]*||plain=false}} m2|km2|disp=output number only|comma=off}}|2}}|{{#ifeq:{{#invoke:Wikidata|getUnits|qid={{{qid|}}}|P2046|FETCH_WIKIDATA}}|square kilometer|{{rnd|{{convert|input={{#invoke:String|replace|{{#invoke:String|replace|{{#invoke:wd|property|{{{qid|}}}|P2046}}| %D+||plain=false}}|±[%d%.][%d%.]*||plain=false}} km2|km2|disp=output number only|comma=off}}|2}}|{{#invoke:String|replace|{{#invoke:String|replace|{{#invoke:wd|property|{{{qid|}}}|P2046}}| %D+||plain=false}}|±[%d%.][%d%.]*||plain=false}} }} }} }} }}}
+|elevation_m = {{{elevation_m|{{#ifexpr:{{#invoke:String|find|{{#invoke:wd|property|raw|best|{{{qid|}}}|P2044}}|foot}}||{{#invoke:String|replace|{{#invoke:string|replace|{{#invoke:wd|property|raw|best|{{{qid|}}}|P2044}}|±[%d%.][%d%.]*||plain=false}}|meter}}}}}}}
+| population_footnotes   = {{PH census|current}}
+| population_total       = {{PH wikidata|population_total}}
+| population_as_of       = Sensu ning {{wikidata|qualifier|single|P1082|P585}}
+| population_density_km2 = auto
+| population_blank1_title= Pamimalemale
+| population_blank1      = {{PH wikidata|household}} 
+| postal2_code_type      = {{PSGCstyle}}
+| postal2_code           = {{PSGC detail}}
+| area_code_type         = {{areacodestyle}}
+| area_code              = {{PH wikidata|area_code}}
+| website                = {{PH wikidata|website}}
+| blank1_name_sec1       = Uryan
+| blank1_info_sec1       = {{PH wikidata|income_class}}
+| blank2_name_sec1       = Panakitan (₱)
+| blank2_info_sec1       = {{PH wikidata|revenue}} {{PH wikidata|revenue_point_in_time}} 
+| blank1_name_sec2       = Amanu
+| blank1_info_sec2       = {{PH wikidata|language}}
+|timezone   = {{{timezone|{{#invoke:wd|properties|linked|{{{qid|}}}|P421}}}}}
+|footnotes = {{{footnotes|{{#if:{{#invoke:Wikidata|pageId}}||{{#ifeq:{{NAMESPACE}}|{{ns:0}}|{{error|Warning!}} Data will appear when article is linked to Wikidata.[[Category:Articles using Template:Infobox location not linked to Wikidata]]}}}} }}}
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
