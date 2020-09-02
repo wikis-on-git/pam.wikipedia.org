@@ -40,7 +40,7 @@
 ]
 |longitude = {{#invoke:WikidataIB |getValue |maxvals =1|P625 |fwd=ALL |osd=no |qid={{{qid|}}}|noicon=true |show=long}}
 |latitude = {{#invoke:WikidataIB |getValue |maxvals =1|P625 |fwd=ALL |osd=no |qid={{{qid|}}} |noicon=true |show=lat}}
-|zoom = {{{zoom|10}}}
+|zoom = {{{zoom|8}}}
 |width = 280
 |height = 280
 |align = center
