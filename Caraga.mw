@@ -1,17 +1,7 @@
-{{Infobox Philippine region |
-   name           = Labuad XIII<br>CARAGA |
-   map_file       = Ph_locator_region 13.png |
-   center         = [[Butuan Lakanbalen]] |
-   population     = 2,803,805 |
-   density_km2    = 148.8 |
-   area_km2       = 18,847.7 |
-   provinces      = 4 |
-   cities         = 3 |
-   municipalities = 70 |
-   barangays      = 1,310 |
-   districts      = 7 |
-   languages      = [[Surigaonon language|Surigaonon]], [[Cebuano language|Cebuano]], [[Butuanon language|Butuanon]], [[Manobo language|Manobo]], others |
- }}
+{{Infobox lokasyon 2}}
+
+Ing '''{{PH wikidata|name}}''' [[Ding Labuad ning Filipinas|Labuad]] ning [[Mindanao]], [[Filipinas]]. 
+Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ==Politika Pangadake==
 Ing Caraga atin yang 4 [[Ding Lalawigan ning Filipinas|lalawigan]] at [[Butuan Lakanbalen]].
@@ -66,7 +56,17 @@ Ing Caraga atin yang 4 [[Ding Lalawigan ning Filipinas|lalawigan]] at [[Butuan L
 
 ===Component Lakanbalen===
 *[[Bislig Lakanbalen]], [[Surigao del Sur]]
-*[[Surigao Lakanbalen]],
+*[[Surigao Lakanbalen]]
+
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
+
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 
 {{Mindanao lateral}}{{Philippine regions}}
