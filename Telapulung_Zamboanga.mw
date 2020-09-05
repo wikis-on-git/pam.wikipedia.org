@@ -1,17 +1,7 @@
-{{Infobox Philippine region |
-   name           = Labuad IX <br />ZAMBOANGA PENINSULA |
-   map_file       = Ph_locator_region 9.png |
-   center         = [[Pagadian Lakanbalen]], [[Zamboanga del Sur]] |
-   population     = 2,831,412 |
-   density_km2    = 191.2 |
-   area_km2       = 14,810.7 |
-   provinces      = 3 |
-   cities         = 5 |
-   municipalities = 67 |
-   barangays      = 1,904 |
-   districts      = 8 |
-   languages      =  [[Chavacano Amanu|Chavacano]], [[Cebuano Amanu|Cebuano]], [[Subanon Amanu|Subanon]], aliwa |
- }}
+{{Infobox lokasyon 2}}
+
+Ing '''{{PH wikidata|name}}''' [[Ding Labuad ning Filipinas|Labuad]] ning [[Mindanao]], [[Filipinas]]. 
+Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 == Politika Pangadake ==
 
@@ -68,6 +58,16 @@
 |140.7
 |519.1
 |}
+
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
+
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 {{Mindanao lateral}}{{Philippine regions}}
 
