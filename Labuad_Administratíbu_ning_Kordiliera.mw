@@ -1,17 +1,7 @@
-{{Infobox Philippine region |
-  name           = Cordillera<br>Administrative Region |
-  map_file       = Ph_locator_car.png |
-  center         = [[Baguio Lakanbalen]] |
-  population     = 1,365,220 |
-  density_km2    = 75 |
-  area_km2       = 18,294 |
-  provinces      = 6 |
-  cities         = 1 |
-  municipalities = 76 |
-  barangays      = 1176 |
-  districts      = 7 |
-  languages      = [[Ilokano Amanu|Ilokano]], [[Kalinga Amanu|Kalinga]], [[Kankanaey Amanu|Kankanaey]], [[Ifugao Amanu|Ifugao]], [[Itneg Amanu|Itneg]], [[Isneg Amanu|Isneg]], [[Pangasinan Amanu|Pangasinense]], aliwapa |
-}}
+{{Infobox lokasyon 2}}
+
+Ing '''{{PH wikidata|name}}''' [[Ding Labuad ning Filipinas|Labuad]] ning [[Luzon]], [[Filipinas]]. 
+Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ===Politika Pangadake===
 
@@ -78,6 +68,17 @@ Ing CAR atin yang 6 [[Ding Lalawigan ning Filipinas|lalawigan]] at [[Baguio Laka
 |57.5 
 |4,839.3
 |}
+
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
+
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
+
 {{Luzon lateral}} 
 {{Philippine regions}}
 
