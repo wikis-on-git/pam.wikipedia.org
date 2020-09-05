@@ -1,19 +1,7 @@
-{{Infobox Philippine region |
-  name        = Labuad IV-B<br>MIMAROPA |
-  map_file    = Ph_locator_region_4b.png |
-  center      = [[Calapan Lakanbalen]], [[Oriental Mindoro]] |
-  population  = 1,543,817 |
-  density_km2 = 122.9 |
-  area_km2    = 12,559.8 |
-  provinces   = 5 |
-  cities      = 2 |
-  municipalities = 48 |
-  barangays      = 1,025 |
-  districts      = 5 |
-  languages      = [[Tagalog language|Tagalog]], [[Romblomanon language|Romblomanon]], [[Asi language|Asi]], [[Onhan language|Onhan]], at deng amanung mayagkas kareng  [[Mangyan]]s |
-}}
+{{Infobox lokasyon 2}}
 
-
+Ing '''{{PH wikidata|name}}''' [[Ding Labuad ning Filipinas|Labuad]] ning [[Luzon]], [[Filipinas]]. 
+Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 ==Politica Pangadake==
 
@@ -61,6 +49,15 @@
 *[[Calapan Lakanbalen]], [[Oriental Mindoro]]
 * [[Puerto Princesa Lakanbalen]], [[Palawan]]
 
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
+
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 
 {{Luzon lateral}}{{Philippine regions}}
