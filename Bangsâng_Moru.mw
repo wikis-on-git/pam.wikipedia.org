@@ -1,54 +1,7 @@
-{| class="infobox" style="width: 19em; text-align: left; font-size: 90%;"
-|+ style="font-size: larger;" | '''BANGSAMORO AUTONOMOUS REGION<br />IN MUSLIM MINDANAO'''
-|-
-| 
-|-
-|colspan="2" style="text-align: center;"| 
-| 
-|-
-| colspan="2" style="text-align: center;" |
-[[File:Ph_locator_barmm.png|200px|center|Map of the Philippines showing the location of the Bangsamoro Autonomous Region in Muslim Mindanao]]
-|-
-|
-|-
-! style="white-space: nowrap;" | Labuad Kalibudtan
-| [[Cotabato Lakanbalen]]
-|-
-! style="white-space: nowrap;" | Chief Minister
-|Murad Ebrahim
-|-
-| 
-|-
-! Populasyun
-| 2,803,805
-|-
-! – Pangasiksik
-| 220.9 per km²
-|-
-! Lapad/Dagul
-| 12,695.0 km²
-|-
-! colspan="2" | Divisions
-|-
-! – [[Ding Lalawigan ning Filipinas|Lalawigan]]
-| 5
-|-
-! – [[Ding Lakanbalen ning Filipinas|Lakanbalen]]
-| 3
-|-
-! – [[Ding Balen ning Filipinas|Balen]]
-| 116
-|-
-! – [[Barangay]]s
-| 2,590
-|-
-! style="white-space: nowrap;" | – [[House of Representatives of the Philippines|Cong. Distritu]]
-| 8
-|-
-! Languages
-| [[Maguindanao language|Maguindanao]], [[Maranao language|Maranao]], [[Tausug language|Tausug]], [[Yakan language|Yakan]], [[Sama language|Sama]],  others
-|}
+{{Infobox lokasyon 2}}
 
+Ing '''{{PH wikidata|name}}''' [[Ding Labuad ning Filipinas|Labuad]] ning [[Luzon]], [[Filipinas]]. 
+Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 == Politika Pangadake ==
 === Lalawigan ===
@@ -117,7 +70,15 @@
 |<center>931.0
 |}
 
-== Kasusug Kilwal ==
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
+
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 * [http://www.pnoyandthecity.blogspot.com Traditional Music of the Southern Philippines] - An online textbook about Southern Pilipino Kulintang Music. Has chapters devoted to kulintang instrumentation, styles and uses by the Maguindanaon and other Southern Pilipino Groups. 
 
 * [http://www.armm.gov.ph :Autonomous Region in Muslim Mindanao - Official Website]
