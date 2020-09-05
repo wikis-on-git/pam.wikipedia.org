@@ -1,20 +1,12 @@
-{{Infobox Philippine region |
-  name        = Labuad IV-A<br />CALABARZON |
-  map_file    = Ph_locator_region_4a.png |
-  center      = [[Calamba Lakanbalen]], [[Laguna|Laguna]] |
-  population  = 9,320,629 |
-  density_km2 = 574.3 |
-  area_km2    = 16,228.6 |
-  provinces   = 5 |
-  cities      = 11 |
-  municipalities = 131 |
-  barangays      = 4,012 |
-  districts      = 19 |
-  languages      = [[Tagalog language|Tagalog]]|
-}}
+{{Infobox lokasyon 2}}
 
-== Political Divisions ==
-[[File:Ph CALABARZON.png|thumb]]
+Ing '''{{PH wikidata|name}}''' [[Ding Labuad ning Filipinas|Labuad]] ning [[Luzon]], [[Filipinas]]. 
+Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
+[[File:Ph CALABARZON.png|300px|right]]
+
+== Politika Pangadake ==
+<div style="font-size:75%">
+
 {| class="wikitable"
 |- bgcolor=#cccccc
 ! colspan=2 | [[Ding Lalawigan ning Filipinas|Lalawigan]] !! Tungku !! Populasyun<br />([[2000]]) !! Dagul/Lapad<br />([[square kilometre|km²]]) !! Pop. pangasiksik<br />(per km²)
@@ -68,7 +60,8 @@
 |N.A.
 |N.A.
 |}
-<small>'''¹''' [[Lucena Lakanbalen]] metung yang maragul a lakanbalen at ding kayang bilang makakawani la keng [[Lalawigan Quezon]].
+</div>
+<small>'''¹''' [[Lucena Lakanbalen]] metung yang maragul a lakanbalen at ding kayang bilang makakawani la keng [[Lalawigan Quezon]]. </small>
 
 
 === Lakanbalen ===
