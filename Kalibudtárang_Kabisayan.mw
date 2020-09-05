@@ -1,19 +1,10 @@
-{{Infobox Philippine region |
-  name           = Labuad VII<br />Kalibudatarang VISAYAS |
-  map_file       = Ph_locator_region_7.png |
-  center         = [[Cebu Lakanbalen]] |
-  population     = 5,706,953 |
-  density_km2    = 381 |
-  area_km2       = 14,852 |
-  provinces      = 4 |
-  cities         = 12 |
-  municipalities = 120 |
-  barangays      = 3,003 |
-  districts      = 15 |
-  languages      = [[Cebuano Amanu|Cebuano]], [[Boholano Amanu|Boholano]], [[Porohanon Amanu|Porohanon]]|
-}}
+{{Infobox lokasyon 2}}
 
-== Lalawigan ==
+Ing '''{{PH wikidata|name}}''' [[Ding Labuad ning Filipinas|Labuad]] ning [[Visayas]], [[Filipinas]]. 
+Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
+
+== Politika Pangadake ==
+<div style="font-size:75%">
 
 Ing Labuad Kalibudatarang Visayas atin yang 4 a lalawigan: 
 {| class="wikitable"
@@ -49,14 +40,22 @@ Ing Labuad Kalibudatarang Visayas atin yang 4 a lalawigan:
 |34.87 
 |7,448
 |}
-<small>'''¹''' [[Cebu Lakanbalen]] and [[Mandaue Lakanbalen]] are highly urbanized cities; figures are excluded from [[Cebu|Cebu Lalawigan]].
+</div>
+<small>'''¹''' [[Cebu Lakanbalen]] and [[Mandaue Lakanbalen]] are highly urbanized cities; figures are excluded from [[Cebu|Cebu Lalawigan]]. </small>
 
 == Amanu ==
 
 [[Cebuano Amanu|Cebuano]] iya ing peka amanu ra king karelang labuad. King Bohol, Cebuano mayayaus yang [[Boholano Amanu|Boholano]].  King [[Pulung Camotes]], nung nu dake ne ning Cebu, [[Porohanon Amanu|Porohanon]] iya ing mayayagkas.
 
-== Kasusug Kilwal ==
-*[http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
+
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 {{Visayas lateral}}{{Philippine regions}}
 
