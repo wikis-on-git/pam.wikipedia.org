@@ -1,17 +1,7 @@
-{{Infobox Philippine region |
-  name        = Labuad V<br />BICOL REGION |
-  map_file    = Ph_locator_region_5.png |
-  center      = [[Legazpi Lakanbalen]], [[Albay]] |
-  population  = 4,674,855 |
-  density_km2 = 265.1 |
-  area_km2    = 17,632.5|
-  provinces   = 6 |
-  cities      = 7 |
-  municipalities = 107 |
-  barangays      = 3,471 |
-  districts      = 14 |
-  languages      = [[Bikol languages|Bikol]], [[Masbatenyo language|Masbatenyo]], [[Sorsoganon language|Sorsoganon]], [[Tagalog language|Tagalog]]|
-}}
+{{Infobox lokasyon 2}}
+
+Ing '''{{PH wikidata|name}}''' [[Ding Labuad ning Filipinas|Labuad]] ning [[Luzon]], [[Filipinas]]. 
+Agpang keng {{wikidata|qualifier|single|P1082|P585}} ning sensus, atin yang populasyun a {{PH wikidata|population_total}} a katau kareng {{PH wikidata|household}} a pamimalemale.
 
 {| class="wikitable"
 |- bgcolor=#cccccc
@@ -69,6 +59,15 @@
 * [[Masbate Lakanbalen]], [[Masbate]]
 * [[Sorsogon Lakanbalen]], [[Sorsogon]]
 
+== Demograpiku ==
+{{Populasyon}}
+== Panibatan ==
+{{reflist}}
+
+== Suglung Palwal ==
+* [https://www.philatlas.com/ PhilAtlas.com]
+* [https://web.archive.org/web/20120413163013/http://www.nscb.gov.ph/activestats/psgc/default.asp Philippine Standard Geographic Code]
+* [https://web.archive.org/web/20161010201809/http://www.blgs.gov.ph/lgpmsv2/cmshome/index.php?pageID=23 Local Governance Performance Management System]
 
 
 {{Luzon lateral}}{{Philippine regions}}
