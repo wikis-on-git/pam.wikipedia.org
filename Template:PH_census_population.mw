@@ -15,8 +15,8 @@
       | 2000 = {{#invoke:wd|properties||P1082|P585=2000-05-01}}
       | 2007 = {{#invoke:wd|properties||P1082|P585=2007-08-01}}
       | 2010 = {{#invoke:wd|properties||P1082|P585=2010-05-01}}
-      | 2020 = {{#invoke:wd|properties||P1082|P585=2010-09-01}}
-      | 2015 = {{#if:{{#invoke:wd|properties||P1082|P585=2015-08-01}}|{{#invoke:wd|properties||P1082|P585=2015-08-01}}|{{#if:{{#invoke:wd|properties||P1082|P585=2015-08-15}}|{{#invoke:wd|properties||P1082|P585=2015-08-15}}|}}}} <!-- temporary workaround for erroneous 2015 census point in time of Wikidata items 2015-08-15. Please change the 2015 census population point in time qualifier of these Wikidata items (cities and towns) to be 2015-08-01. -->
+      | 2015 = {{#invoke:wd|properties||P1082|P585=2015-08-01}}
+      | 2020 = {{#invoke:wd|properties||P1082|P585=2020-09-01}}
       | = {{#invoke:wd|properties||P1082|P585}}
     | }}
   | }}
