@@ -1,0 +1,95 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+
+=== Usage ===
+
+<pre>
+{{Philippine Census
+| title= Population census of ...
+| 1818= 
+| 1842= 
+| 1846= 
+| 1865= 
+| 1877= 
+| 1898= 
+| 1903=
+| 1918=
+| 1939=
+| 1948=
+| 1960=
+| 1970=
+| 1975=
+| 1980=
+| 1990=
+| 1995=
+| 2000=
+| 2007=
+| 2010=
+| 2015= 
+| 2020=
+| estimate=
+| estyear=
+| estref=
+| footnote= Source: National Statistics Office
+}}</pre>
+
+=== Alignment ===
+By default, this template will float to the right of the page.  To keep it from floating, use {{para|align|none}}.  To float it to the left, use {{para|align|left}}. To allow it to nest next to another floating element, use {{para|clear|none}}.
+
+=== Multicolumn ===
+For more than one column of data, use {{para|cols|X}}, where X is the number of columns.  This is particularly useful with {{para|align|none}}, to format the population table as a simple table.
+
+== TemplateData ==
+{{TemplateData header}}
+<templatedata>
+{
+    "description": "Information box on pages, showing each census year with a population, and a percent gain/loss comparison.",
+    "params": {
+        "title": {
+        	"required": true,
+        	"description": "Title of the information box (e.g. Population Census of San Pedro City).",
+        	"default": "Population of"
+        },
+        "1818" : {},
+        "1842" : {},
+        "1846" : {},
+        "1865" : {},
+        "1877" : {},
+        "1898" : {},
+        "1903" : {},
+        "1918" : {},
+        "1939" : {},
+        "1948" : {},
+        "1960" : {},
+        "1970" : {},
+        "1975" : {},
+        "1980" : {},
+        "1990" : {},
+        "1995" : {},
+        "2000" : {},
+        "2007" : {},
+        "2010" : {},
+        "2015" : {},
+        "2020" : {},
+        "estimate" : {},
+        "estyear" : {
+        	"label": "Estimate year"
+        },
+        "estref" : {
+        	"label": "Estimate reference"
+        },
+        "footnote": {
+        	"label": "Foot note"
+        }
+    }
+}
+</templatedata>
+
+=== See also ===
+* This template uses {{tl|historical populations}} to generate the table.
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:History and events templates]]
+[[Category:Philippines templates]]
+}}</includeonly>
