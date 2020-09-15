@@ -171,7 +171,7 @@
 
 | revenue_point_in_time = {{safesubst:#if:{{safesubst:#invoke:Wikidata|claim|P3087|qualifier=P585}} | ({{safesubst:#time:Y|{{safesubst:#invoke:Wikidata|claim|P3087|qualifier=P585}}}}){{safesubst:#if:{{safesubst:#Property:P973}}|}} }}
 
-| assets = {{#if:{{#property:P2043}}| ₱{{safesubst:#invoke:String|replace|{{safesubst:#invoke:String|replace|{{safesubst:#if:{{{2|}}}
+| assets = {{#if:{{#property:P2403}}| ₱{{safesubst:#invoke:String|replace|{{safesubst:#invoke:String|replace|{{safesubst:#if:{{{2|}}}
   |{{safesubst:#invoke:Wikidata|getValueFromID|{{{2}}}|P2403|FETCH_WIKIDATA}}
   |{{safesubst:#invoke:Wikidata|getValue|P2403|FETCH_WIKIDATA}}
   }}| %D+||plain=false}}|±[%d%.][%d%.]*||plain=false}}}}
