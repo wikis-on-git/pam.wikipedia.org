@@ -1,9 +1,22 @@
-| regnum = [[Animal]]ia
-| phylum = [[Chordate|Chordata]]
-| classis = [[bird|Aves]]
-| ordo = [[Passeriformes]]
-{{pp-move|small=yes}}
-{{Short description|A passerine bird in the sparrow family widespread in Eurasia }}
+{{Speciesbox
+ | image               = Tree Sparrow Japan Flip.jpg
+ | image_caption       = Adult of subspecies ''P. m. saturatus'' in Japan
+ | status              = LC
+ | status_system       = IUCN3.1
+ | status_ref          = <ref name=IUCN>{{Cite iucn|url= https://www.iucnredlist.org/species/22718270/119216586 |title=''Passer montanus'' |volume= 2017| |publisher= [[IUCN]]|author= [[BirdLife International]] |year=2017 |page= e.T22718270A119216586|doi= 10.2305/IUCN.UK.2017-3.RLTS.T22718270A119216586.en|accessdate=4 November 2018}}</ref>
+ | taxon               = Passer montanus
+ | authority           = ([[Carl Linnaeus|Linnaeus]], [[10th edition of Systema Naturae|1758]])
+ | range_map           = Passermontanusmap.png
+ | range_map_caption   = '''Afro-Eurasian distribution'''
+<div style="margin-left: 1em; text-align: left;">
+<big>{{Legend2|#FFFF00|Breeding summer visitor|border=1px solid #aaa}}<br />{{Legend2|#007D10|Resident breeder|border=1px solid #aaa}}<br />{{Legend2|#00FFFF|Non-breeding winter visitor |border=1px solid #aaa}}</big>
+</div>
+ | synonyms            =
+* ''Fringilla montana'' <small>[[Carl Linnaeus|Linnaeus]], [[10th edition of Systema Naturae|1758]]</small>
+* ''Loxia scandens'' <small>Hermann 1783</small>
+* ''Passer arboreus'' <small>Foster 1817</small>
+}}
+
 {{Speciesbox
  | image               = Tree Sparrow Japan Flip.jpg
  | image_caption       = Adult of subspecies ''P. m. saturatus'' in Japan
