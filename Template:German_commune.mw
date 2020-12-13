@@ -3,7 +3,7 @@
 | colspan="2" align=center style="background: #D8E2EF; width:100%; font-size: 1.25em;" | '''{{#if:{{{German_name|<noinclude>x</noinclude>}}} | ''{{{German_name}}}'' <br/> }} {{#if:{{{Name|<noinclude>x</noinclude>}}}|<span class="fn org">{{{Name}}}</span>|<span class="fn org">{{PAGENAME}}</span>}}'''
 |- 
 {{#if:{{{image_photo|<noinclude>x</noinclude>}}}|
-{{!}} colspan="2" style="text-align: center; padding: 0.0em 0.0em 0.0em 0.0em;;" {{!}} [[Image:{{{image_photo|Dummy flag.png}}}|{{#if:{{{imagesize|}}}|{{{imagesize}}}|268px}}|none|{{{image_caption|}}}]] {{#if:{{{image_caption|<noinclude>x</noinclude>}}}|<small>{{{image_caption}}}</small>}}}}
+{{!}} colspan="2" style="text-align: center; padding: 0.0em 0.0em 0.0em 0.0em;;" {{!}} [[Image:{{{image_photo|Flag of None.svg}}}|{{#if:{{{imagesize|}}}|{{{imagesize}}}|268px}}|none|{{{image_caption|}}}]] {{#if:{{{image_caption|<noinclude>x</noinclude>}}}|<small>{{{image_caption}}}</small>}}}}
 |- 
 | align="center" style="width: 50%; background:#D8E2EF;" |'''Sagkal ning armas'''
 | align="center" style="width: 50%; background:#D8E2EF;" |'''Karinan'''
@@ -226,7 +226,7 @@
 }} }} }} }} 
 {{!}}-
 {{!}} colspan="2" align="center" {{!}}  
-[[Image:{{{Lageplan|Dummy flag.png}}}||270x270px|{{#if: {{{Lageplanbeschreibung|}}} | {{{Lageplanbeschreibung}}} | Map}}]]
+[[Image:{{{Lageplan|Flag of None.svg}}}||270x270px|{{#if: {{{Lageplanbeschreibung|}}} | {{{Lageplanbeschreibung}}} | Map}}]]
 }}
 |}<!-- Assignment to categories --> {{#if:{{{_noautocat|<noinclude>x</noinclude>}}}||<!--
  (TYPE) in (STATE) -->{{#if:{{{Town|}}}{{{City|}}}|[[Category:Germany articles requiring maintenance|City]]|{{#if:{{{Bundesland|}}}|[[Category:{{#switch: {{{Art|}}}
