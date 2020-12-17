@@ -449,8 +449,6 @@ Returns the conservation code coloured circles and adds categories.
 * {{clc|Invalid conservation status}}
 
 <includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox | |
-<!-- Categories below this line, please; interwikis at Wikidata -->
-[[Category:Templates that add a category]]<!--for the content categories-->
-[[Category:Templates that add a tracking category]]<!--for the hidden categories-->
-}}</includeonly>
+[[Category:Templates that add a category]]
+[[Category:Templates that add a tracking category]]
 -->
