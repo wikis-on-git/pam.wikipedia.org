@@ -1,0 +1,47 @@
+{{#if:{{{italic|}}}
+|{{DISPLAYTITLE:{{
+#switch:
+  {{#ifexpr: {{str find|{{PAGENAME}}|(}} != -1
+  | 1
+  | 0
+  }}{{#if: {{{force|}}} 
+  | 1
+  | 0
+  }}{{#ifexpr: {{str len|{{PAGENAME}}}} < 50   <!-- The max {{str find}} can handle -->
+  | 1
+  | 0
+  }}<!--
+
+-->| 100 = {{
+  #if:{{NAMESPACE}}
+  | {{NAMESPACE}}:
+  }}{{#switch:{{PAGENAME}}
+  | {{{1}}} ({{{2|}}}) = ''{{lcfirst:{{{1}}}}}'' ({{{2|}}})
+  | {{{1}}} ({{{3|}}}) = ''{{lcfirst:{{{1}}}}}'' ({{{3|}}})
+  | {{{1}}} ({{{4|}}}) = ''{{lcfirst:{{{1}}}}}'' ({{{4|}}})
+  | {{{1}}} ({{{5|}}}) = ''{{lcfirst:{{{1}}}}}'' ({{{5|}}})
+  | {{{1}}} ({{{6|}}}) = ''{{lcfirst:{{{1}}}}}'' ({{{6|}}})
+  | #default = {{PAGENAME}}
+  }}<!--
+
+-->| 101 = {{
+  #if:{{NAMESPACE}}
+  | {{NAMESPACE}}:
+  }}''{{lcfirst:{{str left| {{PAGENAME}} | {{#expr:{{str find|{{PAGENAME}}|(}}-2}} }} }}'' {{str sub| {{PAGENAME}} | {{#expr: {{str find|{{PAGENAME}}|(}} - 1}} | {{#expr: {{str len|{{PAGENAME}}}} - {{str find|{{PAGENAME}}|(}} }} + 1 }}
+
+| 010
+| 011
+| 110
+| 111
+| 001 = {{
+  #if:{{NAMESPACE}}
+  | {{NAMESPACE}}:
+  }}''{{lcfirst:{{PAGENAME}}}}''<!--
+
+-->| 000 = {{FULLPAGENAME}}<!--
+
+-->}}}}
+|<nowiki />{{DISPLAYTITLE:{{#if:{{NAMESPACE}}|{{NAMESPACE}}:|}}{{lcfirst:{{PAGENAME}}}}}}
+}}<noinclude>
+{{documentation}}
+</noinclude>
