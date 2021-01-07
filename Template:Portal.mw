@@ -10,6 +10,7 @@ This template is used to link an article to its related [[Portal:Browse|portal]]
 
 ;Optional parameters
  <nowiki>{{Portal|name|image|size|boxsize}}</nowiki>
+
 ==Location==
 This template is placed at the bottom of the article in the "See also" section.
 
