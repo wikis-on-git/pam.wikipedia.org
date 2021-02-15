@@ -89,7 +89,7 @@
 | website                = {{PH wikidata|website}}
 | demographics_type1     = {{#if:{{#property:P3087}}| Economia}}
 | demographics1_title1   = Uryan
-| demographics1_info1    = {{PH wikidata|income_class}}
+| demographics1_info1    = {{#ifeq:{{#property:P1879}}|no value|{{void}}|{{PH wikidata|income_class}}}}
 | demographics1_title2   = 
 | demographics1_info2    = 
 | demographics1_title3   = Panakitan
