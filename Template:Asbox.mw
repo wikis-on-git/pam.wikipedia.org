@@ -24,7 +24,7 @@
 
 *** Whatlinkshere marker ***
 
--->{{#ifeq:{{NAMESPACE}}|Template|[[Template:Asbox/whatlinkshere|<s/>]]|}}<!--
+-->{{#ifeq:{{NAMESPACE}}|Template|[[Template:Asbox/whatlinkshere|<s></s>]]|}}<!--
 
 
 --></includeonly><noinclude><!--
