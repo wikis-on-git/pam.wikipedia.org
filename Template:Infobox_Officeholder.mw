@@ -6,7 +6,7 @@
 <!----------Larawan---------->
 {{#if:{{{image|}}} |<!--then:--> 
 {{!}}colspan="2" style="text-align:center;"{{!}} [[Image:{{{image}}}|{{#if:{{{imagesize|}}}|<!--then:-->{{{imagesize}}}|160px}}|{{PAGENAME}}]]<br/>
-<small>{{{caption|}}}<small/>
+<small>{{{caption|}}}</small>
 {{!-}}
 }}
 {{#if:{{{smallimage|}}} |<!--then:--> 
