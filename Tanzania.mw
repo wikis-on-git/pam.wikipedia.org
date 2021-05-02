@@ -38,7 +38,7 @@ GDP_PPP_per_capita_rank  = 178th |
 HDI_year                 = 2003 |
 HDI                      = 0.418 |
 HDI_rank                 = 164th |
-HDI_category             = <font color="#E0584E">low</font> |
+HDI_category             = <span style="color:#E0584E;">low</span> |
 sovereignty_type         = [[Katimawan]] |
 sovereignty_note         =  ibat [[United Kingdom]] |
 established_events       = Tanganyika |
