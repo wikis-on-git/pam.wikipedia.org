@@ -37,7 +37,7 @@ GDP_PPP_per_capita_rank  = 162 |
 HDI_year                 = 2003 |
 HDI                      = 0.420 |
 HDI_rank                 = 163rd |
-HDI_category             = <font color="#E0584E">low</font> |
+HDI_category             = <span style="color:#E0584E;">low</span> |
 sovereignty_type         = [[Independence]] |
 sovereignty_note         = From [[France]] |
 established_event1       = Date |
