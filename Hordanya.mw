@@ -38,7 +38,7 @@ GDP_PPP_per_capita_rank = 138th |
 HDI_year = 2003 |
 HDI = 0.753 |
 HDI_rank = 90th |
-HDI_category = <font color="#FFCC00">medium</font> |
+HDI_category = <span style="color:#FFCC00;">medium</span> |
 sovereignty_type = [[Independence]] |
 established_events = |
 established_dates = <small>From the [[League of Nations]] mandate <br /> administered by the [[United Kingdom]]</small><br /> &nbsp;- [[25 May]] [[1946]] |
