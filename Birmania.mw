@@ -36,7 +36,7 @@ GDP_PPP_per_capita_rank = 187th |
 HDI_year = 2003 |
 HDI = 0.578 |
 HDI_rank = 129th |
-HDI_category = <font color="#FFCC00">medium</font> |
+HDI_category = <span style="color:#FFCC00;">medium</span> |
 sovereignty_type = [[Independence]] |
 established_events = &nbsp;- Date |
 established_dates = From the [[United Kingdom]] <br /> [[January 4]], [[1948]] |
