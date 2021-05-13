@@ -15,6 +15,9 @@
 | subdivision_name2      = {{PH wikidata|province}}
 | subdivision_type3      = Tuknangan
 | subdivision_name3      ={{PH wikidata|settlement_type}}
+| parts_type             = [[Barangay]]
+| parts_style            = para
+| p1                     = {{PH barangay count | {{wikidata|label|raw}} }} 
 |pushpin_map = {{{pushpin_map|}}}
 |pushpin_label_position  = {{{pushpin_label_position|}}}
 |pushpin_label = {{{pushpin_label|}}}
