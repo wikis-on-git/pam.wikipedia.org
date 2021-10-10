@@ -1,13 +1,13 @@
-{{Infobox Country|
-native_name = Demokratikung Pangmaldang Republika ning Korea<br />조선민주주의인민공화국<br />朝鮮民主主義人民共和國<br />''Chosŏn Minjujuŭi Inmin Konghwaguk'' |
-conventional_long_name = Democratic People's Republic of Korea |
-common_name = North Korea |
-image_flag = Flag_of_North_Korea.svg |
-image_coat =|
-national_motto = Prosperous and Great Country (강성대국) |
-image_map = LocationNorthKorea.png |
-national_anthem = ''[[Aegukka]]'' |
-official_languages = [[Korean language|Korean]]|
+{{Infobox country
+| conventional_long_name = Demokratikung Pangmaldang Republika ning Korea
+| common_name            = Pangulung Korea
+| native_name            = {{unbulleted list|{{native name|ko|조선민주주의인민공화국|italics=off}}|{{small|{{lang|ko-latn|Chosŏn Minjujuŭi Inmin Konghwaguk}}}}}}
+| image_flag             = Flag of North Korea.svg
+| image_coat             = Emblem of North Korea.svg
+| symbol_type            = Emblem
+| national_anthem        = <br />애국가<br />"[[Aegukka]]"<br />{{small|("The Patriotic Song")}}<br/><div style="display:inline-block; margin-top:0.4em;">{{center|[[File:North Korea anthem Vocal.ogg]]}}</div>
+| national_motto         = <br />강성대국 {{small|(''[[de facto]]'')}}<br />"Kangsŏngdaeguk"<br />{{small|("Strong and Prosperous Nation")}}
+| official_languages = [[Korean language|Korean]]
 capital = [[Pyongyang|P'yŏngyang]] |latd=39|latm=2|latNS=N|longd=125|longm=45|longEW=E|
 government_type =[[Communist state|Communist]] [[single-party state]]|
 leader_titles = [[Chairman of the National Defence Commission of North Korea|Chairman of the NDC]]<br />[[Presidium of the Supreme People's Assembly|President of the SPA]]<br />[[Premier of North Korea|Premier]] |
@@ -53,8 +53,9 @@ Ing '''Pangulung Korea''', kebaluan bilang '''Demokratikung Pangmaldang Republik
 
 [[File:North_Korea_Div.png|right|thumb|250px|Administratibung mapa ning North Korea.]]
 
+== Ding lalawígan ==
 {| class="wikitable"
-|+ style="text-align:left; font-size:120%;"| Provinces
+|+ style="text-align:left; font-size:120%;"| Ding lalawígan
 |-
 ! Lalawigan            !! [[Transliteration]] !! [[Hangul]] !! [[Hanja]]
 |-
