@@ -32,7 +32,7 @@
 | coord | coordinates = {{safesubst:#if:{{safesubst:#property:P625}}|{{coord|region:{{safesubst:PH wikidata/iso}}{{safesubst:#ifeq:{{safesubst:lc:{{safesubst:#property:P31}}}}|province of the philippines|_type:adm1st}}{{safesubst:#if:{{{dim|}}}|_dim:{{{dim}}}}}|format=dms|display=it}} }} 
 | country = {{safesubst:#invoke:Wikidata|getValue|P17|FETCH_WIKIDATA}}
 | region = {{safesubst:PH wikidata/regionlink|{{safesubst:PH wikidata/region|{{safesubst:#property:P131}}}}}}
-| province = {{safesubst:#invoke:Wikidata|getValue|P131|FETCH_WIKIDATA}}
+| province = {{ifnotempty| {{wikidata|property|preferred|P131}} | {{wikidata|property|preferred|linked|P131}} | {{safesubst:#invoke:Wikidata|getValue|P131|FETCH_WIKIDATA}} }}
 
 | district = Legislative district: {{safesubst:#invoke:Wikidata|getValue|P131|FETCH_WIKIDATA}} {{safesubst:#if:{{safesubst:#property:P768}}|#{{safesubst:Ordinal|{{safesubst:#property:P768}}}} District}}
 
