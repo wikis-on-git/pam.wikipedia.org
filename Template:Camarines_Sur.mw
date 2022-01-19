@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| class="toccolours" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Camarines Sur|Camarines Sur]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Iriga Lakanbalen|Iriga]] | [[Naga Lakanbalen|Naga]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Baao, Camarines Sur|Baao]] | [[Balatan, Camarines Sur|Balatan]] | [[Bato, Camarines Sur|Bato]] | [[Bombon, Camarines Sur|Bombon]] | [[Buhi, Camarines Sur|Buhi]] | [[Bula, Camarines Sur|Bula]] | [[Cabusao, Camarines Sur|Cabusao]] | [[Calabanga, Camarines Sur|Calabanga]] | [[Camaligan, Camarines Sur|Camaligan]] | [[Canaman, Camarines Sur|Canaman]] | [[Caramoan, Camarines Sur|Caramoan]] | [[Del Gallego, Camarines Sur|Del Gallego]] | [[Gainza, Camarines Sur|Gainza]] | [[Garchitorena, Camarines Sur|Garchitorena]] | [[Goa, Camarines Sur|Goa]] | [[Lagonoy, Camarines Sur|Lagonoy]] | [[Libmanan, Camarines Sur|Libmanan]] | [[Lupi, Camarines Sur|Lupi]] | [[Magarao, Camarines Sur|Magarao]] | [[Milaor, Camarines Sur|Milaor]] | [[Minalabac, Camarines Sur|Minalabac]] | [[Nabua, Camarines Sur|Nabua]] | [[Ocampo, Camarines Sur|Ocampo]] | [[Pamplona, Camarines Sur|Pamplona]] | [[Pasacao, Camarines Sur|Pasacao]] | [[Pili, Camarines Sur|Pili]] | [[Presentacion, Camarines Sur|Presentacion]] | [[Ragay, Camarines Sur|Ragay]] | [[Sagñay, Camarines Sur|Sagñay]] | [[San Fernando, Camarines Sur|San Fernando]] | [[San Jose, Camarines Sur|San Jose]] | [[Sipocot, Camarines Sur|Sipocot]] | [[Siruma, Camarines Sur|Siruma]] | [[Tigaon, Camarines Sur|Tigaon]] | [[Tinambac, Camarines Sur|Tinambac]] 
-|}
-</div>
+{{Navbox
+|name = Camarines Sur
+|title = {{flagicon image|PH-CAS_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13767}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13767|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q208672}} <!-- Baao -->  ▪  {{wikidata|label|linked|Q208678}} <!-- Balatan -->  ▪  {{wikidata|label|linked|Q208683}} <!-- Bato -->  ▪  {{wikidata|label|linked|Q208690}} <!-- Bombon -->  ▪  {{wikidata|label|linked|Q208699}} <!-- Buhi --> ▪  {{wikidata|label|linked|Q208712}} <!-- Bula -->  ▪  {{wikidata|label|linked|Q208717}} <!-- Cabusao -->  ▪  {{wikidata|label|linked|Q208727}} <!-- Calabanga -->  ▪  {{wikidata|label|linked|Q208738}} <!-- Camaligan -->  ▪  {{wikidata|label|linked|Q208749}} <!-- Canaman -->  ▪  {{wikidata|label|linked|Q208757}} <!-- Caramoan -->  ▪  {{wikidata|label|linked|Q208765}} <!-- Del Gallego -->  ▪  {{wikidata|label|linked|Q208769}} <!-- Gainza -->  ▪  {{wikidata|label|linked|Q208775}} <!-- Garchitorena -->  ▪  {{wikidata|label|linked|Q208782}} <!-- Goa -->  ▪  {{wikidata|label|linked|Q208792}} <!-- Lagonoy -->  ▪  {{wikidata|label|linked|Q208814}} <!-- Libmanan -->  ▪  {{wikidata|label|linked|Q208835}} <!-- Lupi -->  ▪  {{wikidata|label|linked|Q208845}} <!-- Magarao -->  ▪  {{wikidata|label|linked|Q208852}} <!-- Milaor -->  ▪  {{wikidata|label|linked|Q208864}} <!-- Minalabac -->  ▪  {{wikidata|label|linked|Q208872}} <!-- Nabua -->  ▪  {{wikidata|label|linked|Q208878}} <!-- Ocampo -->  ▪  {{wikidata|label|linked|Q208886}} <!-- Pamplona -->  ▪  {{wikidata|label|linked|Q208892}} <!-- Pasacao -->  ▪  {{wikidata|label|linked|Q208899}} <!-- Pili -->  ▪  {{wikidata|label|linked|Q208919}} <!-- Presentacion -->  ▪  {{wikidata|label|linked|Q208924}} <!-- Ragay -->  ▪  {{wikidata|label|linked|Q208937}} <!-- Sagñay -->  ▪  {{wikidata|label|linked|Q208950}} <!-- San Fernando -->  ▪  {{wikidata|label|linked|Q208966}} <!-- San Jose -->  ▪  {{wikidata|label|linked|Q208985}} <!-- Sipocot -->  ▪  {{wikidata|label|linked|Q208995}} <!-- Siruma -->  ▪  {{wikidata|label|linked|Q209011}} <!-- Tigaon -->  ▪  {{wikidata|label|linked|Q209024}} <!-- Tinambac --> 
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q2205}} <!--Iriga -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =  {{wikidata|label|linked|Q2207}} <!--Naga, Camarines Sur-->
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Camarines Sur‎]]
+</noinclude>
