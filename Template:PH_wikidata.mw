@@ -1,21 +1,51 @@
 <includeonly>{{safesubst:#switch:{{safesubst:lc:{{{1|}}}}}
-| settlement_type = 
- {{safesubst:#if:{{safesubst:#property:P31}}|
-  {{safesubst:#ifexpr:{{#invoke:String|find|{{safesubst:#property:P31}}|Balen Filipinas}}| [[Balen Filipinas{{!}}Balen]]| 
-   {{safesubst:#ifexpr:{{#invoke:String|find|{{safesubst:#property:P31}}|Ding Lakanbalen ning Filipinas}}| [[Ding Lakanbalen ning Filipinas{{!}} {{safesubst:#switch:{{{prefix}}}{{!}} cc = Component{{!}} icc = Independent Component}} Lakanbalen]]|
-    {{safesubst:#ifexpr:{{#invoke:String|find|{{safesubst:#property:P31}}|highly urbanized city}}|[[Ding Lakanbalen ning Filipinas{{!}}Maragul Lakanbalen]]|
-     {{safesubst:#ifexpr:{{#invoke:String|find|{{safesubst:#property:P31}}|barangay}}|[[Barangay]]|
-      {{safesubst:#ifexpr:{{#invoke:String|find|{{safesubst:#property:P31}}|Ding Lalawigan ning Filipinas}}|[[Ding Lalawigan ning Filipinas{{!}}Lalawigan]]|
-       {{safesubst:#ifexpr:{{#invoke:String|find|{{safesubst:#property:P31}}|purok}}|[[Purok]]|
-        {{safesubst:#ifexpr:{{#invoke:String|find|{{safesubst:#property:P31}}|Pulu}}|Pulu|
-        }}
-       }}
-      }}
-     }}
-    }}
-   }}
+
+| settlement_type = {{safesubst:#switch:{{safesubst:Wikidata|property|raw|P31}}
+  | Q24746 = [[Ding Lalawigan ning Filipinas|Lalawigan]]
+  | Q104157 =  [[Lakanbalen]]
+  | Q29946056 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+  | Q106079704 =  [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+  | Q106078286 = [[Lakanbalen]]
+  | Q24764 = [[Balen Filipinas|Balen]]
+  | Q61878 = [[Barangay]]
+  | Q7261368 = [[Purok]]
+  | Q572784 = [[Sitio]]
   }}
- }}
+
+| settlement_text = {{safesubst:#switch:{{safesubst:Wikidata|property|raw|P31}}
+  | Q24746 = lalawigan
+  | Q104157 = lakanbalen
+  | Q29946056 = maragul lakanbalen
+  | Q106079704 = independente ning lakanbalen
+  | Q106078286 = lakanbalen
+  | Q24764 = municipality
+  | Q61878 = barangay
+  | Q7261368 = purok
+  | Q572784 = sitio
+  }}
+
+| government_type = {{safesubst:#switch:{{safesubst:Wikidata|property|raw|P31}}
+  | Q24746 = [[Sangguniang Panlalawigan]]
+  | Q104157 = [[Sangguniang Panlungsod]]
+  | Q29946056 = [[Sangguniang Panlungsod]]
+  | Q106079704 = [[Sangguniang Panlungsod]]
+  | Q106078286 = [[Sangguniang Panlungsod]]
+  | Q24764 = [[Sangguniang Bayan]]
+  | Q61878 = [[Sangguniang Barangay]]
+  }}
+
+| council_title = {{safesubst:#switch:{{safesubst:Wikidata|property|raw|P31}}
+  | Q24746 = [[Sangguniang Panlalawigan]]
+  | Q104157 = [[Sangguniang Panlungsod]]
+  | Q29946056 = [[Sangguniang Panlungsod]]
+  | Q106079704 = [[Sangguniang Panlungsod]]
+  | Q106078286 = [[Sangguniang Panlungsod]]
+  | Q24764 = [[Sangguniang Bayan]]
+  | Q61878 = [[Sangguniang Barangay]]
+  | Q7261368 = Council
+  | Q572784 = Council
+  }}
+
 | nickname1 = {{safesubst:#if:{{safesubst:#property:P1449}}|{{safesubst:replace|{{safesubst:#property:P1449}}|,|{{safesubst:#invoke:String|rep|<br />|{{safesubst:#if:{{{lflf|}}}|{{{lflf|}}}|1}}}}}}}}
 | motto = {{safesubst:#property:P1451}}
 | image_skyline = {{safesubst:#invoke:Wikidata|claim|P18}}
