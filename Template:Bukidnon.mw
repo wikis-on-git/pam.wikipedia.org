@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Bukidnon|Bukidnon]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Malaybalay Lakanbalen]] | [[Valencia Lakanbalen, Bukidnon|Valencia Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Municipalities:''' 
-|style="padding:0px 5px" | [[Baungon, Bukidnon|Baungon]] | [[Cabanglasan, Bukidnon|Cabanglasan]] | [[Damulog, Bukidnon|Damulog]] | [[Dangcagan, Bukidnon|Dangcagan]] | [[Don Carlos, Bukidnon|Don Carlos]] | [[Impasug-ong, Bukidnon|Impasug-ong]] | [[Kadingilan, Bukidnon|Kadingilan]] | [[Kalilangan, Bukidnon|Kalilangan]] | [[Kibawe, Bukidnon|Kibawe]] | [[Kitaotao, Bukidnon|Kitaotao]] | [[Lantapan, Bukidnon|Lantapan]] | [[Libona, Bukidnon|Libona]] | [[Malitbog, Bukidnon|Malitbog]] | [[Manolo Fortich, Bukidnon|Manolo Fortich]] | [[Maramag, Bukidnon|Maramag]] | [[Pangantucan, Bukidnon|Pangantucan]] | [[Quezon, Bukidnon|Quezon]] | [[San Fernando, Bukidnon|San Fernando]] | [[Sumilao, Bukidnon|Sumilao]] | [[Talakag, Bukidnon|Talakag]] 
-|}
-</div>
+{{Navbox
+|name = Bukidnon
+|title = {{flagicon image|Flag of the Province of Bukidnon.svg}} Lalawigan ning {{wikidata|label|linked|Q13753}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13753|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q356943}} <!-- Baungon -->  ▪  {{wikidata|label|linked|Q356971}} <!-- Cabanglasan -->  ▪  {{wikidata|label|linked|Q356997}} <!-- Damulog -->  ▪  {{wikidata|label|linked|Q357021}} <!-- Dangcagan -->  ▪  {{wikidata|label|linked|Q357053}} <!-- Don Carlos -->  ▪  {{wikidata|label|linked|Q357075}} <!-- Impasug-ong -->  ▪  {{wikidata|label|linked|Q357100}} <!-- Kadingilan -->  ▪  {{wikidata|label|linked|Q357124}} <!-- Kalilangan -->  ▪  {{wikidata|label|linked|Q357152}} <!-- Kibawe -->  ▪  {{wikidata|label|linked|Q357175}} <!-- Kitaotao -->  ▪  {{wikidata|label|linked|Q357198}} <!-- Lantapan -->  ▪  {{wikidata|label|linked|Q357226}} <!-- Libona -->  ▪  {{wikidata|label|linked|Q357252}} <!-- Malitbog -->  ▪  {{wikidata|label|linked|Q357272}} <!-- Manolo Fortich -->  ▪  {{wikidata|label|linked|Q357299}} <!-- Maramag -->  ▪  {{wikidata|label|linked|Q357311}} <!-- Pangantucan -->  ▪  {{wikidata|label|linked|Q357342}} <!-- Quezon -->  ▪  {{wikidata|label|linked|Q357371}} <!-- San Fernando -->  ▪  {{wikidata|label|linked|Q357396}} <!-- Sumilao -->  ▪  {{wikidata|label|linked|Q357420}} <!-- Talakag -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q1856}} <!--Malaybalay -->  ▪  {{wikidata|label|linked|Q2158}} <!--Valencia, Bukidnon|Valencia -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Bukidnon‎]]
+</noinclude>
