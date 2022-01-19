@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] and [[Ding Balen ning Filipinas|Balen]] ning [[Batangas|Batangas]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Batangas Lakanbalen]] | [[Lipa Lakanbalen]] | [[Tanauan Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Agoncillo, Batangas|Agoncillo]] | [[Alitagtag, Batangas|Alitagtag]] | [[Balayan, Batangas|Balayan]] | [[Balete, Batangas|Balete]] | [[Bauan, Batangas|Bauan]] | [[Calaca, Batangas|Calaca]] | [[Calatagan, Batangas|Calatagan]] | [[Cuenca, Batangas|Cuenca]] | [[Ibaan, Batangas|Ibaan]] | [[Laurel, Batangas|Laurel]] | [[Lemery, Batangas|Lemery]] | [[Lian, Batangas|Lian]] | [[Lobo, Batangas|Lobo]] | [[Mabini, Batangas|Mabini]] | [[Malvar, Batangas|Malvar]] | [[Mataas Na Kahoy, Batangas|Mataas Na Kahoy]] | [[Nasugbu, Batangas|Nasugbu]] | [[Padre Garcia, Batangas|Padre Garcia]] | [[Rosario, Batangas|Rosario]] | [[San Jose, Batangas|San Jose]] | [[San Juan, Batangas|San Juan]] | [[San Luis, Batangas|San Luis]] | [[San Nicolas, Batangas|San Nicolas]] | [[San Pascual, Batangas|San Pascual]] | [[Santa Teresita, Batangas|Santa Teresita]] | [[Santo Tomas, Batangas|Santo Tomas]] | [[Taal, Batangas|Taal]] | [[Talisay, Batangas|Talisay]] | [[Taysan, Batangas|Taysan]] | [[Tingloy, Batangas|Tingloy]] | [[Tuy, Batangas|Tuy]] 
-|}
-</div>
+{{Navbox
+|name = Batangas
+|title = {{flagicon image|Infoboxbatangas.png}} Lalawigan ning {{wikidata|label|linked|Q13744}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13744|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q59250}} <!-- Agoncillo -->  ▪  {{wikidata|label|linked|Q59251}} <!-- Alitagtag -->  ▪  {{wikidata|label|linked|Q59252}} <!-- Balayan -->  ▪  {{wikidata|label|linked|Q59253}} <!-- Balete -->  ▪  {{wikidata|label|linked|Q59272}} <!-- Bauan -->  ▪  {{wikidata|label|linked|Q59276}} <!-- Calaca -->  ▪  {{wikidata|label|linked|Q59279}} <!-- Calatagan -->  ▪  {{wikidata|label|linked|Q59287}} <!-- Cuenca -->  ▪  {{wikidata|label|linked|Q59304}} <!-- Ibaan -->  ▪  {{wikidata|label|linked|Q59308}} <!-- Laurel -->  ▪  {{wikidata|label|linked|Q59311}} <!-- Lemery -->  ▪  {{wikidata|label|linked|Q59312}} <!-- Lian -->  ▪  {{wikidata|label|linked|Q803199}} <!-- Lobo -->  ▪  {{wikidata|label|linked|Q59313}} <!-- Mabini -->  ▪  {{wikidata|label|linked|Q59731}} <!-- Malvar -->  ▪  {{wikidata|label|linked|Q59740}} <!-- Mataasnakahoy -->  ▪  {{wikidata|label|linked|Q59745}} <!-- Nasugbu -->  ▪  {{wikidata|label|linked|Q59749}} <!-- Padre Garcia -->  ▪  {{wikidata|label|linked|Q59758}} <!-- Rosario -->  ▪  {{wikidata|label|linked|Q59764}} <!-- San Jose -->  ▪  {{wikidata|label|linked|Q59770}} <!-- San Juan -->  ▪  {{wikidata|label|linked|Q59773}} <!-- San Luis -->  ▪  {{wikidata|label|linked|Q59777}} <!-- San Nicolas -->  ▪  {{wikidata|label|linked|Q59784}} <!-- San Pascual -->  ▪  {{wikidata|label|linked|Q59788}} <!-- Santa Teresita -->  ▪  {{wikidata|label|linked|Q59814}} <!-- Taal -->  ▪  {{wikidata|label|linked|Q59825}} <!-- Talisay -->  ▪  {{wikidata|label|linked|Q59830}} <!-- Taysan -->  ▪  {{wikidata|label|linked|Q59835}} <!-- Tingloy -->  ▪  {{wikidata|label|linked|Q59844}} <!-- Tuy -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q1723}} <!--Batangas City -->  ▪  {{wikidata|label|linked|Q1725}} <!--Lipa -->  ▪  {{wikidata|label|linked|Q59799}} <!--Santo Tomas, Batangas|Santo Tomas -->  ▪  {{wikidata|label|linked|Q1730}} <!--Tanauan, Batangas|Tanauan -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Abra‎]]
+</noinclude>
