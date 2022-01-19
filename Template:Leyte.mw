@@ -1,12 +1,23 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| class="toccolours" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Leyte|Leyte]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Ormoc Lakanbalen]] | [[Tacloban Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Abuyog, Leyte|Abuyog]] | [[Alangalang, Leyte|Alangalang]] | [[Albuera, Leyte|Albuera]] | [[Babatngon, Leyte|Babatngon]] | [[Barugo, Leyte|Barugo]] | [[Bato, Leyte|Bato]] | [[Baybay, Leyte|Baybay]] | [[Burauen, Leyte|Burauen]] | [[Calubian, Leyte|Calubian]] | [[Capoocan, Leyte|Capoocan]] | [[Carigara, Leyte|Carigara]] | [[Dagami, Leyte|Dagami]] | [[Dulag, Leyte|Dulag]] | [[Hilongos, Leyte|Hilongos]] | [[Hindang, Leyte|Hindang]] | [[Inopacan, Leyte|Inopacan]] | [[Isabel, Leyte|Isabel]] | [[Jaro, Leyte|Jaro]] | [[Javier, Leyte|Javier]] | [[Julita, Leyte|Julita]] | [[Kananga, Leyte|Kananga]] | [[La Paz, Leyte|La Paz]] | [[Leyte, Leyte|Leyte]] | [[MacArthur, Leyte|MacArthur]] | [[Mahaplag, Leyte|Mahaplag]] | [[Matag-ob, Leyte|Matag-ob]] | [[Matalom, Leyte|Matalom]] | [[Mayorga, Leyte|Mayorga]] | [[Merida, Leyte|Merida]] | [[Palo, Leyte|Palo]] | [[Palompon, Leyte|Palompon]] | [[Pastrana, Leyte|Pastrana]] | [[San Isidro, Leyte|San Isidro]] | [[San Miguel, Leyte|San Miguel]] | [[Santa Fe, Leyte|Santa Fe]] | [[Tabango, Leyte|Tabango]] | [[Tabontabon, Leyte|Tabontabon]] | [[Tanauan, Leyte|Tanauan]] | [[Tolosa, Leyte|Tolosa]] | [[Tunga, Leyte|Tunga]] | [[Villaba, Leyte|Villaba]] 
-|}
-</div>
+{{Navbox
+|name = Leyte
+|title = {{flagicon image|Leyte Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13844}} 
+|state = {{{state|autocollapse}}}
+|above =  '''{{wikidata|property|linked|Q13844|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q212877}} <!-- Abuyog -->  ▪  {{wikidata|label|linked|Q212888}} <!-- Alangalang -->  ▪  {{wikidata|label|linked|Q212896}} <!-- Albuera -->  ▪  {{wikidata|label|linked|Q212907}} <!-- Babatngon -->  ▪  {{wikidata|label|linked|Q212924}} <!-- Barugo -->  ▪  {{wikidata|label|linked|Q212935}} <!-- Bato -->  ▪  {{wikidata|label|linked|Q212945}} <!-- Burauen -->  ▪  {{wikidata|label|linked|Q212951}} <!-- Calubian -->  ▪  {{wikidata|label|linked|Q212958}} <!-- Capoocan -->  ▪  {{wikidata|label|linked|Q212969}} <!-- Carigara -->  ▪  {{wikidata|label|linked|Q212981}} <!-- Dagami -->  ▪  {{wikidata|label|linked|Q212988}} <!-- Dulag -->  ▪  {{wikidata|label|linked|Q213006}} <!-- Hilongos -->  ▪  {{wikidata|label|linked|Q213024}} <!-- Hindang -->  ▪  {{wikidata|label|linked|Q213042}} <!-- Inopacan -->  ▪  {{wikidata|label|linked|Q213060}} <!-- Isabel -->  ▪  {{wikidata|label|linked|Q213086}} <!-- Jaro -->  ▪  {{wikidata|label|linked|Q213101}} <!-- Javier -->  ▪  {{wikidata|label|linked|Q213113}} <!-- Julita -->  ▪  {{wikidata|label|linked|Q213130}} <!-- Kananga -->  ▪  {{wikidata|label|linked|Q213144}} <!-- La Paz -->  ▪  {{wikidata|label|linked|Q213160}} <!-- Leyte -->  ▪  {{wikidata|label|linked|Q213174}} <!-- MacArthur -->  ▪  {{wikidata|label|linked|Q213190}} <!-- Mahaplag -->  ▪  {{wikidata|label|linked|Q213209}} <!-- Matag-ob -->  ▪  {{wikidata|label|linked|Q213227}} <!-- Matalom -->  ▪  {{wikidata|label|linked|Q213245}} <!-- Mayorga -->  ▪  {{wikidata|label|linked|Q213261}} <!-- Merida -->  ▪  {{wikidata|label|linked|Q213281}} <!-- Palo -->  ▪  {{wikidata|label|linked|Q213303}} <!-- Palompon -->  ▪  {{wikidata|label|linked|Q213323}} <!-- Pastrana -->  ▪  {{wikidata|label|linked|Q213341}} <!-- San Isidro -->  ▪  {{wikidata|label|linked|Q213357}} <!-- San Miguel -->  ▪  {{wikidata|label|linked|Q213378}} <!-- Santa Fe -->  ▪  {{wikidata|label|linked|Q213400}} <!-- Tabango -->  ▪  {{wikidata|label|linked|Q213420}} <!-- Tabontabon -->  ▪  {{wikidata|label|linked|Q213431}} <!-- Tanauan -->  ▪  {{wikidata|label|linked|Q213442}} <!-- Tolosa -->  ▪  {{wikidata|label|linked|Q213455}} <!-- Tunga -->  ▪  {{wikidata|label|linked|Q213463}} <!-- Villaba -->
+|group2 = [[Lakanbalen]]
+|list2 = 
+{{wikidata|label|linked|Q812117}} <!--Baybay -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+{{wikidata|label|linked|Q1014782}} <!--Ormoc-->  
+|group4 =  [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4 =
+{{wikidata|label|linked|Q40626}} <!--Tacloban--> 
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Leyte‎]]
+</noinclude>
