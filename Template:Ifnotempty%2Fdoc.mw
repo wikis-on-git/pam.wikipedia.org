@@ -1,0 +1,30 @@
+{{Documentation subpage}}{{high-use}}
+
+With this template [[mw:Help:Extension:ParserFunctions|#if]] can be used in a way such that it does not [[m:Help:Newlines_and_spaces#Stripping_on_expansion|strip spaces and newlines]] from the "then" and "else" part. For evaluating the condition spaces and newlines are stripped like with ParserFunctions.
+
+This template can be substituted.
+
+==Usage==
+*<code><nowiki>{{ifnotempty| x | A | B }}</nowiki></code> gives "{{ifnotempty| x | A | B }}"
+*<code><nowiki>{{ifnotempty|x| A | B }}</nowiki></code> gives "{{ifnotempty|x| A | B }}"
+*<code><nowiki>{{ifnotempty| | A | B }}</nowiki></code> gives "{{ifnotempty| | A | B }}"
+*<code><nowiki>{{ifnotempty|| A | B }}</nowiki></code> gives "{{ifnotempty|| A | B }}"
+Compare:
+*<code><nowiki>{{#if:x| A | B }}</nowiki></code> gives "{{#if:x| A | B }}"
+*<code><nowiki>{{#if:| A | B }}</nowiki></code> gives "{{#if:| A | B }}"
+
+==Internal technical details==
+For evaluating the condition (determining non-emptiness of the first parameter) the template uses parser function #if, producing 1 if the condition is true, and 2 otherwise. The template with name equal to "P" followed by the index value produced (hence [[Template:P1]] or [[Template:P2]]), is called with as parameters A and B. This produces either A or B, without trimming. The template's code is a substitution-safe version of
+<pre>
+{{ {{#if: {{{1}}} | P1 | P2 }} |{{{2}}}|{{{3}}}}}
+</pre>
+
+==See also==
+*[[Template:If]]
+*[[m:Template:Ifnotempty]]
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line -->
+[[Category:If-then-else templates]]
+
+}}</includeonly>
