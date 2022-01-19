@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Albay]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Legazpi Lakanbalen|Legazpi]] | [[Ligao Lakanbalen|Ligao]] | [[Tabaco Lakanbalen|Tabaco]]
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Bacacay, Albay|Bacacay]] | [[Camalig, Albay|Camalig]] | [[Daraga, Albay|Daraga]] | [[Guinobatan, Albay|Guinobatan]] | [[Jovellar, Albay|Jovellar]] | [[Libon, Albay|Libon]] | [[Malilipot, Albay|Malilipot]] | [[Malinao, Albay|Malinao]] | [[Manito, Albay|Manito]] | [[Oas, Albay| Oas]] | [[Pio Duran, Albay|Pio Duran]] | [[Polangui, Albay|Polangui]] | [[Rapu-Rapu, Albay|Rapu-Rapu]] | [[Santo Domingo, Albay|Santo Domingo]] | [[Tiwi, Albay|Tiwi]]
-|}
-</div>
+{{Navbox
+|name = Albay
+|title = {{flagicon image|Albay_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13726}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13726|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q492912}} <!-- Bacacay -->  ▪  {{wikidata|label|linked|Q492976}} <!-- Camalig -->  ▪  {{wikidata|label|linked|Q493008}} <!-- Daraga -->  ▪  {{wikidata|label|linked|Q493032}} <!-- Guinobatan -->  ▪  {{wikidata|label|linked|Q493065}} <!-- Jovellar -->  ▪  {{wikidata|label|linked|Q493095}} <!-- Libon -->  ▪  {{wikidata|label|linked|Q493132}} <!-- Malilipot -->  ▪  {{wikidata|label|linked|Q493178}} <!-- Malinao -->  ▪  {{wikidata|label|linked|Q493204}} <!-- Manito -->  ▪  {{wikidata|label|linked|Q493246}} <!-- Oas -->  ▪  {{wikidata|label|linked|Q256045}} <!-- Pio Duran -->  ▪  {{wikidata|label|linked|Q493326}} <!-- Polangui -->  ▪  {{wikidata|label|linked|Q493362}} <!-- Rapu-Rapu -->  ▪  {{wikidata|label|linked|Q493409}} <!-- Santo Domingo -->  ▪  {{wikidata|label|linked|Q493444}} <!-- Tiwi --> 
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q1696}} <!--Legazpi -->  ▪  {{wikidata|label|linked|Q1701}} <!--Ligao -->  ▪  {{wikidata|label|linked|Q1706}} <!--Tabaco -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Albay‎]]
+</noinclude>
