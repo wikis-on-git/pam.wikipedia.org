@@ -1,8 +1,21 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Balen]]  ning [[Agusan del Sur]]'''
-|-
-|style="padding:0px 5px"; align="center" | [[Bayugan, Agusan del Sur|Bayugan]] | [[Bunawan, Agusan del Sur|Bunawan]] | [[Esperanza, Agusan del Sur|Esperanza]] | [[La Paz, Agusan del Sur|La Paz]] | [[Loreto, Agusan del Sur|Loreto]] | [[Prosperidad, Agusan del Sur|Prosperidad]] | [[Rosario, Agusan del Sur|Rosario]] | [[San Francisco, Agusan del Sur|San Francisco]] | [[San Luis, Agusan del Sur|San Luis]] | [[Santa Josefa, Agusan del Sur|Santa Josefa]] | [[Sibagat, Agusan del Sur|Sibagat]] | [[Talacogon, Agusan del Sur|Talacogon]] | [[Trento, Agusan del Sur|Trento]] | [[Veruela, Agusan del Sur|Veruela]]
-|}
-</div>
+{{Navbox
+|name = Agusan del Sur
+|title =  {{flagicon image|PH-AGS_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13721}} 
+|state = {{{state|autocollapse}}}
+|above =  '''{{wikidata|property|linked| Q13721 |P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q627049}} <!-- Bunawan -->  ▪  {{wikidata|label|linked|Q627077}} <!-- Esperanza -->  ▪  {{wikidata|label|linked|Q627107}} <!-- La Paz -->  ▪  {{wikidata|label|linked|Q627120}} <!-- Loreto -->  ▪  {{wikidata|label|linked|Q627144}} <!-- Prosperidad -->  ▪  {{wikidata|label|linked|Q627167}} <!-- Rosario -->  ▪  {{wikidata|label|linked|Q627190}} <!-- San Francisco -->
+ ▪  {{wikidata|label|linked|Q627210}} <!-- San Luis -->  ▪  {{wikidata|label|linked|Q627231}} <!-- Santa Josefa -->  ▪  {{wikidata|label|linked|Q627260}} <!-- Sibagat -->  ▪  {{wikidata|label|linked|Q627286}} <!-- Talacogon -->  ▪  {{wikidata|label|linked|Q627320}} <!-- Trento -->  ▪  {{wikidata|label|linked|Q627349}} <!-- Veruela --> 
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q1694}} <!-- Bayugan -->
+|group3 =  [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Agusan del Sur‎]]
+</noinclude>
