@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Balen]] at [[Ding Lakanbalen ning Filipinas|Lakanbalen]] ning [[Basilan]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Isabela Lakanbalen]]
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Akbar, Basilan|Akbar]] | [[Al-Barka, Basilan|Al-Barka]] | [[Hadji Mohammad Ajul, Basilan|Hadji Mohammad Ajul]] | [[Hadji Muhtamad, Basilan|Hadji Muhtamad]] | [[Lamitan, Basilan|Lamitan]] | [[Lantawan, Basilan|Lantawan]] | [[Maluso, Basilan|Maluso]] | [[Sumisip, Basilan|Sumisip]] | [[Tabuan-Lasa, Basilan|Tabuan-Lasa]] | [[Tipo-Tipo, Basilan|Tipo-Tipo]] | [[Tuburan, Basilan|Tuburan]] | [[Ungkaya Pukan, Basilan|Ungkaya Pukan]]
-|}
-</div>
+{{Navbox
+|name = Basilan
+|title = {{flagicon image|Basilan Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13737}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13737|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q42589}} <!-- Akbar -->  ▪  {{wikidata|label|linked|Q41999}} <!-- Al-Barka -->  ▪  {{wikidata|label|linked|Q41998}} <!-- Hadji Mohammad Ajul -->  ▪  {{wikidata|label|linked|Q802075}} <!-- Hadji Muhtamad --> ▪  {{wikidata|label|linked|Q802107}} <!-- Lantawan -->  ▪  {{wikidata|label|linked|Q802142}} <!-- Maluso -->  ▪  {{wikidata|label|linked|Q802171}} <!-- Sumisip -->  ▪  {{wikidata|label|linked|Q802202}} <!-- Tabuan-Lasa -->  ▪  {{wikidata|label|linked|Q667595}} <!-- Tipo-Tipo -->  ▪  {{wikidata|label|linked|Q630096}} <!-- Tuburan -->  ▪  {{wikidata|label|linked|Q204771}} <!-- Ungkaya Pukan -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q1710}} <!--Isabela City-->   ▪  {{wikidata|label|linked|Q1714}} <!--Lamitan-->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 = 
+|group4 =  [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Abra‎]]
+</noinclude>
