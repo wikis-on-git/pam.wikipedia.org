@@ -1,12 +1,21 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Bulacan|Bulacan]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Malolos Lakanbalen]] | [[San Jose del Monte Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Angat, Bulacan|Angat]] | [[Balagtas, Bulacan|Balagtas]] | [[Baliuag, Bulacan|Baliuag]] | [[Bocaue, Bulacan|Bocaue]] | [[Bulacan, Bulacan|Bulacan]] | [[Bustos, Bulacan|Bustos]] | [[Calumpit, Bulacan|Calumpit]] | [[Doña Remedios Trinidad, Bulacan|Doña Remedios Trinidad]] | [[Guiguinto, Bulacan|Guiguinto]] | [[Hagonoy, Bulacan|Hagonoy]] | [[Marilao, Bulacan|Marilao]] | [[Meycauayan, Bulacan|Meycauayan]] | [[Norzagaray, Bulacan|Norzagaray]] | [[Obando, Bulacan|Obando]] | [[Pandi, Bulacan|Pandi]] | [[Paombong, Bulacan|Paombong]] | [[Plaridel, Bulacan|Plaridel]] | [[Pulilan, Bulacan|Pulilan]] | [[San Ildefonso, Bulacan|San Ildefonso]] | [[San Miguel, Bulacan|San Miguel]] | [[San Rafael, Bulacan|San Rafael]] | [[Santa Maria, Bulacan|Santa Maria]] 
-|}
-</div>
+{{Navbox
+|name = Bulacan
+|title = {{flagicon image|Flag of Bulacan.gif}} Lalawigan ning {{wikidata|label|linked|Q13755}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13755|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q54551}} <!-- Angat -->  ▪  {{wikidata|label|linked|Q54553}} <!-- Balagtas -->  ▪  {{wikidata|label|linked|Q54554}} <!-- Baliuag -->  ▪  {{wikidata|label|linked|Q54555}} <!-- Bocaue -->  ▪  {{wikidata|label|linked|Q54558}} <!-- Bulacan --> ▪  {{wikidata|label|linked|Q54560}} <!-- Bustos -->  ▪  {{wikidata|label|linked|Q54564}} <!-- Calumpit -->  ▪  {{wikidata|label|linked|Q54566}} <!-- Doña Remedios Trinidad -->  ▪  {{wikidata|label|linked|Q54589}} <!-- Guiguinto -->  ▪  {{wikidata|label|linked|Q54592}} <!-- Hagonoy -->  ▪  {{wikidata|label|linked|Q54595}} <!-- Marilao -->  ▪  {{wikidata|label|linked|Q54598}} <!-- Norzagaray -->  ▪  {{wikidata|label|linked|Q54599}} <!-- Obando -->  ▪  {{wikidata|label|linked|Q54600}} <!-- Pandi -->  ▪  {{wikidata|label|linked|Q54605}} <!-- Paombong -->  ▪  {{wikidata|label|linked|Q54760}} <!-- Plaridel -->  ▪  {{wikidata|label|linked|Q54761}} <!-- Pulilan --> ▪  {{wikidata|label|linked|Q54762}} <!-- San Ildefonso -->  ▪  {{wikidata|label|linked|Q54763}} <!-- San Miguel -->  ▪  {{wikidata|label|linked|Q54765}} <!-- San Rafael -->  ▪  {{wikidata|label|linked|Q54768}} <!-- Santa Maria -->
+|group2 =  [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q2180}} <!--Malolos -->
+ ▪  {{wikidata|label|linked|Q2187}} <!--Meycauayan -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4 =  {{wikidata|label|linked|Q2193}} <!--San Jose del Monte -->
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Abra‎]]
+</noinclude>
