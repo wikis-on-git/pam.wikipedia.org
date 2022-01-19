@@ -1,12 +1,21 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Bataan |Bataan]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Balanga Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Municipalities:''' 
-|style="padding:0px 5px" | [[Abucay, Bataan|Abucay]] | [[Bagac, Bataan|Bagac]] | [[Dinalupihan, Bataan|Dinalupihan]] | [[Hermosa, Bataan|Hermosa]] | [[Limay, Bataan|Limay]] | [[Mariveles, Bataan|Mariveles]] | [[Morong, Bataan|Morong]] | [[Orani, Bataan|Orani]] | [[Orion, Bataan|Orion]] | [[Pilar, Bataan|Pilar]] | [[Samal, Bataan|Samal]] 
-|}
-</div>
+{{Navbox
+|name = Bataan
+|title ={{flagicon image|Bataan_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13739}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13739|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q54455}} <!-- Abucay -->  ▪  {{wikidata|label|linked|Q54456}} <!-- Bagac -->  ▪  {{wikidata|label|linked|Q54457}} <!-- Dinalupihan -->  ▪  {{wikidata|label|linked|Q54458}} <!-- Hermosa -->  ▪  {{wikidata|label|linked|Q54459}} <!-- Limay --> ▪  {{wikidata|label|linked|Q54460}} <!-- Mariveles -->  ▪  {{wikidata|label|linked|Q54461}} <!-- Morong -->  ▪  {{wikidata|label|linked|Q54462}} <!-- Orani -->  ▪  {{wikidata|label|linked|Q54463}} <!-- Orion -->  ▪  {{wikidata|label|linked|Q54464}} <!-- Pilar -->
+ ▪  {{wikidata|label|linked|Q54465}} <!-- Samal -->
+|group2 = [[Lakanbalen]]
+|list2 = {{wikidata|label|linked|Q1719}} <!--Balanga -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Bataan‎]]
+</noinclude>
