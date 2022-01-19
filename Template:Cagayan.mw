@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Deng Lakanbalen]] ampong [[Ding Balen ning Filipinas|Balen]] ning [[Cagayan|Cagayan]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Tuguegarao Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Abulug, Cagayan|Abulug]] | [[Alcala, Cagayan|Alcala]] | [[Allacapan, Cagayan|Allacapan]] | [[Amulung, Cagayan|Amulung]] | [[Aparri, Cagayan|Aparri]] | [[Baggao, Cagayan|Baggao]] | [[Ballesteros, Cagayan|Ballesteros]] | [[Buguey, Cagayan|Buguey]] | [[Calayan, Cagayan|Calayan]] | [[Camalaniugan, Cagayan|Camalaniugan]] | [[Claveria, Cagayan|Claveria]] | [[Enrile, Cagayan|Enrile]] | [[Gattaran, Cagayan|Gattaran]] | [[Gonzaga, Cagayan|Gonzaga]] | [[Iguig, Cagayan|Iguig]] | [[Lal-lo, Cagayan|Lal-lo]] | [[Lasam, Cagayan|Lasam]] | [[Pamplona, Cagayan|Pamplona]] | [[Peñablanca, Cagayan|Peñablanca]] | [[Piat, Cagayan|Piat]] | [[Rizal, Cagayan|Rizal]] | [[Sanchez-Mira, Cagayan|Sanchez-Mira]] | [[Santa Ana, Cagayan|Santa Ana]] | [[Santa Praxedes, Cagayan|Santa Praxedes]] | [[Santa Teresita, Cagayan|Santa Teresita]] | [[Santo Niño, Cagayan|Santo Niño]] | [[Solana, Cagayan|Solana]] | [[Tuao, Cagayan|Tuao]] 
-|}
-</div>
+{{Navbox
+|name = Cagayan
+|title = {{flagicon image|Ph Flag of Cagayan.svg}} Lalawigan ning {{wikidata|label|linked|Q13759}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13759|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q43500}} <!-- Abulug -->  ▪  {{wikidata|label|linked|Q43503}} <!-- Alcala -->  ▪  {{wikidata|label|linked|Q43508}} <!-- Allacapan -->  ▪  {{wikidata|label|linked|Q43515}} <!-- Amulung -->  ▪  {{wikidata|label|linked|Q43517}} <!-- Aparri -->  ▪  {{wikidata|label|linked|Q43520}} <!-- Baggao -->  ▪  {{wikidata|label|linked|Q49058}} <!-- Ballesteros -->  ▪  {{wikidata|label|linked|Q49059}} <!-- Buguey -->  ▪  {{wikidata|label|linked|Q49062}} <!-- Calayan -->  ▪  {{wikidata|label|linked|Q49313}} <!-- Camalaniugan -->  ▪  {{wikidata|label|linked|Q49314}} <!-- Claveria -->  ▪  {{wikidata|label|linked|Q49315}} <!-- Enrile -->  ▪  {{wikidata|label|linked|Q49316}} <!-- Gattaran -->  ▪  {{wikidata|label|linked|Q49317}} <!-- Gonzaga -->  ▪  {{wikidata|label|linked|Q49318}} <!-- Iguig -->  ▪  {{wikidata|label|linked|Q49320}} <!-- Lal-lo -->  ▪  {{wikidata|label|linked|Q49321}} <!-- Lasam -->  ▪  {{wikidata|label|linked|Q49324}} <!-- Pamplona -->  ▪  {{wikidata|label|linked|Q49327}} <!-- Peñablanca -->  ▪  {{wikidata|label|linked|Q49331}} <!-- Piat -->  ▪  {{wikidata|label|linked|Q49333}} <!-- Rizal -->  ▪  {{wikidata|label|linked|Q49336}} <!-- Sanchez-Mira -->  ▪  {{wikidata|label|linked|Q49337}} <!-- Santa Ana -->  ▪  {{wikidata|label|linked|Q49339}} <!-- Santa Praxedes -->  ▪  {{wikidata|label|linked|Q49342}} <!-- Santa Teresita -->  ▪  {{wikidata|label|linked|Q49346}} <!-- Santo Niño -->  ▪  {{wikidata|label|linked|Q49348}} <!-- Solana -->  ▪  {{wikidata|label|linked|Q49350}} <!-- Tuao -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q2200}} <!--Tuguegarao -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Cagayan‎]]
+</noinclude>
