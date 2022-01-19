@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Benguet|Benguet]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Baguio Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Atok, Benguet|Atok]] | [[Bakun, Benguet|Bakun]] | [[Bokod, Benguet|Bokod]] | [[Buguias, Benguet|Buguias]] | [[Itogon, Benguet|Itogon]] | [[Kabayan, Benguet|Kabayan]] | [[Kapangan, Benguet|Kapangan]] | [[Kibungan, Benguet|Kibungan]] | [[La Trinidad, Benguet|La Trinidad]] | [[Mankayan, Benguet|Mankayan]] | [[Sablan, Benguet|Sablan]] | [[Tuba, Benguet|Tuba]] | [[Tublay, Benguet|Tublay]] 
-|}
-</div>
+{{Navbox
+|name = Benguet
+|title = {{flagicon image|PH-BEN_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13750}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13750|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 =
+{{wikidata|label|linked|Q30104}} <!-- Atok -->  ▪  {{wikidata|label|linked|Q30325}} <!-- Bakun -->  ▪  {{wikidata|label|linked|Q30328}} <!-- Bokod -->  ▪  {{wikidata|label|linked|Q30332}} <!-- Buguias -->  ▪  {{wikidata|label|linked|Q30335}} <!-- Itogon -->  ▪  {{wikidata|label|linked|Q30338}} <!-- Kabayan -->  ▪  {{wikidata|label|linked|Q30345}} <!-- Kapangan -->  ▪  {{wikidata|label|linked|Q30349}} <!-- Kibungan -->  ▪  {{wikidata|label|linked|Q30351}} <!-- La Trinidad  -->  ▪  {{wikidata|label|linked|Q30356}} <!-- Mankayan -->  ▪  {{wikidata|label|linked|Q30358}} <!-- Sablan -->  ▪  {{wikidata|label|linked|Q30361}} <!-- Tuba -->  ▪  {{wikidata|label|linked|Q30363}} <!-- Tublay -->
+|group2 = [[Lakanbalen]]
+|list2 =
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4 =  {{wikidata|label|linked|Q1822}} <!--Baguio-->
+}}<noinclude>
+{{collapsible option}}
+[[Kategori:Templat pembagian administratif Filipina]]
+</noinclude>
