@@ -1,12 +1,19 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Balen]] at [[Ding Lakanbalen ning Filipinas|Lakanbalen]] ning [[Agusan del Norte]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Butuan Lakanbalen]]
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Buenavista, Agusan del Norte|Buenavista]] | [[Cabadbaran, Agusan del Norte|Cabadbaran]] | [[Carmen, Agusan del Norte|Carmen]] | [[Jabonga, Agusan del Norte|Jabonga]] | [[Kitcharao, Agusan del Norte|Kitcharao]] | [[Las Nieves, Agusan del Norte|Las Nieves]] | [[Magallanes, Agusan del Norte|Magallanes]] | [[Nasipit, Agusan del Norte|Nasipit]] | [[Remedios T. Romualdez, Agusan del Norte|Remedios T. Romualdez]] | [[Santiago, Agusan del Norte|Santiago]] | [[Tubay, Agusan del Norte|Tubay]]
-|}
-</div>
+{{Navbox
+|name = Agusan del Norte
+|title = {{flagicon image|PH-AGN_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13714}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13714|P36}}''' (kapitolyo)
+|listclass = hlist
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q627390}} <!-- Buenavista -->  ▪  {{wikidata|label|linked|Q627434}} <!-- Carmen -->  ▪  {{wikidata|label|linked|Q627461}} <!-- Jabonga -->  ▪  {{wikidata|label|linked|Q627495}} <!-- Kitcharao -->  ▪  {{wikidata|label|linked|Q627529}} <!-- Las Nieves -->  ▪  {{wikidata|label|linked|Q627572}} <!-- Magallanes -->  ▪  {{wikidata|label|linked|Q627604}} <!-- Nasipit -->  ▪  {{wikidata|label|linked|Q627638}} <!-- Remedios T. Romualdez -->  ▪  {{wikidata|label|linked|Q588955}} <!-- Santiago -->  ▪  {{wikidata|label|linked|Q176975}} <!-- Tubay --> 
+|group2 =  [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q1692}} <!--Cabadbaran -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=  {{wikidata|label|linked|Q1686}} <!--Butuan-->
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Agusan del Norte‎]]
+</noinclude>
