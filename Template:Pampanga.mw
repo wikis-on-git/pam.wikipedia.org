@@ -1,11 +1,22 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''Deng [[Ding Lakanbalen ning Filipinas|Lakanbalen]] ampong [[Ding Balen ning Filipinas|Balen]] ning [[Pampanga|Pampanga]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Angeles Lakanbalen]] | [[San Fernando Lakanbalen, Pampanga|San Fernando Lakanbalen]] | [[Mabalacat Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Apalit, Pampanga|Apalit]] | [[Arayat, Pampanga|Arayat]] | [[Bacolor, Pampanga|Bacolor]] | [[Candaba, Pampanga|Candaba]] | [[Floridablanca, Pampanga|Floridablanca]] | [[Guagua, Pampanga|Guagua]] | [[Lubao, Pampanga|Lubao]] | [[Macabebe, Pampanga|Macabebe]] | [[Magalang, Pampanga|Magalang]] | [[Masantol, Pampanga|Masantol]] | [[Mexico, Pampanga|Mexico]] | [[Minalin, Pampanga|Minalin]] | [[Porac, Pampanga|Porac]] | [[San Luis, Pampanga|San Luis]] | [[San Simon, Pampanga|San Simon]] | [[Santa Ana, Pampanga|Santa Ana]] | [[Santa Rita, Pampanga|Santa Rita]] | [[Santo Tomas, Pampanga|Santo Tomas]] | [[Sasmuan, Pampanga|Sasmuan]] 
-|}
+{{Navbox
+|name = Pampanga
+|title = {{flagicon image|Pampanga_Flag.png}}Lalawigan ning {{wikidata|label|linked|Q13870}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13870|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q55693}} <!-- Apalit -->  ▪  {{wikidata|label|linked|Q55694}} <!-- Arayat -->  ▪  {{wikidata|label|linked|Q55696}} <!-- Bacolor -->  ▪  {{wikidata|label|linked|Q55699}} <!-- Candaba -->  ▪  {{wikidata|label|linked|Q55700}} <!-- Floridablanca -->  ▪  {{wikidata|label|linked|Q55702}} <!-- Guagua -->  ▪  {{wikidata|label|linked|Q55705}} <!-- Lubao -->  ▪  {{wikidata|label|linked|Q55707}} <!-- Macabebe -->  ▪  {{wikidata|label|linked|Q55709}} <!-- Magalang -->  ▪  {{wikidata|label|linked|Q55710}} <!-- Masantol -->  ▪  {{wikidata|label|linked|Q55712}} <!-- Mexico -->  ▪  {{wikidata|label|linked|Q55717}} <!-- Minalin -->  ▪  {{wikidata|label|linked|Q55721}} <!-- Porac -->  ▪  {{wikidata|label|linked|Q55724}} <!-- San Luis -->  ▪  {{wikidata|label|linked|Q55725}} <!-- San Simon -->  ▪  {{wikidata|label|linked|Q55727}} <!-- Santa Ana -->  ▪  {{wikidata|label|linked|Q55730}} <!-- Santa Rita -->  ▪  {{wikidata|label|linked|Q55731}} <!-- Santo Tomas -->  ▪  {{wikidata|label|linked|Q55734}} <!-- Sasmuan -->
+|group2 = [[Lakanbalen]]
+|list2 =
+{{wikidata|label|linked|Q55737}} <!--Mabalacat -->  ▪  {{wikidata|label|linked|Q55740}} <!--San Fernando, Pampanga -->
+|group3 =  [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4 = 
+{{wikidata|label|linked|Q55741}} <!-- Angeles -->
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Abra‎]]
+</noinclude>
