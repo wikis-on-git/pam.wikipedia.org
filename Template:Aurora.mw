@@ -1,8 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Ding Balen]] ning [[Aurora|Aurora]]'''
-|-
-|style="padding:0px 5px"; align="center"  | [[Baler, Aurora|Baler]] | [[Casiguran, Aurora|Casiguran]] | [[Dilasag, Aurora|Dilasag]] | [[Dinalungan, Aurora|Dinalungan]] | [[Dingalan, Aurora|Dingalan]] | [[Dipaculao, Aurora|Dipaculao]] | [[Maria Aurora, Aurora|Maria Aurora]] | [[San Luis, Aurora|San Luis]]
-|}
-</div>
+{{Navbox
+|name = Aurora
+|title = {{flagicon image|PH-AUR_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13730}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13730|P36}}'''  (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 =  [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q53081}} <!-- Baler -->  ▪  {{wikidata|label|linked|Q53083}} <!-- Casiguran -->  ▪  {{wikidata|label|linked|Q53084}} <!-- Dilasag -->  ▪  {{wikidata|label|linked|Q53086}} <!-- Dinalungan -->  ▪  {{wikidata|label|linked|Q53087}} <!-- Dingalan -->  ▪  {{wikidata|label|linked|Q53089}} <!-- Dipaculao -->  ▪  {{wikidata|label|linked|Q53090}} <!-- Maria Aurora -->  ▪  {{wikidata|label|linked|Q53092}} <!-- San Luis --> 
+|group2 = [[Lakanbalen]]
+|list2 =
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Aurora]
+</noinclude>
