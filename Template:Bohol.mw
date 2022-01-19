@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Bohol province|Bohol]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Tagbilaran Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Alburquerque, Bohol|Alburquerque]] | [[Alicia, Bohol|Alicia]] | [[Anda, Bohol|Anda]] | [[Antequera, Bohol|Antequera]] | [[Baclayon, Bohol|Baclayon]] | [[Balilihan, Bohol|Balilihan]] | [[Batuan, Bohol|Batuan]] | [[Bien Unido, Bohol|Bien Unido]] | [[Bilar, Bohol|Bilar]] | [[Buenavista, Bohol|Buenavista]] | [[Calape, Bohol|Calape]] | [[Candijay, Bohol|Candijay]] | [[Carmen, Bohol|Carmen]] | [[Catigbian, Bohol|Catigbian]] | [[Clarin, Bohol|Clarin]] | [[Corella, Bohol|Corella]] | [[Cortes, Bohol|Cortes]] | [[Dagohoy, Bohol|Dagohoy]] | [[Danao, Bohol|Danao]] | [[Dauis, Bohol|Dauis]] | [[Dimiao, Bohol|Dimiao]] | [[Duero, Bohol|Duero]] | [[Garcia Hernandez, Bohol|Garcia Hernandez]] | [[Guindulman, Bohol|Guindulman]] | [[Inabanga, Bohol|Inabanga]] | [[Jagna, Bohol|Jagna]] | [[Jetafe, Bohol|Jetafe]] | [[Lila, Bohol|Lila]] | [[Loay, Bohol|Loay]] | [[Loboc, Bohol|Loboc]] | [[Loon, Bohol|Loon]] | [[Mabini, Bohol|Mabini]] | [[Maribojoc, Bohol|Maribojoc]] | [[Panglao, Bohol|Panglao]] | [[Pilar, Bohol|Pilar]] | [[Pres. Carlos P. Garcia, Bohol|Pres. Carlos P. Garcia]] | [[Sagbayan, Bohol|Sagbayan]] | [[San Isidro, Bohol|San Isidro]] | [[San Miguel, Bohol|San Miguel]] | [[Sevilla, Bohol|Sevilla]] | [[Sierra Bullones, Bohol|Sierra Bullones]] | [[Sikatuna, Bohol|Sikatuna]] | [[Talibon, Bohol|Talibon]] | [[Trinidad, Bohol|Trinidad]] | [[Tubigon, Bohol|Tubigon]] | [[Ubay, Bohol|Ubay]] | [[Valencia, Bohol|Valencia]] 
-|}
-</div>
+{{Navbox
+|name = Bohol
+|title = {{flagicon image|Flag_of_Bohol_Province,_Philippines.svg}} Lalawigan ning {{wikidata|label|linked|Q13752}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13752|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q404369}} <!-- Alburquerque -->  ▪  {{wikidata|label|linked|Q404403}} <!-- Alicia -->  ▪  {{wikidata|label|linked|Q404434}} <!-- Anda -->  ▪  {{wikidata|label|linked|Q404459}} <!-- Antequera -->  ▪  {{wikidata|label|linked|Q404489}} <!-- Baclayon -->  ▪  {{wikidata|label|linked|Q404519}} <!-- Balilihan -->  ▪  {{wikidata|label|linked|Q404549}} <!-- Batuan -->  ▪  {{wikidata|label|linked|Q404581}} <!-- Bien Unido -->  ▪  {{wikidata|label|linked|Q404604}} <!-- Bilar -->  ▪  {{wikidata|label|linked|Q404623}} <!-- Buenavista -->  ▪  {{wikidata|label|linked|Q404652}} <!-- Calape -->  ▪  {{wikidata|label|linked|Q404680}} <!-- Candijay -->  ▪  {{wikidata|label|linked|Q241239}} <!-- Carmen -->  ▪  {{wikidata|label|linked|Q404750}} <!-- Catigbian -->  ▪  {{wikidata|label|linked|Q404775}} <!-- Clarin -->  ▪  {{wikidata|label|linked|Q404799}} <!-- Corella -->  ▪  {{wikidata|label|linked|Q404825}} <!-- Cortes -->  ▪  {{wikidata|label|linked|Q404854}} <!-- Dagohoy -->  ▪  {{wikidata|label|linked|Q404882}} <!-- Danao -->  ▪  {{wikidata|label|linked|Q404908}} <!-- Dauis -->  ▪  {{wikidata|label|linked|Q404930}} <!-- Dimiao -->  ▪  {{wikidata|label|linked|Q404951}} <!-- Duero -->  ▪  {{wikidata|label|linked|Q404976}} <!-- Garcia Hernandez -->  ▪  {{wikidata|label|linked|Q405005}} <!-- Getafe -->  ▪  {{wikidata|label|linked|Q405058}} <!-- Guindulman -->  ▪  {{wikidata|label|linked|Q405088}} <!-- Inabanga -->  ▪  {{wikidata|label|linked|Q405110}} <!-- Jagna -->  ▪  {{wikidata|label|linked|Q405141}} <!-- Lila -->  ▪  {{wikidata|label|linked|Q405171}} <!-- Loay -->  ▪  {{wikidata|label|linked|Q405197}} <!-- Loboc -->  ▪  {{wikidata|label|linked|Q405224}} <!-- Loon -->  ▪  {{wikidata|label|linked|Q405268}} <!-- Mabini -->  ▪  {{wikidata|label|linked|Q405303}} <!-- Maribojoc -->  ▪  {{wikidata|label|linked|Q178330}} <!-- Panglao -->  ▪  {{wikidata|label|linked|Q405384}} <!-- Pilar -->  ▪  {{wikidata|label|linked|Q405427}} <!-- President Carlos P. Garcia -->  ▪  {{wikidata|label|linked|Q405472}} <!-- Sagbayan -->  ▪  {{wikidata|label|linked|Q259298}} <!-- San Isidro -->  ▪  {{wikidata|label|linked|Q405544}} <!-- San Miguel -->  ▪  {{wikidata|label|linked|Q386388}} <!-- Sevilla -->  ▪  {{wikidata|label|linked|Q405628}} <!-- Sierra Bullones -->  ▪  {{wikidata|label|linked|Q405674}} <!-- Sikatuna -->  ▪  {{wikidata|label|linked|Q405714}} <!-- Talibon -->  ▪  {{wikidata|label|linked|Q405749}} <!-- Trinidad -->  ▪  {{wikidata|label|linked|Q405980}} <!-- Tubigon -->  ▪  {{wikidata|label|linked|Q406015}} <!-- Ubay -->  ▪  {{wikidata|label|linked|Q406046}} <!-- Valencia -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q1826}} <!--Tagbilaran -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Bohol‎]]
+</noinclude>
