@@ -1,8 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Balen]] ning [[Camarines Norte|Camarines Norte]]'''
-|-
-|style="padding:0px 5px"; align="center"| [[Basud, Camarines Norte|Basud]] | [[Capalonga, Camarines Norte|Capalonga]] | [[Daet, Camarines Norte|Daet]] | [[Jose Panganiban, Camarines Norte|Jose Panganiban]] | [[Labo, Camarines Norte|Labo]] | [[Mercedes, Camarines Norte|Mercedes]] | [[Paracale, Camarines Norte|Paracale]] | [[San Lorenzo Ruiz, Camarines Norte|San Lorenzo Ruiz]] | [[San Vicente, Camarines Norte|San Vicente]] | [[Santa Elena, Camarines Norte|Santa Elena]] | [[Talisay, Camarines Norte|Talisay]] | [[Vinzons, Camarines Norte|Vinzons]] 
-|}
-</div>
+{{Navbox
+|name = Camarines Norte
+|title = {{flagicon image|Flag of Camarines Norte.svg}} Lalawigan ning {{wikidata|label|linked|Q13763}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13763|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q356607}} <!-- Basud -->  ▪  {{wikidata|label|linked|Q119624}} <!-- Capalonga -->  ▪  {{wikidata|label|linked|Q356655}} <!-- Daet -->  ▪  {{wikidata|label|linked|Q356681}} <!-- Jose Panganiban -->  ▪  {{wikidata|label|linked|Q356708}} <!-- Labo -->  ▪  {{wikidata|label|linked|Q356734}} <!-- Mercedes -->  ▪  {{wikidata|label|linked|Q356759}} <!-- Paracale -->  ▪  {{wikidata|label|linked|Q356803}} <!-- San Lorenzo Ruiz -->  ▪  {{wikidata|label|linked|Q302791}} <!-- San Vicente -->  ▪  {{wikidata|label|linked|Q356853}} <!-- Santa Elena -->  ▪  {{wikidata|label|linked|Q356878}} <!-- Talisay -->  ▪  {{wikidata|label|linked|Q356898}} <!-- Vinzons -->
+|group2 = [[Lakanbalen]]
+|list2 =
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Camarines Norte‎]]
+</noinclude>
