@@ -1,12 +1,22 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| class="toccolours" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Ding Lakanbalen]] at [[Ding Balen ning Filipinas|Ding Balen]] ning [[Nueva Ecija|Nueva Ecija]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Cabanatuan Lakanbalen]] | [[Gapan Lakanbalen]] | [[Palayan Lakanbalen]] | [[San Jose Lakanbalen, Nueva Ecija|San Jose Lakanbalen]] | [[Kabiasnan ning Muñoz Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Aliaga, Nueva Ecija|Aliaga]] | [[Bongabon, Nueva Ecija|Bongabon]] | [[Cabiao, Nueva Ecija|Cabiao]] | [[Carranglan, Nueva Ecija|Carranglan]] | [[Cuyapo, Nueva Ecija|Cuyapo]] | [[Gabaldon, Nueva Ecija|Gabaldon]] | [[General Mamerto Natividad, Nueva Ecija|General Mamerto Natividad]] | [[General Tinio, Nueva Ecija|General Tinio]] | [[Guimba, Nueva Ecija|Guimba]] | [[Jaen, Nueva Ecija|Jaen]] | [[Laur, Nueva Ecija|Laur]] | [[Licab, Nueva Ecija|Licab]] | [[Llanera, Nueva Ecija|Llanera]] | [[Lupao, Nueva Ecija|Lupao]] | [[Nampicuan, Nueva Ecija|Nampicuan]] | [[Pantabangan, Nueva Ecija|Pantabangan]] | [[Peñaranda, Nueva Ecija|Peñaranda]] | [[Quezon, Nueva Ecija|Quezon]] | [[Rizal, Nueva Ecija|Rizal]] | [[San Antonio, Nueva Ecija|San Antonio]] | [[San Isidro, Nueva Ecija|San Isidro]] | [[San Leonardo, Nueva Ecija|San Leonardo]] | [[Santa Rosa, Nueva Ecija|Santa Rosa]] | [[Santo Domingo, Nueva Ecija|Santo Domingo]] | [[Talavera, Nueva Ecija|Talavera]] | [[Talugtug, Nueva Ecija|Talugtug]] | [[Zaragoza, Nueva Ecija|Zaragoza]] 
-|}
-</div>
+{{Navbox
+|name = Nueva Ecija
+|title =  {{flagicon image|Vlag Fil NuevaEcija.gif}} Lalawigan ning {{wikidata|label|linked|Q13865}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13865|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q55543}} <!-- Aliaga -->  ▪  {{wikidata|label|linked|Q55544}} <!-- Bongabon -->  ▪  {{wikidata|label|linked|Q55545}} <!-- Cabiao -->  ▪  {{wikidata|label|linked|Q55546}} <!-- Carranglan -->  ▪  {{wikidata|label|linked|Q55547}} <!-- Cuyapo -->  ▪  {{wikidata|label|linked|Q55548}} <!-- Gabaldon -->  ▪  {{wikidata|label|linked|Q55549}} <!-- General Mamerto Natividad -->  ▪  {{wikidata|label|linked|Q55551}} <!-- General Tinio -->  ▪  {{wikidata|label|linked|Q55552}} <!-- Guimba -->  ▪  {{wikidata|label|linked|Q30871}} <!-- Jaen -->  ▪  {{wikidata|label|linked|Q55556}} <!-- Laur -->  ▪  {{wikidata|label|linked|Q55557}} <!-- Licab -->
+ ▪  {{wikidata|label|linked|Q55558}} <!-- Llanera -->  ▪  {{wikidata|label|linked|Q55559}} <!-- Lupao -->  ▪  {{wikidata|label|linked|Q55560}} <!-- Nampicuan -->  ▪  {{wikidata|label|linked|Q55567}} <!-- Pantabangan -->  ▪  {{wikidata|label|linked|Q55568}} <!-- Peñaranda -->  ▪  {{wikidata|label|linked|Q55569}} <!-- Quezon -->  ▪  {{wikidata|label|linked|Q55570}} <!-- Rizal -->  ▪  {{wikidata|label|linked|Q30923}} <!-- San Antonio -->  ▪  {{wikidata|label|linked|Q55572}} <!-- San Isidro -->  ▪  {{wikidata|label|linked|Q55573}} <!-- San Leonardo -->  ▪  {{wikidata|label|linked|Q55590}} <!-- Santa Rosa -->  ▪  {{wikidata|label|linked|Q55591}} <!-- Santo Domingo -->  ▪  {{wikidata|label|linked|Q55592}} <!-- Talavera -->  ▪  {{wikidata|label|linked|Q55593}} <!-- Talugtug -->  ▪  {{wikidata|label|linked|Q28731}} <!-- Zaragoza -->
+|group2 = [[Lakanbalen]]
+|list2 =
+{{wikidata|label|linked|Q55595}} <!--Cabanatuan -->  ▪  {{wikidata|label|linked|Q55596}} <!--Gapan -->  ▪  {{wikidata|label|linked|Q55597}} <!--Muñoz -->  ▪  {{wikidata|label|linked|Q55598}} <!--Palayan -->  ▪  {{wikidata|label|linked|Q55599}} <!--San Jose, Nueva Ecija -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Nueva Ecija‎]]
+</noinclude>
