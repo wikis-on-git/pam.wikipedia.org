@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Iloilo]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Iloilo Lakanbalen]] | [[Passi Lakanbalen]]
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Ajuy, Iloilo|Ajuy]] | [[Alimodian, Iloilo|Alimodian]] | [[Anilao, Iloilo|Anilao]] | [[Badiangan, Iloilo|Badiangan]] | [[Balasan, Iloilo|Balasan]] | [[Banate, Iloilo|Banate]] | [[Barotac Nuevo, Iloilo|Barotac Nuevo]] | [[Barotac Viejo, Iloilo|Barotac Viejo]] | [[Batad, Iloilo|Batad]] | [[Bingawan, Iloilo|Bingawan]] | [[Cabatuan, Iloilo|Cabatuan]] | [[Calinog, Iloilo|Calinog]] | [[Carles, Iloilo|Carles]] | [[Concepcion, Iloilo|Concepcion]] | [[Dingle, Iloilo|Dingle]] | [[Dueñas, Iloilo|Dueñas]] | [[Dumangas, Iloilo|Dumangas]] | [[Estancia, Iloilo|Estancia]] | [[Guimbal, Iloilo|Guimbal]] | [[Igbaras, Iloilo|Igbaras]] | [[Janiuay, Iloilo|Janiuay]] | [[Lambunao, Iloilo|Lambunao]] | [[Leganes, Iloilo|Leganes]] | [[Lemery, Iloilo|Lemery]] | [[Leon, Iloilo|Leon]] | [[Maasin, Iloilo|Maasin]] | [[Miagao, Iloilo|Miagao]] | [[Mina, Iloilo|Mina]] | [[New Lucena, Iloilo|New Lucena]] | [[Oton, Iloilo|Oton]] | [[Pavia, Iloilo|Pavia]] | [[Pototan, Iloilo|Pototan]] | [[San Dionisio, Iloilo|San Dionisio]] | [[San Enrique, Iloilo|San Enrique]] | [[San Joaquin, Iloilo|San Joaquin]] | [[San Miguel, Iloilo|San Miguel]] | [[San Rafael, Iloilo|San Rafael]] | [[Santa Barbara, Iloilo|Santa Barbara]] | [[Sara, Iloilo|Sara]] | [[Tigbauan, Iloilo|Tigbauan]] | [[Tubungan, Iloilo|Tubungan]] | [[Zarraga, Iloilo|Zarraga]]
-|}
-</div>
+{{Navbox
+|name = Iloilo
+|title = {{flagicon image|PH-ABR_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13825}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13825|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q274491}} <!-- Ajuy -->  ▪  {{wikidata|label|linked|Q274508}} <!-- Alimodian -->  ▪  {{wikidata|label|linked|Q274543}} <!-- Anilao -->  ▪  {{wikidata|label|linked|Q274557}} <!-- Badiangan -->  ▪  {{wikidata|label|linked|Q274578}} <!-- Balasan -->  ▪  {{wikidata|label|linked|Q274595}} <!-- Banate -->  ▪  {{wikidata|label|linked|Q82502}} <!-- Barotac Nuevo -->  ▪  {{wikidata|label|linked|Q82493}} <!-- Barotac Viejo -->  ▪  {{wikidata|label|linked|Q274654}} <!-- Batad -->  ▪  {{wikidata|label|linked|Q274671}} <!-- Bingawan -->  ▪  {{wikidata|label|linked|Q274693}} <!-- Cabatuan -->  ▪  {{wikidata|label|linked|Q274713}} <!-- Calinog -->  ▪  {{wikidata|label|linked|Q274731}} <!-- Carles -->  ▪  {{wikidata|label|linked|Q274749}} <!-- Concepcion -->  ▪  {{wikidata|label|linked|Q274780}} <!-- Dingle -->  ▪  {{wikidata|label|linked|Q274795}} <!-- Dueñas -->  ▪  {{wikidata|label|linked|Q74758}} <!-- Dumangas -->  ▪  {{wikidata|label|linked|Q82506}} <!-- Estancia -->  ▪  {{wikidata|label|linked|Q274847}} <!-- Guimbal -->  ▪  {{wikidata|label|linked|Q74755}} <!-- Igbaras -->  ▪  {{wikidata|label|linked|Q82570}} <!-- Janiuay -->  ▪  {{wikidata|label|linked|Q274907}} <!-- Lambunao -->  ▪  {{wikidata|label|linked|Q274937}} <!-- Leganes -->  ▪  {{wikidata|label|linked|Q274961}} <!-- Lemery -->  ▪  {{wikidata|label|linked|Q274987}} <!-- Leon -->  ▪  {{wikidata|label|linked|Q275015}} <!-- Maasin -->  ▪  {{wikidata|label|linked|Q74753}} <!-- Miagao -->  ▪  {{wikidata|label|linked|Q275071}} <!-- Mina -->  ▪  {{wikidata|label|linked|Q275184}} <!-- New Lucena -->  ▪  {{wikidata|label|linked|Q275199}} <!-- Oton -->  ▪  {{wikidata|label|linked|Q275221}} <!-- Pavia -->  ▪  {{wikidata|label|linked|Q275243}} <!-- Pototan -->  ▪  {{wikidata|label|linked|Q275264}} <!-- San Dionisio -->  ▪  {{wikidata|label|linked|Q275280}} <!-- San Enrique -->  ▪  {{wikidata|label|linked|Q275295}} <!-- San Joaquin -->  ▪  {{wikidata|label|linked|Q275312}} <!-- San Miguel -->  ▪  {{wikidata|label|linked|Q275329}} <!-- San Rafael -->  ▪  {{wikidata|label|linked|Q275347}} <!-- Santa Barbara -->   ▪  {{wikidata|label|linked|Q275368}} <!-- Sara --> ▪  {{wikidata|label|linked|Q82497}} <!-- Tigbauan -->  ▪  {{wikidata|label|linked|Q275417}} <!-- Tubungan -->  ▪  {{wikidata|label|linked|Q148064}} <!-- Zarraga -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q1855693}} <!--Passi -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4 =  {{wikidata|label|linked|Q459787}} <!--Iloilo City--> 
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Iloilo]]
+</noinclude>
