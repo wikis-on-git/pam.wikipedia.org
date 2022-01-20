@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Balen]] at [[Ding Lakanbalen ning Filipinas|Lakanbalen]]  ning [[Cotabato|Cotabato]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Kidapawan Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Alamada, Cotabato|Alamada]] | [[Aleosan, Cotabato|Aleosan]] | [[Antipas, Cotabato|Antipas]] | [[Arakan, Cotabato|Arakan]] | [[Banisilan, Cotabato|Banisilan]] | [[Carmen, Cotabato|Carmen]] | [[Kabacan, Cotabato|Kabacan]] | [[Libungan, Cotabato|Libungan]] | [[M'Lang, Cotabato|M'lang]] | [[Magpet, Cotabato|Magpet]] | [[Makilala, Cotabato|Makilala]] | [[Matalam, Cotabato|Matalam]] | [[Midsayap, Cotabato|Midsayap]] | [[Pigkawayan, Cotabato|Pigkawayan]] | [[Pikit, Cotabato|Pikit]] | [[President Roxas, Cotabato|President Roxas]] | [[Tulunan, Cotabato|Tulunan]] 
-|}
-</div>
+{{Navbox
+|name = Cotabato
+|title = {{flagicon image|PH-NCO_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13791}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13791|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q315042}} <!-- Alamada -->  ▪  {{wikidata|label|linked|Q315061}} <!-- Aleosan -->  ▪  {{wikidata|label|linked|Q315081}} <!-- Antipas -->  ▪  {{wikidata|label|linked|Q315098}} <!-- Arakan -->  ▪  {{wikidata|label|linked|Q315121}} <!-- Banisilan -->  ▪  {{wikidata|label|linked|Q315144}} <!-- Carmen -->  ▪  {{wikidata|label|linked|Q315164}} <!-- Kabacan -->  ▪  {{wikidata|label|linked|Q315190}} <!-- Libungan -->  ▪  {{wikidata|label|linked|Q267975}} <!-- Magpet -->  ▪  {{wikidata|label|linked|Q315244}} <!-- Makilala -->  ▪  {{wikidata|label|linked|Q315267}} <!-- Matalam -->  ▪  {{wikidata|label|linked|Q315283}} <!-- Midsayap -->  ▪  {{wikidata|label|linked|Q315213}} <!-- M'lang -->  ▪  {{wikidata|label|linked|Q304654}} <!-- Pigkawayan -->  ▪  {{wikidata|label|linked|Q315314}} <!-- Pikit -->  ▪  {{wikidata|label|linked|Q315334}} <!-- President Roxas -->  ▪  {{wikidata|label|linked|Q315345}} <!-- Tulunan -->
+|group2 = [[Lakanbalen]]
+|list2 = {{wikidata|label|linked|Q583137}} <!--Kidapawan -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Cotabato‎]]
+</noinclude>
