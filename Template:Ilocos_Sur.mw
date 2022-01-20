@@ -1,12 +1,21 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Ilocos Sur|Ilocos Sur]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Candon Lakanbalen]] | [[Vigan Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Alilem, Ilocos Sur|Alilem]] | [[Banayoyo, Ilocos Sur|Banayoyo]] | [[Bantay, Ilocos Sur|Bantay]] | [[Burgos, Ilocos Sur|Burgos]] | [[Cabugao, Ilocos Sur|Cabugao]] | [[Caoayan, Ilocos Sur|Caoayan]] | [[Cervantes, Ilocos Sur|Cervantes]] | [[Galimuyod, Ilocos Sur|Galimuyod]] | [[Gregorio del Pilar, Ilocos Sur|Gregorio Del Pilar]] | [[Lidlidda, Ilocos Sur|Lidlidda]] | [[Magsingal, Ilocos Sur|Magsingal]] | [[Nagbukel, Ilocos Sur|Nagbukel]] | [[Narvacan, Ilocos Sur|Narvacan]] | [[Quirino, Ilocos Sur|Quirino]] | [[Salcedo, Ilocos Sur|Salcedo]] | [[San Emilio, Ilocos Sur|San Emilio]] | [[San Esteban, Ilocos Sur|San Esteban]] | [[San Ildefonso, Ilocos Sur|San Ildefonso]] | [[San Juan, Ilocos Sur|San Juan]] | [[San Vicente, Ilocos Sur|San Vicente]] | [[Santa, Ilocos Sur|Santa]] | [[Santa Catalina, Ilocos Sur|Santa Catalina]] | [[Santa Cruz, Ilocos Sur|Santa Cruz]] | [[Santa Lucia, Ilocos Sur|Santa Lucia]] | [[Santa Maria, Ilocos Sur|Santa Maria]] | [[Santiago, Ilocos Sur|Santiago]] | [[Santo Domingo, Ilocos Sur|Santo Domingo]] | [[Sigay, Ilocos Sur|Sigay]] | [[Sinait, Ilocos Sur|Sinait]] | [[Sugpon, Ilocos Sur|Sugpon]] | [[Suyo, Ilocos Sur|Suyo]] | [[Tagudin, Ilocos Sur|Tagudin]] 
-|}
-</div>
+{{Navbox
+|name = Ilocos Sur
+|title =  {{flagicon image|PH-ILS_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q12741}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q12741|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q12813}} <!-- Alilem -->  ▪  {{wikidata|label|linked|Q12818}} <!-- Banayoyo -->  ▪  {{wikidata|label|linked|Q12825}} <!-- Bantay -->  ▪  {{wikidata|label|linked|Q12828}} <!-- Burgos -->  ▪  {{wikidata|label|linked|Q12832}} <!-- Cabugao -->  ▪  {{wikidata|label|linked|Q12834}} <!-- Caoayan -->  ▪  {{wikidata|label|linked|Q12835}} <!-- Cervantes -->  ▪  {{wikidata|label|linked|Q12838}} <!-- Galimuyod -->  ▪  {{wikidata|label|linked|Q12840}} <!-- Gregorio Del Pilar -->  ▪  {{wikidata|label|linked|Q12843}} <!-- Lidlidda -->  ▪  {{wikidata|label|linked|Q12845}} <!-- Magsingal -->  ▪  {{wikidata|label|linked|Q12848}} <!-- Nagbukel -->  ▪  {{wikidata|label|linked|Q12850}} <!-- Narvacan -->  ▪  {{wikidata|label|linked|Q12853}} <!-- Quirino -->  ▪  {{wikidata|label|linked|Q12856}} <!-- Salcedo -->  ▪  {{wikidata|label|linked|Q12859}} <!-- San Emilio -->  ▪  {{wikidata|label|linked|Q12863}} <!-- San Esteban -->  ▪  {{wikidata|label|linked|Q12864}} <!-- San Ildefonso -->  ▪  {{wikidata|label|linked|Q12867}} <!-- San Juan -->  ▪  {{wikidata|label|linked|Q12868}} <!-- San Vicente -->  ▪  {{wikidata|label|linked|Q12873}} <!-- Santa -->  ▪  {{wikidata|label|linked|Q12875}} <!-- Santa Catalina -->  ▪  {{wikidata|label|linked|Q12880}} <!-- Santa Cruz -->  ▪  {{wikidata|label|linked|Q12882}} <!-- Santa Lucia -->  ▪  {{wikidata|label|linked|Q12692}} <!-- Santa Maria -->  ▪  {{wikidata|label|linked|Q12884}} <!-- Santiago -->  ▪  {{wikidata|label|linked|Q12885}} <!-- Santo Domingo -->  ▪  {{wikidata|label|linked|Q12888}} <!-- Sigay -->  ▪  {{wikidata|label|linked|Q12891}} <!-- Sinait -->  ▪  {{wikidata|label|linked|Q12893}} <!-- Sugpon -->  ▪  {{wikidata|label|linked|Q12894}} <!-- Suyo -->
+ ▪  {{wikidata|label|linked|Q12895}} <!-- Tagudin -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q205956}} <!--Candon -->  ▪  {{wikidata|label|linked|Q235004}} <!--Vigan -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Ilocos Sur‎]]
+</noinclude>
