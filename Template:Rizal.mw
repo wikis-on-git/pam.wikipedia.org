@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] and [[Ding Balen ning Filipinas|Balen]] ning  [[Rizal]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Antipolo Lakanbalen]]
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Angono, Rizal|Angono]] | [[Baras, Rizal|Baras]] | [[Binangonan, Rizal|Binangonan]] | [[Cainta, Rizal|Cainta]] | [[Cardona, Rizal|Cardona]] | [[Jalajala, Rizal|Jalajala]] | [[Morong, Rizal|Morong]] | [[Pililla, Rizal|Pililla]] | [[Rodriguez, Rizal|Rodriguez]] | [[San Mateo, Rizal|San Mateo]] | [[Tanay, Rizal|Tanay]] | [[Taytay, Rizal|Taytay]] | [[Teresa, Rizal|Teresa]]
-|}
-</div>
+{{Navbox
+|name = Rizal
+|title = {{flagicon image|Rizal Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13874}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13874|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 =
+{{wikidata|label|linked|Q106766}} <!-- Baras -->  ▪  {{wikidata|label|linked|Q106783}} <!-- Binangonan -->  ▪  {{wikidata|label|linked|Q106790}} <!-- Cainta -->  ▪  {{wikidata|label|linked|Q106796}} <!-- Cardona -->  ▪  {{wikidata|label|linked|Q106804}} <!-- Jalajala -->  ▪  {{wikidata|label|linked|Q106810}} <!-- Morong -->  ▪  {{wikidata|label|linked|Q106817}} <!-- Pililla -->  ▪  {{wikidata|label|linked|Q106825}} <!-- Rodriguez (Montalban) -->  ▪  {{wikidata|label|linked|Q106832}} <!-- San Mateo -->  ▪  {{wikidata|label|linked|Q106839}} <!-- Tanay -->  ▪  {{wikidata|label|linked|Q373204}} <!-- Taytay -->  ▪  {{wikidata|label|linked|Q106848}} <!-- Teresa -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q1636}} <!--Antipolo -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4 =
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Rizal‎]]
+</noinclude>
