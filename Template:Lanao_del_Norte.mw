@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Balen]] at [[Ding Lakanbalen ning Filipinas|Lakanbalen]]  ning [[Lanao del Norte|Lanao del Norte]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Iligan Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Bacolod, Lanao del Norte|Bacolod]] | [[Baloi, Lanao del Norte|Baloi]] | [[Baroy, Lanao del Norte|Baroy]] | [[Kapatagan, Lanao del Norte|Kapatagan]] | [[Kauswagan, Lanao del Norte|Kauswagan]] | [[Kolambugan, Lanao del Norte|Kolambugan]] | [[Lala, Lanao del Norte|Lala]] | [[Linamon, Lanao del Norte|Linamon]] | [[Magsaysay, Lanao del Norte|Magsaysay]] | [[Maigo, Lanao del Norte|Maigo]] | [[Matungao, Lanao del Norte|Matungao]] | [[Munai, Lanao del Norte|Munai]] | [[Nunungan, Lanao del Norte|Nunungan]] | [[Pantao Ragat, Lanao del Norte|Pantao Ragat]] | [[Pantar, Lanao del Norte|Pantar]] | [[Poona Piagapo, Lanao del Norte|Poona Piagapo]] | [[Salvador, Lanao del Norte|Salvador]] | [[Sapad, Lanao del Norte|Sapad]] | [[Sultan Naga Dimaporo, Lanao del Norte|Sultan Naga Dimaporo]] | [[Tagoloan, Lanao del Norte|Tagoloan]] | [[Tangcal, Lanao del Norte|Tangcal]] | [[Tubod, Lanao del Norte|Tubod]] 
-|}
-</div>
+{{Navbox
+|name = Lanao del Norte
+|title = {{flagicon image|PH-LAN_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13841}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13841|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q274150}} <!-- Bacolod -->  ▪  {{wikidata|label|linked|Q274164}} <!-- Baloi -->  ▪  {{wikidata|label|linked|Q274173}} <!-- Baroy -->  ▪  {{wikidata|label|linked|Q274186}} <!-- Kapatagan -->  ▪  {{wikidata|label|linked|Q274197}} <!-- Kauswagan -->  ▪  {{wikidata|label|linked|Q274205}} <!-- Kolambugan -->  ▪  {{wikidata|label|linked|Q274215}} <!-- Lala -->  ▪  {{wikidata|label|linked|Q274230}} <!-- Linamon -->  ▪  {{wikidata|label|linked|Q274243}} <!-- Magsaysay -->  ▪  {{wikidata|label|linked|Q274260}} <!-- Maigo -->  ▪  {{wikidata|label|linked|Q274272}} <!-- Matungao -->  ▪  {{wikidata|label|linked|Q274287}} <!-- Munai -->  ▪  {{wikidata|label|linked|Q274299}} <!-- Nunungan -->  ▪  {{wikidata|label|linked|Q274313}} <!-- Pantao Ragat -->  ▪  {{wikidata|label|linked|Q274329}} <!-- Pantar -->  ▪  {{wikidata|label|linked|Q274343}} <!-- Poona Piagapo -->  ▪  {{wikidata|label|linked|Q274357}} <!-- Salvador -->  ▪  {{wikidata|label|linked|Q274369}} <!-- Sapad -->  ▪  {{wikidata|label|linked|Q274387}} <!-- Sultan Naga Dimaporo -->  ▪  {{wikidata|label|linked|Q274406}} <!-- Tagoloan -->  ▪  {{wikidata|label|linked|Q274427}} <!-- Tangcal -->  ▪  {{wikidata|label|linked|Q274439}} <!-- Tubod -->
+|group2 = [[Lakanbalen]]
+|list2 =
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4 =  ▪  {{wikidata|label|linked|Q285488}} <!--Iligan--> 
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Lanao del Norte‎]]
+</noinclude>
