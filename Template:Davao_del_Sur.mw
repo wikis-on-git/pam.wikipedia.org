@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Davao del Sur|Davao del Sur]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Davao Lakanbalen]] | [[Digos Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Municipalities:''' 
-|style="padding:0px 5px" | [[Bansalan, Davao del Sur|Bansalan]] | [[Hagonoy, Davao del Sur|Hagonoy]] | [[Kiblawan, Davao del Sur|Kiblawan]] | [[Magsaysay, Davao del Sur|Magsaysay]] | [[Malalag, Davao del Sur|Malalag]] | [[Matanao, Davao del Sur|Matanao]] | [[Padada, Davao del Sur|Padada]] | [[Santa Cruz, Davao del Sur|Santa Cruz]] | [[Sulop, Davao del Sur|Sulop]] 
-|}
-</div>
+{{Navbox
+|name = Davao del Sur
+|title = {{flagicon image|Vlag_Fil_DavaodelSur.gif}} Lalawigan ning {{wikidata|label|linked|Q13794}} 
+|state = {{{state|autocollapse}}}
+|above =  '''{{wikidata|property|linked|Q13794|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q314778}} <!-- Bansalan -->  ▪  {{wikidata|label|linked|Q314808}} <!-- Hagonoy -->  ▪  {{wikidata|label|linked|Q314844}} <!-- Kiblawan -->  ▪  {{wikidata|label|linked|Q314864}} <!-- Magsaysay -->  ▪  {{wikidata|label|linked|Q314885}} <!-- Malalag -->  ▪  {{wikidata|label|linked|Q314923}} <!-- Matanao -->  ▪  {{wikidata|label|linked|Q314944}} <!-- Padada -->  ▪  {{wikidata|label|linked|Q314965}} <!-- Santa Cruz -->  ▪  {{wikidata|label|linked|Q315014}} <!-- Sulop -->
+|group2 = [[Lakanbalen]]
+|list2 =
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4 =  {{wikidata|label|linked|Q1473}} <!--Davao City -->
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Davao del Sur‎]]
+</noinclude>
