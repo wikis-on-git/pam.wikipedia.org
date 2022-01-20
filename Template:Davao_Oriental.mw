@@ -1,8 +1,21 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Balen]] ning  [[Davao Oriental|Davao Oriental]]'''
-|-
-|style="padding:0px 5px"; align="center"| [[Baganga, Davao Oriental|Baganga]] | [[Banaybanay, Davao Oriental|Banaybanay]] | [[Boston, Davao Oriental|Boston]] | [[Caraga, Davao Oriental|Caraga]] | [[Cateel, Davao Oriental|Cateel]] | [[Governor Generoso, Davao Oriental|Governor Generoso]] | [[Lupon, Davao Oriental|Lupon]] | [[Manay, Davao Oriental|Manay]] | [[Mati, Davao Oriental|Mati]] | [[San Isidro, Davao Oriental|San Isidro]] | [[Tarragona, Davao Oriental|Tarragona]] 
-|}
-</div>
+{{Navbox
+|name = Davao Oriental
+|title = {{flagicon image|Vlag Fil DavaoOriental.gif}} Lalawigan ning {{wikidata|label|linked|Q13806}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13806|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q314522}} <!-- Baganga -->  ▪  {{wikidata|label|linked|Q314542}} <!-- Banaybanay -->  ▪  {{wikidata|label|linked|Q314574}} <!-- Boston -->  ▪  {{wikidata|label|linked|Q314593}} <!-- Caraga -->  ▪  {{wikidata|label|linked|Q314619}} <!-- Cateel -->  ▪  {{wikidata|label|linked|Q314632}} <!-- Governor Generoso -->  ▪  {{wikidata|label|linked|Q314653}} <!-- Lupon -->
+ ▪  {{wikidata|label|linked|Q314671}} <!-- Manay -->  ▪  {{wikidata|label|linked|Q314721}} <!-- San Isidro -->  ▪  {{wikidata|label|linked|Q314745}} <!-- Tarragona -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q314686}} <!--Mati -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Davao Oriental‎]]
+</noinclude>
