@@ -1,8 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Ding Balen ning Filipinas]] ning [[Catanduanes|Catanduanes]]'''
-|-
-|style="padding:0px 5px"; align="center"| [[Bagamanoc, Catanduanes|Bagamanoc]] | [[Baras, Catanduanes|Baras]] | [[Bato, Catanduanes|Bato]] | [[Caramoran, Catanduanes|Caramoran]] | [[Gigmoto, Catanduanes|Gigmoto]] | [[Pandan, Catanduanes|Pandan]] | [[Panganiban, Catanduanes|Panganiban]] | [[San Andres, Catanduanes|San Andres]] | [[San Miguel, Catanduanes|San Miguel]] | [[Viga, Catanduanes|Viga]] | [[Virac, Catanduanes|Virac]] 
-|}
-</div>
+{{Navbox
+|name = Catanduanes
+|title = {{flagicon image|Vlag Fil Catanduanes.gif}}  Lalawigan ning {{wikidata|label|linked|Q13778}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13778|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q192067}} <!-- Bagamanoc -->  ▪  {{wikidata|label|linked|Q192072}} <!-- Baras -->  ▪  {{wikidata|label|linked|Q192085}} <!-- Bato -->  ▪  {{wikidata|label|linked|Q192091}} <!-- Caramoran -->  ▪  {{wikidata|label|linked|Q192629}} <!-- Gigmoto --> ▪  {{wikidata|label|linked|Q123163}} <!-- Pandan -->  ▪  {{wikidata|label|linked|Q192646}} <!-- Panganiban -->  ▪  {{wikidata|label|linked|Q840162}} <!-- San Andres -->  ▪  {{wikidata|label|linked|Q192665}} <!-- San Miguel -->  ▪  {{wikidata|label|linked|Q192670}} <!-- Viga -->  ▪  {{wikidata|label|linked|Q192681}} <!-- Virac -->
+|group2 = [[Lakanbalen]]
+|list2 =
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Catanduanes‎]]
+</noinclude>
