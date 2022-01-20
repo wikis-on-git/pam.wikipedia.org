@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Southern Leyte |Southern Leyte]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Maasin Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Anahawan, Southern Leyte|Anahawan]] | [[Bontoc, Southern Leyte|Bontoc]] | [[Hinunangan, Southern Leyte|Hinunangan]] | [[Hinundayan, Southern Leyte|Hinundayan]] | [[Libagon, Southern Leyte|Libagon]] | [[Liloan, Southern Leyte|Liloan]] | [[Limasawa, Southern Leyte|Limasawa]] | [[Macrohon, Southern Leyte|Macrohon]] | [[Malitbog, Southern Leyte|Malitbog]] | [[Padre Burgos, Southern Leyte|Padre Burgos]] | [[Pintuyan, Southern Leyte|Pintuyan]] | [[Saint Bernard, Southern Leyte|Saint Bernard]] | [[San Francisco, Southern Leyte|San Francisco]] | [[San Juan, Southern Leyte|San Juan]] | [[San Ricardo, Southern Leyte|San Ricardo]] | [[Silago, Southern Leyte|Silago]] | [[Sogod, Southern Leyte|Sogod]] | [[Tomas Oppus, Southern Leyte|Tomas Oppus]] 
-|}
-</div>
+{{Navbox
+|name = Southern Leyte
+|title = {{flagicon image|Southern Leyte.gif}} Lalawigan ning {{wikidata|label|linked|Q13884}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13884|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q173608}} <!-- Anahawan -->  ▪  {{wikidata|label|linked|Q173622}} <!-- Bontoc -->  ▪  {{wikidata|label|linked|Q173632}} <!-- Hinunangan -->  ▪  {{wikidata|label|linked|Q173641}} <!-- Hinundayan -->  ▪  {{wikidata|label|linked|Q173655}} <!-- Libagon -->  ▪  {{wikidata|label|linked|Q173665}} <!-- Liloan -->  ▪  {{wikidata|label|linked|Q173678}} <!-- Limasawa -->  ▪  {{wikidata|label|linked|Q173688}} <!-- Macrohon -->  ▪  {{wikidata|label|linked|Q173701}} <!-- Malitbog -->  ▪  {{wikidata|label|linked|Q173713}} <!-- Padre Burgos -->  ▪  {{wikidata|label|linked|Q173723}} <!-- Pintuyan -->  ▪  {{wikidata|label|linked|Q173735}} <!-- Saint Bernard -->  ▪  {{wikidata|label|linked|Q173745}} <!-- San Francisco -->  ▪  {{wikidata|label|linked|Q173754}} <!-- San Juan -->  ▪  {{wikidata|label|linked|Q173763}} <!-- San Ricardo -->  ▪  {{wikidata|label|linked|Q173774}} <!-- Silago -->  ▪  {{wikidata|label|linked|Q173792}} <!-- Sogod --> ▪  {{wikidata|label|linked|Q173811}} <!-- Tomas Oppus --> 
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q1025387}} <!--Maasin -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Leyte South‎]]
+</noinclude>
