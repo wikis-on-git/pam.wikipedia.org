@@ -1,8 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen nign Filipinas|Balen]] ning [[Marinduque|Marinduque]]'''
-|-
-|style="padding:0px 5px"; align="center"| [[Boac, Marinduque|Boac]] | [[Buenavista, Marinduque|Buenavista]] | [[Gasan, Marinduque|Gasan]] | [[Mogpog, Marinduque|Mogpog]] | [[Santa Cruz, Marinduque|Santa Cruz]] | [[Torrijos, Marinduque|Torrijos]] 
-|}
-</div>
+{{Navbox
+|name = Marinduque
+|title = {{flagicon image|PH-MAD_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13846}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13846|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q107023}} <!-- Buenavista -->  ▪  {{wikidata|label|linked|Q107029}} <!-- Gasan -->  ▪  {{wikidata|label|linked|Q107034}} <!-- Mogpog -->  ▪  {{wikidata|label|linked|Q107042}} <!-- Santa Cruz --> ▪  {{wikidata|label|linked|Q107048}} <!-- Torrijos -->
+|group2 = [[Lakanbalen]]
+|list2 =
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Marinduque‎]]
+</noinclude>
