@@ -1,12 +1,17 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Keragulang Menila]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Caloocan Lakanbalen|Caloocan]] | [[Las Piñas Lakanbalen|Las Piñas]] | [[Makati Lakanbalen|Makati]] | [[Malabon Lakanbalen |Malabon]] | [[ Mandaluyong Lakanbalen|Mandaluyong]] | [[Menila]] | [[Marikina Lakanbalen |Marikina]] | [[Muntinlupa Lakanbalen |Muntinlupa]] | [[Parañaque Lakanbalen|Parañaque]] | [[Pasay Lakanbalen|Pasay]] | [[Pasig Lakanbalen|Pasig]] | [[Quezon Lakanbalen]] | [[Taguig Lakanbalen|Taguig]] | [[Valenzuela Lakanbalen|Valenzuela]]
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Navotas]] |  [[Pateros, Metro Manila|Pateros]] | [[San Juan, Metro Manila|San Juan]]
-|}
-</div>
+{{Navbox
+|name = Metro Manila
+|title = {{flagicon image|Metro_Manila_Development_Authority_(MMDA).svg}} {{wikidata|label|linked|Q13580}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|label|linked|Q1461}}''' <!-- Manila --> 
+|listclass = hlist
+|image = 
+|group1 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list1 = 
+{{wikidata|label|linked|Q1478}} <!-- Caloocan -->  ▪  {{wikidata|label|linked|Q8854}} <!-- Las Piñas -->  ▪  {{wikidata|label|linked|Q1508}} <!-- Makati -->  ▪  {{wikidata|label|linked|Q8861}} <!-- Malabon -->  ▪  {{wikidata|label|linked|Q9085}} <!-- Mandaluyong -->  ▪  {{wikidata|label|linked|Q1461}} <!-- Manila -->  ▪  {{wikidata|label|linked|Q17175}} <!-- Marikina -->  ▪  {{wikidata|label|linked|Q17176}} <!-- Muntinlupa -->  ▪  {{wikidata|label|linked|Q17179}} <!-- Navotas -->  ▪  {{wikidata|label|linked|Q17182}} <!-- Parañaque -->  ▪  {{wikidata|label|linked|Q17189}} <!-- Pasay-->  ▪  {{wikidata|label|linked|Q1624}} <!-- Pasig -->
+ ▪  {{wikidata|label|linked|Q1475}} <!-- Quezon City -->  ▪  {{wikidata|label|linked|Q749283}} <!-- San Juan -->  ▪  {{wikidata|label|linked|Q1643}} <!-- Taguig -->  ▪  {{wikidata|label|linked|Q1623}} <!-- Valenzuela -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q1017325}} <!-- Pateros -->
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Metro Manila]]
+</noinclude>
