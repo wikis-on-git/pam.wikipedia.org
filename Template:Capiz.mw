@@ -1,12 +1,19 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at  [[Ding Balen ning Filipinas|Balen]] ning [[Capiz|Capiz]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Roxas Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Cuartero, Capiz|Cuartero]] | [[Dao, Capiz|Dao]] | [[Dumalag, Capiz|Dumalag]] | [[Dumarao, Capiz|Dumarao]] | [[Ivisan, Capiz|Ivisan]] | [[Jamindan, Capiz|Jamindan]] | [[Ma-ayon, Capiz|Ma-ayon]] | [[Mambusao, Capiz|Mambusao]] | [[Panay, Capiz|Panay]] | [[Panitan, Capiz|Panitan]] | [[Pilar, Capiz|Pilar]] | [[Pontevedra, Capiz|Pontevedra]] | [[President Roxas, Capiz|President Roxas]] | [[Sapi-an, Capiz|Sapi-an]] | [[Sigma, Capiz|Sigma]] | [[Tapaz, Capiz|Tapaz]] 
-|}
-</div>
+{{Navbox
+|name = Capiz
+|title = {{flagicon image|PH-CAP.png}} Lalawigan ning {{wikidata|label|linked|Q13772}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13772|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q355953}} <!-- Cuartero -->  ▪  {{wikidata|label|linked|Q355986}} <!-- Dao -->  ▪  {{wikidata|label|linked|Q356019}} <!-- Dumalag -->  ▪  {{wikidata|label|linked|Q356053}} <!-- Dumarao -->  ▪  {{wikidata|label|linked|Q356081}} <!-- Ivisan --> ▪  {{wikidata|label|linked|Q356106}} <!-- Jamindan -->  ▪  {{wikidata|label|linked|Q356153}} <!-- Ma-ayon -->  ▪  {{wikidata|label|linked|Q356174}} <!-- Mambusao -->  ▪  {{wikidata|label|linked|Q356204}} <!-- Panay -->  ▪  {{wikidata|label|linked|Q356231}} <!-- Panitan -->  ▪  {{wikidata|label|linked|Q356266}} <!-- Pilar -->  ▪  {{wikidata|label|linked|Q356292}} <!-- Pontevedra -->  ▪  {{wikidata|label|linked|Q356313}} <!-- President Roxas -->  ▪  {{wikidata|label|linked|Q356338}} <!-- Sapi-an -->  ▪  {{wikidata|label|linked|Q356368}} <!-- Sigma -->  ▪  {{wikidata|label|linked|Q356398}} <!-- Tapaz -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q2209}} <!--Roxas, Capiz -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}Capiz‎]]
+</noinclude>
