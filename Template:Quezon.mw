@@ -1,12 +1,21 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Quezon|Quezon]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Lucena Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Agdangan, Quezon|Agdangan]] | [[Alabat, Quezon|Alabat]] | [[Atimonan, Quezon|Atimonan]] | [[Buenavista, Quezon|Buenavista]] | [[Burdeos, Quezon|Burdeos]] | [[Calauag, Quezon|Calauag]] | [[Candelaria, Quezon|Candelaria]] | [[Catanauan, Quezon|Catanauan]] | [[Dolores, Quezon|Dolores]] | [[General Luna, Quezon|General Luna]] | [[General Nakar, Quezon|General Nakar]] | [[Guinayangan, Quezon|Guinayangan]] | [[Gumaca, Quezon|Gumaca]] | [[Infanta, Quezon|Infanta]] | [[Jomalig, Quezon|Jomalig]] | [[Lopez, Quezon|Lopez]] | [[Lucban, Quezon|Lucban]] | [[Macalelon, Quezon|Macalelon]] | [[Mauban, Quezon|Mauban]] | [[Mulanay, Quezon|Mulanay]] | [[Padre Burgos, Quezon|Padre Burgos]] | [[Pagbilao, Quezon|Pagbilao]] | [[Panukulan, Quezon|Panukulan]] | [[Patnanungan, Quezon|Patnanungan]] | [[Perez, Quezon|Perez]] | [[Pitogo, Quezon|Pitogo]] | [[Plaridel, Quezon|Plaridel]] | [[Polillo, Quezon|Polillo]] | [[Quezon, Quezon|Quezon]] | [[Real, Quezon|Real]] | [[Sampaloc, Quezon|Sampaloc]] | [[San Andres, Quezon|San Andres]] | [[San Antonio, Quezon|San Antonio]] | [[San Francisco, Quezon|San Francisco]] | [[San Narciso, Quezon|San Narciso]] | [[Sariaya, Quezon|Sariaya]] | [[Tagkawayan, Quezon|Tagkawayan]] | [[Tayabas, Quezon|Tayabas]] | [[Tiaong, Quezon|Tiaong]] | [[Unisan, Quezon|Unisan]] 
-|}
-</div>
+{{Navbox
+|name = Quezon
+|title = {{flagicon image|Quezon Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13872}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13872|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q103777}} <!-- Agdangan -->  ▪  {{wikidata|label|linked|Q103786}} <!-- Alabat -->  ▪  {{wikidata|label|linked|Q103807}} <!-- Atimonan -->  ▪  {{wikidata|label|linked|Q103815}} <!-- Buenavista -->  ▪  {{wikidata|label|linked|Q103825}} <!-- Burdeos -->  ▪  {{wikidata|label|linked|Q103833}} <!-- Calauag -->  ▪  {{wikidata|label|linked|Q103841}} <!-- Candelaria -->
+ ▪  {{wikidata|label|linked|Q103872}} <!-- Catanauan -->  ▪  {{wikidata|label|linked|Q103879}} <!-- Dolores -->  ▪  {{wikidata|label|linked|Q103889}} <!-- General Luna -->  ▪  {{wikidata|label|linked|Q103899}} <!-- General Nakar -->  ▪  {{wikidata|label|linked|Q103905}} <!-- Guinayangan -->  ▪  {{wikidata|label|linked|Q103914}} <!-- Gumaca -->  ▪  {{wikidata|label|linked|Q103921}} <!-- Infanta -->  ▪  {{wikidata|label|linked|Q103928}} <!-- Jomalig -->  ▪  {{wikidata|label|linked|Q103935}} <!-- Lopez -->  ▪  {{wikidata|label|linked|Q103941}} <!-- Lucban -->  ▪  {{wikidata|label|linked|Q103947}} <!-- Macalelon -->  ▪  {{wikidata|label|linked|Q103952}} <!-- Mauban -->  ▪  {{wikidata|label|linked|Q103958}} <!-- Mulanay -->  ▪  {{wikidata|label|linked|Q103965}} <!-- Padre Burgos -->  ▪  {{wikidata|label|linked|Q103971}} <!-- Pagbilao -->  ▪  {{wikidata|label|linked|Q103976}} <!-- Panukulan -->  ▪  {{wikidata|label|linked|Q103981}} <!-- Patnanungan -->  ▪  {{wikidata|label|linked|Q103987}} <!-- Perez -->  ▪  {{wikidata|label|linked|Q103996}} <!-- Pitogo -->  ▪  {{wikidata|label|linked|Q104005}} <!-- Plaridel -->  ▪  {{wikidata|label|linked|Q104011}} <!-- Polillo -->  ▪  {{wikidata|label|linked|Q104020}} <!-- Quezon -->  ▪  {{wikidata|label|linked|Q104026}} <!-- Real -->  ▪  {{wikidata|label|linked|Q104037}} <!-- Sampaloc -->  ▪  {{wikidata|label|linked|Q104044}} <!-- San Andres -->  ▪  {{wikidata|label|linked|Q104052}} <!-- San Antonio -->  ▪  {{wikidata|label|linked|Q104063}} <!-- San Francisco -->  ▪  {{wikidata|label|linked|Q104071}} <!-- San Narciso -->  ▪  {{wikidata|label|linked|Q104078}} <!-- Sariaya -->  ▪  {{wikidata|label|linked|Q104087}} <!-- Tagkawayan -->  ▪  {{wikidata|label|linked|Q104092}} <!-- Tiaong --> ▪  {{wikidata|label|linked|Q104099}} <!-- Unisan -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q104113}} <!--Tayabas -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4 =  {{wikidata|label|linked|Q104125}} <!--Lucena-->
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Quezon‎]]
+</noinclude>
