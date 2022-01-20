@@ -1,12 +1,22 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Misamis Occidental|Misamis Occidental]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Oroquieta Lakanbalen]] | [[Ozamiz Lakanbalen]] | [[Tangub Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Aloran, Misamis Occidental|Aloran]] | [[Baliangao, Misamis Occidental|Baliangao]] | [[Bonifacio, Misamis Occidental|Bonifacio]] | [[Calamba, Misamis Occidental|Calamba]] | [[Clarin, Misamis Occidental|Clarin]] | [[Concepcion, Misamis Occidental|Concepcion]] | [[Don Victoriano Chiongbian, Misamis Occidental|Don Victoriano Chiongbian]] | [[Jimenez, Misamis Occidental|Jimenez]] | [[Lopez Jaena, Misamis Occidental|Lopez Jaena]] | [[Panaon, Misamis Occidental|Panaon]] | [[Plaridel, Misamis Occidental|Plaridel]] | [[Sapang Dalaga, Misamis Occidental|Sapang Dalaga]] | [[Sinacaban, Misamis Occidental|Sinacaban]] | [[Tudela, Misamis Occidental|Tudela]] 
-|}
-</div>
+{{Navbox
+|name = Misamis Occidental
+|title = {{flagicon image|Flag_of_Misamis_Occidental.svg}} Lalawigan ning {{wikidata|label|linked|Q13857}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13857|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 =  [[Balen]]
+|list1 =
+{{wikidata|label|linked|Q155502}} <!-- Aloran -->  ▪  {{wikidata|label|linked|Q196056}} <!-- Baliangao -->  ▪  {{wikidata|label|linked|Q196076}} <!-- Bonifacio -->  ▪  {{wikidata|label|linked|Q196097}} <!-- Calamba -->  ▪  {{wikidata|label|linked|Q196114}} <!-- Clarin -->  ▪  {{wikidata|label|linked|Q196129}} <!-- Concepcion -->  ▪  {{wikidata|label|linked|Q196145}} <!-- Don Victoriano Chiongbian -->  ▪  {{wikidata|label|linked|Q196158}} <!-- Jimenez -->  ▪  {{wikidata|label|linked|Q196173}} <!-- Lopez Jaena -->
+ ▪  {{wikidata|label|linked|Q196191}} <!-- Panaon -->  ▪  {{wikidata|label|linked|Q196207}} <!-- Plaridel -->  ▪  {{wikidata|label|linked|Q196222}} <!-- Sapang Dalaga -->  ▪  {{wikidata|label|linked|Q196233}} <!-- Sinacaban -->  ▪  {{wikidata|label|linked|Q196248}} <!-- Tudela -->
+|group2 = [[Lakanbalen]]
+|list2 =
+{{wikidata|label|linked|Q1067897}} <!--Oroquieta -->  ▪  {{wikidata|label|linked|Q263837}} <!--Ozamiz -->  ▪  {{wikidata|label|linked|Q1026277}} <!--Tangub -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Misamis Occidental‎]]
+</noinclude>
