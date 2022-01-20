@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Cavite|Cavite]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Syudad:''' 
-|style="padding:0px 5px" | [[Bacoor Lakanbalen]] | [[Dasmariñas Lakanbalen]] | [[Cavite Lakanbalen]] | [[General Trias Lakanbalen]] | [[Imus Lakanbalen]] | [[Tagaytay Lakanbalen]] | [[Trece Martires Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Alfonso, Cavite|Alfonso]] | [[Amadeo, Cavite|Amadeo]]  | [[Carmona, Cavite|Carmona]] | [[Gen. Mariano Alvarez, Cavite|Gen. Mariano Alvarez]] | [[Gen. Emilio Aguinaldo, Cavite|Gen. Emilio Aguinaldo]] | [[Indang, Cavite|Indang]] | [[Kawit, Cavite|Kawit]] | [[Magallanes, Cavite|Magallanes]] | [[Maragondon, Cavite|Maragondon]] | [[Mendez, Cavite|Mendez]] | [[Naic, Cavite|Naic]] | [[Noveleta, Cavite|Noveleta]] | [[Rosario, Cavite|Rosario]] | [[Silang, Cavite|Silang]] | [[Tanza, Cavite|Tanza]] | [[Ternate, Cavite|Ternate]] 
-|}
-</div>
+{{{{Navbox
+|name = Cavite
+|title = {{flagicon image|PH-CAV_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13785}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|label|linked|Q63160}}''' <!--Trece Martires --> (''kapitolyo de facto''),  '''{{wikidata|label|linked|Q63145}}''' <!--Imus --> (''kapitolyo de jure'')
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q62600}} <!-- Alfonso -->  ▪  {{wikidata|label|linked|Q62606}} <!-- Amadeo -->  ▪  {{wikidata|label|linked|Q62611}} <!-- Carmona -->  ▪  {{wikidata|label|linked|Q62719}} <!-- General Emilio Aguinaldo -->  ▪  {{wikidata|label|linked|Q62638}} <!-- General Mariano Alvarez -->  ▪  {{wikidata|label|linked|Q62729}} <!-- Indang -->  ▪  {{wikidata|label|linked|Q62755}} <!-- Kawit -->  ▪  {{wikidata|label|linked|Q62771}} <!-- Magallanes -->  ▪  {{wikidata|label|linked|Q62776}} <!-- Maragondon -->  ▪  {{wikidata|label|linked|Q62784}} <!-- Mendez -->  ▪  {{wikidata|label|linked|Q62799}} <!-- Naic -->  ▪  {{wikidata|label|linked|Q63096}} <!-- Noveleta -->  ▪  {{wikidata|label|linked|Q63102}} <!-- Rosario -->  ▪  {{wikidata|label|linked|Q63110}} <!-- Silang -->  ▪  {{wikidata|label|linked|Q63115}} <!-- Tanza -->  ▪  {{wikidata|label|linked|Q63124}} <!-- Ternate -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q63129}} <!--Bacoor -->  ▪  {{wikidata|label|linked|Q1482}}  <!--Cavite City -->  ▪  {{wikidata|label|linked|Q63139}} <!--Dasmariñas -->  ▪  {{wikidata|label|linked|Q62723}} <!--General Trias, Cavite|General Trias -->  ▪  {{wikidata|label|linked|Q63145}} <!--Imus -->  ▪  {{wikidata|label|linked|Q63154}} <!--Tagaytay -->  ▪  {{wikidata|label|linked|Q63160}} <!--Trece Martires -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Cavite‎]]
+</noinclude>
