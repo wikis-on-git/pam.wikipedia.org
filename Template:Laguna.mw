@@ -1,12 +1,22 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning  [[Laguna |Laguna]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Bi&ntilde;an, Laguna|Bi&ntilde;an Lakanbalen]] | [[Cabuyao, Laguna|Cabuyao Lakanbalen]] | [[Calamba Lakanbalen]] | [[San Pablo Lakanbalen]] | [[Santa Rosa Lakanbalen]]
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Alaminos, Laguna|Alaminos]] | [[Bay, Laguna|Bay]] | [[Calauan, Laguna|Calauan]] | [[Cavinti, Laguna|Cavinti]] | [[Famy, Laguna|Famy]] | [[Kalayaan, Laguna|Kalayaan]] | [[Liliw, Laguna|Liliw]] | [[Los Baños, Laguna|Los Baños]] | [[Luisiana, Laguna|Luisiana]] | [[Lumban, Laguna|Lumban]] | [[Mabitac, Laguna|Mabitac]] | [[Magdalena, Laguna|Magdalena]] | [[Majayjay, Laguna|Majayjay]] | [[Nagcarlan, Laguna|Nagcarlan]] | [[Paete, Laguna|Paete]] | [[Pagsanjan, Laguna|Pagsanjan]] | [[Pakil, Laguna|Pakil]] | [[Pangil, Laguna|Pangil]] | [[Pila, Laguna|Pila]] | [[Rizal, Laguna|Rizal]] | [[San Pedro, Laguna|San Pedro]] | [[Santa Cruz, Laguna|Santa Cruz]] | [[Santa Maria, Laguna|Santa Maria]] | [[Siniloan, Laguna|Siniloan]] | [[Victoria, Laguna|Victoria]]
-|}
-</div>
+{{Navbox
+|name = Laguna
+|title = {{flagicon image|PH-LAG Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13840}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13840|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q63750}} <!-- Alaminos -->  ▪  {{wikidata|label|linked|Q63763}} <!-- Bay -->  ▪  {{wikidata|label|linked|Q69739}} <!-- Calauan -->  ▪  {{wikidata|label|linked|Q69749}} <!-- Cavinti --> ▪  {{wikidata|label|linked|Q69759}} <!-- Famy -->
+ ▪  {{wikidata|label|linked|Q69771}} <!-- Kalayaan -->  ▪  {{wikidata|label|linked|Q69781}} <!-- Liliw -->  ▪  {{wikidata|label|linked|Q69793}} <!-- Los Baños -->  ▪  {{wikidata|label|linked|Q69812}} <!-- Luisiana -->  ▪  {{wikidata|label|linked|Q69824}} <!-- Lumban -->  ▪  {{wikidata|label|linked|Q75875}} <!-- Mabitac -->  ▪  {{wikidata|label|linked|Q75881}} <!-- Magdalena -->  ▪  {{wikidata|label|linked|Q75888}} <!-- Majayjay -->  ▪  {{wikidata|label|linked|Q75895}} <!-- Nagcarlan -->  ▪  {{wikidata|label|linked|Q75899}} <!-- Paete -->  ▪  {{wikidata|label|linked|Q75905}} <!-- Pagsanjan -->  ▪  {{wikidata|label|linked|Q75910}} <!-- Pakil -->  ▪  {{wikidata|label|linked|Q75918}} <!-- Pangil -->  ▪  {{wikidata|label|linked|Q75923}} <!-- Pila -->  ▪  {{wikidata|label|linked|Q75928}} <!-- Rizal -->  ▪  {{wikidata|label|linked|Q75938}} <!-- Santa Cruz -->  ▪  {{wikidata|label|linked|Q75943}} <!-- Santa Maria -->  ▪  {{wikidata|label|linked|Q75948}} <!-- Siniloan -->  ▪  {{wikidata|label|linked|Q75953}} <!-- Victoria -->
+|group2 =  [[Lakanbalen]]
+|list2 = 
+{{wikidata|label|linked|Q75961}} <!--Biñan -->  ▪  {{wikidata|label|linked|Q25096}} <!--Cabuyao -->  ▪  {{wikidata|label|linked|Q75978}} <!--Calamba -->  ▪  {{wikidata|label|linked|Q76001}} <!--San Pablo, Laguna|San Pablo -->  ▪  {{wikidata|label|linked|Q75933}} <!--San Pedro, Laguna|San Pedro -->  ▪  {{wikidata|label|linked|Q76010}} <!--Santa Rosa, Laguna|Santa Rosa -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Laguna‎]]
+</noinclude>
