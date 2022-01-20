@@ -1,12 +1,21 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Balen]] at [[Ding Lakanbalen ning Filipinas|Lakanbalen]] ning [[Maguindanao|Maguindanao]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Cotabato Lakanbalen]]
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Ampatuan, Maguindanao|Ampatuan]] | [[Barira, Maguindanao|Barira]] | [[Buldon, Maguindanao|Buldon]] | [[Buluan, Maguindanao|Buluan]] | [[Datu Abdullah Sangki, Maguindanao|Datu Abdullah Sangki]] | [[Datu Anggal Midtimbang, Maguindanao|Datu Anggal Midtimbang]] | [[Datu Blah T. Sinsuat, Maguindanao|Datu Blah T. Sinsuat]] | [[Datu Hoffer Ampatuan, Maguindanao|Datu Hoffer Ampatuan]] | [[Datu Montawal, Maguindanao|Datu Montawal]] | [[Datu Odin Sinsuat, Maguindanao|Datu Odin Sinsuat]] | [[Datu Paglas, Maguindanao|Datu Paglas]] | [[Datu Piang, Maguindanao|Datu Piang]] | [[Datu Salibo, Maguindanao|Datu Salibo]] | [[Datu Saudi-Ampatuan, Maguindanao|Datu Saudi-Ampatuan]] | [[Datu Unsay, Maguindanao|Datu Unsay]] | [[General Salipada K. Pendatun, Maguindanao|General Salipada K. Pendatun]] | [[Guindulungan, Maguindanao|Guindulungan]] | [[Kabuntalan, Maguindanao|Kabuntalan]] | [[Mamasapano, Maguindanao|Mamasapano]] | [[Mangudadatu, Maguindanao|Mangudadatu]] | [[Matanog, Maguindanao|Matanog]] | [[Northern Kabuntalan, Maguindanao|Northern Kabuntalan]] | [[Pagalungan, Maguindanao|Pagalungan]] | [[Paglat, Maguindanao|Paglat]] | [[Pandag, Maguindanao|Pandag]] | [[Parang, Maguindanao|Parang]] | [[Rajah Buayan, Maguindanao|Rajah Buayan]] | [[Shariff Aguak, Maguindanao|Shariff Aguak]] | [[Shariff Saydona Mustapha, Maguindanao|Shariff Saydona Mustapha]] | [[South Upi, Maguindanao|South Upi]] | [[Sultan Kudarat, Maguindanao|Sultan Kudarat]] | [[Sultan Mastura, Maguindanao|Sultan Mastura]] | [[Sultan sa Barongis, Maguindanao|Sultan sa Barongis]] | [[Sultan Sumagka, Maguindanao|Sultan Sumagka]] | [[Talayan, Maguindanao|Talayan]] | [[Upi, Maguindanao|Upi]]
-|}
-</div>
+{{Navbox
+|name = Maguindanao
+|title = {{flagicon image|PH-MAG_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13845}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13845|P36}}'''  (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q212222}} <!-- Ampatuan -->  ▪  {{wikidata|label|linked|Q212240}} <!-- Barira -->  ▪  {{wikidata|label|linked|Q212255}} <!-- Buldon -->  ▪  {{wikidata|label|linked|Q212280}} <!-- Buluan -->  ▪  {{wikidata|label|linked|Q212310}} <!-- Datu Abdullah Sangki -->  ▪  {{wikidata|label|linked|Q212336}} <!-- Datu Anggal Midtimbang -->  ▪  {{wikidata|label|linked|Q212366}} <!-- Datu Blah T. Sinsuat -->  ▪  {{wikidata|label|linked|Q212389}} <!-- Datu Hoffer Ampatuan -->  ▪  {{wikidata|label|linked|Q212411}} <!-- Datu Montawal -->  ▪  {{wikidata|label|linked|Q212432}} <!-- Datu Odin Sinsuat -->  ▪  {{wikidata|label|linked|Q212463}} <!-- Datu Paglas -->  ▪  {{wikidata|label|linked|Q212488}} <!-- Datu Piang -->  ▪  {{wikidata|label|linked|Q212503}} <!-- Datu Salibo -->  ▪  {{wikidata|label|linked|Q212519}} <!-- Datu Saudi-Ampatuan -->  ▪  {{wikidata|label|linked|Q212537}} <!-- Datu Unsay -->  ▪  {{wikidata|label|linked|Q212557}} <!-- General Salipada K. Pendatun -->  ▪  {{wikidata|label|linked|Q212581}} <!-- Guindulungan -->  ▪  {{wikidata|label|linked|Q212603}} <!-- Kabuntalan -->  ▪  {{wikidata|label|linked|Q212623}} <!-- Mamasapano -->  ▪  {{wikidata|label|linked|Q212644}} <!-- Mangudadatu -->  ▪  {{wikidata|label|linked|Q212662}} <!-- Matanog -->  ▪ {{wikidata|label|linked|Q212684}} <!-- Northern Kabuntalan -->  ▪  {{wikidata|label|linked|Q212707}} <!-- Pagalungan -->  ▪  {{wikidata|label|linked|Q122827}} <!-- Paglat -->  ▪  {{wikidata|label|linked|Q212735}} <!-- Pandag -->  ▪  
+{{wikidata|label|linked|Q212748}} <!-- Parang -->  ▪  {{wikidata|label|linked|Q212759}} <!-- Rajah Buayan -->  ▪  {{wikidata|label|linked|Q212766}} <!-- Shariff Aguak -->  ▪  {{wikidata|label|linked|Q212778}} <!-- Shariff Saydona Mustapha -->  ▪  {{wikidata|label|linked|Q212784}} <!-- South Upi -->  ▪  {{wikidata|label|linked|Q212791}} <!-- Sultan Kudarat -->  ▪  {{wikidata|label|linked|Q212802}} <!-- Sultan Mastura -->  ▪  {{wikidata|label|linked|Q212808}} <!-- Sultan sa Barongis -->  ▪  {{wikidata|label|linked|Q212830}} <!-- Sultan Sumagka -->  ▪  {{wikidata|label|linked|Q212823}} <!-- Talayan -->  ▪  {{wikidata|label|linked|Q212843}} <!-- Upi -->
+|group2 = [[Lakanbalen]]
+|list2 =
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =  {{wikidata|label|linked|Q726993}} <!--Cotabato City--> 
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Maguindanao‎]]
+</noinclude>
