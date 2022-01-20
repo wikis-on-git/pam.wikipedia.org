@@ -1,6 +1,20 @@
 {{Navbox
 |name = Dinagat Islands
-|title = [[Ding Balen ning Filipinas|Balen]] ning [[Dinagat Islands]]
-|list1 = [[Basilisa, Dinagat Islands|Basilisa]]&nbsp;• [[Cagdianao, Dinagat Islands|Cagdianao]]&nbsp;• [[Dinagat, Dinagat Islands|Dinagat]]&nbsp;• [[Libjo, Dinagat Islands|Libjo]]&nbsp;• [[Loreto, Dinagat Islands|Loreto]]&nbsp;• [[San Jose, Dinagat Islands|San&nbsp;Jose]]&nbsp;• [[Tubajon, Dinagat Islands|Tubajon]]
+|title = {{flagicon image|PH-DIN_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13807}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13807|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q314298}} <!-- Basilisa -->  ▪  {{wikidata|label|linked|Q314318}} <!-- Cagdianao -->  ▪  {{wikidata|label|linked|Q314336}} <!-- Dinagat -->  ▪  {{wikidata|label|linked|Q314345}} <!-- Libjo -->  ▪  {{wikidata|label|linked|Q314356}} <!-- Loreto -->  ▪  {{wikidata|label|linked|Q251691}} <!-- San Jose -->  ▪  {{wikidata|label|linked|Q314374}} <!-- Tubajon -->
+|group2 = [[Lakanbalen]]
+|list2 =
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
 }}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Abra‎]]
 </noinclude>
