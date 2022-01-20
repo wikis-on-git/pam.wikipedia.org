@@ -1,8 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Balen]] ning [[Romblon|Romblon]]'''
-|-
-|style="padding:0px 5px"; align="center"| [[Alcantara, Romblon|Alcantara]] | [[Banton, Romblon|Banton]] | [[Cajidiocan, Romblon|Cajidiocan]] | [[Calatrava, Romblon|Calatrava]] | [[Concepcion, Romblon|Concepcion]] | [[Corcuera, Romblon|Corcuera]] | [[Ferrol, Romblon|Ferrol]] | [[Looc, Romblon|Looc]] | [[Magdiwang, Romblon|Magdiwang]] | [[Odiongan, Romblon|Odiongan]] | [[Romblon, Romblon|Romblon]] | [[San Agustin, Romblon|San Agustin]] | [[San Andres, Romblon|San Andres]] | [[San Fernando, Romblon|San Fernando]] | [[San Jose, Romblon|San Jose]] | [[Santa Fe, Romblon|Santa Fe]] | [[Santa Maria, Romblon|Santa Maria]] 
-|}
-</div>
+{{Navbox
+|name = Romblon
+|title = {{flagicon image|PH-ROM_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13875}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13875|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q174497}} <!-- Alcantara -->  ▪  {{wikidata|label|linked|Q174511}} <!-- Banton -->  ▪  {{wikidata|label|linked|Q174525}} <!-- Cajidiocan -->  ▪  {{wikidata|label|linked|Q174544}} <!-- Calatrava -->  ▪  {{wikidata|label|linked|Q174562}} <!-- Concepcion -->  ▪  {{wikidata|label|linked|Q174575}} <!-- Corcuera -->  ▪  {{wikidata|label|linked|Q174591}} <!-- Ferrol -->  ▪  {{wikidata|label|linked|Q174607}} <!-- Looc -->  ▪  {{wikidata|label|linked|Q174620}} <!-- Magdiwang -->  ▪  {{wikidata|label|linked|Q174632}} <!-- Odiongan -->  ▪  {{wikidata|label|linked|Q174649}} <!-- Romblon  -->  ▪  {{wikidata|label|linked|Q174659}} <!-- San Agustin -->  ▪  {{wikidata|label|linked|Q174667}} <!-- San Andres -->  ▪  {{wikidata|label|linked|Q174676}} <!-- San Fernando -->  ▪  {{wikidata|label|linked|Q174689}} <!-- San Jose -->  ▪  {{wikidata|label|linked|Q174702}} <!-- Santa Fe -->  ▪  {{wikidata|label|linked|Q174717}} <!-- Santa Maria -->
+|group2 = [[Lakanbalen]]
+|list2 =
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Romblon‎]]
+</noinclude>
