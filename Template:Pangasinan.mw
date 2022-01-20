@@ -1,12 +1,21 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Pangasinan|Pangasinan]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Alaminos Lakanbalen]] | [[Dagupan Lakanbalen]] | [[San Carlos Lakanbalen, Pangasinan|San Carlos Lakanbalen]] | [[Urdaneta Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Agno, Pangasinan|Agno]] | [[Aguilar, Pangasinan|Aguilar]] | [[Alcala, Pangasinan|Alcala]] | [[Anda, Pangasinan|Anda]] | [[Asingan, Pangasinan|Asingan]] | [[Balungao, Pangasinan|Balungao]] | [[Bani, Pangasinan|Bani]] | [[Basista, Pangasinan|Basista]] | [[Bautista, Pangasinan|Bautista]] | [[Bayambang, Pangasinan|Bayambang]] | [[Binalonan, Pangasinan|Binalonan]] | [[Binmaley, Pangasinan|Binmaley]] | [[Bolinao, Pangasinan|Bolinao]] | [[Bugallon, Pangasinan|Bugallon]] | [[Burgos, Pangasinan|Burgos]] | [[Calasiao, Pangasinan|Calasiao]] | [[Dasol, Pangasinan|Dasol]] | [[Infanta, Pangasinan|Infanta]] | [[Labrador, Pangasinan|Labrador]] | [[Laoac, Pangasinan|Laoac]] | [[Lingayen, Pangasinan|Lingayen]] | [[Mabini, Pangasinan|Mabini]] | [[Malasiqui, Pangasinan|Malasiqui]] | [[Manaoag, Pangasinan|Manaoag]] | [[Mangaldan, Pangasinan|Mangaldan]] | [[Mangatarem, Pangasinan|Mangatarem]] | [[Mapandan, Pangasinan|Mapandan]] | [[Natividad, Pangasinan|Natividad]] | [[Pozzorubio, Pangasinan|Pozzorubio]] | [[Rosales, Pangasinan|Rosales]] | [[San Fabian, Pangasinan|San Fabian]] | [[San Jacinto, Pangasinan|San Jacinto]] | [[San Manuel, Pangasinan|San Manuel]] | [[San Nicolas, Pangasinan|San Nicolas]] | [[San Quintin, Pangasinan|San Quintin]] | [[Santa Barbara, Pangasinan|Santa Barbara]] | [[Santa Maria, Pangasinan|Santa Maria]] | [[Santo Tomas, Pangasinan|Santo Tomas]] | [[Sison, Pangasinan|Sison]] | [[Sual, Pangasinan|Sual]] | [[Tayug, Pangasinan|Tayug]] | [[Umingan, Pangasinan|Umingan]] | [[Urbiztondo, Pangasinan|Urbiztondo]] | [[Villasis, Pangasinan|Villasis]] 
-|}
-</div>
+{{Navbox
+|name = Pangasinan
+|title = {{flagicon image|Flag of the Province of Pangasinan.svg}}  Lalawigan ning {{wikidata|label|linked|Q13871}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13871|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q41668}} <!--Agno-->  ▪  {{wikidata|label|linked|Q41686}} <!--Aguilar-->  ▪  {{wikidata|label|linked|Q41704}} <!--Alcala-->  ▪  {{wikidata|label|linked|Q41713}} <!--Anda-->  ▪  {{wikidata|label|linked|Q41721}} <!--Asingan-->  ▪  {{wikidata|label|linked|Q41725}} <!--Balungao-->  ▪  {{wikidata|label|linked|Q41732}} <!--Bani-->  ▪  {{wikidata|label|linked|Q41737}} <!--Basista-->  ▪  {{wikidata|label|linked|Q41757}} <!--Bautista-->  ▪  {{wikidata|label|linked|Q41762}} <!--Bayambang-->  ▪  {{wikidata|label|linked|Q41771}} <!--Binalonan-->  ▪  {{wikidata|label|linked|Q41779}} <!--Binmaley-->  ▪  {{wikidata|label|linked|Q41807}} <!--Bolinao-->  ▪  {{wikidata|label|linked|Q41826}} <!--Bugallon-->  ▪  {{wikidata|label|linked|Q41850}} <!--Burgos-->  ▪  {{wikidata|label|linked|Q41855}} <!--Calasiao-->  ▪  {{wikidata|label|linked|Q41917}} <!--Dasol-->  ▪  {{wikidata|label|linked|Q41922}} <!--Infanta-->  ▪  {{wikidata|label|linked|Q41942}} <!--Labrador-->  ▪  {{wikidata|label|linked|Q41965}} <!--Laoac-->  ▪  {{wikidata|label|linked|Q41978}} <!--Lingayen-->  ▪  {{wikidata|label|linked|Q41982}} <!--Mabini-->  ▪  {{wikidata|label|linked|Q41985}} <!--Malasiqui-->  ▪  {{wikidata|label|linked|Q1020685}} <!--Manaoag-->  ▪  {{wikidata|label|linked|Q41996}} <!--Mangaldan-->  ▪  {{wikidata|label|linked|Q42001}} <!--Mangatarem-->  ▪  {{wikidata|label|linked|Q42006}} <!--Mapandan-->  ▪  {{wikidata|label|linked|Q42011}} <!--Natividad-->  ▪  {{wikidata|label|linked|Q42017}} <!--Pozorrubio-->  ▪  {{wikidata|label|linked|Q42024}} <!--Rosales--> ▪  {{wikidata|label|linked|Q42031}} <!--San Fabian-->  ▪  {{wikidata|label|linked|Q42036}} <!--San Jacinto-->  ▪  {{wikidata|label|linked|Q42039}} <!--San Manuel-->  ▪  {{wikidata|label|linked|Q42043}} <!--San Nicolas-->  ▪  {{wikidata|label|linked|Q42044}} <!--San Quintin-->  ▪  {{wikidata|label|linked|Q122401}} <!--Santa Barbara-->  ▪  {{wikidata|label|linked|Q42055}} <!--Santa Maria-->  ▪  {{wikidata|label|linked|Q43140}} <!--Santo Tomas-->  ▪  {{wikidata|label|linked|Q43143}} <!--Sison-->  ▪  {{wikidata|label|linked|Q43145}} <!--Sual-->  ▪  {{wikidata|label|linked|Q43148}} <!--Tayug-->  ▪  {{wikidata|label|linked|Q43152}} <!--Umingan-->  ▪  {{wikidata|label|linked|Q43154}} <!--Urbiztondo--> ▪  {{wikidata|label|linked|Q43157}} <!--Villasis-->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q43162}} <!--Alaminos -->  ▪  {{wikidata|label|linked|Q43165}} <!--San Carlos, Pangasinan -->
+ ▪  {{wikidata|label|linked|Q43168}} <!--Urdaneta --> 
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning <br> Lakanbalen]]
+|list3 = {{wikidata|label|linked|Q875070}} <!--Dagupan-->
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4 =
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Pangasinan‎]]
+</noinclude>
