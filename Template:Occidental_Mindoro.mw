@@ -1,8 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Balen]] ning [[Occidental Mindoro|Occidental Mindoro]]'''
-|-
-|style="padding:0px 5px"; align="center"| [[Abra de Ilog, Occidental Mindoro|Abra de Ilog]] | [[Calintaan, Occidental Mindoro|Calintaan]] | [[Looc, Occidental Mindoro|Looc]] | [[Lubang, Occidental Mindoro|Lubang]] | [[Magsaysay, Occidental Mindoro|Magsaysay]] | [[Mamburao, Occidental Mindoro|Mamburao]] | [[Paluan, Occidental Mindoro|Paluan]] | [[Rizal, Occidental Mindoro|Rizal]] | [[Sablayan, Occidental Mindoro|Sablayan]] | [[San Jose, Occidental Mindoro|San Jose]] | [[Santa Cruz, Occidental Mindoro|Santa Cruz]] 
-|}
-</div>
+{{Navbox
+|name = Occidental Mindoro
+|title = {{flagicon image|Occ._Mindoro_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13867}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13867|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q107454}} <!-- Abra de Ilog -->  ▪  {{wikidata|label|linked|Q107460}} <!-- Calintaan -->  ▪  {{wikidata|label|linked|Q107465}} <!-- Looc -->  ▪  {{wikidata|label|linked|Q107476}} <!-- Lubang -->  ▪  {{wikidata|label|linked|Q107482}} <!-- Magsaysay -->  ▪  {{wikidata|label|linked|Q107488}} <!-- Mamburao  -->  ▪  {{wikidata|label|linked|Q107493}} <!-- Paluan -->  ▪  {{wikidata|label|linked|Q107499}} <!-- Rizal -->  ▪  {{wikidata|label|linked|Q107505}} <!-- Sablayan -->  ▪  {{wikidata|label|linked|Q107511}} <!-- San Jose -->  ▪  {{wikidata|label|linked|Q107519}} <!-- Santa Cruz -->
+|group2 = [[Lakanbalen]]
+|list2 =
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Mindoro Occidental]]
+</noinclude>
