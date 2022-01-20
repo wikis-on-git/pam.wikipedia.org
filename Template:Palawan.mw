@@ -1,12 +1,21 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Palawan|Palawan]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Puerto Princesa Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Aborlan, Palawan|Aborlan]] | [[Agutaya, Palawan|Agutaya]] | [[Araceli, Palawan|Araceli]] | [[Balabac, Palawan|Balabac]] | [[Bataraza, Palawan|Bataraza]] | [[Brooke's Point, Palawan|Brooke's Point]] | [[Busuanga, Palawan|Busuanga]] | [[Cagayancillo, Palawan|Cagayancillo]] | [[Coron, Palawan|Coron]] | [[Culion, Palawan|Culion]] | [[Cuyo, Palawan|Cuyo]] | [[Dumaran, Palawan|Dumaran]] | [[El Nido, Palawan|El Nido]] | [[Kalayaan, Palawan|Kalayaan]] | [[Linapacan, Palawan|Linapacan]] | [[Magsaysay, Palawan|Magsaysay]] | [[Narra, Palawan|Narra]] | [[Quezon, Palawan|Quezon]] | [[Rizal, Palawan|Rizal]] | [[Roxas, Palawan|Roxas]] | [[San Vicente, Palawan|San Vicente]] | [[Sofronio Española, Palawan|Sofronio Española]] | [[Taytay, Palawan|Taytay]] 
-|}
-</div>
+{{Navbox
+|name = Palawan
+|title = {{flagicon image|Palawan_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13869}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13869|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q111338}} <!-- Aborlan -->  ▪  {{wikidata|label|linked|Q111351}} <!-- Agutaya -->  ▪  {{wikidata|label|linked|Q111360}} <!-- Araceli -->  ▪  {{wikidata|label|linked|Q111372}} <!-- Balabac -->  ▪  {{wikidata|label|linked|Q111378}} <!-- Bataraza -->  ▪  {{wikidata|label|linked|Q111386}} <!-- Brooke's Point -->  ▪  {{wikidata|label|linked|Q111393}} <!-- Busuanga -->  ▪  {{wikidata|label|linked|Q111402}} <!-- Cagayancillo -->  ▪  {{wikidata|label|linked|Q111414}} <!-- Coron -->  ▪  {{wikidata|label|linked|Q111427}} <!-- Culion -->  ▪  {{wikidata|label|linked|Q111438}} <!-- Cuyo -->  ▪  {{wikidata|label|linked|Q111468}} <!-- Dumaran -->  ▪  {{wikidata|label|linked|Q111483}} <!-- El Nido -->  ▪  {{wikidata|label|linked|Q111495}} <!-- Kalayaan -->  ▪  {{wikidata|label|linked|Q111506}} <!-- Linapacan -->  ▪  {{wikidata|label|linked|Q111521}} <!-- Magsaysay -->  ▪  {{wikidata|label|linked|Q111535}} <!-- Narra -->  ▪  {{wikidata|label|linked|Q111662}} <!-- Quezon -->  ▪  {{wikidata|label|linked|Q111677}} <!-- Rizal -->
+ ▪  {{wikidata|label|linked|Q111689}} <!-- Roxas -->  ▪  {{wikidata|label|linked|Q111707}} <!-- San Vicente -->  ▪  {{wikidata|label|linked|Q111719}} <!-- Sofronio Española -->  ▪  {{wikidata|label|linked|Q111730}} <!-- Taytay -->
+|group2 = [[Lakanbalen]]
+|list2 =
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4 =  {{wikidata|label|linked|Q111739}} <!--Puerto Princesa--> 
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Palawan‎]]
+</noinclude>
