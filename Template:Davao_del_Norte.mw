@@ -1,12 +1,21 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Davao del Norte]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Island Garden Lakanbalen  ning Samal]] | [[Panabo Lakanbalen]] | [[Tagum Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Asuncion, Davao del Norte|Asuncion]] | [[Braulio E. Dujali, Davao del Norte|Braulio E. Dujali]] | [[Carmen, Davao del Norte|Carmen]] | [[Kapalong, Davao del Norte|Kapalong]] | [[New Corella, Davao del Norte|New Corella]] | [[San Isidro, Davao del Norte|San Isidro]] | [[Santo Tomas, Davao del Norte|Santo Tomas]] | [[Talaingod, Davao del Norte|Talaingod]] 
-|}
-</div>
+{{Navbox
+|name = Davao del Norte
+|title = {{flagicon image|PH-DAV_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13792}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13792|P36}}'''  (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q314393}} <!-- Asuncion -->  ▪  {{wikidata|label|linked|Q314410}} <!-- Braulio E. Dujali -->  ▪  {{wikidata|label|linked|Q314422}} <!-- Carmen -->  ▪  {{wikidata|label|linked|Q314438}} <!-- Kapalong -->  ▪  {{wikidata|label|linked|Q314452}} <!-- New Corella -->  ▪  {{wikidata|label|linked|Q314468}} <!-- San Isidro -->  ▪  {{wikidata|label|linked|Q314486}} <!-- Santo Tomas -->  ▪  {{wikidata|label|linked|Q314501}} <!-- Talaingod -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q967367}} <!--Panabo -->  ▪  {{wikidata|label|linked|Q1020674}} <!--Samal, Davao del Norte|Samal -->
+ ▪  {{wikidata|label|linked|Q725168}} <!--Tagum -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Davao del Norte‎]]
+</noinclude>
