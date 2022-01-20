@@ -1,12 +1,21 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[La Union|La Union]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Syudad:''' 
-|style="padding:0px 5px" | [[San Fernando Lakanbalen, La Union|San Fernando Lakanbalen]]
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Agoo, La Union|Agoo]] | [[Aringay, La Union|Aringay]] | [[Bacnotan, La Union|Bacnotan]] | [[Bagulin, La Union|Bagulin]] | [[Balaoan, La Union|Balaoan]] | [[Bangar, La Union|Bangar]] | [[Bauang, La Union|Bauang]] | [[Burgos, La Union|Burgos]] | [[Caba, La Union|Caba]] | [[Luna, La Union|Luna]] | [[Naguilian, La Union|Naguilian]] | [[Pugo, La Union|Pugo]] | [[Rosario, La Union|Rosario]] | [[San Gabriel, La Union|San Gabriel]] | [[San Juan, La Union|San Juan]] | [[Santo Tomas, La Union|Santo Tomas]] | [[Santol, La Union|Santol]] | [[Sudipen, La Union|Sudipen]] | [[Tubao, La Union|Tubao]]
-|}
-</div>
+{{Navbox
+|name = La Union
+|title = {{flagicon image|PH-LUN_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13829}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13829|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q40168}} <!-- Agoo -->  ▪  {{wikidata|label|linked|Q40239}} <!-- Aringay -->  ▪  {{wikidata|label|linked|Q40259}} <!-- Bacnotan -->  ▪  {{wikidata|label|linked|Q40275}} <!-- Bagulin -->  ▪  {{wikidata|label|linked|Q40282}} <!-- Balaoan -->
+ ▪  {{wikidata|label|linked|Q40298}} <!-- Bangar -->  ▪  {{wikidata|label|linked|Q40313}} <!-- Bauang -->  ▪  {{wikidata|label|linked|Q40372}} <!-- Burgos -->  ▪  {{wikidata|label|linked|Q40393}} <!-- Caba -->  ▪  {{wikidata|label|linked|Q40419}} <!-- Luna -->  ▪  {{wikidata|label|linked|Q40450}} <!-- Naguilian -->  ▪  {{wikidata|label|linked|Q40466}} <!-- Pugo -->  ▪  {{wikidata|label|linked|Q40486}} <!-- Rosario -->  ▪  {{wikidata|label|linked|Q40500}} <!-- San Gabriel -->  ▪  {{wikidata|label|linked|Q40517}} <!-- San Juan -->  ▪  {{wikidata|label|linked|Q40521}} <!-- Santo Tomas -->  ▪  {{wikidata|label|linked|Q40536}} <!-- Santol -->  ▪  {{wikidata|label|linked|Q40557}} <!-- Sudipen --> ▪  {{wikidata|label|linked|Q40562}} <!-- Tubao -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q40584}} <!--San Fernando, La Union -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|La Union‎]]
+</noinclude>
