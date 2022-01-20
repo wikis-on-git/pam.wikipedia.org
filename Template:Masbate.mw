@@ -1,12 +1,21 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Masbate]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Masbate Lakanbalen|Masbate]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Aroroy, Masbate|Aroroy]] | [[Baleno, Masbate|Baleno]] | [[Balud, Masbate|Balud]] | [[Batuan, Masbate|Batuan]] | [[Cataingan, Masbate|Cataingan]] | [[Cawayan, Masbate|Cawayan]] | [[Claveria, Masbate|Claveria]] | [[Dimasalang, Masbate|Dimasalang]] | [[Esperanza, Masbate|Esperanza]] | [[Mandaon, Masbate|Mandaon]] | [[Milagros, Masbate|Milagros]] | [[Mobo, Masbate|Mobo]] | [[Monreal, Masbate|Monreal]] | [[Palanas, Masbate|Palanas]] | [[Pio V. Corpuz, Masbate|Pio V. Corpuz]] | [[Placer, Masbate|Placer]] | [[San Fernando, Masbate|San Fernando]] | [[San Jacinto, Masbate|San Jacinto]] | [[San Pascual, Masbate|San Pascual]] | [[Uson, Masbate|Uson]] 
-|}
-</div>
+{{Navbox
+|name = Masbate
+|title =  {{flagicon image|PH-MAS_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13847}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13847|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q191416}} <!-- Aroroy -->  ▪  {{wikidata|label|linked|Q191438}} <!-- Baleno -->  ▪  {{wikidata|label|linked|Q191453}} <!-- Balud -->  ▪  {{wikidata|label|linked|Q191463}} <!-- Batuan -->  ▪  {{wikidata|label|linked|Q191478}} <!-- Cataingan -->  ▪  {{wikidata|label|linked|Q191482}} <!-- Cawayan -->  ▪  {{wikidata|label|linked|Q191490}} <!-- Claveria -->  ▪  {{wikidata|label|linked|Q191496}} <!-- Dimasalang -->  ▪  {{wikidata|label|linked|Q191501}} <!-- Esperanza -->  ▪  {{wikidata|label|linked|Q191512}} <!-- Mandaon -->  ▪  {{wikidata|label|linked|Q191522}} <!-- Milagros -->  ▪  {{wikidata|label|linked|Q191533}} <!-- Mobo -->
+ ▪  {{wikidata|label|linked|Q191544}} <!-- Monreal -->  ▪  {{wikidata|label|linked|Q191558}} <!-- Palanas -->  ▪  {{wikidata|label|linked|Q191581}} <!-- Pio V. Corpuz -->  ▪  {{wikidata|label|linked|Q191590}} <!-- Placer -->  ▪  {{wikidata|label|linked|Q191606}} <!-- San Fernando -->  ▪  {{wikidata|label|linked|Q191621}} <!-- San Jacinto -->  ▪  {{wikidata|label|linked|Q191630}} <!-- San Pascual -->  ▪  {{wikidata|label|linked|Q191636}} <!-- Uson -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q191651}} <!--Masbate City -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Masbate‎]]
+</noinclude>
