@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Balen]] at [[Ding Lakanbalen ning Filipinas|Lakanbalen]] ning [[South Cotabato|South Cotabato]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Koronadal Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Banga, South Cotabato|Banga]] | [[Lake Sebu, South Cotabato|Lake Sebu]] | [[Norala, South Cotabato|Norala]] | [[Polomolok, South Cotabato|Polomolok]] | [[Santo Niño, South Cotabato|Santo Niño]] | [[Surallah, South Cotabato|Surallah]] | [[T'Boli, South Cotabato|T'Boli]] | [[Tampakan, South Cotabato|Tampakan]] | [[Tantangan, South Cotabato|Tantangan]] | [[Tupi, South Cotabato|Tupi]] 
-|}
-</div>
+{{Navbox
+|name = South Cotabato
+|title = {{flagicon image|South Cotabato Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13882}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13882|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q173870}} <!-- Banga -->  ▪  {{wikidata|label|linked|Q173898}} <!-- Lake Sebu -->  ▪  {{wikidata|label|linked|Q173922}} <!-- Norala -->  ▪  {{wikidata|label|linked|Q173944}} <!-- Polomolok -->  ▪  {{wikidata|label|linked|Q173965}} <!-- Santo Niño -->  ▪  {{wikidata|label|linked|Q173986}} <!-- Surallah -->  ▪  {{wikidata|label|linked|Q174018}} <!-- Tampakan -->  ▪  {{wikidata|label|linked|Q174039}} <!-- Tantangan -->  ▪  {{wikidata|label|linked|Q174003}} <!-- T'boli -->  ▪  {{wikidata|label|linked|Q174055}} <!-- Tupi -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q542154}} <!--Koronadal -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4 =  {{wikidata|label|linked|Q594275}} <!--General Santos-->
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Cotabato‎ South]]
+</noinclude>
