@@ -1,12 +1,21 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Oriental Mindoro]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Calapan Lakanbalen|Calapan]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Baco, Oriental Mindoro|Baco]] | [[Bansud, Oriental Mindoro|Bansud]] | [[Bongabong, Oriental Mindoro|Bongabong]] | [[Bulalacao, Oriental Mindoro|Bulalacao]] | [[Gloria, Oriental Mindoro|Gloria]] | [[Mansalay, Oriental Mindoro|Mansalay]] | [[Naujan, Oriental Mindoro|Naujan]] | [[Pinamalayan, Oriental Mindoro|Pinamalayan]] | [[Pola, Oriental Mindoro|Pola]] | [[Puerto Galera, Oriental Mindoro|Puerto Galera]] | [[Roxas, Oriental Mindoro|Roxas]] | [[San Teodoro, Oriental Mindoro|San Teodoro]] | [[Socorro, Oriental Mindoro|Socorro]] | [[Victoria, Oriental Mindoro|Victoria]] 
-|}
-</div>
+{{Navbox
+|name = Oriental Mindoro
+|title = {{flagicon image|Orien. Mindoro Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13868}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13868|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q107538}} <!-- Baco -->  ▪  {{wikidata|label|linked|Q107543}} <!-- Bansud -->  ▪  {{wikidata|label|linked|Q107550}} <!-- Bongabong -->  ▪  {{wikidata|label|linked|Q107554}} <!-- Bulalacao -->  ▪  {{wikidata|label|linked|Q107559}} <!-- Gloria -->  ▪  {{wikidata|label|linked|Q107567}} <!-- Mansalay -->  ▪  {{wikidata|label|linked|Q107573}} <!-- Naujan -->  ▪  {{wikidata|label|linked|Q107578}} <!-- Pinamalayan -->  ▪  {{wikidata|label|linked|Q107585}} <!-- Pola -->  ▪  {{wikidata|label|linked|Q107593}} <!-- Puerto Galera -->  ▪  {{wikidata|label|linked|Q107598}} <!-- Roxas -->  ▪  {{wikidata|label|linked|Q107606}} <!-- San Teodoro -->
+ ▪  {{wikidata|label|linked|Q107612}} <!-- Socorro -->  ▪  {{wikidata|label|linked|Q107618}} <!-- Victoria -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q107624}} <!--Calapan -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Mindoro Oriental‎]]
+</noinclude>
