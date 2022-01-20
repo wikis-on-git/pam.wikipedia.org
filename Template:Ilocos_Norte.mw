@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Ilocos Norte|Ilocos Norte]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Laoag Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Adams, Ilocos Norte|Adams]] | [[Bacarra, Ilocos Norte|Bacarra]] | [[Badoc, Ilocos Norte|Badoc]] | [[Bangui, Ilocos Norte|Bangui]] | [[Banna, Ilocos Norte|Banna]] | [[Batac, Ilocos Norte|Batac]] | [[Burgos, Ilocos Norte|Burgos]] | [[Carasi, Ilocos Norte|Carasi]] | [[Currimao, Ilocos Norte|Currimao]] | [[Dingras, Ilocos Norte|Dingras]] | [[Dumalneg, Ilocos Norte|Dumalneg]] | [[Marcos, Ilocos Norte|Marcos]] | [[Nueva Era, Ilocos Norte|Nueva Era]] | [[Pagudpud, Ilocos Norte|Pagudpud]] | [[Paoay, Ilocos Norte|Paoay]] | [[Pasuquin, Ilocos Norte|Pasuquin]] | [[Piddig, Ilocos Norte|Piddig]] | [[Pinili, Ilocos Norte|Pinili]] | [[San Nicolas, Ilocos Norte|San Nicolas]] | [[Sarrat, Ilocos Norte|Sarrat]] | [[Solsona, Ilocos Norte|Solsona]] | [[Vintar, Ilocos Norte|Vintar]] 
-|}
-</div>
+{{Navbox
+|name = Ilocos Norte
+|title = {{flagicon image|Ph Flag of Ilocos Norte.png}} Lalawigan ning {{wikidata|label|linked|Q13813}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13813|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q39241}} <!-- Adams -->  ▪  {{wikidata|label|linked|Q39271}} <!-- Bacarra -->  ▪  {{wikidata|label|linked|Q39303}} <!-- Badoc -->  ▪  {{wikidata|label|linked|Q39326}} <!-- Bangui -->  ▪  {{wikidata|label|linked|Q39346}} <!-- Banna -->  ▪  {{wikidata|label|linked|Q39368}} <!-- Burgos -->  ▪  {{wikidata|label|linked|Q39393}} <!-- Carasi -->  ▪  {{wikidata|label|linked|Q39416}} <!-- Currimao -->  ▪  {{wikidata|label|linked|Q39429}} <!-- Dingras -->  ▪  {{wikidata|label|linked|Q39511}} <!-- Dumalneg --> ▪  {{wikidata|label|linked|Q39523}} <!-- Marcos -->  ▪  {{wikidata|label|linked|Q39540}} <!-- Nueva Era -->  ▪  {{wikidata|label|linked|Q39559}} <!-- Pagudpud -->  ▪  {{wikidata|label|linked|Q39573}} <!-- Paoay -->  ▪  {{wikidata|label|linked|Q39591}} <!-- Pasuquin -->  ▪  {{wikidata|label|linked|Q39616}} <!-- Piddig -->  ▪  {{wikidata|label|linked|Q39629}} <!-- Pinili -->  ▪  {{wikidata|label|linked|Q39653}} <!-- San Nicolas -->  ▪  {{wikidata|label|linked|Q39673}} <!-- Sarrat -->  ▪  {{wikidata|label|linked|Q39677}} <!-- Solsona -->  ▪  {{wikidata|label|linked|Q39694}} <!-- Vintar -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q39711}} <!--Batac -->  ▪  {{wikidata|label|linked|Q39738}} <!--Laoag -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Ilocos Norte‎]]
+</noinclude>
