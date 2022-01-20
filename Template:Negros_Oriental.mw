@@ -1,13 +1,22 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-| rowspan="4" | [[File:Ph seal negros oriental.png|75px|Provincial seal of Negros Oriental]]
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at  [[Ding Balen ning Filipinas|Balen]] ning [[Negros Oriental]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Bais Lakanbalen|Bais]] | [[Bayawan Lakanbalen|Bayawan]] | [[Canlaon Lakanbalen|Canlaon]] | [[Dumaguete Lakanbalen|Dumaguete]] | [[Tanjay Lakanbalen|Tanjay]]
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Amlan, Negros Oriental|Amlan]] | [[Ayungon, Negros Oriental|Ayungon]] | [[Bacong, Negros Oriental|Bacong]] | [[Basay, Negros Oriental|Basay]] | [[Bindoy, Negros Oriental|Bindoy]] | [[Dauin, Negros Oriental|Dauin]] | [[Guihulngan, Negros Oriental|Guihulngan]] | [[Jimalalud, Negros Oriental|Jimalalud]] | [[La Libertad, Negros Oriental|La Libertad]] | [[Mabinay, Negros Oriental|Mabinay]] | [[Manjuyod, Negros Oriental|Manjuyod]] | [[Pamplona, Negros Oriental|Pamplona]] | [[San Jose, Negros Oriental|San Jose]] | [[Santa Catalina, Negros Oriental|Santa Catalina]] | [[Siaton, Negros Oriental|Siaton]] | [[Sibulan, Negros Oriental|Sibulan]] | [[Tayasan, Negros Oriental|Tayasan]] | [[Valencia, Negros Oriental|Valencia]] | [[Vallehermoso, Negros Oriental|Vallehermoso]] | [[Zamboanguita, Negros Oriental|Zamboanguita]]
-|}
-</div>
+{{Navbox
+|name = Negros Oriental
+|title = {{flagicon image|PH-NER_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13863}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13863|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q194822}} <!-- Amlan -->  ▪  {{wikidata|label|linked|Q194854}} <!-- Ayungon -->  ▪  {{wikidata|label|linked|Q194874}} <!-- Bacong -->  ▪  {{wikidata|label|linked|Q194900}} <!-- Basay -->  ▪  {{wikidata|label|linked|Q194916}} <!-- Bindoy -->  ▪  {{wikidata|label|linked|Q194940}} <!-- Dauin -->  ▪  {{wikidata|label|linked|Q194967}} <!-- Jimalalud -->  ▪  {{wikidata|label|linked|Q194983}} <!-- La Libertad -->  ▪  {{wikidata|label|linked|Q195004}} <!-- Mabinay -->  ▪  {{wikidata|label|linked|Q195018}} <!-- Manjuyod -->  ▪  {{wikidata|label|linked|Q195040}} <!-- Pamplona -->  ▪  {{wikidata|label|linked|Q195056}} <!-- San Jose -->
+ ▪  {{wikidata|label|linked|Q195074}} <!-- Santa Catalina -->  ▪  {{wikidata|label|linked|Q195090}} <!-- Siaton -->  ▪  {{wikidata|label|linked|Q195106}} <!-- Sibulan -->  ▪  {{wikidata|label|linked|Q195121}} <!-- Tayasan -->  ▪  {{wikidata|label|linked|Q195140}} <!-- Valencia -->  ▪  {{wikidata|label|linked|Q195164}} <!-- Vallehermoso -->  ▪  {{wikidata|label|linked|Q145673}} <!-- Zamboanguita -->
+|group2 = [[Lakanbalen]]
+|list2 =
+{{wikidata|label|linked|Q628590}} <!--Bais -->  ▪  {{wikidata|label|linked|Q812113}} <!--Bayawan -->  ▪  {{wikidata|label|linked|Q991602}} <!--Canlaon -->  ▪  {{wikidata|label|linked|Q873377}} <!--Dumaguete -->  ▪  {{wikidata|label|linked|Q195197}} <!--Guihulngan --> ▪  {{wikidata|label|linked|Q1020705}} <!--Tanjay -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Negros Oriental]]
+</noinclude>
