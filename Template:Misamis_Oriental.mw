@@ -1,12 +1,22 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Misamis Oriental |Misamis Oriental]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Cagayan de Oro Lakanbalen]] | [[Gingoog Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Alubijid, Misamis Oriental|Alubijid]] | [[Balingasag, Misamis Oriental|Balingasag]] | [[Balingoan, Misamis Oriental|Balingoan]] | [[Binuangan, Misamis Oriental|Binuangan]] | [[Claveria, Misamis Oriental|Claveria]] | [[El Salvador, Misamis Oriental|El Salvador]] | [[Gitagum, Misamis Oriental|Gitagum]] | [[Initao, Misamis Oriental|Initao]] | [[Jasaan, Misamis Oriental|Jasaan]] | [[Kinoguitan, Misamis Oriental|Kinoguitan]] | [[Lagonglong, Misamis Oriental|Lagonglong]] | [[Laguindingan, Misamis Oriental|Laguindingan]] | [[Libertad, Misamis Oriental|Libertad]] | [[Lugait, Misamis Oriental|Lugait]] | [[Magsaysay, Misamis Oriental|Magsaysay]] | [[Manticao, Misamis Oriental|Manticao]] | [[Medina, Misamis Oriental|Medina]] | [[Naawan, Misamis Oriental|Naawan]] | [[Opol, Misamis Oriental|Opol]] | [[Salay, Misamis Oriental|Salay]] | [[Sugbongcogon, Misamis Oriental|Sugbongcogon]] | [[Tagoloan, Misamis Oriental|Tagoloan]] | [[Talisayan, Misamis Oriental|Talisayan]] | [[Villanueva, Misamis Oriental|Villanueva]] 
-|}
-</div>
+{{Navbox
+|name = Misamis Oriental
+|title = {{flagicon image|PH-MSR_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13860}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13860|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q195623}} <!-- Alubijid -->  ▪  {{wikidata|label|linked|Q195637}} <!-- Balingasag -->  ▪  {{wikidata|label|linked|Q195650}} <!-- Balingoan -->  ▪  {{wikidata|label|linked|Q195663}} <!-- Binuangan -->  ▪  {{wikidata|label|linked|Q195676}} <!-- Claveria -->  ▪  {{wikidata|label|linked|Q195696}} <!-- Gitagum -->  ▪  {{wikidata|label|linked|Q195709}} <!-- Initao -->  ▪  {{wikidata|label|linked|Q195717}} <!-- Jasaan -->  ▪  {{wikidata|label|linked|Q195726}} <!-- Kinoguitan -->  ▪  {{wikidata|label|linked|Q195740}} <!-- Lagonglong -->  ▪  {{wikidata|label|linked|Q195755}} <!-- Laguindingan -->  ▪  {{wikidata|label|linked|Q195767}} <!-- Libertad -->  ▪  {{wikidata|label|linked|Q195780}} <!-- Lugait -->  ▪  {{wikidata|label|linked|Q195799}} <!-- Magsaysay -->  ▪  {{wikidata|label|linked|Q195815}} <!-- Manticao -->  ▪  {{wikidata|label|linked|Q195834}} <!-- Medina -->  ▪  {{wikidata|label|linked|Q195855}} <!-- Naawan -->  ▪  {{wikidata|label|linked|Q195870}} <!-- Opol -->  ▪  {{wikidata|label|linked|Q195883}} <!-- Salay -->  ▪  {{wikidata|label|linked|Q195899}} <!-- Sugbongcogon -->  ▪  {{wikidata|label|linked|Q1026274}} <!-- Tagoloan -->  ▪  {{wikidata|label|linked|Q195917}} <!-- Talisayan -->  ▪  {{wikidata|label|linked|Q195937}} <!-- Villanueva --> 
+|group2 = [[Lakanbalen]]
+|list2 =
+{{wikidata|label|linked|Q195686}} <!--El Salvador -->  ▪  {{wikidata|label|linked|Q1525029}} <!--Gingoog -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+{{wikidata|label|linked|Q1645}} <!--Cagayan de Oro-->
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Misamis Oriental‎]]
+</noinclude>
