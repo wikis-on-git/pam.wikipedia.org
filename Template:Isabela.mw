@@ -1,12 +1,22 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] and [[Ding Balen ning Filipinas|Balen]] ning [[Isabela|Isabela]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Syudad:''' 
-|style="padding:0px 5px" | [[Cauayan Lakanbalen]] | [[Santiago Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Alicia, Isabela|Alicia]] | [[Angadanan, Isabela|Angadanan]] | [[Aurora, Isabela|Aurora]] | [[Benito Soliven, Isabela|Benito Soliven]] | [[Burgos, Isabela|Burgos]] | [[Cabagan, Isabela|Cabagan]] | [[Cabatuan, Isabela|Cabatuan]] | [[Cordon, Isabela|Cordon]] | [[Delfin Albano, Isabela|Delfin Albano]] | [[Dinapigue, Isabela|Dinapigue]] | [[Divilacan, Isabela|Divilacan]] | [[Echague, Isabela|Echague]] | [[Gamu, Isabela|Gamu]] | [[Ilagan, Isabela|Ilagan]] | [[Jones, Isabela|Jones]] | [[Luna, Isabela|Luna]] | [[Maconacon, Isabela|Maconacon]] | [[Mallig, Isabela|Mallig]] | [[Naguilian, Isabela|Naguilian]] | [[Palanan, Isabela|Palanan]] | [[Quezon, Isabela|Quezon]] | [[Quirino, Isabela|Quirino]] | [[Ramon, Isabela|Ramon]] | [[Reina Mercedes, Isabela|Reina Mercedes]] | [[Roxas, Isabela|Roxas]] | [[San Agustin, Isabela|San Agustin]] | [[San Guillermo, Isabela|San Guillermo]] | [[San Isidro, Isabela|San Isidro]] | [[San Manuel, Isabela|San Manuel]] | [[San Mariano, Isabela|San Mariano]] | [[San Mateo, Isabela|San Mateo]] | [[San Pablo, Isabela|San Pablo]] | [[Santa Maria, Isabela|Santa Maria]] | [[Santo Tomas, Isabela|Santo Tomas]] | [[Tumauini, Isabela|Tumauini]] 
-|}
-</div>
+{{Navbox
+|name = Isabela
+|title = {{flagicon image|PH-ISA_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13826}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13826|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q49354}} <!-- Alicia -->  ▪  {{wikidata|label|linked|Q49357}} <!-- Angadanan -->  ▪  {{wikidata|label|linked|Q49358}} <!-- Aurora -->  ▪  {{wikidata|label|linked|Q49359}} <!-- Benito Soliven -->  ▪  {{wikidata|label|linked|Q49360}} <!-- Burgos -->  ▪  {{wikidata|label|linked|Q49361}} <!-- Cabagan -->  ▪  {{wikidata|label|linked|Q49362}} <!-- Cabatuan -->  ▪  {{wikidata|label|linked|Q49363}} <!-- Cordon -->  ▪  {{wikidata|label|linked|Q49365}} <!-- Delfin Albano -->  ▪  {{wikidata|label|linked|Q49366}} <!-- Dinapigue -->  ▪  {{wikidata|label|linked|Q49368}} <!-- Divilacan -->  ▪  {{wikidata|label|linked|Q49369}} <!-- Echague -->  ▪  {{wikidata|label|linked|Q49370}} <!-- Gamu -->  ▪  {{wikidata|label|linked|Q49372}} <!-- Jones -->  ▪  {{wikidata|label|linked|Q49375}} <!-- Luna -->  ▪  {{wikidata|label|linked|Q49434}} <!-- Maconacon -->  ▪  {{wikidata|label|linked|Q49435}} <!-- Mallig -->  ▪  {{wikidata|label|linked|Q50066}} <!-- Naguilian -->  ▪  {{wikidata|label|linked|Q50102}} <!-- Palanan -->  ▪  {{wikidata|label|linked|Q50145}} <!-- Quezon -->  ▪  {{wikidata|label|linked|Q50149}} <!-- Quirino -->  ▪  {{wikidata|label|linked|Q50152}} <!-- Ramon -->  ▪  {{wikidata|label|linked|Q50153}} <!-- Reina Mercedes -->  ▪  {{wikidata|label|linked|Q50154}} <!-- Roxas -->  ▪  {{wikidata|label|linked|Q50158}} <!-- San Agustin -->  ▪  {{wikidata|label|linked|Q50160}} <!-- San Guillermo -->  ▪  {{wikidata|label|linked|Q50163}} <!-- San Isidro -->  ▪  {{wikidata|label|linked|Q50164}} <!-- San Manuel -->  ▪  {{wikidata|label|linked|Q50167}} <!-- San Mariano -->
+ ▪  {{wikidata|label|linked|Q50171}} <!-- San Mateo -->  ▪  {{wikidata|label|linked|Q50174}} <!-- San Pablo -->  ▪  {{wikidata|label|linked|Q50175}} <!-- Santa Maria -->  ▪  {{wikidata|label|linked|Q50176}} <!-- Santo Tomas -->  ▪  {{wikidata|label|linked|Q50177}} <!-- Tumauini -->
+|group2 = [[Lakanbalen]]
+|list2 = 
+{{wikidata|label|linked|Q50178}} <!--Cauayan -->  ▪  {{wikidata|label|linked|Q50179}} <!--Ilagan -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =  {{wikidata|label|linked|Q50180}} <!--Santiago-->  
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Abra‎]]
+</noinclude>
