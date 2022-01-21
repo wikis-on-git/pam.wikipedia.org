@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Balen]] at [[Ding Lakanbalen ning Filipinas|Lakanbalen]] ning [[Surigao del Norte|Surigao del Norte]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Surigao Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Alegria, Surigao del Norte|Alegria]] | [[Bacuag, Surigao del Norte|Bacuag]] | [[Burgos, Surigao del Norte|Burgos]] | [[Claver, Surigao del Norte|Claver]] | [[Dapa, Surigao del Norte|Dapa]] | [[Del Carmen, Surigao del Norte|Del Carmen]] | [[General Luna, Surigao del Norte|General Luna]] | [[Gigaquit, Surigao del Norte|Gigaquit]] | [[Mainit, Surigao del Norte|Mainit]] | [[Malimono, Surigao del Norte|Malimono]] | [[Pilar, Surigao del Norte|Pilar]] | [[Placer, Surigao del Norte|Placer]] | [[San Benito, Surigao del Norte|San Benito]] | [[San Francisco, Surigao del Norte|San Francisco]] | [[San Isidro, Surigao del Norte|San Isidro]] | [[Santa Monica, Surigao del Norte|Santa Monica]] | [[Sison, Surigao del Norte|Sison]] | [[Socorro, Surigao del Norte|Socorro]] | [[Tagana-an, Surigao del Norte|Tagana-an]] | [[Tubod, Surigao del Norte|Tubod]] 
-|}
-</div>
+{{Navbox
+|name = Surigao del Norte
+|title = {{flagicon image|Surigao del Norte Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13889}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13889|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q155706}} <!-- Alegria -->  ▪  {{wikidata|label|linked|Q155720}} <!-- Bacuag -->  ▪  {{wikidata|label|linked|Q155735}} <!-- Burgos -->  ▪  {{wikidata|label|linked|Q155748}} <!-- Claver -->  ▪  {{wikidata|label|linked|Q155763}} <!-- Dapa -->  ▪  {{wikidata|label|linked|Q28735}} <!-- Del Carmen -->  ▪  {{wikidata|label|linked|Q155784}} <!-- General Luna -->  ▪  {{wikidata|label|linked|Q155795}} <!-- Gigaquit -->  ▪  {{wikidata|label|linked|Q155808}} <!-- Mainit -->  ▪  {{wikidata|label|linked|Q155819}} <!-- Malimono -->  ▪  {{wikidata|label|linked|Q155830}} <!-- Pilar -->  ▪  {{wikidata|label|linked|Q155839}} <!-- Placer -->  ▪  {{wikidata|label|linked|Q155849}} <!-- San Benito -->  ▪  {{wikidata|label|linked|Q155864}} <!-- San Francisco  -->  ▪  {{wikidata|label|linked|Q155876}} <!-- San Isidro -->  ▪  {{wikidata|label|linked|Q28958}} <!-- Santa Monica  -->  ▪  {{wikidata|label|linked|Q155905}} <!-- Sison -->  ▪  {{wikidata|label|linked|Q155917}} <!-- Socorro -->  ▪  {{wikidata|label|linked|Q155934}} <!-- Tagana-an -->  ▪  {{wikidata|label|linked|Q155946}} <!-- Tubod -->
+|group2 = [[Lakanbalen]]
+|list2 = {{wikidata|label|linked|Q1019949}} <!--Surigao City -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Abra‎]]
+</noinclude>
