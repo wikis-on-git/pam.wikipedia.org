@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Balen]] at [[Ding Lakanbalen ning Filipinas|Lakanbalen]] ning [[Sultan Kudarat|Sultan Kudarat]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Tacurong Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Bagumbayan, Sultan Kudarat|Bagumbayan]] | [[Columbio, Sultan Kudarat|Columbio]] | [[Esperanza, Sultan Kudarat|Esperanza]] | [[Isulan, Sultan Kudarat|Isulan]] | [[Kalamansig, Sultan Kudarat|Kalamansig]] | [[Lambayong, Sultan Kudarat|Lambayong]] | [[Lebak, Sultan Kudarat|Lebak]] | [[Lutayan, Sultan Kudarat|Lutayan]] | [[Palimbang, Sultan Kudarat|Palimbang]] | [[President Quirino, Sultan Kudarat|President Quirino]] | [[Sen. Ninoy Aquino, Sultan Kudarat|Sen. Ninoy Aquino]] 
-|}
-</div>
+{{Navbox
+|name = Sultan Kudarat
+|title = {{flagicon image|Sultan_Kudarat_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13885}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13885|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q173393}} <!-- Bagumbayan -->  ▪  {{wikidata|label|linked|Q173404}} <!-- Columbio -->  ▪  {{wikidata|label|linked|Q173414}} <!-- Esperanza -->  ▪  {{wikidata|label|linked|Q173428}} <!-- Isulan -->  ▪  {{wikidata|label|linked|Q173438}} <!-- Kalamansig -->  ▪  {{wikidata|label|linked|Q173449}} <!-- Lambayong -->  ▪  {{wikidata|label|linked|Q173460}} <!-- Lebak -->  ▪  {{wikidata|label|linked|Q173468}} <!-- Lutayan -->  ▪  {{wikidata|label|linked|Q173479}} <!-- Palimbang -->  ▪  {{wikidata|label|linked|Q137813}} <!-- President Quirino -->  ▪  {{wikidata|label|linked|Q173556}} <!-- Senator Ninoy Aquino -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q173575}} <!--Tacurong -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Sultan Kudarat]]
+</noinclude>
