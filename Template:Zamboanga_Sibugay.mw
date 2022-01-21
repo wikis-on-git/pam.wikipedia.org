@@ -1,8 +1,21 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Balen]] ning [[Zamboanga Sibugay|Zamboanga Sibugay]]'''
-|-
-|style="padding:0px 5px"; align="center"| [[Alicia, Zamboanga Sibugay|Alicia]] | [[Buug, Zamboanga Sibugay|Buug]] | [[Diplahan, Zamboanga Sibugay|Diplahan]] | [[Imelda, Zamboanga Sibugay|Imelda]] | [[Ipil, Zamboanga Sibugay|Ipil]] | [[Kabasalan, Zamboanga Sibugay|Kabasalan]] | [[Mabuhay, Zamboanga Sibugay|Mabuhay]] | [[Malangas, Zamboanga Sibugay|Malangas]] | [[Naga, Zamboanga Sibugay|Naga]] | [[Olutanga, Zamboanga Sibugay|Olutanga]] | [[Payao, Zamboanga Sibugay|Payao]] | [[Roseller Lim, Zamboanga Sibugay|Roseller Lim]] | [[Siay, Zamboanga Sibugay|Siay]] | [[Talusan, Zamboanga Sibugay|Talusan]] | [[Titay, Zamboanga Sibugay|Titay]] | [[Tungawan, Zamboanga Sibugay|Tungawan]] 
-|}
-</div>
+{{Navbox
+|name = Zamboanga Sibugay
+|title = {{flagicon image|Zamboanga_Sibugay_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13902}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13902|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q131797}} <!-- Alicia -->  ▪  {{wikidata|label|linked|Q131811}} <!-- Buug -->  ▪  {{wikidata|label|linked|Q131816}} <!-- Diplahan -->  ▪  {{wikidata|label|linked|Q131838}} <!-- Imelda -->  ▪  {{wikidata|label|linked|Q131850}} <!-- Ipil -->  ▪  {{wikidata|label|linked|Q131870}} <!-- Kabasalan -->  ▪  {{wikidata|label|linked|Q131892}} <!-- Mabuhay -->  ▪  {{wikidata|label|linked|Q131906}} <!-- Malangas -->  ▪  {{wikidata|label|linked|Q131917}} <!-- Naga -->  ▪  {{wikidata|label|linked|Q131926}} <!-- Olutanga -->  ▪  {{wikidata|label|linked|Q131941}} <!-- Payao -->  ▪  {{wikidata|label|linked|Q131954}} <!-- Roseller Lim -->  ▪  {{wikidata|label|linked|Q124780}} <!-- Siay -->  ▪  {{wikidata|label|linked|Q131968}} <!-- Talusan -->  ▪  {{wikidata|label|linked|Q131975}} <!-- Titay -->
+ ▪  {{wikidata|label|linked|Q131984}} <!-- Tungawan -->
+|group2 = [[Lakanbalen]]
+|list2 =
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Abra‎]]
+</noinclude>
