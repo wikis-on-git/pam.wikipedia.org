@@ -1,12 +1,21 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Zamboanga del Norte|Zamboanga del Norte]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Dapitan Lakanbalen]] | [[Dipolog Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Bacungan, Zamboanga del Norte|Bacungan]] | [[Baliguian, Zamboanga del Norte|Baliguian]] | [[Godod, Zamboanga del Norte|Godod]] | [[Gutalac, Zamboanga del Norte|Gutalac]] | [[Jose Dalman, Zamboanga del Norte|Jose Dalman]] | [[Kalawit, Zamboanga del Norte|Kalawit]] | [[Katipunan, Zamboanga del Norte|Katipunan]] | [[La Libertad, Zamboanga del Norte|La Libertad]] | [[Labason, Zamboanga del Norte|Labason]] | [[Liloy, Zamboanga del Norte|Liloy]] | [[Manukan, Zamboanga del Norte|Manukan]] | [[Mutia, Zamboanga del Norte|Mutia]] | [[Piñan, Zamboanga del Norte|Piñan]] | [[Polanco, Zamboanga del Norte|Polanco]] | [[Pres. Manuel A. Roxas, Zamboanga del Norte|Pres. Manuel A. Roxas]] | [[Rizal, Zamboanga del Norte|Rizal]] | [[Salug, Zamboanga del Norte|Salug]] | [[Sergio Osmeña Sr., Zamboanga del Norte|Sergio Osmeña Sr.]] | [[Siayan, Zamboanga del Norte|Siayan]] | [[Sibuco, Zamboanga del Norte|Sibuco]] | [[Sibutad, Zamboanga del Norte|Sibutad]] | [[Sindangan, Zamboanga del Norte|Sindangan]] | [[Siocon, Zamboanga del Norte|Siocon]] | [[Sirawai, Zamboanga del Norte|Sirawai]] | [[Tampilisan, Zamboanga del Norte|Tampilisan]] 
-|}
-</div>
+{{Navbox
+|name = Zamboanga del Norte
+|title = {{flagicon image|Zamboanga_del_Norte_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13899}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13899|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q132482}} <!-- Baliguian -->  ▪  {{wikidata|label|linked|Q132496}} <!-- Godod -->  ▪  {{wikidata|label|linked|Q132507}} <!-- Gutalac -->  ▪  {{wikidata|label|linked|Q132520}} <!-- Jose Dalman -->  ▪  {{wikidata|label|linked|Q132523}} <!-- Kalawit -->
+ ▪  {{wikidata|label|linked|Q132527}} <!-- Katipunan -->  ▪  {{wikidata|label|linked|Q132532}} <!-- La Libertad -->  ▪  {{wikidata|label|linked|Q132535}} <!-- Labason -->  ▪  {{wikidata|label|linked|Q132540}} <!-- Leon B. Postigo -->  ▪  {{wikidata|label|linked|Q132553}} <!-- Liloy -->  ▪  {{wikidata|label|linked|Q132561}} <!-- Manukan -->  ▪  {{wikidata|label|linked|Q132566}} <!-- Mutia -->  ▪  {{wikidata|label|linked|Q132570}} <!-- Piñan -->  ▪  {{wikidata|label|linked|Q132574}} <!-- Polanco -->  ▪  {{wikidata|label|linked|Q132578}} <!-- President Manuel A. Roxas -->  ▪  {{wikidata|label|linked|Q132583}} <!-- Rizal -->  ▪  {{wikidata|label|linked|Q132586}} <!-- Salug -->  ▪  {{wikidata|label|linked|Q132591}} <!-- Sergio Osmeña Sr. -->  ▪  {{wikidata|label|linked|Q132594}} <!-- Siayan -->  ▪  {{wikidata|label|linked|Q132599}} <!-- Sibuco -->  ▪  {{wikidata|label|linked|Q132601}} <!-- Sibutad -->  ▪  {{wikidata|label|linked|Q132605}} <!-- Sindangan -->  ▪  {{wikidata|label|linked|Q132610}} <!-- Siocon -->  ▪  {{wikidata|label|linked|Q132613}} <!-- Sirawai -->  ▪  {{wikidata|label|linked|Q132617}} <!-- Tampilisan --> 
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q1014775}} <!--Dapitan -->  ▪  {{wikidata|label|linked|Q432169}} <!--Dipolog -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Zamboanga del Norte‎]]
+</noinclude>
