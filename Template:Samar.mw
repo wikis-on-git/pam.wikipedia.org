@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| class="toccolours" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Samar|Samar]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Calbayog Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Almagro, Samar|Almagro]] | [[Basey, Samar|Basey]] | [[Calbiga, Samar|Calbiga]] | [[Catbalogan, Samar|Catbalogan]] | [[Daram, Samar|Daram]] | [[Gandara, Samar|Gandara]] | [[Hinabangan, Samar|Hinabangan]] | [[Jiabong, Samar|Jiabong]] | [[Marabut, Samar|Marabut]] | [[Matuguinao, Samar|Matuguinao]] | [[Motiong, Samar|Motiong]] | [[Pagsanghan, Samar|Pagsanghan]] | [[Paranas, Samar|Paranas]] | [[Pinabacdao, Samar|Pinabacdao]] | [[San Jorge, Samar|San Jorge]] | [[San Jose De Buan, Samar|San Jose De Buan]] | [[San Sebastian, Samar|San Sebastian]] | [[Santa Margarita, Samar|Santa Margarita]] | [[Santa Rita, Samar|Santa Rita]] | [[Santo Niño, Samar|Santo Niño]] | [[Tagapul-an, Samar|Tagapul-an]] | [[Talalora, Samar|Talalora]] | [[Tarangnan, Samar|Tarangnan]] | [[Villareal, Samar|Villareal]] | [[Zumarraga, Samar|Zumarraga]] 
-|}
-</div>
+{{Navbox
+|name = Samar
+|title = {{flagicon image|Flag of Samar.gif}} Lalawigan ning {{wikidata|label|linked|Q13876}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13876|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q816088}} <!-- Almagro -->  ▪  {{wikidata|label|linked|Q809957}} <!-- Basey -->  ▪  {{wikidata|label|linked|Q816128}} <!-- Calbiga -->  ▪  {{wikidata|label|linked|Q816142}} <!-- Daram -->  ▪  {{wikidata|label|linked|Q816160}} <!-- Gandara -->  ▪  {{wikidata|label|linked|Q816184}} <!-- Hinabangan -->  ▪  {{wikidata|label|linked|Q816207}} <!-- Jiabong -->  ▪  {{wikidata|label|linked|Q816240}} <!-- Marabut -->  ▪  {{wikidata|label|linked|Q816267}} <!-- Matuguinao -->  ▪  {{wikidata|label|linked|Q816296}} <!-- Motiong -->  ▪  {{wikidata|label|linked|Q816320}} <!-- Pagsanghan -->  ▪  {{wikidata|label|linked|Q816342}} <!-- Paranas -->  ▪  {{wikidata|label|linked|Q252184}} <!-- Pinabacdao -->  ▪  {{wikidata|label|linked|Q816396}} <!-- San Jorge -->  ▪  {{wikidata|label|linked|Q816413}} <!-- San Jose de Buan -->  ▪  {{wikidata|label|linked|Q816435}} <!-- San Sebastian -->  ▪  {{wikidata|label|linked|Q816454}} <!-- Santa Margarita -->  ▪  {{wikidata|label|linked|Q816471}} <!-- Santa Rita -->  ▪  {{wikidata|label|linked|Q608320}} <!-- Santo Niño -->  ▪  {{wikidata|label|linked|Q126346}} <!-- Tagapul-an -->  ▪  {{wikidata|label|linked|Q816519}} <!-- Talalora -->  ▪  {{wikidata|label|linked|Q816542}} <!-- Tarangnan -->  ▪  {{wikidata|label|linked|Q816564}} <!-- Villareal -->  ▪  {{wikidata|label|linked|Q229664}} <!-- Zumarraga --> 
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q577336}} <!--Calbayog -->  ▪  {{wikidata|label|linked|Q1020709}} <!--Catbalogan -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Samar‎]]
+</noinclude>
