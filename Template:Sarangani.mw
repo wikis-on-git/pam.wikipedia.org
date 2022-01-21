@@ -1,8 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Balen]]  ning [[Sarangani]]'''
-|-
-|style="padding:0px 5px" | [[Alabel, Sarangani|Alabel]] | [[Glan, Sarangani|Glan]] | [[Kiamba, Sarangani|Kiamba]] | [[Maasim, Sarangani|Maasim]] | [[Maitum, Sarangani|Maitum]] | [[Malapatan, Sarangani|Malapatan]] | [[Malungon, Sarangani|Malungon]]
-|}
-</div>
+{{Navbox
+|name = Sarangani
+|title = {{flagicon image|Flag_of_the_Sarangani.png}} Lalawigan ning {{wikidata|label|linked|Q13877}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13877|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q174393}} <!-- Alabel -->  ▪  {{wikidata|label|linked|Q174403}} <!-- Glan -->  ▪  {{wikidata|label|linked|Q174417}} <!-- Kiamba -->  ▪  {{wikidata|label|linked|Q174429}} <!-- Maasim -->  ▪  {{wikidata|label|linked|Q174442}} <!-- Maitum -->  ▪  {{wikidata|label|linked|Q174457}} <!-- Malapatan -->  ▪  {{wikidata|label|linked|Q174468}} <!-- Malungon -->
+|group2 = [[Lakanbalen]]
+|list2 =
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Sarangani‎]]
+</noinclude>
