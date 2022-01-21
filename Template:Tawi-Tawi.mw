@@ -1,8 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Balen]]  ning [[Tawi-Tawi|Tawi-Tawi]]'''
-|-
-|style="padding:0px 5px"; align="center"| [[Bongao, Tawi-Tawi|Bongao]] | [[Languyan, Tawi-Tawi|Languyan]] | [[Mapun, Tawi-Tawi|Mapun]] | [[Panglima Sugala, Tawi-Tawi|Panglima Sugala]] | [[Sapa-Sapa, Tawi-Tawi|Sapa-Sapa]] | [[Sibutu, Tawi-Tawi|Sibutu]] | [[Simunul, Tawi-Tawi|Simunul]] | [[Sitangkai, Tawi-Tawi|Sitangkai]] | [[South Ubian, Tawi-Tawi|South Ubian]] | [[Tandubas, Tawi-Tawi|Tandubas]] | [[Turtle Islands, Tawi-Tawi|Turtle Islands]] 
-|}
-</div>
+{{Navbox
+|name = Tawi-Tawi
+|title = {{flagicon image|Tawi-Tawi_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13893}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13893|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q155195}} <!-- Bongao -->  ▪  {{wikidata|label|linked|Q155221}} <!-- Languyan -->  ▪  {{wikidata|label|linked|Q155241}} <!-- Mapun -->  ▪  {{wikidata|label|linked|Q155259}} <!-- Panglima Sugala -->  ▪  {{wikidata|label|linked|Q155274}} <!-- Sapa-Sapa -->  ▪  {{wikidata|label|linked|Q155288}} <!-- Sibutu -->  ▪  {{wikidata|label|linked|Q155318}} <!-- Simunul -->  ▪  {{wikidata|label|linked|Q155334}} <!-- Sitangkai -->  ▪  {{wikidata|label|linked|Q155355}} <!-- South Ubian -->  ▪  {{wikidata|label|linked|Q155377}} <!-- Tandubas -->  ▪  {{wikidata|label|linked|Q155396}} <!-- Turtle Islands -->
+|group2 = [[Lakanbalen]]
+|list2 =
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Tawi-Tawi‎]]
+</noinclude>
