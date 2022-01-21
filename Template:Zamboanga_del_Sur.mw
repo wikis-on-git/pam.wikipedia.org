@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Zamboanga del Sur|Zamboanga del Sur]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Pagadian Lakanbalen]]
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Aurora, Zamboanga del Sur|Aurora]] | [[Bayog, Zamboanga del Sur|Bayog]] | [[Dimataling, Zamboanga del Sur|Dimataling]] | [[Dinas, Zamboanga del Sur|Dinas]] | [[Dumalinao, Zamboanga del Sur|Dumalinao]] | [[Dumingag, Zamboanga del Sur|Dumingag]] | [[Guipos, Zamboanga del Sur|Guipos]] | [[Josefina, Zamboanga del Sur|Josefina]] | [[Kumalarang, Zamboanga del Sur|Kumalarang]] | [[Labangan, Zamboanga del Sur|Labangan]] | [[Lakewood, Zamboanga del Sur|Lakewood]] | [[Lapuyan, Zamboanga del Sur|Lapuyan]] | [[Mahayag, Zamboanga del Sur|Mahayag]] | [[Margosatubig, Zamboanga del Sur|Margosatubig]] | [[Midsalip, Zamboanga del Sur|Midsalip]] | [[Molave, Zamboanga del Sur|Molave]] | [[Pitogo, Zamboanga del Sur|Pitogo]] | [[Ramon Magsaysay, Zamboanga del Sur|Ramon Magsaysay]] |  | [[San Miguel, Zamboanga del Sur|San Miguel]] | [[San Pablo, Zamboanga del Sur|San Pablo]] | [[Sominot, Zamboanga del Sur|Sominot]] | [[Tabina, Zamboanga del Sur|Tabina]] | [[Tambulig, Zamboanga del Sur|Tambulig]] | [[Tigbao, Zamboanga del Sur|Tigbao]] | [[Tukuran, Zamboanga del Sur|Tukuran]] | [[Vincenzo A. Sagun, Zamboanga del Sur|Vincenzo A. Sagun]]
-|}
-</div>
+{{Navbox
+|name = Zamboanga del Sur
+|title = {{flagicon image|Zamboanga del Sur gov. Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13900}} 
+|state = {{{state|autocollapse}}}
+|above =  '''{{wikidata|property|linked|Q13900|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q132015}} <!-- Aurora -->  ▪  {{wikidata|label|linked|Q132032}} <!-- Bayog -->  ▪  {{wikidata|label|linked|Q132057}} <!-- Dimataling -->  ▪  {{wikidata|label|linked|Q132077}} <!-- Dinas -->  ▪  {{wikidata|label|linked|Q132104}} <!-- Dumalinao -->  ▪  {{wikidata|label|linked|Q132126}} <!-- Dumingag -->  ▪  {{wikidata|label|linked|Q132141}} <!-- Guipos -->  ▪  {{wikidata|label|linked|Q132155}} <!-- Josefina -->  ▪  {{wikidata|label|linked|Q132161}} <!-- Kumalarang -->  ▪  {{wikidata|label|linked|Q132184}} <!-- Labangan -->  ▪  {{wikidata|label|linked|Q132200}} <!-- Lakewood -->  ▪  {{wikidata|label|linked|Q132215}} <!-- Lapuyan -->  ▪  {{wikidata|label|linked|Q132230}} <!-- Mahayag -->  ▪  {{wikidata|label|linked|Q132244}} <!-- Margosatubig -->  ▪  {{wikidata|label|linked|Q132262}} <!-- Midsalip -->  ▪  {{wikidata|label|linked|Q132271}} <!-- Molave -->  ▪  {{wikidata|label|linked|Q132284}} <!-- Pitogo -->  ▪  {{wikidata|label|linked|Q132301}} <!-- Ramon Magsaysay -->  ▪  {{wikidata|label|linked|Q132317}} <!-- San Miguel -->  ▪  {{wikidata|label|linked|Q132337}} <!-- San Pablo -->  ▪  {{wikidata|label|linked|Q132353}} <!-- Sominot -->  ▪  {{wikidata|label|linked|Q132371}} <!-- Tabina -->  ▪  {{wikidata|label|linked|Q132391}} <!-- Tambulig -->  ▪  {{wikidata|label|linked|Q132403}} <!-- Tigbao -->  ▪  {{wikidata|label|linked|Q132417}} <!-- Tukuran -->  ▪  {{wikidata|label|linked|Q132432}} <!-- Vincenzo A. Sagun -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q874270}} <!--Pagadian -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4 =   {{wikidata|label|linked|Q1629}} <!--Zamboanga City--> 
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Zamboanga del Sur‎]]
+</noinclude>
