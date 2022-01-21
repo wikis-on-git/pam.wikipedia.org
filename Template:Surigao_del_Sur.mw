@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Balen]] at [[Ding Lakanbalen ning Filipinas|Lakanbalen]] ning [[Surigao del Sur|Surigao del Sur]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Bislig Lakanbalen]] | [[Tandag Lakanbalen]]
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Barobo, Surigao del Sur|Barobo]] | [[Bayabas, Surigao del Sur|Bayabas]] | [[Cagwait, Surigao del Sur|Cagwait]] | [[Cantilan, Surigao del Sur|Cantilan]] | [[Carmen, Surigao del Sur|Carmen]] | [[Carrascal, Surigao del Sur|Carrascal]] | [[Cortes, Surigao del Sur|Cortes]] | [[Hinatuan, Surigao del Sur|Hinatuan]] | [[Lanuza, Surigao del Sur|Lanuza]] | [[Lianga, Surigao del Sur|Lianga]] | [[Lingig, Surigao del Sur|Lingig]] | [[Madrid, Surigao del Sur|Madrid]] | [[Marihatag, Surigao del Sur|Marihatag]] | [[San Agustin, Surigao del Sur|San Agustin]] | [[San Miguel, Surigao del Sur|San Miguel]] | [[Tagbina, Surigao del Sur|Tagbina]] | [[Tago, Surigao del Sur|Tago]]  
-|}
-</div>
+{{Navbox
+|name = Surigao del Sur
+|title = {{flagicon image|Surigao_del_Sur_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13891}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13891|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q155471}} <!-- Barobo -->  ▪  {{wikidata|label|linked|Q155499}} <!-- Bayabas -->  ▪  {{wikidata|label|linked|Q155524}} <!-- Cagwait -->  ▪  {{wikidata|label|linked|Q155536}} <!-- Cantilan -->  ▪  {{wikidata|label|linked|Q155548}} <!-- Carmen -->  ▪  {{wikidata|label|linked|Q155558}} <!-- Carrascal -->  ▪  {{wikidata|label|linked|Q155568}} <!-- Cortes -->  ▪  {{wikidata|label|linked|Q155576}} <!-- Hinatuan -->  ▪  {{wikidata|label|linked|Q155582}} <!-- Lanuza -->  ▪  {{wikidata|label|linked|Q155590}} <!-- Lianga -->  ▪  {{wikidata|label|linked|Q155598}} <!-- Lingig -->  ▪  {{wikidata|label|linked|Q155605}} <!-- Madrid -->  ▪  {{wikidata|label|linked|Q155611}} <!-- Marihatag -->  ▪  {{wikidata|label|linked|Q155618}} <!-- San Agustin -->  ▪  {{wikidata|label|linked|Q155625}} <!-- San Miguel -->  ▪  {{wikidata|label|linked|Q155633}} <!-- Tagbina -->  ▪  {{wikidata|label|linked|Q155648}} <!-- Tago -->
+|group2 = [[Lakanbalen]]
+|list2 =  {{wikidata|label|linked|Q866414}} <!--Bislig -->  ▪  {{wikidata|label|linked|Q155674}} <!--Tandag -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Abra‎]]
+</noinclude>
