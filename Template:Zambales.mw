@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Ding Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Zambales|Zambales]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Olongapo Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Botolan, Zambales|Botolan]] | [[Cabangan, Zambales|Cabangan]] | [[Candelaria, Zambales|Candelaria]] | [[Castillejos, Zambales|Castillejos]] | [[Iba, Zambales|Iba]] | [[Masinloc, Zambales|Masinloc]] | [[Palauig, Zambales|Palauig]] | [[San Antonio, Zambales|San Antonio]] | [[San Felipe, Zambales|San Felipe]] | [[San Marcelino, Zambales|San Marcelino]] | [[San Narciso, Zambales|San Narciso]] | [[Santa Cruz, Zambales|Santa Cruz]] | [[Subic, Zambales|Subic]] 
-|}
-</div>
+{{Navbox
+|name = Zambales
+|title = {{flagicon image|Zambales_Flag.png}} Lalawigan ning  {{wikidata|label|linked|Q13895}}
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13895|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q56529}} <!-- Botolan -->  ▪  {{wikidata|label|linked|Q56533}} <!-- Cabangan -->  ▪  {{wikidata|label|linked|Q56538}} <!-- Candelaria -->  ▪  {{wikidata|label|linked|Q56561}} <!-- Castillejos -->  ▪  {{wikidata|label|linked|Q56566}} <!-- Iba -->  ▪  {{wikidata|label|linked|Q56572}} <!-- Masinloc -->  ▪  {{wikidata|label|linked|Q56575}} <!-- Palauig -->  ▪  {{wikidata|label|linked|Q56581}} <!-- San Antonio -->  ▪  {{wikidata|label|linked|Q56584}} <!-- San Felipe -->  ▪  {{wikidata|label|linked|Q56623}} <!-- San Marcelino -->  ▪  {{wikidata|label|linked|Q56647}} <!-- San Narciso -->  ▪  {{wikidata|label|linked|Q56656}} <!-- Santa Cruz -->  ▪  {{wikidata|label|linked|Q56663}} <!-- Subic -->
+|group2 = [[Lakanbalen]]
+|list2 =
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4 =  {{wikidata|label|linked|Q56759}} <!--Olongapo--> 
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Zambales‎]]
+</noinclude>
