@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Lakanbalen ning Filipinas|Lakanbalen]] at [[Ding Balen ning Filipinas|Balen]] ning [[Sorsogon|Sorsogon]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Sorsogon Lakanbalen|Sorsogon]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Barcelona, Sorsogon|Barcelona]] | [[Bulan, Sorsogon|Bulan]] | [[Bulusan, Sorsogon|Bulusan]] | [[Casiguran, Sorsogon|Casiguran]] | [[Castilla, Sorsogon|Castilla]] | [[Donsol, Sorsogon|Donsol]] | [[Gubat, Sorsogon|Gubat]] | [[Irosin, Sorsogon|Irosin]] | [[Juban, Sorsogon|Juban]] | [[Magallanes, Sorsogon|Magallanes]] | [[Matnog, Sorsogon|Matnog]] | [[Pilar, Sorsogon|Pilar]] | [[Prieto Diaz, Sorsogon|Prieto Diaz]] | [[Santa Magdalena, Sorsogon|Santa Magdalena]] 
-|}
-</div>
+{{Navbox
+|name = Sorsogon
+|title =  {{flagicon image|PH-SOR_Flag_2.png}} Lalawigan ning {{wikidata|label|linked|Q13881}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13881|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q174114}} <!-- Barcelona -->  ▪  {{wikidata|label|linked|Q174132}} <!-- Bulan -->  ▪  {{wikidata|label|linked|Q174149}} <!-- Bulusan -->  ▪  {{wikidata|label|linked|Q174162}} <!-- Casiguran -->  ▪  {{wikidata|label|linked|Q174177}} <!-- Castilla -->  ▪  {{wikidata|label|linked|Q174192}} <!-- Donsol -->  ▪  {{wikidata|label|linked|Q174201}} <!-- Gubat -->  ▪  {{wikidata|label|linked|Q174215}} <!-- Irosin -->  ▪  {{wikidata|label|linked|Q174226}} <!-- Juban -->  ▪  {{wikidata|label|linked|Q174236}} <!-- Magallanes -->  ▪  {{wikidata|label|linked|Q174246}} <!-- Matnog -->  ▪  {{wikidata|label|linked|Q174255}} <!-- Pilar -->  ▪  {{wikidata|label|linked|Q174269}} <!-- Prieto Diaz -->  ▪  {{wikidata|label|linked|Q174281}} <!-- Santa Magdalena -->
+|group2 = [[Lakanbalen]]
+|list2 = {{wikidata|label|linked|Q174096}} <!--Sorsogon City -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Sorsogon‎]]
+</noinclude>
