@@ -1,12 +1,20 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''Deng [[Ding Lakanbalen ning Filipinas|Lakanbalen]] ampong [[Ding Balen ning Filipinas|Balen]] ning [[Tarlac|Tarlac]]'''
-|-
-|style="padding:0px 5px" align="right"|'''Lakanbalen:''' 
-|style="padding:0px 5px" | [[Tarlac Lakanbalen]] 
-|-
-|style="padding:0px 5px" align="right"|'''Balen:''' 
-|style="padding:0px 5px" | [[Anao, Tarlac|Anao]] | [[Bamban, Tarlac|Bamban]] | [[Camiling, Tarlac|Camiling]] | [[Capas, Tarlac|Capas]] | [[Concepcion, Tarlac|Concepcion]] | [[Gerona, Tarlac|Gerona]] | [[La Paz, Tarlac|La Paz]] | [[Mayantoc, Tarlac|Mayantoc]] | [[Moncada, Tarlac|Moncada]] | [[Paniqui, Tarlac|Paniqui]] | [[Pura, Tarlac|Pura]] | [[Ramos, Tarlac|Ramos]] | [[San Clemente, Tarlac|San Clemente]] | [[San Jose, Tarlac|San Jose]] | [[San Manuel, Tarlac|San Manuel]] | [[Santa Ignacia, Tarlac|Santa Ignacia]] | [[Victoria, Tarlac|Victoria]] 
-|}
-</div>
+{{Navbox
+|name = Tarlac
+|title = {{flagicon image|Flag of the Province of Tarlac.svg}} Lalawigan ning {{wikidata|label|linked|Q13892}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13892|P36}}''' (ibu wilayah)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q56414}} <!-- Anao --> ▪  {{wikidata|label|linked|Q56420}} <!-- Bamban -->  ▪  {{wikidata|label|linked|Q56424}} <!-- Camiling -->  ▪  {{wikidata|label|linked|Q56427}} <!-- Capas -->  ▪  {{wikidata|label|linked|Q30934}} <!-- Concepcion -->  ▪  {{wikidata|label|linked|Q56439}} <!-- Gerona -->  ▪  {{wikidata|label|linked|Q28733}} <!-- La Paz -->  ▪  {{wikidata|label|linked|Q56444}} <!-- Mayantoc -->  ▪  {{wikidata|label|linked|Q56453}} <!-- Moncada -->  ▪  {{wikidata|label|linked|Q56457}} <!-- Paniqui -->  ▪  {{wikidata|label|linked|Q56461}} <!-- Pura -->  ▪  {{wikidata|label|linked|Q56465}} <!-- Ramos -->  ▪  {{wikidata|label|linked|Q56471}} <!-- San Clemente -->  ▪  {{wikidata|label|linked|Q56476}} <!-- San Jose -->  ▪  {{wikidata|label|linked|Q56481}} <!-- San Manuel -->  ▪  {{wikidata|label|linked|Q56486}} <!-- Santa Ignacia -->  ▪  {{wikidata|label|linked|Q56493}} <!-- Victoria -->
+|group2 =  [[Lakanbalen]]
+|list2 = {{wikidata|label|linked|Q5285}} <!--Tarlac City -->
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Tarlac]]
+</noinclude>
