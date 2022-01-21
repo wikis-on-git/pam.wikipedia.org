@@ -1,8 +1,21 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Balen]] ning  [[Siquijor|Siquijor]]'''
-|-
-|style="padding:0px 5px"; align="center"| [[Enrique Villanueva, Siquijor|Enrique Villanueva]] | [[Larena, Siquijor|Larena]] | [[Lazi, Siquijor|Lazi]] | [[Maria, Siquijor|Maria]] | [[San Juan, Siquijor|San Juan]] | [[Siquijor, Siquijor|Siquijor]] 
-|}
-</div>
+{{Navbox
+|name = Siquijor
+|title =  {{flagicon image|Siquijor_Flag.png}} Lalawigan ning {{wikidata|label|linked|Q13879}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13879|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q174305}} <!-- Enrique Villanueva -->  ▪  {{wikidata|label|linked|Q174317}} <!-- Larena -->  ▪  {{wikidata|label|linked|Q174332}} <!-- Lazi -->  ▪  {{wikidata|label|linked|Q174343}} <!-- Maria -->  ▪  {{wikidata|label|linked|Q174354}} <!-- San Juan -->
+ ▪  {{wikidata|label|linked|Q174373}} <!-- Siquijor -->
+|group2 = [[Lakanbalen]]
+|list2 =
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Siquijor‎]]
+</noinclude>
