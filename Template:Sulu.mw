@@ -1,8 +1,21 @@
-<div style="text-align: center; clear:both; margin: 1.5em 0em">
-{| id="toc" style="margin: auto; line-height: 1.5; font-size: smaller; text-align: left;"
-|-
-| colspan="2" style="background:#ccccff; font-size: larger;" align="center" | '''[[Ding Balen ning Filipinas|Balen]]  ning [[Sulu |Sulu]]'''
-|-
-|style="padding:0px 5px"; align="center"| [[Banguingui,_Sulu|Banguingui]] | [[Hadji Panglima Tahil, Sulu|Hadji Panglima Tahil]] | [[Indanan, Sulu|Indanan]] | [[Jolo, Sulu|Jolo]] | [[Kalingalan Caluang, Sulu|Kalingalan Caluang]] | [[Lugus, Sulu|Lugus]] | [[Luuk, Sulu|Luuk]] | [[Maimbung, Sulu|Maimbung]] | [[Old Panamao, Sulu|Old Panamao]] | [[Omar, Sulu|Omar]] | [[Pandami, Sulu|Pandami]] | [[Panglima Estino, Sulu|Panglima Estino]] | [[Pangutaran, Sulu|Pangutaran]] | [[Parang, Sulu|Parang]] | [[Pata, Sulu|Pata]] | [[Patikul, Sulu|Patikul]] | [[Siasi, Sulu|Siasi]] | [[Talipao, Sulu|Talipao]] | [[Tapul, Sulu|Tapul]]  
-|}
-</div>
+{{Navbox
+|name = Sulu
+|title = {{flagicon image|Sulu Province Flag.svg}} Lalawigan ning {{wikidata|label|linked|Q13887}} 
+|state = {{{state|autocollapse}}}
+|above = '''{{wikidata|property|linked|Q13887|P36}}''' (kapitolyo)
+|listclass = hlist
+|image = 
+|group1 = [[Balen]]
+|list1 = 
+{{wikidata|label|linked|Q155970}} <!-- Banguingui -->  ▪  {{wikidata|label|linked|Q155983}} <!-- Hadji Panglima Tahil -->  ▪  {{wikidata|label|linked|Q156008}} <!-- Indanan -->  ▪  {{wikidata|label|linked|Q156024}} <!-- Jolo -->  ▪  {{wikidata|label|linked|Q156042}} <!-- Kalingalan Caluang -->  ▪  {{wikidata|label|linked|Q156055}} <!-- Lugus -->  ▪  {{wikidata|label|linked|Q156071}} <!-- Luuk -->  ▪  {{wikidata|label|linked|Q156090}} <!-- Maimbung -->
+ ▪  {{wikidata|label|linked|Q156107}} <!-- Old Panamao -->  ▪  {{wikidata|label|linked|Q156126}} <!-- Omar -->  ▪  {{wikidata|label|linked|Q156159}} <!-- Pandami -->  ▪  {{wikidata|label|linked|Q156180}} <!-- Panglima Estino -->  ▪  {{wikidata|label|linked|Q156195}} <!-- Pangutaran -->  ▪  {{wikidata|label|linked|Q156208}} <!-- Parang -->  ▪  {{wikidata|label|linked|Q156225}} <!-- Pata -->  ▪  {{wikidata|label|linked|Q156244}} <!-- Patikul -->  ▪  {{wikidata|label|linked|Q156263}} <!-- Siasi -->  ▪  {{wikidata|label|linked|Q156285}} <!-- Talipao -->  ▪  {{wikidata|label|linked|Q156302}} <!-- Tapul -->
+|group2 = [[Lakanbalen]]
+|list2 =
+|group3 = [[Ding Lakanbalen ning Filipinas|Independente ning Lakanbalen]]
+|list3 =
+|group4 = [[Ding Lakanbalen ning Filipinas|Maragul Lakanbalen]]
+|list4=
+}}<noinclude>
+{{collapsible option}}
+[[Category:Geografia ning Filipinas|Abra‎]]
+</noinclude>
