@@ -35,7 +35,7 @@
 |colors          = Aluntyan, Maputi, Malutu
 |colours         = Aluntyan, Maputi, Malutu
 |colors          = Aluntyan, Maputi, Malutu
-                   <font color="green">█<font color="white">█<font color="red">█
+                   <span style="color:green;">█</span><span style="color:white;">█</span><span style="color:red;">█</span>
 |mascot          = Hunter
 |fightsong       = All Hail Fair New Era!
 |nickname        = New Era Hunters
