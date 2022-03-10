@@ -3,12 +3,12 @@
 ! colspan="2" | <big class="fn org">{{{official_name|Comune di {{{name}}}}}}</big>
 {{#if:{{{image_skyline|}}}
 |{{!}}-
-{{!}}colspan=2{{!}}[[Image:{{{image_skyline}}}|center|244px|{{{image_caption|Picture of {{{name}}}}}}]]{{#if:{{{image_caption|}}}|<center>{{{image_caption}}}</center>}}}}
+{{!}}colspan=2{{!}}[[Image:{{{image_skyline}}}|center|244px|{{{image_caption|Picture of {{{name}}}}}}]]{{#if:{{{image_caption|}}}|<div class="center">{{{image_caption}}}</div>}}}}
 |-{{#if:{{{img_coa|}}}|{{#if:{{{img_coa_small|}}}|[[Image:{{{img_coa}}}|Coat of arms of {{{city}}}]]|[[Image:{{{img_coa}}}|140x140px|Coat of arms of {{{city}}}]]}}<br/>Balen sagkal armas|}}
 <!-- ###### Locator map (auto-drawn using [[Template:Location map]]) -->
 |-
 {{#if:{{{mapx|}}}|
-{{!}}style="text-align: right; padding-top: 0em; padding-bottom: 0em;" {{!}}<center><div><div style="width:211px; background:transparent">
+{{!}}style="text-align: right; padding-top: 0em; padding-bottom: 0em;" {{!}}<div class="center"><div><div style="width:211px; background:transparent">
 <div style="position:relative; width:211px">[[Image:Regions of Italy.svg|211px]]<br/><div style="position:absolute;z-index:200;
 top:{{#expr:100*(47.3417-{{{mapx}}}) / (47.3417-35.493128) round 1}}%;
 left:{{#expr:100*({{{mapy}}}-6.627159) / (18.519859-6.627159) round 1}}%; height:0; width:0; margin:0; padding:0;">
@@ -17,10 +17,10 @@ left:{{#expr:100*({{{mapy}}}-6.627159) / (18.519859-6.627159) round 1}}%; height
 |right=<div style="font-size:90%; line-height:110%; position:relative; top:-1.5em; left:0.5em; text-align:left; width:6em; z-index:202;">
 |left=<div style="font-size:90%; line-height:110%; position:relative; top:-1.5em; left:-6.5em; width:6em; text-align:right; z-index:202;">
 }}<!--<span style="padding:1px;background:none">{{{native_name}}}</span>-->
-</div></div></div></div><small>Karinan ning {{{name}}} king Italy</small></center>}}
+</div></div></div></div><small>Karinan ning {{{name}}} king Italy</small></div>}}
 |-
 {{#if: {{{map<includeonly>|</includeonly>}}} |
-{{!}} [[Image:{{{map}}}|211px|center|{{{native_name}}}]]<center><small>{{{native_name}}} }}
+{{!}} [[Image:{{{map}}}|211px|center|{{{native_name}}}]]<div class="center"><small>{{{native_name}}}</small></div>}}
 |- class="adr"
 | '''Bangsa'''
 |{{flagicon|Italy}} [[Italy]]
