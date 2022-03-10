@@ -5,7 +5,7 @@ conventional_long_name = Republikang Demokrátiku ning Konggu |
 common_name = RD ning Konggu |
 image_flag = Flag of the Democratic Republic of the Congo.svg |
 image_coat = Armoiries de la République démocratique du Congo - 2006.png |
-national_motto = ''Justice - Paix - Travail''<br />([[French language|French]]: "Justice - Peace - Work")|
+national_motto = ''Justice – Paix – Travail''<br />([[French language|French]]: "Justice – Peace – Work")|
 image_map = LocationDRCongo.png |
 national_anthem = [[Debout Congolais]] |
 official_languages = [[French language|French]] |
@@ -36,7 +36,7 @@ GDP_PPP_per_capita_rank = 189th |
 HDI_year = 2003 |
 HDI = 0.385 |
 HDI_rank = 167th |
-HDI_category = <font color="#E0584E">low</font> |
+HDI_category = <span style="color:#E0584E;">low</span> |
 sovereignty_type = [[Independence]] |
 established_event1 = From [[Belgium]] |
 established_date1=[[June 30]], [[1960]] |
