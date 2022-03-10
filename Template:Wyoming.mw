@@ -1,8 +1,7 @@
-{| class="toccolours" align="center" width=94% style="margin:0.5em 1em; clear:both"
-! [[Image:Flag of Wyoming.svg|100px|Bandera ning Wyoming]]
+{| class="toccolours" align="center" width=94% style="margin:0.5em 1em; clear:both; font-size:small;"
+! [[File:Flag of Wyoming.svg|100px|Bandera ning Wyoming]]
 !style="background:#99DCEF;"|
-<font size=+1>'''[[U.S. state|State]] ning [[Wyoming]]'''</font><br><small>
-[[List of Governors of Wyoming|Governors]]
+<span style="font-size:large;">'''[[U.S. state|State]] ning [[Wyoming]]'''</span><br />[[List of Governors of Wyoming|Governors]]
 |-
 !'''State tungku:''' 
 ||
@@ -13,7 +12,7 @@
 [[Powder River Country]]
 |-
 !'''Peka Syudad:'''
-||<small> 
+| style="font-size:x-small;"|
 [[Buffalo, Wyoming|Buffalo]] |
 [[Casper, Wyoming|Casper]] |
 [[Cheyenne, Wyoming |Cheyenne]] |
@@ -27,7 +26,7 @@
 [[Sheridan, Wyoming|Sheridan]] | 
 |-
 !'''Deng Counties:'''
-||<small> 
+| style="font-size:x-small;"|
 [[Albany County, Wyoming|Albany]] | 
 [[Big Horn County, Wyoming|Big Horn]] | 
 [[Campbell County, Wyoming|Campbell]] | 
