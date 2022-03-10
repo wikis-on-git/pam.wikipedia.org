@@ -8,14 +8,14 @@
 <!-- ###### Locator map (auto-drawn using [[Template:Location map]]) -->
 |-
 {{#if:{{{mapx|}}}|
-{{!}}style="text-align: right; padding-top: 0em; padding-bottom: 0em;" {{!}}<div class="center"><div><div style="width:211px; background:transparent">
+{{!}}style="text-align: right; padding-top: 0em; padding-bottom: 0em;" {{!}}<div class="center"><div style="width:211px; background:transparent">
 <div style="position:relative; width:211px">[[Image:Regions of Italy.svg|211px]]<br/><div style="position:absolute;z-index:200;
 top:{{#expr:100*(47.3417-{{{mapx}}}) / (47.3417-35.493128) round 1}}%;
 left:{{#expr:100*({{{mapy}}}-6.627159) / (18.519859-6.627159) round 1}}%; height:0; width:0; margin:0; padding:0;">
 <div style="position:relative; top:-4px; left:-4px; width:8px; text-align:center; z-index:201">[[Image:Red_pog.svg|8x8px]]</div>
 {{#switch:{{#if:{{{locator_position|}}}|{{{locator_position}}}|right}}
 |right=<div style="font-size:90%; line-height:110%; position:relative; top:-1.5em; left:0.5em; text-align:left; width:6em; z-index:202;">
-|left=<div style="font-size:90%; line-height:110%; position:relative; top:-1.5em; left:-6.5em; width:6em; text-align:right; z-index:202;">
+|left=<div style="font-size:90%; line-height:110%; position:relative; top:-1.5em; left:-6.5em; text-align:right; width:6em; z-index:202;">
 }}<!--<span style="padding:1px;background:none">{{{native_name}}}</span>-->
 </div></div></div></div><small>Karinan ning {{{name}}} king Italy</small></div>}}
 |-
