@@ -31,9 +31,9 @@ GDP_PPP_per_capita_rank = 109th |
 HDI_year = 2003 |
 HDI = 0.697 |
 HDI_rank = 110th |
-HDI_category = <font color="#FFCC00">medium</font> |
+HDI_category = <span style="color:#FFCC00;">medium</span> |
 sovereignty_type = [[Independence]] |
-established_events = - Declared<br /> - Recognised |
+established_events = - Declared<br /> – Recognised |
 established_dates = From [[Netherlands]]<br />[[17 August]] [[1945]]<br />[[27 December]] [[1949]] |
 currency = [[Rupiah]] |
 currency_code = IDR |
