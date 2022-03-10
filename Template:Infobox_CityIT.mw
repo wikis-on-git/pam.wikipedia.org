@@ -1,6 +1,6 @@
 {| class="toccolours" border="1" cellpadding="4" style="float: right; margin: 0 0 1em 1em; width:250px; border-collapse: collapse; font-size: 95%; clear: right"
 |-
-! colspan="2" | <big class="fn org">{{{official_name|Comune di {{{name}}}}}}<big>
+! colspan="2" | <big class="fn org">{{{official_name|Comune di {{{name}}}}}}</big>
 {{#if:{{{image_skyline|}}}
 |{{!}}-
 {{!}}colspan=2{{!}}[[Image:{{{image_skyline}}}|center|244px|{{{image_caption|Picture of {{{name}}}}}}]]{{#if:{{{image_caption|}}}|<center>{{{image_caption}}}</center>}}}}
