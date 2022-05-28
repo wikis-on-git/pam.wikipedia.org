@@ -2,7 +2,7 @@
 {| width="100%" style="border: solid 2px #A3B1BF;|
 |-
 |</noinclude>
-<div style="background-color:#cedff2; border-bottom:0px; border: 1px solid #a3b0bf; text-align:center; font-size:150%; padding:3px; margin:4px;">Searching Wikipedia</div>
+<div style="background-color:#dt31; border-bottom:0px; border: 1px solid #a3b0bf; text-align:center; font-size:150%; padding:3px; margin:4px;">Searching Wikipedia</div>
 <div style="padding-left:2em;padding-right:2em;">
 {{Shortcut|[[WP:S]]<br>[[WP:SEARCH]]}}
 
@@ -16,6 +16,7 @@ This article provides a detailed overview of Wikipedia's [[search]] feature, and
 [[#Browser specific help|3 Browser specific help]]<br />
 [[#See also|4 See also]]
 |}
+
 ==Internal search engines (New)==
 Recently, new ''internal'' search engines were created. These search engines can search Wikipedia articles, meanwhile they are user-friendly and are integrated into Wikipedia for a good experience. They aren't as good as external search engines though.
 
