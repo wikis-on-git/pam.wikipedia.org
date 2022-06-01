@@ -1,22 +1,3 @@
-<noinclude>{{Help contents back}} 
-{| width="100%" style="border: solid 2px #A3B1BF;|
-|-
-|</noinclude>
-<div style="background-color:#dt31; border-bottom:0px; border: 1px solid #a3b0bf; text-align:center; font-size:150%; padding:3px; margin:4px;">Searching Wikipedia</div>
-<div style="padding-left:2em;padding-right:2em;">
-{{Shortcut|[[WP:S]]<br>[[WP:SEARCH]]}}
-
-This article provides a detailed overview of Wikipedia's [[search]] feature, and instructions on using external [[search engine]]s, such as [[#Google|Google]], to find information. For a short introduction to searching Wikipedia, see [[Wikipedia:Look it up|Look it up]].
-
-{| style="background-color:transparent; padding:0px;" 
-| valign="top" style="width:180px; float:left; border:1px solid #aaa; padding:4px 2px 4px 10px;" |
-<span style="padding-left:50px;">'''Contents:'''</span><br />
-[[#Wikipedia search|1 Wikipedia search]]<br />
-[[#External search engines|2 External search engines]]<br />
-[[#Browser specific help|3 Browser specific help]]<br />
-[[#See also|4 See also]]
-|}
-
 ==Internal search engines (New)==
 Recently, new ''internal'' search engines were created. These search engines can search Wikipedia articles, meanwhile they are user-friendly and are integrated into Wikipedia for a good experience. They aren't as good as external search engines though.
 
