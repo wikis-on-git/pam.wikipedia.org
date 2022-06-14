@@ -3,7 +3,7 @@
 |011={{convert|{{{foot|{{{feet|{{{ft|}}}}}}}}}|ft|{{{inch|{{{inches|{{{in|}}}}}}}}}|in|m|abbr={{#switch:{{{abbr}}}|no=off|mos=mos|#default=on}}|lk={{#ifeq:{{{wiki|}}}|yes|on|off}}|{{#if:{{{precision|}}}|{{{precision}}}|2}} }}
 |010={{convert|{{{foot|{{{feet|{{{ft|}}}}}}}}}|ft|0|in|m|abbr={{#switch:{{{abbr}}}|no=off|mos=mos|#default=on}}|lk={{#ifeq:{{{wiki|}}}|yes|on|off}}|{{#if:{{{precision|}}}|{{{precision}}}|2}} }}
 |001={{convert|0|ft|{{{inch|{{{inches|{{{in|}}}}}}}}}|in|m|abbr={{#switch:{{{abbr}}}|no=off|mos=mos|#default=on}}|lk={{#ifeq:{{{wiki|}}}|yes|on|off}}|{{#if:{{{precision|}}}|{{{precision}}}|2}} }}
-|111|110|101=<font color="red">Error: please specify only imperial or only metric units</font>
+|111|110|101=<span style="color:red;">Error: please specify only imperial or only metric units</span>
 |#default=
 }}<noinclude>
 
