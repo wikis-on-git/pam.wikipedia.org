@@ -1,7 +1,7 @@
 {{Navbox
 | name   = Facebook navbox
-| title = [[Facebook|<font color="white">Facebook</font>]]
-| titlestyle = background:#3b5998; color:white  
+| title = [[Facebook|<span style="color:white;">Facebook</span>]]
+| titlestyle = background:#3b5998; color:white
 | groupstyle = background:#3b5998; color:white;
 
 | group1 = Overview
