@@ -90,9 +90,9 @@ Given a country and a political party, this template will give an abbreviation t
 ===Still under construction===
 Most countries are not yet covered.
 
-Do <font color=red>NOT</font> substitute this template at this time, it transludes the entire #switch construction instead of just the link you want.
+Do <span style="color:red;">NOT</span> substitute this template at this time, it transludes the entire #switch construction instead of just the link you want.
 
-When adding entries within the template, list countries in alphabetical order. Give wikilinked and non-wikilinked names, as well as any possible abbreviations (eg. United States, USA). 
+When adding entries within the template, list countries in alphabetical order. Give wikilinked and non-wikilinked names, as well as any possible abbreviations (eg. United States, USA).
 
 Each country contains 2 switch groups: one for acronyms, another for non-acronyms. This second group should always end with the Independent and default options. 
 
