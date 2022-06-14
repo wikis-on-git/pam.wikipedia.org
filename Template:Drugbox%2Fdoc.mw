@@ -317,15 +317,15 @@ or by setting atom counts for each element, in these parameters:
   | N= | Na= | O= | P= | Pt= | S= | Se= | Sr= | Tc= | Zn= | charge=
 
  e.g.   | C=2 | H=6 | O=1
- gives  Formula   [[Carbon|<font color="000000">C</font>]]<sub>2</sub>[[Hydrogen|<font color="4D4D4D">H</font>]]<sub>6</sub>[[Oxygen|<font color="742323">O</font>]]
+ gives  Formula   [[Carbon|<span style="color:#000000;">C</span>]]<sub>2</sub>[[Hydrogen|<span style="color:#4D4D4D;">H</span>]]<sub>6</sub>[[Oxygen|<span style="color:#742323;">O</span>]]
 
-Irrespective of the order of asigning values to the constituent parameters, the formula is displayed with elements in the above order. The charge parameter, if defined, is shown superscripted. 
- 
+Irrespective of the order of asigning values to the constituent parameters, the formula is displayed with elements in the above order. The charge parameter, if defined, is shown superscripted.
+
  e.g.   | C=2 | O=1 | H=6 | charge=+   is identical to next line
         | C=2 | H=6 | O=1 | charge=+
- giving Formula   [[Carbon|<font color="000000">C</font>]]<sub>2</sub>[[Hydrogen|<font color="4D4D4D">H</font>]]<sub>6</sub>[[Oxygen|<font color="742323">O</font>]]<sup>+</sup>
+ giving Formula   [[Carbon|<span style="color:#000000;">C</span>]]<sub>2</sub>[[Hydrogen|<span style="color:#4D4D4D;">H</span>]]<sub>6</sub>[[Oxygen|<span style="color:#742323;">O</span>]]<sup>+</sup>
 
-8) Licensing information - There are two major licensing authorities that make drug information easily accessible: The US [[Food and Drug Administration]] (FDA) and the [[European Medicines Agency]] (EMEA). NB The word "Licence" is the noun in British English, "License" is the verb.
+8) Licensing information – There are two major licensing authorities that make drug information easily accessible: The US [[Food and Drug Administration]] (FDA) and the [[European Medicines Agency]] (EMEA). NB The word "Licence" is the noun in British English, "License" is the verb.
 
 The FDA "Label Information" and the EMEA "Product Information", where available, are very detailed. There is material aimed at the professional and also plain-English consumer information. These are excellent reliable source for article information but also contains much that makes it a worthwhile "External link" since there is no way one can include all the info. Both sites work using of the brand name of the drug but the FDA site also allows searches with the generic name (active ingredient), which lists generic variants where they are licensed. 
 <pre>
