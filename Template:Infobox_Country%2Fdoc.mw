@@ -264,14 +264,14 @@ See [[#Empty syntax]] below for empty syntax (without second map, ''symbol_type'
 |GDP_PPP_per_capita          = $2,176
 |GDP_PPP_per_capita_rank     = 140th
 |GDP_nominal                 = $16.99 billion <!--imf.org-->
-|GDP_nominal_rank            = 83rd 
+|GDP_nominal_rank            = 83rd
 |GDP_nominal_year            = 2005
 |GDP_nominal_per_capita      = $952
 |GDP_nominal_per_capita_rank = 121st
 |HDI                         = 0.497
 |HDI_rank                    = 148th
 |HDI_year                    = 2003
-|HDI_category                = <font color="#e0584e">low</font>
+|HDI_category                = <span style="color:#e0584e;">low</span>
 |currency                    = [[CFA franc]]
 |currency_code               = XAF
 |country_code                = 
@@ -327,14 +327,14 @@ See [[#Empty syntax]] below for empty syntax (without second map, ''symbol_type'
 |GDP_PPP_per_capita          = $2,176
 |GDP_PPP_per_capita_rank     = 140th
 |GDP_nominal                 = $16.99 billion <!--imf.org-->
-|GDP_nominal_rank            = 83rd 
+|GDP_nominal_rank            = 83rd
 |GDP_nominal_year            = 2005
 |GDP_nominal_per_capita      = $952
 |GDP_nominal_per_capita_rank = 121st
 |HDI                         = 0.497
 |HDI_rank                    = 148th
 |HDI_year                    = 2003
-|HDI_category                = <font color="#e0584e">low</font>
+|HDI_category                = <span style="color:#e0584e;">low</span>
 |currency                    = [[CFA franc]]
 |currency_code               = XAF
 |country_code                = 
