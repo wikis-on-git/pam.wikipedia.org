@@ -194,13 +194,13 @@ For questions see the [[Template_talk:Infobox_City|talk]] page.
 |- valign=top
 |'''shield_size''' || optional ||
 |- valign=top
-|'''image_blank_emblem''' || optional ||  Can be used if a place has an official logo, crest, emblem, etc.  Logo is the default type.  See [[Kingston upon Hull]]'s infobox for an example.</br><font color=red>Deprecated name ='''city_logo ''' </font>
+|'''image_blank_emblem''' || optional ||  Can be used if a place has an official logo, crest, emblem, etc.  Logo is the default type.  See [[Kingston upon Hull]]'s infobox for an example.<br /><span style="color:red;">Deprecated name ='''city_logo ''' </span>
 |- valign=top
 |'''blank_emblem_type''' || optional || To specify what type of emblem "image_blank_emblem" is.  The default is Logo.
 |- valign=top
-|'''blank_emblem_size ''' || optional ||<font color=red>Deprecated name ='''citylogo_size ''' </font>
+|'''blank_emblem_size ''' || optional ||<span style="color:red;">Deprecated name ='''citylogo_size ''' </span>
 |- valign=top
-|'''blank_emblem_link ''' || optional ||<font color=red>Deprecated name ='''logo_link ''' </font>
+|'''blank_emblem_link ''' || optional ||<span style="color:red;">Deprecated name ='''logo_link ''' </span>
 |- valign=top
 |'''image_map''' || optional ||
 |- valign=top
@@ -270,8 +270,8 @@ For questions see the [[Template_talk:Infobox_City|talk]] page.
 |- valign=top
 |'''established_date3''' || optional ||
 |-
-| colspan=3 style="background-color: orange;" | 
-====Geographic information====
+| colspan=3 style="background-color: orange;" |
+==== Geographic information ====
 |-
 | colspan=3 | These fields have '''dual automatic unit conversion''' meaning that if only metric values are entered, the imperial values will be automatically converted and vise-versa.  If an editor wishes to over-ride the automatic conversion, e.g. if the source gives both metric and imperial or if a range of values is needed, they can should enter both values in their respective fields.
 |-
@@ -279,33 +279,33 @@ For questions see the [[Template_talk:Infobox_City|talk]] page.
 | style="background-color: whitesmoke;" | '''Usage'''
 | style="background-color: whitesmoke;" | '''Description'''
 |- valign=top
-|'''unit_pref''' || optional ||If the editor would like to change the unit order to imperial (metric) they should enter imperial. The default is metric (imperial). However, template will swap the unit order automatically if the subdivision_name equals same variation of the U.S.</br></br>All values must be entered in a '''raw format, no commas, spaces, or unit symbols'''.  The template will format them automatically.
+|'''unit_pref''' || optional ||If the editor would like to change the unit order to imperial (metric) they should enter imperial. The default is metric (imperial). However, template will swap the unit order automatically if the subdivision_name equals same variation of the U.S.<br /><br />All values must be entered in a '''raw format, no commas, spaces, or unit symbols'''.  The template will format them automatically.
 |- valign=top
-|'''area_footnotes''' || optional ||If a reference(s) is available this where to put them using the <nowiki><ref> </ref></nowiki> tags and possibly the citing format at {{tl|Cite web}} within the ref tags. 
+|'''area_footnotes''' || optional ||If a reference(s) is available this where to put them using the <nowiki><ref> </ref></nowiki> tags and possibly the citing format at {{tl|Cite web}} within the ref tags.
 |- valign=top
 |'''area_magnitude''' || optional || Area magnitude of total_area in terms of m². Should enter 1 E+6 for area of 1.0 km².  See [[1 E+6 m²]]
 |- valign=top
-|'''area_total_km2''' || optional || Total area in square kilometers&mdash;symbol: km², which is wiki-linked. Value must be entered in '''raw format''', no commas or spaces. Auto-converted to display square miles if area_total_sq_mi is empty. </br><font color=red>Deprecated name ='''area_total ''' </font>
+|'''area_total_km2''' || optional || Total area in square kilometers—symbol: km², which is wiki-linked. Value must be entered in '''raw format''', no commas or spaces. Auto-converted to display square miles if area_total_sq_mi is empty. <br /><span style="color:red;">Deprecated name ='''area_total ''' </span>
 |- valign=top
-|'''area_land_km2''' || optional || Land area in square kilometers&mdash;symbol: km². Value must be entered in '''raw format''', no comms or spaces. Auto-converted to display square miles if area_land_sq_mi is empty. </br><font color=red>Deprecated name ='''area_land''' </font>
+|'''area_land_km2''' || optional || Land area in square kilometers—symbol: km². Value must be entered in '''raw format''', no comms or spaces. Auto-converted to display square miles if area_land_sq_mi is empty. <br /><span style="color:red;">Deprecated name ='''area_land''' </span>
 |- valign=top
-|'''area_water_km2''' || optional ||Water area in square kilometers&mdash;symbol: km². Value must be entered in '''raw format''', no comms or spaces. Auto-converted to display square miles if area_water_sq_mi is empty. </br><font color=red>Deprecated name ='''area_water''' </font>
+|'''area_water_km2''' || optional ||Water area in square kilometers—symbol: km². Value must be entered in '''raw format''', no comms or spaces. Auto-converted to display square miles if area_water_sq_mi is empty. <br /><span style="color:red;">Deprecated name ='''area_water''' </span>
 |- valign=top
-|'''area_total_sq_mi''' || optional ||Total area in square miles&mdash;symbol: sq&nbsp;mi, which is wiki-linked. Value must be entered in '''raw format''', no comms or spaces. Auto-converted to display square kilometers if area_total_km2 is empty. </br><font color=red>Deprecated name ='''TotalArea_sq_mi''' </font>
+|'''area_total_sq_mi''' || optional ||Total area in square miles—symbol: sq&nbsp;mi, which is wiki-linked. Value must be entered in '''raw format''', no comms or spaces. Auto-converted to display square kilometers if area_total_km2 is empty. <br /><span style="color:red;">Deprecated name ='''TotalArea_sq_mi''' </span>
 |- valign=top
-|'''area_land_sq_mi ''' || optional ||Land area in square miles&mdash;symbol: sq&nbsp;mi. Value must be entered in '''raw format''', no comms or spaces. Auto-converted to display square kilometers if area_land_km2 is empty. </br><font color=red>Deprecated name ='''LandArea_sq_mi ''' </font>
+|'''area_land_sq_mi ''' || optional ||Land area in square miles—symbol: sq&nbsp;mi. Value must be entered in '''raw format''', no comms or spaces. Auto-converted to display square kilometers if area_land_km2 is empty. <br /><span style="color:red;">Deprecated name ='''LandArea_sq_mi ''' </span>
 |- valign=top
-|'''area_water_sq_mi''' || optional ||Water area in square miles&mdash;symbol: sq&nbsp;mi. Value must be entered in '''raw format''', no comms or spaces. Auto-converted to display square kilometers if area_water_km2 is empty. </br><font color=red>Deprecated name ='''WaterArea_sq_mi ''' </font>
+|'''area_water_sq_mi''' || optional ||Water area in square miles—symbol: sq&nbsp;mi. Value must be entered in '''raw format''', no comms or spaces. Auto-converted to display square kilometers if area_water_km2 is empty. <br /><span style="color:red;">Deprecated name ='''WaterArea_sq_mi ''' </span>
 |- valign=top
 |'''area_water_percent''' || optional || Enter the percent of water without the "%"
 |- valign=top
-|'''area_urban_km2''' || optional || </br><font color=red>Deprecated name ='''area_urban ''' </font>
+|'''area_urban_km2''' || optional || <br /><span style="color:red;">Deprecated name ='''area_urban ''' </span>
 |- valign=top
-|'''area_urban_sq_mi''' || optional ||</br><font color=red>Deprecated name ='''UrbanArea_sq_mi ''' </font>
+|'''area_urban_sq_mi''' || optional ||<br /><span style="color:red;">Deprecated name ='''UrbanArea_sq_mi ''' </span>
 |- valign=top
-|'''area_metro_km2 ''' || optional || </br><font color=red>Deprecated name ='''area_metro ''' </font>
+|'''area_metro_km2 ''' || optional || <br /><span style="color:red;">Deprecated name ='''area_metro ''' </span>
 |- valign=top
-|'''area_metro_sq_mi''' || optional || </br><font color=red>Deprecated name ='''MetroArea_sq_mi ''' </font>
+|'''area_metro_sq_mi''' || optional || <br /><span style="color:red;">Deprecated name ='''MetroArea_sq_mi ''' </span>
 |- valign=top
 |'''area_blank1_title''' || optional || Example see [[London]]
 |- valign=top
@@ -321,9 +321,9 @@ For questions see the [[Template_talk:Infobox_City|talk]] page.
 |- valign=top
 |'''elevation_footnotes''' || optional ||If a reference(s) is available this where to put them using the <nowiki><ref> </ref></nowiki> tags and possibly the citing format at {{tl|Cite web}} within the ref tags.
 |- valign=top
-|'''elevation_m''' || optional ||Raw number entered in meters.  Will automatically convert to display elevation in feet if elevation_ft is empty.  However, if a range in elevation (i.e. 5&ndash;50 m ) is desired, the editor must enter a converted range in the elevation_ft field to over-ride the automatic conversion. </br><font color=red>Deprecated name ='''elevation ''' </font>
+|'''elevation_m''' || optional ||Raw number entered in meters.  Will automatically convert to display elevation in feet if elevation_ft is empty.  However, if a range in elevation (i.e. 5–50&nbsp;m ) is desired, the editor must enter a converted range in the elevation_ft field to over-ride the automatic conversion. <br /><span style="color:red;">Deprecated name ='''elevation ''' </span>
 |- valign=top
-|'''elevation_ft''' || optional ||Raw number, entered in feet.  Will automatically convert to display elevation in meters if '''elevation_m''' field is empty.  However, if a range in elevation (i.e. 50&ndash;500 ft ) is desired, the editor must enter a converted range in the '''elevation_m''' field to over-ride the automatic conversion.
+|'''elevation_ft''' || optional ||Raw number, entered in feet.  Will automatically convert to display elevation in meters if '''elevation_m''' field is empty.  However, if a range in elevation (i.e. 50–500 ft ) is desired, the editor must enter a converted range in the '''elevation_m''' field to over-ride the automatic conversion.
 
 |- valign=top
 |'''latd''' || optional ||Latitude degrees.  Can also be used for decimal degrees.
@@ -358,21 +358,21 @@ For questions see the [[Template_talk:Infobox_City|talk]] page.
 |- valign=top
 |'''population_total''' || optional ||
 |- valign=top
-|'''population_density_km2''' || optional || </br><font color=red>Deprecated name ='''population_density''' </font>
+|'''population_density_km2''' || optional || <br /><span style="color:red;">Deprecated name ='''population_density''' </span>
 |- valign=top
-|'''population_density_sq_mi''' || optional || </br><font color=red>Deprecated name ='''population_density_mi2''' </font>
+|'''population_density_sq_mi''' || optional || <br /><span style="color:red;">Deprecated name ='''population_density_mi2''' </span>
 |- valign=top
 |'''population_metro''' || optional ||
 |- valign=top
 |'''population_density_metro_km2''' || optional ||
 |- valign=top
-|'''population_density_metro_sq_mi''' || optional || </br><font color=red>Deprecated name ='''population_density_metro_mi2''' </font>
+|'''population_density_metro_sq_mi''' || optional || <br /><span style="color:red;">Deprecated name ='''population_density_metro_mi2''' </span>
 |- valign=top
 |'''population_urban ''' || optional ||
 |- valign=top
 |'''population_density_urban_km2''' || optional ||
 |- valign=top
-|'''population_density_urban_sq_mi''' || optional || </br><font color=red>Deprecated name ='''population_density_urban_mi2''' </font>
+|'''population_density_urban_sq_mi''' || optional || <br /><span style="color:red;">Deprecated name ='''population_density_urban_mi2''' </span>
 |- valign=top
 |'''population_blank1_title''' || optional || Can be used for estimates. Example: [[Windsor, Ontario]] 
 |- valign=top
